@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "t-wrecks-irm-addon-set-i-d",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/28274-industrial-revolution-mod-i-d-addon-set-1/?do=download",
+  "lastModified": "2016-10-19T19:57:29Z",
+  "requiredBy": [
+    "t-wrecks:industrial-revolution-mod-addon-set-i-d"
+  ]
+}

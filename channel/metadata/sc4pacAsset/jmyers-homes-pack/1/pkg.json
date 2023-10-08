@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "jmyers-homes-pack",
+  "version": "1",
+  "url": "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=4:sc4d-lex-legacy-jmyers-homes-pack",
+  "lastModified": "2023-07-20T09:39:41Z",
+  "requiredBy": [
+    "jmyers2043:homes-pack"
+  ]
+}

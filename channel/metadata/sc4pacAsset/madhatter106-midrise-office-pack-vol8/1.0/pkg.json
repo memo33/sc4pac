@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "madhatter106-midrise-office-pack-vol8",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31505-midrise-office-pack-volume-8/?do=download",
+  "lastModified": "2021-04-19T23:47:04Z",
+  "requiredBy": [
+    "madhatter106:midrise-office-pack-vol8"
+  ]
+}

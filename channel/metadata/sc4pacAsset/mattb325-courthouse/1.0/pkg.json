@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-courthouse",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/27908-mattb325-courthouse/?do=download",
+  "lastModified": "2012-08-07T04:59:19Z",
+  "requiredBy": [
+    "mattb325:courthouse"
+  ]
+}

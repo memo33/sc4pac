@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "shk-parking-pack",
+  "version": "1.2",
+  "url": "https://community.simtropolis.com/files/file/27563-shk-parking-pack/?do=download",
+  "lastModified": "2013-05-26T19:08:47Z",
+  "requiredBy": [
+    "shk:parking-pack"
+  ]
+}

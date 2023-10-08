@@ -1,0 +1,50 @@
+{
+  "$type": "Package",
+  "group": "diggis",
+  "name": "ponds-collection",
+  "version": "1",
+  "subfolder": "660-parks",
+  "info": {
+    "summary": "Modular ploppable ponds",
+    "description": "This package contains the Shingle and Grass Base ponds lots as well as Ponds Addon Sets 1 and 2.\n",
+    "author": "Diggis",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/14-park/108-sc4d-lex-legacy-bsc-diggis-complete-ponds-and-streams"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "prop-pack-diggis-ponds-1",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "prop-pack-diggis-ponds-2",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "essentials",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "bsc-diggis-complete-ponds-and-streams",
+          "include": [
+            "/Ponds/"
+          ],
+          "exclude": [
+            "/Diggis Pond Shingle Base Models.dat",
+            "/Diggis Ponds Grass Base Models.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diggis/ponds-and-streams.yaml"
+  ]
+}

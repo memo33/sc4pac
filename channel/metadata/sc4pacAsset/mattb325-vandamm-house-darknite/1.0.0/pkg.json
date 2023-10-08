@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-vandamm-house-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33482-vandamm-house/?do=download&r=179981",
+  "lastModified": "2020-02-21T23:27:17Z",
+  "requiredBy": [
+    "mattb325:vandamm-house"
+  ]
+}

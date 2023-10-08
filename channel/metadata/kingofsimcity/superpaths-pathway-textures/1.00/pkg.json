@@ -1,0 +1,39 @@
+{
+  "$type": "Package",
+  "group": "kingofsimcity",
+  "name": "superpaths-pathway-textures",
+  "version": "1.00",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Park pathways overlay textures",
+    "author": "kingofsimcity",
+    "website": "https://community.simtropolis.com/files/file/32066-superpaths-pathway-textures/",
+    "requiredBy": [
+      "kingofsimcity:community-regional-park-pack-vol1",
+      "kingofsimcity:community-regional-park-pack-vol2-baseball-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-community-parks",
+      "kingofsimcity:community-regional-park-pack-vol2-desolate-parks",
+      "kingofsimcity:community-regional-park-pack-vol2-royal-trails",
+      "kingofsimcity:community-regional-park-pack-vol2-soccer-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-softball-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-sports-complexes",
+      "kingofsimcity:community-regional-park-pack-vol2-tennis-parks"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "kingofsimcity-superpaths-pathway-textures",
+          "include": [
+            "/SuperPaths_Vanilla.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "kingofsimcity/superpaths-pathway-textures.yaml"
+  ]
+}

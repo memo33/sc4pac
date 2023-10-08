@@ -1,0 +1,77 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "youtube-headquarters",
+  "version": "1.0.0",
+  "subfolder": "600-civics",
+  "info": {
+    "summary": "YouTube Headquarters",
+    "description": "This is an interpretation of the YouTube Headquarters in San Bruno, California. It sits on a large 12x5 lot, and provides 2,972 civic jobs. This reward drives demand for CO$$, CO$$$, R$$, R$$$, and I-H.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33958-youtube-headquarters/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-youtube-headquarters-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-youtube-headquarters-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/miscellaneous/youtube-headquarters.yaml"
+  ]
+}

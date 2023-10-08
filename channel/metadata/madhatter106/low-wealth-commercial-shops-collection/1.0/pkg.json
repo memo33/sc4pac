@@ -1,0 +1,43 @@
+{
+  "$type": "Package",
+  "group": "madhatter106",
+  "name": "low-wealth-commercial-shops-collection",
+  "version": "1.0",
+  "subfolder": "300-commercial",
+  "info": {
+    "summary": "Full collection of madhatter106's Low Wealth Commercial Shops, Volumes 1-4",
+    "description": "Collection of four sets of low density, low wealth commercial (CS$) shops. Lot sizes are small, mainly 1x1, 1x2, and 1x3. These BATs blend well with Maxis assets and have minimal dependencies.\n",
+    "author": "madhatter106",
+    "website": "https://community.simtropolis.com/profile/207209-madhatter106/content/?type=downloads_file"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "madhatter106",
+          "name": "low-wealth-commercial-shops-vol1",
+          "version": "latest.release"
+        },
+        {
+          "group": "madhatter106",
+          "name": "low-wealth-commercial-shops-vol2",
+          "version": "latest.release"
+        },
+        {
+          "group": "madhatter106",
+          "name": "low-wealth-commercial-shops-vol3",
+          "version": "latest.release"
+        },
+        {
+          "group": "madhatter106",
+          "name": "low-wealth-commercial-shops-vol4",
+          "version": "latest.release"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "madhatter106/low-wealth-commercial-shops.yaml"
+  ]
+}

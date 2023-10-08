@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "renaissance-books-mn",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/27903-renaissance-books/?do=download&r=104786",
+  "lastModified": "2012-08-03T04:00:21Z",
+  "requiredBy": [
+    "nofunk:renaissance-books"
+  ]
+}

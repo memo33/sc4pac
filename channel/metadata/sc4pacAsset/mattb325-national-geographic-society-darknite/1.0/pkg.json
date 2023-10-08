@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-national-geographic-society-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/33016-national-geographic-society-headquarters/?do=download&r=176657",
+  "lastModified": "2019-07-12T01:31:37Z",
+  "requiredBy": [
+    "mattb325:national-geographic-society-hq"
+  ]
+}

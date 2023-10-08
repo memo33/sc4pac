@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-spring-st-soup-kitchen-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33998-spring-st-soup-kitchen-nyc/?do=download&r=184178",
+  "lastModified": "2020-12-19T21:10:34Z",
+  "requiredBy": [
+    "mattb325:spring-st-soup-kitchen"
+  ]
+}

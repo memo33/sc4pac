@@ -1,0 +1,29 @@
+{
+  "$type": "Package",
+  "group": "madhatter106",
+  "name": "medium-wealth-commercial-shops-vol1",
+  "version": "1.0.0",
+  "subfolder": "300-commercial",
+  "info": {
+    "summary": "Twelve CS$$ Maxis-esque commercial shops on 1x1, 1x2 or 1x3 lots.",
+    "description": "These are 1x1 and 1x2 BATs and are mostly on those sized lots (with a few 1x3 sprinkled in). Stats have been modded mostly in keeping with prior uploads, and all are medium wealth stage 1 growable with nightlights and custom queries as well.\n",
+    "author": "madhatter106",
+    "website": "https://community.simtropolis.com/files/file/34338-medium-wealth-commercial-shops-volume-1/",
+    "requiredBy": [
+      "madhatter106:medium-wealth-commercial-shops-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "madhatter106-medium-wealth-commercial-shops-vol1"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "madhatter106/medium-wealth-commercial-shops.yaml"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-art-deco-fire-station-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/34390-art-deco-fire-station/?do=download&r=187426",
+  "lastModified": "2021-04-17T23:47:13Z",
+  "requiredBy": [
+    "mattb325:art-deco-fire-station"
+  ]
+}

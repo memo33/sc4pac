@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "light-replacement-mod-4-mega-pack-maxisnite-patch",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=82668",
+  "lastModified": "2022-02-04T14:31:58Z",
+  "requiredBy": [
+    "mandelsoft:light-replacement-mod-props"
+  ]
+}

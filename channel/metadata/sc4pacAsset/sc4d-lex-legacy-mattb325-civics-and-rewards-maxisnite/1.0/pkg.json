@@ -1,0 +1,11 @@
+{
+  "$type": "Asset",
+  "assetId": "sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite",
+  "version": "1.0",
+  "url": "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=117:sc4d-lex-legacy-mattb325-civics-and-rewards-maxis-nite",
+  "lastModified": "2023-08-17T04:32:31Z",
+  "requiredBy": [
+    "mattb325:benevolent-asylum",
+    "mattb325:bourke-st-public-school"
+  ]
+}

@@ -1,0 +1,189 @@
+html {
+  margin: 0 auto;
+  max-width: 800px;
+  font-family: ui-sans-serif;
+}
+h2 {
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #888;
+}
+a.btn {
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.btn:hover {
+  background-color: #707070;
+  text-decoration: none;
+}
+#pkginfo ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+th {
+  padding-bottom: 0.25em;
+  padding-right: 0.8em;
+}
+td {
+  padding-bottom: 0.25em;
+}
+@media (max-width: 540px) {
+  th, td {
+    display: block;
+  }
+  th {
+    padding-top: 0.5em;
+  }
+}
+td p {
+  margin: 0;
+}
+td p:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+th {
+  vertical-align: text-top;
+  text-align: left;
+}
+table#channelcontents {
+  border-collapse: collapse;
+}
+table#channelcontents tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.codebox {
+  /* border:1px solid #888; */
+  border-radius: 5px;
+  background-color:#333;
+  color: #ccc;
+  /* width:300px; */
+  overflow:auto;
+  overflow-x:auto;
+  padding:10px;
+}
+code.code-left {
+  padding-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+code.code-right {
+  padding-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+code {
+  background-color: #eef;
+  padding: 0 3px;
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+  word-break: break-word;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  padding-bottom: 2px;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: calc(min(360px, 100vw - 40px));
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  /*left: 50%;*/
+  left: 0%;
+  /*margin-left: -200px;*/
+  margin-left: 0px;
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  margin-left: 35px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* navbar from vue.css */
+.app-nav {
+  /* margin: 25px 60px 0 0; */
+  margin: 25px 0 15px 0;
+  /* position: absolute; */
+  right: 0;
+  text-align: right;
+  z-index: 10;
+}
+@media screen and (max-width: 768px)
+.app-nav {
+  margin-top: 16px;
+}
+@media screen and (max-width: 768px)
+.app-nav, .github-corner {
+  transition: transform 250ms ease-out;
+}
+nav {
+  display: block;
+}
+.app-nav ul, .app-nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+}
+.app-nav li {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 5px 0;
+  position: relative;
+  cursor: pointer;
+}
+.app-nav a {
+  color: inherit;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.app-nav a.active {
+  border-bottom: 2px solid #42b983;
+  border-bottom: 2px solid var(--theme-color, #42b983);
+  color: #42b983;
+  color: var(--theme-color, #42b983);
+}
+
+select {
+  margin: 0.5em 1em;
+}
+form {
+  margin-bottom: 0.5em;
+}

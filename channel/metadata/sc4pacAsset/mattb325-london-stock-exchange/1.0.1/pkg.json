@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-london-stock-exchange",
+  "version": "1.0.1",
+  "url": "https://community.simtropolis.com/files/file/32008-london-stock-exchange/?do=download",
+  "lastModified": "2021-01-01T20:54:21Z",
+  "requiredBy": [
+    "mattb325:london-stock-exchange"
+  ]
+}

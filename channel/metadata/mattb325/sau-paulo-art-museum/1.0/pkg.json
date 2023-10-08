@@ -1,0 +1,45 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "sau-paulo-art-museum",
+  "version": "1.0",
+  "subfolder": "620-education",
+  "info": {
+    "summary": "Sao Paulo Art Museum",
+    "description": "This is a recreation of the Museu de Arte de São Paulo on Paulista Avenue. It was built in 1968 and is an eye catching steel, concrete and glass structure which is supported by two red lateral reinforced concrete beams to provide over 70m of free standing, unencumbered space at street level.\nIn game this operates as a large Museum in terms of jobs provided (167), student capacity (27,000) and radius (7,160).  It is found in the education menu.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33035-sao-paulo-art-museum/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "mattb325-sau-paulo-art-museum-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-sau-paulo-art-museum-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/education/sao-paulo-art-museum.yaml"
+  ]
+}

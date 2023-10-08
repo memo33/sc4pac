@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "cycledogg-terrain-mods-sc4e",
+  "version": "1",
+  "url": "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=34:cycledogg-terrain-mods",
+  "lastModified": "2023-07-20T03:15:26Z",
+  "requiredBy": [
+    "cycledogg:missouri-breaks-terrain"
+  ]
+}

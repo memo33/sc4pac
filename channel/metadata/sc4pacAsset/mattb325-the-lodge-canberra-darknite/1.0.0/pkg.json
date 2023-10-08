@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-the-lodge-canberra-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33086-the-lodge-canberra/?do=download&r=177188",
+  "lastModified": "2019-08-16T00:39:43Z",
+  "requiredBy": [
+    "mattb325:the-lodge-canberra"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-city-college-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/33012-city-college/?do=download&r=176634",
+  "lastModified": "2019-07-10T21:55:09Z",
+  "requiredBy": [
+    "mattb325:city-college"
+  ]
+}

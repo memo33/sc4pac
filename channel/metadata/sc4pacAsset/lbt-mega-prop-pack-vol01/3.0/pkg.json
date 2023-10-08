@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "lbt-mega-prop-pack-vol01",
+  "version": "3.0",
+  "url": "https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/?do=download",
+  "lastModified": "2022-06-21T16:09:46Z",
+  "requiredBy": [
+    "lbt:mega-prop-pack-vol01"
+  ]
+}

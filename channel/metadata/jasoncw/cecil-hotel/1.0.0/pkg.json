@@ -1,0 +1,101 @@
+{
+  "$type": "Package",
+  "group": "jasoncw",
+  "name": "cecil-hotel",
+  "version": "1.0.0",
+  "subfolder": "300-commercial",
+  "info": {
+    "summary": "A highrise hotel (CS$) with a reputation",
+    "description": "Cecil hotel was opened in 1924 in Los Angeles.",
+    "author": "Jasoncw",
+    "website": "https://community.simtropolis.com/files/file/35720-cecil-hotel/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard",
+        "CAM": "no"
+      },
+      "assets": [
+        {
+          "assetId": "jasoncw-cecil-hotel-mn",
+          "include": [
+            "/Jasoncw - Cecil Hotel.*.SC4Model",
+            "/Jasoncw - Cecil Hotel - Grow.*.SC4Lot"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "standard",
+        "CAM": "yes"
+      },
+      "assets": [
+        {
+          "assetId": "jasoncw-cecil-hotel-mn",
+          "include": [
+            "/Jasoncw - Cecil Hotel.*.SC4Model"
+          ]
+        },
+        {
+          "assetId": "jasoncw-cecil-hotel-camelot"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark",
+        "CAM": "no"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "jasoncw-cecil-hotel-dn",
+          "include": [
+            "/Jasoncw - Cecil Hotel.*.SC4Model",
+            "/Jasoncw - Cecil Hotel - Grow.*.SC4Lot"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark",
+        "CAM": "yes"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "jasoncw-cecil-hotel-dn",
+          "include": [
+            "/Jasoncw - Cecil Hotel.*.SC4Model"
+          ]
+        },
+        {
+          "assetId": "jasoncw-cecil-hotel-camelot"
+        }
+      ]
+    }
+  ],
+  "variantDescriptions": {
+    "CAM": {
+      "yes": "Choose this if you have installed the Colossus Addon Mod (CAM)."
+    }
+  },
+  "metadataSource": [
+    "jasoncw/cecil-hotel.yaml"
+  ]
+}

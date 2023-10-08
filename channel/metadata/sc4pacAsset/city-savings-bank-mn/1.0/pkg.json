@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "city-savings-bank-mn",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31451-city-savings-bank/?do=download&r=164512",
+  "lastModified": "2017-02-04T01:16:08Z",
+  "requiredBy": [
+    "nofunk:city-savings-bank"
+  ]
+}

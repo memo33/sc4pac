@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "apeek-automata-fix-pack-vol1",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/29394-automata-fix-pack-vol1/?do=download",
+  "lastModified": "2014-04-01T20:13:40Z",
+  "requiredBy": [
+    "fanta1990:automata-fix-pack-vol1"
+  ]
+}

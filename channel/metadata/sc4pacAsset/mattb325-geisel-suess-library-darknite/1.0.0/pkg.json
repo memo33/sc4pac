@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-geisel-suess-library-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33539-geisel-suess-library-san-diego/?do=download&r=180570",
+  "lastModified": "2020-04-10T09:58:19Z",
+  "requiredBy": [
+    "mattb325:geisel-suess-library"
+  ]
+}

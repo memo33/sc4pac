@@ -1,0 +1,11 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-street-planters-and-benches",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33284-street-planters-and-benches/?do=download",
+  "lastModified": "2019-11-16T07:23:08Z",
+  "requiredBy": [
+    "mattb325:street-planters-and-benches",
+    "mattb325:street-planters-and-benches-1x1-plazas"
+  ]
+}

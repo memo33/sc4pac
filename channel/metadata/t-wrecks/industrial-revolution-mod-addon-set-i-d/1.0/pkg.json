@@ -1,0 +1,112 @@
+{
+  "$type": "Package",
+  "group": "t-wrecks",
+  "name": "industrial-revolution-mod-addon-set-i-d",
+  "version": "1.0",
+  "subfolder": "400-industrial",
+  "info": {
+    "summary": "38 growable I-D filler lots to supplement the IRM",
+    "description": "This expansion package for the Industrial Revolution Mod (IRM) contains a set of custom-made lots that can grow as fillers between industrial facilities, mainly tanks/silos and warehouses.\n",
+    "author": "T Wrecks, nos.17",
+    "website": "https://community.simtropolis.com/files/file/28274-industrial-revolution-mod-i-d-addon-set-1/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "CAM": "no",
+        "IRM.industrial-capacity": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "memo",
+          "name": "industrial-revolution-mod",
+          "version": "latest.release"
+        },
+        {
+          "group": "t-wrecks",
+          "name": "maxis-prop-names-and-query-fix",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "t-wrecks-irm-addon-set-i-d",
+          "include": [
+            "\\.SC4Lot$",
+            "/Standard Edition/"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "CAM": "no",
+        "IRM.industrial-capacity": "quadrupled"
+      },
+      "dependencies": [
+        {
+          "group": "memo",
+          "name": "industrial-revolution-mod",
+          "version": "latest.release"
+        },
+        {
+          "group": "t-wrecks",
+          "name": "maxis-prop-names-and-query-fix",
+          "version": "latest.release"
+        },
+        {
+          "group": "toroca",
+          "name": "industry-quadrupler",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "t-wrecks-irm-addon-set-i-d",
+          "include": [
+            "\\.SC4Lot$",
+            "/Quadrupl?er Edition/"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "CAM": "yes"
+      },
+      "dependencies": [
+        {
+          "group": "memo",
+          "name": "industrial-revolution-mod",
+          "version": "latest.release"
+        },
+        {
+          "group": "t-wrecks",
+          "name": "maxis-prop-names-and-query-fix",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "nos-17-irm-expansions-and-addons-cam-ed",
+          "include": [
+            "/IRM I-D Addon Set 1/"
+          ]
+        }
+      ]
+    }
+  ],
+  "variantDescriptions": {
+    "CAM": {
+      "no": "Choose this if you have not installed the Colossus Addon Mod (CAM).",
+      "yes": "Choose this if you have installed the Colossus Addon Mod (CAM)."
+    },
+    "IRM.industrial-capacity": {
+      "standard": "Maxis-default capacity",
+      "quadrupled": "4x capacity, for use with the Industry Quadrupler"
+    }
+  },
+  "metadataSource": [
+    "t-wrecks/industrial-revolution-mod.yaml"
+  ]
+}

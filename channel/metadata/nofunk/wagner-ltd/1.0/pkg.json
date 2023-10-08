@@ -1,0 +1,51 @@
+{
+  "$type": "Package",
+  "group": "nofunk",
+  "name": "wagner-ltd",
+  "version": "1.0",
+  "subfolder": "300-commercial",
+  "info": {
+    "summary": "Small architectural services firm (CS$$)",
+    "description": "Wagner, Ltd., is the premier architectural services firm, from concept, to design, to modding and lotting. They even reticulate splines! From the biggest office tower to the smallest bungalow, Wagner, Ltd. has got you covered for all your architectural needs!\n",
+    "author": "nofunk",
+    "website": "https://community.simtropolis.com/files/file/28405-wagner-ltd/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "wagner-ltd-mn",
+          "exclude": [
+            "PLOP.SC4Lot"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "wagner-ltd-dn",
+          "exclude": [
+            "PLOP.SC4Lot"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "nofunk/wagner-ltd.yaml"
+  ]
+}

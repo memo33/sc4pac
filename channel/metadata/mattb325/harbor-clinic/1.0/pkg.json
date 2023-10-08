@@ -1,0 +1,75 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "harbor-clinic",
+  "version": "1.0",
+  "subfolder": "630-health",
+  "info": {
+    "summary": "Harbor Clinic",
+    "description": "Inspired by a rather imposing mid-century building on Wilshire Blvd, Los Angeles, Harbor Clinic operates as a large hospital in game.\nThis 6-floor building is substantial; its 100 meter street frontage is broken by a large blank entrance wall clad in marble tiles for its full height and makes for a striking streetscape addition in real life.\nAs it sits on a 7x4 lot, this is useful for urban and suburban areas. It has an expanded coverage radius and high patient capacity and provides quite a number of civic jobs in all wealth categories. It has a patient capacity of 12,250.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/28644-harbor-clinic/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-harbor-clinic",
+          "include": [
+            "\\.SC4Lot$",
+            "/Maxisnite/"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-harbor-clinic",
+          "include": [
+            "\\.SC4Lot$",
+            "/Darknite/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/health/harbor-clinic.yaml"
+  ]
+}

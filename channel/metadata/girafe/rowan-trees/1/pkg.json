@@ -1,0 +1,39 @@
+{
+  "$type": "Package",
+  "group": "girafe",
+  "name": "rowan-trees",
+  "version": "1",
+  "subfolder": "180-flora",
+  "info": {
+    "summary": "Rowan trees",
+    "description": "Tree props and mayor-mode ploppables (MMPs). For fitting with other seasonal items, props need to be planted on the 1st of September.\n",
+    "author": "Girafe",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora",
+    "requiredBy": [
+      "t-wrecks:maxis-tree-hd-replacement-mod"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "lowkee33",
+          "name": "seasonal-flora-patch-maxis",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "bsc-vip-girafe-flora-pack",
+          "include": [
+            "/Rowan trees/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "girafe/flora-pack.yaml"
+  ]
+}

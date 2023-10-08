@@ -1,0 +1,31 @@
+{
+  "$type": "Package",
+  "group": "mz",
+  "name": "opera-house-fix",
+  "version": "beta1.1",
+  "subfolder": "150-mods",
+  "info": {
+    "summary": "Fix the capacity of the opera house (Modpacc Zero)",
+    "warning": "If you have previously built opera houses with Toroca's original opera house fix (toroca:opera-house-fix), you should keep Toroca's fix in your plugins as well (but only then). Otherwise, you can ignore this warning.",
+    "conflicts": "This mod is compatible with both the Maxis opera house and Toroca's opera house fix, regardless of load order.",
+    "description": "This mod adds a slider to the opera house query to solve a capacity problem that can have a major impact on city growth.\nThis mod only affects newly built opera houses and leaves pre-existing opera houses untouched.\n",
+    "author": "CorinaMarie, Cyclone Boom, memo",
+    "website": "https://community.simtropolis.com/forums/topic/761020-1st-beta-opera-house-fix-for-modpacc-zero/?do=findComment&comment=1784801",
+    "requiredBy": [
+      "memo:essential-fixes"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "modpacc-zero-opera-house-fixes"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "memo/essential-fixes.yaml"
+  ]
+}

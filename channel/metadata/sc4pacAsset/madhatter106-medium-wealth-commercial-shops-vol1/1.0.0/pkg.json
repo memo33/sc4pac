@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "madhatter106-medium-wealth-commercial-shops-vol1",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/34338-medium-wealth-commercial-shops-volume-1/?do=download",
+  "lastModified": "2021-03-31T22:28:00Z",
+  "requiredBy": [
+    "madhatter106:medium-wealth-commercial-shops-vol1"
+  ]
+}

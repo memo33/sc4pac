@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "simcoug-lots-vol01-of-jmyers-homes-vol01",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/28122-simcoug-lots-vol01-of-jmyers-homes-vol01/?do=download",
+  "lastModified": "2015-07-17T15:34:52Z",
+  "requiredBy": [
+    "simcoug:lots-vol01-jmyers-homes"
+  ]
+}

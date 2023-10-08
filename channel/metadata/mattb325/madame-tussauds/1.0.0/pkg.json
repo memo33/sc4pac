@@ -1,0 +1,45 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "madame-tussauds",
+  "version": "1.0.0",
+  "subfolder": "600-civics",
+  "info": {
+    "summary": "Madame Tussauds, Hollywood",
+    "description": "Madame Tussauds is an entertainment complex on Hollywood Boulevard. This BAT is intended as a more serious alternative to the in-game Tourist Trap reward. The complex has a wax museum, garish LED outdoor screens, a Starbucks Coffee Shop, a Sunglass Hut, etc.\nThe building itself occupies a 4x3 left-hand corner lot that can function in a wall-to-wall (or standalone) environment.\nIn addition to providing 60 lower wealth civic jobs, it will help alleviate the residential demand caps by giving an additional CAP relief of 160,000 R§, 160,000 R§§ and 160,000 R§§§ residents in the tile & region. It also increases commercial desirability for quite a reasonable radius around the building.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33039-madame-tussauds-hollywood/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "mattb325-madame-tussauds-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-madame-tussauds-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/miscellaneous/madame-tussauds.yaml"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "krashspeeds-mailbox-set",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/28412-krashspeeds-mailbox-set/?do=download",
+  "lastModified": "2017-05-06T15:51:20Z",
+  "requiredBy": [
+    "krashspeed:mailbox-set"
+  ]
+}

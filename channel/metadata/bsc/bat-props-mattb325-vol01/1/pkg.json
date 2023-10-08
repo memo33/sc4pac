@@ -1,0 +1,28 @@
+{
+  "$type": "Package",
+  "group": "bsc",
+  "name": "bat-props-mattb325-vol01",
+  "version": "1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "BSC BATProps Mattb325 Vol01",
+    "description": "Obsolete and mostly replaced by bsc:bat-props-mattb325-vol04 with new IDs.",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "sc4d-lex-legacy-bsc-common-dependencies-pack",
+          "include": [
+            "/BSC BATProps Mattb325 Vol01.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "bsc/common-dependencies.yaml"
+  ]
+}

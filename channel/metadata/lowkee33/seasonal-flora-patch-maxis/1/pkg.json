@@ -1,0 +1,68 @@
+{
+  "$type": "Package",
+  "group": "lowkee33",
+  "name": "seasonal-flora-patch-maxis",
+  "version": "1",
+  "subfolder": "050-early-mods",
+  "info": {
+    "summary": "A patch required to make seasonal flora work",
+    "conflicts": "This patch is compatible with the Maxis-default terrain and with terrain mods not including the Flora Tuning Parameters Exemplar (Pyrenean terrain mod and terrain mods coming from the PLEX). All other terrain mods must override this patch with their own seasonal flora patch.",
+    "description": "This patch corrects the Maxis Flora Tuning Parameters Exemplar for the use with seasonal tree controllers.\n",
+    "author": "Lowkee33",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/36-lk33-seasonalflorapatch",
+    "requiredBy": [
+      "blunder:pacific-northwest-tree-controller",
+      "girafe:abies-grandis",
+      "girafe:alders",
+      "girafe:ashes",
+      "girafe:beeches",
+      "girafe:berries",
+      "girafe:birches",
+      "girafe:bushes",
+      "girafe:canary-date-palms",
+      "girafe:cattails",
+      "girafe:chestnuts",
+      "girafe:common-spruces",
+      "girafe:conifers",
+      "girafe:daisy",
+      "girafe:elms",
+      "girafe:feather-grass",
+      "girafe:grand-firs",
+      "girafe:honey-locust",
+      "girafe:larches",
+      "girafe:lindens",
+      "girafe:lupins",
+      "girafe:maples",
+      "girafe:maples-v2",
+      "girafe:narcissus",
+      "girafe:norway-maples",
+      "girafe:oaks",
+      "girafe:poplars",
+      "girafe:poppies",
+      "girafe:rowan-trees",
+      "girafe:serbian-spruces",
+      "girafe:sparaxis",
+      "girafe:subalpine-firs",
+      "girafe:vines",
+      "girafe:walnut-trees",
+      "orange:aesculus",
+      "orange:fagus"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "lowkee33-seasonal-flora-patch",
+          "include": [
+            "^/z_LK_FloraTuningParameters_Seasonal_Maxis_or_Other.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "lowkee33/seasonal-flora-patch.yaml"
+  ]
+}

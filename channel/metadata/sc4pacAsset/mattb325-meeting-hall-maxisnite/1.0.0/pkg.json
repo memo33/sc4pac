@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-meeting-hall-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33938-meeting-hall/?do=download&r=183615",
+  "lastModified": "2020-11-06T21:04:37Z",
+  "requiredBy": [
+    "mattb325:meeting-hall"
+  ]
+}

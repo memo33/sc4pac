@@ -1,0 +1,30 @@
+{
+  "$type": "Package",
+  "group": "bsc",
+  "name": "mega-props-jes-vol02",
+  "version": "2",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "BSC Mega Props - JES Vol02 by jestarr",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack",
+    "requiredBy": [
+      "memo:industrial-revolution-mod"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "sc4d-lex-legacy-bsc-common-dependencies-pack",
+          "include": [
+            "/BSC MEGA Props - JES Vol02 v..dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "bsc/common-dependencies.yaml"
+  ]
+}

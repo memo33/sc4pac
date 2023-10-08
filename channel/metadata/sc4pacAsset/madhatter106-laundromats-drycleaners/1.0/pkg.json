@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "madhatter106-laundromats-drycleaners",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/23756-laundromats-and-drycleaners/?do=download",
+  "lastModified": "2021-04-19T23:28:00Z",
+  "requiredBy": [
+    "madhatter106:laundromats-and-drycleaners"
+  ]
+}

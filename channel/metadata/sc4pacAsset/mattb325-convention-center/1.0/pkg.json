@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-convention-center",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31882-convention-center/?do=download",
+  "lastModified": "2017-07-27T09:56:33Z",
+  "requiredBy": [
+    "mattb325:convention-center"
+  ]
+}

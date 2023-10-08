@@ -1,0 +1,34 @@
+{
+  "$type": "Package",
+  "group": "bsc",
+  "name": "essentials",
+  "version": "2023",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "BSC queries, rewards and other related files",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack",
+    "requiredBy": [
+      "bsc:census-repository",
+      "diggis:ponds-collection",
+      "jmyers2043:homes-pack",
+      "spa:halifax-boxes"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "sc4d-lex-legacy-bsc-common-dependencies-pack",
+          "include": [
+            "/BSC Essentials",
+            "/BSC_Reward_essential.*dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "bsc/common-dependencies.yaml"
+  ]
+}

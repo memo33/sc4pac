@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-james-park-house",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/27960-james-park-house/?do=download",
+  "lastModified": "2012-08-22T08:52:09Z",
+  "requiredBy": [
+    "mattb325:james-park-house"
+  ]
+}

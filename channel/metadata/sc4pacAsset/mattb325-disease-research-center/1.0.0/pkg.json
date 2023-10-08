@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-disease-research-center",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/28014-disease-research-center/?do=download&r=197671",
+  "lastModified": "2023-09-17T02:08:33Z",
+  "requiredBy": [
+    "mattb325:disease-research-center"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "madhatter106-low-wealth-commercial-shops-vol1",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/20901-low-wealth-commercial-shops-volume-1/?do=download",
+  "lastModified": "2008-12-30T02:22:00Z",
+  "requiredBy": [
+    "madhatter106:low-wealth-commercial-shops-vol1"
+  ]
+}

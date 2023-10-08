@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-engineering-dept-diag-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33968-engineering-department-diagonal/?do=download&r=183971",
+  "lastModified": "2020-11-19T22:01:18Z",
+  "requiredBy": [
+    "mattb325:engineering-department-diagonal"
+  ]
+}

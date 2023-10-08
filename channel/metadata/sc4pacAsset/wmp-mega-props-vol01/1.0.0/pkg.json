@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "wmp-mega-props-vol01",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33621-wmp-mega-props-vol-01-misc-general-props/?do=download",
+  "lastModified": "2020-05-25T15:25:45Z",
+  "requiredBy": [
+    "wmp:mega-props-vol01"
+  ]
+}

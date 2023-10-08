@@ -1,0 +1,36 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "street-planters-and-benches-1x1-plazas",
+  "version": "1.0.0",
+  "subfolder": "660-parks",
+  "info": {
+    "summary": "1x1 Park lots using the Street Planters and Benches prop set",
+    "description": "Four very simple lots using differently rotated street planter & bench props. Useful for gap filling in parks or among developed areas.\nPlacing these plazas provides residential cap relief to the value of 1,000 per lot per R-wealth category and raises commercial and residential desirability in the immediate vicinity.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33284-street-planters-and-benches/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "mattb325",
+          "name": "street-planters-and-benches",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-street-planters-and-benches",
+          "include": [
+            "/Lots/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/props/street-planters-and-benches.yaml"
+  ]
+}

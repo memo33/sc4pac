@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "ndex-texture-set-volume-1",
+  "version": "2",
+  "url": "https://community.simtropolis.com/files/file/11617-ndex-texture-set-volume-1/?do=download",
+  "lastModified": "2022-06-20T18:08:34Z",
+  "requiredBy": [
+    "ndex:textures-vol1"
+  ]
+}

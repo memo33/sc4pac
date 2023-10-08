@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-harbor-clinic",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/28644-harbor-clinic/?do=download",
+  "lastModified": "2013-04-14T08:51:39Z",
+  "requiredBy": [
+    "mattb325:harbor-clinic"
+  ]
+}

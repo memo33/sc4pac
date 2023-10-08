@@ -1,0 +1,41 @@
+{
+  "$type": "Package",
+  "group": "bsc",
+  "name": "census-repository",
+  "version": "3.5",
+  "subfolder": "600-civics",
+  "info": {
+    "summary": "Provides detailed stats about city growth",
+    "description": "The Census Repository's query provides detailed information about the city's residential, commercial and industrial supply, demand and CAPs. Additional information shown includes vacant houses, unemployment, commuters, taxes and educational quotient, all important factors when analysing a city's growth. By hovering above any piece of information in the query, you will get more explanations.\nThe Census Repository consists of two lots: the Vault and the Facility.\nThe Census Repository Vault is meant for rural towns and other locations where you want to encourage agricultural growth. It is cheaper to plop and cheaper to run, and employs only 5 over-working clerks.\nThe Census Repository Facility isn't available in every city. You need to have a situation where you must soon provide CAP relief in order to keep your city growing. It needs to be plopped across a busy road in a commercial area. It boosts commercial growth but you don't want to live too close to it. It is more expensive to plop and to run than the Vault, as it employs up to 85 clerks. However, you will get income from sims who love to drive under the glass corridors of this formidable formicarium.\nFor compatibility with all traffic simulators, this package installs the Ultra variant of the Census Repository Facility.\nConsult the Readme file for detailed information.\n",
+    "author": "RippleJet, RalphaelNinja, Callagrafx, Colyn",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "essentials",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "bsc-census-repository-building-by-ripplejet",
+          "include": [
+            "/Census Repository/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "bsc/census-repository.yaml"
+  ]
+}

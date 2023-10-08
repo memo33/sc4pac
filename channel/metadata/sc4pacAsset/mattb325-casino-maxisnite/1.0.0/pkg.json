@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-casino-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33147-casino/?do=download&r=177608",
+  "lastModified": "2019-09-08T03:46:07Z",
+  "requiredBy": [
+    "mattb325:casino"
+  ]
+}

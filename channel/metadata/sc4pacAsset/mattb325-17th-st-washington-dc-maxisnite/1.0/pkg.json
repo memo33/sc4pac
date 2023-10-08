@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-17th-st-washington-dc-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/33088-17th-st-washington-dc/?do=download&r=177198",
+  "lastModified": "2019-08-17T21:50:13Z",
+  "requiredBy": [
+    "mattb325:17th-st-washington-dc"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "kingofsimcity-superpaths-pathway-textures",
+  "version": "1.00",
+  "url": "https://community.simtropolis.com/files/file/32066-superpaths-pathway-textures/?do=download",
+  "lastModified": "2018-01-14T07:59:53Z",
+  "requiredBy": [
+    "kingofsimcity:superpaths-pathway-textures"
+  ]
+}

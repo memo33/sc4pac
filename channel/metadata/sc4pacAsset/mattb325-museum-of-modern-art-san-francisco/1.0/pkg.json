@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-museum-of-modern-art-san-francisco",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31750-museum-of-modern-art-san-francisco/?do=download",
+  "lastModified": "2017-06-09T08:17:43Z",
+  "requiredBy": [
+    "mattb325:museum-of-modern-art-san-francisco"
+  ]
+}

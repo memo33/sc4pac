@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-large-modern-hospital-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/33034-large-modern-hospital/?do=download&r=176788",
+  "lastModified": "2019-07-19T23:20:16Z",
+  "requiredBy": [
+    "mattb325:large-modern-hospital"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "gutterclub-camy-dumpling-house",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/27077-camy-dumpling-house/?do=download",
+  "lastModified": "2011-12-17T22:47:52Z",
+  "requiredBy": [
+    "gutterclub:camy-dumpling-house"
+  ]
+}

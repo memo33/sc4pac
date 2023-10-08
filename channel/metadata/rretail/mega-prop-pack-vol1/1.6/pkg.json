@@ -1,0 +1,25 @@
+{
+  "$type": "Package",
+  "group": "rretail",
+  "name": "mega-prop-pack-vol1",
+  "version": "1.6",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "RR prop pack vol. 1-5",
+    "author": "RRetail",
+    "website": "https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "rr-mega-prop-pack-vol-1"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "rretail/mega-prop-pack.yaml"
+  ]
+}

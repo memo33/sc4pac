@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-union-club-clinic-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/34030-the-union-club-clinic/?do=download&r=184371",
+  "lastModified": "2021-01-04T04:38:27Z",
+  "requiredBy": [
+    "mattb325:union-club-clinic"
+  ]
+}

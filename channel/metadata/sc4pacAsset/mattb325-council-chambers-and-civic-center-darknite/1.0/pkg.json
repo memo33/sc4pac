@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-council-chambers-and-civic-center-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31001-council-chambers-and-civic-center/?do=download&r=161110",
+  "lastModified": "2016-03-20T03:52:36Z",
+  "requiredBy": [
+    "mattb325:council-chambers-and-civic-center"
+  ]
+}

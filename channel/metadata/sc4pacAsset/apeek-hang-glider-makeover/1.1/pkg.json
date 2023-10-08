@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "apeek-hang-glider-makeover",
+  "version": "1.1",
+  "url": "https://community.simtropolis.com/files/file/29344-hang-glider-makeover/?do=download",
+  "lastModified": "2014-03-21T17:54:59Z",
+  "requiredBy": [
+    "fanta1990:hang-glider-makeover"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-spitalfields-house-diagonal-college-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33133-spitalfields-house-diagonal-college/?do=download&r=177475",
+  "lastModified": "2019-09-01T02:12:53Z",
+  "requiredBy": [
+    "mattb325:spitalfields-house-diagonal-college"
+  ]
+}

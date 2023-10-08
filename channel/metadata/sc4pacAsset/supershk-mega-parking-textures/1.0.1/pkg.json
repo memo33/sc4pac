@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "supershk-mega-parking-textures",
+  "version": "1.0.1",
+  "url": "https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=download",
+  "lastModified": "2016-04-01T01:57:31Z",
+  "requiredBy": [
+    "supershk:mega-parking-textures"
+  ]
+}

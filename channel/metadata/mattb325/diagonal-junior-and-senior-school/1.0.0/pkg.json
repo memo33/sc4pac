@@ -1,0 +1,45 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "diagonal-junior-and-senior-school",
+  "version": "1.0.0",
+  "subfolder": "620-education",
+  "info": {
+    "summary": "Diagonal Junior and Senior School",
+    "description": "19th Century school building suitable for diagonal roads and avenues. As with so many schools in real life, this school building contains both Junior (K-6) and Senior (High School) functions. It can educate up to 2,500 sims and has a wide coverage radius.  It provides 93 civic jobs.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33145-diagonal-junior-and-senior-school/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "mattb325-diagonal-junior-and-senior-school-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-diagonal-junior-and-senior-school-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/education/diagonal-junior-and-senior-school.yaml"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "kosc-maxis-mansion-overhaul-extension-set",
+  "version": "1.00",
+  "url": "https://community.simtropolis.com/files/file/31606-maxis-mansion-overhaul-extension-set/?do=download",
+  "lastModified": "2017-05-11T00:18:56Z",
+  "requiredBy": [
+    "kingofsimcity:maxis-mansion-overhaul-extension-set"
+  ]
+}

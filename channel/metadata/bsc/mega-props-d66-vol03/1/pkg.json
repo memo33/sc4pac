@@ -1,0 +1,31 @@
+{
+  "$type": "Package",
+  "group": "bsc",
+  "name": "mega-props-d66-vol03",
+  "version": "1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "BSC MEGA Props - D66 vol03 by Dolphin66",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack",
+    "requiredBy": [
+      "bsc:bat-props-d66-vol10",
+      "bsc:bat-props-d66-vol11"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "sc4d-lex-legacy-bsc-common-dependencies-pack",
+          "include": [
+            "/BSC MEGA Props - D66 vol03.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "bsc/common-dependencies.yaml"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$type": "Asset",
+  "assetId": "lowkee33-seasonal-flora-patch",
+  "version": "1",
+  "url": "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=36:lk33-seasonalflorapatch",
+  "lastModified": "2023-07-20T00:56:21Z",
+  "requiredBy": [
+    "cycledogg:missouri-breaks-terrain",
+    "lowkee33:seasonal-flora-patch-maxis"
+  ]
+}

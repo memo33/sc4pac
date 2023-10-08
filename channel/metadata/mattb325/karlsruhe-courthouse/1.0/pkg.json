@@ -1,0 +1,95 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "karlsruhe-courthouse",
+  "version": "1.0",
+  "subfolder": "640-government",
+  "info": {
+    "summary": "Karlsruhe Courthouse",
+    "description": "The district attorney's office in Karlsruhe is presented in SC4 as a functional courthouse.\nIn addition to providing 128 civic jobs, it will help alleviate the commercial and residential demand caps by providing additional regional demand of over 80,000 CO§§ spaces and 10,000 Residential spaces. It sits on a 5x4 lot.  This is a non-conditional reward which does not override any other rewards.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/31920-karlsruhe-courthouse/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-karlsruhe-courthouse",
+          "include": [
+            "\\.SC4Lot$",
+            "/Karlsruhe Courthouse MAXIS NITE/"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-karlsruhe-courthouse",
+          "include": [
+            "\\.SC4Lot$",
+            "/Karlsruhe Courthouse DARK NITE/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/government/karlsruhe-courthouse.yaml"
+  ]
+}

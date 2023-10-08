@@ -1,0 +1,28 @@
+{
+  "$type": "Package",
+  "group": "fanta1990",
+  "name": "hang-glider-makeover",
+  "version": "1.1",
+  "subfolder": "150-mods",
+  "info": {
+    "summary": "Detailed reskin of the hang-glider",
+    "author": "FANTA1990, apeek",
+    "website": "https://community.simtropolis.com/files/file/29344-hang-glider-makeover/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "apeek-hang-glider-makeover",
+          "exclude": [
+            "/Hangglider Generator.DAT"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "fanta1990/hang-glider-makeover.yaml"
+  ]
+}

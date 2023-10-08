@@ -1,0 +1,57 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "meeting-hall",
+  "version": "1.0.0",
+  "subfolder": "640-government",
+  "info": {
+    "summary": "An old style meeting hall for your cities and towns.",
+    "description": "In many smaller towns and larger cities, meeting halls often took the place of the Town Hall. They were an important part of civic life, and while many had a quasi-religous purpose, many were purely non-sectarian.\nThis colonnaded Italianate building with its little tower is offered as a non-conditional reward and is a modified version of the Town Hall reward. It sits on a 2x3 lot and provides park and landmark effects.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33938-meeting-hall/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "girafe",
+          "name": "elms",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-meeting-hall-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "girafe",
+          "name": "elms",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-meeting-hall-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/government/meeting-hall.yaml"
+  ]
+}

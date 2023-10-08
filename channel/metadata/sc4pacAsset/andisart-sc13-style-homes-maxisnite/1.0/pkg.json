@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "andisart-sc13-style-homes-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/29329-sc2013-inspired-homes-pack/?do=download&r=169868",
+  "lastModified": "2018-01-30T06:13:29Z",
+  "requiredBy": [
+    "andisart:sc2013-inspired-homes"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-old-nypd-headquarters-diagonal-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32932-old-nypd-headquarters-diagonal-version/?do=download&r=175972",
+  "lastModified": "2019-05-25T01:28:51Z",
+  "requiredBy": [
+    "mattb325:old-nypd-headquarters-diagonal"
+  ]
+}

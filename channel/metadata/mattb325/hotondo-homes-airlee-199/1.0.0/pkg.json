@@ -1,0 +1,97 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "hotondo-homes-airlee-199",
+  "version": "1.0.0",
+  "subfolder": "200-residential",
+  "info": {
+    "summary": "4 R$$ house models for small lots",
+    "description": "These houses are based on floor plans by the spec-builder 'Hotondo' Homes. They are reasonably accurate renditions: all are single story 3 bedrooms, 2 bathrooms with a single car garage, formal and informal living areas, study, etc.\nThey come in several color variations and grow on 1x1, 2x1, 1x2, 1x3 and 2x3 lots.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33168-hotondo-homes-airlee-199/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-hotondo-homes-airless-199-mn"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-hotondo-homes-airless-199-dn"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/hotondo-homes.yaml"
+  ]
+}

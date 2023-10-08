@@ -1,0 +1,45 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "clinic",
+  "version": "1.0.0",
+  "subfolder": "630-health",
+  "info": {
+    "summary": "Diagonal Junior and Senior School",
+    "description": "Inspired by a little clinic in Southern Europe, this is a smaller medical facility for towns or to supplement larger hospital care. The lot comes as a ploppable Clinic, which is found in the Health Menu and has a decent capacity (1,500) and radius (600). It provides 57 civic jobs.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33142-clinic/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "mattb325-clinic-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-clinic-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/health/clinic.yaml"
+  ]
+}

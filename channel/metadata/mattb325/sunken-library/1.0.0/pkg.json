@@ -1,0 +1,77 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "sunken-library",
+  "version": "1.0.0",
+  "subfolder": "620-education",
+  "info": {
+    "summary": "A unique, sunken library",
+    "description": "This sunken library is a fictional creation which fits in with sunken plazas by this author. On a 4x4 lot, descending a large staircase, sims arrive at a sun-filled public courtyard, seasonal trees and greenery flanked with glass. Like the plaza set, this library has been specially made so as to receive shadows from other buildings and structures around it. It looks great in a downtown environment or adjacent to the other sunken plazas.\nThis is a ploppable lot found in the education menu and provides 86 civic jobs, holds 100,000 books and provides an EQ boost to all age groups.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33315-sunken-library/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "mattb325",
+          "name": "street-planters-and-benches",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-sunken-library-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "mattb325",
+          "name": "street-planters-and-benches",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-sunken-library-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/education/sunken-library.yaml"
+  ]
+}

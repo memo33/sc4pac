@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-world-health-organisation-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33573-world-health-organisation-geneva/?do=download&r=180810",
+  "lastModified": "2020-04-27T04:43:21Z",
+  "requiredBy": [
+    "mattb325:world-health-organisation"
+  ]
+}

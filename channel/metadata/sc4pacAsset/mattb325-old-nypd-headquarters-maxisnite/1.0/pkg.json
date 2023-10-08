@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-old-nypd-headquarters-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32907-old-nypd-headquarters-new-york/?do=download&r=175808",
+  "lastModified": "2019-05-09T00:04:52Z",
+  "requiredBy": [
+    "mattb325:old-nypd-headquarters"
+  ]
+}

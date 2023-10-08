@@ -1,0 +1,55 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "city-college",
+  "version": "1.0",
+  "subfolder": "620-education",
+  "info": {
+    "summary": "City College",
+    "description": "This BAT is based on an Adult Education College on Sydney's North Shore. It is a new build, but is designed to look 'Olde Worlde' and as such is quite a mish-mash of styles.\nThis version is a 3x3 ploppable College reward with a capacity of 4,850.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33012-city-college/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "mattb325-city-college-maxisnite",
+          "include": [
+            "\\.SC4Model$",
+            "\\.SC4Desc$",
+            "(?=PLOP).*\\.SC4Lot$"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-city-college-darknite",
+          "include": [
+            "\\.SC4Model$",
+            "\\.SC4Desc$",
+            "(?=PLOP).*\\.SC4Lot$"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/education/city-college.yaml"
+  ]
+}

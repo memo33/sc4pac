@@ -1,0 +1,87 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "world-health-organisation",
+  "version": "1.0.0",
+  "subfolder": "600-civics",
+  "info": {
+    "summary": "World Health Organisation Geneva",
+    "description": "The nine-story WHO headquarters in Geneva were designed in 1959 by the Swiss architect Jean Tschumi. It is unashamedly modernist and quite graceful in its execution.\nThe building is offered as a non-conditional reward and is a modified version of the advanced research centre. It does not generate radiation and it can easily be placed within a downtown environment or amongst parkland.\nIn addition to providing your sims with many highly desirable civic jobs, it will help alleviate the IHT demand caps that can hinder city development (by increasing IHT demand by 300,000 places).  It has also been modded to provide some residential and commercial cap relief by providing both Park and Landmark effects.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33573-world-health-organisation-geneva/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-world-health-organisation-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-world-health-organisation-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/miscellaneous/world-health-organisation.yaml"
+  ]
+}

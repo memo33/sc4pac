@@ -1,0 +1,28 @@
+{
+  "$type": "Package",
+  "group": "fanta1990",
+  "name": "automata-fix-pack-vol1",
+  "version": "1.0",
+  "subfolder": "150-mods",
+  "info": {
+    "summary": "Fix visual glitches of plane and train models",
+    "author": "FANTA1990, apeek",
+    "website": "https://community.simtropolis.com/files/file/29394-automata-fix-pack-vol1/",
+    "requiredBy": [
+      "memo:essential-fixes"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "apeek-automata-fix-pack-vol1"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "fanta1990/automata-fix-pack-vol1.yaml"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-perth-council-building",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31872-perth-council-building/?do=download",
+  "lastModified": "2017-07-23T23:46:21Z",
+  "requiredBy": [
+    "mattb325:perth-council-building"
+  ]
+}

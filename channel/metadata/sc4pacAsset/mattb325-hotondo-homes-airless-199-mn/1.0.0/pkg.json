@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-hotondo-homes-airless-199-mn",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33168-hotondo-homes-airlee-199/?do=download&r=177749",
+  "lastModified": "2019-09-15T20:46:41Z",
+  "requiredBy": [
+    "mattb325:hotondo-homes-airlee-199"
+  ]
+}

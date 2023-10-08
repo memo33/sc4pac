@@ -1,0 +1,85 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "old-north-church-boston",
+  "version": "1.0.0",
+  "subfolder": "650-religion",
+  "info": {
+    "summary": "Old North Church, Boston",
+    "description": "Built in 1723, this is the oldest church in Boston and is famous for having been the church from which Paul Revere received his illuminated signals (\"one if by land, and two if by sea\") prior to his midnight ride to warn Lexington and Concord during the American Revolution.\nThis building is modded as a non-conditional House of Worship reward (meaning it can be placed in your city at any time without having met prior conditions). It does not over-write the Maxis House of Worship rewards and can safely be used in conjunction with these (or any relots).\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/31757-old-north-church-boston/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-old-north-church-boston",
+          "include": [
+            "\\.SC4Lot$",
+            "/Old North Church Boston MAXIS NITE/"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-old-north-church-boston",
+          "include": [
+            "\\.SC4Lot$",
+            "/Old North Church Boston DARK NITE/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/religion/old-north-church-boston.yaml"
+  ]
+}

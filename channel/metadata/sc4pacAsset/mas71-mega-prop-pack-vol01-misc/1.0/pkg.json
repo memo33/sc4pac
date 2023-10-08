@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mas71-mega-prop-pack-vol01-misc",
+  "version": "1.0",
+  "url": "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=87:mas71-mega-prop-pack-vol01-misc",
+  "lastModified": "2023-08-05T00:01:49Z",
+  "requiredBy": [
+    "mas71:mega-props-vol01"
+  ]
+}

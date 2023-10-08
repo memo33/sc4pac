@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "spa-halifax-boxes",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/24792-halifax-boxes/?do=download",
+  "lastModified": "2019-06-29T06:57:35Z",
+  "requiredBy": [
+    "spa:halifax-boxes"
+  ]
+}

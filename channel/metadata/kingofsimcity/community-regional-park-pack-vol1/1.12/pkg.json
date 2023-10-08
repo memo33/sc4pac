@@ -1,0 +1,121 @@
+{
+  "$type": "Package",
+  "group": "kingofsimcity",
+  "name": "community-regional-park-pack-vol1",
+  "version": "1.12",
+  "subfolder": "660-parks",
+  "info": {
+    "summary": "11 parks ranging from humble neighborhood park to a regional giant",
+    "description": "Most of the original parks in-game were designed with a singular function in mind. For example, courts, green space, fields and plazas were all presented individually. This set takes a different approach and combines many of those individual features into a single lot. Pathways, open grass space, wooded areas, courts, fields, and playgrounds are all components that you can expect to find in these parks.\n",
+    "author": "kingofsimcity",
+    "website": "https://community.simtropolis.com/files/file/32075-kings-community-regional-park-pack-vol-1/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "shk",
+          "name": "parking-pack",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "t-wrecks",
+          "name": "maxis-prop-names-and-query-fix",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "mgb204",
+          "name": "anyone-for-tennis",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "prop-pack-diggis-ponds-2",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "elms",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "beeches",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "lindens",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "maples-v2",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "birches",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "supershk",
+          "name": "mega-parking-textures",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "superpaths-pathway-textures",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "community-park-textures-1",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "kings-community-regional-park-pack-vol1",
+          "include": [
+            "/Volume 1/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "kingofsimcity/community-regional-park-pack.yaml"
+  ]
+}

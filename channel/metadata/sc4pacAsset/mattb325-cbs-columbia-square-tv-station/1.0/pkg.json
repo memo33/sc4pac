@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-cbs-columbia-square-tv-station",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/30921-cbs-columbia-square-television-station/?do=download",
+  "lastModified": "2016-01-17T01:29:58Z",
+  "requiredBy": [
+    "mattb325:cbs-columbia-square-tv-station"
+  ]
+}
