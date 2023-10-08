@@ -1,0 +1,77 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "geisel-suess-library",
+  "version": "1.0.0",
+  "subfolder": "620-education",
+  "info": {
+    "summary": "Geisel Suess Library, San Diego",
+    "description": "This futuristic brutalist building that looks part space-invader, part minecraft creation, is the main library building of the University of California San Diego.  The design draws inspiration from hands holding piles of books aloft.\nIn game, this is a large library and sits on a 5x5 lot. It is found in the education menu and provides 235 civic jobs, holds 680,000 books and provides an EQ boost to all age groups over a large radius.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33539-geisel-suess-library-san-diego/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol04",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "mattb325",
+          "name": "street-planters-and-benches",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-geisel-suess-library-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol04",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "mattb325",
+          "name": "street-planters-and-benches",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-geisel-suess-library-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/education/geisel-suess-library.yaml"
+  ]
+}

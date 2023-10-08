@@ -1,0 +1,31 @@
+{
+  "$type": "Package",
+  "group": "bsc",
+  "name": "bat-props-mattb325-vol04",
+  "version": "1-1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "BAT Props Mattb325_PropPack_Vol04",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack",
+    "requiredBy": [
+      "mattb325:geisel-suess-library",
+      "mattb325:southern-poverty-law-center"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "sc4d-lex-legacy-bsc-common-dependencies-pack",
+          "include": [
+            "/BSC BATProps Mattb325 Vol04.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "bsc/common-dependencies.yaml"
+  ]
+}

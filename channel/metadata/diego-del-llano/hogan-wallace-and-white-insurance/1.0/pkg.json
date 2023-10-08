@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "hogan-wallace-and-white-insurance",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Hogan Wallace And White Insurance",
+    "description": "This is a Commercial Offices Building. The height is 240 m approximately. It is based on the Messeturm in Frankfurt, Germany.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32844-hogan-wallace-and-white-insurance/",
+    "requiredBy": [
+      "diego-del-llano:complete-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-hogan-wallace-and-white-insurance-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-hogan-wallace-and-white-insurance-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/hogan-wallace-and-white-insurance.yaml"
+  ]
+}

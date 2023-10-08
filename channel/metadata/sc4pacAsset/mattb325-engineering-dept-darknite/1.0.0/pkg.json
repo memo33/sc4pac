@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-engineering-dept-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/32896-engineering-department/?do=download&r=175745",
+  "lastModified": "2019-05-04T05:56:06Z",
+  "requiredBy": [
+    "mattb325:engineering-department"
+  ]
+}

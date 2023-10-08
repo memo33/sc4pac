@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "madhatter106-coffee-shops-greasy-spoons",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/21794-coffee-shops-and-greasy-spoons/?do=download",
+  "lastModified": "2021-04-19T23:15:00Z",
+  "requiredBy": [
+    "madhatter106:coffee-shops-and-greasy-spoons"
+  ]
+}

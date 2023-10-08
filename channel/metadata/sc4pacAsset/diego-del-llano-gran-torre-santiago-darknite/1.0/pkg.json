@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-gran-torre-santiago-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32962-gran-torre-santiago/?do=download",
+  "lastModified": "2019-08-21T14:18:43Z",
+  "requiredBy": [
+    "diego-del-llano:gran-torre-santiago"
+  ]
+}

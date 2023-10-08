@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-bass-hall-opera-house-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/33030-bass-hall-opera-house/?do=download&r=176760",
+  "lastModified": "2019-07-17T23:48:23Z",
+  "requiredBy": [
+    "mattb325:bass-hall-opera-house"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-essex-county-recreation-center-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33541-essex-county-recreation-center/?do=download&r=180580",
+  "lastModified": "2020-04-11T06:53:12Z",
+  "requiredBy": [
+    "mattb325:essex-county-recreation-center"
+  ]
+}

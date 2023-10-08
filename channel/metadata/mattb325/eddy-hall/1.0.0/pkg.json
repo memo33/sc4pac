@@ -1,0 +1,105 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "eddy-hall",
+  "version": "1.0.0",
+  "subfolder": "620-education",
+  "info": {
+    "summary": "Eddy Hall, Minnesota",
+    "description": "Inspired by the real Eddy Hall, constructed in 1886 as the Mechanic Arts Building for the University of Minnesota. The actual building is a simplified Queen Anne style executed in red-brick and red sandstone trim. The square tower which is slightly offset from the centre of the building dominates the frontage; it, together with the multi-gabled roof, large windows, patterned brick panels and wrough iron cresting make this a charming, eye catching building.\nThis version is offered as a ploppable college on a 4x4 lot.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/31618-eddy-hall-minnesota/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-eddy-hall",
+          "include": [
+            "(?=PLOP).*\\.SC4Lot$",
+            "/Eddy_Hall_Maxis_Nite/"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-eddy-hall",
+          "include": [
+            "(?=PLOP).*\\.SC4Lot$",
+            "/Eddy_Hall_Dark_Nite/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/education/eddy-hall.yaml"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "$type": "Package",
+  "group": "vip",
+  "name": "vip-terrain-mod-complete",
+  "version": "1",
+  "subfolder": "170-terrain",
+  "info": {
+    "summary": "VIP Terrain Mod - All Components",
+    "conflicts": "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers.",
+    "description": "Installs VIP Terrain Mod, including optional beach, rock, and water textures.\nThis is an HD terrain mod, requiring the use of hardware rendering mode.\n",
+    "author": "Badsim/Cédric",
+    "website": "https://www.sc4devotion.com/forums/index.php?topic=17728.0"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "vip",
+          "name": "vip-terrain-mod-base",
+          "version": "latest.release"
+        },
+        {
+          "group": "vip",
+          "name": "vip-terrain-mod-beach",
+          "version": "latest.release"
+        },
+        {
+          "group": "vip",
+          "name": "vip-terrain-mod-rock",
+          "version": "latest.release"
+        },
+        {
+          "group": "vip",
+          "name": "vip-terrain-mod-water",
+          "version": "latest.release"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "vip/vip-terrain-mod.yaml"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-walkup-tower-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32040-walkup-tower/?do=download&r=169414",
+  "lastModified": "2017-12-19T05:08:14Z",
+  "requiredBy": [
+    "diego-del-llano:walkup-tower"
+  ]
+}

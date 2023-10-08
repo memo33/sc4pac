@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-old-delaware-county-courthouse",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/27989-old-delaware-county-courthouse/?do=download",
+  "lastModified": "2012-09-01T23:21:35Z",
+  "requiredBy": [
+    "mattb325:old-delaware-county-courthouse"
+  ]
+}

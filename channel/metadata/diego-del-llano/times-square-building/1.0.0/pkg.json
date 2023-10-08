@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "times-square-building",
+  "version": "1.0.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Times Square Building",
+    "description": "The Times Square Building is an Art Deco skyscraper designed by Ralph Thomas Walker of the firm Voorhees, Gmelin, and Walker located in Rochester, New York, United States. At 260 feet (79 m), it is the eighth-tallest building in Rochester, with 14 floors. The former Genesee Valley Trust Building is a streamlined twelve-story building supporting four aluminum wings 42 feet (13 m) high, known as the \"Wings of Progress\", each weighing 12,000 pounds (5,400 kg). These structures are among the most distinctive features of the Rochester skyline. The  trompe-l’oeil  style is used for the decor throughout the building's interior and features various depictions of stylized wheat in reference to Rochester's presence as \"the flour city\". The building originally hosted a  Depression era  mural  by Carl William Peters (1897-1980) on exhibit from its opening that was later destroyed.\nThe cornerstone of this bank was laid on October 29, 1929, \"Black Tuesday\" of the 1929 stock market crash.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/33171-times-square-building/",
+    "requiredBy": [
+      "diego-del-llano:new-york-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-times-square-building-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-times-square-building-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/times-square-building.yaml"
+  ]
+}

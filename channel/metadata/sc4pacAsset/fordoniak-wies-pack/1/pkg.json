@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "fordoniak-wies-pack",
+  "version": "1",
+  "url": "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=40040",
+  "lastModified": "2023-12-19T15:02:19Z",
+  "requiredBy": [
+    "fordoniak:wies-pack"
+  ]
+}

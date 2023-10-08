@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-stephens-inc-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31802-stephens-inc/?do=download&r=167056",
+  "lastModified": "2017-06-21T15:28:10Z",
+  "requiredBy": [
+    "diego-del-llano:stephens-inc"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "peninsula-puerto-vallarta",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Peninsula Puerto Vallarta",
+    "description": "These luxury beach-front condos are located in Puerto Vallarta, Mexico. The height is 328 ft (100 meters).\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/31549-peninsula-puerto-vallarta/",
+    "requiredBy": [
+      "diego-del-llano:latin-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-peninsula-puerto-vallarta-no-plaza-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-peninsula-puerto-vallarta-no-plaza-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/peninsula-puerto-vallarta.yaml"
+  ]
+}

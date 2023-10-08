@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-ariel-east-at-2628-broadway-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32960-ariel-east-at-2628-broadway/?do=download",
+  "lastModified": "2019-08-21T14:21:18Z",
+  "requiredBy": [
+    "diego-del-llano:ariel-east"
+  ]
+}

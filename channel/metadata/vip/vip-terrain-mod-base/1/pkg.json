@@ -1,0 +1,34 @@
+{
+  "$type": "Package",
+  "group": "vip",
+  "name": "vip-terrain-mod-base",
+  "version": "1",
+  "subfolder": "170-terrain",
+  "info": {
+    "summary": "VIP Terrain Mod - Terrain Only",
+    "conflicts": "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers.",
+    "description": "Installs only the base terrain textures for the VIP Terrain Mod, and does not include optional beach, rock, and water textures.\nThis is an HD terrain mod, requiring the use of hardware rendering mode.\n",
+    "author": "Badsim/Cédric",
+    "website": "https://www.sc4devotion.com/forums/index.php?topic=17728.0",
+    "requiredBy": [
+      "vip:vip-terrain-mod-complete"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "vip-terrain-mod",
+          "include": [
+            "/VIP Terrain Mod Textures/",
+            "/VIP Terrain Properties/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "vip/vip-terrain-mod.yaml"
+  ]
+}

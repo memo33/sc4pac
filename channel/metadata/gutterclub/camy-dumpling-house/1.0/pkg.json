@@ -1,0 +1,55 @@
+{
+  "$type": "Package",
+  "group": "gutterclub",
+  "name": "camy-dumpling-house",
+  "version": "1.0",
+  "subfolder": "300-commercial",
+  "info": {
+    "summary": "Small CS$ building",
+    "description": "The building is based on a bar in Melbourne's Chinatown and grows on a 1×2 CS$ lot.\n",
+    "author": "gutterclub",
+    "website": "https://community.simtropolis.com/files/file/27077-camy-dumpling-house/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "gutterclub-camy-dumpling-house",
+          "exclude": [
+            "/DN/",
+            "/MN/"
+          ]
+        },
+        {
+          "assetId": "gutterclub-camy-dumpling-house-maxisnite-model-patch"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "gutterclub-camy-dumpling-house",
+          "exclude": [
+            "/MN/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "gutterclub/camy-dumpling-house.yaml"
+  ]
+}

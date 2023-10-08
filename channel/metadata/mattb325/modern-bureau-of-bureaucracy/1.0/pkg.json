@@ -1,0 +1,87 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "modern-bureau-of-bureaucracy",
+  "version": "1.0",
+  "subfolder": "640-government",
+  "info": {
+    "summary": "Modern Bureau of Bureaucracy",
+    "description": "This modern Bureau of Bureaucracy is a fictional government building reached by a distinctive semi-circular sunken staircase. The design of the building is intended to be austere and intimidating. The building gouges through the landscape and forces anyone who seeks to enter to descend into the middle of government madness.\nThis 6x6 lot is modded as a Bureau of Bureaucracy and is in the rewards menu. Like the in-game version this building provides civic jobs, and helps raise demand caps and mayor rating.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33072-modern-bureau-of-bureaucracy/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "elms",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "poplars",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-modern-bureau-of-bureaucracy-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "elms",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "poplars",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-modern-bureau-of-bureaucracy-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/government/modern-bureau-of-bureaucracy.yaml"
+  ]
+}

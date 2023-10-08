@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "ids-houses-garages-darknite",
+  "version": "1.1",
+  "url": "https://community.simtropolis.com/files/file/30647-minneapolis-house-set/?do=download&r=192619",
+  "lastModified": "2022-03-26T19:17:18Z",
+  "requiredBy": [
+    "ids2:minneapolis-house-set"
+  ]
+}

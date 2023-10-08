@@ -1,0 +1,88 @@
+{
+  "$type": "Package",
+  "group": "kingofsimcity",
+  "name": "maxis-mansion-overhaul",
+  "version": "1.0",
+  "subfolder": "200-residential",
+  "info": {
+    "summary": "Full set of override Lots replacing all default Maxis mansion Lots",
+    "description": "This mod brings more details, more variety, better slope tolerance, seasonal trees and many other improvements to the Maxis mansions.\nIt only affects newly growing mansion lots, due to the use of a Maxis blocker.\n",
+    "author": "kingofsimcity",
+    "website": "https://community.simtropolis.com/files/file/31308-maxis-mansion-overhaul/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "no-maxis-mansions",
+          "version": "latest.release"
+        },
+        {
+          "group": "supershk",
+          "name": "mega-parking-textures",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol03",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "shk",
+          "name": "parking-pack",
+          "version": "latest.release"
+        },
+        {
+          "group": "mgb204",
+          "name": "anyone-for-tennis",
+          "version": "latest.release"
+        },
+        {
+          "group": "lbt",
+          "name": "mega-prop-pack-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "kosc-maxis-mansion-overhaul-standalone"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "kingofsimcity/maxis-mansion-overhaul.yaml"
+  ]
+}

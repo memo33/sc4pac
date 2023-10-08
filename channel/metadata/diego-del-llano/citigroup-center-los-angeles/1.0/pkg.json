@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "citigroup-center-los-angeles",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Citigroup Center Los Angeles",
+    "description": "Recently renamed 'Citigroup Center' is now FourFortyFour South Flower, a 627 ft (191 m) 48-story skyscraper at 444 S. Flower Street in the Bunker Hill area of downtown Los Angeles, California. When completed in 1981, the tower was the fifth-tallest in the city.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32939-citigroup-center-los-angeles/",
+    "requiredBy": [
+      "diego-del-llano:los-angeles-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-citigroup-center-los-angeles-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-citigroup-center-los-angeles-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/citigroup-center-los-angeles.yaml"
+  ]
+}

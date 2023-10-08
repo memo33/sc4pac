@@ -1,0 +1,67 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "17th-st-washington-dc",
+  "version": "1.0",
+  "subfolder": "620-education",
+  "info": {
+    "summary": "17th St, Washington DC (college)",
+    "description": "This is an eye-catching modern midrise building that definitely helps break the grid when it grows.  It has upper roof gardens (both as open terraces and semi-enclosed spaces (the areas under the metal lattice-work at either end of the building).\nThis version offers a ploppable college lot providing 229 jobs and capacity for 6,700 students.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33088-17th-st-washington-dc/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "mattb325",
+          "name": "urban-civics-prop-pack-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-17th-st-washington-dc-maxisnite",
+          "include": [
+            "\\.SC4Model$",
+            "\\.SC4Desc$",
+            "(?=PLOP).*\\.SC4Lot$"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "mattb325",
+          "name": "urban-civics-prop-pack-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-17th-st-washington-dc-darknite",
+          "include": [
+            "\\.SC4Model$",
+            "\\.SC4Desc$",
+            "(?=PLOP).*\\.SC4Lot$"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/education/17th-st-washington-dc.yaml"
+  ]
+}

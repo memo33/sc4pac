@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-edificio-lopez-serrano-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/35565-edificio-lopez-serrano/?do=download&r=197327",
+  "lastModified": "2023-07-11T16:15:49Z",
+  "requiredBy": [
+    "diego-del-llano:edificio-lopez-serrano"
+  ]
+}

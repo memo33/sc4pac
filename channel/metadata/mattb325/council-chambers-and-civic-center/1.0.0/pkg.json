@@ -1,0 +1,97 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "council-chambers-and-civic-center",
+  "version": "1.0.0",
+  "subfolder": "640-government",
+  "info": {
+    "summary": "Bankstown Council Chambers and Civic Center",
+    "description": "This is a campus-style council chambers and civic center building. This is a modified model based on the auditorium, council offices and tourist information kiosk of a similarly scaled complex in suburban Sydney.\nThis is a very specific architectural style that was popular during the 1960s and 1970s, when Tehran was one of the most sophisticated and popular destination for western tourists. Civic architecture was an early adopter of this simplified Persian style.\nThis BAT functions as a government building and town hall in game. In addition to providing 310 civic jobs, it will help alleviate the commercial demand caps that can hinder city development. It has also been modded to provide residential cap relief and increase desirability.\nIt is designed for a 10x7 lot and this building looks best when used in either a suburban setting or to be break up a larger downtown area.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/31001-council-chambers-and-civic-center/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-council-chambers-and-civic-center-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-council-chambers-and-civic-center-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/government/council-chambers-and-civic-center.yaml"
+  ]
+}

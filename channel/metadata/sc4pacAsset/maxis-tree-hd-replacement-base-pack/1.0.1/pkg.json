@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "maxis-tree-hd-replacement-base-pack",
+  "version": "1.0.1",
+  "url": "https://community.simtropolis.com/files/file/31898-maxis-tree-hd-replacement-mod/?do=download&r=167947",
+  "lastModified": "2017-11-23T10:52:51Z",
+  "requiredBy": [
+    "t-wrecks:maxis-tree-hd-replacement-mod"
+  ]
+}

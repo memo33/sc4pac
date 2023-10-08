@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "nofunk-sarajevo-lounge-dn",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/29450-sarajevo-lounge/?do=download&r=131260",
+  "lastModified": "2014-04-12T18:01:56Z",
+  "requiredBy": [
+    "nofunk:sarajevo-lounge"
+  ]
+}

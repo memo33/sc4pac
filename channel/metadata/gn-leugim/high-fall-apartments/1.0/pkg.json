@@ -1,0 +1,30 @@
+{
+  "$type": "Package",
+  "group": "gn-leugim",
+  "name": "high-fall-apartments",
+  "version": "1.0",
+  "subfolder": "200-residential",
+  "info": {
+    "summary": "Highrise European R$ apartment building (EHA) (EBLT)",
+    "conflicts": "Incompatible with mods blocking Maxis lots",
+    "description": "This building is part of the European House Add-on (EHA) project which seamlessly integrates with Maxis buildings by extending the original building families.\n",
+    "author": "Gn_Leugim",
+    "website": "https://community.simtropolis.com/files/file/28528-gnl-eha-high-fall-apartments/",
+    "requiredBy": [
+      "gn-leugim:eha-apartments-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "gnl-eha-high-fall-apartments"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "gn-leugim/high-fall-apartments.yaml"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-hyatt-ziva-tower-one-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31843-hyatt-ziva-tower-one/?do=download&r=167513",
+  "lastModified": "2017-07-14T16:45:01Z",
+  "requiredBy": [
+    "diego-del-llano:hyatt-ziva-tower-one"
+  ]
+}

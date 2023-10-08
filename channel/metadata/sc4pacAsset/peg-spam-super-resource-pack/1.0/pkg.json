@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "peg-spam-super-resource-pack",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/?do=download",
+  "lastModified": "2015-07-07T00:04:20Z",
+  "requiredBy": [
+    "peg:spam-super-resource-pack"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-edificio-playa-oriental-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32676-edificio-playa-oriental/?do=download",
+  "lastModified": "2018-12-20T13:17:25Z",
+  "requiredBy": [
+    "diego-del-llano:edificio-playa-oriental"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-modern-fire-station-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33118-modern-fire-station/?do=download&r=177366",
+  "lastModified": "2019-08-29T04:41:44Z",
+  "requiredBy": [
+    "mattb325:modern-fire-station"
+  ]
+}

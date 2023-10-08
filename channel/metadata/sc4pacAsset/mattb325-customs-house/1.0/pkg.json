@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-customs-house",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/28037-customs-house/?do=download",
+  "lastModified": "2012-09-16T08:22:27Z",
+  "requiredBy": [
+    "mattb325:customs-house"
+  ]
+}

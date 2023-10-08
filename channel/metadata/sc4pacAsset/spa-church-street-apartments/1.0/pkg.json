@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "spa-church-street-apartments",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/24766-bsc-spa-church-street-apartments/?do=download",
+  "lastModified": "2024-01-30T09:58:47Z",
+  "requiredBy": [
+    "spa:church-street-apartments"
+  ]
+}

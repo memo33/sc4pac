@@ -1,0 +1,88 @@
+{
+  "$type": "Package",
+  "group": "mandelsoft",
+  "name": "light-replacement-mod-props",
+  "version": "4.0",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Streetlight models and props of LRM v4.0",
+    "description": "This is a dependency pack consisting of the props of the Light Replacement Mod v4.0 (LRM). It is not the LRM itself and thus does not override any Maxis streetlights.\n",
+    "author": "MandelSoft/MRTNRLN",
+    "website": "https://community.simtropolis.com/files/file/27200-light-replacement-mod-lrm-v40-mega-pack/",
+    "requiredBy": [
+      "kingofsimcity:community-regional-park-pack-vol2-baseball-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-community-parks",
+      "kingofsimcity:community-regional-park-pack-vol2-desolate-parks",
+      "kingofsimcity:community-regional-park-pack-vol2-royal-trails",
+      "kingofsimcity:community-regional-park-pack-vol2-soccer-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-softball-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-sports-complexes",
+      "kingofsimcity:community-regional-park-pack-vol2-tennis-parks"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "light-replacement-mod-4-mega-pack-mac",
+          "include": [
+            "/EmptyModelFile.SC4Model",
+            "/LRMv4_Models_Streetlights_.*.dat",
+            "/LRMv4_Props.dat"
+          ],
+          "exclude": [
+            "/LRMv4_Models_Streetlights_Belgium_WHITE.dat",
+            "/LRMv4_Models_Streetlights_Belgium_GREEN.dat"
+          ]
+        },
+        {
+          "assetId": "light-replacement-mod-4-mega-pack-maxisnite-patch",
+          "include": [
+            "/LRMv4_Models_LightCones_MaxisNite.dat"
+          ]
+        },
+        {
+          "assetId": "light-replacement-mod-4-memo-maxisnite-dim-patch"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "light-replacement-mod-4-mega-pack-mac",
+          "include": [
+            "/EmptyModelFile.SC4Model",
+            "/LRMv4_Models_Streetlights_.*.dat",
+            "/LRMv4_Props.dat"
+          ],
+          "exclude": [
+            "/LRMv4_Models_Streetlights_Belgium_WHITE.dat",
+            "/LRMv4_Models_Streetlights_Belgium_GREEN.dat"
+          ]
+        },
+        {
+          "assetId": "light-replacement-mod-4-mega-pack-mac",
+          "include": [
+            "/LRMv4_Models_LightCones_DarkNite.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mandelsoft/light-replacement-mod.yaml"
+  ]
+}

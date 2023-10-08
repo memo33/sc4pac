@@ -1,0 +1,55 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "national-geographic-society-hq",
+  "version": "1.0",
+  "subfolder": "620-education",
+  "info": {
+    "summary": "National Geographic Society Headquarters (museum)",
+    "description": "The National Geographic Society Headquarters was built in 1963 in the what is known as the new formalist style.  It is made of concrete, marble and glass and conveys a uniform and symmetrical appearance; the marble columns provide strong verticality and are a reinterpretation of earlier classical, temple like forms. This is especially true of the upper floors and projecting fins along the colonnade.\nThis version is a high-capacity museum on a 6x2 lot, providing 235 civic jobs.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33016-national-geographic-society-headquarters/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "mattb325-national-geographic-society-maxisnite",
+          "include": [
+            "\\.SC4Model$",
+            "\\.SC4Desc$",
+            "(?=PLOP).*\\.SC4Lot$"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-national-geographic-society-darknite",
+          "include": [
+            "\\.SC4Model$",
+            "\\.SC4Desc$",
+            "(?=PLOP).*\\.SC4Lot$"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/education/national-geographic-society-headquarters.yaml"
+  ]
+}

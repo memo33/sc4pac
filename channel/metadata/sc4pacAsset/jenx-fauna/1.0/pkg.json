@@ -1,0 +1,12 @@
+{
+  "$type": "Asset",
+  "assetId": "jenx-fauna",
+  "version": "1.0",
+  "url": "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=155:sc4d-lex-legacy-jenx-fauna&catid=25",
+  "lastModified": "2023-09-15T23:33:15Z",
+  "requiredBy": [
+    "jenx:cows",
+    "jenx:pigs",
+    "jenx:sheep"
+  ]
+}

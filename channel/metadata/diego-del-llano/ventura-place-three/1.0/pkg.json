@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "ventura-place-three",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Ventura Place Three",
+    "description": "This landmark is a mixed-used building with commercial center, offices and residences. It provides 2700 jobs (CO$$$).\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/31459-ventura-place-three/",
+    "requiredBy": [
+      "diego-del-llano:complete-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-ventura-place-three-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-ventura-place-three-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/ventura-place-three.yaml"
+  ]
+}

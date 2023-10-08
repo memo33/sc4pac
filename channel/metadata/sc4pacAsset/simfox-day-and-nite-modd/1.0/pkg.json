@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "simfox-day-and-nite-modd",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/?do=download",
+  "lastModified": "2021-09-19T12:25:00Z",
+  "requiredBy": [
+    "simfox:day-and-nite-mod"
+  ]
+}

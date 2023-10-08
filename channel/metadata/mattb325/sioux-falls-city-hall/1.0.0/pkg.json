@@ -1,0 +1,67 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "sioux-falls-city-hall",
+  "version": "1.0.0",
+  "subfolder": "640-government",
+  "info": {
+    "summary": "Sioux Falls City Hall",
+    "description": "Non-conditional Town Hall reward based on the Sioux Falls City Hall. It is constructed in the streamline moderne (a successor to art-deco) style with a brick and granite facade. It sits on a 4x4 lot and provides 65 civic jobs.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/34004-sioux-falls-city-hall/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-sioux-falls-city-hall-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-sioux-falls-city-hall-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/government/sioux-falls-city-hall.yaml"
+  ]
+}

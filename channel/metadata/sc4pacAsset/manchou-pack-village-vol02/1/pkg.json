@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "manchou-pack-village-vol02",
+  "version": "1",
+  "url": "https://www.toutsimcities.com/downloads/start/1579",
+  "lastModified": "2009-10-26T12:00:00Z",
+  "requiredBy": [
+    "manchou:houses-ag-models"
+  ]
+}

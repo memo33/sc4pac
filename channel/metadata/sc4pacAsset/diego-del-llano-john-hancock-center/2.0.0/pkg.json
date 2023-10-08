@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-john-hancock-center",
+  "version": "2.0.0",
+  "url": "https://community.simtropolis.com/files/file/30952-john-hancock-center/?do=download",
+  "lastModified": "2016-02-15T15:57:26Z",
+  "requiredBy": [
+    "diego-del-llano:john-hancock-center"
+  ]
+}

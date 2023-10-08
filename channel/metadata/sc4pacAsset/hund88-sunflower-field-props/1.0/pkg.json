@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "hund88-sunflower-field-props",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/21220-sunflower-field/?do=download",
+  "lastModified": "2009-07-09T11:36:16Z",
+  "requiredBy": [
+    "hund88:sunflower-field-props"
+  ]
+}

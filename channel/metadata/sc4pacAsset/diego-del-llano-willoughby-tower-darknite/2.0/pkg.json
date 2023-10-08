@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-willoughby-tower-darknite",
+  "version": "2.0",
+  "url": "https://community.simtropolis.com/files/file/33149-willoughby-tower/?do=download",
+  "lastModified": "2019-09-09T03:13:07Z",
+  "requiredBy": [
+    "diego-del-llano:willoughby-tower"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$type": "Package",
+  "group": "madhatter106",
+  "name": "medium-wealth-commercial-shops-vol2",
+  "version": "1.0.0",
+  "subfolder": "300-commercial",
+  "info": {
+    "summary": "Ten multi-story 1x1 CS$$ Maxis-esque commercial shops.",
+    "description": "Ten different buildings with multiple lots - these buildngs are all 1x1 multi-storeys, similar in size to original Maxis offerings like King Design and Tinkler's, Inc. All have standard stats and configurations, and all are tricked out with nightlighting to boot.\n",
+    "author": "madhatter106",
+    "website": "https://community.simtropolis.com/files/file/35703-medium-wealth-commercial-shops-volume-2/",
+    "requiredBy": [
+      "madhatter106:medium-wealth-commercial-shops-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "madhatter106-medium-wealth-commercial-shops-vol2"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "madhatter106/medium-wealth-commercial-shops.yaml"
+  ]
+}

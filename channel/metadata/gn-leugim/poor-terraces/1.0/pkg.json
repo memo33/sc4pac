@@ -1,0 +1,30 @@
+{
+  "$type": "Package",
+  "group": "gn-leugim",
+  "name": "poor-terraces",
+  "version": "1.0",
+  "subfolder": "200-residential",
+  "info": {
+    "summary": "Small European R$ apartment building (EHA) (EBLT)",
+    "conflicts": "Incompatible with mods blocking Maxis lots",
+    "description": "This building is part of the European House Add-on (EHA) project which seamlessly integrates with Maxis buildings by extending the original building families.\n",
+    "author": "Gn_Leugim",
+    "website": "https://community.simtropolis.com/files/file/28047-gnl-eha-poor-terraces/",
+    "requiredBy": [
+      "gn-leugim:eha-apartments-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "gnl-eha-poor-terraces"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "gn-leugim/poor-terraces.yaml"
+  ]
+}

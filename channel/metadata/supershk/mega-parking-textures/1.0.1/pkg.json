@@ -1,0 +1,41 @@
+{
+  "$type": "Package",
+  "group": "supershk",
+  "name": "mega-parking-textures",
+  "version": "1.0.1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Parking lot textures",
+    "author": "kingofsimcity, shokthrpy",
+    "website": "https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/",
+    "requiredBy": [
+      "kingofsimcity:community-regional-park-pack-vol1",
+      "kingofsimcity:community-regional-park-pack-vol2-baseball-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-community-parks",
+      "kingofsimcity:community-regional-park-pack-vol2-desolate-parks",
+      "kingofsimcity:community-regional-park-pack-vol2-royal-trails",
+      "kingofsimcity:community-regional-park-pack-vol2-soccer-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-softball-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-sports-complexes",
+      "kingofsimcity:community-regional-park-pack-vol2-tennis-parks",
+      "kingofsimcity:maxis-mansion-overhaul",
+      "kingofsimcity:maxis-mansion-overhaul-extension-set"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "supershk-mega-parking-textures",
+          "include": [
+            "SuperSHK MEGA Textures/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "supershk/mega-parking-textures.yaml"
+  ]
+}

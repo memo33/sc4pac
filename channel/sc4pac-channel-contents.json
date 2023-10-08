@@ -1,0 +1,9232 @@
+{
+  "scheme": 3,
+  "contents": [
+    {
+      "group": "11241036",
+      "name": "central-european-tree-controller",
+      "versions": [
+        "1.03"
+      ],
+      "summary": "Central European Tree Controller",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "andisart",
+      "name": "sc2013-inspired-homes",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Low-density residential homes inspired by SC2013",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "aqua877",
+      "name": "jrs-prop-pack-signs",
+      "versions": [
+        "1"
+      ],
+      "summary": "Japanese Road-Sign props",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "blunder",
+      "name": "pacific-northwest-tree-controller",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "God-mode flora brush with seasonal trees from the Pacific Northwest",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "blunder",
+      "name": "stanley-seawalls",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Stanley Seawalls Base Set",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-d66-vol10",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Superseded by bsc:mega-props-d66-vol03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-d66-vol11",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Superseded by bsc:mega-props-d66-vol03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-jenx-tree-props-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC Prop Pack JENX Tree Props Vol01 by xannepan",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-jenx-tree-props-vol02",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC BATProps JENX Tree Props Vol02 (SD) by xannepan",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-jenx-tree-props-vol03",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC BATProps JENX Tree Props Vol03 (HD) by xannepan",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-jenx-vol02",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Superseded by bsc:mega-props-jenx-vol04",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-kwk-vol03",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Superseded by bsc:mega-props-kwk-vol03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-kwk-vol04",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Superseded by bsc:mega-props-kwk-vol03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-lil-vol2",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Superseded by bsc:mega-props-lil-vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-cottages-ornee-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "Mattb325_Cottages_Ornee",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-cottages-ornee-vol02",
+      "versions": [
+        "1"
+      ],
+      "summary": "Mattb325_Cottages_Ornee_Vol02",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-london-w2w-vol01",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSCBATProps_Mattb325_LondonW2W_Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-mcmansion-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "Mattb325_McMansion_Pack_Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-shopping-mall-pack-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "Mattb325ShoppingMallPack_Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-small-modern-house-pack",
+      "versions": [
+        "1"
+      ],
+      "summary": "Mattb325SmallLowMidWealthHomes",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC BATProps Mattb325 Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-vol02",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSCBATPropsMattb325_Vol02",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-vol03",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSCBATPropsMattb325_Vol03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-vol04",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BAT Props Mattb325_PropPack_Vol04",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-mattb325-w2w-prop-pack-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "Mattb325_W2W_Prop_Pack_Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-newman-inc-wfk-vol01",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSCBATProps Newman Inc WFK Vol01, Waterfront Kit",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-newmaninc-rpk-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSCBATPRops NewmanInc RPK Vol01 by Citynut",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-vdk-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSCBATProps VDK Vol01 by vester",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "bat-props-vdk-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSCBATProps VDK Vol02 by vester",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "census-repository",
+      "versions": [
+        "3.5"
+      ],
+      "summary": "Provides detailed stats about city growth",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "essentials",
+      "versions": [
+        "2023"
+      ],
+      "summary": "BSC queries, rewards and other related files",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "flags",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Packs 1 and 2 and Pride and EU flags, Geoffhaw Flag Pack Compilation",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "jrj-cpt-trees-as-props",
+      "versions": [
+        "2-2"
+      ],
+      "summary": "JRJ_CPT_Trees_as_props_V2 by jeronij",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-aln-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - ALN Vol01 by ChrisAdams3997",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-aln-vol02",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - ALN Vol02 by ChrisAdams3997",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-aln-vol03",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - ALN Vol03 by ChrisAdams3997",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-cal-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - CAL vol01 by callagrafx",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-carch-vol01",
+      "versions": [
+        "3"
+      ],
+      "summary": "BSC MEGA Props - CARCH Vol01 by Cerulean",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-carch-vol02",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC MEGA Props CARCH Vol02 by Cerulean",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-carch-vol03",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC MEGA Props CARCH Vol03 by Cerulean",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-carch-vol04",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC MEGA Props CARCH Vol04 by Cerulean",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-carch-vol05",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC MEGA Props CARCH Vol05 by Cerulean",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-carch-vol06",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC MEGA Props CARCH Vol06 by Cerulean",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-carch-vol07",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC MEGA Props CARCH Vol07 by Cerulean",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-carch-vol08",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC MEGA Props CARCH Vol08 by Cerulean",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-cp-civics",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - CP Civics by cycledogg/c.p.",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-cp-houses",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - CP Houses by cycledogg/c.p.",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-cp-industrials",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - CP Industrials by cycledogg/c.p.",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-cp-vol01",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC MEGA Props - CP Vol01 by cycledogg/c.p.",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-cp-vol02",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC Mega Props - CP Vol02 by cycledogg/c.p.",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-d66-vol01",
+      "versions": [
+        "3"
+      ],
+      "summary": "BSC MEGA Props - D66 Vol01 by Dolphin66",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-d66-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props D66 Vol02 by Dolphin66",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-d66-vol03",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - D66 vol03 by Dolphin66",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-dae-vol01",
+      "versions": [
+        "3"
+      ],
+      "summary": "BSC MEGA Props - DAE Vol01 by deadwoods",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-dae-vol02",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - DAE Vol02 by deadwoods",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-dbssymn-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props DBSSYMN Vol01 by DebussyMan",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-dbssymn-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props DBSSYMN Vol02 by DebussyMan",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-gascooker-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - Gascooker Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-gascooker-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - Gascooker vol02",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-gaz-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props GAZ Vol01 by GaryReggae",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jbsimio-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props_JBSimio_Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jbsimio-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props_JBSimio_Vol02",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jbsimio-vol03",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - JBSimio vol03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jen-p-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props Jen_P Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jenx-vol01",
+      "versions": [
+        "3"
+      ],
+      "summary": "BSC MEGA Props - JENX Vol01 by xannepan",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jenx-vol02-paris",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - JENX Vol02 - PARIS by xannepan",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jenx-vol03",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - JENX Vol03 by xannepan",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jenx-vol04",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - JENX Vol04 by xannepan",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jenx-vol05-medieval",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - JENX Vol05 - Medieval by xannepan",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jes-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC Mega Props - JES Vol01 by jestarr",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jes-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC Mega Props - JES Vol02 by jestarr",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jes-vol03",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC Mega Props - JES Vol03 by jestarr",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jes-vol04",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC Mega Props - JES Vol04 by jestarr",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jes-vol05",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC Mega Props - JES Vol05 by jestarr",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jes-vol06",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC Mega Props - JES Vol06 by jestarr",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jes-vol07",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC Mega Props - JES Vol07 by jestarr",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jes-vol08",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC Mega Props - JES Vol08 by jestarr",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jes-vol09",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC Mega Props - JES Vol09 by jestarr",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jmyers-agriculture-vol01",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "BSC MEGA Props - JMyersAgriculture01 by JMyers2043",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jmyers-agriculture-vol02",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "BSC MEGA Props - JMyersAgriculture02 by JMyers2043",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jmyers-common-props",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - JMyers Common Props by JMyers2043",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jrj-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props JRJ Vol02 by jeronij",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jrj-vol03",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props JRJ Vol03 by jeronij",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jrj-vol04",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props JRJ Vol04 by jeronij",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jrj-vol05",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props JRJ Vol05 by jeronij",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-jrj-vol06",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props JRJ Vol06 by jeronij",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-kevdan25-vol01",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "BSC MEGA Props - KevDan25  Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-kwk-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props KWK Vol01 by Kwakelaar",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-kwk-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - KWKVol02 by Kwakelaar",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-kwk-vol03",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - KWK Vol03 by Kwakelaar",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-lil-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC Mega Props LiL Vol01 by Lilith",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-mbear-vol01",
+      "versions": [
+        "3"
+      ],
+      "summary": "BSC MEGA Props - MBEAR Vol01 by Mickebear",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-mbear-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - MBEAR Vol02 by Mickebear",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-mbear-vol03",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - MBEAR Vol03 by Mickebear",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-mbear-vol04",
+      "versions": [
+        "3"
+      ],
+      "summary": "BSC MEGA Props - MBEAR Vol04 by Mickebear",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-mikeseith-vol01",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC MEGA Props - Mikeseith vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-mikeseith-vol03",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - Mikeseith Vol03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-misc-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - Misc Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-misc-vol02",
+      "versions": [
+        "4"
+      ],
+      "summary": "BSC MEGA Props - Misc Vol02",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-misc-vol03",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - Misc Vol03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-mjb-vol01",
+      "versions": [
+        "3"
+      ],
+      "summary": "BSC MEGA Props - MJB Vol01 by Couchpotato",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-mjb-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props -  MJB Vol02 by Couchpotato",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-newmaninc-vol01",
+      "versions": [
+        "3"
+      ],
+      "summary": "BSC MEGA Props - NewmanInc Vol01 by Citynut",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-newmaninc-vol02",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "BSC MEGA Props - NewmanInc Vol02 by Citynut",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-newmaninc-vol03",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "BSC MEGA Props - NewmanInc Vol03 by Citynut",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-newmaninc-vol04",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - NewmanInc Vol04 by Citynut",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-newmaninc-vol05",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - NewmanInc Vol05 by Citynut",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-prepo-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - prepo Vol01 by prepo",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-rt-vol01",
+      "versions": [
+        "4"
+      ],
+      "summary": "BSC MEGA Props - RT Vol01 by Ripptide",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-rt-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - RT Vol02 by Ripptide",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-rt-vol03",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props RT Vol03 by Ripptide",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-rt-vol04",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props RT Vol04 by Ripptide",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-rt-wfk-n-vol01",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Superseded by bsc:mega-props-rt-wfk-vol02-wimps",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-rt-wfk-vol01",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Superseded by bsc:mega-props-rt-wfk-vol01-cds/bsc:mega-props-rt-wfk-vol02-wimps",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-rt-wfk-vol01-cds",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - RT WFK Vol01 - CdS by Ripptide, Waterfront Kit, Casa de Sol",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-rt-wfk-vol02-wimps",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC MEGA Props - RT WFK Vol02 - WIMPS by Ripptide, Waterfront Kit",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-rubik3-vol01-wtc-props",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC MEGA Props Rubik3 Vol01 - WTC Props by Rubik3",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-sg-vol01",
+      "versions": [
+        "3"
+      ],
+      "summary": "BSC MEGA Props - SG Vol01 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-snm-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - SNM Vol01, SimNation Military",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-snm-vol02-naval",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - SNM Vol02 - Naval, SimNation Military",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-swi21-vol01",
+      "versions": [
+        "4"
+      ],
+      "summary": "BSC MEGA Props - swi21 Vol01 by swi21",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-swi21-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - swi21 Vol02 by swi21",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-t1-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC Mega Props - T1 Vol01 by tag_one",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-t1-vol02",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC Mega Props - T1 Vol02 by tag_one",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-t1-vol03",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC Mega Props - T1 Vol03 by tag_one",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-t1-vol04",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC Mega Props - T1 Vol04 by tag_one",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "mega-props-w2w-vol01",
+      "versions": [
+        "2"
+      ],
+      "summary": "BSC MEGA Props - W2W Vol01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "no-maxis-farms",
+      "versions": [
+        "2"
+      ],
+      "summary": "Stop agricultural industry Lots from growing (I-R Maxis blocker)",
+      "category": [
+        "900-overrides"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "no-maxis-i-d",
+      "versions": [
+        "2"
+      ],
+      "summary": "Stop dirty industry Lots from growing (I-d1, I-d2, I-d3 Maxis blocker)",
+      "category": [
+        "900-overrides"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "no-maxis-i-ht",
+      "versions": [
+        "2"
+      ],
+      "summary": "Stop high-tech industry Lots from growing (I-ht1, I-ht2, I-ht3 Maxis blocker)",
+      "category": [
+        "900-overrides"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "no-maxis-i-m",
+      "versions": [
+        "2"
+      ],
+      "summary": "Stop manufacturing industry Lots from growing (I-m1, I-m2, I-m3 Maxis blocker)",
+      "category": [
+        "900-overrides"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "no-maxis-mansions",
+      "versions": [
+        "2"
+      ],
+      "summary": "Stop high-wealth mansions from growing (R$$$ low-density Maxis blocker)",
+      "category": [
+        "900-overrides"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "prop-family-names",
+      "versions": [
+        "3"
+      ],
+      "summary": "BSC_PropFamilyNames including CP_Essentials_FamilyNames",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "prop-pack-cal-ships-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC Prop Pack - CAL Ships Vol01 by callagrafx",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "prop-pack-cal-small-boats-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "BSC Prop Pack - CAL Small Boats Vol01 by callagrafx",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "prop-pack-diggis-ponds-1",
+      "versions": [
+        "1"
+      ],
+      "summary": "Models for the Diggis Ponds Base lots",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "prop-pack-diggis-ponds-2",
+      "versions": [
+        "1"
+      ],
+      "summary": "Models for the Diggis Ponds Grass Base lots",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "prop-pack-diggis-streams-1",
+      "versions": [
+        "1"
+      ],
+      "summary": "Models for the Diggis Streams Base and Diagonal Base lots",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "prop-pack-diggis-streams-2",
+      "versions": [
+        "1"
+      ],
+      "summary": "Models for the Diggis Streams Grass Base lots",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-mega-residentials-vol01-models",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG Models Residentials Vol01 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-mega-residentials-vol02-models",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG Models Residentials Vol02 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-mega-residentials-vol03-models",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG Models Residentials Vol03 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-mega-residentials-vol04-models",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG Models Residentials Vol04 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-adult",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_Adult by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-agriculture",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_Agriculture by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-civic-rewards",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "SG_Models_Civic_Rewards by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-civic-services",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "SG_Models_Civic_Services by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-department-stores",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_Department_Stores by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-education",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG Models Civic Education by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-entertainment",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_Entertainment by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-grocery-stores",
+      "versions": [
+        "3"
+      ],
+      "summary": "SG_Models_Grocery_Stores by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-hotels1",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_Hotels1 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-hotels2",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_Hotels2 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-iht",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_I-HT by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-im1",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_IM1 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-im2",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_IM2 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-large-stores",
+      "versions": [
+        "2"
+      ],
+      "summary": "SG_Models_Large_Stores by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-malls",
+      "versions": [
+        "3"
+      ],
+      "summary": "SG_Models_Malls by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-medium-shops1",
+      "versions": [
+        "2"
+      ],
+      "summary": "SG_Models_Medium_Shops1 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-motels",
+      "versions": [
+        "2"
+      ],
+      "summary": "SG_Models_Motels by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-offices-hirise1",
+      "versions": [
+        "3"
+      ],
+      "summary": "SG_Models_Offices_HiRise1 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-offices-hirise2",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_Offices_HiRise2 by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-offices-medium",
+      "versions": [
+        "3"
+      ],
+      "summary": "SG_Models_Offices_Medium by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-restaurants",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "SG_Models_Restaurants by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-sainsbury",
+      "versions": [
+        "2"
+      ],
+      "summary": "SG_Models_Sainsbury by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-small-shops",
+      "versions": [
+        "3"
+      ],
+      "summary": "SG_Models_Small_Shops by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-transportation",
+      "versions": [
+        "2"
+      ],
+      "summary": "SG_Models_Transportation by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-utilities",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "SG_Models_Utilities by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "sg-models-w2w-commercials",
+      "versions": [
+        "1"
+      ],
+      "summary": "SG Models W2W Commercials by SimGoober",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "texturepack-cycledogg-vol01",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC_TexturePack_Cycledogg_V 01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "textures-vol01",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC Textures Vol 01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "textures-vol02",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "BSC Textures Vol 02",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "textures-vol03",
+      "versions": [
+        "4"
+      ],
+      "summary": "BSC Textures Vol 03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "vip-girafe-carpack-vol01-vol02",
+      "versions": [
+        "2"
+      ],
+      "summary": "Grfe_Carpack_vol. 1 & 2 by Girafe, original version",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "vip-girafe-carpack-vol01-vol02-remastered",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Grfe_props_pack_Carpack_vol01-vol02_remastered by Girafe, uses separate IDs from the original",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "vip-girafe-carpack-vol03",
+      "versions": [
+        "2"
+      ],
+      "summary": "Grfe_CarPack_vol. 3 by Girafe",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "vip-girafe-carpack-vol04",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Carpack vol. 4 by Girafe",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "bsc",
+      "name": "vip-girafe-urbanpack-vol01",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Urban props by Girafe",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "cobb",
+      "name": "mega-props-vol01",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "COBB MEGA Props Vol01 by Cobb32118",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "cobb",
+      "name": "mega-props-vol02",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "COBB MEGA Props Vol02 by Cobb32118",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "cobb",
+      "name": "mega-props-vol03",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "COBB MEGA Props Vol03 by Cobb32118",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "cobb",
+      "name": "mega-props-vol04",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "COBB MEGA Props Vol04 by Cobb32118",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "cobb",
+      "name": "mega-props-vol05",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "COBB MEGA Props Vol05 by Cobb32118",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "cobb",
+      "name": "mega-props-vol06",
+      "versions": [
+        "1"
+      ],
+      "summary": "COBB MEGA Props Vol06 by Cobb32118",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "csx",
+      "name": "mega-props-vol01",
+      "versions": [
+        "3"
+      ],
+      "summary": "CSX MEGA Props Vol01 by Colyn",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "csx",
+      "name": "mega-props-vol02",
+      "versions": [
+        "3"
+      ],
+      "summary": "CSX MEGA Props Vol02 by Colyn",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "csx",
+      "name": "mega-props-vol03",
+      "versions": [
+        "3"
+      ],
+      "summary": "CSX MEGA Props Vol03 by Colyn",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "csx",
+      "name": "mega-props-vol04",
+      "versions": [
+        "3"
+      ],
+      "summary": "CSX MEGA Props Vol04 by Colyn",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "csx",
+      "name": "mega-props-vol05",
+      "versions": [
+        "3"
+      ],
+      "summary": "CSX MEGA Props Vol05 by Colyn",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "csx",
+      "name": "mega-props-vol06",
+      "versions": [
+        "3"
+      ],
+      "summary": "CSX MEGA Props Vol06 by Colyn",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "csx",
+      "name": "mega-props-vol07",
+      "versions": [
+        "3"
+      ],
+      "summary": "CSX MEGA Props Vol07 by Colyn",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "csx",
+      "name": "mega-props-vol08",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "CSX MEGA Props Vol08 by Colyn",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "csx",
+      "name": "mega-props-vol09",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "CSX MEGA Props Vol09 by Colyn",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "cycledogg",
+      "name": "missouri-breaks-terrain",
+      "versions": [
+        "2"
+      ],
+      "summary": "Badlands terrain mod based on eastern Montana, including Rock, Water & Beach mod",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "cycledogg",
+      "name": "tree-models-part-one-and-two",
+      "versions": [
+        "2.1"
+      ],
+      "summary": "CPT Terrain Essentials No8 and No9",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "cyclone-boom",
+      "name": "save-warning",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Disable the Save & Exit button to prevent save file corruption",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "345-california-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "345 California Center",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "432-park-avenue",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "432 Park Avenue, New York",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "aldred-building",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Aldred Building",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "aon-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Aon Center",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "ariel-east",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Ariel East at 2628 Broadway",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "bank-of-america-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "555 California Street (Bank Of America Center)",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "bd-bacata",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "BD Bacata",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "cahalane-communications",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Cahalane Communications",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "capella-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Capella Tower (225 South Sixth)",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "carlton-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Carlton Center",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "carlton-hotel-johannesburg",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Carlton Hotel Johannesburg",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "central-park-corporativo",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Central Park Corporativo",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "centurylink-tower-denver",
+      "versions": [
+        "2.0.0"
+      ],
+      "summary": "Centurylink Tower Denver (1801 California Street)",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "chanin-building",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Chanin Building",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "chicago-collection",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Diego Del Llano's Chicago landmarks collection",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "citigroup-center-los-angeles",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Citigroup Center Los Angeles",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "citigroup-center-new-york",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Citigroup Center New York, 601 Lexington Avenue",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "cititower-guadalajara",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Cititower Guadalajara",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "ciudadela-san-martin",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Ciudadela San Martin",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "ciudadela-san-martin-tower-one",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Ciudadela San Martin Tower One",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "columbia-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Columbia Center",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "comcast-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Comcast Center",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "commerzbank-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Commerzbank Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "complete-collection",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Complete collection of all of Diego Del Llano's landmarks",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "denver-art-museum",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Denver Art Museum: Frederic C Hamilton Building",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "denver-place",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Denver Place",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "distrito-armenia",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Distrito Armenia",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "edificio-alas",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Edificio Alas",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "edificio-avianca",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Edificio Avianca",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "edificio-del-cafe",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Edificio Del Café",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "edificio-lopez-serrano",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Edificio Lopez Serrano",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "edificio-playa-oriental",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Edificio Playa Oriental",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "federal-center-chicago",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Federal Center Chicago",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "fiestamericana-guadalajara",
+      "versions": [
+        "2.0.0"
+      ],
+      "summary": "Fiestamericana Guadalajara",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "figueroa-at-wilshire",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Figueroa At Wilshire",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "first-national-bank-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "First National Bank Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "fountain-place",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Fountain Place",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "gas-company-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Gas Company Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "gran-torre-santiago",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Gran Torre Santiago",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "great-american-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Great American Tower at Queen City Square",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "hogan-wallace-and-white-insurance",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Hogan Wallace And White Insurance",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "hotel-embassy-indianapolis",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Hotel Embassy Indianapolis",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "hotel-nikko-san-francisco",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Hotel Nikko San Francisco",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "hotel-presidente-guadalajara",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Hotel Presidente Guadalajara",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "hotel-presidente-intercontinental-mexico-city",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Hotel Presidente Intercontinental Mexico City",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "hotel-riu-plaza-guadalajara",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Hotel Riu Plaza Guadalajara",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "hyatt-ziva-tower-one",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Hyatt Ziva Tower One",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "hyatt-ziva-tower-two",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Hyatt Ziva Tower Two",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "ibm-marathon",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "IBM Marathon Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "icon-vallarta",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Icon Vallarta",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "john-hancock-center",
+      "versions": [
+        "2.0.0"
+      ],
+      "summary": "John Hancock Center",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "john-hancock-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "John Hancock Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "lasalle-wacker-building",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Lasalle-Wacker Building",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "latin-america-collection",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Latin American part of Diego Del Llano's landmarks collection",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "lind-entertainment",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Lind Entertainment",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "los-angeles-collection",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Diego Del Llano's Los Angeles landmarks collection",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "messeturm",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Messeturm",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "midtown-jalisco",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midtown Jalisco",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "nelson-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Nelson Tower, 450 Fashion Ave",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "new-york-collection",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Diego Del Llano's New York City landmarks collection",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "north-america-collection",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "North American part of Diego Del Llano's landmarks collection",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "olympia-centre",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Olympia Centre",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "one-chase-manhattan-plaza",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "One Chase Manhattan Plaza",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "one-cleveland-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "One Cleveland Center",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "one-kansas-city-place",
+      "versions": [
+        "2.0.0"
+      ],
+      "summary": "One Kansas City Place",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "one-liberty-place",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "One Liberty Place",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "one-metropolitan-square",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "One Metropolitan Square",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "one-shell-plaza",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "One Shell Plaza",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "one-shell-square",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "One Shell Square",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "one-world-trade-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "One World Trade Center",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "oneamerica-tower-indianapolis",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Oneamerica Tower Indianapolis",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "pedriana-pharmaceuticals",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Pedriana Pharmaceuticals",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "peninsula-puerto-vallarta",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Peninsula Puerto Vallarta",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "regions-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Regions Center",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "renaissance-tower-sacramento",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Renaissance Tower Sacramento",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "republic-plaza",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Republic Plaza",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "reynolds-building",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Reynolds Building",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "salesforce-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Salesforce Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "san-francisco-collection",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Diego Del Llano's San Francisco landmarks collection",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "santa-monica-clock-tower",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Santa Monica Clock Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "seattle-municipal-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Seattle Municipal Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "shaklee-terraces",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Shaklee Terraces, One Front Street",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "shangri-la",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Shangri-La condos",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "simmons-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Simmons Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "stephens-inc",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Stephens Inc",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "the-h1",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "The_H1 metropolitan services building from Mexico City",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "the-look-building",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "The Look Building",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "times-square-building",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Times Square Building",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "times-square-building-diagonal",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Times Square Building (Diagonal version)",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "torre-colpatria",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Torre Colpatria",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "torre-colseguros",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Torre Colseguros",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "torre-coltejer",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Torre Coltejer",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "torre-ejecutiva-pemex",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Torre Ejecutiva Pemex",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "torre-latinoamericana",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Torre Latinoamericana",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "torre-mayor",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Torre Mayor",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "torre-multiva",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Torre Multiva",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "torre-reforma",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Torre Reforma",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "torres-atrio",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Torres Atrio",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "transamerica-pyramid",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Transamerica Pyramid",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "tres-mares",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Tres Mares",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "turlington-building",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Ralph D. Turlington Florida Education Center",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "two-liberty-place",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Two Liberty Place",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "two-prudential-plaza",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Two Prudential Plaza",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "us-bank-library-tower",
+      "versions": [
+        "2.0.0"
+      ],
+      "summary": "U.S. Bank Library Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "van-prooijen-trading",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Van Prooijen Trading",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "ventura-place-one",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Ventura Place One",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "ventura-place-three",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Ventura Place Three",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "ventura-place-two",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Ventura Place Two",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "walkup-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "WalkUp Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "water-tower-place",
+      "versions": [
+        "2.0.0"
+      ],
+      "summary": "Water Tower Place",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "wells-fargo-center-denver",
+      "versions": [
+        "3.0.0"
+      ],
+      "summary": "Wells Fargo Center Denver",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "westin-regina",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Westin Regina",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "willis-tower",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Willis Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diego-del-llano",
+      "name": "willoughby-tower",
+      "versions": [
+        "2.0"
+      ],
+      "summary": "Willoughby Tower",
+      "category": [
+        "360-landmark"
+      ]
+    },
+    {
+      "group": "diggis",
+      "name": "ponds-collection",
+      "versions": [
+        "1"
+      ],
+      "summary": "Modular ploppable ponds",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "diggis",
+      "name": "streams-collection",
+      "versions": [
+        "1"
+      ],
+      "summary": "Modular ploppable streams",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "fanta1990",
+      "name": "automata-fix-pack-vol1",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Fix visual glitches of plane and train models",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "fanta1990",
+      "name": "hang-glider-makeover",
+      "versions": [
+        "1.1"
+      ],
+      "summary": "Detailed reskin of the hang-glider",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "fantozzi",
+      "name": "audio-essentials",
+      "versions": [
+        "1.3"
+      ],
+      "summary": "Broadly usable custom query sounds",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "fordoniak",
+      "name": "wies-pack",
+      "versions": [
+        "1"
+      ],
+      "summary": "Wieśpack village buildings and barn props",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "abies-grandis",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Abies grandis",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "alders",
+      "versions": [
+        "1"
+      ],
+      "summary": "Alders",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "ashes",
+      "versions": [
+        "2"
+      ],
+      "summary": "Ashes",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "beeches",
+      "versions": [
+        "3"
+      ],
+      "summary": "Beeches",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "berries",
+      "versions": [
+        "1"
+      ],
+      "summary": "Berries",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "birches",
+      "versions": [
+        "2"
+      ],
+      "summary": "Birches",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "bushes",
+      "versions": [
+        "2"
+      ],
+      "summary": "Bushes",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "canary-date-palms",
+      "versions": [
+        "1"
+      ],
+      "summary": "Canary date palms",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "cattails",
+      "versions": [
+        "2.1"
+      ],
+      "summary": "Cattails",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "chestnuts",
+      "versions": [
+        "1"
+      ],
+      "summary": "Chestnuts",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "common-spruces",
+      "versions": [
+        "1"
+      ],
+      "summary": "Common spruces",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "conifers",
+      "versions": [
+        "1"
+      ],
+      "summary": "Conifers",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "cypresses",
+      "versions": [
+        "1"
+      ],
+      "summary": "Cypresses",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "daisy",
+      "versions": [
+        "2"
+      ],
+      "summary": "Daisy",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "elms",
+      "versions": [
+        "1"
+      ],
+      "summary": "Elms",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "feather-grass",
+      "versions": [
+        "1"
+      ],
+      "summary": "Feather grass",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "flora-separator",
+      "versions": [
+        "1"
+      ],
+      "summary": "Mayor mode menu separators to categorize Girafe's plants",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "grand-firs",
+      "versions": [
+        "1"
+      ],
+      "summary": "Grand Firs (Abies Grandis v2)",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "hedges",
+      "versions": [
+        "1-1"
+      ],
+      "summary": "Hedge props originally distributed with Villa Libeskind",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "honey-locust",
+      "versions": [
+        "1"
+      ],
+      "summary": "Honey locust",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "larches",
+      "versions": [
+        "1"
+      ],
+      "summary": "Larches",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "lindens",
+      "versions": [
+        "1"
+      ],
+      "summary": "Lindens",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "lupins",
+      "versions": [
+        "1"
+      ],
+      "summary": "Lupins",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "maples",
+      "versions": [
+        "1"
+      ],
+      "summary": "Maples",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "maples-v2",
+      "versions": [
+        "1"
+      ],
+      "summary": "Maples v2",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "narcissus",
+      "versions": [
+        "1"
+      ],
+      "summary": "Narcissus",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "norway-maples",
+      "versions": [
+        "2"
+      ],
+      "summary": "Norway maples",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "oaks",
+      "versions": [
+        "2"
+      ],
+      "summary": "Oaks",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "parasol-pines",
+      "versions": [
+        "1"
+      ],
+      "summary": "Parasol pines",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "poplars",
+      "versions": [
+        "1"
+      ],
+      "summary": "Poplars",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "poppies",
+      "versions": [
+        "1"
+      ],
+      "summary": "Poppies",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "rowan-trees",
+      "versions": [
+        "3"
+      ],
+      "summary": "Rowan trees",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "serbian-spruces",
+      "versions": [
+        "2-1"
+      ],
+      "summary": "Serbian spruces v2",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "serbian-spruces-v1",
+      "versions": [
+        "1"
+      ],
+      "summary": "Serbian spruces (older BSC-TSC version)",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "sparaxis",
+      "versions": [
+        "1"
+      ],
+      "summary": "Sparaxis",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "subalpine-firs",
+      "versions": [
+        "1"
+      ],
+      "summary": "Subalpine firs",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "vines",
+      "versions": [
+        "2"
+      ],
+      "summary": "Vines",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "walnut-trees",
+      "versions": [
+        "1"
+      ],
+      "summary": "Walnut trees",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "girafe",
+      "name": "wheat",
+      "versions": [
+        "2"
+      ],
+      "summary": "Wheat",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "gn-leugim",
+      "name": "azuleijitos-apartment",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midsize European R$ apartment building (EHA) (EBLT)",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "gn-leugim",
+      "name": "eha-apartments-collection",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Collection of midsize European R$ apartment buildings (EBLT)",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "gn-leugim",
+      "name": "four-square-block",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Midsize European R$ apartment building (EHA) (EBLT)",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "gn-leugim",
+      "name": "high-fall-apartments",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Highrise European R$ apartment building (EHA) (EBLT)",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "gn-leugim",
+      "name": "lousy-apartment",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midsize European R$ apartment building (EHA) (EBLT)",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "gn-leugim",
+      "name": "mr-hammer-apartments",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midsize European R$ apartment building (EHA) (EBLT)",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "gn-leugim",
+      "name": "poor-apartments",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Small European R$ apartment building (EHA) (EBLT)",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "gn-leugim",
+      "name": "poor-terraces",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Small European R$ apartment building (EHA) (EBLT)",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "gutterclub",
+      "name": "camy-dumpling-house",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Small CS$ building",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "gutterclub",
+      "name": "city-tatoo",
+      "versions": [
+        "2.0"
+      ],
+      "summary": "Small CS$$ W2W building",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "gutterclub",
+      "name": "small-caffe-nero",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Small CS$$ W2W coffee shop",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "heinbloed4711",
+      "name": "hi-tech-missing-high-wealth-jobs",
+      "versions": [
+        "1.11"
+      ],
+      "summary": "Fix arithmetic error causing missing high-wealth jobs on most IH lots",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "hund88",
+      "name": "sunflower-field-props",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Sunflower props",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "ids2",
+      "name": "minneapolis-house-set",
+      "versions": [
+        "1.1"
+      ],
+      "summary": "32 R$$ houses with garages",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "jasoncw",
+      "name": "cecil-hotel",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "A highrise hotel (CS$) with a reputation",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "jenx",
+      "name": "cows",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Cows as god-mode ploppable fauna",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "jenx",
+      "name": "pigs",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Pigs as god-mode ploppable fauna",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "jenx",
+      "name": "sheep",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Sheep as god-mode ploppable fauna",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "jmyers2043",
+      "name": "homes-pack",
+      "versions": [
+        "1"
+      ],
+      "summary": "18 R$ houses",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-park-textures-1",
+      "versions": [
+        "1.12"
+      ],
+      "summary": "Park textures from King's Community & Regional Park Pack Vol1",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol1",
+      "versions": [
+        "1.12"
+      ],
+      "summary": "11 parks ranging from humble neighborhood park to a regional giant",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol2",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "Set of 36 large parks with a focus on sports",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol2-baseball-fields",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "6 baseball fields from King's Community & Regional Park Pack Vol2",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol2-community-parks",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "5 community parks from King's Community & Regional Park Pack Vol2",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol2-desolate-parks",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "2 abandoned parks from King's Community & Regional Park Pack Vol2",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol2-resources",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "Park textures and props from King's Community & Regional Park Pack Vol2",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol2-royal-trails",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "6 semi-modular trail lots from King's Community & Regional Park Pack Vol2",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol2-soccer-fields",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "4 soccer fields from King's Community & Regional Park Pack Vol2",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol2-softball-fields",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "6 softball fields from King's Community & Regional Park Pack Vol2",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol2-sports-complexes",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "3 sports complexes from King's Community & Regional Park Pack Vol2",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "community-regional-park-pack-vol2-tennis-parks",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "4 tennis parks from King's Community & Regional Park Pack Vol2",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "maxis-mansion-overhaul",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Full set of override Lots replacing all default Maxis mansion Lots",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "maxis-mansion-overhaul-extension-set",
+      "versions": [
+        "1.00"
+      ],
+      "summary": "33 additional lots supplementing the Maxis Mansion Overhaul",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "kingofsimcity",
+      "name": "superpaths-pathway-textures",
+      "versions": [
+        "1.00"
+      ],
+      "summary": "Park pathways overlay textures",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "kodlovag",
+      "name": "uniform-street-lighting-mod",
+      "versions": [
+        "1.1"
+      ],
+      "summary": "Uniform Street Lighting Mod (USL)",
+      "category": [
+        "900-overrides"
+      ]
+    },
+    {
+      "group": "krashspeed",
+      "name": "mailbox-set",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Mailbox and post box props",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "lbt",
+      "name": "mega-prop-pack-vol01",
+      "versions": [
+        "3.0"
+      ],
+      "summary": "Props by the Mexican BAT Team (MBT)",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "lowkee33",
+      "name": "seasonal-flora-patch-maxis",
+      "versions": [
+        "2"
+      ],
+      "summary": "A patch required to make seasonal flora work",
+      "category": [
+        "050-early-mods"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "coffee-shops-and-greasy-spoons",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Set of small coffee shops and restaurants",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "laundromats-and-drycleaners",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Set of various laundromats and drycleaners",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "liquor-stores",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Set of various liquor stores",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "low-wealth-commercial-shops-collection",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Full collection of madhatter106's Low Wealth Commercial Shops, Volumes 1-4",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "low-wealth-commercial-shops-vol1",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Low Wealth Commercial Shops Volume 1",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "low-wealth-commercial-shops-vol2",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Low Wealth Commercial Shops Volume 2",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "low-wealth-commercial-shops-vol3",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Low Wealth Commercial Shops Volume 3",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "low-wealth-commercial-shops-vol4",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Low Wealth Commercial Shops Volume 4",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "medium-wealth-commercial-shops-collection",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Both of madhatter106's Medium Wealth Commercial Shops sets.",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "medium-wealth-commercial-shops-vol1",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Twelve CS$$ Maxis-esque commercial shops on 1x1, 1x2 or 1x3 lots.",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "medium-wealth-commercial-shops-vol2",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Ten multi-story 1x1 CS$$ Maxis-esque commercial shops.",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-collection",
+      "versions": [
+        "1.1"
+      ],
+      "summary": "Full collection of madhatter106's Midrise Office Packs, Volumes 1-10",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-vol1",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midrise Office Pack Volume 1",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-vol10",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midrise Office Pack Volume 10",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-vol2",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midrise Office Pack Volume 2",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-vol3",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midrise Office Pack Volume 3",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-vol4",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midrise Office Pack Volume 4",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-vol5",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midrise Office Pack Volume 5",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-vol6",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midrise Office Pack Volume 6",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-vol7",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midrise Office Pack Volume 7",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-vol8",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midrise Office Pack Volume 8",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "midrise-office-pack-vol9",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Midrise Office Pack Volume 9",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "madhatter106",
+      "name": "small-office-pack",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Set of small, Maxis-esque medium wealth (CO$$) offices",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "manchou",
+      "name": "houses-ag-models",
+      "versions": [
+        "1"
+      ],
+      "summary": "Agricultural building models",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "mandelsoft",
+      "name": "light-replacement-mod-props",
+      "versions": [
+        "4.0"
+      ],
+      "summary": "Streetlight models and props of LRM v4.0",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "marrast",
+      "name": "embankment-set",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Marrast's Embankment Set",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "mas71",
+      "name": "mega-props-vol01",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Repackaged version of MAS71 prop packs",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "17th-st-washington-dc",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "17th St, Washington DC (college)",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "art-deco-fire-station",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Art Deco fire station based on one from SimCity 3000",
+      "category": [
+        "610-safety"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "bass-hall-opera-house",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Bass Hall Opera House",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "benevolent-asylum",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Benevolent Asylum",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "bourke-st-public-school",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Bourke St Public School",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "bureau-of-bureaucracy",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Bureau of Bureaucracy",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "casino",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Casino",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "cbs-columbia-square-tv-station",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "CBS Columbia Square Television Station",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "city-college",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "City College",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "clinic",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Diagonal Junior and Senior School",
+      "category": [
+        "630-health"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "community-center",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Community Center",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "community-hall",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Community hall based on the Ballhaus Ost in Berlin",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "convention-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Convention Center",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "council-chambers-and-civic-center",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Bankstown Council Chambers and Civic Center",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "courthouse",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Courthouse",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "customs-house",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Customs House",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "dental-clinic",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Dental Clinic",
+      "category": [
+        "630-health"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "diagonal-courthouse",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Diagonal Courthouse",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "diagonal-hospital",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "A modern diagonal hospital",
+      "category": [
+        "630-health"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "diagonal-junior-and-senior-school",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Diagonal Junior and Senior School",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "diagonal-library",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Diagonal Georgian Style Library",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "diagonal-town-hall",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Diagonal Town Hall",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "disease-research-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Alternate Disearch Research Center (radiation free!)",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "eddy-hall",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Eddy Hall, Minnesota",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "engineering-department",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Engineering Department",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "engineering-department-diagonal",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Engineering Department (diagonal)",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "essex-county-recreation-center",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Essex County Recreation Center",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "galaxy-casino-hotel",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Galaxy Casino & Hotel",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "geisel-suess-library",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Geisel Suess Library, San Diego",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "georgian-library-with-modern-extension",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Georgian Library with Modern Extension",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "goulburn-st-fire-station",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Goulburn St Fire Station",
+      "category": [
+        "610-safety"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "griffith-observatory",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Griffith Observatory",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "harbor-clinic",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Harbor Clinic",
+      "category": [
+        "630-health"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "hotondo-homes-airlee-199",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "4 R$$ house models for small lots",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "james-park-house",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "James Park House",
+      "category": [
+        "630-health"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "karlsruhe-courthouse",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Karlsruhe Courthouse",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "lafayette-square-homes",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "LaFayette Square St. Louis Row Homes",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "large-modern-hospital",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Large Modern Hospital",
+      "category": [
+        "630-health"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "london-stock-exchange",
+      "versions": [
+        "1.0.1"
+      ],
+      "summary": "London Stock Exchange",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "madame-tussauds",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Madame Tussauds, Hollywood",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "meeting-hall",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "An old style meeting hall for your cities and towns.",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "modern-bureau-of-bureaucracy",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Modern Bureau of Bureaucracy",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "modern-fire-station",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Modern Fire Station",
+      "category": [
+        "610-safety"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "modern-police-station",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Modern Police Station",
+      "category": [
+        "610-safety"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "museum-of-modern-art-san-francisco",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Museum of Modern Art, San Francisico",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "national-geographic-society-hq",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "National Geographic Society Headquarters (museum)",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "new-england-style-church",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "A simple, yet idyllic church typical of rural New England",
+      "category": [
+        "650-religion"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "old-delaware-county-courthouse",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Old Delaware County Courthouse",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "old-diagonal-fire-station",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "An old diagonal fire station",
+      "category": [
+        "610-safety"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "old-north-church-boston",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Old North Church, Boston",
+      "category": [
+        "650-religion"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "old-nypd-headquarters",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Old NYPD Headquarters",
+      "category": [
+        "610-safety"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "old-nypd-headquarters-diagonal",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Old NYPD Headquarters (diagonal)",
+      "category": [
+        "610-safety"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "old-orlando-city-hall",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Old Orlando City Hall",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "perth-council-building",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Convention Center",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "radio-station",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Radio Station",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "research-center",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Research Center",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "sau-paulo-art-museum",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Sao Paulo Art Museum",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "sioux-falls-city-hall",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Sioux Falls City Hall",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "southern-poverty-law-center",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Southern Poverty Law Center",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "spitalfields-house-diagonal-college",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Spitalfields House Diagonal College",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "spring-st-soup-kitchen",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Spring St Soup Kitchen, NYC",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "st-johns-church",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "St Johns Church, Washington DC",
+      "category": [
+        "650-religion"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "street-planters-and-benches",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Street Planters and Benches",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "street-planters-and-benches-1x1-plazas",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "1x1 Park lots using the Street Planters and Benches prop set",
+      "category": [
+        "660-parks"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "sunken-library",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "A unique, sunken library",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "the-lodge-canberra",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "The Lodge, Canberra",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "trade-union-hall",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Trade Union Hall",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "union-club-clinic",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "The Union Club Clinic",
+      "category": [
+        "630-health"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "urban-civics-prop-pack-vol01",
+      "versions": [
+        "1"
+      ],
+      "summary": "Urban Civics Prop Pack Vol01 by mattb325",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "urban-school",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Urban School",
+      "category": [
+        "620-education"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "vandamm-house",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Vandamm House",
+      "category": [
+        "640-government"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "world-health-organisation",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "World Health Organisation Geneva",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "mattb325",
+      "name": "youtube-headquarters",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "YouTube Headquarters",
+      "category": [
+        "600-civics"
+      ]
+    },
+    {
+      "group": "maxis",
+      "name": "castle-set",
+      "versions": [
+        "1"
+      ],
+      "summary": "CastleSet.dat dependency from the Maxis additional landmarks",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "memo",
+      "name": "essential-fixes",
+      "versions": [
+        "0.1.2"
+      ],
+      "summary": "A collection of important fixes everyone should have",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "memo",
+      "name": "industrial-revolution-mod",
+      "versions": [
+        "2.0.0"
+      ],
+      "summary": "Alter the appearance of all Maxis industrial lots (IRM base pack)",
+      "category": [
+        "400-industrial"
+      ]
+    },
+    {
+      "group": "mgb204",
+      "name": "anyone-for-tennis",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Textures and HD rendered props for making Tennis scenes (AoT)",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "mz",
+      "name": "opera-house-fix",
+      "versions": [
+        "beta1.1"
+      ],
+      "summary": "Fix the capacity of the opera house (Modpacc Zero)",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "namspopof",
+      "name": "bat-props-pack-vol02",
+      "versions": [
+        "1"
+      ],
+      "summary": "Nams BATs Props Pack Vol 02",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "namspopof",
+      "name": "bat-props-pack-vol03",
+      "versions": [
+        "1"
+      ],
+      "summary": "Nams BATs Props Pack Vol 03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "namspopof",
+      "name": "props-pack-vol1",
+      "versions": [
+        "1"
+      ],
+      "summary": "Nams Props Pack Vol 01",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "namspopof",
+      "name": "props-pack-vol2",
+      "versions": [
+        "1"
+      ],
+      "summary": "Nams Props Pack Vol 2",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "ncd",
+      "name": "rail-yard-and-spur-mega-pak-1",
+      "versions": [
+        "3"
+      ],
+      "summary": "Textures for realistic railyards and industrial lots",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "ndex",
+      "name": "textures-vol1",
+      "versions": [
+        "2"
+      ],
+      "summary": "NDEX Texture Set Volume 1",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "neko",
+      "name": "prop-set-vol01-part1",
+      "versions": [
+        "1"
+      ],
+      "summary": "Neko Prop Set 01 - part 1",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "neko",
+      "name": "prop-set-vol01-part2",
+      "versions": [
+        "1"
+      ],
+      "summary": "Neko Prop Set 01 - part 2",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "neko",
+      "name": "prop-set-vol02",
+      "versions": [
+        "1"
+      ],
+      "summary": "Neko Prop Set 02",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "neko",
+      "name": "prop-set-vol03",
+      "versions": [
+        "1"
+      ],
+      "summary": "Neko Prop Set 03",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "nexis",
+      "name": "greenhouse-props",
+      "versions": [
+        "2.0"
+      ],
+      "summary": "Nexis_GreenhouseSet.dat from FrankU's Dutch Farm Fields",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "nofunk",
+      "name": "city-savings-bank",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Small bank building (CS$$)",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "nofunk",
+      "name": "jingo-and-blotts",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Small W2W commercial building (CS$$)",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "nofunk",
+      "name": "renaissance-books",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Small used book store (CS$)",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "nofunk",
+      "name": "sarajevo-lounge",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Small restaurant and bar from Seattle (CS$)",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "nofunk",
+      "name": "wagner-ltd",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Small architectural services firm (CS$$)",
+      "category": [
+        "300-commercial"
+      ]
+    },
+    {
+      "group": "nybt",
+      "name": "essentials",
+      "versions": [
+        "2"
+      ],
+      "summary": "Query windows for NYBT BATs",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "orange",
+      "name": "aesculus",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Aesculus seasonal flora (VIP)",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "orange",
+      "name": "agri-pack",
+      "versions": [
+        "2.0"
+      ],
+      "summary": "Ploppable wheat harvesting props, tractors and agricultural machinery (VIP)",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "orange",
+      "name": "fagus",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Fagus seasonal flora (VIP)",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "peg",
+      "name": "mtp-super-pack",
+      "versions": [
+        "1.5"
+      ],
+      "summary": "Mountain Theme Pack props and textures",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "peg",
+      "name": "power-tower-pylons",
+      "versions": [
+        "1.01"
+      ],
+      "summary": "Reskin of the game's power transmission towers",
+      "category": [
+        "500-utilities"
+      ]
+    },
+    {
+      "group": "peg",
+      "name": "security-fencing-kit",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Collection of chain link fence props",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "peg",
+      "name": "spam-super-resource-pack",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Props and textures for SPAM",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "porkissimo",
+      "name": "jenx-porkie-expanded-porkie-props",
+      "versions": [
+        "1"
+      ],
+      "summary": "JENX-Porkie Expanded Porkie Props",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "rretail",
+      "name": "mega-prop-pack-vol1",
+      "versions": [
+        "1.6"
+      ],
+      "summary": "RR prop pack vol. 1-5",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "11241036-central-european-tree-controller",
+      "versions": [
+        "1.03"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "andisart-sc13-style-homes-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "andisart-sc13-style-homes-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "apeek-automata-fix-pack-vol1",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "apeek-hang-glider-makeover",
+      "versions": [
+        "1.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "aqua-877-jrs-prop-pack-signs",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "blunder-pacific-northwest-tree-controller",
+      "versions": [
+        "1.01"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "blunder-stanley-seawalls",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "bsc-census-repository-building-by-ripplejet",
+      "versions": [
+        "3.5"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "bsc-diggis-complete-ponds-and-streams",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "bsc-no-maxis",
+      "versions": [
+        "2"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "bsc-vip-girafe-flora-pack",
+      "versions": [
+        "3"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "buggi-extra-cheats-dll",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "city-savings-bank-dn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "city-savings-bank-mn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "cycledogg-terrain-essentials-no8-no9",
+      "versions": [
+        "2.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "cycledogg-terrain-mods-sc4e",
+      "versions": [
+        "2"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "cyclone-boom-save-warning-disable-exit-quit",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-345-california-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-345-california-center-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-432-park-avenue",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-555-california-street-bank-of-america-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-aldred-building-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-aldred-building-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-aon-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-aon-center-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ariel-east-at-2628-broadway-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-bd-bacata-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-bd-bacata-south-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-cahalane-communications-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-cahalane-communications-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-capella-tower-225-south-sixth-2-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-capella-tower-225-south-sixth-2-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-capella-tower-225-south-sixth-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-capella-tower-225-south-sixth-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-carlton-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-carlton-center-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-carlton-hotel-johannesburg-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-carlton-hotel-johannesburg-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-central-park-corporativo-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-centurylink-tower-denver-1801-california-street",
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-chanin-building-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-chanin-building-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-citigroup-center-los-angeles-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-citigroup-center-new-york-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-cititower-guadalajara-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-cititower-guadalajara-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ciudadela-san-martin-complete-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ciudadela-san-martin-north-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ciudadela-san-martin-north-mall-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ciudadela-san-martin-south-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ciudadela-san-martin-tower-one-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ciudadela-san-martin-tower-one-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-columbia-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-columbia-center-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-comcast-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-comcast-center-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-commerzbank-tower-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-commerzbank-tower-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-denver-art-museum-frederic-c-hamilton-building",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-denver-place-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-denver-place-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-dirksen-courthouse-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-dirksen-courthouse-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-distrito-armenia-1000-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-distrito-armenia-2000-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-distrito-armenia-3000-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-edificio-alas-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-edificio-alas-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-edificio-avianca-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-edificio-avianca-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-edificio-del-cafe-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-edificio-lopez-serrano-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-edificio-lopez-serrano-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-edificio-playa-oriental-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-fiestamericana-guadalajara",
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-figueroa-at-wilshire-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-first-national-bank-tower-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-first-national-bank-tower-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-fountain-place-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-fountain-place-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-gas-company-tower-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-gas-company-tower-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-gran-torre-santiago-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-great-american-tower-at-queen-city-square",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hogan-wallace-and-white-insurance-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hogan-wallace-and-white-insurance-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hotel-embassy-indianapolis-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hotel-nikko-san-francisco-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hotel-presidente-guadalajara-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hotel-presidente-guadalajara-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hotel-presidente-intercontinental-mexico-city-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hotel-presidente-intercontinental-mexico-city-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hotel-riu-plaza-guadalajara-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hyatt-ziva-tower-one-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hyatt-ziva-tower-one-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hyatt-ziva-tower-two-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-hyatt-ziva-tower-two-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ibm-marathon-1250-rene-levesque-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ibm-marathon-1250-rene-levesque-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-icon-vallarta-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-icon-vallarta-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-john-hancock-center",
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-john-hancock-tower-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-kluczynski-building-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-kluczynski-building-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-lasalle-wacker-building-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-lasalle-wacker-building-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-lind-entertainment-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-lind-entertainment-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-loop-postal-station-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-loop-postal-station-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-messeturm-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-midtown-jalisco-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-nelson-tower-450-fashion-ave-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-nelson-tower-450-fashion-ave-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-olympia-centre",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-chase-manhattan-plaza-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-cleveland-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-kansas-city-place-darknite",
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-kansas-city-place-maxisnite",
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-liberty-place-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-liberty-place-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-metropolitan-square-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-metropolitan-square-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-shell-plaza-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-shell-square-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-one-world-trade-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-oneamerica-tower-indianapolis",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-pedriana-pharmaceuticals-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-pedriana-pharmaceuticals-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-peninsula-puerto-vallarta-no-plaza-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-peninsula-puerto-vallarta-no-plaza-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ralph-d-turlington-florida-education-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-regions-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-regions-center-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-renaissance-tower-sacramento",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-republic-plaza-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-reynolds-building-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-reynolds-building-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-salesforce-tower-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-santa-monica-clock-tower-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-santa-monica-clock-tower-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-seattle-municipal-tower-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-seattle-municipal-tower-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-seattle-municipal-tower-no-plaza-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-seattle-municipal-tower-no-plaza-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-shaklee-terraces-one-front-street-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-shangri-la-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-shangri-la-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-simmons-tower-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-simmons-tower-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-stephens-inc-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-stephens-inc-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-the-h1-hybrid-building-for-metropolitan-services-in-mexico-city-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-the-h1-hybrid-building-for-metropolitan-services-in-mexico-city-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-the-look-building-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-the-look-building-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-times-square-building-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-times-square-building-diagonal-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-times-square-building-diagonal-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-times-square-building-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-colpatria-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-colpatria-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-colseguros-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-coltejer-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-ejecutiva-pemex-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-ejecutiva-pemex-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-latinoamericana-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-latinoamericana-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-mayor-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-mayor-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-multiva-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-multiva-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-reforma-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torre-reforma-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torres-atrio-norte-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torres-atrio-norte-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torres-atrio-sur-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-torres-atrio-sur-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-transamerica-pyramid-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-transamerica-pyramid-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-tres-mares-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-tres-mares-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-two-liberty-place-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-two-liberty-place-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-two-prudential-plaza-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-us-bank-library-tower-darknite",
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-us-bank-library-tower-maxisnite",
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-van-prooijen-trading-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-van-prooijen-trading-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ventura-place-one-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ventura-place-one-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ventura-place-three-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ventura-place-three-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ventura-place-two-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-ventura-place-two-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-walkup-tower-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-walkup-tower-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-water-tower-place-darknite",
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-wells-fargo-center-denver",
+      "versions": [
+        "3.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-westin-regina-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-westin-regina-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-willis-tower-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-willis-tower-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "diego-del-llano-willoughby-tower-darknite",
+      "versions": [
+        "2.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "fantozzi-audio-essentials",
+      "versions": [
+        "1.3"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "fordoniak-wies-pack",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "franku-dutch-farm-fields",
+      "versions": [
+        "2.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gnl-eha-azuleijitos-apartment",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gnl-eha-four-square-block",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gnl-eha-high-fall-apartments",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gnl-eha-lousy-apartments",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gnl-eha-mr-hammer-apartments",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gnl-eha-poor-apartments",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gnl-eha-poor-terraces",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gutterclub-camy-dumpling-house",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gutterclub-camy-dumpling-house-maxisnite-model-patch",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gutterclub-city-tatoo-dn",
+      "versions": [
+        "2.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gutterclub-city-tatoo-mn",
+      "versions": [
+        "2.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gutterclub-small-caffe-nero-dn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "gutterclub-small-caffe-nero-mn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "heinbloed4711-ih-missing-r3-jobs-fix",
+      "versions": [
+        "1.11"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "hund88-sunflower-field-props",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "ids-houses-garages-darknite",
+      "versions": [
+        "1.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "ids-houses-garages-maxisnite",
+      "versions": [
+        "1.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "jasoncw-cecil-hotel-camelot",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "jasoncw-cecil-hotel-dn",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "jasoncw-cecil-hotel-mn",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "jenx-fauna",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "jenx-porkie-expanded-porkie-props",
+      "versions": [
+        "1-1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "jingo-and-blotts-dn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "jingo-and-blotts-mn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "jmyers-homes-pack",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "kingofsimcity-superpaths-pathway-textures",
+      "versions": [
+        "1.00"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "kings-community-regional-park-pack-vol1",
+      "versions": [
+        "1.12"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "kings-community-regional-park-pack-vol2",
+      "versions": [
+        "1.01"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "kodlovag-uniform-street-lighting-mod",
+      "versions": [
+        "1.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "kosc-maxis-mansion-overhaul-extension-set",
+      "versions": [
+        "1.00"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "kosc-maxis-mansion-overhaul-standalone",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "krashspeeds-mailbox-set",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "lbt-mega-prop-pack-vol01",
+      "versions": [
+        "3.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "light-replacement-mod-4-mega-pack-mac",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "light-replacement-mod-4-mega-pack-maxisnite-patch",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "light-replacement-mod-4-memo-maxisnite-dim-patch",
+      "versions": [
+        "2"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "lowkee33-seasonal-flora-patch",
+      "versions": [
+        "2"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-coffee-shops-greasy-spoons",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-laundromats-drycleaners",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-liquor-stores",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-low-wealth-commercial-shops-vol1",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-low-wealth-commercial-shops-vol2",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-low-wealth-commercial-shops-vol3",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-low-wealth-commercial-shops-vol4",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-medium-wealth-commercial-shops-vol1",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-medium-wealth-commercial-shops-vol2",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-midrise-office-pack-vol1",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-midrise-office-pack-vol10",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-midrise-office-pack-vol2",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-midrise-office-pack-vol3",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-midrise-office-pack-vol4",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-midrise-office-pack-vol5",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-midrise-office-pack-vol6",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-midrise-office-pack-vol7",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-midrise-office-pack-vol8",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-midrise-office-pack-vol9",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "madhatter106-small-office-pack",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "manchou-pack-village-vol02",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "marrast-embankment-set",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mas71-mega-prop-pack-vol01-misc",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-17th-st-washington-dc-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-17th-st-washington-dc-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-art-deco-fire-station-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-art-deco-fire-station-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-bass-hall-opera-house-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-bass-hall-opera-house-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-bureau-of-bureaucracy",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-casino-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-casino-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-cbs-columbia-square-tv-station",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-city-college-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-city-college-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-clinic-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-clinic-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-community-center-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-community-center-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-community-hall-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-community-hall-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-convention-center",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-council-chambers-and-civic-center-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-council-chambers-and-civic-center-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-courthouse",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-customs-house",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-dental-clinic",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-diagonal-courthouse-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-diagonal-courthouse-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-diagonal-hospital-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-diagonal-hospital-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-diagonal-junior-and-senior-school-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-diagonal-junior-and-senior-school-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-diagonal-library-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-diagonal-library-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-diagonal-town-hall-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-diagonal-town-hall-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-disease-research-center",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-disease-research-center-mac-fix",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-eddy-hall",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-engineering-dept-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-engineering-dept-diag-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-engineering-dept-diag-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-engineering-dept-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-essex-county-recreation-center-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-essex-county-recreation-center-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-galaxy-casino-hotel-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-galaxy-casino-hotel-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-geisel-suess-library-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-geisel-suess-library-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-georgian-library-with-modern-extension-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-georgian-library-with-modern-extension-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-goulburn-st-fire-station-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-goulburn-st-fire-station-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-griffith-observatory",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-harbor-clinic",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-hotondo-homes-airless-199-dn",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-hotondo-homes-airless-199-mn",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-james-park-house",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-karlsruhe-courthouse",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-lafayette-square-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-lafayette-square-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-large-modern-hospital-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-large-modern-hospital-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-london-stock-exchange",
+      "versions": [
+        "1.0.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-madame-tussauds-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-madame-tussauds-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-meeting-hall-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-meeting-hall-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-modern-bureau-of-bureaucracy-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-modern-bureau-of-bureaucracy-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-modern-fire-station-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-modern-fire-station-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-modern-police-station-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-modern-police-station-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-museum-of-modern-art-san-francisco",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-national-geographic-society-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-national-geographic-society-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-new-england-style-church-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-new-england-style-church-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-old-delaware-county-courthouse",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-old-diagonal-fire-station-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-old-diagonal-fire-station-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-old-north-church-boston",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-old-nypd-headquarters-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-old-nypd-headquarters-diagonal-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-old-nypd-headquarters-diagonal-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-old-nypd-headquarters-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-old-orlando-city-hall-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-old-orlando-city-hall-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-perth-council-building",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-radio-station",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-research-center",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-sau-paulo-art-museum-darknite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-sau-paulo-art-museum-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-sioux-falls-city-hall-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-sioux-falls-city-hall-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-southern-poverty-law-center-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-southern-poverty-law-center-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-spitalfields-house-diagonal-college-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-spitalfields-house-diagonal-college-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-spring-st-soup-kitchen-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-spring-st-soup-kitchen-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-st-johns-church-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-st-johns-church-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-street-planters-and-benches",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-sunken-library-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-sunken-library-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-the-lodge-canberra-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-the-lodge-canberra-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-trade-union-hall-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-trade-union-hall-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-union-club-clinic-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-union-club-clinic-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-urban-civics-prop-pack-vol01-darknite",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-urban-civics-prop-pack-vol01-maxisnite",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-urban-school",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-vandamm-house-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-vandamm-house-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-world-health-organisation-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-world-health-organisation-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-youtube-headquarters-darknite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mattb325-youtube-headquarters-maxisnite",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "maxis-additional-landmarks",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "maxis-tree-hd-replacement-base-pack",
+      "versions": [
+        "1.0.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "memo-bsc-no-maxis-mansions",
+      "versions": [
+        "2"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "memo-industrial-revolution-mod",
+      "versions": [
+        "2.0.0-RC1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "mgb204-anyone-for-tennis",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "modpacc-zero-opera-house-fixes",
+      "versions": [
+        "beta1.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "nams-bats-props-pack-vol-02",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "nams-bats-props-pack-vol-03",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "nams-props-pack-vol-01",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "nams-props-pack-vol-02",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "ncd-rail-yard-and-spur-mega-pak",
+      "versions": [
+        "3"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "ndex-texture-set-volume-1",
+      "versions": [
+        "2"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "neko-prop-set-vol01-part1",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "neko-prop-set-vol01-part2",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "neko-prop-set-vol02",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "neko-prop-set-vol03",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "nofunk-sarajevo-lounge-dn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "nofunk-sarajevo-lounge-mn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "nos-17-irm-expansions-and-addons-cam-ed",
+      "versions": [
+        "1.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "nybt-essentials",
+      "versions": [
+        "2"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "peg-mtp-super-pack",
+      "versions": [
+        "1.5"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "peg-power-tower-pylons",
+      "versions": [
+        "1.01"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "peg-security-fencing-kit",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "peg-spam-super-resource-pack",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "renaissance-books-dn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "renaissance-books-mn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "rr-mega-prop-pack-vol-1",
+      "versions": [
+        "1.6"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "sc4d-lex-legacy-bsc-common-dependencies-pack",
+      "versions": [
+        "8"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "sc4d-lex-legacy-mattb325-civics-and-rewards-darknite",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "scoty-zoning-mod",
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "sfbt-essentials",
+      "versions": [
+        "2015"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "shk-hd-rock-mods",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "shk-parking-pack",
+      "versions": [
+        "1.2"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "simcoug-lots-vol01-of-jmyers-homes-vol01",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "simfox-day-and-nite-modd",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "simmaster07-extra-cheats-dll",
+      "versions": [
+        "1.1.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "simmaster07-sc4fix",
+      "versions": [
+        "1.0.7"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "smp-yellow-pause-thingy-remover",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "spa-church-street-apartments",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "spa-halifax-boxes",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "supershk-fa3-parking-textures",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "supershk-mega-parking-textures",
+      "versions": [
+        "1.0.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "t-wrecks-irm-addon-set-i-d",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "t-wrecks-irm-addon-set-i-m",
+      "versions": [
+        "1.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "t-wrecks-maxis-prop-names-and-query-fix",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "toroca-industry-quadrupler",
+      "versions": [
+        "2.1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "toroca-opera-house-fix",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "vip-orange-aesculus",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "vip-orange-agri-pack",
+      "versions": [
+        "2.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "vip-orange-fagus-seasonal-flora",
+      "versions": [
+        "1.0-2"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "vip-rural-pack",
+      "versions": [
+        "2.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "vip-terrain-mod",
+      "versions": [
+        "1"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "wagner-ltd-dn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "wagner-ltd-mn",
+      "versions": [
+        "1.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "wmp-mega-props-vol01",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "sc4pacAsset",
+      "name": "wmp-mega-props-vol02",
+      "versions": [
+        "1.0.0"
+      ]
+    },
+    {
+      "group": "scoty",
+      "name": "zoning-mod-maxis",
+      "versions": [
+        "2.0.0"
+      ],
+      "summary": "Increase maximum size for all zones and remove 4×4 minimum size limit from agricultural zones",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "sfbt",
+      "name": "essentials",
+      "versions": [
+        "2015"
+      ],
+      "summary": "Custom UIs, textures and props for SFBT lots",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "shk",
+      "name": "hd-rock-mod-01",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "HD Rock Mod 01 - grey & black",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "shk",
+      "name": "hd-rock-mod-02",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "HD Rock Mod 02 - bright, silvery w/ red & pink",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "shk",
+      "name": "hd-rock-mod-03",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "HD Rock Mod 03 - dark brown",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "shk",
+      "name": "hd-rock-mod-04",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "HD Rock Mod 04 - mossy grey",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "shk",
+      "name": "hd-rock-mod-05",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "HD Rock Mod 05 - red/pink granite",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "shk",
+      "name": "parking-pack",
+      "versions": [
+        "1.2"
+      ],
+      "summary": "Parking lot textures, vehicle props and parking props",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "simcoug",
+      "name": "lots-vol01-jmyers-homes",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "47 new growable lots extending JMyers Homes Pack",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "simfox",
+      "name": "day-and-nite-mod",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Alter the appearence of Day and Night view (DarkNite mod)",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "simmaster07",
+      "name": "extra-cheats-dll",
+      "versions": [
+        "1.1.1-1"
+      ],
+      "summary": "Enables additional cheat codes",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "simmaster07",
+      "name": "sc4fix",
+      "versions": [
+        "1.0.7"
+      ],
+      "summary": "Third-party patches for SC4",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "smp",
+      "name": "yellow-pause-thingy-remover",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Remove the yellow border from the UI when the game is paused",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "spa",
+      "name": "church-street-apartments",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Small wooden duplexes (R$$)",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "spa",
+      "name": "halifax-boxes",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Halifax Box wall-to-wall residential set",
+      "category": [
+        "200-residential"
+      ]
+    },
+    {
+      "group": "supershk",
+      "name": "fa3-parking-textures",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Fractional-angle parking lot textures",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "supershk",
+      "name": "mega-parking-textures",
+      "versions": [
+        "1.0.1"
+      ],
+      "summary": "Parking lot textures",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "t-wrecks",
+      "name": "industrial-revolution-mod-addon-set-i-d",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "38 growable I-D filler lots to supplement the IRM",
+      "category": [
+        "400-industrial"
+      ]
+    },
+    {
+      "group": "t-wrecks",
+      "name": "industrial-revolution-mod-addon-set-i-m",
+      "versions": [
+        "1.1"
+      ],
+      "summary": "45 growable I-M filler lots to supplement the IRM",
+      "category": [
+        "400-industrial"
+      ]
+    },
+    {
+      "group": "t-wrecks",
+      "name": "maxis-prop-names-and-query-fix",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Make all Maxis props behave like buildings in terms of names and queries",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "t-wrecks",
+      "name": "maxis-tree-hd-replacement-mod",
+      "versions": [
+        "1.0.1"
+      ],
+      "summary": "Replacement of all Maxis trees on lots and roadsides",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "toroca",
+      "name": "industry-quadrupler",
+      "versions": [
+        "2.1"
+      ],
+      "summary": "Quadruple the number of jobs of Maxis industrial buildings",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "toroca",
+      "name": "opera-house-fix",
+      "versions": [
+        "1.0"
+      ],
+      "summary": "Superseded by mz:opera-house-fix",
+      "category": [
+        "150-mods"
+      ]
+    },
+    {
+      "group": "vip",
+      "name": "rural-pack",
+      "versions": [
+        "2.0"
+      ],
+      "summary": "Seasonal ploppable plants and decorative elements",
+      "category": [
+        "180-flora"
+      ]
+    },
+    {
+      "group": "vip",
+      "name": "vip-terrain-mod-base",
+      "versions": [
+        "1"
+      ],
+      "summary": "VIP Terrain Mod - Terrain Only",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "vip",
+      "name": "vip-terrain-mod-beach",
+      "versions": [
+        "1"
+      ],
+      "summary": "VIP Terrain Mod - Beach Textures",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "vip",
+      "name": "vip-terrain-mod-complete",
+      "versions": [
+        "1"
+      ],
+      "summary": "VIP Terrain Mod - All Components",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "vip",
+      "name": "vip-terrain-mod-rock",
+      "versions": [
+        "1"
+      ],
+      "summary": "VIP Terrain Mod - Rock Textures",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "vip",
+      "name": "vip-terrain-mod-water",
+      "versions": [
+        "1"
+      ],
+      "summary": "VIP Terrain Mod - Water Textures",
+      "category": [
+        "170-terrain"
+      ]
+    },
+    {
+      "group": "wmp",
+      "name": "mega-props-vol01",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Miscellaneous general props",
+      "category": [
+        "100-props-textures"
+      ]
+    },
+    {
+      "group": "wmp",
+      "name": "mega-props-vol02",
+      "versions": [
+        "1.0.0"
+      ],
+      "summary": "Miscellaneous industrial props",
+      "category": [
+        "100-props-textures"
+      ]
+    }
+  ]
+}

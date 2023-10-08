@@ -1,0 +1,28 @@
+{
+  "$type": "Package",
+  "group": "madhatter106",
+  "name": "midrise-office-pack-vol3",
+  "version": "1.0",
+  "subfolder": "300-commercial",
+  "info": {
+    "summary": "Midrise Office Pack Volume 3",
+    "author": "madhatter106",
+    "website": "https://community.simtropolis.com/files/file/27647-midrise-office-pack-volume-3/",
+    "requiredBy": [
+      "madhatter106:midrise-office-pack-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "madhatter106-midrise-office-pack-vol3"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "madhatter106/midrise-office-pack.yaml"
+  ]
+}

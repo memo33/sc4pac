@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "walkup-tower",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "WalkUp Tower",
+    "description": "WalkUp is a Residential Offices Building created by the Maxis Team.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32040-walkup-tower/",
+    "requiredBy": [
+      "diego-del-llano:complete-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-walkup-tower-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-walkup-tower-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/walkup-tower.yaml"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "peg-mtp-super-pack",
+  "version": "1.5",
+  "url": "https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/?do=download",
+  "lastModified": "2022-07-04T23:43:31Z",
+  "requiredBy": [
+    "peg:mtp-super-pack"
+  ]
+}

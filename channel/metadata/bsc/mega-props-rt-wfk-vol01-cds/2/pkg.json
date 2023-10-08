@@ -1,0 +1,30 @@
+{
+  "$type": "Package",
+  "group": "bsc",
+  "name": "mega-props-rt-wfk-vol01-cds",
+  "version": "2",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "BSC MEGA Props - RT WFK Vol01 - CdS by Ripptide, Waterfront Kit, Casa de Sol",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack",
+    "requiredBy": [
+      "bsc:mega-props-rt-wfk-vol01"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "sc4d-lex-legacy-bsc-common-dependencies-pack",
+          "include": [
+            "/BSC MEGA Props - RT WFK Vol01 - CdS v..dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "bsc/common-dependencies.yaml"
+  ]
+}

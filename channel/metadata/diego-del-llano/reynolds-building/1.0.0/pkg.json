@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "reynolds-building",
+  "version": "1.0.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Reynolds Building",
+    "description": "The Reynolds Building is a 314-foot (96 m) Art Deco skyscraper at 51 E. 4th Street in Winston-Salem, Forsyth County, North Carolina with 313,996 square feet (29,171.2 m2) of space. It was completed in 1929 and has 21 floors.For much of its history the building served as headquarters for R. J. Reynolds Tobacco Company. After a sale to PMC Property Group in 2014, the building went through an estimated $60 million in renovations. In March 2016, The Residences @ the R.J. Reynolds Building, apartments located on the top 11 floors, opened. The first six floors opened as the Kimpton Cardinal Hotel in April. Katharine Brasserie & Bar, a restaurant named for Katharine Smith Reynolds, followed in May.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/35538-reynolds-buidling/",
+    "requiredBy": [
+      "diego-del-llano:north-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-reynolds-building-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-reynolds-building-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/reynolds-building.yaml"
+  ]
+}

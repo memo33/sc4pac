@@ -1,0 +1,60 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "chicago-collection",
+  "version": "1.0.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Diego Del Llano's Chicago landmarks collection",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file",
+    "requiredBy": [
+      "diego-del-llano:north-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "diego-del-llano",
+          "name": "federal-center-chicago",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "john-hancock-center",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "olympia-centre",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "two-prudential-plaza",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "water-tower-place",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "willis-tower",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "willoughby-tower",
+          "version": "latest.release"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/chicago-collection.yaml"
+  ]
+}

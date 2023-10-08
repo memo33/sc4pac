@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-one-world-trade-center-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31913-one-world-trade-center/?do=download",
+  "lastModified": "2017-08-22T12:17:37Z",
+  "requiredBy": [
+    "diego-del-llano:one-world-trade-center"
+  ]
+}

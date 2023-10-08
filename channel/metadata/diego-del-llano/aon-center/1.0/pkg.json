@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "aon-center",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Aon Center",
+    "description": "Aon Center is a 62-story, 860 ft (260 m) Modernist office skyscraper at 707 Wilshire Boulevard in downtown Los Angeles, California. Designed by Charles Luckman, site excavation started in late-1970, and the tower was completed in 1973, the rectangular bronze-clad building with white trim is remarkably slender for a skyscraper in a seismically active area. It is the second tallest building in Los Angeles, the second tallest in California, and the 31st tallest in the United States. The logo of the Aon Corporation, its anchor tenant, is displayed at the top in red.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/31490-aon-center/",
+    "requiredBy": [
+      "diego-del-llano:los-angeles-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-aon-center-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-aon-center-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/aon-center.yaml"
+  ]
+}

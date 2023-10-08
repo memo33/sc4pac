@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "bank-of-america-center",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "555 California Street (Bank Of America Center)",
+    "description": "555 California Street, formerly Bank of America Center, is a 52-story 779 ft (237 m) skyscraper in San Francisco, California. It is the fourth tallest building in the city, the largest by floor area,  and a focal point of the Financial District.\nCompleted in 1969, the tower was the tallest building west of the Mississippi River until the completion of the Transamerica Pyramid in 1972, and the world headquarters of Bank of America until the 1998 merger with NationsBank, when the company moved its headquarters to the Bank of America Corporate Center in Charlotte, North Carolina.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32782-555-california-street-bank-of-america-center/",
+    "requiredBy": [
+      "diego-del-llano:san-francisco-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-555-california-street-bank-of-america-center-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-555-california-street-bank-of-america-center-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/bank-of-america-center.yaml"
+  ]
+}

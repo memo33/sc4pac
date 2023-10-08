@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-eddy-hall",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31618-eddy-hall-minnesota/?do=download",
+  "lastModified": "2017-05-14T19:16:18Z",
+  "requiredBy": [
+    "mattb325:eddy-hall"
+  ]
+}

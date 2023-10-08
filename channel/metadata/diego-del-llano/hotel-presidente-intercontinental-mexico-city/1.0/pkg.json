@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "hotel-presidente-intercontinental-mexico-city",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Hotel Presidente Intercontinental Mexico City",
+    "description": "The Hotel Presidente InterContinental is a hotel in Campos Eliseos #218, Colonia Polanco, in Miguel Hidalgo Delegation in Mexico City, has 15 elevators that move at 6.5 meters per second, was one of the first buildings in the City Of Mexico in counting the high-speed elevators, in addition to having one of the fastest elevators in the world for its time.\nThe building became the third highest in Mexico City and for the 20 years in the highest of the Polanco colony, being the first skyscraper of that area, currently the 20th highest building in Mexico City and for the 2011 the building is expected to move to the 30th place on the list of the highest skyscrapers in the Federal District.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/31533-hotel-presidente-intercontinental-mexico-city/",
+    "requiredBy": [
+      "diego-del-llano:latin-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-hotel-presidente-intercontinental-mexico-city-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-hotel-presidente-intercontinental-mexico-city-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/hotel-presidente-intercontinental-mexico-city.yaml"
+  ]
+}

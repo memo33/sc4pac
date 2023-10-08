@@ -1,0 +1,66 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "ciudadela-san-martin",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Ciudadela San Martin",
+    "description": "High Rise, locted in the Capital city of Bogota, Colombia. Height is 170 m.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/",
+    "requiredBy": [
+      "diego-del-llano:latin-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-ciudadela-san-martin-north-darknite"
+        },
+        {
+          "assetId": "diego-del-llano-ciudadela-san-martin-north-mall-darknite"
+        },
+        {
+          "assetId": "diego-del-llano-ciudadela-san-martin-south-darknite"
+        },
+        {
+          "assetId": "diego-del-llano-ciudadela-san-martin-complete-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-ciudadela-san-martin-north-darknite"
+        },
+        {
+          "assetId": "diego-del-llano-ciudadela-san-martin-north-mall-darknite"
+        },
+        {
+          "assetId": "diego-del-llano-ciudadela-san-martin-south-darknite"
+        },
+        {
+          "assetId": "diego-del-llano-ciudadela-san-martin-complete-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/ciudadela-san-martin.yaml"
+  ]
+}

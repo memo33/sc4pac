@@ -1,0 +1,57 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "galaxy-casino-hotel",
+  "version": "1.0.0",
+  "subfolder": "600-civics",
+  "info": {
+    "summary": "Galaxy Casino & Hotel",
+    "description": "Sleek, modern, high-rise casino reward. It has less severe side-effects than the default casino, (it won't cause a city-wide spike in crime or drop in mayor rating) but it still discourages nearby R$$$ development. This is a non-conditional reward that operates a business deal.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33276-galaxy-casino-hotel/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "mattb325",
+          "name": "urban-civics-prop-pack-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-galaxy-casino-hotel-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "mattb325",
+          "name": "urban-civics-prop-pack-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-galaxy-casino-hotel-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/miscellaneous/galaxy-casino-hotel.yaml"
+  ]
+}

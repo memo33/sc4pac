@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "lasalle-wacker-building",
+  "version": "1.0.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Lasalle-Wacker Building",
+    "description": "Originally planned as a 37-story building, the developer bought an L-shaped building aside original lot and expanded the site. Clad in limestone and granite, the Holabird and Root-designed structure (Andrew Rebori was the associate architect) serves as an office building. When built, the beacon on the top of the building could be seen from as far as 200 miles. As with other buildings in Chicago, the structure is upwardly lit at night with moonlight, and the peak of building is typically lit in cobalt blue. The nights illumination design was a common contemporary Chicago architectural theme, seen also in the Wrigley Building, Tribune Tower, Jewelers Building, Palmolive Building, and Chicago Board of Trade Building.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/35589-lasalle-wacker-building/",
+    "requiredBy": [
+      "diego-del-llano:north-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-lasalle-wacker-building-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-lasalle-wacker-building-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/lasalle-wacker-building.yaml"
+  ]
+}

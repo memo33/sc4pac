@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "345-california-center",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "345 California Center",
+    "description": "345 California Center is a 48-story office tower in the financial district of San Francisco, California. Completed in 1986, the 211.8 m (695 ft) tower is the third-tallest in the city after the Transamerica Pyramid and 555 California Street if the spires are included. It was originally proposed to be 30 m (98 ft) taller.\n345 California is in the middle of a block with historic buildings on each of the four corners. Initially planned as condominiums, the top 11 floors of the building are the Loews Regency San Francisco hotel, located in twin towers set at 45-degree angles to the rest of the building. Several glass skybridges offer views of the San Francisco Bay Area. The Loews Regency has the street address 222 Sansome, with a different entrance.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/31439-345-california-center/",
+    "requiredBy": [
+      "diego-del-llano:san-francisco-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-345-california-center-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-345-california-center-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/345-california-center.yaml"
+  ]
+}

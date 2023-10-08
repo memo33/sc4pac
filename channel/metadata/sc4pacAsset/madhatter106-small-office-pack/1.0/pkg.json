@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "madhatter106-small-office-pack",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/26810-small-office-pack/?do=download",
+  "lastModified": "2021-04-19T23:56:00Z",
+  "requiredBy": [
+    "madhatter106:small-office-pack"
+  ]
+}

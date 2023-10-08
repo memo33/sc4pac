@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "toroca-industry-quadrupler",
+  "version": "2.1",
+  "url": "https://community.simtropolis.com/files/file/21293-industry-quadrupler/?do=download",
+  "lastModified": "2017-11-27T03:07:27Z",
+  "requiredBy": [
+    "toroca:industry-quadrupler"
+  ]
+}

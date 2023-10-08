@@ -1,0 +1,54 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "seattle-municipal-tower",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Seattle Municipal Tower",
+    "description": "Seattle Municipal Tower is a 62-story, 220.07 m (722.0 ft) skyscraper at 700 5th Avenue at the corner of 5th Avenue and Columbia Street in downtown Seattle, Washington. It is the fourth tallest building in Seattle. At its completion in 1990, the building was named AT&T Gateway Tower and later changed to Key Bank Tower reflecting the names of former anchor tenants AT&T and Key Bank.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/",
+    "requiredBy": [
+      "diego-del-llano:north-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-seattle-municipal-tower-maxisnite"
+        },
+        {
+          "assetId": "diego-del-llano-seattle-municipal-tower-no-plaza-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-seattle-municipal-tower-darknite"
+        },
+        {
+          "assetId": "diego-del-llano-seattle-municipal-tower-no-plaza-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/seattle-municipal-tower.yaml"
+  ]
+}

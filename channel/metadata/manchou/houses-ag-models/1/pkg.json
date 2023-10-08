@@ -1,0 +1,29 @@
+{
+  "$type": "Package",
+  "group": "manchou",
+  "name": "houses-ag-models",
+  "version": "1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Agricultural building models",
+    "description": "Contains Manchou_Houses_AG.dat",
+    "author": "manchou",
+    "website": "https://www.toutsimcities.com/downloads/view/1579"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "manchou-pack-village-vol02",
+          "include": [
+            "/Manchou_Houses_AG.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "manchou/houses-ag.yaml"
+  ]
+}

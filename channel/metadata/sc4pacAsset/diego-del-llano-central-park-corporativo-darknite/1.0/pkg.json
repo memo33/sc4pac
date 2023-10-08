@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-central-park-corporativo-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32854-central-park-corporativo/?do=download",
+  "lastModified": "2019-04-09T01:06:46Z",
+  "requiredBy": [
+    "diego-del-llano:central-park-corporativo"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "edificio-playa-oriental",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Edificio Playa Oriental",
+    "description": "Building located in Medellin, Antioquia, Colombia.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32676-edificio-playa-oriental/",
+    "requiredBy": [
+      "diego-del-llano:latin-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-edificio-playa-oriental-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-edificio-playa-oriental-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/edificio-playa-oriental.yaml"
+  ]
+}

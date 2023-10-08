@@ -1,0 +1,27 @@
+{
+  "$type": "Package",
+  "group": "simmaster07",
+  "name": "sc4fix",
+  "version": "1.0.7",
+  "subfolder": "150-mods",
+  "info": {
+    "summary": "Third-party patches for SC4",
+    "conflicts": "Incompatible with the macOS version of the game.",
+    "description": "Fixes a serialization bug that could corrupt the savegame, particularly when mods are installed that modify existing exemplars (i.e. Prop Pox).\nResolves a crash-to-desktop when hovering NAM puzzle pieces over transit-enabled lots.\nAllows other DLLs to load into SC4's memory without a GZCOM framework.\n",
+    "author": "simmaster07/nsgomez",
+    "website": "https://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "simmaster07-sc4fix"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "simmaster07/sc4fix.yaml"
+  ]
+}

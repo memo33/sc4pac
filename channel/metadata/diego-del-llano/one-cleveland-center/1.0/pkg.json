@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "one-cleveland-center",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "One Cleveland Center",
+    "description": "Designed by KlingStubbins, One Cleveland Center has an angular, \"silver chisel\" design similar to that of New York City's Citigroup Center. The land the tower was built on was intended to be part of the I.M. Pei Erieview urban renewal plan. The site was cleared in 1963 but was not developed and was used as a parking lot. It was sold to Medical Mutual by John W. Galbreath in 1979 to develop a \"people oriented\" office building. Ground was broken on October 30, 1980, and construction was completed in 1983.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32931-one-cleveland-center/",
+    "requiredBy": [
+      "diego-del-llano:north-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-one-cleveland-center-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-one-cleveland-center-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/one-cleveland-center.yaml"
+  ]
+}

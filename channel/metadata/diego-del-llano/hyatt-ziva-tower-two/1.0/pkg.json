@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "hyatt-ziva-tower-two",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Hyatt Ziva Tower Two",
+    "description": "These luxury beach-front condos are located in Puerto Vallarta, Mexico. The height is 196,85 ft (60 meters).\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/31846-hyatt-ziva-tower-two/",
+    "requiredBy": [
+      "diego-del-llano:latin-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-hyatt-ziva-tower-two-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-hyatt-ziva-tower-two-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/hyatt-ziva-tower-two.yaml"
+  ]
+}

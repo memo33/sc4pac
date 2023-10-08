@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-karlsruhe-courthouse",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31920-karlsruhe-courthouse/?do=download",
+  "lastModified": "2017-08-27T04:00:45Z",
+  "requiredBy": [
+    "mattb325:karlsruhe-courthouse"
+  ]
+}

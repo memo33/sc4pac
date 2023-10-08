@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "ariel-east",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Ariel East at 2628 Broadway",
+    "description": "The Ariel East and Ariel West are a pair of apartment buildings on either side of Broadway at 99th Street, the tallest buildings on Manhattan's predominantly residential Upper West Side. Ariel East is at 2628 Broadway, and West is at 245 West 99th Street.\nWhen proposed in 2005, the Ariel stirred intense controversy in the upscale residential neighborhood that had believed zoning laws precluded the construction of buildings over 16 stories in height. Ariel East is 396 ft (121 m), and Ariel West is 340 ft (100 m). Construction was completed in 2007.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32960-ariel-east-at-2628-broadway/",
+    "requiredBy": [
+      "diego-del-llano:new-york-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-ariel-east-at-2628-broadway-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-ariel-east-at-2628-broadway-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/ariel-east.yaml"
+  ]
+}

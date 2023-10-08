@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-torre-colpatria-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31978-torre-colpatria/?do=download&r=168981",
+  "lastModified": "2017-10-17T04:46:49Z",
+  "requiredBy": [
+    "diego-del-llano:torre-colpatria"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-hotel-presidente-intercontinental-mexico-city-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31533-hotel-presidente-intercontinental-mexico-city/?do=download&r=165097",
+  "lastModified": "2017-03-20T23:08:02Z",
+  "requiredBy": [
+    "diego-del-llano:hotel-presidente-intercontinental-mexico-city"
+  ]
+}

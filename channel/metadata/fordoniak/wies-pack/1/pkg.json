@@ -1,0 +1,29 @@
+{
+  "$type": "Package",
+  "group": "fordoniak",
+  "name": "wies-pack",
+  "version": "1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Wieśpack village buildings and barn props",
+    "description": "This package contains only buildings and props. The lot files of the original upload are not included.\n",
+    "author": "fordoniak"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "fordoniak-wies-pack",
+          "exclude": [
+            "\\.SC4Lot$",
+            "\\.bmp$"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "fordoniak/wies-pack.yaml"
+  ]
+}

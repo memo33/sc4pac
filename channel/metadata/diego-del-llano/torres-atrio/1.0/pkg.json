@@ -1,0 +1,54 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "torres-atrio",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Torres Atrio",
+    "description": "ATRIO is a major mixed-use commercial development in central Bogotá comprising two towers – North and South – with a large, open public space at ground level.\nAt 42 floors (201 metres) and 58 floors (268 metres) high respectively, the towers provide a total of more than 250,000 m² of office space, public services and retail with up to 72,000 people expected to pass through each day.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32065-torres-atrio/",
+    "requiredBy": [
+      "diego-del-llano:latin-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-torres-atrio-sur-maxisnite"
+        },
+        {
+          "assetId": "diego-del-llano-torres-atrio-norte-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-torres-atrio-sur-darknite"
+        },
+        {
+          "assetId": "diego-del-llano-torres-atrio-norte-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/torres-atrio.yaml"
+  ]
+}

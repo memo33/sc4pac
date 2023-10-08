@@ -1,0 +1,28 @@
+{
+  "$type": "Package",
+  "group": "ndex",
+  "name": "textures-vol1",
+  "version": "2",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "NDEX Texture Set Volume 1",
+    "author": "Equinox",
+    "website": "https://community.simtropolis.com/files/file/11617-ndex-texture-set-volume-1/",
+    "requiredBy": [
+      "kingofsimcity:maxis-mansion-overhaul-extension-set"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "ndex-texture-set-volume-1"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "ndex/textures.yaml"
+  ]
+}

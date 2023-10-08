@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "maxis-additional-landmarks",
+  "version": "1",
+  "url": "https://community.simtropolis.com/library/maxis/sc4/buildings/Maxis_Buildings.zip",
+  "lastModified": "2017-12-11T22:43:15Z",
+  "requiredBy": [
+    "maxis:castle-set"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-new-england-style-church-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/34713-new-england-style-church/?do=download&r=190198",
+  "lastModified": "2021-10-12T21:54:37Z",
+  "requiredBy": [
+    "mattb325:new-england-style-church"
+  ]
+}

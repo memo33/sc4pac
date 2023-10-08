@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-centurylink-tower-denver-1801-california-street",
+  "version": "2.0.0",
+  "url": "https://community.simtropolis.com/files/file/30984-centurylink-tower-denver-1801-california-street/?do=download",
+  "lastModified": "2016-03-05T00:24:09Z",
+  "requiredBy": [
+    "diego-del-llano:centurylink-tower-denver"
+  ]
+}

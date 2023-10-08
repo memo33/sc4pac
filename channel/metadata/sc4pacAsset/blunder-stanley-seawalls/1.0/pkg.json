@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "blunder-stanley-seawalls",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/30868-stanley-seawalls/?do=download",
+  "lastModified": "2015-12-17T04:49:59Z",
+  "requiredBy": [
+    "blunder:stanley-seawalls"
+  ]
+}

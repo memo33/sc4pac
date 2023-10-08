@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-southern-poverty-law-center-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/34295-southern-poverty-law-center/?do=download&r=186431",
+  "lastModified": "2021-03-18T19:32:49Z",
+  "requiredBy": [
+    "mattb325:southern-poverty-law-center"
+  ]
+}

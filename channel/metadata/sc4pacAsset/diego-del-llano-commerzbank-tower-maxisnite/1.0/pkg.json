@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-commerzbank-tower-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31516-commerzbank-tower/?do=download&r=165031",
+  "lastModified": "2017-03-16T15:27:17Z",
+  "requiredBy": [
+    "diego-del-llano:commerzbank-tower"
+  ]
+}

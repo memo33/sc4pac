@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-sioux-falls-city-hall-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/34004-sioux-falls-city-hall/?do=download&r=184224",
+  "lastModified": "2020-12-23T21:08:11Z",
+  "requiredBy": [
+    "mattb325:sioux-falls-city-hall"
+  ]
+}

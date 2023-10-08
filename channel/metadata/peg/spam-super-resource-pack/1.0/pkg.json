@@ -1,0 +1,25 @@
+{
+  "$type": "Package",
+  "group": "peg",
+  "name": "spam-super-resource-pack",
+  "version": "1.0",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Props and textures for SPAM",
+    "author": "Pegasus",
+    "website": "https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "peg-spam-super-resource-pack"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "peg/spam-super-resource-pack.yaml"
+  ]
+}

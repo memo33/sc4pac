@@ -1,0 +1,44 @@
+{
+  "$type": "Package",
+  "group": "andisart",
+  "name": "sc2013-inspired-homes",
+  "version": "1.0",
+  "subfolder": "200-residential",
+  "info": {
+    "summary": "Low-density residential homes inspired by SC2013",
+    "author": "AndisArt",
+    "website": "https://community.simtropolis.com/files/file/29329-sc2013-inspired-homes-pack/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "andisart-sc13-style-homes-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "andisart-sc13-style-homes-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "andisart/sc2013-inspired-homes.yaml"
+  ]
+}

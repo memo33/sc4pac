@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "torre-coltejer",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Torre Coltejer",
+    "description": "The Coltejer Building is the tallest building in Medellín, Colombia and the tenth-tallest in Colombia (as of 2016). It was completed in 1972. Coltejer is one of the most important textile companies in Colom bia, and the largest textile complex in Latin America.[1] It was founded in Medellín by Alejandro Echavarría on October 22, 1907.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32646-torre-coltejer/",
+    "requiredBy": [
+      "diego-del-llano:latin-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-torre-coltejer-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-torre-coltejer-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/torre-coltejer.yaml"
+  ]
+}

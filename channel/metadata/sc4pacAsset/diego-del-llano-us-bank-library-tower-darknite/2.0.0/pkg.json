@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-us-bank-library-tower-darknite",
+  "version": "2.0.0",
+  "url": "https://community.simtropolis.com/files/file/31863-us-bank-library-tower/?do=download&r=167610",
+  "lastModified": "2017-07-20T16:49:16Z",
+  "requiredBy": [
+    "diego-del-llano:us-bank-library-tower"
+  ]
+}

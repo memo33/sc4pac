@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-one-liberty-place-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31990-one-liberty-place/?do=download&r=169049",
+  "lastModified": "2017-10-26T02:55:24Z",
+  "requiredBy": [
+    "diego-del-llano:one-liberty-place"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "$type": "Package",
+  "group": "kingofsimcity",
+  "name": "maxis-mansion-overhaul-extension-set",
+  "version": "1.00",
+  "subfolder": "200-residential",
+  "info": {
+    "summary": "33 additional lots supplementing the Maxis Mansion Overhaul",
+    "description": "This set expands the original mod by taking advantage of new lot sizes, climate variation, and the strength of the individual models themselves to add further variation in your affluent areas.\nNot mandatory, but highly recommended is installing the original mod kingofsimcity:maxis-mansion-overhaul as well.\n",
+    "author": "kingofsimcity",
+    "website": "https://community.simtropolis.com/files/file/31606-maxis-mansion-overhaul-extension-set/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "shk",
+          "name": "parking-pack",
+          "version": "latest.release"
+        },
+        {
+          "group": "lbt",
+          "name": "mega-prop-pack-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "mgb204",
+          "name": "anyone-for-tennis",
+          "version": "latest.release"
+        },
+        {
+          "group": "ndex",
+          "name": "textures-vol1",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol03",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "supershk",
+          "name": "mega-parking-textures",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "kosc-maxis-mansion-overhaul-extension-set"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "kingofsimcity/maxis-mansion-overhaul.yaml"
+  ]
+}

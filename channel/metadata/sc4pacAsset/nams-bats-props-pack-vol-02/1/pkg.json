@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "nams-bats-props-pack-vol-02",
+  "version": "1",
+  "url": "https://www.toutsimcities.com/downloads/start/1919",
+  "lastModified": "2012-03-17T12:00:00Z",
+  "requiredBy": [
+    "namspopof:bat-props-pack-vol02"
+  ]
+}

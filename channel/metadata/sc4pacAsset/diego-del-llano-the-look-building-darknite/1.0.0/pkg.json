@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-the-look-building-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/35535-the-look-building/?do=download&r=197131",
+  "lastModified": "2023-05-30T03:26:32Z",
+  "requiredBy": [
+    "diego-del-llano:the-look-building"
+  ]
+}

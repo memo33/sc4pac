@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-hotel-presidente-guadalajara-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31508-hotel-presidente-guadalajara/?do=download&r=164916",
+  "lastModified": "2017-03-11T18:59:29Z",
+  "requiredBy": [
+    "diego-del-llano:hotel-presidente-guadalajara"
+  ]
+}

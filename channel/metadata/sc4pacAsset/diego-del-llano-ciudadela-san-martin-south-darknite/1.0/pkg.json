@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-ciudadela-san-martin-south-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/?do=download&r=173135",
+  "lastModified": "2018-10-13T19:40:36Z",
+  "requiredBy": [
+    "diego-del-llano:ciudadela-san-martin"
+  ]
+}

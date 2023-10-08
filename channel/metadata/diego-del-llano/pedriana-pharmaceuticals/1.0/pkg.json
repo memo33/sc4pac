@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "pedriana-pharmaceuticals",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Pedriana Pharmaceuticals",
+    "description": "Pedriana Pharmaceuticals is a Commercial Offices Building created by the Maxis Team.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32101-pedriana-pharmaceuticals/",
+    "requiredBy": [
+      "diego-del-llano:complete-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-pedriana-pharmaceuticals-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-pedriana-pharmaceuticals-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/pedriana-pharmaceuticals.yaml"
+  ]
+}

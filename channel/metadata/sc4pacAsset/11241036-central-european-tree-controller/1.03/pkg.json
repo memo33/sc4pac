@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "11241036-central-european-tree-controller",
+  "version": "1.03",
+  "url": "https://community.simtropolis.com/files/file/31419-central-european-tree-controller/?do=download",
+  "lastModified": "2024-03-09T21:52:48Z",
+  "requiredBy": [
+    "11241036:central-european-tree-controller"
+  ]
+}

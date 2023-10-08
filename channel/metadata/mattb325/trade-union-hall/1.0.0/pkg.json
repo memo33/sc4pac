@@ -1,0 +1,67 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "trade-union-hall",
+  "version": "1.0.0",
+  "subfolder": "600-civics",
+  "info": {
+    "summary": "Trade Union Hall",
+    "description": "4x2 reward lot home to a late 1950s modern style trade union hall. Placing this lot will greatly drive demand in the following sectors: CO§§; CO§§§; R§; R§§; R§§§; I-D; I-M and I-H, with the largest up-tick in the R§§, CO§§ and I-M sectors. This lot provides 760 civic jobs\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33160-trade-union-hall/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-trade-union-hall-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-trade-union-hall-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/miscellaneous/trade-union-hall.yaml"
+  ]
+}

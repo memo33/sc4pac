@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "nams-props-pack-vol-02",
+  "version": "1",
+  "url": "https://www.toutsimcities.com/downloads/start/1882",
+  "lastModified": "2011-08-17T12:00:00Z",
+  "requiredBy": [
+    "namspopof:props-pack-vol2"
+  ]
+}

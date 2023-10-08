@@ -1,0 +1,42 @@
+{
+  "$type": "Package",
+  "group": "t-wrecks",
+  "name": "maxis-prop-names-and-query-fix",
+  "version": "1.0",
+  "subfolder": "150-mods",
+  "info": {
+    "summary": "Make all Maxis props behave like buildings in terms of names and queries",
+    "description": "This supersedes Buildings-as-Props 1 and 2 as well as Plugin_landmarks_and_other_missing_Props.dat\n",
+    "author": "T Wrecks",
+    "website": "https://community.simtropolis.com/files/file/22400-maxis-prop-names-and-query-fix/",
+    "requiredBy": [
+      "kingofsimcity:community-regional-park-pack-vol1",
+      "kingofsimcity:community-regional-park-pack-vol2-baseball-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-community-parks",
+      "kingofsimcity:community-regional-park-pack-vol2-desolate-parks",
+      "kingofsimcity:community-regional-park-pack-vol2-royal-trails",
+      "kingofsimcity:community-regional-park-pack-vol2-soccer-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-softball-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-sports-complexes",
+      "kingofsimcity:community-regional-park-pack-vol2-tennis-parks",
+      "madhatter106:low-wealth-commercial-shops-vol1",
+      "madhatter106:low-wealth-commercial-shops-vol3",
+      "memo:essential-fixes",
+      "t-wrecks:industrial-revolution-mod-addon-set-i-d",
+      "t-wrecks:industrial-revolution-mod-addon-set-i-m"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "t-wrecks-maxis-prop-names-and-query-fix"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "t-wrecks/maxis-prop-names-and-query-fix.yaml"
+  ]
+}

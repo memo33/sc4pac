@@ -1,0 +1,25 @@
+{
+  "$type": "Package",
+  "group": "aqua877",
+  "name": "jrs-prop-pack-signs",
+  "version": "1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Japanese Road-Sign props",
+    "author": "aqua877",
+    "website": "http://hide-inoki.com/bbs/archives/sc4_0721.html"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "aqua-877-jrs-prop-pack-signs"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "aqua877/jrs-prop-pack.yaml"
+  ]
+}

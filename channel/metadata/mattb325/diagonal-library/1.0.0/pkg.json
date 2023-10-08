@@ -1,0 +1,45 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "diagonal-library",
+  "version": "1.0.0",
+  "subfolder": "620-education",
+  "info": {
+    "summary": "Diagonal Georgian Style Library",
+    "description": "A simple Georgian style library that is designed to place along diagonal roads. This 1x1 lot is found in the education menu. It provides 42 civic jobs, holds 50,000 books and provides an EQ boost to all age groups.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33247-diagonal-library/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "mattb325-diagonal-library-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-diagonal-library-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/education/diagonal-library.yaml"
+  ]
+}

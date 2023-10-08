@@ -1,0 +1,75 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "perth-council-building",
+  "version": "1.0",
+  "subfolder": "640-government",
+  "info": {
+    "summary": "Convention Center",
+    "description": "This is an iconic early 1960's building inspired by the Council Building in Perth's Stirling Gardens. This is an example of the modernist style with Bauhaus leanings, and has distinctive external 'T' shaped sun-shades in alternating patterns over the curtain glass wall to block out the hot Western Australian sun.\nThis BAT functions as a government building and town hall in game. In addition to providing 185 civic jobs, it will help alleviate the commercial demand caps that can hinder city development.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/31872-perth-council-building/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-perth-council-building",
+          "include": [
+            "\\.SC4Lot$",
+            "/Perth Council Bldg MAXIS NITE/"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-perth-council-building",
+          "include": [
+            "\\.SC4Lot$",
+            "/Perth Council Bldg DARK NITE/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/government/perth-council-building.yaml"
+  ]
+}

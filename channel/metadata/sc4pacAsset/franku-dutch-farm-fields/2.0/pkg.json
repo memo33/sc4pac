@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "franku-dutch-farm-fields",
+  "version": "2.0",
+  "url": "https://community.simtropolis.com/files/file/27456-franku-dutch-farm-fields/?do=download&r=123012",
+  "lastModified": "2014-01-22T09:46:21Z",
+  "requiredBy": [
+    "nexis:greenhouse-props"
+  ]
+}

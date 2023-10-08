@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-bureau-of-bureaucracy",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/27952-bureau-of-bureaucracy/?do=download",
+  "lastModified": "2015-07-04T00:49:27Z",
+  "requiredBy": [
+    "mattb325:bureau-of-bureaucracy"
+  ]
+}

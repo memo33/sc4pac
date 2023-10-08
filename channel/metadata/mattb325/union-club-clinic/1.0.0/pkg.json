@@ -1,0 +1,67 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "union-club-clinic",
+  "version": "1.0.0",
+  "subfolder": "630-health",
+  "info": {
+    "summary": "The Union Club Clinic",
+    "description": "Georgian style sandstone building which serves as a small medical clinic.\nThe building sits on 3x1 lot and is useful to fill in awkward zoning gaps. It has decent capacity (1,650) and radius, and provides 62 civic jobs.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/34030-the-union-club-clinic/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-union-club-clinic-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-union-club-clinic-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/health/union-club-clinic.yaml"
+  ]
+}

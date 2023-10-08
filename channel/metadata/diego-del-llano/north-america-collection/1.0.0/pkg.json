@@ -1,0 +1,201 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "north-america-collection",
+  "version": "1.0.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "North American part of Diego Del Llano's landmarks collection",
+    "description": "Contains the North American part of Diego Del Llano's collection, excluding Mexico. Mexico can be found in the Latin American counterpart.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file",
+    "requiredBy": [
+      "diego-del-llano:complete-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "diego-del-llano",
+          "name": "new-york-collection",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "chicago-collection",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "san-francisco-collection",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "los-angeles-collection",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "aldred-building",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "capella-tower",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "centurylink-tower-denver",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "columbia-center",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "comcast-center",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "denver-art-museum",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "denver-place",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "first-national-bank-tower",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "fountain-place",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "great-american-tower",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "hotel-embassy-indianapolis",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "ibm-marathon",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "john-hancock-tower",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "lasalle-wacker-building",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "one-cleveland-center",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "one-kansas-city-place",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "one-liberty-place",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "one-metropolitan-square",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "one-shell-plaza",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "one-shell-square",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "oneamerica-tower-indianapolis",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "regions-center",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "renaissance-tower-sacramento",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "republic-plaza",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "reynolds-building",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "seattle-municipal-tower",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "simmons-tower",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "stephens-inc",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "turlington-building",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "two-liberty-place",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "wells-fargo-center-denver",
+          "version": "latest.release"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/north-america-collection.yaml"
+  ]
+}

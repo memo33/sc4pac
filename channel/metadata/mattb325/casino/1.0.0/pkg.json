@@ -1,0 +1,67 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "casino",
+  "version": "1.0.0",
+  "subfolder": "600-civics",
+  "info": {
+    "summary": "Casino",
+    "description": "This casino is completely fictional and is modded such that it is a little less offensive to surrounding areas when placed (both visually and in terms of its modding) than the default casino.  At nine stories high, it is designed to fit into a mid-rise city scape.  It provides 410 civic jobs.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33147-casino/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-casino-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-casino-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/miscellaneous/casino.yaml"
+  ]
+}

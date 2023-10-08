@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-one-chase-manhattan-plaza-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32975-one-chase-manhattan-plaza/?do=download",
+  "lastModified": "2019-08-21T14:16:58Z",
+  "requiredBy": [
+    "diego-del-llano:one-chase-manhattan-plaza"
+  ]
+}

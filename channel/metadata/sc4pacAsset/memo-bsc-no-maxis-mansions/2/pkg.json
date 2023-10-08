@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "memo-bsc-no-maxis-mansions",
+  "version": "2",
+  "url": "https://github.com/memo33/sc4pac-tools/releases/download/0.1.0/BSC-No-Maxis-Mansions-2.zip",
+  "lastModified": "2023-10-21T17:10:02Z",
+  "requiredBy": [
+    "bsc:no-maxis-mansions"
+  ]
+}

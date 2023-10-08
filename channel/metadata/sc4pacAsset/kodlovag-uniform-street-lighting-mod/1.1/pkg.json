@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "kodlovag-uniform-street-lighting-mod",
+  "version": "1.1",
+  "url": "https://community.simtropolis.com/files/file/25925-uniform-street-lighting-mod/?do=download",
+  "lastModified": "2023-10-29T21:12:00Z",
+  "requiredBy": [
+    "kodlovag:uniform-street-lighting-mod"
+  ]
+}

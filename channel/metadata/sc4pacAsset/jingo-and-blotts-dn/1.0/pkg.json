@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "jingo-and-blotts-dn",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/28680-jingo-blotts/?do=download&r=114827",
+  "lastModified": "2013-05-04T21:03:06Z",
+  "requiredBy": [
+    "nofunk:jingo-and-blotts"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "old-delaware-county-courthouse",
+  "version": "1.0",
+  "subfolder": "640-government",
+  "info": {
+    "summary": "Old Delaware County Courthouse",
+    "description": "This building draws its inspiration from historic photos and drawings of the Delaware County Courthouse that once stood in Muncie, Indiana.\nThis BAT is offered as reward that DOES NOT replace the original in-game courthouse (nor any other custom lot) and it is offered without the need for pre-existing criteria to be met.\nIn addition to the benefits of enhanced crime fighting offered by the courthouse, this building is modded so that it also provides 50 civic jobs, has a positive effect on commercial areas, provides a landmark effect, improves the mayor rating and is useful in lifting residential demand caps that hinder city and regional development. It sits on a 6x6 lot.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/27989-old-delaware-county-courthouse/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-old-delaware-county-courthouse"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/government/old-delaware-county-courthouse.yaml"
+  ]
+}

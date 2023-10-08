@@ -1,0 +1,77 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "community-center",
+  "version": "1.0.0",
+  "subfolder": "600-civics",
+  "info": {
+    "summary": "Community Center",
+    "description": "Community center based on a real building in Westchester County, NY. Designed to tie in with KOSC's park series, the building sits on a 5x4 lot, provides 155 civic jobs, provides cap relief, and increases desirability. It is found in the rewards menu.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33289-community-center/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-community-center-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-community-center-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/miscellaneous/community-center.yaml"
+  ]
+}

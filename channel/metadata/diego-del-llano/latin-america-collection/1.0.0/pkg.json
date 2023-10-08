@@ -1,0 +1,196 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "latin-america-collection",
+  "version": "1.0.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Latin American part of Diego Del Llano's landmarks collection",
+    "description": "Contains the Latin American part of Diego Del Llano's collection, including Mexico.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file",
+    "requiredBy": [
+      "diego-del-llano:complete-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "diego-del-llano",
+          "name": "bd-bacata",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "central-park-corporativo",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "cititower-guadalajara",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "ciudadela-san-martin",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "ciudadela-san-martin-tower-one",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "distrito-armenia",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "edificio-alas",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "edificio-avianca",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "edificio-del-cafe",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "edificio-lopez-serrano",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "edificio-playa-oriental",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "fiestamericana-guadalajara",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "gran-torre-santiago",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "hotel-presidente-guadalajara",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "hotel-presidente-intercontinental-mexico-city",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "hotel-riu-plaza-guadalajara",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "hyatt-ziva-tower-one",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "hyatt-ziva-tower-two",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "icon-vallarta",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "midtown-jalisco",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "peninsula-puerto-vallarta",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "shangri-la",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "the-h1",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "torre-colpatria",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "torre-colseguros",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "torre-coltejer",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "torre-ejecutiva-pemex",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "torre-latinoamericana",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "torre-mayor",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "torre-multiva",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "torre-reforma",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "torres-atrio",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "tres-mares",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "westin-regina",
+          "version": "latest.release"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/latin-america-collection.yaml"
+  ]
+}

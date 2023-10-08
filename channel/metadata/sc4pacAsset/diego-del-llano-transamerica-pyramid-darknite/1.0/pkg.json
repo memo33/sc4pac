@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-transamerica-pyramid-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31861-transamerica-pyramid/?do=download&r=190482",
+  "lastModified": "2021-11-10T10:43:24Z",
+  "requiredBy": [
+    "diego-del-llano:transamerica-pyramid"
+  ]
+}

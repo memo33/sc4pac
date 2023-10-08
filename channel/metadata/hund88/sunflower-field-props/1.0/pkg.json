@@ -1,0 +1,30 @@
+{
+  "$type": "Package",
+  "group": "hund88",
+  "name": "sunflower-field-props",
+  "version": "1.0",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Sunflower props",
+    "description": "This package contains slope-friendly sunflower field props (no-shadow variant).\n",
+    "author": "HunD88",
+    "website": "https://community.simtropolis.com/files/file/21220-sunflower-field/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "hund88-sunflower-field-props",
+          "include": [
+            "/Sunflower \\(No Shadows\\)/.*.SC4Model$",
+            "/Sunflower \\(No Shadows\\)/.*.SC4Desc$"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "hund88/sunflower-field-props.yaml"
+  ]
+}

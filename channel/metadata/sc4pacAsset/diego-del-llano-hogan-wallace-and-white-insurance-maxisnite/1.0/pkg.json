@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-hogan-wallace-and-white-insurance-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32844-hogan-wallace-and-white-insurance/?do=download&r=175414",
+  "lastModified": "2019-04-04T19:06:40Z",
+  "requiredBy": [
+    "diego-del-llano:hogan-wallace-and-white-insurance"
+  ]
+}

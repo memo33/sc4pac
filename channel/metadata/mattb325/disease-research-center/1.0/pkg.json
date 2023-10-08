@@ -1,0 +1,62 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "disease-research-center",
+  "version": "1.0",
+  "subfolder": "600-civics",
+  "info": {
+    "summary": "Alternate Disearch Research Center (radiation free!)",
+    "description": "This requirement-free civic reward is offered as an alternative to the default disease research center. It is modded reasonably similarly to the in-game version, but does not emit radiation. This mod does not override the Maxis version, both may co-exist.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/28014-disease-research-center/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "peg",
+          "name": "security-fencing-kit",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-disease-research-center",
+          "include": [
+            "\\.SC4Model$"
+          ]
+        },
+        {
+          "assetId": "mattb325-disease-research-center-mac-fix",
+          "include": [
+            "(?=PLOP).*\\.SC4Lot$"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/miscellaneous/disease-research-center.yaml"
+  ]
+}

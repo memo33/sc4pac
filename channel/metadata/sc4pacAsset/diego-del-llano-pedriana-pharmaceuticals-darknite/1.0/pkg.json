@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-pedriana-pharmaceuticals-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32101-pedriana-pharmaceuticals/?do=download&r=169905",
+  "lastModified": "2018-02-02T00:03:47Z",
+  "requiredBy": [
+    "diego-del-llano:pedriana-pharmaceuticals"
+  ]
+}

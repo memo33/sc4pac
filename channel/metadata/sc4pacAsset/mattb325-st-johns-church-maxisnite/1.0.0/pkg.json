@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-st-johns-church-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33908-st-johns-church-washington-dc/?do=download&r=183269",
+  "lastModified": "2020-10-23T23:10:29Z",
+  "requiredBy": [
+    "mattb325:st-johns-church"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-salesforce-tower-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32961-salesforce-tower/?do=download&r=190478",
+  "lastModified": "2021-11-10T10:34:20Z",
+  "requiredBy": [
+    "diego-del-llano:salesforce-tower"
+  ]
+}

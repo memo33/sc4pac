@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-madame-tussauds-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33039-madame-tussauds-hollywood/?do=download&r=176828",
+  "lastModified": "2019-07-22T02:18:13Z",
+  "requiredBy": [
+    "mattb325:madame-tussauds"
+  ]
+}

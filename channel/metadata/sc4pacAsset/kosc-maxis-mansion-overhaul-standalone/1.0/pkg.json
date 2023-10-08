@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "kosc-maxis-mansion-overhaul-standalone",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31308-maxis-mansion-overhaul/?do=download&r=163318",
+  "lastModified": "2020-07-28T05:27:11Z",
+  "requiredBy": [
+    "kingofsimcity:maxis-mansion-overhaul"
+  ]
+}

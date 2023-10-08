@@ -1,0 +1,59 @@
+{
+  "$type": "Package",
+  "group": "gn-leugim",
+  "name": "eha-apartments-collection",
+  "version": "1.0",
+  "subfolder": "200-residential",
+  "info": {
+    "summary": "Collection of midsize European R$ apartment buildings (EBLT)",
+    "conflicts": "Incompatible with mods blocking Maxis lots",
+    "description": "These buildings are part of the European House Add-on (EHA) project which seamlessly integrate with Maxis buildings by extending the original building families.\nThis package bundles several individual buildings into a single collection.\n",
+    "author": "Gn_Leugim",
+    "website": "https://community.simtropolis.com/profile/157047-gn_leugim/content/?type=downloads_file"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "gn-leugim",
+          "name": "azuleijitos-apartment",
+          "version": "latest.release"
+        },
+        {
+          "group": "gn-leugim",
+          "name": "four-square-block",
+          "version": "latest.release"
+        },
+        {
+          "group": "gn-leugim",
+          "name": "high-fall-apartments",
+          "version": "latest.release"
+        },
+        {
+          "group": "gn-leugim",
+          "name": "lousy-apartment",
+          "version": "latest.release"
+        },
+        {
+          "group": "gn-leugim",
+          "name": "mr-hammer-apartments",
+          "version": "latest.release"
+        },
+        {
+          "group": "gn-leugim",
+          "name": "poor-apartments",
+          "version": "latest.release"
+        },
+        {
+          "group": "gn-leugim",
+          "name": "poor-terraces",
+          "version": "latest.release"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "gn-leugim/eha-apartments-collection.yaml"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "edificio-lopez-serrano",
+  "version": "1.0.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Edificio Lopez Serrano",
+    "description": "López Serrano Building was the tallest residential building in Cuba until the construction of FOCSA in 1956. It was designed by the architect Ricardo Mira in 1929, who also designed the \"La Moderna Poesía\" bookstore for the same owner in 1941, on Calle Bishop. It has been compared many times with the Bacardí Building in Old Havana, built two years after the López Serrano, due to its similarities in the towers.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/35565-edificio-lopez-serrano/",
+    "requiredBy": [
+      "diego-del-llano:latin-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-edificio-lopez-serrano-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-edificio-lopez-serrano-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/edificio-lopez-serrano.yaml"
+  ]
+}

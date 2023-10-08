@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "torre-colseguros",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Torre Colseguros",
+    "description": "Torre Colseguros is a building located on International Center of the Capital City Bogota, Colombia.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32540-torre-colseguros/",
+    "requiredBy": [
+      "diego-del-llano:latin-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-torre-colseguros-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-torre-colseguros-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/torre-colseguros.yaml"
+  ]
+}

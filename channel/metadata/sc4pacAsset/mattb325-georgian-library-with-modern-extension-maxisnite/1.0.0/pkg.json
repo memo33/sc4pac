@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-georgian-library-with-modern-extension-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33254-georgian-library-with-modern-extension/?do=download&r=178412",
+  "lastModified": "2019-10-23T06:59:16Z",
+  "requiredBy": [
+    "mattb325:georgian-library-with-modern-extension"
+  ]
+}

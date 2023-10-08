@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-shangri-la-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31841-shangri-la/?do=download&r=167484",
+  "lastModified": "2017-07-12T15:40:16Z",
+  "requiredBy": [
+    "diego-del-llano:shangri-la"
+  ]
+}

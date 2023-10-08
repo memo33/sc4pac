@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-shaklee-terraces-one-front-street-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32343-shaklee-terraces-one-front-street/?do=download",
+  "lastModified": "2018-07-01T16:07:02Z",
+  "requiredBy": [
+    "diego-del-llano:shaklee-terraces"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$type": "Asset",
+  "assetId": "shk-hd-rock-mods",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/27655-shk-hd-rock-mods/?do=download",
+  "lastModified": "2017-02-02T05:55:19Z",
+  "requiredBy": [
+    "shk:hd-rock-mod-01",
+    "shk:hd-rock-mod-02",
+    "shk:hd-rock-mod-03",
+    "shk:hd-rock-mod-04",
+    "shk:hd-rock-mod-05"
+  ]
+}

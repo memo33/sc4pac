@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-torre-mayor-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31556-torre-mayor/?do=download&r=165300",
+  "lastModified": "2017-04-09T03:41:58Z",
+  "requiredBy": [
+    "diego-del-llano:torre-mayor"
+  ]
+}

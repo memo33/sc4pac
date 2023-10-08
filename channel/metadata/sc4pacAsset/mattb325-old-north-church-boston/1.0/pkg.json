@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-old-north-church-boston",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31757-old-north-church-boston/?do=download",
+  "lastModified": "2017-06-11T09:05:23Z",
+  "requiredBy": [
+    "mattb325:old-north-church-boston"
+  ]
+}

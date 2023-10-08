@@ -1,0 +1,55 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "los-angeles-collection",
+  "version": "1.0.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Diego Del Llano's Los Angeles landmarks collection",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file",
+    "requiredBy": [
+      "diego-del-llano:north-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "diego-del-llano",
+          "name": "aon-center",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "citigroup-center-los-angeles",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "figueroa-at-wilshire",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "gas-company-tower",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "santa-monica-clock-tower",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "us-bank-library-tower",
+          "version": "latest.release"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/los-angeles-collection.yaml"
+  ]
+}

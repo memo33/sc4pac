@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-sunken-library-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33315-sunken-library/?do=download&r=179081",
+  "lastModified": "2019-12-06T21:59:14Z",
+  "requiredBy": [
+    "mattb325:sunken-library"
+  ]
+}

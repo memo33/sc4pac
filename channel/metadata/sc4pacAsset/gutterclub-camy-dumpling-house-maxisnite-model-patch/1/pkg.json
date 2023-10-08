@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "gutterclub-camy-dumpling-house-maxisnite-model-patch",
+  "version": "1",
+  "url": "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=21315",
+  "lastModified": "2016-09-03T02:36:24Z",
+  "requiredBy": [
+    "gutterclub:camy-dumpling-house"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "$type": "Package",
+  "group": "bsc",
+  "name": "mega-props-aln-vol02",
+  "version": "1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "BSC MEGA Props - ALN Vol02 by ChrisAdams3997",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "sc4d-lex-legacy-bsc-common-dependencies-pack",
+          "include": [
+            "/BSC MEGA Props - ALN Vol02.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "bsc/common-dependencies.yaml"
+  ]
+}

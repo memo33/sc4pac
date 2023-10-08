@@ -1,0 +1,25 @@
+{
+  "$type": "Package",
+  "group": "namspopof",
+  "name": "bat-props-pack-vol02",
+  "version": "1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Nams BATs Props Pack Vol 02",
+    "author": "namspopof",
+    "website": "https://www.toutsimcities.com/downloads/view/1919"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "nams-bats-props-pack-vol-02"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "namspopof/props.yaml"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$type": "Package",
+  "group": "nofunk",
+  "name": "jingo-and-blotts",
+  "version": "1.0",
+  "subfolder": "300-commercial",
+  "info": {
+    "summary": "Small W2W commercial building (CS$$)",
+    "description": "These wall-to-wall buildings grow in the Chicago tileset.\n",
+    "author": "nofunk",
+    "website": "https://community.simtropolis.com/files/file/28680-jingo-blotts/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "jingo-and-blotts-mn",
+          "exclude": [
+            "PLOP.SC4Lot"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "jingo-and-blotts-dn",
+          "exclude": [
+            "PLOP.SC4Lot"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "nofunk/jingo-and-blotts.yaml"
+  ]
+}

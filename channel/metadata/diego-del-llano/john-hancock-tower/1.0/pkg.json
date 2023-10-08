@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "john-hancock-tower",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "John Hancock Tower",
+    "description": "200 Clarendon Street, previously John Hancock Tower and colloquially known as The Hancock, is a 60-story, 790-foot (240 m) skyscraper in Boston. The tower was designed by Henry N. Cobb of the firm I.M. Pei & Partners and was completed in 1976. In 1977, the American Institute of Architects presented the firm with a National Honor Award for the building, and in 2011 conferred on it the Twenty-five Year Award. It has been the tallest building in Boston and New England since 1976.\nThe street address is 200 Clarendon Street, but occupants use both \"Hancock Place\" and \"200 Clarendon Street\" as mailing addresses for offices in the building. John Hancock Insurance was the main tenant of the building when it opened, but the company announced in 2004 that some offices would relocate to a new building at 601 Congress Street, in Fort Point, Boston.\nThe tower was originally named for the insurance company that occupied it. The insurance company, in turn, was named for John Hancock, whose large and conspicuous signature on the United States Declaration of Independence made his name so famous in the U.S. that a colloquialism for a signature is \"a John Hancock.\"\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32788-john-hancock-tower/",
+    "requiredBy": [
+      "diego-del-llano:north-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-john-hancock-tower-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-john-hancock-tower-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/john-hancock-tower.yaml"
+  ]
+}

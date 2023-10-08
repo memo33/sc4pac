@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-tres-mares-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31553-tres-mares/?do=download&r=165307",
+  "lastModified": "2017-04-09T16:14:22Z",
+  "requiredBy": [
+    "diego-del-llano:tres-mares"
+  ]
+}

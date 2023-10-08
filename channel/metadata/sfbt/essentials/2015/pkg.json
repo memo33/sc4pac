@@ -1,0 +1,230 @@
+{
+  "$type": "Package",
+  "group": "sfbt",
+  "name": "essentials",
+  "version": "2015",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Custom UIs, textures and props for SFBT lots",
+    "description": "The SFBT Essentials contain the custom UIs that every SFBT lot uses, as well as shared textures and prop packs.\nAdditionally, the package contains several choosable variants of tree families that are used by SFBT lots as well as the SFBT street tree mod.\n",
+    "author": "Andreas, SFBT",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials"
+  },
+  "variants": [
+    {
+      "variant": {
+        "SFBT.tree-family": "CP-deciduous-trees"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "cycledogg",
+          "name": "tree-models-part-one-and-two",
+          "version": "latest.release"
+        },
+        {
+          "group": "peg",
+          "name": "mtp-super-pack",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT/"
+          ]
+        },
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT_CP_Street_Deciduous_Trees.dat"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "SFBT.tree-family": "CP-ponderosa-pines"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "cycledogg",
+          "name": "tree-models-part-one-and-two",
+          "version": "latest.release"
+        },
+        {
+          "group": "peg",
+          "name": "mtp-super-pack",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT/"
+          ]
+        },
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT_CP_Street_Ponderosa_Pines.dat"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "SFBT.tree-family": "CP-shore-pinyon-pines"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "cycledogg",
+          "name": "tree-models-part-one-and-two",
+          "version": "latest.release"
+        },
+        {
+          "group": "peg",
+          "name": "mtp-super-pack",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT/"
+          ]
+        },
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT_CP_Street_Shore_Pinyon_Pines.dat"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "SFBT.tree-family": "PEG-pines"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "cycledogg",
+          "name": "tree-models-part-one-and-two",
+          "version": "latest.release"
+        },
+        {
+          "group": "peg",
+          "name": "mtp-super-pack",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT/"
+          ]
+        },
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT_PEG_Street_Pines.dat"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "SFBT.tree-family": "Maxis-deciduous-trees"
+      },
+      "assets": [
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT/"
+          ]
+        },
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT_Maxis_Street_Deciduous_Trees.dat"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "SFBT.tree-family": "Maxis-palm-trees"
+      },
+      "assets": [
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT/"
+          ]
+        },
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT_Maxis_Street_Palm_Trees.dat"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "SFBT.tree-family": "Maxis-pine-trees"
+      },
+      "assets": [
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT/"
+          ]
+        },
+        {
+          "assetId": "sfbt-essentials",
+          "include": [
+            "/SFBT_Maxis_Street_Pine_Trees.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "variantDescriptions": {
+    "SFBT.tree-family": {
+      "Maxis-palm-trees": "the default Maxis palm trees",
+      "CP-shore-pinyon-pines": "various shore and pinyon pines by Cycledogg",
+      "Maxis-pine-trees": "the default Maxis pine trees",
+      "CP-deciduous-trees": "mix of various deciduous trees by Cycledogg (recommended for use with custom tree controllers)",
+      "PEG-pines": "mix of pine trees by Pegasus",
+      "Maxis-deciduous-trees": "the default Maxis deciduous trees (recommended for use without a custom tree controller)",
+      "CP-ponderosa-pines": "various ponderosa pines by Cycledogg"
+    }
+  },
+  "metadataSource": [
+    "sfbt/essentials.yaml"
+  ]
+}

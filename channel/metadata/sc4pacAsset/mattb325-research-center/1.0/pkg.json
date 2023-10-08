@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-research-center",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/30875-research-center/?do=download",
+  "lastModified": "2015-12-23T07:04:38Z",
+  "requiredBy": [
+    "mattb325:research-center"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "Package",
+  "group": "bsc",
+  "name": "jrj-cpt-trees-as-props",
+  "version": "2-2",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "JRJ_CPT_Trees_as_props_V2 by jeronij",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "cycledogg",
+          "name": "tree-models-part-one-and-two",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "sc4d-lex-legacy-bsc-common-dependencies-pack",
+          "include": [
+            "/BSC Prop Pack - JRJ CPT Trees as props V..dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "bsc/common-dependencies.yaml"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-sau-paulo-art-museum-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/33035-sao-paulo-art-museum/?do=download&r=176798",
+  "lastModified": "2019-07-20T00:52:01Z",
+  "requiredBy": [
+    "mattb325:sau-paulo-art-museum"
+  ]
+}

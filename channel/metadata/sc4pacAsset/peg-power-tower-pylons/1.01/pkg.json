@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "peg-power-tower-pylons",
+  "version": "1.01",
+  "url": "https://community.simtropolis.com/files/file/21686-peg-power-tower-pylons/?do=download",
+  "lastModified": "2023-12-15T22:10:11Z",
+  "requiredBy": [
+    "peg:power-tower-pylons"
+  ]
+}

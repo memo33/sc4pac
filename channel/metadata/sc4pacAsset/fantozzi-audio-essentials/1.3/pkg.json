@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "fantozzi-audio-essentials",
+  "version": "1.3",
+  "url": "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=89:fantozzis-audio-essentials",
+  "lastModified": "2023-08-07T23:53:47Z",
+  "requiredBy": [
+    "fantozzi:audio-essentials"
+  ]
+}

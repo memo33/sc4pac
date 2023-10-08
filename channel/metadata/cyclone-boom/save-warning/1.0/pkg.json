@@ -1,0 +1,28 @@
+{
+  "$type": "Package",
+  "group": "cyclone-boom",
+  "name": "save-warning",
+  "version": "1.0",
+  "subfolder": "150-mods",
+  "info": {
+    "summary": "Disable the Save & Exit button to prevent save file corruption",
+    "author": "Cyclone Boom",
+    "website": "https://community.simtropolis.com/files/file/32812-save-warning/",
+    "requiredBy": [
+      "memo:essential-fixes"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "cyclone-boom-save-warning-disable-exit-quit"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "cyclone-boom/save-warning.yaml"
+  ]
+}

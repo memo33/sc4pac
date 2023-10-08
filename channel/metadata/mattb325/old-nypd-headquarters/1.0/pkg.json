@@ -1,0 +1,57 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "old-nypd-headquarters",
+  "version": "1.0",
+  "subfolder": "610-safety",
+  "info": {
+    "summary": "Old NYPD Headquarters",
+    "description": "More like a palace than a police station, this real building on Centre St in New York was built in 1909 and housed the New York Police department from 1909 to 1973.\nThe building is listed on the National Register of Historic Places and is a fine example of the Beaux Arts style. Given the classic architecture, this will work equally well in either a New York scene or a European one.\nThis police station is specially modded to squash the crime bug that plagues large lots such as airports and golf courses. It has a massive coverage radius and capacity.  It provides 294 civic jobs.\nThis is the orthogonal version, it sits on a 6x3 lot.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/32907-old-nypd-headquarters-new-york/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "girafe",
+          "name": "poplars",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-old-nypd-headquarters-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "girafe",
+          "name": "poplars",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-old-nypd-headquarters-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/safety/old-nypd-headquarters.yaml"
+  ]
+}

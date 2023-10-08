@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-diagonal-hospital-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33211-diagonal-hospital/?do=download&r=178152",
+  "lastModified": "2019-10-05T02:01:48Z",
+  "requiredBy": [
+    "mattb325:diagonal-hospital"
+  ]
+}

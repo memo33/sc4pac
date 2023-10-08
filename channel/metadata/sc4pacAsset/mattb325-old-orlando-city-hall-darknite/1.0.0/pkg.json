@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-old-orlando-city-hall-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/34142-old-orlando-city-hall/?do=download&r=185311",
+  "lastModified": "2021-02-15T18:54:45Z",
+  "requiredBy": [
+    "mattb325:old-orlando-city-hall"
+  ]
+}

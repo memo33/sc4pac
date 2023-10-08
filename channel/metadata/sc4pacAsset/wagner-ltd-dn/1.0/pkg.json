@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "wagner-ltd-dn",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/28405-wagner-ltd/?do=download&r=111241",
+  "lastModified": "2013-01-28T02:34:54Z",
+  "requiredBy": [
+    "nofunk:wagner-ltd"
+  ]
+}

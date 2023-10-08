@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "gnl-eha-poor-apartments",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/28046-gnl-eha-poor-apartments/?do=download",
+  "lastModified": "2024-02-06T12:40:43Z",
+  "requiredBy": [
+    "gn-leugim:poor-apartments"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$type": "Package",
+  "group": "jenx",
+  "name": "cows",
+  "version": "1.0",
+  "subfolder": "180-flora",
+  "info": {
+    "summary": "Cows as god-mode ploppable fauna",
+    "author": "xannepan",
+    "website": "https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/155-sc4d-lex-legacy-jenx-fauna"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "jenx-fauna",
+          "include": [
+            "/JENXFAUNA_Cows.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "jenx/fauna.yaml"
+  ]
+}

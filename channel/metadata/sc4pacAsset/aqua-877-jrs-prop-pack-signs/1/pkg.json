@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "aqua-877-jrs-prop-pack-signs",
+  "version": "1",
+  "url": "http://hide-inoki.com/bbs/archives/files/1107.zip",
+  "lastModified": "2020-08-26T12:37:13Z",
+  "requiredBy": [
+    "aqua877:jrs-prop-pack-signs"
+  ]
+}

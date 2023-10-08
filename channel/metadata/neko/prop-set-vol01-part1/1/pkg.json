@@ -1,0 +1,26 @@
+{
+  "$type": "Package",
+  "group": "neko",
+  "name": "prop-set-vol01-part1",
+  "version": "1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Neko Prop Set 01 - part 1",
+    "description": "Japanese props.\n",
+    "author": "Neko Panchi",
+    "website": "http://hide-inoki.com/bbs/archives/sc4_0856.html"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "neko-prop-set-vol01-part1"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "neko/prop-sets.yaml"
+  ]
+}

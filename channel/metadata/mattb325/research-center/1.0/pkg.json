@@ -1,0 +1,105 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "research-center",
+  "version": "1.0",
+  "subfolder": "600-civics",
+  "info": {
+    "summary": "Research Center",
+    "description": "Alternative research center without the NIMBY effects of the in-game version. This research center does not generate radiation, reduce residential desirability, or lower your mayor rating.\nThe Oran-Nayar-Blinn Research facility is a strikingly designed ultra-modern building situated on a leafy 7x7 campus-styled lot. It is just as suited to the middle of an industrial area as it is in a suburban or ex-urban space.\nIn addition to providing many civic jobs, it will help alleviate the IHT demand caps that can hinder city development (by increasing IHT demand by 130,000 places). It has also been modded to provide some residential and commercial cap relief by providing both Park and Landmark effects.\nIt is offered as a non-conditional reward.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/30875-research-center/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-research-center",
+          "include": [
+            "\\.SC4Lot$",
+            "/MaxisNite/"
+          ]
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "bat-props-mattb325-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-research-center",
+          "include": [
+            "\\.SC4Lot$",
+            "/DarkNite/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/miscellaneous/research-center.yaml"
+  ]
+}

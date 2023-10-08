@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "jasoncw-cecil-hotel-dn",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/35720-cecil-hotel/?do=download&r=198241",
+  "lastModified": "2023-11-02T01:38:40Z",
+  "requiredBy": [
+    "jasoncw:cecil-hotel"
+  ]
+}

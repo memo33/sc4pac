@@ -1,0 +1,32 @@
+{
+  "$type": "Package",
+  "group": "vip",
+  "name": "vip-terrain-mod-water",
+  "version": "1",
+  "subfolder": "170-terrain",
+  "info": {
+    "summary": "VIP Terrain Mod - Water Textures",
+    "description": "Optional water textures for the VIP Terrain Mod.\nThis is an HD terrain mod, requiring the use of hardware rendering mode.\n",
+    "author": "Badsim/Cédric",
+    "website": "https://www.sc4devotion.com/forums/index.php?topic=17728.0",
+    "requiredBy": [
+      "vip:vip-terrain-mod-complete"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "vip-terrain-mod",
+          "include": [
+            "/VIP Terrain Mod Optional/Water/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "vip/vip-terrain-mod.yaml"
+  ]
+}

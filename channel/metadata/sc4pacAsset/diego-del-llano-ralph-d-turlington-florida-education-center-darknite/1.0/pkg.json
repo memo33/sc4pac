@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-ralph-d-turlington-florida-education-center-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32928-ralph-d-turlington-florida-education-center/?do=download",
+  "lastModified": "2019-05-18T16:06:12Z",
+  "requiredBy": [
+    "diego-del-llano:turlington-building"
+  ]
+}

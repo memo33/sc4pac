@@ -1,0 +1,67 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "modern-police-station",
+  "version": "1.0.0",
+  "subfolder": "610-safety",
+  "info": {
+    "summary": "Modern Police Station",
+    "description": "This police station is inspired by the newly built police stations that you find in many outer urban areas. They are cheap and quick to build, and basically all look the same. In true functionalist style, it is given blue trim work to easily denote its function.\nIt provides 90 civic jobs and has holding space for 75 inmates.\nThis BAT has been modded to work particularly well with those areas that have mega lots, such as shopping malls, large industrial lots, golf courses, airports etc - which often suffer from the crime bug.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/33119-modern-police-station/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-modern-police-station-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-modern-police-station-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/safety/modern-police-station.yaml"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$type": "Package",
+  "group": "gn-leugim",
+  "name": "lousy-apartment",
+  "version": "1.0",
+  "subfolder": "200-residential",
+  "info": {
+    "summary": "Midsize European R$ apartment building (EHA) (EBLT)",
+    "conflicts": "Incompatible with mods blocking Maxis lots",
+    "description": "This building is part of the European House Add-on (EHA) project which seamlessly integrates with Maxis buildings by extending the original building families.\n",
+    "author": "Gn_Leugim",
+    "website": "https://community.simtropolis.com/files/file/28044-gnl-eha-lousy-apartments/",
+    "requiredBy": [
+      "gn-leugim:eha-apartments-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "gnl-eha-lousy-apartments"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "gn-leugim/lousy-apartments.yaml"
+  ]
+}

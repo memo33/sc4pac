@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-torre-reforma-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31561-torre-reforma/?do=download&r=165335",
+  "lastModified": "2017-04-13T05:33:26Z",
+  "requiredBy": [
+    "diego-del-llano:torre-reforma"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "$type": "Package",
+  "group": "kingofsimcity",
+  "name": "community-park-textures-1",
+  "version": "1.12",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "Park textures from King's Community & Regional Park Pack Vol1",
+    "author": "kingofsimcity",
+    "website": "https://community.simtropolis.com/files/file/32075-kings-community-regional-park-pack-vol-1/",
+    "requiredBy": [
+      "kingofsimcity:community-regional-park-pack-vol1",
+      "kingofsimcity:community-regional-park-pack-vol2-baseball-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-community-parks",
+      "kingofsimcity:community-regional-park-pack-vol2-desolate-parks",
+      "kingofsimcity:community-regional-park-pack-vol2-royal-trails",
+      "kingofsimcity:community-regional-park-pack-vol2-soccer-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-softball-fields",
+      "kingofsimcity:community-regional-park-pack-vol2-sports-complexes",
+      "kingofsimcity:community-regional-park-pack-vol2-tennis-parks"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "kings-community-regional-park-pack-vol1",
+          "include": [
+            "/KOSC_ParkTextures.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "kingofsimcity/community-regional-park-pack.yaml"
+  ]
+}

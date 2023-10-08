@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-community-center-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33289-community-center/?do=download&r=178683",
+  "lastModified": "2019-11-23T05:15:34Z",
+  "requiredBy": [
+    "mattb325:community-center"
+  ]
+}

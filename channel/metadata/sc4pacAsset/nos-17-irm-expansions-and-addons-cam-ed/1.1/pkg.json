@@ -1,0 +1,11 @@
+{
+  "$type": "Asset",
+  "assetId": "nos-17-irm-expansions-and-addons-cam-ed",
+  "version": "1.1",
+  "url": "https://community.simtropolis.com/files/file/35792-irm-expansions-and-addons-cam-edition/?do=download&r=198614",
+  "lastModified": "2023-12-10T23:46:02Z",
+  "requiredBy": [
+    "t-wrecks:industrial-revolution-mod-addon-set-i-d",
+    "t-wrecks:industrial-revolution-mod-addon-set-i-m"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-one-kansas-city-place-maxisnite",
+  "version": "2.0.0",
+  "url": "https://community.simtropolis.com/files/file/31469-one-kansas-city-place/?do=download&r=164641",
+  "lastModified": "2017-05-18T16:32:20Z",
+  "requiredBy": [
+    "diego-del-llano:one-kansas-city-place"
+  ]
+}

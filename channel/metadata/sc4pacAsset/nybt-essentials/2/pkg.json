@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "nybt-essentials",
+  "version": "2",
+  "url": "https://community.simtropolis.com/files/file/22916-nybt-essentials/?do=download",
+  "lastModified": "2011-06-24T08:00:57Z",
+  "requiredBy": [
+    "nybt:essentials"
+  ]
+}

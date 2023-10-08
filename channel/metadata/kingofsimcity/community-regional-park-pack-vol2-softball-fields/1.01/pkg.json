@@ -1,0 +1,153 @@
+{
+  "$type": "Package",
+  "group": "kingofsimcity",
+  "name": "community-regional-park-pack-vol2-softball-fields",
+  "version": "1.01",
+  "subfolder": "660-parks",
+  "info": {
+    "summary": "6 softball fields from King's Community & Regional Park Pack Vol2",
+    "author": "kingofsimcity, MushyMushy, Glenni",
+    "website": "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/",
+    "requiredBy": [
+      "kingofsimcity:community-regional-park-pack-vol2"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "shk",
+          "name": "parking-pack",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "t-wrecks",
+          "name": "maxis-prop-names-and-query-fix",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "mgb204",
+          "name": "anyone-for-tennis",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "elms",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "beeches",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "lindens",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "maples-v2",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "birches",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "walnut-trees",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "canary-date-palms",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "hedges",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "feather-grass",
+          "version": "latest.release"
+        },
+        {
+          "group": "girafe",
+          "name": "cattails",
+          "version": "latest.release"
+        },
+        {
+          "group": "mandelsoft",
+          "name": "light-replacement-mod-props",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "supershk",
+          "name": "mega-parking-textures",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "superpaths-pathway-textures",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "community-park-textures-1",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "community-regional-park-pack-vol2-resources",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "kings-community-regional-park-pack-vol2",
+          "include": [
+            "/Softball Fields/"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "kingofsimcity/community-regional-park-pack.yaml"
+  ]
+}

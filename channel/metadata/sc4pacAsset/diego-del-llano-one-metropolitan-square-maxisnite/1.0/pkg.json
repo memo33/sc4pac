@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-one-metropolitan-square-maxisnite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31470-one-metropolitan-square/?do=download&r=164645",
+  "lastModified": "2017-02-20T00:35:01Z",
+  "requiredBy": [
+    "diego-del-llano:one-metropolitan-square"
+  ]
+}

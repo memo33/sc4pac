@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-clinic-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33142-clinic/?do=download&r=177560",
+  "lastModified": "2019-09-04T05:15:39Z",
+  "requiredBy": [
+    "mattb325:clinic"
+  ]
+}

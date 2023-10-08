@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "torre-latinoamericana",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Torre Latinoamericana",
+    "description": "The Torre Latinoamericana (English: Latin-American Tower) is a skyscraper in downtown Mexico City, Mexico. Its central location, height (188 m or 597 ft; 44 stories) and history make it one of the city's most important landmarks. It is also widely recognized internationally as an engineering and architectural landmark since it was the world's first major skyscraper successfully built on highly active seismic land. The old skyscraper withstood the 1985 Mexico City earthquake without damage.\nThe Torre Latinoamericana was Mexico City's tallest building from 1956, when it was built, until the 1984 completion of the Torre Ejecutiva Pemex, which is 22 m higher (although, if one subtracts the height of the television transmitter atop the Torre Latinoamericana, it had already been surpassed in 1972 by the 207 m-tall Hotel de México, which was subsequently remodelled and turned into the World Trade Center Mexico City). It is situated on the corner of the Eje Central and Madero Street.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/31986-torre-latinoamericana/",
+    "requiredBy": [
+      "diego-del-llano:latin-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-torre-latinoamericana-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-torre-latinoamericana-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/torre-latinoamericana.yaml"
+  ]
+}

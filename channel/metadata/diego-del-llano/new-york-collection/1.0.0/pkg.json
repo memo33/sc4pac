@@ -1,0 +1,75 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "new-york-collection",
+  "version": "1.0.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Diego Del Llano's New York City landmarks collection",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file",
+    "requiredBy": [
+      "diego-del-llano:north-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "diego-del-llano",
+          "name": "432-park-avenue",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "ariel-east",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "chanin-building",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "citigroup-center-new-york",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "nelson-tower",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "one-chase-manhattan-plaza",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "one-world-trade-center",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "the-look-building",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "times-square-building",
+          "version": "latest.release"
+        },
+        {
+          "group": "diego-del-llano",
+          "name": "times-square-building-diagonal",
+          "version": "latest.release"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/new-york-collection.yaml"
+  ]
+}

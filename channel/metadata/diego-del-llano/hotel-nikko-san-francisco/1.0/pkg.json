@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "hotel-nikko-san-francisco",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Hotel Nikko San Francisco",
+    "description": "Hotel located in San Francisco, California.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32938-hotel-nikko-san-francisco/",
+    "requiredBy": [
+      "diego-del-llano:san-francisco-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-hotel-nikko-san-francisco-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-hotel-nikko-san-francisco-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/hotel-nikko-san-francisco.yaml"
+  ]
+}

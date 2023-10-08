@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "one-chase-manhattan-plaza",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "One Chase Manhattan Plaza",
+    "description": "28 Liberty Street, formerly known as One Chase Manhattan Plaza, is a banking skyscraper located in the downtown Manhattan Financial District of New York City, between Pine, Liberty, Nassau, and William Streets. Construction on the building was completed in 1961. It has 60 floors, with 5 basement floors, and is 813 feet (248 m) tall, making it the 26th tallest building in New York City, the 43rd tallest in the United States, and the 200th tallest building in the world.\nThe building is built in the International style, with a stainless steel facade with black spandrels below the windows. Designed by Gordon Bunshaft of Skidmore, Owings and Merrill, the building echoes the firm's earlier Inland Steel Building in Chicago.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32975-one-chase-manhattan-plaza/",
+    "requiredBy": [
+      "diego-del-llano:new-york-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-one-chase-manhattan-plaza-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-one-chase-manhattan-plaza-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/one-chase-manhattan-plaza.yaml"
+  ]
+}

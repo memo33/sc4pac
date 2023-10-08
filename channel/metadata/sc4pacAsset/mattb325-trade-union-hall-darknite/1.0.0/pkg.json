@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-trade-union-hall-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33160-trade-union-hall/?do=download&r=177689",
+  "lastModified": "2019-09-13T07:16:22Z",
+  "requiredBy": [
+    "mattb325:trade-union-hall"
+  ]
+}

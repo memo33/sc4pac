@@ -1,0 +1,127 @@
+{
+  "$type": "Package",
+  "group": "ids2",
+  "name": "minneapolis-house-set",
+  "version": "1.1",
+  "subfolder": "200-residential",
+  "info": {
+    "summary": "32 R$$ houses with garages",
+    "description": "The package includes 8 house designs with 4 color variations and 9 detached garages on 25 unique lots (stages 1 to 5) for the Houston tile set. The houses are all based on real world counterparts in the Morris Park neighborhood of South Minneapolis.\n",
+    "author": "IDS2, SimCoug",
+    "website": "https://community.simtropolis.com/files/file/30647-minneapolis-house-set/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-jmyers-common-props",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol03",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "krashspeed",
+          "name": "mailbox-set",
+          "version": "latest.release"
+        },
+        {
+          "group": "wmp",
+          "name": "mega-props-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "ids-houses-garages-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-jmyers-common-props",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "textures-vol03",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-sg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "krashspeed",
+          "name": "mailbox-set",
+          "version": "latest.release"
+        },
+        {
+          "group": "wmp",
+          "name": "mega-props-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "ids-houses-garages-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "ids2/minneapolis-house-set.yaml"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-john-hancock-tower-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32788-john-hancock-tower/?do=download",
+  "lastModified": "2019-03-10T04:53:35Z",
+  "requiredBy": [
+    "diego-del-llano:john-hancock-tower"
+  ]
+}

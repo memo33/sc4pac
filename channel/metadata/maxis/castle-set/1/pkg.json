@@ -1,0 +1,31 @@
+{
+  "$type": "Package",
+  "group": "maxis",
+  "name": "castle-set",
+  "version": "1",
+  "subfolder": "100-props-textures",
+  "info": {
+    "summary": "CastleSet.dat dependency from the Maxis additional landmarks",
+    "author": "Maxis",
+    "website": "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php",
+    "requiredBy": [
+      "mattb325:benevolent-asylum"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "maxis-additional-landmarks",
+          "include": [
+            "CastleSet\\.dat$"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "maxis/additional-landmarks.yaml"
+  ]
+}

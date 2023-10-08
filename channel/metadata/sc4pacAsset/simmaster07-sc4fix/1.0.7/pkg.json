@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "simmaster07-sc4fix",
+  "version": "1.0.7",
+  "url": "https://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/?do=download",
+  "lastModified": "2018-01-21T05:11:27Z",
+  "requiredBy": [
+    "simmaster07:sc4fix"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-dental-clinic",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/30940-dental-clinic/?do=download",
+  "lastModified": "2016-02-06T22:57:49Z",
+  "requiredBy": [
+    "mattb325:dental-clinic"
+  ]
+}

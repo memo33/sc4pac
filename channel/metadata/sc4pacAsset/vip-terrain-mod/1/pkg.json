@@ -1,0 +1,13 @@
+{
+  "$type": "Asset",
+  "assetId": "vip-terrain-mod",
+  "version": "1",
+  "url": "https://www.dropbox.com/sh/3vv8wi4jpqvjftj/AAAld2VbdWi-MctBYCiCaxi-a?dl=1",
+  "lastModified": "2020-08-15T14:21:59Z",
+  "requiredBy": [
+    "vip:vip-terrain-mod-base",
+    "vip:vip-terrain-mod-beach",
+    "vip:vip-terrain-mod-rock",
+    "vip:vip-terrain-mod-water"
+  ]
+}

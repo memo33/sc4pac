@@ -1,0 +1,77 @@
+{
+  "$type": "Package",
+  "group": "mattb325",
+  "name": "old-orlando-city-hall",
+  "version": "1.0.0",
+  "subfolder": "640-government",
+  "info": {
+    "summary": "Old Orlando City Hall",
+    "description": "This 8-floor building with two asymmetrical balanced lower wings is typical of many mid-century public American buildings.  They were solidly built with quality materials: limestone, marble and pink granite.\nThis building is offered as a non-conditional town hall reward. It provides 986 civic jobs and has all of the benefits (commercial and residential boost) of a town hall. Placing this building should see residential and commercial sky scrapers grow more easily in your city.\n",
+    "author": "mattb325",
+    "website": "https://community.simtropolis.com/files/file/34142-old-orlando-city-hall/"
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-old-orlando-city-hall-maxisnite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "mega-props-cp-vol02",
+          "version": "latest.release"
+        },
+        {
+          "group": "bsc",
+          "name": "texturepack-cycledogg-vol01",
+          "version": "latest.release"
+        },
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "mattb325-old-orlando-city-hall-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "mattb325/civic/government/old-orlando-city-hall.yaml"
+  ]
+}

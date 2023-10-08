@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "buggi-extra-cheats-dll",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/?do=download",
+  "lastModified": "2014-05-07T18:32:32Z",
+  "requiredBy": [
+    "simmaster07:extra-cheats-dll"
+  ]
+}

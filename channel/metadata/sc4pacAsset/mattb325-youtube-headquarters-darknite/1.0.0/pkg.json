@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-youtube-headquarters-darknite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33958-youtube-headquarters/?do=download&r=183748",
+  "lastModified": "2020-11-14T02:12:42Z",
+  "requiredBy": [
+    "mattb325:youtube-headquarters"
+  ]
+}

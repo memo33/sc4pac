@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "marrast-embankment-set",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/16655-marrasts-embankment-set/?do=download",
+  "lastModified": "2011-04-18T21:02:58Z",
+  "requiredBy": [
+    "marrast:embankment-set"
+  ]
+}

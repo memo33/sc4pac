@@ -1,0 +1,28 @@
+{
+  "$type": "Package",
+  "group": "madhatter106",
+  "name": "midrise-office-pack-vol5",
+  "version": "1.0",
+  "subfolder": "300-commercial",
+  "info": {
+    "summary": "Midrise Office Pack Volume 5",
+    "author": "madhatter106",
+    "website": "https://community.simtropolis.com/files/file/30077-midrise-office-pack-volume-5/",
+    "requiredBy": [
+      "madhatter106:midrise-office-pack-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "madhatter106-midrise-office-pack-vol5"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "madhatter106/midrise-office-pack.yaml"
+  ]
+}

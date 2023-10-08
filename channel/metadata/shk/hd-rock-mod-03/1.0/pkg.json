@@ -1,0 +1,29 @@
+{
+  "$type": "Package",
+  "group": "shk",
+  "name": "hd-rock-mod-03",
+  "version": "1.0",
+  "subfolder": "170-terrain",
+  "info": {
+    "summary": "HD Rock Mod 03 - dark brown",
+    "description": "This variety has dark, brown hues.\nThese are HD rock textures which require the use of hardware rendering mode.\n",
+    "author": "shokthrpy",
+    "website": "https://community.simtropolis.com/files/file/27655-shk-hd-rock-mods/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "assets": [
+        {
+          "assetId": "shk-hd-rock-mods",
+          "include": [
+            "SHK_HDRockMod_03.dat"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "shk/hd-rock-mods.yaml"
+  ]
+}

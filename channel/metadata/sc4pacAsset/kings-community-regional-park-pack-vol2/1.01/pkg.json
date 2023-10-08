@@ -1,0 +1,18 @@
+{
+  "$type": "Asset",
+  "assetId": "kings-community-regional-park-pack-vol2",
+  "version": "1.01",
+  "url": "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/?do=download&r=196582",
+  "lastModified": "2023-02-14T10:00:33Z",
+  "requiredBy": [
+    "kingofsimcity:community-regional-park-pack-vol2-baseball-fields",
+    "kingofsimcity:community-regional-park-pack-vol2-community-parks",
+    "kingofsimcity:community-regional-park-pack-vol2-desolate-parks",
+    "kingofsimcity:community-regional-park-pack-vol2-resources",
+    "kingofsimcity:community-regional-park-pack-vol2-royal-trails",
+    "kingofsimcity:community-regional-park-pack-vol2-soccer-fields",
+    "kingofsimcity:community-regional-park-pack-vol2-softball-fields",
+    "kingofsimcity:community-regional-park-pack-vol2-sports-complexes",
+    "kingofsimcity:community-regional-park-pack-vol2-tennis-parks"
+  ]
+}

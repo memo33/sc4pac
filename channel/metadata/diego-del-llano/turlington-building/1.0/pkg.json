@@ -1,0 +1,48 @@
+{
+  "$type": "Package",
+  "group": "diego-del-llano",
+  "name": "turlington-building",
+  "version": "1.0",
+  "subfolder": "360-landmark",
+  "info": {
+    "summary": "Ralph D. Turlington Florida Education Center",
+    "description": "The Turlington Building is a 17-story building in the heart of Downtown Tallahassee, Florida. The building was completed in 1990. The entire building serves as the Florida Department of Education. It was named after former Education Commissioner Ralph Turlington.\n",
+    "author": "Diego Del Llano",
+    "website": "https://community.simtropolis.com/files/file/32928-ralph-d-turlington-florida-education-center/",
+    "requiredBy": [
+      "diego-del-llano:north-america-collection"
+    ]
+  },
+  "variants": [
+    {
+      "variant": {
+        "nightmode": "standard"
+      },
+      "assets": [
+        {
+          "assetId": "diego-del-llano-ralph-d-turlington-florida-education-center-darknite"
+        }
+      ]
+    },
+    {
+      "variant": {
+        "nightmode": "dark"
+      },
+      "dependencies": [
+        {
+          "group": "simfox",
+          "name": "day-and-nite-mod",
+          "version": "latest.release"
+        }
+      ],
+      "assets": [
+        {
+          "assetId": "diego-del-llano-ralph-d-turlington-florida-education-center-darknite"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "diego-del-llano/turlington-building.yaml"
+  ]
+}

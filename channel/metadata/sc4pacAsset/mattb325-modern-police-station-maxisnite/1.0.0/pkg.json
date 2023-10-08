@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-modern-police-station-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/33119-modern-police-station/?do=download&r=177373",
+  "lastModified": "2019-08-29T04:45:44Z",
+  "requiredBy": [
+    "mattb325:modern-police-station"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-torres-atrio-sur-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/32065-torres-atrio/?do=download&r=169591",
+  "lastModified": "2018-01-14T00:56:53Z",
+  "requiredBy": [
+    "diego-del-llano:torres-atrio"
+  ]
+}

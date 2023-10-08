@@ -1,0 +1,63 @@
+{
+  "$type": "Package",
+  "group": "kingofsimcity",
+  "name": "community-regional-park-pack-vol2",
+  "version": "1.01",
+  "subfolder": "660-parks",
+  "info": {
+    "summary": "Set of 36 large parks with a focus on sports",
+    "description": "Volume 2 has a heavier focus towards sports courts and complexes and as such, you'll see plenty of new (and renewed) tennis courts, baseball, softball and soccer/football fields for your Sims.\nIn case you do not need all 36 parks, each of the subsets listed as dependencies can be installed individually instead.\n",
+    "author": "kingofsimcity, MushyMushy, Glenni",
+    "website": "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+  },
+  "variants": [
+    {
+      "variant": {},
+      "dependencies": [
+        {
+          "group": "kingofsimcity",
+          "name": "community-regional-park-pack-vol2-baseball-fields",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "community-regional-park-pack-vol2-community-parks",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "community-regional-park-pack-vol2-desolate-parks",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "community-regional-park-pack-vol2-royal-trails",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "community-regional-park-pack-vol2-soccer-fields",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "community-regional-park-pack-vol2-softball-fields",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "community-regional-park-pack-vol2-sports-complexes",
+          "version": "latest.release"
+        },
+        {
+          "group": "kingofsimcity",
+          "name": "community-regional-park-pack-vol2-tennis-parks",
+          "version": "latest.release"
+        }
+      ]
+    }
+  ],
+  "metadataSource": [
+    "kingofsimcity/community-regional-park-pack.yaml"
+  ]
+}

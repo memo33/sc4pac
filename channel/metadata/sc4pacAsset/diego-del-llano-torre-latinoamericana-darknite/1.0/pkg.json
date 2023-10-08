@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "diego-del-llano-torre-latinoamericana-darknite",
+  "version": "1.0",
+  "url": "https://community.simtropolis.com/files/file/31986-torre-latinoamericana/?do=download&r=169024",
+  "lastModified": "2017-10-23T01:47:34Z",
+  "requiredBy": [
+    "diego-del-llano:torre-latinoamericana"
+  ]
+}

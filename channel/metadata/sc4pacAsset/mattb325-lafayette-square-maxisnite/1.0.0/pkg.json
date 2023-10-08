@@ -1,0 +1,10 @@
+{
+  "$type": "Asset",
+  "assetId": "mattb325-lafayette-square-maxisnite",
+  "version": "1.0.0",
+  "url": "https://community.simtropolis.com/files/file/34165-lafayette-square-homes-st-louis/?do=download&r=185476",
+  "lastModified": "2021-02-21T20:43:00Z",
+  "requiredBy": [
+    "mattb325:lafayette-square-homes"
+  ]
+}
