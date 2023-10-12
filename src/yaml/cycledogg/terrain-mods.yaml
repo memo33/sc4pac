@@ -21,5 +21,6 @@ assets:
 info:
   summary: "Badlands terrain mod based on eastern Montana, including Rock, Water & Beach mod"
   conflicts: "Only one terrain mod can be installed."
+  description: "This is an SD terrain mod, compatible with software rendering mode."
   author: "c.p./Cycledogg"
   website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods"
