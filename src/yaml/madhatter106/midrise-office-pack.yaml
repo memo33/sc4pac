@@ -1,0 +1,186 @@
+group: "madhatter106"
+name: "midrise-office-pack-collection"
+version: "1.0"
+subfolder: "300-commercial"
+dependencies:
+- "madhatter106:midrise-office-pack-vol1"
+- "madhatter106:midrise-office-pack-vol2"
+- "madhatter106:midrise-office-pack-vol3"
+- "madhatter106:midrise-office-pack-vol4"
+- "madhatter106:midrise-office-pack-vol5"
+- "madhatter106:midrise-office-pack-vol6"
+- "madhatter106:midrise-office-pack-vol7"
+- "madhatter106:midrise-office-pack-vol8"
+- "madhatter106:midrise-office-pack-vol9"
+
+info:
+  summary: "Full collection of madhatter106's Midrise Office Packs, Volumes 1-9"
+  description: >
+    A classic and long-running series of midrise commercial office packs with an emphasis
+    on complementing existing Maxis commercial buildings.  The pack relies only on Maxis
+    assets for lotting and thus requires no dependencies.
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/profile/207209-madhatter106/content/?type=downloads_file"
+
+---
+group: "madhatter106"
+name: "midrise-office-pack-vol1"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-midrise-office-pack-vol1"
+info:
+  summary: "Midrise Office Pack Volume 1"
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/26811-midrise-office-pack-volume-1/"
+
+---
+assetId: "madhatter106-midrise-office-pack-vol1"
+version: "1.0"
+lastModified: "2011-09-28T00:46:18Z"
+url: "https://community.simtropolis.com/files/file/26811-midrise-office-pack-volume-1/?do=download"
+
+---
+group: "madhatter106"
+name: "midrise-office-pack-vol2"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-midrise-office-pack-vol2"
+info:
+  summary: "Midrise Office Pack Volume 2"
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/27105-midrise-office-pack-volume-2/"
+
+---
+assetId: "madhatter106-midrise-office-pack-vol2"
+version: "1.0"
+lastModified: "2011-12-27T22:13:22Z"
+url: "https://community.simtropolis.com/files/file/27105-midrise-office-pack-volume-2/?do=download"
+
+---
+group: "madhatter106"
+name: "midrise-office-pack-vol3"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-midrise-office-pack-vol3"
+info:
+  summary: "Midrise Office Pack Volume 3"
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/27647-midrise-office-pack-volume-3/"
+
+---
+assetId: "madhatter106-midrise-office-pack-vol3"
+version: "1.0"
+lastModified: "2012-05-25T02:51:18Z"
+url: "https://community.simtropolis.com/files/file/27647-midrise-office-pack-volume-3/?do=download"
+
+
+---
+group: "madhatter106"
+name: "midrise-office-pack-vol4"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-midrise-office-pack-vol4"
+info:
+  summary: "Midrise Office Pack Volume 4"
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/28316-midrise-office-pack-volume-4/"
+
+---
+assetId: "madhatter106-midrise-office-pack-vol4"
+version: "1.0"
+lastModified: "2012-12-24T17:32:36Z"
+url: "https://community.simtropolis.com/files/file/28316-midrise-office-pack-volume-4/?do=download"
+
+---
+group: "madhatter106"
+name: "midrise-office-pack-vol5"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-midrise-office-pack-vol5"
+info:
+  summary: "Midrise Office Pack Volume 5"
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/30077-midrise-office-pack-volume-5/"
+
+---
+assetId: "madhatter106-midrise-office-pack-vol5"
+version: "1.0"
+lastModified: "2014-12-29T20:15:06Z"
+url: "https://community.simtropolis.com/files/file/30077-midrise-office-pack-volume-5/?do=download"
+
+---
+group: "madhatter106"
+name: "midrise-office-pack-vol6"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-midrise-office-pack-vol6"
+info:
+  summary: "Midrise Office Pack Volume 6"
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/30846-midrise-office-pack-volume-6/"
+
+---
+assetId: "madhatter106-midrise-office-pack-vol6"
+version: "1.0"
+lastModified: "2015-11-19T04:18:44Z"
+url: "https://community.simtropolis.com/files/file/30846-midrise-office-pack-volume-6/?do=download"
+
+---
+group: "madhatter106"
+name: "midrise-office-pack-vol7"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-midrise-office-pack-vol7"
+info:
+  summary: "Midrise Office Pack Volume 7"
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/31161-midrise-office-pack-volume-7/"
+
+---
+assetId: "madhatter106-midrise-office-pack-vol7"
+version: "1.0"
+lastModified: "2016-07-08T17:32:02Z"
+url: "https://community.simtropolis.com/files/file/31161-midrise-office-pack-volume-7/?do=download"
+
+---
+group: "madhatter106"
+name: "midrise-office-pack-vol8"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-midrise-office-pack-vol8"
+info:
+  summary: "Midrise Office Pack Volume 8"
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/31505-midrise-office-pack-volume-8/"
+
+---
+assetId: "madhatter106-midrise-office-pack-vol8"
+version: "1.0"
+lastModified: "2017-03-10T01:27:32Z"
+url: "https://community.simtropolis.com/files/file/31505-midrise-office-pack-volume-8/?do=download"
+
+---
+group: "madhatter106"
+name: "midrise-office-pack-vol9"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-midrise-office-pack-vol9"
+info:
+  summary: "Midrise Office Pack Volume 9"
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/35522-midrise-office-pack-volume-9/"
+
+---
+assetId: "madhatter106-midrise-office-pack-vol9"
+version: "1.0"
+lastModified: "2023-05-09T00:00:00Z"
+url: "https://community.simtropolis.com/files/file/35522-midrise-office-pack-volume-9/?do=download"
