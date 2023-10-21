@@ -1,2 +1,2 @@
 * [Home](/)
-* [Channel](/channel/ ':target=_self')
+* [Channel](channel/ ':target=_self')

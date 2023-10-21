@@ -3,4 +3,4 @@
 <!-- [sc4pac-tools-readme](README-sc4pac-tools.md ':include') -->
 
 ---
-Next up: [CLI](cli.md)
+Next up: [CLI](cli?id=command-line-interface)

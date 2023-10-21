@@ -4,4 +4,4 @@
   * [About](about.md)
 - Packages
   * [Highlights](packages.md)
-  * [Channel](/channel/ ':target=_self')
+  * [Channel](channel/ ':target=_self')

@@ -29,4 +29,4 @@ This list will be expanded as more packages are added to the metadata channel.
 
 
 ---
-Next up: [Channel](/channel/ ':target=_self')
+Next up: [Channel](channel/ ':target=_self')
