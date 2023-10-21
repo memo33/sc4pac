@@ -1,0 +1,173 @@
+# Command-line interface
+
+The *sc4pac* CLI supports all the commands you need.
+
+
+---
+## add
+
+**Usage:** `sc4pac add [packages...]`
+
+Add new packages to install explicitly.
+
+Afterwards, run `sc4pac update` for the changes to take effect.
+
+**Example:**
+```
+sc4pac add memo:essential-fixes
+```
+
+Package names are of the form `<group>:<package-name>`.
+
+
+---
+## update
+
+**Usage:** `sc4pac update`
+
+Update all installed packages to their latest version and install any missing packages.
+
+In particular, this installs the explicitly added packages and, implicitly, all their dependencies.
+
+
+---
+## remove
+
+**Usage:** `sc4pac remove [options] [packages...]`
+
+Remove packages that have been installed explicitly.
+
+Afterwards, run `sc4pac update` for the changes to take effect.
+
+**Examples:**
+```
+sc4pac remove --interactive          # Interactively select packages to remove.
+sc4pac remove memo:essential-fixes   # Remove package <group>:<package-name>.
+```
+
+**Options:**
+- `-i, --interactive` Interactively select packages to remove
+
+
+---
+## search
+
+**Usage:** `sc4pac search [options] [search text...]`
+
+Search for the name of a package.
+The results are ordered such that the best match is displayed at the bottom.
+
+**Examples:**
+
+```
+sc4pac search "Pause border"
+>>> (1) smp:yellow-pause-thingy-remover
+>>>         Remove the yellow border from the UI when the game is paused
+
+sc4pac search --threshold 20 "Pause border"    # Decrease threshold for more results.
+>>> ...
+```
+
+**Options:**
+- `--threshold <number>` Fuziness (0..100, default=50): Smaller numbers lead to more results.
+
+
+---
+## info
+
+**Usage:** `sc4pac info [packages]`
+
+Display more information about a package.
+
+**Examples:**
+```
+sc4pac info memo:essential-fixes
+```
+
+---
+## list
+
+**Usage:** `sc4pac list`
+
+List all installed packages.
+
+
+---
+## variant reset
+
+**Usage:** `sc4pac variant reset [options] [variants...]`
+
+Select variants to reset in order to choose a different package variant.
+
+For some packages you install, you can choose from a list of package variants that match your preferences. Your choices are stored in a configuration file.
+
+After resetting a variant identifier, the next time you run `sc4pac update`, you will be asked to choose a new variant.
+
+**Examples:**
+```
+sc4pac variant reset --interactive    # Interactively select variants to reset.
+sc4pac variant reset "driveside"      # Reset the "driveside" variant.
+```
+
+**Options:**
+- `-i, --interactive`  Interactively select variants to reset
+
+
+---
+## channel add
+
+**Usage:** `sc4pac channel add [options] [channel-URL]`
+
+Add a channel to fetch package metadata from.
+
+**Examples:**
+```
+sc4pac channel add "https://memo33.github.io/sc4pac/channel/"
+sc4pac channel add "file:///c:/absolute/path/to/local/channel/"
+```
+
+---
+## channel remove
+
+**Usage:** `sc4pac channel remove [options] [URL-patterns]`
+
+Select channels to remove.
+
+**Examples:**
+```
+sc4pac channel remove --interactive     # Interactively select channels to remove.
+sc4pac channel remove "github.com"      # Remove channel URLs containing "github.com".
+```
+
+**Options:**
+- `-i, --interactive`  Interactively select channels to remove
+
+
+---
+## channel list
+
+**Usage:** `sc4pac channel list`
+
+List the channel URLs.
+
+The first channel has the highest priority when resolving dependencies.
+
+
+---
+## channel build
+
+**Usage:** `sc4pac channel build [options] [YAML-input-directories...]`
+
+Build a channel locally by converting YAML files to JSON.
+
+**Examples:**
+```
+sc4pac channel build --output "channel/json/" "channel/yaml/"
+```
+
+**Options:**
+- `-o, --output <dir>`  Output directory for JSON files
+
+
+---
+Next up: [About](about.md)
