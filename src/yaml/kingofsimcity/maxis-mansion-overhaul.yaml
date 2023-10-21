@@ -1,0 +1,40 @@
+group: "kingofsimcity"
+name: "maxis-mansion-overhaul"
+version: "1.0"
+subfolder: "200-residential"
+assets:
+- assetId: "kosc-maxis-mansion-overhaul-standalone"
+dependencies:
+- "bsc:no-maxis-mansions"
+- "supershk:mega-parking-textures"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:textures-vol03"
+- "bsc:texturepack-cycledogg-vol01"
+- "shk:parking-pack"
+- "mgb204:anyone-for-tennis"
+- "lbt:mega-prop-pack-vol01"
+- "bsc:mega-props-sg-vol01"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+
+info:
+  summary: "Full set of override Lots replacing all default Maxis mansion Lots"
+  description: >
+    This mod brings more details, more variety, better slope tolerance,
+    seasonal trees and many other improvements to the Maxis mansions.
+
+    It only affects newly growing mansion lots, due to the use of a Maxis blocker.
+  author: "kingofsimcity"
+  website: "https://community.simtropolis.com/files/file/31308-maxis-mansion-overhaul/"
+
+---
+# assetId: "kosc-maxis-mansion-overhaul-override"
+# version: "1.0"
+# lastModified: "2020-07-28T05:27:11Z"
+# url: "https://community.simtropolis.com/files/file/31308-maxis-mansion-overhaul/?do=download&r=163317"
+
+assetId: "kosc-maxis-mansion-overhaul-standalone"
+version: "1.0"
+lastModified: "2020-07-28T05:27:11Z"
+url: "https://community.simtropolis.com/files/file/31308-maxis-mansion-overhaul/?do=download&r=163318"

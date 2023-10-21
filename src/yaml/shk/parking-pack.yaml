@@ -1,0 +1,17 @@
+group: "shk"
+name: "parking-pack"
+version: "1.2"
+subfolder: "100-props-textures"
+assets:
+- assetId: "shk-parking-pack"
+
+info:
+  summary: "Parking lot textures, vehicle props and parking props"
+  author: "shokthrpy"
+  website: "https://community.simtropolis.com/files/file/27563-shk-parking-pack/"
+
+---
+assetId: "shk-parking-pack"
+version: "1.2"
+lastModified: "2013-05-26T19:08:47Z"
+url: "https://community.simtropolis.com/files/file/27563-shk-parking-pack/?do=download"

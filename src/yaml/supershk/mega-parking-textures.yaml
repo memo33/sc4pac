@@ -1,0 +1,18 @@
+group: "supershk"
+name: "mega-parking-textures"
+version: "1.0.1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "supershk-mega-parking-textures"
+  include: [ "SuperSHK MEGA Textures/" ]  # in particular, excludes sample lot
+
+info:
+  summary: "Parking lot textures"
+  author: "kingofsimcity, shokthrpy"
+  website: "https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/"
+
+---
+assetId: "supershk-mega-parking-textures"
+version: "1.0.1"
+lastModified: "2016-04-01T01:57:31Z"
+url: "https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=download"

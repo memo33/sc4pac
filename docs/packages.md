@@ -2,19 +2,23 @@
 
 A set of packages to help you get started building a new plugins folder:
 
-- [memo:essential-fixes](https://memo33.github.io/sc4pac/channel/?pkg=memo:essential-fixes)
-  (important fixes everyone should have)
-- [madhatter106:midrise-office-pack-collection](https://memo33.github.io/sc4pac/channel/?pkg=madhatter106:midrise-office-pack-collection)
+- [memo:essential-fixes](channel/?pkg=memo:essential-fixes)
+  (important fixes everyone should have – more to come)
+- [madhatter106:midrise-office-pack-collection](channel/?pkg=madhatter106:midrise-office-pack-collection)
   (a variety of offices)
-- [memo:industrial-revolution-mod](https://memo33.github.io/sc4pac/channel/?pkg=memo:industrial-revolution-mod)
+- [andisart:sc2013-inspired-homes](channel/?pkg=andisart:sc2013-inspired-homes)
+  (low-density R$$ houses)
+- [kingofsimcity:maxis-mansion-overhaul](channel/?pkg=kingofsimcity:maxis-mansion-overhaul)
+  (replacement of all Maxis mansion Lots)
+- [memo:industrial-revolution-mod](channel/?pkg=memo:industrial-revolution-mod)
   (IRM base pack including all dependencies [~1.4GB])
 - BSC Common Dependencies: `sc4pac search bsc` displays all the available package names.
-  - [bsc:essentials](https://memo33.github.io/sc4pac/channel/?pkg=bsc:essentials)
-  - [bsc:mega-props-sg-vol01](https://memo33.github.io/sc4pac/channel/?pkg=bsc:mega-props-sg-vol01)
-  - [bsc:mega-props-cp-vol01](https://memo33.github.io/sc4pac/channel/?pkg=bsc:mega-props-cp-vol01)
-  - [bsc:textures-vol01](https://memo33.github.io/sc4pac/channel/?pkg=bsc:textures-vol01)
+  - [bsc:essentials](channel/?pkg=bsc:essentials)
+  - [bsc:mega-props-sg-vol01](channel/?pkg=bsc:mega-props-sg-vol01)
+  - [bsc:mega-props-cp-vol01](channel/?pkg=bsc:mega-props-cp-vol01)
+  - [bsc:textures-vol01](channel/?pkg=bsc:textures-vol01)
   - and many more
-- [cycledogg:missouri-breaks-terrain](https://memo33.github.io/sc4pac/channel/?pkg=cycledogg:missouri-breaks-terrain)
+- [cycledogg:missouri-breaks-terrain](channel/?pkg=cycledogg:missouri-breaks-terrain)
   (an SD terrain mod)
 
 This list will be expanded as more packages are added to the metadata channel.

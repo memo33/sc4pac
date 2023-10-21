@@ -4,6 +4,14 @@ lastModified: "2023-10-09T11:21:54Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=26:bsc-no-maxis"
 
 ---
+# A subset of the bsc-no-maxis v2 R$$$ file needed for kingofsimcity:maxis-mansion-overhaul.
+# TODO It should added to the actual bsc-no-maxis upload.
+assetId: "memo-bsc-no-maxis-mansions"
+version: "2"
+lastModified: "2023-10-21T17:10:02Z"
+url: "https://github.com/memo33/sc4pac-tools/releases/download/0.1.0/BSC-No-Maxis-Mansions-2.zip"
+
+---
 group: "bsc"
 name: "no-maxis-i-d"
 version: "2"
@@ -12,7 +20,7 @@ assets:
 - assetId: "bsc-no-maxis"
   include: [ "/Stop_Maxis_I-D[123].dat" ]
 info:
-  summary: "Stop dirty industry Lots from growing (I-d1, I-d2, I-d3)"
+  summary: "Stop dirty industry Lots from growing (I-d1, I-d2, I-d3 Maxis blocker)"
   conflicts: Must load after other Maxis Lot replacement mods such as CAM.
   website: "https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/26-bsc-no-maxis"
 
@@ -25,7 +33,7 @@ assets:
 - assetId: "bsc-no-maxis"
   include: [ "/Stop_Maxis_I-M[123].dat" ]
 info:
-  summary: "Stop manufacturing industry Lots from growing (I-m1, I-m2, I-m3)"
+  summary: "Stop manufacturing industry Lots from growing (I-m1, I-m2, I-m3 Maxis blocker)"
   conflicts: Must load after other Maxis Lot replacement mods such as CAM.
   website: "https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/26-bsc-no-maxis"
 
@@ -38,7 +46,7 @@ assets:
 - assetId: "bsc-no-maxis"
   include: [ "/Stop_Maxis_I-HT[123].dat" ]
 info:
-  summary: "Stop high-tech industry Lots from growing (I-ht1, I-ht2, I-ht3)"
+  summary: "Stop high-tech industry Lots from growing (I-ht1, I-ht2, I-ht3 Maxis blocker)"
   conflicts: Must load after other Maxis Lot replacement mods such as CAM.
   website: "https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/26-bsc-no-maxis"
 
@@ -51,6 +59,18 @@ assets:
 - assetId: "bsc-no-maxis"
   include: [ "/Stop_Maxis_I-R[123].dat" ]
 info:
-  summary: "Stop agricultural industry Lots from growing (I-R)"
+  summary: "Stop agricultural industry Lots from growing (I-R Maxis blocker)"
+  conflicts: Must load after other Maxis Lot replacement mods such as CAM.
+  website: "https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/26-bsc-no-maxis"
+
+---
+group: "bsc"
+name: "no-maxis-mansions"
+version: "2"
+subfolder: "900-overrides"
+assets:
+- assetId: "memo-bsc-no-maxis-mansions"
+info:
+  summary: "Stop high-wealth mansions from growing (R$$$ low-density Maxis blocker)"
   conflicts: Must load after other Maxis Lot replacement mods such as CAM.
   website: "https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/26-bsc-no-maxis"

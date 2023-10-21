@@ -1,0 +1,16 @@
+group: "lbt"
+name: "mega-prop-pack-vol01"
+version: "3.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "lbt-mega-prop-pack-vol01"
+info:
+  summary: "Props by the Mexican BAT Team (MBT)"
+  author: "LBT Team, Berethor07, Tcxalapa, VictorGonzales, Heblem"
+  website: "https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/"
+
+---
+assetId: "lbt-mega-prop-pack-vol01"
+version: "3.0"
+lastModified: "2022-06-21T16:09:46Z"
+url: "https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/?do=download"
