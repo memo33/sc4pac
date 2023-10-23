@@ -1,0 +1,30 @@
+group: "spa"
+name: "halifax-boxes"
+version: "1.0"
+subfolder: "200-residential"
+assets:
+- assetId: "spa-halifax-boxes"
+dependencies:
+- "bsc:essentials"
+- "bsc:texturepack-cycledogg-vol01"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-sg-vol01"
+
+info:
+  summary: "Halifax Box wall-to-wall residential set"
+  description: >
+    This set contains 28 different Halifax Box homes.
+
+    14 have two windows on the front and 14 have three windows on the front.
+    Each Box is individually textured with a unique front and back.
+    All 28 are part of the same prop family and can form 378 unique combinations.
+    The Boxes provide R$$ housing and come in lot sizes 1x2, 2x2, 3x2 and 4x2.
+    The 2x2s include corner versions and the 3x2s and 4x2s come with narrow driveways.
+  author: "spa"
+  website: "https://community.simtropolis.com/files/file/24792-halifax-boxes/"
+
+---
+assetId: "spa-halifax-boxes"
+version: "1.0"
+lastModified: "2010-09-13T22:54:12Z"
+url: "https://community.simtropolis.com/files/file/24792-halifax-boxes/?do=download"
