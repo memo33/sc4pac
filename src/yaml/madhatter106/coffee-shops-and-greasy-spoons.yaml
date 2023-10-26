@@ -4,6 +4,8 @@ version: "1.0"
 subfolder: "300-commercial"
 assets:
 - assetId: "madhatter106-coffee-shops-greasy-spoons"
+dependencies:
+- "peg:mtp-super-pack"
 info:
   summary: "Set of small coffee shops and restaurants"
   description: >

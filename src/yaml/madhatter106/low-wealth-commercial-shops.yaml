@@ -24,6 +24,8 @@ version: "1.0"
 subfolder: "300-commercial"
 assets:
 - assetId: "madhatter106-low-wealth-commercial-shops-vol1"
+dependencies:
+- "t-wrecks:maxis-prop-names-and-query-fix"
 
 info:
   summary: "Low Wealth Commercial Shops Volume 1"
@@ -71,7 +73,8 @@ subfolder: "300-commercial"
 assets:
 - assetId: "madhatter106-low-wealth-commercial-shops-vol3"
 dependencies:
-  - "bsc:textures-vol03"
+- "bsc:textures-vol03"
+- "t-wrecks:maxis-prop-names-and-query-fix"
 
 info:
   summary: "Low Wealth Commercial Shops Volume 3"
