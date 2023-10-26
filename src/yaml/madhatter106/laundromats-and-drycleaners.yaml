@@ -1,0 +1,21 @@
+group: "madhatter106"
+name: "laundromats-and-drycleaners"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-laundromats-drycleaners"
+info:
+  summary: "Set of various laundromats and drycleaners"
+  description: >
+    Set of laundromat and drycleaners BATs on 1x1, 1x2, and 1x3 lots.
+    Most are CS$ stage 1 or 2, some are CS$$ stage 1.
+    Jobs range from 8 to 32.
+    These BATs have nightlights.
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/23756-laundromats-and-drycleaners/"
+
+---
+assetId: "madhatter106-laundromats-drycleaners"
+version: "1.0"
+lastModified: "2021-04-19T23:28:00Z"
+url: "https://community.simtropolis.com/files/file/23756-laundromats-and-drycleaners/?do=download"

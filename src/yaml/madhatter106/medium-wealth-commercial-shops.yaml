@@ -1,0 +1,60 @@
+group: "madhatter106"
+name: "medium-wealth-commercial-shops-collection"
+version: "1.0"
+subfolder: "300-commercial"
+dependencies:
+- "madhatter106:medium-wealth-commercial-shops-vol1"
+- "madhatter106:medium-wealth-commercial-shops-vol2"
+
+info:
+  summary: "Both of madhatter106's Medium Wealth Commercial Shops sets."
+  description: >
+    Two sets of medium wealth commercial shops (CS$$) that mesh well with Maxis assets.
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/profile/207209-madhatter106/content/?type=downloads_file"
+
+---
+group: "madhatter106"
+name: "medium-wealth-commercial-shops-vol1"
+version: "1.0.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-medium-wealth-commercial-shops-vol1"
+dependencies: []
+info:
+  summary: "Twelve CS$$ Maxis-esque commercial shops on 1x1, 1x2 or 1x3 lots."
+  description: >
+    These are 1x1 and 1x2 BATs and are mostly on those sized lots (with a few 1x3 sprinkled in).
+    Stats have been modded mostly in keeping with prior uploads,
+    and all are medium wealth stage 1 growable with nightlights and custom queries as well.
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/34338-medium-wealth-commercial-shops-volume-1/"
+
+---
+assetId: "madhatter106-medium-wealth-commercial-shops-vol1"
+version: "1.0.0"
+lastModified: "2021-03-31T22:28:00Z"
+url: "https://community.simtropolis.com/files/file/34338-medium-wealth-commercial-shops-volume-1/?do=download"
+
+---
+group: "madhatter106"
+name: "medium-wealth-commercial-shops-vol2"
+version: "1.0.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-medium-wealth-commercial-shops-vol2"
+
+info:
+  summary: "Ten multi-story 1x1 CS$$ Maxis-esque commercial shops."
+  description: >
+    Ten different buildings with multiple lots - these buildngs are all 1x1 multi-storeys,
+    similar in size to original Maxis offerings like King Design and Tinkler's, Inc.
+    All have standard stats and configurations, and all are tricked out with nightlighting to boot.
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/35703-medium-wealth-commercial-shops-volume-2/"
+
+---
+assetId: "madhatter106-medium-wealth-commercial-shops-vol2"
+version: "1.0.0"
+lastModified: "2023-10-24T23:58:00Z"
+url: "https://community.simtropolis.com/files/file/35703-medium-wealth-commercial-shops-volume-2/?do=download"

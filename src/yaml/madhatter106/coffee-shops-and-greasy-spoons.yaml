@@ -1,0 +1,21 @@
+group: "madhatter106"
+name: "coffee-shops-and-greasy-spoons"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-coffee-shops-greasy-spoons"
+dependencies:
+- "peg:mtp-super-pack"
+info:
+  summary: "Set of small coffee shops and restaurants"
+  description: >
+    Five different buildings on twelve lots.
+    All are CS$ with jobs ranging from 12 to 16.
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/21794-coffee-shops-and-greasy-spoons/"
+
+---
+assetId: "madhatter106-coffee-shops-greasy-spoons"
+version: "1.0"
+lastModified: "2021-04-19T23:15:00Z"
+url: "https://community.simtropolis.com/files/file/21794-coffee-shops-and-greasy-spoons/?do=download"
