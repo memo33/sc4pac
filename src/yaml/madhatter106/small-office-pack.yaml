@@ -1,0 +1,20 @@
+group: "madhatter106"
+name: "small-office-pack"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-small-office-pack"
+info:
+  summary: "Set of small, Maxis-esque medium wealth (CO$$) offices"
+  description: >
+    Specifically designed to compete with 'Simpson, Inc.', an early stage Maxis building.
+    All buildings provide 20 jobs, and grow on 1x2, 2x1, and 2x2 lots.
+    These BATs have nightlights.
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/26810-small-office-pack/"
+
+---
+assetId: "madhatter106-small-office-pack"
+version: "1.0"
+lastModified: "2021-04-19T23:56:00Z"
+url: "https://community.simtropolis.com/files/file/26810-small-office-pack/?do=download"
