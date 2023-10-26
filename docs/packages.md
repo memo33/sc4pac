@@ -2,24 +2,18 @@
 
 A set of packages to help you get started building a new plugins folder:
 
-- [memo:essential-fixes](channel/?pkg=memo:essential-fixes)
-  (important fixes everyone should have – more to come)
-- [madhatter106:midrise-office-pack-collection](channel/?pkg=madhatter106:midrise-office-pack-collection)
-  (a variety of offices)
-- [andisart:sc2013-inspired-homes](channel/?pkg=andisart:sc2013-inspired-homes)
-  (low-density R$$ houses)
-- [kingofsimcity:maxis-mansion-overhaul](channel/?pkg=kingofsimcity:maxis-mansion-overhaul)
-  (replacement of all Maxis mansion Lots)
-- [memo:industrial-revolution-mod](channel/?pkg=memo:industrial-revolution-mod)
-  (IRM base pack including all dependencies [~1.4GB])
+- `pkg=memo:essential-fixes` (important fixes everyone should have – more to come)
+- `pkg=madhatter106:midrise-office-pack-collection` (a variety of offices)
+- `pkg=andisart:sc2013-inspired-homes` (low-density R$$ houses)
+- `pkg=kingofsimcity:maxis-mansion-overhaul` (replacement of all Maxis mansion Lots)
+- `pkg=memo:industrial-revolution-mod` (IRM base pack including all dependencies [~1.4GB])
 - BSC Common Dependencies: `sc4pac search bsc` displays all the available package names.
-  - [bsc:essentials](channel/?pkg=bsc:essentials)
-  - [bsc:mega-props-sg-vol01](channel/?pkg=bsc:mega-props-sg-vol01)
-  - [bsc:mega-props-cp-vol01](channel/?pkg=bsc:mega-props-cp-vol01)
-  - [bsc:textures-vol01](channel/?pkg=bsc:textures-vol01)
+  - `pkg=bsc:essentials`
+  - `pkg=bsc:mega-props-sg-vol01`
+  - `pkg=bsc:mega-props-cp-vol01`
+  - `pkg=bsc:textures-vol01`
   - and many more
-- [cycledogg:missouri-breaks-terrain](channel/?pkg=cycledogg:missouri-breaks-terrain)
-  (an SD terrain mod)
+- `pkg=cycledogg:missouri-breaks-terrain` (an SD terrain mod)
 
 This list will be expanded as more packages are added to the metadata channel.
 

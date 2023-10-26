@@ -5,15 +5,44 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+    <style>
+.pkg-name > code {
+  margin-right: 0;
+  padding-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.pkg-name > a code {
+  color: #42b983;
+  margin-left: 0;
+  padding-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  /* fontweight: normal; */
+}
+    </style>
   </head>
   <body>
     <div id="app">Loading page…</div>
     <script>
+      let pkgNamePattern = /^pkg=([^:\s]+):([^:\s]+)$/
       window.$docsify = {
         loadNavbar: true,
         loadSidebar: true,
         subMaxLevel: 2,
         noCompileLinks: ['channel/.*'],  // no hashing of these URLs
+        markdown: {
+          renderer: {
+            codespan: (code) => {
+              let match = pkgNamePattern.exec(code)
+              if (match) {  // e.g. `pkg=memo:essential-fixes`
+                return `<span class="pkg-name"><code>${match[1]}:</code><a href="channel/?pkg=${match[1]}:${match[2]}"><code>${match[2]}</code></a></span>`
+              } else {
+                return `<code>${code}</code>`;
+              }
+            }
+          }
+        },
         // externalLinkTarget: '_self', // open external or non-hashed links in same tab
         //...
       };
