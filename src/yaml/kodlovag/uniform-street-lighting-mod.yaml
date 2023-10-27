@@ -1,0 +1,72 @@
+group: "kodlovag"
+name: "uniform-street-lighting-mod"
+version: "1.0"
+subfolder: "900-overrides"
+assets:
+- assetId: "kodlovag-uniform-street-lighting-mod"
+  include:
+  - "Lights_LightCones.dat"
+  - "USL_Lights_LightCones_Uniform.dat"
+  - "/T21 Mods/"
+
+variantDescriptions:
+  USL.light-color:
+    "white": "white lights (recommended, similar to LED lamps)"
+    "orange": "orange lights (recommended, similar to sodium vapor lamps)"
+    "yellow": "yellow lights"
+    "blue": "blue lights"
+    "green": "green lights"
+    "red": "red lights"
+
+variants:
+- variant: {USL.light-color: "white"}
+  assets:
+  - assetId: "kodlovag-uniform-street-lighting-mod"
+    include:
+    - "/White/"
+
+- variant: {USL.light-color: "orange"}
+  assets:
+  - assetId: "kodlovag-uniform-street-lighting-mod"
+    include:
+    - "/Orange/"
+
+- variant: {USL.light-color: "yellow"}
+  assets:
+  - assetId: "kodlovag-uniform-street-lighting-mod"
+    include:
+    - "/Yellow/"
+
+- variant: {USL.light-color: "blue"}
+  assets:
+  - assetId: "kodlovag-uniform-street-lighting-mod"
+    include:
+    - "/Blue/"
+
+- variant: {USL.light-color: "green"}
+  assets:
+  - assetId: "kodlovag-uniform-street-lighting-mod"
+    include:
+    - "/Green/"
+
+- variant: {USL.light-color: "red"}
+  assets:
+  - assetId: "kodlovag-uniform-street-lighting-mod"
+    include:
+    - "/Red/"
+
+info:
+  summary: "Uniform Street Lighting Mod (USL)"
+  description: >
+    USL replaces lamp posts and light cones across many networks.
+    Its goal is to create uniformly lit streets for realistic night scenes.
+    There are six light color variants provided.
+  conflicts: "USL provides custom T21s for various networks, thus, it can conflict with other T21 mods."
+  author: "kodlovag"
+  website: "https://community.simtropolis.com/files/file/25925-uniform-street-lighting-mod/"
+
+---
+assetId: "kodlovag-uniform-street-lighting-mod"
+version: "1.0"
+lastModified: "2017-05-03T18:20:00Z"
+url: "https://community.simtropolis.com/files/file/25925-uniform-street-lighting-mod/?do=download"
