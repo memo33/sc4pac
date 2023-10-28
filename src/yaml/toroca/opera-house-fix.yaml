@@ -12,6 +12,8 @@ info:
   description: >
     This mod adds a slider to the opera house query to solve a capacity problem
     that can have a major impact on city growth.
+  author: "toroca"
+  website: "https://community.simtropolis.com/files/file/21342-opera-house-fix/"
 
 ---
 assetId: "toroca-opera-house-fix"

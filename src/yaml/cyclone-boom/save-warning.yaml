@@ -6,6 +6,8 @@ assets:
 - assetId: "cyclone-boom-save-warning-disable-exit-quit"  # one of the two options
 info:
   summary: "Disable the Save & Exit button to prevent save file corruption"
+  author: "Cyclone Boom"
+  website: "https://community.simtropolis.com/files/file/32812-save-warning/"
 
 ---
 assetId: "cyclone-boom-save-warning-disable-exit-quit"
