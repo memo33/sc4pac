@@ -1,0 +1,22 @@
+group: "peg"
+name: "power-tower-pylons"
+version: "1.0"
+subfolder: "500-utilities"
+assets:
+- assetId: "peg-power-tower-pylons"
+info:
+  summary: "Reskin of the game's power transmission towers"
+  description: >
+    A simple mod that reskins the existing game default power transmission towers
+    to a consistent silvery-gray / oxidized metal color.
+  author: "Pegasus"
+  website: "https://community.simtropolis.com/files/file/21686-peg-power-tower-pylons/"
+
+---
+assetId: "peg-power-tower-pylons"
+version: "1.0"
+lastModified: "2015-07-07T07:12:00Z"
+# TODO Cori has a patch at https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/?do=findComment&comment=1670768
+# but since it is not a zip sc4pac 0.2.0 cannot download it.
+# Ideally, the original upload should be fixed.
+url: "https://community.simtropolis.com/files/file/21686-peg-power-tower-pylons/?do=download"
