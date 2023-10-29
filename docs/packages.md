@@ -20,6 +20,7 @@ A set of packages to help you get started building a new plugins folder:
   * `pkg=memo:industrial-revolution-mod` (IRM base pack including all dependencies [~1.4GB])
 - Visuals:
   * `pkg=cycledogg:missouri-breaks-terrain` (an SD terrain mod)
+  * `pkg=blunder:pacific-northwest-tree-controller` (seasonal forests; for advanced users)
   * `pkg=peg:power-tower-pylons` (silvery-gray reskin)
   * `pkg=kodlovag:uniform-street-lighting-mod`
 - Many dependency packs including all BSC Common Dependencies: `sc4pac search bsc` displays all the available package names.
