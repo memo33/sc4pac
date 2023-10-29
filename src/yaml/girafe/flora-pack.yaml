@@ -1,0 +1,610 @@
+assetId: "bsc-vip-girafe-flora-pack"
+version: "2"
+lastModified: "2023-09-04T01:29:25Z"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=27:sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "flora-separator"
+version: "1"
+subfolder: "180-flora"
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "Flora Separator/" ]
+info:
+  summary: "Mayor mode menu separators to categorize Girafe's plants"
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "abies-grandis"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Abies grandis/" ]
+info:
+  summary: "Abies grandis"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "alders"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Alders/" ]
+info:
+  summary: "Alders"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "ashes"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Ashes/" ]
+info:
+  summary: "Ashes"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "beeches"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Beeches/" ]
+info:
+  summary: "Beeches"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "berries"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Berries/" ]
+info:
+  summary: "Berries"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "birches"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Birches/" ]
+info:
+  summary: "Birches"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "bushes"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Bushes/" ]
+info:
+  summary: "Bushes"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "canary-date-palms"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Canary date palms/" ]
+info:
+  summary: "Canary date palms"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "cattails"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Cattails/" ]
+info:
+  summary: "Cattails"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "chestnuts"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Chestnuts/" ]
+info:
+  summary: "Chestnuts"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "common-spruces"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Common spruces/" ]
+info:
+  summary: "Common spruces"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "conifers"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Conifers/" ]
+info:
+  summary: "Conifers"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "cypresses"
+version: "1"
+subfolder: "180-flora"
+# dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Cypresses/" ]
+info:
+  summary: "Cypresses"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "daisy"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Daisy/" ]
+info:
+  summary: "Daisy"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "elms"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Elms/" ]
+info:
+  summary: "Elms"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "feather-grass"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Feather grass/" ]
+info:
+  summary: "Feather grass"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "grand-firs"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Grand Firs \\(Abies Grandis v2\\)/" ]
+info:
+  summary: "Grand Firs (Abies Grandis v2)"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "honey-locust"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Honey locust/" ]
+info:
+  summary: "Honey locust"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "larches"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Larches/" ]
+info:
+  summary: "Larches"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "lindens"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Lindens/" ]
+info:
+  summary: "Lindens"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "lupins"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Lupins/" ]
+info:
+  summary: "Lupins"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "maples"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Maples/" ]
+info:
+  summary: "Maples"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "maples-v2"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Maples v2/" ]
+info:
+  summary: "Maples v2"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "narcissus"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Narcissus/" ]
+info:
+  summary: "Narcissus"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "norway-maples"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Norway maples/" ]
+info:
+  summary: "Norway maples"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "oaks"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Oaks/" ]
+info:
+  summary: "Oaks"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "parasol-pines"
+version: "1"
+subfolder: "180-flora"
+# dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Parasol pines/" ]
+info:
+  summary: "Parasol pines"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "poplars"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Poplars/" ]
+info:
+  summary: "Poplars"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "poppies"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Poppies/" ]
+info:
+  summary: "Poppies"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "rowan-trees"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Rowan trees/" ]
+info:
+  summary: "Rowan trees"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "serbian-spruces"
+version: "2"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Serbian spruces/" ]
+info:
+  summary: "Serbian spruces"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "sparaxis"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Sparaxis/" ]
+info:
+  summary: "Sparaxis"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "subalpine-firs"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Subalpine firs/" ]
+info:
+  summary: "Subalpine firs"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "vines"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Vines/" ]
+info:
+  summary: "Vines"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "walnut-trees"
+version: "1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Walnut trees/" ]
+info:
+  summary: "Walnut trees"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
