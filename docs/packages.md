@@ -7,6 +7,7 @@ A set of packages to help you get started building a new plugins folder:
 - Residential:
   * `pkg=andisart:sc2013-inspired-homes` (low-density R$$ houses)
   * `pkg=spa:halifax-boxes`
+  * `pkg=mattb325:lafayette-square-homes`
   * `pkg=kingofsimcity:maxis-mansion-overhaul` (replacement of all Maxis mansion Lots)
 - Commercial:
   * `pkg=madhatter106:midrise-office-pack-collection` (a variety of offices)

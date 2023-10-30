@@ -1,0 +1,38 @@
+group: "mattb325"
+name: "lafayette-square-homes"
+version: "1.0.0"
+subfolder: "200-residential"
+dependencies:
+  - "bsc:mega-props-cp-vol01"
+  - "bsc:mega-props-cp-vol02"
+  - "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "LaFayette Square St. Louis Row Homes"
+  description: >
+    These old world, colourful row homes hail from LaFayette Square in St. Louis.
+    The houses are 8m wide, medium wealth (R$$) and have a number of colour variations in a family.
+    They grow on 1x2 and 2x2 lots in the Chicago and New York tilesets.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/34165-lafayette-square-homes-st-louis/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-lafayette-square-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-lafayette-square-darknite"
+
+---
+assetId: "mattb325-lafayette-square-darknite"
+version: "1.0.0"
+lastModified: "2021-02-21T20:43:00Z"
+url: "https://community.simtropolis.com/files/file/34165-lafayette-square-homes-st-louis/?do=download&r=185475"
+
+---
+assetId: "mattb325-lafayette-square-maxisnite"
+version: "1.0.0"
+lastModified: "2021-02-21T20:43:00Z"
+url: "https://community.simtropolis.com/files/file/34165-lafayette-square-homes-st-louis/?do=download&r=185476"
