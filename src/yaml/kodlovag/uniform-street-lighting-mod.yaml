@@ -1,6 +1,6 @@
 group: "kodlovag"
 name: "uniform-street-lighting-mod"
-version: "1.0"
+version: "1.1"
 subfolder: "900-overrides"
 assets:
 - assetId: "kodlovag-uniform-street-lighting-mod"
@@ -67,6 +67,6 @@ info:
 
 ---
 assetId: "kodlovag-uniform-street-lighting-mod"
-version: "1.0"
-lastModified: "2017-05-03T18:20:00Z"
+version: "1.1"
+lastModified: "2023-10-29T21:12:00Z"
 url: "https://community.simtropolis.com/files/file/25925-uniform-street-lighting-mod/?do=download"
