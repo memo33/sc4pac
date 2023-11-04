@@ -1,0 +1,50 @@
+group: "kingofsimcity"
+name: "superpaths-pathway-textures"
+version: "1.00"
+subfolder: "100-props-textures"
+assets:
+- assetId: "kingofsimcity-superpaths-pathway-textures"
+  # For now, we default to the Vanilla style as the other textures are subpar
+  # and are not fully supported with the community parks.
+  # Overriding these textures is best left for sidewalk replacement mods.
+  include: [ "/SuperPaths_Vanilla.dat" ]
+
+# variants:
+# - variant: { SuperPaths.pathway-style: "vanilla" }
+#   assets:
+#   - assetId: "kingofsimcity-superpaths-pathway-textures"
+#     include: [ "/SuperPaths_Vanilla.dat" ]
+# - variant: { SuperPaths.pathway-style: "cobblestone-1" }
+#   assets:
+#   - assetId: "kingofsimcity-superpaths-pathway-textures"
+#     include: [ "/SuperPaths_Cobblestone1.dat" ]
+# - variant: { SuperPaths.pathway-style: "cobblestone-2" }
+#   assets:
+#   - assetId: "kingofsimcity-superpaths-pathway-textures"
+#     include: [ "/SuperPaths_Cobblestone2.dat" ]
+# - variant: { SuperPaths.pathway-style: "asphalt" }
+#   assets:
+#   - assetId: "kingofsimcity-superpaths-pathway-textures"
+#     include: [ "/SuperPaths_Asphalt.dat" ]
+# - variant: { SuperPaths.pathway-style: "light-brick" }
+#   assets:
+#   - assetId: "kingofsimcity-superpaths-pathway-textures"
+#     include: [ "/SuperPaths_CPBrick.dat" ]
+# - variant: { SuperPaths.pathway-style: "gravel" }
+#   assets:
+#   - assetId: "kingofsimcity-superpaths-pathway-textures"
+#     include: [ "/SuperPaths_CPGravel.dat" ]
+# variantDescriptions:
+#   SuperPaths.pathway-style:
+#     "vanilla": "matches the Maxis-default sidewalks (recommended)"
+
+info:
+  summary: "Park pathways overlay textures"
+  author: "kingofsimcity"
+  website: "https://community.simtropolis.com/files/file/32066-superpaths-pathway-textures/"
+
+---
+assetId: "kingofsimcity-superpaths-pathway-textures"
+version: "1.00"
+lastModified: "2018-01-14T07:59:53Z"
+url: "https://community.simtropolis.com/files/file/32066-superpaths-pathway-textures/?do=download"
