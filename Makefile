@@ -25,4 +25,7 @@ host:
 host-docs:
 	cd ./docs/ && python -m http.server 8091
 
-.PHONY: gh-pages host host-docs
+lint:
+	python .github/sc4pac-yaml-schema.py src/yaml
+
+.PHONY: gh-pages host host-docs lint
