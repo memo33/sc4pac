@@ -1,0 +1,38 @@
+group: "nofunk"
+name: "renaissance-books"
+version: "1.0"
+subfolder: "300-commercial"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "renaissance-books-mn"
+    exclude: [ "PLOP.dat" ]
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "renaissance-books-dn"
+    exclude: [ "PLOP.dat" ]
+
+info:
+  summary: "Small used book store (CS$)"
+  description: >
+    Renaissance Books is a used book store on Plankinton Avenue in downtown
+    Milwaukee, Wisconsin. Although many of the neighboring buildings are filled
+    with cafes and charming shops and are generally well maintained, this
+    little gem has avoided gentrification. Perfect for your grimier commercial
+    streets, or add a little spice to your higher wealth districts!
+  author: "nofunk"
+  website: "https://community.simtropolis.com/files/file/27903-renaissance-books/"
+
+---
+assetId: "renaissance-books-mn"
+version: "1.0"
+lastModified: "2012-08-03T04:00:21Z"
+url: "https://community.simtropolis.com/files/file/27903-renaissance-books/?do=download&r=104786"
+
+---
+assetId: "renaissance-books-dn"
+version: "1.0"
+lastModified: "2012-08-03T04:00:21Z"
+url: "https://community.simtropolis.com/files/file/27903-renaissance-books/?do=download&r=104785"
