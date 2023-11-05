@@ -1,0 +1,45 @@
+group: "mattb325"
+name: "eddy-hall"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-sg-vol01"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Eddy Hall, Minnesota"
+  description: >
+    Inspired by the real Eddy Hall, constructed in 1886 as the Mechanic Arts
+    Building for the University of Minnesota. The actual building is a simplified
+    Queen Anne style executed in red-brick and red sandstone trim. The square
+    tower which is slightly offset from the centre of the building dominates the
+    frontage; it, together with the multi-gabled roof, large windows, patterned
+    brick panels and wrough iron cresting make this a charming, eye catching building.
+
+    This version is offered as a ploppable college on a 4x4 lot.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/31618-eddy-hall-minnesota/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-eddy-hall"
+    include:
+    - "(?=PLOP).*\\.SC4Lot$"
+    - "/Eddy_Hall_Maxis_Nite/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-eddy-hall"
+    include:
+    - "(?=PLOP).*\\.SC4Lot$"
+    - "/Eddy_Hall_Dark_Nite/"
+
+---
+assetId: "mattb325-eddy-hall"
+version: "1.0"
+lastModified: "2017-05-14T19:16:18Z"
+url: "https://community.simtropolis.com/files/file/31618-eddy-hall-minnesota/?do=download"

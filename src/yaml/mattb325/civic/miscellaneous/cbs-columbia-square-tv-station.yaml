@@ -1,0 +1,43 @@
+group: "mattb325"
+name: "cbs-columbia-square-tv-station"
+version: "1.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:bat-props-mattb325-vol03"
+
+info:
+  summary: "CBS Columbia Square Television Station"
+  description: >
+    In 1938, Columbia Square was built for Columbia Broadcasting System (CBS)
+    on the site of the Nestor Film Company, Hollywood's first movie studio, at
+    6121 Sunset Boulevard. This building is an example of International
+    Modernism/Streamline Moderne. It is modded as a Television Station reward.
+
+    It does not override the in-game TV station nor any other relots. It is a
+    non-conditional reward, and can be used with the Maxis TV station.
+    It provides CO$$ and residential cap relief. This building counts towards
+    tourism and has a positive landmark and park effect. Placing this reward
+    will also provide many civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/30921-cbs-columbia-square-television-station/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-cbs-columbia-square-tv-station"
+    include:
+    - "\\.SC4Lot$"
+    - "/MaxisNite/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-cbs-columbia-square-tv-station"
+    include:
+    - "\\.SC4Lot$"
+    - "/DarkNite/"
+
+---
+assetId: "mattb325-cbs-columbia-square-tv-station"
+version: "1.0"
+lastModified: "2016-01-17T01:29:58Z"
+url: "https://community.simtropolis.com/files/file/30921-cbs-columbia-square-television-station/?do=download"

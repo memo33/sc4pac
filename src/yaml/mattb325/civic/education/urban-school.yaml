@@ -1,0 +1,56 @@
+group: "mattb325"
+name: "urban-school"
+version: "1.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "Urban School"
+  description: >
+    This is a large school which combines junior, senior, and adult education
+    under one roof.
+
+    Placing this lot merely emulates all three functions of the Maxis Large
+    Elementary School, the Maxis Large High School and the Maxis City College
+    in terms of Capacity, Radius, Cost and School Effectiveness vs Average Age
+    categories; using the upper limits of each school type to create a single
+    multi-purpose institution. It houses up to 14,500 students and has a very
+    large coverage radius. EQ Boost and Population vs Distance stats are the
+    same as the standard Maxis schools.
+
+    The Bat itself is fictional, and is based on any number of more modern
+    educational institutions. The central entrance area houses adminsitration,
+    cafeteria, gymnasium/indoor courts & auditorium; the junior school is housed
+    in the smaller wing, and the senior school laboratories and workshops in the
+    larger wing. The adult college uses the senior wing after 5pm once all of the
+    students and day teachers have gone home.
+
+    This is a large building and lot, weighing in at 8x8 tiles (a bit over 4
+    acres in the old parlance) and has ample room for a soccer pitch, grassed
+    relaxation areas and the typical asphalt surfaces where countless kids can
+    graze their elbows and knees when falling over.
+
+    It provides 390 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/31885-urban-school/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-urban-school"
+    include:
+    - "\\.SC4Lot$"
+    - "/Urban School MAXIS NITE/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-urban-school"
+    include:
+    - "\\.SC4Lot$"
+    - "/Urban School DARK NITE/"
+
+---
+assetId: "mattb325-urban-school"
+version: "1.0"
+lastModified: "2017-07-29T08:04:17Z"
+url: "https://community.simtropolis.com/files/file/31885-urban-school/?do=download"

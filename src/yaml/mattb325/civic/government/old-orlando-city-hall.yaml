@@ -1,0 +1,43 @@
+group: "mattb325"
+name: "old-orlando-city-hall"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Old Orlando City Hall"
+  description: >
+    This 8-floor building with two asymmetrical balanced lower wings is typical
+    of many mid-century public American buildings.  They were solidly built with
+    quality materials: limestone, marble and pink granite.
+
+    This building is offered as a non-conditional town hall reward.
+    It provides 986 civic jobs and has all of the benefits (commercial and residential boost)
+    of a town hall. Placing this building should see residential and commercial
+    sky scrapers grow more easily in your city.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/34142-old-orlando-city-hall/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-old-orlando-city-hall-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-old-orlando-city-hall-darknite"
+
+---
+assetId: "mattb325-old-orlando-city-hall-darknite"
+version: "1.0.0"
+lastModified: "2021-02-15T18:54:45Z"
+url: "https://community.simtropolis.com/files/file/34142-old-orlando-city-hall/?do=download&r=185311"
+
+---
+assetId: "mattb325-old-orlando-city-hall-maxisnite"
+version: "1.0.0"
+lastModified: "2021-02-15T18:54:45Z"
+url: "https://community.simtropolis.com/files/file/34142-old-orlando-city-hall/?do=download&r=185312"

@@ -1,0 +1,38 @@
+group: "mattb325"
+name: "spitalfields-house-diagonal-college"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "Spitalfields House Diagonal College"
+  description: >
+    This BAT is based on an old brutalist building from the 1960s in London's
+    spitalfields and has been designed to be placed along diagonal roads.
+    The lot size is 1x2 but the building overhangs across 6 tiles.
+    This building is a college designed to educate adult sims: it is most
+    effective for 40-60 year old sims.  It has a student capacity of 12,000
+    and provides 563 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33133-spitalfields-house-diagonal-college/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-spitalfields-house-diagonal-college-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-spitalfields-house-diagonal-college-darknite"
+
+---
+assetId: "mattb325-spitalfields-house-diagonal-college-darknite"
+version: "1.0.0"
+lastModified: "2019-09-01T02:12:53Z"
+url: "https://community.simtropolis.com/files/file/33133-spitalfields-house-diagonal-college/?do=download&r=177474"
+
+---
+assetId: "mattb325-spitalfields-house-diagonal-college-maxisnite"
+version: "1.0.0"
+lastModified: "2019-09-01T02:12:53Z"
+url: "https://community.simtropolis.com/files/file/33133-spitalfields-house-diagonal-college/?do=download&r=177475"

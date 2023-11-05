@@ -1,0 +1,37 @@
+group: "mattb325"
+name: "georgian-library-with-modern-extension"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "Georgian Library with Modern Extension"
+  description: >
+    The simple Georgian style library that was released for diagonal roads has
+    been given a modern an ultra modern extension at the rear of the building.
+
+    This 2x3 lot is found in the education menu. It provides 50 civic jobs,
+    holds 130,000 books and provides an EQ boost to all age groups.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33254-georgian-library-with-modern-extension/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-georgian-library-with-modern-extension-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-georgian-library-with-modern-extension-darknite"
+
+---
+assetId: "mattb325-georgian-library-with-modern-extension-darknite"
+version: "1.0.0"
+lastModified: "2019-10-23T06:59:16Z"
+url: "https://community.simtropolis.com/files/file/33254-georgian-library-with-modern-extension/?do=download&r=178411"
+
+---
+assetId: "mattb325-georgian-library-with-modern-extension-maxisnite"
+version: "1.0.0"
+lastModified: "2019-10-23T06:59:16Z"
+url: "https://community.simtropolis.com/files/file/33254-georgian-library-with-modern-extension/?do=download&r=178412"

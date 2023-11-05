@@ -1,0 +1,42 @@
+group: "mattb325"
+name: "museum-of-modern-art-san-francisco"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "Museum of Modern Art, San Francisico"
+  description: >
+    The Museum of Modern Art (MOMA), San Francisco is a non-profit organisation
+    and holds an internationally recognised collection of modern and contemporary
+    art, and was the first museum on the US West Coast devoted solely to 20th
+    Century art.
+
+    The present building was designed by Mario Botta in the late 1980s and the
+    building - as depicted here in SC4 - was completed in 1995.
+
+    This building acts as a Museum and sits on a 4x4 lot providing 315 civic jobs
+    and gives a large educational boost across a wide radius.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/31750-museum-of-modern-art-san-francisco/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-museum-of-modern-art-san-francisco"
+    include:
+    - "\\.SC4Lot$"
+    - "/MOMA MAXIS NITE/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-museum-of-modern-art-san-francisco"
+    include:
+    - "\\.SC4Lot$"
+    - "/MOMA DARK NITE/"
+
+---
+assetId: "mattb325-museum-of-modern-art-san-francisco"
+version: "1.0"
+lastModified: "2017-06-09T08:17:43Z"
+url: "https://community.simtropolis.com/files/file/31750-museum-of-modern-art-san-francisco/?do=download"

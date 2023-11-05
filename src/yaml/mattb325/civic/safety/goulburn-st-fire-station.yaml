@@ -1,0 +1,36 @@
+group: "mattb325"
+name: "goulburn-st-fire-station"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "Goulburn St Fire Station"
+  description: >
+    This small W2W fire station is modeled on the old salvation army hall on
+    Sydney's Goulburn St. Despite its small size, it has two dispatches and an
+    expanded coverage radius. Being fire station, it is found in the fire menu.
+    The building provides 17 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33861-goulburn-st-fire-station/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-goulburn-st-fire-station-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-goulburn-st-fire-station-darknite"
+
+---
+assetId: "mattb325-goulburn-st-fire-station-darknite"
+version: "1.0.0"
+lastModified: "2020-10-07T19:58:52Z"
+url: "https://community.simtropolis.com/files/file/33861-goulburn-st-fire-station/?do=download&r=182919"
+
+---
+assetId: "mattb325-goulburn-st-fire-station-maxisnite"
+version: "1.0.0"
+lastModified: "2020-10-07T19:58:52Z"
+url: "https://community.simtropolis.com/files/file/33861-goulburn-st-fire-station/?do=download&r=182920"

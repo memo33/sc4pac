@@ -1,0 +1,46 @@
+group: "mattb325"
+name: "karlsruhe-courthouse"
+version: "1.0"
+subfolder: "600-civics"
+assets:
+- assetId: "mattb325-karlsruhe-courthouse"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "bsc:textures-vol01"
+
+info:
+  summary: "Karlsruhe Courthouse"
+  description: >
+    The district attorney's office in Karlsruhe is presented in SC4 as a
+    functional courthouse.
+
+    In addition to providing 128 civic jobs, it will help alleviate the
+    commercial and residential demand caps by providing additional
+    regional demand of over 80,000 CO§§ spaces and 10,000 Residential
+    spaces. It sits on a 5x4 lot.  This is a non-conditional reward which
+    does not override any other rewards.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/31920-karlsruhe-courthouse/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-karlsruhe-courthouse"
+    include:
+    - "\\.SC4Lot$"
+    - "/Karlsruhe Courthouse MAXIS NITE/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-karlsruhe-courthouse"
+    include:
+    - "\\.SC4Lot$"
+    - "/Karlsruhe Courthouse DARK NITE/"
+
+---
+assetId: "mattb325-karlsruhe-courthouse"
+version: "1.0"
+lastModified: "2017-08-27T04:00:45Z"
+url: "https://community.simtropolis.com/files/file/31920-karlsruhe-courthouse/?do=download"

@@ -1,0 +1,29 @@
+group: "mattb325"
+name: "james-park-house"
+version: "1.0"
+subfolder: "600-civics"
+assets:
+- assetId: "mattb325-james-park-house"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "James Park House"
+  description: >
+    Listed on the US National Register of Historic Places since 1972, the house
+    was built by merchant and Knoxville Mayor James Park in 1812, making it the
+    second-oldest building in downtown Knoxville.
+
+    This is a hospital reward which sits on a 2x2 lot.  It comes with a
+    custom foundation, making it suitable for placement in hilly areas. The stats
+    of this hospital are basically aligned to the ingame version.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/27960-james-park-house/"
+
+---
+assetId: "mattb325-james-park-house"
+version: "1.0"
+lastModified: "2012-08-22T08:52:09Z"
+url: "https://community.simtropolis.com/files/file/27960-james-park-house/?do=download"

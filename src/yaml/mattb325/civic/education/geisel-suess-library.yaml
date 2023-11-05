@@ -1,0 +1,43 @@
+group: "mattb325"
+name: "geisel-suess-library"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:bat-props-mattb325-vol04"
+- "bsc:texturepack-cycledogg-vol01"
+- "mattb325:street-planters-and-benches"
+
+info:
+  summary: "Geisel Suess Library, San Diego"
+  description: >
+    This futuristic brutalist building that looks part space-invader, part
+    minecraft creation, is the main library building of the University of
+    California San Diego.  The design draws inspiration from hands holding
+    piles of books aloft.
+
+    In game, this is a large library and sits on a 5x5 lot. It is found in
+    the education menu and provides 235 civic jobs, holds 680,000 books and
+    provides an EQ boost to all age groups over a large radius.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33539-geisel-suess-library-san-diego/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-geisel-suess-library-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-geisel-suess-library-darknite"
+
+---
+assetId: "mattb325-geisel-suess-library-darknite"
+version: "1.0.0"
+lastModified: "2020-04-10T09:58:19Z"
+url: "https://community.simtropolis.com/files/file/33539-geisel-suess-library-san-diego/?do=download&r=180570"
+
+---
+assetId: "mattb325-geisel-suess-library-maxisnite"
+version: "1.0.0"
+lastModified: "2020-04-10T09:58:19Z"
+url: "https://community.simtropolis.com/files/file/33539-geisel-suess-library-san-diego/?do=download&r=180571"

@@ -1,0 +1,28 @@
+group: "mattb325"
+name: "bureau-of-bureaucracy"
+version: "1.0"
+subfolder: "600-civics"
+assets:
+- assetId: "mattb325-bureau-of-bureaucracy"
+dependencies:
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:mega-props-cp-vol01"
+
+info:
+  summary: "Bureau of Bureaucracy"
+  description: >
+    This alternate Bureau of Bureacracy reward is based on a real building in
+    the US city Texarkana.  It is an example of the Beaux Arts style, which was
+    popular for government buildings in the late 1920s and early 1930s, as its
+    domineering style represented stability and permanence.
+
+    It sits on a 4x4 lot is modded as a similar variation of the default
+    Bureau of Bureaucracy.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/27952-bureau-of-bureaucracy/"
+
+---
+assetId: "mattb325-bureau-of-bureaucracy"
+version: "1.0"
+lastModified: "2015-07-04T00:49:27Z"
+url: "https://community.simtropolis.com/files/file/27952-bureau-of-bureaucracy/?do=download"

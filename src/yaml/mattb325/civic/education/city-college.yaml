@@ -1,0 +1,81 @@
+group: "mattb325"
+name: "city-college"
+version: "1.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "City College"
+  description: >
+    This BAT is based on an Adult Education College on Sydney's North Shore.
+    It is a new build, but is designed to look 'Olde Worlde' and as such is
+    quite a mish-mash of styles.
+
+    This version is a 3x3 ploppable College reward with a capacity of 4,850.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33012-city-college/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-city-college-maxisnite"
+    include:
+    - "\\.SC4Model$"
+    - "\\.SC4Desc$"
+    - "(?=PLOP).*\\.SC4Lot$"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-city-college-darknite"
+    include:
+    - "\\.SC4Model$"
+    - "\\.SC4Desc$"
+    - "(?=PLOP).*\\.SC4Lot$"
+
+# TODO: add the growable
+# ---
+# group: "mattb325"
+# name: "city-college-grow"
+# version: "1.0"
+# subfolder: "300-commercial"
+# dependencies: []
+
+# info:
+#   summary: "City College (growable)"
+#   description: >
+#     This BAT is based on an Adult Education College on Sydney's North Shore.
+#     It is a new build, but is designed to look 'Olde Worlde' and as such is
+#     quite a mish-mash of styles.
+
+#     This version is a growable 3x3 CS$$$ which appears on all tilesets.
+#   author: "mattb325"
+#   website: "https://community.simtropolis.com/files/file/33012-city-college/"
+
+# variants:
+# - variant: { nightmode: standard }
+#   assets:
+#   - assetId: "mattb325-city-college-maxisnite"
+#     include:
+#     - "\\.SC4Model$"
+#     - "\\.SC4Desc$"
+#     - "(?=CS\\$).*\\.SC4Lot$"
+# - variant: { nightmode: dark }
+#   dependencies: [ "simfox:day-and-nite-mod" ]
+#   assets:
+#   - assetId: "mattb325-city-college-darknite"
+#     include:
+#     - "\\.SC4Model$"
+#     - "\\.SC4Desc$"
+#     - "(?=CS\\$).*\\.SC4Lot$"
+
+---
+assetId: "mattb325-city-college-darknite"
+version: "1.0"
+lastModified: "2019-07-10T21:55:09Z"
+url: "https://community.simtropolis.com/files/file/33012-city-college/?do=download&r=176634"
+
+---
+assetId: "mattb325-city-college-maxisnite"
+version: "1.0"
+lastModified: "2019-07-10T21:55:09Z"
+url: "https://community.simtropolis.com/files/file/33012-city-college/?do=download&r=176635"

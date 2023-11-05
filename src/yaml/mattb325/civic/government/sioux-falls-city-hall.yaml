@@ -1,0 +1,38 @@
+group: "mattb325"
+name: "sioux-falls-city-hall"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+
+info:
+  summary: "Sioux Falls City Hall"
+  description: >
+    Non-conditional Town Hall reward based on the Sioux Falls City Hall.
+    It is constructed in the streamline moderne (a successor to art-deco) style
+    with a brick and granite facade.
+    It sits on a 4x4 lot and provides 65 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/34004-sioux-falls-city-hall/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-sioux-falls-city-hall-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-sioux-falls-city-hall-darknite"
+
+---
+assetId: "mattb325-sioux-falls-city-hall-darknite"
+version: "1.0.0"
+lastModified: "2020-12-23T21:08:11Z"
+url: "https://community.simtropolis.com/files/file/34004-sioux-falls-city-hall/?do=download&r=184223"
+
+---
+assetId: "mattb325-sioux-falls-city-hall-maxisnite"
+version: "1.0.0"
+lastModified: "2020-12-23T21:08:11Z"
+url: "https://community.simtropolis.com/files/file/34004-sioux-falls-city-hall/?do=download&r=184224"

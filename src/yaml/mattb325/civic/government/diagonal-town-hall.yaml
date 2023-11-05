@@ -1,0 +1,38 @@
+group: "mattb325"
+name: "diagonal-town-hall"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "Diagonal Town Hall"
+  description: >
+    This BAT is based on the National Audit Office in London. The original
+    building was actually an airport terminal. The building has been designed
+    to be placed along diagonal roads. The lot size is 1x2 but the building
+    overhangs across 6 tiles. This building is offered as a non-conditional
+    Town Hall reward. It provides 480 civic jobs and has all of the benefits
+    (commercial and residential boost) of a town hall.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33148-diagonal-town-hall/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-diagonal-town-hall-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-diagonal-town-hall-darknite"
+
+---
+assetId: "mattb325-diagonal-town-hall-darknite"
+version: "1.0.0"
+lastModified: "2019-09-08T03:49:53Z"
+url: "https://community.simtropolis.com/files/file/33148-diagonal-town-hall/?do=download&r=177618"
+
+---
+assetId: "mattb325-diagonal-town-hall-maxisnite"
+version: "1.0.0"
+lastModified: "2019-09-08T03:49:53Z"
+url: "https://community.simtropolis.com/files/file/33148-diagonal-town-hall/?do=download&r=177619"

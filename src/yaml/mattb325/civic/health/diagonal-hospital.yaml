@@ -1,0 +1,35 @@
+group: "mattb325"
+name: "diagonal-hospital"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "A modern diagonal hospital"
+  description: >
+    This is a purely fictional larger style hospital that is aligned to diagonal
+    roads as an overhanging building.  It has a patient capacity of 20,000 and
+    provides 245 civic jobs.  It is located in the health menu.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33211-diagonal-hospital/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-diagonal-hospital-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-diagonal-hospital-darknite"
+
+---
+assetId: "mattb325-diagonal-hospital-darknite"
+version: "1.0.0"
+lastModified: "2019-10-05T02:01:48Z"
+url: "https://community.simtropolis.com/files/file/33211-diagonal-hospital/?do=download&r=178151"
+
+---
+assetId: "mattb325-diagonal-hospital-maxisnite"
+version: "1.0.0"
+lastModified: "2019-10-05T02:01:48Z"
+url: "https://community.simtropolis.com/files/file/33211-diagonal-hospital/?do=download&r=178152"

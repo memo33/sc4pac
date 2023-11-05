@@ -1,0 +1,39 @@
+group: "mattb325"
+name: "southern-poverty-law-center"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:bat-props-mattb325-vol04"
+
+info:
+  summary: "Southern Poverty Law Center"
+  description: >
+    The Southern Poverty Law Center (SPLC) is a legal advocacy organisation that
+    specialises in civil rights: it monitors hate group activity, champions
+    voter rights, criminal justice reform, etc.
+
+    This is an unusually shaped building on a 3x3 lot, with 210 civic jobs.
+    It is modded as a museum reward.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/34295-southern-poverty-law-center/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-southern-poverty-law-center-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-southern-poverty-law-center-darknite"
+
+---
+assetId: "mattb325-southern-poverty-law-center-darknite"
+version: "1.0.0"
+lastModified: "2021-03-18T19:32:49Z"
+url: "https://community.simtropolis.com/files/file/34295-southern-poverty-law-center/?do=download&r=186430"
+
+---
+assetId: "mattb325-southern-poverty-law-center-maxisnite"
+version: "1.0.0"
+lastModified: "2021-03-18T19:32:49Z"
+url: "https://community.simtropolis.com/files/file/34295-southern-poverty-law-center/?do=download&r=186431"

@@ -1,0 +1,38 @@
+group: "mattb325"
+name: "youtube-headquarters"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:bat-props-mattb325-vol02"
+
+info:
+  summary: "YouTube Headquarters"
+  description: >
+    This is an interpretation of the YouTube Headquarters in San Bruno, California.
+    It sits on a large 12x5 lot, and provides 2,972 civic jobs.
+    This reward drives demand for CO$$, CO$$$, R$$, R$$$, and I-H.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33958-youtube-headquarters/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-youtube-headquarters-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-youtube-headquarters-darknite"
+
+---
+assetId: "mattb325-youtube-headquarters-darknite"
+version: "1.0.0"
+lastModified: "2020-11-14T02:12:42Z"
+url: "https://community.simtropolis.com/files/file/33958-youtube-headquarters/?do=download&r=183748"
+
+---
+assetId: "mattb325-youtube-headquarters-maxisnite"
+version: "1.0.0"
+lastModified: "2020-11-14T02:12:42Z"
+url: "https://community.simtropolis.com/files/file/33958-youtube-headquarters/?do=download&r=183749"

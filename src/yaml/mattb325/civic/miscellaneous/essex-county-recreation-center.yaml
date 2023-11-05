@@ -1,0 +1,43 @@
+group: "mattb325"
+name: "essex-county-recreation-center"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Essex County Recreation Center"
+  description: >
+    This large building is based on a real arena in Essex County, New Jersey.
+    It houses an ice-hockey and ice-skating arena with two NHL-sized rinks.
+    It is lotted in such a way that it will blend in with KOSCs park series,
+    but it will certainly work as a stand alone park.
+
+    It sits on an 8x8 lot and is found in the park menu.
+    In addition to providing healthy park and landmark effects, placing this
+    building will also provide cap relief for R§ and R§§.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33541-essex-county-recreation-center/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-essex-county-recreation-center-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-essex-county-recreation-center-darknite"
+
+---
+assetId: "mattb325-essex-county-recreation-center-darknite"
+version: "1.0.0"
+lastModified: "2020-04-11T06:53:12Z"
+url: "https://community.simtropolis.com/files/file/33541-essex-county-recreation-center/?do=download&r=180580"
+
+---
+assetId: "mattb325-essex-county-recreation-center-maxisnite"
+version: "1.0.0"
+lastModified: "2020-04-11T06:53:12Z"
+url: "https://community.simtropolis.com/files/file/33541-essex-county-recreation-center/?do=download&r=180581"

@@ -1,0 +1,37 @@
+group: "mattb325"
+name: "old-diagonal-fire-station"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "A modern diagonal hospital"
+  description: >
+     This large coverage and large dispatch fire station is housed in an old
+     Edwardian building with shops along the street frontage and offices on the
+     upper floors. The main garaging for the fire trucks is at the rear with
+     additional emergency access through the large central arch if needed.
+     The building is an overhanging 1x1 lot.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33198-old-diagonal-fire-station/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-old-diagonal-fire-station-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-old-diagonal-fire-station-darknite"
+
+---
+assetId: "mattb325-old-diagonal-fire-station-darknite"
+version: "1.0.0"
+lastModified: "2019-09-29T05:02:12Z"
+url: "https://community.simtropolis.com/files/file/33198-old-diagonal-fire-station/?do=download&r=178062"
+
+---
+assetId: "mattb325-old-diagonal-fire-station-maxisnite"
+version: "1.0.0"
+lastModified: "2019-09-29T05:02:12Z"
+url: "https://community.simtropolis.com/files/file/33198-old-diagonal-fire-station/?do=download&r=178063"
