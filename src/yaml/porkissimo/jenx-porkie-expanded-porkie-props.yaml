@@ -4,7 +4,6 @@ version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "jenx-porkie-expanded-porkie-props"
-  include: [ "/BSCBATProps D66 Vol10.dat" ]
 info:
   summary: "JENX-Porkie Expanded Porkie Props"
   description: >
@@ -16,6 +15,7 @@ info:
   author: "Porkissimo; Xannepan"
   website: "https://sc4evermore.com/index.php/downloads/download/22-dependencies/10-jenxporkie-expanded-porkie-props"
 
+---
 assetId: "jenx-porkie-expanded-porkie-props"
 version: "1"
 lastModified: "2023-07-20T00:57:09Z"
