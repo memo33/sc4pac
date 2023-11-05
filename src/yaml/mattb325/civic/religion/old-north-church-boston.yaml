@@ -4,7 +4,7 @@ version: "1.0.0"
 subfolder: "600-civics"
 dependencies:
 - "bsc:mega-props-cp-vol02"
-# - "bsc:mega-props-mattb325-vol02" TODO: find this dependency
+- "bsc:bat-props-mattb325-vol02"
 - "bsc:texturepack-cycledogg-vol01"
 
 info:
