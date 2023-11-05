@@ -12,9 +12,10 @@ dependencies:
 - "madhatter106:midrise-office-pack-vol7"
 - "madhatter106:midrise-office-pack-vol8"
 - "madhatter106:midrise-office-pack-vol9"
+- "madhatter105:midrise-office-pack-vol10"
 
 info:
-  summary: "Full collection of madhatter106's Midrise Office Packs, Volumes 1-9"
+  summary: "Full collection of madhatter106's Midrise Office Packs, Volumes 1-10"
   description: >
     A classic and long-running series of midrise commercial office packs with an emphasis
     on complementing existing Maxis commercial buildings.  The pack relies only on Maxis
@@ -182,5 +183,23 @@ info:
 ---
 assetId: "madhatter106-midrise-office-pack-vol9"
 version: "1.0"
-lastModified: "2023-05-09T00:00:00Z"
+lastModified: "2023-05-09T19:08:53Z"
 url: "https://community.simtropolis.com/files/file/35522-midrise-office-pack-volume-9/?do=download"
+
+---
+group: "madhatter106"
+name: "midrise-office-pack-vol10"
+version: "1.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "madhatter106-midrise-office-pack-vol10"
+info:
+  summary: "Midrise Office Pack Volume 10"
+  author: "madhatter106"
+  website: "https://community.simtropolis.com/files/file/35717-midrise-office-pack-volume-10/"
+
+---
+assetId: "madhatter106-midrise-office-pack-vol10"
+version: "1.0"
+lastModified: "2023-10-31T21:25:50Z"
+url: "https://community.simtropolis.com/files/file/35717-midrise-office-pack-volume-10/?do=download"
