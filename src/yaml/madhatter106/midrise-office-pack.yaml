@@ -1,6 +1,6 @@
 group: "madhatter106"
 name: "midrise-office-pack-collection"
-version: "1.0"
+version: "1.1"
 subfolder: "300-commercial"
 dependencies:
 - "madhatter106:midrise-office-pack-vol1"
@@ -12,7 +12,7 @@ dependencies:
 - "madhatter106:midrise-office-pack-vol7"
 - "madhatter106:midrise-office-pack-vol8"
 - "madhatter106:midrise-office-pack-vol9"
-- "madhatter105:midrise-office-pack-vol10"
+- "madhatter106:midrise-office-pack-vol10"
 
 info:
   summary: "Full collection of madhatter106's Midrise Office Packs, Volumes 1-10"
