@@ -6,9 +6,9 @@ dependencies:
 - "bsc:mega-props-sg-vol01"
 - "bsc:mega-props-cp-vol01"
 - "bsc:mega-props-misc-vol01"
-- "bsc:texturepack-cycledogg_vol01"
+- "bsc:texturepack-cycledogg-vol01"
 assets:
-- assetId: "mattb325:sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite"
+- assetId: "sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite"
   include:
   - "/Bourke St School/"
 
