@@ -6,7 +6,7 @@ assets:
 - assetId: "jenx-porkie-expanded-porkie-props"
 info:
   summary: "JENX-Porkie Expanded Porkie Props"
-  description: >
+  description: |
     Updated and expanded version of Porkie Props.
     Replaces:
     1.) PorkieProps-Vol1.dat
