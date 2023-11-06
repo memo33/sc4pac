@@ -29,14 +29,14 @@ variants:
   - assetId: "mattb325-convention-center"
     include:
     - "\\.SC4Lot$"
-    - "/Urban School MAXIS NITE/"
+    - "/ConventionCenterMAXISNITE/"
 - variant: { nightmode: dark }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
   - assetId: "mattb325-convention-center"
     include:
     - "\\.SC4Lot$"
-    - "/Urban School DARK NITE/"
+    - "/ConventionCenterDARKNITE/"
 
 ---
 assetId: "mattb325-convention-center"
