@@ -5,9 +5,10 @@ subfolder: "600-civics"
 assets:
 - assetId: "mattb325-disease-research-center"
   include:
-  - "7dd39a56\\.SC4Lot$"
   - "\\.SC4Model$"
 - assetId: "mattb325-disease-research-center-mac-fix"
+  include:
+  - "(?=PLOP).*\\.SC4Lot$"
 dependencies:
 - "bsc:bat-props-mattb325-vol02"
 - "bsc:mega-props-cp-vol01"
