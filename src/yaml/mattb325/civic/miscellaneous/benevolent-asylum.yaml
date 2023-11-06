@@ -3,7 +3,7 @@ name: "benevolent-asylum"
 version: "1.0"
 subfolder: "600-civics"
 assets:
-- assetId: "mattb325:sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite"
+- assetId: "sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite"
   include:
   - "/Benevolent Asylum/"
 dependencies:
