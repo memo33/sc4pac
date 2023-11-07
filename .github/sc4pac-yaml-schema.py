@@ -164,10 +164,20 @@ def main() -> int:
                     for doc in yaml.safe_load_all(text):
                         dependencyChecker.aggregate_identifiers(doc)
                         err = exceptions.best_match(validator.iter_errors(doc))
-                        if err is not None:
+                        msgs = [] if err is None else [err.message]
+
+                        # check URLs
+                        urls = [u for u in [doc.get('url'), doc.get('info', {}).get('website')]
+                                if u is not None]
+                        for u in urls:
+                            if '/sc4evermore.com/' in u:
+                                msgs.append(f"Domain of URL {u} should be www.sc4evermore.com")
+
+                        if msgs:
                             errors += 1
                             print(f"===> {p}")
-                            print(err.message)
+                            for msg in msgs:
+                                print(msg)
 
     if not errors:
         # check that all dependencies exist
