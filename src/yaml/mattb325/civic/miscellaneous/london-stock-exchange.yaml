@@ -30,7 +30,7 @@ variants:
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
   - assetId: "mattb325-london-stock-exchange"
-    exclude:
+    include:
     - "/LSE_DARKNITE/"
 
 ---

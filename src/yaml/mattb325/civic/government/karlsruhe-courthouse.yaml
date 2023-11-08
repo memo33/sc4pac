@@ -2,8 +2,6 @@ group: "mattb325"
 name: "karlsruhe-courthouse"
 version: "1.0"
 subfolder: "600-civics"
-assets:
-- assetId: "mattb325-karlsruhe-courthouse"
 dependencies:
 - "bsc:mega-props-cp-vol01"
 - "bsc:mega-props-cp-vol02"
