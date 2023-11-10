@@ -3,9 +3,6 @@ name: "galaxy-casino-hotel"
 version: "1.0.0"
 subfolder: "600-civics"
 dependencies:
-- "bsc:mega-props-cp-vol01"
-- "bsc:mega-props-cp-vol02"
-- "bsc:texturepack-cycledogg-vol01"
 - "mattb325:urban-civics-prop-pack-vol01"
 
 info:
@@ -31,10 +28,10 @@ variants:
 assetId: "mattb325-galaxy-casino-hotel-darknite"
 version: "1.0.0"
 lastModified: "2019-11-09T03:08:18Z"
-url: "https://community.simtropolis.com/files/file/33289-community-center/?do=download&r=178683"
+url: "https://community.simtropolis.com/files/file/33276-galaxy-casino-hotel/?do=download&r=178569"
 
 ---
 assetId: "mattb325-galaxy-casino-hotel-maxisnite"
 version: "1.0.0"
 lastModified: "2019-11-09T03:08:18Z"
-url: "https://community.simtropolis.com/files/file/33289-community-center/?do=download&r=178684"
+url: "https://community.simtropolis.com/files/file/33276-galaxy-casino-hotel/?do=download&r=178570"
