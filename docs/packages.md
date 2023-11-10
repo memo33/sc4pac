@@ -17,6 +17,12 @@ A set of packages to help you get started building a new plugins folder:
   * `pkg=madhatter106:coffee-shops-and-greasy-spoons`
   * `pkg=madhatter106:laundromats-and-drycleaners`
   * `pkg=madhatter106:liquor-stores`
+  * `pkg=nofunk:sarajevo-lounge` (small W2W restaurant)
+  * `pkg=nofunk:jingo-and-blotts` (small W2W)
+  * `pkg=nofunk:renaissance-books` (small W2W)
+  * `pkg=nofunk:city-savings-bank`
+  * `pkg=nofunk:wagner-ltd`
+  * `pkg=jasoncw:cecil-hotel` (highrise CS$ hotel)
 - Industrial:
   * `pkg=memo:industrial-revolution-mod` (IRM base pack including all dependencies [~1.4GB])
 - Visuals:

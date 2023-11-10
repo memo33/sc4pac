@@ -1,0 +1,36 @@
+group: "nofunk"
+name: "city-savings-bank"
+version: "1.0"
+subfolder: "300-commercial"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "city-savings-bank-mn"
+    exclude: [ "PLOP.SC4Lot" ]
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "city-savings-bank-dn"
+    exclude: [ "PLOP.SC4Lot" ]
+
+info:
+  summary: "Small bank building (CS$$)"
+  description: >
+    The perfect addition to your neighborhood commercial districts,
+    City Savings Bank is based on a small local bank located
+    in Milwaukee, Wisconsin, USA.
+  author: "nofunk"
+  website: "https://community.simtropolis.com/files/file/31451-city-savings-bank/"
+
+---
+assetId: "city-savings-bank-mn"
+version: "1.0"
+lastModified: "2017-02-04T01:16:08Z"
+url: "https://community.simtropolis.com/files/file/31451-city-savings-bank/?do=download&r=164512"
+
+---
+assetId: "city-savings-bank-dn"
+version: "1.0"
+lastModified: "2017-02-04T01:16:08Z"
+url: "https://community.simtropolis.com/files/file/31451-city-savings-bank/?do=download&r=164511"

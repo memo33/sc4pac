@@ -1,0 +1,41 @@
+group: "nofunk"
+name: "sarajevo-lounge"
+version: "1.0"
+subfolder: "300-commercial"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "nofunk-sarajevo-lounge-mn"
+    exclude: [ "PLOP.SC4Lot" ]
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "nofunk-sarajevo-lounge-dn"
+    exclude: [ "PLOP.SC4Lot" ]
+
+info:
+  summary: "Small restaurant and bar from Seattle (CS$)"
+  warning: ""
+  conflicts: ""
+  description: >
+    The Sarajevo Lounge is a small restaurant and bar located at the corner of
+    First Avenue and Battery Street just north of downtown Seattle, Washington.
+    This charming little red and white Streamline Moderne building
+    is wall-to-wall in both directions,
+    grows in the New York tileset,
+    and provides 24 CS§ jobs for your city.
+  author: "nofunk"
+  website: "https://community.simtropolis.com/files/file/29450-sarajevo-lounge/"
+
+---
+assetId: "nofunk-sarajevo-lounge-mn"
+version: "1.0"
+lastModified: "2014-04-12T18:01:56Z"
+url: "https://community.simtropolis.com/files/file/29450-sarajevo-lounge/?do=download&r=131261"
+
+---
+assetId: "nofunk-sarajevo-lounge-dn"
+version: "1.0"
+lastModified: "2014-04-12T18:01:56Z"
+url: "https://community.simtropolis.com/files/file/29450-sarajevo-lounge/?do=download&r=131260"
