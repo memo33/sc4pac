@@ -18,7 +18,12 @@ subfolders = [
     "400-industrial",
     "500-utilities",
     "600-civics",
-    "650-parks",
+    "610-safety",
+    "620-education",
+    "630-health",
+    "640-government",
+    "650-religion",
+    "660-parks",
     "700-transit",
     "900-overrides",
 ]

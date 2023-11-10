@@ -1,7 +1,7 @@
 group: "mattb325"
 name: "engineering-department"
 version: "1.0.0"
-subfolder: "600-civics"
+subfolder: "620-education"
 dependencies: []
 
 info:
@@ -25,7 +25,7 @@ variants:
 group: "mattb325"
 name: "engineering-department-diagonal"
 version: "1.0.0"
-subfolder: "600-civics"
+subfolder: "620-education"
 dependencies: []
 
 info:

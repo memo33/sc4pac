@@ -1,7 +1,7 @@
 group: "mattb325"
 name: "meeting-hall"
 version: "1.0.0"
-subfolder: "600-civics"
+subfolder: "640-government"
 dependencies:
 - "girafe:elms"
 

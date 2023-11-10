@@ -1,7 +1,7 @@
 group: "mattb325"
 name: "modern-bureau-of-bureaucracy"
 version: "1.0"
-subfolder: "600-civics"
+subfolder: "640-government"
 dependencies:
 - "bsc:mega-props-cp-vol01"
 - "bsc:texturepack-cycledogg-vol01"

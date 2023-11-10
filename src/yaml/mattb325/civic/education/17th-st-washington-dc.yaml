@@ -1,7 +1,7 @@
 group: "mattb325"
 name: "17th-st-washington-dc"
 version: "1.0"
-subfolder: "600-civics"
+subfolder: "620-education"
 dependencies:
 - "mattb325:urban-civics-prop-pack-vol01"
 
@@ -40,7 +40,7 @@ variants:
 # group: "mattb325"
 # name: "17th-st-washington-dc-grow"
 # version: "1.0"
-# subfolder: "600-civics"
+# subfolder: "620-education"
 # dependencies:
 # - "mattb325:urban-civics-prop-pack-vol01"
 

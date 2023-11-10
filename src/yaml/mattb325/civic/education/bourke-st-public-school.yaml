@@ -1,7 +1,7 @@
 group: "mattb325"
 name: "bourke-st-public-school"
 version: "1.0"
-subfolder: "600-civics"
+subfolder: "620-education"
 dependencies:
 - "bsc:mega-props-sg-vol01"
 - "bsc:mega-props-cp-vol01"

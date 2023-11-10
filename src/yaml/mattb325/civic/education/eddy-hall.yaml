@@ -1,7 +1,7 @@
 group: "mattb325"
 name: "eddy-hall"
 version: "1.0.0"
-subfolder: "600-civics"
+subfolder: "620-education"
 dependencies:
 - "bsc:bat-props-mattb325-vol02"
 - "bsc:mega-props-cp-vol01"

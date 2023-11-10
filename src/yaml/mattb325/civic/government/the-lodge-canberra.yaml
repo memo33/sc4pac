@@ -1,7 +1,7 @@
 group: "mattb325"
 name: "the-lodge-canberra"
 version: "1.0.0"
-subfolder: "600-civics"
+subfolder: "640-government"
 dependencies:
 - "bsc:mega-props-cp-vol01"
 - "bsc:mega-props-cp-vol02"

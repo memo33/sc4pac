@@ -1,7 +1,7 @@
 group: "mattb325"
 name: "modern-fire-station"
 version: "1.0.0"
-subfolder: "600-civics"
+subfolder: "610-safety"
 dependencies:
 - "bsc:mega-props-cp-vol01"
 - "bsc:texturepack-cycledogg-vol01"

@@ -1,7 +1,7 @@
 group: "mattb325"
 name: "old-delaware-county-courthouse"
 version: "1.0"
-subfolder: "600-civics"
+subfolder: "640-government"
 assets:
 - assetId: "mattb325-old-delaware-county-courthouse"
 dependencies:

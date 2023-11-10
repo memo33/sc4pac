@@ -1,7 +1,7 @@
 group: "mattb325"
 name: "old-nypd-headquarters"
 version: "1.0"
-subfolder: "600-civics"
+subfolder: "610-safety"
 dependencies:
 - "girafe:poplars"
 
@@ -49,7 +49,7 @@ url: "https://community.simtropolis.com/files/file/32907-old-nypd-headquarters-n
 group: "mattb325"
 name: "old-nypd-headquarters-diagonal"
 version: "1.0"
-subfolder: "600-civics"
+subfolder: "610-safety"
 dependencies: []
 
 info:
