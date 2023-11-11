@@ -125,6 +125,9 @@ class DependencyChecker:
         self.duplicate_packages = set()
         self.duplicate_assets = set()
         self.asset_urls = {}
+        self.overlapping_variants = set()
+        self.known_variant_values = {}
+        self.unexpected_variants = []
 
     def aggregate_identifiers(self, doc):
         if 'assetId' in doc:
@@ -147,9 +150,25 @@ class DependencyChecker:
                         a['assetId'] for a in obj.get('assets', [])
                         if 'assetId' in a)
 
+            variants0 = doc.get('variants', [])
             add_references(doc)
-            for v in doc.get('variants', []):
+            for v in variants0:
                 add_references(v)
+
+            variants = [v.get('variant', {}) for v in variants0]
+            if len(variants) != len(set(tuple(sorted(v.items())) for v in variants)):
+                # the same variant should not be defined twice
+                self.overlapping_variants.add(pkg)
+
+            variant_keys = set(key for v in variants for key, value in v.items())
+            for key in variant_keys:
+                variant_values = set(v[key] for v in variants if key in v)
+                if key not in self.known_variant_values:
+                    self.known_variant_values[key] = variant_values
+                elif self.known_variant_values[key] != variant_values:
+                    self.unexpected_variants.append((pkg, key, sorted(variant_values), sorted(self.known_variant_values[key])))
+                else:
+                    pass
 
     def unknowns(self):
         packages = sorted(self.referenced_packages.difference(self.known_packages))
@@ -216,18 +235,32 @@ def main() -> int:
                 print(f"===> The following {label} are referenced, but not defined:")
                 for identifier in unknown:
                     print(identifier)
+
         for label, dupes in dependencyChecker.duplicates().items():
             if dupes:
                 errors += len(dupes)
                 print(f"===> The following {label} are defined multiple times:")
                 for identifier in dupes:
                     print(identifier)
+
         non_unique_assets = dependencyChecker.assets_with_same_url()
         if non_unique_assets:
             errors += len(non_unique_assets)
             print("===> The following assets have the same URL:")
             for assets in non_unique_assets:
                 print(', '.join(assets))
+
+        if dependencyChecker.overlapping_variants:
+            errors += len(dependencyChecker.overlapping_variants)
+            print("===> The following packages have duplicate variants:")
+            for pkg in dependencyChecker.overlapping_variants:
+                print(pkg)
+
+        if dependencyChecker.unexpected_variants:
+            errors += len(dependencyChecker.unexpected_variants)
+            print("===>")
+            for pkg, key, values, expected_values in dependencyChecker.unexpected_variants:
+                print(f"{pkg} defines {key} variants {values} (expected: {expected_values})")
 
     if errors > 0:
         print(f"Finished with {errors} errors.")
