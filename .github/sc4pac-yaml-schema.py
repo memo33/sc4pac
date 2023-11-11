@@ -122,26 +122,49 @@ class DependencyChecker:
         self.known_assets = set()
         self.referenced_packages = set()
         self.referenced_assets = set()
+        self.duplicate_packages = set()
+        self.duplicate_assets = set()
+        self.asset_urls = {}
 
     def aggregate_identifiers(self, doc):
         if 'assetId' in doc:
-            self.known_assets.add(doc['assetId'])
+            asset = doc['assetId']
+            if asset not in self.known_assets:
+                self.known_assets.add(asset)
+            else:
+                self.duplicate_assets.add(asset)
+            self.asset_urls[asset] = doc.get('url')
         if 'group' in doc and 'name' in doc:
-            self.known_packages.add(doc['group'] + ":" + doc['name'])
-            self.referenced_packages.update(doc.get('dependencies', []))
-            self.referenced_assets.update(
-                    a['assetId'] for a in doc.get('assets', [])
-                    if 'assetId' in a)
-            for v in doc.get('variants', []):
-                self.referenced_packages.update(v.get('dependencies', []))
+            pkg = doc['group'] + ":" + doc['name']
+            if pkg not in self.known_packages:
+                self.known_packages.add(pkg)
+            else:
+                self.duplicate_packages.add(pkg)
+
+            def add_references(obj):
+                self.referenced_packages.update(obj.get('dependencies', []))
                 self.referenced_assets.update(
-                        a['assetId'] for a in v.get('assets', [])
+                        a['assetId'] for a in obj.get('assets', [])
                         if 'assetId' in a)
+
+            add_references(doc)
+            for v in doc.get('variants', []):
+                add_references(v)
 
     def unknowns(self):
         packages = sorted(self.referenced_packages.difference(self.known_packages))
         assets = sorted(self.referenced_assets.difference(self.known_assets))
         return {'packages': packages, 'assets': assets}
+
+    def duplicates(self):
+        return {'packages': sorted(self.duplicate_packages),
+                'assets': sorted(self.duplicate_assets)}
+
+    def assets_with_same_url(self):
+        url_assets = {u: a for a, u in self.asset_urls.items()}
+        non_unique_assets = [(a1, a2) for a1, u in self.asset_urls.items()
+                             if (a2 := url_assets[u]) != a1]
+        return non_unique_assets
 
 
 def main() -> int:
@@ -193,6 +216,18 @@ def main() -> int:
                 print(f"===> The following {label} are referenced, but not defined:")
                 for identifier in unknown:
                     print(identifier)
+        for label, dupes in dependencyChecker.duplicates().items():
+            if dupes:
+                errors += len(dupes)
+                print(f"===> The following {label} are defined multiple times:")
+                for identifier in dupes:
+                    print(identifier)
+        non_unique_assets = dependencyChecker.assets_with_same_url()
+        if non_unique_assets:
+            errors += len(non_unique_assets)
+            print("===> The following assets have the same URL:")
+            for assets in non_unique_assets:
+                print(', '.join(assets))
 
     if errors > 0:
         print(f"Finished with {errors} errors.")
