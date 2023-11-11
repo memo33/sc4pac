@@ -1,0 +1,37 @@
+group: "mattb325"
+name: "radio-station"
+version: "1.0"
+subfolder: "600-civics"
+assets:
+- assetId: "mattb325-radio-station"
+dependencies:
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "peg:security-fencing-kit"
+
+info:
+  summary: "Radio Station"
+  description: >
+    Like the ingame Radio Station this lot is basically used as a cap buster;
+    it increases desirability, mayor rating and also substantially lifts the
+    demand cap for R$$ and Manufacturing jobs. Given how most of the industrial
+    custom content available leans towards the manufacturing genre, these caps
+    are usually hit fairly early, so placing the radio station in each city tile
+    will assist in ensuring there is still regional demand for IM jobs.
+
+    The building was inspired by the Musick Point Padio Station in New Zealand
+    which was built in the classic art deco style for use during WWII. It still
+    stands today on a dramatically empty bluff looking out to sea.
+
+    This reward lot is offered without the need to satisfy pre-existing
+    conditions, can be plopped more than once in a city, and, most importantly
+    DOES NOT over-write the ingame radio station.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/27999-radio-station/"
+
+---
+assetId: "mattb325-radio-station"
+version: "1.0"
+lastModified: "2012-09-07T01:42:29Z"
+url: "https://community.simtropolis.com/files/file/27999-radio-station/?do=download"

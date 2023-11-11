@@ -1,0 +1,43 @@
+group: "mattb325"
+name: "griffith-observatory"
+version: "1.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:textures-vol01"
+
+info:
+  summary: "Griffith Observatory"
+  description: >
+    The Griffith Observatory and Planetarium opened in 1935 and has a commanding
+    view of the Los Angeles skyline from its prime position on the slope of
+    Mount Hollywood in Griffith Park. It is an example of Art Deco &
+    Streamline Moderne architecture.
+
+    This BAT is designed to have slope tolerance and the lot is designed to be
+    plopped on a hill (rather than a cliff-face).
+
+    This building has been modded as a non-conditional reward that counts towards
+    tourism and has a positive landmark, park and mayor-rating effect.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/30905-griffith-observatory/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-griffith-observatory"
+    include:
+    - "\\.SC4Lot$"
+    - "/MaxisNite/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-griffith-observatory"
+    include:
+    - "\\.SC4Lot$"
+    - "/DarkNite/"
+
+---
+assetId: "mattb325-griffith-observatory"
+version: "1.0"
+lastModified: "2016-01-03T23:17:07Z"
+url: "https://community.simtropolis.com/files/file/30905-griffith-observatory/?do=download"

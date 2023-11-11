@@ -1,0 +1,42 @@
+group: "mattb325"
+name: "vandamm-house"
+version: "1.0.0"
+subfolder: "640-government"
+dependencies: []
+
+info:
+  summary: "Vandamm House"
+  description: >
+    From the 1959 Alfred Hitchcock classic, North by Northwest, comes the
+    fictional Vandamm House. It is so called, as it is the movie villain's
+    (Phillip Vandamm) lair on the top of Mount Rushmore.
+
+    This BAT is eye-catching and can be used as a Mayor's house in many
+    different locations in your city: on steep mountains, overlooking ravines,
+    over-hanging the in-game water oceans or rivers.
+    This is a 1x1 non-conditional reward lot which acts as an extra Mayor's House.
+    To enable the lot to be placed in remote locations, the building itself does
+    not require either road access or power, but it does require water.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33482-vandamm-house/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-vandamm-house-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-vandamm-house-darknite"
+
+---
+assetId: "mattb325-vandamm-house-darknite"
+version: "1.0.0"
+lastModified: "2020-02-21T23:27:17Z"
+url: "https://community.simtropolis.com/files/file/33482-vandamm-house/?do=download&r=179981"
+
+---
+assetId: "mattb325-vandamm-house-maxisnite"
+version: "1.0.0"
+lastModified: "2020-02-21T23:27:17Z"
+url: "https://community.simtropolis.com/files/file/33482-vandamm-house/?do=download&r=179982"

@@ -1,0 +1,45 @@
+group: "mattb325"
+name: "convention-center"
+version: "1.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "Convention Center"
+  description: >
+    Though fictional, this building is inspired by some of the modern
+    architecture of China which shows an amazing combination of self-assuredness,
+    ebullience and seemingly gravity-defying engineering. Sitting on a 6x6 lot,
+    this is a large building with the lower three floors alone providing almost
+    8,000m2 of floor space per floor. At its highest point, the building is
+    8 stories tall. There is also a combination of exhibition halls (including
+    high-clearance spaces), conference rooms, cafeterias and indoor/outdoor spaces.
+    The entire building is arranged around a pleasant, treed central courtyard.
+
+    This BAT functions as a reward-lot and Convention Center in game. It provides
+    154 civic jobs and will massively help alleviate the commercial demand caps
+    that can hinder city development by giving an additional CAP relief of
+    270,000 CO§§ and 270,000 CO§§§ jobs in the region.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/31882-convention-center/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-convention-center"
+    include:
+    - "\\.SC4Lot$"
+    - "/ConventionCenterMAXISNITE/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-convention-center"
+    include:
+    - "\\.SC4Lot$"
+    - "/ConventionCenterDARKNITE/"
+
+---
+assetId: "mattb325-convention-center"
+version: "1.0"
+lastModified: "2017-07-27T09:56:33Z"
+url: "https://community.simtropolis.com/files/file/31882-convention-center/?do=download"

@@ -1,0 +1,44 @@
+group: "mattb325"
+name: "old-north-church-boston"
+version: "1.0.0"
+subfolder: "650-religion"
+dependencies:
+- "bsc:mega-props-cp-vol02"
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Old North Church, Boston"
+  description: >
+    Built in 1723, this is the oldest church in Boston and is famous for having
+    been the church from which Paul Revere received his illuminated signals
+    ("one if by land, and two if by sea") prior to his midnight ride to warn
+    Lexington and Concord during the American Revolution.
+
+    This building is modded as a non-conditional House of Worship reward
+    (meaning it can be placed in your city at any time without having met
+    prior conditions). It does not over-write the Maxis House of Worship rewards
+    and can safely be used in conjunction with these (or any relots).
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/31757-old-north-church-boston/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-old-north-church-boston"
+    include:
+    - "\\.SC4Lot$"
+    - "/Old North Church Boston MAXIS NITE/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-old-north-church-boston"
+    include:
+    - "\\.SC4Lot$"
+    - "/Old North Church Boston DARK NITE/"
+
+---
+assetId: "mattb325-old-north-church-boston"
+version: "1.0"
+lastModified: "2017-06-11T09:05:23Z"
+url: "https://community.simtropolis.com/files/file/31757-old-north-church-boston/?do=download"

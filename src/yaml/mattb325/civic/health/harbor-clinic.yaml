@@ -1,0 +1,45 @@
+group: "mattb325"
+name: "harbor-clinic"
+version: "1.0"
+subfolder: "630-health"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+
+info:
+  summary: "Harbor Clinic"
+  description: >
+    Inspired by a rather imposing mid-century building on Wilshire Blvd,
+    Los Angeles, Harbor Clinic operates as a large hospital in game.
+
+    This 6-floor building is substantial; its 100 meter street frontage is broken
+    by a large blank entrance wall clad in marble tiles for its full height and
+    makes for a striking streetscape addition in real life.
+
+    As it sits on a 7x4 lot, this is useful for urban and suburban areas.
+    It has an expanded coverage radius and high patient capacity and provides
+    quite a number of civic jobs in all wealth categories. It has a patient
+    capacity of 12,250.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/28644-harbor-clinic/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-harbor-clinic"
+    include:
+    - "\\.SC4Lot$"
+    - "/Maxisnite/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-harbor-clinic"
+    include:
+    - "\\.SC4Lot$"
+    - "/Darknite/"
+
+---
+assetId: "mattb325-harbor-clinic"
+version: "1.0"
+lastModified: "2013-04-14T08:51:39Z"
+url: "https://community.simtropolis.com/files/file/28644-harbor-clinic/?do=download"

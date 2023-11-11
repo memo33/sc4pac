@@ -1,0 +1,52 @@
+group: "mattb325"
+name: "new-england-style-church"
+version: "1.0.0"
+subfolder: "650-religion"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "A simple, yet idyllic church typical of rural New England"
+  description: >
+    The New England style of Church surrounded by deciduous trees in autumnal
+    hues is an often photographed building: they are - pictorially at least -
+    an archetypal representation of the rural idyll of America's North East.
+
+    This BAT is typical of the style: quite utilitarian, made of weatherboard
+    and timber painted in crisp white (including the steeple). The buildings
+    have classical, greek-revival style elements such as dentil moldings and
+    ionic columns executed in timber, but overall, they are restrained
+    and unadorned.
+
+    This church is on a 2x3 lot and it is found in the reward menu. This church
+    is modded in such a way as to be most beneficial to smaller towns, but of
+    course it can be placed in a big city if you wish.
+
+    It will boost surrounding desirability for residential and provides cap
+    relief as well as park and mayor effects. It also has some slope tolerance
+    to enable you to replicate the typical new england small town scene.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/34713-new-england-style-church/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-new-england-style-church-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-new-england-style-church-darknite"
+
+---
+assetId: "mattb325-new-england-style-church-maxisnite"
+version: "1.0.0"
+lastModified: "2021-10-12T21:54:37Z"
+url: "https://community.simtropolis.com/files/file/34713-new-england-style-church/?do=download&r=190199"
+
+---
+assetId: "mattb325-new-england-style-church-darknite"
+version: "1.0.0"
+lastModified: "2021-10-12T21:54:37Z"
+url: "https://community.simtropolis.com/files/file/34713-new-england-style-church/?do=download&r=190198"

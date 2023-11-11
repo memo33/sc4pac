@@ -1,0 +1,35 @@
+assetId: "maxis-additional-landmarks"
+version: "1"
+lastModified: "2017-12-11T22:43:15Z"
+url: "https://community.simtropolis.com/library/maxis/sc4/buildings/Maxis_Buildings.zip"
+
+# TODO: Add the full collection?
+# ---
+# group: "maxis"
+# name: "additional-landmarks"
+# version: "1"
+# subfolder: "100-props-textures"
+# assets:
+# - assetId: "maxis-additional-landmarks"
+#   include:
+#   - "/BSC Essentials"
+#   - "/BSC_Reward_essential.*dat"
+# info:
+#   summary: "Additional Maxis landmarks DLC"
+#   description: >
+#     The collection of extra Maxis DLC buildings for SC4.
+#   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "castle-set"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "CastleSet\\.dat$"
+info:
+  summary: "CastleSet.dat dependency from the Maxis additional landmarks"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"

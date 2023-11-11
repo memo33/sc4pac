@@ -1,0 +1,86 @@
+group: "mattb325"
+name: "17th-st-washington-dc"
+version: "1.0"
+subfolder: "620-education"
+dependencies:
+- "mattb325:urban-civics-prop-pack-vol01"
+
+info:
+  summary: "17th St, Washington DC (college)"
+  description: >
+    This is an eye-catching modern midrise building that definitely helps break
+    the grid when it grows.  It has upper roof gardens (both as open terraces
+    and semi-enclosed spaces (the areas under the metal lattice-work at either
+    end of the building).
+
+    This version offers a ploppable college lot providing 229 jobs and capacity
+    for 6,700 students.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33088-17th-st-washington-dc/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-17th-st-washington-dc-maxisnite"
+    include:
+    - "\\.SC4Model$"
+    - "\\.SC4Desc$"
+    - "(?=PLOP).*\\.SC4Lot$"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-17th-st-washington-dc-darknite"
+    include:
+    - "\\.SC4Model$"
+    - "\\.SC4Desc$"
+    - "(?=PLOP).*\\.SC4Lot$"
+
+# TODO: add growable
+# ---
+# group: "mattb325"
+# name: "17th-st-washington-dc-grow"
+# version: "1.0"
+# subfolder: "620-education"
+# dependencies:
+# - "mattb325:urban-civics-prop-pack-vol01"
+
+# info:
+#   summary: "17th St, Washington DC (growable)"
+#   description: >
+#     This is an eye-catching modern midrise building that definitely helps break
+#     the grid when it grows.  It has upper roof gardens (both as open terraces
+#     and semi-enclosed spaces (the areas under the metal lattice-work at either
+#     end of the building).
+#     This version offers a CS§§ growable on a 3x4 and 4x3 lot providing 596 jobs.
+#     The two CS versions are rotated differently so that both corners are covered.
+#   author: "mattb325"
+#   website: "https://community.simtropolis.com/files/file/33088-17th-st-washington-dc/"
+
+# variants:
+# - variant: { nightmode: standard }
+#   assets:
+#   - assetId: "mattb325-17th-st-washington-dc-maxisnite"
+#     include:
+#     - "\\.SC4Model$"
+#     - "\\.SC4Desc$"
+#     - "(?!PLOP).*\\.SC4Lot$"
+# - variant: { nightmode: dark }
+#   dependencies: [ "simfox:day-and-nite-mod" ]
+#   assets:
+#   - assetId: "mattb325-17th-st-washington-dc-darknite"
+#     include:
+#     - "\\.SC4Model$"
+#     - "\\.SC4Desc$"
+#     - "(?!PLOP).*\\.SC4Lot$"
+
+---
+assetId: "mattb325-17th-st-washington-dc-darknite"
+version: "1.0"
+lastModified: "2019-08-17T21:50:13Z"
+url: "https://community.simtropolis.com/files/file/33088-17th-st-washington-dc/?do=download&r=177197"
+
+---
+assetId: "mattb325-17th-st-washington-dc-maxisnite"
+version: "1.0"
+lastModified: "2019-08-17T21:50:13Z"
+url: "https://community.simtropolis.com/files/file/33088-17th-st-washington-dc/?do=download&r=177198"

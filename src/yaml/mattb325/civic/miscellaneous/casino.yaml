@@ -1,0 +1,40 @@
+group: "mattb325"
+name: "casino"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+
+info:
+  summary: "Casino"
+  description: >
+    This casino is completely fictional and is modded such that it is a little
+    less offensive to surrounding areas when placed (both visually and in terms
+    of its modding) than the default casino.  At nine stories high, it is
+    designed to fit into a mid-rise city scape.  It provides 410 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33147-casino/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-casino-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-casino-darknite"
+
+---
+assetId: "mattb325-casino-darknite"
+version: "1.0.0"
+lastModified: "2019-09-08T03:46:07Z"
+url: "https://community.simtropolis.com/files/file/33147-casino/?do=download&r=177607"
+
+---
+assetId: "mattb325-casino-maxisnite"
+version: "1.0.0"
+lastModified: "2019-09-08T03:46:07Z"
+url: "https://community.simtropolis.com/files/file/33147-casino/?do=download&r=177608"
+
+# TODO: The assets packaged above contain the temperate version of the lots. There are also tropical versions, but we are not yet sure how to implement such variants.

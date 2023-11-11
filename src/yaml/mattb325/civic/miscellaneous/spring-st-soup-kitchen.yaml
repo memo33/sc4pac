@@ -1,0 +1,36 @@
+group: "mattb325"
+name: "spring-st-soup-kitchen"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies: []
+
+info:
+  summary: "Spring St Soup Kitchen, NYC"
+  description: >
+    A rather unique reward, this shiny NYC soup kitchen BAT provides cap relief
+    for residential, commercial, and industrial categories. It sits on a 2x2 lot
+    and provides 95 civic jobs.
+    There are no required conditions, and the reward may be placed repeatedly.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33998-spring-st-soup-kitchen-nyc/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-spring-st-soup-kitchen-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-spring-st-soup-kitchen-darknite"
+
+---
+assetId: "mattb325-spring-st-soup-kitchen-darknite"
+version: "1.0.0"
+lastModified: "2020-12-19T21:10:34Z"
+url: "https://community.simtropolis.com/files/file/33998-spring-st-soup-kitchen-nyc/?do=download&r=184178"
+
+---
+assetId: "mattb325-spring-st-soup-kitchen-maxisnite"
+version: "1.0.0"
+lastModified: "2020-12-19T21:10:34Z"
+url: "https://community.simtropolis.com/files/file/33998-spring-st-soup-kitchen-nyc/?do=download&r=184179"

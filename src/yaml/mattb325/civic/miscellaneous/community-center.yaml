@@ -1,0 +1,39 @@
+group: "mattb325"
+name: "community-center"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Community Center"
+  description: >
+    Community center based on a real building in Westchester County, NY.
+    Designed to tie in with KOSC's park series, the building sits on a 5x4 lot,
+    provides 155 civic jobs, provides cap relief, and increases desirability.
+    It is found in the rewards menu.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33289-community-center/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-community-center-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-community-center-darknite"
+
+---
+assetId: "mattb325-community-center-darknite"
+version: "1.0.0"
+lastModified: "2019-11-23T05:15:34Z"
+url: "https://community.simtropolis.com/files/file/33289-community-center/?do=download&r=178683"
+
+---
+assetId: "mattb325-community-center-maxisnite"
+version: "1.0.0"
+lastModified: "2019-11-23T05:15:34Z"
+url: "https://community.simtropolis.com/files/file/33289-community-center/?do=download&r=178684"

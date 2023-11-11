@@ -1,0 +1,54 @@
+group: "mattb325"
+name: "council-chambers-and-civic-center"
+version: "1.0.0"
+subfolder: "640-government"
+dependencies:
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-sg-vol01"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Bankstown Council Chambers and Civic Center"
+  description: >
+    This is a campus-style council chambers and civic center building. This is
+    a modified model based on the auditorium, council offices and tourist
+    information kiosk of a similarly scaled complex in suburban Sydney.
+
+    This is a very specific architectural style that was popular during the
+    1960s and 1970s, when Tehran was one of the most sophisticated and popular
+    destination for western tourists. Civic architecture was an early adopter
+    of this simplified Persian style.
+
+    This BAT functions as a government building and town hall in game.
+    In addition to providing 310 civic jobs, it will help alleviate the commercial
+    demand caps that can hinder city development. It has also been modded to provide
+    residential cap relief and increase desirability.
+
+    It is designed for a 10x7 lot and this building looks best when used in either
+    a suburban setting or to be break up a larger downtown area.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/31001-council-chambers-and-civic-center/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-council-chambers-and-civic-center-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-council-chambers-and-civic-center-darknite"
+
+---
+assetId: "mattb325-council-chambers-and-civic-center-maxisnite"
+version: "1.0"
+lastModified: "2016-03-20T03:52:36Z"
+url: "https://community.simtropolis.com/files/file/31001-council-chambers-and-civic-center/?do=download&r=161109"
+
+---
+assetId: "mattb325-council-chambers-and-civic-center-darknite"
+version: "1.0"
+lastModified: "2016-03-20T03:52:36Z"
+url: "https://community.simtropolis.com/files/file/31001-council-chambers-and-civic-center/?do=download&r=161110"
+

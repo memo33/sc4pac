@@ -1,0 +1,44 @@
+group: "mattb325"
+name: "modern-police-station"
+version: "1.0.0"
+subfolder: "610-safety"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Modern Police Station"
+  description: >
+    This police station is inspired by the newly built police stations that you
+    find in many outer urban areas. They are cheap and quick to build, and
+    basically all look the same. In true functionalist style, it is given blue
+    trim work to easily denote its function.
+
+    It provides 90 civic jobs and has holding space for 75 inmates.
+
+    This BAT has been modded to work particularly well with those areas that
+    have mega lots, such as shopping malls, large industrial lots, golf courses,
+    airports etc - which often suffer from the crime bug.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33119-modern-police-station/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-modern-police-station-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-modern-police-station-darknite"
+
+---
+assetId: "mattb325-modern-police-station-darknite"
+version: "1.0.0"
+lastModified: "2019-08-29T04:45:44Z"
+url: "https://community.simtropolis.com/files/file/33119-modern-police-station/?do=download&r=177372"
+
+---
+assetId: "mattb325-modern-police-station-maxisnite"
+version: "1.0.0"
+lastModified: "2019-08-29T04:45:44Z"
+url: "https://community.simtropolis.com/files/file/33119-modern-police-station/?do=download&r=177373"

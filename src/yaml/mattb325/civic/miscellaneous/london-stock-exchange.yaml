@@ -1,0 +1,40 @@
+group: "mattb325"
+name: "london-stock-exchange"
+version: "1.0.1"
+subfolder: "600-civics"
+assets:
+- assetId: "mattb325-london-stock-exchange"
+  include:
+  - "\\.SC4Lot$"
+dependencies:
+- "bsc:bat-props-mattb325-vol02"
+
+info:
+  summary: "London Stock Exchange"
+  description: >
+    Fairly faithful representation of the real-life London Stock Exchange.
+    Modded as a non-conditional Stock Exchange reward and does not override the
+    original Maxis stock exchange.
+
+    Provides a large CO$$$ cap relief, sits on a 4x4 lot, and has 155 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/32008-london-stock-exchange/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-london-stock-exchange"
+    include:
+    - "/LSE_MAXISNITE/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-london-stock-exchange"
+    include:
+    - "/LSE_DARKNITE/"
+
+---
+assetId: "mattb325-london-stock-exchange"
+version: "1.0.1"
+lastModified: "2021-01-01T20:54:21Z"
+url: "https://community.simtropolis.com/files/file/32008-london-stock-exchange/?do=download"

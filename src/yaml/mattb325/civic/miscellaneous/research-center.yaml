@@ -1,0 +1,51 @@
+group: "mattb325"
+name: "research-center"
+version: "1.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-sg-vol01"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Research Center"
+  description: >
+    Alternative research center without the NIMBY effects of the in-game version.
+    This research center does not generate radiation, reduce residential
+    desirability, or lower your mayor rating.
+
+    The Oran-Nayar-Blinn Research facility is a strikingly designed ultra-modern
+    building situated on a leafy 7x7 campus-styled lot. It is just as suited to
+    the middle of an industrial area as it is in a suburban or ex-urban space.
+
+    In addition to providing many civic jobs, it will help alleviate the IHT
+    demand caps that can hinder city development (by increasing IHT demand by
+    130,000 places). It has also been modded to provide some residential and
+    commercial cap relief by providing both Park and Landmark effects.
+
+    It is offered as a non-conditional reward.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/30875-research-center/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-research-center"
+    include:
+    - "\\.SC4Lot$"
+    - "/MaxisNite/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-research-center"
+    include:
+    - "\\.SC4Lot$"
+    - "/DarkNite/"
+
+---
+assetId: "mattb325-research-center"
+version: "1.0"
+lastModified: "2015-12-23T07:04:38Z"
+url: "https://community.simtropolis.com/files/file/30875-research-center/?do=download"

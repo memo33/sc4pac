@@ -1,0 +1,42 @@
+group: "mattb325"
+name: "community-hall"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Community hall based on the Ballhaus Ost in Berlin"
+  description: >
+    Made as a request, this building is based on the Ballhaus Ost in Berlin.
+    Originally a mourning hall, it has since been converted to a community
+    space and theatre.
+
+    The BAT comes on a 2x3 lot and it is found in the reward menu. It offers a
+    handful of jobs and will boost surrounding desirability for business and
+    residential, as well as provide landmark, park and mayor effects.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/34568-community-hall/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-community-hall-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-community-hall-darknite"
+
+---
+assetId: "mattb325-community-hall-maxisnite"
+version: "1.0.0"
+lastModified: "2021-07-04T23:08:07Z"
+url: "https://community.simtropolis.com/files/file/34568-community-hall/?do=download&r=189145"
+
+---
+assetId: "mattb325-community-hall-darknite"
+version: "1.0.0"
+lastModified: "2021-07-04T23:08:07Z"
+url: "https://community.simtropolis.com/files/file/34568-community-hall/?do=download&r=189144"

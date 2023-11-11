@@ -1,0 +1,49 @@
+group: "mattb325"
+name: "world-health-organisation"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "World Health Organisation Geneva"
+  description: >
+    The nine-story WHO headquarters in Geneva were designed in 1959 by the Swiss
+    architect Jean Tschumi. It is unashamedly modernist and quite graceful in
+    its execution.
+
+    The building is offered as a non-conditional reward and is a modified version
+    of the advanced research centre. It does not generate radiation and it can
+    easily be placed within a downtown environment or amongst parkland.
+
+    In addition to providing your sims with many highly desirable civic jobs, it
+    will help alleviate the IHT demand caps that can hinder city development
+    (by increasing IHT demand by 300,000 places).  It has also been modded to
+    provide some residential and commercial cap relief by providing both Park
+    and Landmark effects.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33573-world-health-organisation-geneva/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-world-health-organisation-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-world-health-organisation-darknite"
+
+---
+assetId: "mattb325-world-health-organisation-darknite"
+version: "1.0.0"
+lastModified: "2020-04-27T04:43:21Z"
+url: "https://community.simtropolis.com/files/file/33573-world-health-organisation-geneva/?do=download&r=180809"
+
+---
+assetId: "mattb325-world-health-organisation-maxisnite"
+version: "1.0.0"
+lastModified: "2020-04-27T04:43:21Z"
+url: "https://community.simtropolis.com/files/file/33573-world-health-organisation-geneva/?do=download&r=180810"

@@ -1,0 +1,49 @@
+group: "mattb325"
+name: "bass-hall-opera-house"
+version: "1.0"
+subfolder: "620-education"
+dependencies: []
+
+info:
+  summary: "Bass Hall Opera House"
+  description: >
+    The Bass Performance Hall is in Fort Worth Texas. It seats 2,056 people.
+    Built as a multi-purpose facility, the Hall is able to house symphony,
+    ballet, opera, stage, musicals, and rock concerts. The building is
+    reminiscent of the classic European Opera Houses: the building is
+    constructed of limestone and was built in 1998.
+
+    In game, this is offered as a non-conditional Opera House Reward. It does
+    not override the in-game Opera House Reward.
+
+    The stats have been made in accordance with the opera house bug fix (the
+    vanilla Maxis opera house fills up very quickly and then causes your city
+    to have all sorts of problems), but please note that the bug fix is not
+    necessary for this download.
+
+    It sits on a 4x4 lot and provides 281 civic jobs. It also gives a
+    region-wide residential, commercial and IHT boost, and increases
+    desirability in the surrounding radius.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33030-bass-hall-opera-house/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-bass-hall-opera-house-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-bass-hall-opera-house-darknite"
+
+---
+assetId: "mattb325-bass-hall-opera-house-darknite"
+version: "1.0"
+lastModified: "2019-07-17T23:48:23Z"
+url: "https://community.simtropolis.com/files/file/33030-bass-hall-opera-house/?do=download&r=176760"
+
+---
+assetId: "mattb325-bass-hall-opera-house-maxisnite"
+version: "1.0"
+lastModified: "2019-07-17T23:48:23Z"
+url: "https://community.simtropolis.com/files/file/33030-bass-hall-opera-house/?do=download&r=176761"

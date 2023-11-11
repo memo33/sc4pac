@@ -1,0 +1,39 @@
+group: "mattb325"
+name: "dental-clinic"
+version: "1.0"
+subfolder: "630-health"
+dependencies: []
+
+info:
+  summary: "Dental Clinic"
+  description: >
+    This little building is inspired by a real such mid-century low rise building
+    near downtown Los Angeles. In game, this supplements the main hospital
+    function and the capacities have been modded to sit mid way between the clinic
+    and standard hospital. But it will work equally well in a smaller city without
+    the need for an additional hospital.
+
+    It sits on a 2x2 lot and provides 68 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/30940-dental-clinic/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-dental-clinic"
+    include:
+    - "\\.SC4Lot$"
+    - "/MaxisNite/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-dental-clinic"
+    include:
+    - "\\.SC4Lot$"
+    - "/DarkNite/"
+
+---
+assetId: "mattb325-dental-clinic"
+version: "1.0"
+lastModified: "2016-02-06T22:57:49Z"
+url: "https://community.simtropolis.com/files/file/30940-dental-clinic/?do=download"

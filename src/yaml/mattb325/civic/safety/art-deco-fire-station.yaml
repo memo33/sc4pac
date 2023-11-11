@@ -1,0 +1,38 @@
+group: "mattb325"
+name: "art-deco-fire-station"
+version: "1.0.0"
+subfolder: "610-safety"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "Art Deco fire station based on one from SimCity 3000"
+  description: >
+    This large fire station has amazing art deco features and looks good in
+    either a downtown or suburban setting. It has a large coverage radius,
+    four dispatches, and provides 43 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/34390-art-deco-fire-station/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-art-deco-fire-station-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-art-deco-fire-station-darknite"
+
+---
+assetId: "mattb325-art-deco-fire-station-maxisnite"
+version: "1.0.0"
+lastModified: "2021-04-17T23:47:13Z"
+url: "https://community.simtropolis.com/files/file/34390-art-deco-fire-station/?do=download&r=187427"
+
+---
+assetId: "mattb325-art-deco-fire-station-darknite"
+version: "1.0.0"
+lastModified: "2021-04-17T23:47:13Z"
+url: "https://community.simtropolis.com/files/file/34390-art-deco-fire-station/?do=download&r=187426"

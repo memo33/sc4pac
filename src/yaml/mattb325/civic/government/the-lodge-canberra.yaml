@@ -1,0 +1,42 @@
+group: "mattb325"
+name: "the-lodge-canberra"
+version: "1.0.0"
+subfolder: "640-government"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-sg-vol01"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "The Lodge, Canberra"
+  description: >
+    The Lodge is the official Canberra residence of the Australian Prime Minister.
+    The building was constructed in 1927 in the Australian Georgian Revival Style.
+    This a 6x6 reward lot which acts like the Mayor's House.  It will not override
+    the default Mayor's House or any other Mayor's House.  Placing this lot will
+    increase commercial and residential desirability needed to assist city growth.
+    It provides 23 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33086-the-lodge-canberra/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-the-lodge-canberra-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-the-lodge-canberra-darknite"
+
+---
+assetId: "mattb325-the-lodge-canberra-darknite"
+version: "1.0.0"
+lastModified: "2019-08-16T00:39:43Z"
+url: "https://community.simtropolis.com/files/file/33086-the-lodge-canberra/?do=download&r=177188"
+
+---
+assetId: "mattb325-the-lodge-canberra-maxisnite"
+version: "1.0.0"
+lastModified: "2019-08-16T00:39:43Z"
+url: "https://community.simtropolis.com/files/file/33086-the-lodge-canberra/?do=download&r=177189"

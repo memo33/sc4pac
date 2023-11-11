@@ -1,0 +1,28 @@
+group: "mattb325"
+name: "courthouse"
+version: "1.0"
+subfolder: "640-government"
+assets:
+- assetId: "mattb325-courthouse"
+dependencies:
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:bat-props-mattb325-vol03"
+
+info:
+  summary: "Courthouse"
+  description: >
+    A fictional courthouse executed in brick, slate and stone, suitable for
+    towns and suburban streets.
+
+    This courthouse has been modded very similarly to the in-game courthouse
+    and provides a landmark effect and relief cap for R$$/R$$$ and CO$$ jobs.
+
+    This is a non-conditional reward and may be plopped multiple times.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/27908-mattb325-courthouse/"
+
+---
+assetId: "mattb325-courthouse"
+version: "1.0"
+lastModified: "2012-08-07T04:59:19Z"
+url: "https://community.simtropolis.com/files/file/27908-mattb325-courthouse/?do=download"

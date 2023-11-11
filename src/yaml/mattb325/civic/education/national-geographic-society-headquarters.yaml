@@ -1,0 +1,87 @@
+group: "mattb325"
+name: "national-geographic-society-hq"
+version: "1.0"
+subfolder: "620-education"
+dependencies: []
+
+info:
+  summary: "National Geographic Society Headquarters (museum)"
+  description: >
+    The National Geographic Society Headquarters was built in 1963 in the what
+    is known as the new formalist style.  It is made of concrete, marble and
+    glass and conveys a uniform and symmetrical appearance; the marble columns
+    provide strong verticality and are a reinterpretation of earlier classical,
+    temple like forms. This is especially true of the upper floors and projecting
+    fins along the colonnade.
+
+    This version is a high-capacity museum on a 6x2 lot, providing 235 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33016-national-geographic-society-headquarters/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-national-geographic-society-maxisnite"
+    include:
+    - "\\.SC4Model$"
+    - "\\.SC4Desc$"
+    - "(?=PLOP).*\\.SC4Lot$"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-national-geographic-society-darknite"
+    include:
+    - "\\.SC4Model$"
+    - "\\.SC4Desc$"
+    - "(?=PLOP).*\\.SC4Lot$"
+
+# TODO: add the growable
+# ---
+# group: "mattb325"
+# name: "national-geographic-society-hq-grow"
+# version: "1.0"
+# subfolder: "300-commercial"
+# dependencies: []
+
+# info:
+#   summary: "National Geographic Society Headquarters (growable)"
+#   description: >
+#     The National Geographic Society Headquarters was built in 1963 in the what
+#     is known as the new formalist style.  It is made of concrete, marble and
+#     glass and conveys a uniform and symmetrical appearance; the marble columns
+#     provide strong verticality and are a reinterpretation of earlier classical,
+#     temple like forms. This is especially true of the upper floors and projecting
+#     fins along the colonnade.
+
+#     This version is a growable CS§§ on a 6x3 lot providing 764 jobs.
+#   author: "mattb325"
+#   website: "https://community.simtropolis.com/files/file/33016-national-geographic-society-headquarters/"
+
+# variants:
+# - variant: { nightmode: standard }
+#   assets:
+#   - assetId: "mattb325-national-geographic-society-maxisnite"
+#     include:
+#     - "\\.SC4Model$"
+#     - "\\.SC4Desc$"
+#     - "(?!PLOP).*\\.SC4Lot"
+# - variant: { nightmode: dark }
+#   dependencies: [ "simfox:day-and-nite-mod" ]
+#   assets:
+#   - assetId: "mattb325-national-geographic-society-darknite"
+#     include:
+#     - "\\.SC4Model$"
+#     - "\\.SC4Desc$"
+#     - "(?!PLOP).*\\.SC4Lot"
+
+---
+assetId: "mattb325-national-geographic-society-darknite"
+version: "1.0"
+lastModified: "2019-07-12T01:31:37Z"
+url: "https://community.simtropolis.com/files/file/33016-national-geographic-society-headquarters/?do=download&r=176657"
+
+---
+assetId: "mattb325-national-geographic-society-maxisnite"
+version: "1.0"
+lastModified: "2019-07-12T01:31:37Z"
+url: "https://community.simtropolis.com/files/file/33016-national-geographic-society-headquarters/?do=download&r=176658"

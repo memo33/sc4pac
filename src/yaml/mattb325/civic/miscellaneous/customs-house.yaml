@@ -1,0 +1,31 @@
+group: "mattb325"
+name: "customs-house"
+version: "1.0"
+subfolder: "600-civics"
+assets:
+- assetId: "mattb325-customs-house"
+dependencies:
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:mega-props-cp-vol01"
+
+info:
+  summary: "Customs House"
+  description: >
+    This particular Customs House is inspired by the one that has stood in Salem,
+    Massachusetts since 1819 (it is not an exact replica). The basement at the
+    rear of the building is used for impounding goods.
+
+    This BAT provides civic jobs as well as lifting the demand caps (and hence
+    driving demand) for Manufacturing and IHT jobs in your city and region. It
+    also boosts your mayor rating.
+
+    It is offered as a reward (without the need to meet any pre-existing criteria)
+    and can be placed more than once in a city. It is found in the rewards menu.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/28037-customs-house/"
+
+---
+assetId: "mattb325-customs-house"
+version: "1.0"
+lastModified: "2012-09-16T08:22:27Z"
+url: "https://community.simtropolis.com/files/file/28037-customs-house/?do=download"

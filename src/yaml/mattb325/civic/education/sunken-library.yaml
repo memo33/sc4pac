@@ -1,0 +1,45 @@
+group: "mattb325"
+name: "sunken-library"
+version: "1.0.0"
+subfolder: "620-education"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mattb325:street-planters-and-benches"
+
+info:
+  summary: "A unique, sunken library"
+  description: >
+    This sunken library is a fictional creation which fits in with sunken plazas
+    by this author.
+    On a 4x4 lot, descending a large staircase, sims arrive at a sun-filled public
+    courtyard, seasonal trees and greenery flanked with glass. Like the plaza set,
+    this library has been specially made so as to receive shadows from other
+    buildings and structures around it. It looks great in a downtown environment
+    or adjacent to the other sunken plazas.
+
+    This is a ploppable lot found in the education menu and provides 86 civic jobs,
+    holds 100,000 books and provides an EQ boost to all age groups.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33315-sunken-library/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-sunken-library-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-sunken-library-darknite"
+
+---
+assetId: "mattb325-sunken-library-darknite"
+version: "1.0.0"
+lastModified: "2019-12-06T21:59:14Z"
+url: "https://community.simtropolis.com/files/file/33315-sunken-library/?do=download&r=179080"
+
+---
+assetId: "mattb325-sunken-library-maxisnite"
+version: "1.0.0"
+lastModified: "2019-12-06T21:59:14Z"
+url: "https://community.simtropolis.com/files/file/33315-sunken-library/?do=download&r=179081"

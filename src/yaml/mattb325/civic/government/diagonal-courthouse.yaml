@@ -1,0 +1,37 @@
+group: "mattb325"
+name: "diagonal-courthouse"
+version: "1.0.0"
+subfolder: "640-government"
+dependencies: []
+
+info:
+  summary: "Diagonal Courthouse"
+  description: >
+    This is a purely fictional larger style courthouse that is aligned to
+    diagonal roads and avenues. This building is designed to bolster policing
+    efficiency: it also provides cap relief for R$$, R$$ and CO$$.
+
+    It sits on a 1x2 lot with large overhang, and provides 240 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33165-diagonal-courthouse/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-diagonal-courthouse-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-diagonal-courthouse-darknite"
+
+---
+assetId: "mattb325-diagonal-courthouse-darknite"
+version: "1.0.0"
+lastModified: "2019-09-14T22:41:51Z"
+url: "https://community.simtropolis.com/files/file/33165-diagonal-courthouse/?do=download&r=177725"
+
+---
+assetId: "mattb325-diagonal-courthouse-maxisnite"
+version: "1.0.0"
+lastModified: "2019-09-14T22:41:51Z"
+url: "https://community.simtropolis.com/files/file/33165-diagonal-courthouse/?do=download&r=177726"

@@ -1,0 +1,70 @@
+group: "mattb325"
+name: "engineering-department"
+version: "1.0.0"
+subfolder: "620-education"
+dependencies: []
+
+info:
+  summary: "Engineering Department"
+  description: >
+    A simple, fictional mid-century BAT modded as a college reward.
+    This is the orthogonal version.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/32896-engineering-department/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-engineering-dept-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-engineering-dept-darknite"
+
+---
+group: "mattb325"
+name: "engineering-department-diagonal"
+version: "1.0.0"
+subfolder: "620-education"
+dependencies: []
+
+info:
+  summary: "Engineering Department (diagonal)"
+  description: >
+    A simple, fictional mid-century BAT modded as a college reward.
+    This is the diagonal version.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33968-engineering-department-diagonal/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-engineering-dept-diag-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-engineering-dept-diag-darknite"
+
+---
+assetId: "mattb325-engineering-dept-darknite"
+version: "1.0.0"
+lastModified: "2019-05-04T05:56:06Z"
+url: "https://community.simtropolis.com/files/file/32896-engineering-department/?do=download&r=175745"
+
+---
+assetId: "mattb325-engineering-dept-maxisnite"
+version: "1.0.0"
+lastModified: "2019-05-04T05:56:06Z"
+url: "https://community.simtropolis.com/files/file/32896-engineering-department/?do=download&r=175746"
+
+---
+assetId: "mattb325-engineering-dept-diag-darknite"
+version: "1.0.0"
+lastModified: "2020-11-19T22:01:18Z"
+url: "https://community.simtropolis.com/files/file/33968-engineering-department-diagonal/?do=download&r=183970"
+
+---
+assetId: "mattb325-engineering-dept-diag-maxisnite"
+version: "1.0.0"
+lastModified: "2020-11-19T22:01:18Z"
+url: "https://community.simtropolis.com/files/file/33968-engineering-department-diagonal/?do=download&r=183971"

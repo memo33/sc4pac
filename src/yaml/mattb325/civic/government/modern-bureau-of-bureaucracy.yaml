@@ -1,0 +1,45 @@
+group: "mattb325"
+name: "modern-bureau-of-bureaucracy"
+version: "1.0"
+subfolder: "640-government"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:texturepack-cycledogg-vol01"
+- "girafe:elms"
+- "girafe:poplars"
+
+info:
+  summary: "Modern Bureau of Bureaucracy"
+  description: >
+    This modern Bureau of Bureaucracy is a fictional government building reached
+    by a distinctive semi-circular sunken staircase. The design of the building
+    is intended to be austere and intimidating. The building gouges through the
+    landscape and forces anyone who seeks to enter to descend into the middle of
+    government madness.
+
+    This 6x6 lot is modded as a Bureau of Bureaucracy and is in the rewards menu.
+    Like the in-game version this building provides civic jobs, and helps raise
+    demand caps and mayor rating.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33072-modern-bureau-of-bureaucracy/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-modern-bureau-of-bureaucracy-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-modern-bureau-of-bureaucracy-darknite"
+
+---
+assetId: "mattb325-modern-bureau-of-bureaucracy-darknite"
+version: "1.0"
+lastModified: "2019-08-08T09:14:10Z"
+url: "https://community.simtropolis.com/files/file/33072-modern-bureau-of-bureaucracy/?do=download&r=177080"
+
+---
+assetId: "mattb325-modern-bureau-of-bureaucracy-maxisnite"
+version: "1.0"
+lastModified: "2019-08-08T09:14:10Z"
+url: "https://community.simtropolis.com/files/file/33072-modern-bureau-of-bureaucracy/?do=download&r=177081"

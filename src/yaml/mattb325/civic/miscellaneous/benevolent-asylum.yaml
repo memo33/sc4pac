@@ -1,0 +1,26 @@
+group: "mattb325"
+name: "benevolent-asylum"
+version: "1.0"
+subfolder: "600-civics"
+assets:
+- assetId: "sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite"
+  include:
+  - "/Benevolent Asylum/"
+dependencies:
+- "bsc:mega-props-sg-vol01"
+- "bsc:bat-props-mattb325-vol03"
+- "maxis:castle-set"
+- "porkissimo:jenx-porkie-expanded-porkie-props"
+
+info:
+  summary: "Benevolent Asylum"
+  description: >
+    A fictional benevolent-asylum executed in brick, slate and stone, suitable for
+    towns and suburban streets.
+
+    This benevolent-asylum has been modded very similarly to the in-game benevolent-asylum
+    and provides a landmark effect and relief cap for R$$/R$$$ and CO$$ jobs.
+
+    This is a non-conditional reward and may be plopped multiple times.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/16559-benevolent-asylum/"

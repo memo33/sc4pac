@@ -1,0 +1,43 @@
+group: "mattb325"
+name: "st-johns-church"
+version: "1.0.0"
+subfolder: "650-religion"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+
+info:
+  summary: "St Johns Church, Washington DC"
+  description: >
+    St John's Episcopal Church is a Greek Revival Building near the White House.
+    It was built in 1816, and, owing its proximity to the white house, it has
+    been frequented by nearly every president at least once, which has given
+    rise to its common name of the 'Church of the Presidents'.
+
+    The church sits on a 2x3 lot and is found in the reward menu. Placing this
+    church will provide residential cap relief as well as boosting park,
+    landmark and mayor ratings. It also provides 19 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33908-st-johns-church-washington-dc/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-st-johns-church-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-st-johns-church-darknite"
+
+---
+assetId: "mattb325-st-johns-church-darknite"
+version: "1.0.0"
+lastModified: "2020-10-23T23:10:29Z"
+url: "https://community.simtropolis.com/files/file/33908-st-johns-church-washington-dc/?do=download&r=183268"
+
+---
+assetId: "mattb325-st-johns-church-maxisnite"
+version: "1.0.0"
+lastModified: "2020-10-23T23:10:29Z"
+url: "https://community.simtropolis.com/files/file/33908-st-johns-church-washington-dc/?do=download&r=183269"

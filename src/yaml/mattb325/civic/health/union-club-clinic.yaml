@@ -1,0 +1,38 @@
+group: "mattb325"
+name: "union-club-clinic"
+version: "1.0.0"
+subfolder: "630-health"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+
+info:
+  summary: "The Union Club Clinic"
+  description: >
+    Georgian style sandstone building which serves as a small medical clinic.
+
+    The building sits on 3x1 lot and is useful to fill in awkward zoning gaps.
+    It has decent capacity (1,650) and radius, and provides 62 civic jobs.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/34030-the-union-club-clinic/"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "mattb325-union-club-clinic-maxisnite"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-union-club-clinic-darknite"
+
+---
+assetId: "mattb325-union-club-clinic-darknite"
+version: "1.0.0"
+lastModified: "2021-01-04T04:38:27Z"
+url: "https://community.simtropolis.com/files/file/34030-the-union-club-clinic/?do=download&r=184370"
+
+---
+assetId: "mattb325-union-club-clinic-maxisnite"
+version: "1.0.0"
+lastModified: "2021-01-04T04:38:27Z"
+url: "https://community.simtropolis.com/files/file/34030-the-union-club-clinic/?do=download&r=184371"
