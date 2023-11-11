@@ -55,6 +55,9 @@ This list will be expanded as more packages are added to the metadata channel.
 - Religion:
   * `pkg=mattb325:new-england-style-church`
   * `pkg=mattb325:st-johns-church`
+- Parks:
+  * `pkg=kingofsimcity:community-regional-park-pack-vol1` (11 medium to large parks)
+  * `pkg=kingofsimcity:community-regional-park-pack-vol2` (36 parks and sports fields)
 - Miscellaneous:
   * `pkg=mattb325:galaxy-casino-hotel`
   * `pkg=mattb325:griffith-observatory`
@@ -79,7 +82,7 @@ All of the BSC Common Dependencies, Girafe's flora, and many others.
 * `pkg=bsc:mega-props-sg-vol01`
 * `pkg=bsc:mega-props-cp-vol01`
 * `pkg=bsc:textures-vol01`
-* and many more: Visit the [Channel](channel/ ':target=_self') page or use a search command such as `sc4pac search bsc`.
+* and many more: Browse the [Channel](channel/ ':target=_self') or search using a command such as `sc4pac search bsc`.
 
 ## Other useful plugins
 

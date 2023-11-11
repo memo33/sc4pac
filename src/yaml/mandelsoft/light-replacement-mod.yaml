@@ -1,0 +1,85 @@
+assetId: "light-replacement-mod-4-mega-pack-mac"
+version: "1.0"
+lastModified: "2017-05-12T23:01:52Z"
+# url: "https://community.simtropolis.com/files/file/27200-light-replacement-mod-lrm-v40-mega-pack/?do=download&r=98162"  # Windows
+url: "https://community.simtropolis.com/files/file/27200-light-replacement-mod-lrm-v40-mega-pack/?do=download&r=98163"  # macOS
+# We pick the macOS version as the Windows installer does not extract cleanly. It is possibly corrupted.
+
+---
+# The MaxisNite lightcones have an RGB nightlighting bug, fixed by this patch `LRMv4_Models_LightCones_MaxisNite.zip`
+# uploaded by rsc204 at https://community.simtropolis.com/forums/topic/45710-lrm-light-replacement-mod-support-development-and-discussion/?do=findComment&comment=1766193
+assetId: "light-replacement-mod-4-mega-pack-maxisnite-patch"
+version: "1.0"
+lastModified: "2022-02-04T14:31:58Z"
+url: "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=82668"
+
+---
+# The MaxisNite lightcones are extremely oversaturated. This additional patch attempts to fix that.
+assetId: "light-replacement-mod-4-memo-maxisnite-dim-patch"
+version: "1"
+lastModified: "2023-11-11T17:31:09Z"
+url: "https://github.com/memo33/sc4pac-tools/releases/download/0.1.0/LRMv4_Models_LightCones_MaxisNite_dim-patch.zip"
+
+# ---
+# # LRM 5.1 - These props do not seem to be backward compatible with LRM v4.0, so we package v4.0 instead.
+# assetId: "light-replacement-mod-usa-set"
+# version: "1.0"
+# lastModified: "2013-04-14T15:32:27Z"
+# url: "https://community.simtropolis.com/files/file/28063-light-replacement-mod-usa-set/?do=download"
+
+---
+# LRM 4.0
+group: "mandelsoft"
+name: "light-replacement-mod-props"
+version: "4.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "light-replacement-mod-4-mega-pack-mac"
+  include:  # files from the folder `LRMv4 Models & Props`:
+  - "/EmptyModelFile.SC4Model"
+  - "/LRMv4_Models_Streetlights_.*.dat"
+  - "/LRMv4_Props.dat"
+  exclude:  # we default to Belgium_GREY style
+  - "/LRMv4_Models_Streetlights_Belgium_WHITE.dat"
+  - "/LRMv4_Models_Streetlights_Belgium_GREEN.dat"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "light-replacement-mod-4-mega-pack-maxisnite-patch"
+    include: [ "/LRMv4_Models_LightCones_MaxisNite.dat" ]
+  - assetId: "light-replacement-mod-4-memo-maxisnite-dim-patch"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "light-replacement-mod-4-mega-pack-mac"
+    include: [ "/LRMv4_Models_LightCones_DarkNite.dat" ]
+
+info:
+  summary: "Streetlight models and props of LRM v4.0"
+  description: >
+    This is a dependency pack consisting of the props of the Light Replacement Mod v4.0 (LRM).
+    It is not the LRM itself and thus does not override any Maxis streetlights.
+  author: "MandelSoft/MRTNRLN"
+  website: "https://community.simtropolis.com/files/file/27200-light-replacement-mod-lrm-v40-mega-pack/"
+  # website: "https://community.simtropolis.com/files/file/28063-light-replacement-mod-usa-set/"
+
+# ---
+# # LRM 5.1
+# group: "mandelsoft"
+# name: "light-replacement-mod-props"
+# version: "5.1"
+# subfolder: "100-props-textures"
+# variants:
+# - variant: { nightmode: standard }
+#   assets:
+#   - assetId: "light-replacement-mod-usa-set"
+#     include:
+#     - "/Models \\& Props.dat"
+#     - "/LightCones_MaxisNite.dat"
+# - variant: { nightmode: dark }
+#   assets:
+#   - assetId: "light-replacement-mod-usa-set"
+#     include:
+#     - "/Models \\& Props.dat"
+#     - "/LightCones_DarkNite.dat"

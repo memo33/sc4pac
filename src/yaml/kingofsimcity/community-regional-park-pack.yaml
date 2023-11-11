@@ -1,0 +1,413 @@
+assetId: "kings-community-regional-park-pack-vol1"
+version: "1.12"
+lastModified: "2023-02-14T09:58:52Z"
+url: "https://community.simtropolis.com/files/file/32075-kings-community-regional-park-pack-vol-1/?do=download&r=196573"
+
+---
+assetId: "kings-community-regional-park-pack-vol2"
+version: "1.01"
+lastModified: "2023-02-14T10:00:33Z"
+url: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/?do=download&r=196582"
+
+---
+group: "kingofsimcity"
+name: "community-park-textures-1"
+version: "1.12"
+subfolder: "100-props-textures"
+assets:
+- assetId: "kings-community-regional-park-pack-vol1"
+  include: [ "/KOSC_ParkTextures.dat" ]
+info:
+  summary: "Park textures from King's Community & Regional Park Pack Vol1"
+  author: "kingofsimcity"
+  website: "https://community.simtropolis.com/files/file/32075-kings-community-regional-park-pack-vol-1/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol1"
+version: "1.12"
+subfolder: "660-parks"
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-sg-vol01"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "bsc:prop-pack-diggis-ponds-2"
+- "girafe:elms"
+- "girafe:beeches"
+- "girafe:lindens"
+- "girafe:maples-v2"
+- "girafe:birches"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+- "kingofsimcity:superpaths-pathway-textures"
+- "kingofsimcity:community-park-textures-1"
+assets:
+- assetId: "kings-community-regional-park-pack-vol1"
+  include: [ "/Volume 1/" ]
+
+info:
+  summary: "11 parks ranging from humble neighborhood park to a regional giant"
+  description: >
+    Most of the original parks in-game were designed with a singular function
+    in mind. For example, courts, green space, fields and plazas were all
+    presented individually. This set takes a different approach and combines
+    many of those individual features into a single lot. Pathways, open grass
+    space, wooded areas, courts, fields, and playgrounds are all components
+    that you can expect to find in these parks.
+  author: "kingofsimcity"
+  website: "https://community.simtropolis.com/files/file/32075-kings-community-regional-park-pack-vol-1/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol2-resources"
+version: "1.01"
+subfolder: "100-props-textures"
+assets:
+- assetId: "kings-community-regional-park-pack-vol2"
+  include: [ "/Resources/" ]
+info:
+  summary: "Park textures and props from King's Community & Regional Park Pack Vol2"
+  author: "kingofsimcity, MushyMushy, Glenni"
+  website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol2"
+version: "1.01"
+subfolder: "660-parks"
+dependencies:
+- "kingofsimcity:community-regional-park-pack-vol2-baseball-fields"
+- "kingofsimcity:community-regional-park-pack-vol2-community-parks"
+- "kingofsimcity:community-regional-park-pack-vol2-desolate-parks"
+- "kingofsimcity:community-regional-park-pack-vol2-royal-trails"
+- "kingofsimcity:community-regional-park-pack-vol2-soccer-fields"
+- "kingofsimcity:community-regional-park-pack-vol2-softball-fields"
+- "kingofsimcity:community-regional-park-pack-vol2-sports-complexes"
+- "kingofsimcity:community-regional-park-pack-vol2-tennis-parks"
+info:
+  summary: "Set of 36 large parks with a focus on sports"
+  description: >
+    Volume 2 has a heavier focus towards sports courts and complexes and as
+    such, you'll see plenty of new (and renewed) tennis courts, baseball,
+    softball and soccer/football fields for your Sims.
+
+    In case you do not need all 36 parks, each of the subsets listed as dependencies can be installed individually instead.
+  author: "kingofsimcity, MushyMushy, Glenni"
+  website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol2-baseball-fields"
+version: "1.01"
+subfolder: "660-parks"
+assets:
+- assetId: "kings-community-regional-park-pack-vol2"
+  include: [ "/Baseball Fields/" ]
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-sg-vol01"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "girafe:elms"
+- "girafe:beeches"
+- "girafe:lindens"
+- "girafe:maples-v2"
+- "girafe:birches"
+- "girafe:walnut-trees"
+- "girafe:canary-date-palms"
+- "girafe:hedges"
+- "girafe:feather-grass"
+- "girafe:cattails"
+- "mandelsoft:light-replacement-mod-props"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+- "kingofsimcity:superpaths-pathway-textures"
+- "kingofsimcity:community-park-textures-1"
+- "kingofsimcity:community-regional-park-pack-vol2-resources"
+
+info:
+  summary: "6 baseball fields from King's Community & Regional Park Pack Vol2"
+  author: "kingofsimcity, MushyMushy, Glenni"
+  website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol2-community-parks"
+version: "1.01"
+subfolder: "660-parks"
+assets:
+- assetId: "kings-community-regional-park-pack-vol2"
+  include: [ "/Community Parks/" ]
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-sg-vol01"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "girafe:elms"
+- "girafe:beeches"
+- "girafe:lindens"
+- "girafe:maples-v2"
+- "girafe:birches"
+- "girafe:walnut-trees"
+- "girafe:canary-date-palms"
+- "girafe:hedges"
+- "girafe:feather-grass"
+- "girafe:cattails"
+- "mandelsoft:light-replacement-mod-props"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+- "kingofsimcity:superpaths-pathway-textures"
+- "kingofsimcity:community-park-textures-1"
+- "kingofsimcity:community-regional-park-pack-vol2-resources"
+
+info:
+  summary: "5 community parks from King's Community & Regional Park Pack Vol2"
+  author: "kingofsimcity, MushyMushy, Glenni"
+  website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol2-desolate-parks"
+version: "1.01"
+subfolder: "660-parks"
+assets:
+- assetId: "kings-community-regional-park-pack-vol2"
+  include: [ "/Desolate Parks/" ]
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-sg-vol01"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "girafe:elms"
+- "girafe:beeches"
+- "girafe:lindens"
+- "girafe:maples-v2"
+- "girafe:birches"
+- "girafe:walnut-trees"
+- "girafe:canary-date-palms"
+- "girafe:hedges"
+- "girafe:feather-grass"
+- "girafe:cattails"
+- "mandelsoft:light-replacement-mod-props"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+- "kingofsimcity:superpaths-pathway-textures"
+- "kingofsimcity:community-park-textures-1"
+- "kingofsimcity:community-regional-park-pack-vol2-resources"
+
+info:
+  summary: "2 abandoned parks from King's Community & Regional Park Pack Vol2"
+  author: "kingofsimcity, MushyMushy, Glenni"
+  website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol2-royal-trails"
+version: "1.01"
+subfolder: "660-parks"
+assets:
+- assetId: "kings-community-regional-park-pack-vol2"
+  include: [ "/Royal Trails/" ]
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-sg-vol01"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "girafe:elms"
+- "girafe:beeches"
+- "girafe:lindens"
+- "girafe:maples-v2"
+- "girafe:birches"
+- "girafe:walnut-trees"
+- "girafe:canary-date-palms"
+- "girafe:hedges"
+- "girafe:feather-grass"
+- "girafe:cattails"
+- "mandelsoft:light-replacement-mod-props"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+- "kingofsimcity:superpaths-pathway-textures"
+- "kingofsimcity:community-park-textures-1"
+- "kingofsimcity:community-regional-park-pack-vol2-resources"
+
+info:
+  summary: "6 semi-modular trail lots from King's Community & Regional Park Pack Vol2"
+  author: "kingofsimcity, MushyMushy, Glenni"
+  website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol2-soccer-fields"
+version: "1.01"
+subfolder: "660-parks"
+assets:
+- assetId: "kings-community-regional-park-pack-vol2"
+  include: [ "/Soccer Fields/" ]
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-sg-vol01"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "girafe:elms"
+- "girafe:beeches"
+- "girafe:lindens"
+- "girafe:maples-v2"
+- "girafe:birches"
+- "girafe:walnut-trees"
+- "girafe:canary-date-palms"
+- "girafe:hedges"
+- "girafe:feather-grass"
+- "girafe:cattails"
+- "mandelsoft:light-replacement-mod-props"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+- "kingofsimcity:superpaths-pathway-textures"
+- "kingofsimcity:community-park-textures-1"
+- "kingofsimcity:community-regional-park-pack-vol2-resources"
+
+info:
+  summary: "4 soccer fields from King's Community & Regional Park Pack Vol2"
+  author: "kingofsimcity, MushyMushy, Glenni"
+  website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol2-softball-fields"
+version: "1.01"
+subfolder: "660-parks"
+assets:
+- assetId: "kings-community-regional-park-pack-vol2"
+  include: [ "/Softball Fields/" ]
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-sg-vol01"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "girafe:elms"
+- "girafe:beeches"
+- "girafe:lindens"
+- "girafe:maples-v2"
+- "girafe:birches"
+- "girafe:walnut-trees"
+- "girafe:canary-date-palms"
+- "girafe:hedges"
+- "girafe:feather-grass"
+- "girafe:cattails"
+- "mandelsoft:light-replacement-mod-props"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+- "kingofsimcity:superpaths-pathway-textures"
+- "kingofsimcity:community-park-textures-1"
+- "kingofsimcity:community-regional-park-pack-vol2-resources"
+
+info:
+  summary: "6 softball fields from King's Community & Regional Park Pack Vol2"
+  author: "kingofsimcity, MushyMushy, Glenni"
+  website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol2-sports-complexes"
+version: "1.01"
+subfolder: "660-parks"
+assets:
+- assetId: "kings-community-regional-park-pack-vol2"
+  include: [ "/Sports Complexes/" ]
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-sg-vol01"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "girafe:elms"
+- "girafe:beeches"
+- "girafe:lindens"
+- "girafe:maples-v2"
+- "girafe:birches"
+- "girafe:walnut-trees"
+- "girafe:canary-date-palms"
+- "girafe:hedges"
+- "girafe:feather-grass"
+- "girafe:cattails"
+- "mandelsoft:light-replacement-mod-props"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+- "kingofsimcity:superpaths-pathway-textures"
+- "kingofsimcity:community-park-textures-1"
+- "kingofsimcity:community-regional-park-pack-vol2-resources"
+
+info:
+  summary: "3 sports complexes from King's Community & Regional Park Pack Vol2"
+  author: "kingofsimcity, MushyMushy, Glenni"
+  website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+
+---
+group: "kingofsimcity"
+name: "community-regional-park-pack-vol2-tennis-parks"
+version: "1.01"
+subfolder: "660-parks"
+assets:
+- assetId: "kings-community-regional-park-pack-vol2"
+  include: [ "/Tennis Parks/" ]
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-sg-vol01"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "girafe:elms"
+- "girafe:beeches"
+- "girafe:lindens"
+- "girafe:maples-v2"
+- "girafe:birches"
+- "girafe:walnut-trees"
+- "girafe:canary-date-palms"
+- "girafe:hedges"
+- "girafe:feather-grass"
+- "girafe:cattails"
+- "mandelsoft:light-replacement-mod-props"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+- "kingofsimcity:superpaths-pathway-textures"
+- "kingofsimcity:community-park-textures-1"
+- "kingofsimcity:community-regional-park-pack-vol2-resources"
+
+info:
+  summary: "4 tennis parks from King's Community & Regional Park Pack Vol2"
+  author: "kingofsimcity, MushyMushy, Glenni"
+  website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
