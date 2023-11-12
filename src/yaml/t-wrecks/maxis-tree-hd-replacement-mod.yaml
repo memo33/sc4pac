@@ -1,0 +1,37 @@
+group: "t-wrecks"
+name: "maxis-tree-hd-replacement-mod"
+version: "1.0.1"
+subfolder: "180-flora"
+dependencies:
+- "girafe:ashes"
+- "girafe:beeches"
+- "girafe:canary-date-palms"
+- "girafe:cypresses"
+- "girafe:lindens"
+- "girafe:rowan-trees"
+- "orange:fagus"
+assets:
+- assetId: "maxis-tree-hd-replacement-base-pack"
+  include:
+  - "/Maxis Tree HD Replacement.dat"
+  # - "/Maxis Tree HD Replacement_PalmsToCypresses.dat"  # TODO deal with palms/no-palms
+info:
+  summary: "Replacement of all Maxis trees on lots and roadsides"
+  description: >
+    This mod replaces all Maxis trees on lots with beautiful HD trees. Lots
+    already existing in your city will automatically switch to the new trees.
+    Whatever grows or is plopped subsequently will show the new trees in place
+    of the old Maxis ones. Besides, it will replace roadside trees that
+    occasionally show up at the sides of streets and roads.
+
+    All Mayor Mode and God Mode flora in the city map will remain unaffected.
+    The growing lot flora will also be replaced, but with full-grown trees.
+  author: "T Wrecks"
+  website: "https://community.simtropolis.com/files/file/31898-maxis-tree-hd-replacement-mod/"
+
+---
+assetId: "maxis-tree-hd-replacement-base-pack"
+version: "1.0.1"
+lastModified: "2017-11-23T10:52:51Z"
+url: "https://community.simtropolis.com/files/file/31898-maxis-tree-hd-replacement-mod/?do=download&r=167947"
+# TODO Additionally, there are two expansion packs for SFBT street tree mod and SITHLRD98's WRC T21 mod.

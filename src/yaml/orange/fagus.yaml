@@ -1,0 +1,21 @@
+group: "orange"
+name: "fagus"
+version: "1.0"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "vip-orange-fagus-seasonal-flora"
+info:
+  summary: "Fagus seasonal flora (VIP)"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Orange_o_"
+  website: "https://community.simtropolis.com/files/file/27008-vip-orange-fagus-mmpseasonal-flora/"
+
+---
+assetId: "vip-orange-fagus-seasonal-flora"
+version: "1.0"
+lastModified: "2022-08-09T10:53:17Z"
+url: "https://drive.usercontent.google.com/uc?id=1LYOYzlhCC1bTJEKje0HhymXOCocnel5H&authuser=0&export=download"
+# TODO The ST upload is an installer we cannot extract, so awaits Project ZIP.

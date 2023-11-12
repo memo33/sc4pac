@@ -71,8 +71,9 @@ Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':t
 
 * `pkg=cycledogg:missouri-breaks-terrain` (an SD terrain mod)
 * `pkg=blunder:pacific-northwest-tree-controller` (seasonal forests; for advanced users)
-* `pkg=peg:power-tower-pylons` (silvery-gray reskin)
+* `pkg=t-wrecks:maxis-tree-hd-replacement-mod` (HD trees for lots and streets)
 * `pkg=kodlovag:uniform-street-lighting-mod`
+* `pkg=peg:power-tower-pylons` (silvery-gray reskin)
 * `pkg=fanta1990:hang-glider-makeover`
 
 ## Dependency packs
