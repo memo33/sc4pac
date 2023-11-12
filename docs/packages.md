@@ -73,6 +73,7 @@ Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':t
 * `pkg=blunder:pacific-northwest-tree-controller` (seasonal forests; for advanced users)
 * `pkg=peg:power-tower-pylons` (silvery-gray reskin)
 * `pkg=kodlovag:uniform-street-lighting-mod`
+* `pkg=fanta1990:hang-glider-makeover`
 
 ## Dependency packs
 
