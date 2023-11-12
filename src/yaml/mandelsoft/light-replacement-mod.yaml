@@ -16,9 +16,9 @@ url: "https://community.simtropolis.com/applications/core/interface/file/attachm
 ---
 # The MaxisNite lightcones are extremely oversaturated. This additional patch attempts to fix that.
 assetId: "light-replacement-mod-4-memo-maxisnite-dim-patch"
-version: "1"
-lastModified: "2023-11-11T17:31:09Z"
-url: "https://github.com/memo33/sc4pac-tools/releases/download/0.1.0/LRMv4_Models_LightCones_MaxisNite_dim-patch.zip"
+version: "2"
+lastModified: "2023-11-11T22:29:45Z"
+url: "https://github.com/memo33/sc4pac-tools/releases/download/0.1.0/LRMv4_Models_LightCones_MaxisNite_dim-patch-v2.zip"
 
 # ---
 # # LRM 5.1 - These props do not seem to be backward compatible with LRM v4.0, so we package v4.0 instead.
