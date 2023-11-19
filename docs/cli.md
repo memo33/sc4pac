@@ -170,4 +170,22 @@ sc4pac channel build --output "channel/json/" "channel/yaml/"
 
 
 ---
-Next up: [About](about.md)
+## server
+
+**Usage:** `sc4pac server [options]`
+
+Start a local server to use the HTTP [API](api).
+
+**Example:**
+```
+sc4pac server --indent 2 --scope-root scopes/scope-1/
+```
+
+**Options:**
+- `--port number`      (default: 51515)
+- `--indent number`    indentation of JSON responses (default: -1, no indentation)
+- `--scope-root path`  root directory containing `sc4pac-plugins.json` (default: current working directory), newly created if necessary; can be used for managing multiple different plugins folders
+
+
+---
+Next up: [API](api.md)
