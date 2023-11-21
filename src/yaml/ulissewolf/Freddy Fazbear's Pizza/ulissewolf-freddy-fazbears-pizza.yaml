@@ -1,0 +1,46 @@
+group: "ulissewolf"
+name: "ulissewolf-freddy-fazbears-pizza"
+version: "1.0.0"
+subfolder: "600-civics"
+dependencies:
+- "bsc:mega-props-jenx-vol03"
+- "bsc:vip-girafe-carpack-vol01-vol02"
+- "bsc:vip-girafe-carpack-vol01-vol02-remastered"
+- "sc:vip-girafe-carpack-vol03"
+- "bsc:vip-girafe-carpack-vol04"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-jes-vol01"
+- "supershk:mega-parking-textures"
+
+info:
+  summary: "Freddy Fazbear's Pizza"
+  description: >
+    This prop pack is the beginning of a long series of prop packs inspired by the Five Nights At Freddy’s
+    Due to the particularity of modding, two versions of the Alert and News system were created.
+    The original version will run the alert message whenever you enter the city that the landmark version of Freddy Fazbear's Pizza is present.
+    The Non-invasive alert version, on the other hand, will show the alert message only when you have built the Landmark and will not appear when you load the city again
+  author: "ulissewolf"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/12-commercial/160-ulisse-wolf-freddy-fazbears-pizza"
+
+variants:
+- variant: { nightmode: standard, freddy-fazbear-pizza.alert: "non-invasive" }
+  assets:
+  - assetId: "ulissewolf-freddy-fazbears-pizza-maxisnite-noalert"
+- variant: { nightmode: dark, freddy-fazbear-pizza.alert: "non-invasive" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "ulissewolf-freddy-fazbears-pizza-darknite-noalert"
+  - variant: { nightmode: standard, freddy-fazbear-pizza.alert: "original" }
+  assets:
+  - assetId: "ulissewolf-freddy-fazbears-pizza-maxisnite-alert"
+- variant: { nightmode: dark, freddy-fazbear-pizza.alert: "original" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "ulissewolf-freddy-fazbears-pizza-darknite-alert"
+
+---
+assetId: "ulissewolf-freddy-fazbears-pizza"
+version: "1.0.1"
+lastModified: "2023-10-29T02:58:27Z"
+url: "https://www.sc4evermore.com/index.php/downloads/download/12-commercial/160-ulisse-wolf-freddy-fazbears-pizza"

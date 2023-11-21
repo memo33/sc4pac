@@ -1,0 +1,27 @@
+group: "ulisse wolf"
+name: "mediterranean-transport.set-vol-1"
+version: "1.0"
+subfolder: "700-transit"
+assets:
+- assetId: "ulissewolf-mediterranean-transport.set-vol-1"
+dependencies:
+- "network-addon-mod"
+- "bsc:mega-props-mbear-vol01"
+- "bsc:mega-props-mbear-vol02"
+- "bsc:mega-props-sg-vol01"
+- "bsc:mega-props-dae-vol01"
+- "bsc:textures-vol01"
+- "bsc:textures-vol03"
+info:
+  summary: "This lot was developed to expand the set of stations present in the Mediterranean set made by MBEAR"
+  description: >
+    This lot was developed to expand the set of stations present in the Mediterranean set made by MBEAR. This set serves to update the possibilities of use of the set made by MBEAR by including some networks introduced by Network Addon Mod (NAM).
+    The stations have been developed taking into account the NAM - MTA standard. The railway lots were designed for the Hybrid Railway (HRW) standard. To use them you must have hybrid railway installed which is included in the NAM
+  author: "ulisse wolf"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/94-ulisse-wolf-mediterranean-transport-set-vol-1"
+
+---
+assetId: "ulissewolf-mediterranean-transport.set-vol-1"
+version: "1.0"
+lastModified: "2022-07-24T14:50:41Z"
+url: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/94-ulisse-wolf-mediterranean-transport-set-vol-1"
