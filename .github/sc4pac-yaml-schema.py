@@ -5,6 +5,7 @@
 import yaml
 import sys
 import os
+import re
 
 # add subfolders as necessary
 subfolders = [
@@ -117,6 +118,10 @@ schema = {
 
 
 class DependencyChecker:
+
+    naming_convention = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
+    naming_convention_variants = re.compile(r"[a-z0-9]+([-\.][a-z0-9]+)*", re.IGNORECASE)
+
     def __init__(self):
         self.known_packages = set()
         self.known_assets = set()
@@ -128,6 +133,10 @@ class DependencyChecker:
         self.overlapping_variants = set()
         self.known_variant_values = {}
         self.unexpected_variants = []
+        self.invalid_asset_names = set()
+        self.invalid_group_names = set()
+        self.invalid_package_names = set()
+        self.invalid_variant_names = set()
 
     def aggregate_identifiers(self, doc):
         if 'assetId' in doc:
@@ -137,12 +146,18 @@ class DependencyChecker:
             else:
                 self.duplicate_assets.add(asset)
             self.asset_urls[asset] = doc.get('url')
+            if not self.naming_convention.fullmatch(asset):
+                self.invalid_asset_names.add(asset)
         if 'group' in doc and 'name' in doc:
             pkg = doc['group'] + ":" + doc['name']
             if pkg not in self.known_packages:
                 self.known_packages.add(pkg)
             else:
                 self.duplicate_packages.add(pkg)
+            if not self.naming_convention.fullmatch(doc['group']):
+                self.invalid_group_names.add(doc['group'])
+            if not self.naming_convention.fullmatch(doc['name']):
+                self.invalid_package_names.add(doc['name'])
 
             def add_references(obj):
                 self.referenced_packages.update(obj.get('dependencies', []))
@@ -169,6 +184,11 @@ class DependencyChecker:
                     self.unexpected_variants.append((pkg, key, sorted(variant_values), sorted(self.known_variant_values[key])))
                 else:
                     pass
+                if not self.naming_convention_variants.fullmatch(key):
+                    self.invalid_variant_names.add(key)
+                for value in variant_values:
+                    if not self.naming_convention_variants.fullmatch(value):
+                        self.invalid_variant_names.add(value)
 
     def unknowns(self):
         packages = sorted(self.referenced_packages.difference(self.known_packages))
@@ -261,6 +281,27 @@ def main() -> int:
             print("===>")
             for pkg, key, values, expected_values in dependencyChecker.unexpected_variants:
                 print(f"{pkg} defines {key} variants {values} (expected: {expected_values})")
+
+        if dependencyChecker.invalid_asset_names:
+            errors += len(dependencyChecker.invalid_asset_names)
+            print("===> the following assetIds do not match the naming convention (lowercase alphanumeric hyphenated)")
+            for identifier in dependencyChecker.invalid_asset_names:
+                print(identifier)
+        if dependencyChecker.invalid_group_names:
+            errors += len(dependencyChecker.invalid_group_names)
+            print("===> the following group identifiers do not match the naming convention (lowercase alphanumeric hyphenated)")
+            for identifier in dependencyChecker.invalid_group_names:
+                print(identifier)
+        if dependencyChecker.invalid_package_names:
+            errors += len(dependencyChecker.invalid_package_names)
+            print("===> the following package names do not match the naming convention (lowercase alphanumeric hyphenated)")
+            for identifier in dependencyChecker.invalid_package_names:
+                print(identifier)
+        if dependencyChecker.invalid_variant_names:
+            errors += len(dependencyChecker.invalid_variant_names)
+            print("===> the following variant labels or values do not match the naming convention (alphanumeric hyphenated or dots)")
+            for identifier in dependencyChecker.invalid_variant_names:
+                print(identifier)
 
     if errors > 0:
         print(f"Finished with {errors} errors.")
