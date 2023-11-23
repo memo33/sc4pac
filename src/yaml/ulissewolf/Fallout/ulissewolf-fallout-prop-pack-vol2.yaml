@@ -8,20 +8,23 @@ info:
   summary: "Second volume of props inspired by Fallout"
   description: >
     Second edition of Prop inspired by the Fallout series
-  author: "Pegasus"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/135-ulisse-wolf-fallout-prop-pack-vol-2"
-
-variants:
+  author: "ulissewolf"
+  website: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=135:ulisse-wolf-fallout-prop-pack-vol-2&catid=22"
+  
+    variants:
 - variant: { nightmode: standard }
   assets:
   - assetId: "ulissewolf-fallout-prop-pack-vol2-maxisnite"
+    include: [ "/Ulisse_-_Fallout_Prop_Pack_Vol_2_MN.dat" ]
+  - assetId: "light-replacement-mod-4-memo-maxisnite-dim-patch"
 - variant: { nightmode: dark }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
   - assetId: "ulissewolf-fallout-prop-pack-vol2-darknite"
+    include: [ "/Ulisse_-_Fallout_Prop_Pack_Vol_2_DN.dat" ]
 
 ---
 assetId: "ulissewolf-fallout-prop-pack-vol2"
 version: "1.0"
 lastModified: "2023-08-24T22:30:10Z"
-url: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/135-ulisse-wolf-fallout-prop-pack-vol-2"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=135:ulisse-wolf-fallout-prop-pack-vol-2&catid=22"
