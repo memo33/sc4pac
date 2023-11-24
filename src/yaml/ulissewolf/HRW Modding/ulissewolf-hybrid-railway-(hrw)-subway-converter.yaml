@@ -12,10 +12,10 @@ info:
     This mod is a pioneer in the field of Hybrid Railway as it is the only mod that manages to convert rail and monorail traffic into subways and vice versa simultaneously. 
     This mod obviously has a limitation. Using the subway this lot cannot transfer rail freight transport using the subway. In addition, the traffic inside the tunnel is considered as subway traffic and for this reason when you use this mod the subway you use as a tunnel the game classifies it as if it were a normal subway. For this you have to avoid connections with other normal subway networks if you want optimal management of HRW Subway Converter.
   author: "ulisse wolf"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/95-ulisse-wolf-hybrid-railway-hrw-subway-converter"
+  website: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=95:ulisse-wolf-hybrid-railway-hrw-subway-converter&catid=19"
 
 ---
 assetId: "ulissewolf-hybrid-railway-(hrw)-subway-converter"
 version: "1.0"
 lastModified: "2022-04-03T20:16:40Z"
-url: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/95-ulisse-wolf-hybrid-railway-hrw-subway-converter"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=95:ulisse-wolf-hybrid-railway-hrw-subway-converter&catid=19"

@@ -16,7 +16,6 @@ info:
   assets:
   - assetId: "ulissewolf-fallout-prop-pack-vol1-maxisnite"
     include: [ "/Ulisse_-_Fallout_Prop_Pack_Vol_1_MN.dat" ]
-  - assetId: "light-replacement-mod-4-memo-maxisnite-dim-patch"
 - variant: { nightmode: dark }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
