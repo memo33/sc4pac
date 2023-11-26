@@ -13,7 +13,7 @@ Add new packages to install explicitly.
 Afterwards, run `sc4pac update` for the changes to take effect.
 
 **Example:**
-```
+```sh
 sc4pac add memo:essential-fixes
 ```
 
@@ -40,7 +40,7 @@ Remove packages that have been installed explicitly.
 Afterwards, run `sc4pac update` for the changes to take effect.
 
 **Examples:**
-```
+```sh
 sc4pac remove --interactive          # Interactively select packages to remove.
 sc4pac remove memo:essential-fixes   # Remove package <group>:<package-name>.
 ```
@@ -59,7 +59,7 @@ The results are ordered such that the best match is displayed at the bottom.
 
 **Examples:**
 
-```
+```sh
 sc4pac search "Pause border"
 >>> (1) smp:yellow-pause-thingy-remover
 >>>         Remove the yellow border from the UI when the game is paused
@@ -80,7 +80,7 @@ sc4pac search --threshold 20 "Pause border"    # Decrease threshold for more res
 Display more information about a package.
 
 **Examples:**
-```
+```sh
 sc4pac info memo:essential-fixes
 ```
 
@@ -104,7 +104,7 @@ For some packages you install, you can choose from a list of package variants th
 After resetting a variant identifier, the next time you run `sc4pac update`, you will be asked to choose a new variant.
 
 **Examples:**
-```
+```sh
 sc4pac variant reset --interactive    # Interactively select variants to reset.
 sc4pac variant reset "driveside"      # Reset the "driveside" variant.
 ```
@@ -121,7 +121,7 @@ sc4pac variant reset "driveside"      # Reset the "driveside" variant.
 Add a channel to fetch package metadata from.
 
 **Examples:**
-```
+```sh
 sc4pac channel add "https://memo33.github.io/sc4pac/channel/"
 sc4pac channel add "file:///c:/absolute/path/to/local/channel/"
 ```
@@ -134,7 +134,7 @@ sc4pac channel add "file:///c:/absolute/path/to/local/channel/"
 Select channels to remove.
 
 **Examples:**
-```
+```sh
 sc4pac channel remove --interactive     # Interactively select channels to remove.
 sc4pac channel remove "github.com"      # Remove channel URLs containing "github.com".
 ```
@@ -161,7 +161,7 @@ The first channel has the highest priority when resolving dependencies.
 Build a channel locally by converting YAML files to JSON.
 
 **Examples:**
-```
+```sh
 sc4pac channel build --output "channel/json/" "channel/yaml/"
 ```
 
@@ -177,7 +177,7 @@ sc4pac channel build --output "channel/json/" "channel/yaml/"
 Start a local server to use the HTTP [API](api).
 
 **Example:**
-```
+```sh
 sc4pac server --indent 2 --scope-root scopes/scope-1/
 ```
 

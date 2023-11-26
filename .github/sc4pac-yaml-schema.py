@@ -8,26 +8,28 @@ import os
 import re
 
 # add subfolders as necessary
-subfolders = [
-    "050-early-mods",
-    "100-props-textures",
-    "150-mods",
-    "170-terrain",
-    "180-flora",
-    "200-residential",
-    "300-commercial",
-    "400-industrial",
-    "500-utilities",
-    "600-civics",
-    "610-safety",
-    "620-education",
-    "630-health",
-    "640-government",
-    "650-religion",
-    "660-parks",
-    "700-transit",
-    "900-overrides",
-]
+subfolders = r"""
+### [subfolders-docsify]
+050-early-mods
+100-props-textures
+150-mods
+170-terrain
+180-flora
+200-residential
+300-commercial
+400-industrial
+500-utilities
+600-civics
+610-safety
+620-education
+630-health
+640-government
+650-religion
+660-parks
+700-transit
+900-overrides
+### [subfolders-docsify]
+""".strip().splitlines()[1:-1]
 
 uniqueStrings = {
     "type": "array",
