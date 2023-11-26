@@ -5,28 +5,31 @@
 import yaml
 import sys
 import os
+import re
 
 # add subfolders as necessary
-subfolders = [
-    "050-early-mods",
-    "100-props-textures",
-    "150-mods",
-    "170-terrain",
-    "180-flora",
-    "200-residential",
-    "300-commercial",
-    "400-industrial",
-    "500-utilities",
-    "600-civics",
-    "610-safety",
-    "620-education",
-    "630-health",
-    "640-government",
-    "650-religion",
-    "660-parks",
-    "700-transit",
-    "900-overrides",
-]
+subfolders = r"""
+### [subfolders-docsify]
+050-early-mods
+100-props-textures
+150-mods
+170-terrain
+180-flora
+200-residential
+300-commercial
+400-industrial
+500-utilities
+600-civics
+610-safety
+620-education
+630-health
+640-government
+650-religion
+660-parks
+700-transit
+900-overrides
+### [subfolders-docsify]
+""".strip().splitlines()[1:-1]
 
 uniqueStrings = {
     "type": "array",
@@ -117,6 +120,10 @@ schema = {
 
 
 class DependencyChecker:
+
+    naming_convention = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
+    naming_convention_variants = re.compile(r"[a-z0-9]+([-\.][a-z0-9]+)*", re.IGNORECASE)
+
     def __init__(self):
         self.known_packages = set()
         self.known_assets = set()
@@ -128,6 +135,10 @@ class DependencyChecker:
         self.overlapping_variants = set()
         self.known_variant_values = {}
         self.unexpected_variants = []
+        self.invalid_asset_names = set()
+        self.invalid_group_names = set()
+        self.invalid_package_names = set()
+        self.invalid_variant_names = set()
 
     def aggregate_identifiers(self, doc):
         if 'assetId' in doc:
@@ -137,12 +148,18 @@ class DependencyChecker:
             else:
                 self.duplicate_assets.add(asset)
             self.asset_urls[asset] = doc.get('url')
+            if not self.naming_convention.fullmatch(asset):
+                self.invalid_asset_names.add(asset)
         if 'group' in doc and 'name' in doc:
             pkg = doc['group'] + ":" + doc['name']
             if pkg not in self.known_packages:
                 self.known_packages.add(pkg)
             else:
                 self.duplicate_packages.add(pkg)
+            if not self.naming_convention.fullmatch(doc['group']):
+                self.invalid_group_names.add(doc['group'])
+            if not self.naming_convention.fullmatch(doc['name']):
+                self.invalid_package_names.add(doc['name'])
 
             def add_references(obj):
                 self.referenced_packages.update(obj.get('dependencies', []))
@@ -169,6 +186,11 @@ class DependencyChecker:
                     self.unexpected_variants.append((pkg, key, sorted(variant_values), sorted(self.known_variant_values[key])))
                 else:
                     pass
+                if not self.naming_convention_variants.fullmatch(key):
+                    self.invalid_variant_names.add(key)
+                for value in variant_values:
+                    if not self.naming_convention_variants.fullmatch(value):
+                        self.invalid_variant_names.add(value)
 
     def unknowns(self):
         packages = sorted(self.referenced_packages.difference(self.known_packages))
@@ -208,23 +230,28 @@ def main() -> int:
                 with open(os.path.join(root, fname)) as f:
                     validated += 1
                     text = f.read()
-                    for doc in yaml.safe_load_all(text):
-                        dependencyChecker.aggregate_identifiers(doc)
-                        err = exceptions.best_match(validator.iter_errors(doc))
-                        msgs = [] if err is None else [err.message]
+                    try:
+                        for doc in yaml.safe_load_all(text):
+                            dependencyChecker.aggregate_identifiers(doc)
+                            err = exceptions.best_match(validator.iter_errors(doc))
+                            msgs = [] if err is None else [err.message]
 
-                        # check URLs
-                        urls = [u for u in [doc.get('url'), doc.get('info', {}).get('website')]
-                                if u is not None]
-                        for u in urls:
-                            if '/sc4evermore.com/' in u:
-                                msgs.append(f"Domain of URL {u} should be www.sc4evermore.com")
+                            # check URLs
+                            urls = [u for u in [doc.get('url'), doc.get('info', {}).get('website')]
+                                    if u is not None]
+                            for u in urls:
+                                if '/sc4evermore.com/' in u:
+                                    msgs.append(f"Domain of URL {u} should be www.sc4evermore.com")
 
-                        if msgs:
-                            errors += 1
-                            print(f"===> {p}")
-                            for msg in msgs:
-                                print(msg)
+                            if msgs:
+                                errors += 1
+                                print(f"===> {p}")
+                                for msg in msgs:
+                                    print(msg)
+                    except yaml.parser.ParserError as err:
+                        errors += 1
+                        print(f"===> {p}")
+                        print(err)
 
     if not errors:
         # check that all dependencies exist
@@ -261,6 +288,27 @@ def main() -> int:
             print("===>")
             for pkg, key, values, expected_values in dependencyChecker.unexpected_variants:
                 print(f"{pkg} defines {key} variants {values} (expected: {expected_values})")
+
+        if dependencyChecker.invalid_asset_names:
+            errors += len(dependencyChecker.invalid_asset_names)
+            print("===> the following assetIds do not match the naming convention (lowercase alphanumeric hyphenated)")
+            for identifier in dependencyChecker.invalid_asset_names:
+                print(identifier)
+        if dependencyChecker.invalid_group_names:
+            errors += len(dependencyChecker.invalid_group_names)
+            print("===> the following group identifiers do not match the naming convention (lowercase alphanumeric hyphenated)")
+            for identifier in dependencyChecker.invalid_group_names:
+                print(identifier)
+        if dependencyChecker.invalid_package_names:
+            errors += len(dependencyChecker.invalid_package_names)
+            print("===> the following package names do not match the naming convention (lowercase alphanumeric hyphenated)")
+            for identifier in dependencyChecker.invalid_package_names:
+                print(identifier)
+        if dependencyChecker.invalid_variant_names:
+            errors += len(dependencyChecker.invalid_variant_names)
+            print("===> the following variant labels or values do not match the naming convention (alphanumeric hyphenated or dots)")
+            for identifier in dependencyChecker.invalid_variant_names:
+                print(identifier)
 
     if errors > 0:
         print(f"Finished with {errors} errors.")

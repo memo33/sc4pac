@@ -1,0 +1,35 @@
+group: "dumbledore"
+name: "hogwarts-castle"
+version: "1.0"
+subfolder: "620-education"
+dependencies:
+- "hagrid:whomping-willow"
+- "lupin:shrieking-shack"
+- "madam-hooch:brooms-and-quidditch-equipment"
+assets:
+- assetId: "dumbledore-hogwarts-castle"
+  include:
+  - "/Astronomy Tower.SC4Model"
+  - "/Boathouse.SC4Lot"
+  - "/Castle.dat"
+
+info:
+  summary: School of Witchcraft and Wizardry
+  warning: The castle is invisible to Muggles.
+  conflicts: Incompatible with Saruman's Isengard Tower
+  description: >
+    The school is located in the Scottish Highlands.
+
+    It was founded more than 1000 years ago.
+
+    It has a capacity of 900 students who are divided into four houses.
+  author: "Albus Dumbledore"
+  images:
+  - "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Studio_model_of_Hogwarts_at_Leavesden_Studios.jpg/1024px-Studio_model_of_Hogwarts_at_Leavesden_Studios.jpg"
+  website: "https://en.wikipedia.org/wiki/Hogwarts"
+
+---
+assetId: "dumbledore-hogwarts-castle"
+url: "https://community.simtropolis.com/files/file/25137-hogwarts-castle/?do=download"
+version: "1.0"
+lastModified: "1998-07-29T21:33:57Z"
