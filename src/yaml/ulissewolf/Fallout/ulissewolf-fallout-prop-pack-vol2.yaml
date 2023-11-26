@@ -10,8 +10,8 @@ info:
     Second edition of Prop inspired by the Fallout series
   author: "ulissewolf"
   website: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=135:ulisse-wolf-fallout-prop-pack-vol-2&catid=22"
-  
-    variants:
+
+variants:
 - variant: { nightmode: standard }
   assets:
   - assetId: "ulissewolf-fallout-prop-pack-vol2-maxisnite"
