@@ -23,62 +23,61 @@ info:
   author: "ulissewolf"
   website: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=160:ulisse-wolf-freddy-fazbears-pizza&catid=12"
 
-  variants:
-  - variant: { nightmode: standard, freddy-fazbear-pizza.alert: "non-invasive"  }
+variants:
+- variant: { nightmode: standard, freddy-fazbear-pizza.alert: "non-invasive"  }
   assets:
   - assetId: "ulissewolf-freddy-fazbears-pizza-maxisnite-noalert"
-    include: 
-            -"/CS$$2_6x6_Freddy Fazbear's Pizza_527772fa.SC4Lot"
-            -"/FNAF News Alert.dat"
-            -"/FNAF_Building_MN.SC4Model"
-            -"/FNAF_Sign_MN.SC4Model"
-            -"/Freddy Fazbear's Pizza-0x6534284a-0x904b7d34-0x12777088.SC4Desc"
-            -"/Maxis Crime Scene-0x6534284a-0x904b7d34-0xd278160f.SC4Desc"
-            -"/PLOP_6x6_Freddy Fazbear's Pizza (Landmark)_22781a8e.SC4Lot"
-            -"/Ulisse Wolf  - FNAF Sign-0x6534284a-0x904b7d34-0x5276ca26.SC4Desc"
-            -"/Ulisse Wolf - FNAF Building-0x6534284a-0x904b7d34-0x3276c431.SC4Desc"
-  - variant: { nightmode: dark, freddy-fazbear-pizza.alert: "non-invasive" }
+    include:
+            - "/CS$$2_6x6_Freddy Fazbear's Pizza_527772fa.SC4Lot"
+            - "/FNAF News Alert.dat"
+            - "/FNAF_Building_MN.SC4Model"
+            - "/FNAF_Sign_MN.SC4Model"
+            - "/Freddy Fazbear's Pizza-0x6534284a-0x904b7d34-0x12777088.SC4Desc"
+            - "/Maxis Crime Scene-0x6534284a-0x904b7d34-0xd278160f.SC4Desc"
+            - "/PLOP_6x6_Freddy Fazbear's Pizza (Landmark)_22781a8e.SC4Lot"
+            - "/Ulisse Wolf  - FNAF Sign-0x6534284a-0x904b7d34-0x5276ca26.SC4Desc"
+            - "/Ulisse Wolf - FNAF Building-0x6534284a-0x904b7d34-0x3276c431.SC4Desc"
+- variant: { nightmode: dark, freddy-fazbear-pizza.alert: "non-invasive" }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
   - assetId: "ulissewolf-freddy-fazbears-pizza-darknite-noalert"
     include:
-            -"/CS$$2_6x6_Freddy Fazbear's Pizza_527772fa.SC4Lot"
-            -"/FNAF News Alert.dat"
-            -"/FNAF_Building_DN.SC4Model"
-            -"/FNAF_Sign_DN.SC4Model"
-            -"/Freddy Fazbear's Pizza-0x6534284a-0x904b7d34-0x12777088.SC4Desc"
-            -"/Maxis Crime Scene-0x6534284a-0x904b7d34-0xd278160f.SC4Desc"
-            -"/PLOP_6x6_Freddy Fazbear's Pizza (Landmark)_22781a8e.SC4Lot"
-            -"/Ulisse Wolf  - FNAF Sign-0x6534284a-0x904b7d34-0x5276ca26.SC4Desc"
-            -"/Ulisse Wolf - FNAF Building-0x6534284a-0x904b7d34-0x3276c431.SC4Desc"
-  - variant: { nightmode: standard, freddy-fazbear-pizza.alert: "original"  }
+            - "/CS$$2_6x6_Freddy Fazbear's Pizza_527772fa.SC4Lot"
+            - "/FNAF News Alert.dat"
+            - "/FNAF_Building_DN.SC4Model"
+            - "/FNAF_Sign_DN.SC4Model"
+            - "/Freddy Fazbear's Pizza-0x6534284a-0x904b7d34-0x12777088.SC4Desc"
+            - "/Maxis Crime Scene-0x6534284a-0x904b7d34-0xd278160f.SC4Desc"
+            - "/PLOP_6x6_Freddy Fazbear's Pizza (Landmark)_22781a8e.SC4Lot"
+            - "/Ulisse Wolf  - FNAF Sign-0x6534284a-0x904b7d34-0x5276ca26.SC4Desc"
+            - "/Ulisse Wolf - FNAF Building-0x6534284a-0x904b7d34-0x3276c431.SC4Desc"
+- variant: { nightmode: standard, freddy-fazbear-pizza.alert: "original"  }
   assets:
   - assetId: "ulissewolf-freddy-fazbears-pizza-maxisnite-alert"
-    include: 
-            -"/CS$$2_6x6_Freddy Fazbear's Pizza_527772fa.SC4Lot"
-            -"/FNAF News Alert.dat"
-            -"/FNAF_Building_MN.SC4Model"
-            -"/FNAF_Sign_MN.SC4Model"
-            -"/Freddy Fazbear's Pizza-0x6534284a-0x904b7d34-0x12777088.SC4Desc"
-            -"/Maxis Crime Scene-0x6534284a-0x904b7d34-0xd278160f.SC4Desc"
-            -"/PLOP_6x6_Freddy Fazbear's Pizza (Landmark)_22781a8e.SC4Lot"
-            -"/Ulisse Wolf  - FNAF Sign-0x6534284a-0x904b7d34-0x5276ca26.SC4Desc"
-            -"/Ulisse Wolf - FNAF Building-0x6534284a-0x904b7d34-0x3276c431.SC4Desc"
-  - variant: { nightmode: dark, freddy-fazbear-pizza.alert: "original"}
+    include:
+            - "/CS$$2_6x6_Freddy Fazbear's Pizza_527772fa.SC4Lot"
+            - "/FNAF News Alert.dat"
+            - "/FNAF_Building_MN.SC4Model"
+            - "/FNAF_Sign_MN.SC4Model"
+            - "/Freddy Fazbear's Pizza-0x6534284a-0x904b7d34-0x12777088.SC4Desc"
+            - "/Maxis Crime Scene-0x6534284a-0x904b7d34-0xd278160f.SC4Desc"
+            - "/PLOP_6x6_Freddy Fazbear's Pizza (Landmark)_22781a8e.SC4Lot"
+            - "/Ulisse Wolf  - FNAF Sign-0x6534284a-0x904b7d34-0x5276ca26.SC4Desc"
+            - "/Ulisse Wolf - FNAF Building-0x6534284a-0x904b7d34-0x3276c431.SC4Desc"
+- variant: { nightmode: dark, freddy-fazbear-pizza.alert: "original"}
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
   - assetId: "ulissewolf-freddy-fazbears-pizza-darknite-alert"
     include:
-            -"/CS$$2_6x6_Freddy Fazbear's Pizza_527772fa.SC4Lot"
-            -"/FNAF News Alert.dat"
-            -"/FNAF_Building_DN.SC4Model"
-            -"/FNAF_Sign_DN.SC4Model"
-            -"/Freddy Fazbear's Pizza-0x6534284a-0x904b7d34-0x12777088.SC4Desc"
-            -"/Maxis Crime Scene-0x6534284a-0x904b7d34-0xd278160f.SC4Desc"
-            -"/PLOP_6x6_Freddy Fazbear's Pizza (Landmark)_22781a8e.SC4Lot"
-            -"/Ulisse Wolf  - FNAF Sign-0x6534284a-0x904b7d34-0x5276ca26.SC4Desc"
-            -"/Ulisse Wolf - FNAF Building-0x6534284a-0x904b7d34-0x3276c431.SC4Desc"
-            
+            - "/CS$$2_6x6_Freddy Fazbear's Pizza_527772fa.SC4Lot"
+            - "/FNAF News Alert.dat"
+            - "/FNAF_Building_DN.SC4Model"
+            - "/FNAF_Sign_DN.SC4Model"
+            - "/Freddy Fazbear's Pizza-0x6534284a-0x904b7d34-0x12777088.SC4Desc"
+            - "/Maxis Crime Scene-0x6534284a-0x904b7d34-0xd278160f.SC4Desc"
+            - "/PLOP_6x6_Freddy Fazbear's Pizza (Landmark)_22781a8e.SC4Lot"
+            - "/Ulisse Wolf  - FNAF Sign-0x6534284a-0x904b7d34-0x5276ca26.SC4Desc"
+            - "/Ulisse Wolf - FNAF Building-0x6534284a-0x904b7d34-0x3276c431.SC4Desc"
 
 ---
 assetId: "ulissewolf-freddy-fazbears-pizza"
