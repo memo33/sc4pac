@@ -1,9 +1,9 @@
-group: "ulisse wolf"
-name: "mediterranean-transport.set-vol-1"
+group: "ulissewolf"
+name: "mediterranean-transport-set-vol-1"
 version: "1.0"
 subfolder: "700-transit"
 assets:
-- assetId: "ulissewolf-mediterranean-transport.set-vol-1"
+- assetId: "ulissewolf-mediterranean-transport-set-vol-1"
 dependencies:
 - "network-addon-mod"
 - "bsc:mega-props-mbear-vol01"
@@ -21,7 +21,7 @@ info:
   website: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=94:ulisse-wolf-mediterranean-transport-set-vol-1&catid=19"
 
 ---
-assetId: "ulissewolf-mediterranean-transport.set-vol-1"
+assetId: "ulissewolf-mediterranean-transport-set-vol-1"
 version: "1.0"
 lastModified: "2022-07-24T14:50:41Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=94:ulisse-wolf-mediterranean-transport-set-vol-1&catid=19"
