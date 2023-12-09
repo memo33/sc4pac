@@ -56,20 +56,23 @@ It is used for determining when an asset has changed, so packages using its file
 version: "1.0"
 ```
 
+?> Sometimes, the original upload is modified without a change of its version string.
+   If necessary, the version of the corresponding asset or package should be incremented nevertheless,
+   using the format `1.0`, `1.0-1`, `1.0-2`, `1.0-3`, etc.
+
 ### `lastModified`
 
 This is the timestamp of the last-modification date of the upload.
 It must have this format:
 ```yaml
 lastModified: "1998-07-29T21:33:57Z"
+# lastModified: "1998-07-29T13:33:57-08:00"  # alternative timezone format
 ```
 
 On Simtropolis, inspect the HTML source code of the download page and search for the `updated_time` property to obtain this timestamp.
 
-On SC4Evermore, open the networking tab of the browser dev tools and click the *Download* button.
-Then click on the request and view its `Headers`.
-One of the headers is called `Last-Modified` and contains the desired timestamp which you then need to convert to the above format.
-(Shorthand for cURL users: `curl -I -L '<url>'`.)
+On SC4Evermore, grab the *Changed* timestamp from the info box on the download page.
+(Alternatively, the `Last-Modified` HTTP header of the download URL may be used. Shorthand for cURL users: `curl -I -L '<url>'`.)
 
 ## Packages
 
