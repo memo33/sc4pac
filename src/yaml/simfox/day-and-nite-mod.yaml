@@ -10,7 +10,7 @@ variants:
   - assetId: "simfox-day-and-nite-modd"
 
 info:
-  summary: "Alter the appearence Day and Night view (DarkNite mod)"
+  summary: "Alter the appearence of Day and Night view (DarkNite mod)"
   description: "If you install this, choose the DarkNite versions of any BATs you download."
   author: "SimFox"
   website: "https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/"
