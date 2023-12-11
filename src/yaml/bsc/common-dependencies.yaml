@@ -1584,8 +1584,10 @@ info:
 ---
 group: "bsc"
 name: "jrj-cpt-trees-as-props"
-version: "2-1"
+version: "2-2"
 subfolder: "100-props-textures"
+dependencies:
+- "cycledogg:tree-models-part-one-and-two"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
   include: [ "/BSC Prop Pack - JRJ CPT Trees as props V2.dat" ]
