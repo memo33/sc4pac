@@ -34,6 +34,8 @@ This list will be expanded as more packages are added to the metadata channel.
 ## Industrial
 
 * `pkg=memo:industrial-revolution-mod` (IRM base pack including all dependencies)
+* `pkg=t-wrecks:industrial-revolution-mod-addon-set-i-d` (growable I-D fillers)
+* `pkg=t-wrecks:industrial-revolution-mod-addon-set-i-m` (growable I-M fillers)
 
 ## Civics
 
