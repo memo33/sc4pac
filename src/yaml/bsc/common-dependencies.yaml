@@ -24,7 +24,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC_PropFamilyNames v3.dat" ]
+  include: [ "/BSC_PropFamilyNames v..dat" ]
 info:
   summary: "BSC_PropFamilyNames including CP_Essentials_FamilyNames"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -60,7 +60,7 @@ version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC Textures vol03 v4.dat" ]
+  include: [ "/BSC Textures vol03 v..dat" ]
 info:
   summary: "BSC Textures Vol 03"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -252,7 +252,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - ALN Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - ALN Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - ALN Vol01 by ChrisAdams3997"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -276,7 +276,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - ALN Vol03 v2.dat" ]
+  include: [ "/BSC MEGA Props - ALN Vol03 v..dat" ]
 info:
   summary: "BSC MEGA Props - ALN Vol03 by ChrisAdams3997"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -288,7 +288,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - CAL vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - CAL vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - CAL vol01 by callagrafx"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -324,7 +324,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - DAE Vol01 v3.dat" ]
+  include: [ "/BSC MEGA Props - DAE Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - DAE Vol01 by deadwoods"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -348,7 +348,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Gascooker Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - Gascooker Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - Gascooker Vol01"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -360,7 +360,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Gascooker vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - Gascooker vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props - Gascooker vol02"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -384,7 +384,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JENX Vol02 - PARIS v2.dat" ]
+  include: [ "/BSC MEGA Props - JENX Vol02 - PARIS v..dat" ]
 info:
   summary: "BSC MEGA Props - JENX Vol02 - PARIS by xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -396,7 +396,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JENX Vol03 v2.dat" ]
+  include: [ "/BSC MEGA Props - JENX Vol03 v..dat" ]
 info:
   summary: "BSC MEGA Props - JENX Vol03 by xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -432,7 +432,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JMyers Agriculture 01 v2.dat" ]
+  include: [ "/BSC MEGA Props - JMyers Agriculture 01 v..dat" ]
 info:
   summary: "BSC MEGA Props - JMyersAgriculture01 by JMyers2043"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -444,7 +444,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JMyers Agriculture 02 v2.dat" ]
+  include: [ "/BSC MEGA Props - JMyers Agriculture 02 v..dat" ]
 info:
   summary: "BSC MEGA Props - JMyersAgriculture02 by JMyers2043"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -468,7 +468,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - KevDan25 Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - KevDan25 Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - KevDan25  Vol01"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -480,7 +480,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - MBEAR Vol01 v3.dat" ]
+  include: [ "/BSC MEGA Props - MBEAR Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - MBEAR Vol01 by Mickebear"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -492,7 +492,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - MBEAR Vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - MBEAR Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props - MBEAR Vol02 by Mickebear"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -504,7 +504,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - MBEAR Vol03 v2.dat" ]
+  include: [ "/BSC MEGA Props - MBEAR Vol03 v..dat" ]
 info:
   summary: "BSC MEGA Props - MBEAR Vol03 by Mickebear"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -516,7 +516,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - MBEAR Vol04 v3.dat" ]
+  include: [ "/BSC MEGA Props - MBEAR Vol04 v..dat" ]
 info:
   summary: "BSC MEGA Props - MBEAR Vol04 by Mickebear"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -528,7 +528,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - MJB Vol01 v3.dat" ]
+  include: [ "/BSC MEGA Props - MJB Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - MJB Vol01 by Couchpotato"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -540,7 +540,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - MJB Vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - MJB Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props -  MJB Vol02 by Couchpotato"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -552,7 +552,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Misc Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - Misc Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - Misc Vol01"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -564,7 +564,7 @@ version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Misc Vol02 v4.dat" ]
+  include: [ "/BSC MEGA Props - Misc Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props - Misc Vol02"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -588,7 +588,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - NewmanInc Vol01 v3.dat" ]
+  include: [ "/BSC MEGA Props - NewmanInc Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - NewmanInc Vol01 by Citynut"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -600,7 +600,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - NewmanInc Vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - NewmanInc Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props - NewmanInc Vol02 by Citynut"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -612,7 +612,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - NewmanInc Vol03 v2.dat" ]
+  include: [ "/BSC MEGA Props - NewmanInc Vol03 v..dat" ]
 info:
   summary: "BSC MEGA Props - NewmanInc Vol03 by Citynut"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -624,7 +624,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - NewmanInc Vol04 v2.dat" ]
+  include: [ "/BSC MEGA Props - NewmanInc Vol04 v..dat" ]
 info:
   summary: "BSC MEGA Props - NewmanInc Vol04 by Citynut"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -660,7 +660,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - RT Vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - RT Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props - RT Vol02 by Ripptide"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -672,7 +672,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - RT Vol03 v2.dat" ]
+  include: [ "/BSC MEGA Props - RT Vol03 v..dat" ]
 info:
   summary: "BSC MEGA Props RT Vol03 by Ripptide"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -684,7 +684,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - RT Vol04 v2.dat" ]
+  include: [ "/BSC MEGA Props - RT Vol04 v..dat" ]
 info:
   summary: "BSC MEGA Props RT Vol04 by Ripptide"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -716,7 +716,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - RT WFK Vol01 - CdS v2.dat" ]
+  include: [ "/BSC MEGA Props - RT WFK Vol01 - CdS v..dat" ]
 info:
   summary: "BSC MEGA Props - RT WFK Vol01 - CdS by Ripptide, Waterfront Kit, Casa de Sol"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -740,7 +740,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - SG Vol01 v3.dat" ]
+  include: [ "/BSC MEGA Props - SG Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - SG Vol01 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -752,7 +752,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - SNM Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - SNM Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - SNM Vol01, SimNation Military"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -764,7 +764,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - SNM Vol02 - Naval v2.dat" ]
+  include: [ "/BSC MEGA Props - SNM Vol02 - Naval v..dat" ]
 info:
   summary: "BSC MEGA Props - SNM Vol02 - Naval, SimNation Military"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -776,7 +776,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - W2W Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - W2W Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - W2W Vol01"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -788,7 +788,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - prepo Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - prepo Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - prepo Vol01 by prepo"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -800,7 +800,7 @@ version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - SWI21 Vol01 v4.dat" ]
+  include: [ "/BSC MEGA Props - SWI21 Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - swi21 Vol01 by swi21"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -812,7 +812,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - SWI21 Vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - SWI21 Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props - swi21 Vol02 by swi21"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -824,7 +824,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - CARCH Vol01 v3.dat" ]
+  include: [ "/BSC MEGA Props - CARCH Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - CARCH Vol01 by Cerulean"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -920,7 +920,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - D66 Vol01 v3.dat" ]
+  include: [ "/BSC MEGA Props - D66 Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - D66 Vol01 by Dolphin66"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -932,7 +932,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - D66 Vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - D66 Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props D66 Vol02 by Dolphin66"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -956,7 +956,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - DBSSYMN Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - DBSSYMN Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props DBSSYMN Vol01 by DebussyMan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -968,7 +968,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - DBSSYMN Vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - DBSSYMN Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props DBSSYMN Vol02 by DebussyMan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -980,7 +980,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - GAZ Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - GAZ Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props GAZ Vol01 by GaryReggae"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -992,7 +992,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JRJ Vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - JRJ Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props JRJ Vol02 by jeronij"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1004,7 +1004,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JRJ Vol03 v2.dat" ]
+  include: [ "/BSC MEGA Props - JRJ Vol03 v..dat" ]
 info:
   summary: "BSC MEGA Props JRJ Vol03 by jeronij"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1016,7 +1016,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JRJ Vol04 v2.dat" ]
+  include: [ "/BSC MEGA Props - JRJ Vol04 v..dat" ]
 info:
   summary: "BSC MEGA Props JRJ Vol04 by jeronij"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1028,7 +1028,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JRJ Vol05 v2.dat" ]
+  include: [ "/BSC MEGA Props - JRJ Vol05 v..dat" ]
 info:
   summary: "BSC MEGA Props JRJ Vol05 by jeronij"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1040,7 +1040,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JRJ Vol06 v2.dat" ]
+  include: [ "/BSC MEGA Props - JRJ Vol06 v..dat" ]
 info:
   summary: "BSC MEGA Props JRJ Vol06 by jeronij"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1052,7 +1052,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Jen_P Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - Jen_P Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props Jen_P Vol01"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1064,7 +1064,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - KWK Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - KWK Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props KWK Vol01 by Kwakelaar"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1076,7 +1076,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - KWK Vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - KWK Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props - KWKVol02 by Kwakelaar"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1112,7 +1112,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JBSimio vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - JBSimio vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props_JBSimio_Vol01"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1124,7 +1124,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JBSimio vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - JBSimio vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props_JBSimio_Vol02"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1136,7 +1136,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JBSimio vol03 v2.dat" ]
+  include: [ "/BSC MEGA Props - JBSimio vol03 v..dat" ]
 info:
   summary: "BSC MEGA Props - JBSimio vol03"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1209,7 +1209,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JES Vol01 v2.dat" ]
+  include: [ "/BSC MEGA Props - JES Vol01 v..dat" ]
 info:
   summary: "BSC Mega Props - JES Vol01 by jestarr"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1221,7 +1221,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JES Vol02 v2.dat" ]
+  include: [ "/BSC MEGA Props - JES Vol02 v..dat" ]
 info:
   summary: "BSC Mega Props - JES Vol02 by jestarr"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1233,7 +1233,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JES Vol03 v2.dat" ]
+  include: [ "/BSC MEGA Props - JES Vol03 v..dat" ]
 info:
   summary: "BSC Mega Props - JES Vol03 by jestarr"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1245,7 +1245,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JES Vol04 v2.dat" ]
+  include: [ "/BSC MEGA Props - JES Vol04 v..dat" ]
 info:
   summary: "BSC Mega Props - JES Vol04 by jestarr"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1257,7 +1257,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JES Vol05 v2.dat" ]
+  include: [ "/BSC MEGA Props - JES Vol05 v..dat" ]
 info:
   summary: "BSC Mega Props - JES Vol05 by jestarr"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1269,7 +1269,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JES Vol06 v2.dat" ]
+  include: [ "/BSC MEGA Props - JES Vol06 v..dat" ]
 info:
   summary: "BSC Mega Props - JES Vol06 by jestarr"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1281,7 +1281,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JES Vol07 v2.dat" ]
+  include: [ "/BSC MEGA Props - JES Vol07 v..dat" ]
 info:
   summary: "BSC Mega Props - JES Vol07 by jestarr"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1293,7 +1293,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JES Vol08 v2.dat" ]
+  include: [ "/BSC MEGA Props - JES Vol08 v..dat" ]
 info:
   summary: "BSC Mega Props - JES Vol08 by jestarr"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1305,7 +1305,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - JES Vol09 v2.dat" ]
+  include: [ "/BSC MEGA Props - JES Vol09 v..dat" ]
 info:
   summary: "BSC Mega Props - JES Vol09 by jestarr"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1341,7 +1341,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/Grfe_CarPack_MMP vol01.dat", "/Grfe_Props_Pack_Carpack vol01-vol02-Original v2.dat" ]
+  include: [ "/Grfe_CarPack_MMP vol01.dat", "/Grfe_Props_Pack_Carpack vol01-vol02-Original v..dat" ]
 info:
   summary: "Grfe_Carpack_vol. 1 & 2 by Girafe, original version"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1367,7 +1367,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/Grfe_CarPack_MMP vol03.dat", "/Grfe_Props_Pack_Carpack vol03 v2.dat" ]
+  include: [ "/Grfe_CarPack_MMP vol03.dat", "/Grfe_Props_Pack_Carpack vol03 v..dat" ]
 info:
   summary: "Grfe_CarPack_vol. 3 by Girafe"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1407,7 +1407,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC BATProps Newman Inc RPK Vol01 v2.dat" ]
+  include: [ "/BSC BATProps Newman Inc RPK Vol01 v..dat" ]
 info:
   summary: "BSCBATPRops NewmanInc RPK Vol01 by Citynut"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1431,7 +1431,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC BATProps VDK Vol01 v2.dat" ]
+  include: [ "/BSC BATProps VDK Vol01 v..dat" ]
 info:
   summary: "BSCBATProps VDK Vol01 by vester"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1443,7 +1443,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC BATProps VDK Vol02 v2.dat" ]
+  include: [ "/BSC BATProps VDK Vol02 v..dat" ]
 info:
   summary: "BSCBATProps VDK Vol02 by vester"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1590,7 +1590,7 @@ dependencies:
 - "cycledogg:tree-models-part-one-and-two"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC Prop Pack - JRJ CPT Trees as props V2.dat" ]
+  include: [ "/BSC Prop Pack - JRJ CPT Trees as props V..dat" ]
 info:
   summary: "JRJ_CPT_Trees_as_props_V2 by jeronij"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1602,7 +1602,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Residentials Vol01 v2.dat" ]
+  include: [ "/SG Models Residentials Vol01 v..dat" ]
 info:
   summary: "SG Models Residentials Vol01 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1614,7 +1614,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Residentials Vol02 v2.dat" ]
+  include: [ "/SG Models Residentials Vol02 v..dat" ]
 info:
   summary: "SG Models Residentials Vol02 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1626,7 +1626,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Residentials Vol03 v2.dat" ]
+  include: [ "/SG Models Residentials Vol03 v..dat" ]
 info:
   summary: "SG Models Residentials Vol03 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1638,7 +1638,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Residentials Vol04 v2.dat" ]
+  include: [ "/SG Models Residentials Vol04 v..dat" ]
 info:
   summary: "SG Models Residentials Vol04 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1650,7 +1650,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Adult v2.dat" ]
+  include: [ "/SG Models Adult v..dat" ]
 info:
   summary: "SG_Models_Adult by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1662,7 +1662,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Agriculture v2.dat" ]
+  include: [ "/SG Models Agriculture v..dat" ]
 info:
   summary: "SG_Models_Agriculture by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1698,7 +1698,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Department Stores v2.dat" ]
+  include: [ "/SG Models Department Stores v..dat" ]
 info:
   summary: "SG_Models_Department_Stores by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1710,7 +1710,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Civic Education v2.dat" ]
+  include: [ "/SG Models Civic Education v..dat" ]
 info:
   summary: "SG Models Civic Education by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1722,7 +1722,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Entertainment v2.dat" ]
+  include: [ "/SG Models Entertainment v..dat" ]
 info:
   summary: "SG_Models_Entertainment by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1734,7 +1734,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Grocery Stores v3.dat" ]
+  include: [ "/SG Models Grocery Stores v..dat" ]
 info:
   summary: "SG_Models_Grocery_Stores by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1746,7 +1746,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Hotels1 v2.dat" ]
+  include: [ "/SG Models Hotels1 v..dat" ]
 info:
   summary: "SG_Models_Hotels1 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1758,7 +1758,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Hotels2 v2.dat" ]
+  include: [ "/SG Models Hotels2 v..dat" ]
 info:
   summary: "SG_Models_Hotels2 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1770,7 +1770,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models I-HT v2.dat" ]
+  include: [ "/SG Models I-HT v..dat" ]
 info:
   summary: "SG_Models_I-HT by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1782,7 +1782,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models IM1 v2.dat" ]
+  include: [ "/SG Models IM1 v..dat" ]
 info:
   summary: "SG_Models_IM1 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1794,7 +1794,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models IM2 v2.dat" ]
+  include: [ "/SG Models IM2 v..dat" ]
 info:
   summary: "SG_Models_IM2 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1806,7 +1806,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Large Stores v2.dat" ]
+  include: [ "/SG Models Large Stores v..dat" ]
 info:
   summary: "SG_Models_Large_Stores by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1818,7 +1818,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Malls v3.dat" ]
+  include: [ "/SG Models Malls v..dat" ]
 info:
   summary: "SG_Models_Malls by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1830,7 +1830,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Medium Shops v2.dat" ]
+  include: [ "/SG Models Medium Shops v..dat" ]
 info:
   summary: "SG_Models_Medium_Shops1 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1842,7 +1842,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Motels v2.dat" ]
+  include: [ "/SG Models Motels v..dat" ]
 info:
   summary: "SG_Models_Motels by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1854,7 +1854,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Offices HiRise1 v3.dat" ]
+  include: [ "/SG Models Offices HiRise1 v..dat" ]
 info:
   summary: "SG_Models_Offices_HiRise1 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1866,7 +1866,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Offices HiRise2 v2.dat" ]
+  include: [ "/SG Models Offices HiRise2 v..dat" ]
 info:
   summary: "SG_Models_Offices_HiRise2 by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1878,7 +1878,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Offices Medium v3.dat" ]
+  include: [ "/SG Models Offices Medium v..dat" ]
 info:
   summary: "SG_Models_Offices_Medium by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1890,7 +1890,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Restaurants v2.dat" ]
+  include: [ "/SG Models Restaurants v..dat" ]
 info:
   summary: "SG_Models_Restaurants by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1902,7 +1902,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Sainsbury v2.dat" ]
+  include: [ "/SG Models Sainsbury v..dat" ]
 info:
   summary: "SG_Models_Sainsbury by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1914,7 +1914,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Small Shops v3.dat" ]
+  include: [ "/SG Models Small Shops v..dat" ]
 info:
   summary: "SG_Models_Small_Shops by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1926,7 +1926,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Transportation v2.dat" ]
+  include: [ "/SG Models Transportation v..dat" ]
 info:
   summary: "SG_Models_Transportation by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -2034,7 +2034,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/CSX MEGA Props - Vol01 v3.dat" ]
+  include: [ "/CSX MEGA Props - Vol01 v..dat" ]
 info:
   summary: "CSX MEGA Props Vol01 by Colyn"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -2046,7 +2046,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/CSX MEGA Props - Vol02 v3.dat" ]
+  include: [ "/CSX MEGA Props - Vol02 v..dat" ]
 info:
   summary: "CSX MEGA Props Vol02 by Colyn"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -2058,7 +2058,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/CSX MEGA Props - Vol03 v3.dat" ]
+  include: [ "/CSX MEGA Props - Vol03 v..dat" ]
 info:
   summary: "CSX MEGA Props Vol03 by Colyn"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -2070,7 +2070,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/CSX MEGA Props - Vol04 v3.dat" ]
+  include: [ "/CSX MEGA Props - Vol04 v..dat" ]
 info:
   summary: "CSX MEGA Props Vol04 by Colyn"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -2082,7 +2082,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/CSX MEGA Props - Vol05 v3.dat" ]
+  include: [ "/CSX MEGA Props - Vol05 v..dat" ]
 info:
   summary: "CSX MEGA Props Vol05 by Colyn"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -2094,7 +2094,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/CSX MEGA Props - Vol06 v3.dat" ]
+  include: [ "/CSX MEGA Props - Vol06 v..dat" ]
 info:
   summary: "CSX MEGA Props Vol06 by Colyn"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -2106,7 +2106,7 @@ version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/CSX MEGA Props - Vol07 v3.dat" ]
+  include: [ "/CSX MEGA Props - Vol07 v..dat" ]
 info:
   summary: "CSX MEGA Props Vol07 by Colyn"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -2118,7 +2118,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/CSX MEGA Props - Vol08 v2.dat" ]
+  include: [ "/CSX MEGA Props - Vol08 v..dat" ]
 info:
   summary: "CSX MEGA Props Vol08 by Colyn"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -2130,7 +2130,7 @@ version: "2-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/CSX MEGA Props - Vol09 v2.dat" ]
+  include: [ "/CSX MEGA Props - Vol09 v..dat" ]
 info:
   summary: "CSX MEGA Props Vol09 by Colyn"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
