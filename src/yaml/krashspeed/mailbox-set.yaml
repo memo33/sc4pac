@@ -1,0 +1,17 @@
+group: "krashspeed"
+name: "mailbox-set"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "krashspeeds-mailbox-set"
+  include: [ "/Prop Models/" ]  # we exclude the MMPs as this is just a dependency pack
+info:
+  summary: "Mailbox and post box props"
+  author: "KrashSpeed, SimCoug"
+  website: "https://community.simtropolis.com/files/file/28412-krashspeeds-mailbox-set/"
+
+---
+assetId: "krashspeeds-mailbox-set"
+version: "1.0"
+lastModified: "2017-05-06T15:51:20Z"
+url: "https://community.simtropolis.com/files/file/28412-krashspeeds-mailbox-set/?do=download"

@@ -1,0 +1,44 @@
+group: "ids2"
+name: "minneapolis-house-set"
+version: "1.1"
+subfolder: "200-residential"
+dependencies:
+- "bsc:mega-props-jmyers-common-props"
+- "bsc:textures-vol03"
+- "bsc:texturepack-cycledogg-vol01"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-sg-vol01"
+- "krashspeed:mailbox-set"
+- "wmp:mega-props-vol01"
+
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "ids-houses-garages-maxisnite"
+- variant: { nightmode: "dark" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "ids-houses-garages-darknite"
+
+info:
+  summary: "32 R$$ houses with garages"
+  description: >
+    The package includes 8 house designs with 4 color variations and 9 detached
+    garages on 25 unique lots (stages 1 to 5) for the Houston tile set.
+    The houses are all based on real world counterparts in the Morris Park
+    neighborhood of South Minneapolis.
+  author: "IDS2, SimCoug"
+  website: "https://community.simtropolis.com/files/file/30647-minneapolis-house-set/"
+
+---
+assetId: "ids-houses-garages-darknite"
+version: "1.1"
+lastModified: "2022-03-26T19:17:18Z"
+url: "https://community.simtropolis.com/files/file/30647-minneapolis-house-set/?do=download&r=192619"
+
+---
+assetId: "ids-houses-garages-maxisnite"
+version: "1.1"
+lastModified: "2022-03-26T19:17:18Z"
+url: "https://community.simtropolis.com/files/file/30647-minneapolis-house-set/?do=download&r=192620"

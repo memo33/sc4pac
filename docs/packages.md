@@ -11,6 +11,7 @@ This list will be expanded as more packages are added to the metadata channel.
 ## Residential
 
 * `pkg=andisart:sc2013-inspired-homes` (low-density R$$ houses)
+* `pkg=ids2:minneapolis-house-set`
 * `pkg=spa:halifax-boxes`
 * `pkg=mattb325:lafayette-square-homes`
 * `pkg=kingofsimcity:maxis-mansion-overhaul` (replacement of all Maxis mansion Lots)
