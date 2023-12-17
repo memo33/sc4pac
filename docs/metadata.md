@@ -213,7 +213,7 @@ Details:
 - Include all lot files with `"\\.SC4Lot$"`.
 - The matching is case-insensitive for file-system independence.
 - If the `include` filter is absent or empty, then by default every file is included.
-- If the `exclude` filter is absent or empty, then by default all file types other than .dat/.sc4model/.sc4lot/.sc4desc/.sc4 are excluded.
+- If the `exclude` filter is absent or empty, then by default all file types other than .dat/.sc4model/.sc4lot/.sc4desc/.sc4/.dll are excluded.
   Note that, if you define a custom `exclude` filter, then non-game files such as Readme files are *not* excluded, so should be excluded explicitly.
 
 ?> If you anticipate file names changing with future updates of the original upload,

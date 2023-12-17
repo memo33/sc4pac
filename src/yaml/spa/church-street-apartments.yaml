@@ -1,0 +1,31 @@
+group: "spa"
+name: "church-street-apartments"
+version: "1.0"
+subfolder: "200-residential"
+dependencies:
+- "bsc:essentials"
+- "bsc:mega-props-sg-vol01"
+- "bsc:mega-props-cp-vol01"
+- "bsc:texturepack-cycledogg-vol01"
+- "bsc:textures-vol01"
+assets:
+- assetId: "spa-church-street-apartments"
+
+info:
+  summary: "Small wooden duplexes (R$$)"
+  description: >
+    This package contains some colorful old wooden duplexes from Halifax, Nova
+    Scotia, Canada. They are a design that is typical in the Schmidtville area
+    of the city, with the largest concentration located on Church Street near
+    the intersection with Harvey.
+
+    Church Street apartments come to SimCity as 1×2s, 1×3s and 1×1s that grow on the
+    Chicago and New York tilesets on medium density.
+  author: "spa"
+  website: "https://community.simtropolis.com/files/file/24766-bsc-spa-church-street-apartments/"
+
+---
+assetId: "spa-church-street-apartments"
+version: "1.0"
+lastModified: "2024-01-30T09:58:47Z"
+url: "https://community.simtropolis.com/files/file/24766-bsc-spa-church-street-apartments/?do=download"

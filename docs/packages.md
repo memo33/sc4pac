@@ -13,6 +13,7 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=andisart:sc2013-inspired-homes` (low-density R$$ houses)
 * `pkg=ids2:minneapolis-house-set` (suburban R$$ houses)
 * `pkg=spa:halifax-boxes` (W2W R$$ houses)
+* `pkg=spa:church-street-apartments` (urban wooden R$$ houses)
 * `pkg=mattb325:lafayette-square-homes` (W2W R$$)
 * `pkg=jmyers2043:homes-pack` (low-density R$ houses)
 * `pkg=simcoug:lots-vol01-jmyers-homes` (rural addon for the preceding pack)
