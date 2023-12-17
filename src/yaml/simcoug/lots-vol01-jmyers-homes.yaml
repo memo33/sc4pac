@@ -1,0 +1,24 @@
+group: "simcoug"
+name: "lots-vol01-jmyers-homes"
+version: "1.0"
+subfolder: "200-residential"
+dependencies:
+- "jmyers2043:homes-pack"
+- "bsc:mega-props-sg-vol01"
+assets:
+- assetId: "simcoug-lots-vol01-of-jmyers-homes-vol01"
+
+info:
+  summary: "47 new growable lots extending JMyers Homes Pack"
+  description: >
+    This set is designed to significantly increase the variety of lots for the BATs that JMyers created.
+    These lots have a more rural, older style and include lot sizes 1×1 to 1×3.
+    Diagonal corner lots are included, as well.
+  author: "SimCoug, JMyers2043"
+  website: "https://community.simtropolis.com/files/file/28122-simcoug-lots-vol01-of-jmyers-homes-vol01/"
+
+---
+assetId: "simcoug-lots-vol01-of-jmyers-homes-vol01"
+version: "1.0"
+lastModified: "2015-07-17T15:34:52Z"
+url: "https://community.simtropolis.com/files/file/28122-simcoug-lots-vol01-of-jmyers-homes-vol01/?do=download"
