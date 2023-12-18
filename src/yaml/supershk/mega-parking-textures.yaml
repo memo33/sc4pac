@@ -16,3 +16,21 @@ assetId: "supershk-mega-parking-textures"
 version: "1.0.1"
 lastModified: "2016-04-01T01:57:31Z"
 url: "https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=download"
+
+---
+group: "supershk"
+name: "fa3-parking-textures"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "supershk-fa3-parking-textures"
+info:
+  summary: "Fractional-angle parking lot textures"
+  author: "kingofsimcity, shokthrpy"
+  website: "https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/"
+
+---
+assetId: "supershk-fa3-parking-textures"
+version: "1.0"
+lastModified: "2017-01-02T07:46:35Z"
+url: "https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/?do=download"

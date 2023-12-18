@@ -14,3 +14,21 @@ assetId: "wmp-mega-props-vol01"
 version: "1.0.0"
 lastModified: "2020-05-25T15:25:45Z"
 url: "https://community.simtropolis.com/files/file/33621-wmp-mega-props-vol-01-misc-general-props/?do=download"
+
+---
+group: "wmp"
+name: "mega-props-vol02"
+version: "1.0.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "wmp-mega-props-vol02"
+info:
+  summary: "Miscellaneous industrial props"
+  author: "DocRorlach, WMP team, xxdita, Tyberius06"
+  website: "https://community.simtropolis.com/files/file/33622-wmp-mega-props-vol-02-misc-industrial-props/"
+
+---
+assetId: "wmp-mega-props-vol02"
+version: "1.0.0"
+lastModified: "2020-05-25T15:27:43Z"
+url: "https://community.simtropolis.com/files/file/33622-wmp-mega-props-vol-02-misc-industrial-props/?do=download"

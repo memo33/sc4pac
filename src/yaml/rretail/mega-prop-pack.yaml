@@ -1,0 +1,16 @@
+group: "rretail"
+name: "mega-prop-pack-vol1"
+version: "1.6"
+subfolder: "100-props-textures"
+assets:
+- assetId: "rr-mega-prop-pack-vol-1"
+info:
+  summary: "RR prop pack vol. 1-5"
+  author: "RRetail"
+  website: "https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/"
+
+---
+assetId: "rr-mega-prop-pack-vol-1"
+version: "1.6"
+lastModified: "2020-08-07T15:51:20Z"
+url: "https://community.simtropolis.com/files/file/32781-rr-mega-prop-pack-vol-1/?do=download"
