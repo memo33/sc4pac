@@ -17,6 +17,7 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=jmyers2043:homes-pack` (low-density R$ houses)
 * `pkg=simcoug:lots-vol01-jmyers-homes` (rural addon for the preceding pack)
 * `pkg=kingofsimcity:maxis-mansion-overhaul` (replacement of all Maxis mansion Lots)
+* `pkg=kingofsimcity:maxis-mansion-overhaul-extension-set` (addon for the preceding package)
 
 ## Commercial
 

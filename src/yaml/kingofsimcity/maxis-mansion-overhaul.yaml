@@ -38,3 +38,42 @@ assetId: "kosc-maxis-mansion-overhaul-standalone"
 version: "1.0"
 lastModified: "2020-07-28T05:27:11Z"
 url: "https://community.simtropolis.com/files/file/31308-maxis-mansion-overhaul/?do=download&r=163318"
+
+---
+assetId: "kosc-maxis-mansion-overhaul-extension-set"
+version: "1.00"
+lastModified: "2017-05-11T00:18:56Z"
+url: "https://community.simtropolis.com/files/file/31606-maxis-mansion-overhaul-extension-set/?do=download"
+
+---
+group: "kingofsimcity"
+name: "maxis-mansion-overhaul-extension-set"
+version: "1.00"
+subfolder: "200-residential"
+assets:
+- assetId: "kosc-maxis-mansion-overhaul-extension-set"
+dependencies:
+- "shk:parking-pack"
+- "lbt:mega-prop-pack-vol01"
+- "bsc:mega-props-sg-vol01"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "ndex:textures-vol1"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:textures-vol03"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+info:
+  summary: "33 additional lots supplementing the Maxis Mansion Overhaul"
+  description: >
+    This set expands the original mod by taking advantage of new lot sizes,
+    climate variation, and the strength of the individual models themselves to
+    add further variation in your affluent areas.
+
+    Not mandatory, but highly recommended is installing the original mod
+    kingofsimcity:maxis-mansion-overhaul
+    as well.
+  author: "kingofsimcity"
+  website: "https://community.simtropolis.com/files/file/31606-maxis-mansion-overhaul-extension-set/"
