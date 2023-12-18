@@ -1,0 +1,22 @@
+group: "fordoniak"
+name: "wies-pack"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "fordoniak-wies-pack"
+  exclude:
+  - "\\.SC4Lot$"
+  - "\\.bmp$"
+info:
+  summary: "Wieśpack village buildings and barn props"
+  description: >
+    This package contains only buildings and props.
+    The lot files of the original upload are not included.
+  author: "fordoniak"
+  # website: ""  # unknown
+
+---
+assetId: "fordoniak-wies-pack"
+version: "1"
+lastModified: "2023-12-19T15:02:19Z"  # unknown date
+url: "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=40040"

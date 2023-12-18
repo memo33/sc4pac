@@ -1,0 +1,16 @@
+group: "peg"
+name: "spam-super-resource-pack"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "peg-spam-super-resource-pack"
+info:
+  summary: "Props and textures for SPAM"
+  author: "Pegasus"
+  website: "https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/"
+
+---
+assetId: "peg-spam-super-resource-pack"
+version: "1.0"
+lastModified: "2015-07-07T00:04:20Z"
+url: "https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/?do=download"

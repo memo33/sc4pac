@@ -1,0 +1,18 @@
+group: "manchou"
+name: "houses-ag-models"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "manchou-pack-village-vol02"
+  include: [ "/Manchou_Houses_AG.dat" ]  # we exclude the lot files
+info:
+  summary: "Agricultural building models"
+  description: "Contains Manchou_Houses_AG.dat"
+  author: "manchou"
+  website: "https://www.toutsimcities.com/downloads/view/1579"
+
+---
+assetId: "manchou-pack-village-vol02"
+version: "1"
+lastModified: "2009-10-26T12:00:00Z"
+url: "https://www.toutsimcities.com/downloads/start/1579"
