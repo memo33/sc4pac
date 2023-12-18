@@ -1,0 +1,32 @@
+group: "gutterclub"
+name: "city-tatoo"
+version: "2.0"
+subfolder: "300-commercial"
+
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "gutterclub-city-tatoo-mn"
+- variant: { nightmode: "dark" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "gutterclub-city-tatoo-dn"
+
+info:
+  summary: "Small CS$$ W2W building"
+  description: >
+    The 1×2 CS$$ lot combines a slim apartment building with a tatoo shop, wall-to-wall.
+  author: "gutterclub"
+  website: "https://community.simtropolis.com/files/file/28035-city-tattoo/"
+
+---
+assetId: "gutterclub-city-tatoo-dn"
+version: "2.0"
+lastModified: "2023-12-22T09:03:21Z"
+url: "https://community.simtropolis.com/files/file/28035-city-tattoo/?do=download&r=106300"
+
+---
+assetId: "gutterclub-city-tatoo-mn"
+version: "2.0"
+lastModified: "2023-12-22T09:03:21Z"
+url: "https://community.simtropolis.com/files/file/28035-city-tattoo/?do=download&r=106301"

@@ -33,6 +33,9 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=nofunk:renaissance-books` (small W2W)
 * `pkg=nofunk:city-savings-bank`
 * `pkg=nofunk:wagner-ltd`
+* `pkg=gutterclub:small-caffe-nero` (small W2W CS$$)
+* `pkg=gutterclub:city-tatoo` (small W2W CS$$)
+* `pkg=gutterclub:camy-dumpling-house` (small CS$ building)
 * `pkg=jasoncw:cecil-hotel` (highrise CS$ hotel)
 
 ## Industrial
