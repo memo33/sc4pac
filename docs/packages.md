@@ -68,6 +68,7 @@ This list will be expanded as more packages are added to the metadata channel.
   * `pkg=kingofsimcity:community-regional-park-pack-vol1` (11 medium to large parks)
   * `pkg=kingofsimcity:community-regional-park-pack-vol2` (36 parks and sports fields)
 - Miscellaneous:
+  * `pkg=bsc:census-repository` (provides detailed stats about city growth)
   * `pkg=mattb325:galaxy-casino-hotel`
   * `pkg=mattb325:griffith-observatory`
   * `pkg=mattb325:london-stock-exchange`
