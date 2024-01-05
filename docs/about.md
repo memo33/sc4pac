@@ -7,8 +7,10 @@
 - Program source code: https://github.com/memo33/sc4pac-tools
 
 Files are downloaded directly from file exchange sites
-such as [Simtropolis](https://simtropolis.com/)
-and [SC4Evermore](https://www.sc4evermore.com/).
+such as [Simtropolis](https://simtropolis.com/),
+[SC4Evermore](https://www.sc4evermore.com/),
+[ToutSimCities](https://www.toutsimcities.com/)
+and [Hide and Seek!](http://hide-inoki.com/).
 
 There is also a [discussion thread](https://community.simtropolis.com/forums/topic/762677-sc4pac-lets-write-our-own-package-manager/) at Simtropolis.
 

@@ -1,0 +1,78 @@
+group: "neko"
+name: "prop-set-vol01-part1"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "neko-prop-set-vol01-part1"
+info:
+  summary: "Neko Prop Set 01 - part 1"
+  description: >
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0856.html"
+
+---
+assetId: "neko-prop-set-vol01-part1"
+version: "1"
+lastModified: "2020-08-26T12:39:31Z"
+url: "http://hide-inoki.com/bbs/archives/files/1482.zip"
+
+---
+group: "neko"
+name: "prop-set-vol01-part2"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "neko-prop-set-vol01-part2"
+info:
+  summary: "Neko Prop Set 01 - part 2"
+  description: >
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0856.html"
+
+---
+assetId: "neko-prop-set-vol01-part2"
+version: "1"
+lastModified: "2020-08-26T12:39:38Z"
+url: "http://hide-inoki.com/bbs/archives/files/1483.zip"
+
+---
+group: "neko"
+name: "prop-set-vol02"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "neko-prop-set-vol02"
+info:
+  summary: "Neko Prop Set 02"
+  description: >
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0837.html"
+
+---
+assetId: "neko-prop-set-vol02"
+version: "1"
+lastModified: "2020-08-26T12:38:58Z"
+url: "http://hide-inoki.com/bbs/archives/files/1392.zip"
+
+---
+group: "neko"
+name: "prop-set-vol03"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "neko-prop-set-vol03"
+info:
+  summary: "Neko Prop Set 03"
+  description: >
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0837.html"
+
+---
+assetId: "neko-prop-set-vol03"
+version: "1"
+lastModified: "2020-08-26T12:38:53Z"
+url: "http://hide-inoki.com/bbs/archives/files/1391.zip"
