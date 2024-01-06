@@ -1,0 +1,43 @@
+group: "mattb325"
+name: "hotondo-homes-airlee-199"
+version: "1.0.0"
+subfolder: "200-residential"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:texturepack-cycledogg-vol01"
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:mega-props-sg-vol01"
+
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "mattb325-hotondo-homes-airless-199-mn"
+- variant: { nightmode: "dark" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "mattb325-hotondo-homes-airless-199-dn"
+
+info:
+  summary: "4 R$$ house models for small lots"
+  description: >
+    These houses are based on floor plans by the spec-builder 'Hotondo' Homes.
+    They are reasonably accurate renditions: all are single story 3 bedrooms, 2
+    bathrooms with a single car garage, formal and informal living areas,
+    study, etc.
+
+    They come in several color variations and grow on 1x1, 2x1, 1x2, 1x3 and 2x3 lots.
+  author: "mattb325"
+  website: "https://community.simtropolis.com/files/file/33168-hotondo-homes-airlee-199/"
+
+---
+assetId: "mattb325-hotondo-homes-airless-199-dn"
+version: "1.0.0"
+lastModified: "2019-09-15T20:46:41Z"
+url: "https://community.simtropolis.com/files/file/33168-hotondo-homes-airlee-199/?do=download&r=177748"
+
+---
+assetId: "mattb325-hotondo-homes-airless-199-mn"
+version: "1.0.0"
+lastModified: "2019-09-15T20:46:41Z"
+url: "https://community.simtropolis.com/files/file/33168-hotondo-homes-airlee-199/?do=download&r=177749"
