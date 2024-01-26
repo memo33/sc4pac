@@ -1,18 +1,18 @@
 # Apart from the Maxis variant, this patch is merged directly into the corresponding terrain mods.
 
 assetId: "lowkee33-seasonal-flora-patch"
-version: "1"
-lastModified: "2023-07-20T00:56:21Z"
+version: "1-1"
+lastModified: "2024-01-20T12:11:55Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=36:lk33-seasonalflorapatch"
 
 ---
 group: "lowkee33"
 name: "seasonal-flora-patch-maxis"
-version: "1"
+version: "1-1"
 subfolder: "050-early-mods"  # placed here so that other terrain mods can easily override it
 assets:
 - assetId: "lowkee33-seasonal-flora-patch"
-  include: [ "^/z_LK_FloraTuningParameters_Seasonal_Maxis_or_Other.dat" ]
+  include: [ "/z_LK_FloraTuningParameters_Seasonal_Maxis_or_Other.dat" ]
 
 info:
   summary: "A patch required to make seasonal flora work"
