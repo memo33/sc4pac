@@ -227,7 +227,7 @@ def main() -> int:
                 if not fname.endswith(".yaml"):
                     continue
                 p = os.path.join(root, fname)
-                with open(os.path.join(root, fname)) as f:
+                with open(p) as f:
                     validated += 1
                     text = f.read()
                     try:

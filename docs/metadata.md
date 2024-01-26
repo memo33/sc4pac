@@ -72,7 +72,9 @@ lastModified: "1998-07-29T21:33:57Z"
 On Simtropolis, inspect the HTML source code of the download page and search for the `updated_time` property to obtain this timestamp.
 
 On SC4Evermore, grab the *Changed* timestamp from the info box on the download page.
-(Alternatively, the `Last-Modified` HTTP header of the download URL may be used. Shorthand for cURL users: `curl -I -L '<url>'`.)
+
+For other sites, use the available info on the download page or, when supported by the server,
+use the `Last-Modified` HTTP header of the download URL. Shorthand for cURL users: `curl -I -L '<url>'`.
 
 ## Packages
 

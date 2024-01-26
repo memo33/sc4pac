@@ -31,4 +31,7 @@ host-docs:
 lint:
 	python .github/sc4pac-yaml-schema.py src/yaml
 
-.PHONY: gh-pages channel host host-docs lint
+sc4e-check-updates:
+	python .github/sc4e-check-updates.py src/yaml
+
+.PHONY: gh-pages channel host host-docs lint sc4e-check-updates
