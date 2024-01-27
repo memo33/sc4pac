@@ -1,6 +1,6 @@
 assetId: "bsc-vip-girafe-flora-pack"
-version: "2"
-lastModified: "2023-09-04T01:29:25Z"
+version: "3"
+lastModified: "2024-01-20T12:12:48Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=27:sc4d-lex-legacy-bsc-vip-girafe-flora"
 
 ---
@@ -19,12 +19,12 @@ info:
 ---
 group: "girafe"
 name: "abies-grandis"
-version: "1"
+version: "1-1"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Abies grandis/" ]
+  include: [ "/Abies grandis v1/" ]
 info:
   summary: "Abies grandis"
   description: >
@@ -53,12 +53,12 @@ info:
 ---
 group: "girafe"
 name: "ashes"
-version: "1"
+version: "2"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Ashes/" ]
+  include: [ "/Ashes v2/" ]
 info:
   summary: "Ashes"
   description: >
@@ -70,12 +70,12 @@ info:
 ---
 group: "girafe"
 name: "beeches"
-version: "1"
+version: "3"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Beeches/" ]
+  include: [ "/Beeches v3/" ]
 info:
   summary: "Beeches"
   description: >
@@ -104,12 +104,12 @@ info:
 ---
 group: "girafe"
 name: "birches"
-version: "1"
+version: "2"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Birches/" ]
+  include: [ "/Birches v2/" ]
 info:
   summary: "Birches"
   description: >
@@ -121,12 +121,12 @@ info:
 ---
 group: "girafe"
 name: "bushes"
-version: "1"
+version: "2"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Bushes/" ]
+  include: [ "/Bushes v2/" ]
 info:
   summary: "Bushes"
   description: >
@@ -155,12 +155,12 @@ info:
 ---
 group: "girafe"
 name: "cattails"
-version: "1"
+version: "2.1"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Cattails/" ]
+  include: [ "/Cattails v2.1/" ]
 info:
   summary: "Cattails"
   description: >
@@ -239,12 +239,12 @@ info:
 ---
 group: "girafe"
 name: "daisy"
-version: "1"
+version: "2"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Daisy/" ]
+  include: [ "/Daisy v2/" ]
 info:
   summary: "Daisy"
   description: >
@@ -426,12 +426,12 @@ info:
 ---
 group: "girafe"
 name: "norway-maples"
-version: "1"
+version: "2"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Norway maples/" ]
+  include: [ "/Norway maples v2/" ]
 info:
   summary: "Norway maples"
   description: >
@@ -443,12 +443,12 @@ info:
 ---
 group: "girafe"
 name: "oaks"
-version: "1"
+version: "2"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Oaks/" ]
+  include: [ "/Oaks v2/" ]
 info:
   summary: "Oaks"
   description: >
@@ -510,12 +510,12 @@ info:
 ---
 group: "girafe"
 name: "rowan-trees"
-version: "1"
+version: "3"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Rowan trees/" ]
+  include: [ "/Rowan trees v3/" ]
 info:
   summary: "Rowan trees"
   description: >
@@ -526,15 +526,32 @@ info:
 
 ---
 group: "girafe"
-name: "serbian-spruces"
-version: "2"
+name: "serbian-spruces-v1"
+version: "1"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Serbian spruces/" ]
+  include: [ "/Serbian Spruces v1/" ]
 info:
-  summary: "Serbian spruces"
+  summary: "Serbian spruces (older BSC-TSC version)"
+  description: >
+    Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "serbian-spruces"
+version: "2-1"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Serbian spruces v2/" ]
+info:
+  summary: "Serbian spruces v2"
   description: >
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
@@ -578,12 +595,12 @@ info:
 ---
 group: "girafe"
 name: "vines"
-version: "1"
+version: "2"
 subfolder: "180-flora"
 dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
 assets:
 - assetId: "bsc-vip-girafe-flora-pack"
-  include: [ "/Vines/" ]
+  include: [ "/Vines v2/" ]
 info:
   summary: "Vines"
   description: >
@@ -605,6 +622,23 @@ info:
   summary: "Walnut trees"
   description: >
     Tree props and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Girafe"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+
+---
+group: "girafe"
+name: "wheat"
+version: "2"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "bsc-vip-girafe-flora-pack"
+  include: [ "/Wheat v2/" ]
+info:
+  summary: "Wheat"
+  description: >
+    Wheat props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
   website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
