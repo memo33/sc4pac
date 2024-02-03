@@ -1,0 +1,25 @@
+group: "simmaster07"
+name: "extra-cheats-dll"
+version: "1.1.1"
+subfolder: "150-mods"
+assets:
+- assetId: "simmaster07-extra-cheats-dll"
+
+info:
+  summary: "Enables additional cheat codes"
+  conflicts: "Incompatible with the macOS version of the game."
+  description: >
+    The extra cheats plugin adds many additional features to the game, such as the
+    ability to plop any building or lot at will, the ability to easily set how much
+    money is in your city's treasury and even the ability to add snow to your
+    terrains, as well as many other additional functions.
+
+    However, the cheat codes are primarily intended for testing purposes.
+  author: "simmaster07/nsgomez, Buggi"
+  website: "https://community.simtropolis.com/files/file/31350-simmasters-extra-cheats-dll/"
+
+---
+assetId: "simmaster07-extra-cheats-dll"
+version: "1.1.1"
+lastModified: "2020-06-05T05:32:22Z"
+url: "https://community.simtropolis.com/files/file/31350-simmasters-extra-cheats-dll/?do=download"

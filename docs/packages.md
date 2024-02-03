@@ -7,6 +7,7 @@ This list will be expanded as more packages are added to the metadata channel.
 ## Bugfixes
 
 * `pkg=memo:essential-fixes` (important fixes everyone should have – more to come)
+* `pkg=simmaster07:sc4fix` (DLL plugin fixing two notorious SC4 bugs)
 
 ## Residential
 
@@ -99,9 +100,7 @@ All of the BSC Common Dependencies, Girafe's flora, and many others.
 
 ## Other useful plugins
 
-- Install these manually:
-  [SC4Fix DLL](https://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/) and
-  [Extra Cheats DLL](https://community.simtropolis.com/files/file/31350-simmasters-extra-cheats-dll/).
+- `pkg=simmaster07:extra-cheats-dll` (additional cheat codes)
 - See also this
   [Guide for manually building a plugins folder](https://community.simtropolis.com/forums/topic/75599-indiana-joe-and-the-quest-for-the-ultimate-plugins-folder/).
 
