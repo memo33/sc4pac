@@ -160,6 +160,12 @@ The first channel has the highest priority when resolving dependencies.
 
 Build a channel locally by converting YAML files to JSON.
 
+!> On Windows, this command may require special privileges to run. To resolve this, either
+   run the command in a shell with administrator privileges, or
+   use Java 13+ and enable
+   [Windows Developer Mode](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development)
+   on your device.
+
 **Examples:**
 ```sh
 sc4pac channel build --output "channel/json/" "channel/yaml/"
