@@ -1,0 +1,20 @@
+group: "vip"
+name: "rural-pack"
+version: "2.0"
+subfolder: "180-flora"
+dependencies: [ "lowkee33:seasonal-flora-patch-maxis" ]
+assets:
+- assetId: "vip-rural-pack"
+info:
+  summary: "Seasonal ploppable plants and decorative elements"
+  description: >
+    This package contains a large collection of flora and mayor-mode ploppables (MMPs).
+    For fitting with other seasonal items, props need to be planted on the 1st of September.
+  author: "Manchou, Ben, R6, Girafe, Orange, Vnaoned, Badsim"
+  website: "https://community.simtropolis.com/files/file/26806-vip-rural-pack-v2/"
+
+---
+assetId: "vip-rural-pack"
+version: "2.0"
+lastModified: "2024-02-04T11:22:34Z"
+url: "https://community.simtropolis.com/files/file/26806-vip-rural-pack-v2/?do=download"

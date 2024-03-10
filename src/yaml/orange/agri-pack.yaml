@@ -1,0 +1,18 @@
+group: "orange"
+name: "agri-pack"
+version: "2.0"
+subfolder: "180-flora"
+assets:
+- assetId: "vip-orange-agri-pack"
+info:
+  summary: "Ploppable wheat harvesting props, tractors and agricultural machinery (VIP)"
+  description: >
+    This package contains props and mayor-mode ploppables (MMPs) related to wheat harvesting.
+  author: "Orange_o_"
+  website: "https://community.simtropolis.com/files/file/27906-vip-orange-agripack-v2/"
+
+---
+assetId: "vip-orange-agri-pack"
+version: "2.0"
+lastModified: "2024-02-04T01:34:59Z"
+url: "https://community.simtropolis.com/files/file/27906-vip-orange-agripack-v2/?do=download"
