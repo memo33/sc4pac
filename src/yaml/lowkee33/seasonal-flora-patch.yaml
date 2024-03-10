@@ -1,14 +1,15 @@
 # Apart from the Maxis variant, this patch is merged directly into the corresponding terrain mods.
+# For example: src/yaml/cycledogg/terrain-mods.yaml
 
 assetId: "lowkee33-seasonal-flora-patch"
-version: "1-1"
-lastModified: "2024-01-20T12:11:55Z"
+version: "2"
+lastModified: "2024-01-28T13:59:53-08:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=36:lk33-seasonalflorapatch"
 
 ---
 group: "lowkee33"
 name: "seasonal-flora-patch-maxis"
-version: "1-1"
+version: "2"
 subfolder: "050-early-mods"  # placed here so that other terrain mods can easily override it
 assets:
 - assetId: "lowkee33-seasonal-flora-patch"
