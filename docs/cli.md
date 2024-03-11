@@ -23,11 +23,19 @@ Package names are of the form `<group>:<package-name>`.
 ---
 ## update
 
-**Usage:** `sc4pac update`
+**Usage:** `sc4pac update [options]`
 
 Update all installed packages to their latest version and install any missing packages.
 
 In particular, this installs the explicitly added packages and, implicitly, all their dependencies.
+
+**Example:**
+```sh
+sc4pac update
+```
+
+**Options:**
+- `-y, --yes` Accept some default answers without asking, usually "yes"
 
 
 ---
@@ -188,9 +196,9 @@ sc4pac server --indent 2 --scope-root scopes/scope-1/
 ```
 
 **Options:**
-- `--port number`      (default: 51515)
-- `--indent number`    indentation of JSON responses (default: -1, no indentation)
-- `--scope-root path`  root directory containing `sc4pac-plugins.json` (default: current working directory), newly created if necessary; can be used for managing multiple different plugins folders
+- `--port <number>`      (default: 51515)
+- `--indent <number>`    indentation of JSON responses (default: -1, no indentation)
+- `--scope-root <path>`  root directory containing `sc4pac-plugins.json` (default: current working directory), newly created if necessary; can be used for managing multiple different plugins folders
 
 
 ---
