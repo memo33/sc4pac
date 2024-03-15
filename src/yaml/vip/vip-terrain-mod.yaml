@@ -8,12 +8,11 @@ group: "vip"
 name: "vip-terrain-mod-complete"
 version: "1"
 subfolder: "170-terrain"
-assets:
-- assetId: "vip-terrain-mod"
-  include:
-  - "/VIP Terrain Mod Textures/"
-  - "/VIP Terrain Mod Optional/"
-  - "/VIP Terrain Properties/"
+dependencies:
+- "vip:vip-terrain-mod-base"
+- "vip:vip-terrain-mod-beach"
+- "vip:vip-terrain-mod-rock"
+- "vip:vip-terrain-mod-water"
 info:
   summary: "VIP Terrain Mod - All Components"
   conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -21,7 +20,7 @@ info:
     Installs VIP Terrain Mod, including optional beach, rock, and water textures.
 
     This is an HD terrain mod, requiring the use of hardware rendering mode.
-  author: "Cédric"
+  author: "Badsim/Cédric"
   website: "https://www.sc4devotion.com/forums/index.php?topic=17728.0"
 
 ---
@@ -41,7 +40,7 @@ info:
     Installs only the base terrain textures for the VIP Terrain Mod, and does not include optional beach, rock, and water textures.
 
     This is an HD terrain mod, requiring the use of hardware rendering mode.
-  author: "Cédric"
+  author: "Badsim/Cédric"
   website: "https://www.sc4devotion.com/forums/index.php?topic=17728.0"
 
 ---
@@ -60,7 +59,7 @@ info:
     Optional beach textures for the VIP Terrain Mod.
 
     This is an HD terrain mod, requiring the use of hardware rendering mode.
-  author: "Cédric"
+  author: "Badsim/Cédric"
   website: "https://www.sc4devotion.com/forums/index.php?topic=17728.0"
 
 ---
@@ -79,7 +78,7 @@ info:
     Optional rock textures for the VIP Terrain Mod.
 
     This is an HD terrain mod, requiring the use of hardware rendering mode.
-  author: "Cédric"
+  author: "Badsim/Cédric"
   website: "https://www.sc4devotion.com/forums/index.php?topic=17728.0"
 
 ---
@@ -98,5 +97,5 @@ info:
     Optional water textures for the VIP Terrain Mod.
 
     This is an HD terrain mod, requiring the use of hardware rendering mode.
-  author: "Cédric"
+  author: "Badsim/Cédric"
   website: "https://www.sc4devotion.com/forums/index.php?topic=17728.0"
