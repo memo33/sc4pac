@@ -1,0 +1,20 @@
+group: "gn-leugim"
+name: "four-square-block"
+version: "1.0.0"
+subfolder: "200-residential"
+assets:
+- assetId: "gnl-eha-four-square-block"
+info:
+  summary: "Midsize European R$ apartment building (EHA) (EBLT)"
+  description: >
+    This building is part of the European House Add-on (EHA) project
+    which seamlessly integrates with Maxis buildings by extending the original building families.
+  conflicts: "Incompatible with mods blocking Maxis lots"
+  author: "Gn_Leugim"
+  website: "https://community.simtropolis.com/files/file/36160-eblt-gnl-eha-four-square-block/"
+
+---
+assetId: "gnl-eha-four-square-block"
+version: "1.0.0"
+lastModified: "2024-03-05T01:03:22Z"
+url: "https://community.simtropolis.com/files/file/36160-eblt-gnl-eha-four-square-block/?do=download"
