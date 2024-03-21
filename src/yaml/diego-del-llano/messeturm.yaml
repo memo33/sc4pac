@@ -1,0 +1,25 @@
+group: diego-del-llano
+name: messeturm
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Messeturm
+  description: >
+    The Messeturm, or Trade Fair Tower, is a 63-storey, 257 m (843 ft) skyscraper in the Westend-Süd district of Frankfurt, Germany.
+    It is the second tallest building in Frankfurt, the second tallest building in Germany and the third tallest building in the European Union.
+    It was the tallest building in Europe from its completion in 1991 until 1997 when it was surpassed by the Commerzbank Tower, which is also located in Frankfurt.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32845-messeturm/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-messeturm-darknite
+
+---
+assetId: diego-del-llano-messeturm-darknite
+version: 1.0.0
+lastModified: 2019-04-04T19:10:23Z
+url: https://community.simtropolis.com/files/file/32845-messeturm/?do=download
