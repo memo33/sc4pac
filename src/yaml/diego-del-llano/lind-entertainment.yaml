@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: lind-entertainment
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Lind Entertainment
+  description: >
+    Lind Entertainment is a Comercial Ofices Building created by the Maxis Team.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32100-lind-entertainment/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-lind-entertainment-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-lind-entertainment-maxisnite
+
+---
+assetId: diego-del-llano-lind-entertainment-darknite
+version: 1.0.0
+lastModified: 2018-02-01T15:07:03Z
+url: https://community.simtropolis.com/files/file/32100-lind-entertainment/?do=download&r=169900
+
+---
+assetId: diego-del-llano-lind-entertainment-maxisnite
+version: 1.0.0
+lastModified: 2018-02-01T15:07:03Z
+url: https://community.simtropolis.com/files/file/32100-lind-entertainment/?do=download&r=169899
