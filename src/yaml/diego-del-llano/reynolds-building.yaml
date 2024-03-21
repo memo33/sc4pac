@@ -1,0 +1,36 @@
+group: diego-del-llano
+name: reynolds-buidling
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Reynolds Building
+  description: >
+    The Reynolds Building is a 314-foot (96 m) Art Deco skyscraper at 51 E. 4th Street in Winston-Salem, Forsyth County, North Carolina with 313,996 square feet (29,171.2 m2) of space.
+    It was completed in 1929 and has 21 floors.For much of its history the building served as headquarters for R. J. Reynolds Tobacco Company.
+    After a sale to PMC Property Group in 2014, the building went through an estimated $60 million in renovations.
+    In March 2016, The Residences @ the R.J. Reynolds Building, apartments located on the top 11 floors, opened.
+    The first six floors opened as the Kimpton Cardinal Hotel in April. Katharine Brasserie & Bar, a restaurant named for Katharine Smith Reynolds, followed in May.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/35538-reynolds-buidling/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-reynolds-buidling-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-reynolds-buidling-maxisnite
+
+---
+assetId: diego-del-llano-reynolds-buidling-darknite
+version: 1.0.0
+lastModified: 2023-06-02T04:11:02Z
+url: https://community.simtropolis.com/files/file/35538-reynolds-buidling/?do=download&r=197154
+
+---
+assetId: diego-del-llano-reynolds-buidling-maxisnite
+version: 1.0.0
+lastModified: 2023-06-02T04:11:02Z
+url: https://community.simtropolis.com/files/file/35538-reynolds-buidling/?do=download&r=197155
