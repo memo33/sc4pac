@@ -1,0 +1,33 @@
+group: diego-del-llano
+name: stephens-inc
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Stephens Inc
+  description: >
+    Headquartered in Little Rock, Arkansas, Stephens Inc.
+    is a privately held, independent financial services firm.[1] As one of the largest privately owned investment banks in the country, Stephens has 25 offices worldwide and employs more than 700 people.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31802-stephens-inc/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-stephens-inc-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-stephens-inc-maxisnite
+
+---
+assetId: diego-del-llano-stephens-inc-darknite
+version: 1.0.0
+lastModified: 2017-06-21T15:28:10Z
+url: https://community.simtropolis.com/files/file/31802-stephens-inc/?do=download&r=167055
+
+---
+assetId: diego-del-llano-stephens-inc-maxisnite
+version: 1.0.0
+lastModified: 2017-06-21T15:28:10Z
+url: https://community.simtropolis.com/files/file/31802-stephens-inc/?do=download&r=167056
