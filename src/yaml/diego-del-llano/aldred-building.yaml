@@ -1,0 +1,34 @@
+group: diego-del-llano
+name: aldred-building
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Aldred Building
+  description: >
+    The Aldred Building (French: Édifice Aldred; also known as Édifice La Prévoyance) is an Art deco building on the historic Place d'Armes square in the Old Montreal quarter of Montreal, Quebec, Canada.
+
+    Completed in 1931, the building was designed by Ernest Isbell Barott, of the firm Barott and Blackader, with a height of 96 metres (316 ft) or 23 storeys.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/35610-aldred-building/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-aldred-building-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-aldred-building-maxisnite
+
+---
+assetId: diego-del-llano-aldred-building-darknite
+version: 1.0.0
+lastModified: 2023-09-05T00:32:23Z
+url: https://community.simtropolis.com/files/file/35610-aldred-building/?do=download&r=197553
+
+---
+assetId: diego-del-llano-aldred-building-maxisnite
+version: 1.0.0
+lastModified: 2023-09-05T00:32:23Z
+url: https://community.simtropolis.com/files/file/35610-aldred-building/?do=download&r=197554
