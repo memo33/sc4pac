@@ -1,0 +1,29 @@
+group: diego-del-llano
+name: ventura-place-two
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Ventura Place Two
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31458-ventura-place-two/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-ventura-place-two-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ventura-place-two-maxisnite
+
+---
+assetId: diego-del-llano-ventura-place-two-darknite
+version: 1.0.0
+lastModified: 2017-02-12T00:55:38Z
+url: https://community.simtropolis.com/files/file/31458-ventura-place-two/?do=download&r=164541
+
+---
+assetId: diego-del-llano-ventura-place-two-maxisnite
+version: 1.0.0
+lastModified: 2017-02-12T00:55:38Z
+url: https://community.simtropolis.com/files/file/31458-ventura-place-two/?do=download&r=164542

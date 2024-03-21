@@ -1,0 +1,33 @@
+group: diego-del-llano
+name: hotel-presidente-guadalajara
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Hotel Presidente Guadalajara
+  description: >
+    Hotel Presidente is located in Guadalajara, Mexico.
+    The composition of the building is not exactly as real life, I made some modifications.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31508-hotel-presidente-guadalajara/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-hotel-presidente-guadalajara-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-hotel-presidente-guadalajara-maxisnite
+
+---
+assetId: diego-del-llano-hotel-presidente-guadalajara-darknite
+version: 1.0.0
+lastModified: 2017-03-11T18:59:29Z
+url: https://community.simtropolis.com/files/file/31508-hotel-presidente-guadalajara/?do=download&r=164915
+
+---
+assetId: diego-del-llano-hotel-presidente-guadalajara-maxisnite
+version: 1.0.0
+lastModified: 2017-03-11T18:59:29Z
+url: https://community.simtropolis.com/files/file/31508-hotel-presidente-guadalajara/?do=download&r=164916

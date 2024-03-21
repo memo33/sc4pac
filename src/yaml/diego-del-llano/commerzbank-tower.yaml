@@ -1,0 +1,29 @@
+group: diego-del-llano
+name: commerzbank-tower
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Commerzbank Tower
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31516-commerzbank-tower/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-commerzbank-tower-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-commerzbank-tower-maxisnite
+
+---
+assetId: diego-del-llano-commerzbank-tower-darknite
+version: 1.0.0
+lastModified: 2017-03-16T15:27:17Z
+url: https://community.simtropolis.com/files/file/31516-commerzbank-tower/?do=download&r=165032
+
+---
+assetId: diego-del-llano-commerzbank-tower-maxisnite
+version: 1.0.0
+lastModified: 2017-03-16T15:27:17Z
+url: https://community.simtropolis.com/files/file/31516-commerzbank-tower/?do=download&r=165031

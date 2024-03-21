@@ -1,0 +1,34 @@
+group: diego-del-llano
+name: fountain-place
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Fountain Place
+  description: >
+    Fountain Place is a 60-story late-modernist skyscraper in downtown Dallas, Texas.
+
+    Standing at a structural height of 720 ft (220 m), it is the fifth-tallest building in Dallas,
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31088-fountain-place/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-fountain-place-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-fountain-place-maxisnite
+
+---
+assetId: diego-del-llano-fountain-place-darknite
+version: 1.0.0
+lastModified: 2016-05-15T18:17:16Z
+url: https://community.simtropolis.com/files/file/31088-fountain-place/?do=download&r=161802
+
+---
+assetId: diego-del-llano-fountain-place-maxisnite
+version: 1.0.0
+lastModified: 2016-05-15T18:17:16Z
+url: https://community.simtropolis.com/files/file/31088-fountain-place/?do=download&r=161803

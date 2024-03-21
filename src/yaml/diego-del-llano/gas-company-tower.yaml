@@ -1,0 +1,33 @@
+group: diego-del-llano
+name: gas-company-tower
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Gas Company Tower
+  description: >
+    Gas Company Tower is a 52-story, 228.3 m (749 ft) class-A office skyscraper on Bunker Hill in downtown Los Angeles, California.
+    Located on the north side of Fifth Street between Olive Street and Grand Avenue, across from the Biltmore Hotel, the building serves as the headquarters for the Southern California Gas Company, which vacated its previous offices on Eighth- and Flower-streets in 1991, and is home to the Los Angeles offices of Arent Fox and Sidley Austin.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31483-gas-company-tower/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-gas-company-tower-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-gas-company-tower-maxisnite
+
+---
+assetId: diego-del-llano-gas-company-tower-darknite
+version: 1.0.0
+lastModified: 2017-02-26T20:56:44Z
+url: https://community.simtropolis.com/files/file/31483-gas-company-tower/?do=download&r=164722
+
+---
+assetId: diego-del-llano-gas-company-tower-maxisnite
+version: 1.0.0
+lastModified: 2017-02-26T20:56:44Z
+url: https://community.simtropolis.com/files/file/31483-gas-company-tower/?do=download&r=164723

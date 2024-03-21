@@ -1,0 +1,29 @@
+group: diego-del-llano
+name: first-national-bank-tower
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: First National Bank Tower
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31467-first-national-bank-tower/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-first-national-bank-tower-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-first-national-bank-tower-maxisnite
+
+---
+assetId: diego-del-llano-first-national-bank-tower-darknite
+version: 1.0.0
+lastModified: 2017-02-17T08:07:36Z
+url: https://community.simtropolis.com/files/file/31467-first-national-bank-tower/?do=download&r=164628
+
+---
+assetId: diego-del-llano-first-national-bank-tower-maxisnite
+version: 1.0.0
+lastModified: 2017-02-17T08:07:36Z
+url: https://community.simtropolis.com/files/file/31467-first-national-bank-tower/?do=download&r=164629

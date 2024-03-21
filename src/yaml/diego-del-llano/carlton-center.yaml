@@ -1,0 +1,37 @@
+group: diego-del-llano
+name: carlton-center
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Carlton Center
+  description: >
+    The Carlton Centre is a skyscraper and shopping centre located in downtown Johannesburg, South Africa.
+    At 223 metres (732 ft), it has been the tallest office building in Africa since 1973.
+    The Carlton Centre has 50 floors.
+    The foundations of the two buildings in the complex are 5 m (16 ft) in diameter and extend 15 m (49 ft) down to the bedrock, 35 m (115 ft) below street level.
+    The building houses both offices and shops, and has over 46 per cent of the floor area below ground level.
+    The Carlton Centre is linked to the Carlton Hotel by a below-ground shopping centre with over 180 shops.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31478-carlton-center/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-carlton-center-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-carlton-center-maxisnite
+
+---
+assetId: diego-del-llano-carlton-center-darknite
+version: 1.0.0
+lastModified: 2017-02-22T18:06:49Z
+url: https://community.simtropolis.com/files/file/31478-carlton-center/?do=download&r=164684
+
+---
+assetId: diego-del-llano-carlton-center-maxisnite
+version: 1.0.0
+lastModified: 2017-02-22T18:06:49Z
+url: https://community.simtropolis.com/files/file/31478-carlton-center/?do=download&r=164685

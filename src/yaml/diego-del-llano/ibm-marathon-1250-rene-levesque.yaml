@@ -1,0 +1,38 @@
+group: diego-del-llano
+name: ibm-marathon
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Ibm Marathon
+  description: >
+    1250 René-Lévesque, also known as the IBM-Marathon Tower, is a 226 m (741 ft), 47-story skyscraper in Montreal,Quebec, Canada.
+    The building was designed by Kohn Pedersen Fox Associates for IBM Canada and Marathon Realty, hence the former name "IBM-Marathon".
+    It is now named for its address at 1250 René Lévesque Boulevard West, in the Ville-Marie borough of Downtown Montreal.
+    It is adjacent to the Bell Centre and Windsor Station to the south, and stands on the site of the former American Presbyterian Church.
+    It is connected to the Bonaventure metro station and the underground city network.
+
+    1250 is currently  owned and managed  by global real estate investor, developer and owner Oxford Properties and is still partially occupied by IBM.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-rené-lévesque/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-maxisnite
+
+---
+assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-darknite
+version: 1.0.0
+lastModified: 2017-03-14T23:49:13Z
+url: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-réne-lévesque/?do=download&r=164978
+
+---
+assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-maxisnite
+version: 1.0.0
+lastModified: 2017-03-14T23:49:13Z
+url: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-réne-lévesque/?do=download&r=164979

@@ -1,0 +1,37 @@
+group: diego-del-llano
+name: chanin-building
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Chanin Building
+  description: >
+    The Chanin Building is a brick and terra-cotta skyscraper located at 122 East 42nd Street, at the corner of Lexington Avenue, in Midtown Manhattan, New York City.
+    Built by Irwin S.
+    Chanin in 1929, it is 56 stories high, reaching 197.8 metres (649 ft) excluding the spire and 207.3 metres (680 ft) including it.
+    It was designed by Sloan & Robertson in the Art Deco style, with the assistance of Chanin's own architect Jacques Delamarre, and it incorporates architectural sculpture by Rene Paul Chambellan.
+
+    The building was designated a New York City landmark in 1978, and was added to the National Register of Historic Places in 1980.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31442-chanin-building/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-chanin-building-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-chanin-building-maxisnite
+
+---
+assetId: diego-del-llano-chanin-building-darknite
+version: 1.0.0
+lastModified: 2017-01-29T02:54:34Z
+url: https://community.simtropolis.com/files/file/31442-chanin-building/?do=download&r=164411
+
+---
+assetId: diego-del-llano-chanin-building-maxisnite
+version: 1.0.0
+lastModified: 2017-01-29T02:54:34Z
+url: https://community.simtropolis.com/files/file/31442-chanin-building/?do=download&r=164412
