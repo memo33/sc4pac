@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: van-prooijen-trading
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Van Prooijen Trading
+  description: >
+    Van Prooijen Trading is Comercial Ofices Buildin, the Heights is 200 m approximately.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32010-van-prooijen-trading/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-van-prooijen-trading-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-van-prooijen-trading-maxisnite
+
+---
+assetId: diego-del-llano-van-prooijen-trading-darknite
+version: 1.0.0
+lastModified: 2017-11-21T04:53:42Z
+url: https://community.simtropolis.com/files/file/32010-van-prooijen-trading/?do=download&r=169161
+
+---
+assetId: diego-del-llano-van-prooijen-trading-maxisnite
+version: 1.0.0
+lastModified: 2017-11-21T04:53:42Z
+url: https://community.simtropolis.com/files/file/32010-van-prooijen-trading/?do=download&r=169159
