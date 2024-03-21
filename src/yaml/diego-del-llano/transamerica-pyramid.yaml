@@ -1,0 +1,35 @@
+group: diego-del-llano
+name: transamerica-pyramid
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Transamerica Pyramid
+  description: >
+    The Transamerica Pyramid at 600 Montgomery Street between Clay and Washington Streets in the Financial District of San Francisco, California, is a 48-story postmodern building and the second-tallest skyscraper in the San Francisco skyline.
+    Its height will be surpassed by Salesforce Tower, currently under construction.The building no longer houses the headquarters of the Transamerica Corporation, which moved its U.S.
+    headquarters to Baltimore, Maryland, but it is still associated with the company and is depicted in the company's logo.
+    Designed by architect William Pereira and built by Hathaway Dinwiddie Construction Company, at 853 ft (260 m), on completion in 1972 it was the eighth tallest building in the world.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31861-transamerica-pyramid/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-transamerica-pyramid-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-transamerica-pyramid-maxisnite
+
+---
+assetId: diego-del-llano-transamerica-pyramid-darknite
+version: 1.0.0
+lastModified: 2021-11-10T10:43:24Z
+url: https://community.simtropolis.com/files/file/31861-transamerica-pyramid/?do=download&r=190482
+
+---
+assetId: diego-del-llano-transamerica-pyramid-maxisnite
+version: 1.0.0
+lastModified: 2021-11-10T10:43:24Z
+url: https://community.simtropolis.com/files/file/31861-transamerica-pyramid/?do=download&r=190483
