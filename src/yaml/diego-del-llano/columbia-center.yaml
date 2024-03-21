@@ -1,0 +1,40 @@
+group: diego-del-llano
+name: columbia-center
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Columbia Center
+  description: >
+    The Columbia Center, formerly named the Bank of America Tower and Columbia Seafirst Center, is a skyscraper in downtown Seattle, Washington.
+    The 76-story structure is the tallest building in Seattle and the state of Washington, reaching a height of 937 ft (286 m).
+    At the time of its completion, the Columbia Center was the tallest structure on the West Coast; as of 2017, it is the fourth-tallest, behind buildings in Los Angeles and San Francisco.
+
+    The Columbia Center, developed by Martin Selig and designed by Chester L.
+    Lindsey Architects, began construction in 1982 and was completed in 1985.
+    The building is primarily leased for class-A office spaces by various companies, with the lower floors including retail space and the upper floors including a public observatory and private club lounge.
+    The tower has the tallest public viewing area on the West Coast and west of the Mississippi.
+    It occupies most of the block bounded by Fourth and Fifth Avenues and Cherry and Columbia Streets.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31870-columbia-center/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-columbia-center-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-columbia-center-maxisnite
+
+---
+assetId: diego-del-llano-columbia-center-darknite
+version: 1.0.0
+lastModified: 2017-07-23T03:43:51Z
+url: https://community.simtropolis.com/files/file/31870-columbia-center/?do=download&r=167672
+
+---
+assetId: diego-del-llano-columbia-center-maxisnite
+version: 1.0.0
+lastModified: 2017-07-23T03:43:51Z
+url: https://community.simtropolis.com/files/file/31870-columbia-center/?do=download&r=167671
