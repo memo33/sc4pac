@@ -1,0 +1,40 @@
+group: diego-del-llano
+name: the-look-building
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: The Look Building
+  description: >
+    488 Madison Avenue, also known as the Look Building, is a 25-story office building in the Midtown Manhattan neighborhood of New York City.
+    It is along Madison Avenue's western sidewalk between 51st and 52nd Streets, near St. Patrick's Cathedral.
+    488 Madison Avenue was designed by Emery Roth & Sons in the International Style, and it was constructed and developed by Uris Brothers.
+    The building was originally named for its primary tenant, the American magazine Look.
+
+    The building largely contains a facade of white brick, interspersed with horizontal strips of aluminum windows.
+    The lowest two stories contain a main entrance on Madison Avenue as well as several glass-and-metal storefronts.
+    The three sides are connected by curved walls.
+    The exterior includes several setbacks to comply with the 1916 Zoning Resolution. Each of the building's stories contain an average floor area of 19,500 square feet (1,810 m2), a feature intended to maximize usable office space.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/35535-the-look-building/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-the-look-building-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-the-look-building-maxisnite
+
+---
+assetId: diego-del-llano-the-look-building-darknite
+version: 1.0.0
+lastModified: 2023-05-30T03:26:32Z
+url: https://community.simtropolis.com/files/file/35535-the-look-building/?do=download&r=197131
+
+---
+assetId: diego-del-llano-the-look-building-maxisnite
+version: 1.0.0
+lastModified: 2023-05-30T03:26:32Z
+url: https://community.simtropolis.com/files/file/35535-the-look-building/?do=download&r=197132
