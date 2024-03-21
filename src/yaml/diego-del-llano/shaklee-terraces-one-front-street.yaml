@@ -1,0 +1,29 @@
+group: diego-del-llano
+name: shaklee-terraces-one-front-street
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Shaklee Terraces One Front Street
+  description: >
+    One Front Street, also known as Shaklee Terraces, is an office skyscraper in the Financial District of San Francisco, California.
+    The 164 m (538 ft), 38-floor tower was completed in 1979.
+    The composition of the façade closely resembles that of the Shell Building by Emil Fahrenkamp, which was built in Berlin in 1931.
+    The Shaklee Corporation was once headquartered in the tower until the company moved to Pleasanton, California in 2000.
+    In 1999-2001 Scient Corporation, a dot-com era consulting firm, had its head office on the upper floors of the building, prior to its move to Market Street.
+
+    File content:
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32343-shaklee-terraces-one-front-street/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-shaklee-terraces-one-front-street-darknite
+
+---
+assetId: diego-del-llano-shaklee-terraces-one-front-street-darknite
+version: 1.0.0
+lastModified: 2018-07-01T16:07:02Z
+url: https://community.simtropolis.com/files/file/32343-shaklee-terraces-one-front-street/?do=download
