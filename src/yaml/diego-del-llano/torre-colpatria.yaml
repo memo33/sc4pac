@@ -1,0 +1,33 @@
+group: diego-del-llano
+name: torre-colpatria
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Torre Colpatria
+  description: >
+    High Rise, locted in the Capital city of Bogota, Colombia.
+    Height is 192 m.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31978-torre-colpatria/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-torre-colpatria-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torre-colpatria-maxisnite
+
+---
+assetId: diego-del-llano-torre-colpatria-darknite
+version: 1.0.0
+lastModified: 2017-10-17T04:46:49Z
+url: https://community.simtropolis.com/files/file/31978-torre-colpatria/?do=download&r=168980
+
+---
+assetId: diego-del-llano-torre-colpatria-maxisnite
+version: 1.0.0
+lastModified: 2017-10-17T04:46:49Z
+url: https://community.simtropolis.com/files/file/31978-torre-colpatria/?do=download&r=168981

@@ -1,0 +1,33 @@
+group: diego-del-llano
+name: ciudadela-san-martin-tower-one
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Ciudadela San Martin Tower One
+  description: >
+    High Rise, locted in the Capital city of Bogota, Colombia.
+    Height is 170 m.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31975-ciudadela-san-martin-tower-one/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-ciudadela-san-martin-tower-one-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ciudadela-san-martin-tower-one-maxisnite
+
+---
+assetId: diego-del-llano-ciudadela-san-martin-tower-one-darknite
+version: 1.0.0
+lastModified: 2017-10-15T00:41:05Z
+url: https://community.simtropolis.com/files/file/31975-ciudadela-san-martin-tower-one/?do=download&r=168956
+
+---
+assetId: diego-del-llano-ciudadela-san-martin-tower-one-maxisnite
+version: 1.0.0
+lastModified: 2017-10-15T00:41:05Z
+url: https://community.simtropolis.com/files/file/31975-ciudadela-san-martin-tower-one/?do=download&r=168957

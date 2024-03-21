@@ -1,0 +1,34 @@
+group: diego-del-llano
+name: one-liberty-place
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: One Liberty Place
+  description: >
+    Liberty Place is a skyscraper complex in Philadelphia, Pennsylvania, United States.
+    The complex is composed of a 61-story 945-foot (288 m) skyscraper called One Liberty Place, a 58-story 848-foot (258 m) skyscraper called Two Liberty Place, a two-story shopping mall called the Shops at Liberty Place, and the 14-story Westin Philadelphia Hotel.
+    Prior to the construction of Liberty Place, there was a "gentlemen's agreement" not to build any structure inCenter City higher than the statue of William Penn on top of Philadelphia City Hall
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31990-one-liberty-place/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-one-liberty-place-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-one-liberty-place-maxisnite
+
+---
+assetId: diego-del-llano-one-liberty-place-darknite
+version: 1.0.0
+lastModified: 2017-10-26T02:55:24Z
+url: https://community.simtropolis.com/files/file/31990-one-liberty-place/?do=download&r=169048
+
+---
+assetId: diego-del-llano-one-liberty-place-maxisnite
+version: 1.0.0
+lastModified: 2017-10-26T02:55:24Z
+url: https://community.simtropolis.com/files/file/31990-one-liberty-place/?do=download&r=169049
