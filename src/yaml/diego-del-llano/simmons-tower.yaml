@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: simmons-tower
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Simmons Tower
+  description: >
+
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31654-simmons-tower/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-simmons-tower-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-simmons-tower-maxisnite
+
+---
+assetId: diego-del-llano-simmons-tower-darknite
+version: 1.0.0
+lastModified: 2017-05-24T04:13:57Z
+url: https://community.simtropolis.com/files/file/31654-simmons-tower/?do=download&r=165972
+
+---
+assetId: diego-del-llano-simmons-tower-maxisnite
+version: 1.0.0
+lastModified: 2017-05-24T04:13:57Z
+url: https://community.simtropolis.com/files/file/31654-simmons-tower/?do=download&r=165971

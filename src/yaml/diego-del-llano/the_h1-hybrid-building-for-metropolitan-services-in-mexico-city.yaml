@@ -1,0 +1,30 @@
+group: diego-del-llano
+name: the-h1-hybrid-building-for-metropolitan-services-in-mexico-city
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: The h1 Hybrid Building For Metropolitan Services In Mexico City
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31568-the_h1-hybrid-building-for-metropolitan-services-in-mexico-city/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-the-h1-hybrid-building-for-metropolitan-services-in-mexico-city-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-the-h1-hybrid-building-for-metropolitan-services-in-mexico-city-maxisnite
+
+---
+assetId: diego-del-llano-the-h1-hybrid-building-for-metropolitan-services-in-mexico-city-darknite
+version: 1.0.0
+lastModified: 2017-04-16T03:44:10Z
+url: https://community.simtropolis.com/files/file/31568-the_h1-hybrid-building-for-metropolitan-services-in-mexico-city/?do=download&r=165383
+
+---
+assetId: diego-del-llano-the-h1-hybrid-building-for-metropolitan-services-in-mexico-city-maxisnite
+version: 1.0.0
+lastModified: 2017-04-16T03:44:10Z
+url: https://community.simtropolis.com/files/file/31568-the_h1-hybrid-building-for-metropolitan-services-in-mexico-city/?do=download&r=165382
