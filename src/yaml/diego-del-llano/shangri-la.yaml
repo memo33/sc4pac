@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: shangri-la
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Shangri La
+  description: >
+    This Luxurius beach front condos, are located in Puerto Vallarta , Mexico, my Hometown, the height is 262 ft, (80 meters).
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31841-shangri-la/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-shangri-la-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-shangri-la-maxisnite
+
+---
+assetId: diego-del-llano-shangri-la-darknite
+version: 1.0.0
+lastModified: "2017-07-12T15:40:16Z"
+url: https://community.simtropolis.com/files/file/31841-shangri-la/?do=download&r=167483
+
+---
+assetId: diego-del-llano-shangri-la-maxisnite
+version: 1.0.0
+lastModified: "2017-07-12T15:40:16Z"
+url: https://community.simtropolis.com/files/file/31841-shangri-la/?do=download&r=167484
