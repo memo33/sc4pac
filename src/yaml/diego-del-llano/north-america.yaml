@@ -12,6 +12,7 @@ info:
 
 dependencies: [
   "diego-del-llano:new-york",
+  "diego-del-llano:chicago",
   "diego-del-llano:345-california-center",
   "diego-del-llano:555-california-street-bank-of-america-center",
   "diego-del-llano:aldred-building",
@@ -23,7 +24,6 @@ dependencies: [
   "diego-del-llano:comcast-center",
   "diego-del-llano:denver-art-museum",
   "diego-del-llano:denver-place",
-  "diego-del-llano:federal-center-chicago",
   "diego-del-llano:first-national-bank-tower",
   "diego-del-llano:fountain-place",
   "diego-del-llano:gas-company-tower",
@@ -31,10 +31,8 @@ dependencies: [
   "diego-del-llano:hotel-embassy-indianapolis",
   "diego-del-llano:hotel-nikko-san-francisco",
   "diego-del-llano:ibm-marathon",
-  "diego-del-llano:john-hancock-center",
   "diego-del-llano:john-hancock-tower",
   "diego-del-llano:lasalle-wacker-building",
-  "diego-del-llano:olympia-centre",
   "diego-del-llano:one-cleveland-center",
   "diego-del-llano:one-kansas-city-place",
   "diego-del-llano:one-liberty-place",
@@ -54,10 +52,6 @@ dependencies: [
   "diego-del-llano:stephens-inc",
   "diego-del-llano:transamerica-pyramid",
   "diego-del-llano:two-liberty-place",
-  "diego-del-llano:two-prudential-plaza",
   "diego-del-llano:us-bank-library-tower",
-  "diego-del-llano:water-tower-place",
   "diego-del-llano:wells-fargo-center-denver",
-  "diego-del-llano:willis-tower",
-  "diego-del-llano:willoughby-tower"
 ]
