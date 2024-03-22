@@ -1,0 +1,32 @@
+group: nybt
+name: essentials
+version: 1.1.0
+subfolder: 100-props-textures
+
+info:
+  summary: Query windows for NYBT bats
+  description: >
+    This is the NYBT essentials pack for many upcoming releases.
+    It contains query windows - standard NYBT query windows for most common building types and a special 9/11 query.
+    The essentials will be modified and improved when needed.
+  author: "Gwail, NYBT"
+  website: https://community.simtropolis.com/files/file/22916-nybt-essentials/
+
+variants:
+  - variant: { "NYBT.skyline": standard }
+    assets:
+      - assetId: nybt-essentials
+        include: 
+          - "/NYBT_essentials.dat"
+  - variant: { "NYBT.skyline": new }
+    assets:
+      - assetId: nybt-essentials
+        include:
+          - "/NYBT_essentials.dat"
+          - "/zz_NYBT_essentials_new_skyline.dat"
+
+---
+assetId: nybt-essentials
+version: 1.1.0
+lastModified: "2011-06-24T08:00:57Z"
+url: https://community.simtropolis.com/files/file/22916-nybt-essentials/?do=download
