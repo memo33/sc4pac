@@ -1,0 +1,56 @@
+group: diego-del-llano
+name: capella-tower-225-south-sixth
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Capella Tower (225 South Sixth)
+  description: >
+    Capella Tower (also 225 South Sixth) is a skyscraper in Minneapolis, Minnesota, United States.
+    The building opened in 1992 with the First Bank Place being the headquarters for First Bank System.
+    In 1997, First Bank System acquired US Bancorp and changed the name of the building to US Bancorp Place.
+    The headquarters of US Bancorp moved into the US Bancorp Center in 2000, whereupon the tower changed to 225 South 6th Street.
+    In March 2009, the building took its present name.
+
+    The ranking of the building as the tallest in Minneapolis is in dispute.
+    The IDS Center is usually said to be taller by one foot, even by the owners of Capella Tower.
+    It was initially said to be built one foot shorter out of respect for the IDS Center; however, in 2005, it was revealed that contractors had surreptitiously added 14 inches (36 centimeters) of height to Capella, therefore making it taller than the main roof of IDS Center.
+    In February 2005, the IDS counted a 16-foot-tall (5-meter) window washing garage built on its roof in 1979 as part of its actual height, making it 14 ft (4.3 m) taller than Capella Tower.
+    This ambiguity between official measurements and public relations statements might be due in some part to the "halo" that extends out from the roof, which is apparently included in the building's official height (though this is unclear).
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31464-capella-tower-225-south-sixth/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-capella-tower-225-south-sixth-darknite
+      - assetId: diego-del-llano-capella-tower-225-south-sixth-2-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-capella-tower-225-south-sixth-maxisnite
+      - assetId: diego-del-llano-capella-tower-225-south-sixth-2-maxisnite
+
+---
+assetId: diego-del-llano-capella-tower-225-south-sixth-darknite
+version: 1.0.0
+lastModified: "2017-02-15T07:21:15Z"
+url: https://community.simtropolis.com/files/file/31464-capella-tower-225-south-sixth/?do=download&r=164615
+
+---
+assetId: diego-del-llano-capella-tower-225-south-sixth-2-darknite
+version: 1.0.0
+lastModified: "2017-02-15T07:21:15Z"
+url: https://community.simtropolis.com/files/file/31464-capella-tower-225-south-sixth/?do=download&r=164613
+
+---
+assetId: diego-del-llano-capella-tower-225-south-sixth-maxisnite
+version: 1.0.0
+lastModified: "2017-02-15T07:21:15Z"
+url: https://community.simtropolis.com/files/file/31464-capella-tower-225-south-sixth/?do=download&r=164616
+
+---
+assetId: diego-del-llano-capella-tower-225-south-sixth-2-maxisnite
+version: 1.0.0
+lastModified: "2017-02-15T07:21:15Z"
+url: https://community.simtropolis.com/files/file/31464-capella-tower-225-south-sixth/?do=download&r=164614
