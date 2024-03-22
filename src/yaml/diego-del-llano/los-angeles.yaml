@@ -1,0 +1,16 @@
+group: diego-del-llano
+name: los-angeles
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Diego Del Llano's Los Angeles collection
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file
+
+dependencies: [
+  "diego-del-llano:aon-center",
+  "diego-del-llano:citigroup-center-los-angeles",
+  "diego-del-llano:gas-company-tower",
+  "diego-del-llano:santa-monica-clock-tower",
+  "diego-del-llano:us-bank-library-tower",
+]
