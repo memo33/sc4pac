@@ -1,0 +1,22 @@
+group: diego-del-llano
+name: renaissance-tower-sacramento
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Renaissance Tower Sacramento
+  description: >
+    Renaissance Tower is a 113 m (371 ft) skyscraper in Sacramento, California, completed in 1989.
+    The 28 story tower was the tallest in the city when completed, and is now the fifth.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31038-renaissance-tower-sacramento/
+
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-renaissance-tower-sacramento
+
+---
+assetId: diego-del-llano-renaissance-tower-sacramento
+version: 1.0.0
+lastModified: "2016-04-18T22:43:59Z"
+url: https://community.simtropolis.com/files/file/31038-renaissance-tower-sacramento/?do=download
