@@ -1,0 +1,43 @@
+group: diego-del-llano
+name: ciudadela-san-martin
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Ciudadela San Martin
+  description: >
+    High Rise, locted in the Capital city of Bogota, Colombia.
+    Height is 170 m.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/
+
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-ciudadela-san-martin-north-darknite
+  - assetId: diego-del-llano-ciudadela-san-martin-north-mall-darknite
+  - assetId: diego-del-llano-ciudadela-san-martin-south-darknite
+  - assetId: diego-del-llano-ciudadela-san-martin-complete-darknite
+
+---
+assetId: diego-del-llano-ciudadela-san-martin-north-darknite
+version: 1.0.0
+lastModified: "2018-10-13T19:40:36Z"
+url: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/?do=download&r=173133
+
+---
+assetId: diego-del-llano-ciudadela-san-martin-north-mall-darknite
+version: 1.0.0
+lastModified: "2018-10-13T19:40:36Z"
+url: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/?do=download&r=173134
+
+---
+assetId: diego-del-llano-ciudadela-san-martin-south-darknite
+version: 1.0.0
+lastModified: "2018-10-13T19:40:36Z"
+url: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/?do=download&r=173135
+
+---
+assetId: diego-del-llano-ciudadela-san-martin-complete-darknite
+version: 1.0.0
+lastModified: "2018-10-13T19:40:36Z"
+url: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/?do=download&r=173136
