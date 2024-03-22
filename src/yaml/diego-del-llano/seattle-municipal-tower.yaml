@@ -1,0 +1,49 @@
+group: diego-del-llano
+name: seattle-municipal-tower
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Seattle Municipal Tower
+  description: >
+    Seattle Municipal Tower is a 62-story, 220.07 m (722.0 ft) skyscraper at 700 5th Avenue at the corner of 5th Avenue and Columbia Street in downtown Seattle, Washington.
+    It is the fourth tallest building in Seattle.
+    At its completion in 1990, the building was named AT&T Gateway Tower and later changed to Key Bank Tower reflecting the names of former anchor tenants AT&T and Key Bank.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-seattle-municipal-tower-darknite
+      - assetId: diego-del-llano-seattle-municipal-tower-no-plaza-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-seattle-municipal-tower-maxisnite
+      - assetId: diego-del-llano-seattle-municipal-tower-no-plaza-maxisnite
+
+---
+assetId: diego-del-llano-seattle-municipal-tower-darknite
+version: 1.0.0
+lastModified: "2016-02-18T04:57:45Z"
+url: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/?do=download&r=160764
+
+---
+assetId: diego-del-llano-seattle-municipal-tower-no-plaza-darknite
+version: 1.0.0
+lastModified: "2016-02-18T04:57:45Z"
+url: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/?do=download&r=160766
+
+---
+assetId: diego-del-llano-seattle-municipal-tower-maxisnite
+version: 1.0.0
+lastModified: "2016-02-18T04:57:45Z"
+url: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/?do=download&r=160763
+
+
+---
+assetId: diego-del-llano-seattle-municipal-tower-no-plaza-maxisnite
+version: 1.0.0
+lastModified: "2016-02-18T04:57:45Z"
+url: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/?do=download&r=160765
