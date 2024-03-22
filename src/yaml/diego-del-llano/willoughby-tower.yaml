@@ -20,11 +20,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/33149-willoughby-tower/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-willoughby-tower-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-willoughby-tower-darknite
 
 ---
 assetId: diego-del-llano-willoughby-tower-darknite

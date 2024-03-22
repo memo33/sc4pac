@@ -28,11 +28,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31913-one-world-trade-center/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-one-world-trade-center-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-one-world-trade-center-darknite
 
 ---
 assetId: diego-del-llano-one-world-trade-center-darknite

@@ -10,11 +10,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32678-midtown-jalisco/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-midtown-jalisco-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-midtown-jalisco-darknite
 
 ---
 assetId: diego-del-llano-midtown-jalisco-darknite

@@ -13,11 +13,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32928-ralph-d-turlington-florida-education-center/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-ralph-d-turlington-florida-education-center-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-ralph-d-turlington-florida-education-center-darknite
 
 ---
 assetId: diego-del-llano-ralph-d-turlington-florida-education-center-darknite

@@ -12,11 +12,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32845-messeturm/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-messeturm-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-messeturm-darknite
 
 ---
 assetId: diego-del-llano-messeturm-darknite

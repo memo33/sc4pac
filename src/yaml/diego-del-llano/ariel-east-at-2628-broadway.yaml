@@ -15,11 +15,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32960-ariel-east-at-2628-broadway/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-ariel-east-at-2628-broadway-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-ariel-east-at-2628-broadway-darknite
 
 ---
 assetId: diego-del-llano-ariel-east-at-2628-broadway-darknite

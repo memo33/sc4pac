@@ -12,11 +12,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32323-water-tower-place/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-water-tower-place-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-water-tower-place-darknite
 
 ---
 assetId: diego-del-llano-water-tower-place-darknite

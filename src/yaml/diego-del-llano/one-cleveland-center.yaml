@@ -14,11 +14,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32931-one-cleveland-center/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-one-cleveland-center-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-one-cleveland-center-darknite
 
 ---
 assetId: diego-del-llano-one-cleveland-center-darknite

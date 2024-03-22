@@ -17,11 +17,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/33081-two-prudential-plaza/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-two-prudential-plaza-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-two-prudential-plaza-darknite
 
 ---
 assetId: diego-del-llano-two-prudential-plaza-darknite

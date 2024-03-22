@@ -14,11 +14,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32343-shaklee-terraces-one-front-street/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-shaklee-terraces-one-front-street-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-shaklee-terraces-one-front-street-darknite
 
 ---
 assetId: diego-del-llano-shaklee-terraces-one-front-street-darknite

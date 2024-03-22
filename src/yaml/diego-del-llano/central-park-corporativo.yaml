@@ -10,11 +10,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32854-central-park-corporativo/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-central-park-corporativo-darknite
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-central-park-corporativo-darknite
 
 ---
 assetId: diego-del-llano-central-park-corporativo-darknite

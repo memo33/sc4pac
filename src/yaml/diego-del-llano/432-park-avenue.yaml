@@ -17,11 +17,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32319-432-park-avenue/
 
-variants:
-  - variant: { nightmode: dark }
-    dependencies: ["simfox:day-and-nite-mod"]
-    assets:
-      - assetId: diego-del-llano-432-park-avenue
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-432-park-avenue
 
 ---
 assetId: diego-del-llano-432-park-avenue
