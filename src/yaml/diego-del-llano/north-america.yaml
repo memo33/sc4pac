@@ -13,7 +13,6 @@ info:
 dependencies: [
   "diego-del-llano:new-york",
   "diego-del-llano:345-california-center",
-  "diego-del-llano:432-park-avenue",
   "diego-del-llano:555-california-street-bank-of-america-center",
   "diego-del-llano:aldred-building",
   "diego-del-llano:aon-center",
