@@ -9,7 +9,7 @@ and consists of *assets* and *packages*, as defined below.
 
 ## Assets
 
-An asset is a ZIP file that can be downloaded from the file exchanges.
+An asset is usually a ZIP file that can be downloaded from the file exchanges.
 An asset cannot be installed directly by users of *sc4pac*, but it can provide files for one or multiple installable packages.
 
 The metadata of an asset is defined by the following properties.
@@ -35,7 +35,9 @@ url: "https://community.simtropolis.com/files/file/32812-hogwarts-castle/?do=dow
 Conventions:
 - Unnecessary query parameters should be removed, such as categories `&catid=26` or other tokens `&confirm=1&t=1&csrfKey=5c0b12346fafafbbbac8ffa45466559a`.
 - SC4Evermore URLs should include `www.` as part of their domain.
-- The ZIP files may contain nested ZIP files, JAR files, 7z files or NSIS exe installer files.
+- Apart from ZIP files, other supported archive formats are 7z, JAR, RAR and NSIS exe installers.
+- Assets may also contain one layer of nested ZIP or other archive files.
+- Instead of being wrapped in a ZIP file, assets may also consist of a single DBPF file or DLL file.
 
 ### `assetId`
 
@@ -107,7 +109,7 @@ name: "hogwarts-castle"
 Conventions:
 - lowercase, alphanumeric, hyphenated, no special characters
 - Do not include the `group` within the name itself
-- Keep it short and memorable, while unambigously making clear which upload it refers to.
+- Keep it short and memorable, while unambiguously making clear which upload it refers to.
 
 The unique identifier of a package is of the form `<group>:<name>`, such as `dumbledore:hogwarts-castle`.
 
