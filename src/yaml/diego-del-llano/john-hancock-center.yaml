@@ -1,0 +1,27 @@
+group: diego-del-llano
+name: john-hancock-center
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: John Hancock Center
+  description: >
+    The John Hancock Center is a 100-story, 1,127-foot, (344 m) supertall skyscraper at 875 North Michigan Avenue,Chicago, Illinois, United States.
+    It was constructed under the supervision of Skidmore, Owings and Merrill,with chief designer Bruce Graham and structural engineer Fazlur Khan.
+    When the building topped out on May 6, 1968, it was the tallest building in the world outside New York City.
+    It is currently the fourth-tallest building in Chicago and theseventh-tallest in the United States, after One World Trade Center, the Willis Tower, the Trump Tower Chicago, theEmpire State Building, the Bank of America Tower, and the Aon Center.
+    When measured to the top of its antenna masts, it stands at 1,506 feet (459 m).
+    The building is home to offices and restaurants, as well as about 700condominiums, and contains the third highest residence in the world, after the Trump Tower in Chicago and the Burj Khalifa in Dubai.
+    The building was named for John Hancock Mutual Life Insurance Company, a developer and original tenant of the building, and has the nickname "Big John".
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/30952-john-hancock-center/
+
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-john-hancock-center
+
+---
+assetId: diego-del-llano-john-hancock-center
+version: 1.0.0
+lastModified: "2016-02-15T15:57:26Z"
+url: https://community.simtropolis.com/files/file/30952-john-hancock-center/?do=download

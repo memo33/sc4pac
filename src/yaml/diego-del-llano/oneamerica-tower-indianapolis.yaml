@@ -1,0 +1,26 @@
+group: diego-del-llano
+name: oneamerica-tower-indianapolis
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Oneamerica Tower Indianapolis
+  description: >
+    The OneAmerica Tower is a 38-story building at 200 North Illinois Street in downtown Indianapolis, Indiana.
+    It is used by various companies for offices.
+    The building opened in 1982 and is faced with Indiana limestone.
+    From 1982 to 1990, the OneAmerica Tower was the tallest building in the state of Indiana.
+    On the 36th floor there is a private restaurant named "The Skyline Club".
+    The OneAmerica Tower is the 2nd tallest building in Indianapolis behind only the Chase Tower.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/30946-oneamerica-tower-indianapolis/
+
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-oneamerica-tower-indianapolis
+
+---
+assetId: diego-del-llano-oneamerica-tower-indianapolis
+version: 1.0.0
+lastModified: "2016-02-10T18:43:36Z"
+url: https://community.simtropolis.com/files/file/30946-oneamerica-tower-indianapolis/?do=download

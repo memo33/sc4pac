@@ -1,0 +1,27 @@
+group: diego-del-llano
+name: denver-art-museum
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Denver Art Museum: Frederic C Hamilton Building
+  description: >
+    The Frederic C. Hamilton Building holds the Modern and Contemporary art collection, along with the Architecture and Design collection, and Oceanic art collection.
+    The unique building also serves as the main entrance to the rest of the museum complex.[8]This ambitious project doubled the size of the museum, allowing for an expansion of the art on view, inside a bold aesthetic facade.
+
+    The complex deconstructivist geometric design of the Hamilton building consists 20 sloping planes, covered in 230,000 square feet of titanium shingles.
+    The angular design juts in many directions, supported by a 2,740-ton structure that contains more than 3,100 pieces of steel.
+    One of the angled elements extends 100 feet (30 m) over the street below.
+    None of the 20 planes is parallel or perpendicular to another.[9]
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/30964-denver-art-museum-frederic-c-hamilton-building/
+
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-denver-art-museum-frederic-c-hamilton-building
+
+---
+assetId: diego-del-llano-denver-art-museum-frederic-c-hamilton-building
+version: 1.0.0
+lastModified: "2016-02-23T01:33:33Z"
+url: https://community.simtropolis.com/files/file/30964-denver-art-museum-frederic-c-hamilton-building/?do=download
