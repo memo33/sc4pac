@@ -1,0 +1,72 @@
+group: diego-del-llano
+name: north-america
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: North American part of Diego Del Llano's collection
+  description: >
+    Contains the North American part of Diego Del Llano's collection, excluding Mexico.
+    Mexico can be found in the Latin American counterpart.
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file
+
+dependencies: [
+  "diego-del-llano:345-california-center",
+  "diego-del-llano:432-park-avenue",
+  "diego-del-llano:555-california-street-bank-of-america-center",
+  "diego-del-llano:aldred-building",
+  "diego-del-llano:aon-center",
+  "diego-del-llano:ariel-east-at-2628-broadway",
+  "diego-del-llano:capella-tower-225-south-sixth",
+  "diego-del-llano:centurylink-tower-denver",
+  "diego-del-llano:chanin-building",
+  "diego-del-llano:citigroup-center-los-angeles",
+  "diego-del-llano:citigroup-center-new-york",
+  "diego-del-llano:columbia-center",
+  "diego-del-llano:comcast-center",
+  "diego-del-llano:denver-art-museum",
+  "diego-del-llano:denver-place",
+  "diego-del-llano:federal-center-chicago",
+  "diego-del-llano:first-national-bank-tower",
+  "diego-del-llano:fountain-place",
+  "diego-del-llano:gas-company-tower",
+  "diego-del-llano:great-american-tower-at-queen-city-square",
+  "diego-del-llano:hotel-embassy-indianapolis",
+  "diego-del-llano:hotel-nikko-san-francisco",
+  "diego-del-llano:ibm-marathon",
+  "diego-del-llano:john-hancock-center",
+  "diego-del-llano:john-hancock-tower",
+  "diego-del-llano:lasalle-wacker-building",
+  "diego-del-llano:nelson-tower-450-fashion-ave",
+  "diego-del-llano:olympia-centre",
+  "diego-del-llano:one-chase-manhattan-plaza",
+  "diego-del-llano:one-cleveland-center",
+  "diego-del-llano:one-kansas-city-place",
+  "diego-del-llano:one-liberty-place",
+  "diego-del-llano:one-metropolitan-square",
+  "diego-del-llano:one-shell-plaza",
+  "diego-del-llano:one-shell-square",
+  "diego-del-llano:one-world-trade-center",
+  "diego-del-llano:oneamerica-tower-indianapolis",
+  "diego-del-llano:ralph-d-turlington-florida-education-center",
+  "diego-del-llano:regions-center",
+  "diego-del-llano:renaissance-tower-sacramento",
+  "diego-del-llano:reynolds-building",
+  "diego-del-llano:salesforce-tower",
+  "diego-del-llano:santa-monica-clock-tower",
+  "diego-del-llano:seattle-municipal-tower",
+  "diego-del-llano:shaklee-terraces-one-front-street",
+  "diego-del-llano:simmons-tower",
+  "diego-del-llano:stephens-inc",
+  "diego-del-llano:the-look-building",
+  "diego-del-llano:times-square-building-diagonal",
+  "diego-del-llano:times-square-building",
+  "diego-del-llano:transamerica-pyramid",
+  "diego-del-llano:two-liberty-place",
+  "diego-del-llano:two-prudential-plaza",
+  "diego-del-llano:us-bank-library-tower",
+  "diego-del-llano:water-tower-place",
+  "diego-del-llano:wells-fargo-center-denver",
+  "diego-del-llano:willis-tower",
+  "diego-del-llano:willoughby-tower"
+]
