@@ -1,0 +1,17 @@
+group: diego-del-llano
+name: san-francisco
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Diego Del Llano's San Francisco collection
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file
+
+dependencies: [
+  "diego-del-llano:345-california-center",
+  "diego-del-llano:555-california-street-bank-of-america-center",
+  "diego-del-llano:hotel-nikko-san-francisco",
+  "diego-del-llano:salesforce-tower",
+  "diego-del-llano:shaklee-terraces-one-front-street",
+  "diego-del-llano:transamerica-pyramid",
+]
