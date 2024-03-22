@@ -1,0 +1,21 @@
+group: diego-del-llano
+name: new-york
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Diego Del Llano's New York City collection
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file
+
+dependencies: [
+  "diego-del-llano:432-park-avenue",
+  "diego-del-llano:ariel-east-at-2628-broadway",
+  "diego-del-llano:chanin-building",
+  "diego-del-llano:citigroup-center-new-york",
+  "diego-del-llano:nelson-tower-450-fashion-ave",
+  "diego-del-llano:one-chase-manhattan-plaza",
+  "diego-del-llano:one-world-trade-center",
+  "diego-del-llano:the-look-building",
+  "diego-del-llano:times-square-building-diagonal",
+  "diego-del-llano:times-square-building"
+]
