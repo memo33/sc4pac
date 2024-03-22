@@ -1,0 +1,23 @@
+group: diego-del-llano
+name: great-american-tower-at-queen-city-square
+version: 1.0.0
+subfolder: 300-commercial
+info:
+  summary: Great American Tower At Queen City Square
+  description: >
+    The Great American Tower at Queen City Square, is a 41-story, 665-foot-tall (203 m), skyscraper in Cincinnati, Ohio.
+    The tower, built by Western & Southern Financial Group, began construction in July 2008 and opened in January 2011 Half the building is occupied by the headquarters of the Great American Insurance Company.
+    It is currently the third tallest building in the state of Ohio.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/30994-great-american-tower-at-queen-city-square/
+
+dependencies: ["simfox:day-and-nite-mod"]
+assets:
+  - assetId: diego-del-llano-great-american-tower-at-queen-city-square
+
+---
+assetId: diego-del-llano-great-american-tower-at-queen-city-square
+version: 1.0.0
+lastModified: "2016-03-14T06:06:37Z"
+url: https://community.simtropolis.com/files/file/30994-great-american-tower-at-queen-city-square/?do=download
