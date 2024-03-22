@@ -4,6 +4,9 @@ version: 1.0.0
 subfolder: 300-commercial
 info:
   summary: One Metropolitan Square
+  description: >
+    One Metropolitan Square, also known as Met Square, is a skyscraper completed in 1989 in downtown St. Louis, Missouri.
+    At 180.7 m (593 ft), it is the tallest building in the city, and second tallest building in Missouri behind One Kansas City Place in Kansas City.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31470-one-metropolitan-square/
 
