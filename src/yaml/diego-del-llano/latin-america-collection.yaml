@@ -1,9 +1,9 @@
 group: diego-del-llano
-name: latin-america
+name: latin-america-collection
 version: 1.0.0
 subfolder: 360-landmark
 info:
-  summary: Latin American part of Diego Del Llano's collection
+  summary: Latin American part of Diego Del Llano's landmarks collection
   description: >
     Contains the Latin American part of Diego Del Llano's collection, including Mexico.
   author: Diego Del Llano
@@ -13,8 +13,8 @@ dependencies: [
   "diego-del-llano:bd-bacata",
   "diego-del-llano:central-park-corporativo",
   "diego-del-llano:cititower-guadalajara",
-  "diego-del-llano:ciudadela-san-martin-tower-one",
   "diego-del-llano:ciudadela-san-martin",
+  "diego-del-llano:ciudadela-san-martin-tower-one",
   "diego-del-llano:distrito-armenia",
   "diego-del-llano:edificio-alas",
   "diego-del-llano:edificio-avianca",

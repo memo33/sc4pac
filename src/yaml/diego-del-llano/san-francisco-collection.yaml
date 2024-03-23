@@ -1,9 +1,9 @@
 group: diego-del-llano
-name: san-francisco
+name: san-francisco-collection
 version: 1.0.0
 subfolder: 360-landmark
 info:
-  summary: Diego Del Llano's San Francisco collection
+  summary: Diego Del Llano's San Francisco landmarks collection
   author: Diego Del Llano
   website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file
 
