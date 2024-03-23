@@ -13,9 +13,11 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32782-555-california-street-bank-of-america-center/
 
-dependencies: ["simfox:day-and-nite-mod"]
-assets:
-  - assetId: diego-del-llano-555-california-street-bank-of-america-center-darknite
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-555-california-street-bank-of-america-center-darknite
 
 ---
 assetId: diego-del-llano-555-california-street-bank-of-america-center-darknite

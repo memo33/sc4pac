@@ -10,9 +10,11 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32938-hotel-nikko-san-francisco/
 
-dependencies: ["simfox:day-and-nite-mod"]
-assets:
-  - assetId: diego-del-llano-hotel-nikko-san-francisco-darknite
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-hotel-nikko-san-francisco-darknite
 
 ---
 assetId: diego-del-llano-hotel-nikko-san-francisco-darknite

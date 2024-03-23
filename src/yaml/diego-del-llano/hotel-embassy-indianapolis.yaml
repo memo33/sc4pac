@@ -10,9 +10,11 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32937-hotel-embassy-indianapolis/
 
-dependencies: ["simfox:day-and-nite-mod"]
-assets:
-  - assetId: diego-del-llano-hotel-embassy-indianapolis-darknite
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-hotel-embassy-indianapolis-darknite
 
 ---
 assetId: diego-del-llano-hotel-embassy-indianapolis-darknite

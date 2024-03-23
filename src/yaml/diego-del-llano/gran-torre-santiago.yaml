@@ -7,9 +7,11 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32962-gran-torre-santiago/
 
-dependencies: ["simfox:day-and-nite-mod"]
-assets:
-  - assetId: diego-del-llano-gran-torre-santiago-darknite
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-gran-torre-santiago-darknite
 
 ---
 assetId: diego-del-llano-gran-torre-santiago-darknite

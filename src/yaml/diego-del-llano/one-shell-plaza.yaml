@@ -12,9 +12,11 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32282-one-shell-plaza/
 
-dependencies: ["simfox:day-and-nite-mod"]
-assets:
-  - assetId: diego-del-llano-one-shell-plaza-darknite
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-one-shell-plaza-darknite
 
 ---
 assetId: diego-del-llano-one-shell-plaza-darknite

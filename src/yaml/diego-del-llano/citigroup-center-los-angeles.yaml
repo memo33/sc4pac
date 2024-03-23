@@ -11,9 +11,11 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32939-citigroup-center-los-angeles/
 
-dependencies: ["simfox:day-and-nite-mod"]
-assets:
-  - assetId: diego-del-llano-citigroup-center-los-angeles-darknite
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-citigroup-center-los-angeles-darknite
 
 ---
 assetId: diego-del-llano-citigroup-center-los-angeles-darknite

@@ -17,9 +17,11 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32788-john-hancock-tower/
 
-dependencies: ["simfox:day-and-nite-mod"]
-assets:
-  - assetId: diego-del-llano-john-hancock-tower-darknite
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-john-hancock-tower-darknite
 
 ---
 assetId: diego-del-llano-john-hancock-tower-darknite

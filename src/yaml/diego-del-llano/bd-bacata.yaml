@@ -13,10 +13,12 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32963-bd-bacata/
 
-dependencies: ["simfox:day-and-nite-mod"]
-assets:
-  - assetId: diego-del-llano-bd-bacata-darknite
-  - assetId: diego-del-llano-bd-bacata-south-darknite
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-bd-bacata-darknite
+      - assetId: diego-del-llano-bd-bacata-south-darknite
 
 ---
 assetId: diego-del-llano-bd-bacata-darknite
