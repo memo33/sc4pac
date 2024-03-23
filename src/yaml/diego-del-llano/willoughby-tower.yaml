@@ -20,6 +20,9 @@ info:
   website: https://community.simtropolis.com/files/file/33149-willoughby-tower/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-willoughby-tower-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

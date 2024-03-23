@@ -11,6 +11,9 @@ info:
   website: https://community.simtropolis.com/files/file/32938-hotel-nikko-san-francisco/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-hotel-nikko-san-francisco-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

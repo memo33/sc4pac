@@ -15,6 +15,9 @@ info:
   website: https://community.simtropolis.com/files/file/32961-salesforce-tower/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-salesforce-tower-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

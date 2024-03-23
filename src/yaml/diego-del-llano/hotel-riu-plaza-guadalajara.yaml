@@ -17,6 +17,9 @@ info:
   website: https://community.simtropolis.com/files/file/32677-hotel-riu-plaza-guadalajara/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-hotel-riu-plaza-guadalajara-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

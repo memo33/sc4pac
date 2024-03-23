@@ -11,6 +11,9 @@ info:
   website: https://community.simtropolis.com/files/file/32678-midtown-jalisco/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-midtown-jalisco-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

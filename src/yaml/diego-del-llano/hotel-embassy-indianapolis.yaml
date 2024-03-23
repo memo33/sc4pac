@@ -11,6 +11,9 @@ info:
   website: https://community.simtropolis.com/files/file/32937-hotel-embassy-indianapolis/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-hotel-embassy-indianapolis-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

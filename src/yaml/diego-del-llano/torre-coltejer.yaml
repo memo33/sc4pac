@@ -13,6 +13,9 @@ info:
   website: https://community.simtropolis.com/files/file/32646-torre-coltejer/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torre-coltejer-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

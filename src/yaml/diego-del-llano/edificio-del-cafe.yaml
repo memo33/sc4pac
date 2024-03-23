@@ -16,6 +16,9 @@ info:
   website: https://community.simtropolis.com/files/file/32674-edificio-del-café/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-edificio-del-cafe-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

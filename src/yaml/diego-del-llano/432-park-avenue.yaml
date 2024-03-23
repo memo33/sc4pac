@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: 432-park-avenue
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: 432 Park Avenue, New York
@@ -18,6 +18,9 @@ info:
   website: https://community.simtropolis.com/files/file/32319-432-park-avenue/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-432-park-avenue
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
@@ -25,6 +28,6 @@ variants:
 
 ---
 assetId: diego-del-llano-432-park-avenue
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-06-17T14:41:05Z"
 url: https://community.simtropolis.com/files/file/32319-432-park-avenue/?do=download

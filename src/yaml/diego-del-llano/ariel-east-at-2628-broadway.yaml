@@ -16,6 +16,9 @@ info:
   website: https://community.simtropolis.com/files/file/32960-ariel-east-at-2628-broadway/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ariel-east-at-2628-broadway-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

@@ -11,6 +11,9 @@ info:
   website: https://community.simtropolis.com/files/file/32540-torre-colseguros/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torre-colseguros-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

@@ -14,6 +14,9 @@ info:
   website: https://community.simtropolis.com/files/file/32928-ralph-d-turlington-florida-education-center/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ralph-d-turlington-florida-education-center-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

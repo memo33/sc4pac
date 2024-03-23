@@ -15,6 +15,9 @@ info:
   website: https://community.simtropolis.com/files/file/32940-citigroup-center-new-york/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-citigroup-center-new-york-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

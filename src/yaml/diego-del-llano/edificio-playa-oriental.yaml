@@ -11,6 +11,9 @@ info:
   website: https://community.simtropolis.com/files/file/32676-edificio-playa-oriental/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-edificio-playa-oriental-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

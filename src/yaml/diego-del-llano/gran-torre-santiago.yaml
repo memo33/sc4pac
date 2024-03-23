@@ -8,6 +8,9 @@ info:
   website: https://community.simtropolis.com/files/file/32962-gran-torre-santiago/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-gran-torre-santiago-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

@@ -17,6 +17,9 @@ info:
   website: https://community.simtropolis.com/files/file/32283-one-shell-square/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-one-shell-square-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

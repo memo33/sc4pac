@@ -14,6 +14,10 @@ info:
   website: https://community.simtropolis.com/files/file/32963-bd-bacata/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-bd-bacata-darknite
+      - assetId: diego-del-llano-bd-bacata-south-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:

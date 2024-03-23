@@ -13,6 +13,9 @@ info:
   website: https://community.simtropolis.com/files/file/32845-messeturm/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-messeturm-darknite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
