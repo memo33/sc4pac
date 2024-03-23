@@ -17,7 +17,6 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30984-centurylink-tower-denver-1801-california-street/
 
-dependencies: ["simfox:day-and-nite-mod"]
 assets:
   - assetId: diego-del-llano-centurylink-tower-denver-1801-california-street
 

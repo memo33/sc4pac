@@ -11,7 +11,6 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31038-renaissance-tower-sacramento/
 
-dependencies: ["simfox:day-and-nite-mod"]
 assets:
   - assetId: diego-del-llano-renaissance-tower-sacramento
 

@@ -20,7 +20,6 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30985-wells-fargo-center-denver/
 
-dependencies: ["simfox:day-and-nite-mod"]
 assets:
   - assetId: diego-del-llano-wells-fargo-center-denver
 

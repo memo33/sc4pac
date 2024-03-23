@@ -12,7 +12,6 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30994-great-american-tower-at-queen-city-square/
 
-dependencies: ["simfox:day-and-nite-mod"]
 assets:
   - assetId: diego-del-llano-great-american-tower-at-queen-city-square
 

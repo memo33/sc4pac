@@ -16,7 +16,6 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30964-denver-art-museum-frederic-c-hamilton-building/
 
-dependencies: ["simfox:day-and-nite-mod"]
 assets:
   - assetId: diego-del-llano-denver-art-museum-frederic-c-hamilton-building
 

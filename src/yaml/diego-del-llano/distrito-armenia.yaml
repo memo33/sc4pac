@@ -9,11 +9,15 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32547-distrito-armenia/
-dependencies: ["simfox:day-and-nite-mod"]
+
 assets:
   - assetId: diego-del-llano-distrito-armenia-2000-darknite
   - assetId: diego-del-llano-distrito-armenia-3000-darknite
   - assetId: diego-del-llano-distrito-armenia-1000-darknite
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
 
 ---
 assetId: diego-del-llano-distrito-armenia-2000-darknite

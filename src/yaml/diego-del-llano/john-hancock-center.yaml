@@ -16,7 +16,6 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30952-john-hancock-center/
 
-dependencies: ["simfox:day-and-nite-mod"]
 assets:
   - assetId: diego-del-llano-john-hancock-center
 
