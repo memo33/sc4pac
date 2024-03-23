@@ -1,7 +1,7 @@
 group: diego-del-llano
 name: hotel-nikko-san-francisco
 version: "1.0"
-subfolder: 300-commercial
+subfolder: 360-landmark
 info:
   summary: Hotel Nikko San Francisco
   description: >

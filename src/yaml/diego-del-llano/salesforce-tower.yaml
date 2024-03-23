@@ -1,7 +1,7 @@
 group: diego-del-llano
 name: salesforce-tower
 version: "1.0"
-subfolder: 300-commercial
+subfolder: 360-landmark
 info:
   summary: Salesforce Tower
   description: >

@@ -1,7 +1,7 @@
 group: diego-del-llano
 name: us-bank-library-tower
 version: "2.0.0"
-subfolder: 300-commercial
+subfolder: 360-landmark
 info:
   summary: Us Bank Library Tower
   description: >

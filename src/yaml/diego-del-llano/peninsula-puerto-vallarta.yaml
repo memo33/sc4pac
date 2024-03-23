@@ -1,7 +1,7 @@
 group: diego-del-llano
 name: peninsula-puerto-vallarta
 version: "1.0"
-subfolder: 300-commercial
+subfolder: 360-landmark
 info:
   summary: Peninsula Puerto Vallarta
   description: >

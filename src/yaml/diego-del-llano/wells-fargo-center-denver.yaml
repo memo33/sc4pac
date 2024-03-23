@@ -1,7 +1,7 @@
 group: diego-del-llano
 name: wells-fargo-center-denver
 version: "3.0.0"
-subfolder: 300-commercial
+subfolder: 360-landmark
 info:
   summary: Wells Fargo Center Denver
   description: >

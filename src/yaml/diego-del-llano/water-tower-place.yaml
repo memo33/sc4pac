@@ -1,7 +1,7 @@
 group: diego-del-llano
 name: water-tower-place
 version: "2.0.0"
-subfolder: 300-commercial
+subfolder: 360-landmark
 info:
   summary: Water Tower Place
   description: >

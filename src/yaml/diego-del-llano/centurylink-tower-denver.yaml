@@ -1,7 +1,7 @@
 group: diego-del-llano
 name: centurylink-tower-denver
 version: "2.0.0"
-subfolder: 300-commercial
+subfolder: 360-landmark
 info:
   summary: Centurylink Tower Denver (1801 California Street)
   description: >
