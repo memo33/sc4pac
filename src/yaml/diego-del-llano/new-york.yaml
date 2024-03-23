@@ -9,10 +9,10 @@ info:
 
 dependencies: [
   "diego-del-llano:432-park-avenue",
-  "diego-del-llano:ariel-east-at-2628-broadway",
+  "diego-del-llano:ariel-east",
   "diego-del-llano:chanin-building",
   "diego-del-llano:citigroup-center-new-york",
-  "diego-del-llano:nelson-tower-450-fashion-ave",
+  "diego-del-llano:nelson-tower",
   "diego-del-llano:one-chase-manhattan-plaza",
   "diego-del-llano:one-world-trade-center",
   "diego-del-llano:the-look-building",

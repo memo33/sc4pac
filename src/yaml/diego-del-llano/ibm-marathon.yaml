@@ -3,7 +3,7 @@ name: ibm-marathon
 version: "1.0"
 subfolder: 360-landmark
 info:
-  summary: Ibm Marathon
+  summary: IBM Marathon Tower
   description: >
     1250 René-Lévesque, also known as the IBM-Marathon Tower, is a 226 m (741 ft), 47-story skyscraper in Montreal,Quebec, Canada.
     The building was designed by Kohn Pedersen Fox Associates for IBM Canada and Marathon Realty, hence the former name "IBM-Marathon".
@@ -11,7 +11,7 @@ info:
     It is adjacent to the Bell Centre and Windsor Station to the south, and stands on the site of the former American Presbyterian Church.
     It is connected to the Bonaventure metro station and the underground city network.
 
-    1250 is currently  owned and managed  by global real estate investor, developer and owner Oxford Properties and is still partially occupied by IBM.
+    1250 is currently owned and managed by global real estate investor, developer and owner Oxford Properties and is still partially occupied by IBM.
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-rené-lévesque/

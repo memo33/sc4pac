@@ -9,9 +9,9 @@ info:
 
 dependencies: [
   "diego-del-llano:345-california-center",
-  "diego-del-llano:555-california-street-bank-of-america-center",
+  "diego-del-llano:bank-of-america-center",
   "diego-del-llano:hotel-nikko-san-francisco",
   "diego-del-llano:salesforce-tower",
-  "diego-del-llano:shaklee-terraces-one-front-street",
+  "diego-del-llano:shaklee-terraces",
   "diego-del-llano:transamerica-pyramid",
 ]

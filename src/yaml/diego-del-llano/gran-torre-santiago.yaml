@@ -4,6 +4,8 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Gran Torre Santiago
+  description:
+    This landmark is a CO$$$ skyscraper from Santiago de Chile with a High-Tech style.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32962-gran-torre-santiago/
 

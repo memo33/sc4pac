@@ -1,10 +1,9 @@
 group: diego-del-llano
-name: the-h1-hybrid-building-for-metropolitan-services-in-mexico-city
+name: the-h1
 version: "1.0"
 subfolder: 360-landmark
 info:
-  summary: The h1 Hybrid Building For Metropolitan Services In Mexico City
-
+  summary: The_H1 metropolitan services building from Mexico City
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31568-the_h1-hybrid-building-for-metropolitan-services-in-mexico-city/
 

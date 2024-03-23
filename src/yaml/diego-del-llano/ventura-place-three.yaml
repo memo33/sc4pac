@@ -4,6 +4,9 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Ventura Place Three
+  description: >
+    This landmark is a mixed-used building with commercial center, offices and residences.
+    It provides 2700 jobs (CO$$$).
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31459-ventura-place-three/
 
