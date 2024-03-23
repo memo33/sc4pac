@@ -38,6 +38,7 @@ dependencies: [
   "diego-del-llano:torre-coltejer",
   "diego-del-llano:torre-ejecutiva-pemex",
   "diego-del-llano:torre-latinoamericana",
+  "diego-del-llano:torre-mayor",
   "diego-del-llano:torre-multiva",
   "diego-del-llano:torre-reforma",
   "diego-del-llano:torres-atrio",

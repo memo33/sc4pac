@@ -10,6 +10,7 @@ info:
 dependencies: [
   "diego-del-llano:aon-center",
   "diego-del-llano:citigroup-center-los-angeles",
+  "diego-del-llano:figueroa-at-wilshire",
   "diego-del-llano:gas-company-tower",
   "diego-del-llano:santa-monica-clock-tower",
   "diego-del-llano:us-bank-library-tower",

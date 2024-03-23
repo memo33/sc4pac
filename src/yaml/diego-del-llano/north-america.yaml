@@ -39,10 +39,11 @@ dependencies: [
   "diego-del-llano:ralph-d-turlington-florida-education-center",
   "diego-del-llano:regions-center",
   "diego-del-llano:renaissance-tower-sacramento",
+  "diego-del-llano:republic-plaza",
   "diego-del-llano:reynolds-building",
   "diego-del-llano:seattle-municipal-tower",
   "diego-del-llano:simmons-tower",
   "diego-del-llano:stephens-inc",
   "diego-del-llano:two-liberty-place",
-  "diego-del-llano:wells-fargo-center-denver",
+  "diego-del-llano:wells-fargo-center-denver"
 ]
