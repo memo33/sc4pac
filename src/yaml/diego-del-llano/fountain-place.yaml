@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: fountain-place
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Fountain Place
@@ -23,12 +23,12 @@ variants:
 
 ---
 assetId: diego-del-llano-fountain-place-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2016-05-15T18:17:16Z"
 url: https://community.simtropolis.com/files/file/31088-fountain-place/?do=download&r=161802
 
 ---
 assetId: diego-del-llano-fountain-place-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2016-05-15T18:17:16Z"
 url: https://community.simtropolis.com/files/file/31088-fountain-place/?do=download&r=161803

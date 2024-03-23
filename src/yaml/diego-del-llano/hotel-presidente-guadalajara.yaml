@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: hotel-presidente-guadalajara
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Hotel Presidente Guadalajara
@@ -22,12 +22,12 @@ variants:
 
 ---
 assetId: diego-del-llano-hotel-presidente-guadalajara-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-03-11T18:59:29Z"
 url: https://community.simtropolis.com/files/file/31508-hotel-presidente-guadalajara/?do=download&r=164915
 
 ---
 assetId: diego-del-llano-hotel-presidente-guadalajara-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-03-11T18:59:29Z"
 url: https://community.simtropolis.com/files/file/31508-hotel-presidente-guadalajara/?do=download&r=164916

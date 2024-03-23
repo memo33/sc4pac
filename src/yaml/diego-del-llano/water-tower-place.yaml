@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: water-tower-place
-version: 1.0.0
+version: "2.0.0"
 subfolder: 300-commercial
 info:
   summary: Water Tower Place
@@ -23,6 +23,6 @@ variants:
 
 ---
 assetId: diego-del-llano-water-tower-place-darknite
-version: 1.0.0
+version: "2.0.0"
 lastModified: "2018-06-19T02:41:09Z"
 url: https://community.simtropolis.com/files/file/32323-water-tower-place/?do=download

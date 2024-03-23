@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: carlton-hotel-johannesburg
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Carlton Hotel Johannesburg
@@ -26,12 +26,12 @@ variants:
 
 ---
 assetId: diego-del-llano-carlton-hotel-johannesburg-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-02-22T16:34:59Z"
 url: https://community.simtropolis.com/files/file/31477-carlton-hotel-johannesburg/?do=download&r=164680
 
 ---
 assetId: diego-del-llano-carlton-hotel-johannesburg-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-02-22T16:34:59Z"
 url: https://community.simtropolis.com/files/file/31477-carlton-hotel-johannesburg/?do=download&r=164681

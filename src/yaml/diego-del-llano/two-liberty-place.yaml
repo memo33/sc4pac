@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: two-liberty-place
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Two Liberty Place
@@ -23,12 +23,12 @@ variants:
 
 ---
 assetId: diego-del-llano-two-liberty-place-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-10-26T02:49:47Z"
 url: https://community.simtropolis.com/files/file/31989-two-liberty-place/?do=download&r=169044
 
 ---
 assetId: diego-del-llano-two-liberty-place-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-10-26T02:49:47Z"
 url: https://community.simtropolis.com/files/file/31989-two-liberty-place/?do=download&r=169045

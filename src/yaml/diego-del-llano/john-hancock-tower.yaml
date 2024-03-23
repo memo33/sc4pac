@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: john-hancock-tower
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: John Hancock Tower
@@ -28,6 +28,6 @@ variants:
 
 ---
 assetId: diego-del-llano-john-hancock-tower-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2019-03-10T04:53:35Z"
 url: https://community.simtropolis.com/files/file/32788-john-hancock-tower/?do=download

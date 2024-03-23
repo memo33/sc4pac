@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: centurylink-tower-denver
-version: 1.0.0
+version: "2.0.0"
 subfolder: 300-commercial
 info:
   summary: Centurylink Tower Denver (1801 California Street)
@@ -23,6 +23,6 @@ assets:
 
 ---
 assetId: diego-del-llano-centurylink-tower-denver-1801-california-street
-version: 1.0.0
+version: "2.0.0"
 lastModified: "2016-03-05T00:24:09Z"
 url: https://community.simtropolis.com/files/file/30984-centurylink-tower-denver-1801-california-street/?do=download

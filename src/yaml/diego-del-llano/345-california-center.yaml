@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: 345-california-center
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: 345 California Center
@@ -28,12 +28,12 @@ variants:
 
 ---
 assetId: diego-del-llano-345-california-center-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-01-22T21:01:32Z"
 url: https://community.simtropolis.com/files/file/31439-345-california-center/?do=download&r=164399
 
 ---
 assetId: diego-del-llano-345-california-center-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-01-22T21:01:32Z"
 url: https://community.simtropolis.com/files/file/31439-345-california-center/?do=download&r=164400

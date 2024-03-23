@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: torre-latinoamericana
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Torre Latinoamericana
@@ -27,12 +27,12 @@ variants:
 
 ---
 assetId: diego-del-llano-torre-latinoamericana-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-10-23T01:47:34Z"
 url: https://community.simtropolis.com/files/file/31986-torre-latinoamericana/?do=download&r=169024
 
 ---
 assetId: diego-del-llano-torre-latinoamericana-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-10-23T01:47:34Z"
 url: https://community.simtropolis.com/files/file/31986-torre-latinoamericana/?do=download&r=169025

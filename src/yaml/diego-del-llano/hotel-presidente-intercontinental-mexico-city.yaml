@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: hotel-presidente-intercontinental-mexico-city
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Hotel Presidente Intercontinental Mexico City
@@ -23,12 +23,12 @@ variants:
 
 ---
 assetId: diego-del-llano-hotel-presidente-intercontinental-mexico-city-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-03-20T23:08:02Z"
 url: https://community.simtropolis.com/files/file/31533-hotel-presidente-intercontinental-mexico-city/?do=download&r=165097
 
 ---
 assetId: diego-del-llano-hotel-presidente-intercontinental-mexico-city-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-03-20T23:08:02Z"
 url: https://community.simtropolis.com/files/file/31533-hotel-presidente-intercontinental-mexico-city/?do=download&r=165098

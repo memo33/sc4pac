@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: nelson-tower-450-fashion-ave
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Nelson Tower 450 Fashion Ave
@@ -27,12 +27,12 @@ variants:
 
 ---
 assetId: diego-del-llano-nelson-tower-450-fashion-ave-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-05-09T04:18:41Z"
 url: https://community.simtropolis.com/files/file/31604-nelson-tower-450-fashion-ave/?do=download&r=165660
 
 ---
 assetId: diego-del-llano-nelson-tower-450-fashion-ave-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-05-09T04:18:41Z"
 url: https://community.simtropolis.com/files/file/31604-nelson-tower-450-fashion-ave/?do=download&r=165659

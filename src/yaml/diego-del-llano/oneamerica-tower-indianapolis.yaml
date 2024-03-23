@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: oneamerica-tower-indianapolis
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Oneamerica Tower Indianapolis
@@ -21,6 +21,6 @@ assets:
 
 ---
 assetId: diego-del-llano-oneamerica-tower-indianapolis
-version: 1.0.0
+version: "1.0"
 lastModified: "2016-02-10T18:43:36Z"
 url: https://community.simtropolis.com/files/file/30946-oneamerica-tower-indianapolis/?do=download

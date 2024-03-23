@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: citigroup-center-new-york
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Citigroup Center New York, 601 Lexington Avenue
@@ -25,6 +25,6 @@ variants:
 
 ---
 assetId: diego-del-llano-citigroup-center-new-york-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2019-08-21T14:24:23Z"
 url: https://community.simtropolis.com/files/file/32940-citigroup-center-new-york/?do=download

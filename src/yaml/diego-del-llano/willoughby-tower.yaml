@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: willoughby-tower
-version: 1.0.0
+version: "2.0"
 subfolder: 300-commercial
 info:
   summary: Willoughby Tower
@@ -30,6 +30,6 @@ variants:
 
 ---
 assetId: diego-del-llano-willoughby-tower-darknite
-version: 1.0.0
+version: "2.0"
 lastModified: "2019-09-09T03:13:07Z"
 url: https://community.simtropolis.com/files/file/33149-willoughby-tower/?do=download

@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: columbia-center
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Columbia Center
@@ -28,12 +28,12 @@ variants:
 
 ---
 assetId: diego-del-llano-columbia-center-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-07-23T03:43:51Z"
 url: https://community.simtropolis.com/files/file/31870-columbia-center/?do=download&r=167672
 
 ---
 assetId: diego-del-llano-columbia-center-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-07-23T03:43:51Z"
 url: https://community.simtropolis.com/files/file/31870-columbia-center/?do=download&r=167671

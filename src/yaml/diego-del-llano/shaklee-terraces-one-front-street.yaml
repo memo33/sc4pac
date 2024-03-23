@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: shaklee-terraces-one-front-street
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Shaklee Terraces One Front Street
@@ -25,6 +25,6 @@ variants:
 
 ---
 assetId: diego-del-llano-shaklee-terraces-one-front-street-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-07-01T16:07:02Z"
 url: https://community.simtropolis.com/files/file/32343-shaklee-terraces-one-front-street/?do=download

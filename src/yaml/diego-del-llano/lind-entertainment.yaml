@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: lind-entertainment
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Lind Entertainment
@@ -21,12 +21,12 @@ variants:
 
 ---
 assetId: diego-del-llano-lind-entertainment-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-02-01T15:07:03Z"
 url: https://community.simtropolis.com/files/file/32100-lind-entertainment/?do=download&r=169900
 
 ---
 assetId: diego-del-llano-lind-entertainment-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-02-01T15:07:03Z"
 url: https://community.simtropolis.com/files/file/32100-lind-entertainment/?do=download&r=169899

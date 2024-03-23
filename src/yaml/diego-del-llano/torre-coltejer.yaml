@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: torre-coltejer
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Torre Coltejer
@@ -23,6 +23,6 @@ variants:
 
 ---
 assetId: diego-del-llano-torre-coltejer-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-12-05T05:22:56Z"
 url: https://community.simtropolis.com/files/file/32646-torre-coltejer/?do=download

@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: olympia-centre
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Olympia Centre
@@ -21,6 +21,6 @@ assets:
 
 ---
 assetId: diego-del-llano-olympia-centre
-version: 1.0.0
+version: "1.0"
 lastModified: "2016-03-11T06:42:41Z"
 url: https://community.simtropolis.com/files/file/30991-olympia-centre/?do=download

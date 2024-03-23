@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: john-hancock-center
-version: 1.0.0
+version: "2.0.0"
 subfolder: 300-commercial
 info:
   summary: John Hancock Center
@@ -22,6 +22,6 @@ assets:
 
 ---
 assetId: diego-del-llano-john-hancock-center
-version: 1.0.0
+version: "2.0.0"
 lastModified: "2016-02-15T15:57:26Z"
 url: https://community.simtropolis.com/files/file/30952-john-hancock-center/?do=download

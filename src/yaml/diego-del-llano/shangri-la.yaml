@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: shangri-la
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Shangri La
@@ -21,12 +21,12 @@ variants:
 
 ---
 assetId: diego-del-llano-shangri-la-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-07-12T15:40:16Z"
 url: https://community.simtropolis.com/files/file/31841-shangri-la/?do=download&r=167483
 
 ---
 assetId: diego-del-llano-shangri-la-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-07-12T15:40:16Z"
 url: https://community.simtropolis.com/files/file/31841-shangri-la/?do=download&r=167484

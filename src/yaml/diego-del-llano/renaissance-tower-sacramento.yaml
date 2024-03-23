@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: renaissance-tower-sacramento
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Renaissance Tower Sacramento
@@ -17,6 +17,6 @@ assets:
 
 ---
 assetId: diego-del-llano-renaissance-tower-sacramento
-version: 1.0.0
+version: "1.0"
 lastModified: "2016-04-18T22:43:59Z"
 url: https://community.simtropolis.com/files/file/31038-renaissance-tower-sacramento/?do=download

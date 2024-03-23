@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: great-american-tower-at-queen-city-square
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Great American Tower At Queen City Square
@@ -18,6 +18,6 @@ assets:
 
 ---
 assetId: diego-del-llano-great-american-tower-at-queen-city-square
-version: 1.0.0
+version: "1.0"
 lastModified: "2016-03-14T06:06:37Z"
 url: https://community.simtropolis.com/files/file/30994-great-american-tower-at-queen-city-square/?do=download

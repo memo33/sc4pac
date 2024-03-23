@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: one-chase-manhattan-plaza
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: One Chase Manhattan Plaza
@@ -25,6 +25,6 @@ variants:
 
 ---
 assetId: diego-del-llano-one-chase-manhattan-plaza-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2019-08-21T14:16:58Z"
 url: https://community.simtropolis.com/files/file/32975-one-chase-manhattan-plaza/?do=download

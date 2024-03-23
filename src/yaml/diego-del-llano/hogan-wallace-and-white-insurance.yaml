@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: hogan-wallace-and-white-insurance
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Hogan Wallace And White Insurance
@@ -22,12 +22,12 @@ variants:
 
 ---
 assetId: diego-del-llano-hogan-wallace-and-white-insurance-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2019-04-04T19:06:40Z"
 url: https://community.simtropolis.com/files/file/32844-hogan-wallace-and-white-insurance/?do=download&r=175413
 
 ---
 assetId: diego-del-llano-hogan-wallace-and-white-insurance-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2019-04-04T19:06:40Z"
 url: https://community.simtropolis.com/files/file/32844-hogan-wallace-and-white-insurance/?do=download&r=175414

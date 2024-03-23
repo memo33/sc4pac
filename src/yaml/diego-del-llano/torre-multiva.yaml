@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: torre-multiva
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Torre Multiva
@@ -21,12 +21,12 @@ variants:
 
 ---
 assetId: diego-del-llano-torre-multiva-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-03-09T07:53:36Z"
 url: https://community.simtropolis.com/files/file/31504-torre-multiva/?do=download&r=164902
 
 ---
 assetId: diego-del-llano-torre-multiva-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-03-09T07:53:36Z"
 url: https://community.simtropolis.com/files/file/31504-torre-multiva/?do=download&r=164903

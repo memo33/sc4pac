@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: torres-atrio
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Torres Atrio
@@ -25,24 +25,24 @@ variants:
 
 ---
 assetId: diego-del-llano-torres-atrio-sur-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-01-14T00:56:53Z"
 url: https://community.simtropolis.com/files/file/32065-torres-atrio/?do=download&r=169591
 
 ---
 assetId: diego-del-llano-torres-atrio-norte-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-01-14T00:56:53Z"
 url: https://community.simtropolis.com/files/file/32065-torres-atrio/?do=download&r=169593
 
 ---
 assetId: diego-del-llano-torres-atrio-sur-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-01-14T00:56:53Z"
 url: https://community.simtropolis.com/files/file/32065-torres-atrio/?do=download&r=169592
 
 ---
 assetId: diego-del-llano-torres-atrio-norte-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-01-14T00:56:53Z"
 url: https://community.simtropolis.com/files/file/32065-torres-atrio/?do=download&r=169590

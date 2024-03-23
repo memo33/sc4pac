@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: stephens-inc
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Stephens Inc
@@ -22,12 +22,12 @@ variants:
 
 ---
 assetId: diego-del-llano-stephens-inc-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-06-21T15:28:10Z"
 url: https://community.simtropolis.com/files/file/31802-stephens-inc/?do=download&r=167055
 
 ---
 assetId: diego-del-llano-stephens-inc-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-06-21T15:28:10Z"
 url: https://community.simtropolis.com/files/file/31802-stephens-inc/?do=download&r=167056

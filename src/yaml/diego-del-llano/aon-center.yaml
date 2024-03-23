@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: aon-center
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Aon Center
@@ -24,12 +24,12 @@ variants:
 
 ---
 assetId: diego-del-llano-aon-center-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-08-09T18:43:32Z"
 url: https://community.simtropolis.com/files/file/31490-aon-center/?do=download&r=164763
 
 ---
 assetId: diego-del-llano-aon-center-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-08-09T18:43:32Z"
 url: https://community.simtropolis.com/files/file/31490-aon-center/?do=download&r=164762

@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: hyatt-ziva-tower-one
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Hyatt Ziva Tower One
@@ -21,12 +21,12 @@ variants:
 
 ---
 assetId: diego-del-llano-hyatt-ziva-tower-one-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-07-14T16:45:01Z"
 url: https://community.simtropolis.com/files/file/31843-hyatt-ziva-tower-one/?do=download&r=167513
 
 ---
 assetId: diego-del-llano-hyatt-ziva-tower-one-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-07-14T16:45:01Z"
 url: https://community.simtropolis.com/files/file/31843-hyatt-ziva-tower-one/?do=download&r=167514

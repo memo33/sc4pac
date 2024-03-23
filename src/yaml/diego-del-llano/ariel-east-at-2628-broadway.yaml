@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: ariel-east-at-2628-broadway
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Ariel East At 2628 Broadway
@@ -26,6 +26,6 @@ variants:
 
 ---
 assetId: diego-del-llano-ariel-east-at-2628-broadway-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2019-08-21T14:21:18Z"
 url: https://community.simtropolis.com/files/file/32960-ariel-east-at-2628-broadway/?do=download

@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: one-world-trade-center
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: One World Trade Center
@@ -39,6 +39,6 @@ variants:
 
 ---
 assetId: diego-del-llano-one-world-trade-center-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-08-22T12:17:37Z"
 url: https://community.simtropolis.com/files/file/31913-one-world-trade-center/?do=download

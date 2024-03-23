@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: hotel-riu-plaza-guadalajara
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Hotel Riu Plaza Guadalajara
@@ -27,6 +27,6 @@ variants:
 
 ---
 assetId: diego-del-llano-hotel-riu-plaza-guadalajara-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2021-01-23T17:52:55Z"
 url: https://community.simtropolis.com/files/file/32677-hotel-riu-plaza-guadalajara/?do=download

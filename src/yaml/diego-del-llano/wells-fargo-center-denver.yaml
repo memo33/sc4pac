@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: wells-fargo-center-denver
-version: 1.0.0
+version: "3.0.0"
 subfolder: 300-commercial
 info:
   summary: Wells Fargo Center Denver
@@ -26,6 +26,6 @@ assets:
 
 ---
 assetId: diego-del-llano-wells-fargo-center-denver
-version: 1.0.0
+version: "3.0.0"
 lastModified: "2016-03-05T00:26:50Z"
 url: https://community.simtropolis.com/files/file/30985-wells-fargo-center-denver/?do=download

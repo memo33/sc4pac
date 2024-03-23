@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: distrito-armenia
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Distrito Armenia
@@ -17,18 +17,18 @@ assets:
 
 ---
 assetId: diego-del-llano-distrito-armenia-2000-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-10-13T21:05:09Z"
 url: https://community.simtropolis.com/files/file/32547-distrito-armenia/?do=download&r=173139
 
 ---
 assetId: diego-del-llano-distrito-armenia-3000-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-10-13T21:05:09Z"
 url: https://community.simtropolis.com/files/file/32547-distrito-armenia/?do=download&r=173140
 
 ---
 assetId: diego-del-llano-distrito-armenia-1000-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-10-13T21:05:09Z"
 url: https://community.simtropolis.com/files/file/32547-distrito-armenia/?do=download&r=173141

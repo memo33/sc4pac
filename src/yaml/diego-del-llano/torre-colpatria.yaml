@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: torre-colpatria
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Torre Colpatria
@@ -22,12 +22,12 @@ variants:
 
 ---
 assetId: diego-del-llano-torre-colpatria-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-10-17T04:46:49Z"
 url: https://community.simtropolis.com/files/file/31978-torre-colpatria/?do=download&r=168980
 
 ---
 assetId: diego-del-llano-torre-colpatria-maxisnite
-version: 1.0.0
+version: "1.0"
 lastModified: "2017-10-17T04:46:49Z"
 url: https://community.simtropolis.com/files/file/31978-torre-colpatria/?do=download&r=168981

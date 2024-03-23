@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: one-shell-square
-version: 1.0.0
+version: "1.0"
 subfolder: 300-commercial
 info:
   summary: One Shell Square
@@ -27,6 +27,6 @@ variants:
 
 ---
 assetId: diego-del-llano-one-shell-square-darknite
-version: 1.0.0
+version: "1.0"
 lastModified: "2018-06-03T18:54:29Z"
 url: https://community.simtropolis.com/files/file/32283-one-shell-square/?do=download
