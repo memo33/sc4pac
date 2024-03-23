@@ -18,13 +18,13 @@ info:
   website: https://community.simtropolis.com/files/file/33171-times-square-building/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-times-square-building-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-times-square-building-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-times-square-building-maxisnite
 
 ---
 assetId: diego-del-llano-times-square-building-darknite

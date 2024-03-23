@@ -17,13 +17,13 @@ info:
   website: https://community.simtropolis.com/files/file/31604-nelson-tower-450-fashion-ave/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-nelson-tower-450-fashion-ave-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-nelson-tower-450-fashion-ave-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-nelson-tower-450-fashion-ave-maxisnite
 
 ---
 assetId: diego-del-llano-nelson-tower-450-fashion-ave-darknite

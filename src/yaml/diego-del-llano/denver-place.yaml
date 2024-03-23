@@ -27,13 +27,13 @@ info:
   website: https://community.simtropolis.com/files/file/31537-denver-place/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-denver-place-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-denver-place-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-denver-place-maxisnite
 
 ---
 assetId: diego-del-llano-denver-place-darknite

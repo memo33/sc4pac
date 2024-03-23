@@ -17,13 +17,13 @@ info:
   website: https://community.simtropolis.com/files/file/35796-edificio-alas/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-edificio-alas-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-edificio-alas-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-edificio-alas-maxisnite
 
 ---
 assetId: diego-del-llano-edificio-alas-darknite

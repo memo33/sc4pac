@@ -18,13 +18,13 @@ info:
   website: https://community.simtropolis.com/files/file/31556-torre-mayor/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torre-mayor-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-torre-mayor-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-torre-mayor-maxisnite
 
 ---
 assetId: diego-del-llano-torre-mayor-darknite

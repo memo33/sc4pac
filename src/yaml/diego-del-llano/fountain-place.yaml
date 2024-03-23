@@ -13,13 +13,13 @@ info:
   website: https://community.simtropolis.com/files/file/31088-fountain-place/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-fountain-place-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-fountain-place-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-fountain-place-maxisnite
 
 ---
 assetId: diego-del-llano-fountain-place-darknite

@@ -21,15 +21,15 @@ info:
   website: https://community.simtropolis.com/files/file/31464-capella-tower-225-south-sixth/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-capella-tower-225-south-sixth-maxisnite
+      - assetId: diego-del-llano-capella-tower-225-south-sixth-2-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-capella-tower-225-south-sixth-darknite
       - assetId: diego-del-llano-capella-tower-225-south-sixth-2-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-capella-tower-225-south-sixth-maxisnite
-      - assetId: diego-del-llano-capella-tower-225-south-sixth-2-maxisnite
 
 ---
 assetId: diego-del-llano-capella-tower-225-south-sixth-darknite

@@ -11,13 +11,13 @@ info:
   website: https://community.simtropolis.com/files/file/31549-peninsula-puerto-vallarta/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-peninsula-puerto-vallarta-no-plaza-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-peninsula-puerto-vallarta-no-plaza-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-peninsula-puerto-vallarta-no-plaza-maxisnite
 
 ---
 assetId: diego-del-llano-peninsula-puerto-vallarta-no-plaza-darknite

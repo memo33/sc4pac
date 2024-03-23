@@ -11,13 +11,13 @@ info:
   website: https://community.simtropolis.com/files/file/31841-shangri-la/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-shangri-la-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-shangri-la-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-shangri-la-maxisnite
 
 ---
 assetId: diego-del-llano-shangri-la-darknite

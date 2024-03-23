@@ -13,15 +13,15 @@ info:
   website: https://community.simtropolis.com/files/file/32065-torres-atrio/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torres-atrio-sur-maxisnite
+      - assetId: diego-del-llano-torres-atrio-norte-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-torres-atrio-sur-darknite
       - assetId: diego-del-llano-torres-atrio-norte-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-torres-atrio-sur-maxisnite
-      - assetId: diego-del-llano-torres-atrio-norte-maxisnite
 
 ---
 assetId: diego-del-llano-torres-atrio-sur-darknite

@@ -13,15 +13,15 @@ info:
   website: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-seattle-municipal-tower-maxisnite
+      - assetId: diego-del-llano-seattle-municipal-tower-no-plaza-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-seattle-municipal-tower-darknite
       - assetId: diego-del-llano-seattle-municipal-tower-no-plaza-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-seattle-municipal-tower-maxisnite
-      - assetId: diego-del-llano-seattle-municipal-tower-no-plaza-maxisnite
 
 ---
 assetId: diego-del-llano-seattle-municipal-tower-darknite

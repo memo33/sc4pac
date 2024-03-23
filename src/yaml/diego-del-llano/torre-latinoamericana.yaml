@@ -17,13 +17,13 @@ info:
   website: https://community.simtropolis.com/files/file/31986-torre-latinoamericana/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torre-latinoamericana-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-torre-latinoamericana-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-torre-latinoamericana-maxisnite
 
 ---
 assetId: diego-del-llano-torre-latinoamericana-darknite

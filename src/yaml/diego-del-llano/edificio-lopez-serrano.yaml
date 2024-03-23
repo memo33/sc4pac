@@ -13,13 +13,13 @@ info:
   website: https://community.simtropolis.com/files/file/35565-edificio-lopez-serrano/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-edificio-lopez-serrano-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-edificio-lopez-serrano-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-edificio-lopez-serrano-maxisnite
 
 ---
 assetId: diego-del-llano-edificio-lopez-serrano-darknite

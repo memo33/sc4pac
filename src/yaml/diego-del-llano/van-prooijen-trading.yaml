@@ -11,13 +11,13 @@ info:
   website: https://community.simtropolis.com/files/file/32010-van-prooijen-trading/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-van-prooijen-trading-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-van-prooijen-trading-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-van-prooijen-trading-maxisnite
 
 ---
 assetId: diego-del-llano-van-prooijen-trading-darknite

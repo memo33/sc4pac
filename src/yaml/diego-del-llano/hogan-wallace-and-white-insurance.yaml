@@ -12,13 +12,13 @@ info:
   website: https://community.simtropolis.com/files/file/32844-hogan-wallace-and-white-insurance/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-hogan-wallace-and-white-insurance-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-hogan-wallace-and-white-insurance-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-hogan-wallace-and-white-insurance-maxisnite
 
 ---
 assetId: diego-del-llano-hogan-wallace-and-white-insurance-darknite

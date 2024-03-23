@@ -12,13 +12,13 @@ info:
   website: https://community.simtropolis.com/files/file/31483-gas-company-tower/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-gas-company-tower-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-gas-company-tower-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-gas-company-tower-maxisnite
 
 ---
 assetId: diego-del-llano-gas-company-tower-darknite

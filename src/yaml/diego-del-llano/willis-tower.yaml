@@ -19,13 +19,13 @@ info:
   website: https://community.simtropolis.com/files/file/31901-willis-tower/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-willis-tower-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-willis-tower-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-willis-tower-maxisnite
 
 ---
 assetId: diego-del-llano-willis-tower-darknite

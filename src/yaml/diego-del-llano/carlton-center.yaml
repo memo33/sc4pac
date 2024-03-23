@@ -16,13 +16,13 @@ info:
   website: https://community.simtropolis.com/files/file/31478-carlton-center/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-carlton-center-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-carlton-center-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-carlton-center-maxisnite
 
 ---
 assetId: diego-del-llano-carlton-center-darknite

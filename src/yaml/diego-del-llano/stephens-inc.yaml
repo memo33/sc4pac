@@ -12,13 +12,13 @@ info:
   website: https://community.simtropolis.com/files/file/31802-stephens-inc/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-stephens-inc-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-stephens-inc-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-stephens-inc-maxisnite
 
 ---
 assetId: diego-del-llano-stephens-inc-darknite

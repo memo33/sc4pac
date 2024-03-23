@@ -11,13 +11,13 @@ info:
   website: https://community.simtropolis.com/files/file/31457-ventura-place-one/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ventura-place-one-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-ventura-place-one-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-ventura-place-one-maxisnite
 
 ---
 assetId: diego-del-llano-ventura-place-one-darknite

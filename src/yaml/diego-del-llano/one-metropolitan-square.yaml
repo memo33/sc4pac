@@ -11,13 +11,13 @@ info:
   website: https://community.simtropolis.com/files/file/31470-one-metropolitan-square/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-one-metropolitan-square-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-one-metropolitan-square-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-one-metropolitan-square-maxisnite
 
 ---
 assetId: diego-del-llano-one-metropolitan-square-darknite

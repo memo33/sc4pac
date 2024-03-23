@@ -15,13 +15,13 @@ info:
   website: https://community.simtropolis.com/files/file/35538-reynolds-buidling/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-reynolds-building-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-reynolds-building-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-reynolds-building-maxisnite
 
 ---
 assetId: diego-del-llano-reynolds-building-darknite

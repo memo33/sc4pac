@@ -17,13 +17,13 @@ info:
   website: https://community.simtropolis.com/files/file/32107-edificio-avianca/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-edificio-avianca-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-edificio-avianca-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-edificio-avianca-maxisnite
 
 ---
 assetId: diego-del-llano-edificio-avianca-darknite

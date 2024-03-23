@@ -14,13 +14,13 @@ info:
   website: https://community.simtropolis.com/files/file/35534-santa-monica-clock-tower/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-santa-monica-clock-tower-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-santa-monica-clock-tower-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-santa-monica-clock-tower-maxisnite
 
 ---
 assetId: diego-del-llano-santa-monica-clock-tower-darknite

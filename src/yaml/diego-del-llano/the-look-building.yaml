@@ -19,13 +19,13 @@ info:
   website: https://community.simtropolis.com/files/file/35535-the-look-building/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-the-look-building-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-the-look-building-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-the-look-building-maxisnite
 
 ---
 assetId: diego-del-llano-the-look-building-darknite

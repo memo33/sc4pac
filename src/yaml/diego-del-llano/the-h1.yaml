@@ -8,13 +8,13 @@ info:
   website: https://community.simtropolis.com/files/file/31568-the_h1-hybrid-building-for-metropolitan-services-in-mexico-city/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-the-h1-hybrid-building-for-metropolitan-services-in-mexico-city-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-the-h1-hybrid-building-for-metropolitan-services-in-mexico-city-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-the-h1-hybrid-building-for-metropolitan-services-in-mexico-city-maxisnite
 
 ---
 assetId: diego-del-llano-the-h1-hybrid-building-for-metropolitan-services-in-mexico-city-darknite

@@ -13,13 +13,13 @@ info:
   website: https://community.simtropolis.com/files/file/31533-hotel-presidente-intercontinental-mexico-city/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-hotel-presidente-intercontinental-mexico-city-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-hotel-presidente-intercontinental-mexico-city-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-hotel-presidente-intercontinental-mexico-city-maxisnite
 
 ---
 assetId: diego-del-llano-hotel-presidente-intercontinental-mexico-city-darknite

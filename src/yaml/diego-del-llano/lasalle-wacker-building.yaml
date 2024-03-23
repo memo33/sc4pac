@@ -15,13 +15,13 @@ info:
   website: https://community.simtropolis.com/files/file/35589-lasalle-wacker-building/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-lasalle-wacker-building-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-lasalle-wacker-building-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-lasalle-wacker-building-maxisnite
 
 ---
 assetId: diego-del-llano-lasalle-wacker-building-darknite

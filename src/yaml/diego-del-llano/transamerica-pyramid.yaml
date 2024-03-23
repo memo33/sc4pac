@@ -14,13 +14,13 @@ info:
   website: https://community.simtropolis.com/files/file/31861-transamerica-pyramid/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-transamerica-pyramid-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-transamerica-pyramid-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-transamerica-pyramid-maxisnite
 
 ---
 assetId: diego-del-llano-transamerica-pyramid-darknite

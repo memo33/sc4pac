@@ -11,13 +11,13 @@ info:
   website: https://community.simtropolis.com/files/file/31553-tres-mares/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-tres-mares-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-tres-mares-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-tres-mares-maxisnite
 
 ---
 assetId: diego-del-llano-tres-mares-darknite

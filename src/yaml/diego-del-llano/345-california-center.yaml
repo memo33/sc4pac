@@ -18,13 +18,13 @@ info:
   website: https://community.simtropolis.com/files/file/31439-345-california-center/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-345-california-center-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-345-california-center-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-345-california-center-maxisnite
 
 ---
 assetId: diego-del-llano-345-california-center-darknite

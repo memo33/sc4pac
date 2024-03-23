@@ -16,13 +16,13 @@ info:
   website: https://community.simtropolis.com/files/file/31516-commerzbank-tower/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-commerzbank-tower-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-commerzbank-tower-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-commerzbank-tower-maxisnite
 
 ---
 assetId: diego-del-llano-commerzbank-tower-darknite

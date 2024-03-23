@@ -17,13 +17,13 @@ info:
   website: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-rené-lévesque/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-maxisnite
 
 ---
 assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-darknite

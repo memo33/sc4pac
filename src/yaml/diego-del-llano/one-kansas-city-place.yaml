@@ -14,13 +14,13 @@ info:
   website: https://community.simtropolis.com/files/file/31469-one-kansas-city-place/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-one-kansas-city-place-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-one-kansas-city-place-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-one-kansas-city-place-maxisnite
 
 ---
 assetId: diego-del-llano-one-kansas-city-place-darknite

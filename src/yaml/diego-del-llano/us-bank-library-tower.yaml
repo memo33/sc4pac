@@ -19,13 +19,13 @@ info:
   website: https://community.simtropolis.com/files/file/31863-us-bank-library-tower/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-us-bank-library-tower-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-us-bank-library-tower-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-us-bank-library-tower-maxisnite
 
 ---
 assetId: diego-del-llano-us-bank-library-tower-darknite

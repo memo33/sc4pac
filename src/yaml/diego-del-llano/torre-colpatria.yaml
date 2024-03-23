@@ -12,13 +12,13 @@ info:
   website: https://community.simtropolis.com/files/file/31978-torre-colpatria/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torre-colpatria-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-torre-colpatria-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-torre-colpatria-maxisnite
 
 ---
 assetId: diego-del-llano-torre-colpatria-darknite

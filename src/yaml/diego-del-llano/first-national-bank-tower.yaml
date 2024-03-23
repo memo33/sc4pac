@@ -19,13 +19,13 @@ info:
   website: https://community.simtropolis.com/files/file/31467-first-national-bank-tower/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-first-national-bank-tower-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-first-national-bank-tower-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-first-national-bank-tower-maxisnite
 
 ---
 assetId: diego-del-llano-first-national-bank-tower-darknite

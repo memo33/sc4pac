@@ -11,13 +11,13 @@ info:
   website: https://community.simtropolis.com/files/file/31849-westin-regina/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-westin-regina-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-westin-regina-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-westin-regina-maxisnite
 
 ---
 assetId: diego-del-llano-westin-regina-darknite

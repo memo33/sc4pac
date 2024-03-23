@@ -16,13 +16,13 @@ info:
   website: https://community.simtropolis.com/files/file/31477-carlton-hotel-johannesburg/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-carlton-hotel-johannesburg-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-carlton-hotel-johannesburg-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-carlton-hotel-johannesburg-maxisnite
 
 ---
 assetId: diego-del-llano-carlton-hotel-johannesburg-darknite

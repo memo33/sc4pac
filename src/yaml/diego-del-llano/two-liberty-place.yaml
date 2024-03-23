@@ -13,13 +13,13 @@ info:
   website: https://community.simtropolis.com/files/file/31989-two-liberty-place/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-two-liberty-place-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-two-liberty-place-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-two-liberty-place-maxisnite
 
 ---
 assetId: diego-del-llano-two-liberty-place-darknite

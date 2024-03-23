@@ -16,13 +16,13 @@ info:
   website: https://community.simtropolis.com/files/file/31442-chanin-building/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-chanin-building-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-chanin-building-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-chanin-building-maxisnite
 
 ---
 assetId: diego-del-llano-chanin-building-darknite

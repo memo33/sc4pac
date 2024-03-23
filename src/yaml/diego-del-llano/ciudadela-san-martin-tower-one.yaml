@@ -12,13 +12,13 @@ info:
   website: https://community.simtropolis.com/files/file/31975-ciudadela-san-martin-tower-one/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ciudadela-san-martin-tower-one-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-ciudadela-san-martin-tower-one-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-ciudadela-san-martin-tower-one-maxisnite
 
 ---
 assetId: diego-del-llano-ciudadela-san-martin-tower-one-darknite

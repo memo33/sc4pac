@@ -17,17 +17,17 @@ info:
   website: https://community.simtropolis.com/files/file/31449-federal-center-chicago/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-dirksen-courthouse-maxisnite
+      - assetId: diego-del-llano-kluczynski-building-maxisnite
+      - assetId: diego-del-llano-loop-postal-station-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-dirksen-courthouse-darknite
       - assetId: diego-del-llano-kluczynski-building-darknite
       - assetId: diego-del-llano-loop-postal-station-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-dirksen-courthouse-maxisnite
-      - assetId: diego-del-llano-kluczynski-building-maxisnite
-      - assetId: diego-del-llano-loop-postal-station-maxisnite
 
 ---
 assetId: diego-del-llano-dirksen-courthouse-darknite

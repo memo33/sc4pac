@@ -21,13 +21,13 @@ info:
   website: https://community.simtropolis.com/files/file/31908-comcast-center/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-comcast-center-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-comcast-center-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-comcast-center-maxisnite
 
 ---
 assetId: diego-del-llano-comcast-center-darknite

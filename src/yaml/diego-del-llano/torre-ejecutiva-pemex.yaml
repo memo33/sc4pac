@@ -20,13 +20,13 @@ info:
   website: https://community.simtropolis.com/files/file/31795-torre-ejecutiva-pemex/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torre-ejecutiva-pemex-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-torre-ejecutiva-pemex-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-torre-ejecutiva-pemex-maxisnite
 
 ---
 assetId: diego-del-llano-torre-ejecutiva-pemex-darknite

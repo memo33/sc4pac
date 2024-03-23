@@ -11,13 +11,13 @@ info:
   website: https://community.simtropolis.com/files/file/31846-hyatt-ziva-tower-two/
 
 variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-hyatt-ziva-tower-two-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-hyatt-ziva-tower-two-darknite
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: diego-del-llano-hyatt-ziva-tower-two-maxisnite
 
 ---
 assetId: diego-del-llano-hyatt-ziva-tower-two-darknite
