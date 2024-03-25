@@ -1,0 +1,25 @@
+group: diego-del-llano
+name: olympia-centre
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Olympia Centre
+  description: >
+    The Olympia Centre is a skyscraper in Chicago.
+    It is a mixed use building consisting of offices in the lower part of the building and residences in the narrower upper section.
+    It was designed by Skidmore, Owings & Merrill LLP, and at 725 ft (221 m) tall, with 63 floors, it is Chicago's tallest mid-block building.
+    The exterior is Swedish granite, which was completed in Italy.
+
+    The Consulate-General of Japan in Chicago is located in Suite 1100 in the Olympia Centre.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/30991-olympia-centre/
+
+assets:
+  - assetId: diego-del-llano-olympia-centre
+
+---
+assetId: diego-del-llano-olympia-centre
+version: "1.0"
+lastModified: "2016-03-11T06:42:41Z"
+url: https://community.simtropolis.com/files/file/30991-olympia-centre/?do=download

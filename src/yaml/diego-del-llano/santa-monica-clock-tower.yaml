@@ -1,0 +1,35 @@
+group: diego-del-llano
+name: santa-monica-clock-tower
+version: 1.0.0
+subfolder: 360-landmark
+info:
+  summary: Santa Monica Clock Tower
+  description: >
+    The Clock Tower Building, built between 1929 and 1930 in Art Déco style, is the 4th highest skyscraper in Santa Monica.
+    For around 40 years it held the record for the tallest building in the skyline.
+    The skyscraper was commissioned by the Bay Cities Guaranty and Loan Association to the Californian architects Albert R. Walker (1881–1958) and Percy A. Eisen (1885–1946), whose firm, Walker & Eisen, with a staff of more than 50 draughtsmen, was the most important leading practice in California in the 1920s.
+    Among its many completed projects, the firm had recently designed the extraordinary skyscraper in the Romanesque Revival style known as the Fine Arts Building in Los Angeles (now owned by Sorgente Group of America), one of the most representative buildings in the city.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/35534-santa-monica-clock-tower/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-santa-monica-clock-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-santa-monica-clock-tower-darknite
+
+---
+assetId: diego-del-llano-santa-monica-clock-tower-darknite
+version: 1.0.0
+lastModified: "2023-05-30T01:35:23Z"
+url: https://community.simtropolis.com/files/file/35534-santa-monica-clock-tower/?do=download&r=197127
+
+---
+assetId: diego-del-llano-santa-monica-clock-tower-maxisnite
+version: 1.0.0
+lastModified: "2023-05-30T01:35:23Z"
+url: https://community.simtropolis.com/files/file/35534-santa-monica-clock-tower/?do=download&r=197128

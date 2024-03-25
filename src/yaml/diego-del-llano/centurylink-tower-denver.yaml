@@ -1,0 +1,27 @@
+group: diego-del-llano
+name: centurylink-tower-denver
+version: "2.0.0"
+subfolder: 360-landmark
+info:
+  summary: Centurylink Tower Denver (1801 California Street)
+  description: >
+    1801 California Street, also known as CenturyLink Tower, is a skyscraper in Denver, Colorado.
+    The building was completed in 1983, and rises 53 floors and 709 feet (216 m) in height.
+    The building stands as the second-tallest building in Denver and Colorado, and as the 111th-tallest building in the United States.
+
+    1801 California Street was previously occupied by offices for US West, and then served as the world headquarters ofQwest Communications.
+    In summer 2011 following CenturyLink's acquisition of Qwest, the Qwest sign was removed from the top and replaced with the CenturyLink sign.
+    Upon its completion in 1983, the building stood as the tallest building in the city.
+    However, it held that distinction for less than a year, being surpassed by Republic Plaza in 1984.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/30984-centurylink-tower-denver-1801-california-street/
+
+assets:
+  - assetId: diego-del-llano-centurylink-tower-denver-1801-california-street
+
+---
+assetId: diego-del-llano-centurylink-tower-denver-1801-california-street
+version: "2.0.0"
+lastModified: "2016-03-05T00:24:09Z"
+url: https://community.simtropolis.com/files/file/30984-centurylink-tower-denver-1801-california-street/?do=download

@@ -1,0 +1,33 @@
+group: diego-del-llano
+name: complete-collection
+version: 1.0.0
+subfolder: 360-landmark
+info:
+  summary: Complete collection of all of Diego Del Llano's landmarks
+  description: >
+    The collection consists of the North America collection, the Latin America collection
+    as well as individual buildings from around the world.
+
+    You can install the entire collection or choose individual buildings by following the dependency links.
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file
+
+dependencies: [
+  # collections
+  "diego-del-llano:north-america-collection",
+  "diego-del-llano:latin-america-collection",
+  # remaining buildings
+  "diego-del-llano:cahalane-communications",
+  "diego-del-llano:carlton-center",
+  "diego-del-llano:carlton-hotel-johannesburg",
+  "diego-del-llano:commerzbank-tower",
+  "diego-del-llano:hogan-wallace-and-white-insurance",
+  "diego-del-llano:lind-entertainment",
+  "diego-del-llano:messeturm",
+  "diego-del-llano:pedriana-pharmaceuticals",
+  "diego-del-llano:van-prooijen-trading",
+  "diego-del-llano:ventura-place-one",
+  "diego-del-llano:ventura-place-three",
+  "diego-del-llano:ventura-place-two",
+  "diego-del-llano:walkup-tower",
+]

@@ -1,0 +1,17 @@
+group: diego-del-llano
+name: san-francisco-collection
+version: 1.0.0
+subfolder: 360-landmark
+info:
+  summary: Diego Del Llano's San Francisco landmarks collection
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file
+
+dependencies: [
+  "diego-del-llano:345-california-center",
+  "diego-del-llano:bank-of-america-center",
+  "diego-del-llano:hotel-nikko-san-francisco",
+  "diego-del-llano:salesforce-tower",
+  "diego-del-llano:shaklee-terraces",
+  "diego-del-llano:transamerica-pyramid",
+]

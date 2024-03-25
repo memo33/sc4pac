@@ -1,0 +1,33 @@
+group: diego-del-llano
+name: 432-park-avenue
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: 432 Park Avenue, New York
+  description: >
+    432 Park Avenue is a residential skyscraper in New York City that overlooks Central Park.
+    Originally proposed to be 1,300 feet (396.2 meters) in 2011, the structure topped out at 1,396 ft (425.5 m).
+    It was developed by CIM Group and features 125 condominium apartments.
+    Construction began in 2012 and was completed on December 23, 2015.
+
+    As completed, 432 Park Avenue is the third tallest building in the United States, and the tallest residential building in the world.
+    It is the second-tallest building in New York City, behind One World Trade Center, and ahead of the Empire State Building.
+    It is also the first, and so far only, building in New York City outside the World Trade Center Complex to be taller than the original twin towers.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32319-432-park-avenue/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-432-park-avenue
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-432-park-avenue
+
+---
+assetId: diego-del-llano-432-park-avenue
+version: "1.0"
+lastModified: "2018-06-17T14:41:05Z"
+url: https://community.simtropolis.com/files/file/32319-432-park-avenue/?do=download

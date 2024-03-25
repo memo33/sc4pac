@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: icon-vallarta
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Icon Vallarta
+  description: >
+    These luxury beach-front condos are located in Puerto Vallarta, Mexico. The height is 328 ft (100 meters).
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31550-icon-vallarta/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-icon-vallarta-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-icon-vallarta-darknite
+
+---
+assetId: diego-del-llano-icon-vallarta-darknite
+version: "1.0"
+lastModified: "2017-04-02T04:19:02Z"
+url: https://community.simtropolis.com/files/file/31550-icon-vallarta/?do=download&r=165244
+
+---
+assetId: diego-del-llano-icon-vallarta-maxisnite
+version: "1.0"
+lastModified: "2017-04-02T04:19:02Z"
+url: https://community.simtropolis.com/files/file/31550-icon-vallarta/?do=download&r=165245

@@ -1,0 +1,48 @@
+group: diego-del-llano
+name: denver-place
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Denver Place
+  description: >
+    Denver Place is an office complex in Denver, Colorado, comprising the North and South Towers, Terraces and the Granite Tower.
+    It is Colorado's largest commercial office property.
+    Denver Place South Tower is the tallest building of the complex.
+    It is 416 feet (127 m) tall, has 34 floors, and was completed in 1981.
+    The Denver Place complex is located in the downtown area of Denver, Colorado and mostly consists of four high-rise buildings spanning two city blocks.
+    The Denver Place North and South Towers take up the southeastern block.
+    They were developed in 1981 by Devco Property Inc. from design by Marvin E. Knedler & Assoc. Architects, P.C.
+    The South Tower is the tallest, reaching 416 feet (127 m) with 34 floors, while the North Tower is 285 feet (87 m) tall with 23 floors.
+    The two towers are elongated hexagons made of silver grey aluminum panels contrasted by dark grey reflective glass.
+    They sit diagonally from one another, connected by a six story terraced building.
+    At street level is a retail mall.
+    The building has won many awards including the 2005 Denver Metro Building Owners And Managers Association Building of the Year Award in the Earth Award category and the Gold LEED-EB Label for its green design.
+
+    The northwestern block holds the Granite Tower (Denver), built in 1983.
+    Formerly known as the Plaza Tower, this skyscraper stands at 398 feet (121 m) tall with 31 floors.
+    At the north end of this block is the Ritz-Carlton Denver, the city's first and only Ritz Carlton, formerly an Embassy Suites Hotel.
+    The building is 390 feet (120 m) tall and has 38 floors.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31537-denver-place/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-denver-place-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-denver-place-darknite
+
+---
+assetId: diego-del-llano-denver-place-darknite
+version: "1.0"
+lastModified: "2017-03-23T06:19:17Z"
+url: https://community.simtropolis.com/files/file/31537-denver-place/?do=download&r=165130
+
+---
+assetId: diego-del-llano-denver-place-maxisnite
+version: "1.0"
+lastModified: "2017-03-23T06:19:17Z"
+url: https://community.simtropolis.com/files/file/31537-denver-place/?do=download&r=165129

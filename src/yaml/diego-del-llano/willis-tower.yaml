@@ -1,0 +1,40 @@
+group: diego-del-llano
+name: willis-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Willis Tower
+  description: >
+    The Willis Tower, built as and still commonly referred to as the Sears Tower, is a 108-story, 1,450-foot (442.1 m) skyscraper in Chicago, Illinois, United States.[3] At completion in 1973, it surpassed the World Trade Centertowers in New York to become the tallest building in the world, a title it held for nearly 25 years and remained the tallest building in the Western Hemisphere until 2014 and the completion of a new building at the World Trade Center site.
+    The building is considered a seminal achievement for its architect Fazlur Rahman Khan.
+    The Willis Tower is the second-tallest building in the United States and the 16th-tallest in the world.
+    More than one million people visit its observation deck each year, making it one of Chicago's most popular tourist destinations.
+    The structure was renamed in 2009 by the Willis Group as part of its lease on a portion of the tower's space.
+
+    As of December 2013, the building's largest tenant is United Airlines, which moved its corporate headquarters from the United Building at 77 West Wacker Drive in 2012 and today occupies around 20 floors with its headquarters and operations center.
+
+    The building's official address is 233 South Wacker Drive, Chicago, Illinois 60606.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31901-willis-tower/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-willis-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-willis-tower-darknite
+
+---
+assetId: diego-del-llano-willis-tower-darknite
+version: "1.0"
+lastModified: "2017-08-14T19:59:31Z"
+url: https://community.simtropolis.com/files/file/31901-willis-tower/?do=download&r=167980
+
+---
+assetId: diego-del-llano-willis-tower-maxisnite
+version: "1.0"
+lastModified: "2017-08-14T19:59:31Z"
+url: https://community.simtropolis.com/files/file/31901-willis-tower/?do=download&r=167981

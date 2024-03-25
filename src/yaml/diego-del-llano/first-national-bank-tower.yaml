@@ -1,0 +1,40 @@
+group: diego-del-llano
+name: first-national-bank-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: First National Bank Tower
+  description: >
+    The First National Bank Tower is a 634 ft (193 m), 45-story skyscraper at 1601 Dodge Street in downtown Omaha, Nebraska.
+    Completed in 2002, it is currently the tallest building in Nebraska.
+    It was built on the site of the former Medical Arts Building which was imploded on April 2, 1999.
+    Inside the glass lobby is a large section of the ornamental facade from the former Medical Arts Building.
+
+    The First National Bank Tower also plays host to Trek up the Tower, a vertical stair climb race up to the top of the tower.
+    This race is presented by The Wellness Council of the Midlands.
+
+    The building is the headquarters of First National of Nebraska.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31467-first-national-bank-tower/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-first-national-bank-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-first-national-bank-tower-darknite
+
+---
+assetId: diego-del-llano-first-national-bank-tower-darknite
+version: "1.0"
+lastModified: "2017-02-17T08:07:36Z"
+url: https://community.simtropolis.com/files/file/31467-first-national-bank-tower/?do=download&r=164628
+
+---
+assetId: diego-del-llano-first-national-bank-tower-maxisnite
+version: "1.0"
+lastModified: "2017-02-17T08:07:36Z"
+url: https://community.simtropolis.com/files/file/31467-first-national-bank-tower/?do=download&r=164629

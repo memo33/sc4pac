@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: one-metropolitan-square
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: One Metropolitan Square
+  description: >
+    One Metropolitan Square, also known as Met Square, is a skyscraper completed in 1989 in downtown St. Louis, Missouri.
+    At 180.7 m (593 ft), it is the tallest building in the city, and second tallest building in Missouri behind One Kansas City Place in Kansas City.
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31470-one-metropolitan-square/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-one-metropolitan-square-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-one-metropolitan-square-darknite
+
+---
+assetId: diego-del-llano-one-metropolitan-square-darknite
+version: "1.0"
+lastModified: "2017-02-20T00:35:01Z"
+url: https://community.simtropolis.com/files/file/31470-one-metropolitan-square/?do=download&r=164644
+
+---
+assetId: diego-del-llano-one-metropolitan-square-maxisnite
+version: "1.0"
+lastModified: "2017-02-20T00:35:01Z"
+url: https://community.simtropolis.com/files/file/31470-one-metropolitan-square/?do=download&r=164645

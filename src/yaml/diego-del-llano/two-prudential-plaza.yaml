@@ -1,0 +1,33 @@
+group: diego-del-llano
+name: two-prudential-plaza
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Two Prudential Plaza
+  description: >
+    Two Prudential Plaza is a 64-story skyscraper that was built in the Loop area of Chicago, Illinois, United States in 1990.
+    At 995 feet (303 m) tall, it is currently the sixth-tallest building in Chicago and the seventeenth-tallest in the U.S., being only five feet from 1,000 feet, making it the closest of any building under 1,000.
+    The building was designed by the firm Loebl Schlossman & Hackl, with Stephen T.
+    Wright as the principal in charge of design.
+    It has been honored with 8 awards, including winning the Best Structure Award from the Structural Engineers Association of Illinois in 1995.
+
+    At the time of completion Two Prudential was the world's tallest reinforced concrete building.
+    Its distinctive shape features stacked chevron setbacks on the north and south sides, a pyramidal peak rotated 45°, and an 80-foot (24 m) spire.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/33081-two-prudential-plaza/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-two-prudential-plaza-darknite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-two-prudential-plaza-darknite
+
+---
+assetId: diego-del-llano-two-prudential-plaza-darknite
+version: "1.0"
+lastModified: "2019-08-21T14:15:45Z"
+url: https://community.simtropolis.com/files/file/33081-two-prudential-plaza/?do=download

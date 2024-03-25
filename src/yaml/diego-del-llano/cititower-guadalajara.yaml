@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: cititower-guadalajara
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Cititower Guadalajara
+  description: >
+    Cititower is a Mixed complex located in Guadalajara, Mexico.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31539-cititower-guadalajara/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-cititower-guadalajara-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-cititower-guadalajara-darknite
+
+---
+assetId: diego-del-llano-cititower-guadalajara-darknite
+version: "1.0"
+lastModified: "2017-03-27T02:00:57Z"
+url: https://community.simtropolis.com/files/file/31539-cititower-guadalajara/?do=download&r=165161
+
+---
+assetId: diego-del-llano-cititower-guadalajara-maxisnite
+version: "1.0"
+lastModified: "2017-03-27T02:00:57Z"
+url: https://community.simtropolis.com/files/file/31539-cititower-guadalajara/?do=download&r=165162

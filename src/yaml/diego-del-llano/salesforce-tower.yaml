@@ -1,0 +1,30 @@
+group: diego-del-llano
+name: salesforce-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Salesforce Tower
+  description: >
+    Salesforce Tower, formerly known as Transbay Tower, is a 61-story skyscraper at 415 Mission Street, between First and Fremont Street, in the South of Market district of downtown San Francisco.
+    Its main tenant is Salesforce, a cloud-based software company.
+    The building is 1,070 feet (326 m) tall, with a top roof height of 970 feet (296 m).
+    Designed by César Pelli and developed by Hines Interests Limited Partnership and Boston Properties, it was the last building designed by Pelli to be completed in his lifetime.
+    As of 2024, Salesforce Tower is the tallest building in San Francisco and the second-tallest building both in California and west of the Mississippi River after the 1,100 feet (335 m) Wilshire Grand Center in Los Angeles
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32961-salesforce-tower/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-salesforce-tower-darknite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-salesforce-tower-darknite
+
+---
+assetId: diego-del-llano-salesforce-tower-darknite
+version: "1.0"
+lastModified: "2021-11-10T10:34:20Z"
+url: https://community.simtropolis.com/files/file/32961-salesforce-tower/?do=download&r=190478

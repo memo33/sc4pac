@@ -1,0 +1,35 @@
+group: diego-del-llano
+name: one-kansas-city-place
+version: "2.0.0"
+subfolder: 360-landmark
+info:
+  summary: One Kansas City Place
+  description: >
+    One Kansas City Place is the tallest building in Missouri located in downtown Kansas City, bounded by 12th Street to the north, Baltimore Avenue to the west, and Main Street to the east.
+    Built in 1988, the 190.1 m (624 ft) skyscraper was designed by Patty Berkebile Nelson & Immenschuh and replaced the Town Pavilion as the tallest building in the city.
+
+    One Kansas City Place is considered an architectural salute to City Hall, which is located 5 blocks east of Main on 12th Street.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31469-one-kansas-city-place/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-one-kansas-city-place-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-one-kansas-city-place-darknite
+
+---
+assetId: diego-del-llano-one-kansas-city-place-darknite
+version: "2.0.0"
+lastModified: "2017-05-18T16:32:20Z"
+url: https://community.simtropolis.com/files/file/31469-one-kansas-city-place/?do=download&r=164640
+
+---
+assetId: diego-del-llano-one-kansas-city-place-maxisnite
+version: "2.0.0"
+lastModified: "2017-05-18T16:32:20Z"
+url: https://community.simtropolis.com/files/file/31469-one-kansas-city-place/?do=download&r=164641

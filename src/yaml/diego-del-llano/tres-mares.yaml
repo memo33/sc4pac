@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: tres-mares
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Tres Mares
+  description: >
+    These luxury beach front condos are located in Puerto Vallarta, Mexico. The height is 328 ft (100 meters).
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31553-tres-mares/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-tres-mares-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-tres-mares-darknite
+
+---
+assetId: diego-del-llano-tres-mares-darknite
+version: "1.0"
+lastModified: "2017-04-09T16:14:22Z"
+url: https://community.simtropolis.com/files/file/31553-tres-mares/?do=download&r=165306
+
+---
+assetId: diego-del-llano-tres-mares-maxisnite
+version: "1.0"
+lastModified: "2017-04-09T16:14:22Z"
+url: https://community.simtropolis.com/files/file/31553-tres-mares/?do=download&r=165307

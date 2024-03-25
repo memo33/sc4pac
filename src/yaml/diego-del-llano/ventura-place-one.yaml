@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: ventura-place-one
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Ventura Place One
+  description: >
+    This landmark is a mixed-used building with commercial center, luxury hotel with terraces and residences.
+    It provides 2700 jobs (CS$$$).
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31457-ventura-place-one/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ventura-place-one-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-ventura-place-one-darknite
+
+---
+assetId: diego-del-llano-ventura-place-one-darknite
+version: "1.0"
+lastModified: "2017-02-11T21:28:15Z"
+url: https://community.simtropolis.com/files/file/31457-ventura-place-one/?do=download&r=164536
+
+---
+assetId: diego-del-llano-ventura-place-one-maxisnite
+version: "1.0"
+lastModified: "2017-02-11T21:28:15Z"
+url: https://community.simtropolis.com/files/file/31457-ventura-place-one/?do=download&r=164537

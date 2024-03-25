@@ -1,0 +1,25 @@
+group: diego-del-llano
+name: gran-torre-santiago
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Gran Torre Santiago
+  description:
+    This landmark is a CO$$$ skyscraper from Santiago de Chile with a High-Tech style.
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32962-gran-torre-santiago/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-gran-torre-santiago-darknite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-gran-torre-santiago-darknite
+
+---
+assetId: diego-del-llano-gran-torre-santiago-darknite
+version: "1.0"
+lastModified: "2019-08-21T14:18:43Z"
+url: https://community.simtropolis.com/files/file/32962-gran-torre-santiago/?do=download

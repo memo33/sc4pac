@@ -1,0 +1,38 @@
+group: diego-del-llano
+name: edificio-alas
+version: 1.0.0
+subfolder: 360-landmark
+info:
+  summary: Edificio Alas
+  description: >
+    The Alas Building is a residential and office tower, designed in the rationalist style, located in the San Nicolás neighborhood, in the City of Buenos Aires, Argentina.
+    It was the tallest building in Buenos Aires from 1957 to 1994.
+
+    Originally conceived as the ATLAS Building (Agrupación de Trabajadores Latinoamericanos Sindicalizados S.A.), and undertaken by the association of the same name whose president was Carlos Aloé, an official in the government of Juan Domingo Perón.
+
+    During the Revolution, the building was expropriated and handed over to the Argentine Air Force, which completed it and allocated it for housing for personnel of various ranks.
+    Additionally, the name was changed to "ALAS" (WINGS). In the central block of the building, there are nine apartments per floor, and originally, ALAS had its own supply store, as well as internal-use commercial spaces.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/35796-edificio-alas/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-edificio-alas-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-edificio-alas-darknite
+
+---
+assetId: diego-del-llano-edificio-alas-darknite
+version: 1.0.0
+lastModified: "2023-12-09T20:01:38Z"
+url: https://community.simtropolis.com/files/file/35796-edificio-alas/?do=download&r=198569
+
+---
+assetId: diego-del-llano-edificio-alas-maxisnite
+version: 1.0.0
+lastModified: "2023-12-09T20:01:38Z"
+url: https://community.simtropolis.com/files/file/35796-edificio-alas/?do=download&r=198570

@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: torre-multiva
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Torre Multiva
+  description: >
+    Torre Multiva is a building located in Guadalajara, Mexico, the height is 301 ft (92 m ).
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31504-torre-multiva/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torre-multiva-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-torre-multiva-darknite
+
+---
+assetId: diego-del-llano-torre-multiva-darknite
+version: "1.0"
+lastModified: "2017-03-09T07:53:36Z"
+url: https://community.simtropolis.com/files/file/31504-torre-multiva/?do=download&r=164902
+
+---
+assetId: diego-del-llano-torre-multiva-maxisnite
+version: "1.0"
+lastModified: "2017-03-09T07:53:36Z"
+url: https://community.simtropolis.com/files/file/31504-torre-multiva/?do=download&r=164903

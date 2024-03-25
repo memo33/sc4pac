@@ -1,0 +1,66 @@
+group: diego-del-llano
+name: federal-center-chicago
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Federal Center Chicago
+  description: >
+    Also known as Federal Plaza, this urban square unifies Ludwig Mies van der Rohe’s complex of three buildings of varying scales: the mid-rise Everett McKinley Dirksen Building, the high-rise John C. Kluczynski Building, and the single-story Post Office building.
+    The granite tiles of the plaza continuously flow into the glazed lobbies of these International style, glass curtain-wall edifices, visually and physically connecting the interior and exterior spaces.
+    Low, rectangular granite benches and raised planters define and edge the plaza, while a square planting area with four deciduous trees offers shade for several additional benches.
+    Alexander Calder’s iconic red sculpture, the 53-foot “Flamingo,” adds vibrant color to the black and grey pavement.
+    The piece was commissioned by the Government Services Administration and installed in 1974 to great fanfare, unveiled following a parade celebrating Calder’s work, with the artist sitting atop a circus wagon pulled by 40 horses.
+    Associated architects that have played a role in the complex’s long history from 1959 to 1974 include Schmidt, Garden & Erickson; C.F. Murphy Associates; and A. Epstein & Sons.
+    The plaza is home to a regular farmers market and is a frequent site for political gatherings.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31449-federal-center-chicago/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-dirksen-courthouse-maxisnite
+      - assetId: diego-del-llano-kluczynski-building-maxisnite
+      - assetId: diego-del-llano-loop-postal-station-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-dirksen-courthouse-darknite
+      - assetId: diego-del-llano-kluczynski-building-darknite
+      - assetId: diego-del-llano-loop-postal-station-darknite
+
+---
+assetId: diego-del-llano-dirksen-courthouse-darknite
+version: "1.0"
+lastModified: "2017-02-03T21:54:34Z"
+url: https://community.simtropolis.com/files/file/31449-federal-center-chicago/?do=download&r=164500
+
+---
+assetId: diego-del-llano-kluczynski-building-darknite
+version: "1.0"
+lastModified: "2017-02-03T21:54:34Z"
+url: https://community.simtropolis.com/files/file/31449-federal-center-chicago/?do=download&r=164502
+
+---
+assetId: diego-del-llano-loop-postal-station-darknite
+version: "1.0"
+lastModified: "2017-02-03T21:54:34Z"
+url: https://community.simtropolis.com/files/file/31449-federal-center-chicago/?do=download&r=164504
+
+---
+assetId: diego-del-llano-dirksen-courthouse-maxisnite
+version: "1.0"
+lastModified: "2017-02-03T21:54:34Z"
+url: https://community.simtropolis.com/files/file/31449-federal-center-chicago/?do=download&r=164501
+
+---
+assetId: diego-del-llano-kluczynski-building-maxisnite
+version: "1.0"
+lastModified: "2017-02-03T21:54:34Z"
+url: https://community.simtropolis.com/files/file/31449-federal-center-chicago/?do=download&r=164503
+
+---
+assetId: diego-del-llano-loop-postal-station-maxisnite
+version: "1.0"
+lastModified: "2017-02-03T21:54:34Z"
+url: https://community.simtropolis.com/files/file/31449-federal-center-chicago/?do=download&r=164505

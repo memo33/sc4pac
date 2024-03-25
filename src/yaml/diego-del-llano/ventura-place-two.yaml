@@ -1,0 +1,32 @@
+group: diego-del-llano
+name: ventura-place-two
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Ventura Place Two
+  description: >
+    This landmark is a mixed-used building with commercial center, offices and residences.
+    It provides 2700 jobs (CO$$$).
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31458-ventura-place-two/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ventura-place-two-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-ventura-place-two-darknite
+
+---
+assetId: diego-del-llano-ventura-place-two-darknite
+version: "1.0"
+lastModified: "2017-02-12T00:55:38Z"
+url: https://community.simtropolis.com/files/file/31458-ventura-place-two/?do=download&r=164541
+
+---
+assetId: diego-del-llano-ventura-place-two-maxisnite
+version: "1.0"
+lastModified: "2017-02-12T00:55:38Z"
+url: https://community.simtropolis.com/files/file/31458-ventura-place-two/?do=download&r=164542

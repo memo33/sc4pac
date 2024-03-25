@@ -1,0 +1,34 @@
+group: diego-del-llano
+name: regions-center
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Regions Center
+  description: >
+    Regions Center Tower is a 30-story skyscraper located at 400 West Capitol Avenue in downtown Little Rock, Arkansas.
+    At 454 feet (138 m) high, it is currently the second tallest building in Arkansas.
+    It was completed in 1975.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31829-regions-center/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-regions-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-regions-center-darknite
+
+---
+assetId: diego-del-llano-regions-center-darknite
+version: "1.0"
+lastModified: "2017-06-30T01:54:29Z"
+url: https://community.simtropolis.com/files/file/31829-regions-center/?do=download&r=167404
+
+---
+assetId: diego-del-llano-regions-center-maxisnite
+version: "1.0"
+lastModified: "2017-06-30T01:54:29Z"
+url: https://community.simtropolis.com/files/file/31829-regions-center/?do=download&r=167405

@@ -1,0 +1,38 @@
+group: diego-del-llano
+name: edificio-avianca
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Edificio Avianca
+  description: >
+    Edificio Avianca, Its design and construction were awarded to Esguerra Saenz, Urdaneta, Samper and Co., Ricaurte Prieto Carrizosa and Italian Domenico Parma, after a call for design proposals among the most recognized architecture firms at the time.
+    The design of the building was completed in 1963, and its construction took place between 1966 and 1969, built on the former grounds of the Regina hotel.
+    Its inauguration was at the end of 1969.
+    At that time it was the tallest international style skyscraper in South America.
+    The building was erected for Avianca airlines.
+    It is currently in use and has 40 floors.
+    The facades of the building are defined as continuous windows on both sides.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32107-edificio-avianca/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-edificio-avianca-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-edificio-avianca-darknite
+
+---
+assetId: diego-del-llano-edificio-avianca-darknite
+version: "1.0"
+lastModified: "2018-02-06T03:45:00Z"
+url: https://community.simtropolis.com/files/file/32107-edificio-avianca/?do=download&r=169940
+
+---
+assetId: diego-del-llano-edificio-avianca-maxisnite
+version: "1.0"
+lastModified: "2018-02-06T03:45:00Z"
+url: https://community.simtropolis.com/files/file/32107-edificio-avianca/?do=download&r=169941
