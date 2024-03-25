@@ -24,6 +24,10 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: diego-del-llano-capella-tower-225-south-sixth-maxisnite
+        exclude:  # the asset contains an unnecessary copy of a darknite building
+          - "/CapellaTower_DN_05af0402.SC4Lot"
+          - "/CAPELLATOWER-0x5ad0e817_0xd60100c4_0x5b0000.SC4Model"
+          - "/Capella Tower \\(225 South Sixth\\)-0x6534284a-0xd60100c4-0xb6284c69.SC4Desc"
       - assetId: diego-del-llano-capella-tower-225-south-sixth-2-maxisnite
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
