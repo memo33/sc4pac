@@ -7,4 +7,4 @@ This repository contains all the metadata of packages contained in the default c
 
 Contribute by adding more packages in [src/yaml](src/yaml/).
 
-For more information, visit https://memo33.github.io/sc4pac/ and https://github.com/memo33/sc4pac-tools.
+For more information, visit the [website](https://memo33.github.io/sc4pac/) and the [code repository](https://github.com/memo33/sc4pac-tools).
