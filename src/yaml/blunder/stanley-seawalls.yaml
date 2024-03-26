@@ -1,0 +1,28 @@
+group: blunder
+name: stanley-seawalls
+version: "1.0"
+subfolder: "660-parks"
+info:
+  summary: Stanley Seawalls Base Set
+  description: >
+    A simple set of seawalls inspired by and (loosely) mimicking the seawalls in Stanley Park, Vancouver BC.
+  author: blunder
+  website: "https://community.simtropolis.com/files/file/30868-stanley-seawalls/"
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: blunder-stanley-seawalls
+        include:
+          - "/Stanley Seawalls Maxisnight/"
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: blunder-stanley-seawalls
+        include:
+          - "/Stanley Seawalls Darknight/"
+
+---
+assetId: blunder-stanley-seawalls
+version: "1.0"
+lastModified: "2015-12-17T04:49:59Z"
+url: https://community.simtropolis.com/files/file/30868-stanley-seawalls/?do=download

@@ -1,0 +1,19 @@
+group: marrast
+name: embankment-set
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Marrast's Embankment Set
+  description: >
+    An embankment set that can be used to create lifelike embankments along your shorelines or river edges in the game.
+    Can be found in the seaports menu.
+  author: Marrast
+  website: https://community.simtropolis.com/files/file/16655-marrasts-embankment-set/
+assets:
+  - assetId: marrast-embankment-set
+
+---
+assetId: marrast-embankment-set
+version: "1.0"
+lastModified: "2011-04-18T21:02:58Z"
+url: https://community.simtropolis.com/files/file/16655-marrasts-embankment-set/?do=download

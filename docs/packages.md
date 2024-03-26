@@ -72,6 +72,7 @@ This list will be expanded as more packages are added to the metadata channel.
 - Parks:
   * `pkg=kingofsimcity:community-regional-park-pack-vol1` (11 medium to large parks)
   * `pkg=kingofsimcity:community-regional-park-pack-vol2` (36 parks and sports fields)
+  * `pkg=blunder:stanley-seawalls`
 - Miscellaneous:
   * `pkg=bsc:census-repository` (provides detailed stats about city growth)
   * `pkg=mattb325:galaxy-casino-hotel`
