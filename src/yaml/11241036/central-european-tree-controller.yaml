@@ -1,0 +1,83 @@
+group: "11241036"
+name: central-european-tree-controller
+version: "1.03"
+subfolder: 180-flora
+info:
+  summary: Central European Tree Controller
+  warning: >-
+    If using this controller in seasonal mode, seasonal trees must be planted on September 1st.
+    When switching to another tree controller, always remove any and all trees planted with your previous tree controller *before* uninstalling your old tree controller.
+
+    If you want to remove this tree controller, there are some helper files available on Simtropolis.
+  conflicts: >-
+    The seasonal controller variant is only compatible with terrain mods that include the Seasonal Flora Patch.
+    Incompatible with all other tree controllers – only one tree controller may be installed at a time.
+  description: >
+    This plugin provides you with a tree controller, that allows you to plant large forests consisting of trees mostly created by girafe.
+    On lower altitudes, leafy trees are being planted, and the higher you go, eventually mixed forests, conifer forests, shrubby plains and meadows with flowers will appear instead.
+
+    There are a few ways to use this tree controller.
+    You can use it in seasonal mode, in which case the planted flora will change appearance throughout the year.
+    Alternatively you can choose one of the non-seasonal variants: summer, fall or winter.
+    With such a variant, the trees will always look the same, regardless of the in-game time.
+    This is useful if you don't want the trees to change color while playing, but occasionally want to take screenshots in fall or winter mode.
+    In this case, use `sc4pac variant reset CETC.mode` and then run `sc4pac update` again.
+  author: "11241036"
+  website: https://community.simtropolis.com/files/file/31419-central-european-tree-controller/
+
+dependencies:
+  - bsc:mega-props-cp-vol02
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:maples-v2
+  - girafe:lindens
+  - girafe:oaks
+  - girafe:norway-maples
+  - girafe:common-spruces
+  - girafe:conifers
+  - girafe:subalpine-firs
+  - girafe:larches
+  - girafe:daisy
+  - girafe:sparaxis
+  - girafe:narcissus
+  - girafe:bushes
+
+variants:
+  - variant: { CETC.mode: seasonal }
+    assets:
+      - assetId: "11241036-central-european-tree-controller"
+        include:
+          - Central European Tree Controller_Seasonal v1_03.dat
+          - Maxis TC Disabler.dat
+  - variant: { CETC.mode: summer }
+    assets:
+      - assetId: "11241036-central-european-tree-controller"
+        include:
+          - Central European Tree Controller_Evergreen SUMMER v1_03.dat
+          - Maxis TC Disabler.dat
+  - variant: { CETC.mode: fall }
+    assets:
+      - assetId: "11241036-central-european-tree-controller"
+        include:
+          - Central European Tree Controller_Evergreen FALL v1_03.dat
+          - Maxis TC Disabler.dat
+  - variant: { CETC.mode: winter }
+    assets:
+      - assetId: "11241036-central-european-tree-controller"
+        include:
+          - Central European Tree Controller_Evergreen WINTER v1_03.dat
+          - Maxis TC Disabler.dat
+
+variantDescriptions:
+  CETC.mode:
+    seasonal: trees changing appearance throughout the year
+    summer: evergreen trees
+    fall: fall foliage for the entire year
+    winter: leafless trees for the entire year
+
+---
+assetId: "11241036-central-european-tree-controller"
+version: "1.03"
+lastModified: "2024-03-09T21:52:48Z"
+url: https://community.simtropolis.com/files/file/31419-central-european-tree-controller/?do=download
