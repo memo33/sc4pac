@@ -10,7 +10,7 @@ dependencies:
   - bsc:texturepack-cycledogg-vol01
 
 info:
-  summary: Modern Villa
+  summary: Modern Villa 1
   description: >
     This villa is part of a set of 5 modern R$$$ villas.
     They grow on the modern Houston and Euro tilesets.
@@ -98,7 +98,7 @@ dependencies:
   - bsc:texturepack-cycledogg-vol01
 
 info:
-  summary: Modern Villa
+  summary: Modern Villa 2
   description: >
     This villa is part of a set of 5 modern R$$$ villas.
     They grow on the modern Houston and Euro tilesets.
@@ -142,7 +142,7 @@ dependencies:
   - bsc:texturepack-cycledogg-vol01
 
 info:
-  summary: Modern Villa
+  summary: Modern Villa 3
   description: >
     This villa is part of a set of 5 modern R$$$ villas.
     They grow on the modern Houston and Euro tilesets.
@@ -186,7 +186,7 @@ dependencies:
   - bsc:texturepack-cycledogg-vol01
 
 info:
-  summary: Modern Villa
+  summary: Modern Villa 4
   description: >
     This villa is part of a set of 5 modern R$$$ villas.
     They grow on the modern Houston and Euro tilesets.
@@ -195,7 +195,7 @@ info:
     High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
     The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
   author: mattb325
-  website: https://community.simtropolis.com/files/file/34620-modern-villa-3/
+  website: https://community.simtropolis.com/files/file/34624-modern-villa-4/
 
 variants:
   - variant: { nightmode: standard }
