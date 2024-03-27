@@ -1,0 +1,274 @@
+group: mattb325
+name: modern-villa
+version: "1.0.0"
+subfolder: 200-residential
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+
+info:
+  summary: Modern Villa
+  description: >
+    This villa is part of a set of 5 modern R$$$ villas.
+    They grow on the modern Houston and Euro tilesets.
+
+    Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
+    High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34593-modern-villa/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-modern-villa-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-modern-villa-darknite
+
+---
+assetId: mattb325-modern-villa-maxisnite
+version: "1.0.0"
+lastModified: "2021-07-16T23:43:09Z"
+url: https://community.simtropolis.com/files/file/34593-modern-villa/?do=download&r=189311
+
+---
+assetId: mattb325-modern-villa-darknite
+version: "1.0.0"
+lastModified: "2021-07-16T23:43:09Z"
+url: https://community.simtropolis.com/files/file/34593-modern-villa/?do=download&r=189310
+
+---
+group: mattb325
+name: modern-villa-1
+version: "1.0.0"
+subfolder: 200-residential
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+
+info:
+  summary: Modern Villa 1
+  description: >
+    This villa is part of a set of 5 modern R$$$ villas.
+    They grow on the modern Houston and Euro tilesets.
+
+    Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
+    High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34602-modern-villa-1/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-modern-villa-1-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-modern-villa-1-darknite
+
+---
+assetId: mattb325-modern-villa-1-darknite
+version: "1.0.0"
+lastModified: "2021-07-21T00:34:07Z"
+url: https://community.simtropolis.com/files/file/34602-modern-villa-1/?do=download&r=189364
+
+---
+assetId: mattb325-modern-villa-1-maxisnite
+version: "1.0.0"
+lastModified: "2021-07-21T00:34:07Z"
+url: https://community.simtropolis.com/files/file/34602-modern-villa-1/?do=download&r=189363
+
+---
+group: mattb325
+name: modern-villa-2
+version: "1.0.0"
+subfolder: 200-residential
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+
+info:
+  summary: Modern Villa
+  description: >
+    This villa is part of a set of 5 modern R$$$ villas.
+    They grow on the modern Houston and Euro tilesets.
+
+    Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
+    High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34609-modern-villa-2/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-modern-villa-2-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-modern-villa-2-darknite
+
+---
+assetId: mattb325-modern-villa-2-maxisnite
+version: "1.0.0"
+lastModified: "2021-07-25T03:30:08Z"
+url: https://community.simtropolis.com/files/file/34609-modern-villa-2/?do=download&r=189405
+
+---
+assetId: mattb325-modern-villa-2-darknite
+version: "1.0.0"
+lastModified: "2021-07-25T03:30:08Z"
+url: https://community.simtropolis.com/files/file/34609-modern-villa-2/?do=download&r=189404
+
+---
+group: mattb325
+name: modern-villa-3
+version: "1.0.0"
+subfolder: 200-residential
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+
+info:
+  summary: Modern Villa
+  description: >
+    This villa is part of a set of 5 modern R$$$ villas.
+    They grow on the modern Houston and Euro tilesets.
+
+    Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
+    High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34620-modern-villa-3/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-modern-villa-3-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-modern-villa-3-darknite
+
+---
+assetId: mattb325-modern-villa-3-maxisnite
+version: "1.0.0"
+lastModified: "2021-07-29T22:25:48Z"
+url: https://community.simtropolis.com/files/file/34620-modern-villa-3/?do=download&r=189464
+
+---
+assetId: mattb325-modern-villa-3-darknite
+version: "1.0.0"
+lastModified: "2021-07-29T22:25:48Z"
+url: https://community.simtropolis.com/files/file/34620-modern-villa-3/?do=download&r=189463
+
+---
+group: mattb325
+name: modern-villa-4
+version: "1.0.0"
+subfolder: 200-residential
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+
+info:
+  summary: Modern Villa
+  description: >
+    This villa is part of a set of 5 modern R$$$ villas.
+    They grow on the modern Houston and Euro tilesets.
+
+    Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
+    High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34620-modern-villa-3/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-modern-villa-4-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-modern-villa-4-darknite
+
+---
+assetId: mattb325-modern-villa-4-maxisnite
+version: "1.0.0"
+lastModified: "2021-08-02T00:07:24Z"
+url: https://community.simtropolis.com/files/file/34624-modern-villa-4/?do=download&r=189494
+
+---
+assetId: mattb325-modern-villa-4-darknite
+version: "1.0.0"
+lastModified: "2021-08-02T00:07:24Z"
+url: https://community.simtropolis.com/files/file/34624-modern-villa-4/?do=download&r=189493
+
+---
+group: mattb325
+name: modern-villas
+version: "1.0.0"
+subfolder: 200-residential
+dependencies:
+  - mattb325:modern-villa
+  - mattb325:modern-villa-1
+  - mattb325:modern-villa-2
+  - mattb325:modern-villa-3
+  - mattb325:modern-villa-4
+
+info:
+  summary: Modern Villas
+  description: >
+    A set of 5 modern R$$$ villas.
+    They grow on the modern Houston and Euro tilesets.
+
+    Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
+    High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone.
+  author: mattb325
+  website: https://community.simtropolis.com/profile/91964-mattb325/content/?type=downloads_file
+
+
+
+---
+group: mattb325
+name: ploppable-modern-villas
+version: "1.0.0"
+subfolder: 360-landmark
+dependencies:
+  - mattb325:modern-villas
+assets:
+  - assetId: mattb325-ploppable-modern-villas
+
+info:
+  summary: Ploppable Modern Villas
+  description: >
+    A ploppable version of 5 modern villas.
+
+    In SC4, all residential lots need access to a road, and that of course means a lot must be made, and the downloader is often subject to the whims and tastes of the lot-maker: certainly houses that are off the beaten track are almost ipossible to achieve in the constraints of SC4 RCI zoning.
+    So to that end, the set of 5 modern villas have all been made into a single building family to enable the user to place them wherever he or she wants.
+
+    There is a single 1x1 neutral lot in the landmark menu, and to avoid clutter, each time you plop, you will get a different house at random.
+    In order to be placed in very out-of-the-way locations, the houses light up without needing any electricity supply.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/34628-ploppable-modern-villas/
+
+---
+assetId: mattb325-ploppable-modern-villas
+version: "1.0.0"
+lastModified: "2021-08-05T01:25:25Z"
+url: https://community.simtropolis.com/files/file/34628-ploppable-modern-villas/?do=download
