@@ -1,0 +1,19 @@
+group: "girafe"
+name: "maxis-fence-hd-replacement-mod"
+version: "1.0.0"
+subfolder: "150-mods"
+assets:
+- assetId: "girafe-maxis-fence-hd-replacement-mod"
+
+info:
+  summary: HD replacement of 7 original Maxis fence props
+  description: >
+    Great care was taken to create props which behave in the same way as the Maxis props in order to ensure a seamless override.
+  author: "Flann, girafe"
+  website: "https://community.simtropolis.com/files/file/33965-girafe-maxis-fence-hd-replacement-mod/"
+
+---
+assetId: "girafe-maxis-fence-hd-replacement-mod"
+version: "1.0.0"
+lastModified: "2020-11-17T23:27:55Z"
+url: "https://community.simtropolis.com/files/file/33965-girafe-maxis-fence-hd-replacement-mod/?do=download"
