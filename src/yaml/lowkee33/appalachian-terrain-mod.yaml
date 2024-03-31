@@ -6,11 +6,13 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=41:a
 ---
 group: "lowkee33"
 name: "appalachian-terrain-mod-complete"
-version: "1.0"
+version: "3"
 subfolder: "170-terrain"
 dependencies:
 - "lowkee33:appalachian-terrain-mod-base"
-- "lowkee33:lk-starter-set"
+- "lowkee33:lk-starter-set-beach"
+- "lowkee33:lk-starter-set-cliff"
+- "lowkee33:lk-starter-set-water"
 info:
   summary: "Appalachian Terrain Mod plus LK Starter Set"
   conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -29,7 +31,7 @@ info:
 ---
 group: "lowkee33"
 name: "appalachian-terrain-mod-base"
-version: "1.0"
+version: "3"
 subfolder: "170-terrain"
 assets:
 - assetId: "appalachian-terrain-mod"
@@ -52,28 +54,11 @@ info:
   author: "lowkee33"
   website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33"
 
----
-group: "lowkee33"
-name: "lk-starter-set"
-version: "1.0"
-subfolder: "170-terrain"
-dependencies:
-- "lowkee33:lk-starter-set-beach"
-- "lowkee33:lk-starter-set-cliff"
-- "lowkee33:lk-starter-set-water"
-info:
-  summary: "LK Starter Set beach, cliff & water textures for the Appalachian Terrain Mod"
-  description: >
-    Installs the LK Starter Set beach, cliff & water textures which are companion to the Appalachian Terrain Mod.
-
-    These are HD terrain textures which require the use of hardware rendering mode.
-  author: "lowkee33"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33"
 
 ---
 group: "lowkee33"
 name: "lk-starter-set-beach"
-version: "1.0"
+version: "3"
 subfolder: "170-terrain"
 assets:
 - assetId: "appalachian-terrain-mod"
@@ -91,7 +76,7 @@ info:
 ---
 group: "lowkee33"
 name: "lk-starter-set-cliff"
-version: "1.0"
+version: "3"
 subfolder: "170-terrain"
 assets:
 - assetId: "appalachian-terrain-mod"
@@ -109,7 +94,7 @@ info:
 ---
 group: "lowkee33"
 name: "lk-starter-set-water"
-version: "1.0"
+version: "3"
 subfolder: "170-terrain"
 assets:
 - assetId: "appalachian-terrain-mod"
