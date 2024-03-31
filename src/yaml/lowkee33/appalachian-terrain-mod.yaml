@@ -1,0 +1,110 @@
+assetId: "appalachian-terrain-mod"
+version: "3"
+lastModified: "2024-01-20T04:29:44-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=41:appalachian-terrain-mod-by-lowkee33"
+
+---
+group: "lowkee33"
+name: "appalachian-terrain-mod-complete"
+version: "3"
+subfolder: "170-terrain"
+dependencies:
+- "lowkee33:appalachian-terrain-mod-base"
+- "lowkee33:appalachian-terrain-mod-beach"
+- "lowkee33:appalachian-terrain-mod-rock"
+- "lowkee33:appalachian-terrain-mod-water"
+info:
+  summary: "Appalachian Terrain Mod plus LK Starter Set"
+  conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: >
+    Appalachian Terrain Mod, including optional LK Starter Set beach, cliff, and water textures.
+
+    Note: this terrain mod provides a variety of terrain controller configurations,
+    which allow customization of elevation, snow, and erosion properties.
+    This package installs only the basic version.  If you want more control,
+    it's necessary to install the mod manually.
+
+    This is an HD terrain mod which requires the use of hardware rendering mode.
+  author: "lowkee33"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33"
+
+---
+group: "lowkee33"
+name: "appalachian-terrain-mod-base"
+version: "3"
+subfolder: "170-terrain"
+assets:
+- assetId: "appalachian-terrain-mod"
+  include:
+  - "/LK_TerrainTextures_01.dat"
+  - "/LK_AppalachianTerrain.dat"
+  - "/LK_WeatherTuning_Stagnant.dat"
+info:
+  summary: "Appalachian Terrain Mod - Terrain Only"
+  conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: >
+    Appalachian Terrain Mod base terrain only.
+
+    Note: this terrain mod provides a variety of terrain controller configurations,
+    which allow customization of elevation, snow, and erosion properties.
+    This package installs only the basic version.  If you want more control,
+    it's necessary to install the mod manually.
+
+    This is an HD terrain mod which requires the use of hardware rendering mode.
+  author: "lowkee33"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33"
+
+
+---
+group: "lowkee33"
+name: "appalachian-terrain-mod-beach"
+version: "3"
+subfolder: "170-terrain"
+assets:
+- assetId: "appalachian-terrain-mod"
+  include:
+  - "/LK_StarterSet_Beach.dat"
+info:
+  summary: "LK Starter Set beach textures"
+  description: >
+    LK Starter Set beach textures for the Appalachian Terrain Mod.
+
+    These are HD terrain textures which require the use of hardware rendering mode.
+  author: "lowkee33"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33"
+
+---
+group: "lowkee33"
+name: "appalachian-terrain-mod-rock"
+version: "3"
+subfolder: "170-terrain"
+assets:
+- assetId: "appalachian-terrain-mod"
+  include:
+  - "/LK_StarterSet_Cliff.dat"
+info:
+  summary: "LK Starter Set cliff (rock) textures"
+  description: >
+    LK Starter Set cliff (rock) textures for the Appalachian Terrain Mod.
+
+    These are HD terrain textures which require the use of hardware rendering mode.
+  author: "lowkee33"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33"
+
+---
+group: "lowkee33"
+name: "appalachian-terrain-mod-water"
+version: "3"
+subfolder: "170-terrain"
+assets:
+- assetId: "appalachian-terrain-mod"
+  include:
+  - "/LK_StarterSet_Water.dat"
+info:
+  summary: "LK Starter Set water textures"
+  description: >
+    LK Starter Set water textures for the Appalachian Terrain Mod.
+
+    These are HD terrain textures which require the use of hardware rendering mode.
+  author: "lowkee33"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33"
