@@ -85,10 +85,13 @@ Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':t
 
 ## Visuals
 
-* `pkg=cycledogg:missouri-breaks-terrain` (an SD terrain mod)
-* `pkg=vip:vip-terrain-mod-complete` (an HD terrain mod alternative)
-* `pkg=blunder:pacific-northwest-tree-controller` (seasonal forests; for advanced users)
-* `pkg=11241036:central-european-tree-controller` (an alternative tree controller: seasonal/non-seasonal)
+* Terrain mods (pick at most one):
+  - `pkg=cycledogg:missouri-breaks-terrain` (an SD terrain mod)
+  - `pkg=vip:vip-terrain-mod-complete` (an HD terrain mod alternative)
+  - `pkg=lowkee33:appalachian-terrain-mod-complete` (another HD terrain mod)
+* Tree controllers (pick at most one):
+  - `pkg=blunder:pacific-northwest-tree-controller` (seasonal forests; for advanced users)
+  - `pkg=11241036:central-european-tree-controller` (an alternative tree controller: seasonal/non-seasonal)
 * `pkg=t-wrecks:maxis-tree-hd-replacement-mod` (HD trees for lots and streets)
 * `pkg=kodlovag:uniform-street-lighting-mod`
 * `pkg=peg:power-tower-pylons` (silvery-gray reskin)

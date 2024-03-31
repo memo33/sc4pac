@@ -10,9 +10,9 @@ version: "3"
 subfolder: "170-terrain"
 dependencies:
 - "lowkee33:appalachian-terrain-mod-base"
-- "lowkee33:lk-starter-set-beach"
-- "lowkee33:lk-starter-set-cliff"
-- "lowkee33:lk-starter-set-water"
+- "lowkee33:appalachian-terrain-mod-beach"
+- "lowkee33:appalachian-terrain-mod-rock"
+- "lowkee33:appalachian-terrain-mod-water"
 info:
   summary: "Appalachian Terrain Mod plus LK Starter Set"
   conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -57,7 +57,7 @@ info:
 
 ---
 group: "lowkee33"
-name: "lk-starter-set-beach"
+name: "appalachian-terrain-mod-beach"
 version: "3"
 subfolder: "170-terrain"
 assets:
@@ -75,7 +75,7 @@ info:
 
 ---
 group: "lowkee33"
-name: "lk-starter-set-cliff"
+name: "appalachian-terrain-mod-rock"
 version: "3"
 subfolder: "170-terrain"
 assets:
@@ -93,7 +93,7 @@ info:
 
 ---
 group: "lowkee33"
-name: "lk-starter-set-water"
+name: "appalachian-terrain-mod-water"
 version: "3"
 subfolder: "170-terrain"
 assets:
