@@ -1,0 +1,76 @@
+group: "nam-team"
+name: "tunnel-and-slope-mod"
+version: "0.20"
+subfolder: "150-mods"
+info:
+  summary: "Network Addon Mod Tunnel and Slope Mod"
+  description: >
+    This set of files provides players with additional choices for the slope
+    parameters of surface transportation networks in the game.
+    This collection of slope mods was designed by Lucario Boricua, author of
+    the Earthworks Tutorials series. Extensive research was conducted for both
+    other slope mods and the findings of previous precision terraforming pioneers,
+    most notably BigRedFish and Ennedi, as well as geometric design
+    characteristics of real transportation networks, to best harmonize playability
+    and realism.
+  author: "Lucario Boricua"
+  website: "https://community.simtropolis.com/files/file/35420-network-addon-mod-tunnel-and-slope-mod/"
+
+variantDescriptions:
+  nam-slope-mod.difficulty:
+    "maxis": "default slopes"
+    "very-easy": "very steep"
+    "easy": "steep"
+    "moderate-vanilla": "moderate"
+    "moderate-nam": "moderate w/ curvature"
+    "strict": "flat w/ curvature"
+    "realistic": "very flat w/ curvature"
+
+variants:
+- variant: {nam-slope-mod.difficulty: "maxis"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/NetworkAddonMod_Tunnel&SlopeMod_00_MaxisDefault.dat"
+
+- variant: {nam-slope-mod.difficulty: "very-easy"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/NetworkAddonMod_Tunnel&SlopeMod_01_VeryEasy_VerySteep.dat"
+
+- variant: {nam-slope-mod.difficulty: "easy"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/NetworkAddonMod_Tunnel&SlopeMod_02_Easy_Steep.dat"
+
+- variant: {nam-slope-mod.difficulty: "moderate-vanilla"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/NetworkAddonMod_Tunnel&SlopeMod_03a_Moderate_Vanilla.dat"
+
+- variant: {nam-slope-mod.difficulty: "moderate-nam"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/NetworkAddonMod_Tunnel&SlopeMod_03b_Moderate_NAM.dat"
+
+- variant: {nam-slope-mod.difficulty: "strict"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/NetworkAddonMod_Tunnel&SlopeMod_04_Strict_Flat.dat"
+
+- variant: {nam-slope-mod.difficulty: "realistic"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/NetworkAddonMod_Tunnel&SlopeMod_05_Realistict_VeryFlat.dat"
+
+---
+assetId: "nam-tunnel-and-slope-mod"
+version: "0.20"
+lastModified: "2023-01-16T01:51:12Z"
+url: "https://community.simtropolis.com/files/file/35420-network-addon-mod-tunnel-and-slope-mod/?do=download"
