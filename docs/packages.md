@@ -96,6 +96,7 @@ Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':t
 * `pkg=kodlovag:uniform-street-lighting-mod`
 * `pkg=peg:power-tower-pylons` (silvery-gray reskin)
 * `pkg=fanta1990:hang-glider-makeover`
+* `pkg=nam-team:tunnel-and-slope-mod`
 
 ## Dependency packs
 

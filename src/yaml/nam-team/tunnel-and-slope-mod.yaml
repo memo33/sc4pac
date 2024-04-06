@@ -5,7 +5,7 @@ subfolder: "150-mods"
 info:
   summary: "Network Addon Mod Tunnel and Slope Mod"
   description: >
-    This set of files provides players with additional choices for the slope
+    This package provides players with additional choices for the slope
     parameters of surface transportation networks in the game.
     This collection of slope mods was designed by Lucario Boricua, author of
     the Earthworks Tutorials series. Extensive research was conducted for both
@@ -22,9 +22,9 @@ variantDescriptions:
     "very-easy": "very steep"
     "easy": "steep"
     "moderate-vanilla": "moderate"
-    "moderate-nam": "moderate w/ curvature"
-    "strict": "flat w/ curvature"
-    "realistic": "very flat w/ curvature"
+    "moderate-nam": "moderate with curvature (recommended)"
+    "strict": "flat with curvature"
+    "realistic": "very flat with curvature"
 
 variants:
 - variant: {nam-slope-mod.difficulty: "maxis"}
