@@ -1,0 +1,36 @@
+group: mattb325
+name: new-york-w2w-pack-vol01
+version: "1.0"
+subfolder: 300-commercial
+
+info:
+  summary: Ten W2W buildings from New York City
+  description: >
+    This Wall-to-Wall pack consists of real buildings from around the Noho and Soho districts that take in a large variety of architectural styles.
+    In addition to being taller mid-rise buildings which are great for busy city street scenes, these buildings are mostly all corner buildings.
+
+    Some of the buildings not only grow as Commercial, but also as Residential buildings.
+    They grow on lot sizes 1×1, 1×2 and 2×2 for medium and high-density zones with the New York tileset.
+  author: "mattb325"
+  website: https://community.simtropolis.com/files/file/33079-new-york-w2w-pack-vol01-maxis-nite-version/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-new-york-w2w-01-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-new-york-w2w-01-darknite
+
+---
+assetId: mattb325-new-york-w2w-01-darknite
+version: "1.0"
+lastModified: "2019-08-10T21:32:52Z"
+url: https://community.simtropolis.com/files/file/33078-new-york-w2w-pack-vol01-darknite-version/?do=download
+
+---
+assetId: mattb325-new-york-w2w-01-maxisnite
+version: "1.0"
+lastModified: "2019-08-10T21:37:39Z"
+url: https://community.simtropolis.com/files/file/33079-new-york-w2w-pack-vol01-maxis-nite-version/?do=download

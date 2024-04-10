@@ -21,6 +21,7 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=kingofsimcity:maxis-mansion-overhaul` (replacement of all Maxis mansion Lots)
 * `pkg=kingofsimcity:maxis-mansion-overhaul-extension-set` (addon for the preceding package)
 * `pkg=gn-leugim:eha-apartments-collection` (midsize European R$ apartment buildings)
+* `pkg=mattb325:modern-villas` (set of modern R$$$ villas)
 
 ## Commercial
 
@@ -40,6 +41,7 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=gutterclub:city-tatoo` (small W2W CS$$)
 * `pkg=gutterclub:camy-dumpling-house` (small CS$ building)
 * `pkg=jasoncw:cecil-hotel` (highrise CS$ hotel)
+* `pkg=mattb325:new-york-w2w-pack-vol01` (medium/high W2W New York buildings)
 
 ## Industrial
 
