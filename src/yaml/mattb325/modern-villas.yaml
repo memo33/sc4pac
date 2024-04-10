@@ -17,7 +17,7 @@ info:
 
     Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
     High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
-    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone.
   author: mattb325
   website: https://community.simtropolis.com/files/file/34593-modern-villa/
 
@@ -61,7 +61,7 @@ info:
 
     Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
     High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
-    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone.
   author: mattb325
   website: https://community.simtropolis.com/files/file/34602-modern-villa-1/
 
@@ -105,7 +105,7 @@ info:
 
     Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
     High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
-    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone.
   author: mattb325
   website: https://community.simtropolis.com/files/file/34609-modern-villa-2/
 
@@ -149,7 +149,7 @@ info:
 
     Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
     High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
-    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone.
   author: mattb325
   website: https://community.simtropolis.com/files/file/34620-modern-villa-3/
 
@@ -193,7 +193,7 @@ info:
 
     Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
     High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
-    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone. 
+    The materials palette is usually understated - monochromatic white/dark grey plaster, zinc, wood, marble and stone.
   author: mattb325
   website: https://community.simtropolis.com/files/file/34624-modern-villa-4/
 
@@ -231,10 +231,9 @@ dependencies:
   - mattb325:modern-villa-4
 
 info:
-  summary: Modern Villas
+  summary: Collection of 5 modern R$$$ villas
   description: >
-    A set of 5 modern R$$$ villas.
-    They grow on the modern Houston and Euro tilesets.
+    These villas grow on the modern Houston and Euro tilesets.
 
     Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
     High masonry walls and hedges protect pools and indoor/outdoor areas from prying eyes.
@@ -246,7 +245,7 @@ info:
 
 ---
 group: mattb325
-name: ploppable-modern-villas
+name: modern-villas-ploppable
 version: "1.0.0"
 subfolder: 360-landmark
 dependencies:
@@ -259,7 +258,7 @@ info:
   description: >
     A ploppable version of 5 modern villas.
 
-    In SC4, all residential lots need access to a road, and that of course means a lot must be made, and the downloader is often subject to the whims and tastes of the lot-maker: certainly houses that are off the beaten track are almost ipossible to achieve in the constraints of SC4 RCI zoning.
+    In SC4, all residential lots need access to a road, and that of course means a lot must be made, and the downloader is often subject to the whims and tastes of the lot-maker: certainly houses that are off the beaten track are almost impossible to achieve in the constraints of SC4 RCI zoning.
     So to that end, the set of 5 modern villas have all been made into a single building family to enable the user to place them wherever he or she wants.
 
     There is a single 1x1 neutral lot in the landmark menu, and to avoid clutter, each time you plop, you will get a different house at random.
