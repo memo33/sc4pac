@@ -35,7 +35,7 @@ url: "https://community.simtropolis.com/files/file/32812-hogwarts-castle/?do=dow
 Conventions:
 - Unnecessary query parameters should be removed, such as categories `&catid=26` or other tokens `&confirm=1&t=1&csrfKey=5c0b12346fafafbbbac8ffa45466559a`.
 - SC4Evermore URLs should include `www.` as part of their domain.
-- Apart from ZIP files, other supported archive formats are 7z, JAR, RAR and NSIS exe installers.
+- Apart from ZIP files, other supported archive formats are 7z, JAR, RAR and NSIS or Clickteam exe-installers.
 - Assets may also contain one layer of nested ZIP or other archive files.
 - Instead of being wrapped in a ZIP file, assets may also consist of a single DBPF file or DLL file.
 
@@ -77,6 +77,20 @@ On SC4Evermore, grab the *Changed* timestamp from the info box on the download p
 
 For other sites, use the available info on the download page or, when supported by the server,
 use the `Last-Modified` HTTP header of the download URL. Shorthand for cURL users: `curl -I -L '<url>'`.
+
+### `archiveType`
+
+This is only needed for assets containing Clickteam exe-installers (in particular, not needed for NSIS exe-installers).
+
+```yaml
+archiveType:
+  format: Clickteam
+  version: "40"  # possible versions are 40, 35, 30, 24, 20
+```
+
+The version number depends on the Clickteam version used when the installer was created.
+It must be set correctly or extraction would fail.
+You can use the tool `cicdec.exe` to find the correct version number: `cicdec.exe -si <installer.exe>`.
 
 ## Packages
 
