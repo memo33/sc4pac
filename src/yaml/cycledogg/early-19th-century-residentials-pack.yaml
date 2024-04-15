@@ -1,0 +1,6 @@
+# This asset is used directly by simcoug:farmhouses.
+# TODO Create a dependency package of the models if these are used anywhere else.
+assetId: "cycledogg-early-19th-century-residentials-pack"
+version: "1"
+lastModified: "2023-07-20T14:14:56-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=5:sc4d-lex-legacy-cp-early19thcenturyresidentials-pack"

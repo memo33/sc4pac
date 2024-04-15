@@ -18,6 +18,7 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=mattb325:lafayette-square-homes` (W2W R$$)
 * `pkg=jmyers2043:homes-pack` (low-density R$ houses)
 * `pkg=simcoug:lots-vol01-jmyers-homes` (rural addon for the preceding pack)
+* `pkg=simcoug:farmhouses` (rural R$ farmhouses)
 * `pkg=kingofsimcity:maxis-mansion-overhaul` (replacement of all Maxis mansion Lots)
 * `pkg=kingofsimcity:maxis-mansion-overhaul-extension-set` (addon for the preceding package)
 * `pkg=gn-leugim:eha-apartments-collection` (midsize European R$ apartment buildings)
