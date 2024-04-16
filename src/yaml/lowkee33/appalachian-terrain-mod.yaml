@@ -1,12 +1,12 @@
 assetId: "appalachian-terrain-mod"
-version: "3"
-lastModified: "2024-01-20T04:29:44-08:00"
+version: "3.1"
+lastModified: "2024-04-16T16:16:19Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=41:appalachian-terrain-mod-by-lowkee33"
 
 ---
 group: "lowkee33"
 name: "appalachian-terrain-mod-complete"
-version: "3"
+version: "3.1"
 subfolder: "170-terrain"
 dependencies:
 - "lowkee33:appalachian-terrain-mod-base"
@@ -31,7 +31,7 @@ info:
 ---
 group: "lowkee33"
 name: "appalachian-terrain-mod-base"
-version: "3"
+version: "3.1"
 subfolder: "170-terrain"
 assets:
 - assetId: "appalachian-terrain-mod"
@@ -58,7 +58,7 @@ info:
 ---
 group: "lowkee33"
 name: "appalachian-terrain-mod-beach"
-version: "3"
+version: "3.1"
 subfolder: "170-terrain"
 assets:
 - assetId: "appalachian-terrain-mod"
@@ -76,7 +76,7 @@ info:
 ---
 group: "lowkee33"
 name: "appalachian-terrain-mod-rock"
-version: "3"
+version: "3.1"
 subfolder: "170-terrain"
 assets:
 - assetId: "appalachian-terrain-mod"
@@ -94,7 +94,7 @@ info:
 ---
 group: "lowkee33"
 name: "appalachian-terrain-mod-water"
-version: "3"
+version: "3.1"
 subfolder: "170-terrain"
 assets:
 - assetId: "appalachian-terrain-mod"
