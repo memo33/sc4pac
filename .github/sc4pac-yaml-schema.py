@@ -53,6 +53,14 @@ assetSchema = {
         "version": {"type": "string"},
         "lastModified": {"type": "string"},
         "url": {"type": "string"},
+        "archiveType": {
+            "type": "object",
+            "additionalProperties": False,
+            "properties": {
+                "format": {"enum": ["Clickteam"]},
+                "version": {"enum": ["20", "24", "30", "35", "40"]},
+            },
+        },
     },
 }
 

@@ -192,13 +192,13 @@ Start a local server to use the HTTP [API](api).
 
 **Example:**
 ```sh
-sc4pac server --indent 2 --scope-root scopes/scope-1/
+sc4pac server --indent 2 --profile-root profiles/profile-1/
 ```
 
 **Options:**
-- `--port <number>`      (default: 51515)
-- `--indent <number>`    indentation of JSON responses (default: -1, no indentation)
-- `--scope-root <path>`  root directory containing `sc4pac-plugins.json` (default: current working directory), newly created if necessary; can be used for managing multiple different plugins folders
+- `--port <number>`        (default: 51515)
+- `--indent <number>`      indentation of JSON responses (default: -1, no indentation)
+- `--profile-root <path>`  root directory containing `sc4pac-plugins.json` (default: current working directory), newly created if necessary; can be used for managing multiple different plugins folders
 
 
 ---
