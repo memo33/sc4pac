@@ -1,0 +1,42 @@
+group: aaron-graham
+name: gracie-manor
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Thirteen-story W2W modernism apartments (NYBT)
+  description: >
+    Gracie Manor is a 1956 residential building in Manhattan, New York City.
+    The building grows as R$$ and R$$$ in four color variations on the New York tile set.
+    It is a (W2W) wall-to-wall non-corner building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/28981-nybt-gracie-manor/
+
+dependencies:
+- "nybt:essentials"
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: aaron-graham-gracie-manor-maxisnite
+- variant: { nightmode: dark }
+  dependencies: ["simfox:day-and-nite-mod"]
+  assets:
+  - assetId: aaron-graham-gracie-manor-darknite
+
+---
+assetId: aaron-graham-gracie-manor-darknite
+version: "1.0"
+lastModified: "2016-10-06T23:02:05Z"
+url: https://community.simtropolis.com/files/file/28981-nybt-gracie-manor/?do=download&r=163407
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-gracie-manor-maxisnite
+version: "1.0"
+lastModified: "2016-10-06T23:02:05Z"
+url: https://community.simtropolis.com/files/file/28981-nybt-gracie-manor/?do=download&r=163406
+archiveType:
+  format: Clickteam
+  version: "40"
