@@ -1,12 +1,12 @@
 assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-version: "8"
-lastModified: "2023-12-15T03:42:27-08:00"
+version: "9a"
+lastModified: "2024-05-01T07:19:10-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=3:sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "essentials"
-version: "2023"
+version: "2024a"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -20,7 +20,7 @@ info:
 ---
 group: "bsc"
 name: "prop-family-names"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -200,11 +200,11 @@ info:
 ---
 group: "bsc"
 name: "mega-props-t1-vol01"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - T1 vol01.dat" ]
+  include: [ "/BSC MEGA Props - T1 vol01 v..dat" ]
 info:
   summary: "BSC Mega Props - T1 Vol01 by tag_one"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -368,7 +368,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-jenx-vol01"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -736,7 +736,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-sg-vol01"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1598,7 +1598,7 @@ info:
 ---
 group: "bsc"
 name: "sg-mega-residentials-vol01-models"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1610,7 +1610,7 @@ info:
 ---
 group: "bsc"
 name: "sg-mega-residentials-vol02-models"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1622,7 +1622,7 @@ info:
 ---
 group: "bsc"
 name: "sg-mega-residentials-vol03-models"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1634,7 +1634,7 @@ info:
 ---
 group: "bsc"
 name: "sg-mega-residentials-vol04-models"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
