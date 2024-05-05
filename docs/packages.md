@@ -115,6 +115,7 @@ All of the BSC Common Dependencies, Girafe's flora, and many others.
 
 ## Other useful plugins
 
+- `pkg=memo:submenus-dll` (adds more submenus to the game)
 - `pkg=simmaster07:extra-cheats-dll` (additional cheat codes)
 - See also this
   [Guide for manually building a plugins folder](https://community.simtropolis.com/forums/topic/75599-indiana-joe-and-the-quest-for-the-ultimate-plugins-folder/).
