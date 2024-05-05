@@ -1,0 +1,32 @@
+group: "sfbt"
+name: "rfr-maize-set"
+version: "2"
+subfolder: "410-agriculture"
+dependencies:
+- sfbt:essentials
+- t-wrecks:maxis-prop-names-and-query-fix  # buildings as props
+- wmp:mega-props-vol02
+- vip:rural-pack
+- namspopof:props-pack-vol1
+- namspopof:props-pack-vol2
+- bsc:mega-props-cp-vol01
+- bsc:mega-props-jmyers-agriculture-vol01
+- bsc:textures-vol01
+- bsc:texturepack-cycledogg-vol01
+assets:
+- assetId: "sfbt-rfr-maize-set"
+
+info:
+  summary: "Growable and ploppable maize fields"
+  description: >
+    The pack contains 2 growable farms and a maize field lot,
+    5 ploppable field lots for harvesting scenes
+    as well as 5 MMPs including some machinery.
+  author: "RFR Team, SFBT, FrankyFour, IGC, Mathe Man, rambuckel, carlfatal, Andreas"
+  website: "https://community.simtropolis.com/files/file/27139-sfbt-rfr-maize-set/"
+
+---
+assetId: "sfbt-rfr-maize-set"
+version: "2"
+lastModified: "2023-12-29T14:33:22Z"
+url: "https://community.simtropolis.com/files/file/27139-sfbt-rfr-maize-set/?do=download"
