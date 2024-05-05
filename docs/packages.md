@@ -115,6 +115,7 @@ All of the BSC Common Dependencies, Girafe's flora, and many others.
 
 ## Other useful plugins
 
+- `pkg=memo:3d-camera-dll` (arbitrary camera angles)
 - `pkg=memo:submenus-dll` (adds more submenus to the game)
 - `pkg=simmaster07:extra-cheats-dll` (additional cheat codes)
 - See also this

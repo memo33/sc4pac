@@ -1,0 +1,22 @@
+group: "memo"
+name: "3d-camera-dll"
+version: "1.0.0"
+subfolder: "150-mods"
+assets:
+- assetId: "memo-3d-camera-dll"
+
+info:
+  summary: "Allows setting arbitrary camera angles"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: >
+    This DLL plugin activates two cheat codes that allow you to freely change the camera angles of the game.
+
+    For detailed instructions, refer to the documentation on Simtropolis or GitHub.
+  author: "memo"
+  website: "https://community.simtropolis.com/files/file/36188-3d-camera-dll-for-simcity-4/"
+
+---
+assetId: "memo-3d-camera-dll"
+version: "1.0.0"
+lastModified: "2024-04-01T08:26:25Z"
+url: "https://community.simtropolis.com/files/file/36188-3d-camera-dll-for-simcity-4/?do=download"
