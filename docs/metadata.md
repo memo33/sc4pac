@@ -271,6 +271,9 @@ info:
 ?> For the meaning of the multi-line character `>` in YAML files, refer to the [YAML format](https://en.wikipedia.org/wiki/YAML#Basic_components).
    Useful alternatives can be `|` or `>-`.
 
+?> Use the syntax `` `pkg=hagrid:whomping-willow` `` to refer to another package from within the description or other text fields
+   in order to render a link to the package.
+
 ## Complete example
 
 Putting together all the pieces, a complete YAML file might look as follows.

@@ -29,7 +29,7 @@ assets:
 info:
   summary: Fix the capacity of the opera house (Modpacc Zero)
   warning: >-
-    If you have previously built opera houses with Toroca's original opera house fix (toroca:opera-house-fix),
+    If you have previously built opera houses with Toroca's original opera house fix (`pkg=toroca:opera-house-fix`),
     you should keep Toroca's fix in your plugins as well (but only then).
     Otherwise, you can ignore this warning.
   conflicts: This mod is compatible with both the Maxis opera house and Toroca's opera house fix, regardless of load order.

@@ -17,7 +17,7 @@ info:
     The vineyard hut also has a custom foundation which makes it pretty slope-conforming.
 
     The growable variant has been designed along the settings of the Maxis farms.
-    For creating extended wine regions, you might want to use a Maxis farm blocker temporarily (bsc:no-maxis-farms);
+    For creating extended wine regions, you might want to use a Maxis farm blocker temporarily (`pkg=bsc:no-maxis-farms`);
     as long as you don't have other custom farms installed, only vineyards will grow.
     Since field lots are not overgrown later, you can safely remove the blocker again later in order to get other farms.
   author: "IGC, FrankyFour, Andreas"

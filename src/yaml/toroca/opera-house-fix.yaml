@@ -5,7 +5,7 @@ subfolder: "150-mods"
 assets:
 - assetId: "toroca-opera-house-fix"
 info:
-  summary: Superseded by mz:opera-house-fix
+  summary: Superseded by `pkg=mz:opera-house-fix`
   warning: >
     You *must* bulldoze existing opera houses *before* installing this mod.
     Otherwise, the mod does not work and the game will crash when you bulldoze old opera houses.

@@ -77,13 +77,13 @@ variantDescriptions:
 info:
   summary: "Huge set of CAM-patible farms (stage 1 to 10)"
   description: >
-    The mod contains a large assortment of farms designed for use with the Colossus Addon Mod (CAM).
+    The mod contains a large assortment of farms designed for use with the Colossus Addon Mod (`pkg=cam:colossus-addon-mod`).
 
     It includes 134 growable farms and 45 fields as well as new props, textures and some ploppable filler pieces.
 
     The non-CAM version of the package includes only the lots for stages 1 to 3.
 
-    The mod may be used in combination with a Maxis farms blocker (bsc:no-maxis-farms) or a Maxis farms replacement mod.
+    The mod may be used in combination with a Maxis farms blocker (`pkg=bsc:no-maxis-farms`) or a Maxis farms replacement mod.
 
     Please consult the extensive documentation for more information about the design philosophy and use of this mod.
   author: "Fantozzi"

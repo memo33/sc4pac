@@ -96,7 +96,7 @@ version: "1-1"
 subfolder: "100-props-textures"
 dependencies: [ "bsc:mega-props-d66-vol03" ]
 info:
-  summary: "Superseded by bsc:mega-props-d66-vol03"
+  summary: "Superseded by `pkg=bsc:mega-props-d66-vol03`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -106,7 +106,7 @@ version: "1-1"
 subfolder: "100-props-textures"
 dependencies: [ "bsc:mega-props-d66-vol03" ]
 info:
-  summary: "Superseded by bsc:mega-props-d66-vol03"
+  summary: "Superseded by `pkg=bsc:mega-props-d66-vol03`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -152,7 +152,7 @@ version: "1-1"
 subfolder: "100-props-textures"
 dependencies: [ "bsc:mega-props-jenx-vol04" ]
 info:
-  summary: "Superseded by bsc:mega-props-jenx-vol04"
+  summary: "Superseded by `pkg=bsc:mega-props-jenx-vol04`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -162,7 +162,7 @@ version: "1-1"
 subfolder: "100-props-textures"
 dependencies: [ "bsc:mega-props-kwk-vol03" ]
 info:
-  summary: "Superseded by bsc:mega-props-kwk-vol03"
+  summary: "Superseded by `pkg=bsc:mega-props-kwk-vol03`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -172,7 +172,7 @@ version: "1-1"
 subfolder: "100-props-textures"
 dependencies: [ "bsc:mega-props-kwk-vol03" ]
 info:
-  summary: "Superseded by bsc:mega-props-kwk-vol03"
+  summary: "Superseded by `pkg=bsc:mega-props-kwk-vol03`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -182,7 +182,7 @@ version: "1-1"
 subfolder: "100-props-textures"
 dependencies: [ "bsc:mega-props-lil-vol01" ]
 info:
-  summary: "Superseded by bsc:mega-props-lil-vol01"
+  summary: "Superseded by `pkg=bsc:mega-props-lil-vol01`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -696,7 +696,7 @@ version: "1-1"
 subfolder: "100-props-textures"
 dependencies: [ "bsc:mega-props-rt-wfk-vol02-wimps" ]
 info:
-  summary: "Superseded by bsc:mega-props-rt-wfk-vol02-wimps"
+  summary: "Superseded by `pkg=bsc:mega-props-rt-wfk-vol02-wimps`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -706,7 +706,7 @@ version: "1-1"
 subfolder: "100-props-textures"
 dependencies: [ "bsc:mega-props-rt-wfk-vol01-cds", "bsc:mega-props-rt-wfk-vol02-wimps" ]
 info:
-  summary: "Superseded by bsc:mega-props-rt-wfk-vol01-cds/bsc:mega-props-rt-wfk-vol02-wimps"
+  summary: "Superseded by `pkg=bsc:mega-props-rt-wfk-vol01-cds`/`pkg=bsc:mega-props-rt-wfk-vol02-wimps`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -1345,7 +1345,7 @@ assets:
 info:
   summary: "Grfe_Carpack_vol. 1 & 2 by Girafe, original version"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
-  description: See also bsc:vip-girafe-carpack-vol01-vol02-remastered which uses separate IDs.
+  description: See also `pkg=bsc:vip-girafe-carpack-vol01-vol02-remastered` which uses separate IDs.
 
 ---
 group: "bsc"
@@ -1358,7 +1358,7 @@ assets:
 info:
   summary: "Grfe_props_pack_Carpack_vol01-vol02_remastered by Girafe, uses separate IDs from the original"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
-  description: See also bsc:vip-girafe-carpack-vol01-vol02.
+  description: See also `pkg=bsc:vip-girafe-carpack-vol01-vol02`.
 
 ---
 group: "bsc"
@@ -1383,7 +1383,7 @@ assets:
 info:
   summary: "Carpack vol. 4 by Girafe"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
-  description: See also bsc:vip-girafe-urbanpack-vol01 which includes this carpack as a dependency.
+  description: See also `pkg=bsc:vip-girafe-urbanpack-vol01` which includes this carpack as a dependency.
 
 ---
 group: "bsc"
@@ -1458,7 +1458,7 @@ assets:
   include: [ "/BSC BATProps Mattb325 Vol01.dat" ]
 info:
   summary: "BSC BATProps Mattb325 Vol01"
-  description: "Obsolete and mostly replaced by bsc:bat-props-mattb325-vol04 with new IDs."
+  description: "Obsolete and mostly replaced by `pkg=bsc:bat-props-mattb325-vol04` with new IDs."
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
