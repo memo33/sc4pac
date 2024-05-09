@@ -1,0 +1,26 @@
+# Package
+group: "nos17"
+name: "essentials"
+version: "13.1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "nos17-essentials"
+  include:
+  - "/nos17-essentials-prop-families.dat"
+  - "/nos17-essentials-props.dat"
+  - "/nos17-essentials-textures.dat"
+info:
+  summary: "A collection of props and textures made by nos.17 and Bobbo662."
+  warning: This file has no dependencies. However, if you are a creator using these prop families, note certain prop families *do* have additional cascading dependencies. Refer to the provided documentation for details.
+  conflicts: "None"
+  description: A small pack containing miscellaneous B62 props, custom prop families (including ones for LBT and SHK vehicles), and some custom textures.
+  author: "nos.17"
+  images: [ "https://www.simtropolis.com/objects/screens/monthly_2016_11/nos.17_Essentials_01.png.55809298f823cc614ad0a22f7b7dd288.png", "https://www.simtropolis.com/objects/screens/monthly_2016_11/nos.17_Essentials_03.png.2dc88886beab9f1febbde4439bede678.png", "https://www.simtropolis.com/objects/screens/monthly_2016_11/nos.17_Essentials_02.png.09863b6c4ee54212c925b978c82dbef7.png" ]
+  website: "https://community.simtropolis.com/files/file/30114-nos17-essentials"
+
+# Asset
+---
+assetId: "nos17-essentials"
+url: "https://community.simtropolis.com/files/file/30114-nos17-essentials/?do=download"
+version: "13.1"
+lastModified: "2021-03-05T03:10:18Z"
