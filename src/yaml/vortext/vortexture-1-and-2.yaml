@@ -10,20 +10,21 @@ assets:
   - "/Vortexture 2 - Grass and Dirt v2.dat"
 info:
   summary: "Base and overlay textures of grass and dirt"
-  conflicts: "None"
-  description: >
+  description: |
     Vortexture 1 - BaseSet: A set of 42 new base textures for use in the Lot Editor.
-    Vortexture 2  - Grass & Dirt v2: This set contains various sets of overlay and two-toned base textures based on the previously released set of base textures, for use in the Lot Editor. Included are:
+    Vortexture 2 - Grass & Dirt v2: This set contains various sets of overlay and two-toned base textures based on the previously released set of base textures, for use in the Lot Editor. Included are:
       6 sets of grass overlays, 48 shapes per set
       6 sets of dirts overlays, 48 shapes per set
       5 sets of unpaved overlays, 32 shapes per set
       8 sets of two-tone base textures, 48 shapes per set
-  author: "vortext"  # original author of the content, if useful
-  images: [ "https://www.sc4evermore.com/images/jdownloads/screenshots/Vortexture%201_lex%20pic%20vrtxtr%20%20day.jpg", "https://www.sc4evermore.com/images/jdownloads/screenshots/Vortexture%202_lex%20pic%20vrtxtr2v2%20%20day.jpg" ]
+  author: "vortext"
+  images:
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/Vortexture%201_lex%20pic%20vrtxtr%20%20day.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/Vortexture%202_lex%20pic%20vrtxtr2v2%20%20day.jpg"
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/168-vortext-vortexture-1-2-base-set-grass-and-dirt"
 
-# Asset
 ---
+# Asset
 assetId: "vortext-vortexture-1-and-2"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=168:vortext-vortexture-1-2-base-set-grass-and-dirt"
 version: "1.0"

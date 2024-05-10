@@ -1,6 +1,6 @@
-#################### nbvc-stone-path-props ####################
+#################### nbvc-stone-paths-props ####################
 group: "nbvc"
-name: "stone-path-props"
+name: "stone-paths-props"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -15,43 +15,51 @@ assets:
   - "/NBVC_StonePathsMMP_100.dat"
 info:
   summary: "Stone path props"
-  conflicts: "None"
   description: >
     This file contains stones to be used as props in the Lot-Editor for your custom lots.
   author: "nbvc"
-  images: [ "https://www.simtropolis.com/objects/screens/monthly_09_2012/5c9d58473db64043d5be1a57c4b8b8e3-stonepaths1.jpg", "https://www.simtropolis.com/objects/screens/monthly_09_2012/f00178dd80612ea631507f31af2d6225-stonepaths2.jpg", "https://www.simtropolis.com/objects/screens/monthly_09_2012/9267480898eec5d0d4671c1515d28719-stonepaths3.jpg" ]
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_09_2012/5c9d58473db64043d5be1a57c4b8b8e3-stonepaths1.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_09_2012/f00178dd80612ea631507f31af2d6225-stonepaths2.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_09_2012/9267480898eec5d0d4671c1515d28719-stonepaths3.jpg"
   website: "https://community.simtropolis.com/files/file/27995-stone-paths/"
 
 
-#################### nbvc-stone-path-mmp ####################
+---
+#################### nbvc-stone-paths-mmp ####################
 group: "nbvc"
-name: "stone-path-mmp"
+name: "stone-paths-mmp"
 version: "1.0"
 subfolder: "180-flora"
 dependencies:
-  - "nbvc:stone-path-props"
+  - "nbvc:stone-paths-props"
 assets:
 - assetId: "nbvc-stone-paths"
   include:
   - "/NBVC_StonePathsMMP_100.dat"
 info:
-  summary: "Rocks for stone paths"
-  conflicts: "None"
+  summary: "Rocks for stone paths as MMPs"
   description: >
     With the mayor menu ploppable stone paths you can create your own custom paths.
     You can change the MMP stones with additional clicks on the same stone.
+
+    Optionally, you can install the package `pkg=nbvc:stone-paths-lots`, as well.
   author: "nbvc"
-  images: [ "https://www.simtropolis.com/objects/screens/monthly_09_2012/5c9d58473db64043d5be1a57c4b8b8e3-stonepaths1.jpg", "https://www.simtropolis.com/objects/screens/monthly_09_2012/f00178dd80612ea631507f31af2d6225-stonepaths2.jpg", "https://www.simtropolis.com/objects/screens/monthly_09_2012/9267480898eec5d0d4671c1515d28719-stonepaths3.jpg" ]
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_09_2012/5c9d58473db64043d5be1a57c4b8b8e3-stonepaths1.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_09_2012/f00178dd80612ea631507f31af2d6225-stonepaths2.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_09_2012/9267480898eec5d0d4671c1515d28719-stonepaths3.jpg"
   website: "https://community.simtropolis.com/files/file/27995-stone-paths/"
 
 
-#################### nbvc-stone-path-mmp ####################
+---
+#################### nbvc-stone-paths-mmp ####################
 group: "nbvc"
 name: "stone-paths-lots"
 version: "1.0"
 subfolder: "660-parks"
 dependencies:
-  - "nbvc:stone-path-props"
+  - "nbvc:stone-paths-props"
 assets:
 - assetId: "nbvc-stone-paths"
   include:
@@ -63,17 +71,20 @@ assets:
   - "/NBVC_StonePathS_5d420d44.SC4Lot"
 info:
   summary: "Stone paths as lots"
-  conflicts: "None"
   description: >
     The file contains stone paths as Lots and for mayor menu.
+
+    Optionally, you can install the package `pkg=nbvc:stone-paths-mmp`, as well.
   author: "nbvc"
-  images: [ "https://www.simtropolis.com/objects/screens/monthly_09_2012/5c9d58473db64043d5be1a57c4b8b8e3-stonepaths1.jpg", "https://www.simtropolis.com/objects/screens/monthly_09_2012/f00178dd80612ea631507f31af2d6225-stonepaths2.jpg", "https://www.simtropolis.com/objects/screens/monthly_09_2012/9267480898eec5d0d4671c1515d28719-stonepaths3.jpg" ]
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_09_2012/5c9d58473db64043d5be1a57c4b8b8e3-stonepaths1.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_09_2012/f00178dd80612ea631507f31af2d6225-stonepaths2.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_09_2012/9267480898eec5d0d4671c1515d28719-stonepaths3.jpg"
   website: "https://community.simtropolis.com/files/file/27995-stone-paths/"
 
 
-
-########## Asset ##########
 ---
+########## Asset ##########
 assetId: "nbvc-stone-paths"
 version: "1.0"
 lastModified: "2012-09-04T18:10:24Z"
