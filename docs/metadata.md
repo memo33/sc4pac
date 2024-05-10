@@ -242,7 +242,7 @@ It is mostly optional, but each package should include a one-line `summary` and 
 
 A `description` may consist of several paragraphs of contextual information (it should not repeat the `summary`).
 
-You should also inform about possible `conflicts`.
+You should also inform about possible `conflicts`. (If there are none, leave out this field.)
 
 Moreover, you can add a `warning` message that is displayed during the installation process.
 This should be used sparingly, for example in case a user has to take action before installing the package.
@@ -280,7 +280,7 @@ Putting together all the pieces, a complete YAML file might look as follows.
 
 [hogwarts-castle](https://raw.githubusercontent.com/memo33/sc4pac/main/docs/hogwarts-castle.yaml ':include :type=code yaml')
 
-A YAML file can contain any number of assets and packages, as long as they are separated by `---`.
+A YAML file can contain any number of assets and packages, as long as each asset or package definition is separated by `---` from the previous one.
 The location of the YAML files does not matter, so they can be organized in a directory structure.
 
 ## Options
@@ -428,6 +428,8 @@ To submit your package metadata to the main repository on GitHub:
 - Create a new file, such as `src/yaml/dumbledore/hogwarts-castle.yaml`.
   Add your metadata to the file and create a Pull Request.
   See [Creating new files](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files) for details.
+  Also pay attention to the results of the GitHub Action workflow which will validate your YAML file.
+  (For first-time contributors, this needs to be triggered manually by the repository owners though.)
 
 Note that submitting your package to the main repository comes with a responsibility for keeping the package up-to-date.
 Everyone who installed your package will benefit from it.

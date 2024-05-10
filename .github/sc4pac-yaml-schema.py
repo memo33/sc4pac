@@ -218,6 +218,23 @@ class DependencyChecker:
         return non_unique_assets
 
 
+def validateDocumentCount(text) -> None:
+    expected = 0
+    docSeparators = 0
+    for line in text.splitlines():
+        if line.startswith("group:") or line.startswith("\"group\":"):
+            expected += 1
+        elif line.startswith("url:") or line.startswith("\"url\":"):
+            expected += 1
+        elif line.startswith("---"):
+            docSeparators += 1
+        elif line.startswith("..."):
+            break
+    if expected > 0 and (docSeparators != expected - 1):
+        raise yaml.parser.ParserError(
+                f"YAML file contains {expected} package and asset definitions. They all need to be separated by `---` (found {docSeparators}, expected {expected-1}).")
+
+
 def main() -> int:
     args = sys.argv[1:]
     if not args:
@@ -241,6 +258,7 @@ def main() -> int:
                     validated += 1
                     text = f.read()
                     try:
+                        validateDocumentCount(text)  # validate number of documents separated by `---`
                         for doc in yaml.safe_load_all(text):
                             dependencyChecker.aggregate_identifiers(doc)
                             err = exceptions.best_match(validator.iter_errors(doc))
@@ -252,6 +270,12 @@ def main() -> int:
                             for u in urls:
                                 if '/sc4evermore.com/' in u:
                                     msgs.append(f"Domain of URL {u} should be www.sc4evermore.com")
+
+                            # check "None" value
+                            for label in ['conflicts', 'warning', 'summary', 'description']:
+                                field = doc.get('info', {}).get(label)
+                                if field is not None and field.strip().lower() == "none":
+                                    msgs.append(f"""Field "{label}" should not be "{field.strip()}", but should be left out instead.""")
 
                             if msgs:
                                 errors += 1
