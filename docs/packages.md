@@ -72,6 +72,7 @@ This list will be expanded as more packages are added to the metadata channel.
 - Religion:
   * `pkg=mattb325:new-england-style-church`
   * `pkg=mattb325:st-johns-church`
+  * `pkg=sfbt:churches-and-cemeteries` (replacement of Maxis churches and cemeteries)
 - Landmarks:
   * `pkg=diego-del-llano:complete-collection` (huge set of ploppable commercial skyscrapers)
 - Parks:

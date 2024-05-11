@@ -1,0 +1,35 @@
+group: "sfbt"
+name: "churches-and-cemeteries"
+version: "1"
+subfolder: "650-religion"
+dependencies:
+- "csx:mega-props-vol07"
+- "bsc:textures-vol01"
+- "bsc:texturepack-cycledogg-vol01"
+- "sfbt:essentials"
+- "sfbt:voltaic-small-chapels"
+- "sfbt:voltaic-village-church"
+- "mntoes:bosham-church"
+- "haarlemmergold:small-german-church"
+assets:
+- assetId: "sfbt-churches-and-cemeteries"
+  include:  # we only include textures, props and reward replacements, not the non-reward lots
+  - "\\.dat$"
+
+info:
+  summary: "Replacement of Maxis churches and cemeteries"
+  description: >
+    This mod contains four different church and three different cemetery lots which replace the Maxis reward lots completely.
+
+    It is recommended to demolish the original Maxis lots before installing this mod.
+  author: "Andreas, Khiyana"
+  images:
+  - https://www.simtropolis.com/objects/screens/monthly_2024_03/SFBT_Kirchen_01.jpg.8024dcdc5406919f81f75972ff25880e.jpg
+  - https://www.simtropolis.com/objects/screens/monthly_2024_03/SFBT_Kirchen_02.jpg.ecfe2187e3ceaff4b2733c6a4efb761b.jpg
+  website: https://community.simtropolis.com/files/file/36177-sfbt-andreas-and-khiyana-churches-cemeteries/
+
+---
+assetId: "sfbt-churches-and-cemeteries"
+version: "1"
+lastModified: "2024-03-14T10:05:20Z"
+url: "https://community.simtropolis.com/files/file/36177-sfbt-andreas-and-khiyana-churches-cemeteries/?do=download"

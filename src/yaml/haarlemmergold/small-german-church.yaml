@@ -1,0 +1,23 @@
+group: "haarlemmergold"
+name: "small-german-church"
+version: "2"
+subfolder: "650-religion"
+assets:
+- assetId: "haarlemmergold-small-german-church"
+
+info:
+  summary: "Stiftskirche"
+  description: >
+    This package contains a small German village church.
+    It comes as a landmark on a 2x3 lot and includes nightlights.
+  author: "Haarlemmergold"
+  images:
+  - https://www.simtropolis.com/objects/screens/0016/8e88ab7049af05e1903eb1aa152a1951-Dkerkje.jpg
+  - https://www.simtropolis.com/objects/screens/0016/8e88ab7049af05e1903eb1aa152a1951-Dkerkjenacht.jpg
+  website: https://community.simtropolis.com/files/file/17278-small-german-church/
+
+---
+assetId: "haarlemmergold-small-german-church"
+version: "2"
+lastModified: "2006-11-14T17:13:09Z"
+url: "https://community.simtropolis.com/files/file/17278-small-german-church/?do=download"
