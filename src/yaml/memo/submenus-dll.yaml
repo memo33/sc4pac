@@ -1,6 +1,6 @@
 group: "memo"
 name: "submenus-dll"
-version: "1.1.1"
+version: "1.1.2"
 subfolder: "150-mods"
 dependencies:
 - "null-45:sc4-resource-loading-hooks"
@@ -20,6 +20,6 @@ info:
 
 ---
 assetId: "memo-submenus-dll"
-version: "1.1.1"
-lastModified: "2024-04-19T17:35:19Z"
-url: "https://github.com/memo33/submenus-dll/releases/download/1.1.1/submenus-dll-1.1.1.zip"
+version: "1.1.2"
+lastModified: "2024-05-11T11:28:52Z"
+url: "https://github.com/memo33/submenus-dll/releases/download/1.1.2/submenus-dll-1.1.2.zip"
