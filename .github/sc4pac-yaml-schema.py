@@ -218,21 +218,23 @@ class DependencyChecker:
         return non_unique_assets
 
 
-def validateDocumentCount(text) -> None:
-    expected = 0
-    docSeparators = 0
+def validateDocumentSeparators(text) -> None:
+    needsSeparator = False
+    errors = 0
     for line in text.splitlines():
-        if line.startswith("group:") or line.startswith("\"group\":"):
-            expected += 1
-        elif line.startswith("url:") or line.startswith("\"url\":"):
-            expected += 1
-        elif line.startswith("---"):
-            docSeparators += 1
+        if line.startswith("---"):
+            needsSeparator = False
+        elif (line.startswith("group:") or line.startswith("\"group\":") or
+              line.startswith("url:") or line.startswith("\"url\":")):
+            if needsSeparator:
+                errors += 1
+            else:
+                needsSeparator = True
         elif line.startswith("..."):
             break
-    if expected > 0 and (docSeparators != expected - 1):
+    if errors > 0:
         raise yaml.parser.ParserError(
-                f"YAML file contains {expected} package and asset definitions. They all need to be separated by `---` (found {docSeparators}, expected {expected-1}).")
+                "YAML file contains multiple package and asset definitions. They all need to be separated by `---`.")
 
 
 def main() -> int:
@@ -258,8 +260,10 @@ def main() -> int:
                     validated += 1
                     text = f.read()
                     try:
-                        validateDocumentCount(text)  # validate number of documents separated by `---`
+                        validateDocumentSeparators(text)
                         for doc in yaml.safe_load_all(text):
+                            if doc is None:  # empty yaml file or document
+                                continue
                             dependencyChecker.aggregate_identifiers(doc)
                             err = exceptions.best_match(validator.iter_errors(doc))
                             msgs = [] if err is None else [err.message]
