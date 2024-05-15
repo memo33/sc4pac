@@ -131,7 +131,17 @@ Add a channel to fetch package metadata from.
 **Examples:**
 ```sh
 sc4pac channel add "https://memo33.github.io/sc4pac/channel/"
-sc4pac channel add "file:///c:/absolute/path/to/local/channel/"
+sc4pac channel add "file:///C:/absolute/path/to/local/channel/"
+```
+
+The URL in the examples above points to a directory structure consisting of JSON files created by the `sc4pac channel build` command.
+
+For convenience, the channel URL may also point to a single YAML file instead, which skips the `sc4pac channel build` step.
+This is mainly intended for testing purposes.
+
+```sh
+sc4pac channel add "file:///C:/Users/Dumbledore/Desktop/hogwarts-castle.yaml"
+sc4pac channel add "https://raw.githubusercontent.com/memo33/sc4pac/main/docs/hogwarts-castle.yaml"
 ```
 
 ---
