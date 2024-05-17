@@ -1,60 +1,56 @@
-group: "ulissewolf"
-name: "ulissewolf-fallout-prop-pack-vol1"
+group: "ulisse-wolf"
+name: "fallout-prop-pack-vol1"
 version: "1.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "ulissewolf-fallout-prop-pack-vol1"
 info:
   summary: "First volume of props inspired by Fallout"
   description: >
-    First edition of Prop inspired by the Fallout series
-  author: "ulissewolf"
-  website: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=93:ulisse-wolf-fallout-prop-pack-vol1&catid=22"
+    This package contains props inspired by the Fallout series.
+  author: "Ulisse Wolf"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/93-ulisse-wolf-fallout-prop-pack-vol1"
 
 variants:
 - variant: { nightmode: standard }
   assets:
-  - assetId: "ulissewolf-fallout-prop-pack-vol1-maxisnite"
-    include: [ "/Ulisse_-_Fallout_Prop_Pack_Vol_1_MN.dat" ]
+  - assetId: "ulisse-wolf-fallout-prop-pack-vol1"
+    include: [ "/Ulisse - Fallout Prop Pack Vol 1 MN.dat" ]
 - variant: { nightmode: dark }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
-  - assetId: "ulissewolf-fallout-prop-pack-vol1-darknite"
-    include: [ "/Ulisse_-_Fallout_Prop_Pack_Vol_1_DN.dat" ]
+  - assetId: "ulisse-wolf-fallout-prop-pack-vol1"
+    include: [ "/Ulisse - Fallout Prop Pack Vol 1 DN.dat" ]
 
 ---
-assetId: "ulissewolf-fallout-prop-pack-vol1"
+assetId: "ulisse-wolf-fallout-prop-pack-vol1"
 version: "1.0"
-lastModified: "2022-07-28T23:13:28Z"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=93:ulisse-wolf-fallout-prop-pack-vol1&catid=22"
+lastModified: "2023-11-11T08:08:51-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=93:ulisse-wolf-fallout-prop-pack-vol1"
 
 ---
-group: "ulissewolf"
-name: "ulissewolf-fallout-prop-pack-vol2"
+group: "ulisse-wolf"
+name: "fallout-prop-pack-vol2"
 version: "1.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "ulissewolf-fallout-prop-pack-vol2"
 info:
   summary: "Second volume of props inspired by Fallout"
   description: >
-    Second edition of Prop inspired by the Fallout series
-  author: "ulissewolf"
-  website: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=135:ulisse-wolf-fallout-prop-pack-vol-2&catid=22"
+    This package contains props inspired by the Fallout series.
+  author: "Ulisse Wolf"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/135-ulisse-wolf-fallout-prop-pack-vol-2"
 
 variants:
 - variant: { nightmode: standard }
   assets:
-  - assetId: "ulissewolf-fallout-prop-pack-vol2-maxisnite"
-    include: [ "/Ulisse_-_Fallout_Prop_Pack_Vol_2_MN.dat" ]
+  - assetId: "ulisse-wolf-fallout-prop-pack-vol2"
+    include: [ "/Ulisse - Fallout Prop Pack Vol 2 MN.dat" ]
 - variant: { nightmode: dark }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
-  - assetId: "ulissewolf-fallout-prop-pack-vol2-darknite"
-    include: [ "/Ulisse_-_Fallout_Prop_Pack_Vol_2_DN.dat" ]
+  - assetId: "ulisse-wolf-fallout-prop-pack-vol2"
+    include: [ "/Ulisse - Fallout Prop Pack Vol 2 DN.dat" ]
 
 ---
-assetId: "ulissewolf-fallout-prop-pack-vol2"
+assetId: "ulisse-wolf-fallout-prop-pack-vol2"
 version: "1.0"
-lastModified: "2023-08-24T22:30:10Z"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=135:ulisse-wolf-fallout-prop-pack-vol-2&catid=22"
+lastModified: "2023-11-11T08:06:20-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=135:ulisse-wolf-fallout-prop-pack-vol-2"

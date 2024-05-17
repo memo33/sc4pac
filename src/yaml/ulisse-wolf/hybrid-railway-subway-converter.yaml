@@ -1,21 +1,39 @@
-group: "ulissewolf"
-name: "hybrid-railway-hrw-subway-converter"
-version: "1.0"
+group: "ulisse-wolf"
+name: "hybrid-railway-subway-converter"
+version: "2.0"
 subfolder: "700-transit"
-assets:
-- assetId: "ulissewolf-hybrid-railway-hrw-subway-converter"
-dependencies:
-- "network-addon-mod"
+variants:
+- variant: { driveside: "right" }
+  assets:
+  - assetId: "ulisse-wolf-hybrid-railway-subway-converter"
+    include:
+    - "HRW Subway Converter RHD/"
+    exclude:
+    - "/Gotthard Base Tunnel HRW \\(Subway Converter\\)_5f78a430.SC4Lot"  # exclude v1 lot in favor of v2 lot
+- variant: { driveside: "left" }
+  assets:
+  - assetId: "ulisse-wolf-hybrid-railway-subway-converter"
+    include:
+    - "HRW Subway Converter LHD/"
+    exclude:
+    - "/Gotthard Base Tunnel HRW \\(Subway Converter\\)_5f78a430.SC4Lot"  # exclude v1 lot in favor of v2 lot
+
+variantDescriptions:
+  driveside:
+    "right": "if cars in your game drive on the right"
+    "left": "if cars in your game drive on the left"
+
 info:
-  summary: "A set of tunnels specifically for the Hybrid Railway"
+  summary: "Tunnel portals for Hybrid Railway (HRW)"
   description: >
-    This mod is a pioneer in the field of Hybrid Railway as it is the only mod that manages to convert rail and monorail traffic into subways and vice versa simultaneously. 
-    This mod obviously has a limitation. Using the subway this lot cannot transfer rail freight transport using the subway. In addition, the traffic inside the tunnel is considered as subway traffic and for this reason when you use this mod the subway you use as a tunnel the game classifies it as if it were a normal subway. For this you have to avoid connections with other normal subway networks if you want optimal management of HRW Subway Converter.
-  author: "ulisse wolf"
-  website: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=95:ulisse-wolf-hybrid-railway-hrw-subway-converter&catid=19"
+    This mod provides tunnel portals that convert traffic from Hybrid Railway to Subway and vice versa.
+    For optimal results, avoid intersecting these Subyway-based tunnels with the rest of your Subway network.
+    Freight rail traffic is not supported.
+  author: "Ulisse Wolf, MGB204/rsc204"
+  website: "https://community.simtropolis.com/files/file/35036-hybrid-railway-hrw-subway-converter/"
 
 ---
-assetId: "ulissewolf-hybrid-railway-hrw-subway-converter"
-version: "1.0"
-lastModified: "2022-04-03T20:16:40Z"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=95:ulisse-wolf-hybrid-railway-hrw-subway-converter&catid=19"
+assetId: "ulisse-wolf-hybrid-railway-subway-converter"
+version: "2.0"
+lastModified: "2024-05-22T19:44:21Z"
+url: "https://community.simtropolis.com/files/file/35036-hybrid-railway-hrw-subway-converter/?do=download"
