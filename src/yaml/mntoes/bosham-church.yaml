@@ -1,10 +1,11 @@
 group: "mntoes"
 name: "bosham-church"
-version: "1.0"
+version: "1.0-1"
 subfolder: "650-religion"
 assets:
 - assetId: "mntoes-bosham-church"
-  exclude: [ "/(?!Mntoes Bosham Church)" ]  # include this dat file lacking .dat extension, exclude everything else
+  include: [ "." ]  # include everything
+  exclude: [ "/(?!Mntoes Bosham Church)" ]  # do not exclude this dat file lacking .dat extension, exclude everything else
 
 info:
   summary: "Bosham Church, Sussex, UK"

@@ -228,9 +228,10 @@ Details:
   The safest way to include a file is to match the entire path, such as `"^/Hogwarts/Castle\\.dat$"`.
 - Include all lot files with `"\\.SC4Lot$"`.
 - The matching is case-insensitive for file-system independence.
-- If the `include` filter is absent or empty, then by default every file is included.
-- If the `exclude` filter is absent or empty, then by default all file types other than .dat/.sc4model/.sc4lot/.sc4desc/.sc4/.dll are excluded.
-  Note that, if you define a custom `exclude` filter, then non-game files such as Readme files are *not* excluded, so should be excluded explicitly.
+- In any case, always both `include` and `exclude` filters are evaluated.
+  If one or both are absent, they default to the following behavior:
+  - If the `include` filter is absent or empty, then by default all files with file type .dat/.sc4model/.sc4lot/.sc4desc/.sc4/.dll are included.
+  - If the `exclude` filter is absent or empty, then by default all file types other than .dat/.sc4model/.sc4lot/.sc4desc/.sc4/.dll are excluded.
 
 ?> If you anticipate file names changing with future updates of the original upload,
    consider using regular expressions to make the matching more generic, so that the `include` filter keeps working after the updates.

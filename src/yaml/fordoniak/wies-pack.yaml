@@ -1,12 +1,11 @@
 group: "fordoniak"
 name: "wies-pack"
-version: "1"
+version: "1-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "fordoniak-wies-pack"
   exclude:
   - "\\.SC4Lot$"
-  - "\\.bmp$"
 info:
   summary: "Wieśpack village buildings and barn props"
   description: >
