@@ -1,7 +1,7 @@
 group: "fanta1990"
 name: "hang-glider-makeover"
-version: "1.1"
-subfolder: "150-mods"
+version: "1.1-1"
+subfolder: "710-automata"
 assets:
 - assetId: "apeek-hang-glider-makeover"
   exclude: [ "/Hangglider Generator.DAT" ]

@@ -1,7 +1,7 @@
 group: "fanta1990"
 name: "automata-fix-pack-vol1"
 version: "1.0"
-subfolder: "150-mods"
+subfolder: "150-mods"  # installed here instead of 710-automata to allow overriding by custom automata mods
 assets:
 - assetId: "apeek-automata-fix-pack-vol1"
 info:

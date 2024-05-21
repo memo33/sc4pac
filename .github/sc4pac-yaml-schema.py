@@ -29,6 +29,7 @@ subfolders = r"""
 650-religion
 660-parks
 700-transit
+710-automata
 900-overrides
 ### [subfolders-docsify]
 """.strip().splitlines()[1:-1]
