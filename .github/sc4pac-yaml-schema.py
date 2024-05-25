@@ -218,6 +218,9 @@ class DependencyChecker:
                              if (a2 := url_assets[u]) != a1]
         return non_unique_assets
 
+    def unused_assets(self):
+        return sorted(self.known_assets.difference(self.referenced_assets))
+
 
 def validateDocumentSeparators(text) -> None:
     needsSeparator = False
@@ -315,6 +318,13 @@ def main() -> int:
             print("===> The following assets have the same URL:")
             for assets in non_unique_assets:
                 print(', '.join(assets))
+
+        unused_assets = dependencyChecker.unused_assets()
+        if unused_assets:
+            errors += len(unused_assets)
+            print("===> The following assets are not used:")
+            for identifier in unused_assets:
+                print(identifier)
 
         if dependencyChecker.overlapping_variants:
             errors += len(dependencyChecker.overlapping_variants)
