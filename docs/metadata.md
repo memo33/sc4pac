@@ -426,6 +426,7 @@ To submit your package metadata to the main repository on GitHub:
 
 - You need a GitHub account.
 - Go to https://github.com/memo33/sc4pac and hit the *Fork* button to create your own copy.
+- Create a [new branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository).
 - Create a new file, such as `src/yaml/dumbledore/hogwarts-castle.yaml`.
   Add your metadata to the file and create a Pull Request.
   See [Creating new files](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files) for details.
