@@ -74,6 +74,7 @@ This list will be expanded as more packages are added to the metadata channel.
   * `pkg=mattb325:st-johns-church`
   * `pkg=sfbt:churches-and-cemeteries` (replacement of Maxis churches and cemeteries)
 - Landmarks:
+  * `pkg=maxis:landmarks-collection`
   * `pkg=diego-del-llano:complete-collection` (huge set of ploppable commercial skyscrapers)
 - Parks:
   * `pkg=kingofsimcity:community-regional-park-pack-vol1` (11 medium to large parks)
