@@ -1,6 +1,6 @@
 group: "sfbt"
 name: "churches-and-cemeteries"
-version: "1"
+version: "1-1"
 subfolder: "650-religion"
 dependencies:
 - "csx:mega-props-vol07"
@@ -9,7 +9,7 @@ dependencies:
 - "sfbt:essentials"
 - "sfbt:voltaic-small-chapels"
 - "sfbt:voltaic-village-church"
-- "mntoes:bosham-church"
+- "mntoes:bosham-church-model"
 - "haarlemmergold:small-german-church"
 assets:
 - assetId: "sfbt-churches-and-cemeteries"

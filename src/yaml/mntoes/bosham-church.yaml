@@ -1,15 +1,16 @@
 group: "mntoes"
 name: "bosham-church"
-version: "1.0-1"
+version: "2.0"
 subfolder: "650-religion"
+dependencies:
+- "mntoes:bosham-church-model"
 assets:
 - assetId: "mntoes-bosham-church"
-  include: [ "." ]  # include everything
-  exclude: [ "/(?!Mntoes Bosham Church)" ]  # do not exclude this dat file lacking .dat extension, exclude everything else
+  include:
+  - "/Mntoes Bosham Church_LOT.dat"
 
 info:
   summary: "Bosham Church, Sussex, UK"
-  conflicts: "Incompatible with JDatPacker: If you notice problems loading the file contained in this package, add the missing .dat extension to the file name."
   description: >
     Bosham Church (Holy Trinity), established AD 850 and featured in the Bayeux tapestry depicting the visit of Harold II to the church.
 
@@ -21,11 +22,24 @@ info:
   website: https://community.simtropolis.com/files/file/17530-bosham-church/
 
 ---
-assetId: "mntoes-bosham-church"
-version: "1.0"
-lastModified: "2006-12-27T15:54:28Z"
-url: "https://community.simtropolis.com/files/file/17530-bosham-church/?do=download"
+group: "mntoes"
+name: "bosham-church-model"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "mntoes-bosham-church"
+  include:
+  - "/Mntoes Bosham Church_resources.dat"
 
-archiveType:
-  format: Clickteam
-  version: "40"
+info:
+  summary: "Props and models of the Bosham Church"
+  description: >
+    This is only a dependency.
+  author: "mntoes"
+  website: https://community.simtropolis.com/files/file/17530-bosham-church/
+
+---
+assetId: "mntoes-bosham-church"
+version: "2.0"
+lastModified: "2024-06-13T11:55:03Z"
+url: "https://community.simtropolis.com/files/file/17530-bosham-church/?do=download"
