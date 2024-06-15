@@ -4,7 +4,8 @@ version: "1.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "kingofsimcity-supershk-mega-parking-textures"
-  - exclude: "/PLOP_12x12_KOSC_SPSample_e47ffd51.SC4Lot"
+  exclude: 
+  - "/PLOP_12x12_KOSC_SPSample_e47ffd51.SC4Lot"
 info:
   summary: "Expands SHK's parking textures"
   description: >
