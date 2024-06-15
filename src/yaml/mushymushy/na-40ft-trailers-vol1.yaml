@@ -1,0 +1,23 @@
+group: "mushymushy"
+name: "na-40ft-trailers-vol1"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "mushymushy-na-40ft-trailers-vol1"
+info:
+  summary: "HD North American 40ft semi trailer props"
+  description: >
+    This is a prop pack containing 68 unique HD 40ft semi trailer models, all of which are based on North American designs. All models are rendered at 90, 45, 22.5L, and 22.5R angles with reasonably tight LODs to provide maximum flexibility. This pack includes 40ft box trailers in several liveries with and without cabs, and later packs will include other various trailers and possibly other cabs.
+
+    Trailer liveries include blank white, DHL, FedEx Express, FedEx Ground, Roadway, USPS, and Yellow. All trailers are also paired with either a Mack CH613 or a Mack MR688 in various colors. This package does not contain standalone cabs.
+  author: "MushyMushy"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2015_08/trux.jpg.e2f69f0a9275c758dff5388ab59b1b81.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2015_08/trux2.jpg.8698a1bccb4dff0c3a378d905ec684e5.jpg"
+  website: "https://community.simtropolis.com/files/file/30733-hd-north-american-40ft-semi-trailers-vol1/"
+
+---
+url: "https://community.simtropolis.com/files/file/30733-hd-north-american-40ft-semi-trailers-vol1/?do=download"
+assetId: "mushymushy-na-40ft-trailers-vol1"
+version: "1.1"
+lastModified: "2016-03-15T08:08:21Z"

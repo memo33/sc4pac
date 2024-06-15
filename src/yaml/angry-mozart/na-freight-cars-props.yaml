@@ -1,0 +1,24 @@
+group: "angry-mozart"
+name: "na-freight-cars-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+info:
+  summary: "HD North American rolling stock props"
+  description: >
+     Give realism to your railroad tracks, yards, sidings, spurs and industrial zones with these freight cars and locomotives dating from the 1980's to our modern days. This prop pack includes newer rolling stock pieces, some of them never seen before in SimCity 4, including autoracks, coil cars, gondolas, boxcars, hoppers, and tank cars, containers, and trailers. Over 300 different variations are included, all of them rendered in HD and in 20 different versions (ortho, diagonal, curve fitting and FAR versions). 
+  author: "Angry Mozart"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic1.png.a9995b6d155d30515da74432be7bdcdc.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic2.png.da5b1f3f377efc0c95ee86b9ab0a7000.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic3.png.3e7c56368e6ea942aa7bd8ad579e0710.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic4.png.b75c78a53bfcc6ddc084a8dc3eb0c1ef.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic5.png.0211449f55075acfabd67d037803517e.png"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+url: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/?do=download"
+assetId: "angry-mozart-na-freight-cars-props"
+version: "1.0"
+lastModified: "2017-10-15T06:51:46Z"

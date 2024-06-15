@@ -39,7 +39,11 @@ assets:
 #     "vanilla": "matches the Maxis-default sidewalks (recommended)"
 
 info:
-  summary: "Park pathways overlay textures"
+  summary: "Park pathway overlay textures"
+  description: >
+     This set contains a total of 373 overlay textures geared towards dynamic and flowing park paths..
+
+      In additional to covering standard fare orthogonal pathways, this set deeply explores inter-connectivity with other less utilized pathing options. Diagonals and FA2 pathways are given a chance to shine with an insane amount of options. Couple that with wide radius curves and s-curves and the layout options provided are practically limitless! 
   author: "kingofsimcity"
   website: "https://community.simtropolis.com/files/file/32066-superpaths-pathway-textures/"
 

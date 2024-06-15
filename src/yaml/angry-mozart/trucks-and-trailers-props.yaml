@@ -1,0 +1,23 @@
+group: "angry-mozart"
+name: "trucks-and-trailers-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-trucks-and-trailers-props"
+info:
+  summary: "Truck and trailer props"
+  description: >
+    This package includes 110 different models each one HD-rendered at 11.25°, 22.5°, 33.75°, 45° and 90° with their respective left versions. Prop families for the 22.5° 22.5° left, 45° and 90° versions are also included.
+  author: "Angry Mozart"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2018_06/cont_chassis_examples.png.ea3915b93115c626355aa297f563bb7f.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2018_06/loads.png.99e303a8fe10b4323451dab3cb463b01.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2018_06/truck1.png.2d69c12d20d4d10ec2b15714e3ac6599.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2018_06/truck3.png.fbd740b130ed241705c62cc3cc7e873a.png"
+  website: "https://community.simtropolis.com/files/file/32285-trucks-trailers-prop-pack/"
+
+---
+url: "https://community.simtropolis.com/files/file/32285-trucks-trailers-prop-pack/?do=download"
+assetId: "angry-mozart-trucks-and-trailers-props"
+version: "1.0"
+lastModified: "2018-06-03T19:47:08Z"

@@ -1,0 +1,28 @@
+group: "kingofsimcity"
+name: "supershk-mega-parking-textures"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "kingofsimcity-supershk-mega-parking-textures"
+  - exclude: "/PLOP_12x12_KOSC_SPSample_e47ffd51.SC4Lot"
+info:
+  summary: "Expands SHK's parking textures"
+  description: >
+    Expand on SHK's parking textures with additional orthogonal parking, islands paths and curbs, diagonal parking, road marking, d-type parking, and other miscellaneous transitions.
+  author: "kingofsimcity"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329151326_1.jpg.1dc103899058f6cf33505ebc34dafbd8.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329151556_1.jpg.cecfebc41f5b668f6ee69db95ff24924.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329151435_1.jpg.72d3f76adbb1c701e8f5a2c1ea250f90.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003153_1.jpg.cb9b278cea2a34d8089d0779109cce7e.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003442_1.jpg.01a1c7e65011299408925b017b0ce002.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003250_1.jpg.ba675f79180f7103949ebb65fabae302.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003229_1.jpg.06fbefa3c151a7cba988bc0b7f85b566.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003355_1.jpg.c51bc915e116ddd0c95f4b52dd74ad05.jpg"
+  website: "https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/"
+
+---
+url: "https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=download"
+assetId: "kingofsimcity-supershk-mega-parking-textures"
+version: "1.0.1"
+lastModified: "2016-04-12T15:07:31Z"
