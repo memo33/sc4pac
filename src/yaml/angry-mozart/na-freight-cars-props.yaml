@@ -203,7 +203,6 @@ assets:
 - assetId: "angry-mozart-na-freight-cars-props"
   include:
   - "/40wellcar"
-  - "/53wellcar"
   - "/40container"
   - "/45container"
   - "/53container"
