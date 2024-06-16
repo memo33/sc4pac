@@ -1,7 +1,7 @@
 group: "kingofsimcity"
 name: "logistics-essentials"
 version: "1.0"
-subfolder: "100-props-textures"
+subfolder: "900-overrides"
 dependencies:
 - "angry-mozart:trucks-and-trailers-props"
 - "mushymushy:na-40ft-trailers-vol1"
