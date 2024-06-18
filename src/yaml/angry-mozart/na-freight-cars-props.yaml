@@ -9,14 +9,23 @@ group: "angry-mozart"
 name: "na-freight-cars-props"
 version: "1.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "angry-mozart-na-freight-cars-props"
+dependencies:
+- "angry-mozart:na-covered-hopper-train-props"
+- "angry-mozart:na-boxcar-props"
+- "angry-mozart:na-autorack-props"
+- "angry-mozart:na-flat-car-props"
+- "angry-mozart:na-tank-car-props"
+- "angry-mozart:na-gondola-props"
+- "angry-mozart:na-coil-car-props"
+- "angry-mozart:na-coal-hopper-props"
+- "angry-mozart:na-intermodal-props"
+- "angry-mozart:na-locomotive-props"
 info:
   summary: "HD North American rolling stock train props"
-  description: |
+  description: >
      Give realism to your railroad tracks, yards, sidings, spurs and industrial zones with these freight cars and locomotives dating from the 1980's to our modern days. This prop pack includes newer rolling stock pieces, some of them never seen before in SimCity 4, including autoracks, coil cars, gondolas, boxcars, hoppers, and tank cars, containers, and trailers. Over 300 different variations are included, all of them rendered in HD and in 20 different versions (ortho, diagonal, curve fitting and FAR versions).
-     
-     If you are looking for specific types of train cars only, consider one of the smaller specialized packs instead of this full one.
+
+     If you are looking for specific types of train cars only, consider one of the smaller specialized packs listed as dependency instead of this full one.
   author: "Angry Mozart"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic1.png.a9995b6d155d30515da74432be7bdcdc.png"
@@ -84,7 +93,7 @@ assets:
 info:
   summary: "HD North American autorack train props"
   description: |
-     Even automobiles are delivered by rail,and this is done in autoracks. These long boxes come with one, two or three levels, depending of the size of the cars and trucks being transported. 
+     Even automobiles are delivered by rail,and this is done in autoracks. These long boxes come with one, two or three levels, depending of the size of the cars and trucks being transported.
      These cars have many features that ensure the safety of the automobiles, like enclosing (the grey panels on the sides of the car), a roof, cushion systems and end doors for an easy loading/unloading, that protect the automobiles form Mother Nature and from rebel teenagers that throw rocks or paint the sides with graffiti. In this pack you'll find the 89 ft Enclosed Autorack , in a great variety of railroad liveries.
   author: "Angry Mozart"
   website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
@@ -213,7 +222,7 @@ info:
   summary: "HD North American intermodal train props"
   description: |
     Today, intermodal freight transport is the most popular way to transport products all around the world. This is not a surprise when it comes to a mode of transportation that can be shipped by road, rail or ship without opening the container, reducing time and cost. In North America exist two types of intermodal: International Intermodal and Domestic Intermodal.
-    
+
     International Intermodal: In international intermodal (figure 4), containers are standardized by international rules (ISO), making it possible to load a container on a truck, train or ship anywhere in the world. International intermodal uses 20 ft, 40 ft and 45 ft containers.
 
     Domestic Intermodal: In domestic intermodal (figure 5), containers are shipped only trough the US, Mexico and Canada. This makes possible the loading of longer containers (28 ft, 48 ft, 53 ft). Also, trailers can be loaded on special flat cars, (Trailer On Flat Car or TOFC), reducing cost in transportation and time. In this pack, you will find:
