@@ -1,0 +1,20 @@
+group: "mushymushy"
+name: "na-semi-truck-cabs-vol1"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "mushymushy-na-semi-truck-cabs-vol1"
+info:
+  summary: "HD North American semi truck cab props"
+  description: >
+    This is a prop pack containing 64 unique HD semi truck cab props, all of which are based on North American models of various years. All models are rendered at 90, 45, 22.5L, and 22.5R angles with reasonably tight LODs to provide maximum flexibility.
+  author: "MushyMushy"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2015_08/truckline.jpg.baef61194be535ec7a488d88bba77616.jpg"
+  website: "https://community.simtropolis.com/files/file/30732-hd-north-american-semi-truck-cabs-vol1/"
+
+---
+url: "https://community.simtropolis.com/files/file/30732-hd-north-american-semi-truck-cabs-vol1/?do=download"
+assetId: "mushymushy-na-semi-truck-cabs-vol1"
+version: "1.0"
+lastModified: "2016-03-15T08:06:53Z"
