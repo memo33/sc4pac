@@ -1,0 +1,16 @@
+group: "lbt"
+name: "gas-station-prop-pack"
+version: "1"
+subfolder: "100-props-textures"
+info:
+  summary: "Gas station props made by Heblem"
+  website: "https://community.simtropolis.com/files/file/26726-lbt-gas-station-prop-pack-1-2/"
+  author: "Heblem"
+assets:
+- assetId: "lbt-gas-station-prop-pack"
+
+---
+url: "https://community.simtropolis.com/files/file/26726-lbt-gas-station-prop-pack-1-2/?do=download"
+assetId: "lbt-gas-station-prop-pack"
+version: "1"
+lastModified: "2013-02-03T01:38:40Z"

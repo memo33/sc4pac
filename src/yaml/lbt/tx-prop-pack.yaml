@@ -1,0 +1,18 @@
+group: "lbt"
+name: "tx-prop-pack-vol-01"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "lbt-tx-prop-pack-vol01"
+info:
+  summary: "Billboard props made by tcxalapa (TX)"
+  website: "https://community.simtropolis.com/files/file/21530-lbt-tx-prop-pack-vol-01/"
+  author: "tcxalapa"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0019/abf9cc8ff3b7c449c9d911abc2a712a3-Portada.JPG"
+
+---
+url: "https://community.simtropolis.com/files/file/21530-lbt-tx-prop-pack-vol-01/?do=download"
+assetId: "lbt-tx-prop-pack-vol01"
+version: "1"
+lastModified: "2009-04-07T15:11:08Z"
