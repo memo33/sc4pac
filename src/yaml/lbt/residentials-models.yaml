@@ -1,5 +1,5 @@
 group: "lbt"
-name: "residentials-models-files-vol01"
+name: "residentials-models-vol01"
 version: "1"
 subfolder: "100-props-textures"
 info:
@@ -17,7 +17,7 @@ lastModified: "2008-12-12T00:09:56Z"
 
 ---
 group: "lbt"
-name: "residentials-models-files-vol02"
+name: "residentials-models-vol02"
 version: "1"
 subfolder: "100-props-textures"
 info:
