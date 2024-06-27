@@ -4,6 +4,7 @@ version: "1"
 subfolder: "100-props-textures"
 info:
   summary: "Gas station props made by Heblem"
+  description: "This package includes part 1 and 2 of the prop pack."
   website: "https://community.simtropolis.com/files/file/26726-lbt-gas-station-prop-pack-1-2/"
   author: "Heblem"
 assets:
