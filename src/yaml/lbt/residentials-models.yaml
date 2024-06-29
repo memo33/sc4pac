@@ -1,6 +1,6 @@
 group: "lbt"
 name: "residentials-models-vol01"
-version: "1"
+version: "1.1"
 subfolder: "100-props-textures"
 info:
   summary: "Residential building models made by LBT"
@@ -12,13 +12,13 @@ assets:
 ---
 url: "https://community.simtropolis.com/files/file/20816-lbt-residentials-models-files-vol-01/?do=download"
 assetId: "lbt-residentials-models-files-vol01"
-version: "1"
-lastModified: "2008-12-12T00:09:56Z"
+version: "1.1"
+lastModified: "2024-06-28T23:35:28Z"
 
 ---
 group: "lbt"
 name: "residentials-models-vol02"
-version: "1"
+version: "1.1"
 subfolder: "100-props-textures"
 info:
   summary: "Residential building models made by LBT"
@@ -30,5 +30,5 @@ assets:
 ---
 url: "https://community.simtropolis.com/files/file/20817-lbt-residentials-models-files-vol-02/?do=download"
 assetId: "lbt-residentials-models-files-vol02"
-version: "1"
-lastModified: "2008-12-12T00:21:02Z"
+version: "1.1"
+lastModified: "2024-06-28T23:26:36Z"
