@@ -90,6 +90,34 @@ info:
   website: "https://community.simtropolis.com/files/file/32023-colossus-farming/"
 
 ---
+group: "fantozzi"
+name: "farm-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "fantozzi-colossus-farming"
+	include:
+  - "/fz_farmprops.dat"
+info:
+  summary: "Agricultural props"
+  author: "Fantozzi"
+  website: "https://communitysimtropolis.com/files/file/32023-colossus-farming/"
+
+---
+group: "fantozzi"
+name: "farm-textures"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "fantozzi-colossus-farming"
+	include:
+  - "/fz_farmprops.dat"
+info:
+  summary: "Agricultural base and overlay textures"
+  author: "Fantozzi"
+  website: "https://communitysimtropolis.com/files/file/32023-colossus-farming/"
+
+---
 assetId: "fantozzi-colossus-farming"
 version: "1.0"
 lastModified: "2023-01-01T05:02:53Z"

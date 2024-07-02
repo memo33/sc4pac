@@ -1,0 +1,21 @@
+group: "stex-custodian"
+name: "very-old-building-props"
+version: "1"
+subfolder: "100-props-textures"
+info:
+  summary: "Obsolete building props which predate bldgprop_vol1 and bldgprop_vol2."
+  website: "https://community.simtropolis.com/files/file/33600-very-old-building-props/"
+  warning: "Do not use these for current lotting projects. They are provided only so very old content can be used in one's game"
+  description: >
+    Some very old content will need one or more of these legacy files and will likely not even mention them as a dependency. (Long, long ago it was assumed peeps had them.)
+    
+    Important: Do not use these for current lotting projects. They are provided only so very old content can be used in one's game. 
+  author: "RalphaelNinja"
+assets:
+- assetId: "stex-custodian-very-old-building-props"
+
+---
+url: "https://community.simtropolis.com/files/file/33600-very-old-building-props/?do=download"
+assetId: "stex-custodian-very-old-building-props"
+version: "1"
+lastModified: "2020-05-15T12:37:25Z"

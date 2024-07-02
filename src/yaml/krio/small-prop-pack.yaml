@@ -1,0 +1,20 @@
+group: "krio"
+name: "small-prop-pack"
+version: "1"
+subfolder: "100-props-textures"
+info:
+  summary: "Small streetside props"
+  website: "https://community.simtropolis.com/files/file/28016-krio-small-prop-pack/"
+  description: >
+    Includes three kiosks, several lamp posts, few Finnish-style mailboxes and a garbage collector.
+  author: "Krio"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_09_2012/35d36b96f8d9f5373b4458c22ee893b9-1prop.png"
+assets:
+- assetId: "krio-small-prop-pack"
+
+---
+url: "https://community.simtropolis.com/files/file/28016-krio-small-prop-pack/?do=download"
+assetId: "krio-small-prop-pack"
+version: "1"
+lastModified: "2012-09-13T19:44:14Z"

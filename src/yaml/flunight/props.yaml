@@ -1,0 +1,19 @@
+group: "flunight"
+name: "props-vol02"
+version: "1"
+subfolder: "050-early-mods"
+assets:
+- assetId: "flunight-props-vol02"
+info:
+  summary: "Common objects on the beach in Rio de Janeiro"
+  website: "https://www.simtropolis.com/objects/screens/monthly2016_05/props-vol_02a.jpg.fa71c008fbcdef49797e9701f410d570.jpg"
+  author: "flunight"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props-Vol_02a.jpg.fa71c008fbcdef49797e9701f410d570.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props-Vol_02b.jpg.325dc1ec8d2df485c4c2edb2f13f991a.jpg"
+
+---
+url: "https://community.simtropolis.com/files/file/31110-flunight-props-vol-02-copacabana/?do=download"
+assetId: "flunight-props-vol02"
+version: "1"
+lastModified: "2016-05-30T20:56:26Z"

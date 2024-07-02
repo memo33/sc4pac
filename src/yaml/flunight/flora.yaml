@@ -1,0 +1,46 @@
+url: "https://community.simtropolis.com/files/file/31109-flunight-props-vol-01-flora/?do=download"
+assetId: "flunight-flora-props-vol01"
+version: "1"
+lastModified: "2020-11-02T05:09:46Z"
+
+---
+group: "flunight"
+name: "flora-props-vol01"
+version: "1"
+subfolder: "100-props-textures"
+info:
+  summary: "Tropical plant, palm and tree props"
+  website: "https://community.simtropolis.com/files/file/31109-flunight-props-vol-01-flora/"
+  author: "flunight"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props_Vol-01a.jpg.21205d937019b4e2eec2949f28b8484a.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props_Vol-01b.jpg.3fd2bc57710b37179f3772bfd76ad67c.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props_Vol-01c.jpg.ee1f3f3c497f1de8f4fd023bf1daee69.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props_Vol-01d.jpg.e507546b2a80b49ebe47251e9baec718.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props_Vol-01e.jpg.bd40e20a23566dafe1ef956bb74a64bd.jpg"
+assets:
+- assetId: "flunight-flora-props-vol01"
+  include:
+  - "/Flunight Props Vol 01 - Flora.dat"
+
+---
+group: "flunight"
+name: "flora-mmp"
+version: "1"
+subfolder: "180-flora"
+dependencies:
+- "flunight:flora-props-vol01"
+assets:
+- assetId: "flunight-flora-props-vol01"
+  include:
+  - "/Flunight Props Vol 01 - Flora MM.dat"
+info:
+  summary: "Tropical plant, palm and tree MMPs"
+  website: "https://community.simtropolis.com/files/file/31109-flunight-props-vol-01-flora/"
+  author: "flunight"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props_Vol-01a.jpg.21205d937019b4e2eec2949f28b8484a.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props_Vol-01b.jpg.3fd2bc57710b37179f3772bfd76ad67c.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props_Vol-01c.jpg.ee1f3f3c497f1de8f4fd023bf1daee69.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props_Vol-01d.jpg.e507546b2a80b49ebe47251e9baec718.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Props_Vol-01e.jpg.bd40e20a23566dafe1ef956bb74a64bd.jpg"

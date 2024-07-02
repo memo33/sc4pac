@@ -1,0 +1,20 @@
+group: "flunight"
+name: "textures-vol01"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "flunight-textures-vol01"
+info:
+  summary: "Textures inspired by the sidewalks of the Copacabana and Ipanema beaches in Rio de Janeiro"
+  website: "https://community.simtropolis.com/files/file/31108-flunight-textures-vol-01/"
+  author: "flunight"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Texture-Vol_01a.jpg.812ad24fd9854558fb02a0e686646a01.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Texture-Vol_01b.jpg.f5d8bb2164bd82c911d6c66be8806347.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_05/Texture-Vol_01c.jpg.e48edcac91a03cb2cef79da844f27a0f.jpg"
+
+---
+url: "https://community.simtropolis.com/files/file/31108-flunight-textures-vol-01/?do=download"
+assetId: "flunight-textures-vol01"
+version: "1"
+lastModified: "2016-05-30T20:09:54Z"

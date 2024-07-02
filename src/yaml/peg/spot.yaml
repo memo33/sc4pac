@@ -1,0 +1,24 @@
+group: "peg"
+name: "spot"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "peg-spot"
+info:
+  summary: "Simpeg Plop Orientation Tool (SPOT)"
+  website: "https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/"
+  description: |
+    This is a set of props you can add to your lots to aid the player in seeing how to orient the lot.
+    
+    Where needed, these will be used on Simpeg Team Projects, at the developers discretion.
+    
+    They are bright orange in color, and should be easily seen in the preview. They are timed to show up, only one day, in a game year (Jan 1st).
+  author: "RebaLynnTS, Paeng"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0017/9b7b8eb1b6c2f900afbbd75bbd5c6303-spot_promo.jpg"
+
+---
+url: "https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/?do=download"
+assetId: "peg-spot"
+version: "1.01"
+lastModified: "2018-10-13T01:28:58Z"

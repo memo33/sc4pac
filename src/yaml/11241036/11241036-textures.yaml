@@ -1,0 +1,18 @@
+group: "11241036"
+name: "textures"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Additional textures derived from Maxis, BSC Textures Vol 1 and 2, and Peg's MTP"
+  author: "11241036"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2020_07/Table1.png.294c9a02a2559972a86b080dafc0bfe9.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2020_07/Table2.png.a4248fa0552c5df23d90e55c0e6ba5e4.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_05/Feldtexturen_Tabelle.png.6ffafee6b2233aeacb555e68f65de393.png"
+  website: "https://communitysimtropolis.com/files/file/33651-11241036-textures/"
+
+---
+url: "https://communitysimtropolis.com/files/file/33651-11241036-textures/?do=download"
+assetId: "11241036-textures"
+version: "3"
+lastModified: "2024-05-11T23:07:55Z"
