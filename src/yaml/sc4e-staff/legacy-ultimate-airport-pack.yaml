@@ -19,7 +19,7 @@ name: "essentials"
 version: "2023"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC_Essentials_v2023.dat"
   - "/AC Airport Sounds.dat"
@@ -33,7 +33,7 @@ name: "mega-props-vol01"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol01.dat"
 info:
@@ -46,7 +46,7 @@ name: "mega-props-vol02"
 version: "2"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol02 v2.dat"
 info:
@@ -59,7 +59,7 @@ name: "mega-props-vol03"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol03.dat"
 info:
@@ -72,7 +72,7 @@ name: "mega-props-vol04"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol04.dat"
 info:
@@ -85,7 +85,7 @@ name: "mega-props-vol05"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol05.dat"
 info:
@@ -98,7 +98,7 @@ name: "mega-props-vol06"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol06.dat"
 info:
@@ -111,7 +111,7 @@ name: "mega-props-vol07"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol07.dat"
 info:
@@ -124,7 +124,7 @@ name: "mega-props-vol08"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol08.dat"
 info:
@@ -137,7 +137,7 @@ name: "mega-props-vol09"
 version: "2"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol09 v2.dat"
 info:
@@ -150,7 +150,7 @@ name: "mega-props-vol10"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol10.dat"
 info:
@@ -163,7 +163,7 @@ name: "mega-props-vol11"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Props - Vol11.dat"
 info:
@@ -176,7 +176,7 @@ name: "mega-textures-vol01"
 version: "2"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC MEGA Textures Vol01 v2.dat"
 info:
@@ -189,7 +189,7 @@ name: "vlt-cargo-planes-vol01"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/AC VLT Cargo Planes Vol01.dat"
 info:
@@ -202,7 +202,7 @@ name: "mega-props-sg-heliport"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/BSC MEGA Props - SG Heliport.dat"
 info:
@@ -215,7 +215,7 @@ name: "mega-prop-pack-vol01"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/Tabi Mega Prop Pack vol01.dat"
 info:
@@ -228,7 +228,7 @@ name: "mega-prop-pack-vol02"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/Tabi Mega Prop Pack vol02.dat"
 info:
@@ -241,7 +241,7 @@ name: "mega-prop-pack-vol03"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
   include:
   - "/Tabi Mega Prop Pack vol03.dat"
 info:
