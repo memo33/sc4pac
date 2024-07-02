@@ -96,7 +96,7 @@ version: "1.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "fantozzi-colossus-farming"
-	include:
+  include:
   - "/fz_farmprops.dat"
 info:
   summary: "Agricultural props"
