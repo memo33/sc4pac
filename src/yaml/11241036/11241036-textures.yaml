@@ -2,6 +2,8 @@ group: "11241036"
 name: "textures"
 version: "1.0"
 subfolder: "100-props-textures"
+assets:
+- assetId: "11241036-textures"
 info:
   summary: "Additional textures derived from Maxis, BSC Textures Vol 1 and 2, and Peg's MTP"
   author: "11241036"
