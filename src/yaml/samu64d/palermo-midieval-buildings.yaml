@@ -1,6 +1,6 @@
 group: "samu64d"
 name: "palermo-medieval-building-props"
-version: "1"
+version: "1.0.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "samu64d-palermo-medieval-building-props"
@@ -16,5 +16,5 @@ info:
 ---
 url: "https://community.simtropolis.com/files/file/36140-palermo-medieval-building-prop-pack/?do=download"
 assetId: "samu64d-palermo-medieval-building-props"
-version: "1"
+version: "1.0.0"
 lastModified: "2024-02-22T22:10:01Z"

@@ -1,7 +1,7 @@
 ### agc lunar props
 group: "agc"
 name: "ancient-greece-props"
-version: "1"
+version: "1.0.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "agc-ancient-greece-props"
@@ -22,18 +22,18 @@ info:
 ---
 url: "https://community.simtropolis.com/files/file/35795-agc-ancient-greece-dlc/?do=download"
 assetId: "agc-ancient-greece-props"
-version: "1"
+version: "1.0.0"
 lastModified: "2023-12-08T23:54:20Z"
 
 
-### agc monuments props
 ---
+### agc monuments props
 group: "agc"
 name: "monuments-props"
-version: "1"
+version: "6.0.0"
 subfolder: "100-props-textures"
 info:
-  summary: "A collection of monument props made by Barroco Hispano"
+  summary: "Monument props made by Barroco Hispano"
   website: "https://community.simtropolis.com/files/file/35941-agc-monuments-dlc/"
   author: "Barroco Hispano"
   images:
@@ -53,20 +53,20 @@ variants:
 ---
 url: "https://community.simtropolis.com/files/file/35941-agc-monuments-dlc/?do=download&r=201402"
 assetId: "agc-monuments-props-dn"
-version: "6"
+version: "6.0.0"
 lastModified: "2024-05-19T17:30:16Z"
 ---
 url: "https://community.simtropolis.com/files/file/35941-agc-monuments-dlc/?do=download&r=201401"
 assetId: "agc-monuments-props-mn"
-version: "6"
+version: "6.0.0"
 lastModified: "2024-05-19T17:30:16Z"
 
 
-### agc lunar props
 ---
+### agc lunar props
 group: "agc"
 name: "lunar-props"
-version: "1"
+version: "1.0.0"
 subfolder: "100-props-textures"
 info:
   summary: "Lunar buildings and props"
@@ -90,21 +90,21 @@ variants:
 ---
 url: "https://community.simtropolis.com/files/file/35758-agc-lunar-dlc/?do=downloadr=198372"
 assetId: "agc-lunar-props-dn"
-version: "1"
+version: "1.0.0"
 lastModified: "2023-11-07T21:13:07Z"
 
 ---
 url: "https://community.simtropolis.com/files/file/35758-agc-lunar-dlc/?do=downloadr=198371"
 assetId: "agc-lunar-props-mn"
-version: "1"
+version: "1.0.0"
 lastModified: "2023-11-07T21:13:07Z"
 
 
-### agc space ships props
 ---
+### agc space ships props
 group: "agc"
 name: "space-ships-props"
-version: "1"
+version: "1.0.0"
 subfolder: "100-props-textures"
 info:
   summary: "Futuristic space craft props"
@@ -124,18 +124,18 @@ assets:
 ---
 url: "https://community.simtropolis.com/files/file/35849-agc-space-ships-dlc/?do=download"
 assetId: "agc-space-ships-props"
-version: "1"
+version: "1.0.0"
 lastModified: "2023-12-19T00:46:38Z"
 
 
-### agc street props
 ---
+### agc street props
 group: "agc"
 name: "street-props"
-version: "1"
+version: "3.0.0"
 subfolder: "100-props-textures"
 info:
-  summary: "A collection of small props for streets and sidewalks"
+  summary: "Small props for streets and sidewalks"
   website: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/"
   description: >
     Props can be found with the names  AGC_Props_St_ and AGC_Subway_ .
@@ -157,82 +157,84 @@ variants:
 ---
 url: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/?do=downloadr=201345"
 assetId: "agc-street-props-dn"
-version: "3"
+version: "3.0.0"
 lastModified: "2024-05-15T15:50:26Z"
 
 ---
 url: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/?do=downloadr=201344"
 assetId: "agc-street-props-mn"
-version: "3"
+version: "3.0.0"
 lastModified: "2024-05-15T15:50:26Z"
 
-### agc a-frame house props
----
-group: "agc"
-name: "a-frame-house-props"
-version: "1"
-subfolder: "100-props-textures"
-info:
-  summary: "A-frame house props"
-  website: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/"
-  images:
-  - "https://www.simtropolis.com/objects/screens/monthly_2024_06/665bae96ded29_image(20).png.02fea7f99fd7c65c7d0354f0898ee705.png"
-  - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fc451caa_image(23).png.d2d65b67f1aaad69f0c05485d2778ba0.png"
-  - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fb97369a_image(20).png.31e7c075214f9870ad9a81ddf0694a6e.png"
-  - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fbf321d7_image(22).png.eef29235e29806f87d0f53fe8c8b4079.png"
-variants:
-- variant: { nightmode: "standard" }
-  assets:
-  - assetId: "agc-a-frame-house-props-mn"
-    exclude:
-    - "\\.SC4Lot$"
-- variant: { nightmode: "dark" }
-  dependencies:
-  - "simfox:day-and-nite-mod"
-  assets:
-  - assetId: "agc-a-frame-house-props-dn"
-    exclude:
-    - "\\.SC4Lot$"
+# ---
+# Commented out for now until needed as a dependency. Needs decision whether or not to package the lots. The purpose of the lots may need more explanation.
+
+# ### agc a-frame house props
+# group: "agc"
+# name: "a-frame-house-props"
+# version: "2.0.0"
+# subfolder: "100-props-textures"
+# info:
+#   summary: "A-frame house props"
+#   website: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/"
+#   images:
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_06/665bae96ded29_image(20).png.02fea7f99fd7c65c7d0354f0898ee705.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fc451caa_image(23).png.d2d65b67f1aaad69f0c05485d2778ba0.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fb97369a_image(20).png.31e7c075214f9870ad9a81ddf0694a6e.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fbf321d7_image(22).png.eef29235e29806f87d0f53fe8c8b4079.png"
+# variants:
+# - variant: { nightmode: "standard" }
+#   assets:
+#   - assetId: "agc-a-frame-house-props-mn"
+#     exclude:
+#     - "\\.SC4Lot$"
+# - variant: { nightmode: "dark" }
+#   dependencies:
+#   - "simfox:day-and-nite-mod"
+#   assets:
+#   - assetId: "agc-a-frame-house-props-dn"
+#     exclude:
+#     - "\\.SC4Lot$"
+
+# ---
+# url: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/?do=downloadr=201519"
+# assetId: "agc-a-frame-house-props-dn"
+# version: "2.0.0"
+# lastModified: "2024-06-01T23:30:50Z"
+
+# ---
+# url: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/?do=downloadr=201518"
+# assetId: "agc-a-frame-house-props-mn"
+# version: "2.0.0"
+# lastModified: "2024-06-01T23:30:50Z"
+
+# ---
+# group: "agc"
+# name: "a-frame-house-lots"
+# version: "2.0.0"
+# subfolder: "660-parks"
+# dependencies:
+# - "agc:a-frame-house-props"
+# assets:
+# - assetId: "agc-a-frame-house-props-dn"
+#   include:
+#   - "\\.SC4Lot$"
+# info:
+#   summary: "A-frame house lots"
+#   website: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/"
+#   images:
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_06/665bae96ded29_image(20).png.02fea7f99fd7c65c7d0354f0898ee705.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fc451caa_image(23).png.d2d65b67f1aaad69f0c05485d2778ba0.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fb97369a_image(20).png.31e7c075214f9870ad9a81ddf0694a6e.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fbf321d7_image(22).png.eef29235e29806f87d0f53fe8c8b4079.png"
+
+
 
 ---
-url: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/?do=downloadr=201519"
-assetId: "agc-a-frame-house-props-dn"
-version: "2"
-lastModified: "2024-06-01T23:30:50Z"
-
----
-url: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/?do=downloadr=201518"
-assetId: "agc-a-frame-house-props-mn"
-version: "2"
-lastModified: "2024-06-01T23:30:50Z"
-
----
-group: "agc"
-name: "a-frame-house-lots"
-version: "1"
-subfolder: "660-parks"
-dependencies:
-- "agc:a-frame-house-props"
-assets:
-- assetId: "agc-a-frame-house-props-dn"
-  include:
-  - "\\.SC4Lot$"
-info:
-  summary: "A-frame house lots"
-  website: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/"
-  images:
-  - "https://www.simtropolis.com/objects/screens/monthly_2024_06/665bae96ded29_image(20).png.02fea7f99fd7c65c7d0354f0898ee705.png"
-  - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fc451caa_image(23).png.d2d65b67f1aaad69f0c05485d2778ba0.png"
-  - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fb97369a_image(20).png.31e7c075214f9870ad9a81ddf0694a6e.png"
-  - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fbf321d7_image(22).png.eef29235e29806f87d0f53fe8c8b4079.png"
-
-
-
 ### agc heavy machinery props
----
 group: "agc"
 name: "heavy-machinery-props"
-version: "1"
+version: "1.0.0"
 subfolder: "100-props-textures"
 info:
   summary: "Heavy machinery props"
@@ -251,11 +253,11 @@ variants:
 ---
 url: "https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/?do=downloadr=201633"
 assetId: "agc-heavy-machinery-props-dn"
-version: "1"
+version: "1.0.0"
 lastModified: "2024-06-07T12:56:57Z"
 
 ---
 url: "https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/?do=downloadr=201632"
 assetId: "agc-heavy-machinery-props-mn"
-version: "1"
+version: "1.0.0"
 lastModified: "2024-06-07T12:56:57Z"

@@ -1,6 +1,6 @@
 group: "krio"
 name: "small-prop-pack"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Small streetside props"
@@ -16,5 +16,5 @@ assets:
 ---
 url: "https://community.simtropolis.com/files/file/28016-krio-small-prop-pack/?do=download"
 assetId: "krio-small-prop-pack"
-version: "1"
+version: "1.0"
 lastModified: "2012-09-13T19:44:14Z"

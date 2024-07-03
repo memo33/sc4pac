@@ -89,13 +89,13 @@ info:
   description: >
     Japanese props.
   author: "Neko Panchi"
-  website: "http://hide-inoki.com/bbs/archives/sc40887.html"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"
 
 ---
 url: "http://hide-inoki.com/bbs/archives/files/1582.zip"
 assetId: "neko-prop-set-vol04-part1"
 version: "1"
-lastModified: "2013-01-19T20:35Z"
+lastModified: "2020-08-26T12:41:09Z"
 
 ---
 group: "neko"
@@ -108,15 +108,14 @@ info:
   summary: "Neko Prop Set 05"
   description: >
     Japanese props.
-
   author: "Neko Panchi"
-  website: "http://hide-inoki.com/bbs/archives/sc40887.html"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"
 
 ---
 url: "http://hide-inoki.com/bbs/archives/files/1581.zip"
 assetId: "neko-prop-set-vol04-part2"
 version: "1"
-lastModified: "2013-01-19T20:35Z"
+lastModified: "2020-08-26T12:41:03Z"
 
 ---
 group: "neko"
@@ -129,15 +128,14 @@ info:
   summary: "Neko Prop Set 05"
   description: >
     Japanese props.
-
   author: "Neko Panchi"
-  website: "http://hide-inoki.com/bbs/archives/sc40887.html"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"
 
 ---
 url: "http://hide-inoki.com/bbs/archives/files/1592.zip"
 assetId: "neko-prop-set-vol05"
 version: "1"
-lastModified: "2013-01-19T20:45Z"
+lastModified: "2020-08-26T12:41:15Z"
 
 ---
 group: "neko"
@@ -148,10 +146,10 @@ assets:
 - assetId: "neko-texture-set-01"
 info:
   summary: "Road and pavement overlay textures"
-  website: "http://hide-inoki.com/bbs/archives/sc40887.html"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"
 
 ---
 url: "http://hide-inoki.com/bbs/archives/files/1580.zip"
 assetId: "neko-texture-set-01"
 version: "1"
-lastModified: "2013-01-19T08:35Z"
+lastModified: "2020-08-26T12:40:59Z"

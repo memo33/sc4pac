@@ -1,15 +1,15 @@
 url: "https://community.simtropolis.com/files/file/31109-flunight-props-vol-01-flora/?do=download"
 assetId: "flunight-flora-props-vol01"
-version: "1"
+version: "1.0"
 lastModified: "2020-11-02T05:09:46Z"
 
 ---
 group: "flunight"
-name: "flora-props-vol01"
-version: "1"
+name: "props-vol01"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
-  summary: "Tropical plant, palm and tree props"
+  summary: "Tropical plant, palm and tree flora props"
   website: "https://community.simtropolis.com/files/file/31109-flunight-props-vol-01-flora/"
   author: "flunight"
   images:
@@ -26,10 +26,10 @@ assets:
 ---
 group: "flunight"
 name: "flora-mmp"
-version: "1"
+version: "1.0"
 subfolder: "180-flora"
 dependencies:
-- "flunight:flora-props-vol01"
+- "flunight:props-vol01"
 assets:
 - assetId: "flunight-flora-props-vol01"
   include:

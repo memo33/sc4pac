@@ -1,6 +1,6 @@
 group: "simmer2"
 name: "rrw-legacy-lottex-mega-texture-pack"
-version: "1"
+version: "1.0.0"
 subfolder: "100-props-textures"
 info:
   summary: "RealRailway (RRW) textures modified by Simmer2"
@@ -24,5 +24,5 @@ assets:
 ---
 url: "https://community.simtropolis.com/files/file/36049-sm2-rrw-legacy-lottex-mega-texture-pack/?do=download"
 assetId: "simmer2-rrw-legacy-lottex-mega-texture-pack"
-version: "1"
+version: "1.0.0"
 lastModified: "2024-01-20T01:06:15Z"

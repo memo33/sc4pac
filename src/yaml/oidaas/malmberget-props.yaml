@@ -1,6 +1,6 @@
 group: "oidaas"
 name: "malmberget-props-vol01"
-version: "1"
+version: "1.0.0"
 subfolder: "100-props-textures"
 info:
   summary: "Swedish buildings and apartments props"
@@ -14,14 +14,14 @@ assets:
 ---
 url: "https://community.simtropolis.com/files/file/33552-malmberget-proppack-vol1//?do=download"
 assetId: "oidaas-malmberget-props-vol01"
-version: "1"
+version: "1.0.0"
 lastModified: "2024-01-07T17:04:05Z"
 
 
 ---
 group: "oidaas"
 name: "malmberget-props-vol02"
-version: "1"
+version: "1.0.0"
 subfolder: "100-props-textures"
 info:
   summary: "Swedish buildings and apartments props"
@@ -33,5 +33,5 @@ assets:
 ---
 url: "https://community.simtropolis.com/files/file/35927-malmberget-proppack-vol-2/?do=download"
 assetId: "oidaas-malmberget-props-vol02"
-version: "1"
+version: "1.0.0"
 lastModified: "2024-01-07T17:04:05Z"
