@@ -1,6 +1,6 @@
 group: "mushymushy"
 name: "american-school-bus-props"
-version: "1.0"
+version: "1.0.1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "mushymushy-american-school-bus-props"

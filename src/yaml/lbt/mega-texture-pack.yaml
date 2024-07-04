@@ -1,6 +1,6 @@
 group: "lbt"
 name: "mega-textures-vol01"
-version: "1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "lbt-mega-textures-vol01"

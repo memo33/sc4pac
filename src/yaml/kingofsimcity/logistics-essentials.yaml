@@ -1,6 +1,6 @@
 group: "kingofsimcity"
 name: "logistics-essentials"
-version: "1.0"
+version: "2.00"
 subfolder: "900-overrides"
 dependencies:
 - "angry-mozart:trucks-and-trailers-props"
@@ -24,5 +24,5 @@ info:
 ---
 url: "https://community.simtropolis.com/files/file/31578-kosc-logistics-essentials-dec-2018-update/?do=download"
 assetId: "kingofsimcity-logistics-essentials"
-version: "2.0"
+version: "2.00"
 lastModified: "2018-12-15T08:20:35Z"

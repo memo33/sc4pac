@@ -1,6 +1,6 @@
 group: "mattb325"
 name: "council-chambers-and-civic-center"
-version: "1.0.0"
+version: "1.0"
 subfolder: "640-government"
 dependencies:
 - "bsc:bat-props-mattb325-vol02"

@@ -1,6 +1,6 @@
 group: "mattb325"
 name: "old-north-church-boston"
-version: "1.0.0"
+version: "1.0"
 subfolder: "650-religion"
 dependencies:
 - "bsc:mega-props-cp-vol02"
