@@ -34,6 +34,17 @@ subfolders = r"""
 ### [subfolders-docsify]
 """.strip().splitlines()[1:-1]
 
+# Add packages as necessary if the check for matching package and asset
+# versions would otherwise fail and if there is a reason why the versions
+# differ.
+ignore_version_mismatches = set([
+    "vortext:vortexture-1",
+    "vortext:vortexture-2",
+    "t-wrecks:industrial-revolution-mod-addon-set-i-d",
+    "memo:industrial-revolution-mod",
+    "bsc:mega-props-jrj-vol01",
+])
+
 uniqueStrings = {
     "type": "array",
     "items": {"type": "string"},
@@ -134,6 +145,7 @@ class DependencyChecker:
 
     naming_convention = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
     naming_convention_variants = re.compile(r"[a-z0-9]+([-\.][a-z0-9]+)*", re.IGNORECASE)
+    version_rel_pattern = re.compile(r"(.*?)(-\d+)?")
 
     def __init__(self):
         self.known_packages = set()
@@ -142,7 +154,8 @@ class DependencyChecker:
         self.referenced_assets = set()
         self.duplicate_packages = set()
         self.duplicate_assets = set()
-        self.asset_urls = {}
+        self.asset_urls = {}  # asset -> url
+        self.asset_versions = {}  # asset -> version
         self.overlapping_variants = set()
         self.known_variant_values = {}
         self.unexpected_variants = []
@@ -150,6 +163,8 @@ class DependencyChecker:
         self.invalid_group_names = set()
         self.invalid_package_names = set()
         self.invalid_variant_names = set()
+        self.packages_with_single_assets = {}  # pkg -> (version, set of assets from variants)
+        self.packages_using_asset = {}  # asset -> set of packages
 
     def aggregate_identifiers(self, doc):
         if 'assetId' in doc:
@@ -159,6 +174,7 @@ class DependencyChecker:
             else:
                 self.duplicate_assets.add(asset)
             self.asset_urls[asset] = doc.get('url')
+            self.asset_versions[asset] = doc.get('version')
             if not self.naming_convention.fullmatch(asset):
                 self.invalid_asset_names.add(asset)
         if 'group' in doc and 'name' in doc:
@@ -172,16 +188,31 @@ class DependencyChecker:
             if not self.naming_convention.fullmatch(doc['name']):
                 self.invalid_package_names.add(doc['name'])
 
+            def asset_ids(obj):
+                return (a['assetId'] for a in obj.get('assets', []) if 'assetId' in a)
+
             def add_references(obj):
                 self.referenced_packages.update(obj.get('dependencies', []))
-                self.referenced_assets.update(
-                        a['assetId'] for a in obj.get('assets', [])
-                        if 'assetId' in a)
+                local_assets = list(asset_ids(obj))
+                self.referenced_assets.update(local_assets)
+                for a in local_assets:
+                    if a in self.packages_using_asset:
+                        self.packages_using_asset[a].add(pkg)
+                    else:
+                        self.packages_using_asset[a] = set([pkg])
 
             variants0 = doc.get('variants', [])
             add_references(doc)
             for v in variants0:
                 add_references(v)
+
+            num_doc_assets = len(doc.get('assets', []))
+            if num_doc_assets <= 1:
+                single_assets = set(asset_ids(doc))
+                if all(len(v.get('assets', [])) <= 1 for v in variants0):
+                    for v in variants0:
+                        single_assets.update(asset_ids(v))
+                    self.packages_with_single_assets[pkg] = (doc.get('version'), single_assets)
 
             variants = [v.get('variant', {}) for v in variants0]
             if len(variants) != len(set(tuple(sorted(v.items())) for v in variants)):
@@ -220,6 +251,26 @@ class DependencyChecker:
 
     def unused_assets(self):
         return sorted(self.known_assets.difference(self.referenced_assets))
+
+    # turns a patch version such as 1.0.0-2 into 1.0.0
+    def _version_without_rel(self, version):
+        return self.version_rel_pattern.fullmatch(version).group(1)
+
+    def _should_expect_matching_version_for_asset(self, asset):
+        # for assets used by more packages, we assume that the asset contains
+        # multiple unrelated packages, so versions of packages do not need to match
+        return len(self.packages_using_asset.get(asset, [])) <= 3
+
+    def package_asset_version_mismatches(self):
+        for pkg, (version, assets) in self.packages_with_single_assets.items():
+            if pkg in ignore_version_mismatches:
+                continue
+            v1 = self._version_without_rel(version)
+            for asset in assets:
+                if self._should_expect_matching_version_for_asset(asset):
+                    v2 = self._version_without_rel(self.asset_versions.get(asset, 'None'))
+                    if v1 != v2:
+                        yield (pkg, v1, asset, v2)
 
 
 def validateDocumentSeparators(text) -> None:
@@ -315,7 +366,7 @@ def main() -> int:
         non_unique_assets = dependencyChecker.assets_with_same_url()
         if non_unique_assets:
             errors += len(non_unique_assets)
-            print("===> The following assets have the same URL:")
+            print("===> The following assets have the same URL (The same asset was defined twice with different asset IDs):")
             for assets in non_unique_assets:
                 print(', '.join(assets))
 
@@ -358,6 +409,13 @@ def main() -> int:
             print("===> the following variant labels or values do not match the naming convention (alphanumeric hyphenated or dots)")
             for identifier in dependencyChecker.invalid_variant_names:
                 print(identifier)
+
+        version_mismatches = list(dependencyChecker.package_asset_version_mismatches())
+        if version_mismatches:
+            errors += len(version_mismatches)
+            print("===> The versions of the following packages do not match the version of the referenced assets (usually they should agree, but if the version mismatch is intentional, the packages can be added to the ignore list in .github/sc4pac-yaml-schema.py):")
+            for pkg, v1, asset, v2 in version_mismatches:
+                print(f"""{pkg} "{v1}" (expected version "{v2}" of asset {asset})""")
 
     if errors > 0:
         print(f"Finished with {errors} errors.")
