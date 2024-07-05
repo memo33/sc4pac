@@ -40,6 +40,8 @@ def main() -> int:
                     text = f.read()
                     try:
                         for doc in yaml.safe_load_all(text):
+                            if doc is None:  # empty yaml file or document
+                                continue
 
                             # check URLs
                             url = doc.get('url')

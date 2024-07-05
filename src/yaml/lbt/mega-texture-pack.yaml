@@ -1,0 +1,18 @@
+group: "lbt"
+name: "mega-textures-vol01"
+version: "3"
+subfolder: "100-props-textures"
+assets:
+- assetId: "lbt-mega-textures-vol01"
+info:
+  summary: "Textures by the Latin American Bat Team (LBT)"
+  author: "LBT Team, VictorGonzales, Heblem"
+  website: "https://community.simtropolis.com/files/file/21771-lbt-mega-textures-vol01-v3/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0015/8749fcc2d5a6296b1093541ea3ad9d8b-show_texturepack.jpg"
+
+---
+url: "https://community.simtropolis.com/files/file/21771-lbt-mega-textures-vol01-v3/?do=download"
+assetId: "lbt-mega-textures-vol01"
+version: "3"
+lastModified: "2022-06-21T16:40:06Z"
