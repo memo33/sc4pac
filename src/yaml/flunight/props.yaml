@@ -1,7 +1,7 @@
 group: "flunight"
 name: "props-vol02"
 version: "1.0"
-subfolder: "050-early-mods"
+subfolder: "100-props-textures"
 assets:
 - assetId: "flunight-props-vol02"
 info:

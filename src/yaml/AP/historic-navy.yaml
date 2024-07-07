@@ -550,7 +550,7 @@ lastModified: "2024-05-03T07:04:58Z"
 group: "ap"
 name: "historic-navy-pack25-officers-props"
 version: "1.0.0"
-subfolder: "050-early-mods"
+subfolder: "100-props-textures"
 info:
   summary: "Early 20th century people props"
   website: "https://community.simtropolis.com/files/file/36312-historic-navy-pack-25-officers-props/"
