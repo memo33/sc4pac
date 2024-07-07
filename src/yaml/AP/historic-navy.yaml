@@ -1,10 +1,10 @@
 ### VOLUME 1
 group: "ap"
-name: "historic-navy-pack1-lighters-props"
+name: "historic-navy-pack-01-lighters-props"
 subfolder: "100-props-textures"
 version: "1.0"
 assets:
-- assetId: "ap-historic-navy-pack1-lighters-props"
+- assetId: "ap-historic-navy-pack-01-lighters-props"
 info:
   summary: "Early 20th century cargo ship props"
   author: "AP, Dreadnought"
@@ -16,18 +16,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35597-historic-navy-pack1-lighters-props/?do=download"
-assetId: "ap-historic-navy-pack1-lighters-props"
+assetId: "ap-historic-navy-pack-01-lighters-props"
 version: "1.0"
 lastModified: "2023-08-26T05:42:07Z"
 
 ---
 ### VOLUME 2
 group: "ap"
-name: "historic-navy-pack2-navaids-props"
+name: "historic-navy-pack-02-navaids-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack2-navaids-props"
+- assetId: "ap-historic-navy-pack-02-navaids-props"
 info:
   summary: "Early 20th century harbor navigation props"
   author: "AP, Dreadnought"
@@ -39,18 +39,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35602-historic-navy-pack2-navaids-props/?do=download"
-assetId: "ap-historic-navy-pack2-navaids-props"
+assetId: "ap-historic-navy-pack-02-navaids-props"
 version: "1.0.0"
 lastModified: "2023-09-18T05:02:07Z"
 
 ---
 ### VOLUME 3
 group: "ap"
-name: "historic-navy-pack3-sms-prinz-heinrich-props"
+name: "historic-navy-pack-03-sms-prinz-heinrich-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack3-sms-prinz-heinrich-props"
+- assetId: "ap-historic-navy-pack-03-sms-prinz-heinrich-props"
 info:
   summary: "Early 20th century German armored cruiser prop"
   author: "AP, Dreadnought"
@@ -61,18 +61,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35603-historic-navy-pack3-sms-prinz-heinrich-props/?do=download"
-assetId: "ap-historic-navy-pack3-sms-prinz-heinrich-props"
+assetId: "ap-historic-navy-pack-03-sms-prinz-heinrich-props"
 version: "1.0.0"
 lastModified: "2023-09-18T05:02:07Z"
 
 ---
 ### VOLUME 4
 group: "ap"
-name: "historic-navy-pack4-crane-props"
+name: "historic-navy-pack-04-crane-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack4-crane-propss-props"
+- assetId: "ap-historic-navy-pack-04-crane-propss-props"
 info:
   summary: "Early 20th century seaport crane props"
   author: "AP, Dreadnought"
@@ -84,18 +84,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35631-historic-navy-pack4-crane-propss-props/?do=download"
-assetId: "ap-historic-navy-pack4-crane-propss-props"
+assetId: "ap-historic-navy-pack-04-crane-propss-props"
 version: "1.0.0"
 lastModified: "2023-09-22T07:05:06Z"
 
 ---
 ### VOLUME 5
 group: "ap"
-name: "historic-navy-pack5-victoria-louise-class-props"
+name: "historic-navy-pack-05-victoria-louise-class-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack5-victoria-louise-class-props"
+- assetId: "ap-historic-navy-pack-05-victoria-louise-class-props"
 info:
   summary: "Early 20th century German armored cruiser props"
   author: "AP, Dreadnought"
@@ -107,18 +107,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35641-historic-navy-pack5-victoria-louise-class-props/?do=download"
-assetId: "ap-historic-navy-pack5-victoria-louise-class-props"
+assetId: "ap-historic-navy-pack-05-victoria-louise-class-props"
 version: "1.0.0"
 lastModified: "2023-10-03T20:12:54Z"
 
 ---
 ### VOLUME 6
 group: "ap"
-name: "historic-navy-pack6-prinz-adalbert-class-props"
+name: "historic-navy-pack-06-prinz-adalbert-class-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack6-prinz-adalbert-class-props"
+- assetId: "ap-historic-navy-pack-06-prinz-adalbert-class-props"
 info:
   summary: "Early 20th century German armored cruiser props"
   author: "AP, Dreadnought"
@@ -130,18 +130,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35651-historic-navy-pack6-prinz-adalbert-class-props/?do=download"
-assetId: "ap-historic-navy-pack6-prinz-adalbert-class-props"
+assetId: "ap-historic-navy-pack-06-prinz-adalbert-class-props"
 version: "1.0.0"
 lastModified: "2023-10-06T16:22:15Z"
 
 ---
 ### VOLUME 7
 group: "ap"
-name: "historic-navy-pack7-sms-fuerst-bismarck-props"
+name: "historic-navy-pack-07-sms-fuerst-bismarck-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack7-sms-fuerst-bismarck-props"
+- assetId: "ap-historic-navy-pack-07-sms-fuerst-bismarck-props"
 info:
   summary: "Early 20th century German armored cruiser props"
   author: "AP, Dreadnought"
@@ -153,18 +153,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35652-historic-navy-pack7-sms-fuerst-bismarck-props/?do=download"
-assetId: "ap-historic-navy-pack7-sms-fuerst-bismarck-props"
+assetId: "ap-historic-navy-pack-07-sms-fuerst-bismarck-props"
 version: "1.0.0"
 lastModified: "2023-10-06T16:35:46Z"
 
 ---
 ### VOLUME 8
 group: "ap"
-name: "historic-navy-pack8-dockworkers-props"
+name: "historic-navy-pack-08-dockworkers-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack-8-dockworkers-props"
+- assetId: "ap-historic-navy-pack-08-dockworkers-props"
 info:
   summary: "Historic dockworker props"
   author: "AP, Dreadnought"
@@ -176,18 +176,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35786-historic-navy-pack8-dockworkers-props/?do=download"
-assetId: "ap-historic-navy-pack-8-dockworkers-props"
+assetId: "ap-historic-navy-pack-08-dockworkers-props"
 version: "1.0.0"
 lastModified: "2023-11-30T21:51:51Z"
 
 ---
 ### VOLUME 09
 group: "ap"
-name: "historic-navy-pack9-roon-class-props"
+name: "historic-navy-pack-09-roon-class-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack9-roon-class-props"
+- assetId: "ap-historic-navy-pack-09-roon-class-props"
 info:
   summary: "Two early 20th century German armored cruiser props"
   author: "AP, Dreadnought"
@@ -201,18 +201,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35787-historic-navy-pack9-roon-class-props/?do=download"
-assetId: "ap-historic-navy-pack9-roon-class-props"
+assetId: "ap-historic-navy-pack-09-roon-class-props"
 version: "1.0.0"
 lastModified: "2023-11-30T21:59:10Z"
 
 ---
 ### VOLUME 10
 group: "ap"
-name: "historic-navy-pack10-scharnhorst-class-props"
+name: "historic-navy-pack-10-scharnhorst-class-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack10-scharnhorst-class-props"
+- assetId: "ap-historic-navy-pack-10-scharnhorst-class-props"
 info:
   summary: "Two early 20th century German armored cruiser props"
   author: "AP, Dreadnought"
@@ -226,18 +226,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35824-historic-navy-pack10-scharnhorst-class-props/?do=download"
-assetId: "ap-historic-navy-pack10-scharnhorst-class-props"
+assetId: "ap-historic-navy-pack-10-scharnhorst-class-props"
 version: "1.0.0"
 lastModified: "2023-12-15T22:59:49Z"
 
 ---
 ### VOLUME 11
 group: "ap"
-name: "historic-navy-pack11-sms-bluecher-props"
+name: "historic-navy-pack-11-sms-bluecher-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack11-sms-bluecher-props"
+- assetId: "ap-historic-navy-pack-11-sms-bluecher-props"
 info:
   summary: "An early 20th century German armored cruiser prop"
   author: "AP, Dreadnought"
@@ -251,18 +251,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35830-historic-navy-pack11-sms-bluecher-props/?do=download"
-assetId: "ap-historic-navy-pack11-sms-bluecher-props"
+assetId: "ap-historic-navy-pack-11-sms-bluecher-props"
 version: "1.0.0"
 lastModified: "2023-12-16T09:31:09Z"
 
 ---
 ### VOLUME 12
 group: "ap"
-name: "historic-navy-pack12-prometheus-class-props"
+name: "historic-navy-pack-12-prometheus-class-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack12-prometheus-class-props"
+- assetId: "ap-historic-navy-pack-12-prometheus-class-props"
 info:
   summary: "Early 20th century American coal collier props"
   author: "AP, Dreadnought"
@@ -275,18 +275,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35976-historic-navy-pack12-prometheus-class-props/?do=download"
-assetId: "ap-historic-navy-pack12-prometheus-class-props"
+assetId: "ap-historic-navy-pack-12-prometheus-class-props"
 version: "1.0.0"
 lastModified: "2024-01-11T19:19:06Z"
 
 ---
 ### VOLUME 13
 group: "ap"
-name: "historic-navy-pack13-steam-paddle-tug-props"
+name: "historic-navy-pack-13-steam-paddle-tug-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack13-steam-paddle-tug-props"
+- assetId: "ap-historic-navy-pack-13-steam-paddle-tug-props"
 info:
   summary: "Early 20th century British steam powered tug boat props"
   author: "AP, Dreadnought"
@@ -297,18 +297,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/35977-historic-navy-pack13-steam-paddle-tug-props/?do=download"
-assetId: "ap-historic-navy-pack13-steam-paddle-tug-props"
+assetId: "ap-historic-navy-pack-13-steam-paddle-tug-props"
 version: "1.0.0"
 lastModified: "2024-01-11T19:28:56Z"
 
 ---
 ### VOLUME 14
 group: "ap"
-name: "historic-navy-pack14-harbor-tug-props"
+name: "historic-navy-pack-14-harbor-tug-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack14-harbor-tug-props"
+- assetId: "ap-historic-navy-pack-14-harbor-tug-props"
 info:
   summary: "Early 20th century boat props"
   author: "AP, Dreadnought"
@@ -319,18 +319,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36078-historic-navy-pack14-harbour-tug-props/?do=download"
-assetId: "ap-historic-navy-pack14-harbor-tug-props"
+assetId: "ap-historic-navy-pack-14-harbor-tug-props"
 version: "1.0.0"
 lastModified: "2024-01-27T09:17:44Z"
 
 ---
 ### VOLUME 15
 group: "ap"
-name: "historic-navy-pack15-floating-crane-props"
+name: "historic-navy-pack-15-floating-crane-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack15-floating-crane-props"
+- assetId: "ap-historic-navy-pack-15-floating-crane-props"
 info:
   summary: "Early 20th century floating crane props"
   author: "AP, Dreadnought"
@@ -341,18 +341,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36079-historic-navy-pack15-floating-crane-props/?do=download"
-assetId: "ap-historic-navy-pack15-floating-crane-props"
+assetId: "ap-historic-navy-pack-15-floating-crane-props"
 version: "1.0.0"
 lastModified: "2024-01-27T09:17:44Z"
 
 ---
 ### VOLUME 16
 group: "ap"
-name: "historic-navy-pack16-seagoing-tug-props"
+name: "historic-navy-pack-16-seagoing-tug-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack16-seagoing-tug-props"
+- assetId: "ap-historic-navy-pack-16-seagoing-tug-props"
 info:
   summary: "Early 20th century tug boat props"
   author: "AP, Dreadnought"
@@ -363,18 +363,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36105-historic-navy-pack-16-seagoing-tug-props/?do=download"
-assetId: "ap-historic-navy-pack16-seagoing-tug-props"
+assetId: "ap-historic-navy-pack-16-seagoing-tug-props"
 version: "1.0.0"
 lastModified: "2024-02-07T21:23:10Z"
 
 ---
 ### VOLUME 17
 group: "ap"
-name: "historic-navy-pack17-deep-sea-salvage-tug-props"
+name: "historic-navy-pack-17-deep-sea-salvage-tug-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack17-deep-sea-salvage-tug-props"
+- assetId: "ap-historic-navy-pack-17-deep-sea-salvage-tug-props"
 info:
   summary: "Early 20th century tug boat props"
   author: "AP, Dreadnought"
@@ -386,18 +386,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36139-historic-navy-pack-17-deep-sea-salvage-tug-props/?do=download"
-assetId: "ap-historic-navy-pack17-deep-sea-salvage-tug-props"
+assetId: "ap-historic-navy-pack-17-deep-sea-salvage-tug-props"
 version: "1.0.0"
 lastModified: "2024-02-22T19:35:44Z"
 
 ---
 ### VOLUME 18
 group: "ap"
-name: "historic-navy-pack18-moltke-class-props"
+name: "historic-navy-pack-18-moltke-class-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack18-moltke-class-props"
+- assetId: "ap-historic-navy-pack-18-moltke-class-props"
 info:
   summary: "Early 20th century German battle cruiser props"
   author: "AP, Dreadnought"
@@ -408,18 +408,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36164-historic-navy-pack-18-moltke-class-props/?do=download"
-assetId: "ap-historic-navy-pack18-moltke-class-props"
+assetId: "ap-historic-navy-pack-18-moltke-class-props"
 version: "1.0.0"
 lastModified: "2024-03-07T19:10:40Z"
 
 ---
 ### VOLUME 19
 group: "ap"
-name: "historic-navy-pack19-sailing-craft-props"
+name: "historic-navy-pack-19-sailing-craft-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack19-sailing-craft-props"
+- assetId: "ap-historic-navy-pack-19-sailing-craft-props"
 info:
   summary: "Early 20th century sailing boat props"
   author: "AP, Dreadnought"
@@ -430,18 +430,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36182-historic-navy-pack-19-sailing-craft-props/?do=download"
-assetId: "ap-historic-navy-pack19-sailing-craft-props"
+assetId: "ap-historic-navy-pack-19-sailing-craft-props"
 version: "1.0.0"
 lastModified: "2024-03-22T17:15:23Z"
 
 ---
 ### VOLUME 20
 group: "ap"
-name: "historic-navy-pack20-curry-sark-props"
+name: "historic-navy-pack-20-curry-sark-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack20-curry-sark-props"
+- assetId: "ap-historic-navy-pack-20-curry-sark-props"
 info:
   summary: "Early 20th century sailing boat props"
   author: "AP, Dreadnought"
@@ -452,18 +452,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36197-historic-navy-pack-20-cutty-sark-props/?do=download"
-assetId: "ap-historic-navy-pack20-curry-sark-props"
+assetId: "ap-historic-navy-pack-20-curry-sark-props"
 version: "1.0.0"
 lastModified: "2024-04-04T21:43:53Z"
 
 ---
 ### VOLUME 21
 group: "ap"
-name: "historic-navy-pack21-ammo-props"
+name: "historic-navy-pack-21-ammo-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack21-ammo-props"
+- assetId: "ap-historic-navy-pack-21-ammo-props"
 info:
   summary: "Early 20th century ammunition props"
   author: "AP, Dreadnought"
@@ -474,18 +474,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36198-historic-navy-pack-21-ammo-props/?do=download"
-assetId: "ap-historic-navy-pack21-ammo-props"
+assetId: "ap-historic-navy-pack-21-ammo-props"
 version: "1.0.0"
 lastModified: "2024-04-04T22:23:55Z"
 
 ---
 ### VOLUME 22
 group: "ap"
-name: "historic-navy-pack22-ammo-train-props"
+name: "historic-navy-pack-22-ammo-train-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack22-ammo-train-props"
+- assetId: "ap-historic-navy-pack-22-ammo-train-props"
 info:
   summary: "Early 20th century ammunition rail car props"
   author: "AP, Dreadnought"
@@ -496,18 +496,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36209-historic-navy-pack-22-ammo-train-props/?do=download"
-assetId: "ap-historic-navy-pack22-ammo-train-props"
+assetId: "ap-historic-navy-pack-22-ammo-train-props"
 version: "1.0.0"
 lastModified: "2024-04-20T18:19:27Z"
 
 ---
 ### VOLUME 23
 group: "ap"
-name: "historic-navy-pack23-seydlitz-props"
+name: "historic-navy-pack-23-seydlitz-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack23-seydlitz-props"
+- assetId: "ap-historic-navy-pack-23-seydlitz-props"
 info:
   summary: "Early 20th century German battle cruiser props"
   author: "AP, Dreadnought"
@@ -518,18 +518,18 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36228-historic-navy-pack-23-seydlitz-props/?do=download"
-assetId: "ap-historic-navy-pack23-seydlitz-props"
+assetId: "ap-historic-navy-pack-23-seydlitz-props"
 version: "1.0.0"
 lastModified: "2024-05-03T07:04:58Z"
 
 ---
 ### VOLUME 24
 group: "ap"
-name: "historic-navy-pack24-sailors-props"
+name: "historic-navy-pack-24-sailors-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack24-sailors-props"
+- assetId: "ap-historic-navy-pack-24-sailors-props"
 info:
   summary: "Early 20th century sailors and dockworker props"
   author: "AP, Dreadnought"
@@ -541,14 +541,14 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36270-historic-navy-pack-24-sailors-props/?do=download"
-assetId: "ap-historic-navy-pack24-sailors-props"
+assetId: "ap-historic-navy-pack-24-sailors-props"
 version: "1.0.0"
 lastModified: "2024-05-03T07:04:58Z"
 
 ---
 ### VOLUME 25
 group: "ap"
-name: "historic-navy-pack25-officers-props"
+name: "historic-navy-pack-25-officers-props"
 version: "1.0.0"
 subfolder: "100-props-textures"
 info:
@@ -559,22 +559,22 @@ info:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_06/Banner_vol25.png.f1efd5e7ed696b5e0230e5c076436603.png"
   - "https://www.simtropolis.com/objects/screens/monthly_2024_06/Picture1.png.6d9a67ddfd0a75972f2d340d7856f16a.png"
 assets:
-- assetId: "ap-historic-navy-pack25-officers-props"
+- assetId: "ap-historic-navy-pack-25-officers-props"
 
 ---
 url: "https://community.simtropolis.com/files/file/36312-historic-navy-pack-25-officers-props/?do=download"
-assetId: "ap-historic-navy-pack25-officers-props"
+assetId: "ap-historic-navy-pack-25-officers-props"
 version: "1.0.0"
 lastModified: "2024-06-16T16:23:12Z"
 
 ---
 ### VOLUME 26
 group: "ap"
-name: "historic-navy-pack26-pier-clutter-props"
+name: "historic-navy-pack-26-pier-clutter-props"
 subfolder: "100-props-textures"
 version: "1.0.0"
 assets:
-- assetId: "ap-historic-navy-pack26-pier-clutter-props"
+- assetId: "ap-historic-navy-pack-26-pier-clutter-props"
 info:
   summary: "Early 20th century pier clutter props"
   author: "AP, Dreadnought"
@@ -589,6 +589,6 @@ info:
 
 ---
 url: "https://community.simtropolis.com/files/file/36319-historic-navy-pack-26-pier-clutter-props/?do=download"
-assetId: "ap-historic-navy-pack26-pier-clutter-props"
+assetId: "ap-historic-navy-pack-26-pier-clutter-props"
 version: "1.0.0"
 lastModified: "2024-06-28T17:45:12Z"
