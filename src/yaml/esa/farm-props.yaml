@@ -1,0 +1,16 @@
+group: "esa"
+name: "farm-props-vol01"
+version: "1.0.0"
+subfolder: "100-props-textures"
+info:
+  summary: "A pack of agricultural outbuildings"
+  website: "https://community.simtropolis.com/files/file/36236-esa-farmprops-vol-1/"
+  author: "Oidaas"
+assets:
+- assetId: "esa-farm-props-vol01"
+
+---
+url: "https://community.simtropolis.com/files/file/36236-esa-farmprops-vol-1/?do=download"
+assetId: "esa-farm-props-vol01"
+version: "1.0.0"
+lastModified: "2024-05-07T17:11:53Z"

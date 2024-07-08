@@ -1,0 +1,263 @@
+### agc lunar props
+group: "agc"
+name: "ancient-greece-props"
+version: "1.0.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "agc-ancient-greece-props"
+info:
+  summary: "Ancient Greek props"
+  website: "https://community.simtropolis.com/files/file/35795-agc-ancient-greece-dlc/"
+  description: >
+    Does not include night lights. Props are listed under the names 'AGC_Buildings_Greece_' and 'AGC_Props_Greece_'.
+  author: "Barroco Hispano"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6573aafbe6fc0_Sinttulo.png.29f583d317a1aa7ef8bd570fc1007c04.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6573ab189eca3_Sinttulo.jpg.9e8350fde8a26f16ed59bd7191bcf41a.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6573ab3c7c4f6_Sinttulo.jpg.cb41bc46e731611deff5bae8a390d55c.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6573ab5612ac6_Sinttulo.jpg.4d3bff996aafe957b30c137f7c8ba720.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6573ab6adf404_Sinttulo.jpg.17f818c182534b2d355d35e504c017f8.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6573ab764bb6b_Sinttulo.jpg.eb3d8a9a3ba4bb11e235a5501f5b9ed8.jpg"
+
+---
+url: "https://community.simtropolis.com/files/file/35795-agc-ancient-greece-dlc/?do=download"
+assetId: "agc-ancient-greece-props"
+version: "1.0.0"
+lastModified: "2023-12-08T23:54:20Z"
+
+
+---
+### agc monuments props
+group: "agc"
+name: "monuments-props"
+version: "6.0.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Monument props made by Barroco Hispano"
+  website: "https://community.simtropolis.com/files/file/35941-agc-monuments-dlc/"
+  author: "Barroco Hispano"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_03/66088db2beef1_Sinttulo.png.d56176f0fd9255888d3095e8da312997.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_03/66088db60bb62_Sinttulo2.png.b41047a16ac1155e66e0d73f3eaebf6b.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664a3712d4905_image(23).png.d3d21e07a27b841b3bf0c5ce707bad49.png"
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "agc-monuments-props-mn"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "agc-monuments-props-dn"
+
+---
+url: "https://community.simtropolis.com/files/file/35941-agc-monuments-dlc/?do=download&r=201402"
+assetId: "agc-monuments-props-dn"
+version: "6.0.0"
+lastModified: "2024-05-19T17:30:16Z"
+---
+url: "https://community.simtropolis.com/files/file/35941-agc-monuments-dlc/?do=download&r=201401"
+assetId: "agc-monuments-props-mn"
+version: "6.0.0"
+lastModified: "2024-05-19T17:30:16Z"
+
+
+---
+### agc lunar props
+group: "agc"
+name: "lunar-props"
+version: "1.0.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Lunar buildings and props"
+  website: "https://community.simtropolis.com/files/file/35758-agc-lunar-dlc/"
+  author: "Barroco Hispano"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_11/654aa2fd1695a_image(12).png.2a9ef1cdfedfe6f4352dfd178063400d.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_11/654aa394250f0_image(13).jpg.3fa6d49b584fdb1210283cde9ee9b6fd.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_11/654aa42d10a48_Sinttulo2.jpg.06c7a7e6215ed292f3fac9b0f0ada305.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_11/654aa46186263_Sinttulo3.jpg.bbacc67652cbe69230ea9d92c2c29e96.jpg"
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "agc-lunar-props-mn"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "agc-lunar-props-dn"
+
+---
+url: "https://community.simtropolis.com/files/file/35758-agc-lunar-dlc/?do=download&r=198372"
+assetId: "agc-lunar-props-dn"
+version: "1.0.0"
+lastModified: "2023-11-07T21:13:07Z"
+
+---
+url: "https://community.simtropolis.com/files/file/35758-agc-lunar-dlc/?do=download&r=198371"
+assetId: "agc-lunar-props-mn"
+version: "1.0.0"
+lastModified: "2023-11-07T21:13:07Z"
+
+
+---
+### agc space ships props
+group: "agc"
+name: "space-ships-props"
+version: "1.0.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Futuristic space craft props"
+  website: "https://community.simtropolis.com/files/file/35849-agc-space-ships-dlc/"
+  description: >
+    Props do not include night lights.
+  author: "Barroco Hispano"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6580e3a78c2bc_image(16).jpg.cc8fcab9676b24a59c1d3b4554e5f88e.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6580e45cbf519_image(17).png.7441e67bf2da98fb21cc495256c4caaa.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6580e6d79a8a9_image(18).png.073d932bffe1ab80725c5bf76266ced3.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6580e6f578c91_image(19).png.ead097d4a7004e8646b51868884732d9.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6580e6fa77324_image(20).png.5cf5574f68e7186c667f6b641440003a.png"
+assets:
+- assetId: "agc-space-ships-props"
+
+---
+url: "https://community.simtropolis.com/files/file/35849-agc-space-ships-dlc/?do=download"
+assetId: "agc-space-ships-props"
+version: "1.0.0"
+lastModified: "2023-12-19T00:46:38Z"
+
+
+---
+### agc street props
+group: "agc"
+name: "street-props"
+version: "3.0.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Small props for streets and sidewalks"
+  website: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/"
+  description: >
+    Props can be found with the names  AGC_Props_St_ and AGC_Subway_ .
+  author: "Barroco Hispano"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_04/663036f6b8b40_image(19).png.48cdafaa6c761d14aac6607276cc7b57.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_05/6644d9063b54d_image(20).png.cadae833957f513308638011fae7fa1e.png"
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "agc-street-props-mn"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "agc-street-props-dn"
+
+
+---
+url: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/?do=download&r=201345"
+assetId: "agc-street-props-dn"
+version: "3.0.0"
+lastModified: "2024-05-15T15:50:26Z"
+
+---
+url: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/?do=download&r=201344"
+assetId: "agc-street-props-mn"
+version: "3.0.0"
+lastModified: "2024-05-15T15:50:26Z"
+
+# ---
+# Commented out for now until needed as a dependency. Needs decision whether or not to package the lots. The purpose of the lots may need more explanation.
+
+# ### agc a-frame house props
+# group: "agc"
+# name: "a-frame-house-props"
+# version: "2.0.0"
+# subfolder: "100-props-textures"
+# info:
+#   summary: "A-frame house props"
+#   website: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/"
+#   images:
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_06/665bae96ded29_image(20).png.02fea7f99fd7c65c7d0354f0898ee705.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fc451caa_image(23).png.d2d65b67f1aaad69f0c05485d2778ba0.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fb97369a_image(20).png.31e7c075214f9870ad9a81ddf0694a6e.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fbf321d7_image(22).png.eef29235e29806f87d0f53fe8c8b4079.png"
+# variants:
+# - variant: { nightmode: "standard" }
+#   assets:
+#   - assetId: "agc-a-frame-house-props-mn"
+#     exclude:
+#     - "\\.SC4Lot$"
+# - variant: { nightmode: "dark" }
+#   dependencies:
+#   - "simfox:day-and-nite-mod"
+#   assets:
+#   - assetId: "agc-a-frame-house-props-dn"
+#     exclude:
+#     - "\\.SC4Lot$"
+
+# ---
+# url: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/?do=download&r=201519"
+# assetId: "agc-a-frame-house-props-dn"
+# version: "2.0.0"
+# lastModified: "2024-06-01T23:30:50Z"
+
+# ---
+# url: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/?do=download&r=201518"
+# assetId: "agc-a-frame-house-props-mn"
+# version: "2.0.0"
+# lastModified: "2024-06-01T23:30:50Z"
+
+# ---
+# group: "agc"
+# name: "a-frame-house-lots"
+# version: "2.0.0"
+# subfolder: "660-parks"
+# dependencies:
+# - "agc:a-frame-house-props"
+# assets:
+# - assetId: "agc-a-frame-house-props-dn"
+#   include:
+#   - "\\.SC4Lot$"
+# info:
+#   summary: "A-frame house lots"
+#   website: "https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/"
+#   images:
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_06/665bae96ded29_image(20).png.02fea7f99fd7c65c7d0354f0898ee705.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fc451caa_image(23).png.d2d65b67f1aaad69f0c05485d2778ba0.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fb97369a_image(20).png.31e7c075214f9870ad9a81ddf0694a6e.png"
+#   - "https://www.simtropolis.com/objects/screens/monthly_2024_05/664e8fbf321d7_image(22).png.eef29235e29806f87d0f53fe8c8b4079.png"
+
+
+
+---
+### agc heavy machinery props
+group: "agc"
+name: "heavy-machinery-props"
+version: "1.0.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Heavy machinery props"
+  website: "https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/"
+  author: "Barroco Hispano"
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "agc-heavy-machinery-props-mn"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "agc-heavy-machinery-props-dn"
+
+---
+url: "https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/?do=download&r=201633"
+assetId: "agc-heavy-machinery-props-dn"
+version: "1.0.0"
+lastModified: "2024-06-07T12:56:57Z"
+
+---
+url: "https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/?do=download&r=201632"
+assetId: "agc-heavy-machinery-props-mn"
+version: "1.0.0"
+lastModified: "2024-06-07T12:56:57Z"
