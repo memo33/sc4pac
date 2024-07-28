@@ -16,6 +16,9 @@ info:
 
 ---
 assetId: "fordoniak-wies-pack"
-version: "1"
-lastModified: "2023-12-19T15:02:19Z"  # unknown date
-url: "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=40040"
+version: "1-1"
+lastModified: "2024-07-28T13:49:00Z"
+# url: "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=40040"
+# The entry names in the original zip file seem to be encoded with IBM852 (or IBM775) charset
+# which can result in issues on extraction, so the zip file has be reencoded using UTF-8 instead.
+url: "https://github.com/memo33/sc4pac-tools/releases/download/0.1.0/wiespack.zip"
