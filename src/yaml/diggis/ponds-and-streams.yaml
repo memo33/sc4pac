@@ -1,96 +1,51 @@
 assetId: "bsc-diggis-complete-ponds-and-streams"
-version: "1"
-lastModified: "2023-08-20T09:45:47Z"
+version: "2.0"
+lastModified: "2024-08-07T23:32:06Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=108:sc4d-lex-legacy-bsc-diggis-complete-ponds-streams"
 
 ---
 group: "bsc"
-name: "prop-pack-diggis-ponds-1"
+name: "mega-props-diggis-canals-streams-and-ponds"
 version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-diggis-complete-ponds-and-streams"
   include:
-  - "/Diggis Pond Shingle Base Models.dat"
+  - "/BSC MEGA Props - Canals Diggis Streams and Ponds.dat"
+  - "/BSC_Diggis_Canals_Submenu.dat"
 info:
-  summary: "Models for the Diggis Ponds Base lots"
-  author: "Diggis"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/108-sc4d-lex-legacy-bsc-diggis-complete-ponds-and-streams"
-
----
-group: "bsc"
-name: "prop-pack-diggis-ponds-2"
-version: "1"
-subfolder: "100-props-textures"
-assets:
-- assetId: "bsc-diggis-complete-ponds-and-streams"
-  include:
-  - "/Diggis Ponds Grass Base Models.dat"
-info:
-  summary: "Models for the Diggis Ponds Grass Base lots"
-  author: "Diggis"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/108-sc4d-lex-legacy-bsc-diggis-complete-ponds-and-streams"
-
----
-group: "bsc"
-name: "prop-pack-diggis-streams-1"
-version: "1"
-subfolder: "100-props-textures"
-assets:
-- assetId: "bsc-diggis-complete-ponds-and-streams"
-  include:
-  - "/Diggis Stream Shingle Base Models.dat"
-  - "/Diggis Stream Shingle Diagonal Base Models.dat"
-info:
-  summary: "Models for the Diggis Streams Base and Diagonal Base lots"
-  author: "Diggis"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/108-sc4d-lex-legacy-bsc-diggis-complete-ponds-and-streams"
-
----
-group: "bsc"
-name: "prop-pack-diggis-streams-2"
-version: "1"
-subfolder: "100-props-textures"
-assets:
-- assetId: "bsc-diggis-complete-ponds-and-streams"
-  include:
-  - "/Diggis Stream Grass Base Models.dat"
-info:
-  summary: "Models for the Diggis Streams Grass Base lots"
+  summary: "Models for the Diggis Streams and Ponds"
   author: "Diggis"
   website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/108-sc4d-lex-legacy-bsc-diggis-complete-ponds-and-streams"
 
 ---
 group: "diggis"
 name: "ponds-collection"
-version: "1"
+version: "2.0"
 subfolder: "660-parks"
 dependencies:
-- "bsc:prop-pack-diggis-ponds-1"
-- "bsc:prop-pack-diggis-ponds-2"
+- "bsc:mega-props-diggis-canals-streams-and-ponds"
 - "bsc:essentials"
 assets:
 - assetId: "bsc-diggis-complete-ponds-and-streams"
   include:
-  - "/Ponds/"
-  exclude:
-  - "/Diggis Pond Shingle Base Models.dat"
-  - "/Diggis Ponds Grass Base Models.dat"
+  - "/Ponds/.*Lots.dat"
 info:
   summary: "Modular ploppable ponds"
   description: >
     This package contains the Shingle and Grass Base ponds lots as well as Ponds Addon Sets 1 and 2.
+
+    These lots appear in a new submenu if `pkg=memo:submenus-dll` is installed.
   author: "Diggis"
   website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/108-sc4d-lex-legacy-bsc-diggis-complete-ponds-and-streams"
 
 ---
 group: "diggis"
 name: "streams-collection"
-version: "1"
+version: "2.0"
 subfolder: "660-parks"
 dependencies:
-- "bsc:prop-pack-diggis-streams-1"
-- "bsc:prop-pack-diggis-streams-2"
+- "bsc:mega-props-diggis-canals-streams-and-ponds"
 assets:
 - assetId: "bsc-diggis-complete-ponds-and-streams"
   include:
@@ -99,5 +54,7 @@ info:
   summary: "Modular ploppable streams"
   description: >
     This package contains the Shingle (orthogonal and diagonal) and Grass Base streams lots.
+
+    These lots appear in a new submenu if `pkg=memo:submenus-dll` is installed.
   author: "Diggis"
   website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/108-sc4d-lex-legacy-bsc-diggis-complete-ponds-and-streams"

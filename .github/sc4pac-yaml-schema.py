@@ -43,6 +43,7 @@ ignore_version_mismatches = set([
     "t-wrecks:industrial-revolution-mod-addon-set-i-d",
     "memo:industrial-revolution-mod",
     "bsc:mega-props-jrj-vol01",
+    "bsc:mega-props-diggis-canals-streams-and-ponds",
 ])
 
 uniqueStrings = {

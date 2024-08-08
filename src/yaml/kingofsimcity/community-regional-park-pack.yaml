@@ -25,7 +25,7 @@ info:
 ---
 group: "kingofsimcity"
 name: "community-regional-park-pack-vol1"
-version: "1.12"
+version: "1.12-1"
 subfolder: "660-parks"
 dependencies:
 - "shk:parking-pack"
@@ -34,7 +34,7 @@ dependencies:
 - "bsc:mega-props-cp-vol01"
 - "bsc:mega-props-cp-vol02"
 - "mgb204:anyone-for-tennis"
-- "bsc:prop-pack-diggis-ponds-2"
+- "bsc:mega-props-diggis-canals-streams-and-ponds"
 - "girafe:elms"
 - "girafe:beeches"
 - "girafe:lindens"
