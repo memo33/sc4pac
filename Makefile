@@ -21,7 +21,7 @@ gh-pages-no-lint:
 	rm -rf ./gh-pages/
 	$(MAKE) channel
 	cd ./sc4pac-tools/ && sbt web/fullLinkJS
-	cp -p ./sc4pac-tools/web/target/scala-3.3.0/sc4pac-web-opt/main.js ./gh-pages/channel/
+	cp -p ./sc4pac-tools/web/target/scala-3.4.2/sc4pac-web-opt/main.js ./gh-pages/channel/
 	cp -p ./sc4pac-tools/web/channel/styles.css ./sc4pac-tools/web/channel/index.html ./gh-pages/channel/
 	cp -p ./docs/index.html ./docs/*.md ./docs/.nojekyll ./gh-pages/
 
