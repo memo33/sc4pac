@@ -12,8 +12,8 @@ url: "https://github.com/memo33/submenus-dll/releases/download/1.1.0/CAM_2.1.0_S
 ---
 group: "cam"
 name: "colossus-addon-mod"
-version: "2.1.0a-1"
-subfolder: "050-early-mods"
+version: "2.1.0a-2"
+subfolder: "050-load-first"
 
 variants:
 - variant: { CAM: "no" }

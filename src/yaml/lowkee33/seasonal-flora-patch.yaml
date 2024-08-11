@@ -9,8 +9,8 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=36:l
 ---
 group: "lowkee33"
 name: "seasonal-flora-patch-maxis"
-version: "2"
-subfolder: "050-early-mods"  # placed here so that other terrain mods can easily override it
+version: "2-1"
+subfolder: "050-load-first"  # placed here so that other terrain mods can easily override it
 assets:
 - assetId: "lowkee33-seasonal-flora-patch"
   include: [ "/z_LK_FloraTuningParameters_Seasonal_Maxis_or_Other.dat" ]

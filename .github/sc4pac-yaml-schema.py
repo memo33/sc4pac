@@ -10,7 +10,7 @@ import re
 # add subfolders as necessary
 subfolders = r"""
 ### [subfolders-docsify]
-050-early-mods
+050-load-first
 100-props-textures
 150-mods
 170-terrain
