@@ -1,0 +1,25 @@
+group: "aras"
+name: "dh-zenit"
+version: "1.0.0"
+subfolder: "300-commercial"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+assets:
+- assetId: "aras-dh-zenit"
+
+info:
+  summary: "Zenit trade house (CS$$) (AC)"
+  description: >
+    DH Zenit is a 1960s trade house from Katowice, Poland.
+    It comes as a growable and ploppable building on a 5×2 lot.
+  author: "Aras/AC, PGB"
+  website: "https://community.simtropolis.com/files/file/33326-pgb-ac-dh-zenit_v2/"
+  images:
+    - "https://www.simtropolis.com/objects/screens/monthly_2019_12/5df3b7a00c22c_zenitdziensmall.png.c7bb2fa20ca8b26f3695bf5a637faea7.png"
+    - "https://www.simtropolis.com/objects/screens/monthly_2019_12/5df3b7a1cde7c_zenitnocsmall.png.38943e5e93ee48ac07c1f20dcb5a4618.png"
+
+---
+assetId: "aras-dh-zenit"
+version: "1.0.0"
+lastModified: "2019-12-13T16:12:26Z"
+url: "https://community.simtropolis.com/files/file/33326-pgb-ac-dh-zenit_v2/?do=download"
