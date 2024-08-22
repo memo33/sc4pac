@@ -44,6 +44,8 @@ ignore_version_mismatches = set([
     "memo:industrial-revolution-mod",
     "bsc:mega-props-jrj-vol01",
     "bsc:mega-props-diggis-canals-streams-and-ponds",
+    "bsc:mega-props-rubik3-vol01-wtc-props",
+    "bsc:mega-props-newmaninc-rivers-and-ponds",
 ])
 
 uniqueStrings = {
