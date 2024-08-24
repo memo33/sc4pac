@@ -1,0 +1,27 @@
+group: "orange"
+name: "megaprop-vol01"
+version: "1"
+subfolder: "100-props-textures"
+info:
+  summary: "European props"
+  description: >
+    This pack includes:
+    European cars available from 3 angles
+    Utility vehicles (DDE, La Poste, Avis...)
+    A kit for sorting (container, skip...)
+    A sports course pack
+    Various public signs
+    Some plants including street trees
+    Benches, street lamps, and various small things
+  author: "Orange"
+  images:
+  - "https://www.toutsimcities.com/img/downloads/image_1147.jpg"
+  website: "https://www.toutsimcities.com/downloads/view/1147"
+assets:
+- assetId: "orange-megaprop-vol01"
+
+---
+url: "https://www.toutsimcities.com/downloads/start/1147"
+assetId: "orange-megaprop-vol01"
+version: "1"
+lastModified: "2008-06-17T12:00Z"

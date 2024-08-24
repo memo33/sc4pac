@@ -1,0 +1,56 @@
+group: "murimk"
+name: "props-vol03-industrials"
+version: "1"
+subfolder: "100-props-textures"
+info:
+  summary: "Industrial props by murimk"
+  description: >
+    Here is a prop pack containing more than 300 small and large props, designed to create great versatility in lotting and designing industry themed lots and sets. Included is a large range of different industrial... stuff ;-)
+    
+    LIST OF ITEMS
+    * Small Props - pallets, barrels, drums, hollow blocks, pipes, petrol tanks, girders, tires, cable drums, safety gear, trash containers, wooden fences - and more
+    * Large Props - sheds, garages, mobile offices, tents and warehouses
+    * Offset Props - short, long and diagonal offsets
+    * Industrial Fences - puzzle pieces of different sizes, orientations and offsets
+    * Filler Props (Dirt & Grunge Texture)
+    * Extender Props (Dirt & Grunge Texture)
+  author: "murimk"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_06_2012/2958b100ed814cc1a30a8b19139aced8-.jpg"
+  website: "https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/"
+assets:
+- assetId: "murimk-props-vol03-industrials"
+  include:
+  - "/Murimk_industrialprops_resource.dat"
+
+---
+group: "murimk"
+name: "industrial-mmp"
+version: "1"
+subfolder: "180-flora"
+info:
+  summary: "Industrial small prop MMPs"
+  description: >
+    6 MMP sequences are included which cover:
+        * Drums, Barrels, Water- and Petrol-Tanks
+        * Pallets, Pallet Bins,  Cement Bags, Hollow Blocks
+        * Iron girders, Concrete- and PVC-Piping
+        * Cable Drums, Electric Cables, Propane Cylinders
+        * Tires, Safety Gear, Concrete Barriers
+        * Mobile Office Waggons, Tents, Trash Containers
+  author: "murimk"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_06_2012/2958b100ed814cc1a30a8b19139aced8-.jpg"
+  website: "https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/"
+assets:
+- assetId: "murimk-props-vol03-industrials"
+  exclude:
+  - "/Murimk_industrialprops_resource.dat"
+dependencies:
+- "murimk:props-vol03-industrials"
+
+---
+url: "https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/?do=download"
+assetId: "murimk-props-vol03-industrials"
+version: "1"
+lastModified: "2012-06-07T11:32:18Z"
