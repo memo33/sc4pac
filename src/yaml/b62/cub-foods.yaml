@@ -1,0 +1,45 @@
+group: "b62"
+name: "cub-foods"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable supermarket"
+  description: >
+    Cub Foods is a supermarket chain with seventy-three stores in Minnesota and Illinois. The company is a wholly owned subsidiary of Eden Prairie, Minnesota-based SuperValu Inc. The store was famous for being “no frills; sack your own groceries ...” Cub Foods is credited with many innovations, such as the first grocery check out conveyor belt system.
+    
+    This beautiful BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot and so this was just sitting around on his hard drive. After talking with him, he graciously handed his work over to me to finish and subsequently upload for yall.
+    
+    5x6 Ploppable CS$ + 5x6 Growable CS$
+         214 CS$
+         Stage 1
+         Plop Cost : $11100
+         Bulldoze Cost : $1110
+         Power Consumed : 15
+         Water Consumed : 44
+         Flammability : 110
+         Minimal Pollution
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cub-foods-1.png.f145c526c8968c8c70463902a80a2887.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cub-foods-2.png.540befc0567a5dca7edda36ad3293eb9.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cub-foods-3.png.003b9bb7f65e2cb4418be72a3b66cfb9.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cub-foods-4.png.3c0666b8c22d263dcf6bc2448b135cd7.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cub-foods-5.png.f83226f36394286476212d8ee9a99794.png"
+  website: "https://community.simtropolis.com/files/file/30003-b62-remastered-cub-foods"
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-jes-vol01"
+- "girafe:common-spruces"
+- "girafe:daisy"
+- "lbt:mega-textures-vol01"
+- "nos17:essentials"
+- "supershk:fa3-parking-textures"
+- "supershk:mega-parking-textures"
+assets:
+- assetId: "b62-cub-foods"
+
+---
+url: "https://community.simtropolis.com/files/file/30003-b62-remastered-cub-foods/?do=download"
+assetId: "b62-cub-foods"
+version: "3"
+lastModified: "2017-06-16T22:36:19Z"

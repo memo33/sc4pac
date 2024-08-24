@@ -1,0 +1,38 @@
+group: "b62"
+name: "winn-dixie"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable grocery store"
+  description: >
+    Winn-Dixie Stores, Inc. is a subsidiary of Southeastern Grocers, which is the fifth-largest conventional supermarket in the United States based on store count. Founded in 1925, Winn-Dixie employs more than 72,000 associates who serve customers in 790 grocery stores and 527 in-store pharmacies throughout the five southeastern states of Alabama, Florida, Georgia, Louisiana, and Mississippi.
+    
+    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot. He graciously handed his work over to me to finish and subsequently upload for yall.
+    
+    7x6 Plop & Grow CS$
+         1124 CS$ Jobs
+         Growth stage : 2
+         Plop Cost : $25000
+         Bulldoze Cost : $2500
+         Power Consumed : 25
+         Water Consumed : 150
+         Garbage Pollution : 24 over 4 tiles
+         Flammability : 55
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/winn-dixie-1.png.076ac1a2ed22b39e8c4bc5c11d7ebde2.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/winn-dixie-2.png.59b87691448a73893b58f05b3e771bb1.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/winn-dixie-3.png.34ce65163727cc86bce91e4b11383b5d.png"
+  website: "https://community.simtropolis.com/files/file/30591-b62-remastered-winn-dixie/"
+dependencies:
+- "bsc:mega-props-jes-vol01"
+- "supershk:mega-parking-textures"
+- "shk:parking-pack"
+assets:
+- assetId: "b62-winn-dixie"
+
+---
+url: "https://community.simtropolis.com/files/file/30591-b62-remastered-winn-dixie/?do=download"
+assetId: "b62-winn-dixie"
+version: "3"
+lastModified: "2017-06-23T21:47:47Z"

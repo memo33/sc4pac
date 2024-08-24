@@ -1,0 +1,37 @@
+group: "b62"
+name: "highs-store"
+version: "1"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable convenience store"
+  description: >
+    In 1928, the High's brand was born as a quickly growing chain of ice cream stores in the Mid-Atlantic states. At one time there were more than 500 locations, making High's the largest ice cream store chain in the world. Today, High's is a chain of 50 convenience stores run by a team of 600 talented individuals. High's is a subsidiary of the Carroll Independent Fuel Company, a 105-year-old, family owned, Baltimore-based supplier of motor fuel products.
+    
+    This beautiful BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot and so this was just sitting around on his hard drive. After talking to him, he graciously handed his work over to me to finish and subsequently upload for yall.
+    
+    2x2 CS$ Grow + Plop
+         80 CS$ Jobs
+         Plop Cost : $9000
+         Bulldoze Cost : $900
+         Power Consumed : 2
+         Water Consumed : 13
+         Pollution : Nominal
+         Flammability : 45
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/highs-1.png.87171aa89a6b8d940ffc9fc669e6b962.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/highs-2.png.7073b59ab6b479af263a829d88d68782.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/highs-3.png.28345e898ca07a6a55f6be646e9497a3.png"
+  website: "https://community.simtropolis.com/files/file/31799-b62-remastered-highs-store/"
+dependencies:
+- "nos17:essentials"
+- "supershk:mega-parking-textures"
+- "shk:parking-pack"
+assets:
+- assetId: "b62-highs-store"
+
+---
+url: "https://community.simtropolis.com/files/file/31799-b62-remastered-highs-store/?do=download"
+assetId: "b62-highs-store"
+version: "1"
+lastModified: "2017-06-21T01:18:01Z"

@@ -1,0 +1,43 @@
+group: "b62"
+name: "lowes-distribution-irm"
+version: "3"
+subfolder: "400-industrial"
+info:
+  summary: "Industrial distribution warehouse compatible with the Industrial Revoluation Mod"
+  description: >
+    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot and was just sitting around on his hard drive. After talking with him, he graciously handed his work over to me to finish and subsequently upload for yall.
+    
+    6x7 I-M Growable
+         Growth Stage: 1
+         Jobs : 125 I-M
+         Power Consumed : 6
+         Water Consumed : 2
+         All Pollution : Negligible
+         Flammability : 20
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/lowes-irm-0.png.15686212e1d97d2107ac209d4157edb6.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/lowes-irm-1.png.db78642495209131f79f8d2c06e645c9.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/lowes-irm-2.png.020258879abd23da775390318c1a784c.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/lowes-irm-3.png.e1f46809770ddb1fc231a8af4c1aca6e.png"
+  website: "https://community.simtropolis.com/files/file/30943-b62-remastered-irm-lowes-distribution/"
+dependencies:
+- "shk:parking-pack"
+- "nos17:essentials"
+- "bsc:mega-props-jes-vol01"
+- "bsc:mega-props-jes-vol02"
+- "bsc:mega-props-jes-vol03"
+- "bsc:mega-props-jes-vol05"
+- "bsc:mega-props-jes-vol08"
+- "bsc:mega-props-sg-vol01"
+- "bsc:mega-props-gascooker-vol01"
+- "bsc:mega-props-cp-vol01"
+- "bsc:textures-vol01"
+assets:
+- assetId: "b62-lowes-distribution"
+
+---
+url: "https://community.simtropolis.com/files/file/30943-b62-remastered-irm-lowes-distribution/?do=download"
+assetId: "b62-lowes-distribution"
+version: "3"
+lastModified: "2017-06-21T01:55:18Z"
