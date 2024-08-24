@@ -1,7 +1,7 @@
 group: "b62"
 name: "pizza-hut"
 version: "3"
-subfolder: "050-early-mods"
+subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable pizza chain"
   description: >
