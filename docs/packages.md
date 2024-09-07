@@ -94,6 +94,10 @@ This list will be expanded as more packages are added to the metadata channel.
 
 Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':target=_self').
 
+## Transit
+
+* `pkg=sfbt:modern-bus-and-tram-stops`
+
 ## Visuals
 
 * Terrain mods (pick at most one):

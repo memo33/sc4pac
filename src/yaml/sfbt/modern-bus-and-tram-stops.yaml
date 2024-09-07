@@ -1,0 +1,27 @@
+group: "sfbt"
+name: "modern-bus-and-tram-stops"
+version: "1"
+subfolder: "700-transit"
+dependencies:
+- "sfbt:essentials"
+assets:
+- assetId: "sfbt-modern-bus-and-tram-stops"
+
+info:
+  summary: "Modern bus and tram stops by Fluggi"
+  description: >
+    This download contains 17 lots with several bus and tram stops for your city.
+    There are three different models: A simple bus stop with a glass covered roof made by Fluggi which can be found everywhere in Germany,
+    and two other stops (one wide and one narrow version) with a roof in three different colors made by khoianh94 which are inspired from the ones in Munich, Germany.
+    The narrow bus stops can be plopped directly on a road.
+  author: "Fluggi, khoianh94, Andreas"
+  website: "https://community.simtropolis.com/files/file/36175-sfbt-fluggi-modern-bus-and-tram-stops/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_03/Moderne_Haltestellen_01.jpg.9bb7f09d361b2f5a9c807f9b1ad4cfdd.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_03/Moderne_Haltestellen_02.jpg.da17bd692462c8ce327d719fe923503f.jpg"
+
+---
+assetId: "sfbt-modern-bus-and-tram-stops"
+version: "1"
+lastModified: "2024-03-13T21:40:53Z"
+url: "https://community.simtropolis.com/files/file/36175-sfbt-fluggi-modern-bus-and-tram-stops/?do=download"
