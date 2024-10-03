@@ -72,10 +72,13 @@ def main() -> int:
                                 errors += 1  # TODO
                             else:
                                 last_modified = isoparse(doc.get('lastModified'))
-                                if last_modified == last_modified_upstream:
+                                last_modified_fuzzy = last_modified.replace(second=0, microsecond=0)
+                                last_modified_upstream_fuzzy = last_modified_upstream.replace(second=0, microsecond=0)
+                                # we ignore the seconds as some timestamps in our metadata lack them
+                                if last_modified_fuzzy == last_modified_upstream_fuzzy:
                                     up_to_date += 1
                                 else:
-                                    if last_modified < last_modified_upstream:
+                                    if last_modified_fuzzy < last_modified_upstream_fuzzy:
                                         out_of_date += 1
                                     else:
                                         errors += 1  # our assets should not be newer than upstream's assets TODO
@@ -91,9 +94,9 @@ def main() -> int:
 
     result = 0
     if out_of_date == 0:
-        print(f"All {up_to_date} ST assets are up-to-date (skipped {skipped} assets not updated in last {since_days} days).")
+        print(f"All {up_to_date} ST assets are up-to-date (skipped {skipped} assets not updated in the last {since_days} days).")
     else:
-        print(f"There are {out_of_date} outdated ST assets, while {up_to_date} are up-to-date (skipped {skipped} assets not updated in last {since_days} days).")
+        print(f"There are {out_of_date} outdated ST assets, while {up_to_date} are up-to-date (skipped {skipped} assets not updated in the last {since_days} days).")
         result |= 0x02
     if errors > 0:
         print(f"Finished with {errors} errors.")
