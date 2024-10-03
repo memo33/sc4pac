@@ -42,4 +42,8 @@ lint:
 sc4e-check-updates:
 	python .github/sc4e-check-updates.py src/yaml
 
-.PHONY: gh-pages gh-pages-no-lint channel host host-docs lint sc4e-check-updates
+# First reads in the STEX_API_KEY from a file into an environment variable and then checks for asset updates using the authenticated STEX API.
+st-check-updates:
+	set -a && source ./.git/sc4pac-stex-api-key && set +a && python .github/st-check-updates.py src/yaml
+
+.PHONY: gh-pages gh-pages-no-lint channel host host-docs lint sc4e-check-updates st-check-updates
