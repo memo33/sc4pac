@@ -1,9 +1,9 @@
 group: "b62"
-name: "lowes-home-improvement-and-distribution"
+name: "lowes-home-improvement"
 version: "3"
 subfolder: "300-commercial"
 info:
-  summary: "Ploppable and growable hardware store"
+  summary: "Ploppable and growable home improvement and hardware store"
   description: >
     Lowe's Companies, Inc. is an American company that operates a chain of retail home improvement and appliance store. Founded in 1946 in North Wilkesboro, North Carolina, the chain has 1,840 stores in the United States, Canada, and Mexico. Lowe's is the second-largest hardware chain in the United States behind The Home Depot and ahead of Menards. Globally, Lowe's is also the second-largest hardware chain, again behind The Home Depot but ahead of the European stores B&Q and OBI.
     
@@ -84,7 +84,7 @@ assets:
 
 
 ---
-url: "https://community.simtropolis.com/files/file/30942-b62-remastered-lowes-home-improvement-distribution-centers/?do=download"
+url: "https://community.simtropolis.com/files/file/30942-b62-remastered-lowes-home-improvement-distribution-centers/?do=download&r=202555"
 assetId: "b62-lowes-home-improvement-and-distribution"
 version: "3"
 lastModified: "2017-06-21T01:53:11Z"

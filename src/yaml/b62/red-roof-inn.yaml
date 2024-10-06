@@ -5,7 +5,7 @@ subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable motel"
   description: >
-    Red Roof Inn was incorporated by founder James R. Trueman in 1972. The Inn first opened in Columbus, Ohio with a single room rate of $8.50 USD in 1973. Today, Red Roof Inn has more than 325 locations, serves millions of guests each year and employs over 6,000 people. The majority of Red Roof Inns locations are located in the Midwest, East and the South, and boast on high customer awareness and outstanding brand image in the economy market.
+    Red Roof Inn was incorporated by founder James R. Trueman in 1972. The Inn first opened in Columbus, Ohio with a single room rate of $8.50 USD in 1973. Today, Red Roof Inn has more than 325 locations, serves millions of guests each year and employs over 6,000 people. The majority of Red Roof Inns locations are located in the Midwest, East and the South, and boast on high customer awareness and outstanding brand image in the economy hotel market.
      
     This BAT was originally created by Bobbo662 (aka B62). I am revisiting one of the few gems he has ever uploaded. 
     
@@ -38,7 +38,7 @@ assets:
 - assetId: "b62-red-roof-inn"
 
 ---
-url: "https://community.simtropolis.com/files/file/30174-b62-remastered-red-roof-inn/?do=download"
+url: "https://community.simtropolis.com/files/file/30174-b62-remastered-red-roof-inn/?do=download&r=202700"
 assetId: "b62-red-roof-inn"
 version: "3"
 lastModified: "2017-06-22T01:29:55Z"
