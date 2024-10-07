@@ -143,6 +143,11 @@ schema = {
     "oneOf": [asset_schema, package_schema]
 }
 
+# if there are dependencies to packages in other channels, add those channels here
+extra_channels = [
+    # "https://memo33.github.io/sc4pac/channel/sc4pac-channel-contents.json",
+]
+
 
 class DependencyChecker:
 
@@ -239,10 +244,25 @@ class DependencyChecker:
                     if not self.naming_convention_variants_value.fullmatch(value):
                         self.invalid_variant_names.add(value)
 
+    def _get_channel_contents(self, channel_url):
+        import urllib.request
+        import json
+        req = urllib.request.Request(channel_url)
+        with urllib.request.urlopen(req) as data:
+            channel_contents = json.load(data)
+        return channel_contents['contents']
+
     def unknowns(self):
-        packages = sorted(self.referenced_packages.difference(self.known_packages))
-        assets = sorted(self.referenced_assets.difference(self.known_assets))
-        return {'packages': packages, 'assets': assets}
+        packages = self.referenced_packages.difference(self.known_packages)
+        assets = self.referenced_assets.difference(self.known_assets)
+        if packages or assets:
+            # some dependencies are not known, so check other channels
+            contents = [self._get_channel_contents(channel_url) for channel_url in extra_channels]
+            remote_assets = [pkg['name'] for c in contents for pkg in c if pkg['group'] == "sc4pacAsset"]
+            remote_packages = [f"{pkg['group']}:{pkg['name']}" for c in contents for pkg in c if pkg['group'] != "sc4pacAsset"]
+            packages = packages.difference(remote_packages)
+            assets = assets.difference(remote_assets)
+        return {'packages': sorted(packages), 'assets': sorted(assets)}
 
     def duplicates(self):
         return {'packages': sorted(self.duplicate_packages),
