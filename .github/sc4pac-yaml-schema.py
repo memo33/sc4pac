@@ -146,8 +146,10 @@ schema = {
 
 class DependencyChecker:
 
-    naming_convention = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
-    naming_convention_variants = re.compile(r"[a-z0-9]+([-\.][a-z0-9]+)*", re.IGNORECASE)
+    naming_convention = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+    naming_convention_variants_value = re.compile(r"[a-z0-9]+([-\.][a-z0-9]+)*", re.IGNORECASE)
+    naming_convention_variants = re.compile(  # group:package:variant (regex groups: \1:\2:\3)
+            rf"(?:({naming_convention.pattern}):)?(?:({naming_convention.pattern}):)?([a-zA-Z0-9]+(?:[-\.][a-zA-Z0-9]+)*)")
     version_rel_pattern = re.compile(r"(.*?)(-\d+)?")
 
     def __init__(self):
@@ -234,7 +236,7 @@ class DependencyChecker:
                 if not self.naming_convention_variants.fullmatch(key):
                     self.invalid_variant_names.add(key)
                 for value in variant_values:
-                    if not self.naming_convention_variants.fullmatch(value):
+                    if not self.naming_convention_variants_value.fullmatch(value):
                         self.invalid_variant_names.add(value)
 
     def unknowns(self):
