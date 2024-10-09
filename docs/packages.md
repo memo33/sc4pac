@@ -98,6 +98,8 @@ Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':t
 ## Transit
 
 * `pkg=sfbt:modern-bus-and-tram-stops`
+* `pkg=sfbt:khiyana-bus-stops`
+* `pkg=sfbt:kenworth-commuter-stations` (5 Rail stations)
 
 ## Visuals
 

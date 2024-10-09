@@ -1,0 +1,28 @@
+group: "sfbt"
+name: "khiyana-bus-stops"
+version: "1.0.0"
+subfolder: "700-transit"
+dependencies:
+- "sfbt:essentials"
+assets:
+- assetId: "sfbt-khiyana-bus-stops"
+
+info:
+  summary: "Two simple German bus stops"
+  description: >
+    This package includes 2 simple, slightly run down bus stops, like they can be found everywhere in Germany and the rest of the world.
+    The download includes two different lots, one that has some grass behind the shelter, and an urban version with the standard sidewalk texture.
+
+    Both the bus stop shelters and the signs are prop families, so each bus stop will look a bit different when plopped.
+    The stats are comparable to the in-game bus stop, but the capacity is three times as high, so you can use these lots also in a dense development, such as a Plattenbau quarter.
+  author: "Khiyana, Andreas"
+  website: "https://community.simtropolis.com/files/file/36493-sfbt-khiyana-bus-stops/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_10/Bushaltestellen_01.jpg.42911d8461b9d2056175b5ad60744c69.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_10/Bushaltestellen_02.jpg.d9e6e1ca5d266cbe3960daf4477c4110.jpg"
+
+---
+assetId: "sfbt-khiyana-bus-stops"
+version: "1.0.0"
+lastModified: "2024-10-08T11:56:33Z"
+url: "https://community.simtropolis.com/files/file/36493-sfbt-khiyana-bus-stops/?do=download"
