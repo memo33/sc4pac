@@ -4,6 +4,8 @@ version: "1.01"
 subfolder: "500-utilities"
 assets:
 - assetId: "peg-power-tower-pylons"
+dependencies:
+- "corinamarie:zoom4-fixed-peg-power-tower"
 info:
   summary: "Reskin of the game's power transmission towers"
   description: >
