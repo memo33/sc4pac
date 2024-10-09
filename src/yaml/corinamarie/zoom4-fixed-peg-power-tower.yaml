@@ -1,0 +1,21 @@
+group: "corinamarie"
+name: "zoom4-fixed-peg-power-tower"
+version: "1.0"
+subfolder: "150-mods"
+
+assets:
+- assetId: "corinamarie-zoom4-fixed-peg-power-tower"
+
+dependencies:
+- "peg:power-tower-pylons"
+
+info:
+  summary: "Fixes the zoom 4 diagonal display of the PEG power tower pylon reskin."
+  author: "Corina Marie"
+  website: "https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/?page=3&tab=comments#comment-1670768"
+
+---
+assetId: "corinamarie-zoom4-fixed-peg-power-tower"
+version: "1.0"
+lastModified: "2024-08-02T04:35:28Z"
+url: "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=27548"
