@@ -16,7 +16,7 @@ import urllib.request
 import json
 
 stex_api_key = os.environ.get('STEX_API_KEY')  # issued by ST admins
-url_id_pattern = re.compile(r".*simtropolis.com/files/file/(\d+)-.*")
+url_id_pattern = re.compile(r".*simtropolis.com/files/file/(\d+)-.*?(?:$|[?&]r=(\d+).*$)")  # matches ID and optional subfile ID
 since_days = 180
 
 
@@ -63,6 +63,23 @@ def main() -> int:
                             if file_id not in upstream_state:
                                 skipped += 1  # not updated since_days
                                 continue
+
+                            subfile_id = m.group(2)  # possibly None
+                            subfiles = upstream_state[file_id].get('files', [])
+                            if subfile_id is None:
+                                if len(subfiles) != 1:
+                                    errors += 1
+                                    print(f"{doc.get('assetId')}:")
+                                    print(f"  url must include subfile ID `r=#` as there are {len(subfiles)} subfiles:")
+                                    print("    " + "\n    ".join(f"{r.get('id')}: {r.get('name')}" for r in subfiles))
+                                    print(f"  {upstream_state[file_id].get('fileURL')}")
+                            else:
+                                if subfile_id not in [str(r.get('id')) for r in subfiles]:
+                                    errors += 1
+                                    print(f"{doc.get('assetId')}:")
+                                    print(f"  url subfile ID {subfile_id} does not exist (anymore), so must be updated:")
+                                    print("    " + "\n    ".join(f"{r.get('id')}: {r.get('name')}" for r in subfiles))
+                                    print(f"  {upstream_state[file_id].get('fileURL')}")
 
                             last_modified_upstream = isoparse(upstream_state[file_id]['updated'])
                             if last_modified_upstream.tzinfo is None:
