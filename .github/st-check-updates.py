@@ -11,7 +11,7 @@ import sys
 import os
 import re
 from dateutil.parser import isoparse
-from datetime import timezone
+from datetime import timezone, timedelta
 import urllib.request
 import json
 
@@ -72,13 +72,11 @@ def main() -> int:
                                 errors += 1  # TODO
                             else:
                                 last_modified = isoparse(doc.get('lastModified'))
-                                last_modified_fuzzy = last_modified.replace(second=0, microsecond=0)
-                                last_modified_upstream_fuzzy = last_modified_upstream.replace(second=0, microsecond=0)
-                                # we ignore the seconds as some timestamps in our metadata lack them
-                                if last_modified_fuzzy == last_modified_upstream_fuzzy:
+                                # we ignore small timestamp differences
+                                if abs(last_modified_upstream - last_modified) <= timedelta(minutes=10):
                                     up_to_date += 1
                                 else:
-                                    if last_modified_fuzzy < last_modified_upstream_fuzzy:
+                                    if last_modified < last_modified_upstream:
                                         out_of_date += 1
                                     else:
                                         errors += 1  # our assets should not be newer than upstream's assets TODO
