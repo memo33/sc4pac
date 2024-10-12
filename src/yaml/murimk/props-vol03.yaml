@@ -4,7 +4,7 @@ version: "1"
 subfolder: "100-props-textures"
 info:
   summary: "Industrial props by murimk"
-  description: >
+  description: |
     Here is a prop pack containing more than 300 small and large props, designed to create great versatility in lotting and designing industry themed lots and sets. Included is a large range of different industrial... stuff ;-)
     
     LIST OF ITEMS
@@ -30,7 +30,7 @@ version: "1"
 subfolder: "180-flora"
 info:
   summary: "Industrial small prop MMPs"
-  description: >
+  description: |
     6 MMP sequences are included which cover:
         * Drums, Barrels, Water- and Petrol-Tanks
         * Pallets, Pallet Bins,  Cement Bags, Hollow Blocks

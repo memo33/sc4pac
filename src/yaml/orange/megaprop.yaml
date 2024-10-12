@@ -4,7 +4,7 @@ version: "1"
 subfolder: "100-props-textures"
 info:
   summary: "European props"
-  description: >
+  description: |
     This pack includes:
     European cars available from 3 angles
     Utility vehicles (DDE, La Poste, Avis...)

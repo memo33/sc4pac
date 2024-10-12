@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable department store"
-  description: >
+  description: |
     Headquarters - Norwalk, Connecticut
     President - Warren D. Feldberg
     Employees - 22,000
