@@ -1,0 +1,59 @@
+group: "b62"
+name: "sears-grand"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable Sears superstore and shopping center"
+  description: |
+    In the words of b62: " Sears Grand is a one-stop home and family solution center that delivers a mix of quality products such as Sears' proprietary and national brands that no other store provides. Everything busy people need to maintain their family on-the-go can conveniently be found here under one roof.  Bigger than Wal-Mart Supercenters, Sears Grand help customers navigate through their spacious 165,000 to 210,000 square foot stores easily. Sears Grand is a one-level store that carries everything from milk to refrigerators, bathing suits to sun block and car seats to baby food - they also are the only store to carry their Craftsman, and Kenmore products.  Shoppers will also find an array of convenient services at Sears Grand including:  auto center, custom paint mixing, window blind cutting and key cutting."
+
+    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot. He graciously handed his work over to me to finish and subsequently upload for yall.
+
+    This package contains two versions: one with diggis ponds (3x CS$$ lots: 16x13, 19x9, 3,13) and one without (2x CS$$ lots: 14x13, 16x9). Choose one version to install. 
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-4.png.cf4c540f9cd0f2ea026cb809f0605da4.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-1.png.5c1333d82e33a2248ff9e95107093223.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-2.png.c9f095c40629f2878e93555a3c56d27b.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-3.png.8262cd6d86fdc6598cee56527da2d92a.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-5.png.f198b19b84cb4db3910e2bd38ac09126.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-6.png.1c687ebd3ad8de9e1e04d9998b9eaa73.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-7.png.fd2db200912f835d1f58a220986e3552.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-8.png.3cc670a9e38bf2ca9eb5d3a875c7a86b.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-9.png.ad6e35186e5ab7ce88439463e4f5a5c5.png"
+  website: "https://community.simtropolis.com/files/file/30745-b62-remastered-sears-grand/"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-sg-vol01"
+- "lbt:mega-prop-pack-vol01"
+- "shk:parking-pack"
+- "nos17:essentials"
+- "supershk:mega-parking-textures"
+- "supershk:fa3-parking-textures"
+- "mushymushy:na-53ft-trailers-vol1"
+- "girafe:berries"
+- "girafe:honey-locust"
+- "girafe:lupins"
+- "girafe:maples-v2"
+- "girafe:rowan-trees"
+- "blam:zaxbys"
+variants:
+- variant: { searsgrand.version: "diggis" }
+  assets:
+  - assetId: "b62-sears-grand"
+    include:
+    - "/KEEP ONE ... Diggis Version/"
+  dependencies:
+  - "bsc:mega-props-diggis-canals-streams-and-ponds"
+- variant: { searsgrand.version: "non-diggis" }
+  assets:
+  - assetId: "b62-sears-grand"
+    include:
+    - "/KEEP ONE ... Non-Diggis Version/"
+
+---
+url: "https://community.simtropolis.com/files/file/30745-b62-remastered-sears-grand/?do=download&r=202729"
+assetId: "b62-sears-grand"
+version: "3"
+lastModified: "2024-08-24T20:46:58Z"
