@@ -1,5 +1,5 @@
 group: "orange"
-name: "megaprop-vol01"
+name: "mega-prop-vol01"
 version: "1"
 subfolder: "100-props-textures"
 info:
@@ -15,13 +15,14 @@ info:
     Benches, street lamps, and various small things
   author: "Orange"
   images:
-  - "https://www.toutsimcities.com/img/downloads/image_1147.jpg"
-  website: "https://www.toutsimcities.com/downloads/view/1147"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/TSC%20Props%20Pack%20-%20Orange%20Mega%20Props%20Vol01%20v2.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/TSC%20Props%20Pack%20-%20Orange%20Mega%20Props%20Vol01%20v2_presentation.jpg"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/189-tsc-props-pack-orange-mega-props"
 assets:
-- assetId: "orange-megaprop-vol01"
+- assetId: "orange-mega-prop-vol01"
 
 ---
-url: "https://www.toutsimcities.com/downloads/start/1147"
-assetId: "orange-megaprop-vol01"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=189:tsc-props-pack-orange-mega-props"
+assetId: "orange-mega-prop-vol01"
 version: "1"
 lastModified: "2008-06-17T12:00Z"
