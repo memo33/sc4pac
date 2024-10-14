@@ -3,7 +3,7 @@ name: Sc4pac CI
 on:
   push:
     branches: [ "main", "action" ]
-  pull_request:
+  pull_request_target:
     branches: [ "main" ]
   workflow_dispatch:  # for manually triggering the workflow from Actions tab
 
@@ -23,11 +23,45 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: python -m pip install --upgrade PyYAML jsonschema
-    - name: Check sc4pac yaml schema
+    - name: Check sc4pac yaml schema (pull_request_target)
+      if: ${{ github.event_name == 'pull_request_target'}}
+      # With pull_request_target, the `main` branch is checked out, not the PR.
+      # We partially check out only src/yaml from the PR, the non-code part of the repository, as only that part is relevant for linting.
+      run: git checkout ${{ github.event.pull_request.head.ref}} -- src/yaml && make lint
+    - name: Check sc4pac yaml schema (push)
+      if: ${{ github.event_name != 'pull_request_target'}}
       run: make lint
 
+  # requires STEX_API_KEY, so job is skipped in forks
+  url-check:
+    if: ${{ github.repository == 'memo33/sc4pac' }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        # to allow partial-checkout/diff of other commit
+        fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: python -m pip install --upgrade PyYAML jsonschema python-dateutil
+    - name: Check STEX URLs (pull_request_target)
+      if: ${{ github.event_name == 'pull_request_target'}}
+      env:
+        STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
+      # we check out only src/yaml, the non-code part of the repository, and compare it to the current (base) branch
+      run: git checkout ${{ github.event.pull_request.head.ref}} -- src/yaml && sh .github/url-check.sh ${{ github.event.pull_request.base.ref }} src/yaml
+    - name: Check STEX URLs (push)
+      if: ${{ github.event_name == 'push'}}
+      env:
+        STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
+      # TODO this is not perfect yet, as `before` sometimes does not exist
+      run: sh .github/url-check.sh ${{ github.event.before }} src/yaml
+
   deploy:
-    needs: lint
+    needs: lint  # url-check is not needed as ST is flaky
     if: ${{ github.repository == 'memo33/sc4pac' && github.ref == 'refs/heads/main' }}
     environment:
       name: github-pages

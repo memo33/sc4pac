@@ -46,4 +46,7 @@ sc4e-check-updates:
 st-check-updates:
 	set -a && source ./.git/sc4pac-stex-api-key && set +a && python .github/st-check-updates.py src/yaml
 
-.PHONY: gh-pages gh-pages-no-lint channel host host-docs lint sc4e-check-updates st-check-updates
+st-url-check:
+	set -a && source ./.git/sc4pac-stex-api-key && set +a && sh .github/url-check.sh origin/main src/yaml
+
+.PHONY: gh-pages gh-pages-no-lint channel host host-docs lint sc4e-check-updates st-check-updates st-url-check
