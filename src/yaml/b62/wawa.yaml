@@ -6,11 +6,11 @@ info:
   summary: "Ploppable and growable gas station with adjacent car show lot"
   description: |
     'Wawa' is a Lenni Lenape Indian word for the Canada Goose that was found in the Delaware Valley, hence it's use in the logo. Wawa offers a large fresh food selection, including built-to-Order Hoagies, fresh-brewed coffee, quality dairy products and Wawa brand juices and teas. All Wawa stores also feature a wide selection of ready-to-go salads, fresh fruits and produce.
-    
+
     This download also includes a Car Show to include in your cities. A feature originally suggested by member Hotwheeler, the Car Show will provide a moderate YIMBY effect for your cities. While it looks best placed next to the Wawa Gas Station (as in the picture), it can also be plopped anywhere on its own.
-    
+
     This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot. He graciously handed his work over to me to finish and subsequently upload for yall.
-    
+
     Gas Station:
         4x4 Plop & Grow CS$
         87 CS$ Jobs, 24 CS$ Jobs
@@ -19,13 +19,13 @@ info:
         Bulldoze Cost : $1750
         Pollution : Minimal
         Flammability : 65
-    
+
     Car Show:
         6x4 LM Plop (No Jobs)
         Plop Cost: $50,000
         Bulldoze Cost: $5,000
         Monthly Income : $125
-        No pollution       
+        No pollution
         Provides YIMBY Effect: 40 over 20 tiles
   author: "Bobbo662, nos.17"
   images:

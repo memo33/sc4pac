@@ -6,9 +6,9 @@ info:
   summary: "A TV and radio broadcast tower"
   description: |
     This is the updated 3ds HD version of the 3rd release of the Towers of Steel Project. The Mount Royal Transmission Tower is a freestanding lattice tower located on \Mount Royal\" in Montreal, Canada. Nearly all of Montreal's TV & radio stations broadcast from here hence the need for a candelabra(multi-platform) design. The actual height of the tower in the real world is not publicized but I've estimated it at approximately 433ft/132m(including transmitters). It  is one of the shorter towers but imo it makes up for the lack of height by being very detailed. The lot can be found at the bottom of the Landmark menu. Some industrial high tech cap relief is also provided.
-    
+
     Three versions of the tower are available. This each versions has a different paint scheme. However, rather than having separate lots for each version I've instead used a prop family. Meaning, each time you plop the lot you have a 33% change of getting a particular  paint scheme. Additionally, the AWL(air craft warning lights) are low intensity night lights made in 3ds rather than the previously used maxis red blinking props.
-    
+
     Stats:
     Plop Cost: $4,330
     Landmark Effect: 20 radius: 10
