@@ -23,14 +23,23 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: python -m pip install --upgrade PyYAML jsonschema
+    - name: Checkout pull request
+      if: ${{ github.event_name == 'pull_request_target' }}
+      uses: actions/checkout@v4
+      with:
+        ref: "${{ github.event.pull_request.merge_commit_sha }}"
+        path: tmp
+        sparse-checkout: |
+          src/yaml
     - name: Check sc4pac yaml schema (pull_request_target)
-      if: ${{ github.event_name == 'pull_request_target'}}
+      if: ${{ github.event_name == 'pull_request_target' }}
       # With pull_request_target, the `main` branch is checked out, not the PR.
-      # We partially check out only src/yaml from the PR, the non-code part of the repository, as only that part is relevant for linting.
-      run: git checkout ${{ github.event.pull_request.head.ref}} -- src/yaml && make lint
+      # We checked out PR into `tmp` and run script from main branch.
+      run: cd tmp && python ../.github/sc4pac-yaml-schema.py src/yaml
     - name: Check sc4pac yaml schema (push)
-      if: ${{ github.event_name != 'pull_request_target'}}
-      run: make lint
+      if: ${{ github.event_name != 'pull_request_target' }}
+      # We are on an actual branch of the repository, so run script here in the repository.
+      run: python .github/sc4pac-yaml-schema.py src/yaml
 
   # requires STEX_API_KEY, so job is skipped in forks
   url-check:
@@ -39,7 +48,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        # to allow partial-checkout/diff of other commit
+        # to allow diff of other commit
         fetch-depth: 0
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -47,22 +56,31 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: python -m pip install --upgrade PyYAML jsonschema python-dateutil
+    - name: Checkout pull request
+      if: ${{ github.event_name == 'pull_request_target' }}
+      uses: actions/checkout@v4
+      with:
+        ref: "${{ github.event.pull_request.merge_commit_sha }}"
+        path: tmp
+        sparse-checkout: |
+          src/yaml
     - name: Check STEX URLs (pull_request_target)
-      if: ${{ github.event_name == 'pull_request_target'}}
+      if: ${{ github.event_name == 'pull_request_target' }}
       env:
         STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
-      # we check out only src/yaml, the non-code part of the repository, and compare it to the current (base) branch
-      run: git checkout ${{ github.event.pull_request.head.ref}} -- src/yaml && sh .github/url-check.sh ${{ github.event.pull_request.base.ref }} src/yaml
+      # We checked out PR into `tmp` and run script from main branch.
+      run: cd tmp && git diff --no-index --name-only ../src/yaml src/yaml | xargs --delimiter '\n' python ../.github/st-check-updates.py --mode=id
     - name: Check STEX URLs (push)
-      if: ${{ github.event_name == 'push'}}
+      if: ${{ github.event_name != 'pull_request_target' }}
       env:
         STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
-      # TODO this is not perfect yet, as `before` sometimes does not exist
-      run: sh .github/url-check.sh ${{ github.event.before }} src/yaml
+      # We are on an actual branch of the repository, so run script here in the repository.
+      # TODO This is not perfect yet, as `before` does not exist on new branches or forced pushes.
+      run: git diff --name-only ${{ github.event.before }} -- src/yaml | xargs --delimiter '\n' python .github/st-check-updates.py --mode=id
 
   deploy:
     needs: lint  # url-check is not needed as ST is flaky
-    if: ${{ github.repository == 'memo33/sc4pac' && github.ref == 'refs/heads/main' }}
+    if: ${{ github.repository == 'memo33/sc4pac' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request_target' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
