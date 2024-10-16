@@ -4,12 +4,10 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable Sears superstore and shopping center"
-  description: |
-    In the words of b62: " Sears Grand is a one-stop home and family solution center that delivers a mix of quality products such as Sears' proprietary and national brands that no other store provides. Everything busy people need to maintain their family on-the-go can conveniently be found here under one roof.  Bigger than Wal-Mart Supercenters, Sears Grand help customers navigate through their spacious 165,000 to 210,000 square foot stores easily. Sears Grand is a one-level store that carries everything from milk to refrigerators, bathing suits to sun block and car seats to baby food - they also are the only store to carry their Craftsman, and Kenmore products.  Shoppers will also find an array of convenient services at Sears Grand including:  auto center, custom paint mixing, window blind cutting and key cutting."
+  description: >
+    In the words of b62: "Sears Grand is a one-stop home and family solution center that delivers a mix of quality products such as Sears' proprietary and national brands that no other store provides. Everything busy people need to maintain their family on-the-go can conveniently be found here under one roof.  Bigger than Wal-Mart Supercenters, Sears Grand help customers navigate through their spacious 165,000 to 210,000 square foot stores easily. Sears Grand is a one-level store that carries everything from milk to refrigerators, bathing suits to sun block and car seats to baby food - they also are the only store to carry their Craftsman, and Kenmore products. Shoppers will also find an array of convenient services at Sears Grand including: auto center, custom paint mixing, window blind cutting and key cutting."
 
-    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot. He graciously handed his work over to me to finish and subsequently upload for yall.
-
-    This package contains two versions: one with diggis ponds (3x CS$$ lots: 16x13, 19x9, 3,13) and one without (2x CS$$ lots: 14x13, 16x9). Choose one version to install.
+    This package contains two variants: one with diggis ponds (three CS$$ lots: 16x13, 19x9, 3x13) and one without (two CS$$ lots: 14x13, 16x9).
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-4.png.cf4c540f9cd0f2ea026cb809f0605da4.png"
@@ -39,18 +37,18 @@ dependencies:
 - "girafe:rowan-trees"
 - "blam:zaxbys"
 variants:
-- variant: { searsgrand.version: "diggis" }
+- variant: { b62:sears-grand:style: "no-pond" }
+  assets:
+  - assetId: "b62-sears-grand"
+    include:
+    - "/KEEP ONE ... Non-Diggis Version/"
+- variant: { b62:sears-grand:style: "pond" }
   assets:
   - assetId: "b62-sears-grand"
     include:
     - "/KEEP ONE ... Diggis Version/"
   dependencies:
   - "bsc:mega-props-diggis-canals-streams-and-ponds"
-- variant: { searsgrand.version: "non-diggis" }
-  assets:
-  - assetId: "b62-sears-grand"
-    include:
-    - "/KEEP ONE ... Non-Diggis Version/"
 
 ---
 url: "https://community.simtropolis.com/files/file/30745-b62-remastered-sears-grand/?do=download&r=202729"
