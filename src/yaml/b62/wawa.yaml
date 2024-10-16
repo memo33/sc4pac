@@ -40,7 +40,7 @@ dependencies:
 - "bsc:mega-props-cp-vol01"
 - "bsc:mega-props-cp-vol02"
 - "lbt:mega-prop-pack-vol01"
-- "orange:mega-prop-vol01"
+- "orange:mega-props-vol01"
 assets:
 - assetId: "b62-wawa-gas-station-car-show"
 
