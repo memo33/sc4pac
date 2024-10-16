@@ -156,6 +156,8 @@ class DependencyChecker:
     naming_convention_variants = re.compile(  # group:package:variant (regex groups: \1:\2:\3)
             rf"(?:({naming_convention.pattern}):)?(?:({naming_convention.pattern}):)?([a-zA-Z0-9]+(?:[-\.][a-zA-Z0-9]+)*)")
     version_rel_pattern = re.compile(r"(.*?)(-\d+)?")
+    pronouns_pattern = re.compile(r"\b[Mm][ey]\b|(?:\bI\b(?!-|\.| [A-Z]))")
+    desc_invalid_chars_pattern = re.compile(r'\\n|\\"')
 
     def __init__(self):
         self.known_packages = set()
@@ -360,6 +362,12 @@ def main() -> int:
                                 field = doc.get('info', {}).get(label)
                                 if field is not None and field.strip().lower() == "none":
                                     msgs.append(f"""Field "{label}" should not be "{field.strip()}", but should be left out instead.""")
+
+                            desc = doc.get('info', {}).get('description')
+                            if desc is not None and dependency_checker.pronouns_pattern.search(desc):
+                                msgs.append("The description should be written in a neutral perspective (avoid the words 'I', 'me', 'my').")
+                            if desc is not None and dependency_checker.desc_invalid_chars_pattern.search(desc):
+                                msgs.append("""The description seems to be malformed (avoid the characters '\\n', '\\"').""")
 
                             if msgs:
                                 errors += 1
