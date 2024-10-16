@@ -1,7 +1,7 @@
 # Package
 group: "nos17"
 name: "andisart-sc2013-homes-redone"
-version: "1.1.0"
+version: "1.2"
 subfolder: "200-residential"
 dependencies:
   - "andisart:sc2013-inspired-homes"
@@ -36,6 +36,6 @@ info:
 ---
 # Asset
 assetId: "nos17-andisart-sc2013-homes-redone"
-version: "1.1.0"
-lastModified: "2023-10-28T13:17:08Z"
+version: "1.2"
+lastModified: "2024-08-23T00:36:02Z"
 url: "https://community.simtropolis.com/files/file/33379-andisart-sc13-homes-redone/?do=download"

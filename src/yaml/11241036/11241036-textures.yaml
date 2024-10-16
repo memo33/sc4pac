@@ -1,6 +1,6 @@
 group: "11241036"
 name: "textures"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "11241036-textures"
@@ -16,5 +16,5 @@ info:
 ---
 url: "https://community.simtropolis.com/files/file/33651-11241036-textures/?do=download"
 assetId: "11241036-textures"
-version: "3"
-lastModified: "2024-05-11T23:07:55Z"
+version: "4"
+lastModified: "2024-08-20T21:56:23Z"

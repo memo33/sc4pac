@@ -1,6 +1,6 @@
 group: "gn-leugim"
 name: "four-square-block"
-version: "1.0.0"
+version: "1.0.1"
 subfolder: "200-residential"
 assets:
 - assetId: "gnl-eha-four-square-block"
@@ -15,6 +15,6 @@ info:
 
 ---
 assetId: "gnl-eha-four-square-block"
-version: "1.0.0"
-lastModified: "2024-03-05T01:03:22Z"
+version: "1.0.1"
+lastModified: "2024-09-27T22:46:44Z"
 url: "https://community.simtropolis.com/files/file/36160-eblt-gnl-eha-four-square-block/?do=download"

@@ -8,6 +8,8 @@ This list will be expanded as more packages are added to the metadata channel.
 
 * `pkg=memo:essential-fixes` (important fixes everyone should have – more to come)
 * `pkg=simmaster07:sc4fix` (DLL plugin fixing two notorious SC4 bugs)
+* `pkg=memo:transparent-texture-fix-dll` (a fix for the water bug)
+* `pkg=memo:region-thumbnail-fix-dll` (a fix for the region thumbnail rendering bug on large screens)
 
 ## Residential
 
@@ -22,6 +24,7 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=kingofsimcity:maxis-mansion-overhaul` (replacement of all Maxis mansion Lots)
 * `pkg=kingofsimcity:maxis-mansion-overhaul-extension-set` (addon for the preceding package)
 * `pkg=gn-leugim:eha-apartments-collection` (midsize European R$ apartment buildings)
+* `pkg=wannglondon:san-francisco-buildings-1` (midsize W2W R$$ buildings)
 * `pkg=mattb325:modern-villas` (set of modern R$$$ villas)
 * `pkg=aaron-graham:gracie-manor` (high-density New York W2W R$$/R$$$ building)
 
@@ -42,7 +45,9 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=gutterclub:small-caffe-nero` (small W2W CS$$)
 * `pkg=gutterclub:city-tatoo` (small W2W CS$$)
 * `pkg=gutterclub:camy-dumpling-house` (small CS$ building)
+* `pkg=aras:dh-zenit` (medium-large Polish CS$$ building)
 * `pkg=jasoncw:cecil-hotel` (highrise CS$ hotel)
+* `pkg=jasoncw:hsbc-tower` (highrise CO$$$ office building)
 * `pkg=mattb325:new-york-w2w-pack-vol01` (medium/high W2W New York buildings)
 
 ## Industrial
@@ -89,6 +94,12 @@ This list will be expanded as more packages are added to the metadata channel.
   * `pkg=mattb325:research-center`
 
 Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':target=_self').
+
+## Transit
+
+* `pkg=sfbt:modern-bus-and-tram-stops`
+* `pkg=sfbt:khiyana-bus-stops`
+* `pkg=sfbt:kenworth-commuter-stations` (5 Rail stations)
 
 ## Visuals
 

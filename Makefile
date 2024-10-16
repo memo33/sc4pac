@@ -21,7 +21,7 @@ gh-pages-no-lint:
 	rm -rf ./gh-pages/
 	$(MAKE) channel
 	cd ./sc4pac-tools/ && sbt web/fullLinkJS
-	cp -p ./sc4pac-tools/web/target/scala-3.3.0/sc4pac-web-opt/main.js ./gh-pages/channel/
+	cp -p ./sc4pac-tools/web/target/scala-3.4.2/sc4pac-web-opt/main.js ./gh-pages/channel/
 	cp -p ./sc4pac-tools/web/channel/styles.css ./sc4pac-tools/web/channel/index.html ./gh-pages/channel/
 	cp -p ./docs/index.html ./docs/*.md ./docs/.nojekyll ./gh-pages/
 
@@ -42,4 +42,11 @@ lint:
 sc4e-check-updates:
 	python .github/sc4e-check-updates.py src/yaml
 
-.PHONY: gh-pages gh-pages-no-lint channel host host-docs lint sc4e-check-updates
+# First reads in the STEX_API_KEY from a file into an environment variable and then checks for asset updates using the authenticated STEX API.
+st-check-updates:
+	set -a && source ./.git/sc4pac-stex-api-key && set +a && python .github/st-check-updates.py src/yaml
+
+st-url-check:
+	set -a && source ./.git/sc4pac-stex-api-key && set +a && sh .github/url-check.sh origin/main src/yaml
+
+.PHONY: gh-pages gh-pages-no-lint channel host host-docs lint sc4e-check-updates st-check-updates st-url-check

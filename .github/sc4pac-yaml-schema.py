@@ -10,7 +10,7 @@ import re
 # add subfolders as necessary
 subfolders = r"""
 ### [subfolders-docsify]
-050-early-mods
+050-load-first
 100-props-textures
 150-mods
 170-terrain
@@ -43,20 +43,23 @@ ignore_version_mismatches = set([
     "t-wrecks:industrial-revolution-mod-addon-set-i-d",
     "memo:industrial-revolution-mod",
     "bsc:mega-props-jrj-vol01",
+    "bsc:mega-props-diggis-canals-streams-and-ponds",
+    "bsc:mega-props-rubik3-vol01-wtc-props",
+    "bsc:mega-props-newmaninc-rivers-and-ponds",
 ])
 
-uniqueStrings = {
+unique_strings = {
     "type": "array",
     "items": {"type": "string"},
     "uniqueItems": True,
 }
 
-mapOfStrings = {
+map_of_strings = {
     "type": "object",
     "patternProperties": {".*": {"type": "string"}},
 }
 
-assetSchema = {
+asset_schema = {
     "title": "Asset",
     "type": "object",
     "additionalProperties": False,
@@ -85,13 +88,13 @@ assets = {
         "required": ["assetId"],
         "properties": {
             "assetId": {"type": "string"},
-            "include": uniqueStrings,
-            "exclude": uniqueStrings,
+            "include": unique_strings,
+            "exclude": unique_strings,
         },
     },
 }
 
-packageSchema = {
+package_schema = {
     "title": "Package",
     "type": "object",
     "additionalProperties": False,
@@ -101,7 +104,7 @@ packageSchema = {
         "name": {"type": "string"},
         "version": {"type": "string"},
         "subfolder": {"enum": subfolders},
-        "dependencies": uniqueStrings,
+        "dependencies": unique_strings,
         "assets": assets,
         "variants": {
             "type": "array",
@@ -110,15 +113,15 @@ packageSchema = {
                 "additionalProperties": False,
                 "required": ["variant"],
                 "properties": {
-                    "variant": mapOfStrings,
-                    "dependencies": uniqueStrings,
+                    "variant": map_of_strings,
+                    "dependencies": unique_strings,
                     "assets": assets,
                 },
             },
         },
         "variantDescriptions": {
             "type": "object",
-            "patternProperties": {".*": mapOfStrings},
+            "patternProperties": {".*": map_of_strings},
         },
         "info": {
             "type": "object",
@@ -129,7 +132,7 @@ packageSchema = {
                 "conflicts": {"type": "string"},
                 "description": {"type": "string"},
                 "author": {"type": "string"},
-                "images": uniqueStrings,
+                "images": unique_strings,
                 "website": {"type": "string"},
             },
         },
@@ -137,15 +140,24 @@ packageSchema = {
 }
 
 schema = {
-    "oneOf": [assetSchema, packageSchema]
+    "oneOf": [asset_schema, package_schema]
 }
+
+# if there are dependencies to packages in other channels, add those channels here
+extra_channels = [
+    # "https://memo33.github.io/sc4pac/channel/sc4pac-channel-contents.json",
+]
 
 
 class DependencyChecker:
 
-    naming_convention = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
-    naming_convention_variants = re.compile(r"[a-z0-9]+([-\.][a-z0-9]+)*", re.IGNORECASE)
+    naming_convention = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+    naming_convention_variants_value = re.compile(r"[a-z0-9]+([-\.][a-z0-9]+)*", re.IGNORECASE)
+    naming_convention_variants = re.compile(  # group:package:variant (regex groups: \1:\2:\3)
+            rf"(?:({naming_convention.pattern}):)?(?:({naming_convention.pattern}):)?([a-zA-Z0-9]+(?:[-\.][a-zA-Z0-9]+)*)")
     version_rel_pattern = re.compile(r"(.*?)(-\d+)?")
+    pronouns_pattern = re.compile(r"\b[Mm][ey]\b|(?:\bI\b(?!-|\.| [A-Z]))")
+    desc_invalid_chars_pattern = re.compile(r'\\n|\\"')
 
     def __init__(self):
         self.known_packages = set()
@@ -231,13 +243,28 @@ class DependencyChecker:
                 if not self.naming_convention_variants.fullmatch(key):
                     self.invalid_variant_names.add(key)
                 for value in variant_values:
-                    if not self.naming_convention_variants.fullmatch(value):
+                    if not self.naming_convention_variants_value.fullmatch(value):
                         self.invalid_variant_names.add(value)
 
+    def _get_channel_contents(self, channel_url):
+        import urllib.request
+        import json
+        req = urllib.request.Request(channel_url)
+        with urllib.request.urlopen(req) as data:
+            channel_contents = json.load(data)
+        return channel_contents['contents']
+
     def unknowns(self):
-        packages = sorted(self.referenced_packages.difference(self.known_packages))
-        assets = sorted(self.referenced_assets.difference(self.known_assets))
-        return {'packages': packages, 'assets': assets}
+        packages = self.referenced_packages.difference(self.known_packages)
+        assets = self.referenced_assets.difference(self.known_assets)
+        if packages or assets:
+            # some dependencies are not known, so check other channels
+            contents = [self._get_channel_contents(channel_url) for channel_url in extra_channels]
+            remote_assets = [pkg['name'] for c in contents for pkg in c if pkg['group'] == "sc4pacAsset"]
+            remote_packages = [f"{pkg['group']}:{pkg['name']}" for c in contents for pkg in c if pkg['group'] != "sc4pacAsset"]
+            packages = packages.difference(remote_packages)
+            assets = assets.difference(remote_assets)
+        return {'packages': sorted(packages), 'assets': sorted(assets)}
 
     def duplicates(self):
         return {'packages': sorted(self.duplicate_packages),
@@ -273,18 +300,18 @@ class DependencyChecker:
                         yield (pkg, v1, asset, v2)
 
 
-def validateDocumentSeparators(text) -> None:
-    needsSeparator = False
+def validate_document_separators(text) -> None:
+    needs_separator = False
     errors = 0
     for line in text.splitlines():
         if line.startswith("---"):
-            needsSeparator = False
+            needs_separator = False
         elif (line.startswith("group:") or line.startswith("\"group\":") or
               line.startswith("url:") or line.startswith("\"url\":")):
-            if needsSeparator:
+            if needs_separator:
                 errors += 1
             else:
-                needsSeparator = True
+                needs_separator = True
         elif line.startswith("..."):
             break
     if errors > 0:
@@ -302,7 +329,7 @@ def main() -> int:
     from jsonschema import exceptions
     validator = Draft202012Validator(schema)
     validator.check_schema(schema)
-    dependencyChecker = DependencyChecker()
+    dependency_checker = DependencyChecker()
     validated = 0
     errors = 0
     for d in args:
@@ -315,11 +342,11 @@ def main() -> int:
                     validated += 1
                     text = f.read()
                     try:
-                        validateDocumentSeparators(text)
+                        validate_document_separators(text)
                         for doc in yaml.safe_load_all(text):
                             if doc is None:  # empty yaml file or document
                                 continue
-                            dependencyChecker.aggregate_identifiers(doc)
+                            dependency_checker.aggregate_identifiers(doc)
                             err = exceptions.best_match(validator.iter_errors(doc))
                             msgs = [] if err is None else [err.message]
 
@@ -336,6 +363,12 @@ def main() -> int:
                                 if field is not None and field.strip().lower() == "none":
                                     msgs.append(f"""Field "{label}" should not be "{field.strip()}", but should be left out instead.""")
 
+                            desc = doc.get('info', {}).get('description')
+                            if desc is not None and dependency_checker.pronouns_pattern.search(desc):
+                                msgs.append("The description should be written in a neutral perspective (avoid the words 'I', 'me', 'my').")
+                            if desc is not None and dependency_checker.desc_invalid_chars_pattern.search(desc):
+                                msgs.append("""The description seems to be malformed (avoid the characters '\\n', '\\"').""")
+
                             if msgs:
                                 errors += 1
                                 print(f"===> {p}")
@@ -349,68 +382,68 @@ def main() -> int:
     if not errors:
         # check that all dependencies exist
         # (this check only makes sense for the self-contained main channel)
-        for label, unknown in dependencyChecker.unknowns().items():
+        for label, unknown in dependency_checker.unknowns().items():
             if unknown:
                 errors += len(unknown)
                 print(f"===> The following {label} are referenced, but not defined:")
                 for identifier in unknown:
                     print(identifier)
 
-        for label, dupes in dependencyChecker.duplicates().items():
+        for label, dupes in dependency_checker.duplicates().items():
             if dupes:
                 errors += len(dupes)
                 print(f"===> The following {label} are defined multiple times:")
                 for identifier in dupes:
                     print(identifier)
 
-        non_unique_assets = dependencyChecker.assets_with_same_url()
+        non_unique_assets = dependency_checker.assets_with_same_url()
         if non_unique_assets:
             errors += len(non_unique_assets)
             print("===> The following assets have the same URL (The same asset was defined twice with different asset IDs):")
             for assets in non_unique_assets:
                 print(', '.join(assets))
 
-        unused_assets = dependencyChecker.unused_assets()
+        unused_assets = dependency_checker.unused_assets()
         if unused_assets:
             errors += len(unused_assets)
             print("===> The following assets are not used:")
             for identifier in unused_assets:
                 print(identifier)
 
-        if dependencyChecker.overlapping_variants:
-            errors += len(dependencyChecker.overlapping_variants)
+        if dependency_checker.overlapping_variants:
+            errors += len(dependency_checker.overlapping_variants)
             print("===> The following packages have duplicate variants:")
-            for pkg in dependencyChecker.overlapping_variants:
+            for pkg in dependency_checker.overlapping_variants:
                 print(pkg)
 
-        if dependencyChecker.unexpected_variants:
-            errors += len(dependencyChecker.unexpected_variants)
+        if dependency_checker.unexpected_variants:
+            errors += len(dependency_checker.unexpected_variants)
             print("===>")
-            for pkg, key, values, expected_values in dependencyChecker.unexpected_variants:
+            for pkg, key, values, expected_values in dependency_checker.unexpected_variants:
                 print(f"{pkg} defines {key} variants {values} (expected: {expected_values})")
 
-        if dependencyChecker.invalid_asset_names:
-            errors += len(dependencyChecker.invalid_asset_names)
+        if dependency_checker.invalid_asset_names:
+            errors += len(dependency_checker.invalid_asset_names)
             print("===> the following assetIds do not match the naming convention (lowercase alphanumeric hyphenated)")
-            for identifier in dependencyChecker.invalid_asset_names:
+            for identifier in dependency_checker.invalid_asset_names:
                 print(identifier)
-        if dependencyChecker.invalid_group_names:
-            errors += len(dependencyChecker.invalid_group_names)
+        if dependency_checker.invalid_group_names:
+            errors += len(dependency_checker.invalid_group_names)
             print("===> the following group identifiers do not match the naming convention (lowercase alphanumeric hyphenated)")
-            for identifier in dependencyChecker.invalid_group_names:
+            for identifier in dependency_checker.invalid_group_names:
                 print(identifier)
-        if dependencyChecker.invalid_package_names:
-            errors += len(dependencyChecker.invalid_package_names)
+        if dependency_checker.invalid_package_names:
+            errors += len(dependency_checker.invalid_package_names)
             print("===> the following package names do not match the naming convention (lowercase alphanumeric hyphenated)")
-            for identifier in dependencyChecker.invalid_package_names:
+            for identifier in dependency_checker.invalid_package_names:
                 print(identifier)
-        if dependencyChecker.invalid_variant_names:
-            errors += len(dependencyChecker.invalid_variant_names)
+        if dependency_checker.invalid_variant_names:
+            errors += len(dependency_checker.invalid_variant_names)
             print("===> the following variant labels or values do not match the naming convention (alphanumeric hyphenated or dots)")
-            for identifier in dependencyChecker.invalid_variant_names:
+            for identifier in dependency_checker.invalid_variant_names:
                 print(identifier)
 
-        version_mismatches = list(dependencyChecker.package_asset_version_mismatches())
+        version_mismatches = list(dependency_checker.package_asset_version_mismatches())
         if version_mismatches:
             errors += len(version_mismatches)
             print("===> The versions of the following packages do not match the version of the referenced assets (usually they should agree, but if the version mismatch is intentional, the packages can be added to the ignore list in .github/sc4pac-yaml-schema.py):")

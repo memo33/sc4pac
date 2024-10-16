@@ -1,0 +1,36 @@
+group: "jasoncw"
+name: "model-discount-furniture"
+version: "1.0.0"
+subfolder: "300-commercial"
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "jasoncw-model-discount-furniture-mn"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "jasoncw-model-discount-furniture-dn"
+
+info:
+  summary: "Small furniture store"
+  description: >
+    Model Discount Furniture is based on a furniture store of the same name, in Chicago, USA.
+    It grows in the Chicago and NYC tilesets on a CS$ 1×2 lot (W2W).
+  author: "Jasoncw"
+  website: "https://community.simtropolis.com/files/file/36442-model-discount-furniture/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_09/66e1ef4968356_ModelDiscountFurniture00.jpg.52b938b35a41fdd3485a49d0f90c5415.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_09/66e1ef589ef9f_ModelDiscountFurniture01.jpg.ff85a30cf54d57dddb518bc322c0bb9c.jpg"
+
+---
+assetId: "jasoncw-model-discount-furniture-mn"
+version: "1.0.0"
+lastModified: "2024-09-11T19:29:33Z"
+url: "https://community.simtropolis.com/files/file/36442-model-discount-furniture/?do=download&r=203385"
+
+---
+assetId: "jasoncw-model-discount-furniture-dn"
+version: "1.0.0"
+lastModified: "2024-09-11T19:29:33Z"
+url: "https://community.simtropolis.com/files/file/36442-model-discount-furniture/?do=download&r=203386"

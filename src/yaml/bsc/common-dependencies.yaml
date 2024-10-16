@@ -1,17 +1,17 @@
 assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-version: "9a"
-lastModified: "2024-05-02T23:13:37Z"
+version: "9b"
+lastModified: "2024-08-21T22:51:45Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=3:sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "essentials"
-version: "2024a"
+version: "2024b"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
   include:
-  - "/BSC Essentials"
+  - "/BSC Essentials.*dat"
   - "/BSC_Reward_essential.*dat"
 info:
   summary: "BSC queries, rewards and other related files"
@@ -56,7 +56,7 @@ info:
 ---
 group: "bsc"
 name: "textures-vol03"
-version: "4"
+version: "5"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -320,7 +320,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-dae-vol01"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -783,6 +783,19 @@ info:
 
 ---
 group: "bsc"
+name: "mega-props-ydr-vol01"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+  include: [ "/BSC MEGA Props - YDR Vol01.dat" ]
+info:
+  summary: "BSC MEGA Props - YDR Vol01"
+  author: "Yoder7652"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
+
+---
+group: "bsc"
 name: "mega-props-prepo-vol01"
 version: "2"
 subfolder: "100-props-textures"
@@ -815,6 +828,19 @@ assets:
   include: [ "/BSC MEGA Props - SWI21 Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props - swi21 Vol02 by swi21"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
+
+---
+group: "bsc"
+name: "mega-props-caliban-vol01"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+  include: [ "/BSC MEGA Props - Caliban Vol01.dat" ]
+info:
+  summary: "BSC MEGA Props - Caliban Vol01"
+  author: "Caliban"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -964,7 +990,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-dbssymn-vol02"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1091,18 +1117,6 @@ assets:
   include: [ "/BSC MEGA Props - KWK Vol03.dat" ]
 info:
   summary: "BSC MEGA Props - KWK Vol03 by Kwakelaar"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
-
----
-group: "bsc"
-name: "mega-props-rubik3-vol01-wtc-props"
-version: "1-1"
-subfolder: "100-props-textures"
-assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Rubik3 Vol01 - WTC Props.dat" ]
-info:
-  summary: "BSC MEGA Props Rubik3 Vol01 - WTC Props by Rubik3"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -1375,7 +1389,7 @@ info:
 ---
 group: "bsc"
 name: "vip-girafe-carpack-vol04"
-version: "1-1"
+version: "1-2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1398,18 +1412,6 @@ assets:
 info:
   summary: "Urban props by Girafe"
   description: "Includes Grfe_Props_Pack_Wood_Fence_4m, Grfe_Props_Pack_Villa Libeskind, Grfe_Props_Pack_4_rue_des_Lilas.dat."
-  website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
-
----
-group: "bsc"
-name: "bat-props-newmaninc-rpk-vol01"
-version: "2"
-subfolder: "100-props-textures"
-assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC BATProps Newman Inc RPK Vol01 v..dat" ]
-info:
-  summary: "BSCBATPRops NewmanInc RPK Vol01 by Citynut"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
