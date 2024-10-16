@@ -4,22 +4,15 @@ version: "3"
 subfolder: "400-industrial"
 info:
   summary: "A Verizon cellular broadcast tower"
-  description: |
-    Lately your sims have been complaining about the crappy cell service in your city. Luckily, you decided to commission this new Verizon Substation in your city to boost service before the sims riot.
+  description: >
+    Lately your sims have been complaining about the crappy cell service in your city.
+    Luckily, you decided to commission this new Verizon Substation in your city to boost service before the sims riot.
 
-    This download also contains VerizonVan.dat. It adds an extra automata van that may or may not spawn when you place the lot. Personally, I have never seen it, but I am pretty sure it works - it was created by Swamper77, an authority on automata).
+    This package contains a 3x3 I-HT growable and ploppable lot.
 
-    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot. He graciously handed his work over to me to finish and subsequently upload for yall.
-
-    3x3 IHT Plop & Grow
-        Growth Stage : 2
-        45 IHT Jobs
-        Plop Cost : $25000
-        Bulldoze Cost : $2500
-        Power Consumed : 9
-        Water Consumed : 7
-        Flammability : 45
-  author: "Bobbo662, nos.17"
+    Additionally, this package adds a Verizon Van as automata that may or may not spawn when you place the lot.
+    It was created by Swamper77, an authority on automata.
+  author: "Bobbo662, nos.17, Swamper77"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/verizon-1.png.b45a2cfcfe32246e5bebaa12b303177a.png"
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/verizon-2.png.61a544f5c9a9fb97a2edbd91871b05ca.png"
@@ -32,7 +25,7 @@ dependencies:
 - "shk:parking-pack"
 - "bsc:mega-props-cp-vol02"
 - "supershk:mega-parking-textures"
-- "takemethere:mount-royal-transmission-tower"
+# - "takemethere:mount-royal-transmission-tower"  # not needed, as asset is extracted directly below
 assets:
 - assetId: "b62-verizon-substation"
 - assetId: "takemethere-mount-royal-transmission-tower"

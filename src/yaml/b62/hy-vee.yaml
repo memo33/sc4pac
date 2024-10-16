@@ -4,20 +4,13 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable supermarket"
-  description: |
-    Hy Vee was founded by Charles Hyde and David Vredenburg when they opened a general store in Beaconsfield, Iowa, in 1930. Hy-Vee Inc. employs over 60,000 individuals and is the largest employer in the state of Iowa. The company has annual sales of over $7.3 billion. In 2011, Hy-Vee ranked 48th on Forbes magazine's annual list of the largest privately owned companies in the United States.
+  description: >
+    Hy Vee was founded by Charles Hyde and David Vredenburg when they opened a general store in Beaconsfield, Iowa, in 1930.
+    Hy-Vee Inc. employs over 60,000 individuals and is the largest employer in the state of Iowa.
+    The company has annual sales of over $7.3 billion.
+    In 2011, Hy-Vee ranked 48th on Forbes magazine's annual list of the largest privately owned companies in the United States.
 
-    This beautiful BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot and so this was just sitting around on his hard drive. After talking to him, he graciously handed his work over to me to finish and subsequently upload for yall.
-
-    6x8 LM Plop, CS$ Grow
-         80 CS$ Jobs
-         Plop Cost : $55000
-         Bulldoze Cost : $5500
-         Power Consumed : 15
-         Water Consumed : 176
-         Garbage Pollution : 16 over 2 tiles
-         Air/Water Pollution : Nominal
-         Flammability : 32
+    This package contains a 6x8 CS$ growable and ploppable lot.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/hyvee-1.png.46c5a585a6dd7823290fb3e018cd05d2.png"

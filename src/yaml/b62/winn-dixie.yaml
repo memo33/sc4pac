@@ -4,20 +4,12 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable grocery store"
-  description: |
-    Winn-Dixie Stores, Inc. is a subsidiary of Southeastern Grocers, which is the fifth-largest conventional supermarket in the United States based on store count. Founded in 1925, Winn-Dixie employs more than 72,000 associates who serve customers in 790 grocery stores and 527 in-store pharmacies throughout the five southeastern states of Alabama, Florida, Georgia, Louisiana, and Mississippi.
+  description: >
+    Winn-Dixie Stores, Inc. is a subsidiary of Southeastern Grocers, which is the fifth-largest conventional supermarket in the United States based on store count.
+    Founded in 1925, Winn-Dixie employs more than 72,000 associates who serve customers in 790 grocery stores and 527 in-store pharmacies
+    throughout the five southeastern states of Alabama, Florida, Georgia, Louisiana, and Mississippi.
 
-    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot. He graciously handed his work over to me to finish and subsequently upload for yall.
-
-    7x6 Plop & Grow CS$
-         1124 CS$ Jobs
-         Growth stage : 2
-         Plop Cost : $25000
-         Bulldoze Cost : $2500
-         Power Consumed : 25
-         Water Consumed : 150
-         Garbage Pollution : 24 over 4 tiles
-         Flammability : 55
+    This package contains a 7x6 CS$ growable and ploppable lot.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/winn-dixie-1.png.076ac1a2ed22b39e8c4bc5c11d7ebde2.png"

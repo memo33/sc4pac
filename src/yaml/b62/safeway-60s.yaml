@@ -4,23 +4,14 @@ version: "1"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable supermarket"
-  description: |
-    In 1915, Marion Barton Skaggs purchased his father's 576-square-foot (53.5 m2) grocery store in American Falls, Idaho, for 1,089. By 1926, he had opened 428 Skaggs stores in 10 states. In the 1930s Safeway introduced produce pricing by the pound, adding “sell by” dates on perishables to assure freshness, nutritional labeling, even some of the first parking lots. Today, Safeway rakes in annual sales of an estimated sales $41 billion. After merging with the Albertson's supermarket chain, it employs over 250,000 people at more than 2,200 stores, making it the second largest supermarket chain in North America and the 11th largest retailer in the United States.
+  description: >
+    In 1915, Marion Barton Skaggs purchased his father's 576-square-foot (53.5 m2) grocery store in American Falls, Idaho, for 1,089.
+    By 1926, he had opened 428 Skaggs stores in 10 states.
+    In the 1930s Safeway introduced produce pricing by the pound, adding “sell by” dates on perishables to assure freshness, nutritional labeling, even some of the first parking lots.
+    Today, Safeway rakes in annual sales of an estimated sales $41 billion.
+    After merging with the Albertson's supermarket chain, it employs over 250,000 people at more than 2,200 stores, making it the second largest supermarket chain in North America and the 11th largest retailer in the United States.
 
-    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot. He graciously handed his work over to me to finish and subsequently upload for yall.
-
-    6x6 Plopable CS$ + 6x6 Growable CS$
-         981 CS$, 247 CS$
-         Growth Stage : 2
-         Plop Cost : $13000
-         Bulldoze Cost : $1300
-         Power Consumed : 32
-         Water Consumed : 380
-         Air Pollution : 19 over 5 tiles
-         Garbage Pollution : 19 over 0 tiles
-         Water/Radiation Pollution : Minimal
-         Flammability : 40
-
+    This package contains a 6x6 CS$ growable and ploppable lot.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/safeway-60s-1.png.8f0d983e92b6f8fab282a1779a5c57d9.png"

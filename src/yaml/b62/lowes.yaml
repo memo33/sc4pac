@@ -4,21 +4,13 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable home improvement and hardware store"
-  description: |
-    Lowe's Companies, Inc. is an American company that operates a chain of retail home improvement and appliance store. Founded in 1946 in North Wilkesboro, North Carolina, the chain has 1,840 stores in the United States, Canada, and Mexico. Lowe's is the second-largest hardware chain in the United States behind The Home Depot and ahead of Menards. Globally, Lowe's is also the second-largest hardware chain, again behind The Home Depot but ahead of the European stores B&Q and OBI.
+  description: >
+    Lowe's Companies, Inc. is an American company that operates a chain of retail home improvement and appliance store.
+    Founded in 1946 in North Wilkesboro, North Carolina, the chain has 1,840 stores in the United States, Canada, and Mexico.
+    Lowe's is the second-largest hardware chain in the United States behind The Home Depot and ahead of Menards.
+    Globally, Lowe's is also the second-largest hardware chain, again behind The Home Depot but ahead of the European stores B&Q and OBI.
 
-    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot and was just sitting around on his hard drive. After talking with him, he graciously handed his work over to me to finish and subsequently upload for yall.
-
-    Lowes Home Improvement: 12x12 CS$ Plop & Grow
-         Jobs : 2968 CS$, 744 CS$
-         Plop Cost : $65000
-         Bulldoze Cost : $6500
-         Power Consumed : 60
-         Water Consumed : 716
-         Air Pollution : 37 over 5 tiles
-         Water Pollution : 18 over 6 tiles
-         Garbage Pollution : 37 over 0 tiles
-         Flammability : 40
+    This package contains a 12x12 CS$ growable and ploppable lot.
   author: "Bobbo662, nos.17"
   images:
   - "http://nos17.weebly.com/uploads/2/6/0/3/26032074/a1_2_orig.png"
@@ -47,20 +39,12 @@ subfolder: "400-industrial"
 info:
   summary: "Ploppable and growable industrial distribtion warehouse"
   description: >
-    Lowe's Companies, Inc. is an American company that operates a chain of retail home improvement and appliance store. Founded in 1946 in North Wilkesboro, North Carolina, the chain has 1,840 stores in the United States, Canada, and Mexico. Lowe's is the second-largest hardware chain in the United States behind The Home Depot and ahead of Menards. Globally, Lowe's is also the second-largest hardware chain, again behind The Home Depot but ahead of the European stores B&Q and OBI.
+    Lowe's Companies, Inc. is an American company that operates a chain of retail home improvement and appliance store.
+    Founded in 1946 in North Wilkesboro, North Carolina, the chain has 1,840 stores in the United States, Canada, and Mexico.
+    Lowe's is the second-largest hardware chain in the United States behind The Home Depot and ahead of Menards.
+    Globally, Lowe's is also the second-largest hardware chain, again behind The Home Depot but ahead of the European stores B&Q and OBI.
 
-    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot and was just sitting around on his hard drive. After talking with him, he graciously handed his work over to me to finish and subsequently upload for yall.
-
-    Lowes Distribution Center: 13x11 IM Plop & Grow
-         Jobs : 808 IM
-         Plop Cost : $55000
-         Bulldoze Cost : $5500
-         Power Consumed : 39
-         Water Consumed : 572
-         Air Pollution : 38 over 9 tiles
-         Water Pollution : 25 over 13 tiles
-         Garbage Pollution : Minimal
-         Flammability : 70
+    This package contains a 13x11 I-M growable and ploppable lot.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/lowes-wh-0.png.8fbeebc5acfd7daa6d15d951e6251be3.png"

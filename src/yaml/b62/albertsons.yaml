@@ -5,22 +5,11 @@ subfolder: "300-commercial"
 info:
   summary: "A retro grocery store presented as a CS$ and Landmark"
   website: "https://community.simtropolis.com/files/file/29961-b62-remastered-albertsons-60s-retro-grocery/"
-  description: |
+  description: >
     Albertsons LLC is an American grocery company founded and based in Boise, Idaho in 1939. It is the second largest supermarket chain in North America after The Kroger Company.
 
-    This beautiful BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot and so this was just sitting around on his hard drive. After talking with him, he graciously handed his work over to me to finish and subsequently upload for yall.
-
-    This lot utilizes the timed props contained in SHK parking pack. These items may take a day or so to appear.
-    ------- Stats: -------
-    6x6 Landmark / 6x6 Growable Stage 1
-         751 CS$ Jobs
-         Plop Cost : $16500
-         Bulldoze Cost : $1650
-         Air Pollution : 0
-         Water Pollution : 5 over 6 tiles
-         Garbage Pollution : 22 over 3 tiles
-         Flammability : 45
-
+    This package contains a 6x6 CS$ growable and ploppable lot.
+    It utilizes the timed props contained in SHK parking pack. These items may take a day or so to appear.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/albertsons-1.png.0e04fdbc77eef773f8cb8cd8934ecef7.png"

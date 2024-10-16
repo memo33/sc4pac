@@ -4,21 +4,10 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "BJ's Wholesale Grocery"
-  description: |
+  description: >
     BJ's was started by discount department store chain Zayre in 1984. The company's name was derived from the initials of Beverly Jean Weich, the daughter of Mervyn Weich, the president of the new company. As of November 6, 2013, BJ's operated 200 BJ's clubs in fifteen states and employed approximately 25,000 team members (both full- and part-time). Its major competitors are Costco Wholesale and Walmart's version of a warehouse club concept, Sam's Club.
 
-    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot. He graciously handed his work over to me to finish and subsequently upload for yall.
-
-    8x8 CS$ Plop, 8x8 CS$ Grow
-         Jobs : 1399 CS$
-         Plop Cost : $40000
-         Bulldoze Cost : $4000
-         Power Consumed : 26
-         Water Consumed : 256
-         Air/Water Pollution : Negligible
-         Garbage Pollution : 38 over 6
-         Flamability : 45
-         Growth Stage : 1
+    This package contains an 8x8 CS$ growable and ploppable lot.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/bjs-1.png.0482d8d8b1bca72ff8199a029004ddff.png"

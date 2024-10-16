@@ -4,21 +4,14 @@ version: "1"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable grocery chain"
-  description: |
-    William Zimmerman founded Pic 'N' Save Corporation in 1950 in Culver City, California. By 1985, it operated 90 stores in California and six other Western U.S. states. In 1991, the company changed its name to MacFrugals. It later expanded to the Southwest and the South and left both markets in the late 1990s. In 2002, Big Lots bought out the remaining 'MacFrugals' stores for $995 million in stock and converted them into the Big Lots brand.
+  description: >
+    William Zimmerman founded Pic 'N' Save Corporation in 1950 in Culver City, California.
+    By 1985, it operated 90 stores in California and six other Western U.S. states.
+    In 1991, the company changed its name to MacFrugals.
+    It later expanded to the Southwest and the South and left both markets in the late 1990s.
+    In 2002, Big Lots bought out the remaining 'MacFrugals' stores for $995 million in stock and converted them into the Big Lots brand.
 
-    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot. He graciously handed his work over to me to finish and subsequently upload for yall.
-
-    6x8 CS$ Plop, 6x8 CS$ Grow
-         Jobs : 1477 CS$
-         Growth Stage : 2
-         Plop Cost : $32000
-         Bulldoze Cost : $3200
-         Power Consumed : 30
-         Water Consumed : 297
-         Air/Water Pollution : Negligible
-         Garbage Pollution : 44 over 0 tiles
-         Flammability : 45
+    This package contains a 6x8 CS$ growable and ploppable lot.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/pick-n-save-1.png.2e099b207df3eee44174345dbd9daf90.png"

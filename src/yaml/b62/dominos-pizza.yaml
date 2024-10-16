@@ -4,20 +4,12 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable pizza chain"
-  description: |
-    Domino's Pizza is an American restaurant chain and international franchise pizza delivery corporation. Founded in 1960, Domino's is the second-largest pizza chain in the United States (after Pizza Hut) and the largest worldwide, with more than 10,000 corporate and franchised stores in 70 countries.
+  description: >
+    Domino's Pizza is an American restaurant chain and international franchise pizza delivery corporation.
+    Founded in 1960, Domino's is the second-largest pizza chain in the United States (after Pizza Hut) and the largest worldwide,
+    with more than 10,000 corporate and franchised stores in 70 countries.
 
-    This beautiful BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot and so this was just sitting around on his hard drive. After talking with him, he graciously handed his work over to me to finish and subsequently upload for yall.
-
-    2x2 Grow CS$
-         20 CS$ Jobs
-         Growth stage : 2
-         Plop Cost : $2700
-         Bulldoze Cost : $350
-         Power Consumed : 3
-         Water Consumed : 2
-         Garbage Pollution : 3 over 2 tiles
-         Flammability : 50
+    This package contains a 2x2 CS$ growable and ploppable lot.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/dominos-1.png.4f129faf65bb821b56f3f5d8e263c1d8.png"

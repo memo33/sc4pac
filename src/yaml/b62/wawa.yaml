@@ -5,28 +5,17 @@ subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable gas station with adjacent car show lot"
   description: |
-    'Wawa' is a Lenni Lenape Indian word for the Canada Goose that was found in the Delaware Valley, hence it's use in the logo. Wawa offers a large fresh food selection, including built-to-Order Hoagies, fresh-brewed coffee, quality dairy products and Wawa brand juices and teas. All Wawa stores also feature a wide selection of ready-to-go salads, fresh fruits and produce.
+    'Wawa' is a Lenni Lenape Indian word for the Canada Goose that was found in the Delaware Valley, hence it's use in the logo.
+    Wawa offers a large fresh food selection, including built-to-Order Hoagies, fresh-brewed coffee, quality dairy products and Wawa brand juices and teas.
+    All Wawa stores also feature a wide selection of ready-to-go salads, fresh fruits and produce.
 
-    This download also includes a Car Show to include in your cities. A feature originally suggested by member Hotwheeler, the Car Show will provide a moderate YIMBY effect for your cities. While it looks best placed next to the Wawa Gas Station (as in the picture), it can also be plopped anywhere on its own.
+    This download also includes a Car Show to include in your cities.
+    A feature originally suggested by member Hotwheeler, the Car Show will provide a moderate YIMBY effect for your cities.
+    While it looks best placed next to the Wawa Gas Station, it can also be plopped anywhere on its own.
 
-    This BAT was originally created by Bobbo662 (aka B62). Unfortunately, due to real life circumstances, he was unable to finish the lot. He graciously handed his work over to me to finish and subsequently upload for yall.
+    The Gas Station comes as a 4x4 CS$ growable and ploppable lot.
 
-    Gas Station:
-        4x4 Plop & Grow CS$
-        87 CS$ Jobs, 24 CS$ Jobs
-        Growth stage : 1
-        Plop Cost : $17500
-        Bulldoze Cost : $1750
-        Pollution : Minimal
-        Flammability : 65
-
-    Car Show:
-        6x4 LM Plop (No Jobs)
-        Plop Cost: $50,000
-        Bulldoze Cost: $5,000
-        Monthly Income : $125
-        No pollution
-        Provides YIMBY Effect: 40 over 20 tiles
+    The Car Show is a 6x4 ploppable landmark without jobs.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/wawa-1.png.28473c6b1416566d94bd701745097e0e.png"

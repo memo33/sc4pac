@@ -4,22 +4,13 @@ version: "1"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable chicken restaurant"
-  description: |
-    Zaxby's is a franchised chain of fast casual restaurants that operates in the southeastern United States. In this chain there are about 350 locations. Its menu is built around high quality buffalo wings and chicken fingers, including them on platters, in sandwiches, and on salads. The first Zaxby's was opened in Statesboro, Georgia.
+  description: >
+    Zaxby's is a franchised chain of fast casual restaurants that operates in the southeastern United States.
+    In this chain there are about 350 locations.
+    Its menu is built around high quality buffalo wings and chicken fingers, including them on platters, in sandwiches, and on salads.
+    The first Zaxby's was opened in Statesboro, Georgia.
 
-    -Growable and Ploppable Stats-
-    Lot Size 3x4 Tiles
-    Lot Wealth Medium Wealth
-    Growth Stage 1
-    Occupants  Cs$ Cs$
-    Occupant Groups Building:Commercial Commercial Building:CS$ Style:Chicago Style:New York  Style:Houston Style: Euro
-    Capacity Satisfied Cs-$ 197 Cs-$ 7
-    Plop Cost  §1120
-    Bulldoze cost §135
-    Flammability 40
-    Max Fire Stage 3
-    Power Consumed 31
-    Water Consumed 38
+    This package contains a 3x4 CS$ growable and ploppable lot.
   author: "MarcosMX"
   images:
   - "https://www.simtropolis.com/objects/screens/0004/19efb8e559a646b3468dd4a9633d31c1-Stexpicday2.jpg"

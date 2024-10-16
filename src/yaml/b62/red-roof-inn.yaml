@@ -4,21 +4,13 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable motel"
-  description: |
-    Red Roof Inn was incorporated by founder James R. Trueman in 1972. The Inn first opened in Columbus, Ohio with a single room rate of $8.50 USD in 1973. Today, Red Roof Inn has more than 325 locations, serves millions of guests each year and employs over 6,000 people. The majority of Red Roof Inns locations are located in the Midwest, East and the South, and boast on high customer awareness and outstanding brand image in the economy hotel market.
+  description: >
+    Red Roof Inn was incorporated by founder James R. Trueman in 1972.
+    The Inn first opened in Columbus, Ohio with a single room rate of $8.50 USD in 1973.
+    Today, Red Roof Inn has more than 325 locations, serves millions of guests each year and employs over 6,000 people.
+    The majority of Red Roof Inns locations are located in the Midwest, East and the South, and boast on high customer awareness and outstanding brand image in the economy hotel market.
 
-    This BAT was originally created by Bobbo662 (aka B62). I am revisiting one of the few gems he has ever uploaded.
-
-    6x6 CS$ Plop, 6x6 CS$ Grow
-         Growth Stage : 2
-         Jobs : 616 CS$
-         Plop Cost : $65000
-         Bulldoze Cost : $6500
-         Power Consumed : 13
-         Water Consumed : 125
-         Air/Water Pollution : Negligible
-         Garbage Pollution : 18 over 2 tiles
-         Flammability : 45
+    This package contains a 6x6 CS$ ploppable and growable lot.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/red-roof-1.png.bfb3ee570951b4576a4df7df705236a8.png"
