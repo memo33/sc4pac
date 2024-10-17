@@ -25,6 +25,7 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=kingofsimcity:maxis-mansion-overhaul-extension-set` (addon for the preceding package)
 * `pkg=gn-leugim:eha-apartments-collection` (midsize European R$ apartment buildings)
 * `pkg=wannglondon:san-francisco-buildings-1` (midsize W2W R$$ buildings)
+* `pkg=wannglondon:american-rowhomes-1` (midsize W2W R$$ buildings)
 * `pkg=mattb325:modern-villas` (set of modern R$$$ villas)
 * `pkg=aaron-graham:gracie-manor` (high-density New York W2W R$$/R$$$ building)
 
