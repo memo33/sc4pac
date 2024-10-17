@@ -29,7 +29,9 @@ jobs:
       with:
         # ref: "${{ github.event.pull_request.merge_commit_sha }}"
         # As merge_commit_sha is not up-to-date due to mergeability check, we use actual PR head for now; see https://github.com/actions/checkout/issues/518#issuecomment-1757453837
-        ref: ${{ github.event.pull_request.head.sha }}
+        # ref: ${{ github.event.pull_request.head.sha }}
+        # (This merge might correspond to a newer commit than the one that triggered this workflow, in case the PR was updated in the meantime -> ok)
+        ref: ${{ format('refs/pull/{0}/merge', github.event.pull_request.number) }}
         path: tmp
         sparse-checkout: |
           src/yaml
@@ -64,7 +66,9 @@ jobs:
       with:
         # ref: "${{ github.event.pull_request.merge_commit_sha }}"
         # As merge_commit_sha is not up-to-date due to mergeability check, we use actual PR head for now; see https://github.com/actions/checkout/issues/518#issuecomment-1757453837
-        ref: ${{ github.event.pull_request.head.sha }}
+        # ref: ${{ github.event.pull_request.head.sha }}
+        # (This merge might correspond to a newer commit than the one that triggered this workflow, in case the PR was updated in the meantime -> ok)
+        ref: ${{ format('refs/pull/{0}/merge', github.event.pull_request.number) }}
         path: tmp
         sparse-checkout: |
           src/yaml
