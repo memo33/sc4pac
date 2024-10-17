@@ -8,7 +8,7 @@ assets:
   - "/SFBT/"
 
 variants:
-- variant: { "SFBT.tree-family" : "CP-deciduous-trees" }
+- variant: { "sfbt:essentials:tree-family" : "CP-deciduous-trees" }
   dependencies:
   - "bsc:mega-props-cp-vol01"
   - "cycledogg:tree-models-part-one-and-two"
@@ -17,7 +17,7 @@ variants:
   - assetId: "sfbt-essentials"
     include: [ "/SFBT_CP_Street_Deciduous_Trees.dat" ]
 
-- variant: { "SFBT.tree-family" : "CP-ponderosa-pines" }
+- variant: { "sfbt:essentials:tree-family" : "CP-ponderosa-pines" }
   dependencies:
   - "bsc:mega-props-cp-vol01"
   - "cycledogg:tree-models-part-one-and-two"
@@ -26,7 +26,7 @@ variants:
   - assetId: "sfbt-essentials"
     include: [ "/SFBT_CP_Street_Ponderosa_Pines.dat" ]
 
-- variant: { "SFBT.tree-family" : "CP-shore-pinyon-pines" }
+- variant: { "sfbt:essentials:tree-family" : "CP-shore-pinyon-pines" }
   dependencies:
   - "bsc:mega-props-cp-vol01"
   - "cycledogg:tree-models-part-one-and-two"
@@ -35,7 +35,7 @@ variants:
   - assetId: "sfbt-essentials"
     include: [ "/SFBT_CP_Street_Shore_Pinyon_Pines.dat" ]
 
-- variant: { "SFBT.tree-family" : "PEG-pines" }
+- variant: { "sfbt:essentials:tree-family" : "PEG-pines" }
   dependencies:
   - "bsc:mega-props-cp-vol01"
   - "cycledogg:tree-models-part-one-and-two"
@@ -44,23 +44,23 @@ variants:
   - assetId: "sfbt-essentials"
     include: [ "/SFBT_PEG_Street_Pines.dat" ]
 
-- variant: { "SFBT.tree-family" : "Maxis-deciduous-trees" }
+- variant: { "sfbt:essentials:tree-family" : "Maxis-deciduous-trees" }
   assets:
   - assetId: "sfbt-essentials"
     include: [ "/SFBT_Maxis_Street_Deciduous_Trees.dat" ]
 
-- variant: { "SFBT.tree-family" : "Maxis-palm-trees" }
+- variant: { "sfbt:essentials:tree-family" : "Maxis-palm-trees" }
   assets:
   - assetId: "sfbt-essentials"
     include: [ "/SFBT_Maxis_Street_Palm_Trees.dat" ]
 
-- variant: { "SFBT.tree-family" : "Maxis-pine-trees" }
+- variant: { "sfbt:essentials:tree-family" : "Maxis-pine-trees" }
   assets:
   - assetId: "sfbt-essentials"
     include: [ "/SFBT_Maxis_Street_Pine_Trees.dat" ]
 
 variantDescriptions:
-  SFBT.tree-family:
+  sfbt:essentials:tree-family:
     CP-deciduous-trees: mix of various deciduous trees by Cycledogg (recommended for use with custom tree controllers)
     CP-ponderosa-pines: various ponderosa pines by Cycledogg
     CP-shore-pinyon-pines: various shore and pinyon pines by Cycledogg

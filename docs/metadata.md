@@ -318,15 +318,15 @@ For example, many packages have MaxisNite/DarkNite variants, only one of which s
 The first time a package with a new variant is installed, the user is prompted to choose.
 
 Variants can be defined globally for the entire Plugins folder (e.g. `nightmode`, `driveside`, `roadstyle`, `CAM`),
-or locally on a per-package basis (e.g. `USL.light-color`).
+or locally on a per-package basis (e.g. `kodlovag:uniform-street-lighting-mod:light-color`).
 
 Recommendations:
 - Keep the number of variants small.
   Only add a variant if really necessary, but otherwise consider picking a default
   that works for everyone instead of adding another variant.
-- Variant names and values should be alphanumeric hyphenated.
-  Per-package variants should use a prefix ending in `.` that makes it clear which package it belongs to
-  (for example, `USL.light-color` belongs to `pkg=kodlovag:uniform-street-lighting-mod`).
+- Variant names and values should be alphanumeric with hyphens or dots.
+  Per-package variants should use a prefix composed of the package identifier `group:package:variant`
+  (for example, `kodlovag:uniform-street-lighting-mod:light-color` belongs to `pkg=kodlovag:uniform-street-lighting-mod`).
 - If there is a recommended variant, put it first or clearly describe it in order to make it easy to choose.
 
 Let us continue with our Hogwarts example and add nightmode variants.

@@ -21,7 +21,7 @@ info:
     Alternatively you can choose one of the non-seasonal variants: summer, fall or winter.
     With such a variant, the trees will always look the same, regardless of the in-game time.
     This is useful if you don't want the trees to change color while playing, but occasionally want to take screenshots in fall or winter mode.
-    In this case, use `sc4pac variant reset CETC.mode` and then run `sc4pac update` again.
+    In this case, use `sc4pac variant reset 11241036:central-european-tree-controller:mode` and then run `sc4pac update` again.
   author: "11241036"
   website: https://community.simtropolis.com/files/file/31419-central-european-tree-controller/
 
@@ -44,25 +44,25 @@ dependencies:
   - girafe:bushes
 
 variants:
-  - variant: { CETC.mode: seasonal }
+  - variant: { 11241036:central-european-tree-controller:mode: seasonal }
     assets:
       - assetId: "11241036-central-european-tree-controller"
         include:
           - Central European Tree Controller_Seasonal v1_03.dat
           - Maxis TC Disabler.dat
-  - variant: { CETC.mode: summer }
+  - variant: { 11241036:central-european-tree-controller:mode: summer }
     assets:
       - assetId: "11241036-central-european-tree-controller"
         include:
           - Central European Tree Controller_Evergreen SUMMER v1_03.dat
           - Maxis TC Disabler.dat
-  - variant: { CETC.mode: fall }
+  - variant: { 11241036:central-european-tree-controller:mode: fall }
     assets:
       - assetId: "11241036-central-european-tree-controller"
         include:
           - Central European Tree Controller_Evergreen FALL v1_03.dat
           - Maxis TC Disabler.dat
-  - variant: { CETC.mode: winter }
+  - variant: { 11241036:central-european-tree-controller:mode: winter }
     assets:
       - assetId: "11241036-central-european-tree-controller"
         include:
@@ -70,7 +70,7 @@ variants:
           - Maxis TC Disabler.dat
 
 variantDescriptions:
-  CETC.mode:
+  11241036:central-european-tree-controller:mode:
     seasonal: trees changing appearance throughout the year
     summer: evergreen trees
     fall: fall foliage for the entire year

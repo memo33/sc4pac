@@ -17,7 +17,7 @@ info:
   website: "https://community.simtropolis.com/files/file/35420-network-addon-mod-tunnel-and-slope-mod/"
 
 variantDescriptions:
-  nam-slope-mod.difficulty:
+  nam-team:tunnel-and-slope-mod:difficulty:
     "maxis": "default slopes"
     "very-easy": "very steep"
     "easy": "steep"
@@ -27,43 +27,43 @@ variantDescriptions:
     "realistic": "very flat with curvature"
 
 variants:
-- variant: {nam-slope-mod.difficulty: "maxis"}
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "maxis"}
   assets:
   - assetId: "nam-tunnel-and-slope-mod"
     include:
     - "/NetworkAddonMod_Tunnel&SlopeMod_00_MaxisDefault.dat"
 
-- variant: {nam-slope-mod.difficulty: "very-easy"}
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "very-easy"}
   assets:
   - assetId: "nam-tunnel-and-slope-mod"
     include:
     - "/NetworkAddonMod_Tunnel&SlopeMod_01_VeryEasy_VerySteep.dat"
 
-- variant: {nam-slope-mod.difficulty: "easy"}
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "easy"}
   assets:
   - assetId: "nam-tunnel-and-slope-mod"
     include:
     - "/NetworkAddonMod_Tunnel&SlopeMod_02_Easy_Steep.dat"
 
-- variant: {nam-slope-mod.difficulty: "moderate-vanilla"}
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "moderate-vanilla"}
   assets:
   - assetId: "nam-tunnel-and-slope-mod"
     include:
     - "/NetworkAddonMod_Tunnel&SlopeMod_03a_Moderate_Vanilla.dat"
 
-- variant: {nam-slope-mod.difficulty: "moderate-nam"}
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "moderate-nam"}
   assets:
   - assetId: "nam-tunnel-and-slope-mod"
     include:
     - "/NetworkAddonMod_Tunnel&SlopeMod_03b_Moderate_NAM.dat"
 
-- variant: {nam-slope-mod.difficulty: "strict"}
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "strict"}
   assets:
   - assetId: "nam-tunnel-and-slope-mod"
     include:
     - "/NetworkAddonMod_Tunnel&SlopeMod_04_Strict_Flat.dat"
 
-- variant: {nam-slope-mod.difficulty: "realistic"}
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "realistic"}
   assets:
   - assetId: "nam-tunnel-and-slope-mod"
     include:
