@@ -1,0 +1,28 @@
+group: "wannglondon"
+name: "american-rowhomes-1"
+version: "1.0.0"
+subfolder: "200-residential"
+assets:
+- assetId: "wannglondon-american-rowhomes-1"
+variants:
+- variant: { nightmode: "standard" }
+- variant: { nightmode: "dark" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+
+info:
+  summary: "pack of midsize W2W buildings (R$$/R$$$)"
+  description: >
+    Included is a set of 6 styles of american townhomes that are based on the pretty rowhomes found in Chicago, New York, and Philadelphia.
+
+    They grow as medium & high wealth residential 1x2 W2W lots.
+  author: "WannGLondon"
+  website: "https://community.simtropolis.com/files/file/36505-american-rowhomes-pack-1/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_10/One.jpg.a3f46c4df2a583042111a84b37ead649.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_10/Two.jpg.437fbb67e3ba9f4fc6cc688fe93bbfb6.jpg"
+
+---
+assetId: "wannglondon-american-rowhomes-1"
+version: "1.0.0"
+lastModified: "2024-08-09T16:37:54Z"
+url: "https://community.simtropolis.com/files/file/36505-american-rowhomes-pack-1/?do=download"
