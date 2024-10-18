@@ -18,6 +18,26 @@ info:
   website: "https://community.simtropolis.com/files/file/16614-blam-zaxbys/"
 assets:
 - assetId: "blam-zaxbys"
+  exclude:
+  - "\\.SC4Model$"
+dependencies:
+- "blam:zaxbys-model"
+
+---
+group: "blam"
+name: "zaxbys-model"
+version: "1"
+subfolder: "100-props-textures"
+info:
+  summary: "Model file for the chicken restaurant"
+  description: >
+    This package only contains the model file for use as a dependency.
+  author: "MarcosMX"
+  website: "https://community.simtropolis.com/files/file/16614-blam-zaxbys/"
+assets:
+- assetId: "blam-zaxbys"
+  include:
+  - "\\.SC4Model$"
 
 ---
 url: "https://community.simtropolis.com/files/file/16614-blam-zaxbys/?do=download"

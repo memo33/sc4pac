@@ -5,10 +5,17 @@ subfolder: "300-commercial"
 info:
   summary: "Ploppable Sears superstore and shopping center"
   description: >
-    Sears Grand is a one-stop home and family solution center that delivers a mix of quality products such as Sears' proprietary and national brands that no other store provides. Everything busy people need to maintain their family on-the-go can conveniently be found here under one roof. Bigger than Wal-Mart Supercenters, Sears Grand help customers navigate through their spacious 165,000 to 210,000 square foot stores easily. Sears Grand is a one-level store that carries everything from milk to refrigerators, bathing suits to sun block and car seats to baby food - they also are the only store to carry their Craftsman, and Kenmore products. Shoppers will also find an array of convenient services at Sears Grand including: auto center, custom paint mixing, window blind cutting and key cutting.
-    
-    This package contains two variants: one with Diggis ponds (three ploppable CS$ lots: 16x13, 19x9, 3x13) and one without (two ploppable CS$ lots: 14x13, 16x9).
-    
+    Sears Grand is a one-stop home and family solution center that delivers a mix of quality products
+    such as Sears' proprietary and national brands that no other store provides.
+    Everything busy people need to maintain their family on-the-go can conveniently be found here under one roof.
+    Bigger than Wal-Mart Supercenters, Sears Grand help customers navigate through their spacious 165,000 to 210,000 square foot stores easily.
+    Sears Grand is a one-level store that carries everything from milk to refrigerators, bathing suits to sun block and car seats to baby food -
+    they also are the only store to carry their Craftsman, and Kenmore products.
+    Shoppers will also find an array of convenient services at Sears Grand including:
+    auto center, custom paint mixing, window blind cutting and key cutting.
+
+    This package contains two variants: one with Diggis ponds (three ploppable CS$/CS$$ lots: 16x13, 19x9, 3x13) and one without (two ploppable CS$$ lots: 14x13, 16x9).
+    The lots must be placed side-by-side to form a seamless big megalot.
   author: "Bobbo662, nos.17"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_08/sears-grand-4.png.cf4c540f9cd0f2ea026cb809f0605da4.png"
@@ -36,8 +43,7 @@ dependencies:
 - "girafe:lupins"
 - "girafe:maples-v2"
 - "girafe:rowan-trees"
-- "blam:zaxbys"
-- "bsc:mega-props-kevdan25-vol01"
+- "blam:zaxbys-model"
 variants:
 - variant:
     b62:sears-grand:style: "no-pond"
@@ -54,6 +60,7 @@ variants:
     - "/KEEP ONE ... Diggis Version/"
     - "/B62-SearsGrand/B62-SearsGrand/"
   dependencies:
+  - "bsc:mega-props-kevdan25-vol01"
   - "bsc:mega-props-diggis-canals-streams-and-ponds"
 
 ---
