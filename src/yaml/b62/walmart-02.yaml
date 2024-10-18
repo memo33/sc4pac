@@ -1,0 +1,36 @@
+group: "b62"
+name: "walmart-supercenter-02"
+version: "1"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable Walmart supercenter"
+  description: >
+    Many trace discount retailing's birth to 1962, the first year of operation for Kmart, Target and Wal-Mart.
+    Sam Walton and his wife, Helen, put up 95 percent of the money for the first Wal-Mart store in Rogers, Arkansas -
+    borrowing heavily on Sam's vision that the American consumer was hinting to a different type of general store.
+    As of today, Sam's gamble is a global company with more than 1.3 million associates worldwide
+    and nearly 5,000 stores and wholesale clubs across 10 countries.
+
+    This package contains 6x10 CS$ growable and ploppable lots.
+    Both come in two styles: a stand-alone lot, as well as a modular lot expandable with KOSC's ploppable parking set.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart02-1.png.df6ec988610454912769effd23ead4cb.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart02-2.png.af3802caa79a153a1816ba709aaf832d.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart02-3.png.2d80f356a36e4af749fd5338c6345d4b.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart02-4.png.219cd2e68c6d6b3b7b7e08e7a9dba17d.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart02-5.png.10933706594df027173c2057ca8af90c.png"
+  website: "https://community.simtropolis.com/files/file/31822-b62-remastered-wal-mart-style-02/"
+dependencies:
+- "shk:parking-pack"
+- "supershk:mega-parking-textures"
+- "nos17:essentials"
+- "lbt:mega-prop-pack-vol01"
+assets:
+- assetId: "b62-walmart-supercenter-02"
+
+---
+url: "https://community.simtropolis.com/files/file/31822-b62-remastered-wal-mart-style-02/?do=download&r=202806"
+assetId: "b62-walmart-supercenter-02"
+version: "1"
+lastModified: "2024-08-23T01:23:56Z"

@@ -1,0 +1,35 @@
+group: "b62"
+name: "lowes-distribution-irm"
+version: "3"
+subfolder: "400-industrial"
+info:
+  summary: "Distribution warehouse compatible with Industrial Revolution Mod"
+  description: >
+    This package contains a 6x7 I-M growable lot.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/lowes-irm-0.png.15686212e1d97d2107ac209d4157edb6.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/lowes-irm-1.png.db78642495209131f79f8d2c06e645c9.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/lowes-irm-2.png.020258879abd23da775390318c1a784c.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/lowes-irm-3.png.e1f46809770ddb1fc231a8af4c1aca6e.png"
+  website: "https://community.simtropolis.com/files/file/30943-b62-remastered-irm-lowes-distribution/"
+dependencies:
+- "shk:parking-pack"
+- "nos17:essentials"
+- "bsc:mega-props-jes-vol01"
+- "bsc:mega-props-jes-vol02"
+- "bsc:mega-props-jes-vol03"
+- "bsc:mega-props-jes-vol05"
+- "bsc:mega-props-jes-vol08"
+- "bsc:mega-props-sg-vol01"
+- "bsc:mega-props-gascooker-vol01"
+- "bsc:mega-props-cp-vol01"
+- "bsc:textures-vol01"
+assets:
+- assetId: "b62-lowes-distribution"
+
+---
+url: "https://community.simtropolis.com/files/file/30943-b62-remastered-irm-lowes-distribution/?do=download&r=202566"
+assetId: "b62-lowes-distribution"
+version: "3"
+lastModified: "2024-08-17T00:24:03Z"

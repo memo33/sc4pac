@@ -1,0 +1,34 @@
+group: "b62"
+name: "dominos-pizza"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable pizza chain"
+  description: >
+    Domino's Pizza is an American restaurant chain and international franchise pizza delivery corporation.
+    Founded in 1960, Domino's is the second-largest pizza chain in the United States (after Pizza Hut) and the largest worldwide,
+    with more than 10,000 corporate and franchised stores in 70 countries.
+
+    This package contains a 2x2 CS$ growable and ploppable lot.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/dominos-1.png.4f129faf65bb821b56f3f5d8e263c1d8.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/dominos-2.png.305fdd72cb06c04784ab4712147c9a72.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/dominos-3.png.a147f11190876d028054c0e5f59907cd.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/dominos-4.png.19a6cb60d5464055b017a995ac8de5cc.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/dominos-5.png.d074de12f069e76cb79e35c409543f27.png"
+  website: "https://community.simtropolis.com/files/file/29977-b62-remastered-dominos-pizza/"
+dependencies:
+- "bsc:texturepack-cycledogg-vol01"
+- "shk:parking-pack"
+- "bsc:mega-props-jes-vol01"
+- "supershk:mega-parking-textures"
+- "girafe:walnut-trees"
+assets:
+- assetId: "b62-dominos-pizza"
+
+---
+url: "https://community.simtropolis.com/files/file/29977-b62-remastered-dominos-pizza/?do=download&r=202509"
+assetId: "b62-dominos-pizza"
+version: "3"
+lastModified: "2024-08-17T00:12:05Z"
