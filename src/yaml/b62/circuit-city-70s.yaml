@@ -1,0 +1,38 @@
+group: "b62"
+name: "circuit-city-70s"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable electronics store"
+  description: >
+    Circuit City Stores, Inc. was an American multinational consumer electronics corporation.
+    It was founded in 1949 and pioneered the electronics superstore format in the 1970s.
+    Circuit City liquidated its final American retail store in 2009, following a bankruptcy filing and subsequent failure to find a buyer.
+    At the time of liquidation, Circuit City was the second largest U.S. electronics retailer, after Best Buy.
+    There were 567 Circuit City Superstores nationwide, ranging in size from 15,000 to 45,000 square feet.
+
+    This package contains a 6x6 CS$ growable and ploppable lot.
+    It utilizes both the timed props contained in SHK parking pack and seasonal trees. These items may take a day or so to appear.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/circuit-city-70s-1.png.f4577b3eafd0942df1af22623a6547a3.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/circuit-city-70s-2.png.ac30f6d737b0f259bbcfc9c382b3b1cc.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/circuit-city-70s-3.png.1fbc9c61012273c140a390efcadd03eb.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/circuit-city-70s-4.png.8df8fc66d59c9ba55a90431efea0ec33.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/circuit-city-70s-5.png.1e593a96fc0ed88caa1f2891d23b38a2.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/circuit-city-70s-6.png.b7c6a64b41586b35c38478c9ead723a3.png"
+  website: "https://community.simtropolis.com/files/file/31793-b62-remastered-circuit-city-70s/"
+dependencies:
+- "lbt:mega-prop-pack-vol01"
+- "supershk:mega-parking-textures"
+- "shk:parking-pack"
+- "bsc:bat-props-mattb325-vol03"
+- "nos17:essentials"
+assets:
+- assetId: "b62-circuit-city-70s"
+
+---
+url: "https://community.simtropolis.com/files/file/31793-b62-remastered-circuit-city-70s/?do=download&r=202483"
+assetId: "b62-circuit-city-70s"
+version: "3"
+lastModified: "2024-08-17T00:06:14Z"

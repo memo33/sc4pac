@@ -1,0 +1,52 @@
+group: "b62"
+name: "service-station-mega-pack"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Service and gas stations"
+  description: >
+    This package contains 45 lots (growable CS$ and CS$$) of sizes 1x1 to 4x4.
+
+    Lots for the following brands are included in this package:
+    Texaco, Union 76, Valvoline, Hess, Sunoco, Crown, Havoline, Q Lube, Total, Mobil, Shell, and Valero.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-00.png.61bb724206ffd2fba63acc3710b5ad8e.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-01.png.775b576d951fbdb6f8324a4a7727687e.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-02.png.370b486b2837e9422858f9c07f40cbc6.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-03.png.a59fffad48e0e158ca73c67712279d49.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-04.png.6b459ad6660a65bc5b5b4c15d4f5865d.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-05.png.a7a6abcf24e09149ca8f4f5c3155bdcf.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-06.png.02413e74b3df837376b1ed8dd34647f4.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-07.png.906a21c08b08ca440e28fc4b2f10d69a.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-08.png.e39e5b8f28f4dfb4a105a3de8258cbfe.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-09.png.9f07a1010a596069f00d7d316844dde8.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-10.png.1fd9d3976af874617d7b54767da22543.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-11.png.bc905cd6bb4303f2caac17c78af2d1d4.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-12.png.76864e42b08d025f74d9d979d6ced495.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-13.png.1b9bd5c16c96edbdeb82eb10d827aa3c.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-14.png.e213ecabfe920ae03dfd6107c6ca1ad3.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-15.png.b7bc55b1465add528196a16da800a59e.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-16.png.eda6a0d3f5fbdf53134decf6d7778a71.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ssmp-17.png.5c06cd4b1cf312fb2871c3df416448b4.png"
+  website: "https://community.simtropolis.com/files/file/30590-b62-remastered-service-station-mega-pack/"
+dependencies:
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+- "nos17:essentials"
+- "bsc:mega-props-jes-vol01"
+- "bsc:mega-props-jes-vol02"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-sg-vol01"
+- "lbt:mega-prop-pack-vol01"
+- "shk:parking-pack"
+- "murimk:props-vol03-industrials"
+assets:
+- assetId: "b62-service-station-mega-pack"
+
+---
+url: "https://community.simtropolis.com/files/file/30590-b62-remastered-service-station-mega-pack/?do=download&r=202740"
+assetId: "b62-service-station-mega-pack"
+version: "3"
+lastModified: "2024-08-23T00:56:53Z"

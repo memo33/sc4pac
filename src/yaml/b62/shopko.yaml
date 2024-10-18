@@ -1,0 +1,38 @@
+group: "b62"
+name: "shopko-stores"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable department store"
+  description: >
+    Shopko was founded in 1962 by James Ruben, and its first store opened in Green Bay.
+    In 2012, Shopko merged with Pamida, a regional discount chain that operated mainly in smaller communities of 3,000 to 8,000 people;
+    all the stores were rebranded under the Shopko Hometown name.
+
+    This package contains a 6x8 CS$ growable and ploppable lot.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/shopko-1.png.14a14a06e2fc87123307b61626e1bc95.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/shopko-2.png.dcfb1ac040e9db3c62b444327d76ed28.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/shopko-3.png.4fe976f3dce2394b23e315ab20159652.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/shopko-4.png.b4597f46063174fb0f72f450bcecd544.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/shopko-5.png.5464e732746b92b8508857ff5e02b0ce.png"
+  website: "https://community.simtropolis.com/files/file/30835-b62-remastered-shopko-stores-inc/"
+dependencies:
+- "bsc:mega-props-sg-vol01"
+- "nos17:essentials"
+- "lbt:mega-textures-vol01"
+- "lbt:mega-prop-pack-vol01"
+- "neko:prop-set-vol01-part1"
+- "neko:prop-set-vol01-part2"
+- "neko:prop-set-vol03"
+- "supershk:mega-parking-textures"
+- "girafe:maples-v2"
+assets:
+- assetId: "b62-shopko-stores"
+
+---
+url: "https://community.simtropolis.com/files/file/30835-b62-remastered-shopko-stores-inc/?do=download&r=202760"
+assetId: "b62-shopko-stores"
+version: "3"
+lastModified: "2024-08-23T01:02:29Z"
