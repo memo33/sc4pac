@@ -1,6 +1,6 @@
 group: "b62"
 name: "sears-grand"
-version: "4"
+version: "4.1"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable Sears superstore and shopping center"
@@ -64,7 +64,7 @@ variants:
   - "bsc:mega-props-diggis-canals-streams-and-ponds"
 
 ---
-url: "https://community.simtropolis.com/files/file/30745-b62-remastered-sears-grand/?do=download&r=204030"
+url: "https://community.simtropolis.com/files/file/30745-b62-remastered-sears-grand/?do=download&r=204044"
 assetId: "b62-sears-grand"
-version: "4"
-lastModified: "2024-10-23T00:25:27Z"
+version: "4.1"
+lastModified: "2024-10-23T22:33:23Z"
