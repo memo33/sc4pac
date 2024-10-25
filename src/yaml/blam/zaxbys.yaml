@@ -1,0 +1,46 @@
+group: "blam"
+name: "zaxbys"
+version: "1"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable chicken restaurant"
+  description: >
+    Zaxby's is a franchised chain of fast casual restaurants that operates in the southeastern United States.
+    In this chain there are about 350 locations.
+    Its menu is built around high quality buffalo wings and chicken fingers, including them on platters, in sandwiches, and on salads.
+    The first Zaxby's was opened in Statesboro, Georgia.
+
+    This package contains a 3x4 CS$ growable and ploppable lot.
+  author: "MarcosMX"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0004/19efb8e559a646b3468dd4a9633d31c1-Stexpicday2.jpg"
+  - "https://www.simtropolis.com/objects/screens/0004/19efb8e559a646b3468dd4a9633d31c1-Stexpicnight2.jpg"
+  website: "https://community.simtropolis.com/files/file/16614-blam-zaxbys/"
+assets:
+- assetId: "blam-zaxbys"
+  exclude:
+  - "\\.SC4Model$"
+dependencies:
+- "blam:zaxbys-model"
+
+---
+group: "blam"
+name: "zaxbys-model"
+version: "1"
+subfolder: "100-props-textures"
+info:
+  summary: "Model file for the chicken restaurant"
+  description: >
+    This package only contains the model file for use as a dependency.
+  author: "MarcosMX"
+  website: "https://community.simtropolis.com/files/file/16614-blam-zaxbys/"
+assets:
+- assetId: "blam-zaxbys"
+  include:
+  - "\\.SC4Model$"
+
+---
+url: "https://community.simtropolis.com/files/file/16614-blam-zaxbys/?do=download"
+assetId: "blam-zaxbys"
+version: "1"
+lastModified: "2006-08-11T20:57:58Z"

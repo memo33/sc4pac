@@ -1,0 +1,29 @@
+group: "b62"
+name: "u-stor-storage-units"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable storage units"
+  description: >
+    U-Stor is the leading provider of clean, safe, and individually alarmed self-storage mini warehouses.
+    We offer the affordable solution to your storage needs at competitive rates.
+
+    This package contains a 6x7 CS$ ploppable and 6x7 and 5x5 CS$ growable lots.
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ustor-1.png.e47686272200158fdd4bdd1aa6ba1363.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ustor-2.png.1bf151cabb657e80e80ed850c71333b9.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ustor-3.png.64ced773e8b9dd078c23cf3f367b0e32.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ustor-4.png.59bb3ac816cbfb79e9c9e91673b9689d.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ustor-5.png.fecf85d4247f6eb93b3b168b72e2c56d.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/ustor-6.png.f7b4fa3520e7e29c610f31d688b2b30c.png"
+  website: "https://community.simtropolis.com/files/file/30900-b62-remastered-u-stor-storage-units/"
+dependencies:
+- "shk:parking-pack"
+assets:
+- assetId: "b62-u-store-storage-units"
+
+---
+url: "https://community.simtropolis.com/files/file/30900-b62-remastered-u-stor-storage-units/?do=download&r=202767"
+assetId: "b62-u-store-storage-units"
+version: "3"
+lastModified: "2024-08-23T01:07:34Z"

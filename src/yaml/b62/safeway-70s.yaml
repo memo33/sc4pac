@@ -1,0 +1,35 @@
+group: "b62"
+name: "safeway-70s-retro-grocery"
+version: "1"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable supermarket"
+  description: >
+    In 1915, Marion Barton Skaggs purchased his father's 576-square-foot (53.5 m2) grocery store in American Falls, Idaho, for 1,089.
+    By 1926, he had opened 428 Skaggs stores in 10 states.
+    In the 1930s Safeway introduced produce pricing by the pound, adding “sell by” dates on perishables to assure freshness, nutritional labeling, even some of the first parking lots.
+    Today, Safeway rakes in annual sales of an estimated sales $41 billion.
+    After merging with the Albertson's supermarket chain, it employs over 250,000 people at more than 2,200 stores, making it the second largest supermarket chain in North America and the 11th largest retailer in the United States.
+
+    This package contains a 6x6 CS$$ growable and ploppable lot.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/safeway-70s-1.png.947be698453191a108192eb8a0fd2d6c.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/safeway-70s-2.png.e14200f32bce3f766d80e655738ef8b3.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/safeway-70s-3.png.33f922b07174ad29fda2acab51ae2c3a.png"
+  website: "https://community.simtropolis.com/files/file/30175-b62-remastered-safeway-70s-style/"
+dependencies:
+- "bsc:mega-props-d66-vol01"
+- "bsc:mega-props-cp-vol02"
+- "shk:parking-pack"
+- "nos17:essentials"
+- "supershk:mega-parking-textures"
+- "mushymushy:na-53ft-trailers-vol1"
+assets:
+- assetId: "b62-safeway-70s-retro-grocery"
+
+---
+url: "https://community.simtropolis.com/files/file/30175-b62-remastered-safeway-70s-style/?do=download&r=202713"
+assetId: "b62-safeway-70s-retro-grocery"
+version: "1"
+lastModified: "2024-08-23T00:43:27Z"

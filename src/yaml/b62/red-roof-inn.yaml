@@ -1,0 +1,36 @@
+group: "b62"
+name: "red-roof-inn"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable motel"
+  description: >
+    Red Roof Inn was incorporated by founder James R. Trueman in 1972.
+    The Inn first opened in Columbus, Ohio with a single room rate of $8.50 USD in 1973.
+    Today, Red Roof Inn has more than 325 locations, serves millions of guests each year and employs over 6,000 people.
+    The majority of Red Roof Inns locations are located in the Midwest, East and the South, and boast on high customer awareness and outstanding brand image in the economy hotel market.
+
+    This package contains a 6x6 CS$ ploppable and growable lot.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/red-roof-1.png.bfb3ee570951b4576a4df7df705236a8.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/red-roof-2.png.1789db713ccfd2f8f36ebf9da1f57dd3.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/red-roof-3.png.60a1bea2fb707702dfbb91bd8b267968.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/red-roof-4.png.74372acd7ddfb18d7f154df4600e195d.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/red-roof-5.png.724cdfe5f1f62db030b08aab8cd6a9cd.png"
+  website: "https://community.simtropolis.com/files/file/30174-b62-remastered-red-roof-inn/"
+dependencies:
+- "bsc:texturepack-cycledogg-vol01"
+- "lbt:mega-prop-pack-vol01"
+- "shk:parking-pack"
+- "supershk:mega-parking-textures"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+assets:
+- assetId: "b62-red-roof-inn"
+
+---
+url: "https://community.simtropolis.com/files/file/30174-b62-remastered-red-roof-inn/?do=download&r=202700"
+assetId: "b62-red-roof-inn"
+version: "3"
+lastModified: "2024-08-23T00:41:57Z"

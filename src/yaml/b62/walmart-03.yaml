@@ -1,0 +1,38 @@
+group: "b62"
+name: "walmart-supercenter-03"
+version: "1"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable Walmart supercenter"
+  description: >
+    Many trace discount retailing's birth to 1962, the first year of operation for Kmart, Target and Wal-Mart.
+    Sam Walton and his wife, Helen, put up 95 percent of the money for the first Wal-Mart store in Rogers, Arkansas -
+    borrowing heavily on Sam's vision that the American consumer was hinting to a different type of general store.
+    As of today, Sam's gamble is a global company with more than 1.3 million associates worldwide
+    and nearly 5,000 stores and wholesale clubs across 10 countries.
+
+    This package contains an 8x8 ploppable as well as 6x6 and 8x8 CS$ growable lots.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart03-1.png.308848318236e4457205c4e6653a70a7.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart03-2.png.dbcb794b45f4bc4292b33944f8c150b3.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart03-3.png.777f42c15b95dbbc8e43000cc2dd7805.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart03-4.png.f6da341a2ced1dbe87be1c639e4448b2.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart03-5.png.86b068ae8d22ffc146a899814b1cba1a.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart03-6.png.41a06d0b19f802ef477fcdb308dd13dc.png"
+  website: "https://community.simtropolis.com/files/file/31823-b62-remastered-walmart-style-03/"
+dependencies:
+- "shk:parking-pack"
+- "supershk:mega-parking-textures"
+- "nos17:essentials"
+- "mushymushy:na-53ft-trailers-vol1"
+- "bsc:bat-props-mattb325-vol02"
+- "bsc:bat-props-mattb325-vol03"
+assets:
+- assetId: "b62-walmart-supercenter-03"
+
+---
+url: "https://community.simtropolis.com/files/file/31823-b62-remastered-walmart-style-03/?do=download"
+assetId: "b62-walmart-supercenter-03"
+version: "1"
+lastModified: "2024-08-23T01:28:06Z"
