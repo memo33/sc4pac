@@ -4,8 +4,13 @@ This page details how to write, for an existing mod, custom metadata that is und
 The metadata is stored in [YAML](https://en.wikipedia.org/wiki/YAML) files which can be edited in any text editor
 and consists of *assets* and *packages*, as defined below.
 
-?> For a quickstart, use the [empty template](https://github.com/memo33/sc4pac-tools/blob/main/channel-testing/template-empty.yaml)
-   or the [commented example](https://github.com/memo33/sc4pac-tools/blob/main/channel-testing/yaml/templates/package-template-basic.yaml).
+?> An interactive editor for creating metadata files from scratch is available online:
+   [YAML editor for sc4pac](https://yamleditorforsc4pac.azurewebsites.net/).
+   The editor assists you in obtaining the required metadata and producing syntactically valid metadata files.
+
+?> If you prefer to write the YAML files manually, you can use the [empty template](https://github.com/memo33/sc4pac-tools/blob/main/channel-testing/template-empty.yaml)
+   or the [commented example](https://github.com/memo33/sc4pac-tools/blob/main/channel-testing/yaml/templates/package-template-basic.yaml)
+   for a quick start.
 
 ## Assets
 
