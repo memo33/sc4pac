@@ -243,6 +243,18 @@ It is mostly optional, but each package should include a one-line `summary` and 
 
 A `description` may consist of several paragraphs of contextual information (it should not repeat the `summary`).
 
+> Recommendations:
+>
+> * Keep the `description` short. Reduce it to information relevant for using the plugin in the game, for example:
+>   * Are the buildings growable or ploppable?
+>   * RCI types
+>   * sizes of growables lots
+>   * tilesets if not all are enabled
+>
+>   Avoid detailed stats like flammability, water consumption, pollution, etc.
+> * An introductary sentence or two about real-life architectural context is fine, but it should not take up several paragraphs.
+> * Phrase the `description` in a neutral way and avoid first-person.
+
 You should also inform about possible `conflicts`. (If there are none, leave out this field.)
 
 Moreover, you can add a `warning` message that is displayed during the installation process.
@@ -250,7 +262,7 @@ This should be used sparingly, for example in case a user has to take action bef
 
 The `author` field should list the original authors of the content by the names they are known to the community.
 
-The `images` field may contain a list of image links (currently not used).
+The `images` field may contain a list of image links.
 
 ```yaml
 info:
@@ -269,8 +281,11 @@ info:
   website: "https://en.wikipedia.org/wiki/Hogwarts"
 ```
 
-?> For the meaning of the multi-line character `>` in YAML files, refer to the [YAML format](https://en.wikipedia.org/wiki/YAML#Basic_components).
+?> The multi-line character `>` in YAML files controls text wrapping.
+   See the [YAML format](https://en.wikipedia.org/wiki/YAML#Basic_components).
    Useful alternatives can be `|` or `>-`.
+   It is important to pick a suitable text wrapping mode for the style of your `description` in oder to preserve paragraphs.
+   Otherwise, all text could end up being displayed on a single line.
 
 ?> Use the syntax `` `pkg=hagrid:whomping-willow` `` to refer to another package from within the description or other text fields
    in order to render a link to the package.
@@ -414,7 +429,8 @@ To ensure that your package metadata works as intended, you should test your cha
 - (If you created multiple YAML files, consider using the [`channel build`](cli#channel-build) command.)
 
 Next, install your new package as usual and, if necessary, edit the YAML file until everything works as intended.
-In particular, make sure that the correct files end up in your Plugins folder.
+
+!> Most importantly, make sure that the correct files end up in your Plugins folder when installing the package.
 
 ?> When you are done, remove the .yaml-channels again, as their contents would conflict with the main channel once you submit your package.
    Removing them also improves performance.
