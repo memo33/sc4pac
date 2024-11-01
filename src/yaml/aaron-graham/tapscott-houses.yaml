@@ -1,0 +1,40 @@
+group: aaron-graham
+name: tapscott-houses
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Tapscott Houses
+  description: >
+    Tapscott Houses is an apartment located in Brooklyn, New York City.
+    The building grows as R$ and R$$ on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/26544-nybt-tapscott-houses/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-tapscott-houses-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-tapscott-houses-maxisnite
+
+---
+assetId: aaron-graham-tapscott-houses-darknite
+version: "1.0"
+lastModified: "2011-07-22T04:13:09Z"
+url: https://community.simtropolis.com/files/file/26544-nybt-tapscott-houses/?do=download&r=95727&where=Brooklyn
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-tapscott-houses-maxisnite
+version: "1.0"
+lastModified: "2011-07-22T04:13:09Z"
+url: https://community.simtropolis.com/files/file/26544-nybt-tapscott-houses/?do=download&r=95726&where=Brooklyn
+archiveType:
+  format: Clickteam
+  version: "40"
