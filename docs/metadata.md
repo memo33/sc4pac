@@ -395,6 +395,19 @@ For complete examples, inspect the metadata of:
 - `pkg=mattb325:sunken-library` (two ZIP files for MaxisNite and DarkNite)
 - `pkg=mattb325:harbor-clinic` (one ZIP file containing MaxisNite/DarkNite subfolders)
 
+?> If a building has only been published as DarkNite, a MaxisNite variant should be added nevertheless, for compatibility.
+   This allows to install the building even without a DarkNite mod installed.
+   It is just a minor visual conflict that does not affect daytime scenes.
+   ```yaml
+   assets:
+   - assetId: "dumbledore-hogwarts-castle-darknite"  # DN is installed with both variants
+   variants:
+   - variant: { nightmode: "standard" }
+   - variant: { nightmode: "dark" }
+     dependencies:
+     - "simfox:day-and-nite-mod"
+   ```
+
 ### `variantDescriptions`
 
 You may add descriptions that explain the different variant choices and help in choosing the right one:
