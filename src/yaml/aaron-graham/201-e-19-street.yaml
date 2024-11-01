@@ -2,6 +2,8 @@ group: aaron-graham
 name: 201-e-19-street
 version: "1.0"
 subfolder: 200-residential
+dependencies:
+  - "girafe:maples-v2"
 info:
   summary: 201 E. 19 Street
   description: >

@@ -2,6 +2,8 @@ group: aaron-graham
 name: 41-park-avenue
 version: "1.0"
 subfolder: 200-residential
+dependencies:
+  - "bsc:mega-props-cp-vol01"
 info:
   summary: 41 Park Avenue
   description: >
