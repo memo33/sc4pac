@@ -1,0 +1,40 @@
+group: aaron-graham
+name: 2639-and-2641-jerome-avenue
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 2639 And 2641 Jerome Avenue
+  description: >
+    2369 And 2641 Jerome avenue is a 1912 five story walk up apartment located in The Bronx, New York City.
+    The building grows as R$ and R$$ in four color variations on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/30167-nybt-2639-and-2641-jerome-avenue/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-2639-and-2641-jerome-avenue-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-2639-and-2641-jerome-avenue-maxisnite
+
+---
+assetId: aaron-graham-2639-and-2641-jerome-avenue-darknite
+version: "1.0"
+lastModified: "2015-03-01T03:57:22Z"
+url: https://community.simtropolis.com/files/file/30167-nybt-2639-and-2641-jerome-avenue/?do=download&r=148489
+archiveType:
+  format: Clickteam
+  version: "35"
+
+---
+assetId: aaron-graham-2639-and-2641-jerome-avenue-maxisnite
+version: "1.0"
+lastModified: "2015-03-01T03:57:22Z"
+url: https://community.simtropolis.com/files/file/30167-nybt-2639-and-2641-jerome-avenue/?do=download&r=148488
+archiveType:
+  format: Clickteam
+  version: "35"
