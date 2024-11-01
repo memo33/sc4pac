@@ -1,0 +1,40 @@
+group: aaron-graham
+name: kingsbridge-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Kingsbridge Apartments
+  description: >
+    Kingsbridge Apartments is an apartment located in The Bronx, New York City.
+    The building grows as R$ and R$$ on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/26394-nybt-kingsbridge-apartments/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-kingsbridge-apartments-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-kingsbridge-apartments-maxisnite
+
+---
+assetId: aaron-graham-kingsbridge-apartments-darknite
+version: "1.0"
+lastModified: "2011-09-29T14:06:07Z"
+url: https://community.simtropolis.com/files/file/26394-nybt-kingsbridge-apartments/?do=download&r=95748&where=The+Bronx
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-kingsbridge-apartments-maxisnite
+version: "1.0"
+lastModified: "2011-09-29T14:06:07Z"
+url: https://community.simtropolis.com/files/file/26394-nybt-kingsbridge-apartments/?do=download&r=95747&where=The+Bronx
+archiveType:
+  format: Clickteam
+  version: "40"
