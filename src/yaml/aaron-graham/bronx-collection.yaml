@@ -1,0 +1,22 @@
+group: aaron-graham
+name: bronx-collection
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: The Bronx part of Aaron Graham's NYBT bats
+  descirption: >
+    Contains the Bronx part of Aaron Graham's NYBT collection.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/profile/226625-aaron-graham/content/?type=downloads_file
+
+dependencies:
+  - "aaron-graham:1225-morris-avenue"
+  - "aaron-graham:25-e-193-street"
+  - "aaron-graham:2639-and-2641-jerome-avenue"
+  - "aaron-graham:655-e-228-street"
+  - "aaron-graham:barton-paul"
+  - "aaron-graham:concord-arms"
+  - "aaron-graham:walesbridge"
+  - "aaron-graham:kingsbridge-apartments"
+  - "aaron-graham:bainbridge-row"
+  - "aaron-graham:beck-arms"

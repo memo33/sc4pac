@@ -1,0 +1,18 @@
+group: aaron-graham
+name: fictitious-collection
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Fictitious part of Aaron Graham's NYBT bats
+  descirption: >
+    Contains the fictitious part of Aaron Graham's NYBT collection.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/profile/226625-aaron-graham/content/?type=downloads_file
+
+dependencies:
+  - "aaron-graham:aronic-place"
+  - "aaron-graham:eyrene-apartments"
+  - "aaron-graham:franklin-apartments"
+  - "aaron-graham:graham-apartments"
+  - "aaron-graham:hogan-apartments"
+  - "aaron-graham:johnson-apartments"

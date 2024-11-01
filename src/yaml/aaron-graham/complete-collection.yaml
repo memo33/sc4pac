@@ -1,0 +1,21 @@
+group: aaron-graham
+name: complete-collection
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Complete collection of Aaron Graham's NYBT BATs
+  description: >
+    The collection consists of the Manhattan, Queens, Brooklyn, Bronx and fictitious collections.
+    You can install the entire collection or choose individual buildings by following the dependency links.
+
+    Note that some of Aaron's earliest BATs have been intentionally left out.
+    If you want those, you can get them from Simtropolis.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/profile/226625-aaron-graham/content/?type=downloads_file
+
+dependencies:
+  - "aaron-graham:manhttan-collection"
+  - "aaron-graham:queens-collection"
+  - "aaron-graham:brooklyn-collection"
+  - "aaron-graham:bronx-collection"
+  - "aaron-graham:fictitious-collection"
