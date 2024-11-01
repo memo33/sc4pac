@@ -1,0 +1,40 @@
+group: aaron-graham
+name: hogan-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Hogan Apartments
+  description: >
+    Hogan Apartments is a fictitious apartment inspired by New York City.
+    The building grows as R$$ and R$$$ on the New York tile set.
+    It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/27204-hogan-apartments/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-hogan-apartments-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-hogan-apartments-maxisnite
+
+---
+assetId: aaron-graham-hogan-apartments-darknite
+version: "1.0"
+lastModified: "2012-01-20T05:59:24Z"
+url: https://community.simtropolis.com/files/file/27204-hogan-apartments/?do=download&r=96260&where=fictional
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-hogan-apartments-maxisnite
+version: "1.0"
+lastModified: "2012-01-20T05:59:24Z"
+url: https://community.simtropolis.com/files/file/27204-hogan-apartments/?do=download&r=96259&where=fictional
+archiveType:
+  format: Clickteam
+  version: "40"
