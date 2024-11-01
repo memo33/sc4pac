@@ -1,0 +1,40 @@
+group: aaron-graham
+name: 785-park-avenue
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 785 Park Avenue
+  description: >
+    785 Park Avenue is a sixteen story brick apartment located in Manhattan, New York City.
+    The building grows as R$$, R$$$, CS$$ and CS$$$ in four color variations on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/28741-nybt-785-park-avenue/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-785-park-avenue-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-785-park-avenue-maxisnite
+
+---
+assetId: aaron-graham-785-park-avenue-darknite
+version: "1.0"
+lastModified: "2013-05-24T04:27:34Z"
+url: https://community.simtropolis.com/files/file/28741-nybt-785-park-avenue/?do=download&r=115636
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-785-park-avenue-maxisnite
+version: "1.0"
+lastModified: "2013-05-24T04:27:34Z"
+url: https://community.simtropolis.com/files/file/28741-nybt-785-park-avenue/?do=download&r=115635
+archiveType:
+  format: Clickteam
+  version: "40"
