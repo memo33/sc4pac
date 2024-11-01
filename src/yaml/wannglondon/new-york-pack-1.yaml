@@ -5,6 +5,7 @@ subfolder: "200-residential"
 assets:
 - assetId: "wannglondon-new-york-pack-1"
 variants:
+- variant: { nightmode: "standard" }
 - variant: { nightmode: "dark" }
   dependencies: [ "simfox:day-and-nite-mod" ]
 
