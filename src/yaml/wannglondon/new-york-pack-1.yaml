@@ -1,0 +1,33 @@
+group: "wannglondon"
+name: "new-york-pack-1"
+version: "1.0.0"
+subfolder: "200-residential"
+assets:
+- assetId: "wannglondon-new-york-pack-1"
+variants:
+- variant: { nightmode: "dark" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+
+info:
+  summary: "Pack of midsize New York styled buildings"
+  description: >
+    Included is a set of 9 New York style mid-rises.
+
+    They grow as R$$, R$$$, CS$$ and CS$$$ on the New York tile set.
+  author: "WannGLondon"
+  website: "https://community.simtropolis.com/files/file/35632-new-york-pack-1/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_09/9.jpg.9d05880f917d262c6b20cd1464348a07.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_09/8.jpg.16b9269eb53b5b241febc29b53975d8d.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_09/650cd2d8e84c3_Townhomes3.jpg.f196794505d30b26d87c46125700b23b.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_09/6.jpg.d533e8a331464378d66ffb7aa8bd7042.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_09/1.jpg.fba18eb19c25051ac4e3779cb51d257c.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_09/2.jpg.eea76e7eff7bfd7a251b1919928f9539.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_09/7.jpg.1deaaa68ccdb6ee1f15a7ad172213b5a.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2023_09/3and4.jpg.e1c85ff7a916e5301a9282520e1dc193.jpg"
+
+---
+assetId: "wannglondon-new-york-pack-1"
+version: "1.0.0"
+lastModified: "2023-09-21T23:35:59Z"
+url: "https://community.simtropolis.com/files/file/35632-new-york-pack-1/?do=download"
