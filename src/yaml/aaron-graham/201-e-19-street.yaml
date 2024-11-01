@@ -1,0 +1,39 @@
+group: aaron-graham
+name: 201-e-19-street
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 201 E. 19 Street
+  description: >
+    201 E. 19 Street is a 1960 sixteen story brick apartment located in Manhattan, New York City.
+    The building grows as R$$, R$$$, CS$$ and CS$$$ in four color variations on the New York tile set.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/28649-nybt-201-e-19-street/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-201-e-19-street-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-201-e-19-street-maxisnite
+
+---
+assetId: aaron-graham-201-e-19-street-darknite
+version: "1.0"
+lastModified: "2013-04-19T09:31:44Z"
+url: https://community.simtropolis.com/files/file/28649-nybt-201-e-19-street/?do=download&r=114199
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-201-e-19-street-maxisnite
+version: "1.0"
+lastModified: "2013-04-19T09:31:44Z"
+url: https://community.simtropolis.com/files/file/28649-nybt-201-e-19-street/?do=download&r=114198
+archiveType:
+  format: Clickteam
+  version: "40"
