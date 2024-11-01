@@ -1,0 +1,40 @@
+group: aaron-graham
+name: eyrene-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Eyrene Apartments
+  description: >
+    Eyrene Apartments is a fictitious apartment inspired by New York City.
+    The building grows as R$$ and R$$$ on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/27493-eyrene-apartments/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-eyrene-apartments-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-eyrene-apartments-maxisnite
+
+---
+assetId: aaron-graham-eyrene-apartments-darknite
+version: "1.0"
+lastModified: "2012-04-20T04:00:12Z"
+url: https://community.simtropolis.com/files/file/27493-eyrene-apartments/?do=download&r=107880&where=fictional
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-eyrene-apartments-maxisnite
+version: "1.0"
+lastModified: "2012-04-20T04:00:12Z"
+url: https://community.simtropolis.com/files/file/27493-eyrene-apartments/?do=download&r=107879&where=fictional
+archiveType:
+  format: Clickteam
+  version: "40"
