@@ -1,0 +1,40 @@
+group: aaron-graham
+name: 25-e-193-street
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 25 E. 193 Street
+  description: >
+    25 E. 193 Street is a 1921 five story apartment located in The Bronx, New York City.
+    The building grows as R$ and R$$ on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/29835-nybt-25-e-193-street/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-25-e-193-street-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-25-e-193-street-maxisnite
+
+---
+assetId: aaron-graham-25-e-193-street-darknite
+version: "1.0"
+lastModified: "2014-08-20T03:40:35Z"
+url: https://community.simtropolis.com/files/file/29835-nybt-25-e-193-street/?do=download&r=140597
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-25-e-193-street-maxisnite
+version: "1.0"
+lastModified: "2014-08-20T03:40:35Z"
+url: https://community.simtropolis.com/files/file/29835-nybt-25-e-193-street/?do=download&r=140596
+archiveType:
+  format: Clickteam
+  version: "40"
