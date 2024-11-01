@@ -3,6 +3,7 @@ name: franklin-apartments
 version: "1.0"
 subfolder: 200-residential
 dependencies:
+  - "nybt:essentials"
   - "bsc:texturepack-cycledogg-vol01"
 info:
   summary: Franklin Apartments
@@ -13,7 +14,6 @@ info:
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/27149-franklin-apartments/
 
-dependencies: ["nybt:essentials"]
 variants:
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]

@@ -3,6 +3,7 @@ name: 201-e-19-street
 version: "1.0"
 subfolder: 200-residential
 dependencies:
+  - "nybt:essentials"
   - "girafe:maples-v2"
 info:
   summary: 201 E. 19 Street
@@ -12,7 +13,6 @@ info:
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28649-nybt-201-e-19-street/
 
-dependencies: ["nybt:essentials"]
 variants:
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]

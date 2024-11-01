@@ -3,6 +3,7 @@ name: johnson-apartments
 version: "1.0"
 subfolder: 200-residential
 dependencies:
+  - "nybt:essentials"
   - "bsc:mega-props-cp-vol01"
 info:
   summary: Johnson Apartments
@@ -13,7 +14,6 @@ info:
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/27463-johnson-apartments/
 
-dependencies: ["nybt:essentials"]
 variants:
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]

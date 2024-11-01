@@ -3,6 +3,7 @@ name: 41-park-avenue
 version: "1.0"
 subfolder: 200-residential
 dependencies:
+  - "nybt:essentials"
   - "bsc:mega-props-cp-vol01"
 info:
   summary: 41 Park Avenue
@@ -13,7 +14,6 @@ info:
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/27913-nybt-41-park-avenue/
 
-dependencies: ["nybt:essentials"]
 variants:
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
