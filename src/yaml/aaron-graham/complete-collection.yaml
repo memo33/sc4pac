@@ -14,7 +14,7 @@ info:
   website: https://community.simtropolis.com/profile/226625-aaron-graham/content/?type=downloads_file
 
 dependencies:
-  - "aaron-graham:manhttan-collection"
+  - "aaron-graham:manhattan-collection"
   - "aaron-graham:queens-collection"
   - "aaron-graham:brooklyn-collection"
   - "aaron-graham:bronx-collection"
