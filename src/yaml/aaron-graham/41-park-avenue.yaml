@@ -27,7 +27,7 @@ variants:
 assetId: aaron-graham-41-park-avenue-darknite
 version: "1.0"
 lastModified: "2012-08-10T04:02:56Z"
-url: https://community.simtropolis.com/files/file/27913-nybt-41-park-avenue/?do=download&r=109903&year=1950&corner=true
+url: https://community.simtropolis.com/files/file/27913-nybt-41-park-avenue/?do=download&r=109903
 archiveType:
   format: Clickteam
   version: "40"
@@ -36,7 +36,5 @@ archiveType:
 assetId: aaron-graham-41-park-avenue-maxisnite
 version: "1.0"
 lastModified: "2012-08-10T04:02:56Z"
-url: https://community.simtropolis.com/files/file/27913-nybt-41-park-avenue/?do=download&r=109902&year=1950&corner=true
-archiveType:
-  format: Clickteam
-  version: "40"
+# cicdec fails to unpack the installer for this one, so we download the zip from GitHub instead.
+url: https://github.com/memo33/sc4pac-tools/releases/download/0.1.0/NYBT.41.Park.Avenue.Maxis.Nite.2012.zip
