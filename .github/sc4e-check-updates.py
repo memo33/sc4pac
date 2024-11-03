@@ -25,7 +25,7 @@ def nonempty_docs(dirs_or_files):
         for path in paths:
             if not path.endswith(".yaml"):
                 continue
-            with open(path) as f:
+            with open(path, encoding='utf-8') as f:
                 text = f.read()
                 try:
                     for doc in yaml.safe_load_all(text):
