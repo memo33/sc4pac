@@ -7,6 +7,7 @@ info:
   description: >
     This is an original design of Diego Del Llano, 3 towers located in Armenia, in the city of Bogota, Colombia.
 
+  conflicts: Only DarkNite models exist for these buildings, so the same models are installed with either nightmode setting.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32547-distrito-armenia/
 

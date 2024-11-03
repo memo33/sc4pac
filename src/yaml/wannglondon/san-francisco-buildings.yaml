@@ -13,6 +13,7 @@ info:
   summary: "4 midsize W2W buildings (R$$)"
   description: >
     Included are four Stage 5 R$$ W2W buildings from San Francisco which grow on 1×2 lots.
+  conflicts: Only DarkNite models exist for these buildings, so the same models are installed with either nightmode setting.
   author: "WannGLondon"
   website: "https://community.simtropolis.com/files/file/36385-san-francisco-buildings-1/"
   images:

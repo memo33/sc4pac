@@ -15,6 +15,7 @@ info:
     Included is a set of 6 styles of american townhomes that are based on the pretty rowhomes found in Chicago, New York, and Philadelphia.
 
     They grow as medium & high wealth residential 1x2 W2W lots.
+  conflicts: Only DarkNite models exist for these buildings, so the same models are installed with either nightmode setting.
   author: "WannGLondon"
   website: "https://community.simtropolis.com/files/file/36505-american-rowhomes-pack-1/"
   images:

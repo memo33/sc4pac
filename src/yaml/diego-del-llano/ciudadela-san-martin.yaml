@@ -8,6 +8,7 @@ info:
     High Rise, locted in the Capital city of Bogota, Colombia.
     Height is 170 m.
 
+  conflicts: Only DarkNite models exist for these buildings, so the same models are installed with either nightmode setting.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/
 

@@ -15,6 +15,7 @@ info:
     Included is a set of 9 New York style mid-rises.
 
     They grow as R$$, R$$$, CS$$ and CS$$$ on the New York tile set.
+  conflicts: Only DarkNite models exist for these buildings, so the same models are installed with either nightmode setting.
   author: "WannGLondon"
   website: "https://community.simtropolis.com/files/file/35632-new-york-pack-1/"
   images:

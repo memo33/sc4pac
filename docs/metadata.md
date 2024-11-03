@@ -406,6 +406,8 @@ For complete examples, inspect the metadata of:
    - variant: { nightmode: "dark" }
      dependencies:
      - "simfox:day-and-nite-mod"
+   info:
+     conflicts: Only a DarkNite model exists for this building, so the same model is installed with either nightmode setting.
    ```
 
 ### `variantDescriptions`
