@@ -6,7 +6,7 @@ dependencies:
   - "nybt:essentials"
   - "bsc:mega-props-cp-vol01"
 info:
-  summary: Johnson Apartments
+  summary: Johnson Apartments (W2W)
   description: >
     Johnson Apartments is a fictitious apartment inspired by New York City.
     The building grows as R$$ and R$$$ on the New York tile set.

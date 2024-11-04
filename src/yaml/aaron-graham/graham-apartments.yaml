@@ -3,7 +3,7 @@ name: graham-apartments
 version: "1.0"
 subfolder: 200-residential
 info:
-  summary: Graham Apartments
+  summary: Graham Apartments (W2W)
   description: >
     Graham Apartments is a fictitious apartment inspired by New York City.
     The building grows as R$$ and R$$$ on the New York tile set.

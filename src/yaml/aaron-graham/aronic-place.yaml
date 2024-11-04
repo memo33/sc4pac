@@ -3,7 +3,7 @@ name: aronic-place
 version: "1.0"
 subfolder: 200-residential
 info:
-  summary: Aronic Place
+  summary: Aronic Place (W2W)
   description: >
     Aronic Place is a fictitious six story apartment based on 9511 Shore Rd, Brooklyn, New York City.
     The building grows as R$, R$$ and R$$$ on the New York tile set.
