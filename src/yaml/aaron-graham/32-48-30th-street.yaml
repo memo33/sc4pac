@@ -1,0 +1,40 @@
+group: aaron-graham
+name: 32-48-30th-street
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 32-48 30th Street (W2W)
+  description: >
+    32-48 30th Street is a 1928 apartment located in Queens, New York City.
+    The building grows as R$$ and R$$$ in eight color variations the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/28818-nybt-32-48-30th-street/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-32-48-30th-street-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-32-48-30th-street-maxisnite
+
+---
+assetId: aaron-graham-32-48-30th-street-darknite
+version: "1.0"
+lastModified: "2013-07-01T00:17:53Z"
+url: https://community.simtropolis.com/files/file/28818-nybt-32-48-30th-street/?do=download&r=116815
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-32-48-30th-street-maxisnite
+version: "1.0"
+lastModified: "2013-07-01T00:17:53Z"
+url: https://community.simtropolis.com/files/file/28818-nybt-32-48-30th-street/?do=download&r=116814
+archiveType:
+  format: Clickteam
+  version: "40"

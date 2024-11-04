@@ -1,0 +1,40 @@
+group: aaron-graham
+name: graham-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Graham Apartments (W2W)
+  description: >
+    Graham Apartments is a fictitious apartment inspired by New York City.
+    The building grows as R$$ and R$$$ on the New York tile set.
+    It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/27123-graham-apartments/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-graham-apartments-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-graham-apartments-maxisnite
+
+---
+assetId: aaron-graham-graham-apartments-darknite
+version: "1.0"
+lastModified: "2012-01-01T03:30:28Z"
+url: https://community.simtropolis.com/files/file/27123-graham-apartments/?do=download&r=95720
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-graham-apartments-maxisnite
+version: "1.0"
+lastModified: "2012-01-01T03:30:28Z"
+url: https://community.simtropolis.com/files/file/27123-graham-apartments/?do=download&r=95719
+archiveType:
+  format: Clickteam
+  version: "40"

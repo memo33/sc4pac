@@ -1,0 +1,40 @@
+group: aaron-graham
+name: townsley
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Townsley (W2W)
+  description: >
+    Townsley is a 1964 fifteen story apartment located in Manhattan, New York City.
+    The building grows as R$$ and R$$$ in four color variations on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/29031-nybt-townsley/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-townsley-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-townsley-maxisnite
+
+---
+assetId: aaron-graham-townsley-darknite
+version: "1.0"
+lastModified: "2013-10-31T13:59:28Z"
+url: https://community.simtropolis.com/files/file/29031-nybt-townsley/?do=download&r=120762
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-townsley-maxisnite
+version: "1.0"
+lastModified: "2013-10-31T13:59:28Z"
+url: https://community.simtropolis.com/files/file/29031-nybt-townsley/?do=download&r=120761
+archiveType:
+  format: Clickteam
+  version: "40"

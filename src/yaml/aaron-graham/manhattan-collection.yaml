@@ -1,0 +1,23 @@
+group: aaron-graham
+name: manhattan-collection
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Manhattan part of Aaron Graham's NYBT bats
+  description: >
+    Contains the Manhattan part of Aaron Graham's NYBT collection.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/profile/226625-aaron-graham/content/?type=downloads_file
+
+dependencies:
+  - "aaron-graham:201-e-19-street"
+  - "aaron-graham:30-e-81-street"
+  - "aaron-graham:41-park-avenue"
+  - "aaron-graham:605-park-avenue"
+  - "aaron-graham:785-park-avenue"
+  - "aaron-graham:915-west-end-avenue"
+  - "aaron-graham:dover-house"
+  - "aaron-graham:gracie-manor"
+  - "aaron-graham:hattan-house"
+  - "aaron-graham:townsley"
+  - "aaron-graham:worthington-apartments"

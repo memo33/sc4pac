@@ -1,0 +1,42 @@
+group: aaron-graham
+name: johnson-apartments
+version: "1.0"
+subfolder: 200-residential
+dependencies:
+  - "nybt:essentials"
+  - "bsc:mega-props-cp-vol01"
+info:
+  summary: Johnson Apartments (W2W)
+  description: >
+    Johnson Apartments is a fictitious apartment inspired by New York City.
+    The building grows as R$$ and R$$$ on the New York tile set.
+    It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/27463-johnson-apartments/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-johnson-apartments-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-johnson-apartments-maxisnite
+
+---
+assetId: aaron-graham-johnson-apartments-darknite
+version: "1.0"
+lastModified: "2012-04-13T04:00:08Z"
+url: https://community.simtropolis.com/files/file/27463-johnson-apartments/?do=download&r=99612
+archiveType:
+  format: Clickteam
+  version: "30"
+
+---
+assetId: aaron-graham-johnson-apartments-maxisnite
+version: "1.0"
+lastModified: "2012-04-13T04:00:08Z"
+url: https://community.simtropolis.com/files/file/27463-johnson-apartments/?do=download&r=99611
+archiveType:
+  format: Clickteam
+  version: "30"

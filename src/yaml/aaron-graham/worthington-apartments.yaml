@@ -1,0 +1,40 @@
+group: aaron-graham
+name: worthington-apartments
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Worthington Apartments (W2W)
+  description: >
+    Worthington Apartments is an apartment building based on 888 Park Avenue located in Manhattan, New York City.
+    The building grows as R$$ and R$$$ on the New York and Chicago tile sets.
+    It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/28152-worthington-apartments/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-worthington-apartments-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-worthington-apartments-maxisnite
+
+---
+assetId: aaron-graham-worthington-apartments-darknite
+version: "1.0"
+lastModified: "2012-10-23T04:55:51Z"
+url: https://community.simtropolis.com/files/file/28152-worthington-apartments/?do=download&r=108055
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-worthington-apartments-maxisnite
+version: "1.0"
+lastModified: "2012-10-23T04:55:51Z"
+url: https://community.simtropolis.com/files/file/28152-worthington-apartments/?do=download&r=108054
+archiveType:
+  format: Clickteam
+  version: "40"

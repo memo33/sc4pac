@@ -1,0 +1,40 @@
+group: aaron-graham
+name: beck-arms
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Beck Arms (W2W)
+  description: >
+    Beck Arms is an apartment located in The Bronx, New York City.
+    The building grows as R$ and R$$ on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/26470-nybt-beck-arms/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-beck-arms-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-beck-arms-maxisnite
+
+---
+assetId: aaron-graham-beck-arms-darknite
+version: "1.0"
+lastModified: "2011-07-08T04:04:06Z"
+url: https://community.simtropolis.com/files/file/26470-nybt-beck-arms/?do=download&r=95455
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-beck-arms-maxisnite
+version: "1.0"
+lastModified: "2011-07-08T04:04:06Z"
+url: https://community.simtropolis.com/files/file/26470-nybt-beck-arms/?do=download&r=95454
+archiveType:
+  format: Clickteam
+  version: "40"

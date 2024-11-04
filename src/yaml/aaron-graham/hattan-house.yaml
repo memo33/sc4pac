@@ -1,0 +1,40 @@
+group: aaron-graham
+name: hattan-house
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Hattan House (W2W)
+  description: >
+    Hattan House is a 1962 seventeen story apartment located in Manhattan, New York City.
+    The building grows as R$$, R$$$, CS$$ and CS$$$ in four color variations on the New York tileset.
+    It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/28414-nybt-hattan-house/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-hattan-house-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-hattan-house-maxisnite
+
+---
+assetId: aaron-graham-hattan-house-darknite
+version: "1.0"
+lastModified: "2013-02-01T05:15:25Z"
+url: https://community.simtropolis.com/files/file/28414-nybt-hattan-house/?do=download&r=111371
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-hattan-house-maxisnite
+version: "1.0"
+lastModified: "2013-02-01T05:15:25Z"
+url: https://community.simtropolis.com/files/file/28414-nybt-hattan-house/?do=download&r=111370
+archiveType:
+  format: Clickteam
+  version: "40"

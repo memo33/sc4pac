@@ -1,0 +1,42 @@
+group: aaron-graham
+name: franklin-apartments
+version: "1.0"
+subfolder: 200-residential
+dependencies:
+  - "nybt:essentials"
+  - "bsc:texturepack-cycledogg-vol01"
+info:
+  summary: Franklin Apartments (W2W)
+  description: >
+    Franklin Apartments is a fictitious apartment inspired by New York City.
+    The building grows as R$$ and R$$$ on the New York tile set.
+    It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/27149-franklin-apartments/
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-franklin-apartments-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-franklin-apartments-maxisnite
+
+---
+assetId: aaron-graham-franklin-apartments-darknite
+version: "1.0"
+lastModified: "2012-01-06T08:23:08Z"
+url: https://community.simtropolis.com/files/file/27149-franklin-apartments/?do=download&r=95755
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-franklin-apartments-maxisnite
+version: "1.0"
+lastModified: "2012-01-06T08:23:08Z"
+url: https://community.simtropolis.com/files/file/27149-franklin-apartments/?do=download&r=95754
+archiveType:
+  format: Clickteam
+  version: "40"

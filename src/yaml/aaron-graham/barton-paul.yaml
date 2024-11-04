@@ -1,0 +1,40 @@
+group: aaron-graham
+name: barton-paul
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Barton Paul (W2W)
+  description: >
+    Barton Paul is a 1955 five story apartment located in The Bronx, New York City.
+    The building grows as R$ and R$$ in four color variations on the New York tile set.
+    It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/30118-nybt-barton-paul/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-barton-paul-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-barton-paul-maxisnite
+
+---
+assetId: aaron-graham-barton-paul-darknite
+version: "1.0"
+lastModified: "2015-01-30T05:00:29Z"
+url: https://community.simtropolis.com/files/file/30118-nybt-barton-paul/?do=download&r=147472
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-barton-paul-maxisnite
+version: "1.0"
+lastModified: "2015-01-30T05:00:29Z"
+url: https://community.simtropolis.com/files/file/30118-nybt-barton-paul/?do=download&r=147471
+archiveType:
+  format: Clickteam
+  version: "40"

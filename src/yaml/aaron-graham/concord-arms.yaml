@@ -1,0 +1,40 @@
+group: aaron-graham
+name: concord-arms
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Concord Arms (W2W)
+  description: >
+    Concord Arms is an apartment building located in The Bronx, New York City.
+    The building grows as R$ and R$$ on the New York tile set.
+    It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/27036-nybt-concord-arms/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-concord-arms-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-concord-arms-maxisnite
+
+---
+assetId: aaron-graham-concord-arms-darknite
+version: "1.0"
+lastModified: "2011-12-10T20:57:28Z"
+url: https://community.simtropolis.com/files/file/27036-nybt-concord-arms/?do=download&r=95448
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-concord-arms-maxisnite
+version: "1.0"
+lastModified: "2011-12-10T20:57:28Z"
+url: https://community.simtropolis.com/files/file/27036-nybt-concord-arms/?do=download&r=95447
+archiveType:
+  format: Clickteam
+  version: "40"

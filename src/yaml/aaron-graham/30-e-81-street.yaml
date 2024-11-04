@@ -1,0 +1,40 @@
+group: aaron-graham
+name: 30-e-81-street
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 30 E. 81 Street (W2W)
+  description: >
+    30 E. 81 Street is a 1955 thirteen story apartment located in Manhattan, New York City.
+    The building grows as R$$, R$$$, CS$$ and CS$$$ on the New York tile set.
+    It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/28572-nybt-30-e-81-street/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-30-e-81-street-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-30-e-81-street-maxisnite
+
+---
+assetId: aaron-graham-30-e-81-street-darknite
+version: "1.0"
+lastModified: "2013-03-15T04:00:28Z"
+url: https://community.simtropolis.com/files/file/28572-nybt-30-e-81-street/?do=download&r=113248
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-30-e-81-street-maxisnite
+version: "1.0"
+lastModified: "2013-03-15T04:00:28Z"
+url: https://community.simtropolis.com/files/file/28572-nybt-30-e-81-street/?do=download&r=113247
+archiveType:
+  format: Clickteam
+  version: "40"

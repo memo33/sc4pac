@@ -1,0 +1,40 @@
+group: aaron-graham
+name: bainbridge-row
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Bainbridge Row (W2W)
+  description: >
+    Bainbridge Row is an apartment located in The Bronx, New York City.
+    The building grows as R$ and R$$ on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/26436-nybt-bainbridge-row/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-bainbridge-row-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-bainbridge-row-maxisnite
+
+---
+assetId: aaron-graham-bainbridge-row-darknite
+version: "1.0"
+lastModified: "2011-07-25T19:30:29Z"
+url: https://community.simtropolis.com/files/file/26436-nybt-bainbridge-row/?do=download&r=95734
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-bainbridge-row-maxisnite
+version: "1.0"
+lastModified: "2011-07-25T19:30:29Z"
+url: https://community.simtropolis.com/files/file/26436-nybt-bainbridge-row/?do=download&r=95733
+archiveType:
+  format: Clickteam
+  version: "40"

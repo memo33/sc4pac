@@ -1,0 +1,40 @@
+group: aaron-graham
+name: walesbridge
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Walesbridge
+  description: >
+    Walesbridge is a 1940-1950s six story apartment located in The Bronx, New York City.
+    The building grows as R$ and R$$ on the New York tile set.
+    There are eight variations in total: four corner buildings and four non-corner buildings, each with four different brick colors.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/28321-nybt-walesbridge/
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-walesbridge-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-walesbridge-maxisnite
+
+---
+assetId: aaron-graham-walesbridge-darknite
+version: "1.0"
+lastModified: "2012-12-25T10:16:34Z"
+url: https://community.simtropolis.com/files/file/28321-nybt-walesbridge/?do=download&r=110163
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-walesbridge-maxisnite
+version: "1.0"
+lastModified: "2012-12-25T10:16:34Z"
+url: https://community.simtropolis.com/files/file/28321-nybt-walesbridge/?do=download&r=110162
+archiveType:
+  format: Clickteam
+  version: "40"
