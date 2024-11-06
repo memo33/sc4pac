@@ -46,6 +46,7 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=gutterclub:small-caffe-nero` (small W2W CS$$)
 * `pkg=gutterclub:city-tatoo` (small W2W CS$$)
 * `pkg=gutterclub:camy-dumpling-house` (small CS$ building)
+* `pkg=ids2:retro-theaters` (small W2W CS$$ theaters)
 * `pkg=aras:dh-zenit` (medium-large Polish CS$$ building)
 * `pkg=jasoncw:cecil-hotel` (highrise CS$ hotel)
 * `pkg=jasoncw:hsbc-tower` (highrise CO$$$ office building)
