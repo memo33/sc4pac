@@ -164,6 +164,7 @@ class DependencyChecker:
         self.known_assets = set()
         self.referenced_packages = set()
         self.referenced_assets = set()
+        self.self_dependencies = set()
         self.duplicate_packages = set()
         self.duplicate_assets = set()
         self.asset_urls = {}  # asset -> url
@@ -204,7 +205,10 @@ class DependencyChecker:
                 return (a['assetId'] for a in obj.get('assets', []) if 'assetId' in a)
 
             def add_references(obj):
-                self.referenced_packages.update(obj.get('dependencies', []))
+                local_deps = obj.get('dependencies', [])
+                self.referenced_packages.update(local_deps)
+                if pkg in local_deps:
+                    self.self_dependencies.add(pkg)
                 local_assets = list(asset_ids(obj))
                 self.referenced_assets.update(local_assets)
                 for a in local_assets:
@@ -395,6 +399,12 @@ def main() -> int:
                 print(f"===> The following {label} are defined multiple times:")
                 for identifier in dupes:
                     print(identifier)
+
+        if dependency_checker.self_dependencies:
+            errors += len(dependency_checker.self_dependencies)
+            print("===> The following packages unnecessarily depend on themselves:")
+            for pkg in dependency_checker.self_dependencies:
+                print(pkg)
 
         non_unique_assets = dependency_checker.assets_with_same_url()
         if non_unique_assets:
