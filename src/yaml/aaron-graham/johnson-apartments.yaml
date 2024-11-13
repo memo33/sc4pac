@@ -13,6 +13,14 @@ info:
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/27463-johnson-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/thumb-c45fd9d424a6a835d9a730b27a372e84-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/thumb-5444544ace4b7d864f35784dbe795880-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/thumb-7ebb71e6f5c48983be54409787cc4340-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/thumb-410d94738e957f76a3a0f39c16424118-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/thumb-acb3ac5e372352d22f234136abbe1a3f-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/thumb-060f63e5bb223a50f00270ec93072b80-.jpg
+  
 
 variants:
   - variant: { nightmode: dark }

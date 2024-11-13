@@ -11,6 +11,12 @@ info:
 
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/29147-aronic-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/thumb-ac85554395f7de64d118ad37173b2ef7-aronic-place-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/thumb-3d0f3b5aa19144402657f4c41f606817-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/thumb-f0310d831ddb2231ca633487b293ea1c-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/thumb-ce4baf5bb9ae2e7e61abcfea7b44ab82-dark-night.jpg
+  
 
 dependencies: ["nybt:essentials"]
 variants:

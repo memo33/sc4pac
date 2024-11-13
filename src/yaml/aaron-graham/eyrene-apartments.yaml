@@ -13,6 +13,14 @@ info:
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/27493-eyrene-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-44572f91ec83ddbbf4a1688c31f2c5c5-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-d3ba1c74f0fbf7d12475c169eb8fa1f0-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-d07a6d5380c5e7f82f0f7849bd9165a3-dark-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-fcc342cdcc4d78f840058180d7b954d8-eyrene-apartments-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-3d05a3c2ae17ca07c254a66edb7c4be9-eyrene-apartments-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-ce5e27c090f5d8693a77a48a8a1b35e0-eyrene-apartments-dark-night.jpg
+  
 
 variants:
   - variant: { nightmode: dark }

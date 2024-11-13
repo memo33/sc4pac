@@ -10,6 +10,13 @@ info:
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/26470-nybt-beck-arms/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/thumb-47692408d2c836e96225c52b7f9fdf98-nybt%20beck%20arms%20day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/thumb-053138d889fd7cedbaef9e82d896dd4d-nybt%20beck%20arms%20night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/thumb-a9d01da9b4a39817d799c0d3b52f7d9e-nybt%20beck%20arms%20pic01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/thumb-5ef8601ee946ebe46f71c66b3d847b98-nybt%20beck%20arms%20pic02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/thumb-6299607ac88ac98300b327425c3737f9-monthly_07_2011_a94cab544665f17893905d4955d58e87-nybt%20beck%20arms%20pic03.jpg
+  
 
 dependencies: ["nybt:essentials"]
 variants:

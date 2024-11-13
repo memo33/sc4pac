@@ -10,6 +10,12 @@ info:
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28340-nybt-915-west-end-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/thumb-e8bd2d1d69e66c026412cf8010d97f15-915-west-end-avenue-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/thumb-7be458b088cf9a2aeb35e2fba50a0af0-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/thumb-2f9995b1a3d2b254ce2b36b87e6171b0-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/thumb-529ac6cc41a8efae56752a79996346f3-dark-night.jpg
+  
 
 dependencies: ["nybt:essentials"]
 variants:

@@ -10,6 +10,12 @@ info:
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/29031-nybt-townsley/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/thumb-ec647985a373466a4c8b98f1f915053f-townsley-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/thumb-e4a107addc865b17960e609950e5139e-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/thumb-900030080ad32bf2740fbfd0f9edc510-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/thumb-ce5200e44891b078f6d2e4a7280e1275-dark-night.jpg
+  
 
 dependencies: ["nybt:essentials"]
 variants:

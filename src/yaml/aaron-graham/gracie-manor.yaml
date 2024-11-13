@@ -10,6 +10,14 @@ info:
     It is a (W2W) wall-to-wall non-corner building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28981-nybt-gracie-manor/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/57f6d7aa0b8c7_GracieManorMainPicture.thumb.png.02c0e16bdda795d6d5ae0e1f5f6b376c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/Day.thumb.jpg.11f71e5a8391d97c85662117ab21e647.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/57f6d7aa32a4e_MaxisNight.thumb.jpg.e4ae6a7d894ba4184e2611cb5c627c78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/57f6d7aa3efc0_DarkNight.thumb.jpg.7b2c5b71c7ff17c6833342affe22ec41.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/57f6d7aa57d01_GracieManorVariations.thumb.jpg.dc3c17debae5ad57782a91cdb9da3cdb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/57f6d7aa6c1c5_GracieManorStats.thumb.jpg.dd21d0cb79fe8a373022feeb0e3607a7.jpg
+  
 
 dependencies:
 - "nybt:essentials"

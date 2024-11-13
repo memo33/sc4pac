@@ -10,6 +10,12 @@ info:
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28949-nybt-1225-morris-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/thumb-46db947a1bd9db5fc28a34d98b145328-1225-morris-avenue-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/thumb-71411da9e8f19de6a842be09ea59e065-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/thumb-53015ed865631753a10a1540c2a394ef-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/thumb-883696391c8d48ebd1d418d081314916-dark-night.jpg
+  
 
 dependencies: ["nybt:essentials"]
 variants:

@@ -10,6 +10,12 @@ info:
     There are eight variations in total: four corner buildings and four non-corner buildings, each with four different brick colors.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28321-nybt-walesbridge/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/thumb-6b24c5babf75d15c500ba8edde1018d7-nybt-walesbridge-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/thumb-33ce8174891e3151a4ccf1ab08b0f872-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/thumb-3f8b7ac67add1400720ef1e8948b3f6d-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/thumb-bc34708007bbd83c9cb242e8c7fbc92b-dark-night.jpg
+  
 
 dependencies: ["nybt:essentials"]
 variants:
