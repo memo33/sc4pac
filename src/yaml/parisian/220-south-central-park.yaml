@@ -1,0 +1,32 @@
+group: parisian
+name: 220-south-central-park
+version: "1.1.0"
+subfolder: 360-landmark
+info:
+  summary: 220 South Central Park
+  description: |
+    220 South Central Park, is a skyscraper in Midtown Manhattan on 58th W between 7th and 8th.
+    This building is part of the new skyline of New York (along with the Nordstrom in the same area).
+    This file contains only the tallest structure of the complex (including 2 buildings, one measuring 952ft (290m - 66floors) and another one smaller, located on the central park south lane, (not included in this file).
+  author: Parisian
+  website: https://community.simtropolis.com/files/file/30728-nybt-parisian-220-south-central-park/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/220_Central_Park_South7.thumb.png.e6b7ba7adff553e3c5af6545e6b6e623.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/220_Central_Park_South2.thumb.png.64cbf0b9d11345cca80ee55cf54fac9c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/200_South_Central_Park2.thumb.png.61172ab2e4b16ebb6c36cd4061e26fcc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/200_South_Central_Park.thumb.png.ebc75c9709c624cc66de9eec401d6e80.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/200_South_Central_Park3.thumb.png.c056d1a1d68226ea4984199f87885bc7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_08/200_South_Central_Park4.thumb.png.6873e70fdd8ada04def0419953e18384.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62e3c57f35bc6_NYBTParisian220CentralParkSouthv1-d.thumb.jpg.7327b109948eec2e90360c0e228cbd7b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62e3c57fe419f_NYBTParisian220CentralParkSouthv1-n.thumb.jpg.45585309c8619f0899e8a1854b26f4e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62e3c5804bbf3_NYBTParisian220CentralParkSouthv2-d.thumb.jpg.35bfad42de36ab34e6686f8e780b9919.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62e3c580c6daf_NYBTParisian220CentralParkSouthv2-n.thumb.jpg.c648e91e12a479be487bd9ff1c187406.jpg
+
+assets:
+- assetId: parisian-220-south-central-park-v2
+
+---
+assetId: parisian-220-south-central-park-v2
+version: "1.1.0"
+lastModified: "2022-07-29T11:33:14Z"
+url: https://community.simtropolis.com/files/file/30728-nybt-parisian-220-south-central-park/?do=download&r=194844
