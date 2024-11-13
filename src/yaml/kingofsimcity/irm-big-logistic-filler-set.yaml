@@ -1,0 +1,43 @@
+group: kingofsimcity
+name: irm-big-logistic-filler-set
+version: "1.00"
+subfolder: 400-industrial
+info:
+  summary: Industrial Revolution Mod - Big Logistic Filler Set
+  description: |
+    This is a set of larger, prefab filler lots for dirty, manufacturing, and hi-tech industry which seek to expand logistic support for your industries.
+    The set was designed with IRM in mind and as such, utilizes matching bases and walls from that of T Wrecks' original release.
+
+    This package contains a set of 15 large prefab lots: 5 for dirty, manufacturing and hi-tech industry respectively. There are 3 dedicated transit-enabled entrances.
+    The rest of the lots are dedicated to large blocks of parked semis and trailers, with 45 degree parking for semi trucks and 22.5 degree parking for trailers only.
+    All of the lots are also available in a mirrored configuration.
+    Lot stats are designed to match the original IRM fillers as closely as possible.
+
+    Positioning indicators are present to help with lot placement and alignment. Every lot is practically neutral, with negligible amounts of pollution, no power/water consumption and cost nothing to maintain.
+    It takes §5 to bulldoze a lot and they are also extremely cheap to plop. Due to the lots being of considerable size, the plop costs have been doubled respectively (§10 for I-D, §12 for I-M, §14 for I-HT).
+    The lots are located in the landmarks menu and are positioned just after the originals.
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/32413-industrial-revolution-mod-big-logistic-filler-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/splash.thumb.jpg.b63b13606d54fc242ec7035896fe72c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/detail_1.thumb.jpg.e5f6df71d721007c5b166b6d90d541d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/lots.thumb.jpg.2687cc2db242c7e6440e1c7f0cc6d682.jpg
+
+dependencies:
+  - kingofsimcity:logistics-essentials
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol02
+  - sfbt:essentials
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: kingofsimcity-irm-big-logistic-filler-set
+
+---
+assetId: kingofsimcity-irm-big-logistic-filler-set
+version: "1.00"
+lastModified: "2018-08-15T03:08:18Z"
+url: https://community.simtropolis.com/files/file/32413-industrial-revolution-mod-big-logistic-filler-set/?do=download

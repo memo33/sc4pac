@@ -1,0 +1,45 @@
+group: kingofsimcity
+name: irm-logistic-filler-set-1
+version: "1.00"
+subfolder: 400-industrial
+info:
+  summary: Industrial Revolution Mod - Logistic Filler Set 1
+  description: |
+    This is a set of ploppable filler lots for dirty, manufacturing, and hi-tech industry which are designed to add some logistic support to your industrial areas.
+    The set was designed with IRM in mind and as such, utilizes matching bases and walls from that of the original releases.
+
+    This package contains a set of 15 filler lots: 5 for dirty, manufacturing and hi-tech industrial areas.
+    All the lots have props that are highly randomized.
+    Parked trailers and semi cabs will show up in many different sizes and forms and sometimes not even at all.
+
+    Lot stats are designed to match the original IRM fillers as closely as possible.
+    This includes positioning indicators to help you align the lots with respect to other things around it.
+    Every lot is nearly neutral, with negligible amounts of pollution, no power/water consumption and are maintenance free.
+    All lots are $5 to bulldoze and are extremely cheap to plop ($5 for I-D, $6 for I-M, $7 for I-HT).
+
+    The lots are located in the landmarks menu and clumped together with the original filler sets.
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/31590-industrial-revolution-mod-logistic-filler-set-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/splash.thumb.jpg.62d2e57d59dbb42b848f63f2d969e5ab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/tiles.thumb.jpg.16d316d3c0e8bc6d377c131cf354dd0d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/detail_1.thumb.jpg.f262a450594bbd3341732d0d9dc3c26c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/detail_2.thumb.jpg.fc07a2e45b9ae21f51e30b4c73638491.jpg
+
+dependencies:
+  - kingofsimcity:logistics-essentials
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - sfbt:essentials
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: kingofsimcity-irm-logistic-filler-set-1
+
+---
+assetId: kingofsimcity-irm-logistic-filler-set-1
+version: "1.00"
+lastModified: "2017-04-27T02:23:36Z"
+url: https://community.simtropolis.com/files/file/31590-industrial-revolution-mod-logistic-filler-set-1/?do=download
