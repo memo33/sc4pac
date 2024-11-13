@@ -1,0 +1,32 @@
+group: dmscopio
+name: soccer-city-stadium
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Soccer City Stadium
+  description: |
+    First National Bank Stadium or simply FNB Stadium, also known as Soccer City and The Calabash, is a stadium located in Nasrec, the Soweto area of Johannesburg, South Africa.
+    Designed as the main association football stadium for the World Cup, the FNB Stadium became the largest stadium in Africa with a capacity of 94,736. 
+    
+    Statistics
+    Lot size: 18 x 18
+    Cost: Free
+  author: DmScopio
+  website: https://community.simtropolis.com/files/file/28813-soccer-city-stadium-by-dmscopio
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/thumb-7182495203dcae06e9685f124330b09b-soccer-city.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/thumb-a73d1c07d4aa7869d03de70a8ee75e02-bangara-16-jan--711372331034.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/thumb-53916158c22809fa72e5180f1b6b2496-bangara-2-mar--711372331061.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2013/thumb-64f74ae3f49471fdba43140c8710dd8e-soccer_city_in_johannesburg.jpg
+
+dependencies:
+  - bsc:textures-vol01
+
+assets:
+- assetId: dmscopio-soccer-city-stadium-by-dmscopio
+
+---
+assetId: dmscopio-soccer-city-stadium-by-dmscopio
+version: "1.0"
+lastModified: "2013-06-27T11:25:13Z"
+url: https://community.simtropolis.com/files/file/28813-soccer-city-stadium-by-dmscopio?do=download
