@@ -23,7 +23,7 @@ dependencies:
   - bsc:textures-vol01
 
 assets:
-- assetId: dmscopio-soccer-city-stadium-by-dmscopio
+  - assetId: dmscopio-soccer-city-stadium-by-dmscopio
 
 ---
 assetId: dmscopio-soccer-city-stadium-by-dmscopio
