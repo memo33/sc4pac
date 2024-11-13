@@ -9,6 +9,11 @@ info:
     It provides 2700 jobs (CO$$$).
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31459-ventura-place-three/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/1.thumb.jpg.894b8cb1145e2a459ed6a3ff9ceee63f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/2.thumb.jpg.e57b74039ab2a0e731d55dd6576c5154.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/3.thumb.jpg.67a10de42d3926df95065286555a645f.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

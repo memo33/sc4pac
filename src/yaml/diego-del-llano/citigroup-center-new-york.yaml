@@ -13,6 +13,10 @@ info:
     The building is currently owned by Boston Properties, and in 2009, was renamed 601 Lexington Avenue.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32940-citigroup-center-new-york/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/5ceca4edba302_CG01.thumb.jpg.33d30619ac9ffe5033ac8d140b4bf519.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/5ceca4ee16a08_CG02.thumb.jpg.21cdcca7de075f5f3b121cc6b77841f1.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

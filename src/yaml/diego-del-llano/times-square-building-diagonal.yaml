@@ -16,6 +16,11 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/33171-times-square-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d6a87e346258_ROCHEST2.jpg.539046b6ef5fcf5007b1c5beacacc7c3.thumb.jpg.5c727475f98911f3e2c142693f5a326f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/1.thumb.jpg.1ccce8ff7bee1b58c2d1663956c20ade.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/ROCHEST.jpg.54b6512aed2d86a96783a8bb8af7a856.thumb.jpg.d22f91d28f428b727efb499183a30c86.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

@@ -11,6 +11,12 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30994-great-american-tower-at-queen-city-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/1.thumb.jpg.9be0ca1ea4af884822539b1b0908806d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/2.thumb.jpg.d42fad52683384dc87b5d5b73115e85e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/3.thumb.jpg.26b9824bf59daee831d831c3852a19c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/4.thumb.jpg.bc6fd403525d1527e728f8ed2802865a.jpg
+  
 
 assets:
   - assetId: diego-del-llano-great-american-tower-at-queen-city-square

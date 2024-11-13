@@ -11,6 +11,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32282-one-shell-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/07.thumb.jpg.ed91f72a4da3f9bcf8c1c9cd910b40b3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/06.thumb.jpg.9f6b9caa12b7bccf30f9799c8d5e7d51.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

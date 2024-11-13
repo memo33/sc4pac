@@ -13,6 +13,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/35589-lasalle-wacker-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_08/lassalle.thumb.JPG.c586ac6676f982730b30c3292615fb0b.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2023_08/64ceac4f849b3_LASALLE2.thumb.jpg.d5083c4b9f21a245b098b0ad21815d98.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

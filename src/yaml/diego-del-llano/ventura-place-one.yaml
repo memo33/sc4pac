@@ -9,6 +9,11 @@ info:
     It provides 2700 jobs (CS$$$).
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31457-ventura-place-one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/1.thumb.jpg.dbd5ad645d329d87057fcca486e8f3de.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/2.thumb.jpg.4bfed7eea1e197496980e4f5a0e39ee5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/3.thumb.jpg.bd9882b121a3a1f548e6ad7d075fb654.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

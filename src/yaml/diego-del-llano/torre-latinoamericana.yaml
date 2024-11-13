@@ -15,6 +15,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31986-torre-latinoamericana/
+  images:
+    - https://i.pinimg.com/originals/2d/ce/2c/2dce2c04194c551e5a6764fb147a5e6a.jpg
+    - https://i.pinimg.com/originals/c6/9f/3b/c69f3bd948b88faeffbeb80e209895dd.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

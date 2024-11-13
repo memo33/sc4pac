@@ -18,6 +18,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31795-torre-ejecutiva-pemex/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/1b/bd/08/1bbd08138a2d8a81723d7e37edbde19d.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/04/86/df/0486df1c40b5b70f55f5d6bf804c8b30.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

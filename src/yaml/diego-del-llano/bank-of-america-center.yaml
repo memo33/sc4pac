@@ -12,6 +12,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32782-555-california-street-bank-of-america-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/02.thumb.jpg.20cb1c36cd9e327f702bf4c60e7fcdee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5.thumb.jpg.960443f213c817824e2e23c0fba4dec3.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

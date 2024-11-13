@@ -15,6 +15,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31604-nelson-tower-450-fashion-ave/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/86/d4/ff/86d4ff3305c4c75667b39e27902ec9d8.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/86/4e/0b/864e0b8c27d881f735ff87aa7ea97b32.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

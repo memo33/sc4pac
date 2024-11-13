@@ -6,6 +6,11 @@ info:
   summary: The_H1 metropolitan services building from Mexico City
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31568-the_h1-hybrid-building-for-metropolitan-services-in-mexico-city/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/9e/3c/aa/9e3caa26860be03ae4f1a5c35c44e9c1.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/af/ef/77/afef7775e1fbb78a38644d0caf7b4a06.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/dc/ac/5e/dcac5ec3359f61621a12352f84f22748.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

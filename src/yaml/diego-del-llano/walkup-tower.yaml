@@ -9,6 +9,11 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32040-walkup-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/005.thumb.jpg.8fca397b6a6e74b6f9ff0bd3eac50339.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/006.thumb.jpg.a91c07998875037518b034a70ba34ce4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/004.thumb.jpg.e3fa89fed52512a17051124b06ab0d3b.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

@@ -9,6 +9,11 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32010-van-prooijen-trading/
+  images:
+    - https://i.pinimg.com/originals/d1/af/6d/d1af6dd6c13653b8ab21a3ae7af18984.jpg
+    - https://i.pinimg.com/originals/3e/68/b2/3e68b230ca793f4d022f9d11f0fc5f98.jpg
+    - https://i.pinimg.com/originals/4a/2c/2a/4a2c2a2dcfd939e365835702495dffd4.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

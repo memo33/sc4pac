@@ -19,6 +19,12 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30985-wells-fargo-center-denver/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/1.thumb.jpg.39e0eda5d58678363df7f98006f78918.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/2.thumb.jpg.67e5b1374edd8a10002e8b3cadd8e1e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/3.thumb.jpg.6e85b2fe8b12547f2030bed91278ad2c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/4.thumb.jpg.1b5e18ddef827a9e81358cbb9aa65ff0.jpg
+  
 
 assets:
   - assetId: diego-del-llano-wells-fargo-center-denver

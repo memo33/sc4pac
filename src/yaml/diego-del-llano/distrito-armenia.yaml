@@ -10,6 +10,10 @@ info:
   conflicts: Only DarkNite models exist for these buildings, so the same models are installed with either nightmode setting.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32547-distrito-armenia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/ARMENIA.thumb.jpg.421c2d536c0cee7ac9b6e7d5afbbf187.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bc25e051e34a_ARMENIA2.thumb.jpg.85d363f99c49eb4e81f4307cbf6d74b0.jpg
+  
 
 assets:
   - assetId: diego-del-llano-distrito-armenia-2000-darknite

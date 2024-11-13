@@ -9,6 +9,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32854-central-park-corporativo/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/01.thumb.jpg.bd7e9269121a6496023fc721f8c0a769.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/02.thumb.jpg.1eb337dd560a7e0fe68974e8d6642735.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

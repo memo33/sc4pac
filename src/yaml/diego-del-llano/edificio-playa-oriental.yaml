@@ -9,6 +9,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32676-edificio-playa-oriental/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/10.thumb.jpg.e30af0fe4828b662f8bcb98d7e63a477.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/12.thumb.jpg.8091710b7fed2feb82dee156e4e9f759.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

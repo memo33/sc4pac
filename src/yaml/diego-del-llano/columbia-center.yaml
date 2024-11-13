@@ -16,6 +16,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31870-columbia-center/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/1b/82/d0/1b82d0ea2031006795d9fdaa6573fa5d.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/e8/de/77/e8de770913730d6f672a787fa5a63d2e.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

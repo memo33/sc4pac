@@ -9,6 +9,11 @@ info:
     It provides 2700 jobs (CO$$$).
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31458-ventura-place-two/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/1.thumb.jpg.fff8854512edbc6bb1c57493276ed309.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/2.thumb.jpg.24118eb37ba13462d6c06ae436501b8a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/3.thumb.jpg.43b1a7aa0435e7913814cd5a514c7889.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

@@ -11,6 +11,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32323-water-tower-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/05.thumb.jpg.dafc351348866efdf473035a1952efa5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/03.thumb.jpg.5e36532070e61bdc44625ca18bb22e90.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

@@ -11,6 +11,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/35610-aldred-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/64f674e3969d4_ALDREDBUILDING.thumb.jpg.942c2b462effac1191579897aa3d1b06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/ALDRED.thumb.jpg.036bc8e171fdd06cde80b17be65fa571.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

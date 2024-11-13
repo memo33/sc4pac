@@ -9,6 +9,10 @@ info:
     At 180.7 m (593 ft), it is the tallest building in the city, and second tallest building in Missouri behind One Kansas City Place in Kansas City.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31470-one-metropolitan-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/01.thumb.jpg.a7e52938962e0eb663587111c9c6a924.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/05.thumb.jpg.a625662e884eeccd30fdd850272cbf64.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

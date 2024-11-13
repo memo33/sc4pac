@@ -12,6 +12,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32674-edificio-del-café/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/08.thumb.jpg.d23a53daefb6c81bcb69b44505af226e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/07.thumb.jpg.451e97b77719ea547c981ce239fc36fc.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

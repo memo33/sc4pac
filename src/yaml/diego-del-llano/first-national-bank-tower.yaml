@@ -17,6 +17,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31467-first-national-bank-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/1.thumb.jpg.5d0246ac3ce1554a815420d0ea9b7839.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/2.thumb.jpg.c2f82f8e6853439c86663e3bee81bfa0.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

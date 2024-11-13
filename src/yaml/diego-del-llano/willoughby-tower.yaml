@@ -17,6 +17,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/33149-willoughby-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/WILLOUGH.thumb.jpg.64878ecde7d0c56f88809cc5a3ecc174.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d75c342c940c_WILLOUGH2.thumb.jpg.a3a5e39437aac8bebefb0d3c369dd8d5.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

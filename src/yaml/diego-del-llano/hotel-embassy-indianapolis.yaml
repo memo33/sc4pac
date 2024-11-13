@@ -9,6 +9,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32937-hotel-embassy-indianapolis/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/INDIA03.thumb.jpg.cdb62ae4337332f06093365c795f29f9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/EMBASY.thumb.jpg.5080edec3ba9280281fe854d28db3e0b.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

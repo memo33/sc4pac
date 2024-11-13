@@ -19,6 +19,11 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31464-capella-tower-225-south-sixth/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/1.thumb.jpg.d60a84a791b5858ef64042b216495921.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/2.thumb.jpg.503f5271c9f7a72dd6c5d9301cc22baa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/3.thumb.jpg.33302e4ba7499aa5284573c10607b0ca.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

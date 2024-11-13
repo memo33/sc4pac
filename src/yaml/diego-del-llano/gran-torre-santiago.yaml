@@ -8,6 +8,10 @@ info:
     This landmark is a CO$$$ skyscraper from Santiago de Chile with a High-Tech style.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32962-gran-torre-santiago/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/COSTANERA.thumb.jpg.102cb73bab05826c087f05ed2b67fb72.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d040a9008950_COSTANERA2.thumb.jpg.1fc3ec968cabdd25caffddc7998f8f56.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

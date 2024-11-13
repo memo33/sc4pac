@@ -11,6 +11,14 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/1.thumb.jpg.f354e02ebb88b34481a9710dbe60bf5f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/2.thumb.jpg.0898b61fc1ea62b45109a5a22c43214a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/3.thumb.jpg.1617884aa9eca0eba1de4db7a05e0cfa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/4.thumb.jpg.627e285537a20796a6a31cf49a4ed513.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/6.thumb.jpg.74ae990763e65ef5413fe3a5575d4118.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/7.thumb.jpg.22056c09129590fd684b7fcc5e1e9e88.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

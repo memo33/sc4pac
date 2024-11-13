@@ -14,6 +14,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31516-commerzbank-tower/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/a8/05/08/a80508ba2672f1ed8405bf9c2ae33334.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/eb/31/dc/eb31dc32e512cbe8167b9c35b4426cbd.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

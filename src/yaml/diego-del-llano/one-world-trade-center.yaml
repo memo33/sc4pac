@@ -27,6 +27,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31913-one-world-trade-center/
+  images:
+    - https://i.pinimg.com/originals/f6/9d/e3/f69de31a925a3f1fde9d0c37cbd69051.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/ce/2e/9f/ce2e9f978bf59c928a79e365ec34c182.jpg
+  
 
 variants:
   - variant: { nightmode: standard }

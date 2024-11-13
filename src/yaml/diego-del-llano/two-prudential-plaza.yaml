@@ -16,6 +16,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/33081-two-prudential-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/01.thumb.jpg.d667a7205f254a2d480ce085f2c736a4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d50d2975b533_TWOPRUDENTIALPLAZA.thumb.jpg.8827f3f3c66c83ea5bbc35c7f59781c6.jpg
+  
 
 variants:
   - variant: { nightmode: standard }
