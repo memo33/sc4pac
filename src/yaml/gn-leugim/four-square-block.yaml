@@ -12,6 +12,9 @@ info:
   conflicts: "Incompatible with mods blocking Maxis lots"
   author: "Gn_Leugim"
   website: "https://community.simtropolis.com/files/file/36160-eblt-gnl-eha-four-square-block/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/65e66f59f29ec_GnLEHAFourSquareBlock_img.thumb.jpg.d95eabdc07af84bf148b0593c38ee63f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/65e66f5a20546_GnLEHAFourSquareBlock_img2.thumb.jpg.faad3dc79150d4bc41fbb007ae7456a8.jpg
 
 ---
 assetId: "gnl-eha-four-square-block"

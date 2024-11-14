@@ -14,6 +14,15 @@ info:
     It sits on a 1x2 lot with large overhang, and provides 240 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33165-diagonal-courthouse/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Courthouse.thumb.jpg.aa048780f9bc65c3761c2bfdf660553d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Courthouse1.thumb.jpg.bad72b6162c14f3253075a50f343a6bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CourtHouse1a.thumb.jpg.7d682d69b41cd501ef55c36e875fdf12.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CourtHouse1b.thumb.jpg.f9581b8f89d96d35913fe1ff7ee79ffc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CourtHouse1c.thumb.jpg.2572ee39d29ae022328502a7072d7cba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Courthouse2.thumb.jpg.606e15b5283a6afcb3abe2d699e6e6c1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Courthouse3.thumb.jpg.6cec35761714b7f4d5be3fed45e9a07a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Courthouse4.thumb.jpg.cb0df18e47bb36cd97660e9d10457384.jpg
 
 variants:
 - variant: { nightmode: standard }

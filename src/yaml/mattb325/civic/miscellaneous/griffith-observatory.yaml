@@ -20,6 +20,12 @@ info:
     tourism and has a positive landmark, park and mayor-rating effect.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/30905-griffith-observatory/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Griffith1.6.thumb.jpg.fea1e5b6170e640288b4d3bd7937c96c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Griffith1.5.thumb.jpg.5928307a553fee08dd1e0a3845478a7c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Griffith1.4.thumb.jpg.3ade3be65c502066b40aa2f91eb317a7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Griffith1.3.thumb.jpg.e13e727f18a2d32e1cdbd5761ca7ced6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Griffith1.2.thumb.jpg.1f3de826b3dfbd4ccba4a13c770bf4b7.jpg
 
 variants:
 - variant: { nightmode: standard }

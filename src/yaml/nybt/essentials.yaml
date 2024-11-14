@@ -10,6 +10,10 @@ info:
     and includes standard NYBT query windows for most common building types and a special 9/11 query.
   author: "Gwail, Aaron Graham, Kelis, NYBT"
   website: https://community.simtropolis.com/files/file/22916-nybt-essentials/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/thumb-27785ff263dc27633f16be7dad3cb162-nybt_essentials-main.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/thumb-799f60ab08af5d795cfbc035b9f4caf8-nybt_essentials-add1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/thumb-576e780e1acabd59fe9664b41d0516c0-nybt_essentials-add2.jpg
 
 assets:
   - assetId: nybt-essentials

@@ -10,6 +10,15 @@ info:
   summary: "Parking lot textures"
   author: "kingofsimcity, shokthrpy"
   website: "https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329151326_1.thumb.jpg.ced90517b4ebbbe6b9ca2c6ed3ff9890.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329151556_1.thumb.jpg.efb4e56fb6ba6f1e92717e1ea7796486.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329151435_1.thumb.jpg.17e13f660ccc1bf39b82a42eb982e5f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003153_1.thumb.jpg.0ba790fbedc8593307b4952d6d09d88b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003442_1.thumb.jpg.d037306259b9d53986d56c4583b27076.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003250_1.thumb.jpg.601b99192f2a674d3c0891c80ea06d2f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003229_1.thumb.jpg.dbd5dd44ce588e80150b0c3780aade2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003355_1.thumb.jpg.a886e004edfc3850d1c521303b9b445f.jpg
 
 ---
 assetId: "supershk-mega-parking-textures"
@@ -28,6 +37,11 @@ info:
   summary: "Fractional-angle parking lot textures"
   author: "kingofsimcity, shokthrpy"
   website: "https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/cheese.thumb.jpg.e910c6e07f5fea3668a6d8e9b1e31a30.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/20170101172454_1.thumb.jpg.a1f8535a8902869bbb3a9b043b169e73.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/20170101194239_1.thumb.jpg.9968fdd7979dd4c018d3045016e6bb03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/20170101172404_1.thumb.jpg.a9ba3f113e2f02dc1570c05a95f30a97.jpg
 
 ---
 assetId: "supershk-fa3-parking-textures"

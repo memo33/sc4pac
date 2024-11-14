@@ -30,6 +30,12 @@ info:
     neighborhood of South Minneapolis.
   author: "IDS2, SimCoug"
   website: "https://community.simtropolis.com/files/file/30647-minneapolis-house-set/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/thumby.thumb.png.09cba76f9e91afea12bffa61c6cccded.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/daypreview.thumb.jpg.d8339577779a44f78983bf86c3c60517.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/nightpreview.thumb.jpg.1f4ed742c7be5cf18f0b36f9e30b0ba6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/all32.thumb.jpg.c035bfbce0ee9574d1096ebe94557392.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/groupshot.thumb.png.033bf5e474449ae5e5c7e378b3504bdb.png
 
 ---
 assetId: "ids-houses-garages-darknite"

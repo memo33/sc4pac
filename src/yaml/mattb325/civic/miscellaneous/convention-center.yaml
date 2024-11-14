@@ -22,6 +22,15 @@ info:
     270,000 CO§§ and 270,000 CO§§§ jobs in the region.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/31882-convention-center/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ConventionCenter.thumb.jpg.0d854caa63bd8fc9c4c8801e80e2a24c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ConventionCenter1.thumb.jpg.cb78d14fa077163c281ad584ff87ab2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ConventionCenter2.thumb.jpg.728fd351b8c225162b6bc4af69f7cfd9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ConventionCenter3.thumb.jpg.5fb70ee22246e7a95b4e17cd7f3d75b3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ConventionCenter4.thumb.jpg.9f14ceeb804c9d6ed79ffcbc8a6d5c08.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ConventionCenter5.thumb.jpg.ade72e6e32a976e3ad1fc973761d88e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ConventionCenter6.thumb.jpg.539a862c4003ac14596de01bc3a3f424.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ConventionCenter7.thumb.jpg.6df10d6389e27d63b20df9bfc902f499.jpg
 
 variants:
 - variant: { nightmode: standard }

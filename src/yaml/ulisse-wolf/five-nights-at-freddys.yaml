@@ -21,6 +21,10 @@ info:
     The building is inspired by Five Nights at Freddy's and has been modded to include strange events and brutal murders by cute animatronics during the night.
   author: "Ulisse Wolf"
   website: "https://community.simtropolis.com/files/file/35635-ulisse-wolf-five-nights-at-freddys/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/651046745ce26_FNAFNight.thumb.jpg.613ced2e14815e2e27ed14e90bec3cce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/65104674e4c05_FNAFDay.thumb.jpg.cc4cbaef82c75429e38bcc92931972c4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/five-nights-at-freddys-group-i61034.thumb.jpg.2fd1b4b7d58ee56117b70f7e05cca3ad.jpg
 
 variants:
 - variant: { nightmode: standard }

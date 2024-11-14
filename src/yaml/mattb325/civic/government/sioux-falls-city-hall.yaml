@@ -15,6 +15,12 @@ info:
     It sits on a 4x4 lot and provides 65 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/34004-sioux-falls-city-hall/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SiouxFalls_CityHall.thumb.jpg.8bfdb64891b3a0d63c8b454c2874aefd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SiouxFalls_CityHall1.thumb.jpg.fd10f3641189feb8faf0dee166fef87a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SiouxFalls_CityHall2.thumb.jpg.a7eb33dcb7f386255a6cf9034675ad18.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SiouxFalls_CityHall2a.thumb.jpg.484925357bfbb991a80e8002ed033b97.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SiouxFalls_CityHall3.thumb.jpg.48bfc2fe438f32b6ecdaf590817179e5.jpg
 
 variants:
 - variant: { nightmode: standard }

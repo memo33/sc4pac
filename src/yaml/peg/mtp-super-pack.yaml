@@ -26,6 +26,8 @@ info:
   summary: "Mountain Theme Pack props and textures"
   author: "Pegasus"
   website: "https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2009/thumb-0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
 
 ---
 assetId: "peg-mtp-super-pack"

@@ -26,6 +26,11 @@ info:
     desirability in the surrounding radius.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33030-bass-hall-opera-house/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/BassHall.thumb.jpg.225518b999fa7db5c9fa6981dcff9642.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/BassHall1.thumb.jpg.9457a0e4f2c1921991cfa65946bcd49c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/BassHall3.thumb.jpg.b0bb92cb5b250ff5864ec8322119762f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/BassHall4.thumb.jpg.7bc1b0a0fa40f5050e9e08f0fb4337b3.jpg
 
 variants:
 - variant: { nightmode: standard }

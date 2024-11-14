@@ -22,6 +22,14 @@ info:
     holds 100,000 books and provides an EQ boost to all age groups.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33315-sunken-library/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary.thumb.jpg.4e9167e50563d6c13675f7d8c0f19112.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary1.thumb.jpg.a14c042dfcf34c639b04b28a57ef7f70.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary1a.thumb.jpg.ce37b079f7a921af936254f2f93c4847.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary2.thumb.jpg.6b1900e38bab1583906868fc09dc2ed3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary3.thumb.jpg.1d91a283f4d62161d322a534d92235ac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary4.thumb.jpg.71bb3a2b178a07cdd6bf27a992419e7b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary4a.thumb.jpg.278755704c879389f74deb2b7ca9f9ad.jpg
 
 variants:
 - variant: { nightmode: standard }

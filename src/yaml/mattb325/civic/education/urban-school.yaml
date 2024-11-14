@@ -33,6 +33,12 @@ info:
     It provides 390 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/31885-urban-school/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/UrbanSchool.thumb.jpg.19ec7bf1b6f07bca7294c7430239b1a4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/UrbanSchool1.thumb.jpg.63409c642086e7d5587d046ac2d38b65.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/UrbanSchool2.thumb.jpg.d55c0f7558d3d6846c77a2f7af2a33eb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/UrbanSchool3.thumb.jpg.4979435f815b91046c84a0876c6b9b4f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/UrbanSchool4.thumb.jpg.da3807e222f268e7ab14ab9ea45d24be.jpg
 
 variants:
 - variant: { nightmode: standard }

@@ -10,6 +10,9 @@ info:
     This supersedes Buildings-as-Props 1 and 2 as well as Plugin_landmarks_and_other_missing_Props.dat
   author: "T Wrecks"
   website: "https://community.simtropolis.com/files/file/22400-maxis-prop-names-and-query-fix/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2009/thumb-0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_1_BEFORE.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2009/thumb-0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_2_AFTER.jpg
 
 ---
 assetId: "t-wrecks-maxis-prop-names-and-query-fix"

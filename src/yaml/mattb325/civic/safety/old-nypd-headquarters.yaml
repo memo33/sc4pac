@@ -23,6 +23,15 @@ info:
     This is the orthogonal version, it sits on a 6x3 lot.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/32907-old-nypd-headquarters-new-york/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD.thumb.jpg.258353c0d98dc1d075b473fbe7c85104.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD1.thumb.jpg.f2f7d93e87ddfac2e632cf831dc936b8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD2.thumb.jpg.f59157d9a8984a86c759e1b19f3e5e7c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD3.thumb.jpg.ed29018d334fc9fd6bcc298bf4dc53d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD4.thumb.jpg.82b060dc3329cca5c50b6281f0ddda25.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD5.thumb.jpg.875af1105c05b22421ed3042d94fcdd9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD6.thumb.jpg.7271fbd2613717e05f02ee3cedc39fc6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD7.thumb.jpg.2a8120b434c9f0f4874b1d6804f7facf.jpg
 
 variants:
 - variant: { nightmode: standard }
@@ -70,6 +79,11 @@ info:
     This is a diagonal, overhanging version.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/32932-old-nypd-headquarters-diagonal-version/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD_Diag.thumb.jpg.8d86606d94661c5d6fe1563f91977aff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD_Diag0.thumb.jpg.d19674d24ed005956029aaea4749daef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD_Diag1.thumb.jpg.557dcb2eb395d2dc6a7db7b339711f13.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD_Diag2.thumb.jpg.8cc4b8e61bead861f87519222157f732.jpg
 
 variants:
 - variant: { nightmode: standard }

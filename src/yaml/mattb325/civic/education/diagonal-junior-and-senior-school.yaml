@@ -13,6 +13,16 @@ info:
     sims and has a wide coverage radius.  It provides 93 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33145-diagonal-junior-and-senior-school/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/DiagSchool.thumb.jpg.12b4ea58b4c14f6c026369875610bd18.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/DiagSchool0.thumb.jpg.840089fd658968337318c8edc63ac784.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/DiagSchool1.thumb.jpg.3ce4050f65cc819296f038e05c247655.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/DiagSchool2.thumb.jpg.d8a6406f3aa418d8d48e098f2067a209.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/DiagSchool3.thumb.jpg.7fa51af1989dd62b18b0a507d13bcf16.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/DiagSchool4.thumb.jpg.d9d3adb20847ed5a0af7553f06290177.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/DiagSchool5.thumb.jpg.bf4182e2230184bbb34b4bd6937e88fb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/DiagSchool6.thumb.jpg.6378cf2f118e2262cc5f7159e41827a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/DiagSchool7.thumb.jpg.3fb550cbc6f239a3633f6f3907d17bd1.jpg
 
 variants:
 - variant: { nightmode: standard }

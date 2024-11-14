@@ -29,6 +29,13 @@ info:
     to enable you to replicate the typical new england small town scene.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/34713-new-england-style-church/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch.thumb.jpg.a62eda5c549b537f514901814db51385.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch1.thumb.jpg.a0a5485f2955f4788f3e08c1cf0bbc58.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch2.thumb.jpg.41deb044e94da20ed708d2b99c75d717.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch3.thumb.jpg.c95ec9dc072b06a1e2671193f7c82c83.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch4.thumb.jpg.fb636d2222be817895d7b990708c777b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch5.thumb.jpg.4f81a654c87f95924d244a7fb4fc1c1c.jpg
 
 variants:
 - variant: { nightmode: standard }

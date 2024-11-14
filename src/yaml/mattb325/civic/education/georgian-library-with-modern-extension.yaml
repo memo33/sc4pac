@@ -14,6 +14,12 @@ info:
     holds 130,000 books and provides an EQ boost to all age groups.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33254-georgian-library-with-modern-extension/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library2.thumb.jpg.055caaaf0c6e6178eb73cf7d4896bc51.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library3.thumb.jpg.b7d737b1e6963330b1e5f9f847bc691b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library4.thumb.jpg.ebb675506b1eb5cdee5952b6596f15c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library5.thumb.jpg.9ddc4e216999bd9d996d67b854e06c38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library6.thumb.jpg.28aed21727d0aa60c5db93749afd4cae.jpg
 
 variants:
 - variant: { nightmode: standard }

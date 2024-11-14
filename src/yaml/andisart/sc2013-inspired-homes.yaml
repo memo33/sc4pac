@@ -6,6 +6,11 @@ info:
   summary: "Low-density residential homes inspired by SC2013"
   author: "AndisArt"
   website: "https://community.simtropolis.com/files/file/29329-sc2013-inspired-homes-pack/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/thumb-5222b22e32df8ab2dbd4de5024b7c912-header.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/thumb-5570eb36c894b6101b05e2ebfffd1c4b-preview_lots.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2014/thumb-9f21628348ef75f3c5280b4a3eefa006-ingame_nite2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/the_finalists.thumb.jpg.fddb43f3fa656ba2b797d8f3c3e35871.jpg
 
 variants:
 - variant: { nightmode: standard }

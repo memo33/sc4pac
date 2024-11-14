@@ -7,6 +7,8 @@ info:
   description: >
     Base and overlay textures for pavements, paths, parks, etc.
   website: "https://community.simtropolis.com/files/file/36297-scoty-textures-packs/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/img_tech_diff_2.thumb.jpg.e905ab00be9b239260bf0dc4563250b9.jpg
   author: "hugues aroux"
 assets:
 - assetId: "hugues-aroux-textures-pack"

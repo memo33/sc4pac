@@ -17,6 +17,13 @@ info:
     for 6,700 students.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33088-17th-st-washington-dc/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/17thSt.thumb.jpg.b8c3615b0788b737d421c23797d663a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/17thSt1.thumb.jpg.db1d63371bdb26a72f83645f7be6421d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/17thSt2.thumb.jpg.7a98e18ab6d798ab3e40a529cc2344af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/17thSt3.thumb.jpg.04eed7e025d36c0ff9f4637849181e3c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/17thSt3a.thumb.jpg.4b25d85d93b39e464e065d0e17865adb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/17thSt4.thumb.jpg.40ed87c0ee43efd7b59bc037ffbd592d.jpg
 
 variants:
 - variant: { nightmode: standard }

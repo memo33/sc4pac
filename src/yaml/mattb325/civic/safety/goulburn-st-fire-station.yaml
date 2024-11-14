@@ -13,6 +13,12 @@ info:
     The building provides 17 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33861-goulburn-st-fire-station/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/GoulburnSt.thumb.jpg.155ef84b30e9778af823bf8266774a7c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/GoulburnSt1.thumb.jpg.e4ec2d69e4fe47a81a77496c6d444ef6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/GoulburnSt2.thumb.jpg.b4abce60235fa2cc54f2c21d929eec20.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/GoulburnSt3.thumb.jpg.f0cfa65c8b8ab43693943c181cc16fff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/GoulburnSt4.thumb.jpg.079c7336f6efc3da7ca1a18c939fc71c.jpg
 
 variants:
 - variant: { nightmode: standard }

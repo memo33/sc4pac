@@ -31,6 +31,11 @@ info:
     Freight rail traffic is not supported.
   author: "Ulisse Wolf, MGB204/rsc204"
   website: "https://community.simtropolis.com/files/file/35036-hybrid-railway-hrw-subway-converter/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6249ffaa09f34_HRWGotthardv2placement.thumb.jpg.f90b7cdbb5a5ed16a3e359386fcc3daf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6249ffab08be5_HRWGotthardv1placement.thumb.jpg.a4a96e03df284d33f144a22b97085f43.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6249ffac09645_HRWSubwayConverter3.thumb.jpg.07fa47863977562637951254765b011e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6249ffacd701e_HRWSubwayConverter4.thumb.jpg.8c6f35e982ea3d4fd12dce9c633ca4ff.jpg
 
 ---
 assetId: "ulisse-wolf-hybrid-railway-subway-converter"

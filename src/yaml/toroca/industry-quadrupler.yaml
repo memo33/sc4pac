@@ -30,6 +30,9 @@ info:
     With the standard variant, the mod is not installed, but an empty placeholder package is installed instead.
   author: "toroca"
   website: "https://community.simtropolis.com/files/file/21293-industry-quadrupler/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/01-industry-quadrupler-main.thumb.jpg.3a858f3c0a4f900cf2f806fcee87441f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/02-industry-quadrupler-query.thumb.jpg.7ffde80ac6f70b63771278db71a4a1be.jpg
 
 ---
 assetId: "toroca-industry-quadrupler"

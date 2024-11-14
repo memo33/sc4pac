@@ -10,6 +10,9 @@ info:
   summary: "Wild West Shotgun House prop"
   author: "onlyplace4"
   website: "https://community.simtropolis.com/files/file/15321-wild-west-shotgun-house-growable/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2006/thumb-5eb65f0f947c5783361bb9a0c2c5667d-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2006/thumb-5eb65f0f947c5783361bb9a0c2c5667d-night.jpg
 
 ---
 assetId: "onlyplace4-wild-west-shotgun-house"

@@ -9,6 +9,8 @@ info:
   # Note that this is a remaster of Vol. 1 version 1 using different IDs. Therefore, some old lots may require the original.
   author: "north country dude"
   website: "https://community.simtropolis.com/files/file/22325-rail-yard-and-spur-mega-pak-1-version-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2009/thumb-4ac5ae665d14172b1bbc926d11bf8f0d-RailYard-Mega-102.jpg
 
 ---
 assetId: "ncd-rail-yard-and-spur-mega-pak"

@@ -17,6 +17,12 @@ info:
     This version is a high-capacity museum on a 6x2 lot, providing 235 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33016-national-geographic-society-headquarters/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NatGeo.thumb.jpg.1f0000ac7d1d485d93aacb9181ccb9cb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NatGeo1.thumb.jpg.a85153e88951f1a03283e488c60ee109.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NatGeo2.thumb.jpg.97a7bd303919cd828c99d438786b0030.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NatGeo3.thumb.jpg.3ae8040f7e66cccd2ee06ee5911664a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NatGeo4.thumb.jpg.8a11b0123b776c5946f774e6a07a13be.jpg
 
 variants:
 - variant: { nightmode: standard }

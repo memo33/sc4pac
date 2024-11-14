@@ -12,6 +12,13 @@ info:
     provides 245 civic jobs.  It is located in the health menu.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33211-diagonal-hospital/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagHospital.thumb.jpg.2abe1d172a8c55e12be633d0a0364715.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagHospital1.thumb.jpg.bbca475edfbf7b3f0594aae7b930ff3b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagHospital2.thumb.jpg.bd63ab502ee69958aca0a6680fb07300.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagHospital3.thumb.jpg.c7faf9f8afb1bb254ef6eef31866b256.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagHospital4.thumb.jpg.6cb8c3066b24e4eab84b2ed6df8497e1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagHospital5.thumb.jpg.90216183a5d93cc92b888693453860fc.jpg
 
 variants:
 - variant: { nightmode: standard }

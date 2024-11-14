@@ -22,6 +22,9 @@ info:
     Since field lots are not overgrown later, you can safely remove the blocker again later in order to get other farms.
   author: "IGC, FrankyFour, Andreas"
   website: "https://community.simtropolis.com/files/file/36174-sfbt-igc-and-frankyfour-vineyards/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Weinberge_01.thumb.jpg.f3a59be7068db12ffdb4bc2743a5e0ce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Weinberge_02.thumb.jpg.8ffb07eb28065a33417fa599761dfc70.jpg
 
 ---
 assetId: "sfbt-vineyards"
