@@ -1,4 +1,4 @@
-group: pegasus
+group: peg
 name: abyss-garbage-chute
 version: "2.05"
 subfolder: 500-utilities
@@ -19,12 +19,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2004/thumb-76dfbcf9da1a4cb3ef23be96d05017b1-product_image2.jpg
 
 dependencies:
-  - pegasus:cdk-rec-seawall-kit-vol-1
+  - peg:cdk-rec-seawall-kit-vol-1
 assets:
-  - assetId: pegasus-abyss-garbage-chute
+  - assetId: peg-abyss-garbage-chute
 
 ---
-assetId: pegasus-abyss-garbage-chute
+assetId: peg-abyss-garbage-chute
 version: "2.05"
 lastModified: "2004-10-29T00:57:14Z"
 url: https://community.simtropolis.com/files/file/4569-peg%C2%A0abyss-garbage-chute/?do=download
