@@ -1,0 +1,54 @@
+group: kingofsimcity
+name: sp-modular-parking-diagonal-set
+version: "1.2"
+subfolder: 700-transit
+info:
+  summary: SP Modular Parking - Diagonal Set
+  description: |
+
+    This is the 1st expansion pack of my SuperParking modular parking series, which is aimed towards creating even more realistic and crazy parking derivatives from the original SHK Parking Pack. This set covers diagonals - largely uncharted territory - by adding a plethora of new parking options for your cities including the ability to create fully-diagonal oriented parking lots. As if that wasn't enough, there's a wealth of different orthogonal transitions and connector pieces to combine with the base set for even more ridiculous combinations.
+
+    The set contains a set of 50 lots. There are 3 functional “parking garage” pieces, with Transit Enabled connections which are located in the Misc Transportation menu, and 47 cosmetic pieces located near the top of the Parks menu. All of the menus are grouped and color coded according to the specific type of parking, including A, B, and Joiner categories.
+
+    General Stats
+      - Entrances
+        - Plop Cost: $250
+        - Capacity: 1,000
+      - Cosmetic Pieces
+        - Plop Cost: $0 - $6
+
+    All of the cosmetic pieces are considered “neutral lots”, meaning they have pretty much no stats, come at no maintenance cost, and are not of any particular wealth. The detailing on these lots were kept minimal, as to ensure that MMPs can be used on them liberally.
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/30953-kosc-sp-modular-parking-diagonal-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/vol11.thumb.jpg.83e12c21b50aa7fa8ea7810c51963c9d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/splash.jpg.c4e06a77e6c2650cb0af2d988f79ae50.thumb.jpg.e5305712b37c565446eff36cb1c3b035.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160410234925_1.thumb.jpg.e87ae28907fc2a1dd74b2ec7dc45d99e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160410192433_1.thumb.jpg.fe7ae4492aa6b65d6f3d7ca1ba5188c8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160410193218_1.thumb.jpg.528fe52d6b7cfcd3c4b68cd5fdb593a5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160410193926_1.thumb.jpg.fdd36a6e907f1cbc9d416d69c580d848.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160410194651_1.thumb.jpg.cae5a574c12447dbdae41ff8fc09250d.jpg
+
+dependencies:
+  - supershk:mega-parking-textures
+  - shk:parking-pack
+  - peg:spot
+variants:
+- variant: { driveside: right }
+  assets:
+    - assetId: kingofsimcity-sp-modular-parking-diagonal-set-rhd
+- variant: { driveside: left }
+  assets:
+    - assetId: kingofsimcity-sp-modular-parking-diagonal-set-lhd
+
+---
+assetId: kingofsimcity-sp-modular-parking-diagonal-set-rhd
+version: "1.2"
+lastModified: "2016-04-11T07:09:38Z"
+url: https://community.simtropolis.com/files/file/30953-kosc-sp-modular-parking-diagonal-set/?do=download&r=161306
+
+---
+assetId: kingofsimcity-sp-modular-parking-diagonal-set-lhd
+version: "1.2"
+lastModified: "2016-04-11T07:09:38Z"
+url: https://community.simtropolis.com/files/file/30953-kosc-sp-modular-parking-diagonal-set/?do=download&r=161307
