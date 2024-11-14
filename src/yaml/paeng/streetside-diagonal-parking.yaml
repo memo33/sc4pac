@@ -23,10 +23,10 @@ dependencies:
   - shk:parking-pack
   - bsc:mega-props-sg-vol01
 assets:
-  - assetId: paeng-streetside-diagonal-parking-ssdp
+  - assetId: paeng-streetside-diagonal-parking
 
 ---
-assetId: paeng-streetside-diagonal-parking-ssdp
+assetId: paeng-streetside-diagonal-parking
 version: "1.0"
 lastModified: "2021-01-18T20:06:11Z"
 url: https://community.simtropolis.com/files/file/31162-paengs-streetside-diagonal-parking-ssdp/?do=download
