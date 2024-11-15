@@ -1,0 +1,42 @@
+group: scotty222
+name: toronto-dominion-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Toronto Dominion Tower
+  description: |
+    TD tower is located at 700 West Georgia Street in Downtown Vancouver, BC, Canada
+    The skyscraper stands at 127 m or 30 stories tall and was completed in 1972.
+    Included is a CO$$ Growable and Ploppable
+     
+    3x3 lot
+    1565 CO$$ jobs
+    Stage 8
+    Houston & Euro Tilesets
+  author: scotty222
+  website: https://community.simtropolis.com/files/file/28578-toronto-dominion-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/7b227dee7b798ae830fda63efddcd686-td.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/acb3bc5540317619387857ce13c5fda4-td2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/8b716f6b1ec47f200c05ed27395e91ac-td1.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+    - assetId: scotty222-toronto-dominion-tower-maxisnite
+- variant: { nightmode: dark }
+  dependencies: ["simfox:day-and-nite-mod"]
+  assets:
+    - assetId: scotty222-toronto-dominion-tower-darknite
+
+---
+assetId: scotty222-toronto-dominion-tower-maxisnite
+version: "1.0"
+lastModified: "2013-03-17T09:59:43Z"
+url: https://community.simtropolis.com/files/file/28578-toronto-dominion-tower/?do=download&r=113279
+
+---
+assetId: scotty222-toronto-dominion-tower-darknite
+version: "1.0"
+lastModified: "2013-03-17T09:59:43Z"
+url: https://community.simtropolis.com/files/file/28578-toronto-dominion-tower/?do=download&r=113280
