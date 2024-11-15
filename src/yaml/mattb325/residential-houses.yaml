@@ -1090,38 +1090,6 @@ variants:
 
 ---
 group: mattb325
-name: hotondo-homes-airlee-199
-version: "1.1"
-subfolder: 200-residential
-info:
-  summary: Hotondo Homes Airlee 199
-  description: 6 R$$ house models for small lots
-  author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
-
-dependencies:
-  - bsc:essentials
-  - bsc:bat-props-mattb325-vol02
-  - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-cp-vol01
-  - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
-  - bsc:mega-props-sg-vol01
-  - bsc:texturepack-cycledogg-vol01
-variants:
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: mattb325-residential-houses-maxisnite
-        include: ["/Hotondo Homes Airlee 199_MN/"]
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
-    assets:
-      - assetId: mattb325-residential-houses-darknite
-        include: ["/Hotondo Homes Airlee 199_DN/"]
-
----
-group: mattb325
 name: hillsboro
 version: "1.1"
 subfolder: 200-residential
