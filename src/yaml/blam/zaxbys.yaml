@@ -35,8 +35,8 @@ info:
   author: "MarcosMX"
   website: "https://community.simtropolis.com/files/file/16614-blam-zaxbys/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_08_2006/thumb-19efb8e559a646b3468dd4a9633d31c1-Stexpicday2.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_08_2006/thumb-19efb8e559a646b3468dd4a9633d31c1-Stexpicnight2.jpg
+    - https://www.simtropolis.com/objects/screens/0004/19efb8e559a646b3468dd4a9633d31c1-Stexpicday2.jpg
+    - https://www.simtropolis.com/objects/screens/0004/19efb8e559a646b3468dd4a9633d31c1-Stexpicnight2.jpg
 assets:
 - assetId: "blam-zaxbys"
   include:

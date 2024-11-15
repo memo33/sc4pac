@@ -13,11 +13,11 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33247-diagonal-library/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary.thumb.jpg.4909ce62974c73e8c96de502916bf75b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary1.thumb.jpg.d74b6f6d6d8d148d7be3e54bd8ae9520.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary2.thumb.jpg.87d5a0f5e78fb1e75873bd4612ac0c09.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary3.thumb.jpg.83b7afdbf922cee8287a04d1d3a424fe.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary4.thumb.jpg.125627bc196b63ce51bdabc9b8799051.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary.jpg.7a324fa14596134de970f2835c9ef70d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary1.jpg.f86da620c9b263ae97a77c16ed5fb5a7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary2.jpg.6fd2380f7c4751ebb2d2ae3bbd0901a5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary3.jpg.20580b9a818497b79d17bf001a2d5031.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary4.jpg.8991d41c2b6a1cb6e494daef35c80f8a.jpg
 
 variants:
 - variant: { nightmode: standard }

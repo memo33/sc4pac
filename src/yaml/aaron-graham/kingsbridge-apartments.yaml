@@ -11,12 +11,11 @@ info:
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/26394-nybt-kingsbridge-apartments/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_01_2012/thumb-11bf819defa1077526fcf16933b02bee-day.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_01_2012/thumb-b62b9f7140c7a9f383b2953848a1861b-night.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_01_2012/thumb-e3ace7c01bb9a02884cfbfca52046294-kingsbridge%20pic01.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_01_2012/thumb-4241a924926f20fbca77324dc6a82033-kingsbridge%20pic02.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_01_2012/thumb-f04361b504bde85a18a88105bc995986-monthly_07_2011_32c0d5f50ebfe09761a86743f4758a16-kingsbridge%20pic03.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/11bf819defa1077526fcf16933b02bee-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/b62b9f7140c7a9f383b2953848a1861b-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/e3ace7c01bb9a02884cfbfca52046294-kingsbridge%20pic01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/4241a924926f20fbca77324dc6a82033-kingsbridge%20pic02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/f04361b504bde85a18a88105bc995986-monthly_07_2011_32c0d5f50ebfe09761a86743f4758a16-kingsbridge%20pic03.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

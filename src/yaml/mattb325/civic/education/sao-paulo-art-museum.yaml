@@ -18,13 +18,13 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33035-sao-paulo-art-museum/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP.thumb.jpg.c6c4d65d564e4ac50ae9a3c4c6b39423.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP1.thumb.jpg.18f26650875aa67afeea8412baca1c2d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP2.thumb.jpg.73814adf89eed9596469e36ba64d3591.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP3.thumb.jpg.b9241e0bcef3dffe32160736328f9c2c.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP4.thumb.jpg.205a77e24fe4371505e082d4b268d5a9.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP5.thumb.jpg.3e96c339318312361f8864b4de3c1ab3.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP6.thumb.jpg.fde4ec145d7df07e1db75f849c1ba5b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP.jpg.f0daec4a900b6266838b863b7f695905.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP1.jpg.b9be10a8a48e84c340f8c4c005778092.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP2.jpg.fd7c33f0b16cea6585eb876cfa1a5c67.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP3.jpg.ede5a0d4cf0ef28f194ffa2baac2f28d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP4.jpg.7375d92bd279506bd5e901e61922091e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP5.jpg.aef9a5df660efc3a62f408b009815cce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP6.jpg.9be17a958fa0ad2817ee340319da3750.jpg
 
 variants:
 - variant: { nightmode: standard }

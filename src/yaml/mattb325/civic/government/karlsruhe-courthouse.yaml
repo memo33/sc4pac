@@ -22,11 +22,11 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/31920-karlsruhe-courthouse/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2017_08/Karlsruhe4.thumb.jpg.7ccff84ce9724fe508bbb55eec4ab53a.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_08/Karlsruhe3.thumb.jpg.ca36f403b2eaa4e0fd959e8d86bd68a1.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_08/Karlsruhe2.thumb.jpg.62bed33af3c0269543165e959beb609d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_08/Karlsruhe1.thumb.jpg.8b33bb4b11da0e3d298f34fbd3c68e63.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_08/Karlsruhe.thumb.jpg.2354d71fc32af017f6df3bf20baafab2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/Karlsruhe4.jpg.049278d5fc5a82279361aff34c90ba8f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/Karlsruhe3.jpg.5e52e744a5bb2edd9f1c29942a2e7a6c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/Karlsruhe2.jpg.c6ef2275da99ac838c0d095d8b5ad261.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/Karlsruhe1.jpg.9d90f347a4d2bf8f6f5c656cc16d7f55.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/Karlsruhe.jpg.5474a8b4911da18e43c71c6dbead3255.jpg
 
 variants:
 - variant: { nightmode: standard }

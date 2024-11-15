@@ -18,9 +18,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/35535-the-look-building/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2023_05/64755287a2a17_LOOKBUILDING.thumb.jpg.c5cfbfcbadb1dd413ec5402a2713c239.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2023_05/647552884f851_THELOOKBUILDING.thumb.jpg.6721735e899bd0492f5cfbf98986f2a0.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/64755217402ca_LOOKBUILDING.jpg.5f499bd4505a1f164d701fba2cfbf7a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/647552397273b_THELOOKBUILDING.jpg.b3f5221557480e227611b840eb703aa7.jpg
 
 variants:
   - variant: { nightmode: standard }

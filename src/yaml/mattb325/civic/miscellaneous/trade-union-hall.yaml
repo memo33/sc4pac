@@ -17,12 +17,12 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33160-trade-union-hall/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion.thumb.jpg.3abf0b8ccfe37adb4651c4f6a06eb46b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion1.thumb.jpg.cd1cb23173edc1fc673b293448fec4a8.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion2.thumb.jpg.ecb8d155f08bb034d63a4335960f4da7.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion3.thumb.jpg.dd6de1b8d86c0d4e3049f1eb63fa7002.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion4.thumb.jpg.953d54b15537675113158d66604b87e6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion5.thumb.jpg.83f057ba19ae984edbec8e85240be63e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion.jpg.a3450a5f92e2dce75bd1ed88af7c0010.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion1.jpg.d7cc3e77572e95c5996f2607ebd7885c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion2.jpg.d1cf83f426efea12f34ae4ab019ebb14.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion3.jpg.459491a154a59118676c03155b1048d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion4.jpg.587e2a579ff34a19eb335eb01c419d5b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/TradeUnion5.jpg.395833c1cf63f1487463ec40462c719f.jpg
 
 variants:
 - variant: { nightmode: standard }

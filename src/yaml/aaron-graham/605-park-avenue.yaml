@@ -11,11 +11,10 @@ info:
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28083-nybt-605-park-avenue/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-1955f53adefc594b708ac23f514c71e2-nybt-605-park-avenue-front-pic.png
-    - https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-23e556a22c54f5cca953fe2af3d69ce8-day.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-0178272787c6f8413c0c0e06dc5944bc-maxis-night.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-fa8787e13a52a6a847b6f358055bd2dd-dark-night.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/1955f53adefc594b708ac23f514c71e2-nybt-605-park-avenue-front-pic.png
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/23e556a22c54f5cca953fe2af3d69ce8-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/0178272787c6f8413c0c0e06dc5944bc-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/fa8787e13a52a6a847b6f358055bd2dd-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

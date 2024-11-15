@@ -22,12 +22,12 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33119-modern-police-station/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police.thumb.jpg.52ab8333f1332e3be499bd179ac59dbd.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police1.thumb.jpg.08db52353789a4f222adc76e06a699f1.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police2.thumb.jpg.2b79f89172b266ab4117f3508e99f395.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police3.thumb.jpg.103655c138343d969f966b3f52b0b00f.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police4.thumb.jpg.8ab95e99ce9d2fe51c7f2a941a4fb9c8.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police5.thumb.jpg.5b5a3259d631d40409fdea765cbfe6f1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police.jpg.b8498ef16213da54b954d2875d620a7f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police1.jpg.acb6d9be6959f92a74fca92f88e7bfbe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police2.jpg.aa7c0415cdaab5a0ca6c1ed3221749a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police3.jpg.043d133529132de72756d1945eeb1e47.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police4.jpg.e9711b4c9d04768ebc9cc36caa58eb3d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Police5.jpg.08edc95c4073c71064547da9a742a20e.jpg
 
 variants:
 - variant: { nightmode: standard }

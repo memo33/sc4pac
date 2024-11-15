@@ -16,10 +16,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31449-federal-center-chicago/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2017_02/1.thumb.jpg.ada0ee454941d3fc7e98c6a97c395ef6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_02/2.thumb.jpg.7c5772269d4cb7f6ee65a6f17cc7b5f0.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_02/3.thumb.jpg.7351a91f9c4a7c5679fbdd0c0ecbcdad.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/1.jpg.694675ae6444e21a7fdb3c148e3d5034.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/2.jpg.48b4339914c80f1ec668e71caa9c8ed8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/3.jpg.89e6d6b1241b7ae5779234a4389e58b0.jpg
 
 variants:
   - variant: { nightmode: standard }

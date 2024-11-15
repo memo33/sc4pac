@@ -14,9 +14,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32961-salesforce-tower/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_06/SALESFORCE.thumb.jpg.52389b84c8740b1faf94459e7a0816d6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d040a329f343_SALESFORCE2.thumb.jpg.c5ce9436f21090fd695648acef773911.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/SALESFORCE.jpg.a7a888e10bd6dec91fd6577a8f5eec04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d040a018d84a_SALESFORCE2.jpg.ede0055695ddacd53a55780798cf848e.jpg
 
 variants:
   - variant: { nightmode: standard }

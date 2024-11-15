@@ -27,12 +27,12 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33573-world-health-organisation-geneva/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO.thumb.jpg.7e6b076b341e44c0965f39fde56709c8.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO1.thumb.jpg.bed3015a1328852e894d2113701c94a6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO2.thumb.jpg.59d48fa9e3a28d5d78e4dca5df951ccc.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO3.thumb.jpg.a4444e72deec53355bcf705901d62635.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO4.thumb.jpg.bf3cda9fcef062f9aca00888c0269a40.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO5.thumb.jpg.1ab9e280299e9a468fdb5f7f3076c3f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO.jpg.08f0f447abfc3e2c9ec3dcd7dd4398f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO1.jpg.89c6d7e3611427f5a33fe6806ad3b41c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO2.jpg.b41b492bfb2ea4f67cf3b323aeea355c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO3.jpg.b815f878df9018d08e7194573c0d3931.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO4.jpg.1cdcf4b63623dc7c908b97f0b38dcd41.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/WHO5.jpg.b6eea35f90fb2d068a840b740fe01863.jpg
 
 variants:
 - variant: { nightmode: standard }

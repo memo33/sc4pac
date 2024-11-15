@@ -15,12 +15,12 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33012-city-college/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College.thumb.jpg.57f1c7bd8f2633f5736c5f426191ecb6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College1.thumb.jpg.5c6bd7c2ec31c5b4edb519831de1182b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College2.thumb.jpg.acc6b5f99d1fbbaedf1575a3740c73a4.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College3.thumb.jpg.dc609a9658f0eb3d1b86c91ce5dd7837.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College4.thumb.jpg.4945a47121320238bca30e1d8949b224.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College5.thumb.jpg.c718200f8319084af74785d76f3019ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College.jpg.505d5c2baf4d40d929275ad6ec9c6fc3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College1.jpg.fd688111964cf50a94d1f11d7969c85f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College2.jpg.606b3d79fdedf2932d4a15107f863270.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College3.jpg.0678f110f43b0fb00dc3735e9c58625e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College4.jpg.7ce9956868a3d68ec0dadeac091918df.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/City_College5.jpg.0a0d6d7b0c15ceca54201e6356e7640f.jpg
 
 variants:
 - variant: { nightmode: standard }

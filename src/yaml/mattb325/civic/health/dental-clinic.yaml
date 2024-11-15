@@ -17,9 +17,9 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/30940-dental-clinic/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2016_02/DentalSurgery.thumb.jpg.7347a2486ba9e4cf296be677289e2f7d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_02/DentalSurgery0.thumb.jpg.9829f25bc1e9b5eb9a1e833d7efe1b84.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_02/DentalSurgery1.thumb.jpg.c98aa3b90ac8c1819055c84874892f01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/DentalSurgery.jpg.795d71decd883036f8ffb18a84a848ba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/DentalSurgery0.jpg.456b26795cbe5080a4f8226de4add5c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/DentalSurgery1.jpg.8379c3ef53e8391cb414de4f0ce5c366.jpg
 
 variants:
 - variant: { nightmode: standard }

@@ -13,9 +13,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31490-aon-center/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2017_08/AON-Center-Preview-01.thumb.jpg.abd7da9165ce146d74d2cad4a9e1347a.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_08/AON-Center-Preview-02.thumb.jpg.795ea4ed572d72df3c2a963a2ed27cfe.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/AON-Center-Preview-01.jpg.de362ea601d21c86d9058f83590957c7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/AON-Center-Preview-02.jpg.50ccfd8d0cda969f6a2df83b4a8cbd71.jpg
 
 variants:
   - variant: { nightmode: standard }

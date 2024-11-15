@@ -13,9 +13,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31469-one-kansas-city-place/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2017_02/01.thumb.jpg.2ddbac213b0048c9413d97c9edd4bc61.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_02/05.thumb.jpg.18b19275d972fc325c3667f0ebbf193a.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/01.jpg.13eca5e2d4d63377d53c2cd55249facb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/05.jpg.91bb4016e4690f4237e47cc192c02674.jpg
 
 variants:
   - variant: { nightmode: standard }

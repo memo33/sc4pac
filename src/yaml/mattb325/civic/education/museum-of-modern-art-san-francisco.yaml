@@ -20,11 +20,11 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/31750-museum-of-modern-art-san-francisco/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2017_06/MOMA.thumb.jpg.326a1e3a3c5dd0608083bbb1e605d4a3.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_06/MOMA1.thumb.jpg.79441963a05400c2c134b5a198f271cd.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_06/MOMA2.thumb.jpg.19054466f7508f2cce21ac2e5ebf885e.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_06/MOMA3.thumb.jpg.464354896b82f1406cd400c098b53f0a.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_06/MOMA4.thumb.jpg.33d05a39e75635746678ca046ea1cc9d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/MOMA.jpg.a8fc7f963db2b1b861bad669abb9f64b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/MOMA1.jpg.fe2369e98d9dddc30a6443404a5c16d4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/MOMA2.jpg.b97e9a4d5d5a5bd4f3aec02661c7e588.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/MOMA3.jpg.c997323e27ed8cc1fd21af781d6c7720.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/MOMA4.jpg.a5dfc5aaa55f3f510d02df88722c816f.jpg
 
 variants:
 - variant: { nightmode: standard }

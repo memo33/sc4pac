@@ -21,11 +21,11 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33908-st-johns-church-washington-dc/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns.thumb.jpg.096905255521ae7e15d394026ac3b8ac.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns1.thumb.jpg.f85c5e2bb8729b2b2c9a2423ee528b99.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns2.thumb.jpg.6f05cf14a683bf2c026992686abb41a5.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns3.thumb.jpg.0b918df7393c26c73a06b5078f5580db.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns4.thumb.jpg.ab41af8e5303906af32d54129c316027.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns.jpg.35ee7930618ea206336e601f8e223c5d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns1.jpg.280d5d70c898060feb2b65092bd39c7b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns2.jpg.43a811b1b6d5083bb283281a255bd2a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns3.jpg.fef1a0cefaccfe7ae938f4eaa7e8a400.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns4.jpg.f15a7c785663ab4187b74cbce795f40e.jpg
 
 variants:
 - variant: { nightmode: standard }

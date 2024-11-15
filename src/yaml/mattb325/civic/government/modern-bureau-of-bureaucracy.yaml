@@ -23,12 +23,12 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33072-modern-bureau-of-bureaucracy/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB.thumb.jpg.b754304a4ba57ae67ed36392e9167bbf.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB1.thumb.jpg.c1b41390c2357849d8b50a8dd3856864.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB2.thumb.jpg.463ad1f276ffe4712434a6e63a16249d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB3.thumb.jpg.acc79d14406cc9ba5c4feaf92078306b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB4.thumb.jpg.578535bbd018545c773036677df75d19.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB5.thumb.jpg.f265fc1876ab5f12fa1e5082d5496750.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB.jpg.69408c9d11f4f2a8024af8e3e077e97a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB1.jpg.01ce30f50335c9ef92fd299ab5b89eec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB2.jpg.b6f1cf8b3d1befe766c8222e0d565f29.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB3.jpg.c96097ded744353a31c918d021254fb2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB4.jpg.ced7edb5ceea5a1ab0cd50ddee5d8d38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB5.jpg.af5e786ee42c539de2605aaae6796c9b.jpg
 
 variants:
 - variant: { nightmode: standard }

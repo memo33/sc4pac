@@ -9,9 +9,9 @@ info:
   author: "Cyclone Boom"
   website: "https://community.simtropolis.com/files/file/32812-save-warning/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_03/SaveWarning-00_Logo.thumb.png.d140fea2764a9c8e68e4417ac0aa5a39.png
-    - https://www.simtropolis.com/objects/screens/monthly_2019_03/SaveWarning-01_Disable_Exit_Quit.thumb.png.2b3f3044ffadd13118a71256c6c18d02.png
-    - https://www.simtropolis.com/objects/screens/monthly_2019_03/SaveWarning-02_Message_Button.thumb.png.a8f1ce703d24c4b5e8a43cf472a1efd6.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/SaveWarning-00_Logo.png.ca723c022fbd39231cd060f331cfe52a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/SaveWarning-01_Disable_Exit_Quit.png.a1ef4659e908e0405a1f1105f1882485.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/SaveWarning-02_Message_Button.png.e3bb392690cdff70a64d2ae2af00092c.png
 
 ---
 assetId: "cyclone-boom-save-warning-disable-exit-quit"

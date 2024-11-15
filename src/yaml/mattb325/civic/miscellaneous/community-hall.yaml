@@ -20,11 +20,11 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/34568-community-hall/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2021_07/CommunityHall.thumb.jpg.9a0d66c4f231ea127945d8c4c94bac89.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_07/CommunityHall1.thumb.jpg.c941779d66e0ccb57645b428e1160be6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_07/CommunityHall2.thumb.jpg.7773405e35965e9c24c90af72efeccf0.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_07/CommunityHall3.thumb.jpg.c3fb0d812baa691473909e714a4f8aa1.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_07/CommunityHall4.thumb.jpg.eea1f80b29c19e6696b3f5d9682a06c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/CommunityHall.jpg.10ad719b4a5448552cd9815e1fa165a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/CommunityHall1.jpg.c6b616cf8812c7ca29253a858c8d85d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/CommunityHall2.jpg.5b27d43a42a9ab4eeac3a64e44b23bdc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/CommunityHall3.jpg.e907dafef2c2b97512d84b4bab0f0bcc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/CommunityHall4.jpg.7eb154b3887b8ec3116171670b69944f.jpg
 
 variants:
 - variant: { nightmode: standard }

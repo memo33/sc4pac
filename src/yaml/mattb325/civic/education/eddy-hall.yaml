@@ -23,11 +23,11 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/31618-eddy-hall-minnesota/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy_Main.thumb.jpg.1f6f1cae46cdff02a5d9a39dfe7ee107.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy1.thumb.jpg.02675278286cdb48f01890712d4e4f77.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy2.thumb.jpg.130923266b5c9c33dcf4042eedfd63b3.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy3.thumb.jpg.28b7c93379059b5fdfe3d5f428ab6e0d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_05/EddyNite.thumb.jpg.3db6b838345fb20284b4ee6f1055ad74.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy_Main.jpg.e2e794def7bade90734e9e3f5eae2c47.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy1.jpg.951e28aa7b86dfcb78c859cfe5fd23d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy2.jpg.0309006b783e1c6c92fcce876084098e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Eddy3.jpg.bf952886432972605af30de04686d16d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/EddyNite.jpg.18b58580405b836a1b3869087c07ad02.jpg
 
 variants:
 - variant: { nightmode: standard }

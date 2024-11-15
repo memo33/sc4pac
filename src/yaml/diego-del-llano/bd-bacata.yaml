@@ -13,10 +13,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32963-bd-bacata/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_06/BDBACATA.thumb.jpg.5beaf8cd25cad9a9a39a9db223b0c1ca.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_06/BDBACATASUR.thumb.jpg.c7a543ec4562f2729826d1de549c71fd.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d0411cc5fd99_BDBACATA5.thumb.jpg.25e9c705876fee64f87697948b1fc603.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/BDBACATA.jpg.d0cbbb6f0a67a8fbc4a955d8c7269646.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/BDBACATASUR.jpg.7577fd620e879cb0f111c1b5cec9900d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d0411c8cc630_BDBACATA5.jpg.b3c91e0267c7d4dff91d5d5a4a370ca3.jpg
 
 variants:
   - variant: { nightmode: standard }

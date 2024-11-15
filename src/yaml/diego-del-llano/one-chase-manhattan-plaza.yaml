@@ -14,9 +14,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32975-one-chase-manhattan-plaza/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ONECHASE.thumb.jpg.b85c690c67911755eb4edfd9ad558c9a.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d12e688ce6a8_ONECHASE2.thumb.jpg.4e865e1c56c7b2000bf0e4b25067159c.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ONECHASE.jpg.7ace2fb0c823833e5910bbf747b633ef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d12e61e752e2_ONECHASE2.jpg.55e924e5a627c1802e0d6c3db8b30802.jpg
 
 variants:
   - variant: { nightmode: standard }

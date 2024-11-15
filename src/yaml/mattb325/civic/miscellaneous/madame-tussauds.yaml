@@ -23,12 +23,12 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33039-madame-tussauds-hollywood/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds.thumb.jpg.a12f2e84c60498da98aafadeb61be239.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds1.thumb.jpg.2cb48d453d64627d96a091d31d4960f2.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds2.thumb.jpg.f4deac4927714f1a3c6a36e2947b980c.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds3.thumb.jpg.c29f018297592b8f542e418bc9da0cfb.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds4.thumb.jpg.a53fe918afbdc91f535f220193d674b5.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds5.thumb.jpg.f41355a24bd685167b187b12a26ac19d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds.jpg.7d0dddca8d36fd46c034ffe23ba26e22.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds1.jpg.b0bb8ed164f8c7068b6c236d7b16016f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds2.jpg.314768565b2331c23bb779e96f15a8ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds3.jpg.07d05327c15eca637b5435189c356522.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds4.jpg.577404804c2af1bdf8434fa85dcb457b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MdmeTussauds5.jpg.3a6df9ed5c79812846a1bfaa667be886.jpg
 
 variants:
 - variant: { nightmode: standard }

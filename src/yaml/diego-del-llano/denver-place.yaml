@@ -28,7 +28,6 @@ info:
   images:
     - https://s-media-cache-ak0.pinimg.com/originals/bc/b1/4a/bcb14aab97c19e87e285612aeeae38a7.jpg
     - https://s-media-cache-ak0.pinimg.com/originals/b5/4b/e1/b54be161788012e55e964008dae2d780.jpg
-  
 
 variants:
   - variant: { nightmode: standard }

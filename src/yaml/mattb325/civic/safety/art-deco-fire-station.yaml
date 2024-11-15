@@ -16,12 +16,12 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/34390-art-deco-fire-station/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire.thumb.jpg.d26a8e0d04c7589f265526ca9d0bcf06.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire1.thumb.jpg.b7fcc3db6d210f67345872af58666080.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire2.thumb.jpg.efeb4847e4fedf5ddde76ce90eef9c4d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire3.thumb.jpg.23de8d8bc97b541e0efdf86ed5124fa8.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire4.thumb.jpg.91eb1979c8c4205696c339c93aeeaab3.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire5.thumb.jpg.7ec936d88413e3aa3689e3b888cf27d5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire.jpg.072706247a6fbba9b049eb10188ac834.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire1.jpg.1ab547f7997ab8634d37df2e1786b740.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire2.jpg.7d1fb40de819f90e8b558f935a4391e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire3.jpg.598885b97189c74462c1e2c89ff80d29.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire4.jpg.8abb35d4e1a01e9d072d5777ff139da2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/ArtDecoFire5.jpg.1c63fc48c978a81fcdfb7fbd1169d0c6.jpg
 
 variants:
 - variant: { nightmode: standard }

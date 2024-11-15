@@ -10,10 +10,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32101-pedriana-pharmaceuticals/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a73376126420_PEDRIANA04.thumb.jpg.767defe349aa14b83ea76f7c5d5e8e1d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a733761a5acd_PEDRIANA06.thumb.jpg.482de1f942424a73f97ee1867c166f09.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a733761f1422_PEDRIANA05.thumb.jpg.028e8e317de1bcbd19c708cdb8c98c25.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a7336e9e1781_PEDRIANA04.jpg.dc9d298e974685c0bb74f53b33ee7070.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a7336fcf119a_PEDRIANA06.jpg.dde1219412828d9b8a1646c9eeba9376.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a733714dc078_PEDRIANA05.jpg.9698ca6d5f52e7e963bc5fa094b903fd.jpg
 
 variants:
   - variant: { nightmode: standard }

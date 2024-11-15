@@ -15,13 +15,13 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33276-galaxy-casino-hotel/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino.thumb.jpg.7334d1bc8230db830ac952211b49d6c3.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino1.thumb.jpg.a7dac9ea9c99b5ae00b705e25b0f11f4.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino2.thumb.jpg.1a23a0b5e0eeceb4040586078e6b1327.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino3.thumb.jpg.417b7a8f1bccdd2061b3119b99a5fcb9.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino4.thumb.jpg.c4345c83852a649c66a85e1f06525540.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino5.thumb.jpg.603985cec99e797ffbedf1178ebd4170.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino6.thumb.jpg.a4707b65bd78135b99752d12708914e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino.jpg.4fd069f58ef472fc7c61cde1cb8896f1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino1.jpg.fccb1cce3db4be14a701060d618cb51b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino2.jpg.9c10d34ce24e6a1446c2d86e90e359ef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino3.jpg.3cb3c02993eefb4dbfbefc1de4a18b8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino4.jpg.0a496c38180d80b5e233369088f220d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino5.jpg.65dfba14d10ac6cf297efcc1b520e2af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/Casino6.jpg.944b860a1541d24f6d3f916189012964.jpg
 
 variants:
 - variant: { nightmode: standard }

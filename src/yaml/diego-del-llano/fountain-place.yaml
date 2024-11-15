@@ -12,10 +12,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31088-fountain-place/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2016_05/1.thumb.jpg.3479c9076f89d6a749aae03ae5cbc51c.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_05/2.thumb.jpg.64b30e7133375c651a6277a4eebcd59f.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_05/3.thumb.jpg.04ed45b2d3b173efbc69ab85a29e91b4.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/1.jpg.f3eeb277e1db71a4cb235dc741382423.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/2.jpg.4cf93cc2617f8258be548006bacfd6cb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/3.jpg.f0b6e5f0e5a0e25a338b517acffdd19e.jpg
 
 variants:
   - variant: { nightmode: standard }

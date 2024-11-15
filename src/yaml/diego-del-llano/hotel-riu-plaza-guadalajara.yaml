@@ -16,9 +16,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32677-hotel-riu-plaza-guadalajara/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2018_12/11.thumb.jpg.6f045461ce83c34b9df3be48ae6c692f.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2018_12/13.thumb.jpg.99f15f9a1ced6dcdbd32217389da2357.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/11.jpg.a42b3f4893feed28e5b494530413c82b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/13.jpg.ea9b00e321809d3028f6737fe4363a29.jpg
 
 variants:
   - variant: { nightmode: standard }

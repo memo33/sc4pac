@@ -10,9 +10,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32938-hotel-nikko-san-francisco/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NIKKO.thumb.jpg.09011d5c6348df6cdf52d0737e265a8e.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_05/5cec96db13ed0_NIKKOGRAND.thumb.jpg.7f4f74f1e7de55306a61f2a687b9d83d.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NIKKO.jpg.3ac47acd80d5261f6afbad74d2a844b5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/5cec96736f7db_NIKKOGRAND.jpg.80eeef1db44b3f13fc60419a448eaf83.jpg
 
 variants:
   - variant: { nightmode: standard }

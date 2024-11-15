@@ -11,9 +11,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32939-citigroup-center-los-angeles/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_05/04.thumb.jpg.101680e19efffe510fa33c6d5baff3b8.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_05/03.thumb.jpg.2f48a0f3c32c984029a9ce2257be4b36.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/04.jpg.0ccf3be61274967af772ca8b22d4d9c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/03.jpg.8e029150ad6adddd29748ca905f4aa25.jpg
 
 variants:
   - variant: { nightmode: standard }

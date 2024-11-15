@@ -14,7 +14,6 @@ info:
   images:
     - https://i.pinimg.com/originals/8a/bb/42/8abb4209cb2d4c9a68d8a45ede902175.jpg
     - https://i.pinimg.com/originals/49/ef/2f/49ef2f7b163f94412aa731a4dc67675d.jpg
-  
 
 variants:
   - variant: { nightmode: standard }

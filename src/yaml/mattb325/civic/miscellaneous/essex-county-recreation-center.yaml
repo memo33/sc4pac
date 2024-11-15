@@ -21,12 +21,12 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33541-essex-county-recreation-center/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex.thumb.jpg.0425e5bd59f1e817a56261e17317e593.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex1.thumb.jpg.68a237c7e642c01557d7fe74380ebc69.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex2.thumb.jpg.00856c7b3d6986edf17745b8d828c472.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex3.thumb.jpg.2b2030e05e8aee0ed1f531b90e3b96bb.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex4.thumb.jpg.f676227cd517e73de70c2d85bea98206.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex5.thumb.jpg.54fb87463ffa6962cd4c038948499f48.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex.jpg.e9ac6c3f8ddfc3eb5e6f32b428b075d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex1.jpg.84cb131197c3bb864a44891b329ebe6a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex2.jpg.18f0455b2e7f6c94abb7ea6aaf03c814.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex3.jpg.ea4c1cccda661e3fe6b323524f50bcbd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex4.jpg.e2480c1022194f0177facdb7e169b6f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Essex5.jpg.2fa96eb228dee44a6c66cc198882b1f2.jpg
 
 variants:
 - variant: { nightmode: standard }

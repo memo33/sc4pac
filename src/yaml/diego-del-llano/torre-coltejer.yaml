@@ -12,9 +12,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32646-torre-coltejer/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2018_12/01.thumb.jpg.7b0592499b3fa2b40f06fb43687b3dd7.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2018_12/05.thumb.jpg.93226ca7d7326cb068c2c178b3a22ce1.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/01.jpg.00b99cf7e77bf74022fa5f1a105ffe25.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/05.jpg.04bf2dae4bd666799ea1cb15b9b0ffb5.jpg
 
 variants:
   - variant: { nightmode: standard }

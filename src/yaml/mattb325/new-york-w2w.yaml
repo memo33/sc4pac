@@ -14,22 +14,21 @@ info:
   author: "mattb325"
   website: https://community.simtropolis.com/files/file/33079-new-york-w2w-pack-vol01-maxis-nite-version/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC.thumb.jpg.01f44731e82edaa05bd233540f3d3faf.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC1.thumb.jpg.cb545ecaaace37cc818f79ab73486d93.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC2.thumb.jpg.afc6bce257f571213781439cdc509b1d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC3.thumb.jpg.ae6434cd19491cecf008eb6b448f327a.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC4.thumb.jpg.7e0a8417cc49bd7f0fef9d3d912d47f3.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC5.thumb.jpg.96335cf5a523d5a5d0a2e15bb745d5cf.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6.thumb.jpg.27e2c6f2c82c443ecfdb15ac9a631f59.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6a.thumb.jpg.0f8ded208dcfd92332267dd4037d7c04.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6b.thumb.jpg.d425edbe6d424b33622205c8ee595b6e.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6c.thumb.jpg.273a00dfb3694e58d84322f68ad3d7af.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6d.thumb.jpg.0f443858fd6cd9ade59e574ed8c6c054.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6e.thumb.jpg.84d7301016395d351c9461bcb6c0f085.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6f.thumb.jpg.1d222f45595110225920e50a79242206.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6g.thumb.jpg.e474e39a39a3cd46218adeb3f5cfa8cd.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC7_MN.thumb.jpg.b78f37d9a5098b63884f3a076265cbba.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC.jpg.5a1b4ceb470f11df7b6f1c0eab107f46.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC1.jpg.07c4381c56de62d2c2927af78f5e4307.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC2.jpg.1268a08913c0bda51135491a92eb96a5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC3.jpg.8c8f3226802130ed85e0e57b59ecad6c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC4.jpg.183599f1402081da1d55c3f0b901b4e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC5.jpg.68fcaac85562005dc5d19430d5e832fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6.jpg.0390a1ef32c81c368dc07c40c1b4a40d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6a.jpg.9a4920c5c06743f1eaf00815a0fb6bf9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6b.jpg.630726f69b5d297498b8198bbe89758c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6c.jpg.e7fc791bc1883057a2733434a0ead2d4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6d.jpg.2d1027e4b246f8f52ff4cbd20dc7769a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6e.jpg.bbf097a66303319bc00923238fce02d6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6f.jpg.f2f8503f6913f7c2e95fbaec3420a5f3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC6g.jpg.020401af0faaa5def1e113d3ea90d462.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NYC7_MN.jpg.342808912ef5b42a7f76c6d3c2140bb1.jpg
 
 variants:
   - variant: { nightmode: standard }

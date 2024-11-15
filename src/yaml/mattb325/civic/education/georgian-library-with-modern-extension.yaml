@@ -15,11 +15,11 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33254-georgian-library-with-modern-extension/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library2.thumb.jpg.055caaaf0c6e6178eb73cf7d4896bc51.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library3.thumb.jpg.b7d737b1e6963330b1e5f9f847bc691b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library4.thumb.jpg.ebb675506b1eb5cdee5952b6596f15c6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library5.thumb.jpg.9ddc4e216999bd9d996d67b854e06c38.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library6.thumb.jpg.28aed21727d0aa60c5db93749afd4cae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library2.jpg.5fe7b377d18f5135b110c04b378a4d8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library3.jpg.0f373bb8bc4bdc3844acaf06c615ba8b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library4.jpg.94d1e5a68641b5de263cd4e9516662c7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library5.jpg.b68b6141781c70c554a9ecdd9583d784.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/Library6.jpg.11335ff098db17fad8ee6baac39d640c.jpg
 
 variants:
 - variant: { nightmode: standard }

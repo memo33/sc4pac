@@ -10,9 +10,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32540-torre-colseguros/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2018_10/SDFSF.thumb.jpg.2c712ac677b214cb7fc384c60ea34319.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2018_10/COLSEGUROS.thumb.jpg.b619f4e26b5d956e616b1b80e3fb9ad1.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/SDFSF.jpg.e94787c5e6db7e805419bcebd273f782.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/COLSEGUROS.jpg.0df741e795567faa9c5009343bef73b1.jpg
 
 variants:
   - variant: { nightmode: standard }

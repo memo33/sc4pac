@@ -13,7 +13,6 @@ info:
   images:
     - https://i.pinimg.com/originals/f5/9a/7e/f59a7e0c74abf446ccbd4f21c38c6031.jpg
     - https://i.pinimg.com/originals/d4/81/f3/d481f3f6f2b236505f19803ea0243e1c.jpg
-  
 
 variants:
   - variant: { nightmode: standard }

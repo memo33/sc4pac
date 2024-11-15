@@ -10,9 +10,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31504-torre-multiva/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2017_03/01.thumb.jpg.f8f461a03370982c1ca3767cc1051f1e.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2017_03/02.thumb.jpg.370650fca0503f182a1d61fa4e74c670.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/01.jpg.9556353ee06cad160227b294bd567115.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/02.jpg.d227fdf07c30342d50632714494ada09.jpg
 
 variants:
   - variant: { nightmode: standard }

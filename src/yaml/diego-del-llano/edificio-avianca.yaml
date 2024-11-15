@@ -16,9 +16,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32107-edificio-avianca/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2018_02/04.thumb.jpg.03481b71e80c4be623abb22d19c0651c.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2018_02/05.thumb.jpg.6f4f003ca462bf42dd246753528a4f2e.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/04.jpg.5ce0f1d37c0b89aee877469057018a7a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/05.jpg.6505d3a309be07dc9c4bd2eaf6124536.jpg
 
 variants:
   - variant: { nightmode: standard }

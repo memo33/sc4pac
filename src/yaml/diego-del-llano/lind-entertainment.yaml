@@ -10,10 +10,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32100-lind-entertainment/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a732cd133310_LIND04.thumb.jpg.284b86c7ff65e42ffba923efa438bd57.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a732cd1c8e7c_LIND06.thumb.jpg.023d6581e2f41f029b9c65a870053c5f.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a732d16a8e40_LIND05.thumb.jpg.6f0b974f9d272b349c4bd884e8c3bc5b.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a732c8e53ccb_LIND04.jpg.a82b5b2007e14af3817069050ecce32e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a732c9f69cb0_LIND06.jpg.306ca8849895a94c02280b604832067d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a732d113e96f_LIND05.jpg.9ca34466e4a9aa29ae6595cd18c8905d.jpg
 
 variants:
   - variant: { nightmode: standard }

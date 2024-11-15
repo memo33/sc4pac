@@ -23,13 +23,13 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33315-sunken-library/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary.thumb.jpg.4e9167e50563d6c13675f7d8c0f19112.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary1.thumb.jpg.a14c042dfcf34c639b04b28a57ef7f70.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary1a.thumb.jpg.ce37b079f7a921af936254f2f93c4847.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary2.thumb.jpg.6b1900e38bab1583906868fc09dc2ed3.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary3.thumb.jpg.1d91a283f4d62161d322a534d92235ac.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary4.thumb.jpg.71bb3a2b178a07cdd6bf27a992419e7b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary4a.thumb.jpg.278755704c879389f74deb2b7ca9f9ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary.jpg.13eee39aa2221265d64f44bf8a02a392.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary1.jpg.a2312aadc5e9590b63b1e12d011373af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary1a.jpg.7a00a987b5687750d768379e2a75b4bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary2.jpg.cee5f2c9a3584adceccdaf48c8a65d06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary3.jpg.6153a0a0d2c1ed3f0e4fc9a1a9c2e3fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary4.jpg.a8067bb1f24ce63d163c47a943f71e9a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/SunkenLibrary4a.jpg.66f4563d4dcf98a8d296f118f99f5ab7.jpg
 
 variants:
 - variant: { nightmode: standard }

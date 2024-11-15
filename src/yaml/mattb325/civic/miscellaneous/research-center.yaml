@@ -29,12 +29,12 @@ info:
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/30875-research-center/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research.thumb.jpg.6dc18d92ba70beb1a627108e7b08c02c.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research1.thumb.jpg.e0957548ceca592ec5b7a3d4051e0500.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research2.thumb.jpg.456d993b469cad71287a7d227c7e687c.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research3.thumb.jpg.059cd6043c3e7c2690431e0dafeaac8a.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research4.thumb.jpg.19dfc9d4550d80a1da01304f30097de7.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research5.thumb.jpg.ea199860bbcb3255c3e3f53a7b2be0c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research.jpg.94f272ce6a28416ecfb33582fb3f8385.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research1.jpg.8c943cba25fe7a6a1dbb767f2fbacd12.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research2.jpg.232180bec5a82add764ac618a94666eb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research3.jpg.456825020cd339a9d72ec7592a477f87.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research4.jpg.671efd00bded2c7950256c71b0f11f88.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Research5.jpg.175307d25db1d5e101313c643845b947.jpg
 
 variants:
 - variant: { nightmode: standard }

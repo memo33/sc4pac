@@ -16,9 +16,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/35796-edificio-alas/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2023_12/ALAS.thumb.jpg.982d78b3173a8e97210f5af9f52f710e.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6574c7a25619f_EDIFICIOALASEDIFICIOSPATREON.thumb.jpg.0f8e0451ea9a314463fec36c17674b88.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/ALAS.jpg.c73fa47243a372fa30e595e812d14372.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6574c6eae0619_EDIFICIOALASEDIFICIOSPATREON.jpg.198af1295087d30c39326b42c4a67c81.jpg
 
 variants:
   - variant: { nightmode: standard }

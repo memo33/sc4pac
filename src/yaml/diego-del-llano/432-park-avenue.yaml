@@ -17,9 +17,8 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32319-432-park-avenue/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2018_06/04.thumb.jpg.da6adba5af31be24c22c57e8836536f7.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2018_06/03.thumb.jpg.7c125b7b57b7999e19fdde89d0002369.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/04.jpg.fc15517abbf04e56839bf77dc1e69f6c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/03.jpg.0517742c5935e1fda7da5a5e2fb5c113.jpg
 
 variants:
   - variant: { nightmode: standard }

@@ -15,10 +15,9 @@ info:
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30946-oneamerica-tower-indianapolis/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2016_02/1.thumb.jpg.1e4c33a25e1a874d009d214eca06c543.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_02/2.thumb.jpg.5b7e1cd37a0df51a35c80fa773d82a4b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_02/3.thumb.jpg.f763b797a244b6ccaa138a4a52f7f1b9.jpg
-  
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/1.jpg.4fc935480a6f81462171a1e314d14976.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/2.jpg.131b4e1ada4cb92cb3cf3c46d47a52cc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/3.jpg.f07c10f6b98e8749170019deadd144e0.jpg
 
 assets:
   - assetId: diego-del-llano-oneamerica-tower-indianapolis
