@@ -21,10 +21,7 @@ info:
 dependencies:
   - sfbt:essentials
   - bsc:mega-props-jes-vol01
-  - bsc:mega-props-jes-vol01
   - bsc:mega-props-jes-vol02
-  - bsc:mega-props-jes-vol02
-  - bsc:mega-props-gascooker-vol01
   - bsc:mega-props-gascooker-vol01
   - ncd:rail-yard-and-spur-mega-pak-1
 assets:
