@@ -1,0 +1,45 @@
+group: simfox
+name: bashnja-na-naberezhnoj-c
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bashnja na Naberezhnoj C (Embankment Tower)
+  description: |
+    68 storey Bashnja na Naberezhnoj C (Embankment Tower C) at 268m is currently tallest building in Europe and first finished office tower in Moscow's new CBD - MoscowCity, located downtown - 5 km away from Kremlin. Steel and glass tower is a part of the complex of 3 towers (Tower a - 17 floors and tower B 27 floors).
+
+    This package includes 3 5x4 lots:
+      - 1 landmark lot
+      - 1 growable CO$$$ stage8 lot
+      - 1 plop CO$$$ lot
+
+    Jobs
+      - CO$$$: 7642
+      - CO$$: 10924
+    Consumption:
+      - power: 277
+      - water: 2961
+    Pollution/radii
+      - air: 19/7
+      - water:19/8
+      - garbage:6/0
+      - radiation:0/0
+    Other numbers:
+      - building value: 85429
+      - bulldoze cost: 3105
+      - landmark effects(for landmark lot): 10 over 256
+      - mayor ratiings (for landmark lot): 90 over 30
+      - tileset (for growable lot): euro
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/19696-bashnja-na-naberezhnoj-c/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/17b6d2c8658ab150ecf275e98d07c424-BnN_Based.jpg
+    - https://www.simtropolis.com/objects/screens/0004/17b6d2c8658ab150ecf275e98d07c424-BnN_Based_n.jpg
+
+assets:
+  - assetId: simfox-bashnja-na-naberezhnoj-c
+
+---
+assetId: simfox-bashnja-na-naberezhnoj-c
+version: "1.0"
+lastModified: "2008-04-18T09:16:33Z"
+url: https://community.simtropolis.com/files/file/19696-bashnja-na-naberezhnoj-c/?do=download

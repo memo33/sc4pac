@@ -1,0 +1,37 @@
+group: t-wrecks
+name: industrial-revolution-mod-i-d-filler-set-1
+version: "1.1"
+subfolder: 400-industrial
+info:
+  summary: Industrial Revolution Mod - I-D Filler Set 1
+  description: |
+    This is a set of 12 ploppable filler lots for dirty industry (I-D) that can be used to complement grown industrial areas with some open yards, walls, and several types of cargo stacked outside. The set has been made for the `memo:industrial-revolution-mod` and, as such, blends in well with I-D areas because it uses the same base texture, and the brick walls look good in connection with older brick factories and their side buildings.
+
+    You will find these lots in the landmark menu, conveniently grouped together.
+  author: T Wrecks
+  website: https://community.simtropolis.com/files/file/28295-industrial-revolution-mod-i-d-filler-set-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/thumb-c20873b8fbbee7b64f3f4dff84ce3d3c-irm_i-d_fillerset_screen1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/thumb-444f20757784fc259b74badcda0bd7c6-irm_i-d_fillerset_screen2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/thumb-559190a251e4f1fadbb615211f996f04-irm_i-d_fillerset_screen3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/thumb-bcf7416cc8f82ed8d7f7a11083653e71-irm_i-d_fillerset_screen4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/thumb-73b88b831fa79cdb1f7d74e4717e1aaa-irm_i-d_fillerset_screen5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/thumb-e6844cf42864a62495a7e1c09fd97e3a-irm_i-d_fillerset_screen6.jpg
+
+dependencies:
+  - sfbt:essentials
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-gascooker-vol01
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: t-wrecks-industrial-revolution-mod-i-d-filler-set-1
+
+---
+assetId: t-wrecks-industrial-revolution-mod-i-d-filler-set-1
+version: "1.1"
+lastModified: "2012-12-15T11:54:11Z"
+url: https://community.simtropolis.com/files/file/28295-industrial-revolution-mod-i-d-filler-set-1/?do=download

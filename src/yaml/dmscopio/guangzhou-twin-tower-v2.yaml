@@ -1,0 +1,33 @@
+group: dmscopio
+name: guangzhou-twin-tower-v2
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Guangzhou Twin Tower V2
+  description: |
+    The Guangzhou Twin Tower comes as a ploppable landmark with CO$$$ jobs and also as a CO$$ stage 15 growable CAMeLot. 
+  author: dmscopio
+  website: https://community.simtropolis.com/files/file/18671-guangzhou-twin-tower-v2/
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/05b1c0d328ad22224caab81f2dee9c25-GZTwinupload.jpg
+    - https://www.simtropolis.com/objects/screens/0001/05b1c0d328ad22224caab81f2dee9c25-GZTwinNightupload.jpg
+
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+
+variants:
+  - variant: { CAM: "no" }
+    assets:
+      - assetId: dmscopio-guangzhou-twin-tower-v2
+        exclude:
+          - "CO\\$\\$15"
+  - variant: { CAM: "yes" }
+    assets:
+      - assetId: dmscopio-guangzhou-twin-tower-v2
+
+---
+assetId: dmscopio-guangzhou-twin-tower-v2
+version: "2"
+lastModified: "2007-09-16T04:15:59Z"
+url: https://community.simtropolis.com/files/file/18671-guangzhou-twin-tower-v2/?do=download

@@ -1,0 +1,27 @@
+group: peg
+name: cdk-rec-seawall-kit-vol-1
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: CDK-REC Seawall Kit Vol 1
+  description: |
+    Although this file was intended primarily as a dependency for future PEG-CDK REC lots, it can also be used by lot developers to create their own CDK styled lots.
+    The official CDK REC lots use single piece, custom foundation props for each lot which are fixed in size to the specific lot and are largely not re-useable.
+    However, the basic seawall has now been broken down in to its basic components and re-created as individual prop pieces that you can assemble in the Lot Editor.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/11773-peg-cdk-rec-seawall-kit-vol-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2005/thumb-18fcced3f66c544b98d15efc023340a7-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2005/thumb-18fcced3f66c544b98d15efc023340a7-product_image2.jpg
+
+assets:
+  - assetId: peg-cdk-rec-seawall-kit-vol-1
+
+---
+assetId: peg-cdk-rec-seawall-kit-vol-1
+version: "1.0"
+lastModified: "2005-02-24T19:19:33Z"
+url: https://community.simtropolis.com/files/file/11773-peg-cdk-rec-seawall-kit-vol-1/?do=download
+archiveType:
+  format: Clickteam
+  version: "20"
