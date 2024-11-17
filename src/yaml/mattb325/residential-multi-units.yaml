@@ -19,6 +19,10 @@ info:
   description: A pack of 46 multi-unit residentials
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Almeda_lg.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Beurlay_lg.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BoomStyleTerraces.jpg
 
 dependencies:
   - mattb325:windmill-st
