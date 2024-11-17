@@ -34,7 +34,7 @@ dependencies:
   - mattb325:parkland-lofts
   - mattb325:modern-villas-multi-unit
   - mattb325:modern-townhouses
-  - mattb325:modern-r$-terraces
+  - mattb325:modern-low-wealth-terraces
   - mattb325:l-aquila-apartments
   - mattb325:little-riley-street
   - mattb325:lennox-gardens
@@ -428,7 +428,7 @@ variants:
 
 ---
 group: mattb325
-name: modern-r$-terraces
+name: modern-low-wealth-terraces
 version: "1.2"
 subfolder: 200-residential
 info:
