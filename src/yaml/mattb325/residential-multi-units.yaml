@@ -1,0 +1,1367 @@
+assetId: mattb325-residential-multi-units-darknite
+version: "1.2"
+lastModified: "2023-08-20T05:50:16-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=98:sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite&catid=11
+
+---
+assetId: mattb325-residential-multi-units-maxisnite
+version: "1.2"
+lastModified: "2023-08-20T03:08:11-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=99:sc4d-lex-legacy-mattb325-residential-multi-unit-pack-maxisnite&catid=11
+
+---
+group: mattb325
+name: residential-multi-unit-pack
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Residential Multi-Unit Pack
+  description: A pack of 46 multi-unit residentials
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - mattb325:windmill-st
+  - mattb325:waterloo-apartments
+  - mattb325:wan-wan-apartments
+  - mattb325:vivo-apartments
+  - mattb325:veinte-apartments
+  - mattb325:the-residence
+  - mattb325:small-apartments
+  - mattb325:saville-condos
+  - mattb325:regis-condos
+  - mattb325:regency-terraces
+  - mattb325:parkland-lofts
+  - mattb325:modern-villas-multi-unit
+  - mattb325:modern-townhouses
+  - mattb325:modern-r$-terraces
+  - mattb325:l-aquila-apartments
+  - mattb325:little-riley-street
+  - mattb325:lennox-gardens
+  - mattb325:lansdowne-terrace
+  - mattb325:kensington-apartments
+  - mattb325:houston-place-apartments
+  - mattb325:holland-park
+  - mattb325:grosvenor-mansions
+  - mattb325:gertrude-apartments
+  - mattb325:forbes-st
+  - mattb325:exhibition-rd-kensington
+  - mattb325:ennuyeuse-apartments
+  - mattb325:englewood-condos
+  - mattb325:emporio-apartments
+  - mattb325:embassy-apartments
+  - mattb325:earls-court
+  - mattb325:devries-villa
+  - mattb325:cube-apartments
+  - mattb325:confluence-apartments
+  - mattb325:commons-court
+  - mattb325:claridge-ii-townhomes
+  - mattb325:city-rd-chippendale
+  - mattb325:boom-style-terraces
+  - mattb325:beverly-apartments
+  - mattb325:beurlay-apartments
+  - mattb325:bayauxlaan-apartments
+  - mattb325:apartments-merdiques
+  - mattb325:almeda-townhomes
+  - mattb325:alighieri-apts
+  - mattb325:alhambra-duplex
+  - mattb325:ainslee-condos
+  - mattb325:casa-de-manana
+
+---
+group: mattb325
+name: windmill-st
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Windmill St
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Windmill St/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Windmill St/"]
+
+---
+group: mattb325
+name: waterloo-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Waterloo Apartments
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Waterloo Apartments/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Waterloo Apartments/"]
+
+---
+group: mattb325
+name: wan-wan-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Wan Wan Apartments
+  description: 4 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Wan Wan Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Wan Wan Apartments_DN/"]
+
+---
+group: mattb325
+name: vivo-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Vivo Apartments
+  description: 1 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Vivo Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Vivo Apartments_DN/"]
+
+---
+group: mattb325
+name: veinte-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Veinte Apartments
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Veinte Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Veinte Apartments_DN/"]
+
+---
+group: mattb325
+name: the-residence
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: The Residence
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/The Residence_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/The Residence_DN/"]
+
+---
+group: mattb325
+name: small-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Small Apartments
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:mega-props-newmaninc-vol04
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Small Apartments/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Small Apartments/"]
+
+---
+group: mattb325
+name: saville-condos
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Saville Condos
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Saville Condos/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Saville Condos/"]
+
+---
+group: mattb325
+name: regis-condos
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Regis Condos
+  description: 5 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Regis Condos/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Regis Condos/"]
+
+---
+group: mattb325
+name: regency-terraces
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Regency Terraces
+  description: 4 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-sg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Regency Terraces/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Regency Terraces/"]
+
+---
+group: mattb325
+name: parkland-lofts
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Parkland Lofts
+  description: 5 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Parkland Lofts_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Parkland Lofts_DN/"]
+
+---
+group: mattb325
+name: modern-villas-multi-unit
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Modern Villas
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Modern Villas_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Modern Villas_DN/"]
+
+---
+group: mattb325
+name: modern-townhouses
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Modern Townhouses
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Modern Townhouses_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Modern Townhouses_DN/"]
+
+---
+group: mattb325
+name: modern-r$-terraces
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Modern R$ Terraces
+  description: 2 R$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Modern R\\$ Terraces_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Modern R\\$ Terraces_DN/"]
+
+---
+group: mattb325
+name: l-aquila-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: L'Aquila Apartments
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-newmaninc-vol04
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/L_Aquila Apartments/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/L_Aquila Apartments/"]
+
+---
+group: mattb325
+name: little-riley-street
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Little Riley Street
+  description: 4 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol03
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Little Riley Street/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Little Riley Street/"]
+
+---
+group: mattb325
+name: lennox-gardens
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Lennox Gardens
+  description: 6 R$$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-london-w2w-vol01
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-rt-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Lennox Gardens/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Lennox Gardens/"]
+
+---
+group: mattb325
+name: lansdowne-terrace
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Lansdowne Terrace
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Lansdowne Terrace/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Lansdowne Terrace/"]
+
+---
+group: mattb325
+name: kensington-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Kensington Apartments
+  description: 6 R$$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Kensington Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Kensington Apartments_DN/"]
+
+---
+group: mattb325
+name: houston-place-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Houston Place Apartments
+  description: 4 R$$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Houston Place Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Houston Place Apartments_DN/"]
+
+---
+group: mattb325
+name: holland-park
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Holland Park
+  description: 2 R$$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Holland Park/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Holland Park/"]
+
+---
+group: mattb325
+name: grosvenor-mansions
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Grosvenor Mansions
+  description: 1 R$$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-london-w2w-vol01
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Grosvenor Mansions/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Grosvenor Mansions/"]
+
+---
+group: mattb325
+name: gertrude-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Gertrude Apartments
+  description: 5 R$$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Gertrude Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Gertrude Apartments_DN/"]
+
+---
+group: mattb325
+name: forbes-st
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Forbes St
+  description: 1 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Forbes St/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Forbes St/"]
+
+---
+group: mattb325
+name: exhibition-rd-kensington
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Exhibition Rd Kensington
+  description: 1 R$$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-london-w2w-vol01
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Exhibition Rd Kensington/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Exhibition Rd Kensington/"]
+
+---
+group: mattb325
+name: ennuyeuse-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Ennuyeuse Apartments
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Ennuyeuse Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Ennuyeuse Apartments_DN/"]
+
+---
+group: mattb325
+name: englewood-condos
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Englewood Condos
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Englewood Condos/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Englewood Condos/"]
+
+---
+group: mattb325
+name: emporio-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Emporio Apartments
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:mega-props-newmaninc-vol04
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Emporio Apartments/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Emporio Apartments/"]
+
+---
+group: mattb325
+name: embassy-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Embassy Apartments
+  description: 2 R$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-newmaninc-vol04
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Embassy Apartments/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Embassy Apartments/"]
+
+---
+group: mattb325
+name: earls-court
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Earls Court
+  description: 2 R$$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-london-w2w-vol01
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/EarlsCourt/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Earls Court/"]
+
+---
+group: mattb325
+name: devries-villa
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: DeVries Villa
+  description: 4 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/DeVries Villa/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/DeVries Villa/"]
+
+---
+group: mattb325
+name: cube-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Cube Apartments
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Cube Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Cube Apartments_DN/"]
+
+---
+group: mattb325
+name: confluence-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Confluence Apartments
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Confluence Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Confluence Apartments_DN/"]
+
+---
+group: mattb325
+name: commons-court
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Commons Court
+  description: 3 R$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:mega-props-newmaninc-vol04
+  - bsc:mega-props-rt-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Commons Court/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Commons Court/"]
+
+---
+group: mattb325
+name: claridge-ii-townhomes
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Claridge II Townhomes
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Claridge II Townhomes_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Claridge II Townhomes_DN/"]
+
+---
+group: mattb325
+name: city-rd-chippendale
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: City Rd Chippendale
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol03
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/City Rd Chippendale/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/City Rd Chippendale/"]
+
+---
+group: mattb325
+name: boom-style-terraces
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Boom Style Terraces
+  description: 16 R$$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-sg-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Boom Style Terraces/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Boom Style Terraces/"]
+
+---
+group: mattb325
+name: beverly-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Beverly Apartments
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Beverly Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Beverly Apartments_DN/"]
+
+---
+group: mattb325
+name: beurlay-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Beurlay Apartments
+  description: 8 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Beurlay Apartments_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Beurlay Apartments_DN/"]
+
+---
+group: mattb325
+name: bayauxlaan-apartments
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Bayauxlaan Apartments
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Bayauxlaan Apartments/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Bayauxlaan Apartments/"]
+
+---
+group: mattb325
+name: apartments-merdiques
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Apartments Merdiques
+  description: 2 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Apartments Merdiques_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Apartments Merdiques_DN/"]
+
+---
+group: mattb325
+name: almeda-townhomes
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Almeda Townhomes
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Almeda Townhomes_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Almeda Townhomes_DN/"]
+
+---
+group: mattb325
+name: alighieri-apts
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Alighieri Apts
+  description: 1 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Alighieri Apts_MN/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Alighieri Apts_DN/"]
+
+---
+group: mattb325
+name: alhambra-duplex
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Alhambra Duplex
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-misc-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Alhambra Duplex/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Alhambra Duplex/"]
+
+---
+group: mattb325
+name: ainslee-condos
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Ainslee Condos
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/Ainslee Condos/"]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/Ainslee Condos/"]
+
+---
+group: mattb325
+name: casa-de-manana
+version: "1.2"
+subfolder: 200-residential
+info:
+  summary: Casa de Manana
+  description: 3 R$$ multi-unit condos
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-mikeseith-vol03
+  - bsc:mega-props-newmaninc-vol04
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard, mattb325:casa-de-manana:climate: temperate }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/=Casa de Manana-Temperate/"]
+  - variant: { nightmode: dark, mattb325:casa-de-manana:climate: temperate }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/=Casa de Manana-Temperate/"]
+  - variant: { nightmode: standard, mattb325:casa-de-manana:climate: subtropical }
+    assets:
+      - assetId: mattb325-residential-multi-units-maxisnite
+        include: ["/-Casa de Manana-Subtropical/"]
+  - variant: { nightmode: dark, mattb325:casa-de-manana:climate: subtropical }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-multi-units-darknite
+        include: ["/-Casa de Manana-Subtropical/"]
