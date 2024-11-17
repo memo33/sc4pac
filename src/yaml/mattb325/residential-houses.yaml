@@ -1036,7 +1036,10 @@ info:
   summary: House 15028R
   description: 6 R$$ house models for small lots
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+  website: https://community.simtropolis.com/files/file/33176-craftsman-style-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/15028R.jpg.1651daba6ba795badefe95bffea226bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/15028R1.jpg.4dfc2be210a66684af6640e0bf174fc5.jpg
 
 dependencies:
   - bsc:essentials
@@ -1066,7 +1069,13 @@ info:
   summary: Hotondo Homes Alpha 237 Series
   description: 6 R$$ house models for small lots
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+  website: https://community.simtropolis.com/files/file/33169-hotondo-homes-alpha237-series/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Alpha237(1).jpg.f6e3cfe9759237f6596d468559676051.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Alpha237(2).jpg.1585974831186252fce6f897fa07e7f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Alpha237(3).jpg.437b10ea9e724da9f7376981c9432b85.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Alpha237(4).jpg.070e1c12d653a858da3cd5925353b8ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Alpha237.jpg.e144ac87a96ed5b5a7bdb4588a910588.jpg
 
 dependencies:
   - bsc:essentials
@@ -1622,7 +1631,10 @@ info:
   summary: Belmont Rd
   description: 6 R$$ house models for small lots
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+  website: https://community.simtropolis.com/files/file/16122-sym-productions-belmont-rd-houses
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9b93322b7b39bbf66a279282614c0157-Belmont%20Rd%20Day.JPG
+    - https://www.simtropolis.com/objects/screens/0017/9b93322b7b39bbf66a279282614c0157-Belmont%20Rd%20Night.JPG
 
 dependencies:
   - bsc:essentials
