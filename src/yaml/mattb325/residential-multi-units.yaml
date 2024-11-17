@@ -109,7 +109,14 @@ info:
   summary: Waterloo Apartments
   description: 3 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28292-waterloo-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/aaad4267ddb5b4d0e87bf294cefaa5d0-waterloo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/9309c86ff15d3ac4c510efc968c63cfc-waterloo1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/f1dd62553d34d746aff81812358e2b02-waterloo2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/2ce2ea4ef9bc5743a2d213bff089997c-waterloo3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/7dcd8a5942567f290f480524c7a71660-waterloo4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/262811a4461e558062a120b43a4f3a22-waterloo5.jpg
 
 dependencies:
   - bsc:essentials
@@ -139,7 +146,16 @@ info:
   summary: Wan Wan Apartments
   description: 4 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/31628-wanwan-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Wan_Wan_6x6.jpg.d216c574dc69fb9fe96e452abcca2283.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Wan_Wan_6x6_Rear.jpg.b2858148025d19a38596ce3f75bf9eb7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Wan_Wan_8x8.jpg.0a02b80883334d9b1bc56a983fa524f8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Wan_Wan_8x8_side.jpg.f8d8c8d26dc582dd6a3a2b00506ff052.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Wan_Wan_8x8_side1.jpg.fa188c990f2066c75313a53dc4599f75.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Wan_Wan_Apartment_Friends.jpg.0cc14da7c0cf9c6085a5bb155dbc103b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Wan_Wan_Nite.jpg.d15c77150a26cd70b40d7a0a331decce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Wan_Wan_Ortho.jpg.37db914ea8883b3ada754d7705bb83f9.jpg
 
 dependencies:
   - bsc:essentials
@@ -166,7 +182,13 @@ info:
   summary: Vivo Apartments
   description: 1 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33009-vivo-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Vivo.jpg.21269015740cf79bc08d5cd1473deb38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Vivo1.png.a960795a31ade7316b6e024ebbf19987.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Vivo3.jpg.cf9f8ca9e2cb5273f52a3258b7c4d1d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Vivo4.jpg.8bfe23c0a51b7df77427b51f1f660183.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Vivo5.jpg.9ac9b78e8c8067e05c9dffe1eee18519.jpg
 
 dependencies:
   - bsc:essentials
@@ -192,7 +214,15 @@ info:
   summary: Veinte Apartments
   description: 3 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33073-veinte-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Veinte.jpg.a81f5737ed8eb30d00f74e35b4222db5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Veinte1.jpg.5c74cdca128793566db3470cc545d5bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Veinte2.jpg.bef2eb875e41782fe5a66baa972e17f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Veinte3.jpg.3353d6c4620bab3ee706045aa762094d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Veinte5.jpg.82e9f062a5415c1cb60de1b3988d200d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Veinte6.jpg.6367b487e327930353cbcb0d91c88139.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Vente4.jpg.893ae91de57d4aecbf2114ee24b85e5f.jpg
 
 dependencies:
   - bsc:essentials
@@ -219,7 +249,14 @@ info:
   summary: The Residence
   description: 2 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33065-the-residence-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheResidence.jpg.436950c81d3d7033939a51f1a4672018.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheResidence1.jpg.83bd8090f121b21cf1b58d5f42e43d41.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheResidence2.jpg.b4231b237a97f683306ca80745b553a9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheResidence3.jpg.f02b971372688a6e747d8a7a06dc0285.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheResidence4.jpg.73ec3f90c69b9c8ec8e6dfc3fe88a5c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheResidence5.jpg.a3935cf9cc60f6e64a1d9e28dc5d6d51.jpg
 
 dependencies:
   - bsc:essentials
@@ -274,7 +311,14 @@ info:
   summary: Saville Condos
   description: 2 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28221-saville-condominiums/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/41a4e9e1ccafc778a991876fda8e7e2c-saville-a-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/cb865f1efa2e0126890a8d309fcefd66-saville.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/4dc509b9d177c21dde47cca458b9cc27-saville1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/f4991cce9d7b1b7fa71f75d2317954a3-saville2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/56eff03434fd76fb988f5238d5c35b5b-saville3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/72b04262ec4fdc02951502d29cf0616d-saville4.jpg
 
 dependencies:
   - bsc:essentials
@@ -301,7 +345,14 @@ info:
   summary: Regis Condos
   description: 5 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28204-regis-condominums/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/2807b750891a31da68cedf588f2a6cda-regis2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/843faf950f3e48f214008099e1ea1e55-regis.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/845fd3fc4a76eae20b04f8dbaaa22866-regis1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/3c9d13fb610a7b1dc41da5803fc9eb6d-regis4a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/e4c47902405fefc12007e02d2ce4d2c1-regis3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/9c00350dec65be8d834b4b82199907e3-regis5.jpg
 
 dependencies:
   - bsc:essentials
@@ -355,7 +406,19 @@ info:
   summary: Parkland Lofts
   description: 5 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/30998-parkland-lofts/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand.jpg.3030f2b171b40e8a8a80c8d524c61df1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand1.jpg.fb5904a493f1e7abedd1c2b4a9885ecd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand2.jpg.afb4adbfb8636da4d9ab347990065386.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand3.jpg.e45c718cb970fd6983738ac811b2650a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand4.jpg.ea7bbea3c7b2715e8331b92449787aaa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand5.jpg.f64912450d18a4e3a9ffb357dab4d1b7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand6.jpg.31698bbf2d21ead8087710d4710d0412.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand7.jpg.a78d3570cf00d66f7978a6435356eea7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand8.jpg.50bdb33dbdbf1193bd96b8a18d6c3caf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand9.jpg.051564e1930b3cec37357cbb1c9e87c0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ParkLand10.jpg.3b28bfb593b1bbd1da30ede3dbc86a26.jpg
 
 dependencies:
   - bsc:essentials
@@ -383,7 +446,14 @@ info:
   summary: Modern Villas
   description: 3 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33127-modern-villas/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ModernVilla.jpg.a6b8a51f8c6e2279810827f22db9659f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ModernVilla1.jpg.3f22dd4b9a01c2034be4c39a06e3cada.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ModernVilla2.jpg.7b5decc8f3dbc1610e55f4537ae0bcbb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ModernVilla3.jpg.98c1e822d92f022c021d51575faadd1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ModernVilla4.jpg.ee77f804cb2d7b838287a15f52f53c36.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ModernVilla5.jpg.f37ed5db0326470be997ce6771f5b2e2.jpg
 
 dependencies:
   - bsc:essentials
@@ -413,7 +483,12 @@ info:
   summary: Modern Townhouses
   description: 2 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33007-modern-townhouses/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Townhouse.jpg.56ef686e9f062654a60a1b547e9685ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Townhouse1.jpg.96eb4eb4435dad641744a9e27a909626.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Townhouse1a.jpg.24320fa23dfd349a863e73cf8e094c9f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Townhouse2.jpg.53273a7c78ab2c07815559b1a1d3b47d.jpg
 
 dependencies:
   - bsc:essentials
@@ -439,7 +514,12 @@ info:
   summary: Modern R$ Terraces
   description: 2 R$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33159-modern-low-wealth-terraces/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d7b406eb6439_RTerraces.jpg.34b05cd305e1a5f0cd3b9d1fe4a1d0bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d7b4071b47e1_RTerraces1.jpg.c5df2feff6f5d5643873213e6bf48819.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d7b4075023f2_RTerraces2.jpg.5449f9d43f62df054d6bce316e893714.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d7b407795778_RTerraces3.jpg.6f601d462d131bd52c9c7b3ff8ebad90.jpg
 
 dependencies:
   - bsc:essentials
@@ -463,7 +543,14 @@ info:
   summary: L'Aquila Apartments
   description: 3 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28069-laquila-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/e3c86180100a901a25e22d1571952abc-l--aquila.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/aa6ce8f108e90edc45c627eea3f8e66f-l--aquila1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/365c6307c2dff3a32d463d3ec8beebaf-l--aquila2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/ada95e41a02ae1d597388980d17200e2-l--aquila3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/026ceda365b38feb627b2fb09af4faa5-l--aquila4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/c0cacd355b72a1a6b4602c3b8f87d3ae-l--aquila5.jpg
 
 dependencies:
   - bsc:essentials
@@ -583,7 +670,16 @@ info:
   summary: Kensington Apartments
   description: 6 R$$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/31826-kensington-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/KensingtonApts5a.jpg.2b5422dbf1f09b69f58e009ef3c9cff1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/KensingtonApts6.jpg.765e6c74b1a684b5a293b8e29569d5f8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/KensingtonApts5.jpg.abde3fb000870f8c41cb9e93a2d1edbc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/KensingtonApts4.jpg.5a2694ce793f88378571f8c4a2e09cb8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/KensingtonApts3.jpg.5283ec582e8e9099c58cff374a06af19.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/KensingtonApts2.jpg.d78001eea0ac15a272d54ce094fb0471.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/KensingtonApts.jpg.9081b2c7263773ad6634cc663514cc2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/KensingtonApts1.jpg.f4e21fcf6c46459b86fff763ba511b93.jpg
 
 dependencies:
   - bsc:essentials
@@ -611,7 +707,15 @@ info:
   summary: Houston Place Apartments
   description: 4 R$$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/31790-houston-place-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Houston_Apts.jpg.230f721698b1f44bc440c425e2d0d236.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Houston_Apts_Nite.jpg.b812b5dbfa9f64a2ee53085efba55e69.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Houston_Apts1.jpg.364ec8cf9c9a38c893ee4d997ad7ed0c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Houston_Apts2.jpg.145043a3408abb51660cae69bc2acc07.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Houston_Apts3.jpg.c037b42b6eb6b17a377f26d1bc142a56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Houston_Apts4.jpg.af1ce37000663d2a9a256054fcbea2c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Houston_Apts5.jpg.381733e57b0d30e54a91a53731026f6a.jpg
 
 dependencies:
   - bsc:essentials
@@ -638,7 +742,11 @@ info:
   summary: Holland Park
   description: 2 R$$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28125-holland-park-terraces/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/55d655c07978a06958a12e7f5d1e2c3f-hollandpark.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/31fbfaf0995b650f3f27fd3c71f12483-hollandpark1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/f4cb38492fb3227971405985df825fd8-hollandpark2.jpg
 
 dependencies:
   - bsc:essentials
@@ -691,7 +799,13 @@ info:
   summary: Gertrude Apartments
   description: 5 R$$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/31824-gertrude-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Gertrude.jpg.5cb82e2b2985e4a75ab20538fcabdf50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Gertrude0.jpg.3bb9b2ff74cf71e678cf7a18f7c19330.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Gertrude1.jpg.b8b490e4404901ee8b3636baa9a68beb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Gertrude2.jpg.8feb9bbf23ee6378ebfddcdb36710ba6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Gertrude3.jpg.8ef3de3c5c4bb7274041fe82a1386c79.jpg
 
 dependencies:
   - bsc:essentials
@@ -773,7 +887,12 @@ info:
   summary: Ennuyeuse Apartments
   description: 3 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/31663-ennuyeuse-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Ennuyeuse.jpg.344303cef44e66db403dcb49e94c9659.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Ennuyeuse1.jpg.880ba56feeae510e768cf4ace99c063e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Ennuyeuse2.jpg.d4af29d7205aa4c3accca87e68e7731e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Ennuyeuse3.jpg.42d1ffad48a1594eafc6119469e2a5f2.jpg
 
 dependencies:
   - bsc:essentials
@@ -802,7 +921,13 @@ info:
   summary: Englewood Condos
   description: 2 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28229-englewood-condominiums/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/556f35910a1bddcdcd28ce5f57c9fe37-englewood.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/a7bd73fe51701b7090cbe0607a7da59e-englewood1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/d4354e07afc86501f0468e16751406ae-englewood2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/10da190c5c8e399b42edf6343d678c21-englewood3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/3148d6c304a4043c8e8360177063c45b-englewood4.jpg
 
 dependencies:
   - bsc:essentials
@@ -921,7 +1046,17 @@ info:
   summary: DeVries Villa
   description: 4 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28310-devries-villas/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/69a407aa9f30f2c6470457aac691727b-devries.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/a39fd534a21c1d7e5325a20422e06380-devries1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/94a6c4b9bffa95d9fe7a56e773eeaa91-devries2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/dbecc13bc538323afce01b998ce6707c-devries2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/a38885490bfdc71008a4b85c7150013e-devries3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/da2e08b86eae8db36ac5d51f622a8375-devries4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/acaddfcf7c3f7be2151497f206be8490-devries5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/f1643f8b65846139fa5fa24b9a5fb059-devries6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/3fe9607f67c2d172addce194fbaef16d-devries7.jpg
 
 dependencies:
   - bsc:essentials
@@ -949,7 +1084,14 @@ info:
   summary: Cube Apartments
   description: 2 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33871-cube-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/CubeApts.jpg.fb92b199c6424d8bfe67bb5576bf961f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/CubeApts1.jpg.b312d7a6d9a75e52413f91f6de65de59.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/CubeApts2.jpg.8fdf1e4f6768c3fe80c82b10380508a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/CubeApts3.jpg.9bb0299e3e8820a0e40556cb34e04925.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/CubeApts4.jpg.0bdb81cee640e6aacb1551944d8e7016.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/CubeApts5.jpg.564cd4d1b371e724227c45570358c50c.jpg
 
 dependencies:
   - bsc:essentials
@@ -977,7 +1119,15 @@ info:
   summary: Confluence Apartments
   description: 3 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33105-confluence-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Confluence.jpg.02e13736f8481ddd4a6bf7c7d545d8a5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Confluence1.jpg.ad666a880c689eff923f6ee94130627e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Confluence2.jpg.d5d5a1cd1727b8cdd5ed2254898416b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Confluence3.jpg.bb68c591f637a6bfaf1e404c6a7506a7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Confluence4.jpg.019b8c509a9beb254b55c5b35ecbe95e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Confluence5.jpg.89482fe5b72844c6d19037e3156ee3d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Confluence6.jpg.ddacc7fc36078ab9a8e596dcc71e172f.jpg
 
 dependencies:
   - bsc:essentials
@@ -1004,7 +1154,14 @@ info:
   summary: Commons Court
   description: 3 R$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/30992-claridge-ii-townhome/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ClaridgeII(5).jpg.1312351b79f2bcc06831cd5431d3f248.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ClaridgeII(4).jpg.c2a0b1616429d8ddf9987aeaa059408c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ClaridgeII(3).jpg.2e89d0884ba628bf760e2c3e0cae2370.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ClaridgeII(2).jpg.b018391430198ff6c5f8afdf554637e7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ClaridgeII(1).jpg.7d3c90f438d9b0318f1726484eed4372.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/ClaridgeII.jpg.4b464f059f3cb530f46c74d571ae1de0.jpg
 
 dependencies:
   - bsc:essentials
@@ -1118,7 +1275,13 @@ info:
   summary: Beverly Apartments
   description: 2 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/31835-beverly-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Beverly.jpg.2a68bb6c724538b2cb0adb00b19e2bbe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Beverly1.jpg.812319fb556443d2859955a99565bc4b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Beverly2.jpg.1befa69a797b8490d310902b636477c1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Beverly3.jpg.e3094252ede8b22ecc15f55a81c382d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Beverly4.jpg.c1ceb25b9bfab0573bac5460704fcefd.jpg
 
 dependencies:
   - bsc:essentials
@@ -1142,7 +1305,19 @@ info:
   summary: Beurlay Apartments
   description: 8 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33106-beurlay-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay.jpg.ccfd47b4c1a77b57cb785613c2035e41.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay1.jpg.4da04d998a52b396c48b116d7abf8f1f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay2.jpg.876bd6da221ec66b5066c3f06d453343.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay3.jpg.41895c4b34cd9ea2982613c4d7da9d83.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay4.jpg.2b2f1f1c6f49652d8d2a69ca6425deea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay5.jpg.2b12557338569e7db166bd3475916b8b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay6.jpg.4a88edac6d8cd42fc67036f3d3113aba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay7.jpg.fa974f8d14e1899a1810d821232eda9a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay8.jpg.8c198eff4084ab0e55861e576712ccf3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay8a.jpg.dc5b62974d3c85bac0ad7b2bc725adb5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Beurlay9.jpg.45b88bf415443dbd050f4f2484699e8d.jpg
 
 dependencies:
   - bsc:essentials
@@ -1171,7 +1346,12 @@ info:
   summary: Bayauxlaan Apartments
   description: 2 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28526-bayauxlaan-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/d75f6843fceaea3dbd4b17f1bcae971f-bayauxlaan.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/d1c12826ea1ff4fe7dd34b62d13376b4-bayauxlaan1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/9fa35d109349d56e1262c9da3088fd4b-bayauxlaan2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/4c75de9c725fd937b47206c9226e52e6-bayauxlaan3.jpg
 
 dependencies:
   - bsc:essentials
@@ -1202,7 +1382,14 @@ info:
   summary: Apartments Merdiques
   description: 2 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33061-merdique-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Merdique.jpg.d389737b86ec6dbc77e8a5108280bf36.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Merdique0.jpg.36cbe0297b4b44ea13bb6f8b8bd375d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Merdique1.jpg.32a0c680f0a534645d81b6050a33faa0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Merdique2.jpg.7f4eb9845ee4d0aacf3464c7ff9fc918.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Merdique3.jpg.56118d18b5483370adb058ba134f98b7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Merdique4.jpg.d3aaebf8d00443c28809f51a5de68423.jpg
 
 dependencies:
   - bsc:essentials
@@ -1228,7 +1415,12 @@ info:
   summary: Almeda Townhomes
   description: 3 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/33141-almeda-townhomes/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Almeda.jpg.fd7c182c3503c2d02e7c42538710cc3e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Almeda_3.jpg.50ab3ee67f0b980b4397871f89a5e057.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Almeda1.jpg.394fd80d2abfdd461b85bc878926f450.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Almeda2.jpg.621392b0b066afa8b86224389fa42615.jpg
 
 dependencies:
   - bsc:essentials
@@ -1256,7 +1448,14 @@ info:
   summary: Alighieri Apts
   description: 1 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/31845-alighieri-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Alighieri.jpg.14a89d12d788d240fca3b11ff6d65bc4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Alighieri1.jpg.55422d34c6c3f876ed9c07214d78b689.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Alighieri2.jpg.e449b90f62ec99c65701ba8141f6057b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Alighieri3.jpg.86a6c4919981eb53ccd47638f6e61c45.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Alighieri4.jpg.aed8aee827b9060049d37f0fd981c425.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/Alighieri5.jpg.a4813433c73d2ad0102ca5026668c3a1.jpg
 
 dependencies:
   - bsc:essentials
@@ -1280,7 +1479,13 @@ info:
   summary: Alhambra Duplex
   description: 3 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28261-alhambra-duplex/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/8adbf262793790b3607378409415ed07-alhambra.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/5ce272d78b18c06cea599af6623aced8-alhambra1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/17e4faa767dd06145c6348019a207e1e-alhambra2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/7e3ec96bd2fe58d6f8b224180271ef08-alhambra3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/4f089754f1e131b08a794f7dc314ff82-alhambra4.jpg
 
 dependencies:
   - bsc:essentials
@@ -1309,7 +1514,13 @@ info:
   summary: Ainslee Condos
   description: 3 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28190-ainslee-condominiums/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/9e2446bdb3ed3ed4684d936ebdb9a2cd-ainslee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/f29290067517aa2242c13c6b82077fd0-ainslee1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/15e83cd42030dc77bdffa7f024dd588a-ainslee2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/9e92b09b7d83e39964d9c5cffc5c7f4a-ainslee3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/9e9be1691f8218aec67aa4c7162a325c-ainslee4.jpg
 
 dependencies:
   - bsc:essentials
@@ -1339,7 +1550,14 @@ info:
   summary: Casa de Manana
   description: 3 R$$ multi-unit condos
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+  website: https://community.simtropolis.com/files/file/28281-casa-de-manana-condominiums/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/dbcb941fe2d3e9d34076e31a15ea6b5d-casa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/d4ff8618c86811da68e0ba9e76cb8ae9-casa1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/84da7894362bf7aecb795ca251d8068a-casa1a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/19e710d1dc7c7dfd969fcc1c903d15cd-casa2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/4ec828309cc2aa3a0f95c3c1f77cc801-casa2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/be05721de730ad405660b0c82733752b-casa3.jpg
 
 dependencies:
   - bsc:essentials
