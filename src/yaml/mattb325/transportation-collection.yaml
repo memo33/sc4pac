@@ -399,14 +399,14 @@ variants:
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/Rail Stations/Underground Rail (U-Rail) Station/"
+          - "/Rail Stations/Underground Rail \\(U-Rail\\) Station/"
       - assetId: mattb325-multifunction-stations-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
         include: 
-          - "/Rail Stations/Underground Rail (U-Rail) Station/"
+          - "/Rail Stations/Underground Rail \\(U-Rail\\) Station/"
       - assetId: mattb325-multifunction-stations-darknite
 
 ---
@@ -1153,7 +1153,7 @@ variants:
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/Multi-Purpose Stations/Overhanging Multifunction Station Ortho/"
+          - "/Multi-Purpose Stations/Multifunction Station Ortho/"
       - assetId: mattb325-multifunction-stations-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
@@ -1180,7 +1180,7 @@ variants:
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/Multi-Purpose Stations/Overhanging Multifunction Station FA/"
+          - "/Multi-Purpose Stations/Multifunction Station FA/"
       - assetId: mattb325-multifunction-stations-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
@@ -1207,7 +1207,7 @@ variants:
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/Multi-Purpose Stations/Overhanging Multifunction Station Diagonal/"
+          - "/Multi-Purpose Stations/Multifunction Station Diagonal/"
       - assetId: mattb325-multifunction-stations-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
@@ -1472,14 +1472,14 @@ variants:
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/High Speed Rail (HSR) Stations/Modern Rail Station HSR/"
+          - "/High Speed Rail \\(HSR\\) Stations/Modern Rail Station HSR/"
       - assetId: mattb325-multifunction-stations-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
         include: 
-          - "/High Speed Rail (HSR) Stations/Modern Rail Station HSR/"
+          - "/High Speed Rail \\(HSR\\) Stations/Modern Rail Station HSR/"
       - assetId: mattb325-multifunction-stations-darknite
 
 ---
@@ -1503,14 +1503,14 @@ variants:
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/High Speed Rail (HSR) Stations/Galleria GC HSR Terminus/"
+          - "/High Speed Rail \\(HSR\\) Stations/Galleria GC HSR Terminus/"
       - assetId: mattb325-multifunction-stations-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
         include: 
-          - "/High Speed Rail (HSR) Stations/Galleria GC HSR Terminus/"
+          - "/High Speed Rail \\(HSR\\) Stations/Galleria GC HSR Terminus/"
       - assetId: mattb325-multifunction-stations-darknite
 
 ---
@@ -1547,14 +1547,14 @@ variants:
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/High Speed Rail (HSR) Stations/Central Station HSR/"
+          - "/High Speed Rail \\(HSR\\) Stations/Central Station HSR/"
       - assetId: mattb325-multifunction-stations-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
         include: 
-          - "/High Speed Rail (HSR) Stations/Central Station HSR/"
+          - "/High Speed Rail \\(HSR\\) Stations/Central Station HSR/"
       - assetId: mattb325-multifunction-stations-darknite
 
 ---
@@ -1574,14 +1574,14 @@ variants:
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/Ground Light Rail (GLR) Stations/Diagonal GLR Station/"
+          - "/Ground Light Rail \\(GLR\\) Stations/Diagonal GLR Station/"
       - assetId: mattb325-multifunction-stations-maxisnite
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
         include: 
-          - "/Ground Light Rail (GLR) Stations/Diagonal GLR Station/"
+          - "/Ground Light Rail \\(GLR\\) Stations/Diagonal GLR Station/"
       - assetId: mattb325-multifunction-stations-darknite
 
 ---
