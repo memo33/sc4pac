@@ -19,11 +19,13 @@ variants:
   - variant: { driveside: right }
     assets:
       - assetId: mandelsoft-german-matrix-sign-pack
-        exclude: /LHD$/
+        exclude:
+          - "LHD\\.dat$"
   - variant: { driveside: left }
     assets:
       - assetId: mandelsoft-german-matrix-sign-pack
-        exclude: /RHD$/
+        exclude: 
+          - "RHD\\.dat$"
 
 ---
 assetId: mandelsoft-german-matrix-sign-pack
