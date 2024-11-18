@@ -325,7 +325,7 @@ variants:
 
 ---
 group: mattb325
-name: underground-rail-(u-rail)-station
+name: underground-rail-station
 version: "1.0"
 subfolder: 700-transit
 info:
