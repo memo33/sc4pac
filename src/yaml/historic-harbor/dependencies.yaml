@@ -1,5 +1,5 @@
 group: historic-harbor
-name: historic-harbor
+name: dependencies
 version: "1.0"
 subfolder: 100-props-textures
 info:
