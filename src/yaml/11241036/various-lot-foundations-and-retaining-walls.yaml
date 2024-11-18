@@ -17,7 +17,7 @@ info:
 assets:
   - assetId: 11241036-various-lot-foundations-and-retaining-walls
     exclude:
-      - "\\.SC4Lot$"
+      - "TestLots.dat"
 
 ---
 assetId: 11241036-various-lot-foundations-and-retaining-walls
