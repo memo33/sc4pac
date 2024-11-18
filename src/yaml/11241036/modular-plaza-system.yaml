@@ -75,7 +75,6 @@ dependencies:
   - porkissimo:jenx-porkie-expanded-porkie-props
   - rdg:prop-pack-1
   - peg:spot
-  - memo:submenus-dll
 assets:
   - assetId: 11241036-modular-plaza-system
     include:
