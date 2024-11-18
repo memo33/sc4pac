@@ -1,0 +1,26 @@
+group: mandelsoft
+name: ontario-signage-set
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Ontario Signage Set
+  description: |
+    This pack contains the Ontario Signage Set, which contains 56 Ontario-styled signs for your freeways for the most common RHW interchange setups.
+
+    Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28100-ontario-signage-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/ff5450fb458d38e7244c8100d367567f-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/4320359c07eca0ac59bd6abc63a4ab07-screen01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/5e3611ab469b6cc1c06dbd6e51d192fb-screen02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/f54bd11118b10bdf3ff2b3c8de59b03e-screen03.jpg
+
+assets:
+  - assetId: mandelsoft-ontario-signage-set
+
+---
+assetId: mandelsoft-ontario-signage-set
+version: "2.0"
+lastModified: "2024-09-03T00:21:41Z"
+url: https://community.simtropolis.com/files/file/28100-ontario-signage-set/?do=download
