@@ -1,0 +1,50 @@
+group: "11241036"
+name: modular-plaza-system
+version: "2"
+subfolder: 660-parks
+info:
+  summary: Modular Plaza System
+  description: |
+    This plugin contains a good number of modular lots that will allow you to create your custom plaza, sidewalk, or seawall. Fountains, ponds, benches, seawalls, market stalls, trees – nearly everything is available, I’ll leave it to your experimenting pleasure to find out. Most of them are purely decorational (while having park and landmark effect), only the market stalls will yield a bit money. All lots have been designed in a way that they are rather simple, thereby being able to be combined with each other easily. All lots can be found in the park menu, just below the default Maxis parks.
+
+  author: "11241036"
+  website: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f877e6bff2_MPSFlowerbeds.jpg.5889083c3a2281192f06e8fe9c33264b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878469e0f_MPSMarketStalls.jpg.92bf5fafa666103aea84553130a8a82b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f87856a0c5_MPSPlazas.jpg.10aa5cd7a833d3381d452d8361df1178.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8789df844_MPSSeawalls.jpg.976ebdcb8c4ed5cd2989a70d6b591d00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878c7eb98_MPSSquares.jpg.ae8a5bd6bcdbb9a29c431d524c5d47f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878d61b0b_MPSStatues.jpg.aad4b752d61f7076b9414063f86b41fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878e5682f_MPSTrees.jpg.f0065d2827f9ca245b936235ce0d178c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8790c8b18_SeawallConnectionLots.jpg.98b8e5096e6d35b0430ee739654cfc1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666221d7475d9_MPSSquares2.jpg.461eb175d27c232dbeb39ff56351adeb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666224ce84643_2MPS.png.997e8a240e19873333f98d98b00afdf1.png
+
+dependencies:
+  - [https://sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+  - [https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-lex-legacy-bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+  - maxis:buildings-as-props
+  - raphaelninja:landmark-props
+  - sfbt:essentials
+  - [https://community.simtropolis.com/files/file/29880-historic-harbor/](https://community.simtropolis.com/files/file/29880-historic-harbor/)
+  - [https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/](https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/)
+  - [https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/](https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/)
+  - [https://community.simtropolis.com/files/file/25888-murimk-props-vol02/](https://community.simtropolis.com/files/file/25888-murimk-props-vol02/)
+  - [https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/](https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/)
+  - 11241036:textures
+  - [https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county/](https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county/)
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - [https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/](https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/)
+  - peg:spot
+  - memo:submenus-dll
+  - [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/168-vortext-vortexture-1-2-base-set-grass-and-dirt](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/168-vortext-vortexture-1-2-base-set-grass-and-dirt)
+  - peg:mtp-super-pack
+assets:
+  - assetId: 11241036-modular-plaza-system
+
+---
+assetId: 11241036-modular-plaza-system
+version: "2"
+lastModified: "2024-06-06T21:06:29Z"
+url: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps/?do=download
