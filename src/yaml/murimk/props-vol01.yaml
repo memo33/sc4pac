@@ -4,6 +4,14 @@ version: "1.0"
 subfolder: 100-props-textures
 info:
   summary: Bicycle Props
+  description: |
+    This prop pack contains various prop sets for lotting purposes:
+      - Bikes (7 different colors)
+      - Bikers (straight and diagonal, in 7 different colors - timed to appear/disappear at certain times of the day)
+      - Stands (with varying number of bikes)
+      - Shop Stands (with advertisement and varying number of bikes)
+      - Bike Shelters (2 types, with various colors)
+      - Shop Signs (2 variations)
   author: murimk, Paeng
   website: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/
   images:
@@ -23,6 +31,8 @@ version: "1.0"
 subfolder: 180-flora
 info:
   summary: Bikers MMP
+  description: |
+    This pack provides as Mayor Mode Ploppable (MMP) bikers set.
   author: murimk, Paeng
   website: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/
   images:
