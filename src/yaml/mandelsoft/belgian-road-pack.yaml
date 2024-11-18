@@ -1,0 +1,48 @@
+group: mandelsoft
+name: belgian-road-pack
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Belgian Road Pack
+  description: |
+    This package contains a set of signs and lights to give your city roads and motorways a Belgian look.
+    
+    This pack contains the following:
+    - 35 Belgian Signs for the RHW
+    - 5 Styles of Ploppable Belgian Lights (green or white color scheme)
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/23779-belgian-road-pack-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3cf0859c36aa59b6860abe5cdcc65a33-BRP01%20prim.jpg
+    - https://www.simtropolis.com/objects/screens/0008/3cf0859c36aa59b6860abe5cdcc65a33-BRP01%20Sec.jpg
+
+assets:
+  - assetId: mandelsoft-belgian-road-pack-01
+    include:
+      - Belgian Sign Set 01.dat
+      - Belgian Lights_Plop.dat
+      - Lights_LightCones.dat
+      - Belgian Lights_White.dat
+
+---
+group: mandelsoft
+name: lrm-belgium
+version: "1.0"
+info:
+  summary: Belgian Light Replacement Mod
+  description: |
+    This plugin replaces the standard game lights by Belgian styled lights.
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/23779-belgian-road-pack-01/
+  conflicts: This pack may cause conflicts with the Light Replacement Mod and MRTNRLN's Ploppable RHW Median Lights Set 01.
+
+assets:
+  - assetId: mandelsoft-belgian-road-pack-01
+    include:
+      - LRM_Belgium_OPTIONAL.dat
+
+---
+assetId: mandelsoft-belgian-road-pack-01
+version: "1.0"
+lastModified: "2010-04-28T08:22:39Z"
+url: https://community.simtropolis.com/files/file/23779-belgian-road-pack-01/?do=download
