@@ -16,6 +16,16 @@ info:
     which is more suitable for denser areas.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33034-large-modern-hospital/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/ModernHospital.jpg.e63b423181aba5aa40181a2b2376e540.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/ModernHospital0.jpg.07ddac59e116fb3b8e3df5bf836bac7b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/ModernHospital1.jpg.ed22a0aad6e697c50fe5834bb5e148be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/ModernHospital2.jpg.66123bc18bf119f830c7da8f9350a033.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/ModernHospital3.jpg.42e0ba000b57de7343613baa3f2ca3da.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/ModernHospital4.jpg.33f62fba0a51f9edad287227bfa12e4a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/ModernHospital5.jpg.07cc7269f1447f169b65e12b1e0c8cc2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/ModernHospital6.jpg.e05311b8277660abd1a988975d5a2491.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/ModernHospital7.jpg.aae39000a09c0191dff5298b534d4eb7.jpg
 
 variants:
 - variant: { nightmode: standard }

@@ -15,6 +15,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32107-edificio-avianca/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/04.jpg.5ce0f1d37c0b89aee877469057018a7a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/05.jpg.6505d3a309be07dc9c4bd2eaf6124536.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -28,11 +31,11 @@ variants:
 ---
 assetId: diego-del-llano-edificio-avianca-darknite
 version: "1.0"
-lastModified: "2018-02-06T03:45:00Z"
+lastModified: "2018-02-06T03:10:36Z"
 url: https://community.simtropolis.com/files/file/32107-edificio-avianca/?do=download&r=169940
 
 ---
 assetId: diego-del-llano-edificio-avianca-maxisnite
 version: "1.0"
-lastModified: "2018-02-06T03:45:00Z"
+lastModified: "2018-02-06T03:10:36Z"
 url: https://community.simtropolis.com/files/file/32107-edificio-avianca/?do=download&r=169941

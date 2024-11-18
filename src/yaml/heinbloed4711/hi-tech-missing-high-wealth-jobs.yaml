@@ -8,6 +8,9 @@ info:
   summary: Fix arithmetic error causing missing high-wealth jobs on most IH lots
   author: "HeinBloed4711"
   website: "https://community.simtropolis.com/files/file/22771-ih-missing-jobs-fix-update/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3dfed99e5cbbdcdedaabc24d76571a26-before.jpg
+    - https://www.simtropolis.com/objects/screens/0008/3dfed99e5cbbdcdedaabc24d76571a26-after.jpg
 
 ---
 assetId: "heinbloed4711-ih-missing-r3-jobs-fix"

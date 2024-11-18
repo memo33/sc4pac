@@ -12,6 +12,9 @@ info:
   conflicts: "Incompatible with mods blocking Maxis lots"
   author: "Gn_Leugim"
   website: "https://community.simtropolis.com/files/file/28046-gnl-eha-poor-apartments/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/10d2aac2c2e11c662f0fcaf5a615b221-img.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/b193d008691fc3df1959c40bcc9e5218-img2.jpg
 
 ---
 assetId: "gnl-eha-poor-apartments"

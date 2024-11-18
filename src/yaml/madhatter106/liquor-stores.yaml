@@ -13,6 +13,9 @@ info:
     These BATs have nightlights.
   author: "madhatter106"
   website: "https://community.simtropolis.com/files/file/25137-liquor-stores/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b40ab7dad12e5fd8b3a9c044facb3188-screen01.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b40ab7dad12e5fd8b3a9c044facb3188-screen02.jpg
 
 ---
 assetId: "madhatter106-liquor-stores"

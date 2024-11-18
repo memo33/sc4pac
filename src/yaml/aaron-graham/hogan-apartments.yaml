@@ -13,6 +13,12 @@ info:
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/27204-hogan-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/7ce8b0457b73405a72cdac57f9181953-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/859b89db406ef2bca7b9a3d1aaf4e47a-maxis%20night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/ed28861f968ce8d70577733b57cc81a1-hogan%20day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/c879f3562ce366b650097c48c9d0b3a3-hogan%20night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/0e72a0f96c5f76d0665069fd821d0e91-hogan%20dark%20night.jpg
 
 variants:
   - variant: { nightmode: dark }

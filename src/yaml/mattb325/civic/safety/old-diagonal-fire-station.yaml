@@ -14,6 +14,12 @@ info:
      The building is an overhanging 1x1 lot.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33198-old-diagonal-fire-station/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Fire.jpg.ea0cc16a901025ea81ef38715a308ed4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Fire1.jpg.0703eb177271c14f1f8dbca7d7c61e84.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Fire2.jpg.c1427700baf066d092846c579d108547.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Fire3.jpg.899d8e8c1336d1cfdafcb1fc22d10ce7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Fire4.jpg.95d49669406ac65ae73a503476bd9665.jpg
 
 variants:
 - variant: { nightmode: standard }

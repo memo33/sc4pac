@@ -10,6 +10,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31975-ciudadela-san-martin-tower-one/
+  images:
+    - https://i.pinimg.com/originals/97/4a/f7/974af71cace2e43525f1518c938d0e68.jpg
+    - https://i.pinimg.com/originals/13/bd/af/13bdaf703bf5a6c9d7a3725833afe8fa.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -23,11 +26,11 @@ variants:
 ---
 assetId: diego-del-llano-ciudadela-san-martin-tower-one-darknite
 version: "1.0"
-lastModified: "2017-10-15T00:41:05Z"
+lastModified: "2017-10-15T00:35:58Z"
 url: https://community.simtropolis.com/files/file/31975-ciudadela-san-martin-tower-one/?do=download&r=168956
 
 ---
 assetId: diego-del-llano-ciudadela-san-martin-tower-one-maxisnite
 version: "1.0"
-lastModified: "2017-10-15T00:41:05Z"
-url: https://community.simtropolis.com/files/file/31975-ciudadela-san-martin-tower-one/?do=download&r=168957
+lastModified: "2017-10-15T00:35:58Z"
+url: https://community.simtropolis.com/files/file/31975-ciudadela-san-martin-tower-one/?do=download&r=168955

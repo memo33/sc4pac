@@ -17,6 +17,10 @@ info:
     Additionally, the DLL implements the Exemplar Patching functionality and fixes the game's duplicate menu icons bug.
   author: "memo, Panda"
   website: "https://community.simtropolis.com/files/file/36142-submenus-dll/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/glr-submenu.jpeg.37cdc1aba8ba5f84d543d46c579de1d4.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/parks-submenus-animation.gif.fc7b73b36d2cfd59d4aca263a753285c.gif
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/commercial-submenus.jpeg.7fd15082d193a82259d3a0fff766ebf7.jpeg
 
 ---
 assetId: "memo-submenus-dll"

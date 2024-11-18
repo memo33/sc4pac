@@ -19,6 +19,17 @@ info:
     not require either road access or power, but it does require water.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33482-vandamm-house/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/VandammHouse.jpg.a7097827fcf30e77165ef82f144018ed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/VandammHouse1.jpg.186130e2ad4c3809a634cf9d3efa0135.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/VandammHouse2.jpg.4f8249e8d696415bf506acb5466a4e38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/VandammHouse3.jpg.3e564b517bc86f7f4986b0b42336177a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/VandammHouse3a.jpg.ba765d3f5d5c782544f7252b7bfb881d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/VandammHouse3b.jpg.19b24019ae8cb8fb732af6083d358452.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/VandammHouse3c.jpg.c999932cbc060738693977ce25a1e462.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/VandammHouse3d.jpg.9d7cc5e3240d1081998dad5192c4f80c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/VandammHouse3e.jpg.8d816f1ceb775dd11f8c985a03909f40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/VandammHouse4.jpg.35428a0655f7b209f644cc3f6eeae2e6.jpg
 
 variants:
 - variant: { nightmode: standard }

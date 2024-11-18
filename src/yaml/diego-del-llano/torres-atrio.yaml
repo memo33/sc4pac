@@ -11,6 +11,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32065-torres-atrio/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/5a5aa9c8d2950_00TORREATRIOMAXIS.jpg.e1290c9bbe4d95ae770c70c11d8937e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/5a5aaa295074e_TORRESATRIO2324.jpg.8eed2b12961619e0bb64b8181c604715.jpg
 
 variants:
   - variant: { nightmode: standard }

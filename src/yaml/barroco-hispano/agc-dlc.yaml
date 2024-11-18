@@ -239,6 +239,8 @@ subfolder: "100-props-textures"
 info:
   summary: "Heavy machinery props"
   website: "https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/Red-D3D-HeavyMachines.jpg.1883881dd25ca14609bc70ccba688501.jpg
   author: "Barroco Hispano"
 variants:
 - variant: { nightmode: "standard" }

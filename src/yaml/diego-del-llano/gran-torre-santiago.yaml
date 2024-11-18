@@ -8,6 +8,9 @@ info:
     This landmark is a CO$$$ skyscraper from Santiago de Chile with a High-Tech style.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32962-gran-torre-santiago/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/COSTANERA.jpg.7afab853a6676eefb62cfe7016dd9ea2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d040a6d4e787_COSTANERA2.jpg.98a0d68cfd9b41e6d0b72da43e625097.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -21,5 +24,5 @@ variants:
 ---
 assetId: diego-del-llano-gran-torre-santiago-darknite
 version: "1.0"
-lastModified: "2019-08-21T14:18:43Z"
+lastModified: "2019-06-14T20:58:56Z"
 url: https://community.simtropolis.com/files/file/32962-gran-torre-santiago/?do=download

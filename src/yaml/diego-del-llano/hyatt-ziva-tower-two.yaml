@@ -9,6 +9,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31846-hyatt-ziva-tower-two/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/6a/7b/73/6a7b739ef2d691da4935a6da75437660.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/e8/c7/ec/e8c7ecb7024799d1e9a5c1d014089808.jpg
 
 variants:
   - variant: { nightmode: standard }

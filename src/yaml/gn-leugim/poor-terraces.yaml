@@ -12,6 +12,9 @@ info:
   conflicts: "Incompatible with mods blocking Maxis lots"
   author: "Gn_Leugim"
   website: "https://community.simtropolis.com/files/file/28047-gnl-eha-poor-terraces/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/7413b94826a94e396b97d94c10a545c8-img.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/aaf8f60dde43eef37d694a771ad5f22a-img2.jpg
 
 ---
 assetId: "gnl-eha-poor-terraces"

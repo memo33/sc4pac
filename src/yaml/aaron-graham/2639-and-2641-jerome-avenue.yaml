@@ -10,6 +10,11 @@ info:
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/30167-nybt-2639-and-2641-jerome-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/9ae8bb10e0c8e04c92c2ee660d931cc3-nybt-2639-and-2641-jerome-avenue-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/5999eda3b549ab4d55a7295771d1bfb0-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/e9dfa23c5796ec126599f05f0118ec5c-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/54c94d89315ca59020baba8733037b6f-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

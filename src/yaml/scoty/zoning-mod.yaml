@@ -14,6 +14,10 @@ info:
     This package only includes the Maxis style of the Zoning Manager from the original mod.
   author: "hugues aroux"
   website: "https://community.simtropolis.com/files/file/33590-scoty-zoning-mod/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/montage_coul.jpg.d97d64152a1c2552f120dda8027d6421.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/montage_tex.jpg.c546c6b20e50187c1eccf44e805554da.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/erase_duo.jpg.974a63af31780221d7d06ac50bc9efe7.jpg
 
 ---
 assetId: "scoty-zoning-mod"

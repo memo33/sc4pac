@@ -11,6 +11,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/35565-edificio-lopez-serrano/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/64ad7f0adde71_EDIFICIOLOPEZSERRANOLARGUILLO.jpg.4782a2d004a50f619c9d442f98bc6c6f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_07/64ad7f3ce1ced_LOPEZSERRANO.jpg.d38257e704a3f159a85e41acc15f1a00.jpg
 
 variants:
   - variant: { nightmode: standard }

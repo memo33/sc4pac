@@ -9,6 +9,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31849-westin-regina/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/63/10/a6/6310a6af85896ce46d92594b268b4136.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/9d/c1/59/9dc15914c49d2e4c38c6a19e5c6a5037.jpg
 
 variants:
   - variant: { nightmode: standard }

@@ -11,6 +11,9 @@ info:
   conflicts: Only DarkNite models exist for these buildings, so the same models are installed with either nightmode setting.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/SANMARTIN.jpg.6cb95eac77616970060c0e80c54c2c45.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bc2496713958_SANMARTIN2.jpg.a8e48dd1073db346b71cdd83f05f3a9c.jpg
 
 assets:
   - assetId: diego-del-llano-ciudadela-san-martin-north-darknite

@@ -17,6 +17,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31863-us-bank-library-tower/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/12/89/92/128992b797453189924bf8738bd89db0.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/f2/2b/0e/f22b0e13384d9ed8d986e5f71cf63093.jpg
 
 variants:
   - variant: { nightmode: standard }

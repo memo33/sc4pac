@@ -9,6 +9,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31539-cititower-guadalajara/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/38/95/5c/38955c5e2e0169d76c05f42e3ba205ef.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/fb/3b/7f/fb3b7f2029482d440679a7497d6ba3d7.jpg
 
 variants:
   - variant: { nightmode: standard }

@@ -10,6 +10,11 @@ info:
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28818-nybt-32-48-30th-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/52fedf5dc9a81dc092657f77968e1a43-32-48-30th-street-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/3c8aebdaea397708848297db2ea8c0cc-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/c89e577b4e3283f3f3a864bf9f83699e-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2013/32a550283fd7de73a8c332de6bdb0b0b-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

@@ -12,6 +12,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31861-transamerica-pyramid/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/99/9c/54/999c54cc499c811c3a3d616df749236f.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/54/4f/d7/544fd75d3f14d0fca9ff9223fcc1a915.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -25,7 +28,7 @@ variants:
 ---
 assetId: diego-del-llano-transamerica-pyramid-darknite
 version: "1.0"
-lastModified: "2021-11-10T10:43:24Z"
+lastModified: "2021-11-10T10:43:20Z"
 url: https://community.simtropolis.com/files/file/31861-transamerica-pyramid/?do=download&r=190482
 
 ---

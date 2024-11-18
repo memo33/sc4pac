@@ -9,6 +9,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31841-shangri-la/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/a9/6e/6c/a96e6c9f825018940e50c6b5bd759360.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/e4/f8/f8/e4f8f852d8128ec85eee27393f156421.jpg
 
 variants:
   - variant: { nightmode: standard }

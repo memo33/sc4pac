@@ -20,6 +20,15 @@ info:
     will also provide many civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/30921-cbs-columbia-square-television-station/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/CBS7.jpg.abfdff81d83604101c779288fdb29fd4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/CBS6.jpg.6600612b68ff41d14c4f33b66a81a709.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/CBS5.jpg.ea283146676e4c43a17762cbc6578f11.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/CBS4.jpg.f48c7f6c99f4291a3b92ba09a8c83406.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/CBS3.jpg.ed960b839cf66329b22e30e28b82a550.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/CBS2.jpg.4976acc28b134b6429095c2b50dce622.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/CBS1.jpg.6e1652caf2befb1dec4a94a3d8b578ac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/CBS.jpg.8575fda8f236c1f0c568262eeaf61286.jpg
 
 variants:
 - variant: { nightmode: standard }

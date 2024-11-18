@@ -10,6 +10,12 @@ info:
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/27036-nybt-concord-arms/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/eacd3242f1b8b4f12f7ee8555beb1811-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/685733c4623fa7625990dba1c97634db-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/21ac2fde46a84ffaafb34eccf5acf8a1-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/75af365829ab4be5f7633d89696c14ea-maxis%20night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/e8503cb7f1c29d1e28bb15552f127d2f-dark%20night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

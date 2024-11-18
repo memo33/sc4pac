@@ -19,6 +19,12 @@ info:
     It provides 23 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33086-the-lodge-canberra/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheLodge.jpg.5269baa40e616289b32b19440d9d6e98.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheLodge1.jpg.31baf09d932f2b5b9b6bdcc356e96297.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheLodge2.jpg.4a21c4f99c5d9056b20517ed6f2e553d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheLodge3.jpg.b3e8c44ec16a684a4a8cb319533a9593.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/TheLodge4.jpg.2028f74aa8e5544283f0b21be8dc63a5.jpg
 
 variants:
 - variant: { nightmode: standard }

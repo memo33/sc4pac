@@ -9,6 +9,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31843-hyatt-ziva-tower-one/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/6a/f1/6c/6af16c6e062850805517730c50bce2bf.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/42/52/87/425287b315197cdb875adf0aca0cfcb9.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -22,11 +25,11 @@ variants:
 ---
 assetId: diego-del-llano-hyatt-ziva-tower-one-darknite
 version: "1.0"
-lastModified: "2017-07-14T16:45:01Z"
+lastModified: "2017-07-14T06:02:55Z"
 url: https://community.simtropolis.com/files/file/31843-hyatt-ziva-tower-one/?do=download&r=167513
 
 ---
 assetId: diego-del-llano-hyatt-ziva-tower-one-maxisnite
 version: "1.0"
-lastModified: "2017-07-14T16:45:01Z"
+lastModified: "2017-07-14T06:02:55Z"
 url: https://community.simtropolis.com/files/file/31843-hyatt-ziva-tower-one/?do=download&r=167514

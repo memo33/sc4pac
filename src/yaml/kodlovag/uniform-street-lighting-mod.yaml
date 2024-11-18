@@ -64,6 +64,9 @@ info:
   conflicts: "USL provides custom T21s for various networks, thus, it can conflict with other T21 mods."
   author: "kodlovag"
   website: "https://community.simtropolis.com/files/file/25925-uniform-street-lighting-mod/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dedea6072d28843ec21c3827f22abe22-usl_1.jpg
+    - https://www.simtropolis.com/objects/screens/0019/a719bdffbf1059935a050a94587e4955-usl_3.jpg
 
 ---
 assetId: "kodlovag-uniform-street-lighting-mod"

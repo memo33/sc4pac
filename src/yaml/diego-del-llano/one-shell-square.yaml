@@ -15,6 +15,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32283-one-shell-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/07.jpg.f6fd997e16291cce34a3888e8e21befb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/06.jpg.1402f1ed461931d616529f4b8017917e.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -28,5 +31,5 @@ variants:
 ---
 assetId: diego-del-llano-one-shell-square-darknite
 version: "1.0"
-lastModified: "2018-06-03T18:54:29Z"
+lastModified: "2018-06-03T18:43:38Z"
 url: https://community.simtropolis.com/files/file/32283-one-shell-square/?do=download

@@ -9,6 +9,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32938-hotel-nikko-san-francisco/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NIKKO.jpg.3ac47acd80d5261f6afbad74d2a844b5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/5cec96736f7db_NIKKOGRAND.jpg.80eeef1db44b3f13fc60419a448eaf83.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -22,5 +25,5 @@ variants:
 ---
 assetId: diego-del-llano-hotel-nikko-san-francisco-darknite
 version: "1.0"
-lastModified: "2019-08-21T14:25:00Z"
+lastModified: "2019-05-28T02:51:11Z"
 url: https://community.simtropolis.com/files/file/32938-hotel-nikko-san-francisco/?do=download

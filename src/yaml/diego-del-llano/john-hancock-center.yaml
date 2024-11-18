@@ -15,6 +15,14 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30952-john-hancock-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/1.jpg.c2c610fd3fcf61a0d757346b1c60c5ce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/2.jpg.5179b62bf480c1b438220de62145e5e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/3.png.63c19a475eb4af3aafd75360e5bdd0be.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/4.png.e4442c14960000fb88cd38f4cdb5c9ec.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/5.png.ade6957e84ff768bfb9b3c5e9dddfbe0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/6.png.6479e0350ef44741942356825033d23e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/7.png.9194a526f50727af0a7b4e3f80b8097e.png
 
 assets:
   - assetId: diego-del-llano-john-hancock-center
@@ -22,5 +30,5 @@ assets:
 ---
 assetId: diego-del-llano-john-hancock-center
 version: "2.0.0"
-lastModified: "2016-02-15T15:57:26Z"
+lastModified: "2016-02-15T15:57:22Z"
 url: https://community.simtropolis.com/files/file/30952-john-hancock-center/?do=download

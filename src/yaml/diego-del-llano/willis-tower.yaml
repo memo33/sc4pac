@@ -17,6 +17,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31901-willis-tower/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/c5/b0/7c/c5b07c4fdd100e8dc2ec0e007f1e9966.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/64/1a/b3/641ab357331b93a9d93151b3236ce89a.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -30,7 +33,7 @@ variants:
 ---
 assetId: diego-del-llano-willis-tower-darknite
 version: "1.0"
-lastModified: "2017-08-14T19:59:31Z"
+lastModified: "2017-08-14T19:56:40Z"
 url: https://community.simtropolis.com/files/file/31901-willis-tower/?do=download&r=167980
 
 ---

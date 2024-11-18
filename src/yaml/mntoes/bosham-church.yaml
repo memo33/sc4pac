@@ -37,6 +37,9 @@ info:
     This is only a dependency.
   author: "mntoes"
   website: https://community.simtropolis.com/files/file/17530-bosham-church/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7787272f99ada78ee84c28914f533b44-Bosham%20Church%20Day.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7787272f99ada78ee84c28914f533b44-Bosham%20Church%20night.jpg
 
 ---
 assetId: "mntoes-bosham-church"

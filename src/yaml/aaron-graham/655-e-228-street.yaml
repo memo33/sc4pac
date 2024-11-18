@@ -10,6 +10,11 @@ info:
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/29076-nybt-655-e-228-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/91aaa35e9c13877bb396f6411a0e7ff7-655-e-228-street.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/cd6e9f2b57f535b4f14dadab5bc72a27-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/b9477d67da15d520320f65723843c8f3-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/4e29e82b79c4762fead76914f0a9d47c-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

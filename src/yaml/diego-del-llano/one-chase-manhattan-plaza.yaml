@@ -13,6 +13,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32975-one-chase-manhattan-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ONECHASE.jpg.7ace2fb0c823833e5910bbf747b633ef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d12e61e752e2_ONECHASE2.jpg.55e924e5a627c1802e0d6c3db8b30802.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -26,5 +29,5 @@ variants:
 ---
 assetId: diego-del-llano-one-chase-manhattan-plaza-darknite
 version: "1.0"
-lastModified: "2019-08-21T14:16:58Z"
+lastModified: "2019-06-26T03:29:12Z"
 url: https://community.simtropolis.com/files/file/32975-one-chase-manhattan-plaza/?do=download

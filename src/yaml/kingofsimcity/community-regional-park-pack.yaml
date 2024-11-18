@@ -61,6 +61,14 @@ info:
     that you can expect to find in these parks.
   author: "kingofsimcity"
   website: "https://community.simtropolis.com/files/file/32075-kings-community-regional-park-pack-vol-1/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/splash_stex.jpg.47b4b3fb84fa7e38641398fd8ac765ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/showcase_1.jpg.a26d24d2c8c6f902510858a0c4986892.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/showcase_2.jpg.faaf790f3c5b36299d97c8ca1fe9e3d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/showcase_3.jpg.fc901edcaeab70ab34da3902bd6909ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/showcase_4.jpg.a7eea89d270f545af3383117a4c4eefb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/parks_less_big.jpg.c2d16635ca0a7a64c301511d94ab97f5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/parks_big.jpg.52c627c623a66a4cebbbd4652a04bf53.jpg
 
 ---
 group: "kingofsimcity"
@@ -99,6 +107,18 @@ info:
     In case you do not need all 36 parks, each of the subsets listed as dependencies can be installed individually instead.
   author: "kingofsimcity, MushyMushy, Glenni"
   website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/splash_stex.jpg.bd143a3aef4145aaaadae08c1d174ac9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/showcase_1.jpg.ed61fafec9deb8ec8a076ee6b9f4522e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/showcase_2.jpg.77354405b2b0304e9633d0d13396ec3b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/showcase_3.jpg.b2d1d549eac05f84ac37ca9dd2cf17f3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/comm_parks.jpg.26fe215b63b61b9a9fde46fad217f028.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/royal_trails.jpg.63554316a3e03cb821d412b6a8aedf3b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/tennis.jpg.e73ae87357e11b9653cfac72ec552dcc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/soccer.jpg.2d5e1aa5a0873f95ab06d56e41902dbc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/baseball_softball.jpg.6255a961814977a8ba03a664f9981740.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/sports_complexes.jpg.4ebf72f02d5f7af8296f25c8b79ba1b5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/desolate.jpg.5034eaf3862448fb507fc6b4adaf7211.jpg
 
 ---
 group: "kingofsimcity"
@@ -138,6 +158,8 @@ info:
   summary: "6 baseball fields from King's Community & Regional Park Pack Vol2"
   author: "kingofsimcity, MushyMushy, Glenni"
   website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/baseball_softball.jpg.6255a961814977a8ba03a664f9981740.jpg
 
 ---
 group: "kingofsimcity"
@@ -177,6 +199,9 @@ info:
   summary: "5 community parks from King's Community & Regional Park Pack Vol2"
   author: "kingofsimcity, MushyMushy, Glenni"
   website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/showcase_1.jpg.ed61fafec9deb8ec8a076ee6b9f4522e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/comm_parks.jpg.26fe215b63b61b9a9fde46fad217f028.jpg
 
 ---
 group: "kingofsimcity"
@@ -216,6 +241,8 @@ info:
   summary: "2 abandoned parks from King's Community & Regional Park Pack Vol2"
   author: "kingofsimcity, MushyMushy, Glenni"
   website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/desolate.jpg.5034eaf3862448fb507fc6b4adaf7211.jpg
 
 ---
 group: "kingofsimcity"
@@ -255,6 +282,8 @@ info:
   summary: "6 semi-modular trail lots from King's Community & Regional Park Pack Vol2"
   author: "kingofsimcity, MushyMushy, Glenni"
   website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/royal_trails.jpg.63554316a3e03cb821d412b6a8aedf3b.jpg
 
 ---
 group: "kingofsimcity"
@@ -294,6 +323,8 @@ info:
   summary: "4 soccer fields from King's Community & Regional Park Pack Vol2"
   author: "kingofsimcity, MushyMushy, Glenni"
   website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/soccer.jpg.2d5e1aa5a0873f95ab06d56e41902dbc.jpg
 
 ---
 group: "kingofsimcity"
@@ -333,6 +364,8 @@ info:
   summary: "6 softball fields from King's Community & Regional Park Pack Vol2"
   author: "kingofsimcity, MushyMushy, Glenni"
   website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/baseball_softball.jpg.6255a961814977a8ba03a664f9981740.jpg
 
 ---
 group: "kingofsimcity"
@@ -372,6 +405,9 @@ info:
   summary: "3 sports complexes from King's Community & Regional Park Pack Vol2"
   author: "kingofsimcity, MushyMushy, Glenni"
   website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/showcase_2.jpg.77354405b2b0304e9633d0d13396ec3b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/sports_complexes.jpg.4ebf72f02d5f7af8296f25c8b79ba1b5.jpg
 
 ---
 group: "kingofsimcity"
@@ -411,3 +447,6 @@ info:
   summary: "4 tennis parks from King's Community & Regional Park Pack Vol2"
   author: "kingofsimcity, MushyMushy, Glenni"
   website: "https://community.simtropolis.com/files/file/32125-kings-community-regional-park-pack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/showcase_3.jpg.b2d1d549eac05f84ac37ca9dd2cf17f3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/tennis.jpg.e73ae87357e11b9653cfac72ec552dcc.jpg

@@ -15,6 +15,11 @@ info:
     (commercial and residential boost) of a town hall.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33148-diagonal-town-hall/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/NAO.jpg.339238ca1bf22e0c97fa03df7857cd00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/NAO1.jpg.c524fbc2abad7f0faa8278ec36cfd464.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/NAO2.jpg.6386d7af52b2b9d604c02c8436e1613e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/NAO3.jpg.2e0e34975b50c5d6387d1079516e639a.jpg
 
 variants:
 - variant: { nightmode: standard }

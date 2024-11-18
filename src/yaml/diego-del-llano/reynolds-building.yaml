@@ -13,6 +13,8 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/35538-reynolds-buidling/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/reynolds.jpg.964794f9b6f0a2bf0d0c9d35e6e8ea50.jpg
 
 variants:
   - variant: { nightmode: standard }

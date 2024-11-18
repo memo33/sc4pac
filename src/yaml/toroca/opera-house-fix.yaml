@@ -14,6 +14,8 @@ info:
     that can have a major impact on city growth.
   author: "toroca"
   website: "https://community.simtropolis.com/files/file/21342-opera-house-fix/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/c007950f6430d08d70636a9dbad3a37c-default.jpg
 
 ---
 assetId: "toroca-opera-house-fix"

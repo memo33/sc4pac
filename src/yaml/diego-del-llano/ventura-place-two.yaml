@@ -9,6 +9,10 @@ info:
     It provides 2700 jobs (CO$$$).
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31458-ventura-place-two/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/1.jpg.cd879b810bcdc0fb408f749bd9fdc9f3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/2.jpg.e018cb13469484502abc88258781d2fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/3.jpg.490fec455b9a59c221fa344a51f096fe.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -22,11 +26,11 @@ variants:
 ---
 assetId: diego-del-llano-ventura-place-two-darknite
 version: "1.0"
-lastModified: "2017-02-12T00:55:38Z"
+lastModified: "2017-02-11T22:13:09Z"
 url: https://community.simtropolis.com/files/file/31458-ventura-place-two/?do=download&r=164541
 
 ---
 assetId: diego-del-llano-ventura-place-two-maxisnite
 version: "1.0"
-lastModified: "2017-02-12T00:55:38Z"
+lastModified: "2017-02-11T22:13:09Z"
 url: https://community.simtropolis.com/files/file/31458-ventura-place-two/?do=download&r=164542

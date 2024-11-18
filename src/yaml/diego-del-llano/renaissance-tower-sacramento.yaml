@@ -10,6 +10,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31038-renaissance-tower-sacramento/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/REINASSANCE1.png.eaf2576cde726db997c1d3f9245637ce.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/REINASSANCE2.png.fd59c808b25afdf2c2c991047d2fc765.png
 
 assets:
   - assetId: diego-del-llano-renaissance-tower-sacramento

@@ -20,6 +20,12 @@ info:
     landmark and mayor ratings. It also provides 19 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33908-st-johns-church-washington-dc/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns.jpg.35ee7930618ea206336e601f8e223c5d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns1.jpg.280d5d70c898060feb2b65092bd39c7b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns2.jpg.43a811b1b6d5083bb283281a255bd2a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns3.jpg.fef1a0cefaccfe7ae938f4eaa7e8a400.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/St_Johns4.jpg.f15a7c785663ab4187b74cbce795f40e.jpg
 
 variants:
 - variant: { nightmode: standard }

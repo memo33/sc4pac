@@ -10,6 +10,12 @@ info:
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/27123-graham-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/0329c3180fe0fdaf70fb686f154b13dc-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/3156c3d7824cb4ead0d5a6855e622ffb-maxis%20night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/44ba6f295dbeca525c55bdbb2809a2ff-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/9775dade52a98fd2a5f3a6e9543d8d32-maxisnite.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/e3b807d40330f49e824f93a4e669138a-darknite.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

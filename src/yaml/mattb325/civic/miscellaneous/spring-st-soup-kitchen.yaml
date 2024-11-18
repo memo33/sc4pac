@@ -13,6 +13,12 @@ info:
     There are no required conditions, and the reward may be placed repeatedly.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33998-spring-st-soup-kitchen-nyc/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SoupKitchen.jpg.cafa4826299e9b4cff00aaa9d9ecaf19.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SoupKitchen1.jpg.89044eec62a05a3fd8e04312d43dc557.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SoupKitchen2.jpg.c03cdc14b57b9af743901565387c0a3d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SoupKitchen3.jpg.8f4147f9503fe053e3a5e13f02f82330.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SoupKitchen4.jpg.91ccb759092921a004c4c8711bbbdb26.jpg
 
 variants:
 - variant: { nightmode: standard }

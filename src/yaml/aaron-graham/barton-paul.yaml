@@ -10,6 +10,11 @@ info:
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/30118-nybt-barton-paul/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/d3bd2de5b0dc52d4c5b671b2516ee9e1-nybt-barton-paul-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/fabf55fea902adec5c5445634cf626d9-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/4110bcdeb46af65a442b9ddbda529341-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2015/bb4df8c6a37a4c408955ceee3f8bd3ae-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

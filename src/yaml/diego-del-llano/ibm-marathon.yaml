@@ -15,6 +15,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-rené-lévesque/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/37/a7/b7/37a7b787a679b16e9426a95410e5fcf6.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/a0/10/08/a01008d4a0a6b3c89a539240b2295c6c.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -28,11 +31,11 @@ variants:
 ---
 assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-darknite
 version: "1.0"
-lastModified: "2017-03-14T23:49:13Z"
+lastModified: "2017-03-14T06:44:11Z"
 url: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-réne-lévesque/?do=download&r=164978
 
 ---
 assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-maxisnite
 version: "1.0"
-lastModified: "2017-03-14T23:49:13Z"
+lastModified: "2017-03-14T06:44:11Z"
 url: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-réne-lévesque/?do=download&r=164979

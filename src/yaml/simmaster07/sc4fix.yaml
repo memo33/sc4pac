@@ -16,6 +16,8 @@ info:
     Allows other DLLs to load into SC4's memory without a GZCOM framework.
   author: "simmaster07/nsgomez"
   website: "https://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/sc4fix.png.d2cd8a6bac0d8094806a384a70846a0e.png
 
 ---
 assetId: "simmaster07-sc4fix"

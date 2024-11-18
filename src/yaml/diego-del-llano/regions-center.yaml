@@ -11,6 +11,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31829-regions-center/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/cd/be/8d/cdbe8dd0dd89a272da138f87d1765427.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/b4/17/58/b41758db55898096b400f76596c3ed03.jpg
 
 variants:
   - variant: { nightmode: standard }

@@ -11,6 +11,13 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/1.jpg.0eede310e82157faf8a07e451507081d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/2.jpg.e6adca07ccf423cbc59880e352c40c07.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/3.jpg.21f6f38929bc01f3e54784c3d5ede2e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/4.jpg.e7e703d9a1cc96f73d7eddef410fe8b8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/6.jpg.49d9abf94e597e8aaaa52569f0f633eb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/7.jpg.394f1063de0e7b8af25ae24b4b3b76ae.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -26,24 +33,24 @@ variants:
 ---
 assetId: diego-del-llano-seattle-municipal-tower-darknite
 version: "1.0"
-lastModified: "2016-02-18T04:57:45Z"
+lastModified: "2016-02-18T04:46:49Z"
 url: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/?do=download&r=160764
 
 ---
 assetId: diego-del-llano-seattle-municipal-tower-no-plaza-darknite
 version: "1.0"
-lastModified: "2016-02-18T04:57:45Z"
+lastModified: "2016-02-18T04:46:49Z"
 url: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/?do=download&r=160766
 
 ---
 assetId: diego-del-llano-seattle-municipal-tower-maxisnite
 version: "1.0"
-lastModified: "2016-02-18T04:57:45Z"
+lastModified: "2016-02-18T04:46:49Z"
 url: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/?do=download&r=160763
 
 
 ---
 assetId: diego-del-llano-seattle-municipal-tower-no-plaza-maxisnite
 version: "1.0"
-lastModified: "2016-02-18T04:57:45Z"
+lastModified: "2016-02-18T04:46:49Z"
 url: https://community.simtropolis.com/files/file/30957-seattle-municipal-tower/?do=download&r=160765

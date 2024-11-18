@@ -14,6 +14,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31477-carlton-hotel-johannesburg/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/4d/c0/90/4dc09018c9411c9f8adb8bed7c242200.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/04/fe/f6/04fef6ba3bd648fae6b0d4165705eb8e.jpg
 
 variants:
   - variant: { nightmode: standard }

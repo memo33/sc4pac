@@ -13,6 +13,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32931-one-cleveland-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/ONE03.jpg.a9ed0ae8a98e17aed63e508bdada30a4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/ONE04.jpg.00c7981a0abab2bd932fd4236b670075.jpg
 
 variants:
   - variant: { nightmode: standard }

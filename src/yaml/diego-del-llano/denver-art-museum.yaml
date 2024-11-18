@@ -15,6 +15,11 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30964-denver-art-museum-frederic-c-hamilton-building/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/1.jpg.750c4d93f634f82cf6b4a3d6053476a9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/2.jpg.092f045a4cad51edf3e773d41cbae1f8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/3.jpg.605724fe49a835f938cba21b3a20d11b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/4.jpg.43d8ba20fc06b736eeb2287afba733c5.jpg
 
 assets:
   - assetId: diego-del-llano-denver-art-museum-frederic-c-hamilton-building
@@ -22,5 +27,5 @@ assets:
 ---
 assetId: diego-del-llano-denver-art-museum-frederic-c-hamilton-building
 version: "1.0"
-lastModified: "2016-02-23T01:33:33Z"
+lastModified: "2016-02-23T01:11:50Z"
 url: https://community.simtropolis.com/files/file/30964-denver-art-museum-frederic-c-hamilton-building/?do=download

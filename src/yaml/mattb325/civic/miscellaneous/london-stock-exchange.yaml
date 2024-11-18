@@ -19,6 +19,12 @@ info:
     Provides a large CO$$$ cap relief, sits on a 4x4 lot, and has 155 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/32008-london-stock-exchange/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/LSE4.jpg.acbcfee7617a78c4733c9635167261a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/LSE3.jpg.d89e6af852772e025ae621f7baa3a841.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/LSE2.jpg.ec46a1353be47de2a4083e26cac01ebc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/LSE1.jpg.1e9dded33059a00e90a17f3304576fc7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/LSE.jpg.6ee0f5389e75fad44695c93fd87b5a7f.jpg
 
 variants:
 - variant: { nightmode: standard }

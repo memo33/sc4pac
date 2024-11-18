@@ -10,6 +10,11 @@ info:
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28414-nybt-hattan-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/a5449a4ec3c549ed4aec625f469785c6-hattan-house-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/8771a6538e4365eef7ddce42654a8b6d-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/e1f16c3e28588fa3b9ec7ab016a6306e-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/92c4afe22a7038868dc6126aaf703bad-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

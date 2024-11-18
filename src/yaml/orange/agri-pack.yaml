@@ -10,6 +10,10 @@ info:
     This package contains props and mayor-mode ploppables (MMPs) related to wheat harvesting.
   author: "Orange_o_"
   website: "https://community.simtropolis.com/files/file/27906-vip-orange-agripack-v2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/2bc764f1c91b4696617f3f8d5f8d0044-vignettestexlex.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/2379b829d65c05e8d7329a73755df881-presentation.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/bcc136973f7155fb6a60c86e60a8bbd1-presentation2readme.jpg
 
 ---
 assetId: "vip-orange-agri-pack"
