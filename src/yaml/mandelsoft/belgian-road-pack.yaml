@@ -28,6 +28,7 @@ assets:
 group: mandelsoft
 name: lrm-belgium
 version: "1.0"
+subfolder: 150-mods
 info:
   summary: Belgian Light Replacement Mod
   description: |
@@ -36,6 +37,8 @@ info:
   website: https://community.simtropolis.com/files/file/23779-belgian-road-pack-01/
   conflicts: This pack may cause conflicts with the Light Replacement Mod and MRTNRLN's Ploppable RHW Median Lights Set 01.
 
+dependencies:
+  - mandelsoft:belgian-road-pack
 assets:
   - assetId: mandelsoft-belgian-road-pack-01
     include:
