@@ -7,7 +7,7 @@ info:
   description: |
     This pack contains the French Signage Set. The set contains 73 French-styled signs for your Autoroutes for the most common RHW interchange setups.
 
-     Submenu support is baked in. To take advantage of it, you have to install `memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
+     Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
   author: MandelSoft
   website: https://community.simtropolis.com/files/file/28389-french-signage-set/
   images:
