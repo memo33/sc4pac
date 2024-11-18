@@ -1,6 +1,6 @@
 assetId: "light-replacement-mod-4-mega-pack-mac"
 version: "1.0"
-lastModified: "2017-05-12T23:01:52Z"
+lastModified: "2012-01-18T12:09:30Z"
 # url: "https://community.simtropolis.com/files/file/27200-light-replacement-mod-lrm-v40-mega-pack/?do=download&r=98162"  # Windows
 url: "https://community.simtropolis.com/files/file/27200-light-replacement-mod-lrm-v40-mega-pack/?do=download&r=98163"  # macOS
 # We pick the macOS version as the Windows installer does not extract cleanly. It is possibly corrupted.
