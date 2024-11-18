@@ -147,6 +147,11 @@ info:
   summary: Underground Parking
   author: mattb325
   website: https://community.simtropolis.com/files/file/34333-underground-parking-entrance/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Underground.jpg.cb95b42c82e16e9c2840308e57e6db70.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Underground1.jpg.64158203f484cfc7c683bea4bfcd3410.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Underground2.jpg.5ad590d5451d5adb0f735696f3681acd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Underground3.jpg.d07f74a0ab61ca61b2474a738ff685dd.jpg
 
 dependencies:
   - bsc:bat-props-mattb325-vol02
@@ -175,6 +180,12 @@ info:
   summary: Parking Garage Ortho
   author: mattb325
   website: https://community.simtropolis.com/files/file/32956-parking-garage/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage.jpg.153ba6c42c03452069a9058749426a7b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage1.jpg.3ab07ef2ff79c9eaaaab4a521d459d12.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage2.jpg.a3cdcc8249785e43a6e638151c24a7f8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage3.jpg.31391f3dd09bbde5c9eef765fa8b9cac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage4.jpg.6edfdf78655f34c83f9cd6a00a0371a2.jpg
 
 dependencies:
   - bsc:mega-props-mikeseith-vol01
@@ -204,6 +215,11 @@ info:
   summary: Parking Garage Diagonal
   author: mattb325
   website: https://community.simtropolis.com/files/file/34490-diagonal-parking-garage/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking.jpg.38dbf606e968a521c2825869152befab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking1.jpg.27fc7c15fed944c583484e2aabe0bd0f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking2.jpg.78f64ceaaf91b9d1bfd9bbd25a00f52c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking3.jpg.98a42bab02b27ff5f987d0362b917f64.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -257,6 +273,16 @@ info:
   summary: Electric Car Recharge Bay
   author: mattb325
   website: https://community.simtropolis.com/files/file/34306-electric-car-recharge-bay/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay.jpg.f94b61c3c82ec5bd3c5aa1ec855eed56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay1.jpg.610b5cbde301b6510d7c9626f2baccc6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay1a.jpg.9db53c0551e39fa665771e5cfe4389f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay2.jpg.2b8031472ee40178e5ff039d11fd3a78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay3.jpg.37f8adac470c687fc3c4c4909139e24d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay4.jpg.88c7da9cfcabbb5537d949c940bc3fc6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay5.jpg.3cacf2217a98e1ce7399d4819ea96d96.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay6.jpg.1a2ea2de399f49efa199391350d28a3c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay7.jpg.00e9b79011820524293d80713f28f23c.jpg
 
 dependencies:
   - bsc:essentials
@@ -727,6 +753,15 @@ info:
   summary: Grand Central Chicago
   author: mattb325
   website: https://community.simtropolis.com/files/file/30925-chicago-grand-central-terminal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral.jpg.dea76c862f45e1bad85f0508784bc3be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral1.1.jpg.b8e67eb88f8f6bf85dc385f25dbd08c1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral1.jpg.08279f7b5dd2e7371bb248414490b1ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral2.jpg.62246d691dd628cc4d20868a3ef0a5fc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral3.jpg.13a94670fe4bfd2bdab1bc3c50cf0901.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral4.jpg.e5a1058f4df64275961ca99c9fb0cbc3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral5.jpg.1c12f884b44e1431b435a340a3849a5c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral6.jpg.84646f19ac2897784eaa9448178dfff8.jpg
 
 dependencies:
   - bsc:bat-props-mattb325-vol02
@@ -827,6 +862,13 @@ info:
   summary: Citylink Transport Hub
   author: mattb325
   website: https://community.simtropolis.com/files/file/32073-city-link-transport-hub/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink.jpg.80474b4e42edc2c05d67d2875ddeebfb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink2.jpg.816ac6cc4521b57cde28b244766d8412.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink3.jpg.7b2d3ffca387bd4d23ef24222e42d7c0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink4.jpg.ea85d03a5dc6852f91c2fcfaf6c2aa1e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink5.jpg.4dad4773aea3c9292a027d9a0579ad0c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink1.jpg.519f164df5ee86435f274dbf5f2a35ad.jpg
 
 dependencies:
   - bsc:essentials
@@ -1145,6 +1187,17 @@ info:
   summary: Overhanging Multifunction Station Ortho
   author: mattb325
   website: https://community.simtropolis.com/files/file/33181-ortho-rail-bus-and-subway-station-transport-hub/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation.jpg.d0aee799fe6604a9401d767793a0d9d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation1.jpg.bfb0b93dc822eab128202ea2373e90d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation1a.jpg.d47e7b2571174058d194d0138142fb2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation2.jpg.a1c995ab7d3c8489cf44d6b317022c2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation3.jpg.d639254663b5a42fed236cd366be0f51.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation4.jpg.292aa4eece0608629ca0e6ef07d2503e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation5.jpg.04d325275bd63b87fc47f1203353e58e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation6.jpg.f3d1acadd45dafd25a7fb02cf87640f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation7.jpg.e2a0325319bcf8e999d649753e51314e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation8.jpg.779da18532deea02b2582ea13d16b943.jpg
 
 dependencies:
   - mattb325:terminus-stations
