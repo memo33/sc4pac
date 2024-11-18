@@ -23,6 +23,65 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=113:m
 
 ---
 group: mattb325
+name: transportation-collection
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Transportation Collection
+  description: |
+    This package features the transporation related LOTs and BATs by mattb325.
+  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+dependencies:
+  - mattb325:subway-station
+  - mattb325:underground-parking
+  - mattb325:parking-garage-ortho
+  - mattb325:parking-garage-diagonal
+  - mattb325:electric-car-recharge-station
+  - mattb325:electric-car-recharge-bay
+  - mattb325:xiangshen-centre-l0-and-l2-viaduct-rail-station
+  - mattb325:victorian-l1-viaduct-rail-station
+  - mattb325:victorian-diagonal-l1-viaduct-rail-station
+  - mattb325:underground-rail-station
+  - mattb325:terminus-pack
+  - mattb325:sunken-railway-station
+  - mattb325:strickland-l1-viaduct-rail-station
+  - mattb325:spitalfields-house-l0-and-l2-viaduct-rail-station
+  - mattb325:national-audit-office-l0-and-l2-viaduct-rail-station
+  - mattb325:modern-l2-viaduct-rail-station
+  - mattb325:modern-l1-viaduct-rail-station
+  - mattb325:l1-viaduct-rail-terminus
+  - mattb325:high-holbourn-station
+  - mattb325:grand-central-chicago
+  - mattb325:galleria-gc-l2-viaduct-rail-terminus
+  - mattb325:emu-plains-rail-station
+  - mattb325:citylink-transport-hub
+  - mattb325:central-l2-viaduct-rail-station
+  - mattb325:central-l1-viaduct-rail-station
+  - mattb325:xiangshen-centre-rail-monorail-station
+  - mattb325:xiangshen-centre-rail-hsr-station
+  - mattb325:xiangshen-centre-rail-elrail-station
+  - mattb325:spitalfields-house-rail-monorail-station
+  - mattb325:spitalfields-house-rail-hsr-station
+  - mattb325:spitalfields-house-rail-elrail-station
+  - mattb325:overhanging-multifunction-station-ortho
+  - mattb325:overhanging-multifunction-station-fa
+  - mattb325:overhanging-multifunction-station-diagonal
+  - mattb325:national-audit-office-rail-monorail-station
+  - mattb325:national-audit-office-rail-hsr-station
+  - mattb325:national-audit-office-rail-elrail-station
+  - mattb325:modern-rail-station-monorail
+  - mattb325:galleria-gc-monorail-terminus
+  - mattb325:central-station-monorail
+  - mattb325:modern-rail-station-hsr
+  - mattb325:galleria-gc-hsr-terminus
+  - mattb325:central-station-hsr
+  - mattb325:diagonal-glr-station
+  - mattb325:modern-rail-station-el-rail
+  - mattb325:galleria-gc-el-rail-terminus
+  - mattb325:central-station-el-rail
+
+---
+group: mattb325
 name: terminus-stations
 version: "1.0"
 subfolder: 100-props-textures
