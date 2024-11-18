@@ -1,0 +1,43 @@
+group: murimk
+name: props-vol01-bicycle-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Bicycle Props
+  author: murimk, Paeng
+  website: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c5ba4a400b1e01c96c2e5b7237ad2e6f-stex01.jpg
+    - https://www.simtropolis.com/objects/screens/0022/c5ba4a400b1e01c96c2e5b7237ad2e6f-stex02.jpg
+
+assets:
+  - assetId: murimk-bicycle-props-with-bikers-mmp
+    exclude:
+      - "\\.SC4Lot$"
+      - Bikers_MMP.dat
+
+---
+group: murimk
+name: bikers-mmp
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: Bikers MMP
+  author: murimk, Paeng
+  website: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c5ba4a400b1e01c96c2e5b7237ad2e6f-stex01.jpg
+    - https://www.simtropolis.com/objects/screens/0022/c5ba4a400b1e01c96c2e5b7237ad2e6f-stex02.jpg
+dependencies:
+  - murimk:bicycle-props
+
+assets:
+  - assetId: murimk-bicycle-props-with-bikers-mmp
+    include:
+      - Bikers_MMP.dat
+
+---
+assetId: murimk-bicycle-props-with-bikers-mmp
+version: "1.0"
+lastModified: "2011-01-13T11:14:03Z"
+url: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/?do=download
