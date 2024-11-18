@@ -48,6 +48,7 @@ dependencies:
   - bsc:mega-props-t1-vol03
   - bsc:mega-props-t1-vol04
   - bsc:sg-models-small-shops
+  - bsc:vip-girafe-urbanpack-vol01
   - cobb:mega-props-vol01
   - csx:mega-props-vol05
   - girafe:ashes
@@ -58,6 +59,7 @@ dependencies:
   - girafe:lindens
   - girafe:norway-maples
   - girafe:serbian-spruces
+  - girafe:grand-firs
   - maxis:buildings-as-props
   - ralphaelninja:landmark-props
   - sfbt:essentials
@@ -86,66 +88,72 @@ variants:
         include:
           - z_Maxis Concrete.dat
   - variant: { 11241036:modular-plaza-system:textures: bsc-diagonal-brick }
+    dependencies:
+      - bsc:textures-vol01
     assets:
       - assetId: 11241036-modular-plaza-system
         include:
           - z_BSC Diagonal Brick.dat
-  # - variant: { 11241036:modular-plaza-system:textures: bsc-mediterranean-red-cobblestone }
-  #   assets:
-  #     - assetId: 11241036-modular-plaza-system
-  #       include:
-  #         - z_BSC Mediterranean Red Cobblestone.dat
-  # - variant: { 11241036:modular-plaza-system:textures: bsc-pink-pavement }
-  #   assets:
-  #     - assetId: 11241036-modular-plaza-system
-  #       include:
-  #         - z_BSC Pink Pavement.dat
-  # - variant: { 11241036:modular-plaza-system:textures: mtp-red-sandstone }
-  #   assets:
-  #     - assetId: 11241036-modular-plaza-system
-  #       include:
-  #         - z_MTP Red Sandstone.dat
-  # - variant: { 11241036:modular-plaza-system:textures: nam-cobblestone }
-  #   assets:
-  #     - assetId: 11241036-modular-plaza-system
-  #       include:
-  #         - z_NAM Cobblestone.dat
-  # - variant: { 11241036:modular-plaza-system:textures: nam-industrial }
-  #   assets:
-  #     - assetId: 11241036-modular-plaza-system
-  #       include:
-  #         - z_NAM Industrial.dat
-  # - variant: { 11241036:modular-plaza-system:textures: nam-pink-pavement }
-  #   assets:
-  #     - assetId: 11241036-modular-plaza-system
-  #       include:
-  #         - z_NAM Pink Pavement.dat
-  # - variant: { 11241036:modular-plaza-system:textures: nam-red-brick }
-  #   assets:
-  #     - assetId: 11241036-modular-plaza-system
-  #       include:
-  #         - z_NAM Red Brick.dat
-  # - variant: { 11241036:modular-plaza-system:textures: nam-sandstone }
-  #   assets:
-  #     - assetId: 11241036-modular-plaza-system
-  #       include:
-  #         - z_NAM Sandstone.dat
-  # - variant: { 11241036:modular-plaza-system:textures: vortexture-cobblestone-1 }
-  #   dependencies:
-  #     - vortext:vortexture-1
-  #     - vortext:vortexture-2
-  #   assets:
-  #     - assetId: 11241036-modular-plaza-system
-  #       include:
-  #         - z_Vortexture Cobblestone 1.dat
-  # - variant: { 11241036:modular-plaza-system:textures: vortexture-cobblestone-2 }
-  #   dependencies:
-  #     - vortext:vortexture-1
-  #     - vortext:vortexture-2
-  #   assets:
-  #     - assetId: 11241036-modular-plaza-system
-  #       include:
-  #         - z_Vortexture Cobblestone 2.dat
+  - variant: { 11241036:modular-plaza-system:textures: bsc-mediterranean-red-cobblestone }
+    dependencies:
+      - bsc:textures-vol01
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_BSC Mediterranean Red Cobblestone.dat
+  - variant: { 11241036:modular-plaza-system:textures: bsc-pink-pavement }
+    dependencies:
+      - bsc:textures-vol02
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_BSC Pink Pavement.dat
+  - variant: { 11241036:modular-plaza-system:textures: mtp-red-sandstone }
+    dependencies:
+      - peg:mtp-super-pack
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_MTP Red Sandstone.dat
+  - variant: { 11241036:modular-plaza-system:textures: nam-cobblestone }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_NAM Cobblestone.dat
+  - variant: { 11241036:modular-plaza-system:textures: nam-industrial }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_NAM Industrial.dat
+  - variant: { 11241036:modular-plaza-system:textures: nam-pink-pavement }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_NAM Pink Pavement.dat
+  - variant: { 11241036:modular-plaza-system:textures: nam-red-brick }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_NAM Red Brick.dat
+  - variant: { 11241036:modular-plaza-system:textures: nam-sandstone }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_NAM Sandstone.dat
+  - variant: { 11241036:modular-plaza-system:textures: vortexture-cobblestone-1 }
+    dependencies:
+      - vortext:vortexture-1
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_Vortexture Cobblestone 1.dat
+  - variant: { 11241036:modular-plaza-system:textures: vortexture-cobblestone-2 }
+    dependencies:
+      - vortext:vortexture-1
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_Vortexture Cobblestone 2.dat
 
 ---
 assetId: 11241036-modular-plaza-system
