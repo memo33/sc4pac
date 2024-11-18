@@ -82,6 +82,7 @@ assets:
       - Seawall Connection Lots.dat
 
 variants:
+  - variant: { 11241036:modular-plaza-system:textures: maxis-white }
   - variant: { 11241036:modular-plaza-system:textures: maxis-concrete }
     assets:
       - assetId: 11241036-modular-plaza-system
