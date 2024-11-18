@@ -22,26 +22,130 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666224ce84643_2MPS.png.997e8a240e19873333f98d98b00afdf1.png
 
 dependencies:
-  - [https://sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
-  - [https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-lex-legacy-bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+  - bsc:essentials
+  - bsc:mega-props-cal-vol01
+  - bsc:mega-props-carch-vol01
+  - bsc:mega-props-carch-vol08
+  - bsc:mega-props-dbssymn-vol02
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-gaz-vol01
+  - bsc:mega-props-jbsimio-vol01
+  - bsc:mega-props-jbsimio-vol03
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jmyers-agriculture-vol01
+  - bsc:mega-props-jrj-vol02
+  - bsc:mega-props-kwk-vol02
+  - bsc:mega-props-mikeseith-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-misc-vol03
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-newmaninc-vol01
+  - bsc:mega-props-rt-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-swi21-vol02
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-t1-vol04
+  - bsc:sg-models-small-shops
+  - cobb:mega-props-vol01
+  - csx:mega-props-vol05
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:birches
+  - girafe:common-spruces
+  - girafe:elms
+  - girafe:lindens
+  - girafe:norway-maples
+  - girafe:serbian-spruces
   - maxis:buildings-as-props
-  - raphaelninja:landmark-props
+  - ralphaelninja:landmark-props
   - sfbt:essentials
-  - [https://community.simtropolis.com/files/file/29880-historic-harbor/](https://community.simtropolis.com/files/file/29880-historic-harbor/)
-  - [https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/](https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/)
-  - [https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/](https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/)
-  - [https://community.simtropolis.com/files/file/25888-murimk-props-vol02/](https://community.simtropolis.com/files/file/25888-murimk-props-vol02/)
-  - [https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/](https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/)
+  - historic-harbor:dependencies
+  - jrj:concrete-wall-addon-stairs-props
+  - murimk:props-vol01-bicycle-props
+  - murimk:props-vol02-mixed-props
+  - 11241036:various-lot-foundations-and-retaining-walls
   - 11241036:textures
-  - [https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county/](https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county/)
+  - wmp:shoreline-county-bridges-props
   - porkissimo:jenx-porkie-expanded-porkie-props
-  - [https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/](https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/)
+  - rdg:prop-pack-1
   - peg:spot
   - memo:submenus-dll
-  - [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/168-vortext-vortexture-1-2-base-set-grass-and-dirt](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/168-vortext-vortexture-1-2-base-set-grass-and-dirt)
-  - peg:mtp-super-pack
 assets:
   - assetId: 11241036-modular-plaza-system
+    include:
+      - MPS Core Files.dat
+      - MPS_Submenu Plazas.dat
+      - Seawall Connection Lots.dat
+
+variants:
+  - variant: { 11241036:modular-plaza-system:textures: maxis-concrete }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_Maxis Concrete.dat
+  - variant: { 11241036:modular-plaza-system:textures: bsc-diagonal-brick }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_BSC Diagonal Brick.dat
+  # - variant: { 11241036:modular-plaza-system:textures: bsc-mediterranean-red-cobblestone }
+  #   assets:
+  #     - assetId: 11241036-modular-plaza-system
+  #       include:
+  #         - z_BSC Mediterranean Red Cobblestone.dat
+  # - variant: { 11241036:modular-plaza-system:textures: bsc-pink-pavement }
+  #   assets:
+  #     - assetId: 11241036-modular-plaza-system
+  #       include:
+  #         - z_BSC Pink Pavement.dat
+  # - variant: { 11241036:modular-plaza-system:textures: mtp-red-sandstone }
+  #   assets:
+  #     - assetId: 11241036-modular-plaza-system
+  #       include:
+  #         - z_MTP Red Sandstone.dat
+  # - variant: { 11241036:modular-plaza-system:textures: nam-cobblestone }
+  #   assets:
+  #     - assetId: 11241036-modular-plaza-system
+  #       include:
+  #         - z_NAM Cobblestone.dat
+  # - variant: { 11241036:modular-plaza-system:textures: nam-industrial }
+  #   assets:
+  #     - assetId: 11241036-modular-plaza-system
+  #       include:
+  #         - z_NAM Industrial.dat
+  # - variant: { 11241036:modular-plaza-system:textures: nam-pink-pavement }
+  #   assets:
+  #     - assetId: 11241036-modular-plaza-system
+  #       include:
+  #         - z_NAM Pink Pavement.dat
+  # - variant: { 11241036:modular-plaza-system:textures: nam-red-brick }
+  #   assets:
+  #     - assetId: 11241036-modular-plaza-system
+  #       include:
+  #         - z_NAM Red Brick.dat
+  # - variant: { 11241036:modular-plaza-system:textures: nam-sandstone }
+  #   assets:
+  #     - assetId: 11241036-modular-plaza-system
+  #       include:
+  #         - z_NAM Sandstone.dat
+  # - variant: { 11241036:modular-plaza-system:textures: vortexture-cobblestone-1 }
+  #   dependencies:
+  #     - vortext:vortexture-1
+  #     - vortext:vortexture-2
+  #   assets:
+  #     - assetId: 11241036-modular-plaza-system
+  #       include:
+  #         - z_Vortexture Cobblestone 1.dat
+  # - variant: { 11241036:modular-plaza-system:textures: vortexture-cobblestone-2 }
+  #   dependencies:
+  #     - vortext:vortexture-1
+  #     - vortext:vortexture-2
+  #   assets:
+  #     - assetId: 11241036-modular-plaza-system
+  #       include:
+  #         - z_Vortexture Cobblestone 2.dat
 
 ---
 assetId: 11241036-modular-plaza-system
