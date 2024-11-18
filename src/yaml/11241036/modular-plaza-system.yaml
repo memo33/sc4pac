@@ -7,7 +7,7 @@ info:
   description: |
     This plugin contains a good number of modular lots that will allow you to create your custom plaza, sidewalk, or seawall. Fountains, ponds, benches, seawalls, market stalls, trees – nearly everything is available, Most of them are purely decorational (while having park and landmark effect), only the market stalls will yield a bit money. All lots have been designed in a way that they are rather simple, thereby being able to be combined with each other easily. All lots can be found in the park menu, just below the default Maxis parks.
 
-    Submenu support is baked in. To take advantage of it, you have to install `memo:submenus-dll`, after which the lots can be found in the Parks > Plazas submenu.
+    Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Parks > Plazas submenu.
 
   author: "11241036"
   website: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps/
