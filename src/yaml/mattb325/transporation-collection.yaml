@@ -85,9 +85,9 @@ name: underground-parking
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Underground Parking#
+  summary: Underground Parking
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  website: https://community.simtropolis.com/files/file/34333-underground-parking-entrance/
 
 dependencies:
   - bsc:bat-props-mattb325-vol02
@@ -113,9 +113,9 @@ name: parking-garage-ortho
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Parking Garage Ortho#
+  summary: Parking Garage Ortho
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  website: https://community.simtropolis.com/files/file/32956-parking-garage/
 
 dependencies:
   - bsc:mega-props-mikeseith-vol01
@@ -142,9 +142,9 @@ name: parking-garage-diagonal
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Parking Garage Diagonal#
+  summary: Parking Garage Diagonal
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  website: https://community.simtropolis.com/files/file/34490-diagonal-parking-garage/
 
 variants:
   - variant: { nightmode: standard }
@@ -167,7 +167,7 @@ name: electric-car-recharge-station
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Electric Car Recharge Station#
+  summary: Electric Car Recharge Station
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
 
@@ -195,9 +195,9 @@ name: electric-car-recharge-bay
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Electric Car Recharge Bay#
+  summary: Electric Car Recharge Bay
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  website: https://community.simtropolis.com/files/file/34306-electric-car-recharge-bay/
 
 dependencies:
   - bsc:essentials
@@ -356,7 +356,7 @@ name: terminus-pack
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Terminus Pack#
+  summary: Terminus Pack
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
 
@@ -399,7 +399,7 @@ name: sunken-railway-station
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Sunken Railway Station#
+  summary: Sunken Railway Station
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
 
@@ -627,7 +627,7 @@ name: high-holbourn-station
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: High Holbourn Station#
+  summary: High Holbourn Station
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
 
@@ -665,9 +665,9 @@ name: grand-central-chicago
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Grand Central Chicago#
+  summary: Grand Central Chicago
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  website: https://community.simtropolis.com/files/file/30925-chicago-grand-central-terminal/
 
 dependencies:
   - bsc:bat-props-mattb325-vol02
@@ -728,7 +728,7 @@ name: emu-plains-rail-station
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Emu Plains Rail Station#
+  summary: Emu Plains Rail Station
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
 
@@ -761,13 +761,13 @@ variants:
 
 ---
 group: mattb325
-name: citylink-rail-station
+name: citylink-transport-hub
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Citylink Rail Station#
+  summary: Citylink Transport Hub
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  website: https://community.simtropolis.com/files/file/32073-city-link-transport-hub/
 
 dependencies:
   - bsc:essentials
@@ -1085,7 +1085,7 @@ subfolder: 700-transit
 info:
   summary: Overhanging Multifunction Station Ortho
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  website: https://community.simtropolis.com/files/file/33181-ortho-rail-bus-and-subway-station-transport-hub/
 
 dependencies:
   - mattb325:terminus-stations
