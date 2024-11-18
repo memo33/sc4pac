@@ -74,6 +74,7 @@ dependencies:
   - wmp:shoreline-county-bridges-props
   - porkissimo:jenx-porkie-expanded-porkie-props
   - rdg:prop-pack-1
+  - sfbt:peterycristi-props
   - peg:spot
 assets:
   - assetId: 11241036-modular-plaza-system
