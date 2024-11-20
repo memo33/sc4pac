@@ -1,0 +1,27 @@
+group: sc4d
+name: commercial-w2w-pack-darknite
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Commercial W2W Pack
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Amestoy_lg.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ImmoderateCur_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/PWN_lg.jpg
+
+assets:
+  - assetId: mattb325-commercial-w2w-pack-darknite
+
+---
+assetId: mattb325-commercial-w2w-pack-darknite
+version: "1.1"
+lastModified: "2023-08-20T10:04:31Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=104:sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite&catid=12
+
+---
+assetId: mattb325-commercial-w2w-pack-maxisnite
+version: "Version 1 rev1-MaxisNite"
+lastModified: "2023-08-20T10:05:00Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=105:sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite&catid=12
