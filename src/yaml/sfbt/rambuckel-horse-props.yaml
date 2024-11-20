@@ -1,0 +1,76 @@
+group: sfbt
+name: rambuckel-horse-props
+version: "1"
+subfolder: 100-props-textures
+info:
+  summary: Rambuckel Horse Props
+  description: |
+    This prop pack is the ultimate pack for everyone who loves horses. It contains more than 300 props with various horses, and a set of horse coaches. The horses (bay horses, grey horses and black horses) and coaches can be used in Lot Editor as props (grouped in various prop families).
+  author: rambuckel, FrankyFour, Andreas
+  website: https://www.sc4evermore.com/index.php/downloads/download/121-sfbt-props-rambuckel-horse-props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SFBT_Pferde_Props_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SFBT_Pferde_Props_02.jpg
+
+assets:
+  - assetId: sfbt-rambuckel-horse-props
+    include:
+      - /SFBT_Props/
+
+---
+group: sfbt
+name: rambuckel-horse-mmps
+version: "1"
+subfolder: 180-flora
+info:
+  summary: Rambuckel Horse MMPs
+  description: |
+    This pack contains 28 different horses as Mayor Mode Ploppables (MMP). There are various grey, brown and black horses, ponies and foals available.
+    
+    Click repeatedly with the left mouse button to select between the individual models. The last model of each plop cycle is "empty", this can be useful if you accidentially selected a wrong item and want to remove it again without using the bulldozer tool.
+
+  author: rambuckel, FrankyFour, Andreas
+  website: https://www.sc4evermore.com/index.php/downloads/download/121-sfbt-props-rambuckel-horse-props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SFBT_Pferde_Props_02.jpg
+
+dependencies:
+  - sfbt:rambuckel-horse-props
+assets:
+  - assetId: sfbt-rambuckel-horse-props
+    include:
+      - /SFBT_Horse_MMP.dat
+
+---
+group: sfbt
+name: rambuckel-horse-carriage-mmps
+version: "1"
+subfolder: 180-flora
+info:
+  summary: Rambuckel Horse Carriage MMPs
+  description: |
+    This pack contains various coaches as Mayor Mode Ploppables (MMP).:
+    
+    -   **Ambulance:* These coaches were used for military and civil purposes until about the 1930s. The first coaches were built in the late 19th century when the first Samaritan associations like the Red Cross were founded.
+    -   **Berline:** The Berline is a fully sprung travel coach which got its name from the fact that it was very popular in circles of the Brandenburg nobility in the 17th century.
+    -   **Caleche:** A four-wheel carriage with a cabin and two seats. It’s quite a small coach, but still comfortable.
+    -   **Hansom Cab:** The Hansom Cab was designed and patented by Joseph Hansom in 1834. It is a two-wheel carriage with two seats. Due to its mobility, it was very popular in London and New York.
+    -   **Stage Coach:** These coaches were used for transportation of mail and passengers from 16th century until early 20th century.
+
+  author: rambuckel, FrankyFour, Andreas
+  website: https://www.sc4evermore.com/index.php/downloads/download/121-sfbt-props-rambuckel-horse-props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SFBT_Pferde_Props_01.jpg
+
+dependencies:
+  - sfbt:rambuckel-horse-props
+assets:
+  - assetId: sfbt-rambuckel-horse-props
+    include:
+      - /SFBT_Horse_Carriage_MMP.dat
+
+---
+assetId: sfbt-rambuckel-horse-props
+version: "1"
+lastModified: "2023-08-17T18:13:36.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=121:sfbt-props-rambuckel-horse-props&catid=22
