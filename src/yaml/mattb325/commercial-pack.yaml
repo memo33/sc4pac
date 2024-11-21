@@ -1602,45 +1602,6 @@ variants:
       - assetId: mattb325-commercial-pack-darknite
         include: [ "/SPACE Furniture/" ]
 
-# There's a problem with the lot on SC4E as the .sc4desc file included is 
-# actually the wrong one, being the one from the I-HT mega lot. Hence we 
-# download it from Simtropolis instead.
----
-group: mattb325
-name: spar-distribution-cs
-subfolder: 300-commercial
-version: "1.0"
-info:
-  summary: SPAR Distribution-CS
-  author: mattb325
-  website: https://community.simtropolis.com/files/file/28451-spar-distribution/
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_02_2013/0fd2cc746303cb8e7759014ea63c51e8-spar.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_02_2013/eeab01788719ce327a08e7a13234cf1f-spar-4x4-.jpg
-dependencies:
-  - bsc:bat-props-mattb325-vol02
-  - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
-  - bsc:mega-props-sg-vol01
-  - bsc:texturepack-cycledogg-vol01
-assets:
-  - assetId: mattb325-spar-distribution-cs-desc-fix
-    include:
-      - "\\(Com Svc\\)"
-variants:
-  - variant: { nightmode: standard }
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
-
----
-assetId: mattb325-spar-distribution-cs-desc-fix
-version: "1.0"
-lastModified: "2013-02-08T00:17:00Z"
-url: https://community.simtropolis.com/files/file/28451-spar-distribution/?do=download
-
 ---
 group: mattb325
 name: sagra-technology
