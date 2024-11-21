@@ -93,12 +93,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Windmill St/"]
+        include: [ "/Windmill ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Windmill St/"]
+        include: [ "/Windmill ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -130,12 +130,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Waterloo Apartments/"]
+        include: [ "/Waterloo ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Waterloo Apartments/"]
+        include: [ "/Waterloo ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -166,12 +166,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Wan Wan Apartments_MN/"]
+        include: [ "/Wan ?Wan ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Wan Wan Apartments_DN/"]
+        include: [ "/Wan ?Wan ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -198,12 +198,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Vivo Apartments_MN/"]
+        include: [ "/Vivo ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Vivo Apartments_DN/"]
+        include: [ "/Vivo ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -233,12 +233,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Veinte Apartments_MN/"]
+        include: [ "/Veinte ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Veinte Apartments_DN/"]
+        include: [ "/Veinte ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -265,12 +265,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/The Residence_MN/"]
+        include: [ "/The ?Residence(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/The Residence_DN/"]
+        include: [ "/The ?Residence(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -295,12 +295,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Small Apartments/"]
+        include: [ "/Small ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Small Apartments/"]
+        include: [ "/Small ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -329,12 +329,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Saville Condos/"]
+        include: [ "/Saville ?Condos(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Saville Condos/"]
+        include: [ "/Saville ?Condos(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -363,12 +363,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Regis Condos/"]
+        include: [ "/Regis ?Condos(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Regis Condos/"]
+        include: [ "/Regis ?Condos(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -390,12 +390,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Regency Terraces/"]
+        include: [ "/Regency ?Terraces(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Regency Terraces/"]
+        include: [ "/Regency ?Terraces(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -430,12 +430,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Parkland Lofts_MN/"]
+        include: [ "/Parkland ?Lofts(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Parkland Lofts_DN/"]
+        include: [ "/Parkland ?Lofts(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -467,12 +467,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Modern Villas_MN/"]
+        include: [ "/Modern ?Villas(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Modern Villas_DN/"]
+        include: [ "/Modern ?Villas(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -498,12 +498,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Modern Townhouses_MN/"]
+        include: [ "/Modern ?Townhouses(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Modern Townhouses_DN/"]
+        include: [ "/Modern ?Townhouses(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -527,12 +527,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Modern R\\$ Terraces_MN/"]
+        include: [ "/Modern ?R\\$ ?Terraces(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Modern R\\$ Terraces_DN/"]
+        include: [ "/Modern ?R\\$ ?Terraces(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -567,12 +567,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/L_Aquila Apartments/"]
+        include: [ "/L_Aquila ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/L_Aquila Apartments/"]
+        include: [ "/L_Aquila ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -596,12 +596,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Little Riley Street/"]
+        include: [ "/Little ?Riley ?Street(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Little Riley Street/"]
+        include: [ "/Little ?Riley ?Street(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -625,12 +625,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Lennox Gardens/"]
+        include: [ "/Lennox ?Gardens(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Lennox Gardens/"]
+        include: [ "/Lennox ?Gardens(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -654,12 +654,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Lansdowne Terrace/"]
+        include: [ "/Lansdowne ?Terrace(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Lansdowne Terrace/"]
+        include: [ "/Lansdowne ?Terrace(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -691,12 +691,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Kensington Apartments_MN/"]
+        include: [ "/Kensington ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Kensington Apartments_DN/"]
+        include: [ "/Kensington ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -726,12 +726,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Houston Place Apartments_MN/"]
+        include: [ "/Houston ?Place ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Houston Place Apartments_DN/"]
+        include: [ "/Houston ?Place ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -756,12 +756,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Holland Park/"]
+        include: [ "/Holland ?Park(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Holland Park/"]
+        include: [ "/Holland ?Park(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -783,12 +783,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Grosvenor Mansions/"]
+        include: [ "/Grosvenor ?Mansions(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Grosvenor Mansions/"]
+        include: [ "/Grosvenor ?Mansions(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -816,12 +816,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Gertrude Apartments_MN/"]
+        include: [ "/Gertrude ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Gertrude Apartments_DN/"]
+        include: [ "/Gertrude ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -844,12 +844,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Forbes St/"]
+        include: [ "/Forbes ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Forbes St/"]
+        include: [ "/Forbes ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -871,12 +871,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Exhibition Rd Kensington/"]
+        include: [ "/Exhibition ?Rd ?Kensington(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Exhibition Rd Kensington/"]
+        include: [ "/Exhibition ?Rd ?Kensington(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -905,12 +905,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Ennuyeuse Apartments_MN/"]
+        include: [ "/Ennuyeuse ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Ennuyeuse Apartments_DN/"]
+        include: [ "/Ennuyeuse ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -939,12 +939,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Englewood Condos/"]
+        include: [ "/Englewood ?Condos(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Englewood Condos/"]
+        include: [ "/Englewood ?Condos(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -971,12 +971,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Emporio Apartments/"]
+        include: [ "/Emporio ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Emporio Apartments/"]
+        include: [ "/Emporio ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1003,12 +1003,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Embassy Apartments/"]
+        include: [ "/Embassy ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Embassy Apartments/"]
+        include: [ "/Embassy ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1030,12 +1030,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/EarlsCourt/"]
+        include: [ "/EarlsCourt(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Earls Court/"]
+        include: [ "/Earls ?Court(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1068,12 +1068,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/DeVries Villa/"]
+        include: [ "/DeVries ?Villa(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/DeVries Villa/"]
+        include: [ "/DeVries ?Villa(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1103,12 +1103,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Cube Apartments_MN/"]
+        include: [ "/Cube ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Cube Apartments_DN/"]
+        include: [ "/Cube ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1138,12 +1138,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Confluence Apartments_MN/"]
+        include: [ "/Confluence ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Confluence Apartments_DN/"]
+        include: [ "/Confluence ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1174,12 +1174,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Commons Court/"]
+        include: [ "/Commons ?Court(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Commons Court/"]
+        include: [ "/Commons ?Court(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1201,12 +1201,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Claridge II Townhomes_MN/"]
+        include: [ "/Claridge ?II ?Townhomes(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Claridge II Townhomes_DN/"]
+        include: [ "/Claridge ?II ?Townhomes(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1230,12 +1230,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/City Rd Chippendale/"]
+        include: [ "/City ?Rd ?Chippendale(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/City Rd Chippendale/"]
+        include: [ "/City ?Rd ?Chippendale(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1259,12 +1259,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Boom Style Terraces/"]
+        include: [ "/Boom ?Style ?Terraces(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Boom Style Terraces/"]
+        include: [ "/Boom ?Style ?Terraces(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1289,12 +1289,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Beverly Apartments_MN/"]
+        include: [ "/Beverly ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Beverly Apartments_DN/"]
+        include: [ "/Beverly ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1330,12 +1330,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Beurlay Apartments_MN/"]
+        include: [ "/Beurlay ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Beurlay Apartments_DN/"]
+        include: [ "/Beurlay ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1366,12 +1366,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Bayauxlaan Apartments/"]
+        include: [ "/Bayauxlaan ?Apartments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Bayauxlaan Apartments/"]
+        include: [ "/Bayauxlaan ?Apartments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1399,12 +1399,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Apartments Merdiques_MN/"]
+        include: [ "/Apartments ?Merdiques(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Apartments Merdiques_DN/"]
+        include: [ "/Apartments ?Merdiques(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1432,12 +1432,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Almeda Townhomes_MN/"]
+        include: [ "/Almeda ?Townhomes(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Almeda Townhomes_DN/"]
+        include: [ "/Almeda ?Townhomes(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1463,12 +1463,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Alighieri Apts_MN/"]
+        include: [ "/Alighieri ?Apts(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Alighieri Apts_DN/"]
+        include: [ "/Alighieri ?Apts(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1498,12 +1498,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Alhambra Duplex/"]
+        include: [ "/Alhambra ?Duplex(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Alhambra Duplex/"]
+        include: [ "/Alhambra ?Duplex(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1534,12 +1534,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/Ainslee Condos/"]
+        include: [ "/Ainslee ?Condos(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/Ainslee Condos/"]
+        include: [ "/Ainslee ?Condos(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1572,18 +1572,18 @@ variants:
   - variant: { nightmode: standard, mattb325:casa-de-manana:climate: temperate }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/=Casa de Manana-Temperate/"]
+        include: [ "/=?Casa ?de ?Manana-Temperate(_[MD]N)?#?/" ]
   - variant: { nightmode: dark, mattb325:casa-de-manana:climate: temperate }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/=Casa de Manana-Temperate/"]
+        include: [ "/=?Casa ?de ?Manana-Temperate(_[MD]N)?#?/" ]
   - variant: { nightmode: standard, mattb325:casa-de-manana:climate: subtropical }
     assets:
       - assetId: mattb325-residential-multi-units-maxisnite
-        include: ["/-Casa de Manana-Subtropical/"]
+        include: [ "/-?Casa ?de ?Manana-Subtropical(_[MD]N)?#?/" ]
   - variant: { nightmode: dark, mattb325:casa-de-manana:climate: subtropical }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-residential-multi-units-darknite
-        include: ["/-Casa de Manana-Subtropical/"]
+        include: [ "/-?Casa ?de ?Manana-Subtropical(_[MD]N)?#?/" ]
