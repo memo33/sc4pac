@@ -550,12 +550,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/TheLikeFactory(_[MD]N)?#?/" ]
+        include: [ "/The ?Like ?Factory(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/TheLikeFactory(_[MD]N)?#?/" ]
+        include: [ "/The ?Like ?Factory(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
