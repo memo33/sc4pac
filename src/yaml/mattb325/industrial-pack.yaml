@@ -461,16 +461,14 @@ dependencies:
   - bsc:mega-props-rt-vol02
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: mattb325-spar-distribution
+    exclude:
+      - "\\(Com Svc\\)"
 variants:
   - variant: { nightmode: standard }
-    assets:
-      - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/SPAR Distribution-I-HT/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
-    assets:
-      - assetId: mattb325-industrial-pack-darknite
-        include: [ "/SPAR Distribution-I-HT/" ]
 
 ---
 group: mattb325
@@ -732,8 +730,8 @@ dependencies:
   - mattb325:vu-laboratories
   - mattb325:watco
   - mattb325:whoop-ass-factory
----
 
+---
 group: mattb325
 name: industrial-pack-shared-resources
 version: "1.0"
