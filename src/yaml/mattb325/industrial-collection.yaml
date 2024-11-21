@@ -441,7 +441,7 @@ variants:
 group: mattb325
 name: spar-distribution-i-ht
 subfolder: 400-industrial
-version: "2"
+version: "1.0"
 info:
   summary: SPAR Distribution-I-HT
   author: mattb325
