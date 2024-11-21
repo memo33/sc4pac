@@ -5,8 +5,8 @@ subfolder: 100-props-textures
 info:
   summary: Royal Light Signal Props
   description: |
-    This prop pack contains a total number of 147 different light signals, both distant signals and main signals. The props are intended for usage on rail lots and mods for SimCity 4. The pack only serves as a dependency, there are no lot or similar included. If you like to see those props in your game, you will have to install corresponding lots, or create your own.  
-     
+    This prop pack contains a total number of 147 different light signals, both distant signals and main signals. The props are intended for usage on rail lots and mods for SimCity 4. The pack only serves as a dependency, there are no lot or similar included. If you like to see those props in your game, you will have to install corresponding lots, or create your own.
+
     In the Lot Editor, all signals are listed with the prefix "SFBT\_Bahn\_...", so they are neatly grouped for easier finding. Most of the props are available as orthogonal and diagonal version, both as centered prop ("zentriert nullpunkt") and rendered with an offset of 16 m ("+16", "-16"), which are intended to be used "besides" the actual lot , that can be placed next to the tracks.
 
   author: Royal
