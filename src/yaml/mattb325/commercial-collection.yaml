@@ -1,13 +1,13 @@
 assetId: mattb325-commercial-pack-darknite
 version: "1.0"
 lastModified: "2023-08-20T10:01:46Z"
-url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=102:sc4d-lex-legacy-mattb325-commercial-pack-darknite&catid=12
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=102:sc4d-lex-legacy-mattb325-commercial-pack-darknite
 
 ---
 assetId: mattb325-commercial-pack-maxisnite
 version: "1.0"
 lastModified: "2023-08-20T10:02:34Z"
-url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=103:sc4d-lex-legacy-mattb325-commercial-pack-maxisnite&catid=12
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=103:sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
 
 ---
 group: mattb325
@@ -1886,11 +1886,11 @@ variants:
 
 ---
 group: mattb325
-name: commercial-pack
+name: commercial-collection
 version: "1.0"
 subfolder: 300-commercial
 info:
-  summary: Commercial Pack
+  summary: Commercial Collection
   description: A collection of 75 commercial lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite

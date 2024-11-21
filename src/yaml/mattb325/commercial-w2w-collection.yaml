@@ -1,13 +1,13 @@
 assetId: mattb325-commercial-w2w-pack-darknite
 version: "1.1"
 lastModified: "2023-08-20T10:04:31Z"
-url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=104:sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite&catid=12
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=104:sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 
 ---
 assetId: mattb325-commercial-w2w-pack-maxisnite
 version: "1.1"
 lastModified: "2023-08-20T10:05:00Z"
-url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=105:sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite&catid=12
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=105:sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
 
 ---
 group: mattb325
@@ -1042,11 +1042,11 @@ variants:
 
 ---
 group: mattb325
-name: commercial-w2w-pack
+name: commercial-w2w-collection
 version: "1.1"
 subfolder: 300-commercial
 info:
-  summary: Commercial W2W Pack
+  summary: Commercial W2W Collection
   description: A collection of 41 commercial W2W lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
