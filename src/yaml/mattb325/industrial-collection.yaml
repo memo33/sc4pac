@@ -85,7 +85,7 @@ variants:
 
 ---
 group: mattb325
-name: disease-research-center
+name: disease-research-center-i-ht
 subfolder: 400-industrial
 version: "2"
 info:
@@ -709,7 +709,7 @@ dependencies:
   - mattb325:2121-north-san-fernando-rd
   - mattb325:canadian-bitters-i-m
   - mattb325:data-centre-dn
-  - mattb325:disease-research-center
+  - mattb325:disease-research-center-i-ht
   - mattb325:door-mat-factory
   - mattb325:gsk-packaging
   - mattb325:havoc-bioenhancements
