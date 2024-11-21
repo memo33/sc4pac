@@ -76,7 +76,7 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Data Centre_MN \\(Ploppable\\)/" ]
+        include: [ "/Data Centre_DN \\(Ploppable\\)/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
@@ -489,12 +489,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Sh?elby Shoes_MN/" ]
+        include: [ "/Selby Shoes_MN/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Sh?elby Shoes_DN/" ]
+        include: [ "/Selby Shoes_DN/" ]
 
 ---
 group: mattb325
@@ -550,12 +550,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/The ?Like ?Factory(_MN)?/" ]
+        include: [ "/TheLikeFactory_MN/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/The ?Like ?Factory(_DN)?/" ]
+        include: [ "/TheLikeFactory_DN/" ]
 
 ---
 group: mattb325
