@@ -267,42 +267,42 @@ variants:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Kane Tiberium_DN/" ]
 
----
-group: mattb325
-name: mail-distribution-center-i-ht
-subfolder: 400-industrial
-version: "2"
-info:
-  summary: Mail Distribution Center I-HT
-  author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
-dependencies:
-  - bsc:bat-props-mattb325-vol01
-  - bsc:bat-props-mattb325-vol04
-  - bsc:mega-props-d66-vol01
-  - bsc:mega-props-d66-vol02
-  - bsc:mega-props-jes-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-misc-vol01
-  - bsc:mega-props-misc-vol02
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
-  - bsc:mega-props-sg-vol01
-  - bsc:textures-vol02
-  - csx:mega-props-vol03
-  - csx:mega-props-vol04
-  - csx:mega-props-vol06
-variants:
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Mail Distribution Center I-HT/" ]
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
-    assets:
-      - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Mail Distribution Center I-HT/" ]
+# ---
+# group: mattb325
+# name: mail-distribution-center-i-ht
+# subfolder: 400-industrial
+# version: "2"
+# info:
+#   summary: Mail Distribution Center I-HT
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol01
+#   - bsc:bat-props-mattb325-vol04
+#   - bsc:mega-props-d66-vol01
+#   - bsc:mega-props-d66-vol02
+#   - bsc:mega-props-jes-vol01
+#   - bsc:mega-props-mikeseith-vol01
+#   - bsc:mega-props-mikeseith-vol03
+#   - bsc:mega-props-misc-vol01
+#   - bsc:mega-props-misc-vol02
+#   - bsc:mega-props-newmaninc-vol01
+#   - bsc:mega-props-newmaninc-vol04
+#   - bsc:mega-props-sg-vol01
+#   - bsc:textures-vol02
+#   - csx:mega-props-vol03
+#   - csx:mega-props-vol04
+#   - csx:mega-props-vol06
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: mattb325-industrial-pack-maxisnite
+#         include: [ "/Mail Distribution Center I-HT/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: mattb325-industrial-pack-darknite
+#         include: [ "/Mail Distribution Center I-HT/" ]
 
 ---
 group: mattb325
@@ -715,7 +715,7 @@ dependencies:
   - mattb325:havoc-bioenhancements
   - mattb325:jenquai-alchemy
   - mattb325:kane-tiberium
-  - mattb325:mail-distribution-center-i-ht
+  # - mattb325:mail-distribution-center-i-ht
   - mattb325:maxs-microchips
   - mattb325:newsome-mill
   - mattb325:nokia-building-i-ht
