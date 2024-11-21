@@ -4,8 +4,8 @@ version: "1.1"
 subfolder: 700-transit
 info:
   summary: Roadside Rest Area
-  description: |
-    This the rest area building and lot are inspired by the design of the Campbell, NY rest area along I-86 in western New York.
+  description: >
+    This rest area building and lot are inspired by the design of the Campbell, NY rest area along I-86 in western New York.
 
     It comes in a size 4x15 lot which acts as a bus stop in game. Both lots also feature transit connection with one way streets for a better transition with the NAM system.
 

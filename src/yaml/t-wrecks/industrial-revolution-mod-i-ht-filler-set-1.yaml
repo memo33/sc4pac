@@ -3,9 +3,9 @@ name: industrial-revolution-mod-i-ht-filler-set-1
 version: "1.0"
 subfolder: 400-industrial
 info:
-  summary: Industrial Revolution Mod - I-HT Filler Set 1
-  description: |
-    This is a set of 12 ploppable filler lots for high-tech industry (I-HT) that can be used to complement grown industrial areas with some open yards, walls, and several types of cargo stacked outside. The set has been made for the `memo:industrial-revolution-mod` and, as such, blends in well with I-HT areas because it uses the same base texture, and the green fences look rather modern and suitable for high-tech industry.
+  summary: IRM - Ploppable I-HT Filler Set 1
+  description: >
+    This is a set of 12 ploppable filler lots for high-tech industry (I-HT) that can be used to complement grown industrial areas with some open yards, walls, and several types of cargo stacked outside. The set has been made for the `pkg=memo:industrial-revolution-mod` and, as such, blends in well with I-HT areas because it uses the same base texture, and the green fences look rather modern and suitable for high-tech industry.
 
     You will find these lots in the landmark menu, conveniently grouped together right under the I-M fillers.
   author: T Wrecks
@@ -19,7 +19,7 @@ info:
 
 dependencies:
   - sfbt:essentials
-  - maxis:buildings-as-props
+  - t-wrecks:maxis-prop-names-and-query-fix
   - bsc:mega-props-jes-vol01
   - bsc:mega-props-jes-vol02
   - bsc:mega-props-gascooker-vol01

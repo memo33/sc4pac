@@ -3,11 +3,11 @@ name: 220-south-central-park
 version: "1.1.0"
 subfolder: 360-landmark
 info:
-  summary: 220 South Central Park
+  summary: 220 South Central Park (NYBT)
   description: |
     220 South Central Park, is a skyscraper in Midtown Manhattan on 58th W between 7th and 8th.
     This building is part of the new skyline of New York (along with the Nordstrom in the same area).
-    This file contains only the tallest structure of the complex (including 2 buildings, one measuring 952ft (290m - 66floors) and another one smaller, located on the central park south lane, (not included in this file).
+    This file contains only the tallest structure of the complex (including 2 buildings, one measuring 952ft (290m - 66floors) and another one smaller, located on the central park south lane, not included in this file).
   author: Parisian
   website: https://community.simtropolis.com/files/file/30728-nybt-parisian-220-south-central-park/
   images:

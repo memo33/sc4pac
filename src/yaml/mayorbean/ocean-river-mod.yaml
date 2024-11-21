@@ -1,12 +1,14 @@
 group: "mayorbean"
 name: "ocean-river-mod"
 version: "1.1"
-subfolder: "150-mods"
+subfolder: "170-terrain"
 info:
   summary: Ocean River Mod
-  description: |
+  description: >
     Replaces the ingame water textures. The watercolor will differ depending on depth and viewing angle. It looks best at a waterdepth between 0m and 30m.
-  author: "mayorbean"
+
+    This is an SD water mod.
+  author: "MayorBean"
   images:
     - https://www.simtropolis.com/objects/screens/0002/0becdafa3a030cad2381f492fc4e04c0-__MBCC-ORM-1.1final-UpdateFiles.jpg
     - https://www.simtropolis.com/objects/screens/0002/0becdafa3a030cad2381f492fc4e04c0-OceanRiverSet1.jpg

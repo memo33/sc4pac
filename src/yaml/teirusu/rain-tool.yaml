@@ -5,8 +5,12 @@ subfolder: "150-mods"
 assets:
 - assetId: "teirusu-rain-tool"
 info:
-  summary: "Contains the 'Rain Tool' that is needed to construct land bridges or plop water lots above sea level."
-  author: "teirusu"
+  summary: "Helps construct land bridges or plop water lots above sea level"
+  description: >
+    The water created by the rain tool will only last for a single game session.
+    When the city tile is reopened the rain water will no longer be there.
+    The blank terrain can then be filled in with any ploppable water as desired.
+  author: Teirusu
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_04_2012/14c75f03f2f0cf879aef9d515c6d3b92-.jpg"
   - "https://www.simtropolis.com/objects/screens/monthly_04_2012/5f0a9b312733c793a5edcd9c41c9d65a-.jpg"

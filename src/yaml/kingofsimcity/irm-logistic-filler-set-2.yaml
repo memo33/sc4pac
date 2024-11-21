@@ -4,13 +4,13 @@ version: "1.00"
 subfolder: 400-industrial
 info:
   summary: Industrial Revolution Mod - Logistic Filler Set 2
-  description: |
-    This package contains a set of 12 filler lots: 4 for dirty, manufacturing and hi-tech industrial areas.
+  description: >
+    This package contains a set of 12 ploppable filler lots: 4 for dirty, manufacturing and hi-tech industrial areas.
     Each industrial type has 2 common lot types and 2 unique ones.
     Unique lots include dump trucks and oil tankers for I-D, flatbeds with piping and random junk for I-M, and temp offices and flatbeds with objects covered in tarp for I-HT. Like previous releases, all lots are configured to be highly randomized.
     Do note that most of the lots here are wider (2x2).
 
-    Lot stats are designed to match the original IRM fillers as closely as possible.
+    Lot stats are designed to match the original IRM fillers as closely as possible (`pkg=memo:industrial-revolution-mod`).
     Positioning indicators are present to help with lot placement and alignment.
     Every lot is practically neutral, with negligible amounts of pollution, no power/water consumption and cost nothing to maintain.
     It takes §5 to bulldoze a lot and each are extremely cheap to plop (§5 for I-D, §6 for I-M, §7 for I-HT).

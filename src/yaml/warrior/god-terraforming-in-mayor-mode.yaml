@@ -5,7 +5,7 @@ subfolder: "150-mods"
 assets:
 - assetId: "warrior-god-terraforming-in-mayor-mode"
 info:
-  summary: "Modifies the Mayor Mode Terraforming Menu to include the God terraforming tools."
+  summary: "Adds God Terraforming tools to Mayor Mode Terraforming menu"
   description: |
     This plugin modifies the Mayor Mode Terraforming Menu to include the God terraforming tools.
     This is meant to replace the Ctrl-Alt-Shift trick.

@@ -1,5 +1,5 @@
 group: dmscopio
-name: guangzhou-twin-tower-v2
+name: guangzhou-twin-tower
 version: "2"
 subfolder: 300-commercial
 info:
@@ -13,21 +13,22 @@ info:
     - https://www.simtropolis.com/objects/screens/0001/05b1c0d328ad22224caab81f2dee9c25-GZTwinNightupload.jpg
 
 dependencies:
+  - bsc:essentials  # should include old CAM essentials
   - bsc:textures-vol01
   - bsc:textures-vol02
 
 variants:
   - variant: { CAM: "no" }
     assets:
-      - assetId: dmscopio-guangzhou-twin-tower-v2
+      - assetId: dmscopio-guangzhou-twin-tower
         exclude:
           - "CO\\$\\$15"
   - variant: { CAM: "yes" }
     assets:
-      - assetId: dmscopio-guangzhou-twin-tower-v2
+      - assetId: dmscopio-guangzhou-twin-tower
 
 ---
-assetId: dmscopio-guangzhou-twin-tower-v2
+assetId: dmscopio-guangzhou-twin-tower
 version: "2"
 lastModified: "2007-09-16T04:15:59Z"
 url: https://community.simtropolis.com/files/file/18671-guangzhou-twin-tower-v2/?do=download

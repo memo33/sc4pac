@@ -6,7 +6,7 @@ assets:
 - assetId: "tropod-additional-god-mode-terrain-tools"
 info:
   summary: "Adds four additional terrain tools to 'God Mode'"
-  author: "tropod"
+  author: "Tropod"
   images:
     - https://www.simtropolis.com/objects/screens/0025/e12b69a115ce332c73983cf137620d8b-extra%20terrain%20avatar.jpg
   website: "https://community.simtropolis.com/files/file/21288-additional-god-mode-terrain-tools/"

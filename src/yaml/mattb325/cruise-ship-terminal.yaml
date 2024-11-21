@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 700-transit
 info:
   summary: Cruise Ship Terminal
-  description: |
+  description: >
     Using the cruise ship terminal helps to break through demand caps, increase mayor and landmark ratings, and provides jobs; all of these enable you to get a thriving high end commercial services sector and enable a higher populations of R$$ and R$$$ sims.
     This is crucial to helping build large cities.
 
@@ -16,19 +16,6 @@ info:
     Unlike the ingame version, it does not require certain thresholds to be met before being unlocked, and it can also be placed more than once in the same city.
     It does NOT replace the Maxis version and you can have both co-exist in the same city if you wish.
     The lot size is a more realistic and substantial 7 tiles wide by 5 tiles deep.
-
-    Stats:
-      - Plop cost: $28,000
-      - Maintenance Cost: $180
-      - Bulldoze Cost: $269
-      - R$$ Jobs: 45
-      - Demand created: 45
-      - Pollution: 1 (air) 1 (water) 11 (garbage)
-      - Radii: 2/4/1 tiles
-      - Landmark Effect: 60 over 24 tiles
-      - Mayor Rating: 10 over 256 tiles
-      - Water consumed: 75 Gallons
-      - Power Consumed: 50MwH
   author: mattb325
   website: https://community.simtropolis.com/files/file/27915-cruise-ship-terminal/
   images:

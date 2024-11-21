@@ -1,4 +1,4 @@
-group: andreas-roth
+group: andreas
 name: bart-talent-elevated-and-subway-train
 version: "1.0"
 subfolder: 710-automata
@@ -6,17 +6,17 @@ info:
   summary: BART Talent elevated and subway train
   description: |
     This mod will replace the original el-train/subway cars.
-  author: Andreas Roth
+  author: Andreas
   website: https://community.simtropolis.com/files/file/11779-bart-talent-elevated-and-subway-train/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_02_2005/thumb-8a9b2c4bfad315377d91eefc23d05ef8-andreas_el-train_talent_bart1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_02_2005/thumb-8a9b2c4bfad315377d91eefc23d05ef8-andreas_el-train_talent_bart2.jpg
 
 assets:
-  - assetId: andreas-roth-bart-talent-elevated-and-subway-train
+  - assetId: andreas-bart-talent-elevated-and-subway-train
 
 ---
-assetId: andreas-roth-bart-talent-elevated-and-subway-train
+assetId: andreas-bart-talent-elevated-and-subway-train
 version: "1.0"
 lastModified: "2005-02-26T01:06:38Z"
 url: https://community.simtropolis.com/files/file/11779-bart-talent-elevated-and-subway-train/?do=download

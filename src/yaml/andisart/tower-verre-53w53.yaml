@@ -1,9 +1,9 @@
 group: andisart
-name: tower-verre-53w53
+name: tower-verre
 version: "1.0"
 subfolder: 360-landmark
 info:
-  summary: Tower Verre - 53W53
+  summary: Tower Verre - 53W53 (MoMA Expansion Tower)
   description: |
     - Origin: Midtown, New York City
     - Construction: 2014 - 2018
@@ -13,23 +13,8 @@ info:
 
     Contains 3 different lots:
      - Landmark
-      - Plop Cost: 187.000
-      - Monthly Cost: 150
-      - Mayor Rating: Value: 10, Radius: 256
-      - Found in Landmark menu, sorted by plop cost
-
-     - Growable
-      - Residents: 2030 R$$$
-      - Tilesets: New York, Chicago
-      - Growth Stage: 8
-
+     - Growable R$$$ (Tilesets: New York, Chicago)
      - Plobbable with Jobs
-      - CS Jobs: 310 ($$$)
-      - Plop Cost: 187.000
-
-    Found in Landmark menu, sorted by plop cost
-    For the growable version you need to zone high density zones.
-    The ploppable version is functional just as the growable and is located in the "Landmarks" menu.
 
   author: AndisArt
   website: https://community.simtropolis.com/files/file/32106-tower-verre-53w53/

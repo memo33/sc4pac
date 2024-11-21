@@ -9,26 +9,8 @@ info:
 
     This package includes 3 5x4 lots:
       - 1 landmark lot
-      - 1 growable CO$$$ stage8 lot
+      - 1 growable CO$$$ stage8 lot (Euro tileset)
       - 1 plop CO$$$ lot
-
-    Jobs
-      - CO$$$: 7642
-      - CO$$: 10924
-    Consumption:
-      - power: 277
-      - water: 2961
-    Pollution/radii
-      - air: 19/7
-      - water:19/8
-      - garbage:6/0
-      - radiation:0/0
-    Other numbers:
-      - building value: 85429
-      - bulldoze cost: 3105
-      - landmark effects(for landmark lot): 10 over 256
-      - mayor ratiings (for landmark lot): 90 over 30
-      - tileset (for growable lot): euro
   author: SimFox
   website: https://community.simtropolis.com/files/file/19696-bashnja-na-naberezhnoj-c/
   images:

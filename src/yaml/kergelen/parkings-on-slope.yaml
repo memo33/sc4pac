@@ -5,14 +5,11 @@ subfolder: 700-transit
 info:
   summary: Parkings on-slope
   description: |
-    This is a set of parkings to fit on the slopes.
-    You can use on slopes between 0 to 30 meters.
+    This is a set of parking lots to fit on the slopes. You can use them on slopes between 0 to 30 meters.
 
-    You will find the Lots under the "Rail Menu".
-    The set also includes a small add-on with some plaza pieces.
+    You will find the Lots under the "Rail Menu". The set also includes a small add-on with some plaza pieces.
 
-    You can find the lots in the LotEditor under the name: KRG_1x1_RailSide_...
-    Important: In order to place correctly the lots need to be a road/rail above and below the slope as shown in the pictures!
+    Important: In order to be placed correctly the lots need to be a road/rail above and below the slope as shown in the pictures!
 
     CONTENTS
      - 1 straight parking piece with tree
@@ -37,8 +34,6 @@ dependencies:
   - bsc:mega-props-cp-vol01
   - girafe:ashes
   - bsc:mega-props-swi21-vol01
-  - bsc:mega-props-sg-vol01
-  - namspopof:props-pack-vol2
 assets:
   - assetId: kergelen-parkings-on-slope
     exclude:
@@ -67,6 +62,8 @@ info:
 
 dependencies:
   - kergelen:parkings-on-slope
+  - bsc:mega-props-sg-vol01
+  - namspopof:props-pack-vol2
 assets:
   - assetId: kergelen-parkings-on-slope
     include:

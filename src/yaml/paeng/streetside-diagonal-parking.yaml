@@ -33,7 +33,7 @@ name: streetside-diagonal-parking-textures
 version: "1.0"
 subfolder: 100-props-textures
 info:
-  summary: Textures for Peng's StreetSide Diagonal Parking (SSDP)
+  summary: Textures for paeng's StreetSide Diagonal Parking (SSDP)
   author: paeng
   website: https://community.simtropolis.com/files/file/31162-paengs-streetside-diagonal-parking-ssdp/
 assets:
