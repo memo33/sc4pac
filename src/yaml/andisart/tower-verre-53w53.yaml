@@ -11,13 +11,13 @@ info:
     - Architect: Jean Nouvel
     - Lot Size: 4x2
 
-    Contains 3 different lots:  
+    Contains 3 different lots:
      - Landmark
       - Plop Cost: 187.000
       - Monthly Cost: 150
       - Mayor Rating: Value: 10, Radius: 256
       - Found in Landmark menu, sorted by plop cost
-    
+
      - Growable
       - Residents: 2030 R$$$
       - Tilesets: New York, Chicago
@@ -26,7 +26,7 @@ info:
      - Plobbable with Jobs
       - CS Jobs: 310 ($$$)
       - Plop Cost: 187.000
-    
+
     Found in Landmark menu, sorted by plop cost
     For the growable version you need to zone high density zones.
     The ploppable version is functional just as the growable and is located in the "Landmarks" menu.
