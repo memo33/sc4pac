@@ -22,12 +22,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/1960s Diag Office/" ]
+        include: [ "/1960s ?Diag ?Office(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/1960s Diag Office \\(Ploppable\\)/" ]
+        include: [ "/1960s ?Diag ?Office ?\\(Ploppable\\)(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -50,12 +50,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/1970s W2W Offices/" ]
+        include: [ "/1970s ?W2W ?Offices(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/1970s W2W Offices/" ]
+        include: [ "/1970s ?W2W ?Offices(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -75,12 +75,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/324 Clarence St/" ]
+        include: [ "/324 ?Clarence ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/324 Clarence St/" ]
+        include: [ "/324 ?Clarence ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -100,12 +100,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/5657 Wilshire Blvd/" ]
+        include: [ "/5657 ?Wilshire ?Blvd(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/5657 Wilshire Blvd/" ]
+        include: [ "/5657 ?Wilshire ?Blvd(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -125,12 +125,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/90A Miller Street/" ]
+        include: [ "/90A ?Miller ?Street(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/90A Miller Street/" ]
+        include: [ "/90A ?Miller ?Street(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -145,12 +145,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Amestoy Bldg_MN/" ]
+        include: [ "/Amestoy ?Bldg(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Amestoy Bldg_DN/" ]
+        include: [ "/Amestoy ?Bldg(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -173,12 +173,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Banking Row/" ]
+        include: [ "/Banking ?Row(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Banking Row/" ]
+        include: [ "/Banking ?Row(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -199,12 +199,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Bond St/" ]
+        include: [ "/Bond ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Bond St/" ]
+        include: [ "/Bond ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -227,12 +227,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Boutiques/" ]
+        include: [ "/Boutiques(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Boutiques/" ]
+        include: [ "/Boutiques(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -252,12 +252,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/British Pub_MN/" ]
+        include: [ "/British ?Pub(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/British Pub_DN/" ]
+        include: [ "/British ?Pub(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -279,12 +279,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Cheyne House/" ]
+        include: [ "/Cheyne ?House(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Cheyne House/" ]
+        include: [ "/Cheyne ?House(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -302,12 +302,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Colourful Living Interiors/" ]
+        include: [ "/Colourful ?Living ?Interiors(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Colourful Living Interiors/" ]
+        include: [ "/Colourful ?Living ?Interiors(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -328,12 +328,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Coopers Hall/" ]
+        include: [ "/Coopers ?Hall(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Coopers Hall/" ]
+        include: [ "/Coopers ?Hall(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -352,12 +352,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Exhibition Rd Kensington/" ]
+        include: [ "/Exhibition ?Rd ?Kensington(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Exhibition Rd Kensington \\(Ploppable\\)/" ]
+        include: [ "/Exhibition ?Rd ?Kensington ?\\(Ploppable\\)(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -377,12 +377,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Foveaux St/" ]
+        include: [ "/Foveaux ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Foveaux St/" ]
+        include: [ "/Foveaux ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -405,12 +405,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Foveaux St Lettings/" ]
+        include: [ "/Foveaux ?St ?Lettings(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Foveaux St Lettings/" ]
+        include: [ "/Foveaux ?St ?Lettings(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -429,12 +429,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Grosvenor Hotel/" ]
+        include: [ "/Grosvenor ?Hotel(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Grosvenor Hotel/" ]
+        include: [ "/Grosvenor ?Hotel(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -453,12 +453,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Harris St/" ]
+        include: [ "/Harris ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Harris St/" ]
+        include: [ "/Harris ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -480,12 +480,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/High St/" ]
+        include: [ "/High ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/High St/" ]
+        include: [ "/High ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -505,12 +505,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/High Street Corner Offices/" ]
+        include: [ "/High ?Street ?Corner ?Offices(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/High Street Corner Offices/" ]
+        include: [ "/High ?Street ?Corner ?Offices(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -529,12 +529,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/High Street Shops & Offices/" ]
+        include: [ "/High ?Street ?Shops ?& ?Offices(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/High Street Shops & Offices/" ]
+        include: [ "/High ?Street ?Shops ?& ?Offices(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -557,12 +557,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Historic Shops_MN/" ]
+        include: [ "/Historic ?Shops(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Historic Shops_DN/" ]
+        include: [ "/Historic ?Shops(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -582,12 +582,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Holland Park House/" ]
+        include: [ "/Holland ?Park ?House(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Holland Park House/" ]
+        include: [ "/Holland ?Park ?House(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -609,12 +609,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/JB Covington Services/" ]
+        include: [ "/JB ?Covington ?Services(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/JB Covington Services/" ]
+        include: [ "/JB ?Covington ?Services(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -634,12 +634,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/King George House/" ]
+        include: [ "/King ?George ?House(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/King George House/" ]
+        include: [ "/King ?George ?House(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -659,12 +659,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/King St/" ]
+        include: [ "/King ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/King St/" ]
+        include: [ "/King ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -681,12 +681,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/King St Sydney_MN/" ]
+        include: [ "/King ?St ?Sydney(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/King St Sydney_DN/" ]
+        include: [ "/King ?St ?Sydney(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -707,12 +707,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Lundstrom House/" ]
+        include: [ "/Lundstrom ?House(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Lundstrom House/" ]
+        include: [ "/Lundstrom ?House(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -733,12 +733,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/McDonalds W2W/" ]
+        include: [ "/McDonalds ?W2W(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/McDonalds W2W/" ]
+        include: [ "/McDonalds ?W2W(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -760,12 +760,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Newtown Post Office/" ]
+        include: [ "/Newtown ?Post ?Office(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Newtown Post Office/" ]
+        include: [ "/Newtown ?Post ?Office(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -785,12 +785,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Offices of the Exchequer/" ]
+        include: [ "/Offices ?of ?the ?Exchequer(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Offices of the Exchequer/" ]
+        include: [ "/Offices ?of ?the ?Exchequer(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -805,12 +805,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Pirie St_MN/" ]
+        include: [ "/Pirie ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Pirie St_DN/" ]
+        include: [ "/Pirie ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -830,12 +830,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/QBE Insurance/" ]
+        include: [ "/QBE ?Insurance(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/QBE Insurance/" ]
+        include: [ "/QBE ?Insurance(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -853,12 +853,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Regent House/" ]
+        include: [ "/Regent ?House(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Regent House/" ]
+        include: [ "/Regent ?House(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -880,12 +880,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Sim Telecom Call Centre/" ]
+        include: [ "/Sim ?Telecom ?Call ?Centre(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Sim Telecom Call Centre/" ]
+        include: [ "/Sim ?Telecom ?Call ?Centre(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -905,12 +905,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/SpyBar/" ]
+        include: [ "/SpyBar(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/SpyBar/" ]
+        include: [ "/SpyBar(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -931,12 +931,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/St Georges Hall Post Office/" ]
+        include: [ "/St ?Georges ?Hall ?Post ?Office(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/St Georges Hall Post Office/" ]
+        include: [ "/St ?Georges ?Hall ?Post ?Office(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -956,12 +956,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Swan Insurance/" ]
+        include: [ "/Swan ?Insurance(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Swan Insurance/" ]
+        include: [ "/Swan ?Insurance(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -984,12 +984,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Sydney Gazette Offices/" ]
+        include: [ "/Sydney ?Gazette ?Offices(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Sydney Gazette Offices/" ]
+        include: [ "/Sydney ?Gazette ?Offices(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1010,12 +1010,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/W2W Chinese Restaurant/" ]
+        include: [ "/W2W ?Chinese ?Restaurant(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/W2W Chinese Restaurant/" ]
+        include: [ "/W2W ?Chinese ?Restaurant(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1033,12 +1033,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Woodstock Road/" ]
+        include: [ "/Woodstock ?Road(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Woodstock Road/" ]
+        include: [ "/Woodstock ?Road(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1096,7 +1096,6 @@ dependencies:
   - mattb325:sydney-gazette-offices
   - mattb325:w2w-chinese-restaurant
   - mattb325:woodstock-road
----
 
 ---
 group: mattb325
@@ -1111,9 +1110,8 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Shared Resources/" ]
+        include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
-        include: [ "/Shared Resources/" ]
-
+        include: [ "/Shared ?Resources(_[MD]N)?#?/" ]

@@ -24,12 +24,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/100 King St/" ]
+        include: [ "/100 ?King ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/100 King St/" ]
+        include: [ "/100 ?King ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -47,12 +47,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/17th St_MN/" ]
+        include: [ "/17th ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/17th St_DN/" ]
+        include: [ "/17th ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -67,12 +67,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/45 East Ave_MN/" ]
+        include: [ "/45 ?East ?Ave(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/45 East Ave_DN/" ]
+        include: [ "/45 ?East ?Ave(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -91,12 +91,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/85 Elizabeth St_MN#/" ]
+        include: [ "/85 ?Elizabeth ?St(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/85 Elizabeth St_DN#/" ]
+        include: [ "/85 ?Elizabeth ?St(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -114,12 +114,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/American Cement Building_MN/" ]
+        include: [ "/American ?Cement ?Building(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/American Cement Building_DN/" ]
+        include: [ "/American ?Cement ?Building(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -136,12 +136,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/American City Bank_MN/" ]
+        include: [ "/American ?City ?Bank(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/American City Bank_DN/" ]
+        include: [ "/American ?City ?Bank(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -163,12 +163,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Ardmore Investments_MN/" ]
+        include: [ "/Ardmore ?Investments(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Ardmore Investments_DN/" ]
+        include: [ "/Ardmore ?Investments(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -188,12 +188,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Ashland Ave_MN/" ]
+        include: [ "/Ashland ?Ave(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Ashland Ave_DN/" ]
+        include: [ "/Ashland ?Ave(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -212,12 +212,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Audi Dealership_MN/" ]
+        include: [ "/Audi ?Dealership(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Audi Dealership_DN/" ]
+        include: [ "/Audi ?Dealership(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -234,12 +234,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Bauhaus Mannheim_MN/" ]
+        include: [ "/Bauhaus ?Mannheim(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Bauhaus_Mannheim_DN/" ]
+        include: [ "/Bauhaus_Mannheim(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -258,12 +258,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Bonzai Building_MN/" ]
+        include: [ "/Bonzai ?Building(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Bonzai Building_DN/" ]
+        include: [ "/Bonzai ?Building(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -282,12 +282,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Bullocks Wilshire_MN/" ]
+        include: [ "/Bullocks ?Wilshire(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Bullocks Wilshire_DN/" ]
+        include: [ "/Bullocks ?Wilshire(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -306,12 +306,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Canadian Bitters CS/" ]
+        include: [ "/Canadian ?Bitters ?CS(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Canadian Bitters CS/" ]
+        include: [ "/Canadian ?Bitters ?CS(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -326,12 +326,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Catalina Restaurant \\(Ploppable\\)/" ]
+        include: [ "/Catalina ?Restaurant ?\\(Ploppable\\)(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Catalina Restaurant \\(Ploppable\\)/" ]
+        include: [ "/Catalina ?Restaurant ?\\(Ploppable\\)(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -349,12 +349,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Chevrolet Dealer_MN/" ]
+        include: [ "/Chevrolet ?Dealer(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Chevrolet Dealer_DN/" ]
+        include: [ "/Chevrolet ?Dealer(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -378,12 +378,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Chez Mondo/" ]
+        include: [ "/Chez ?Mondo(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Chez Mondo/" ]
+        include: [ "/Chez ?Mondo(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -407,12 +407,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Ciros Nightclub_MN/" ]
+        include: [ "/Ciros ?Nightclub(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Ciros Nightclub_DN/" ]
+        include: [ "/Ciros ?Nightclub(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -430,12 +430,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/City College-CS/" ]
+        include: [ "/City ?College-CS(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/City College-CS/" ]
+        include: [ "/City ?College-CS(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -465,12 +465,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Civic Offices/" ]
+        include: [ "/Civic ?Offices(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Civic Offices/" ]
+        include: [ "/Civic ?Offices(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -490,12 +490,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Columbia Savings Bank_MN/" ]
+        include: [ "/Columbia ?Savings ?Bank(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Columbia Savings Bank_DN/" ]
+        include: [ "/Columbia ?Savings ?Bank(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -520,12 +520,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Concord NH Post Office#/" ]
+        include: [ "/Concord ?NH ?Post ?Office#(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Concord NH Post Office#/" ]
+        include: [ "/Concord ?NH ?Post ?Office#(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -546,12 +546,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/CrosstownHotel_MN/" ]
+        include: [ "/CrosstownHotel(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Crosstown Hotel_DN/" ]
+        include: [ "/Crosstown ?Hotel(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -572,12 +572,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/DHL Offices/" ]
+        include: [ "/DHL ?Offices(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/DHL Offices/" ]
+        include: [ "/DHL ?Offices(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -595,12 +595,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/David Jones_MN#/" ]
+        include: [ "/David ?Jones(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/David Jones_DN#/" ]
+        include: [ "/David ?Jones(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -618,12 +618,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Debenhams_MN#/" ]
+        include: [ "/Debenhams(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Debenhams_DN#/" ]
+        include: [ "/Debenhams(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -642,12 +642,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/DowntownHotel_MN/" ]
+        include: [ "/DowntownHotel(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Downtown Hotel_DN/" ]
+        include: [ "/Downtown ?Hotel(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -671,12 +671,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Eddy Hall-CS/" ]
+        include: [ "/Eddy ?Hall-CS(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Eddy Hall-CS/" ]
+        include: [ "/Eddy ?Hall-CS(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -696,12 +696,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Envoy Motel/" ]
+        include: [ "/Envoy ?Motel(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Envoy Motel/" ]
+        include: [ "/Envoy ?Motel(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -720,12 +720,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Europa House_MN/" ]
+        include: [ "/Europa ?House(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Europa House_DN/" ]
+        include: [ "/Europa ?House(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -742,12 +742,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/First Federal Bank_MN/" ]
+        include: [ "/First ?Federal ?Bank(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/First Federal Bank_DN/" ]
+        include: [ "/First ?Federal ?Bank(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -769,12 +769,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/GE Money/" ]
+        include: [ "/GE ?Money(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/GE Money/" ]
+        include: [ "/GE ?Money(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -791,12 +791,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Golden State Insurance_MN/" ]
+        include: [ "/Golden ?State ?Insurance(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Golden State Insurance_DN/" ]
+        include: [ "/Golden ?State ?Insurance(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -816,12 +816,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/HM Hotel and Theatre/" ]
+        include: [ "/HM ?Hotel ?and ?Theatre(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/HM Hotel and Theatre/" ]
+        include: [ "/HM ?Hotel ?and ?Theatre(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -845,12 +845,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/HP Offices/" ]
+        include: [ "/HP ?Offices(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/HP Offices/" ]
+        include: [ "/HP ?Offices(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -867,12 +867,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Harlequin Bldg_MN#/" ]
+        include: [ "/Harlequin ?Bldg(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Harlequin Bldg_DN#/" ]
+        include: [ "/Harlequin ?Bldg(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -890,12 +890,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Harrods_MN#/" ]
+        include: [ "/Harrods(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Harrods_DN#/" ]
+        include: [ "/Harrods(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -913,12 +913,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Hua Seng Offices_MN/" ]
+        include: [ "/Hua ?Seng ?Offices(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Hua Seng Offices_DN/" ]
+        include: [ "/Hua ?Seng ?Offices(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -940,12 +940,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/HungryJacks_MN/" ]
+        include: [ "/HungryJacks(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Hungry Jacks_DN/" ]
+        include: [ "/Hungry ?Jacks(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -963,12 +963,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/ING Direct_MN/" ]
+        include: [ "/ING ?Direct(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/ING Direct_DN/" ]
+        include: [ "/ING ?Direct(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -987,12 +987,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Kia Lexington KY_MN/" ]
+        include: [ "/Kia ?Lexington ?KY(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Kia Lexington KY_DN/" ]
+        include: [ "/Kia ?Lexington ?KY(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1007,12 +1007,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Kyneton Sq_MN/" ]
+        include: [ "/Kyneton ?Sq(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Kyneton Sq_DN/" ]
+        include: [ "/Kyneton ?Sq(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1034,12 +1034,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Luxury Auto Yard/" ]
+        include: [ "/Luxury ?Auto ?Yard(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Luxury Auto Yard/" ]
+        include: [ "/Luxury ?Auto ?Yard(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1069,12 +1069,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Mail Distribution Center CS/" ]
+        include: [ "/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Mail Distribution Center CS/" ]
+        include: [ "/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1097,12 +1097,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/McDonalds \\(new\\)_MN/" ]
+        include: [ "/McDonalds ?\\(new\\)(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/McDonalds \\(new\\)_DN/" ]
+        include: [ "/McDonalds ?\\(new\\)(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1123,12 +1123,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Millennium Hotel Knightsbridge_MN/" ]
+        include: [ "/Millennium ?Hotel ?Knightsbridge(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Millennium Hotel Knightsbridge_DN/" ]
+        include: [ "/Millennium ?Hotel ?Knightsbridge(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1146,12 +1146,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Mini Cooper Dealership_MN#/" ]
+        include: [ "/Mini ?Cooper ?Dealership(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Mini Cooper Dealership_DN#/" ]
+        include: [ "/Mini ?Cooper ?Dealership(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1173,12 +1173,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Modern Office/" ]
+        include: [ "/Modern ?Office(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Modern Office/" ]
+        include: [ "/Modern ?Office(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1201,12 +1201,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Motorola Offices/" ]
+        include: [ "/Motorola ?Offices(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Motorola Offices/" ]
+        include: [ "/Motorola ?Offices(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1227,12 +1227,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Myer Department Store#/" ]
+        include: [ "/Myer ?Department ?Store#(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Myer Department Store#/" ]
+        include: [ "/Myer ?Department ?Store#(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1249,12 +1249,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/NatGeo CS/" ]
+        include: [ "/NatGeo ?CS(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/NatGeo CS/" ]
+        include: [ "/NatGeo ?CS(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1271,12 +1271,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Niche Moderne_MN/" ]
+        include: [ "/Niche ?Moderne(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Niche Moderne_DN/" ]
+        include: [ "/Niche ?Moderne(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1296,12 +1296,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Nokia Building-CO/" ]
+        include: [ "/Nokia ?Building-CO(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Nokia Building-CO/" ]
+        include: [ "/Nokia ?Building-CO(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1323,12 +1323,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Novotel/" ]
+        include: [ "/Novotel(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Novotel/" ]
+        include: [ "/Novotel(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1350,12 +1350,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Omega_Services_MN/" ]
+        include: [ "/Omega_Services(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Omega_Services_DN/" ]
+        include: [ "/Omega_Services(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1372,12 +1372,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/PWN London CS/" ]
+        include: [ "/PWN ?London ?CS(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/PWN London CS/" ]
+        include: [ "/PWN ?London ?CS(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1394,12 +1394,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/PinYin Ltd_MN/" ]
+        include: [ "/PinYin ?Ltd(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/PinYin Ltd_DN/" ]
+        include: [ "/PinYin ?Ltd(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1428,12 +1428,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Pine Valley Growables/" ]
+        include: [ "/Pine ?Valley ?Growables(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Pine Valley Growables/" ]
+        include: [ "/Pine ?Valley ?Growables(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1474,12 +1474,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Pine Valley Mall \\(Ploppable\\)/" ]
+        include: [ "/Pine ?Valley ?Mall ?\\(Ploppable\\)(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Pine Valley Mall \\(Ploppable\\)/" ]
+        include: [ "/Pine ?Valley ?Mall ?\\(Ploppable\\)(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1497,12 +1497,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Quay House_MN/" ]
+        include: [ "/Quay ?House(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Quay House_DN/" ]
+        include: [ "/Quay ?House(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1524,12 +1524,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Red Cross House-CO/" ]
+        include: [ "/Red ?Cross ?House-CO(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Red Cross House-CO/" ]
+        include: [ "/Red ?Cross ?House-CO(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1544,12 +1544,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Retro Tower_MN/" ]
+        include: [ "/Retro ?Tower(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Retro Tower_DN/" ]
+        include: [ "/Retro ?Tower(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1566,12 +1566,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/SAC Commercial_MN/" ]
+        include: [ "/SAC ?Commercial(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/SAC Commercial_DN/" ]
+        include: [ "/SAC ?Commercial(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1595,12 +1595,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/SPACE_Furniture/" ]
+        include: [ "/SPACE_Furniture(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/SPACE Furniture/" ]
+        include: [ "/SPACE ?Furniture(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1624,12 +1624,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Sagra Technology/" ]
+        include: [ "/Sagra ?Technology(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Sagra Technology/" ]
+        include: [ "/Sagra ?Technology(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1647,12 +1647,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Saks Fifth Ave LA_MN/" ]
+        include: [ "/Saks ?Fifth ?Ave ?LA(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Saks Fifth Ave LA_DN/" ]
+        include: [ "/Saks ?Fifth ?Ave ?LA(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1669,12 +1669,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Standard Federal Savings and Loan_MN/" ]
+        include: [ "/Standard ?Federal ?Savings ?and ?Loan(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Standard Federal Savings and Loan_DN/" ]
+        include: [ "/Standard ?Federal ?Savings ?and ?Loan(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1694,12 +1694,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Teville Square_MN/" ]
+        include: [ "/Teville ?Square(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Teville Square_DN/" ]
+        include: [ "/Teville ?Square(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1721,12 +1721,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/The Bon Marche_MN/" ]
+        include: [ "/The ?Bon ?Marche(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/The Bon Marche_DN/" ]
+        include: [ "/The ?Bon ?Marche(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1741,12 +1741,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Transport Indemnity Building/" ]
+        include: [ "/Transport ?Indemnity ?Building(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Transport Indemnity Building_DN/" ]
+        include: [ "/Transport ?Indemnity ?Building(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1773,12 +1773,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Troll Factory_MN/" ]
+        include: [ "/Troll ?Factory(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Troll Factory_DN/" ]
+        include: [ "/Troll ?Factory(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1802,12 +1802,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/UK Retailers Pack MN/" ]
+        include: [ "/UK ?Retailers ?Pack ?MN(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/UK Retailers Pack DN/" ]
+        include: [ "/UK ?Retailers ?Pack ?DN(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1826,12 +1826,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/United Central Bank/" ]
+        include: [ "/United ?Central ?Bank(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/United Central Bank/" ]
+        include: [ "/United ?Central ?Bank(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1852,12 +1852,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Virgin Mobile/" ]
+        include: [ "/Virgin ?Mobile(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Virgin Mobile/" ]
+        include: [ "/Virgin ?Mobile(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1877,12 +1877,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Zurich Insurance_MN/" ]
+        include: [ "/Zurich ?Insurance(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Zurich Insurance_DN/" ]
+        include: [ "/Zurich ?Insurance(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -1974,6 +1974,7 @@ dependencies:
   - mattb325:united-central-bank
   - mattb325:virgin-mobile
   - mattb325:zurich-insurance
+
 ---
 
 group: mattb325
@@ -1982,15 +1983,15 @@ version: "1.0"
 subfolder: 100-props-textures
 info:
   summary: Commercial shared resources
-  description: A dependency containing a few resources used in `pkg=mattb325:commercial-pack`
+  description: A dependency containing a few resources used in
+    `pkg=mattb325:commercial-pack`
 
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Shared Resources/" ]
+        include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Shared Resources/" ]
-
+        include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
