@@ -24,6 +24,22 @@ dependencies:
   - bsc:mega-props-sg-vol01
 assets:
   - assetId: paeng-streetside-diagonal-parking
+    exclude:
+      - KEEP_SSDP_Resource.dat
+
+---
+group: paeng
+name: streetside-diagonal-parking-textures
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Textures for Peng's StreetSide Diagonal Parking (SSDP)
+  author: paeng
+  website: https://community.simtropolis.com/files/file/31162-paengs-streetside-diagonal-parking-ssdp/
+assets:
+  - assetId: paeng-streetside-diagonal-parking
+    include:
+      - KEEP_SSDP_Resource.dat
 
 ---
 assetId: paeng-streetside-diagonal-parking

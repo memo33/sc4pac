@@ -30,10 +30,10 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_08_2013/00e53b138206443c0120fe79f884153c-parking-grid.png
 
 dependencies:
-  - mattb325:cruise-ship-terminal
+  - paeng:streetside-diagonal-parking-textures
+  - mattb325:cruise-ship-terminal-retaining-wall
   - bsc:mega-props-newmaninc-vol02
   - shk:parking-pack
-  - paeng:streetside-diagonal-parking
   - bsc:mega-props-cp-vol01
   - girafe:ashes
   - bsc:mega-props-swi21-vol01
@@ -43,13 +43,6 @@ assets:
   - assetId: kergelen-parkings-on-slope
     exclude:
       - Kergelen Parking on slope/Add-on/
-  - assetId: mattb325-cruise-ship-terminal
-    include:
-      - Mattb325 Cruise Ship Terminal/Mattb325_RetainingWall-0x5ad0e817_0x9d7c94d6_0x30000.SC4Model
-      - Mattb325 Cruise Ship Terminal/Mattb325_RetainingWall-0x6534284a-0x13a0bd51-0xbdaab9ca.SC4Desc
-  - assetId: paeng-streetside-diagonal-parking
-    include:
-      - KEEP_SSDP_Resource.dat
 
 ---
 group: kergelen
