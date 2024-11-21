@@ -1103,8 +1103,8 @@ name: commercial-w2w-collection-shared-resources
 version: "1.1"
 subfolder: 100-props-textures
 info:
-  summary: Post office models
-  description: A dependency containing a shared resources used in `pkg=mattb325:commercial-w2w-collection`
+  summary: Shareed resources for the Commercial W2W Collection
+  description: A dependency containing shared resources used in `pkg=mattb325:commercial-w2w-collection`
 
 variants:
   - variant: { nightmode: standard }
@@ -1112,6 +1112,7 @@ variants:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
         include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-w2w-pack-darknite
         include: [ "/Shared ?Resources(_[MD]N)?#?/" ]

@@ -1978,13 +1978,12 @@ dependencies:
 ---
 
 group: mattb325
-name: commercial-shared-resources
+name: commercial-collection-shared-resources
 version: "1.0"
 subfolder: 100-props-textures
 info:
-  summary: Commercial shared resources
-  description: A dependency containing a few resources used in
-    `pkg=mattb325:commercial-pack`
+  summary: Shared resources for the Commercial Collection
+  description: A dependency containing shared resources used in `pkg=mattb325:commercial-collection`
 
 variants:
   - variant: { nightmode: standard }
@@ -1992,6 +1991,7 @@ variants:
       - assetId: mattb325-commercial-pack-maxisnite
         include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
         include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
