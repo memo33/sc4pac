@@ -30,12 +30,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/2121 North San Fernando Rd/" ]
+        include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/2121 North San Fernando Rd/" ]
+        include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -54,12 +54,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Canadian Bitters I-M/" ]
+        include: [ "/Canadian ?Bitters ?I-M(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Canadian Bitters I-M/" ]
+        include: [ "/Canadian ?Bitters ?I-M(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -76,12 +76,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Data Centre_DN \\(Ploppable\\)/" ]
+        include: [ "/Data ?Centre_DN ?\\(Ploppable\\)(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Data Centre_DN \\(Ploppable\\)/" ]
+        include: [ "/Data ?Centre_DN ?\\(Ploppable\\)(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -108,12 +108,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Disease Research Center/" ]
+        include: [ "/Disease ?Research ?Center(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Disease Research Center/" ]
+        include: [ "/Disease ?Research ?Center(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -135,12 +135,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Door Mat Factory_MN/" ]
+        include: [ "/Door ?Mat ?Factory(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Door Mat Factory_DN/" ]
+        include: [ "/Door ?Mat ?Factory(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -164,12 +164,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/GSK Packaging/" ]
+        include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/GSK Packaging/" ]
+        include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -201,12 +201,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Havoc Bioenhancements_MN/" ]
+        include: [ "/Havoc ?Bioenhancements(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Havoc Bioenhancements_DN/" ]
+        include: [ "/Havoc ?Bioenhancements(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -232,12 +232,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Jenquai Alchemy_MN/" ]
+        include: [ "/Jenquai ?Alchemy(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Jenquai Alchemy_DN/" ]
+        include: [ "/Jenquai ?Alchemy(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -260,12 +260,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Kane Tiberium_MN/" ]
+        include: [ "/Kane ?Tiberium(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Kane Tiberium_DN/" ]
+        include: [ "/Kane ?Tiberium(_[MD]N)?#?/" ]
 
 # ---
 # group: mattb325
@@ -325,12 +325,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Maxs Microchips_MN/" ]
+        include: [ "/Maxs ?Microchips(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Maxs Microchips_DN/" ]
+        include: [ "/Maxs ?Microchips(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -353,12 +353,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Newsome Mill/" ]
+        include: [ "/Newsome ?Mill(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Newsome Mill/" ]
+        include: [ "/Newsome ?Mill(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -378,12 +378,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Nokia Building-I-HT/" ]
+        include: [ "/Nokia ?Building-I-HT(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Nokia Building-I-HT/" ]
+        include: [ "/Nokia ?Building-I-HT(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -407,12 +407,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Pedriana Pharmaceuticals_MN/" ]
+        include: [ "/Pedriana ?Pharmaceuticals(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Pedriana Pharmaceuticals_DN/" ]
+        include: [ "/Pedriana ?Pharmaceuticals(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -430,12 +430,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Peerless JAL_MN/" ]
+        include: [ "/Peerless ?JAL(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Peerless JAL_DN/" ]
+        include: [ "/Peerless ?JAL(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -489,12 +489,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Selby Shoes_MN/" ]
+        include: [ "/Selby ?Shoes(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Selby Shoes_DN/" ]
+        include: [ "/Selby ?Shoes(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -527,12 +527,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Stratton Biotech_MN/" ]
+        include: [ "/Stratton ?Biotech(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Stratton Biotech_DN/" ]
+        include: [ "/Stratton ?Biotech(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -550,12 +550,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/TheLikeFactory_MN/" ]
+        include: [ "/TheLikeFactory(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/TheLikeFactory_DN/" ]
+        include: [ "/TheLikeFactory(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -579,12 +579,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Timber Warehouses/" ]
+        include: [ "/Timber ?Warehouses(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Timber Warehouses/" ]
+        include: [ "/Timber ?Warehouses(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -609,12 +609,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Tsvirkunov Electronics_MN/" ]
+        include: [ "/Tsvirkunov ?Electronics(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Tsvirkunov Electronics_DN/" ]
+        include: [ "/Tsvirkunov ?Electronics(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -636,12 +636,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Vu Laboratories/" ]
+        include: [ "/Vu ?Laboratories(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Vu Laboratories/" ]
+        include: [ "/Vu ?Laboratories(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -658,12 +658,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Watco_MN/" ]
+        include: [ "/Watco(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Watco_DN/" ]
+        include: [ "/Watco(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -688,12 +688,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Whoop Ass Factory_MN/" ]
+        include: [ "/Whoop ?Ass ?Factory(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Whoop Ass Factory_DN/" ]
+        include: [ "/Whoop ?Ass ?Factory(_[MD]N)?#?/" ]
 
 ---
 group: mattb325
@@ -738,14 +738,15 @@ version: "1.0"
 subfolder: 100-props-textures
 info:
   summary: Industrial pack shared resources
-  description: A dependency containing a few resources used in `pkg=mattb325:industrial-pack`
+  description: A dependency containing a few resources used in
+    `pkg=mattb325:industrial-pack`
 
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-industrial-pack-maxisnite
-        include: [ "/Shared Resources/" ]
+        include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
   - variant: { nightmode: dark }
     assets:
       - assetId: mattb325-industrial-pack-darknite
-        include: [ "/Shared Resources/" ]
+        include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
