@@ -697,11 +697,11 @@ variants:
 
 ---
 group: mattb325
-name: industrial-pack
+name: industrial-collection
 version: "1.0"
 subfolder: 400-industrial
 info:
-  summary: Industrial Pack
+  summary: Industrial Collection
   description: A collection of 23 industrial lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
@@ -749,4 +749,3 @@ variants:
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Shared Resources/" ]
-
