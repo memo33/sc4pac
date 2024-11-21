@@ -19,7 +19,7 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
-  - mattb325:commercial-shared-resources
+  - mattb325:commercial-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -41,7 +41,7 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
-  - mattb325:commercial-shared-resources
+  - mattb325:commercial-collection-shared-resources
   - mattb325:urban-civics-prop-pack-vol01
 variants:
   - variant: { nightmode: standard }
@@ -301,7 +301,7 @@ info:
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - mattb325:commercial-shared-resources
+  - mattb325:commercial-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -425,7 +425,7 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-misc-vol02
-  - mattb325:commercial-shared-resources
+  - mattb325:commercial-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -665,7 +665,7 @@ dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol03
-  - mattb325:commercial-shared-resources
+  - mattb325:commercial-collection-shared-resources
   - shk:parking-pack
 variants:
   - variant: { nightmode: standard }
@@ -810,7 +810,7 @@ info:
 dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-w2w-vol01
-  - mattb325:commercial-shared-resources
+  - mattb325:commercial-collection-shared-resources
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -1244,7 +1244,7 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
-  - mattb325:commercial-shared-resources
+  - mattb325:commercial-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1367,7 +1367,7 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
-  - mattb325:commercial-shared-resources
+  - mattb325:commercial-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1492,7 +1492,7 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
-  - mattb325:commercial-shared-resources
+  - mattb325:commercial-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1518,7 +1518,7 @@ dependencies:
   - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-newmaninc-vol01
   - bsc:mega-props-newmaninc-vol04
-  - mattb325:commercial-shared-resources
+  - mattb325:commercial-collection-shared-resources
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
