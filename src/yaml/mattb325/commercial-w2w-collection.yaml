@@ -755,7 +755,7 @@ dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
   - bsc:textures-vol02
-  - mattb325:post-office-models
+  - mattb325:commercial-w2w-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -926,7 +926,7 @@ dependencies:
   - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol02
-  - mattb325:post-office-models
+  - mattb325:commercial-w2w-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1099,12 +1099,12 @@ dependencies:
 
 ---
 group: mattb325
-name: post-office-models
+name: commercial-w2w-collection-shared-resources
 version: "1.1"
 subfolder: 100-props-textures
 info:
   summary: Post office models
-  description: A dependency containing a few post model offices used in `pkg=mattb325:commercial-w2w-pack`
+  description: A dependency containing a shared resources used in `pkg=mattb325:commercial-w2w-collection`
 
 variants:
   - variant: { nightmode: standard }
