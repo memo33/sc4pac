@@ -15,14 +15,14 @@ name: 1960s-diag-office
 subfolder: 300-commercial
 version: "1.1"
 info:
-  summary: 1960s Diag Office (Ploppable)
+  summary: 1960s Diag Office
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/1960s Diag Office \\(Ploppable\\)/" ]
+        include: [ "/1960s Diag Office/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
@@ -341,7 +341,7 @@ name: exhibition-rd-kensington
 subfolder: 300-commercial
 version: "1.1"
 info:
-  summary: Exhibition Rd Kensington (Ploppable)
+  summary: Exhibition Rd Kensington
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
@@ -352,7 +352,7 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-w2w-pack-maxisnite
-        include: [ "/Exhibition Rd Kensington \\(Ploppable\\)/" ]
+        include: [ "/Exhibition Rd Kensington/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
