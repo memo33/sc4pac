@@ -234,7 +234,7 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Bauhaus_Mannheim_MN/" ]
+        include: [ "/Bauhaus Mannheim_MN/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
@@ -546,7 +546,7 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Crosstown Hotel_MN/" ]
+        include: [ "/CrosstownHotel_MN/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
@@ -642,7 +642,7 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Downtown Hotel_MN/" ]
+        include: [ "/DowntownHotel_MN/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
@@ -940,7 +940,7 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Hungry Jacks_MN/" ]
+        include: [ "/HungryJacks_MN/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
@@ -1595,7 +1595,7 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/SPACE Furniture/" ]
+        include: [ "/SPACE_Furniture/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
@@ -1770,7 +1770,7 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Transport Indemnity Building_MN/" ]
+        include: [ "/Transport Indemnity Building/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
@@ -1831,7 +1831,7 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/UK Retailers Pack DN/" ]
+        include: [ "/UK Retailers Pack MN/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
