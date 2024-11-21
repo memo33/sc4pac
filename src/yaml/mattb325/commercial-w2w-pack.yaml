@@ -926,7 +926,6 @@ dependencies:
   - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol02
-  - mattb325:commercial-w2w-pack-darknite
   - mattb325:post-office-models
 variants:
   - variant: { nightmode: standard }
