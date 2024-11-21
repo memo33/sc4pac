@@ -1,13 +1,12 @@
 group: sfbt
-name: kenworth-and-royal-railway-props
+name: kenworth-royal-railway-props
 version: "1"
 subfolder: 100-props-textures
 info:
-  summary: Kentworth and Royal Railway Props
+  summary: Railway Props by Kenworth and Royal
   description: |
     This download contains the engines BR 143, BR 218, BR 232, BR 185 (in three different colors), DR 243, various freight cars, passenger cars in three different colors (first and second class, plus control cars), German buffers, additional catenaries and a pylon light for sidings.
-
-    This prop pack contains more than 40 different railway props. The props are intended for usage on rail lots and mods for SimCity 4. The pack only serves as a dependency, there are no lot or similar included. If you like to see those props in your game, you will have to install corresponding lots, or create your own. In the Lot Editor, all signals are listed with the prefix "SFBT\_Train\_...", so they are neatly grouped for easier finding. Most of the props are also available as timed versions, this is indicated by two numbers (i. e. "7-11" when the prop is visible from 7 AM to 11 AM) in the name.
+    This prop pack contains more than 40 different railway props. The props are intended for usage on rail lots and mods for SimCity 4. The pack only serves as a dependency, there are no lots or similar included.
   author: Kenworth, Royal
   website: https://www.sc4evermore.com/index.php/downloads/download/118-sfbt-props-kenworth-and-royal-railway-props
   images:
