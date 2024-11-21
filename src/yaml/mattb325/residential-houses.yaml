@@ -11,11 +11,11 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=101:s
 
 ---
 group: mattb325
-name: residential-houses
+name: residential-houses-collection
 version: "1.1"
 subfolder: 200-residential
 info:
-  summary: A pack of 55 small residential houses
+  summary: A pack of 55 low-density residential houses
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
   images:
@@ -87,7 +87,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Worthington
-  description: 3 R$$ house models for small lots
+  description: 3 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -118,7 +118,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Woodrun II
-  description: 3 R$$$ house models for small lots
+  description: 3 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -149,7 +149,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Wolsely Rd
-  description: 2 R$$$ house models for small lots
+  description: 2 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -180,7 +180,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Wilmore
-  description: 3 R$$ house models for small lots
+  description: 3 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -208,7 +208,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Westcliffe XIII
-  description: 4 R$$$ house models for small lots
+  description: 4 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -241,7 +241,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Wellington I
-  description: 4 R$$$ house models for small lots
+  description: 4 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -273,7 +273,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Timberline
-  description: 3 R$$$ house models for small lots
+  description: 3 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -304,7 +304,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: The Warren
-  description: 3 R$$ house models for small lots
+  description: 3 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -332,7 +332,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Texas
-  description: 4 R$$$ house models for small lots
+  description: 4 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -363,7 +363,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Sterling Cape Cod
-  description: 3 R$ house models for small lots
+  description: 3 R$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -391,7 +391,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Southport II
-  description: 4 R$$$ house models for small lots
+  description: 4 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -423,7 +423,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Southport MK1
-  description: 2 R$$$ house models for small lots
+  description: 2 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -453,7 +453,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Reussdale House
-  description: 2 R$$$ house models for small lots
+  description: 2 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -486,7 +486,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Radford
-  description: 2 R$$ house models for small lots
+  description: 2 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -513,7 +513,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Radcliffe
-  description: 2 R$$ house models for small lots
+  description: 2 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -541,7 +541,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Prestondale
-  description: 4 R$$$ house models for small lots
+  description: 4 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -573,7 +573,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Pomeroy
-  description: 3 R$$ house models for small lots
+  description: 3 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -603,7 +603,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Northcote St Haberfield
-  description: 4 R$$ house models for small lots
+  description: 4 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -636,7 +636,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Newark
-  description: 6 R$$ house models for small lots
+  description: 6 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -666,7 +666,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Mt Pleasant Mansion Pennsylvania
-  description: 3 R$$$ house models for small lots
+  description: 3 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -694,7 +694,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Minnetonka
-  description: 3 R$$ house models for small lots
+  description: 3 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -724,7 +724,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Mid Wealth Modern Homes
-  description: 25 R$$ house models for small lots
+  description: 25 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -760,7 +760,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Melrose
-  description: 6 R$ house models for small lots
+  description: 6 R$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -790,7 +790,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Low Wealth Modern Homes
-  description: 18 R$ house models for small lots
+  description: 18 R$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -823,7 +823,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Lorraine Blvd
-  description: 4 R$$ house models for small lots
+  description: 4 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -851,7 +851,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Lakehouse
-  description: 3 R$$$ house models for small lots
+  description: 3 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -882,7 +882,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: La Salle
-  description: 4 R$ house models for small lots
+  description: 4 R$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -912,7 +912,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Kiowa
-  description: 5 R$ house models for small lots
+  description: 5 R$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -941,7 +941,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Kimberley
-  description: 4 R$$ house models for small lots
+  description: 4 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -970,7 +970,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Kendrick
-  description: 9 R$$ house models for small lots
+  description: 9 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1003,7 +1003,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: John Brogan
-  description: 2 R$$ house models for small lots
+  description: 2 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1034,7 +1034,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: House 15028R
-  description: 6 R$$ house models for small lots
+  description: 6 R$$ houses on low-density lots
   author: mattb325
   website: https://community.simtropolis.com/files/file/33176-craftsman-style-house/
   images:
@@ -1067,7 +1067,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Hotondo Homes Alpha 237 Series
-  description: 6 R$$ house models for small lots
+  description: 6 R$$ houses on low-density lots
   author: mattb325
   website: https://community.simtropolis.com/files/file/33169-hotondo-homes-alpha237-series/
   images:
@@ -1104,7 +1104,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Hillsboro
-  description: 4 R$$ house models for small lots
+  description: 4 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1132,7 +1132,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Hickory
-  description: 4 R$$ house models for small lots
+  description: 4 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1164,7 +1164,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Glendale
-  description: 2 R$ house models for small lots
+  description: 2 R$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1193,7 +1193,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Gateshead
-  description: 2 R$$ house models for small lots
+  description: 2 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1220,7 +1220,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Fitzsimmon
-  description: 3 R$$$ house models for small lots
+  description: 3 R$$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1252,7 +1252,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Essex
-  description: 2 R$$ house models for small lots
+  description: 2 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1278,7 +1278,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: English Revival Cottage
-  description: 2 R$$ house models for small lots
+  description: 2 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1309,7 +1309,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Edith St Mosman
-  description: 3 R$$ house models for small lots
+  description: 3 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1342,7 +1342,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Dover
-  description: 2 R$$ house models for small lots
+  description: 2 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1369,7 +1369,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Connecticut
-  description: 5 R$$ house models for small lots
+  description: 5 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1401,7 +1401,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Chez Winterton
-  description: 1 R$$ house models for small lots
+  description: 1 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1425,7 +1425,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Castleton
-  description: 4 R$$ house models for small lots
+  description: 4 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1453,7 +1453,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Cascade
-  description: 4 R$ house models for small lots
+  description: 4 R$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1481,7 +1481,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Californian Craftsman
-  description: 2 R$ house models for small lots
+  description: 2 R$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1510,7 +1510,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Bristol
-  description: 7 R$$ house models for small lots
+  description: 7 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1542,7 +1542,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: BiltWell 4235
-  description: 2 R$$ house models for small lots
+  description: 2 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1573,7 +1573,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: BiltWell 4224
-  description: 4 R$$ house models for small lots
+  description: 4 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1601,7 +1601,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: BiltWell 4205
-  description: 4 R$$ house models for small lots
+  description: 4 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1629,7 +1629,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: Belmont Rd
-  description: 6 R$$ house models for small lots
+  description: 6 R$$ houses on low-density lots
   author: mattb325
   website: https://community.simtropolis.com/files/file/16122-sym-productions-belmont-rd-houses
   images:
@@ -1667,7 +1667,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: American Stick
-  description: 4 R$$ house models for small lots
+  description: 4 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
@@ -1696,7 +1696,7 @@ version: "1.1"
 subfolder: 200-residential
 info:
   summary: 1329 Carroll Ave
-  description: 2 R$$ house models for small lots
+  description: 2 R$$ houses on low-density lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
 
