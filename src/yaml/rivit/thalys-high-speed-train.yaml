@@ -4,6 +4,8 @@ version: "1.0"
 subfolder: "710-automata"
 info:
   summary: "Replaces the passenger rail automata with a Thalys model"
+  description: >
+    See also `pkg=rivit:thalys-high-speed-train-hsr`.
   author: "rivit"
   images:
     - "https://www.simtropolis.com/objects/screens/monthly_2017_10/Thalys.jpg.f045e81272851eea390036972350a9c9.jpg"
@@ -21,6 +23,8 @@ version: "1.0"
 subfolder: "710-automata"
 info:
   summary: "Replaces the HSR automata with a Thalys model"
+  description: >
+    See also `pkg=rivit:thalys-high-speed-train-rail`.
   author: "rivit"
   images:
     - "https://www.simtropolis.com/objects/screens/monthly_2017_10/Thalys.jpg.f045e81272851eea390036972350a9c9.jpg"
