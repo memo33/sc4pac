@@ -22,45 +22,45 @@ assets:
 
 variantDescriptions:
   mayorbean:ocean-river-mod:shallow:
-    5f5f00: "dark moss green shallow water"
-    "669966": "asparagus shallow water"
-    "669999": "blue shallow water"
-    "grass": "grass textured shallow water"
-    "marsh": "marsh textured shallow water"
+    moss-green: "dark moss green shallow water"
+    asparagus: "asparagus shallow water"
+    blue: "blue shallow water"
+    grass: "grass textured shallow water"
+    marsh: "marsh textured shallow water"
   mayorbean:ocean-river-mod:deep:
-    5f5f00: "dark moss green deep water"
-    "669966": "asparagus deep water"
-    "669999": "blue deep water"
-    "grass": "grass textured deep water"
-    "marsh": "marsh textured deep water"
+    moss-green: "dark moss green deep water"
+    asparagus: "asparagus deep water"
+    blue: "blue deep water"
+    grass: "grass textured deep water"
+    marsh: "marsh textured deep water"
 
 variants:
   - variant:
-      mayorbean:ocean-river-mod:shallow: 5f5f00
-      mayorbean:ocean-river-mod:deep: 5f5f00
+      mayorbean:ocean-river-mod:shallow: moss-green
+      mayorbean:ocean-river-mod:deep: moss-green
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
           - OceanRiverMod/ShallowWater_5F5F00.dat
           - OceanRiverMod/DeepSea_5F5F00.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: 5f5f00
-      mayorbean:ocean-river-mod:deep: "669966"
+      mayorbean:ocean-river-mod:shallow: moss-green
+      mayorbean:ocean-river-mod:deep: asparagus
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
           - OceanRiverMod/ShallowWater_5F5F00.dat
           - OceanRiverMod/DeepSea_669966.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: 5f5f00
-      mayorbean:ocean-river-mod:deep: "669999"
+      mayorbean:ocean-river-mod:shallow: moss-green
+      mayorbean:ocean-river-mod:deep: blue
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
           - OceanRiverMod/ShallowWater_5F5F00.dat
           - OceanRiverMod/DeepSea_669999.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: 5f5f00
+      mayorbean:ocean-river-mod:shallow: moss-green
       mayorbean:ocean-river-mod:deep: "grass"
     assets:
       - assetId: "mayorbean-ocean-river-mod"
@@ -68,7 +68,7 @@ variants:
           - OceanRiverMod/ShallowWater_5F5F00.dat
           - OceanRiverMod/DeepSea_Grass.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: 5f5f00
+      mayorbean:ocean-river-mod:shallow: moss-green
       mayorbean:ocean-river-mod:deep: "marsh"
     assets:
       - assetId: "mayorbean-ocean-river-mod"
@@ -76,31 +76,31 @@ variants:
           - OceanRiverMod/ShallowWater_5F5F00.dat
           - OceanRiverMod/DeepSea_Marsh.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: "669966"
-      mayorbean:ocean-river-mod:deep: 5f5f00
+      mayorbean:ocean-river-mod:shallow: asparagus
+      mayorbean:ocean-river-mod:deep: moss-green
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
           - OceanRiverMod/ShallowWater_669966.dat
           - OceanRiverMod/DeepSea_5F5F00.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: "669966"
-      mayorbean:ocean-river-mod:deep: "669966"
+      mayorbean:ocean-river-mod:shallow: asparagus
+      mayorbean:ocean-river-mod:deep: asparagus
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
           - OceanRiverMod/ShallowWater_669966.dat
           - OceanRiverMod/DeepSea_669966.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: "669966"
-      mayorbean:ocean-river-mod:deep: "669999"
+      mayorbean:ocean-river-mod:shallow: asparagus
+      mayorbean:ocean-river-mod:deep: blue
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
           - OceanRiverMod/ShallowWater_669966.dat
           - OceanRiverMod/DeepSea_669999.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: "669966"
+      mayorbean:ocean-river-mod:shallow: asparagus
       mayorbean:ocean-river-mod:deep: "grass"
     assets:
       - assetId: "mayorbean-ocean-river-mod"
@@ -108,7 +108,7 @@ variants:
           - OceanRiverMod/ShallowWater_669966.dat
           - OceanRiverMod/DeepSea_Grass.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: "669966"
+      mayorbean:ocean-river-mod:shallow: asparagus
       mayorbean:ocean-river-mod:deep: "marsh"
     assets:
       - assetId: "mayorbean-ocean-river-mod"
@@ -116,31 +116,31 @@ variants:
           - OceanRiverMod/ShallowWater_669966.dat
           - OceanRiverMod/DeepSea_Marsh.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: "669999"
-      mayorbean:ocean-river-mod:deep: 5f5f00
+      mayorbean:ocean-river-mod:shallow: blue
+      mayorbean:ocean-river-mod:deep: moss-green
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
           - OceanRiverMod/ShallowWater_669999.dat
           - OceanRiverMod/DeepSea_5F5F00.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: "669999"
-      mayorbean:ocean-river-mod:deep: "669966"
+      mayorbean:ocean-river-mod:shallow: blue
+      mayorbean:ocean-river-mod:deep: asparagus
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
           - OceanRiverMod/ShallowWater_669999.dat
           - OceanRiverMod/DeepSea_669966.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: "669999"
-      mayorbean:ocean-river-mod:deep: "669999"
+      mayorbean:ocean-river-mod:shallow: blue
+      mayorbean:ocean-river-mod:deep: blue
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
           - OceanRiverMod/ShallowWater_669999.dat
           - OceanRiverMod/DeepSea_669999.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: "669999"
+      mayorbean:ocean-river-mod:shallow: blue
       mayorbean:ocean-river-mod:deep: "grass"
     assets:
       - assetId: "mayorbean-ocean-river-mod"
@@ -148,7 +148,7 @@ variants:
           - OceanRiverMod/ShallowWater_669999.dat
           - OceanRiverMod/DeepSea_Grass.dat
   - variant:
-      mayorbean:ocean-river-mod:shallow: "669999"
+      mayorbean:ocean-river-mod:shallow: blue
       mayorbean:ocean-river-mod:deep: "marsh"
     assets:
       - assetId: "mayorbean-ocean-river-mod"
@@ -157,7 +157,7 @@ variants:
           - OceanRiverMod/DeepSea_Marsh.dat
   - variant:
       mayorbean:ocean-river-mod:shallow: "grass"
-      mayorbean:ocean-river-mod:deep: 5f5f00
+      mayorbean:ocean-river-mod:deep: moss-green
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
@@ -165,7 +165,7 @@ variants:
           - OceanRiverMod/DeepSea_5F5F00.dat
   - variant:
       mayorbean:ocean-river-mod:shallow: "grass"
-      mayorbean:ocean-river-mod:deep: "669966"
+      mayorbean:ocean-river-mod:deep: asparagus
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
@@ -173,7 +173,7 @@ variants:
           - OceanRiverMod/DeepSea_669966.dat
   - variant:
       mayorbean:ocean-river-mod:shallow: "grass"
-      mayorbean:ocean-river-mod:deep: "669999"
+      mayorbean:ocean-river-mod:deep: blue
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
@@ -197,7 +197,7 @@ variants:
           - OceanRiverMod/DeepSea_Marsh.dat
   - variant:
       mayorbean:ocean-river-mod:shallow: "marsh"
-      mayorbean:ocean-river-mod:deep: 5f5f00
+      mayorbean:ocean-river-mod:deep: moss-green
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
@@ -205,7 +205,7 @@ variants:
           - OceanRiverMod/DeepSea_5F5F00.dat
   - variant:
       mayorbean:ocean-river-mod:shallow: "marsh"
-      mayorbean:ocean-river-mod:deep: "669966"
+      mayorbean:ocean-river-mod:deep: asparagus
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
@@ -213,7 +213,7 @@ variants:
           - OceanRiverMod/DeepSea_669966.dat
   - variant:
       mayorbean:ocean-river-mod:shallow: "marsh"
-      mayorbean:ocean-river-mod:deep: "669999"
+      mayorbean:ocean-river-mod:deep: blue
     assets:
       - assetId: "mayorbean-ocean-river-mod"
         include:
