@@ -1,0 +1,60 @@
+group: mattb325
+name: cruise-ship-terminal
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Cruise Ship Terminal
+  description: >
+    Using the cruise ship terminal helps to break through demand caps, increase mayor and landmark ratings, and provides jobs; all of these enable you to get a thriving high end commercial services sector and enable a higher populations of R$$ and R$$$ sims.
+    This is crucial to helping build large cities.
+
+    In real life, most cruise ship terminals are fairly swank affairs as, just like airports, they are often the first impression a visitor has of a city.
+    This cruise ship building is modded similarly to the in-game version and there are also custom made seawalls for the lot.
+    Like the ingame version, it is found in the rewards menu and provides jobs once plopped.
+    It therefore needs road access.
+
+    Unlike the ingame version, it does not require certain thresholds to be met before being unlocked, and it can also be placed more than once in the same city.
+    It does NOT replace the Maxis version and you can have both co-exist in the same city if you wish.
+    The lot size is a more realistic and substantial 7 tiles wide by 5 tiles deep.
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/27915-cruise-ship-terminal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/thumb-ef81c31525c02bac746104b344acc350-cruiseship.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/thumb-ff1d3fcb4201cbe8b9bcec2828f47b93-cruiseship1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/thumb-694fa4cea47b9e078ade3ced6439af19-cruiseship2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/thumb-21bea22f862a5d46726e1c9a67b7bd68-cruiseship3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/thumb-9d37fcd8013ed7b59518a19da4f251cf-cruiseship4.jpg
+
+dependencies:
+  - bsc:textures-vol01
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - mattb325:cruise-ship-terminal-retaining-wall
+
+assets:
+  - assetId: mattb325-cruise-ship-terminal
+    exclude:
+      - Mattb325 Cruise Ship Terminal/Mattb325_RetainingWall-0x5ad0e817_0x9d7c94d6_0x30000.SC4Model
+      - Mattb325 Cruise Ship Terminal/Mattb325_RetainingWall-0x6534284a-0x13a0bd51-0xbdaab9ca.SC4Desc
+
+---
+group: mattb325
+name: cruise-ship-terminal-retaining-wall
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Retaining Wall prop
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/27915-cruise-ship-terminal/
+
+assets:
+  - assetId: mattb325-cruise-ship-terminal
+    include:
+      - Mattb325 Cruise Ship Terminal/Mattb325_RetainingWall-0x5ad0e817_0x9d7c94d6_0x30000.SC4Model
+      - Mattb325 Cruise Ship Terminal/Mattb325_RetainingWall-0x6534284a-0x13a0bd51-0xbdaab9ca.SC4Desc
+
+---
+assetId: mattb325-cruise-ship-terminal
+version: "1.0"
+lastModified: "2012-08-11T00:24:06Z"
+url: https://community.simtropolis.com/files/file/27915-cruise-ship-terminal/?do=download

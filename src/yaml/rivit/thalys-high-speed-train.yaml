@@ -1,0 +1,42 @@
+group: "rivit"
+name: "thalys-high-speed-train-rail"
+version: "1.0"
+subfolder: "710-automata"
+info:
+  summary: "Replaces the passenger rail automata with a Thalys model"
+  description: >
+    See also `pkg=rivit:thalys-high-speed-train-hsr`.
+  author: "rivit"
+  images:
+    - "https://www.simtropolis.com/objects/screens/monthly_2017_10/Thalys.jpg.f045e81272851eea390036972350a9c9.jpg"
+  website: "https://community.simtropolis.com/files/file/31974-thalys-high-speed-train/"
+
+assets:
+  - assetId: "rivit-thalys-high-speed-train"
+    include:
+      - Thalys Train.dat
+
+---
+group: "rivit"
+name: "thalys-high-speed-train-hsr"
+version: "1.0"
+subfolder: "710-automata"
+info:
+  summary: "Replaces the HSR automata with a Thalys model"
+  description: >
+    See also `pkg=rivit:thalys-high-speed-train-rail`.
+  author: "rivit"
+  images:
+    - "https://www.simtropolis.com/objects/screens/monthly_2017_10/Thalys.jpg.f045e81272851eea390036972350a9c9.jpg"
+  website: "https://community.simtropolis.com/files/file/31974-thalys-high-speed-train/"
+
+assets:
+  - assetId: "rivit-thalys-high-speed-train"
+    include:
+      - Thalys HSR.dat
+
+---
+url: "https://community.simtropolis.com/files/file/31974-thalys-high-speed-train/?do=download"
+assetId: "rivit-thalys-high-speed-train"
+version: "1.0"
+lastModified: "2017-10-14T22:34:50Z"

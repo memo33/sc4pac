@@ -1,0 +1,45 @@
+group: simfox
+name: seagram-building
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Seagram Building
+  description: |
+    Seagram Building by Ludwig Mies van der Rohe built for Canadian booze peddler Seagram and Songs Plc is considered to be both finest example and originator of "corporate box" - or so called International Style.
+
+    Apparent simplicity is deceiving. By the time 38 storey tower on New York Park Avenue has been opened in 1958 it was the most expensive skyscraper ever built, and its curtain wall made out of solid bronze and bronze tinted glass still remains the most expensive facade to this day!
+
+    This download includes:
+     - Seagram building model file
+     - 4x6 Ploppable Lot with Co$$$ jobs
+     - 4x6 Growable Lot
+     - 4x6 Landmark Lot
+
+  author: SimFox
+  website: https://community.simtropolis.com/files/file/24680-nybt-seagram-building-darknite-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/c77e47ad9508f5b724c850c9283dfcc8-STEXMain_Maxis.jpg
+    - https://www.simtropolis.com/objects/screens/0022/c77e47ad9508f5b724c850c9283dfcc8-STEXSecondaryMaxis.jpg
+
+dependencies:
+  - nybt:essentials
+variants:
+  - variant: { nightmode: "standard" }
+    assets:
+      - assetId: simfox-seagram-building-maxisnite
+  - variant: { nightmode: "dark" }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: simfox-seagram-building-darknite
+
+---
+assetId: simfox-seagram-building-darknite
+version: "1.0"
+lastModified: "2010-08-21T09:10:40Z"
+url: https://community.simtropolis.com/files/file/24680-nybt-seagram-building-darknite-version/?do=download
+
+---
+assetId: simfox-seagram-building-maxisnite
+version: "1.0"
+lastModified: "2010-08-21T12:30:37Z"
+url: https://community.simtropolis.com/files/file/24686-nybt-seagram-building-maxisnite-version/?do=download

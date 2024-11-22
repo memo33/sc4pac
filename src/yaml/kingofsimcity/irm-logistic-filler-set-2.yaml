@@ -1,0 +1,42 @@
+group: kingofsimcity
+name: irm-logistic-filler-set-2
+version: "1.00"
+subfolder: 400-industrial
+info:
+  summary: Industrial Revolution Mod - Logistic Filler Set 2
+  description: >
+    This package contains a set of 12 ploppable filler lots: 4 for dirty, manufacturing and hi-tech industrial areas.
+    Each industrial type has 2 common lot types and 2 unique ones.
+    Unique lots include dump trucks and oil tankers for I-D, flatbeds with piping and random junk for I-M, and temp offices and flatbeds with objects covered in tarp for I-HT. Like previous releases, all lots are configured to be highly randomized.
+    Do note that most of the lots here are wider (2x2).
+
+    Lot stats are designed to match the original IRM fillers as closely as possible (`pkg=memo:industrial-revolution-mod`).
+    Positioning indicators are present to help with lot placement and alignment.
+    Every lot is practically neutral, with negligible amounts of pollution, no power/water consumption and cost nothing to maintain.
+    It takes §5 to bulldoze a lot and each are extremely cheap to plop (§5 for I-D, §6 for I-M, §7 for I-HT).
+
+    The lots are located in the landmarks menu and are positioned in-line with the originals.
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/32758-industrial-revolution-mod-logistic-filler-set-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/splash.thumb.jpg.8f3747669d58105f1bf9b4206153ee76.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/details.thumb.jpg.e01517d0e959fb154cb9aada832eb81d.jpg
+
+dependencies:
+  - kingofsimcity:logistics-essentials
+  - angry-mozart:trucks-and-trailers-props
+  - shk:parking-pack
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - sfbt:essentials
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: kingofsimcity-irm-logistic-filler-set-2
+
+---
+assetId: kingofsimcity-irm-logistic-filler-set-2
+version: "1.00"
+lastModified: "2019-02-19T04:58:31Z"
+url: https://community.simtropolis.com/files/file/32758-industrial-revolution-mod-logistic-filler-set-2/?do=download

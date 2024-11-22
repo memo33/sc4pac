@@ -1,0 +1,24 @@
+group: "warrior"
+name: "god-terraforming-in-mayor-mode"
+version: "1.0"
+subfolder: "150-mods"
+assets:
+- assetId: "warrior-god-terraforming-in-mayor-mode"
+info:
+  summary: "Adds God Terraforming tools to Mayor Mode Terraforming menu"
+  description: |
+    This plugin modifies the Mayor Mode Terraforming Menu to include the God terraforming tools.
+    This is meant to replace the Ctrl-Alt-Shift trick.
+  author: "warrior"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0032/thumb-e1eb12a2255c85a230d56a4b090a5b5e-170fd8a426a570ecd605db07e439fdc9-lex_015.jpg"
+  website: "https://community.simtropolis.com/files/file/20092-god-terraforming-in-mayor-mode/"
+
+---
+url: "https://community.simtropolis.com/files/file/20092-god-terraforming-in-mayor-mode/?do=download"
+assetId: "warrior-god-terraforming-in-mayor-mode"
+version: "1.0"
+lastModified: "2011-03-31T20:36:09Z"
+archiveType:
+  format: Clickteam
+  version: "40"

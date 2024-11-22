@@ -1,0 +1,33 @@
+group: peg
+name: abyss-garbage-chute
+version: "2.05"
+subfolder: 500-utilities
+info:
+  summary: Abyss Garbage Chute
+  description: >
+    For hundreds of years, Sim-kind labored under the belief that the world was round. But then, as any schoolchild will tell you, Simlumbus set off to sail around the world in his three ships; the Simna, the Simta & the Santa Simria. He sailed off the edge, into the Abyss and was never heard from again. And that's why nothing is named after him today.
+
+    With the modern invention of aviation and orthographic gaming views, we can now clearly see the edge of our world. Today, we never attempt to navigate beyond it without the protection of The Yellow Arrow. Some scientists... and far too many philosophers, have pondered as to what lies at the bottom of The Abyss. But even today, no one really knows and most of us just don't care.
+
+    Capitalizing on this general uncaring spirit, Pegadyne Industries has developed the new Garbage Chute... a small & affordable refuse disposal system that simply tosses our trash over the side. Why allow it to pile up when we can just as easily chuck it into the Abyss? Oh sure, the environmentalists are all in a huff... claiming that the Abyss will be ruined for future generations. And of course, a few attorneys have filed lawsuits claiming to represent the 'Denizens of The Abyss'. But the primary concern has been focused on what actually happens to the trash.
+
+    One popular theory is that it simply burns up in the fires of Hell. But federally subsidized research, supported by historic maps that clearly state that "Here There Be Dragons...", indicates that these dragons consider garbage to be a 'delicacy' and delightfully gobble it up with no complaint.
+
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/4569-peg%C2%A0abyss-garbage-chute/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2004/thumb-76dfbcf9da1a4cb3ef23be96d05017b1-product_image2.jpg
+
+dependencies:
+  - peg:cdk-rec-seawall-kit-vol1
+assets:
+  - assetId: peg-abyss-garbage-chute
+
+---
+assetId: peg-abyss-garbage-chute
+version: "2.05"
+lastModified: "2004-10-29T00:57:14Z"
+url: https://community.simtropolis.com/files/file/4569-peg%C2%A0abyss-garbage-chute/?do=download
+archiveType:
+  format: Clickteam
+  version: "20"
