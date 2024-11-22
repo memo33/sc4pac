@@ -28,7 +28,10 @@ info:
 
 dependencies:
   - kingofsimcity:logistics-essentials
-  - bsc:mega-props-misc-vol01
+  - mushymushy:na-semi-truck-cabs-vol1
+  - mushymushy:na-40ft-trailers-vol1
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-jes-vol01
