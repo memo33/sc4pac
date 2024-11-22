@@ -1,0 +1,21 @@
+group: ralphaelninja
+name: landmark-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Landmark props
+  description: |
+    This modd contains the plugin landmark props that Maxis forgot. (eg. The Grand Central Station etc.)
+  author: RalphaelNinja
+  website: https://community.simtropolis.com/files/file/21286-plugin-landmark-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9931d5076473c8f6816a23e0427acc38-default.jpg
+
+assets:
+  - assetId: ralphaelninja-plugin-landmark-props
+
+---
+assetId: ralphaelninja-plugin-landmark-props
+version: "1.0"
+lastModified: "2004-01-28T00:00:00Z"
+url: https://community.simtropolis.com/files/file/21286-plugin-landmark-props/?do=download
