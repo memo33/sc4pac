@@ -26,6 +26,8 @@ info:
 dependencies:
   - kingofsimcity:logistics-essentials
   - shk:parking-pack
+  - mushymushy:na-40ft-trailers-vol1
+  - mushymushy:na-53ft-trailers-vol1
   - supershk:mega-parking-textures
   - supershk:fa3-parking-textures
   - bsc:mega-props-sg-vol01
