@@ -76,8 +76,18 @@ sc4pac search --threshold 20 "Pause border"    # Decrease threshold for more res
 >>> ...
 ```
 
+You can search for a URL of a STEX entry or SC4Evermore download page to find any corresponding packages:
+
+```sh
+sc4pac search "https://community.simtropolis.com/files/file/32812-save-warning/"
+>>> ...
+
+sc4pac search "https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/26-bsc-no-maxis"
+>>> ...
+```
+
 **Options:**
-- `--threshold <number>` Fuziness (0..100, default=50): Smaller numbers lead to more results.
+- `--threshold <number>` Fuziness (0..100, default=80): Smaller numbers lead to more results.
 
 
 ---
@@ -187,10 +197,15 @@ Build a channel locally by converting YAML files to JSON.
 **Examples:**
 ```sh
 sc4pac channel build --output "channel/json/" "channel/yaml/"
+sc4pac channel build --label Local --metadata-source-url https://github.com/memo33/sc4pac/blob/main/src/yaml/ -o channel/json channel/yaml
 ```
 
+Use the options `--label` and `--metadata-source-url` particularly for building publicly accessible channels.
+
 **Options:**
-- `-o, --output <dir>`  Output directory for JSON files
+- `-o, --output <dir>`         Output directory for JSON files
+- `--label str`                Optional short channel name for display in the UI
+- `--metadata-source-url url`  Optional base URL linking to the online YAML source files (for Edit Metadata button)
 
 
 ---
@@ -202,13 +217,18 @@ Start a local server to use the HTTP [API](api).
 
 **Example:**
 ```sh
-sc4pac server --indent 2 --profile-root profiles/profile-1/
+sc4pac server --profiles-dir profiles --indent 1
+sc4pac server --profiles-dir profiles --web-app-dir build/web                # used by GUI web
+sc4pac server --profiles-dir profiles --auto-shutdown --startup-tag [READY]  # used by GUI desktop
 ```
 
 **Options:**
-- `--port <number>`        (default: 51515)
-- `--indent <number>`      indentation of JSON responses (default: -1, no indentation)
-- `--profile-root <path>`  root directory containing `sc4pac-plugins.json` (default: current working directory), newly created if necessary; can be used for managing multiple different plugins folders
+- `--port <number>`         (default: 51515)
+- `--indent <number>`       indentation of JSON responses (default: -1, no indentation)
+- `--profiles-dir <path>`   directory containing the `sc4pac-profiles.json` file and profile sub-directories (default: current working directory), newly created if necessary
+- `--web-app-dir <path>`    optional directory containing statically served webapp files (default: no static files)
+- `--auto-shutdown`         automatically shut down the server when client closes connection to `/server.connect` (default: `--auto-shutdown=false`). This is used by the desktop GUI to ensure the port is cleared when the GUI exits.
+- `--startup-tag <string>`  optional tag to print once server has started and is listening
 
 
 ---
