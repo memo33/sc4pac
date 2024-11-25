@@ -1,0 +1,36 @@
+group: sm2
+name: hydrogen-extractor-array-x1
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Hydrogen Extractor Array X1
+  description: |-
+    Another single 1x1 high tech high wealth industrial lot for your maps.
+
+    Stats
+
+     - Lot size: 1x1
+     - Growth stage: 2
+     - Power req: 3
+     - Water req: 2
+     - Bulldoze cost: 189
+
+    Will grow on high density industrial zoning.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34899-sm2-hydrogen-extractor-array-x1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/he1.jpg.8c1dd48806d335b380688c87e2ffd208.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/he2.jpg.70e83ceecb29eb2ed4757b07642da4ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/he3.jpg.70aaa6a6820a4ca89df395c6fa8f2103.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/he4.jpg.e416c317a950bd2ecd9a15825b593eba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/he5.jpg.84153c1c2fe11e7eff615f4f47d2c9c6.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol6
+assets:
+  - assetId: sm2-hydrogen-extractor-array-x1
+
+---
+assetId: sm2-hydrogen-extractor-array-x1
+version: "1.0.0"
+lastModified: "2022-03-04T03:54:29Z"
+url: https://community.simtropolis.com/files/file/34899-sm2-hydrogen-extractor-array-x1/?do=download
