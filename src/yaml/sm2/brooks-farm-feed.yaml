@@ -1,0 +1,52 @@
+group: sm2
+name: brooks-farm-feed
+version: "2.0.0"
+subfolder: 410-agriculture
+info:
+  summary: Brooks Farm Feed
+  description: |-
+    Is an actual business located in Canada. There are 100's similar scattered around farm areas all over Canada.
+
+    They sell grains to feed livestock farms and they are especially busy in the winter months when summer greens are not available.
+
+    I made this lot as an agriculture ploppable and you will find under the Landmark menu.
+
+    Custom base textures included.
+
+     - Lot size: is 4x5
+     - Plop cost: 4850
+     - Bulldoze cost: 500
+     - Power req: 21
+     - Water req: 15
+     - Provides Provides jobs
+
+    Have fun!
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34067-sm2-brooks-farm-feed/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/bf.jpg.71cad117b6db0bc0bbee39ff2c057b03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/bf1.jpg.f98bb4070911f00c67f26d901ac79ac3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/bf2.jpg.89746a76c20d377f672eaebac0b16a2d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/bf3.jpg.e467591d5ba804e694a4a1835f05cca8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/bf4.jpg.cd1dea987e70a1b150d20a0a718600c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/bf5.jpg.753cad64961aeec2193357dbf84b4e87.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol5
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:grand-firs
+  - girafe:alders
+  - girafe:bushes
+  - girafe:poplars
+  - girafe:daisy
+assets:
+  - assetId: sm2-brooks-farm-feed
+
+---
+assetId: sm2-brooks-farm-feed
+version: "2.0.0"
+lastModified: "2021-03-24T05:04:38Z"
+url: https://community.simtropolis.com/files/file/34067-sm2-brooks-farm-feed/?do=download
