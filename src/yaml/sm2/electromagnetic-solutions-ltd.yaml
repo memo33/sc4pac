@@ -1,0 +1,43 @@
+group: sm2
+name: electromagnetic-solutions-ltd
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Electromagnetic Solutions Ltd
+  description: |-
+    Just like like the name implies, this is a high tech lab where scientists experiment with very powerful electromagnetic fields in order to create new and useful technologies to apply in new product innovations.
+
+    This is the grow version and the stats are as follows.
+
+     - Lot size: 6x3
+     - Stage: 3 I-HT
+     - Offers I-HT 502 jobs
+     - Bulldoze cost: 369
+     - Power req: 91
+     - Water req: 85
+
+    It will grow in high density industrial zones.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34178-sm2-electromagnetic-solutions-ltd/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/ele1.jpg.b8f741bb476fb8829ef60a87e55cefb4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/ele2.jpg.b7e73767c8eba480637566b994b4ea34.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/ele3.jpg.4e4c6ae9aec90467771a4c4c9845fa76.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/ele4.jpg.6be9e066b923af0ccb79def3b49075e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/ele5.jpg.96fbb0aea46d101b6277dc49de2ace48.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-electromagnetic-solutions-ltd
+
+---
+assetId: sm2-electromagnetic-solutions-ltd
+version: "2.0.0"
+lastModified: "2021-03-24T04:39:54Z"
+url: https://community.simtropolis.com/files/file/34178-sm2-electromagnetic-solutions-ltd/?do=download
