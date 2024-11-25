@@ -1,0 +1,46 @@
+group: sm2
+name: amps-city-office
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: AMPS City Office
+  description: |-
+    An electrical utility company's main city office.
+
+    This one is designed for a modern city setting.
+
+    Stats are as follows
+
+     - Functional landmark CO$$
+     - Lot size: 4x4
+     - Plop cost: 20000
+     - Bulldoze cost: 308
+     - Power req: 9
+     - Water req: 12
+     - Provides Provides jobs
+
+    You will find it under the Landmark menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34307-sm2-amps-city-office/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ci7.jpg.70ff928fe11d14c12e8f861cc9c32077.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ci8.jpg.ccf28ddf73f794dd62a3a2658206a272.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ci9.jpg.69a87cae95a28a04a9d6c5f111ec25bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ci10.jpg.0120dce98f4c7f699536c591239429e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ci11.jpg.91c43968d5e8bbdc460bedead024a159.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ci12.jpg.08c5f3927048cc6bcc38f63d2cc1db81.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol5
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:cypresses
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-amps-city-office
+
+---
+assetId: sm2-amps-city-office
+version: "2.0.0"
+lastModified: "2021-03-24T04:19:55Z"
+url: https://community.simtropolis.com/files/file/34307-sm2-amps-city-office/?do=download
