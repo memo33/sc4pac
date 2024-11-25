@@ -1,0 +1,45 @@
+group: sm2
+name: tesla-dealership
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: Tesla Dealership
+  description: |-
+    A modern style Tesla car dealership for your maps.
+
+     - Medium wealth lot  - Provides 245 commercial jobs
+     - Lot size: 5x4
+     - Plop cost: 30,000
+     - Bulldoze cost: 750
+     - Power req: 25
+     - Water req: 20
+     - Provides 245 C$$ jobs
+
+    You will find it in your Landmark menu.
+
+    Excellent Tesla model cars are made by [@Barroco Hispano](https://community.simtropolis.com/profile/415633-barroco-hispano/), link is in the dependency list.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34041-sm2-tesla-dealership/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/te1.jpg.6dff8fe8a6e4a7ebcc125c890da3d4b1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/te2.jpg.f1851cb11632808aec1e62194e41f758.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/te3.jpg.e860a55ff2cec75b836b81bff7e0eb09.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/te4.jpg.5b6cfd2f958f7ff7d724ccd64960ae44.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/te5.jpg.5de4530f713cce0223fc54482a603fd0.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol5
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:poplars
+  - supershk:mega-parking-textures
+  - agc:automobile-dlc
+assets:
+  - assetId: sm2-tesla-dealership
+
+---
+assetId: sm2-tesla-dealership
+version: "2.0.0"
+lastModified: "2022-02-16T06:03:16Z"
+url: https://community.simtropolis.com/files/file/34041-sm2-tesla-dealership/?do=download
