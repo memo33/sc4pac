@@ -30,14 +30,12 @@ variants:
     assets:
       - assetId: ceafus-88-burger-king-v20
         include:
-          - /*. MaxisNite.*/.*\.SC4Desc
           - /*. MaxisNite.*/.*\.SC4Lot
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: ceafus-88-burger-king-v20
         include:
-          - /*. DarkNite.*/.*\.SC4Desc
           - /*. DarkNite.*/.*\.SC4Lot
 
 ---
@@ -57,12 +55,14 @@ variants:
     assets:
       - assetId: ceafus-88-burger-king-v20
         include:
+          - /*. MaxisNite.*/.*\.SC4Desc
           - /*. MaxisNite.*/.*\.SC4Model
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: ceafus-88-burger-king-v20
         include:
+          - /*. DarkNite.*/.*\.SC4Desc
           - /*. DarkNite.*/.*\.SC4Model
 
 ---
