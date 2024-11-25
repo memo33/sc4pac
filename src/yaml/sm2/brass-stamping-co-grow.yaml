@@ -1,0 +1,41 @@
+group: sm2
+name: brass-stamping-co-grow
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Brass Stamping Co Grow
+  description: |-
+    An old fictional factory that produces brass plating still in operation today.
+
+    **This is the grow version**
+
+    The stats are
+
+     - Lot size: 4x4
+     - Medium Manufacturing industry
+     - Stage: 3
+     - Provides Provides jobs
+     - Power req: 28
+     - Water req: 40
+     - Bulldoze cost: 843
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34054-sm2-brass-stamping-co-grow/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/br1.jpg.4d80ffadcd886bd88c73d08da7d7e359.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/br2.jpg.3c49e8b20513d82c024422047114db7a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/br3.jpg.7da7e0e403a99f58ad3387489a0522aa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/br4.jpg.21093aadff2461c3464e62772a6b161a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/br5.jpg.fbcd7ca53802a3e0e1d99249478d86f1.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+assets:
+  - assetId: sm2-brass-stamping-co-grow
+
+---
+assetId: sm2-brass-stamping-co-grow
+version: "2.0.0"
+lastModified: "2021-03-24T05:06:54Z"
+url: https://community.simtropolis.com/files/file/34054-sm2-brass-stamping-co-grow/?do=download
