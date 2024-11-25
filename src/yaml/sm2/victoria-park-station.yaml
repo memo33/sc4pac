@@ -1,0 +1,44 @@
+group: sm2
+name: victoria-park-station
+version: "3.0.0"
+subfolder: 700-transit
+info:
+  summary: Victoria Park Station
+  description: |-
+    A simple edge of town DTR passenger rail station. Open concept type with 2 crosswalks for passenger access.
+
+    This station sports a custom made rail path made by someone else years ago, in order for the trains to curve around the bends. I assigned new IIDs and adapted it to my lot.  
+    Thank you.
+
+    It also acts as a bus station and allows cars to drop off passengers as well.
+
+    Custom textures included.
+
+    Drop on existing DTR network or plop and run a DTR line through it.
+
+    Being strictly a passenger station I'm not allowing freight trains to cross it, plan accordingly.
+
+     - Lot size: 11X1
+     - Plop cost: 7500
+     - Bulldoze cost: 1000
+     - Power req: 15
+     - Water req: 5
+     - Capacity: 47500
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33320-sm2-victoria-park-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/vp1.jpg.311111c9a4566bf01125c9060391146b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/vp2.jpg.b1f421f00ad340e5f1c6d7666b3c7243.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/vp3.jpg.7c4c2601aa307d815b8c9256d4cb3c9c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/vp4.jpg.5ba84ba0b2621d9032157c0d468bd841.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/vp5.jpg.5407915c4da9d8b9db3d72f6c249721f.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol4
+assets:
+  - assetId: sm2-victoria-park-station
+
+---
+assetId: sm2-victoria-park-station
+version: "3.0.0"
+lastModified: "2021-04-19T11:57:20Z"
+url: https://community.simtropolis.com/files/file/33320-sm2-victoria-park-station/?do=download
