@@ -25,7 +25,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2021_08/glen5.jpg.c850787d73a07bdc44914b5c25aba182.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_08/glen6.jpg.8f3de139b9fac64ed54f0515da57a884.jpg
 dependencies:
-  - sm2:essentials-v4
+  - sm2:essentials
   - sm2:mega-prop-pack-vol6
   - bsc:vip-girafe-carpack-vol01-vol02
 assets:
