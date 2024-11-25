@@ -1,0 +1,38 @@
+group: sm2
+name: chemical-mixing-inc
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Chemical Mixing Inc
+  description: |-
+    A Chemical mixing plant is a very common sight in any industrial conglomerate.
+
+    This is a close replica of a real one I saw online.
+
+     - Lot size: 2x2
+     - Growth stage: 3
+     - Bulldoze cost: 461
+     - High wealth High Tech
+     - I-HT 164 jobs
+     - Power Req: 30
+     - Water req: 27
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34161-sm2-chemical-mixing-inc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/cm5.jpg.bfb9ebd23dfa6228c825d8ff64af9485.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/cm4.jpg.47a18050d5a74600d1753d131cc8ab95.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/cm3.jpg.3362eca6a25e3b449e989bcc4cf37a8d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/cm2.jpg.02646a1c9507c1dba5e8f267892aae1f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/cm1.jpg.6c490b8ec355d60ec8231b04c4b21ce9.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol5
+assets:
+  - assetId: sm2-chemical-mixing-inc
+
+---
+assetId: sm2-chemical-mixing-inc
+version: "2.0.0"
+lastModified: "2021-03-24T04:41:45Z"
+url: https://community.simtropolis.com/files/file/34161-sm2-chemical-mixing-inc/?do=download
