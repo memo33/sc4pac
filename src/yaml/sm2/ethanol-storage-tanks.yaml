@@ -10,9 +10,7 @@ info:
     IHT$$$3\_1x1\_SM2 Ethanol Storage Tanks
 
      - Lot size: 1x1
-
-    Stage 3
-
+     - Growth stage: 3
      - Bulldoze cost: 303
      - Power req: 4
      - Water req: 3
