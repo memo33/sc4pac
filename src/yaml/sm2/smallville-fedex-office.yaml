@@ -1,0 +1,48 @@
+group: sm2
+name: smallville-fedex-office
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: Smallville Fedex Office
+  description: |-
+    A small town Fedex delivery office for your maps, grow format.
+
+    Stats
+
+    Lots size 4x3
+     - Growth stage:  medium wealth CS$$
+     - Power req: 6
+     - Water req: 4
+     - Bulldoze cost: 344
+     - Provides CS$82 or CS$$44 jobs
+
+    It will grow in both medium or high density commercial zones on any tileset
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34577-sm2-smallville-fedex-office/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/sv3.jpg.d80aad315e00d1042c3850256710b522.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/sv4.jpg.cf535ed64d803a54434c88b4dbf50ca6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/sv5.jpg.ab99e8a116799daf0fd311b1bc46985b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/sv6.jpg.5b540f112fc29fba10a3a6c9cc96526c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/sv7.jpg.8f3d91ac8d6114f8f956c098a19e2fea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/sv1.jpg.e4bde5476f6ba82acb4564c411752f69.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/sv2.jpg.a086b7fa5cde8f5f28ba497fa27e46e5.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol6
+  - girafe:poplars
+  - girafe:cypresses
+  - girafe:narcissus
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-smallville-fedex-office
+
+---
+assetId: sm2-smallville-fedex-office
+version: "2.0.0"
+lastModified: "2022-02-25T18:03:01Z"
+url: https://community.simtropolis.com/files/file/34577-sm2-smallville-fedex-office/?do=download
