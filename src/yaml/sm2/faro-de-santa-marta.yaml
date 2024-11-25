@@ -1,0 +1,45 @@
+group: sm2
+name: faro-de-santa-marta
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Faro de Santa Marta
+  description: |-
+    A reproduction of a lighthouse situated in Cascais, Portugal.
+
+    I included both the original with its walled enclosure and one without.
+
+    Lots Size, both 1x1 (one is overhanging)
+
+     - Plop cost: 2500
+     - Bulldoze cost: 100
+     - Power req: 10
+     - Water req: 0
+     - Monthly maintenance: 100
+
+    Look under the Landmark menu.
+
+    It provides a bit of landmark and park effect.
+
+    It does not required road access.
+
+    No base texture, just use MMP and create your own scenario.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33385-sm2-faro-de-santa-marta/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/fa1.jpg.9d104a9ee7a25fd47ffc3853e857ca70.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/fa2.jpg.f3c0c0c2edb70b897647ca8c86303286.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/fa3.jpg.2305e4bd2cfd9605376b9df724d83d65.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/fa4.jpg.a98804d2e2bb36a5904154cdfc99aa34.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/faro4.jpg.2f4933efab9771b248257d2c3072db50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/faro3.jpg.4bee647b7ed3a8342521e76b5c243daf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/faro2.jpg.562d8c5a7431faa9296cfc0f85373681.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/faro.jpg.890fd5a3194066a174f5efc4e8e6b4e2.jpg
+assets:
+  - assetId: sm2-faro-de-santa-marta
+
+---
+assetId: sm2-faro-de-santa-marta
+version: "1.0.0"
+lastModified: "2020-01-13T04:41:44Z"
+url: https://community.simtropolis.com/files/file/33385-sm2-faro-de-santa-marta/?do=download
