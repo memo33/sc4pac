@@ -1,0 +1,36 @@
+group: sm2
+name: industrial-lining-ceramics
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Industrial Lining Ceramics
+  description: |-
+    A fictional company that makes industrial grade Heath resistant ceramic lining for blast furnaces.
+
+    Grow Stats
+
+     - Lot size: 2x4
+     - Stage: 3 Manufacturing
+     - Power req: 45
+     - Water req: 52
+     - Bulldoze cost: 1064
+     - Provides Provides jobs
+
+    It will grow on high density industrial zones.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34289-sm2-industrial-lining-ceramics/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/cer1.jpg.fb9825a40720aa0352c51c77bcfe8340.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/cer2.jpg.847354ff2747807e030646187f4898a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/cer3.jpg.f70fd20c95ae803b322a1a5b8c20e186.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+assets:
+  - assetId: sm2-industrial-lining-ceramics
+
+---
+assetId: sm2-industrial-lining-ceramics
+version: "1.0.0"
+lastModified: "2021-03-17T05:46:39Z"
+url: https://community.simtropolis.com/files/file/34289-sm2-industrial-lining-ceramics/?do=download
