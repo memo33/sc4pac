@@ -1,0 +1,39 @@
+group: sm2
+name: ethanol-storage-tanks
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Ethanol Storage Tanks
+  description: |-
+    One more 1x1 hight tech high wealth industrial lot for your maps
+
+    IHT$$$3\_1x1\_SM2 Ethanol Storage Tanks
+
+    Lot size 1x1
+
+    Stage 3
+
+    Bulldoze cost 303
+
+    Power req 4
+
+    Water req 3
+
+    Provides 19 I-HT jobs
+
+    Will grow on high density industrial zoning.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/35178-sm2-ethanol-storage-tanks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/et1.jpg.234bb2206d37f9f106c1a165f06e2e8b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/et2.jpg.8fab724277108a527b95120f46f842aa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/et3.jpg.91d96de7696510ebfffc0ab7082242c8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/et4.jpg.4531e7ad4d4fcaa5b0ac4c228e085c89.jpg
+assets:
+  - assetId: sm2-ethanol-storage-tanks
+
+---
+assetId: sm2-ethanol-storage-tanks
+version: "1.0.0"
+lastModified: "2022-05-09T02:27:27Z"
+url: https://community.simtropolis.com/files/file/35178-sm2-ethanol-storage-tanks/?do=download
