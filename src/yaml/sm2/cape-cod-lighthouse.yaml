@@ -7,8 +7,7 @@ info:
   description: |-
     A fictitious lighthouse similar to the ones that dot the Cape Cod coast of the coast of Massachusetts USA.
 
-    Lots Size 1x1
-
+     - Lot Size 1x1
      - Plop cost: 2500
      - Bulldoze cost: 100
      - Power req: 10
