@@ -1,0 +1,56 @@
+group: sm2
+name: enzo-aricci-boutique
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Enzo Aricci Boutique
+  description: |-
+    Typical Italian clothing store where your middle class sims can go shopping at.
+
+    2 Lots are available. One Plop and one Grow
+
+    **Plop stats**
+
+    Medium wealth commercial lot.
+
+    You will find it under the Landmark menu.
+
+     - Lot size: 3x3
+     - Plop cost: 2500
+     - Bulldoze cost: 250
+     - Power req: 15
+     - Water req: 10
+     - Provides 65 C$$ jobs
+
+    **Grow stats**
+
+     - Lot size: 2x2
+     - Stage: 2 medium wealth C$$
+     - Power req: 2
+     - Water req: 24
+     - Bulldoze cost: 172
+     - Provides C$ 86 - C$24 jobs
+
+    It will grow in any tileset.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33329-sm2-enzo-aricci-boutique/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/AR1.jpg.26fc3e71ca212dc490222e201542a7e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/AR2.jpg.13e73559db0f0558175db01f2c06c1fc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df5d301bf779_aricci2copy.jpg.5fe22b42f736ab26025be185e35b1a40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df5d30416aca_aricci3copy.jpg.d7abbd183a0ba95348e3fc88b41e6cda.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:cypresses
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-enzo-aricci-boutique
+
+---
+assetId: sm2-enzo-aricci-boutique
+version: "1.0.0"
+lastModified: "2019-12-15T06:32:36Z"
+url: https://community.simtropolis.com/files/file/33329-sm2-enzo-aricci-boutique/?do=download
