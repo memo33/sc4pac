@@ -1,0 +1,49 @@
+group: sm2
+name: garbage-transfer-station-24-str
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Garbage Transfer Station 24 STR
+  description: |-
+    A realistic garbage transfer station where the local garbage is shipped to be burned for waste to energy purpose or for burial somewhere off the maps...
+
+    This is the STR (Single Track Rail) version.
+
+    Lot stats.
+
+     - Lot size: 6x3
+     - Plop cost: 9500
+     - Bulldoze cost: 1200
+     - Power req: 9
+     - Water req: 12
+     - Population served: 25000
+     - Percent reduction: 50%
+     - Monthly cost: 200
+
+    Provides 49 jobs
+
+    You will find this station under the garbage menu
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34588-sm2-garbage-transfer-station-24-str/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/J6gV6ly.jpg.30a37ae7c477d72bec2685e2ee26e50f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/yC9FT5Z.jpg.a30cb3ae9e8c2cf060061eb3fadf63c1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/d3Idz9V.jpg.389f7a6c95c8eb6cf63ad0c2923321bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/kJZgwjd.jpg.711d0a3899ffe8c3e8cc37728c540126.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+  - sm2:mega-prop-pack-vol6
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-garbage-transfer-station-24-str
+
+---
+assetId: sm2-garbage-transfer-station-24-str
+version: "2.0.0"
+lastModified: "2022-02-25T17:59:32Z"
+url: https://community.simtropolis.com/files/file/34588-sm2-garbage-transfer-station-24-str/?do=download
