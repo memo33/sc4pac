@@ -1,7 +1,7 @@
 group: sm2
 name: rrw-nsb-tex
 version: "6.0.0"
-subfolder: ""
+subfolder: 100-props-textures
 info:
   summary: RRW nsb Tex
   description: |-
