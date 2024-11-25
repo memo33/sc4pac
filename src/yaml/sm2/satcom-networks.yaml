@@ -1,0 +1,44 @@
+group: sm2
+name: satcom-networks
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: SatCom Networks
+  description: |-
+    A small satellite network communication company that services all your sims cell phone/GPS and sat radio needs.
+
+    Grow lot stats
+
+     - Lot size: 3x1 Medium Wealth
+     - Stage: 2 CS$$
+     - Bulldoze cost: 229
+     - Power req: 35
+     - Water req: 4
+     - Provides Provides jobs
+
+    Use the CTRL+left mouse trick to make a 3x1 medium density commercial zone and watch it sprout.
+
+    The cars and billboards are in a family therefore you will see different ones every time it pops up.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34303-sm2-satcom-networks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/sat1.jpg.29401ca00bdda292b8a65136bb77009e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/sat2.jpg.f921939b84c218e1f605a5980b88fa52.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/sat3.jpg.543259e831d3f0b3e306d28c4372623b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/sat4.jpg.04be8f43dcddf5f843ccf1942b415359.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/sat5.jpg.08ffa257945ae9cf440d12caa85ce379.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/sat6.jpg.60e15c60ae990d80406e3e1ae14f6062.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-satcom-networks
+
+---
+assetId: sm2-satcom-networks
+version: "1.0.0"
+lastModified: "2021-03-21T18:00:17Z"
+url: https://community.simtropolis.com/files/file/34303-sm2-satcom-networks/?do=download
