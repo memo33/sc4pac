@@ -1,0 +1,18 @@
+group: sm2
+name: mega-prop-pack-vol3
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Mega Prop Pack Vol3
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32982-sm2-mega-prop-pack-vol3/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f4b24fd1f_SM2MegaPropPackVol3.jpg.1d104711ad6d5e960b2234657b729229.jpg
+assets:
+  - assetId: sm2-mega-prop-pack-vol3
+
+---
+assetId: sm2-mega-prop-pack-vol3
+version: "1.0"
+lastModified: "2019-06-27T16:55:15Z"
+url: https://community.simtropolis.com/files/file/32982-sm2-mega-prop-pack-vol3/?do=download
