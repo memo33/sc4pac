@@ -1,0 +1,59 @@
+group: sm2
+name: small-oil-depots-c
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Small Oil Depots C
+  description: |-
+    This is a set of 3 self contained mini oil depots for your industrial maps.  
+    These are European brands
+
+    1 Aral - 1 Euroil and 1 Vopak
+
+    1) **SM2 Aral Oil Tank**
+
+     - Lot size: 3x2
+     - Stage: 3 medium wealth I-D 59
+     - Power req: 15
+     - Water req: 1
+     - Bulldoze cost: 326
+     - Provides ID$$ 59 industrial jobs
+
+    2) **SM2 Euroil Oil Tank**
+
+     - Lot size: 3x2
+     - Stage: 3 medium wealth I-D 59
+     - Power req: 15
+     - Water req: 1
+     - Bulldoze cost: 326
+     - Provides ID$$ 59 industrial jobs
+
+    3) **SM2 Vopak Oil Tank**
+
+     - Lot size: 3x2
+     - Stage: 3 medium wealth I-D 59
+     - Power req: 15
+     - Water req: 1
+     - Bulldoze cost: 326
+     - Provides ID$$ 59 industrial jobs
+
+    All of them will grow in high density industrial zoning.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34498-sm2-small-oil-depots-c/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/oild11.jpg.07efb843591dfbb09bdd5217776f236a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/oild12.jpg.4c6cff2fc0da527821c243bcdcb8f218.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/oild13.jpg.e663db292c122826731e0c5d45fe6ba3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_06/oild14.jpg.1f7061421dda14ab71f9a0cffabd509a.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+assets:
+  - assetId: sm2-small-oil-depots-c
+
+---
+assetId: sm2-small-oil-depots-c
+version: "1.0.0"
+lastModified: "2021-06-03T05:25:27Z"
+url: https://community.simtropolis.com/files/file/34498-sm2-small-oil-depots-c/?do=download
