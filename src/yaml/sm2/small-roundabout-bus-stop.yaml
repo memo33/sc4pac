@@ -1,0 +1,37 @@
+group: sm2
+name: small-roundabout-bus-stop
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Small Roundabout Bus Stop
+  description: |-
+    A round bus stop for the small roundabout.
+
+    It even includes a 'kiss and ride' car drop off/pickup for passengers.
+
+     - Lot size: 1x1
+     - Plop cost: 1500
+     - Bulldoze cost: 100
+     - Power req: 10
+     - Water req: 5
+
+    Passenger capacity 37500
+
+    Find it under the bus menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33334-sm2-small-roundabout-bus-stop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/sr1.jpg.67a1194796ae08bac4bdc6de38c49de4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/sr2.jpg.183de487e6e431e015e1469a3840395c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/sr3.jpg.9add82ed28d946e950208a7e262eecf3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/sr4.jpg.894cf9df05ddf077aa191b2eb1abef6e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/sr5.jpg.357b1ba5a1d822d0c3686325c725182a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/sr6.jpg.239c270790009011234aed47e9bc5cfb.jpg
+assets:
+  - assetId: sm2-small-roundabout-bus-stop
+
+---
+assetId: sm2-small-roundabout-bus-stop
+version: "1.0.0"
+lastModified: "2019-12-17T06:14:29Z"
+url: https://community.simtropolis.com/files/file/33334-sm2-small-roundabout-bus-stop/?do=download
