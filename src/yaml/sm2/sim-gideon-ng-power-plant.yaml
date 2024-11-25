@@ -1,0 +1,51 @@
+group: sm2
+name: sim-gideon-ng-power-plant
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: Sim Gideon NG Power Plant
+  description: |-
+    A realistic Natural Gas electric power plant for your maps
+
+    Includes maintenance, front office and staff quarters buildings on the lot plus many new props.
+
+    Custom made base texture included.
+
+    Stats
+
+     - Lot size: 9x7
+     - Plop cost: 35000
+     - Bulldoze cost: 2000
+     - Power req: 40
+     - Water req: 80
+     - Power generated 29500
+     - Provides 250 jobs
+     - Monthly budget: 300
+
+    Available under the power menu
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34319-sm2-sim-gideon-ng-power-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/si1.jpg.1198c3c3ba6b308fd8249fa7fe4c3eb6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/si2.jpg.69fde759234e81d85da7474633e07e1f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/si3.jpg.773db9772ce61f8d5e32068014b680b1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/si4.jpg.f04eb825eef12f489ff654cb9d4595b8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/si5.jpg.114c3475bd4e44e3a80d5db50683385c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/si6.jpg.0094cb803242b69147e6a6e2ad0be3db.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-sim-gideon-ng-power-plant
+
+---
+assetId: sm2-sim-gideon-ng-power-plant
+version: "1.0.0"
+lastModified: "2021-08-12T18:06:05Z"
+url: https://community.simtropolis.com/files/file/34319-sm2-sim-gideon-ng-power-plant/?do=download
