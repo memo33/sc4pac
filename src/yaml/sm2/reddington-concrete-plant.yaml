@@ -1,0 +1,41 @@
+group: sm2
+name: reddington-concrete-plant
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Reddington Concrete Plant
+  description: |-
+    Here is a nice plant made to supply all the necessary concrete for those tall and boxy concrete buildings in SC4.
+
+     - Lot size: 11x5
+     - Plop cost: 9500
+     - Bulldoze cost: 500
+     - Power req: 35
+     - Water req: 80
+     - Provides 140 Medium Wealth IM jobs
+
+    Look under the Landmark menu
+
+    You can connect the SAM dirt road to the entry and exit for that seamless look.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33332-sm2-reddington-concrete-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/red1.jpg.1cc96ed3ab6d0e7ef54991f626e2d5fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/red2.jpg.68faa4c40b161cea83c89122675eb256.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/red3.jpg.7e64b6a93e48d0f1778201372c088b4e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/red4.jpg.ea880184de2cc5f2a28feb3962fa1c76.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/reddington2.jpg.b46cd1638c9b09872adbab64e379f5c8.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-reddington-concrete-plant
+
+---
+assetId: sm2-reddington-concrete-plant
+version: "1.0.0"
+lastModified: "2019-12-16T04:29:55Z"
+url: https://community.simtropolis.com/files/file/33332-sm2-reddington-concrete-plant/?do=download
