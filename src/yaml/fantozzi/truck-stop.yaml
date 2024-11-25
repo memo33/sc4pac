@@ -1,0 +1,32 @@
+group: fantozzi
+name: truck-stop
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Truck Stop
+  description: |-
+    This download offers two slightly different plopable lots, each 4x10 tiles in size, you find in the misc. transportation menu to place them left and right of your avenue or RHW or road or whatever.
+
+    They offer 28/29 CS$$ jobs and have a slight positive effect over 35 tiles on commercial growth and cost 3600 simeoleons to plop.
+
+    The lots are transit enabled and can be connected with OWR. It's stongly recommended to use [SC4fix](https://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/) together with the truck stops.
+  author: Fantozzi
+  website: https://community.simtropolis.com/files/file/32050-truck-stop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/present.jpg.1bf31783618aebadfb1556e410c67105.jpg
+dependencies:
+  - simmaster07:sc4fix
+  - sfbt:royal-aral-gas-station
+  - ceafus-88:burger-king-models
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - w-swietwoot:dutch-prop-pack
+  - simcityfreak666:european-truck-prop-pack-vol1
+assets:
+  - assetId: fantozzi-truck-stop
+
+---
+assetId: fantozzi-truck-stop
+version: "1.0"
+lastModified: "2017-12-28T20:46:48Z"
+url: https://community.simtropolis.com/files/file/32050-truck-stop/?do=download
