@@ -1,0 +1,49 @@
+group: sm2
+name: mann-hydrazine-manufacturing
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Mann Hydrazine Manufacturing
+  description: |-
+    Hydrazine is mainly used as a foaming agent in preparing polymer foams, but applications also include its uses as a precursor to polymerization catalysts, pharmaceuticals, and agrochemicals, as well as a long-term storable propellant for in-space spacecraft propulsion.
+
+     - Lot size: 7x7
+     - Powe req: 55
+     - Water req: 40
+     - Plop cost: 32000
+     - Bulldoze cost: 500
+     - Medium Wealth Manufacturing
+     - Provides 225 IM jobs
+
+    Connect the STR rail network to the 2 rail stubs on the lot.
+
+    No automata will cross this lot therefore make sure you create a rail spur for it.
+
+    You will find it under the Landmark menu
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34561-sm2-mann-hydrazine-manufacturing/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/mh1.jpg.495479531d938b7e47ede48fa04526df.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/mh2.jpg.bea192bb0cf2480fae325d09e29a9922.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/mh3.jpg.c196bceb8e6b8ba01bfc2f0e4a143ed1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/mh4.jpg.0ca8aa5885242f989b1f94bad7894090.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/mh5.jpg.7589986b75a628fb219fc6aff7f95659.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/mh6.jpg.bbd4b4611e3a305095f5a883e1b4d342.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/mh7.jpg.ec13c98729be278e38f6e9d18e2f5c46.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/mh8.jpg.9bfac3f2a5cb5e9e338c796e2dddc0b2.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol6
+  - supershk:mega-parking-textures
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-mann-hydrazine-manufacturing
+
+---
+assetId: sm2-mann-hydrazine-manufacturing
+version: "2.0.0"
+lastModified: "2022-02-25T18:09:42Z"
+url: https://community.simtropolis.com/files/file/34561-sm2-mann-hydrazine-manufacturing/?do=download
