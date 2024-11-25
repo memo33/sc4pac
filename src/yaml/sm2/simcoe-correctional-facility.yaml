@@ -1,0 +1,45 @@
+group: sm2
+name: simcoe-correctional-facility
+version: "2.0.0"
+subfolder: 610-safety
+info:
+  summary: Simcoe Correctional Facility
+  description: |-
+    A large correctional facility where criminals end up to serve their time away from society.
+
+     - Lot size: 7x7
+     - Plop cost: 35000
+     - Bulldoze cost: 1000
+     - Power req: 14
+     - Water req: 54
+     - Max prisoner capacity 1200
+     - Monthly maintenance 200
+     - Provides Provides jobs
+
+    The gated entrance will connect visually to the street. Custom made base texture is included.
+
+    You will find the lot under the police menu.
+
+    The bus and the police car models where modeled respectively by Susie and Syed Ali, textured by Simmer2.
+  author: Simmer2, Susie, Syed Ali
+  website: https://community.simtropolis.com/files/file/34035-sm2-simcoe-correctional-facility/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/P7.jpg.cfe27afb50e08811be6b7a9d07056ae0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/P8.jpg.cf1a1324329ad76e217a29b544c9fdd2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/P9.jpg.5e58bbb2acb73a1019c69575e827e20c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/P10.jpg.84a9bfe3f94d68441f1f249a6a83dd13.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol5
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - vip:delecto-ploppable-people
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-simcoe-correctional-facility
+
+---
+assetId: sm2-simcoe-correctional-facility
+version: "2.0.0"
+lastModified: "2021-03-24T05:20:53Z"
+url: https://community.simtropolis.com/files/file/34035-sm2-simcoe-correctional-facility/?do=download
