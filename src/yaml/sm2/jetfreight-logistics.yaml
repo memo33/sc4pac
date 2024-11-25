@@ -1,0 +1,48 @@
+group: sm2
+name: jetfreight-logistics
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Jetfreight Logistics
+  description: |-
+    A trucking company that specializes in long distance haulage.
+
+    This type of businesses are thriving right now. Everyone needs something delivered these days.
+
+    This is a growable lot
+
+     - Lot size: 5x6
+     - Stage: 1 C$$
+     - Power req: 15
+     - Water req: 10
+     - Bulldoze cost: 215
+
+    Medium wealth CS-$320 CS-$$160
+
+    Will grow in any tileset.
+
+    Use the crtl + Left mouse trick to create a 5x6 high density commercial zone and watch it grow.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34298-sm2-jetfreight-logistics/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/jet1.jpg.0f8371dd84a501dcdc61289ed2826367.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/jet2.jpg.853d8c05efa492668cd631cde4832f39.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/jet3.jpg.5d723bacb1bc94e28ae27569a31e7423.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/jet4.jpg.4e0514a5c3339e838155dd557f66b526.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/jet5.jpg.ce1fc0979af312380ce3b13a2a930be9.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - mushymushy:na-40ft-trailers-vol1
+  - mushymushy:na-semi-truck-cabs-vol1
+assets:
+  - assetId: sm2-jetfreight-logistics
+
+---
+assetId: sm2-jetfreight-logistics
+version: "1.0.0"
+lastModified: "2021-03-19T04:31:28Z"
+url: https://community.simtropolis.com/files/file/34298-sm2-jetfreight-logistics/?do=download
