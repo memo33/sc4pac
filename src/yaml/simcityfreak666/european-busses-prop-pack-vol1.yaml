@@ -1,0 +1,29 @@
+group: simcityfreak666
+name: european-busses-prop-pack-vol1
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: European Busses Prop Pack vol. 1
+  description: |-
+    This Prop Pack contains european style bus Props.
+
+    This pack contains 41 different **Mercedes Benz Citaro Bus Props**:
+
+      - **Citaro L**    (Standard Version)
+      - **Citaro LÜ** (Version with double axis)
+      - **Citaro G**    (Articulated version)
+
+    All Versions are included in orthogonal and Diagonal versions and diffrent Skins plus curvy versions of the Citaro G
+  author: SimCityFreak666
+  website: https://community.simtropolis.com/files/file/24802-european-busses-prop-pack-vol-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e01929581d4312bd4d589e2781f70e8f-citaro%20proppack.JPG
+
+assets:
+  - assetId: simcityfreak666-european-busses-prop-pack-vol-1
+
+---
+assetId: simcityfreak666-european-busses-prop-pack-vol-1
+version: "1.0"
+lastModified: "2010-09-05T07:19:19Z"
+url: https://community.simtropolis.com/files/file/24802-european-busses-prop-pack-vol-1/?do=download

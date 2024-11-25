@@ -1,0 +1,68 @@
+group: paeng
+name: modular-truckstop
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Paeng's Modular Truckstop
+  description: |-
+    Instead of plopping just one lot with a couple of trucks you can now use this pack to create a large modular truck stop around your favorite gas stations and related items.
+
+    The pack contains parking slots for 22.5°, 45° and 90° truck parking, in one-sided and two-sided versions, with left and right variations where needed, all with custom textures. All trucks are timed to appear at different times and locations.
+
+    Note that the 22.5° pieces are modular (*Start, Center, End*) so the parking slots can be made as big as you wish. The 45° pieces come in fixed sizes and enable you to plop down a medium sized area quickly. The two 90° pieces can be used in a modular way as well.
+
+    All the parking slots come with plop helpers that show you the orientation of the parked trucks.
+
+    To tie them up there is a simple set of **access roads** plus a few filler tiles with different items like a **truck wash**, **weigh bridges** and numerous **kiosks**.
+
+    **LIST OF INCLUDED LOTS**
+
+     -  2 pcs. Parking 90° (*modular*)
+     -  3 pcs. Parking 45° (*fixed sizes*)
+     -  9 pcs. Parking 22.5° (*modular*)
+     -  2 pcs. Truckwash
+     -  2 pcs. Weigh Bridge
+     -  5 pcs. Set of Access Roads
+     -  6 pcs. Fillers   
+
+    You find the items at or near the end of the 'Transport | Miscellaneous' menu.
+  author: paeng
+  website: https://community.simtropolis.com/files/file/25084-paengs-modular-truckstop/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/797b196b4c4e19c0302ccb8bbc579801-ts_stex_01.jpg
+    - https://www.simtropolis.com/objects/screens/0014/797b196b4c4e19c0302ccb8bbc579801-ts_stex_02.jpg
+dependencies:
+  - paeng:modular-truckstop-resources
+  - peg:mtp-super-pack
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+assets:
+  - assetId: paeng-modular-truckstop
+    include:
+      - /TS_LOTS/
+
+---
+group: paeng
+name: modular-truckstop-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Paeng's Modular Truckstop resource file
+  description: |-
+    Resource file for `pkg=paeng:modular-truckstop`
+  author: paeng
+  website: https://community.simtropolis.com/files/file/25084-paengs-modular-truckstop/
+dependencies:
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: paeng-modular-truckstop
+    include:
+      - /TS_Resources/
+
+---
+assetId: paeng-modular-truckstop
+version: "1.0"
+lastModified: "2010-10-17T15:16:12Z"
+url: https://community.simtropolis.com/files/file/25084-paengs-modular-truckstop/?do=download

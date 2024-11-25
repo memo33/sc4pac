@@ -1,0 +1,63 @@
+group: marcosmx
+name: el-rancho-mexican-restaurant
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: El Rancho Mexican Restaurant
+  description: |-
+    El Rancho Mexican Restaurant was founded by an inmigrant from San Pedro. He arrived to Simnartion, where he started working on a factory, 2 years later, he decided to open his own business. Luckly his buisiness prospered so much, that he wants to build its headquarters.  
+    El Rancho is open Mon-Fri, 6 A.M.-12 P.M. Sat-Sun, 8 A.M.- 9 P.M. They speciality is/are Tacos.  
+    \-This .zip comes with the model, a growable and plop lot with the same stats and a sign prop-
+
+    Growable Stats:
+
+    - Lot Size: 3x4  
+    - Lot Wealth: Medium Wealth
+    - Growth Stage: 1
+    - Occupants: Cs$ Cs$$
+    - OccupantGroups Building: CommercialBuilding:CS$$ Style:Chigago Style:New York Style:Euro
+    - Capacity Satisfied: Cs-$ 176 Cs-$$ 9  
+    - Plop Cost: §1210  
+    - Bulldoze cost: §120  
+    - Flammability: 40  
+    - Max Fire Stage: 3  
+    - Power Consumed: 26  
+    - Water Consumed: 31
+
+  author: MarcosMX
+  website: https://community.simtropolis.com/files/file/16529-rnp-el-rancho-mexican-restaurant/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/19d5165a92c9ec0707a49150e187bd4f-rlp1day.JPG
+    - https://www.simtropolis.com/objects/screens/0004/19d5165a92c9ec0707a49150e187bd4f-rlp1night.JPG
+dependencies:
+  - marcosmx:el-rancho-mexican-restaurant-resources
+  - bsc:essentials
+assets:
+  - assetId: marcosmx-el-rancho-mexican-restaurant
+    include:
+      - .*\.SC4Lot$
+
+---
+group: marcosmx
+name: el-rancho-mexican-restaurant-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: El Rancho Mexican Restaurant Resources
+  description: |-
+    Resource file for `pkg=marcosmx:el-rancho-mexican-restaurant`
+  author: MarcosMX
+  website: https://community.simtropolis.com/files/file/16529-rnp-el-rancho-mexican-restaurant/
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/19d5165a92c9ec0707a49150e187bd4f-rlp1day.JPG
+    - https://www.simtropolis.com/objects/screens/0004/19d5165a92c9ec0707a49150e187bd4f-rlp1night.JPG
+assets:
+  - assetId: marcosmx-el-rancho-mexican-restaurant
+    exclude:
+      - .*\.SC4Lot$
+
+---
+assetId: marcosmx-el-rancho-mexican-restaurant
+version: "1.0"
+lastModified: "2006-07-31T22:04:48Z"
+url: https://community.simtropolis.com/files/file/16529-rnp-el-rancho-mexican-restaurant/?do=download

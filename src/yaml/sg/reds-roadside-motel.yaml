@@ -1,0 +1,50 @@
+group: sg
+name: reds-roadside-motel
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Reds Roadside Motel
+  description: |-
+    This is a fictional motel, though many like it can be seen on back highways around the world. It once had aspirations for a better living, but now gets by servicing who ever will rent a room.
+
+    - Custom Features: Query, Menu Icon
+    - Lot Type: 2x3 Plop, 2x3 Growable
+    - Plop Cost: $2500, Bulldoze Cost : $250
+    - Jobs Provided: 27, Cs$
+    - Pollution: Air - 4, Water - 6, Garbage - 18
+    - Power used: 4, Water Used : none
+    - Transit Enabled Plop: No
+  author: SimGoober
+  website: https://community.simtropolis.com/files/file/3984-reds-roadside-motel/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/fc937b759be042943046bb9e4345d693-SG_RedsMotel.jpg
+    - https://www.simtropolis.com/objects/screens/0027/fc937b759be042943046bb9e4345d693-SG_RedsMotel_Day.jpg
+assets:
+  - assetId: sg-reds-roadside-motel
+    include:
+      - .*\.SC4Lot$
+
+---
+group: sg
+name: reds-roadside-motel-models
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Reds Roadside Motel models
+  description: |-
+    Dependency for `pkg=sg:reds-roadside-motel`
+  author: SimGoober
+  website: https://community.simtropolis.com/files/file/3984-reds-roadside-motel/
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/fc937b759be042943046bb9e4345d693-SG_RedsMotel.jpg
+    - https://www.simtropolis.com/objects/screens/0027/fc937b759be042943046bb9e4345d693-SG_RedsMotel_Day.jpg
+assets:
+  - assetId: sg-reds-roadside-motel
+    exclude:
+      - .*\.SC4Lot$
+
+---
+assetId: sg-reds-roadside-motel
+version: "1.0"
+lastModified: "2004-08-02T19:47:38Z"
+url: https://community.simtropolis.com/files/file/3984-reds-roadside-motel/?do=download
