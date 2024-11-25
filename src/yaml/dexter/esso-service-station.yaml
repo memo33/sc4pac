@@ -1,0 +1,133 @@
+group: dexter
+name: esso-service-station-rhd
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: ESSO Service Station RHD
+  description: |-
+    ESSO is one of the biggest brands of fuel stations in the UK, and are found in many locations including cities and rural areas.
+
+    This particular version is designed to be used with the RHW network, and linked up with FA\-MIS ramps to simulate a setup commonly found on busy arterial roads in the UK and Ireland.
+
+    A mirrored version of this is available in `pkg=dexter:esso-service-station-lhd`. Both can be installed at the same time so that you can create "in the median" style service stations if you wish.
+
+     - Plop Cost: §150
+     - Monthly Cost: §0 (privately operated)
+     - Lot Size: 5x3
+
+    You will find it in the Landmarks menu.
+
+    This lot is for eye candy only, and is NOT transit-enabled. In order for it to look decent, it is strongly recommended that you plop FA\-MIS pieces either side of the lot.
+
+  author: Dexter
+  website: https://community.simtropolis.com/files/file/26962-dex-esso-service-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/f49b4ba11beb324ec5d5a2d42df3b9cf-essservicestat_1a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/72eb82f58a27fb05ca05ebcb037f220e-essservicestat_2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/fe7f49d108f40add0fa06bbc107a54f2-essservicestat_4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/9f6d5c905aaef137c87a000783d6780f-essservicestat_3a.jpg
+dependencies:
+  - dexter:esso-service-station-resources
+  - dexter:esso-service-station-resources-rhd
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - vip:vnaoned-props-pack-vol01
+assets:
+  - assetId: dexter-esso-service-station
+    include:
+      - .* RHD .*/.*\.SC4Lot$
+
+---
+group: dexter
+name: esso-service-station-resources-rhd
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: ESSO Service Station RHD Resources
+  description: |-
+    This is a resource file for `pkg:dexter:esso-service-station-rhd`.
+  author: Dexter
+  website: https://community.simtropolis.com/files/file/26962-dex-esso-service-station/
+assets:
+  - assetId: dexter-esso-service-station
+    include:
+      - .* RHD .*/.*\.SC4Model$
+      - .* RHD .*/.*\.SC4Desc$
+      - .* RHD .*/.*\.dat$
+
+---
+group: dexter
+name: esso-service-station-lhd
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: ESSO Service Station LHD
+  description: |-
+    ESSO is one of the biggest brands of fuel stations in the UK, and are found in many locations including cities and rural areas.
+
+    This particular version is designed to be used with the RHW network, and linked up with FA\-MIS ramps to simulate a setup commonly found on busy arterial roads in the UK and Ireland.
+
+    A mirrored version of this is available in `pkg=dexter:esso-service-station-rhd`. Both can be installed at the same time so that you can create "in the median" style service stations if you wish.
+
+     - Plop Cost: §150
+     - Monthly Cost: §0 (privately operated)
+     - Lot Size: 5x3
+
+    You will find it in the Landmarks menu.
+
+    This lot is for eye candy only, and is NOT transit-enabled. In order for it to look decent, it is strongly recommended that you plop FA\-MIS pieces either side of the lot.
+
+  author: Dexter
+  website: https://community.simtropolis.com/files/file/26962-dex-esso-service-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/f49b4ba11beb324ec5d5a2d42df3b9cf-essservicestat_1a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/72eb82f58a27fb05ca05ebcb037f220e-essservicestat_2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/fe7f49d108f40add0fa06bbc107a54f2-essservicestat_4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/9f6d5c905aaef137c87a000783d6780f-essservicestat_3a.jpg
+dependencies:
+  - dexter:esso-service-station-resources
+  - dexter:esso-service-station-resources-lhd
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - vip:vnaoned-props-pack-vol01
+assets:
+  - assetId: dexter-esso-service-station
+    include:
+      - .* LHD .*/.*\.SC4Lot$
+
+---
+group: dexter
+name: esso-service-station-resources-lhd
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: ESSO Service Station LHD Resources
+  description: |-
+    This is a resource file for `pkg:dexter:esso-service-station-lhd`.
+  author: Dexter
+  website: https://community.simtropolis.com/files/file/26962-dex-esso-service-station/
+assets:
+  - assetId: dexter-esso-service-station
+    include:
+      - .* LHD .*/.*\.SC4Model$
+      - .* LHD .*/.*\.SC4Desc$
+      - .* LHD .*/.*\.dat$
+
+---
+group: dexter
+name: esso-service-station-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: ESSO Service Station resources
+  description: This is a resource file for `pkg=dexter:esso-service-station-rhd` and `pkg=dexter:esso-service-station-lhd`
+  author: Dexter
+  website: https://community.simtropolis.com/files/file/26962-dex-esso-service-station/
+assets:
+  - assetId: dexter-esso-service-station
+    include:
+      - .* Shared .*/
+
+---
+assetId: dexter-esso-service-station
+version: "1.0"
+lastModified: "2023-02-04T20:03:52Z"
+url: https://community.simtropolis.com/files/file/26962-dex-esso-service-station/?do=download
