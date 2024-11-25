@@ -1,0 +1,27 @@
+group: sm2
+name: mobile-power-generator
+version: 2.0.0
+subfolder: 500-utilities
+info:
+  summary: Mobile Power Generator
+  description: |-
+    For all your sports events, outdoor entertainment and emergency needs.
+
+    Lot is 1x2 with no base texture. Plop it and dress it.
+
+    Power output = 1500 with little to no emissions.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31431-sm2-mobile-power-generator/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/12.jpg.7518895ed6e8f5ba490d274befe8b1f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/14.jpg.6442586457ff10b6dcc06b20587f89b7.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+assets:
+  - assetId: sm2-mobile-power-generator
+
+---
+assetId: sm2-mobile-power-generator
+version: "2.0.0"
+lastModified: "2018-08-23T03:55:06Z"
+url: https://community.simtropolis.com/files/file/31431-sm2-mobile-power-generator/?do=download
