@@ -1,0 +1,47 @@
+group: sm2
+name: fire-station-44
+version: "2.0.0"
+subfolder: ""
+info:
+  summary: Fire Station 44
+  description: |-
+    Fire station 44 is a fictional fire hall made to serve your maps. It can either be used for urban or non-urban settings.
+
+     - Plop cost: 6500
+     - Bulldoze cost: 350
+     - Power req: 15
+     - Water req: 9
+     - Coverage radius 592 meters
+     - Can dispatch up to 4 fire trucks
+     - Provides Provides jobs
+     - Monthly budget: cost 180
+
+    You will find it under the civic menu
+
+    Have fun
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34046-sm2-fire-station-44/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/fs1.jpg.eff4351caad9dd2438c5763132c50ef2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/fs2.jpg.cba6b300b929e734ceedb26ef185641e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/fs3.jpg.7ee9dff3ea1b4f2a12dc3c3779e14ee8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/fs4.jpg.e4119a13f7516e796420159062a09f3d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/fs5.jpg.68e84328446970625f66bcd1e42f6a5b.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:cypresses
+  - girafe:sparaxis
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-fire-station-44
+
+---
+assetId: sm2-fire-station-44
+version: "2.0.0"
+lastModified: "2021-03-24T05:08:39Z"
+url: https://community.simtropolis.com/files/file/34046-sm2-fire-station-44/?do=download
