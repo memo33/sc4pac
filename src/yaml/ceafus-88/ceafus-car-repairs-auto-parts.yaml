@@ -16,8 +16,10 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_05_2013/2cde5535f71e3348a99b8fc2143d34bf-new-city-oct-30--001369698986.png
     - https://www.simtropolis.com/objects/screens/monthly_05_2013/37a3249b2f06e3b19fe0dcb6f49462b6-new-city-nov-6--001369699004.png
+dependencies:
+  - ceafus-88:ceafus-car-repairs-auto-parts-model
 assets:
-  - assetId: ceafus-88-ceafus-car-repairsauto-parts
+  - assetId: ceafus-88-ceafus-car-repairs-auto-parts
     include:
       - .*\.SC4Lot$
 
@@ -36,12 +38,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_05_2013/2cde5535f71e3348a99b8fc2143d34bf-new-city-oct-30--001369698986.png
     - https://www.simtropolis.com/objects/screens/monthly_05_2013/37a3249b2f06e3b19fe0dcb6f49462b6-new-city-nov-6--001369699004.png
 assets:
-  - assetId: ceafus-88-ceafus-car-repairsauto-parts
+  - assetId: ceafus-88-ceafus-car-repairs-auto-parts
     exclude:
       - .*\.SC4Lot$
 
 ---
-assetId: ceafus-88-ceafus-car-repairsauto-parts
+assetId: ceafus-88-ceafus-car-repairs-auto-parts
 version: "1.0"
 lastModified: "2013-05-28T00:43:49Z"
 url: https://community.simtropolis.com/files/file/28747-sbt-ceafus-car-repairsauto-parts/?do=download
