@@ -1,0 +1,84 @@
+group: sm2
+name: tesla-power-storage-pack
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Tesla Power Storage Pack
+  description: |-
+    Tesla now provides a power storage solution for all your needs. The Powerpacks.
+
+    A Powerpack is a fully integrated, AC connected energy storage system with everything needed to connect to a building or utility network.  
+    It dramatically simplifies installation, integration and future support, offering system wide benefits that far outweigh those standalone batteries.
+
+    They are fully scalable therefore you can plop as many as needed.
+
+    They are a tad expensive to plop but worth every penny.
+
+    You will find them in the power menu.
+
+    There are 4 separate lots and here are the specs:
+
+    **SM2 Tesla Power Storage X Small**
+
+     - Lot size: 1x1
+     - Plop cost: 5000
+     - Bulldoze cost: 500
+     - Power req: 2
+     - Water req: 1
+     - Power produced 250
+     - Monthly maintenance 100
+     - No jobs
+
+    **SM2 Tesla Power Storage Small**
+
+     - Lot size: 2x1
+     - Plop cost: 7500
+     - Bulldoze cost: 750
+     - Power req: 4
+     - Water req: 2
+     - Power produced 500
+     - Monthly maintenance 125
+     - No jobs
+
+    **SM2 Tesla Power Storage Medium**
+
+     - Lot size: 4x1
+     - Plop cost: 15000
+     - Bulldoze cost: 1500
+     - Power req: 8
+     - Water req: 4
+     - Power produced 1000
+     - Monthly maintenance 150
+     - No jobs
+
+    **SM2 Tesla Power Storage Large**
+
+     - Lot size: 5x4
+     - Plop cost: 30000
+     - Bulldoze cost: 3000
+     - Power req: 16
+     - Water req: 8
+     - Power produced 4000
+     - Monthly maintenance 200
+     - Provides 25 jobs
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34129-sm2-tesla-power-storage-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/teslapack3.jpg.16e526d4aeadb741924c2b677f2da32c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/teslapack4.jpg.ec933a3dddc50764c10de88ba4a98483.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Tes2.jpg.6ba0d7c6a574126632dd926a0c746e0a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Tes1.jpg.31efd8e3c6afdaf4d45a88e5643b1d50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/teslapack1.jpg.ac8b14711764814f083768067f521158.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+assets:
+  - assetId: sm2-tesla-power-storage-pack
+
+---
+assetId: sm2-tesla-power-storage-pack
+version: "2.0.0"
+lastModified: "2021-03-24T04:49:57Z"
+url: https://community.simtropolis.com/files/file/34129-sm2-tesla-power-storage-pack/?do=download
