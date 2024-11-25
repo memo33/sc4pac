@@ -1,0 +1,53 @@
+group: sm2
+name: longstone-lighthouse
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Longstone Lighthouse
+  description: |-
+    Longstone Lighthouse is an active 19th century lighthouse located on Longstone Rock in the outer group of the Farne Islands off the Northumberland Coast, England.  
+    Completed in 1826, it was originally called the Outer Farne Lighthouse and complemented the earlier Inner Farne Lighthouse.
+
+    The lighthouse is best known for the 1838 wreck of the Forfarshire and the role of Grace Darling, the lighthouse keeper's daughter, in rescuing survivors.
+
+    There is also a rock base with custom LODs for best visual. It can be plopped in any scenario.
+
+     1. On deep water.
+     2. On shallow water ( You can see the rock base)
+     3. On land
+     4. In between
+     5. On different terrain gradients so that more or less base will show according to terrain elevation.
+
+    Tons of possibilities..
+
+    Stats
+
+     - Lot size: 1x2 overhanging
+     - Plop cost: 4000
+     - Bulldoze cost: 500
+     - Power req: 1
+     - Water req: 0
+     - Monthly maintenance: 10
+
+    You will find it under the seaport menu
+
+    This lot generates its own power for the night lights. You do not need to bring power to it.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34011-sm2-longstone-lighthouse/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fe7a22045289_watertest-Aug.jpg.827a4ecd76ca77dd59a8cd1f5b2a9936.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fe7a22180149_watertest-Aug2.jpg.72a86cae9773bf2b0344d9b0e07bbb5c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/lo1.jpg.763e787cc8a08ccabcc31e824babd4e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/lo2.jpg.81502b9bfd5796a6d8d9784b3753eb13.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/lo3.jpg.4715cb44d25c286b0b1e88e08ac806c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/lo4.jpg.55a0a65997f03ac08fdae52c23e208bc.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol6
+assets:
+  - assetId: sm2-longstone-lighthouse
+
+---
+assetId: sm2-longstone-lighthouse
+version: "2.0.0"
+lastModified: "2022-02-25T18:59:38Z"
+url: https://community.simtropolis.com/files/file/34011-sm2-longstone-lighthouse/?do=download
