@@ -1,0 +1,50 @@
+group: sm2
+name: garbage-transfer-station-22-dtr
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Garbage Transfer Station 22 DTR
+  description: |-
+    A realistic garbage transfer station where the local garbage is shipped to be burned for waste to energy purpose or for burial somewhere off the maps...
+
+    This is the DTR (Dual Track Rail) version.
+
+    Lot stats.
+
+     - Lot size: 6x3
+     - Plop cost: 9500
+     - Bulldoze cost: 1200
+     - Power req: 9
+     - Water req: 12
+     - Population served: 25000
+     - Percent reduction: 50%
+     - Monthly cost: 200
+
+    Provides 49 jobs
+
+    You will find this station under the garbage menu
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34575-sm2-garbage-transfer-station-22-dtr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/gar1.jpg.b67617d29e21f2180cef9b8377be71b8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/gar2.jpg.949e8565660d110b424c7a9a45b6fe00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/gar3.jpg.82fc434e9f3afb3ab13ce6bba46b2342.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/gar4.jpg.d08f8e099318a8089619d9b7b5f42adb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/gar5.jpg.6d9c912aa6d522503298e340d086f329.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+  - sm2:mega-prop-pack-vol6
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-garbage-transfer-station-22-dtr
+
+---
+assetId: sm2-garbage-transfer-station-22-dtr
+version: "2.0.0"
+lastModified: "2022-02-25T18:06:50Z"
+url: https://community.simtropolis.com/files/file/34575-sm2-garbage-transfer-station-22-dtr/?do=download
