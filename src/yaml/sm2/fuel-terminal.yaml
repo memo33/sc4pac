@@ -1,0 +1,50 @@
+group: sm2
+name: fuel-terminal
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Fuel Terminal
+  description: |-
+    Fuel terminals are an absolute necessity to ship and receive fuels in any developed nation.
+
+    Fuel is transported from refineries to terminals and then stored in tanks. From the tanks, fuel is then loaded onto trucks and in turn gets delivered to gas stations in every city.
+
+    This lot is also pretty hefty so it will take a fair chunk of real estate! In line with the game, it was made to also act as a freight station.
+
+    The lot is also fuel pipeline ready. There is a connection on a corner which will allow my future pipeline to connect to a set of upcoming fuel tank lots.
+
+     - Lot size: 17X11
+     - Freight capacity 65000
+     - Plop cost: 45000
+     - Bulldoze cost: 8000
+     - Power requirement: 95
+     - Water requirement: 30
+     - Monthly property taxes: 65
+     - Provides 680 IM jobs
+
+    As a Bonus it will allow passenger trains to cross the lot therefore you can plop it on the main line.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32507-sm2-fuel-terminal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ft1.jpg.7203d359ad4ca338a41bc94ec419da90.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ft2.jpg.9e67e792ecd48922615afa7a4acdde6b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ft3.jpg.02c45f6f525cb7ca9dfd04dcfee107b3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ft4.jpg.f549dba03c23c1ae581eae8ffa63fdae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ft5.jpg.c02e601161e92a83b80f4ac06b593051.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ft6.jpg.9197caa71ba277d8aaa995d7a23cf90c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ft7.jpg.7a0ad0bdc5e9ea4163967130f90d17a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ft8.jpg.15d3f43d0d75e559cf432245123113f5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ft9.jpg.93cedf9619a78bb5b297cd5113744fa9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ft10.jpg.37e5a941853d7fd72208f8277a87f273.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+assets:
+  - assetId: sm2-fuel-terminal
+
+---
+assetId: sm2-fuel-terminal
+version: "2.0"
+lastModified: "2019-03-15T17:57:32Z"
+url: https://community.simtropolis.com/files/file/32507-sm2-fuel-terminal/?do=download
