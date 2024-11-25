@@ -1,0 +1,48 @@
+group: sm2
+name: plaxil-8-mdf
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Plaxil 8 MDF
+  description: |-
+    Plaxil 8 MDF is a modern factory located in Italy that makes MDF (Medium Density Fibreboard)  
+
+    The lot includes a railside section that will connect to the rail network. Both freight and passenger trains will cross the lot with no issues. It also features 2 street stubs that will visually connect to the street network.
+
+    This is the plop version and the stats are as follows.
+
+     - Lot size: 5X10
+     - Plop cost: 55000
+     - Power req: 80
+     - Water req: 95
+     - Provides I-M 2790 medium wealth jobs
+     - Bulldoze cost: 5000
+     - Transit - capacity: 48000
+
+    You will find it in the Landmark menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34446-sm2-plaxil-8-mdf/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/ple1.jpg.a0a2c541575653961da650cdf0eb7bfe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/ple2.jpg.cea251ab7d3970154214cfba187c6eb4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/ple3.jpg.f7e09cc50f6b67bab18d2b2a5ce7c824.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/ple4.jpg.031ac105158f61325232dcdaf549e92f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/ple5.jpg.63b1e5c8fc54e9a3cdcb3b4fe0b7554f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/ple6.jpg.66edf265327b0df8c08d3675725162c8.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-plaxil-8-mdf
+
+---
+assetId: sm2-plaxil-8-mdf
+version: "1.0.0"
+lastModified: "2021-05-12T05:24:41Z"
+url: https://community.simtropolis.com/files/file/34446-sm2-plaxil-8-mdf/?do=download
