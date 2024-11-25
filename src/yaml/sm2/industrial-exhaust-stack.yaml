@@ -1,0 +1,37 @@
+group: sm2
+name: industrial-exhaust-stack
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Industrial Exhaust Stack
+  description: |-
+    A high tech looking smoke stack for your industrial maps.
+
+    Stats
+
+    Grow IHT$$$3\_1x2\_SM2 Industrial Exhaust Stack
+
+     - Lot size: 1x2
+     - Power req: 35
+     - Water req: 40
+     - Bulldoze cost: 1196
+
+    Provides 95 high tech, high wealth jobs
+
+    Will grow on high density industrial zoning.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/35020-sm2-industrial-exhaust-stack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/est1.jpg.b43f649ce577ec3e93e8dc14655633bc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/est2.jpg.6984ae6c8d883dd2719cbf42e0a50be7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/est3.jpg.73650dc237eda1cff410b5953f775116.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/est4.jpg.060897ae092732c93cf67d8942343172.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/est5.jpg.ca05db51a34a39be73e5a9038125612d.jpg
+assets:
+  - assetId: sm2-industrial-exhaust-stack
+
+---
+assetId: sm2-industrial-exhaust-stack
+version: "1.0.0"
+lastModified: "2022-03-24T03:02:15Z"
+url: https://community.simtropolis.com/files/file/35020-sm2-industrial-exhaust-stack/?do=download
