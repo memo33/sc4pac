@@ -1,0 +1,53 @@
+group: sm2
+name: train-depot-south
+version: "2.0.0"
+subfolder: 700-transit
+info:
+  summary: Train Depot South
+  description: |-
+    Yet another train repair yard for your maps.
+
+    This one even repairs passenger coach railcars and provides jobs.
+
+    It allows both passenger and freight trains to traverse it with no issues. Run a rail through it and also connect the street stub to your street network.
+
+    This lot is not a freight yard.
+
+    You will find it under the rail menu.
+
+    Lot stats
+
+     - Lot size: 12x6
+     - Plop cost: 20000
+     - Bulldoze cost: 1000
+     - Power req: 20
+     - Water req: 10
+     - Provides Provides jobs
+
+    Transit switch capacity 47500
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34137-sm2-train-depot-south/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/TDs10.jpg.eefb3fc9145fd52ba347048ec9ed058e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/tds11.jpg.ef594d66a0b0b8d1f2013b5b313d4d96.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/602972621e570_tds12copy.jpg.2d9b49667ef9789cf1a1bd542032043a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/tds13.jpg.f2c3e1247ac7eb037ddfabfd6152fd25.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/tds14.jpg.2b00412c172132da0f6dd7051682a3d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/tds16.jpg.e134450d7e8de42300fdbf987cf27d16.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:poplars
+assets:
+  - assetId: sm2-train-depot-south
+
+---
+assetId: sm2-train-depot-south
+version: "2.0.0"
+lastModified: "2021-03-24T04:48:10Z"
+url: https://community.simtropolis.com/files/file/34137-sm2-train-depot-south/?do=download
