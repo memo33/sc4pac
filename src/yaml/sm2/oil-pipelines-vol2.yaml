@@ -1,0 +1,40 @@
+group: sm2
+name: oil-pipelines-vol2
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Oil Pipelines Vol2
+  description: |-
+    Another set of petroleum pipes. This set sports an industrial concrete base and the addition of a few more pieces.
+
+    Straight quad, dual, curved 90's, bridges, ends, crossovers, T's. Everything you need to connect my oil tanks in order to make vast oil storage fields. There are even 2 crossover pieces for my old Aqueduct set.
+
+    26 pieces in total.
+
+     - Cost to plop 20
+     - Bulldoze cost: 35
+     - No power or water requirements.
+     - Monthly maintenance: 0
+
+    You will find them under the power menu (less cluttered)
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33344-sm2-oil-pipelines-vol2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5Y2ioA7.jpg.23d6d1c01ae84933c1edbcb0251279af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5dfba34537660_bridgefill1.jpg.4cb5f10949a415cbe85c56d0ae29be20.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5dfba346df895_bridgefill2.jpg.b2d13b24ee3d410699d6f5a69e3d77a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/bridge1.jpg.5dc26ebffbea1122bb652d57c5a86f2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/bridge2.jpg.5514e021196439e064a286fddb90c5cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5dfba34b2d263_oilpipescopy.jpg.c5dc9a1e3da4b1ad7f54d65ff449ab11.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol6
+assets:
+  - assetId: sm2-oil-pipelines-vol2
+
+---
+assetId: sm2-oil-pipelines-vol2
+version: "2.0.0"
+lastModified: "2022-02-25T19:30:36Z"
+url: https://community.simtropolis.com/files/file/33344-sm2-oil-pipelines-vol2/?do=download
