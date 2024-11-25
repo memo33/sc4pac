@@ -28,7 +28,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/hd22.jpg.df04da7a260ee71a5df383d75c9445a6.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/hd23.jpg.65af0218726bf45eb4a785114c3ad6e9.jpg
 dependencies:
-  - sm2:essentials-v4
+  - sm2:essentials
   - sm2:mega-prop-pack-vol1
   - sm2:mega-prop-pack-vol6
 assets:
