@@ -1,0 +1,41 @@
+group: sm2
+name: danforth-train-station
+version: "2.0.0"
+subfolder: 700-transit
+info:
+  summary: Danforth Train Station
+  description: |-
+    A simple 1x6 Victorian era station modeled after an existing one in Europe.
+
+    Plop directly on the tracks or run a DTR line through it. Freight trains are not allowed to go through it therefore plan accordingly.
+
+    This station also acts as a bus station thus there is no need to plop a bus station near it.
+
+    Fully compatible with Maxis vanilla rail.
+
+     - Plop cost: 7500
+     - Bulldoze cost: 500
+     - Power req: 10
+     - Water req: 5
+     - Capacity: 56000
+
+    You will find it under the rail menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34000-sm2-danforth-train-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/dan1.jpg.632970dd9e659043b656c3f645e8e908.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/dan2.jpg.1cd44c2eda2e570454bb2d34f08bcc23.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/dan3.jpg.16e35985dd5c3a65483f2053a41d4456.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/dan4.jpg.b1ce5af18394574e9b9b9d821b12333c.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol5
+assets:
+  - assetId: sm2-danforth-train-station
+
+---
+assetId: sm2-danforth-train-station
+version: "2.0.0"
+lastModified: "2021-03-24T05:28:29Z"
+url: https://community.simtropolis.com/files/file/34000-sm2-danforth-train-station/?do=download
