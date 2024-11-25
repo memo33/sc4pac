@@ -1,0 +1,48 @@
+group: sm2
+name: tire-shredding-co
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Tire Shredding Co
+  description: |-
+    Tire recycling is a huge industry in almost all nations world wide. A necessary business or we would drown in used tire piles.
+
+    I created this lot to be a recycling center and thus reduce the garbage output of your maps and at the same time it provides 40 jobs for your sims.
+
+     - Lot size: 7x5
+     - Power req: 35
+     - Water req: 12
+     - Plop cost: 12000
+     - Bulldoze cost: 400
+     - Recycling center population served: 25,000
+     - Capacity: 25,000 tons per month
+     - Recycling center percent reduction: 50%
+     - Monthly budget: 200
+     - Provides 40 medium wealth jobs
+
+    You will find it under the garbage menu
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34559-sm2-tire-shredding-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/ts6.jpg.6e14c3e7bb81eb2fe1b232cc606bd40d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/ts7.jpg.311c0cdb4e1dce21ecc92634f04686c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/ts8.jpg.8461e81839b06484b63d4272935a8e29.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/ts9.jpg.55fa60907cf068130119b75882aaf1fc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/ts10.jpg.0ebacdcfef537ea2083b638d057decca.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/ts11.jpg.2216ab54336580ad66299b7400dc80a8.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+  - sm2:mega-prop-pack-vol6
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-tire-shredding-co
+
+---
+assetId: sm2-tire-shredding-co
+version: "2.0.0"
+lastModified: "2022-02-25T18:14:03Z"
+url: https://community.simtropolis.com/files/file/34559-sm2-tire-shredding-co/?do=download
