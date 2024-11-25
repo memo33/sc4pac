@@ -1,0 +1,54 @@
+group: sm2
+name: deepwater-oil-terminal
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Deepwater Oil Terminal
+  description: |-
+    A deep water oil terminal is a floating platform with a pumping station and all the equipment needed to fillup or empty an oil tanker ship.
+
+    The idea behind it is to avoid an ecological disaster too close to shore in case of an accident.
+
+    They can be 20-30 miles away from the coast in some cases. Oil is pumped from shore to the platform through the usage of large pipes laid on the bottom of the sea.
+
+    This lot is 1x1 overhanging.
+
+    Once plopped you can then plop ships near it to simulate the scenario. Placement of a ship near it can be tricky in some cases due to the different sea levels.
+
+    You may need to plop the ship a few times before perfect placement.
+
+    On the other hand you could plop the ship first and then try to plop this platform.  
+    I have set the plop cost of the platform at a mere 100 so as not to drain the walled due to the need to plop it several times to get it right.
+
+    It also generates its own power for the night light thus there is no need to bring power to it  
+    You will find it in the seaport menu.
+
+    Stats
+
+     - Lot size: 1x1 overhanging 13 tiles (6 tiles in opposite directions from the middle)
+     - Plop cost: 100
+     - Power req: 1
+     - Water req: 0
+     - Power generated: 100
+     - Monthly maintenance: 25
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34100-sm2-deepwater-oil-terminal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/dwt1.jpg.eb21bc9c323c6a5eba2e5b2626364f32.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/dwt2.jpg.0d7dc2f89ab97f5d3ae3e21aaecbd436.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/dwt3.jpg.15ec18a1f56e5f7ad2098f8830d41f17.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/dwo2.jpg.a91845cb23d567f38c65ed11f61043a7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/dwo3.jpg.630559bb8eeef1c82918edaeca3ea9d4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/dwo5.jpg.c8315c30d89e4ec48c825994fdff4ce0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/dwo6.jpg.4940835f189ca1c8215edff2a037304c.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol5
+  - sm2:supertanker-corina
+assets:
+  - assetId: sm2-deepwater-oil-terminal
+
+---
+assetId: sm2-deepwater-oil-terminal
+version: "2.0.0"
+lastModified: "2021-03-24T04:53:18Z"
+url: https://community.simtropolis.com/files/file/34100-sm2-deepwater-oil-terminal/?do=download
