@@ -1,0 +1,42 @@
+group: sm2
+name: supertanker-corina
+version: "2.0.0"
+subfolder: 700-transit
+info:
+  summary: Supertanker Corina
+  description: |-
+    A detailed crude oil supertanker ship in full HD! Comes with nightlights so it shines even at night.
+
+    Plops on game water and it will also plop on land if you use canals.
+
+    The lot footprint is only 1 tile and its designed so that you can use MMP under the model if you wish.
+
+    Stats
+
+     - Lot size: 1x1
+     - Plop cost: 7500
+     - Bulldoze cost: 500
+     - Monthly maintenance 10
+
+    Generates its own power for the nightlights!
+
+    You will find it in the seaport menu menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33979-sm2-supertanker-corina/](https://community.simtropolis.com/files/file/33979-sm2-supertanker-corina/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Corina10.jpg.d28e60d9559c1b9531e994f22479ea6b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fc445455ef7e_Corina1.jpg.3960843a1656903fd082a3a2304a92d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Corina7.jpg.cff1cc74bc7b9819b8da5710464bc27b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Corina4.jpg.94abec1a458bfe4192aac9fd61196478.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Corina8.jpg.b4cb042fdde828eb83e64484a670b934.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Corina9.jpg.c54d248f91f238eca63265de96880235.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol5
+assets:
+  - assetId: sm2-supertanker-corina
+
+---
+assetId: sm2-supertanker-corina
+version: "2.0.0"
+lastModified: "2021-03-24T05:33:20Z"
+url: https://community.simtropolis.com/files/file/33979-sm2-supertanker-corina/](https://community.simtropolis.com/files/file/33979-sm2-supertanker-corina/?do=download
