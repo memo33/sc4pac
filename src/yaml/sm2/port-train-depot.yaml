@@ -1,0 +1,44 @@
+group: sm2
+name: port-train-depot
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Port Train Depot
+  description: |-
+    This is a train depot made to fit in a seaport environment, however it can be plopped anywhere a smaller train depot is needed if you wish. 
+    It's designed with both DTR and STR rail connections for a better visual impact.
+
+     - Lot size 9x4
+     - Plop cost: 18000
+     - Bulldoze cost: 1200
+     - Power req: 20
+     - Water req: 10
+
+    You will find it under the heavy rail menu.
+
+    This lot is not a freight yard.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34228-sm2-port-train-depot/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/de1.jpg.a014a1cbdb8f19b100ba0c5fe87f9bbd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/de2.jpg.89ce7ae25c8462ab2de7985743f57ea0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/de3.jpg.52c014f45b601f61e2cba79c08e044c7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/de4.jpg.6a5467ea77ef62305056508d1ce0f822.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/de5.jpg.9889a7d9c499f774b5c8ac6b002474ac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/de6.jpg.b9b91c47634a13af70e3803a3c6bb6e7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/de7.jpg.fa145626c70df54e8ced02d7e948c7a5.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - '"[https://community.simtropolis.com/files/file/31021-sm2-rrw-nsb-tex/](https://community.simtropolis.com/files/file/31021-sm2-rrw-nsb-tex/)"'
+assets:
+  - assetId: sm2-port-train-depot
+
+---
+assetId: sm2-port-train-depot
+version: "1.0.0"
+lastModified: "2021-03-06T06:10:46Z"
+url: https://community.simtropolis.com/files/file/34228-sm2-port-train-depot/?do=download
