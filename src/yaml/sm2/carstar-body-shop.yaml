@@ -1,0 +1,44 @@
+group: sm2
+name: carstar-body-shop
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Carstar Body Shop
+  description: |-
+    A run of the mill body shop where your sims go to fix their  
+    vehicles in case of an accident.
+
+    Commercial C$$ growable
+
+    Stats
+
+     - Lot size: 3x4
+     - Stage: 2
+     - Bulldoze cost: 201
+     - Power req: 5
+     - Water req: 8
+     - Provides Provides jobs
+
+    Will grow in any tileset.
+
+    Lots of props family used so every time one pops you see different vehicles.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34294-sm2-carstar-body-shop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/cs1.jpg.fd44ff3b8d84a770339b87a746e21604.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/cs2.jpg.c772cebe1d0e1b37c527d89f0a48af59.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/cs3.jpg.781d028ac789acac8ce0fd158ef27f0b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/cs4.jpg.b72e90ef82eefc6f9bedd7545ee35e0b.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-carstar-body-shop
+
+---
+assetId: sm2-carstar-body-shop
+version: "1.0.0"
+lastModified: "2021-03-18T02:06:57Z"
+url: https://community.simtropolis.com/files/file/34294-sm2-carstar-body-shop/?do=download
