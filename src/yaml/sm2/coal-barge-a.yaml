@@ -1,0 +1,41 @@
+group: sm2
+name: coal-barge-a
+version: "1.0.0"
+subfolder: ""
+info:
+  summary: Coal Barge A
+  description: |-
+    Just an rusty old self propelled coal barge doing its runs.
+
+    Static prop, completely neutral.
+
+    Can be plopped on water or land with ploppable water.
+
+    Stats
+
+     - Lot size: 1x1 overhanging
+     - Plop cost: 1000
+     - Bulldoze cost: 150
+     - No power or water req
+     - Monthly maintenance: 10
+
+    You will find it under the Seaport menu
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33305-sm2-coal-barge-a/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/coal2.jpg.58ea3eb993d554155b6dd2f3850e0e80.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/coal3.jpg.92df9e7c3d1e2112ad566e6e53719e1a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/coal4.jpg.e0406290c15bae104cee2ba863c7e986.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/coal5.jpg.b56d21228218d8b6bf6593f33755380e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/coal6.jpg.9231a43258002ce9077994d153387cab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/coal7.jpg.6e5a8812af1ef316348d516b11ce06ba.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol4
+assets:
+  - assetId: sm2-coal-barge-a
+
+---
+assetId: sm2-coal-barge-a
+version: "1.0.0"
+lastModified: "2019-12-02T04:54:04Z"
+url: https://community.simtropolis.com/files/file/33305-sm2-coal-barge-a/?do=download
