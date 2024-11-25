@@ -33,7 +33,7 @@ dependencies:
   - sm2:mega-prop-pack-vol2
   - sm2:mega-prop-pack-vol3
   - sm2:mega-prop-pack-vol4
-  - '"[https://community.simtropolis.com/files/file/31021-sm2-rrw-nsb-tex/](https://community.simtropolis.com/files/file/31021-sm2-rrw-nsb-tex/)"'
+  - sm2:rrw-nsb-tex
 assets:
   - assetId: sm2-port-train-depot
 
