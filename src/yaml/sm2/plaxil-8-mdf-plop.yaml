@@ -1,5 +1,5 @@
 group: sm2
-name: plaxil-8-mdf
+name: plaxil-8-mdf-plop
 version: "1.0.0"
 subfolder: 400-industrial
 info:
@@ -39,10 +39,10 @@ dependencies:
   - bsc:vip-girafe-carpack-vol01-vol02
   - supershk:mega-parking-textures
 assets:
-  - assetId: sm2-plaxil-8-mdf
+  - assetId: sm2-plaxil-8-mdf-plop
 
 ---
-assetId: sm2-plaxil-8-mdf
+assetId: sm2-plaxil-8-mdf-plop
 version: "1.0.0"
 lastModified: "2021-05-12T05:24:41Z"
 url: https://community.simtropolis.com/files/file/34446-sm2-plaxil-8-mdf/?do=download
