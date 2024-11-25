@@ -1,0 +1,40 @@
+group: sm2
+name: cape-cod-lighthouse
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Cape Cod Lighthouse
+  description: |-
+    A fictitious lighthouse similar to the ones that dot the Cape Cod coast of the coast of Massachusetts USA.
+
+    Lots Size 1x1
+
+     - Plop cost: 2500
+     - Bulldoze cost: 100
+     - Power req: 10
+     - Water req: 0
+     - Monthly maintenance: 100
+
+    Look under the Landmark menu.
+
+    It provides a bit of landmark and park effect.
+
+    It does not required road access.
+
+    No base texture, just use MMP and create your own scenario.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33387-sm2-cape-cod-lighthouse/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/cc1.jpg.1c09b296c973d2bf08aee591ccc5e038.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/cc2.jpg.7c26f0dcf9f3b4a00276f831771b10e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/cc3.jpg.c507c3ffc7e5763d08cf697686bb7d1a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/cc4.jpg.b38039fffaa7134119694c0e06e5cc85.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/cc5.jpg.59c12c4fa1b944d5cd8c0c4d67c013fe.jpg
+assets:
+  - assetId: sm2-cape-cod-lighthouse
+
+---
+assetId: sm2-cape-cod-lighthouse
+version: "1.0.0"
+lastModified: "2020-01-14T04:14:57Z"
+url: https://community.simtropolis.com/files/file/33387-sm2-cape-cod-lighthouse/?do=download
