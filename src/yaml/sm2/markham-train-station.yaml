@@ -1,0 +1,44 @@
+group: sm2
+name: markham-train-station
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Markham Train Station
+  description: |-
+    Loosely based on a real station in Italy, this is a dual DTR station with a high passenger capacity.
+
+    Look under the heavy rail menu. This station will not allow freight trains through, plan accordingly.
+
+    Stats
+
+     - Lot size: 9x5
+     - Plop cost: 35000
+     - Bulldoze cost: 1500
+     - Power req: 25
+     - Water req: 15
+     - Passenger capacity: 90000
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33194-sm2-markham-train-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/mar1.jpg.2338202ea45a8597aa604870a3cb6850.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/mar2.jpg.22fd18fea66d3a855802d02085d1de83.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/mar3.jpg.db54770fc11544d612f91e0aec0a35db.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/mar4.jpg.52e53c30fbdb9a33b38fd6670f867f7d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/mar5.jpg.51c0313885078de475a3a31a98cbcf20.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - vip:delecto-ploppable-people
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-markham-train-station
+
+---
+assetId: sm2-markham-train-station
+version: "1.0.0"
+lastModified: "2019-12-02T05:14:35Z"
+url: https://community.simtropolis.com/files/file/33194-sm2-markham-train-station/?do=download
