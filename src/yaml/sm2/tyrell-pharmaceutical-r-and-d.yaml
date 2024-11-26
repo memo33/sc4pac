@@ -1,0 +1,46 @@
+group: sm2
+name: tyrell-pharmaceutical-r-and-d
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Tyrell Pharmaceutical R and D
+  description: |-
+    A fictional pharma company that operates a Research and Development division. This is such facility.
+
+    I modded this lot to be a medium wealth CO$$ providing 475 jobs.
+
+    The 2 road stubs on the parking lot side are transit enabled and will connect to your road network for a seamless visual effect.
+
+     - Lot size: 6x6
+     - Power req: 52
+     - Water req: 45
+     - Plop cost: 32500
+     - Bulldoze cost: 2200
+     - Provides 475 CO$$ jobs
+
+    You will find it in the Landmarks menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32934-sm2-tyrell-pharmaceutical-r-and-d/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/TR1.jpg.a3904d00e6bf00eb49d05f2fa3c6a5de.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/TR2.jpg.8063a8266af4a676ee12e69306673c8e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/TR3.jpg.56d63be2e70366a013c5bbe7d18d6f99.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/TR4.jpg.a08b56e02c09f9af628b105f938e5775.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/TR5.jpg.0d2bc2030f99c70830ef43b5cf67d39d.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:cypresses
+  - girafe:chestnuts
+assets:
+  - assetId: sm2-tyrell-pharmaceutical-r-and-d
+
+---
+assetId: sm2-tyrell-pharmaceutical-r-and-d
+version: "1.0"
+lastModified: "2019-12-02T06:11:42Z"
+url: https://community.simtropolis.com/files/file/32934-sm2-tyrell-pharmaceutical-r-and-d/?do=download
