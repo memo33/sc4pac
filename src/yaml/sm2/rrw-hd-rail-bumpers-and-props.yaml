@@ -16,6 +16,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_03/rrwstubs1.jpg.439b1fb12aa22bbbc9aefb0fd949d840.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c9d8958b26c1_rrwstubsNAM.jpg.1a5a838179ba905604b0acd89b4aa395.jpg
   warning: This mod will only work if you have NAM installed with the RRW option.
+  conflicts: This mod is incompatible with `pkg=sm2:rrw-hd-rail-bumpers`
 
 dependencies:
   - sm2:essentials
