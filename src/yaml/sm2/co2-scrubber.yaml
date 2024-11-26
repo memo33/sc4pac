@@ -1,0 +1,39 @@
+group: sm2
+name: co2-scrubber
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: CO2 Scrubber
+  description: |-
+    Too much pollution? No worries, plop 1 or 2 of these lots and watch the pollution disappear right before you eyes.
+
+    This machine actually exists, it sucks CO2 directly from the air and it works! Imagine if we could install a few thousands around the world.  
+    This technology may just be what we need in order to clean the house.
+
+     - Lot size: 4X1
+     - Plop cost: 8500
+     - Bulldoze cost: 150
+     - Power req: 50
+     - water req: 64
+     - Scrubs the air clean up to 100 tiles in every direction.
+     - Provides 10 IM jobs
+
+    You will find it under the garbage Menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33221-sm2-co2-scrubber/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/co21.jpg.f184a9c4a7dcf9330b5e84e05469ad91.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/co22.jpg.727b70f28f1dba8e2f314bdc19110420.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/co23.jpg.f25b93a939b1f756401c47af98e37eb3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/co25.jpg.9ce63782dccdbd63569d7c77dad522e1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/co26.jpg.b142cd14d0bb0a713b7d6a647b287cc7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/co27.jpg.f49d2a42f3cb3d7cf22944a45b69d509.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/co28.jpg.09ee4625c359d1baa442958a01bad36b.jpg
+assets:
+  - assetId: sm2-co2-scrubber
+
+---
+assetId: sm2-co2-scrubber
+version: "1.0.0"
+lastModified: "2019-10-12T05:06:08Z"
+url: https://community.simtropolis.com/files/file/33221-sm2-co2-scrubber/?do=download
