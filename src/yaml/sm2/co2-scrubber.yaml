@@ -1,7 +1,7 @@
 group: sm2
 name: co2-scrubber
 version: "1.0.0"
-subfolder: 400-industrial
+subfolder: 500-utilities
 info:
   summary: CO2 Scrubber
   description: |-
