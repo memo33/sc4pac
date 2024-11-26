@@ -18,6 +18,12 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/RDP_1.jpg
 assets:
   - assetId: mgb204-rail-depot-pack-rdp
+    # IMPORTANT! For some reason the rail depot pack contains two dlls when 
+    # extracted: System.dll and nsDialogs.dll. Those are probably related to the 
+    # installer used, but absolutely not necessary for SimCity 4 and they even 
+    # break sc4pac! Hence we only explicitly include the .dat files/
+    include:
+      - .*\.dat$
 
 ---
 assetId: mgb204-rail-depot-pack-rdp
