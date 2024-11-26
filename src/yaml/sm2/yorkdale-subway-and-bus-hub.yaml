@@ -1,0 +1,29 @@
+group: sm2
+name: yorkdale-subway-and-bus-hub
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Yorkdale Subway and Bus Hub
+  description: |-
+    A fictional avenue roundabout Subway and Bus station. Modern yet classic with its aged copper/bronze roof.
+
+     - Lot size: 2x2 (ave roundabout)
+     - Capacity: 65000
+     - Plop cost: 35000
+     - Power req: 20
+     - Water req: 5
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32752-sm2-yorkdale-subway-and-bus-hub/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/n8.jpg.5f5651f8bead68536618a7371cdcd50a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/n3.jpg.8410de5846a19c497c58b466175a4397.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/n2.jpg.2565f8f3b21fd6bab74688802d5b3682.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/N1.jpg.71e4f5bac6e69da4121570260fd033db.jpg
+assets:
+  - assetId: sm2-yorkdale-subway-and-bus-hub
+
+---
+assetId: sm2-yorkdale-subway-and-bus-hub
+version: "1.0"
+lastModified: "2019-02-16T17:47:44Z"
+url: https://community.simtropolis.com/files/file/32752-sm2-yorkdale-subway-and-bus-hub/?do=download
