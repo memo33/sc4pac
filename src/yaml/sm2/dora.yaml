@@ -1,0 +1,41 @@
+group: sm2
+name: dora
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Dora
+  description: |-
+    Sister to Gustav, the most powerful mobile cannons built during WWII.
+
+    These beasts where so heavy that they had to build a dual rail line with a super reinforced base just to move them a few miles. They no longer exist because they were destroyed at the end of the conflict.
+
+    This lot is merely a military display and the only thing it will fire is its keeper for not cleaning the site properly !
+
+     - Lot size: 4X3
+     - Cost to plop: 10000
+     - Residential cap relief 6000 across all 3 levels.
+     - Needs a bit of power and water to function.
+
+    You will find it in the park menu.
+
+    Lest we forget!
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32589-sm2-dora/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Dora1.jpg.c4cd919b9c1222ecf28839b73da31228.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Dora2.jpg.70e19b8cc1b5354a17db6ca7cd9694ed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Dora3.jpg.adcf9f2865f0e99025ef55789330a2d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/Dora4.jpg.cc38e9780cffdb6f84d11563be893e6a.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-dora
+
+---
+assetId: sm2-dora
+version: "1.0"
+lastModified: "2018-11-05T04:48:30Z"
+url: https://community.simtropolis.com/files/file/32589-sm2-dora/?do=download
