@@ -1,7 +1,7 @@
 group: sm2
 name: small-town-water-tower
 version: "2.0.0"
-subfolder: ""
+subfolder: 500-utilities
 info:
   summary: Small Town Water Tower
   description: |-
