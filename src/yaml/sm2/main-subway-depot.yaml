@@ -1,0 +1,50 @@
+group: sm2
+name: main-subway-depot
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Main Subway Depot
+  description: |-
+    This lot does not function as a subway station but it does provide jobs.
+
+    There are 3 DTR and 1 STR connection. 1 DTR and the single STR connect visually only but the east DTR line will allow passenger trains to cross it.
+
+    It is recommended that you use MGB204 DTR and STR subway to train and place them at the rail connection points in order to have a seamless subway to train visual connection.
+
+    You will find it under the rail menu.
+
+     - Lot size: 18X15
+     - Plop cost: 65000
+     - Bulldoze cost: 15000
+     - Power req: 150
+     - Water req: 65
+     - Monthly fee: 80
+     - Provides 225 IM jobs
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32681-sm2-main-subway-depot/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/sub2.jpg.01613c3dfbe74d0844046d918e3cbc27.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/sub7.jpg.afd52f01ab46889f1a0026929a45e260.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/sub11a.jpg.696b39cc30948ca65951a25e4904bb7c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/sub12.jpg.a67b2837b8d9f42c0d56b9c34414c0c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/sub13.jpg.31080bd5a52db5df9cde6cabe756caa5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/sub14.jpg.8fa811b599a1e6a8b3cdad14f88fb023.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/sub15.jpg.0f4bbd92be39b78472a75cee37e701b9.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:common-spruces
+  - girafe:bushes
+  - girafe:poplars
+  - girafe:cattails
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-main-subway-depot
+
+---
+assetId: sm2-main-subway-depot
+version: "1.0"
+lastModified: "2018-12-22T04:57:20Z"
+url: https://community.simtropolis.com/files/file/32681-sm2-main-subway-depot/?do=download
