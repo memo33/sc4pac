@@ -1,6 +1,6 @@
 group: sm2
 name: mobile-power-generator
-version: 2.0.0
+version: "2.0.0"
 subfolder: 500-utilities
 info:
   summary: Mobile Power Generator
