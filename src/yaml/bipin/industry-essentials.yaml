@@ -1,0 +1,30 @@
+group: bipin
+name: industry-essentials-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Industry Essentials Resources
+  author: Bipin
+  website: https://community.simtropolis.com/files/file/29145-industry-essentials/
+  images:
+    - http://c714091.r91.cf2.rackcdn.com/8afcd25076777603a9349453477b25ef08d4fe99e6.png
+    - http://c714091.r91.cf2.rackcdn.com/8afcd2507613b0a50d7e573145d5a51efcc8e79184.png
+    - http://farm3.staticflickr.com/2892/10168195645_b576cff0cc_o.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/f1cf534fb042094a57f814e7cd9a21fb-industry_essntials_splash.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_03/bipin_indesslogo.jpg.809fdd4875f00239e216d2f16af21ad7.jpg
+assets:
+  - assetId: bipin-industry-essentials
+    include:
+      - .*\.SC4Desc$
+      - .*\.SC4Model$
+      - .*\.dat$
+
+# The pack also contains lots, but those require more dependencies, so we don't 
+# do this for now. It's not needed for SM2's content, but feel free to add the 
+# lots as well.
+
+---
+assetId: bipin-industry-essentials
+version: "1.0"
+lastModified: "2017-03-12T05:09:18Z"
+url: https://community.simtropolis.com/files/file/29145-industry-essentials/?do=download
