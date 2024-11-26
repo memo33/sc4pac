@@ -1,0 +1,32 @@
+group: sm2
+name: water-treatment-plant
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Water Treatment Plant
+  description: |-
+    Water treatment plants are essentially in every civilized country in the world.
+
+    They are used mainly to clean up storm drain and sewage water so that it can be put back in lakes without the harmful bacteria and debris it carries.
+
+    This 8x4 lot can replace the old Maxis one. Better stats and of course models. In it you can see the Clarifiers tanks at different stages of fill. It also includes a Diffuse Water Aerator used to eliminate the heavier sediments before going in to the clarifiers tanks.
+
+    It cleans up to 100,000m3 of water per month on a radius of 100 game tiles and it needs power to run.
+
+    For those tougher farm water pollution spots you may need to plop a couple of them.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32188-sm2-water-treatment-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/WT20.jpg.209145ecbd373936b2c9f7f699f198fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/WT21.jpg.956cb2a141314299092fea746208dd2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/WT23.jpg.d0d2e1b3c00441928884780aa0ce57ff.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+assets:
+  - assetId: sm2-water-treatment-plant
+
+---
+assetId: sm2-water-treatment-plant
+version: "2.0.0"
+lastModified: "2018-08-23T04:11:03Z"
+url: https://community.simtropolis.com/files/file/32188-sm2-water-treatment-plant/?do=download
