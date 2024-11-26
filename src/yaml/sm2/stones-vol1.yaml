@@ -1,0 +1,33 @@
+group: sm2
+name: stones-vol1
+version: "2.0.0"
+subfolder: 180-flora
+info:
+  summary: Stones Vol1
+  description: |-
+    This package includes a set of 10 Rock MMP's to liven up your rural scenes.
+
+    This pack comprises of 3 different color of "Muro Secco", its a type of "dry wall"  made of local stones and are prevalent in some European countries such as Italy, France, Spain etc. The country side is dotted with them.  
+    Used as a type of fence to mark property boundaries and to hold livestock within while out to pasture.
+
+    There are also 4 different color slate stone pathways, also seen in those countries to go with the ensemble.
+
+    And finally there are 3 different sized and colored bedrocks.
+
+    They are slope friendly and can be used under water if you so wish.
+
+    You will find them in your Mayor menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31456-sm2-stones-vol1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/dw1.jpg.c9fba40cffaefdcde909e684eda6f33c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/dw2.jpg.4894531d7c25ae3b19e8014a8de62d6f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/dw3.jpg.0e65a322f5454b5f2535f09dc021bab8.jpg
+assets:
+  - assetId: sm2-stones-vol1
+
+---
+assetId: sm2-stones-vol1
+version: "2.0.0"
+lastModified: "2018-08-23T04:22:16Z"
+url: https://community.simtropolis.com/files/file/31456-sm2-stones-vol1/?do=download
