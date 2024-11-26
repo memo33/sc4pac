@@ -1,0 +1,29 @@
+group: sm2
+name: hv-transformer
+version: "2.0"
+subfolder: 500-utilities
+info:
+  summary: HV Transformer
+  description: |-
+    A nondescript 1x1 power lot designed to blend in any urban and non urban setting just like real life ones.
+
+     - Lot size: 1x1
+     - Power output: 7500
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32790-sm2-hv-transformer/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/hv1.jpg.0a23dca3909a3af4c2f4056439f19778.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/hv2.jpg.9a6e9bb11c339169b3a1058e5d66cda1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/hv3.jpg.9b0df013658a4fb68db3ade9c24ce7f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/hv4.jpg.8b8ee116e86e6baa1be16ce4e7d7392d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/hv5.jpg.925fdc67cf9b18692dfa72b6611b27ce.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol6
+assets:
+  - assetId: sm2-hv-transformer
+
+---
+assetId: sm2-hv-transformer
+version: "2.0"
+lastModified: "2022-02-25T19:39:44Z"
+url: https://community.simtropolis.com/files/file/32790-sm2-hv-transformer/?do=download
