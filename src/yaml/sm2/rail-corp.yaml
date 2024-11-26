@@ -1,0 +1,52 @@
+group: sm2
+name: rail-corp
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Rail Corp
+  description: |-
+    A mid rise office building, home to SM2 Rail Corp Headquarters.
+
+    It comes in 2 versions: 2X2 Grow and 2x4 plop.
+
+    Both provide 467 CO$$ jobs.
+
+    Plop version.
+
+     - Lot size: 2X4
+     - Plop cost: 25000
+     - Bulldoze cost: 682
+     - Power req: 10
+     - Water req: 103
+
+    You will find the plop version under the landmark menu.
+
+    Grow version
+
+     - Lot size: 2X2
+     - 467 CO$$
+
+    Rest, same as above
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32798-sm2-rail-corp/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/sc1.jpg.823964238555bc2c4fedc9a7eff06991.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/sc2.jpg.1552180b35459252663c745488e317db.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/sc3.jpg.5206d313c7996b999a35094e3bb40223.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/sc4.jpg.f95ce066776f694be21b2429d5fd06a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/sc5.jpg.513862177bc507819c7c095413d99a67.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/sc6.jpg.77a62862809f16ff90d2ac330f83ba7a.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol3
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:cypresses
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-rail-corp
+
+---
+assetId: sm2-rail-corp
+version: "1.0"
+lastModified: "2019-03-17T05:47:24Z"
+url: https://community.simtropolis.com/files/file/32798-sm2-rail-corp/?do=download
