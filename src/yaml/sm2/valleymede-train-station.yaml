@@ -1,0 +1,40 @@
+# TODO: part 2 is a mac fix. Verify how this works
+group: sm2
+name: valleymede-train-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Valleymede Train Station
+  description: |-
+    6X1 proximity lot, works on both RRW and Maxis rail networks.
+
+     - Capacity: 35000
+
+    Needs water and power to function.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32479-sm2-valleymede-train-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/tt5.jpg.54d39a090d488da93db1d79e3951341a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/tt4.jpg.e41838eae019dbf612524bea3b4a3e3f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/tt3.jpg.c0b637f89964e4e7bb4871980a0b2148.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/tt2.jpg.871e21eb66ded11553aa59f2cdf51cef.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-valleymede-train-station-part-0
+  - assetId: sm2-valleymede-train-station-part-1
+
+---
+assetId: sm2-valleymede-train-station-part-0
+version: "1.0"
+lastModified: "2023-09-08T01:41:07Z"
+url: https://community.simtropolis.com/files/file/32479-sm2-valleymede-train-station/?do=download&r=197571
+
+---
+assetId: sm2-valleymede-train-station-part-1
+version: "1.0"
+lastModified: "2023-09-08T01:41:07Z"
+url: https://community.simtropolis.com/files/file/32479-sm2-valleymede-train-station/?do=download&r=197572
