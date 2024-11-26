@@ -1,0 +1,41 @@
+group: sm2
+name: suncor-solar-panels
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Suncor Solar Panels
+  description: |-
+    A fictional factory that produces solar panels. It complements SM2's solar power plants.
+
+     - Lot size: 10X5
+     - Plop cost: 12500
+     - Bulldoze cost: 1500
+     - Power req: 52
+     - Water req: 35
+     - **Provides 626 I-M jobs**
+
+    You will find it under the Landmark menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33082-sm2-suncor-solar-panels/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/su1.jpg.06cc9d95b8c3b2b89635b7769dd2e011.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/su2.jpg.9a70d5cdb86b63ccb69afc202480d424.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/su3.jpg.44f0e35fa9b27df2f824393c36fbb8c4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/su4.jpg.0bbc246fab13be9c90afabec4e9c535d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/su5.jpg.27da6362fae54b3cad220429be453c8b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/su7.jpg.5d33d4abb32307956deb3adbff60ce90.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/su8.jpg.3e7a69c3d0942919af93d3e619036de7.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-suncor-solar-panels
+
+---
+assetId: sm2-suncor-solar-panels
+version: "1.0"
+lastModified: "2019-12-02T05:53:05Z"
+url: https://community.simtropolis.com/files/file/33082-sm2-suncor-solar-panels/?do=download
