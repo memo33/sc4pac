@@ -1,0 +1,34 @@
+group: sm2
+name: the-watchtower
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: The Watchtower
+  description: |-
+    Just a lonely medieval Watchtower on a rock.
+
+    Plop it anywhere you want and dress it with your favorite MMP.
+
+     - Lot size: 2x2
+     - Plop cost: 1500
+     - No power/water/maintenance required.
+     - Also no road access necessary.
+
+    Plop and play.
+
+    You will find it under the park menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32897-sm2-the-watchtower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/Towers.jpg.87d233c5a459f49a9cd58c365dd9b353.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/twt.jpg.acd5f80abc1c2b815d4f5ed107314f97.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/twt2.jpg.fb786f78b9055b40cd7025425a6181d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/twt3.jpg.5dad04b648e8a078ce9047ef3313e1ea.jpg
+assets:
+  - assetId: sm2-the-watchtower
+
+---
+assetId: sm2-the-watchtower
+version: "1.0"
+lastModified: "2019-05-04T19:45:59Z"
+url: https://community.simtropolis.com/files/file/32897-sm2-the-watchtower/?do=download
