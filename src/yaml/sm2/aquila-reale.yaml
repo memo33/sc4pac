@@ -1,0 +1,32 @@
+group: sm2
+name: aquila-reale
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Aquila Reale
+  description: |-
+    A fictional monument made to fit the small 1x1 NAM roundabout.
+
+    Look in the park menu.
+
+     - Lot size: 1X1
+     - Cost to plop: 1500
+
+    It gives 1000 cap relief to all 3 residential levels.
+
+    No power or water required
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32809-sm2-aquila-reale/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/aq1.jpg.a068ecd68fd2b36c760f22d60099df40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/aq2.jpg.3e87a1ca75931403fcdda08839ff7eb3.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol3
+assets:
+  - assetId: sm2-aquila-reale
+
+---
+assetId: sm2-aquila-reale
+version: "1.0"
+lastModified: "2019-03-19T18:36:33Z"
+url: https://community.simtropolis.com/files/file/32809-sm2-aquila-reale/?do=download
