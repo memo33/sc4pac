@@ -1,0 +1,36 @@
+group: sm2
+name: concrete-sound-barriers
+version: "4.0.0"
+subfolder: 700-transit
+info:
+  summary: Concrete Sound Barriers
+  description: |-
+    With 41 pieces at your disposal you can bet that just about any combination has been covered!
+    This set includes several FA3 (Fractional Angle 18.4 deg.) pieces for those special angled projects.
+
+    Orthogonal, 45 deg, FA3, exit doors, emergency phone, ortho to 45, ortho to FA3, end pieces, overhanging ones, 11 with graffiti plus a double length one and one special Orthogonal piece that you can plop on slopes of up to 45 deg.
+
+    To recap, 40 lots can only be places on fairly flat terrain and one flex piece for up to 45 degrees inclines.
+
+    The lots are provided with no base or overlay textures therefore you can dress them with your favorite MMPs.
+
+    ALL lots are neutral but one, the TEL piece. This is the only one with nightlights.
+
+    Use them on your highways, roads, railways and they also look great as fences in between industries and residential.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32025-sm2-concrete-sound-barriers/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/SB12.jpg.ada6dd756228ea96ae3fe5609695bfdd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/SB50.jpg.dd6a3cbe5c06017299dd8b029b1fa0b2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/SB60.jpg.a07e32a0cf8b210ba9d72cbe4b686e3e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/SB61.jpg.e2b4dcd53610048855c00cce62312f18.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a28f808cc33f_Additionalpieces.jpg.408193398c8b53e4db315aa3bd59b564.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_12/5a28f80984d63_SBLegend.png.9d87b8c8b60e50846bfffa6c389410cd.png
+assets:
+  - assetId: sm2-concrete-sound-barriers
+
+---
+assetId: sm2-concrete-sound-barriers
+version: "4.0.0"
+lastModified: "2018-08-23T04:18:41Z"
+url: https://community.simtropolis.com/files/file/32025-sm2-concrete-sound-barriers/?do=download
