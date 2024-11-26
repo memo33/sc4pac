@@ -1,0 +1,45 @@
+group: sm2
+name: locomotives-refueling-station
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Locomotives Refueling Station
+  description: |-
+    Here is where SC4 locomotives go to refuel those hungry diesel tanks.
+
+     - Lot size: 12X6
+     - Cost to plop: 25000
+     - Bulldoze cost: 1500
+     - Power consumed: 45
+     - Water consumed: 20
+     - Provides 230 IM jobs
+     - Transit capacity: 90000
+
+    This lot is designed to allow both freight and passenger trains to cross it therefore you can plop it on the main line.
+
+    *Note* This lot does not act as a freight yard.
+
+    Have fun!
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32569-sm2-locomotives-refueling-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/LP3.jpg.504f98788308a542cc5d75fff6c6985e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/LP4.jpg.001f2689f60a46bb22fc6c4fe8aa2f41.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/LP5.jpg.9917cc4dc2e009b7614a1267fd37a228.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/LP6.jpg.b9ce9d67168055875d765ec00cd088d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/LP7.jpg.f497c70edaca7c384e09e9048ba0db78.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - angry-mozart:na-locomotive-props
+assets:
+  - assetId: sm2-locomotives-refueling-station
+
+---
+assetId: sm2-locomotives-refueling-station
+version: "2.0"
+lastModified: "2019-03-15T17:33:53Z"
+url: https://community.simtropolis.com/files/file/32569-sm2-locomotives-refueling-station/?do=download
