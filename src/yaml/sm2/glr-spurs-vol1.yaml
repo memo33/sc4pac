@@ -1,0 +1,41 @@
+group: sm2
+name: glr-spurs-vol1
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: GLR Spurs Vol1
+  description: |-
+    A set of 8 GLR spurs designed to spruce up your light rail network.
+
+    They range from 5 to 10 tiles long and can be connected to your GLR network for that seamless look. Just create a spur and connect away.
+
+    DTR, TTR and Quad rail designs are featured. They can even be used to create a small GLR depot. Use your imagination!!
+
+    Lot sizes from 5x1 to 10x1
+
+     - Plop cost: 100
+     - Power req: 2
+     - Water Req: 0
+     - No road connections needed
+
+    You will find them under the light rail/bus/subway transport menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32796-sm2-glr-spurs-vol1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/glr20.jpg.82266aef6d289ba9327f2e7627acd0dc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/glr21.jpg.2f416797342b1f36a52c771181b893f8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/glr22.jpg.dcb93e6509768d68ab37dccc019e5e6f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/glr23.jpg.8bca33a33d3758267f5671ea58c04337.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+assets:
+  - assetId: sm2-glr-spurs-vol1
+
+---
+assetId: sm2-glr-spurs-vol1
+version: "1.0"
+lastModified: "2019-03-16T17:40:20Z"
+url: https://community.simtropolis.com/files/file/32796-sm2-glr-spurs-vol1/?do=download
