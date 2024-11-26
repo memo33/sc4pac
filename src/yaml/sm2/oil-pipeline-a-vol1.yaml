@@ -1,0 +1,56 @@
+group: sm2
+name: oil-pipeline-a-vol1
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Oil Pipeline A Vol1
+  description: |-
+    An oil pipeline set ready to serve all your industrial needs.
+
+    Ortho quads and dual are featured in this collection. 90 bends, T's and cross for both quads and dual are also included. Also many single and dual tile bridges.
+
+    There is also a quad pipe bridge able to span a maximum of 5 game tiles.  
+    The bridge can be used to span river crossings, ravines, highways, rails and even small lakes.
+
+    This set was designed to be used on a flat surface. Also included is a texture set for the pipe path.
+
+    Experiment a bit with the set to get a feel of it and then create your dream oil pipeline!
+
+    Each piece costs 20 simoleons to plop
+
+    No water or power required
+
+    No monthly maintenance
+
+    It can be found under the Landmark menu so that you can benefit of a bit of positive landmark and mayor rating effect.
+
+    This set is compatible with `pkg=sm2:fuel-terminal`
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33066-sm2-oil-pipeline-a-vol1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/br8.jpg.faa2c05692fd490c2f6d507a693a1023.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/br9.jpg.07859e67c3704f79ebd4a7ca5196b666.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/br10.jpg.0abe6cf938a76cd032a734ab2c8547c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/br11.jpg.9caf6fa1d04e3d896e793b6e44786c40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/br12.jpg.53b5a106f89fe3bf7a5a48a935ee1e28.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/opp0.jpg.27a0fc74735fd66992c7250c5f0575d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/tut1.jpg.c7a07191f47ed8e675e5cb85a270d50a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d488e9aa9ede_3pieces.jpg.505e6c47f5b3dcba1c0609091136c12f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/br5.jpg.8cdbdd93487f4f0f55e01ec8021e7aae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/gzNPGTz.jpg.f0f8e6ebfaee010d297eb26d6039dfa9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/E3wK0SU.jpg.30a3b0f697ee6babc81fd97cbad44a54.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/NKjX51E.jpg.f0ab97355c9e12313c89c1ef635a1a29.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+assets:
+  - assetId: sm2-oil-pipeline-a-vol1
+
+---
+assetId: sm2-oil-pipeline-a-vol1
+version: "1.0"
+lastModified: "2019-12-02T05:55:05Z"
+url: https://community.simtropolis.com/files/file/33066-sm2-oil-pipeline-a-vol1/?do=download
