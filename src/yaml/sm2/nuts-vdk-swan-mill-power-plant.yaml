@@ -1,0 +1,49 @@
+group: sm2
+name: nuts-vdk-swan-mill-power-plant
+version: "2"
+subfolder: 500-utilities
+info:
+  summary: Nuts VDK Swan Mill Power Plant
+  description: |-
+    Both freight trains and passenger trains will traverse the lot east to west.
+    Just run the rail line through the lot and connect the street entrance to a street. The STR stub will only connect visually.
+
+    You will find it in your power menu.
+
+     - Lot size: 20x14
+     - Plop cost: 68,500
+     - Monthly cost: 1,550
+     - Power output: 39,200 MWh
+     - Jobs: $196 $$104 $$$13
+
+    **There are 2 versions of this lot. One with all the proper stats attributed to a heavy polluter for the hardcore players and one with ZERO emissions for anyone who still wants the lot in their maps but do not want to deal with the pollution. The zero emission one is clearly marked with a Z.**
+  author: Simmer2, Vester
+  website: https://community.simtropolis.com/files/file/31025-sm2-nuts-vdk-swan-mill-power-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/570ca261a8847_SM2NutsSwanMillsCPP.jpg.845bddc1b8a30ff9a97b37824abb231b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/CPP1.png.ab92a947e942f6c19273b2088502e223.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/CPP2.png.e8a4320619d2c4aeb63f38ed6df960df.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/CPP3.png.520d4efe8cf4e61b0fa19ce710547652.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/NutCPP1.png.50af653c0c38c376adb498299e916ff1.png
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:bat-props-vdk-vol02
+assets:
+  - assetId: sm2-nuts-vdk-swan-mill-power-plant
+
+---
+assetId: sm2-nuts-vdk-swan-mill-power-plant
+version: "2"
+lastModified: "2018-08-23T04:30:47Z"
+url: https://community.simtropolis.com/files/file/31025-sm2-nuts-vdk-swan-mill-power-plant/?do=download
