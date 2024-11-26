@@ -1,0 +1,27 @@
+group: sm2
+name: breakwater-concrete-blocks
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: Breakwater Concrete Blocks
+  description: |-
+    Concrete breakwater blocks have been used for a long time to diminish the force of impact from the awesome power of sea waves.
+
+    You will find them around port areas and around important sea facilities such as refineries and other such structures.
+
+    If you use dark water textures it is suggested to lift the water floor to 7.5 meter depth. You will then be able to see the blocks under water!!
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31273-sm2-breakwater-concrete-blocks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/6.jpg.4f38231937e53701a61605b8649a287f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/7.jpg.09f0b52583bdfa2067c1e3fca1a1660e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/8.jpg.e0c1573b29f01464d122824585675eea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/sm2bcb.jpg.fb26c56c5794eb40f47593328eb87380.jpg
+assets:
+  - assetId: sm2-breakwater-concrete-blocks
+
+---
+assetId: sm2-breakwater-concrete-blocks
+version: "1.0"
+lastModified: "2018-08-23T04:26:04Z"
+url: https://community.simtropolis.com/files/file/31273-sm2-breakwater-concrete-blocks/?do=download
