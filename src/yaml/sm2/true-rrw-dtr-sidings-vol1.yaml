@@ -1,0 +1,46 @@
+group: sm2
+name: true-rrw-dtr-sidings-vol1
+version: "3.0"
+subfolder: 700-transit
+info:
+  summary: True RRW DTR Sidings Vol1
+  description: |-
+    Sidings may be used for marshaling, stabling and storing.
+
+    Common sidings store stationary rolling stock, especially for loading and unloading. Industrial sidings go to factories, mines, quarries, wharves, warehouses, some of them are essentially links to industrial railways. Such sidings can sometimes be found at stations for public use. Sidings may also hold maintenance of way equipment or other equipment, allowing trains to pass, or store helper engines between runs.
+
+    Some sidings have very occasional use, having been built, for example, to service an industry, a railway yard or a stub of a disused railway that has since closed. It is not uncommon for an infrequently-used siding to fall into disrepair.
+
+    Place them anywhere you wish along the railway network. They mimic real life rail sidings.
+    Some have fixed props and some have timed and family props.
+    You can drop them directly on the rail tracks or drag the rail through them.
+    They are fully transit enabled so you will see both passenger and freight trains go through them!
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/30968-sm2-true-rrw-dtr-sidings-vol1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/56cdf27e0268a_Truesidings2.jpg.0af49b41189907bb3e7e355fc315aba1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/56cdf2bd9e0ec_Passengertruesiding.jpg.b0e38a706278fcf964ce35455857b668.jpg
+dependencies:
+  - peg:mtp-super-pack
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-snm-vol01
+  - bsc:mega-props-misc-vol02
+  - sfbt:royal-semaphore-signals-props
+  - sfbt:kenworth-royal-railway-props
+  - sfbt:kenworth-rail-catenaries-props
+  - wmp:mega-props-vol02
+  - peg:cdk3-sp-rail-fleet
+  - peg:mtp-logging-resource
+  - simcityfreak666:train-prop-pack-vol1
+  - onlyplace4:logging-props
+assets:
+  - assetId: sm2-true-rrw-dtr-sidings-vol1
+
+---
+assetId: sm2-true-rrw-dtr-sidings-vol1
+version: "3.0"
+lastModified: "2021-04-18T22:36:55Z"
+url: https://community.simtropolis.com/files/file/30968-sm2-true-rrw-dtr-sidings-vol1/?do=download
