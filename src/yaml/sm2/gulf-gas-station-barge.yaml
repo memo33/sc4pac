@@ -1,0 +1,37 @@
+group: sm2
+name: gulf-gas-station-barge
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Gulf Gas Station Barge
+  description: |-
+    Gas stations are not limited to land only. There are Floating fuel barges around the Great Lakes and large rivers around the world.
+
+    This one is the Gulf version. Plop it on sea water, rivers or lakes. Close to a marina or anywhere where one would look nice in your maps.
+
+     - Lot size: 1X1 (actual model length is 4 tiles by 1)
+     - Plop cost: 1000
+     - Power generated: 100 (no need to bring power to it in order to see the beautiful night lights)
+     - Maintenance cost: 10
+
+    You will find it in your Seaport menu.
+
+    Bonus, it also acts as a power plant therefore it could provide power to other water based lots that require electricity by plopping it near by.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32858-sm2-gulf-gas-station-barge/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/gu1.jpg.47e10584de58300661a161c330f9cb8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/gu2.jpg.fd340205e6a56c10201a157f4e667e78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/gu3.jpg.2ac91d59de8ce927f9b413265da1fadb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/gu4.jpg.38f4b445968e01a76ee3656b073c4232.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/gu5.jpg.d64b730ddccba8d2454d84b8f9f6fd13.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/gu6.jpg.cdc8bac4a24af7c36e83cb7f754fe7b2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/gu7.jpg.5618d42af6e295ed646d4c8cf45d438a.jpg
+assets:
+  - assetId: sm2-gulf-gas-station-barge
+
+---
+assetId: sm2-gulf-gas-station-barge
+version: "1.0"
+lastModified: "2019-04-12T01:24:56Z"
+url: https://community.simtropolis.com/files/file/32858-sm2-gulf-gas-station-barge/?do=download
