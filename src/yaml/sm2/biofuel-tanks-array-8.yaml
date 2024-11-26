@@ -1,0 +1,47 @@
+group: sm2
+name: biofuel-tanks-array-8
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Biofuel Tanks Array 8
+  description: |-
+    A set of 8 biofuel holding tanks with built in berm. Medium wealth IM
+
+    It comes in 2 versions, plop and grow.
+
+    **Plop** stats
+
+     - Lot size: 4x2
+     - Plop cost: 4000
+     - Bulldoze cost: 200
+     - Power req: 15
+     - Water req: 15
+     - Provides 35 IM jobs
+
+    You will find it in the Landmark menu.
+
+    **Grow** stats
+
+     - Medium wealth stage 3 Industrial Manufacturing.
+     - Lot size: 4x2
+     - Bulldoze cost: 200
+     - Power req: 15
+     - Water req: 15
+     - Provides 35 IM jobs
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33283-sm2-biofuel-tanks-array-8/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/bio1.jpg.17aa423f8000bb486c89a091ebd60cb5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/bio2.jpg.398f944e863a571fe4ff2d65f477d77d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/bio3.jpg.2a99a349b70fdb83bda875c41b5fbc78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/in5.jpg.6168f7852ecbef7eaa524b88808f5387.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol4
+assets:
+  - assetId: sm2-biofuel-tanks-array-8
+
+---
+assetId: sm2-biofuel-tanks-array-8
+version: "2.0.0"
+lastModified: "2021-02-22T16:16:36Z"
+url: https://community.simtropolis.com/files/file/33283-sm2-biofuel-tanks-array-8/?do=download
