@@ -1,0 +1,36 @@
+group: sm2
+name: speedy-freight-inc
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Speedy Freight Inc.
+  description: |-
+    Small 5X4 STR freight yard. Place on a rail spur. Only freight trains will cross this lot.
+
+     - Plop cost: 4900
+     - Freight capacity: 12,500 tons
+     - Provides 5 jobs
+
+    Requires power and water to function.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32491-sm2-speedy-freight-inc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/sf6.jpg.776f904b54c7352f78f430ae3f468ace.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5b986f483ca4a_SpeedyFreight.jpg.1781c54e355bd9741f2f9bfb51f01518.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/sf3.jpg.d7a28a8eb77df4540a1f771562f3d1af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/sf2.jpg.0a33f5573e0a187bfba746acd1dac11b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/sf1.jpg.f568f1bdfc8e37f930ed1558ff777d6a.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - angry-mozart:na-covered-hopper-train-props
+assets:
+  - assetId: sm2-speedy-freight-inc
+
+---
+assetId: sm2-speedy-freight-inc
+version: "1.0"
+lastModified: "2018-09-12T01:46:44Z"
+url: https://community.simtropolis.com/files/file/32491-sm2-speedy-freight-inc/?do=download
