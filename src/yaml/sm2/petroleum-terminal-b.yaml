@@ -1,0 +1,40 @@
+group: sm2
+name: petroleum-terminal-b
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Petroleum Terminal B
+  description: |-
+    Yet another oil terminal, this one also acts as a freight yard,
+
+     - Lot size: 10x3
+     - Plop cost: 15000
+     - Bulldoze cost: 1500
+     - Power req: 15
+     - Water req: 6
+     - Freight capacity: 12500 tons
+
+    It also  - Provides a few Id jobs
+
+    Connect it to your rail network on a stub.
+
+    You will find it under the rail menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32804-sm2-petroleum-terminal-b/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/OD2.jpg.6afd67827391efdffeec0da69e13c38a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/PTB1.jpg.85077310c9827fdea90b70acc8d10f58.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/PTB2.jpg.576b9e16b68e72b2fd4115a3da263663.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+assets:
+  - assetId: sm2-petroleum-terminal-b
+
+---
+assetId: sm2-petroleum-terminal-b
+version: "1.0"
+lastModified: "2019-03-18T14:29:27Z"
+url: https://community.simtropolis.com/files/file/32804-sm2-petroleum-terminal-b/?do=download
