@@ -1,0 +1,31 @@
+group: sm2
+name: rrw-hd-rail-bumpers-and-props
+version: "1.0"
+subfolder: 900-overrides
+info:
+  summary: RRW HD Rail Bumpers and Props
+  description: |-
+    This mod replaces both the US and EU railways stub bumpers with a custom HD universal one. It will also add small railcars and clutter to the end of the rail stubs just like in real life.
+
+    Both Orthogonal and Diagonal DTR and STR will get the bumpers but only Orthogonal DTR and STR will get the mini railcars and clutter for now. If you already have end stubs drawn in your maps, you only need to touch it with the rail tool to make it change to the new set.
+
+    This mod is made with a huge prop family library therefore the possible permutations on end rail stubs are in the 10's of thousands. 17 different railcars and 20+ clutter props. I could click on the end rail stubs 1000's of times and never get the same combo again.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32829-sm2-rrw-hd-rail-bumpers-and-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/rrwstubs1.jpg.439b1fb12aa22bbbc9aefb0fd949d840.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c9d8958b26c1_rrwstubsNAM.jpg.1a5a838179ba905604b0acd89b4aa395.jpg
+  warning: This mod will only work if you have NAM installed with the RRW option.
+
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol3
+assets:
+  - assetId: sm2-rrw-hd-rail-bumpers-and-props
+
+---
+assetId: sm2-rrw-hd-rail-bumpers-and-props
+version: "1.0"
+lastModified: "2019-03-29T02:56:28Z"
+url: https://community.simtropolis.com/files/file/32829-sm2-rrw-hd-rail-bumpers-and-props/?do=download
