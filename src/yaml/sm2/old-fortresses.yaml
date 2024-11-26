@@ -1,0 +1,39 @@
+group: sm2
+name: old-fortresses
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Old Fortresses
+  description: |-
+    You will find 2 differently textured models in this pack. Use one or both as you wish.
+
+    This is an old fortress loosely based on one in Quebec.
+
+    The whole model fits on a 1x1 lot with no base texture, please flatten terrain before placement.
+
+    Extensive usage of MMP is required for best visual results.
+
+     - Cost to plop: 25000
+     - No power, water or monthly maintenance are necessary.
+
+    Also, these lots do not require a road connection. An MMP one, made to your taste, will do.
+
+    You will find them in the park menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32717-sm2-old-fortresses/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/5c3ed30360628_FortressBcopy.jpg.5489609aea07f11c0128998d7d35ec5d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/f10.jpg.e061fbcccf71194d90c292bfc0ed32d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/f14.jpg.6f7102c37a0050892f2569cf27f8bf2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/f23.jpg.1ec6667e08072baa56d3160cfd775a1c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/f26.jpg.a7058084155a07dc13424f7fa55c5c49.jpg
+dependencies:
+  - '"[https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotget=3482](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3482)"'
+assets:
+  - assetId: sm2-old-fortresses
+
+---
+assetId: sm2-old-fortresses
+version: "1.0"
+lastModified: "2019-01-16T06:49:51Z"
+url: https://community.simtropolis.com/files/file/32717-sm2-old-fortresses/?do=download
