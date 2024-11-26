@@ -1,0 +1,27 @@
+group: sm2
+name: greek-temple-ruin
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Greek Temple Ruin
+  description: |-
+     - Plop Cost: 12,000
+     - Bulldoze cost: 300
+     - Maintenance cost: 54
+
+    You will find it in your landmark menu.
+
+    It will give a bit of landmark effect and it requires no water or power. Perfect for those remote and exotic areas.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31229-sm2-greek-temple-ruin/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/Main112211.jpg.33505dc8babd4dd3089f9026f61b3677.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/second.jpg.ff021b7835839f068b01998fe5069c65.jpg
+assets:
+  - assetId: sm2-greek-temple-ruin
+
+---
+assetId: sm2-greek-temple-ruin
+version: "1.0"
+lastModified: "2018-08-23T04:26:49Z"
+url: https://community.simtropolis.com/files/file/31229-sm2-greek-temple-ruin/?do=download
