@@ -1,0 +1,33 @@
+group: sm2
+name: ge-solar-power-plant
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: GE Solar Power Plant
+  description: |-
+    For those of you that don't want to waste time with assemblies but still want a realistic solar power plant, this is your answer.
+
+    The panels are timed to follow daylight just like the modular one I uploaded previously.
+
+     - Lot size: 5X5
+     - Power output: 2500
+     - Cost to plop: 2500
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32496-sm2-ge-solar-power-plant/
+  images:
+    - https://i.imgur.com/Jtzx5YU.gif
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/GE2.jpg.8cda5dda6eabe3f2be41cdc6261546fc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/GE1.jpg.451da615e7c5270b48b3bd1407ef53a5.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:modular-solar-power-plant
+assets:
+  - assetId: sm2-ge-solar-power-plant
+
+---
+assetId: sm2-ge-solar-power-plant
+version: "1.0"
+lastModified: "2018-09-13T01:54:24Z"
+url: https://community.simtropolis.com/files/file/32496-sm2-ge-solar-power-plant/?do=download
