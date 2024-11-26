@@ -1,0 +1,58 @@
+group: sm2
+name: curzon-street-stations
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Curzon Street Stations
+  description: |-
+    Based on a real station in Birmingham UK. Opened in 1838 and finally closed in 1966.  
+    The building still exists today and there are plans to revitalize it once more in the near future.
+
+    This project includes 2 stations. A 7x2 terminus and a 2x2 proximity lot.
+
+    The terminus capacity is 47500  
+    The proximity lot capacity is 32500
+
+    With the proximity lot you can draw a rail line along any of the 4 sides and it will still work as intended, just make sure you have a road/street touch the lot as well so that pedestrians, buses and cars can reach it.
+
+    **SM2 Curzon Station Small**  
+     - Lot size: 2x2  
+     - Power req 8  
+     - Water req: 11  
+     - Cost to plop: 2500  
+     - Bulldoze cost: 250
+
+    The terminus only requires you to connect 2 DTR lines on one end. It also acts as a parking lot and a bus station.
+
+    **SM2 Curzon Street Station**  
+     - Lot size: 7x2  
+     - Power req 12  
+     - Water req: 10  
+     - Cost to plop: 8500  
+     - Bulldoze cost: 500
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32976-sm2-curzon-street-stations/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/cur7.jpg.293781316b2490712d6f76f7e8083fb1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/cur5.jpg.e4501549254aecaa2d80c6d6b0a3253c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/cur1.jpg.71cdb3d88c6ec4a554f508cc7496774c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/cur2.jpg.1cb2475aec470defa4c687e3111b8e22.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/cur3.jpg.f9673205d9b9f460e67253bb0e07cf3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/cur4.jpg.41035c3f9aea2b798004dcac5e750cfc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/cur6.jpg.1c8f61de53c24b780d6d06667f6da3cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/cur8.jpg.6cf65a1b224deb736beb3eef32514edc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/cur9.jpg.5234f3087374115b06542264547daa71.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/cur10.jpg.cf863c4152e0fe6615a0554f434254a5.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+assets:
+  - assetId: sm2-curzon-street-stations
+
+---
+assetId: sm2-curzon-street-stations
+version: "1.0"
+lastModified: "2019-12-02T06:01:53Z"
+url: https://community.simtropolis.com/files/file/32976-sm2-curzon-street-stations/?do=download
