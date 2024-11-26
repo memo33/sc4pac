@@ -1,0 +1,50 @@
+group: sm2
+name: perrys-victory-memorial
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Perry's Victory Memorial
+  description: |-
+    From Wikipedia
+
+    "A 352-foot (107 m) monument — the world's most massive Doric column — was constructed in Put-in-Bay, Ohio by a multi-state commission from 1912 to 1915 "to inculcate the lessons of international peace by arbitration and disarmament." The memorial was designed after an international competition from which the winning design by Joseph H. Freelander and A.D. Seymour was chosen.
+
+    Perry's Victory and International Peace Memorial was established to honor those who fought in the Battle of Lake Erie during the War of 1812, and to celebrate the long-lasting peace among Britain, Canada and the U.S. The Memorial column, rising over Lake Erie, is situated five miles from the longest border in the world"
+
+     - Lot size: 3X5
+     - Landmark effect: 40 over 20 tiles
+     - Plop cost: 85000
+     - Bulldoze cost: 4500
+     - Power req: 15
+     - Water req: 0
+     - Monthly Maintenance: 250
+
+    You will find it under the Landmark menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33215-sm2-perrys-victory-memorial/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/PV1.jpg.c172af5cc19a84bfe5361a66ad9a93e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/pv3.jpg.5f5d161921c428f7b3fb5bdc3ac76c79.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/pv4.jpg.b36778b67451362144977e4ef2f041af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/PV10.jpg.1ed507b50656f4bd5e654d4e94b57287.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/pv11.jpg.2f1604d1718196d0a3ae7265b6afbef4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/pv12.jpg.ded5a60868aeaffac6c6074fe9fec1fc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/pv13.jpg.5ee9e41b0bb29af98a509ecd40503ddc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/pv14.jpg.1fa0d0acf3714df8a1899cf8e51d37e2.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - girafe:poplars
+  - girafe:cypresses
+  - girafe:daisy
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-perrys-victory-memorial
+
+---
+assetId: sm2-perrys-victory-memorial
+version: "1.0.0"
+lastModified: "2019-12-02T05:13:18Z"
+url: https://community.simtropolis.com/files/file/33215-sm2-perrys-victory-memorial/?do=download
