@@ -1,0 +1,42 @@
+group: sm2
+name: adm-grain-elevator-hd
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: ADM Grain Elevator HD
+  description: |-
+    Grain Elevators are allover the place, they are used to collect, store and ship mostly wheat grains. This one is a truly colossal model based on a real life structure found in Alberta, Canada.
+
+    This is the HD version of `pkg=sm2:adm-grain-elevator-sd`. It is rendered without the silos, which are added as props to the lot.
+
+    This elevator also acts as a freight yard.
+
+    The dirt roads and STR rail will connect to the game networks visually therefore you will see freight trucks arriving and freight trains leaving.
+
+     - Lot size: 7x5
+     - Freight capacity: 23,800 tons
+     - Jobs: 37 low, 17 med and 3 high
+     - Plop cost: 4250
+     - Power: 15
+     - Water: 56
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32228-sm2-adm-grain-elevator-hd/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/5add66d911d29_SM2ADMHDcopy.jpg.2409cd7cf2d2703df774f447ff73387d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/5add66da7dd8b_SM2ADMGrainElevator.jpg.946dbcc6560c493f80abc2a2e96a7447.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/X5.jpg.507d0261292bd6eaec12b5e87a134ca2.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - girafe:poplars
+  - girafe:bushes
+  - girafe:cattails
+assets:
+  - assetId: sm2-adm-grain-elevator-hd
+
+---
+assetId: sm2-adm-grain-elevator-hd
+version: "2.0.0"
+lastModified: "2018-09-10T05:04:30Z"
+url: https://community.simtropolis.com/files/file/32228-sm2-adm-grain-elevator-hd/?do=download
