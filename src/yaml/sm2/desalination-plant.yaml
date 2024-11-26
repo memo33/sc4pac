@@ -1,0 +1,48 @@
+group: sm2
+name: desalination-plant
+version: "3.0"
+subfolder: 500-utilities
+info:
+  summary: Desalination Plant
+  description: |-
+    There are 2 main Desalination plant designs, one works by evaporation and the other by osmosis. Both method use a lot of energy to achieve clean drinking water but they have come a long way in cost of production reduction. More of them are popping up around the globe especially in countries where fresh water is a precious commodity but have abundance of seawater.
+
+     - Lot size: 4x4 plus 1 (the overhang seawall)
+     - Plop cost: 45000
+     - Bulldoze cost: 4500
+     - Water produced: 45000 liters per month
+     - Monthly maintenance: 50
+     - Power consumed: 90
+
+    SM2 Water Holding Tank X1 is also included with this set. Plop them around the desalination plant for added visual effect. Connect them to your water grid.
+
+     - Lot size: 1x1
+     - Plop cost: 200
+     - Bulldoze cost: 20
+     - Water capacity 3500
+     - Power consumed: 1
+     - Water leaks: 2
+
+    You will find them under the utilities menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32530-sm2-desalination-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/D1.jpg.945e66731fe66c27046c9a49a3e5f389.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/d2.jpg.c1da247b72a4e9d1bca3cd6b95e17329.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/d3.jpg.49cab55dcd263593201f61db1b469b32.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/d4.jpg.1e0426085e2f1c73e58b5ff3c0f875aa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/d5.jpg.c0484f18d7b6185a91cbc144809b3148.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/d6.jpg.09ebb3e6d7d0f422245aef576867a612.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+assets:
+  - assetId: sm2-desalination-plant
+
+---
+assetId: sm2-desalination-plant
+version: "3.0"
+lastModified: "2019-06-16T06:24:54Z"
+url: https://community.simtropolis.com/files/file/32530-sm2-desalination-plant/?do=download
