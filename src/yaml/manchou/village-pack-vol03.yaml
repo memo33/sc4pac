@@ -5,7 +5,7 @@ subfolder: 100-props-textures
 assets:
   - assetId: manchou-pack-village-vol03
     exclude:
-      .*\.SC4Lot$
+      - .*\.SC4Lot$
 info:
   summary: "Agricultural building models"
   author: "manchou"
@@ -23,7 +23,7 @@ dependencies:
 assets:
   - assetId: manchou-pack-village-vol03
     include:
-      .*\.SC4Lot$
+      - .*\.SC4Lot$
 info:
   summary: "Agricultural residential lots"
   author: "manchou"
