@@ -33,7 +33,7 @@ dependencies:
   - sm2:mega-prop-pack-vol2
   - sm2:mega-prop-pack-vol3
   - bsc:vip-girafe-carpack-vol01-vol02
-  - '"[https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotget=3357](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3357)"'
+  - sm2:rrw-nsb-tex
   - girafe:poplars
   - girafe:daisy
   - girafe:common-spruces
