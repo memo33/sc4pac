@@ -1,0 +1,32 @@
+group: sm2
+name: center-pivot-irrigation-fields
+version: "1.0"
+subfolder: 410-agriculture
+info:
+  summary: Center Pivot Irrigation Fields
+  description: |-
+    Center pivot irrigation fields are still widely used all over the world. This one is model based and it changes 4 times a year following the seasons therefore its considered a seasonal lot.
+
+    The lot is 1x1 and covers a 9x9 game grid. The usage of MMP around the field is advised so as to make it blend better.
+
+    When you plop it you may get an empty tile at first, it may take time for it to sync with the game clock. Be patient.
+
+    The lot is completely neutral and it also needs no adjacent road therefore it can be plopped anywhere on the map as long as you pick a flat spot.
+
+    You will find it in your Park Menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32701-sm2-center-pivot-irrigation-fields/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/F1.jpg.5a9781366f9f826651d88545e27492d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/f2.jpg.f048c47da98b0e6ed79be8d69e9c52ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/f3.jpg.1243b8e6b7bf3ff671c8df2731de7813.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/f4.jpg.d6e56830b4d901ab9ede3925e7edcd0a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/Fields.jpg.0f35dd281a7d80f0a0b193ac2c93f599.jpg
+assets:
+  - assetId: sm2-center-pivot-irrigation-fields
+
+---
+assetId: sm2-center-pivot-irrigation-fields
+version: "1.0"
+lastModified: "2019-01-07T00:51:52Z"
+url: https://community.simtropolis.com/files/file/32701-sm2-center-pivot-irrigation-fields/?do=download
