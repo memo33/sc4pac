@@ -1,0 +1,46 @@
+group: sm2
+name: schiffenberg-monastery
+version: "3.0"
+subfolder: 360-landmark
+info:
+  summary: Schiffenberg Monastery
+  description: |-
+    For those historic maps here is something that will blend in nicely.  
+    The gate house will connect to the street (Visual connection Only)
+    You will find it in your Landmark menu.
+  author: Simmer2, Kwakelaar
+  website: https://community.simtropolis.com/files/file/33001-sm2-schiffenberg-monastery/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/2z8vlht.jpg.png.b59e87c4d2988438f0ed496e259fb663.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/ir19ic.jpg.jpg.04531a4261054f879b43b3c0a732c4a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/n68cq8.jpg.jpg.f5846756472f4af1b98a34c1034cda4d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/2ngrjv8.jpg.jpg.22e79a89fe91651b9303c5e78a7d6953.jpg
+dependencies:
+  - historic-monastery-props
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - girafe:hedges
+  - manchou:village-pack-vol03-props
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-kwk-vol01
+  - sfbt:rambuckel-horse-props
+  - girafe:daisy
+  - girafe:rowan-trees
+  - girafe:berries
+  - girafe:narcissus
+  - girafe:subalpine-firs
+  - girafe:poppies
+  - girafe:common-spruces
+  - girafe:lupins
+  - girafe:sparaxis
+  - girafe:chestnuts
+  - nbvc:stone-paths-props
+assets:
+  - assetId: sm2-schiffenberg-monastery
+
+---
+assetId: sm2-schiffenberg-monastery
+version: "3.0"
+lastModified: "2021-04-18T22:20:52Z"
+url: https://community.simtropolis.com/files/file/33001-sm2-schiffenberg-monastery/?do=download
