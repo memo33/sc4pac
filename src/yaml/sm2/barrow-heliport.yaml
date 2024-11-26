@@ -1,0 +1,49 @@
+group: sm2
+name: barrow-heliport
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Barrow Heliport
+  description: |-
+    An eye candy heliport to make your maps a bit more interesting.
+
+    The only way to make it functional would have involved some heavy modification of the airport controller engine in the NAM folder and at this point it was not an option therefore you will have to settle for a non functional lot but it  - Provides 144 medium C$$ jobs
+
+    You will find it under the airport menu.
+
+    The entry/exit point can be connected to the street network for that seamless look.
+
+     - Lot size: 14X10
+     - Plop cost: 35000
+     - Power req: 30
+     - Water req: 15
+     - Provides 144 medium C$$ jobs
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32891-sm2-barrow-heliport/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/he1.jpg.3fb75da46917eac6ba2dc51dafa53f8d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/he2.jpg.e4b16d53c7e195d90dbbff2ac9f79904.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/he3.jpg.2a3d44fa65e7b0517cc41ac6256644bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/he4.jpg.3a8dc0f12341ae3ae4db40ee9bcf8cc7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/he5.jpg.cf439404f6b02a2986b0d364a0959d7d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/he6.jpg.f6f3d798462880f91c66cea3946253a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/he7.jpg.628b5d4a4cd0cbda734a7e29a7fadbe7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/he8.jpg.f5d7d56b2700ff5d2f8af271cdd69bf8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/he9.jpg.8b67b6b2b48654c9b33745631dbea92b.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - vip:delecto-ploppable-people
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-barrow-heliport
+
+---
+assetId: sm2-barrow-heliport
+version: "1.0"
+lastModified: "2019-12-02T06:18:37Z"
+url: https://community.simtropolis.com/files/file/32891-sm2-barrow-heliport/?do=download
