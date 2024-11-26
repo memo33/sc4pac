@@ -1,0 +1,36 @@
+group: sm2
+name: newton-observatory
+version: "2.0.0"
+subfolder: 360-landmark
+info:
+  summary: Newton Observatory
+  description: |-
+    For best visuals, plop it on an elevation, hill or better yet a mountain.
+
+    It uses power for those beautiful night lights, just 10 units.
+
+    No need for water and no maintenance.
+
+    Lot size is 2x2 (flatten terrain for best results)
+
+    You will find it in the park menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32281-sm2-newton-observatory/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/O1.jpg.6a6b19ae9c7bfeb99ec86726ff6c2540.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/O2.jpg.94bb6e06810880cde7066f8bf53a8ca1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/O3.jpg.8a093e6e0cd2350055cc96ffe6d3ccf9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/O4.jpg.71eb549b42672ebcd5ecc34e8ccc01e1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b135f919e49d_UFOscopy.jpg.780e23baeebbaa5a7f20b59025d31982.jpg
+dependencies:
+  - sm2:aurelius-radio-telescope
+  - sm2:mega-prop-pack-vol1
+  - girafe:sparaxis
+assets:
+  - assetId: sm2-newton-observatory
+
+---
+assetId: sm2-newton-observatory
+version: "2.0.0"
+lastModified: "2018-09-10T05:17:43Z"
+url: https://community.simtropolis.com/files/file/32281-sm2-newton-observatory/?do=download
