@@ -1,0 +1,48 @@
+group: sm2
+name: 3-bay-engine-house
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: 3 Bay Engine House
+  description: |-
+    A small 3 bay rail engine house where locomotives go for small repairs.
+
+    Compact design so it can fit in tight places. Place it on a spur, not on the main rail line.
+
+    The lot requires road access in order for the sims to go to work there.
+
+    The locomotives are in a family therefore you will get different liveries every time you plop the lot. A few other props are also in families.
+
+     - Provides $$25 jobs
+     - Lot size: 10x2
+     - Plop cost: 6500
+     - Bulldoze cost: 950
+     - Power req: 10
+     - Water req: 10
+
+    As usual, custom textures included.
+
+    You will find it under the rail menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32969-sm2-3-bay-engine-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/3b1.jpg.7b5687e21a80d6f25268f2b6b32b3058.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/3b2.jpg.6c1a11edbd69a791488b4b49ea9d48b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/3b3.jpg.16d64afa5b9321c56e5eec34f9fd4e21.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/3b4.jpg.094f9c57daab2ddfdc773d508aa6cf78.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - girafe:poplars
+  - angry-mozart:na-locomotive-props
+assets:
+  - assetId: sm2-3-bay-engine-house
+
+---
+assetId: sm2-3-bay-engine-house
+version: "1.0"
+lastModified: "2019-12-02T06:03:33Z"
+url: https://community.simtropolis.com/files/file/32969-sm2-3-bay-engine-house/?do=download
