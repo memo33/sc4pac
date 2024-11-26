@@ -1,0 +1,44 @@
+# TODO: Include hillside glr to subway
+# group: sm2
+# name: oakland-glr-stations
+# version: "2.0.0"
+# subfolder: ""
+# info:
+#   summary: Oakland GLR Stations
+#   description: |-
+#     Welcome back for more rail stations.
+
+#     These stations are trench style old concrete 15m sunken models and are suitable for sunken rail transportation related networks. GLR (Ground Light Rail)
+
+#     Each one has a capacity of 75,000 passengers.
+
+#      - Lot size: 6X3
+
+#     Please follow the pictorial instructions included in this upload for best results.
+
+#     There are 2 models. 1 with a roof and one without (NR= No Roof)
+
+#     For the GLR stations you must use a GLR\-Subway tunnel converter.
+
+#     Complete station pictures included.
+
+#     Have fun
+#   author: Simmer2
+#   website: https://community.simtropolis.com/files/file/32270-sm2-oakland-glr-stations/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/SUN27.jpg.596034df622a8d5a4531ae3133dbd94a.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/sun42.jpg.e6b06a874b469f277efa9bbb05a84697.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/sun32.jpg.5b7998864312b9e629418e6c826d8209.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/SUN26.jpg.da320a4dea43bdcca27ec5b13f1bf79d.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/SUN25.jpg.d9a4e89a3cb85f08bcfb5998eb6dbff1.jpg
+# dependencies:
+#   - sm2:oakland-train-stations
+#   - '"[](https://community.simtropolis.com/files/file/14932-hillside-glr-to-subway-transition-by-morifari/)"'
+# assets:
+#   - assetId: sm2-oakland-glr-stations
+
+# ---
+# assetId: sm2-oakland-glr-stations
+# version: "2.0.0"
+# lastModified: "2018-09-10T05:14:01Z"
+# url: https://community.simtropolis.com/files/file/32270-sm2-oakland-glr-stations/?do=download
