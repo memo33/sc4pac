@@ -1,0 +1,54 @@
+group: sm2
+name: hump-yard
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Hump Yard
+  description: |-
+    This lot is not for the faint of heart. It is massive, with a total tile length of 69 and a width at the widest point of 13 tiles.
+    Also this particular project is not your run of the mill freight yard, it is a fully fledged Hump Yard with all the trimmings and with a custom made RRW overlay and base texture set. I took every possible steps to ensure that almost all details of a real hump yard were replicated into this texture set, including the braking system (retarders) both the ones at the beginning and at the end of the hump yard and the oil stains on heavy usage areas.
+
+    Most train cars are timed so as to simulate activity during the game day/night.
+    Power and water are not necessary however if you want to see the models and street lights in action I suggest you connect a power source to the lot. Hump Yard 2 is modded as a freight yard therefore you will see freight trains leave the hump yard. You will also see freight trucks bring the goods into the yard for shipping.
+
+    There are 7 lots all together and they are the Base, Extension, Ramp, Main Yard 1, Main Yard 2, Main Yard 3 and Main Yard 4.
+
+    Being a Hump Yard or Classification Yard we will have to do a bit of terra-forming in order to have perfect lot placement results.
+  author: Simmer2, Bipin
+  website: https://community.simtropolis.com/files/file/30960-sm2-hump-yard/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Main.png.01b8c2bf619733dd116caf7d8fc16db6.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Main2.png.7cf6d831fa3c0ded9a93561e7a2547e0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Main3.png.fe2874eb4e75f6a3d05cb861d517a6d3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Main4.png.8e223b3455041f5b42bd3257584c3bde.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Main5.png.1aaa3e5e9f9dc6b2c642b572bdfe24bd.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Main6.png.9eba1afaf8541c71641a033c6110879b.png
+dependencies:
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol05
+  - girafe:berries
+  - girafe:chestnuts
+  - girafe:common-spruces
+  - girafe:daisy
+  - wmp:mega-props-vol-05
+  - murimk:industrial-mmp
+  - murimk:props-vol03-industrials
+  - peg:cdk3-sp-rail-fleet
+assets:
+  - assetId: sm2-hump-yard
+
+---
+assetId: sm2-hump-yard
+version: "1.0"
+lastModified: "2022-02-07T21:49:22Z"
+url: https://community.simtropolis.com/files/file/30960-sm2-hump-yard/?do=download
