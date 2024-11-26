@@ -1,4 +1,3 @@
-# TODO: part 2 is a mac fix. Verify how this works
 group: sm2
 name: valleymede-train-station
 version: "1.0"
@@ -24,17 +23,21 @@ dependencies:
   - bsc:vip-girafe-carpack-vol01-vol02
   - supershk:mega-parking-textures
 assets:
-  - assetId: sm2-valleymede-train-station-part-0
-  - assetId: sm2-valleymede-train-station-part-1
+  - assetId: sm2-valleymede-train-station
+    exclude:
+      - .*\.SC4Lot$
+  - assetId: sm2-valleymede-train-station-mac-fix
+    include:
+      - .*\.SC4Lot$
 
 ---
-assetId: sm2-valleymede-train-station-part-0
+assetId: sm2-valleymede-train-station
 version: "1.0"
 lastModified: "2023-09-08T01:41:07Z"
 url: https://community.simtropolis.com/files/file/32479-sm2-valleymede-train-station/?do=download&r=197571
 
 ---
-assetId: sm2-valleymede-train-station-part-1
+assetId: sm2-valleymede-train-station-mac-fix
 version: "1.0"
 lastModified: "2023-09-08T01:41:07Z"
 url: https://community.simtropolis.com/files/file/32479-sm2-valleymede-train-station/?do=download&r=197572
