@@ -1,5 +1,5 @@
-group: stex-custodian
-name: wmp-mega-textures
+group: wmp
+name: mega-textures
 version: "1.0.2"
 subfolder: 100-props-textures
 info:
