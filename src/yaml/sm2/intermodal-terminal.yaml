@@ -1,0 +1,46 @@
+group: sm2
+name: intermodal-terminal
+version: "3.0.0"
+subfolder: 700-transit
+info:
+  summary: Intermodal Terminal
+  description: |-
+    Intermodal Terminals are rail yards dedicated to the transportation of just about everything you can think of. 80% of a nation's product finds its way into our home trough many of these special yards.
+
+    Manufactured products are packaged and then placed into metal boxes especially designed for long hauls by ship and rail. These boxes are called containers and they come in many sizes but the most common ones are the 40 foot lengths. Containers are then loaded and unloaded in facilities such as these. Usually you find stacked containers in shipping container yards and they are staked by either cranes or reach stackers.
+
+    Intermodal yards mostly use mobile cranes that ride on special tracks, they straddle 2 or more train tracks and up to 2 road lanes where trucks pull up and either load or unload their containers. You won’t see reach stackers in these type of yards therefore you won’t find stored staked containers.
+
+    It was designed to be modular with a total of 10 separate lots. You can actually make a 26, 34, 42, or 50X20 tiles long terminal. there are this way so as to accommodate various sized maps. Up to you to build the size you need.
+
+    Just about all props, including the cranes are part of timed prop families therefore if you observe the terminal during a 24 hour game period you will see almost everything change in order to simulate activity.
+
+    The warehouse lot is designed to be different every time you plop it. Up to 5 different buildings are available. When you plop multiples of this lot, keep trying until you get all different buildings on the finished ensemble.
+
+    The left side lot is designed to be a freight yard therefore you will see freight trains leave this lot.
+
+    The rail pieces are designed to allow only freight trains to traverse the lot keeping things realistic.
+
+    The warehouse lot and the right side lot are designed to be medium wealth manufacturing thus your sims will gladly go to work there. Each one  - Provides 98 jobs
+
+    All rail and roads entry/exits will connect to RRW and road networks.
+
+    Please make sure you completely flatten the area you chose to place the lots.
+
+    You will find all 10 lots under the rail icon in game.
+
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/30999-sm2-intermodal-terminal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/Daytime.jpg.2b10efa32cf269c14ce22c86fdd79573.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/56ec3598b65cd_Mainpic.jpg.9e74a9c81bd7d3bd8b6efbf8aa2e611c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/7.png.02f2e1a67e0821a5464c8548396edf9d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/second.png.e4755c052e4d4a571e52b856c17095fb.png
+assets:
+  - assetId: sm2-intermodal-terminal
+
+---
+assetId: sm2-intermodal-terminal
+version: "3.0.0"
+lastModified: "2020-01-05T05:11:46Z"
+url: https://community.simtropolis.com/files/file/30999-sm2-intermodal-terminal/?do=download
