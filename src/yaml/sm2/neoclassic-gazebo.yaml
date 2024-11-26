@@ -1,0 +1,34 @@
+group: sm2
+name: neoclassic-gazebo
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Neoclassic Gazebo
+  description: |-
+    Just a 2X2 roundabout lot made to fit within the NAM's large roundabout.
+
+    It gives a bit of park effect
+
+     - Cost to plop: 2500
+     - Monthly fee: 10
+
+    Needs a tiny bit of power and water to function
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32795-sm2-neoclassic-gazebo/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/v20.jpg.31db039a7f3029ad841c1d3d3697a4eb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/v21.jpg.7a834cd290b0604ab64f675fb4ea4469.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/v22.jpg.7fca6a82b56def8bea012680dee74e49.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/v23.jpg.3f495933f9bab76cf664c84c035fc084.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol3
+  - girafe:cypresses
+assets:
+  - assetId: sm2-neoclassic-gazebo
+
+---
+assetId: sm2-neoclassic-gazebo
+version: "1.0"
+lastModified: "2019-03-16T02:40:49Z"
+url: https://community.simtropolis.com/files/file/32795-sm2-neoclassic-gazebo/?do=download
