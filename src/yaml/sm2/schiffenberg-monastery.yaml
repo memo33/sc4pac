@@ -16,7 +16,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/n68cq8.jpg.jpg.f5846756472f4af1b98a34c1034cda4d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/2ngrjv8.jpg.jpg.22e79a89fe91651b9303c5e78a7d6953.jpg
 dependencies:
-  - historic-monastery-props
+  - vortext:historic-monastery-props
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
   - bsc:textures-vol02
