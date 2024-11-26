@@ -1,0 +1,46 @@
+# Dependencies are not available on SC4Evermore yet, so unable to include this 
+# for now.
+# group: sm2
+# name: cidade-jardim-corporate-center
+# version: "2.0.0"
+# subfolder: 300-commercial
+# info:
+#   summary: Cidade Jardim Corporate Center
+#   description: |-
+#     This lot is a close reproduction of a famous office tower complex in Sao Paulo, Brazil.  
+#     The name of the complex is "Cidade Jardim Corporate Center" The complex is made out of office and residential buildings but in order to adapt it to SC4, only the office section is being depicted.
+
+#     The building models were made by our talented **JP Schriefer** and the lot, base texture and several props were made by me and are of course included in this download.  
+#     2 lots are included, one growable CO$$$ 8X9 with 2110 jobs and one Landmark 8X9 lot with jobs with the exact same stats as the growable.  
+#     Depending on the models you download, you can have either the Maxis Night or Dark Night versions **but not both**. Please follows the instructions provided on the building models download page.  
+#     In order to see the DN models in their full glory you must also download Simfox Day and Night Modd. Not required with the MN models.
+#   author: Simmer2
+#   website: https://community.simtropolis.com/files/file/31600-sm2-cidade-jardim-corporate-center/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2017_05/S10.jpg.f3ef3436f943a4cbefa49f8d6350f7c3.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2017_05/S11.jpg.61959ccf480e2ffe68bb752443e8fe76.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2017_05/S12.jpg.dc78f3c39baf08e5d2538fc2dcbfbf55.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2017_05/S13.jpg.916119b1a101b913f319055ad24d7ab3.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2017_05/S14.jpg.46d250ceaebd1bf2bccf2f13fd4028da.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2017_05/S20.png.ddb4b2ed1357517da744e9c824631e3a.png
+# dependencies:
+#   - girafe:chestnuts
+#   - girafe:beeches
+#   - girafe:berries
+#   - girafe:ashes
+#   - girafe:sparaxis
+#   - girafe:common-spruces
+#   - girafe:narcissus
+#   - bsc:vip-girafe-carpack-vol01-vol02
+#   - sm2:mega-prop-pack-vol1
+#   - https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3512
+#   - https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3514
+#   - https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3513
+# assets:
+#   - assetId: sm2-cidade-jardim-corporate-center
+
+# ---
+# assetId: sm2-cidade-jardim-corporate-center
+# version: "2.0.0"
+# lastModified: "2018-08-23T03:56:23Z"
+# url: https://community.simtropolis.com/files/file/31600-sm2-cidade-jardim-corporate-center/?do=download
