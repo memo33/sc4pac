@@ -1,0 +1,57 @@
+group: sm2
+name: arrow-cement-precast
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Arrow Cement Precast
+  description: |-
+    A cement precast company that makes tunnel sections to be used by those giant boring machines.
+
+    They also make other cement castings.
+
+    You can see the sample pre-assembled tunnel sections on the lot's ground
+
+    Complete with a rail served loading facility in order to ship the sections directly to the job site.
+
+    This lot is modded to be an Industrial Manufacturing facility and it  - Provides 425 jobs
+
+    The rail section can be attached to your RRW network, both freight and passenger trains will happily cross this lot with no issues.
+
+     - Lot size: 13x10
+     - Plop cost: 45000
+     - Bulldoze cost: 1800
+     - Power req: 35
+     - Water req: 120
+     - Provides 425 IM jobs
+
+    You can find it under the landmark menu.
+
+    This lot does not act as a freight yard.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32946-sm2-arrow-cement-precast/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/AC1.jpg.2d8ecb471c85ba6c1005d562803df0f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ac2.jpg.190bfd8c97451102ce1e2b7b51ab78d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ac3.jpg.d8b1211be7614c393fda35cba2f71b4a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ac4.jpg.a8ec355aaddd4c2d59529b75aee25349.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ac5.jpg.3bb413756b90320fee41484668e43eb5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ac6.jpg.6a22b6722dc1da91f08c1408edb1fcdd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ac7.jpg.03f85885d856431bee5892fe07dfc521.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ac8.jpg.62c0f014a7cb2d5f48ad62e7a51d1cf9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/AC9.jpg.c31a95cf4a43d815455ddfb489c6b96d.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-arrow-cement-precast
+
+---
+assetId: sm2-arrow-cement-precast
+version: "1.0"
+lastModified: "2019-12-02T06:10:36Z"
+url: https://community.simtropolis.com/files/file/32946-sm2-arrow-cement-precast/?do=download
