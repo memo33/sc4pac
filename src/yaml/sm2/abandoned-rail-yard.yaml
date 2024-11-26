@@ -1,0 +1,58 @@
+# TODO: Verify that aln flora props are correct.
+group: sm2
+name: abandoned-rail-yard
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Abandoned Rail Yard
+  description: |-
+    This is one massive lot so plan ahead regarding placement.
+
+    These gigantic facilities were pretty common around developed nations and were used to keep the nation's train fleets repaired and operational.
+
+    You can see tracks covered with dirt and vegetation dotting the lot due to the years of neglect.
+
+    Sometimes small companies take residents on these abandoned properties and use sections of it for their own purpose. You can also see salvage crews stripping the metal in some other areas.
+
+    The train master's house is also abandoned. just sitting in a corner while trees overgrow and cover the once beautiful lodge.
+
+     - Lot size: 22X14
+     - Plop cost: 45000
+     - Bulldoze cost: 15000
+     - Monthly property taxes: 85
+     - Power required: 28
+     - Water required: 12
+     - Provides 45 IM jobs
+
+    All streets and rail stubs will connect to their respective networks, visually only.
+
+    You will find it under the railway menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32505-sm2-abandoned-rail-yard/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ATS6.jpg.11c1f960e8429952b0f727bf471e2c5a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ATS5.jpg.84d7304f9465debca8fd9a3cc91a9f73.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ATS4.jpg.70c326d1f9c4b98e1a8102300874ee56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ATS3.jpg.0d908570c90b32dfca2d82b44f42c5cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ATS2.jpg.056a39735dafbd0e9900d31c3b3d2ccf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/ATS1.jpg.a0934066582ea7b03641d5423ea72ecc.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - aln:rrp-pasture-flora-props
+  - girafe:poplars
+  - girafe:daisy
+  - girafe:chestnuts
+  - girafe:beeches
+  - girafe:narcissus
+  - girafe:bushes
+  - girafe:common-spruces
+assets:
+  - assetId: sm2-abandoned-rail-yard
+
+---
+assetId: sm2-abandoned-rail-yard
+version: "1.0"
+lastModified: "2018-09-16T05:05:56Z"
+url: https://community.simtropolis.com/files/file/32505-sm2-abandoned-rail-yard/?do=download
