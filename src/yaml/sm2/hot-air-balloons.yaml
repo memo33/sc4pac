@@ -1,0 +1,36 @@
+group: sm2
+name: hot-air-balloons
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Hot Air Balloons
+  description: |-
+    6 different hot air balloons to embellish you maps.
+
+    They have no base texture therefore the lots can be disguised as anything. Leave it plain or use mmp to dress the lots to match whatever background you have.
+
+    Each one gives 250 R$-R$$-R$$$ relief and some park effect, also no power or water is required.
+
+     - Cost to plop: 100
+     - Monthly fee: 10
+
+    You will find them in the park menu.
+
+    Balloons heights differ from 40 meters to 250 meters.
+
+    They can be plopped on slopes and even on water so as to create ocean scenes.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32739-sm2-hot-air-balloons/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/bal10.jpg.7b4feb9b2fbdc533e638033fa6c06ece.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/bal11.jpg.af3632fa10f1ebce700aeeeeef22acd6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/ba1.jpg.d803677c8121d448b2451e4f303483ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/ba2.jpg.8eadc10c2706955630b99968e9c7cc5c.jpg
+assets:
+  - assetId: sm2-hot-air-balloons
+
+---
+assetId: sm2-hot-air-balloons
+version: "1.0"
+lastModified: "2019-02-02T22:46:59Z"
+url: https://community.simtropolis.com/files/file/32739-sm2-hot-air-balloons/?do=download
