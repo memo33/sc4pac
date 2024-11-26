@@ -1,0 +1,39 @@
+group: sm2
+name: am-radio-antenna
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: AM Radio Antenna
+  description: |-
+    A 640 feet radio antenna for your maps. I'm sure you have seen something similar somewhere near you.
+
+    Complete with support anchors and steel cables.
+
+    You will find it under the Landmark menu.
+
+     - Lot size: 1x1 (Overhanging)
+     - Plop cost: 3000
+     - Bulldoze cost: 40
+     - Maintenance: 10
+     - Power req: 0
+     - Water req: 0
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33008-sm2-am-radio-antenna/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/an1.jpg.7a8cdc6189b9a63b541371d0b5e5015d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/an2.jpg.99e8e4083b518fffbc6e9dd083df3431.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/an3.jpg.25acfdae2108aea1b6aa6fd6636fb37e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/an4.jpg.ba18be38159b7c4e64d95df30119fe84.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/an5.jpg.ea09a1773d44f3c6776ead189af4ec39.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/an6.jpg.dd43aed55c1b8ad42d3f6b27e882dc23.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/an7.jpg.0d99bbb78fd154325287be0e9ce27a98.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol4
+assets:
+  - assetId: sm2-am-radio-antenna
+
+---
+assetId: sm2-am-radio-antenna
+version: "1.0"
+lastModified: "2019-12-02T05:58:09Z"
+url: https://community.simtropolis.com/files/file/33008-sm2-am-radio-antenna/?do=download
