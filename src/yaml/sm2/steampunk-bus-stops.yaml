@@ -1,0 +1,30 @@
+group: sm2
+name: steampunk-bus-stops
+version: "3.0.0"
+subfolder: 700-transit
+info:
+  summary: Steampunk Bus Stops
+  description: |-
+    Just a few bus stops...steampunk style !
+
+    4 in total. Great for industrial areas!
+
+     - Lot size: 1x1
+     - Plop cost: = 150
+     - Capacity: = 7500
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32230-sm2-steampunk-bus-stops/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/5add68dfdb64d_Busstops.jpg.f0e1e9809052a0216c2a7cda969605c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/5add694424afa_SM2BusStopscopy.jpg.a4f067802750da340f331e9adb07c819.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol2
+  - vip:delecto-ploppable-people
+assets:
+  - assetId: sm2-steampunk-bus-stops
+
+---
+assetId: sm2-steampunk-bus-stops
+version: "3.0.0"
+lastModified: "2018-10-16T19:41:05Z"
+url: https://community.simtropolis.com/files/file/32230-sm2-steampunk-bus-stops/?do=download
