@@ -1,0 +1,30 @@
+group: sm2
+name: abandoned-train-stop
+version: "3.0.0"
+subfolder: 700-transit
+info:
+  summary: Abandoned Train Stop
+  description: |-
+    Best plopped in those seedy parts of town....or industrial areas perhaps.
+
+     - Plop cost: 3000
+     - Bulldoze cost: 300
+     - Power req: 44
+     - Capacity: 7500
+
+    It still acts as a passenger station plus it will let freight trains go through it.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31573-sm2-abandoned-train-stop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/1.jpg.d638a423bd8f8e030390ccfbf6b54650.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/3.jpg.db7267daafd01d35fea684a4ddd49ac5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/4.jpg.b13b333b34a2da1b716e5f87e5b6547c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/nduu44.jpg.addd48b493946133b66705c9d057cd19.jpg
+assets:
+  - assetId: sm2-abandoned-train-stop
+
+---
+assetId: sm2-abandoned-train-stop
+version: "3.0.0"
+lastModified: "2021-04-18T22:06:16Z"
+url: https://community.simtropolis.com/files/file/31573-sm2-abandoned-train-stop/?do=download
