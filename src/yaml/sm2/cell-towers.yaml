@@ -1,0 +1,29 @@
+group: sm2
+name: cell-towers
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: Cell Towers
+  description: |-
+    A few cell towers in HD with nightlights for you to play with.
+
+    No cost to plop, bulldoze or maintain.
+
+    No power or water required.
+
+    They will give a bit of park effect.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31392-sm2-cell-towers/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/583c769008d30_CellTowersDay.jpg.a93456c4a9a10984f16eb0378421951d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/583c7697db1f8_CellTowersNight.jpg.f7a432ebcb0f32f514a3ebac6737a3d5.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+assets:
+  - assetId: sm2-cell-towers
+
+---
+assetId: sm2-cell-towers
+version: "2.0.0"
+lastModified: "2018-08-23T03:53:55Z"
+url: https://community.simtropolis.com/files/file/31392-sm2-cell-towers/?do=download
