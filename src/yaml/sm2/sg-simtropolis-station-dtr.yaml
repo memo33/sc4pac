@@ -1,0 +1,49 @@
+group: sm2
+name: sg-simtropolis-station-dtr
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: SG SimTropolis Station DTR
+  description: |-
+    This is a remake of `pkg=sg:simtropolis-train-station`.
+    This is the DTR (Double Track Rail) version a Single Track Rail version is available here: `pkg=sm2:sg-simtropolis-station-str`.
+
+     - Lot size: 14X8
+     - Capacity: 62500
+
+    It provides some jobs, acts as a bus hub and a parking lot as well.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31144-sm2-sg-simtropolis-station-dtr/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/1day11544.jpg.6ddc7eeb74c813961a2355883cd7d6fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/2.jpg.275c929db749a34abea33c0b3f416a2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/3.jpg.6b012b6dac736f92b1e8f25451829e75.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/4.jpg.55470c063d0df44add95c404b465f28c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/5.jpg.012a6d0580b80ba42d736d92c6ecf09f.jpg
+dependencies:
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - sm2:mega-prop-pack-vol1
+  - girafe:elms
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - blanco:train-prop-pack
+  - namspopof:props-pack-vol1
+  - namspopof:props-pack-vol2
+  - sg:simtropolis-train-station
+  - supershk:mega-parking-textures
+  - murimk:props-vol03-industrials
+  - peg:security-fencing-kit
+  - vip:vnaoned-props-pack-vol01
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - simcityfreak666:european-busses-prop-pack-vol1
+  - mikeseith:yellow-taxi-props
+assets:
+  - assetId: sm2-sg-simtropolis-station-dtr
+
+---
+assetId: sm2-sg-simtropolis-station-dtr
+version: "1.0"
+lastModified: "2018-08-23T04:28:49Z"
+url: https://community.simtropolis.com/files/file/31144-sm2-sg-simtropolis-station-dtr/?do=download
