@@ -1,0 +1,36 @@
+group: sm2
+name: greenwood-sunken-station
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Greenwood Sunken Station
+  description: |-
+    A -7.5 meters sunken Train Station. First of its kind.
+
+    To be used in a -7.5m trench. Use the dig tool and set it at -7.5m to achieve the desired depth, then place the station and dress the sides of the trench with your favorite walls.
+
+     - Lot size: 1x3
+     - Plop cost: 9000
+     - Bulldoze cost: 500
+     - Power req: 12
+     - Water req: 5
+     - **Station Capacity 47500**
+
+    You will find it under the rail menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33137-sm2-greenwood-sunken-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/gre1.jpg.40bbb3f2af6e47919460b7908162a275.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/gre2.jpg.38052be4fc067f47b724f98e8aa6f1ba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/gre3.jpg.503785efb6b0ba273a6ba8c76b00dfe5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/gre4.jpg.3b314d30580c19bdc806d259d7c8112c.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol4
+assets:
+  - assetId: sm2-greenwood-sunken-station
+
+---
+assetId: sm2-greenwood-sunken-station
+version: "1.0.0"
+lastModified: "2019-12-02T05:28:36Z"
+url: https://community.simtropolis.com/files/file/33137-sm2-greenwood-sunken-station/?do=download
