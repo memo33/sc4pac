@@ -1,0 +1,43 @@
+group: sm2
+name: kinetic-wave-energy
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: Kinetic Wave Energy
+  description: |-
+    This is based on a real machine. Its actually being installed in many places around the world to complement wind powered turbines.
+
+    It works by harnessing the awesome power of sea waves, a never ending source of kinetic energy. All green renewable energy.
+
+    It plops entirely on water. This pack includes a special made buoy which will be needed to bring the power to shore. Turn on your power view and plop the buoy every 5 tiles. You will see the power being transferred by watching the green tiles light up.
+
+    Use SM2's power pack lots to simulate a transformer station on shore. Follow the instructions on that pack for best visual results.
+
+     - Cost to plop: 40000
+     - Power produced: 6000
+     - Power buoy plop cost: 10
+     - Life expectancy: 100 years at full production.
+
+    Find it under the power menu
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32814-sm2-kinetic-wave-energy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/KWE1.jpg.f6da9e46bd3ccf633acb7966c552d362.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/KWE2.jpg.31bbc8ed6ce1d2629ddd47252a31e445.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/KWE3.jpg.fd0ce3b52c85b14edd6b443c8f0cb098.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/KWE4.jpg.069e7e189addef6aa88997e29aae3054.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/KWE10.jpg.03cb4f3f14753ddc67d8cc6d5e5a1032.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/KWE11.jpg.de901337a8d74f6fd2188e4137006705.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/KWE12.jpg.f2b0ecca19f56d199cc8c201306155e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/KWE13.jpg.e9b3bb07ac2cecbba773785c907f8033.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol3
+  - sm2:power-pack
+assets:
+  - assetId: sm2-kinetic-wave-energy
+
+---
+assetId: sm2-kinetic-wave-energy
+version: "1.0"
+lastModified: "2019-03-21T17:11:53Z"
+url: https://community.simtropolis.com/files/file/32814-sm2-kinetic-wave-energy/?do=download
