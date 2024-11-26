@@ -1,0 +1,52 @@
+group: sm2
+name: rail-service-yard-1
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Rail Service Yard 1
+  description: |-
+    Every time you plop this lot some of the train cars will change configurations, furthermore, the service rail line (the one nearest the gravel road) will display 2 different convoys.
+
+    Between 5am and 1pm you get the tanker cars and the first shift repair crew.
+    One of the tanker blew the air brakes and you can see the crew making that repair.
+
+    Between 2Pm and 4am you will get a convoy of train cars loaded with beets but one of the wagons has a very serious issue.
+    The left front axle bearing retainers broke apart shearing the massive bolts therefore a crane had to be called in to lift the wagon onto a flatbed truck and bring it to a better equipped repair facility (I think they will write it off).
+
+    80% of the other train cars will appear and disappear according to preset times throughout the day in order to simulate activity
+
+    It is fully rail transit enabled, just run the STR rail through it and watch both passenger and freight trains run across the lot.
+
+    It requires power and water. It also provides 38 jobs.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31129-sm2-rail-service-yard-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/S1.jpg.9dbda4dd3359c227b1445e3fe0ec6af1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/S2.jpg.f04e32fef02322a7101404053d355d50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/S3.jpg.ea4d986240bd05f800f96bd5e441bc9b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/S4.jpg.a695afad69d9b767e69147543d76fe31.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/S6.jpg.6674fcf83448ae703c305179a5e3bba2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_06/S5.jpg.89c7e263923f29a08bd069ba2f5944db.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-t1-vol03
+  - sm2:mega-prop-pack-vol1
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - namspopof:props-pack-vol2
+  - peg:cdk3-vehicle-pack-1
+assets:
+  - assetId: sm2-rail-service-yard-1
+
+---
+assetId: sm2-rail-service-yard-1
+version: "2.0.0"
+lastModified: "2018-08-23T03:49:23Z"
+url: https://community.simtropolis.com/files/file/31129-sm2-rail-service-yard-1/?do=download
