@@ -1,0 +1,37 @@
+group: rretail
+name: pathmark
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Pathmark
+  description: |-
+    Pathmark- as it would be eventually be called- was founded in 1968 as an independent supermarket chain. Perhaps better known as a chain, Pathmark once operated a chain of supermarkets throughout the New York, New Jersey, Connecticut, Pennsylvania, Delaware, and Maryland. The company would later be purchased by competing supermarket chain A&P in 2007.
+
+    Due to A&P’s 2015 bankruptcy, all Pathmark stores were liquidated and closed. The intellectual property is now owned by Allegiance Retail Services, a retailers’ cooperative headquartered in Iselin, NJ. Pathmark currently operates one location in East Flatbush, Brooklyn, NY.
+
+    374 jobs on a 7x8 lot
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/34661-pathmark/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6126bc43d9a87_RRPathmarkB.jpg.aa7b7600bee6336380780373b0eedc5b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6126bc4471c03_RRPathmark.jpg.b3d4b463db7e2bc86dab51f423de2cfb.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:narcissus
+assets:
+  - assetId: rretail-pathmark
+
+---
+assetId: rretail-pathmark
+version: "1.1"
+lastModified: "2021-11-17T22:16:39Z"
+url: https://community.simtropolis.com/files/file/34661-pathmark/?do=download
