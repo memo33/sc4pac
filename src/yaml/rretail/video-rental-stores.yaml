@@ -1,0 +1,43 @@
+group: rretail
+name: video-rental-stores
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Video Rental Stores
+  description: |-
+    Blockbuster Video, officially known as Blockbuster LLC, was a chain video rental shops that provided movie and video game rental services. Before the chain would declare bankruptcy in 2010, it had expanded to offer alternatives such as DVD-by-mail, streaming, video on demand, and cinema theater. At its peak in 2004 and operating by Blockbuster Entertainment, Inc. at the time, Blockbuster consisted of 9,094 stores in the United States and internationally. The combination of poor leadership, the Great Recession and the rise of Redbox, Netflix and other streaming services would lead the chain down a path would see Dish Network purchasing the remaining 1,700 locations out of bankruptcy. Dish would eventually close the company-owned locations in 2014. Franchises, however; continued to operate as normal although in time all but one would cease operations. That one location is in Bend, Oregon.
+
+    Hollywood Video, started in 1988 and was a home video and video game rental company. The chain served as the largest direct competitor to Blockbuster Video until it was aqquired by Movie Gallery in 2005.
+
+    Movie Gallery, Inc. was the second largest movie and game rental company in the United States and Canada, behind Blockbuster Video. The company rented and sold Blu-ray Discs, DVDs, VHS tapes, and video games. Founded in Dothan, AL, the company would later move its headquarters to in Wilsonville, OR. Movie Gallery at its peak had about 4,700 stores in North America, operating mainly under the Movie Gallery, Hollywood Video, and GameCrazy brands. The last of the company's stores were closed in August 2010. Movie Gallery itself tended to serve rural areas, while Hollywood Video would serve urban areas. A few locations would later reopen by two different independent individuals who acquired the rights to the name in their respective state.
+
+    In 1946, Clarence Hoogland founded Midstates Appliance and Supply Company. His son Charles Hoogland would inherit the business in 1953 and would become a distributor for Magnetic Video. After getting stuck with a large inventory of extra video movies in the late 1970s, Charles created the Video Movie Club in Springfield, IL in 1978. The club originally charged a $25 membership fee and $5 rental fee, which would go on to create Family Video proper. With Blockbuster focusing on larger cities, Family Video would target rural areas, suburbs, and small-to-midsize cities. Family Video relocated its headquarters in 2003 from Springfield to Glenview, IL. With Blockbuster having closed almost all of its remaining stores by 2014 and Hastings Entertainment liquidated in 2016, Family Video would become the only surviving video rental chain in the United States. The company found success by owning its properties which allowed for partnerships with Marco’s Pizza. It would also lease space to other retailers at its stores when it could. Unlike other rental chains, Family Video bought and owned all the movies it rented out to customers. Family Video expanded its operation to include the Canadian market in 2012. Although the chain would see some locations close prior to the arrival of Covid-19, it would ultimately suffer to many loses as a result of the pandemic which led all remaining stores to close.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35047-rr-video-rental-stores/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6251e6a3d53b3_RRBlockbusterVideo.jpg.00f366c4f42b8670a9ddb08bfd2a9f98.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6251e6a5193a5_RRFamilyVideo.jpg.8ede05da14f24b40357bcd4be9c7b07c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6251e6a62c4dc_RRHollywoodVideo.jpg.b0083c7559a090eec7dd96fa08a1b0e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6251e6a769763_RRMovieGallery.jpg.972a1ad06d7f983240e7395ce41ee7e2.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-video-rental-stores
+
+---
+assetId: rretail-video-rental-stores
+version: "1.0.0"
+lastModified: "2022-04-09T20:06:15Z"
+url: https://community.simtropolis.com/files/file/35047-rr-video-rental-stores/?do=download
