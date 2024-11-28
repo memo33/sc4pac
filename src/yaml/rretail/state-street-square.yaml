@@ -1,0 +1,54 @@
+group: rretail
+name: state-street-square
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: State Street Square
+  description: |-
+    Another more modern style of development anchored by Lidl.
+
+    Other brands include
+
+    -   Bath & Body Works
+    -   Noodles and Company
+    -   Eyemart
+    -   Batteries & Bulbs
+    -   Zoe’s Kitchen OR Cava\*
+    -   A&W at a convenience store outparcel
+
+    10x10 lot with 338 CS-$$$ jobs.
+
+    By default, Zoe’s Kitchen is used. Since many Zoe’s locations have been replaced by Cava IRL, a second prop building is included that uses Cava instead of Zoe’s Kitchen.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35237-state-street-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62e178df30071_RRStateStreetSquareA.jpg.6100ede5804f94ea55e14fc4b925c7f5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62e178e0e6380_RRStateStreetSquareB.jpg.83e283de3a6439e64ba3b43c1fb11907.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-state-street-square
+
+---
+assetId: rretail-state-street-square
+version: "1.0.0"
+lastModified: "2022-07-27T17:43:55Z"
+url: https://community.simtropolis.com/files/file/35237-state-street-square/?do=download
