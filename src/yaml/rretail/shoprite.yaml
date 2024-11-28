@@ -1,0 +1,40 @@
+group: rretail
+name: shoprite
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: ShopRite
+  description: |-
+    Headquartered in Keasbey, NJ, ShopRite consists of 50 individually owned and operated affiliates with over 300 stores spread across Connecticut, Delaware, Maryland, New Jersey, New York, and Pennsylvania. Wakefern Food Corporation operates a distribution arm that serves all ShopRite locations.
+
+    Wakefern itself operates 28 locations through its subsidiary ShopRite Supermarkets making it the largest affiliate within the cooperative. Several Wakefern members own and operate just one individual ShopRite store. On average, most members own six stores.
+
+    10x13 lot with around 728 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/34783-shoprite/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/61b7bd692cfac_RRShopRite.jpg.b82449ad8fd80d04693e645ed8fd0499.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-shoprite
+
+---
+assetId: rretail-shoprite
+version: "1.0.0"
+lastModified: "2021-12-13T21:40:42Z"
+url: https://community.simtropolis.com/files/file/34783-shoprite/?do=download
