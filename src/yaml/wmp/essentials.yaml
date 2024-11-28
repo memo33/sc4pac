@@ -10,18 +10,30 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbdd9244bb2_WMPEssentials.jpg.dd3230029af5130cfe134bb921ad791f.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbdd94de456_WMPEssentials01.jpg.df0e06940c1a04c18670ef3b7278b547.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbdd9685da1_WMPEssentials02.jpg.6b0cd032a598b827cbc172090d896016.jpg
+assets:
+  - assetId: wmp-essentials-v101
+    include:
+      - /WMP/
+
 variants:
   - variant: { driveside: right }
-    assets:
-      - assetId: wmp-essentials-v101
-        include: 
-          - /WMP/
   - variant: { driveside: left }
-    assets:
-      - assetId: wmp-essentials-v101
-        include:
-          - /WMP/
-          - /z___zWMP_LHD_Paths.dat
+    dependencies:
+      - wmp:essentials-lhd
+
+---
+group: wmp
+name: essentials-lhd
+version: "1.0.1"
+subfolder: 900-overrides
+info:
+  summary: WMP Essentials LHD override
+  author: DocRorlach, WMP team, xxdita, Tyberius06
+  website: https://community.simtropolis.com/files/file/33620-wmp-essentials-v101/
+assets:
+  - assetId: wmp-essentials-v101
+    include:
+      - /z___zWMP_LHD_Paths.dat
 
 ---
 assetId: wmp-essentials-v101
