@@ -1,0 +1,83 @@
+group: rretail
+name: gateway-shopping-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Gateway Shopping Center
+  description: |-
+    In order to make a grid-busting shopping center with a southeastern tenant roster, 15 lots were used to create this shopping center loosely inspired by the Nesconset Shopping Center in Port Jefferson Station, NY. Please note that some lots have overhanging props on them.
+
+    **Brands featured include:**
+
+    Bealls Outlet/Homecentric
+    Badcock Home Furniture
+    West Marine
+    CSL Plasma
+    Popshelf
+    Pet Supermarket
+    It's Fashion Metro
+    Burn Boot Camp
+    City Gear
+    Bricks & Minifigs
+    The Athlete's Foot
+    Humana
+    CORA Physical Therapy
+    American Deli
+    Your Pie Pizza
+    Chicken Salad Chick
+    Hertz Rent-a-car
+    Check 'n Go
+
+    Captain D's; Jack's; and a BP gas station serve as outparcels.
+
+    **Lots:**
+
+    A: 1 x 1 lot
+    B: 3 x 2 lot
+    C: 3 x 5 lot
+    D: 2 x 2 lot
+    E: 4 x 8 lot
+    F: 7 x 12 lot with 649 jobs
+    G: 1x1 lot
+    H: 3x5 lot
+    I: 2x1 lot
+    J: 4x8 lot
+    K: 1x1 lot
+    L: 2x3 lot
+    M: 1x2 lot
+
+    Lots N & O are both 1x1 filler lots for concrete and sidewalk textures.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35421-gateway-shopping-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c58cf89394b_RRGatewayShoppingCenterA.jpg.72e6beec9e43a19dd6dad69e67e89bbe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c58cf9e5bff_RRGatewayShoppingCenterB.jpg.21360fd40cf1b9f8eb9a5a4f1946099e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c58cfb00710_RRGatewayShoppingCenterC.jpg.6334429a038bfc1d9f628bc884f4fff6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c58cfbd70d1_RRGatewayShoppingCenterD.jpg.9aedcb6d65d95b1f6fb5f748939c6215.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c58cfcdfe85_RRGatewayShoppingCenterE.jpg.4a7d40b8817d9e79e35fd2dfac4e2767.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c58cfe04bbd_RRGatewayShoppingCenterF.jpg.eb82f55270312e3045e28dcc6ec15546.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c58cff1564f_RRGatewayShoppingCenterG.jpg.592836d87a129e1f0a0a008e65e71731.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - kingofsimcity:logistics-essentials
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-gateway-shopping-center
+
+---
+assetId: rretail-gateway-shopping-center
+version: "1.0.0"
+lastModified: "2023-01-16T17:52:52Z"
+url: https://community.simtropolis.com/files/file/35421-gateway-shopping-center/?do=download
