@@ -1,0 +1,87 @@
+group: rretail
+name: grand-central-plaza
+version: "1.0.1"
+subfolder: 300-commercial
+info:
+  summary: Grand Central Plaza
+  description: |-
+    A 4 lot complex of a more urban styled shopping center loosely inspired by the Arlington Plaza in Akron, OH.
+
+    **Brands featured include:**
+
+    -   Shopper's World
+    -   Forman Mills
+    -   REGAL Cinemas
+    -   Crunch Fitness
+    -   Aldi
+    -   Citi Trends
+    -   ACE Hardware
+    -   Octapharma Plasma
+    -   Empire Beauty School
+    -   Kids for Less
+    -   Petland
+    -   Avis/Budget Rental
+    -   Foot Locker
+    -   Madrag
+    -   Ashley Stewart
+    -   Rainbow
+    -   DTLR (Downtown Locker Room)
+    -   Dickey's BBQ Pit
+    -   Wayback Burgers
+    -   PNC Bank
+    -   UPS Store
+    -   Domino's
+    -   Dashmart by Doordash
+    -   Royal Nails (generic)
+    -   Ready Repair (generic)
+    -   Fresh Start Yoga (generic)
+
+    Popeye's and Bruster's serve as outparcels.
+
+    **Lots:**
+
+    -   Back:  15 x 9 lot
+    -   Left: 6 x 15 lot
+    -   Center: 9 x 15 lot with 783 jobs
+    -   Right: 7x19 lot
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35315-grand-central-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_10/634ed85c30cee_RRGrandCentralPlazaA.jpg.6895e821450cc09b49db4094489e7f2f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_10/634ed85d5ee72_RRGrandCentralPlazaB.jpg.9bedeebce71eea10355e7352c516e54c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_10/634ed85ec7c46_RRGrandCentralPlazaC.jpg.11aa846b51ca881ae2de90a6c80ccea9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_10/634ed85fe8a78_RRGrandCentralPlazaD.jpg.20a70a43e780cc2b340ad07b4c2bde46.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_10/634ed86211cdb_RRGrandCentralPlazaE.jpg.093e3ac2e38014c6345182a96cbbec95.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_10/634ed8640dcdc_RRGrandCentralPlazaF.jpg.47362bb8e4fb9b5689ba0c2186420ed7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_10/634ed86544f3c_RRGrandCentralPlazaG.jpg.345ae37e00a048b71054ff8248e9b2d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_10/634ed866d1bd9_RRGrandCentralPlazaH.jpg.ffb81ada01a54314681ae2740553c242.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - kingofsimcity:logistics-essentials
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-grand-central-plaza
+
+---
+assetId: rretail-grand-central-plaza
+version: "1.0.1"
+lastModified: "2022-10-19T13:37:53Z"
+url: https://community.simtropolis.com/files/file/35315-grand-central-plaza/?do=download
