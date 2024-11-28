@@ -1,0 +1,26 @@
+group: rretail
+name: strip-mall-6
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: "Strip Mall #6"
+  description: |-
+    A simple low tier strip mall.
+
+    4x3 lot with 71 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35280-strip-mall-6/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/63050fb080228_RRStripMall6PiedmontPlaza.jpg.decd87c90a1781bf8c736220ec234c73.jpg
+dependencies:
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+assets:
+  - assetId: rretail-strip-mall-6
+
+---
+assetId: rretail-strip-mall-6
+version: "1.0.0"
+lastModified: "2022-08-23T17:37:24Z"
+url: https://community.simtropolis.com/files/file/35280-strip-mall-6/?do=download
