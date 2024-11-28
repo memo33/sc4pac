@@ -40,7 +40,7 @@ dependencies:
   - girafe:chestnuts
   - girafe:common-spruces
   - girafe:daisy
-  - wmp:mega-props-vol-05
+  - wmp:mega-props-vol05
   - murimk:industrial-mmp
   - murimk:props-vol03-industrials
   - peg:cdk3-sp-rail-fleet

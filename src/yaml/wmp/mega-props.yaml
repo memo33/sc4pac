@@ -49,7 +49,7 @@ url: "https://community.simtropolis.com/files/file/33622-wmp-mega-props-vol-02-m
 
 ---
 group: wmp
-name: mega-props-vol-05
+name: mega-props-vol05
 version: "1.0.0"
 subfolder: 100-props-textures
 info:
@@ -63,10 +63,10 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe51172357_WMPmegapackvol5-railyardandfreightprops.jpg.9b6b0c8db28aa9a9f99c7e28a076e0a3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe5134da46_WMPmegapackvol5-smallrailprops.jpg.30b07c599cac315892c7097fec5ffca1.jpg
 assets:
-  - assetId: stex-custodian-wmp-mega-props-vol-05-railway-props
+  - assetId: wmp-mega-props-vol-05-railway-props
 
 ---
-assetId: stex-custodian-wmp-mega-props-vol-05-railway-props
+assetId: wmp-mega-props-vol-05-railway-props
 version: "1.0.0"
 lastModified: "2020-05-25T15:33:00Z"
 url: https://community.simtropolis.com/files/file/33625-wmp-mega-props-vol-05-railway-props/?do=download
