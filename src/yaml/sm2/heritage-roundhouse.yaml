@@ -1,56 +1,59 @@
-# TODO: Check dependencies on SC4Evermore
-# group: sm2
-# name: heritage-roundhouse
-# version: "2.0.0"
-# subfolder: 400-industrial
-# info:
-#   summary: Heritage Roundhouse
-#   description: |-
-#     In the past, rail roundhouses were extensively used all over North America as a repair facility for trains, specifically locomotives. They were designed with that characteristic roundish design in order to take less real estate when building a train repair facility. Coupled with a massive turntable, they greatly decreased a rail yard footprint.  There are a few still in operation (very few) and they are mostly used to house old and retired locomotives donated by railway companies. Sort of like a museum for engines. Some have been converted into retail space while keeping the nostalgic feel of days gone past by displaying old engines and equipment on the front of the building.
+group: sm2
+name: heritage-roundhouse
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Heritage Roundhouse
+  description: |-
+    In the past, rail roundhouses were extensively used all over North America as a repair facility for trains, specifically locomotives. They were designed with that characteristic roundish design in order to take less real estate when building a train repair facility. Coupled with a massive turntable, they greatly decreased a rail yard footprint.  There are a few still in operation (very few) and they are mostly used to house old and retired locomotives donated by railway companies. Sort of like a museum for engines. Some have been converted into retail space while keeping the nostalgic feel of days gone past by displaying old engines and equipment on the front of the building.
 
-#     This lot represents months of preparations and lots of specific props making. Together with a detailed and realistic custom base texture, I tried to capture reality as much as possible.
+    This lot represents months of preparations and lots of specific props making. Together with a detailed and realistic custom base texture, I tried to capture reality as much as possible.
 
-#     The lot is 14X14 and is designed to allow either freight and passenger trains to cross the DTR section at the bottom of the lot, the other rail exits/entries will only connect visually and so will the street stubs.
+    The lot is 14X14 and is designed to allow either freight and passenger trains to cross the DTR section at the bottom of the lot, the other rail exits/entries will only connect visually and so will the street stubs.
 
-#      - Plop cost: 45,000
-#      - Bulldoze cost: 4,500
-#      - Power consumed: 190
-#      - Water consumed 120
-#      - Maintenance cost: 220/month
+     - Plop cost: 45,000
+     - Bulldoze cost: 4,500
+     - Power consumed: 190
+     - Water consumed 120
+     - Maintenance cost: 220/month
 
-#     It will also provide 34 jobs.
+    It will also provide 34 jobs.
 
-#     You will find it under the rail menu.
+    You will find it under the rail menu.
 
-#     This lot makes use of an extensive array of timed props with multiple angle designs in order to achieve a sort of animation with HD props. There are also many other timed props so that the lot looks livelier throughout the day. Action starts at 7am and keeps going until 6pm (closing time) after that time the lot will look empty because everyone has gone home but for one person and one vehicle, the night security guard on the left lower rail hut area.
+    This lot makes use of an extensive array of timed props with multiple angle designs in order to achieve a sort of animation with HD props. There are also many other timed props so that the lot looks livelier throughout the day. Action starts at 7am and keeps going until 6pm (closing time) after that time the lot will look empty because everyone has gone home but for one person and one vehicle, the night security guard on the left lower rail hut area.
 
-#     From time to time you may see overlapping timed props, especially at the turntable sequence, this is due to game lag and depending on the speed of your processor you may or may not see it. Wait a few game days and it will correct itself.
-#   author: Simmer2
-#   website: https://community.simtropolis.com/files/file/31555-sm2-heritage-roundhouse/
-#   images:
-#     - https://www.simtropolis.com/objects/screens/monthly_2017_04/RH1-11.jpg.2ad8004340a66f8066c08ce2df12c548.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2017_04/2.jpg.22d72265b3f0b523787029b352ad87d1.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2017_04/3.jpg.62b3a79c76de92d7206ff6b594fb9eae.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2017_04/4.jpg.163fd29d0d6a5b2a753083a22fd1503a.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2017_04/5.jpg.177dd3551c26f44554f7002dee373c3c.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2017_04/6.jpg.e9828aab188e37f1b3721b8f24a66314.jpg
-# dependencies:
-#   - girafe:beeches
-#   - girafe:walnut-trees
-#   - girafe:common-spruces
-#   - girafe:berries
-#   - girafe:chestnuts
-#   - girafe:narcissus
-#   - girafe:sparaxis
-#   - bsc:mega-props-t1-vol03
-#   - sm2:mega-prop-pack-vol1
-#   - '"[https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotget=3472](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3472)"'
-#   - '"[https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotget=3477](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3477)"'
-# assets:
-#   - assetId: sm2-heritage-roundhouse
+    From time to time you may see overlapping timed props, especially at the turntable sequence, this is due to game lag and depending on the speed of your processor you may or may not see it. Wait a few game days and it will correct itself.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31555-sm2-heritage-roundhouse/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/RH1-11.jpg.2ad8004340a66f8066c08ce2df12c548.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/2.jpg.22d72265b3f0b523787029b352ad87d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/3.jpg.62b3a79c76de92d7206ff6b594fb9eae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/4.jpg.163fd29d0d6a5b2a753083a22fd1503a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/5.jpg.177dd3551c26f44554f7002dee373c3c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/6.jpg.e9828aab188e37f1b3721b8f24a66314.jpg
+dependencies:
+  - girafe:beeches
+  - girafe:walnut-trees
+  - girafe:common-spruces
+  - girafe:berries
+  - girafe:chestnuts
+  - girafe:narcissus
+  - girafe:sparaxis
+  - bsc:mega-props-t1-vol03
+  - sm2:mega-prop-pack-vol1
+  - bsc:vdk-gevo-props
+  - bsc:vdk-gevo-textures-props-p1
+  - bsc:vdk-gevo-textures-props-p2
+  - bsc:vdk-gevo-textures-props-p3
+  - bsc:vdk-gevo-textures-props-p4
+  - bsc:vdk-gevo-textures-props-p5
+assets:
+  - assetId: sm2-heritage-roundhouse
 
-# ---
-# assetId: sm2-heritage-roundhouse
-# version: "2.0.0"
-# lastModified: "2018-08-23T04:05:19Z"
-# url: https://community.simtropolis.com/files/file/31555-sm2-heritage-roundhouse/?do=download
+---
+assetId: sm2-heritage-roundhouse
+version: "2.0.0"
+lastModified: "2018-08-23T04:05:19Z"
+url: https://community.simtropolis.com/files/file/31555-sm2-heritage-roundhouse/?do=download
