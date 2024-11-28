@@ -1,0 +1,43 @@
+group: rretail
+name: video-stores-recycled
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Video Stores Recycled
+  description: |-
+    It only feels proper to give those video stores another use after they closed their doors.
+
+     - Hollywood Video to Advance Auto Parts
+     - Family Video to Dollar General
+     - Movie Gallery to Carquest Auto Parts
+     - Blockbuster Video to PetSense
+
+    Lots are intentionally designed to be the same layout as the video stores.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35052-rr-video-stores-recycled/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/625492dd1ec9c_RRAdvanceAutoParts.jpg.6114f566a2c2d733c1dc246c1a933df4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/625492de16436_RRCarquest.jpg.f2ab17a8371be92ba8fffa5cd691f5bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/625492df01b79_RRFamilyVideoRecycled.jpg.abd88d91426fd921ddd165ec2ff3df8e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/625492e006d9b_RRPetsense.jpg.82c06f4c416a162ae84ad26c79d735e2.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+assets:
+  - assetId: rretail-video-stores-recycled
+
+---
+assetId: rretail-video-stores-recycled
+version: "1.0.0"
+lastModified: "2022-04-11T20:45:18Z"
+url: https://community.simtropolis.com/files/file/35052-rr-video-stores-recycled/?do=download
