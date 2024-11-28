@@ -36,6 +36,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_08/crpufonight.jpg.1110f1ce35399c24f9786e2f3f1c571c.jpg
 assets:
   - assetId: sm2-crop-circles-vol1
+dependencies:
+  - maxis:buildings-as-props
 
 ---
 assetId: sm2-crop-circles-vol1
