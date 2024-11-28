@@ -9,702 +9,702 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC%20VDK%20Proppack%203%20Vol3B.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/VDK%20GEvo%20Props%20readme.jpg
 variants:
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: WSOR }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: wsor }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E WSOR.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: Wab }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: wab }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E Wab.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: VGN }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: vgn }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E VGN.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SOU2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sou2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E SOU2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SOU1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sou1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E SOU1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: RDG }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: rdg }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E RDG.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: PRR }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: prr }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E PRR.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NYSW }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: nysw }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E NYSW.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NYLE }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: nyle }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E NYLE.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NYC }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: nyc }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E NYC.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NW }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: nw }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E NW.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NS }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: ns }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E NS.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NPR }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: npr }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E NPR.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NOGC }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: nogc }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E NOGC.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: MC }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: mc }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E MC.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: LV }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: lv }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E LV.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: KCS2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: kcs2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E KCS2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: KCS1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: kcs1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E KCS1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: IRR }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: irr }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E IRR.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: HMCR }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: hmcr }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E HMCR.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: Erie2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: erie2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E Erie2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: Erie1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: erie1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E Erie1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: DLW }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: dlw }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E DLW.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: DH }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: dh }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E DH.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CR }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cr }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E CR.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CNJ }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cnj }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E CNJ.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CG }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cg }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E CG.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BAR }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bar }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03E BAR.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: WM2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: wm2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D WM2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: WM1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: wm1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D WM1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: TC }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: tc }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D TC.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SCL }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: scl }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D SCL.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SBD }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sbd }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D SBD.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SAL }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sal }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D SAL.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: RFP2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: rfp2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D RFP2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: RFP1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: rfp1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D RFP1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: PM }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: pm }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D PM.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NH }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: nh }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D NH.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NC }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: nc }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D NC.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: Mon2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: mon2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D Mon2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: Mon1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: mon1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D Mon1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: MMid }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: mmid }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D MMid.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: LN }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: ln }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D LN.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: GA }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: ga }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D GA.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: FEC }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: fec }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D FEC.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CSX2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: csx2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D CSX2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CSX1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: csx1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D CSX1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CSS2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: css2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D CSS2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CSS1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: css1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D CSS1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CS }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cs }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D CS.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CO2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: co2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D CO2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CO1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: co1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D CO1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BO2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bo2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D BO2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BO1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bo1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D BO1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: AWP }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: awp }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D AWP.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: ACL }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: acl }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03D ACL.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: WP }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: wp }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C WP.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: UP2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: up2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C UP2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: UP1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: up1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C UP1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: TP2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: tp2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C TP2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: TP1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: tp1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C TP1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: TL }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: tl }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C TL.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SP7 Lark }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sp7 lark }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C SP7 Lark.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SP6 DL }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sp6 dl }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C SP6 DL.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SP5 SPSF }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sp5 spsf }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C SP5 SPSF.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SP4 BW }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sp4 bw }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C SP4 BW.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SP3 BW }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sp3 bw }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C SP3 BW.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SP2 BN }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sp2 bn }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C SP2 BN.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SP1 BN }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sp1 bn }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C SP1 BN.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SN }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sn }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C SN.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SLRG }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: slrg }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C SLRG.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SI }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: si }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C SI.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: MP3 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: mp3 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C MP3.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: MP2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: mp2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C MP2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: MP1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: mp1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C MP1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: MKT }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: mkt }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C MKT.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: LNW }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: lnw }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C LNW.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: KJRY }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: kjry }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C KJRY.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: GWR }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: gwr }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C GWR.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: DRGW3 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: drgw3 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C DRGW3.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: DRGW2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: drgw2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C DRGW2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: DRGW1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: drgw1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C DRGW1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CNW }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cnw }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C CNW.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CGW }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cgw }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03C CGW.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: WC }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: wc }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B WC.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SOO2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: soo2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B SOO2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SOO1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: soo1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B SOO1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: QNSL }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: qnsl }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B QNSL.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: QCM2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: qcm2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B QCM2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: QCM1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: qcm1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B QCM1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: PGE }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: pge }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B PGE.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: Milw2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: milw2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B Milw2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: Milw1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: milw1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B Milw1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: ICG2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: icg2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B ICG2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: ICG1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: icg1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B ICG1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: IC2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: ic2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B IC2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: IC1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: ic1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B IC1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: IAIS RI2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: iais ri2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B IAIS RI2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: IAIS RI1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: iais ri1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B IAIS RI1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: IAIS 2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: iais 2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B IAIS 2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: IAIS 1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: iais 1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B IAIS 1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: GT }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: gt }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B GT.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: GMO2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: gmo2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B GMO2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: GMO1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: gmo1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B GMO1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CV }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cv }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B CV.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CP2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cp2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B CP2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CP1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cp1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B CP1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CN3 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cn3 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B CN3.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CN2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cn2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B CN2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CN1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cn1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B CN1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BCOL }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bcol }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B BCOL.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: ARR }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: arr }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03B ARR.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SPS2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sps2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A SPS2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: SPS1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: sps1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A SPS1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NP2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: np2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A NP2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: NP1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: np1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A NP1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: GN HM }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: gn hm }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A GN HM.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: GN EB2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: gn eb2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A GN EB2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: GN EB1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: gn eb1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A GN EB1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: GN BSB }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: gn bsb }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A GN BSB.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: Frisco2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: frisco2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A Frisco2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: Frisco1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: frisco1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A Frisco1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CBQ2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cbq2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A CBQ2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: CBQ1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: cbq1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A CBQ1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BRC }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: brc }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A BRC.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BNSF6 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bnsf6 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A BNSF6.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BNSF5 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bnsf5 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A BNSF5.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BNSF4 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bnsf4 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A BNSF4.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BNSF3 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bnsf3 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A BNSF3.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BNSF2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bnsf2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A BNSF2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BNSF1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bnsf1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A BNSF1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BN3 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bn3 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A BN3.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BN2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bn2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A BN2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: BN1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: bn1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A BN1.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: ATSF6 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: atsf6 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A ATSF6.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: ATSF5 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: atsf5 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A ATSF5.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: ATSF4 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: atsf4 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A ATSF4.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: ATSF3 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: atsf3 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A ATSF3.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: ATSF2 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: atsf2 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
           - /VDK GEVo Textures Props P1 Vol03A ATSF2.dat
-  - variant: { bsc:vdk-gevo-textures-props-p1:p1: ATSF1 }
+  - variant: { bsc:vdk-gevo-textures-props-p1:textures: atsf1 }
     assets:
       - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
         include:
