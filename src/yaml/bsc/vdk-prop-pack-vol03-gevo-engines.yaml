@@ -1,0 +1,20 @@
+group: bsc
+name: vdk-gevo-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: VDK GEVo Props by Vester
+  author: Vester
+  website: https://www.sc4evermore.com/index.php/downloads/download/296-bsc-vdk-prop-pack-vol03-gevo-engines
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/VDK%20GEvo%20Props%20readme.jpg
+assets:
+  - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
+    include:
+      - /BSCProps/
+
+---
+assetId: bsc-vdk-prop-pack-vol03-gevo-engines
+version: "1.0"
+lastModified: "2024-09-09T01:00:41.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=296%3Absc-vdk-prop-pack-vol03-gevo-engines
