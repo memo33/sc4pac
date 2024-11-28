@@ -1,0 +1,37 @@
+group: rretail
+name: target-style-2
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Target (Style 2)
+  description: |-
+    Target Corporation (stylized as target but doing business as Target) is the eighth largest retailer in the United States. Headquartered in Minneapolis, MN., Target was established as the discount division of Dayton's department store of Minneapolis in 1962. As part of the then Dayton-Hudson Corporation, Target would begin expanding nationwide in the 1980s. The parent company was renamed Target Corporation in 2000, and removed the last of its department store chains in 2004. Target operates almost 2,000 stores throughout the United States.
+
+    9x14 lot with 373 CS-$$$ jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35258-target-style-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_08/62f142b51b976_RRTarget(Style2).jpg.73e48af58b4225ef94f6f58730239900.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-target-style-2
+
+---
+assetId: rretail-target-style-2
+version: "1.0.0"
+lastModified: "2022-08-08T17:10:17Z"
+url: https://community.simtropolis.com/files/file/35258-target-style-2/?do=download
