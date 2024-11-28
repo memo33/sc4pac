@@ -1,0 +1,64 @@
+group: rretail
+name: coastal-crossings-shopping-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Coastal Crossings Shopping Center
+  description: |-
+    Inspired by various California shopping center designs, the Coastal Crossings serves as a plaza with the purpose of bringing west coast regional brands to SimCity.
+
+    14x16 lot with 967 jobs.
+
+    Brands featured include:
+
+    -   Raley’s
+    -   Fallas Discount Stores
+    -   Big 5 Sporting Goods
+    -   BevMo!
+    -   Boot Barn
+    -   AutoZone
+    -   Menchie’s Yogurt
+    -   Cricket Wireless
+    -   Which Wich
+    -   Fantastic Sam’s
+    -   Mountain Mike’s Pizza
+    -   Nothing Bundt Cakes
+
+    El Pollo Loco and Jack-in-the-Box serve as outparcels; while a Chevron gas station operates on the corner of a crossroads.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/34755-coastal-crossings-shopping-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/6197d9366a6ad_RRCoastalCrossingsShoppingCenterA.jpg.84b50408749e797a41a8ed2569d1f623.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/6197d93776c9f_RRCoastalCrossingsShoppingCenterB.jpg.48589dfcc8d1e52b13bb7e93f47762a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/6197d937e4145_RRCoastalCrossingsShoppingCenterC.jpg.d25a9c1cd26e133dbb833fb73a583081.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/6197d9386339b_RRCoastalCrossingsShoppingCenterD.jpg.c988015c90c433e86fc3e06032e2976d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/6197d938ec13c_RRCoastalCrossingsShoppingCenterE.jpg.faca32e5b993d19710585a6f187e7efc.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - lbt:mega-prop-pack-vol01
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-coastal-crossings-shopping-center
+
+---
+assetId: rretail-coastal-crossings-shopping-center
+version: "1.0.0"
+lastModified: "2021-11-19T17:07:27Z"
+url: https://community.simtropolis.com/files/file/34755-coastal-crossings-shopping-center/?do=download
