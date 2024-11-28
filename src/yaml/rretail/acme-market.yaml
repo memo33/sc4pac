@@ -1,0 +1,38 @@
+group: rretail
+name: acme-market
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: ACME Market
+  description: |-
+    Acme was founded by Samuel Robinson and Robert Crawford in 1891, Acme established itself as a supermarket by opening its first location in South Philadelphia. The chain became a subsidiary of parent company Albertson’s in 1999. Today the chain operates over 160 stores throughout Connecticut, Delaware, Maryland, New Jersey, New York, and Pennsylvania. It is headquartered in East Whiteland Township, PA.
+
+    6x11 lot with 511 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/34669-acme-market/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/612e595b52471_RRACME.jpg.0651781552cebd06f131b594a033510e.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-acme-market
+
+---
+assetId: rretail-acme-market
+version: "1.1"
+lastModified: "2021-11-17T22:14:10Z"
+url: https://community.simtropolis.com/files/file/34669-acme-market/?do=download
