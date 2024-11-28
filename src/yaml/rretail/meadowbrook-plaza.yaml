@@ -1,0 +1,56 @@
+group: rretail
+name: meadowbrook-plaza
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Meadowbrook Plaza
+  description: |-
+    Another modern shopping center anchored by Fresh Thyme.
+
+    Other brands featured include:
+
+    -   Pet People
+    -   Hook & Reel Cajun Seafood & Bar
+    -   SPENGA
+    -   Music & Arts
+    -   Scrubs & Beyond
+    -   I Heart Mac and Cheese
+    -   European Wax Center
+    -   Smashburger
+    -   Papa Murphy's Pizza
+    -   Crumbl Cookies
+    -   Deka Lash
+    -   Holiday Hair
+
+    A car wash, Slim Chickens, and Truist bank serve as outparcels.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35468-meadowbrook-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_02/63ee66fbb6de7_RRMeadowbrookSquareA.jpg.e840c2e0aa08382fda5cc8559f4e4a4d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_02/63ee66fce46be_RRMeadowbrookSquareB.jpg.4fb6fcca087ad2ca6287c364981e39c3.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - kingofsimcity:logistics-essentials
+  - girafe:beeches
+  - girafe:berries
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-meadowbrook-plaza
+
+---
+assetId: rretail-meadowbrook-plaza
+version: "1.0.0"
+lastModified: "2023-02-16T18:00:37Z"
+url: https://community.simtropolis.com/files/file/35468-meadowbrook-plaza/?do=download
