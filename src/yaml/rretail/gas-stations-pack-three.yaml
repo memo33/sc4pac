@@ -1,0 +1,44 @@
+group: rretail
+name: gas-stations-pack-three
+version: "1.0.1"
+subfolder: 300-commercial
+info:
+  summary: Gas Stations Pack Three
+  description: |-
+    The third pack of gas stations expands upon the second by adding 18 more regional brands for you to enjoy.
+
+    Lots vary from a 2x2 space to a 6x6 size. Job amounts vary from lot to lot but generally are in the 6-40 range.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35037-rr-gas-stations-pack-three/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/624a29d1900a0_RRGasStationsPack3A.jpg.f3ab63fb9f113231f7a4ca59299d3179.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/624a29d3d9b16_RRGasStationsPack3B.jpg.f90f85b3d2d061138bfcfdcf1d01c3d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/624a29d527517_RRGasStationsPack3C.jpg.4a466ef6a998219b7c5490bf92ebe10c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/624a29d648c84_RRGasStationsPack3D.jpg.5aecc2ef55a947b41ae5d25d1420d6d5.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-gas-stations-pack-three
+
+---
+assetId: rretail-gas-stations-pack-three
+version: "1.0.1"
+lastModified: "2022-04-05T02:41:53Z"
+url: https://community.simtropolis.com/files/file/35037-rr-gas-stations-pack-three/?do=download
