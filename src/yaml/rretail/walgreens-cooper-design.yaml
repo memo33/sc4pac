@@ -1,0 +1,35 @@
+group: rretail
+name: walgreens-cooper-design
+version: "1.0.0"
+subfolder: 630-health
+info:
+  summary: Walgreens (Cooper Design)
+  description: |-
+    In reference to mini cooper, Walgreens has been expanding a lot by using a new smaller store prototype format they dubbed 'Cooper.' Now your sims can enjoy a mini Walgreens.
+
+    3x3 lot. Functions as a clinic.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35481-walgreens-cooper-design/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_03/640795e527a74_RRWalgreensCooper.jpg.bec8e2f682202bac5e781e9beadedb59.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - kingofsimcity:logistics-essentials
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-walgreens-cooper-design
+
+---
+assetId: rretail-walgreens-cooper-design
+version: "1.0.0"
+lastModified: "2023-03-07T19:59:12Z"
+url: https://community.simtropolis.com/files/file/35481-walgreens-cooper-design/?do=download
