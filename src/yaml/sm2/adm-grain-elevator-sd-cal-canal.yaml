@@ -1,4 +1,4 @@
-# TODO: Include canal dependencies
+# Dependencies not yet available on SC4Evermore
 # group: sm2
 # name: adm-grain-elevator-sd-cal-canal
 # version: "2.0.0"
@@ -15,15 +15,11 @@
 #     The dirt roads and STR rail will connect to the game networks visually therefore you will see freight trucks arriving and freight trains leaving.
 
 #      - Lot size: 10x12
-#      - Freight capacity: = 65,000 tons
-
-#     Jobs = 180 low, 88 med and 23 high
-
-#      - Plop cost: = 22500
-
-#     Power = 125
-
-#     Water = 32
+#      - Freight capacity: 65,000 tons
+#      - Jobs: 180 low, 88 med and 23 high
+#      - Plop cost: 22500
+#      - Power: 125
+#      - Water: 32
 #   author: Simmer2
 #   website: https://community.simtropolis.com/files/file/32229-sm2-adm-grain-elevator-sd-cal-canal/
 #   images:
@@ -37,7 +33,9 @@
 #   - girafe:poplars
 #   - girafe:bushes
 #   - girafe:cattails
+#   # 1772 is CAL Ships, not available on SC4Evermore yet (so it seems)
 #   # - '"[https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotget=1772](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1772)"'
+#   # 979 can be found here: https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection
 #   # - '"[https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotget=979](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=979)"'
 # assets:
 #   - assetId: sm2-adm-grain-elevator-sd-cal-canal
