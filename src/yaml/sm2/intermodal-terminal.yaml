@@ -38,6 +38,34 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_03/second.png.e4755c052e4d4a571e52b856c17095fb.png
 assets:
   - assetId: sm2-intermodal-terminal
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-t1-vol03
+  - girafe:bushes
+  - girafe:daisy
+  - girafe:sparaxis
+  - girafe:chestnuts
+  - girafe:common-spruces
+  - girafe:berries
+  - girafe:cattails
+  - girafe:ashes
+  - girafe:feather-grass
+  - nbvc:rock-n-stones
+  - simcityfreak666:train-prop-pack-vol1
+  - murimk:industrial-mmp
+  - murimk:props-vol03-industrials
+  - mushymushy:na-40ft-trailers-vol1
+  - mushymushy:na-semi-truck-cabs-vol1
+  - hide-inoki:jim-carprop-pack
+  - cogeo:warehouses-batprops-part-a
 
 ---
 assetId: sm2-intermodal-terminal
