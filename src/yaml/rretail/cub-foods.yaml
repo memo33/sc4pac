@@ -1,0 +1,36 @@
+group: rretail
+name: cub-foods
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Cub Foods
+  description: |-
+    Cub Foods is an American supermarket chain that operates stores in Minnesota and Illinois. The company is a subsidiary of SuperValu Inc., based in Eden Prairie, MN.
+
+    9x11 lot with around 605 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/34826-cub-foods/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61d5e1a469b4e_RRCubFoods.jpg.057356cfdcf2464d46c2ee3599bfbcab.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-cub-foods
+
+---
+assetId: rretail-cub-foods
+version: "1.0.0"
+lastModified: "2022-01-05T18:22:37Z"
+url: https://community.simtropolis.com/files/file/34826-cub-foods/?do=download
