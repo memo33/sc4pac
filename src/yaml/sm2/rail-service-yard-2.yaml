@@ -1,7 +1,7 @@
 group: sm2
 name: rail-service-yard-2
 version: "1.0"
-subfolder: ""
+subfolder: 400-industrial
 info:
   summary: Rail Service Yard 2
   description: |-
