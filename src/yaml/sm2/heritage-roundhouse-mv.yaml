@@ -25,6 +25,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_04/RH_MV3.jpg.42a6041f13ceabd7be41e891678e1cd9.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_04/RH_MV4.jpg.6de1f967f8f076fd5fb94ce095f950b9.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_04/RH_MV5.jpg.dad94824af6cb49a29d170666ab2b087.jpg
+dependencies:
+  - sm2:heritage-roundhouse
 assets:
   - assetId: sm2-heritage-roundhouse-mv
 
