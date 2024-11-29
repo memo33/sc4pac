@@ -1,0 +1,37 @@
+group: "gizmo"
+name: "day-night-mod"
+version: "2.0"
+subfolder: "150-mods"
+
+variants:
+- variant: { nightmode: standard }
+- variant: { nightmode: dark, nightmode-mod: simfox }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+- variant: { nightmode: dark, nightmode-mod: gizmo }
+  assets:
+  - assetId: "gizmo-day-night-mod"
+
+variantDescriptions:
+  nightmode-mod:
+    simfox: "(recommended) Install Simfox's Day-and-Nite mod"
+    gizmo: "Install gizmo's Day-Night mod (very dark)"
+
+info:
+  summary: "An alternative DarkNite mod"
+  description: >
+    If you install this, choose the DarkNite versions of any BATs you download.
+  conflicts: >-
+    This mod can conflict with water texture mods, mods that alter the lighting and terrain exemplars,
+    and mods and BATS that use custom lights.
+  author: "gizmo28"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/62-day-night-mod-by-gizmo28"
+
+---
+assetId: "gizmo-day-night-mod"
+version: "2.0"
+lastModified: "2023-07-29T03:58:13-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=62:day-night-mod-by-gizmo28"
+
+# archiveType:
+#   format: Clickteam
+#   version: "40"  # possible versions are 40, 35, 30, 24, 20
