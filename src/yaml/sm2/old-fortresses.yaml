@@ -27,8 +27,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/f14.jpg.6f7102c37a0050892f2569cf27f8bf2b.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/f23.jpg.1ec6667e08072baa56d3160cfd775a1c.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/f26.jpg.a7058084155a07dc13424f7fa55c5c49.jpg
-  dependencies:
-    - sm2:stones-vol1
+dependencies:
+  - sm2:stones-vol1
 assets:
   - assetId: sm2-old-fortresses
 
