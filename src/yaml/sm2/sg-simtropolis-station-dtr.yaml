@@ -21,24 +21,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_06/4.jpg.55470c063d0df44add95c404b465f28c.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_06/5.jpg.012a6d0580b80ba42d736d92c6ecf09f.jpg
 dependencies:
-  - bsc:mega-props-misc-vol02
-  - bsc:mega-props-sg-vol01
-  - bsc:mega-props-cp-vol01
-  - sm2:mega-prop-pack-vol1
-  - girafe:elms
-  - bsc:mega-props-jes-vol01
-  - bsc:mega-props-jes-vol03
-  - blanco:train-prop-pack
-  - namspopof:props-pack-vol1
-  - namspopof:props-pack-vol2
-  - sg:simtropolis-train-station
-  - supershk:mega-parking-textures
-  - murimk:props-vol03-industrials
-  - peg:security-fencing-kit
-  - vip:vnaoned-props-pack-vol01
-  - bsc:vip-girafe-carpack-vol01-vol02
-  - simcityfreak666:european-busses-prop-pack-vol1
-  - mikeseith:yellow-taxi-props
+  - sm2:sg-simtropolis-station-str
 assets:
   - assetId: sm2-sg-simtropolis-station-dtr
 
