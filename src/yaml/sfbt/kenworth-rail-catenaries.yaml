@@ -48,10 +48,6 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/Oberleitungen_1.jpg.d869d8a6907fa6ddd2c6bc939931fe6f.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/Oberleitungen_2.jpg.53d3264a9aa244aa8070f00c229709b2.jpg
-dependencies:
-  - sfbt:kenworth-rail-catenaries-props
-  - sfbt:essentials
-  - memo:transparent-texture-fix-dll
 assets:
   - assetId: sfbt-kenworth-rail-catenaries-v2
     include:
