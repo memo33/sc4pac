@@ -1,0 +1,41 @@
+group: rretail
+name: shopko-recycled
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Shopko Recycled
+  description: |-
+    With Shopko having ceased operations, the building is ideal for redevelopment. This time Burlington, Sportman’s Warehouse and DSW make use of the space.
+
+    7x12 lot with around 535 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33745-shopko-recycled/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d7cb3ae05f_RRShopkoRecycled.jpg.f8317eb762788b89b2dbb1ccf68d2cd8.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - nos17:essentials
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-shopko-recycled
+
+---
+assetId: rretail-shopko-recycled
+version: "1.0.0"
+lastModified: "2020-08-07T16:10:55Z"
+url: https://community.simtropolis.com/files/file/33745-shopko-recycled/?do=download
