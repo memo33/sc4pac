@@ -1,0 +1,35 @@
+group: rretail
+name: hy-vee
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Hy-Vee
+  description: |-
+    With operations in the midwestern United States, Hy-Vee is a chain of supermarkets with over 245 locations across eight states. Founded in 1930 by Charles Hyde and David Vredenburg in Beaconsfield, Iowa, the name would be a result of an employee contest in 1952. Hy-Vee has won numerous awards over the years, including recognition by *Forbes* in 2017 as one of America's Best Employers.
+
+    7x10 lot with 394 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33470-hy-vee/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/5e4da0a093887_RRHyVee.jpg.0633cafd21a762fc56a54eda014d4d3b.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-hy-vee
+
+---
+assetId: rretail-hy-vee
+version: "1.1"
+lastModified: "2020-06-20T14:36:17Z"
+url: https://community.simtropolis.com/files/file/33470-hy-vee/?do=download
