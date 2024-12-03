@@ -1,0 +1,37 @@
+group: rretail
+name: tops-friendly-markets
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Tops Friendly Markets
+  description: |-
+    Tops is a supermarket chain found across upstate New York, northern Pennsylvania and Vermont.
+
+    6x10 lot with 502 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33940-tops-friendly-markets/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fa5be9956b5c_RRTopsMarkets.jpg.d716b82cf68bd68eda91e5aa40cb00b1.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-tops-friendly-markets
+
+---
+assetId: rretail-tops-friendly-markets
+version: "1.0.0"
+lastModified: "2020-11-06T21:27:49Z"
+url: https://community.simtropolis.com/files/file/33940-tops-friendly-markets/?do=download
