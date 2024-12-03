@@ -1,0 +1,28 @@
+group: vip
+name: vnaoned-props-pack-vol01
+version: "3"
+subfolder: 100-props-textures
+info:
+  summary: Naoned Props Pack vol01 v3
+  description: |-
+    This package includes many and varied props (227 props altogether through on three individual prop packs) created by Vnaoned.  
+
+    For LOTters, the PROPS are available in Lot Editor, under the names: VV\_ and VIP\_Props\_VV  
+
+    Xmas lights are timed props (1st december to 15th january).  
+    Inflatable pool are timed props (summer / rest of the year).  
+    Dead leaves are timed props (autumn).  
+  author: Vnaoned
+  website: https://www.sc4evermore.com/index.php/downloads/download/188-vip-vnaoned-props-pack-vol01
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_propspack_1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_props_monument_1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_fountain_Concorde_1.jpg
+assets:
+  - assetId: vip-vnaoned-props-pack-vol01
+
+---
+assetId: vip-vnaoned-props-pack-vol01
+version: "3"
+lastModified: "2024-02-06T14:28:16.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=188%3Avip-vnaoned-props-pack-vol01
