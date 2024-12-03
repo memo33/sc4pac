@@ -29,10 +29,10 @@ info:
   summary: "Base and overlay textures of grass and dirt"
   description: |
     Vortexture 2 - Grass & Dirt v2: This set contains various sets of overlay and two-toned base textures based on the previously released set of base textures, for use in the Lot Editor. Included are:
-      6 sets of grass overlays, 48 shapes per set
-      6 sets of dirts overlays, 48 shapes per set
-      5 sets of unpaved overlays, 32 shapes per set
-      8 sets of two-tone base textures, 48 shapes per set
+    * 6 sets of grass overlays, 48 shapes per set
+    * 6 sets of dirts overlays, 48 shapes per set
+    * 5 sets of unpaved overlays, 32 shapes per set
+    * 8 sets of two-tone base textures, 48 shapes per set
   author: "vortext"
   images:
   - "https://www.sc4evermore.com/images/jdownloads/screenshots/Vortexture%202_lex%20pic%20vrtxtr2v2%20%20day.jpg"
