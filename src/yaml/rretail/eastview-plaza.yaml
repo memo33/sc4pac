@@ -1,0 +1,64 @@
+group: rretail
+name: eastview-plaza
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Eastview Plaza
+  description: |-
+    The Eastview Plaza’s designed is inspired by architecture designed by A&P stores and attached shopping centers that were built all across the United States. Anchored by a Save a Lot, this shopping center is designed with stores that would work well in both rural and/or urban settings.
+
+    Brands featured include:
+
+    -   Save a Lot
+    -   Family Dollar
+    -   Little Caesars
+    -   Anytime Fitness
+    -   MetroPCS\*
+    -   State Farm
+
+    **\*** Technically MetroPCS is now officially Metro by T-Mobile. However, it would seem that the PCS branding is still used on the actual stores.
+
+    Lots:
+
+    -   Left
+        -   2x6 lot with 0 jobs; cosmetic purposes only
+    -   Corner
+        -   1x1 lot with 0 jobs; cosmetic purposes only
+    -   Right
+        -   10x8 lot with 323 jobs
+    -   Perkins
+        -   4x5 lot with 34 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33418-eastview-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/5e39b49726091_RREastviewPlaza.jpg.70f5bb1628d42d4668122c7438954045.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/5e39b51e5d14b_RREastviewPlaza.jpg.78b995a4c6c0662e85fc80f72ca04c16.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/5e39b5b58e8a1_RREastviewPlaza.jpg.e8b4f570f6f2315734a0e4d755b00589.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/5e39b5dab6cc3_RREastviewPlaza.jpg.b0d303e6a79cd81055bc597eb134db4d.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-eastview-plaza
+
+---
+assetId: rretail-eastview-plaza
+version: "1.1"
+lastModified: "2020-06-20T15:03:42Z"
+url: https://community.simtropolis.com/files/file/33418-eastview-plaza/?do=download
