@@ -1,0 +1,51 @@
+group: rretail
+name: strip-mall-5
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: "Strip Mall #5"
+  description: |-
+    Another larger strip mall done in a modern style with 8 tenants and an urgent care center in a separate building.
+
+    Brands featured:
+
+    -   Blaze Pizza
+    -   Firehouse Subs
+    -   Zoom Tan
+    -   Boost Mobile
+    -   Fedex Office
+    -   Tropical Smoothie Cafe
+    -   Vitamin Shoppe
+    -   Sleep Number
+    -   AFC Urgent Care
+
+    6x8 lot with around 79 C$$$ jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33765-strip-mall-5/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f3714c0bcb45_RRStripMall5b.jpg.7349c05860743a674c2d0d8cec182ad1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f3714c173857_RRStripMall5.jpg.9a298535aedd1a5f54dbd6d9a6cc7e7c.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:afc-urgent-care
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-strip-mall-5
+
+---
+assetId: rretail-strip-mall-5
+version: "1.0.0"
+lastModified: "2020-08-14T22:51:06Z"
+url: https://community.simtropolis.com/files/file/33765-strip-mall-5/?do=download
