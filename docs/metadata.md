@@ -274,7 +274,7 @@ info:
   summary: School of Witchcraft and Wizardry
   warning: The castle is invisible to Muggles.
   conflicts: Incompatible with Saruman's Isengard Tower
-  description: >
+  description: |
     The school is located in the Scottish Highlands.
 
     It was founded more than 1000 years ago.
@@ -286,14 +286,10 @@ info:
   website: "https://en.wikipedia.org/wiki/Hogwarts"
 ```
 
-?> The multi-line character `>` in YAML files controls text wrapping.
-   See the [YAML format](https://en.wikipedia.org/wiki/YAML#Basic_components).
-   Useful alternatives can be `|` or `>-`.
-   It is important to pick a suitable text wrapping mode for the style of your `description` in oder to preserve paragraphs.
-   Otherwise, all text could end up being displayed on a single line.
+?> The `description` and other text fields use **Markdown** syntax for styling.
+   You can use the [Markdown Live Preview](https://markdownlivepreview.com/) to see how your text will be displayed.
 
-?> Use the syntax `` `pkg=hagrid:whomping-willow` `` to refer to another package from within the description or other text fields
-   in order to render a link to the package.
+?> Use the syntax `` `pkg=hagrid:whomping-willow` `` in order to render a link to another package.
 
 ## Complete example
 
