@@ -1,0 +1,51 @@
+group: rretail
+name: pilot-truckstop
+version: "1.1.2"
+subfolder: 300-commercial
+info:
+  summary: Pilot Truckstop
+  description: |-
+    Pilot Flying J is a North American chain of truck stops with operations in the United States and Canada. Based in Knoxville, Tennessee, the company is owned by Pilot, FJ Management, and Berkshire Hathaway. The company operates truck stops under the banners of Pilot Travel Centers, Flying J Travel Plaza, and Mr. Fuel brands. Pilot merged with Flying J in 2009.
+
+    Provides 104 jobs.
+
+    Lot 1: **Main Building & Cars** (8 x 5 lot)
+
+    Lot 2: **Truck Area** (8 x 9 lot)
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/34639-pilot-truckstop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6113e2f3b359a_RRPilotTruckstopA.jpg.de2ef838d1f6fb72a452e8134b8c1c2d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6113e2f53c5c6_RRPilotTruckstopB.jpg.969646c0d666b54937d7a8c24ec47a22.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6113e2f68a56f_RRPilotTruckstopC.jpg.38f6dbcf4b474063f1efae70e0b02038.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6113e2f7c76c1_RRPilotTruckstopD.jpg.473750118238ec5adbf9b4c55e5098f4.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:essentials
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-pilot-truckstop
+
+---
+assetId: rretail-pilot-truckstop
+version: "1.1.2"
+lastModified: "2021-11-17T22:23:16Z"
+url: https://community.simtropolis.com/files/file/34639-pilot-truckstop/?do=download
