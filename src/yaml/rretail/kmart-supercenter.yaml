@@ -1,0 +1,49 @@
+group: rretail
+name: kmart-supercenter
+version: "2.1"
+subfolder: 300-commercial
+info:
+  summary: Kmart Supercenter
+  description: |-
+    Super Kmart Center (or Super Kmart) opened its first location in July 25, 1991 in Medina, Ohio, combing general merchandise with the addition of full-service grocery. The concept actually served as a concept for which many companies to come would follow- such as Walmart’s supercenter stores. The final Super Kmart, located near Warren, OH, closed on April 8, 2018.
+
+    13x16 lot with around 896 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33597-kmart-supercenter/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ebc836529153_RRSuperKmartV2.jpg.5bdb2f6eeb6182c6cf5a1f2fd7d3ae57.jpg
+dependencies:
+  - murimk:industrial-mmp
+  - murimk:props-vol03-industrials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-mjb-vol01
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-kmart-supercenter
+
+---
+assetId: rretail-kmart-supercenter
+version: "2.1"
+lastModified: "2020-06-20T14:34:14Z"
+url: https://community.simtropolis.com/files/file/33597-kmart-supercenter/?do=download
