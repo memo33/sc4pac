@@ -1,0 +1,83 @@
+group: rretail
+name: harrison-hills-village-center
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Harrison Hills Village Center
+  description: |-
+    A brand new shopping center has made its way into a newly developed neighborhood! Inspired by the real life Clarksburg Village Center in Clarksburg, MD, we now have a ‘village center’ type of shopping complex for you to all enjoy in SimCity. 5 separate lots combine together to make this complex. Only the bottom center lot provides jobs- at 378 CS-$$$ jobs.
+
+    **Lot sizes:**
+
+     - Lot 1: **Harrison Hills Village Center Top** **Left** (12 x 7 lot)
+     - Lot 2: **Harrison Hills Village Center Top Right** (7 x 7 lot)
+     - Lot 3: **Harrison Hills Village Center Bottom Left** (5 x 7 lot)
+     - Lot 4: **Harrison Hills Village Center Bottom Center** (7 x 7 lot)
+     - Lot 5: **Harrison Hills Village Center Bottom** **Right** (5 x 8 lot)
+
+    Brands featured include:
+
+    -   Harris-Teeter
+    -   Unleashed by Petco
+    -   Buffalo Wild Wings
+    -   Orange Theory Fitness
+    -   Wells Fargo
+    -   CareNow Urgent Care
+    -   Interstate Batteries
+    -   AT&T
+    -   PostNet
+    -   RE-MAX
+    -   Allstate
+    -   Kung Fu Tea
+    -   Kumon Learning Center
+    -   Jamba \[Juice\]
+    -   Penn Station Subs
+    -   Sim Smiles Dentistry (generic dentist)
+    -   Supercharged Tae Kwon Do (generic)
+    -   Delicate Nails (generic nail salon)
+    -   Dash Pizza (generic pizzeria)
+    -   Harrison Barber Shop (generic)
+    -   Lounge Thai (generic Thai restaurant)
+    -   Village Cleaners (generic laundromat)
+
+    7-11 (with Shell branded gasoline) and Valvoline Instant Oil Change serve as outparcels.
+  author: RRetail, The Battery Mill
+  website: https://community.simtropolis.com/files/file/34040-harrison-hills-village-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/5ff8d272d42b9_RRHarrisonHillsVillageCenterA.jpg.7ca0da38daf0f29c798ff77e59a4572e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/5ff8d2741a961_RRHarrisonHillsVillageCenterB.jpg.d46c6f5133facb4515d33a8db07dd1f8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/5ff8d275b593b_RRHarrisonHillsVillageCenterC.jpg.a96d63de67433b98bb91318e55b9192d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/5ff8d276b9d85_RRHarrisonHillsVillageCenterD.jpg.c1519db74f34e6cef528b8d98e5dafc0.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:essentials
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-harrison-hills-village-center
+
+---
+assetId: rretail-harrison-hills-village-center
+version: "1.0.0"
+lastModified: "2021-01-08T21:48:24Z"
+url: https://community.simtropolis.com/files/file/34040-harrison-hills-village-center/?do=download
