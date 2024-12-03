@@ -1,0 +1,50 @@
+group: rretail
+name: loves-truckstop
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Love's Truckstop
+  description: |-
+    Love's Travel Stops & Country Stores (better known as Love's) is an American family-owned chain of more than 500 truck stop and convenience stores in 41 states in the United States. Headquartered in Oklahoma City, OK, Love's is ranked #17 on the 2019 Forbes list of America's largest private companies. Love's has two primary kinds of stores: country stores and travel stops. Country stores are fueling stations with a convenience store attached. The larger locations (which this BAT is modeled off of) have amenities such as 1-3 fast food restaurant chains in addition to offering trucking supplies, showers and RV dump stations. Love's had 25,000 employees in 2018.
+
+    Provides115 jobs.
+
+    Lot 1: **Main Building,** **Truck Parking** **& Cars** (7x10 lot)
+
+    Lot 2: **Truck** **Gas Pumps** **Area** (6x10 lot)
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/34655-loves-truckstop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/61200ece7aabb_RRLovesTruckstopA.jpg.44943ed008f8b3569828a0a91eb2daa2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/61200ecf32702_RRLovesTruckstopB.jpg.39c1bb8a7a7add983f151210c381ea05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/61200ed0016c4_RRLovesTruckstopC.jpg.22c1bc24f678948bb1b34d80768e29b7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/61200ed0e779e_RRLovesTruckstopD.jpg.c42be114bbb46004419b62e20931628a.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:essentials
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-loves-truckstop
+
+---
+assetId: rretail-loves-truckstop
+version: "1.1"
+lastModified: "2021-11-17T22:22:02Z"
+url: https://community.simtropolis.com/files/file/34655-loves-truckstop/?do=download
