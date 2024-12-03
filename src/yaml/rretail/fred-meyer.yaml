@@ -1,0 +1,47 @@
+group: rretail
+name: fred-meyer
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Fred Meyer
+  description: |-
+    Fred Meyer is a chain of hypermarkets that serves the Pacific Northwest region of the United States and Alaska. The chain was founded in 1931 in Portland, OR by Fred G. Meyer. Though still branded under the Fred Meyer name, the company has been owned by Kroger since 1998.
+
+    13x13 lot with around 688 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33756-fred-meyer/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f3177c225791_RRFredMeyer.jpg.17f1b1071e6c6bf8cc8a62b22c53d68c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f3177e3e11a9_RRFredMeyerb.jpg.fc7174d679e6a6775ae3fe17bc3ed4e0.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol08
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-fred-meyer
+
+---
+assetId: rretail-fred-meyer
+version: "1.0.0"
+lastModified: "2020-08-10T16:39:17Z"
+url: https://community.simtropolis.com/files/file/33756-fred-meyer/?do=download
