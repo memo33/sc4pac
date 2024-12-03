@@ -1,0 +1,47 @@
+group: rretail
+name: h-e-b-braums-dairy
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: H-E-B & Braum's Dairy
+  description: |-
+    H-E-B, a privately owned American supermarket chain based out of San Antonio, TX, was founded in 1905.
+
+    The H-E-B name is taken from the initials of the store’s founder, Howard E. Butt. H-E-B has more than 340 stores throughout Texas, in addition to having some locations in northeast Mexico.
+
+    William Henry "Bill" Braum and his wife started the Braum’s chain in 1968 with 24 stores across Oklahoma. The restaurant and ice cream chain now has grown to 280 stores throughout Oklahoma, Texas, Kansas, Missouri and Arkansas.
+
+    12x11 lot with 732 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33748-h-e-b-braums-dairy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d7eca0ad71_RRHEBA.jpg.aa6a1f69c36f3604fb09bbbac7a6a96d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d7ecac806e_RRHEBB.jpg.b3ffb555cabcd12498621681d57eaffe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d7ecbde7c9_RRHEBC.jpg.53af670d2ad221c27fdf13197a915911.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-h-e-b-braums-dairy
+
+---
+assetId: rretail-h-e-b-braums-dairy
+version: "1.0.0"
+lastModified: "2020-08-07T16:22:18Z"
+url: https://community.simtropolis.com/files/file/33748-h-e-b-braums-dairy/?do=download
