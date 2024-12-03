@@ -1,0 +1,43 @@
+group: rretail
+name: gas-stations-pack-one
+version: "1.4.1"
+subfolder: 300-commercial
+info:
+  summary: Gas Stations- Pack One
+  description: |-
+    A pack of gas stations for supermarkets and other chain stores that sometimes have a standalone gas station either nearby its namesake store or down the road a bit. A Sheetz is also included. This package includes 17 standalone gas stations with 17 brands.
+
+    Most lots vary in size from 2x3 to 4x3, but the majority take a space of 3x3. However, Sheetz uses a footprint of 4x6 while Getgo is 4x5.
+
+    Jobs vary from 6 to 40 jobs for each lot.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33445-rr-gas-stations-pack-one/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/5e44546d91394_RRGasStationsPack1A.jpg.25aff03dc2a3e626a6eadf89fa9906fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/5e44546e8a949_RRGasStationsPack1B.jpg.3b09da8bea82c20c2a33d321de2bcd2f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/5e44546f7aa4e_RRGasStationsPack1C.jpg.30bebeb712499cf9ce7abc6a1c884fe0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e9220346fdcb_RRGasStationsPack1D.jpg.9b357f9e06113fca16971937553a5081.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:hedges
+  - girafe:maples-v2
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-gas-stations-pack-one
+
+---
+assetId: rretail-gas-stations-pack-one
+version: "1.4.1"
+lastModified: "2020-10-28T18:44:51Z"
+url: https://community.simtropolis.com/files/file/33445-rr-gas-stations-pack-one/?do=download
