@@ -1,9 +1,9 @@
 group: rretail
-name: gas-stations-pack-two
+name: gas-stations-pack-vol2
 version: "1.1"
 subfolder: 300-commercial
 info:
-  summary: Gas Stations- Pack Two
+  summary: Gas Stations Pack - Vol 2
   description: |-
     A pack of gas stations for more regional gas stations. A total of 16 past and present brands are included.
 

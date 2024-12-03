@@ -1,9 +1,9 @@
 group: rretail
-name: gas-stations-pack-one
+name: gas-stations-pack-vol1
 version: "1.4.1"
 subfolder: 300-commercial
 info:
-  summary: Gas Stations- Pack One
+  summary: Gas Stations Pack - Vol 1
   description: |-
     A pack of gas stations for supermarkets and other chain stores that sometimes have a standalone gas station either nearby its namesake store or down the road a bit. A Sheetz is also included. This package includes 17 standalone gas stations with 17 brands.
 

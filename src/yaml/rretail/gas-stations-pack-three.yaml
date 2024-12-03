@@ -1,11 +1,11 @@
 group: rretail
-name: gas-stations-pack-three
+name: gas-stations-pack-vol3
 version: "1.0.1"
 subfolder: 300-commercial
 info:
-  summary: Gas Stations Pack Three
+  summary: Gas Stations Pack - Vol 3
   description: |-
-    The third pack of gas stations expands upon the second by adding 18 more regional brands for you to enjoy.
+    A pack of gas stations expanding upon `pkg=rretail:gas-stations-pack-vol2` by adding 18 more regional brands for you to enjoy.
 
     Lots vary from a 2x2 space to a 6x6 size. Job amounts vary from lot to lot but generally are in the 6-40 range.
   author: RRetail
