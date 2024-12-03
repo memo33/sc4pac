@@ -8,7 +8,7 @@ dependencies:
 - "peg:mtp-super-pack"
 info:
   summary: "Set of small coffee shops and restaurants"
-  description: >
+  description: |
     Five different buildings on twelve lots.
     All are CS$ with jobs ranging from 12 to 16.
   author: "madhatter106"

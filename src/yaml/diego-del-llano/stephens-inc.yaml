@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Stephens Inc
-  description: >
+  description: |
     Headquartered in Little Rock, Arkansas, Stephens Inc.
     is a privately held, independent financial services firm. As one of the largest privately owned investment banks in the country, Stephens has 25 offices worldwide and employs more than 700 people.
 

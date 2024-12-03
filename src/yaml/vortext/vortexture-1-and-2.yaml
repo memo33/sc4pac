@@ -9,7 +9,7 @@ assets:
   - "/Vortexture 1 - Base Set v..dat"
 info:
   summary: "Set of base textures"
-  description: >
+  description: |
     Vortexture 1 - BaseSet: A set of 42 new base textures for use in the Lot Editor.
   author: "vortext"
   images:

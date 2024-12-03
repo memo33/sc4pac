@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Large Modern Hospital"
-  description: >
+  description: |
     This is a purely fictional larger style hospital. This building houses an
     emergency department, surgery, pathology, outpatient and other clinical
     facilities typically associated with purpose built hospitals.

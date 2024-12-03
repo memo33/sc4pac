@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Carlton Center
-  description: >
+  description: |
     The Carlton Centre is a skyscraper and shopping centre located in downtown Johannesburg, South Africa.
     At 223 metres (732 ft), it has been the tallest office building in Africa since 1973.
     The Carlton Centre has 50 floors.

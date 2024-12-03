@@ -4,7 +4,7 @@ version: "1"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable grocery chain"
-  description: >
+  description: |
     William Zimmerman founded Pic 'N' Save Corporation in 1950 in Culver City, California.
     By 1985, it operated 90 stores in California and six other Western U.S. states.
     In 1991, the company changed its name to MacFrugals.

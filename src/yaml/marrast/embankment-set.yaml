@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 660-parks
 info:
   summary: Marrast's Embankment Set
-  description: >
+  description: |
     An embankment set that can be used to create lifelike embankments along your shorelines or river edges in the game.
     Can be found in the seaports menu.
   author: Marrast

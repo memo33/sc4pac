@@ -20,7 +20,7 @@ dependencies:
 
 info:
   summary: "Full set of override Lots replacing all default Maxis mansion Lots"
-  description: >
+  description: |
     This mod brings more details, more variety, better slope tolerance,
     seasonal trees and many other improvements to the Maxis mansions.
 
@@ -81,7 +81,7 @@ dependencies:
 - "supershk:mega-parking-textures"
 info:
   summary: "33 additional lots supplementing the Maxis Mansion Overhaul"
-  description: >
+  description: |
     This set expands the original mod by taking advantage of new lot sizes,
     climate variation, and the strength of the individual models themselves to
     add further variation in your affluent areas.

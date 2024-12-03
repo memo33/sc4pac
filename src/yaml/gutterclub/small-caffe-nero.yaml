@@ -14,7 +14,7 @@ variants:
 
 info:
   summary: "Small CS$$ W2W coffee shop"
-  description: >
+  description: |
     The 1×2 CS$$ building is based on various small coffee shops found in retail parks and town centres across the UK.
     The lot sits wall-to-wall, however is set slightly back from the sidewalk and has tables out front.
   author: "gutterclub"

@@ -15,7 +15,7 @@ assets:
 
 info:
   summary: "HD Rock Mod 01 - grey & black"
-  description: >
+  description: |
     This variety has mostly gray and black tones.
 
     These are HD rock textures which require the use of hardware rendering mode.
@@ -36,7 +36,7 @@ assets:
 
 info:
   summary: "HD Rock Mod 02 - bright, silvery with red & pink"
-  description: >
+  description: |
     This variety is bright, sort of silvery with some red/pink hues.
 
     These are HD rock textures which require the use of hardware rendering mode.
@@ -57,7 +57,7 @@ assets:
 
 info:
   summary: "HD Rock Mod 03 - dark brown"
-  description: >
+  description: |
     This variety has dark, brown hues.
 
     These are HD rock textures which require the use of hardware rendering mode.
@@ -78,7 +78,7 @@ assets:
 
 info:
   summary: "HD Rock Mod 04 - mossy grey"
-  description: >
+  description: |
     This variety is a mossy grey.
 
     These are HD rock textures which require the use of hardware rendering mode.
@@ -99,7 +99,7 @@ assets:
 
 info:
   summary: "HD Rock Mod 05 - red/pink granite"
-  description: >
+  description: |
     This variety resembles a reddish pink granite.
 
     These are HD rock textures which require the use of hardware rendering mode.

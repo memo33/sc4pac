@@ -7,7 +7,7 @@ dependencies:
 - "t-wrecks:maxis-prop-names-and-query-fix"
 info:
   summary: "Buildings as props (bldgprop_vol1.dat and bldgprop_vol2.dat)"
-  description: >
+  description: |
     Superseded by `pkg=t-wrecks:maxis-prop-names-and-query-fix`.
     It is enough to install that package instead.
   author: "Maxis"

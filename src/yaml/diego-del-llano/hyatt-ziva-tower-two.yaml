@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Hyatt Ziva Tower Two
-  description: >
+  description: |
     These luxury beach-front condos are located in Puerto Vallarta, Mexico. The height is 196,85 ft (60 meters).
 
   author: Diego Del Llano

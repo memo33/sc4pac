@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Simmons Tower
-  description: >
+  description: |
     Simmons Bank Tower is a 40-story skyscraper located at 425 West Capitol Avenue in downtown Little Rock, Arkansas.
     At 547 feet (167 m) high, it is currently the tallest building in Arkansas.
 

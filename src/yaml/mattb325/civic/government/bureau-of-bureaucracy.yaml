@@ -10,7 +10,7 @@ dependencies:
 
 info:
   summary: "Bureau of Bureaucracy"
-  description: >
+  description: |
     This alternate Bureau of Bureaucracy reward is based on a real building in
     the US city Texarkana.  It is an example of the Beaux Arts style, which was
     popular for government buildings in the late 1920s and early 1930s, as its

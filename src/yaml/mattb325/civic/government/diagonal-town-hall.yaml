@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Diagonal Town Hall"
-  description: >
+  description: |
     This BAT is based on the National Audit Office in London. The original
     building was actually an airport terminal. The building has been designed
     to be placed along diagonal roads. The lot size is 1x2 but the building

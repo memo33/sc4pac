@@ -8,7 +8,7 @@ assets:
 info:
   summary: "Third-party patches for SC4"
   conflicts: "Incompatible with the macOS version of the game."
-  description: >
+  description: |
     Fixes a serialization bug that could corrupt the savegame, particularly when mods are installed that modify existing exemplars (i.e. Prop Pox).
 
     Resolves a crash-to-desktop when hovering NAM puzzle pieces over transit-enabled lots.

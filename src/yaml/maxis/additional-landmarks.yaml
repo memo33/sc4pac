@@ -505,7 +505,7 @@ dependencies:
 - maxis:the-living-mall
 info:
   summary: "Additional Maxis landmarks"
-  description: >
+  description: |
     This collection of plugins contains all the additional landmarks that Maxis published as DLC.
   author: "Maxis"
   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Cititower Guadalajara
-  description: >
+  description: |
     Cititower is a Mixed complex located in Guadalajara, Mexico.
 
   author: Diego Del Llano

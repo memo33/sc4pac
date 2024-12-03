@@ -6,7 +6,7 @@ assets:
 - assetId: "peg-power-tower-pylons"
 info:
   summary: "Reskin of the game's power transmission towers"
-  description: >
+  description: |
     A simple mod that reskins the existing game default power transmission towers
     to a consistent silvery-gray / oxidized metal color.
   author: "Pegasus"

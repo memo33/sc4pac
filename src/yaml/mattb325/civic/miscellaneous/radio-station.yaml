@@ -12,7 +12,7 @@ dependencies:
 
 info:
   summary: "Radio Station"
-  description: >
+  description: |
     Like the ingame Radio Station this lot is basically used as a cap buster;
     it increases desirability, mayor rating and also substantially lifts the
     demand cap for R$$ and Manufacturing jobs. Given how most of the industrial

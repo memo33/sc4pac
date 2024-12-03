@@ -52,7 +52,7 @@ assets:
 
 info:
   summary: "11 parks ranging from humble neighborhood park to a regional giant"
-  description: >
+  description: |
     Most of the original parks in-game were designed with a singular function
     in mind. For example, courts, green space, fields and plazas were all
     presented individually. This set takes a different approach and combines
@@ -99,7 +99,7 @@ dependencies:
 - "kingofsimcity:community-regional-park-pack-vol2-tennis-parks"
 info:
   summary: "Set of 36 large parks with a focus on sports"
-  description: >
+  description: |
     Volume 2 has a heavier focus towards sports courts and complexes and as
     such, you'll see plenty of new (and renewed) tennis courts, baseball,
     softball and soccer/football fields for your Sims.

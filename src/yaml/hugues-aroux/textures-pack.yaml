@@ -4,7 +4,7 @@ version: "1.0.4"
 subfolder: "100-props-textures"
 info:
   summary: "Scoty textures pack"
-  description: >
+  description: |
     Base and overlay textures for pavements, paths, parks, etc.
   website: "https://community.simtropolis.com/files/file/36297-scoty-textures-packs/"
   images:

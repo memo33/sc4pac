@@ -9,7 +9,7 @@ dependencies:
 
 info:
   summary: "Old North Church, Boston"
-  description: >
+  description: |
     Built in 1723, this is the oldest church in Boston and is famous for having
     been the church from which Paul Revere received his illuminated signals
     ("one if by land, and two if by sea") prior to his midnight ride to warn

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Salesforce Tower
-  description: >
+  description: |
     Salesforce Tower, formerly known as Transbay Tower, is a 61-story skyscraper at 415 Mission Street, between First and Fremont Street, in the South of Market district of downtown San Francisco.
     Its main tenant is Salesforce, a cloud-based software company.
     The building is 1,070 feet (326 m) tall, with a top roof height of 970 feet (296 m).

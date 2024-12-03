@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: 915 West End Avenue (W2W)
-  description: >
+  description: |
     915 West End Avenue is a 1922 apartment building located in Manhattan, New York City.
     The building grows as R$$ and R$$$ on the New York and Chicago tile sets.
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.

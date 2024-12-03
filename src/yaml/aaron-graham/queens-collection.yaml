@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: Queens part of Aaron Graham's NYBT bats
-  description: >
+  description: |
     Contains the Queens part of Aaron Graham's NYBT collection.
   author: Aaron Graham
   website: https://community.simtropolis.com/profile/226625-aaron-graham/content/?type=downloads_file

@@ -4,7 +4,7 @@ version: "3"
 subfolder: "400-industrial"
 info:
   summary: "A Verizon cellular broadcast tower"
-  description: >
+  description: |
     Lately your sims have been complaining about the crappy cell service in your city.
     Luckily, you decided to commission this new Verizon Substation in your city to boost service before the sims riot.
 

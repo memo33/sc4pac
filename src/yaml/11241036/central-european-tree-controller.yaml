@@ -4,15 +4,15 @@ version: "1.03"
 subfolder: 180-flora
 info:
   summary: Central European Tree Controller
-  warning: >-
+  warning: |-
     If using this controller in seasonal mode, seasonal trees must be planted on September 1st.
     When switching to another tree controller, always remove any and all trees planted with your previous tree controller *before* uninstalling your old tree controller.
 
     If you want to remove this tree controller, there are some helper files available on Simtropolis.
-  conflicts: >-
+  conflicts: |-
     The seasonal controller variant is only compatible with terrain mods that include the Seasonal Flora Patch.
     Incompatible with all other tree controllers – only one tree controller may be installed at a time.
-  description: >
+  description: |
     This plugin provides you with a tree controller, that allows you to plant large forests consisting of trees mostly created by girafe.
     On lower altitudes, leafy trees are being planted, and the higher you go, eventually mixed forests, conifer forests, shrubby plains and meadows with flowers will appear instead.
 

@@ -11,7 +11,7 @@ dependencies:
 
 info:
   summary: "Bankstown Council Chambers and Civic Center"
-  description: >
+  description: |
     This is a campus-style council chambers and civic center building. This is
     a modified model based on the auditorium, council offices and tourist
     information kiosk of a similarly scaled complex in suburban Sydney.

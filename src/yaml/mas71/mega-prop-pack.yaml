@@ -6,7 +6,7 @@ assets:
 - assetId: "mas71-mega-prop-pack-vol01-misc"
 info:
   summary: "Repackaged version of MAS71 prop packs"
-  description: >
+  description: |
     Also known as MAS71 Mega Prop Pack vol01 - Misc.
     Includes in particular MAS71 Prop Pack Vol. 01, MAS71 Prop Pack Vol. 03 as well as many others.
   author: "Mas71"

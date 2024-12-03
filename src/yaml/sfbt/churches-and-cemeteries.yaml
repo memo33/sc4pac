@@ -18,7 +18,7 @@ assets:
 
 info:
   summary: "Replacement of Maxis churches and cemeteries"
-  description: >
+  description: |
     This mod contains four different church and three different cemetery lots which replace the Maxis reward lots completely.
 
     It is recommended to demolish the original Maxis lots before installing this mod.

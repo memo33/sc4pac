@@ -4,7 +4,7 @@ version: 1.0.0
 subfolder: 360-landmark
 info:
   summary: Aldred Building
-  description: >
+  description: |
     The Aldred Building (French: Édifice Aldred; also known as Édifice La Prévoyance) is an Art deco building on the historic Place d'Armes square in the Old Montreal quarter of Montreal, Quebec, Canada.
 
     Completed in 1931, the building was designed by Ernest Isbell Barott, of the firm Barott and Blackader, with a height of 96 metres (316 ft) or 23 storeys.

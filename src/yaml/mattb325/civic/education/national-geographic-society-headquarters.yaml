@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "National Geographic Society Headquarters (museum)"
-  description: >
+  description: |
     The National Geographic Society Headquarters was built in 1963 in the what
     is known as the new formalist style.  It is made of concrete, marble and
     glass and conveys a uniform and symmetrical appearance; the marble columns
@@ -51,7 +51,7 @@ variants:
 
 # info:
 #   summary: "National Geographic Society Headquarters (growable)"
-#   description: >
+#   description: |
 #     The National Geographic Society Headquarters was built in 1963 in the what
 #     is known as the new formalist style.  It is made of concrete, marble and
 #     glass and conveys a uniform and symmetrical appearance; the marble columns

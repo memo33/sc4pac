@@ -7,7 +7,7 @@ assets:
 info:
   summary: "Simpeg Plop Orientation Tool (SPOT)"
   website: "https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/"
-  description: >
+  description: |
     This is a set of props you can add to your lots to aid the player in seeing how to orient the lot.
 
     Where needed, these will be used on Simpeg Team Projects, at the developers discretion.

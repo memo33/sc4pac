@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Torre Multiva
-  description: >
+  description: |
     Torre Multiva is a building located in Guadalajara, Mexico, the height is 301 ft (92 m ).
 
   author: Diego Del Llano
