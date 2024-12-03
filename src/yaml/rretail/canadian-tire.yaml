@@ -1,0 +1,46 @@
+group: rretail
+name: canadian-tire
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Canadian Tire
+  description: |-
+    Canadian Tire is a retail company with over 500 stores across Canada which primarily sells automotive, hardware, sporting goods and home products. However, some stores also carry toys and food products. The company roots trace back to 1922 when John William Billes and Alfred Jackson Billes invested in Hamilton Tire and Garage. Due to local construction hurting businesses for the garage, the founders decided to open a retail store elsewhere. Canadian Tire is headquartered in Toronto, Canada.
+
+    11x10 lot with around 554 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33582-canadian-tire/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5eab181d436a5_RRCanadianTire.jpg.b649cf3f5dbb5e65eff53d75c6187bbc.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-mjb-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-canadian-tire
+
+---
+assetId: rretail-canadian-tire
+version: "1.1"
+lastModified: "2020-06-20T14:42:28Z"
+url: https://community.simtropolis.com/files/file/33582-canadian-tire/?do=download
