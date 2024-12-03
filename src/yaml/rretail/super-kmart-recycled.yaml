@@ -1,0 +1,42 @@
+group: rretail
+name: super-kmart-recycled
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Super Kmart Recycled
+  description: |-
+    Academy Sports, Floor & Decor, Pep Boys, Sleep Outfitters & Five Guys make use of a former Super Kmart
+
+    13x16 lot with 379 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33867-super-kmart-recycled/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f84a0d218da1_RRSuperKmartRecycled.jpg.6e2ef3fe8eebb009219c4c771f4a0f86.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-super-kmart-recycled
+
+---
+assetId: rretail-super-kmart-recycled
+version: "1.0.0"
+lastModified: "2020-10-12T18:31:56Z"
+url: https://community.simtropolis.com/files/file/33867-super-kmart-recycled/?do=download
