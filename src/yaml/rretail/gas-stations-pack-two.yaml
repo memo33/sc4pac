@@ -1,0 +1,45 @@
+group: rretail
+name: gas-stations-pack-two
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Gas Stations- Pack Two
+  description: |-
+    A pack of gas stations for more regional gas stations. A total of 16 past and present brands are included.
+
+    Most lots vary from a 2x3 lot space to a 4x4 lot. However, a few have a larger footprint such as QuikTrip with 5x5 and Wawa with 4x6.
+
+    Job amounts vary from lot to lot but generally are in the 6-40 range.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33558-rr-gas-stations-pack-two/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e9f15e71970e_RRGasStationsPackTwoA.jpg.d8e6f38c3a75dc3e75bf3682aa852155.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e9f15e8292ad_RRGasStationsPackTwoB.jpg.1a4dedee6c3a92f16bbd973c6848039d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e9f15e968c06_RRGasStationsPackTwoC.jpg.5207d8b1bc09fcb4bafe619bf801f422.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e9f15ea88baa_RRGasStationsPackTwoD.jpg.68d9bea3b9262e1908836cb6c444b865.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:hedges
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-gas-stations-pack-two
+
+---
+assetId: rretail-gas-stations-pack-two
+version: "1.1"
+lastModified: "2020-06-20T14:46:55Z"
+url: https://community.simtropolis.com/files/file/33558-rr-gas-stations-pack-two/?do=download
