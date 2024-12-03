@@ -1,0 +1,51 @@
+group: rretail
+name: flying-j-truckstop
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Flying J Truckstop
+  description: |-
+    Pilot Flying J is a North American chain of truck stops with operations in the United States and Canada. Based in Knoxville, Tennessee, the company is owned by Pilot, FJ Management, and Berkshire Hathaway. The company operates truck stops under the banners of Pilot Travel Centers, Flying J Travel Plaza, and Mr. Fuel brands. Pilot merged with Flying J in 2009.
+
+    Provides 104 jobs.
+
+    Lot 1: **Main Building & Cars** (8 x 5 lot)
+
+    Lot 2: **Truck Area** (8 x 9 lot)
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/34640-flying-j-truckstop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6113e3ae92d0c_RRFlyingJTruckstopA.jpg.0e3b025174ec026456f245e04737bdfb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6113e3af6ec67_RRFlyingJTruckstopB.jpg.ac0aa2708274d9ca5f6d7266abebd6d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6113e3b0493fd_RRFlyingJTruckstopC.jpg.38f83ba5ff005bcfdf919f1a8c9f84bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/6113e3b10403a_RRFlyingJTruckstopD.jpg.43d1531b5f866e4446e098a7b6c2e420.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:essentials
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-flying-j-truckstop
+
+---
+assetId: rretail-flying-j-truckstop
+version: "1.1"
+lastModified: "2021-11-17T22:24:33Z"
+url: https://community.simtropolis.com/files/file/34640-flying-j-truckstop/?do=download
