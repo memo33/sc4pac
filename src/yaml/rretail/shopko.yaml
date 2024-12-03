@@ -1,0 +1,44 @@
+group: rretail
+name: shopko
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Shopko
+  description: |-
+    Shopko, founded in 1962 by James Ruben as the ShopKo corporation, was a chain of stores headquartered in Green Bay, WI. The company declared bankruptcy in January 2019 and would close all its locations by the end of June of that year. Shopko did not have the usual shoe department that other chains do. Instead, the chain had a contract with Payless Shoesource for that company to operate as an in-line tenant in the stores. In pure coincidence, Payless happened to be liquidating stores at the same time Shopko was.
+
+    The Shopko name still lives on though. The optical business that operated within Shopko stores was sold off and as of January 2020, there were 81 standalone Shopko Optical stores in business.
+
+    7x12 lot with around 477 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33744-shopko/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d7ba50496b_RRShopko.jpg.0500fab267815ab8a7ea9bd43cf964a2.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - nos17:essentials
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-shopko
+
+---
+assetId: rretail-shopko
+version: "1.0.0"
+lastModified: "2020-08-07T16:05:38Z"
+url: https://community.simtropolis.com/files/file/33744-shopko/?do=download
