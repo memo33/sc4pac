@@ -1,0 +1,49 @@
+group: rretail
+name: downingtown-plaza
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Downingtown Plaza
+  description: |-
+    12 x15 lot with 437 jobs
+
+    Brands featured include:
+
+    -   Nordstrom Rack
+    -   Barnes and Noble Booksellers
+    -   Homegoods
+    -   Trader Joe’s
+    -   Sierra (Outdoors)
+    -   Chipotle
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33749-downingtown-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d7ff11c55e_RRDowningtownPlazaA.jpg.0d8af17d795fa31e61b4c132d2f43a59.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d7ff1c23d4_RRDowningtownPlazaB.jpg.fe7deca22991a48ede7b6a6ab1a3a64f.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-downingtown-plaza
+
+---
+assetId: rretail-downingtown-plaza
+version: "1.0.0"
+lastModified: "2020-08-07T16:25:43Z"
+url: https://community.simtropolis.com/files/file/33749-downingtown-plaza/?do=download
