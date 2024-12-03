@@ -1,0 +1,40 @@
+group: rretail
+name: ralphs
+version: "1.2"
+subfolder: 300-commercial
+info:
+  summary: Ralph's
+  description: |-
+    Ralphs is a supermarket chain that operates stores primarly in southern California. It is owned by parent company Kroger. The company was founded in 1873 by George Albert Ralphs and his brother, Walter Benjamin Ralphs; with the original store having operated at Sixth and Spring Streets in Los Angeles, CA.
+
+    9x9 lot with 420 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33939-ralphs/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fa5be0a470b7_RRRalphs.jpg.27f67f9e52d1d27a6135b73d5fd06e93.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-ralphs
+
+---
+assetId: rretail-ralphs
+version: "1.2"
+lastModified: "2021-11-17T22:06:56Z"
+url: https://community.simtropolis.com/files/file/33939-ralphs/?do=download
