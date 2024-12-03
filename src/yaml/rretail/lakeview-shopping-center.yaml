@@ -1,0 +1,94 @@
+group: rretail
+name: lakeview-shopping-center
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Lakeview Shopping Center
+  description: |-
+    A 4-lot shopping center complex inspired by the architecture used at the Gateway shopping plaza in Mechanicsburg, PA.
+
+    757 jobs are included- though only found via the right lot.
+
+    Lot Sizes:
+
+    **Right** **Lot:** 9x17 lot
+
+    **Left** **Lot:** 8x15 lot
+
+    **Center** **Lot:** 11x17 lot
+
+    **Extension Lot:** 2x2 lot
+
+    Brands featured include:
+
+    -   Total Wine
+    -   Bob’s Discount Furniture
+    -   Sprout’s Farmers Market
+    -   Cost Plus World Market
+    -   K&G Fashion Superstore
+    -   Golf Galaxy
+    -   Shoe Carnival
+    -   Woodcraft
+    -   Once Upon A Child
+    -   Clothes Mentor
+    -   CPR (Cell Phone Repair) Store
+    -   Fast Signs
+    -   Lumber Liquidators
+    -   Curves
+    -   Batteries & Bulbs
+    -   Coldstone Creamery
+    -   Edible Arrangements
+    -   Sun Tan City
+    -   Pita Pit
+    -   Omaha Steaks
+    -   Edward Jones
+    -   Kool Smiles
+    -   Eyemart
+    -   Advance America Loans
+    -   Honeybaked Ham
+    -   Message Envy Spa
+    -   Tokyo Hibachi House (generic)
+    -   Leslie’s Pool Supplies
+    -   Xfinity
+
+    Carrabba's Italian Grill, Smokey Bones BBQ, Krispy Kreme and a newer strip mall serve as outparcels.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33868-lakeview-shopping-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/63237b5dd86ac_LakeviewShopsA.jpg.f79559e1a8f446aa904f694775763453.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/63237b5f92aef_LakeviewShopsB.jpg.726a211228a8ac121e357a196a11dd52.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/63237b6151f65_LakeviewShopsC.jpg.30fe3d9b4149e97acf813623b0a07aba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/63237b6340e70_LakeviewShopsD.jpg.f2862dae2d17f327699cf75f06a3e2f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/63237b648481e_LakeviewShopsE.jpg.c7fb04570ffea01938605526790e0af1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/63237b65d4d13_LakeviewShopsF.jpg.ede73f2914a878474cc5768fb7743875.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/63237b676e3ba_LakeviewShopsG.jpg.83e942ea78305f9bff7fa340240882e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/63237b68cee15_LakeviewShopsH.jpg.6216af58a929d125666c342fe2431391.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-lakeview-shopping-center
+
+---
+assetId: rretail-lakeview-shopping-center
+version: "2.0"
+lastModified: "2022-09-15T19:24:11Z"
+url: https://community.simtropolis.com/files/file/33868-lakeview-shopping-center/?do=download
