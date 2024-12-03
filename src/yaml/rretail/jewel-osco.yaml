@@ -1,0 +1,37 @@
+group: rretail
+name: jewel-osco
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Jewel-Osco
+  description: |-
+    Serving the Chicago area and it surrounding suburbs, Jewel-Osco is a supermarket chain headquartered out of Itasca, Illinois. The company has grown to 188 stores and is a subsidiary of parent company Albertsons. Jewel-Osco’s roots are traced back to 1899 when its founder, Frank Vernon Skiff, used the company (then simply named Jewel) as a door-to-door coffee delivery service. Eventually the chain would expand into delivering non-perishable groceries and finally into a grocery store. A 1961 merger with Chicago’s Osco Drug stores would set the name for the company’s new stores starting in 1962.
+
+    9x9 lot with around 600 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33481-jewel-osco/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_02/5e503c9ed3927_RRJewel-Osco.jpg.af4caa48e946c6a152f5d79d0f29f878.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-jewel-osco
+
+---
+assetId: rretail-jewel-osco
+version: "1.0.0"
+lastModified: "2020-02-21T20:26:11Z"
+url: https://community.simtropolis.com/files/file/33481-jewel-osco/?do=download
