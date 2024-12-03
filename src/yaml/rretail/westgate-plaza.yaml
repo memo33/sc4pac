@@ -1,0 +1,56 @@
+group: rretail
+name: westgate-plaza
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Westgate Plaza
+  description: |-
+    Another rural inspired shopping plaza anchored this time by Rose’s and Burkes Outlet. Also included as an outparcel to the plaza is a Hardee’s.
+
+    A Carl’s Jr. is also included as a bonus prop if you’d prefer to use that brand.
+
+    13 x 13 lot with 589 jobs
+
+    Brands featured include:
+
+    -   Rose’s Discount Dept. Store
+    -   Burkes Outlet
+    -   Colortyme Rent-to-Own
+    -   GNC
+    -   At&t Authorized Retailer
+    -   Subway
+    -   Jackson Hewitt
+    -   Allen Automotive Care (generic)
+    -   Smoke & Vape Solutions (generic)
+    -   Barber Shop (generic)
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33487-westgate-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/5e6268a8064f9_RRWestgatePlaza2.jpg.edac4c78efd03476794cf3956559b1fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/5e6268a90a698_RRWestgatePlaza.jpg.04f6c9be60d39df2beaff4b6a04bf3e8.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-westgate-plaza
+
+---
+assetId: rretail-westgate-plaza
+version: "1.1"
+lastModified: "2020-06-20T15:03:09Z"
+url: https://community.simtropolis.com/files/file/33487-westgate-plaza/?do=download
