@@ -1,0 +1,39 @@
+group: rretail
+name: city-center-shopping-plaza
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: City Center Shopping Plaza
+  description: |-
+    An urban style shopping center loosely based upon the Livingston Park Plaza in Manchester, NH. Anchored by a Rite Aid drug store, this strip mall also features Fidelity Investments and other generic businesses such as Cassidy’s Toy Store, a bike shop, a family restaurant and a dry cleaners.
+
+    6x9 low wealth commercial service offering 480 jobs.
+
+    **Stats:**
+     - Plop/Bulldoze Cost: 10,000/ 625
+     - Lot size: 6x9
+     - Jobs: Cs$ 480
+     - Menu Location: Landmarks
+     - Power/Water Used: 26/38
+     - Pollution at Center: air 6, water 9, garbage 15, radiation 0
+     - Pollution Radius: 6, 6, 0, 0
+  author: RRetail, kloudkicker
+  website: https://community.simtropolis.com/files/file/34625-city-center-shopping-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/61082859414f5_RRCityCenterShoppingPlazaV2A.jpg.1ddb0fab7a4b1452aadece0b4ae86cf0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/61082859c99b6_RRCityCenterShoppingPlazaV2B.jpg.826982e331755678eccef71612511a4a.jpg
+dependencies:
+  - rretail:mega-prop-pack-vol1
+  - t-wrecks:maxis-prop-names-and-query-fix
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - kingofsimcity:logistics-essentials
+  - girafe:poplars
+assets:
+  - assetId: rretail-city-center-shopping-plaza
+
+---
+assetId: rretail-city-center-shopping-plaza
+version: "1.0.0"
+lastModified: "2021-08-02T17:29:05Z"
+url: https://community.simtropolis.com/files/file/34625-city-center-shopping-plaza/?do=download
