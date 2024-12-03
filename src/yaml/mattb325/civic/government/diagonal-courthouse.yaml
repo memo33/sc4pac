@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Diagonal Courthouse"
-  description: >
+  description: |
     This is a purely fictional larger style courthouse that is aligned to
     diagonal roads and avenues. This building is designed to bolster policing
     efficiency: it also provides cap relief for R$$, R$$ and CO$$.

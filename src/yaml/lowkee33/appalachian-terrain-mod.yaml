@@ -16,7 +16,7 @@ dependencies:
 info:
   summary: "Appalachian Terrain Mod plus LK Starter Set"
   conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
-  description: >
+  description: |
     Appalachian Terrain Mod, including optional LK Starter Set beach, cliff, and water textures.
 
     Note: this terrain mod provides a variety of terrain controller configurations,
@@ -42,7 +42,7 @@ assets:
 info:
   summary: "Appalachian Terrain Mod - Terrain Only"
   conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
-  description: >
+  description: |
     Appalachian Terrain Mod base terrain only.
 
     Note: this terrain mod provides a variety of terrain controller configurations,
@@ -66,7 +66,7 @@ assets:
   - "/LK_StarterSet_Beach.dat"
 info:
   summary: "LK Starter Set beach textures"
-  description: >
+  description: |
     LK Starter Set beach textures for the Appalachian Terrain Mod.
 
     These are HD terrain textures which require the use of hardware rendering mode.
@@ -84,7 +84,7 @@ assets:
   - "/LK_StarterSet_Cliff.dat"
 info:
   summary: "LK Starter Set cliff (rock) textures"
-  description: >
+  description: |
     LK Starter Set cliff (rock) textures for the Appalachian Terrain Mod.
 
     These are HD terrain textures which require the use of hardware rendering mode.
@@ -102,7 +102,7 @@ assets:
   - "/LK_StarterSet_Water.dat"
 info:
   summary: "LK Starter Set water textures"
-  description: >
+  description: |
     LK Starter Set water textures for the Appalachian Terrain Mod.
 
     These are HD terrain textures which require the use of hardware rendering mode.

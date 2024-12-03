@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Dental Clinic"
-  description: >
+  description: |
     This little building is inspired by a real such mid-century low rise building
     near downtown Los Angeles. In game, this supplements the main hospital
     function and the capacities have been modded to sit mid way between the clinic

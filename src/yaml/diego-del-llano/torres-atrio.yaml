@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Torres Atrio
-  description: >
+  description: |
     ATRIO is a major mixed-use commercial development in central Bogotá comprising two towers – North and South – with a large, open public space at ground level.
 
     At 42 floors (201 metres) and 58 floors (268 metres) high respectively, the towers provide a total of more than 250,000 m² of office space, public services and retail with up to 72,000 people expected to pass through each day.

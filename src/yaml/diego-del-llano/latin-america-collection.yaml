@@ -4,7 +4,7 @@ version: 1.0.0
 subfolder: 360-landmark
 info:
   summary: Latin American part of Diego Del Llano's landmarks collection
-  description: >
+  description: |
     Contains the Latin American part of Diego Del Llano's collection, including Mexico.
   author: Diego Del Llano
   website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file

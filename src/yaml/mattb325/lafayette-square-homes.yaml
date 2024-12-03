@@ -9,7 +9,7 @@ dependencies:
 
 info:
   summary: "LaFayette Square St. Louis Row Homes"
-  description: >
+  description: |
     These old world, colourful row homes hail from LaFayette Square in St. Louis.
     The houses are 8m wide, medium wealth (R$$) and have a number of colour variations in a family.
     They grow on 1x2 and 2x2 lots in the Chicago and New York tilesets.

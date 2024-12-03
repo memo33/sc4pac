@@ -11,7 +11,7 @@ dependencies:
 
 info:
   summary: Modern Villa 1
-  description: >
+  description: |
     This villa is part of a set of 5 modern R$$$ villas.
     They grow on the modern Houston and Euro tilesets.
 
@@ -61,7 +61,7 @@ dependencies:
 
 info:
   summary: Modern Villa 1
-  description: >
+  description: |
     This villa is part of a set of 5 modern R$$$ villas.
     They grow on the modern Houston and Euro tilesets.
 
@@ -111,7 +111,7 @@ dependencies:
 
 info:
   summary: Modern Villa 2
-  description: >
+  description: |
     This villa is part of a set of 5 modern R$$$ villas.
     They grow on the modern Houston and Euro tilesets.
 
@@ -164,7 +164,7 @@ dependencies:
 
 info:
   summary: Modern Villa 3
-  description: >
+  description: |
     This villa is part of a set of 5 modern R$$$ villas.
     They grow on the modern Houston and Euro tilesets.
 
@@ -220,7 +220,7 @@ dependencies:
 
 info:
   summary: Modern Villa 4
-  description: >
+  description: |
     This villa is part of a set of 5 modern R$$$ villas.
     They grow on the modern Houston and Euro tilesets.
 
@@ -270,7 +270,7 @@ dependencies:
 
 info:
   summary: Collection of 5 modern R$$$ villas
-  description: >
+  description: |
     These villas grow on the modern Houston and Euro tilesets.
 
     Typically the modern villa is something of a compound: numerous projections create enclosed intimate spaces.
@@ -293,7 +293,7 @@ assets:
 
 info:
   summary: Ploppable Modern Villas
-  description: >
+  description: |
     A ploppable version of 5 modern villas.
 
     In SC4, all residential lots need access to a road, and that of course means a lot must be made, and the downloader is often subject to the whims and tastes of the lot-maker: certainly houses that are off the beaten track are almost impossible to achieve in the constraints of SC4 RCI zoning.

@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Madame Tussauds, Hollywood"
-  description: >
+  description: |
     Madame Tussauds is an entertainment complex on Hollywood Boulevard. This BAT
     is intended as a more serious alternative to the in-game Tourist Trap reward.
     The complex has a wax museum, garish LED outdoor screens, a Starbucks Coffee

@@ -7,7 +7,7 @@ dependencies:
 
 info:
   summary: "Old NYPD Headquarters"
-  description: >
+  description: |
     More like a palace than a police station, this real building on Centre St
     in New York was built in 1909 and housed the New York Police department
     from 1909 to 1973.
@@ -63,7 +63,7 @@ dependencies: []
 
 info:
   summary: "Old NYPD Headquarters (diagonal)"
-  description: >
+  description: |
     More like a palace than a police station, this real building on Centre St
     in New York was built in 1909 and housed the New York Police department
     from 1909 to 1973.

@@ -4,7 +4,7 @@ version: 1.0.0
 subfolder: 360-landmark
 info:
   summary: North American part of Diego Del Llano's landmarks collection
-  description: >
+  description: |
     Contains the North American part of Diego Del Llano's collection, excluding Mexico.
     Mexico can be found in the Latin American counterpart.
   author: Diego Del Llano

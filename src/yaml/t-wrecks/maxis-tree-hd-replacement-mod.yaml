@@ -17,7 +17,7 @@ assets:
   # - "/Maxis Tree HD Replacement_PalmsToCypresses.dat"  # TODO deal with palms/no-palms
 info:
   summary: "Replacement of all Maxis trees on lots and roadsides"
-  description: >
+  description: |
     This mod replaces all Maxis trees on lots with beautiful HD trees. Lots
     already existing in your city will automatically switch to the new trees.
     Whatever grows or is plopped subsequently will show the new trees in place

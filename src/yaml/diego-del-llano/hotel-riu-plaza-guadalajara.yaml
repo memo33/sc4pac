@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Hotel Riu Plaza Guadalajara
-  description: >
+  description: |
     This horrible building is a skyscraper located in the city of Guadalajara, Mexico.
     At 215-metre tall (705 ft), it is the city and metropolitan area's tallest building and the fifth highest in Mexico.
 

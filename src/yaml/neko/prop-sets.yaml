@@ -6,7 +6,7 @@ assets:
 - assetId: "neko-prop-set-vol01-part1"
 info:
   summary: "Neko Prop Set 01 - part 1"
-  description: >
+  description: |
     Japanese props.
   author: "Neko Panchi"
   website: "http://hide-inoki.com/bbs/archives/sc4_0856.html"
@@ -26,7 +26,7 @@ assets:
 - assetId: "neko-prop-set-vol01-part2"
 info:
   summary: "Neko Prop Set 01 - part 2"
-  description: >
+  description: |
     Japanese props.
   author: "Neko Panchi"
   website: "http://hide-inoki.com/bbs/archives/sc4_0856.html"
@@ -46,7 +46,7 @@ assets:
 - assetId: "neko-prop-set-vol02"
 info:
   summary: "Neko Prop Set 02"
-  description: >
+  description: |
     Japanese props.
   author: "Neko Panchi"
   website: "http://hide-inoki.com/bbs/archives/sc4_0837.html"
@@ -66,7 +66,7 @@ assets:
 - assetId: "neko-prop-set-vol03"
 info:
   summary: "Neko Prop Set 03"
-  description: >
+  description: |
     Japanese props.
   author: "Neko Panchi"
   website: "http://hide-inoki.com/bbs/archives/sc4_0837.html"
@@ -86,7 +86,7 @@ assets:
   - assetId: "neko-prop-set-vol04-part1"
 info:
   summary: "Neko Prop Set 04 part 1"
-  description: >
+  description: |
     Japanese props.
   author: "Neko Panchi"
   website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"
@@ -106,7 +106,7 @@ assets:
   - assetId: "neko-prop-set-vol04-part2"
 info:
   summary: "Neko Prop Set 05"
-  description: >
+  description: |
     Japanese props.
   author: "Neko Panchi"
   website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"
@@ -126,7 +126,7 @@ assets:
   - assetId: "neko-prop-set-vol05"
 info:
   summary: "Neko Prop Set 05"
-  description: >
+  description: |
     Japanese props.
   author: "Neko Panchi"
   website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"

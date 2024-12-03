@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: WalkUp Tower
-  description: >
+  description: |
     WalkUp is a Residential Offices Building created by the Maxis Team.
 
   author: Diego Del Llano

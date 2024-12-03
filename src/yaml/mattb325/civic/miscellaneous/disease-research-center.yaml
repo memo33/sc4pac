@@ -18,7 +18,7 @@ dependencies:
 
 info:
   summary: "Alternate Disearch Research Center (radiation free!)"
-  description: >
+  description: |
     This requirement-free civic reward is offered as an alternative to the default disease research center.
     It is modded reasonably similarly to the in-game version, but does not emit radiation.
     This mod does not override the Maxis version, both may co-exist.

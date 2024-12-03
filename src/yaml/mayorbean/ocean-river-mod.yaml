@@ -4,7 +4,7 @@ version: "1.1"
 subfolder: "170-terrain"
 info:
   summary: Ocean River Mod
-  description: >
+  description: |
     Replaces the ingame water textures. The watercolor will differ depending on depth and viewing angle. It looks best at a waterdepth between 0m and 30m.
 
     This is an SD water mod.

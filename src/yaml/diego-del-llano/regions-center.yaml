@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Regions Center
-  description: >
+  description: |
     Regions Center Tower is a 30-story skyscraper located at 400 West Capitol Avenue in downtown Little Rock, Arkansas.
     At 454 feet (138 m) high, it is currently the second tallest building in Arkansas.
     It was completed in 1975.

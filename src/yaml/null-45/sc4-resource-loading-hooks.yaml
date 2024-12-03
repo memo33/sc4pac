@@ -8,7 +8,7 @@ assets:
 info:
   summary: "DLL that modifies resources as the game loads them"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
-  description: >
+  description: |
     This DLL plugin is a dependency for other DLLs.
   author: "Null 45"
   website: "https://github.com/0xC0000054/sc4-resource-loading-hooks/releases"

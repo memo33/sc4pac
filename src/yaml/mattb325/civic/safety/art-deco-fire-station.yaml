@@ -9,7 +9,7 @@ dependencies:
 
 info:
   summary: "Art Deco fire station based on one from SimCity 3000"
-  description: >
+  description: |
     This large fire station has amazing art deco features and looks good in
     either a downtown or suburban setting. It has a large coverage radius,
     four dispatches, and provides 43 civic jobs.

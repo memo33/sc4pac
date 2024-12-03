@@ -8,7 +8,7 @@ dependencies:
 
 info:
   summary: "Harbor Clinic"
-  description: >
+  description: |
     Inspired by a rather imposing mid-century building on Wilshire Blvd,
     Los Angeles, Harbor Clinic operates as a large hospital in game.
 

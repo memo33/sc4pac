@@ -25,7 +25,7 @@ variantDescriptions:
 
 info:
   summary: "Tunnel portals for Hybrid Railway (HRW)"
-  description: >
+  description: |
     This mod provides tunnel portals that convert traffic from Hybrid Railway to Subway and vice versa.
     For optimal results, avoid intersecting these Subyway-based tunnels with the rest of your Subway network.
     Freight rail traffic is not supported.

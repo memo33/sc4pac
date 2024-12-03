@@ -8,7 +8,7 @@ dependencies:
 
 info:
   summary: "Modern Police Station"
-  description: >
+  description: |
     This police station is inspired by the newly built police stations that you
     find in many outer urban areas. They are cheap and quick to build, and
     basically all look the same. In true functionalist style, it is given blue

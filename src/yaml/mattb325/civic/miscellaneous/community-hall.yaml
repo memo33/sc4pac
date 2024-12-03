@@ -9,7 +9,7 @@ dependencies:
 
 info:
   summary: "Community hall based on the Ballhaus Ost in Berlin"
-  description: >
+  description: |
     Made as a request, this building is based on the Ballhaus Ost in Berlin.
     Originally a mourning hall, it has since been converted to a community
     space and theatre.

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Oneamerica Tower Indianapolis
-  description: >
+  description: |
     The OneAmerica Tower is a 38-story building at 200 North Illinois Street in downtown Indianapolis, Indiana.
     It is used by various companies for offices.
     The building opened in 1982 and is faced with Indiana limestone.

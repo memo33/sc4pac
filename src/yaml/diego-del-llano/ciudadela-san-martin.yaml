@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Ciudadela San Martin
-  description: >
+  description: |
     High Rise, locted in the Capital city of Bogota, Colombia.
     Height is 170 m.
 

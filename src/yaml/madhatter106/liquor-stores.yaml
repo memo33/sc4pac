@@ -6,7 +6,7 @@ assets:
 - assetId: "madhatter106-liquor-stores"
 info:
   summary: "Set of various liquor stores"
-  description: >
+  description: |
     Ten different liquor store buildings on 25 total lots.
     Lot sizes include 1x1, 1x2, 1x3 and 2x1. Jobs range from 11-30.
     The majority are CS$ stages 1 through 3, three are CS$$ stage 1.
