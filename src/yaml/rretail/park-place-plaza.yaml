@@ -1,0 +1,77 @@
+group: rretail
+name: park-place-plaza
+version: "1.4.2"
+subfolder: 300-commercial
+info:
+  summary: Park Place Plaza
+  description: |-
+    A 4-lot shopping plaza inspired by the architecture used by the Greater Lewistown Shopping Center in Burnham, PA.
+
+    Around 859 jobs are included- split between the outparcels and center lots. The other lots are cosmetic only.
+
+    Brands featured include:
+
+    -   JCPenney
+    -   Rent-A-Center
+    -   Pizza Hut
+    -   Famous Hair
+    -   NAPA Auto Parts
+    -   Nail Spa (generic)
+    -   JO-ANN Crafts
+    -   Dollar Tree
+    -   Marshalls
+    -   Tractor Supply Co
+    -   Maurices
+    -   Sally Beauty Supply
+    -   Verizon
+    -   Weight Watchers
+    -   Dairy Queen (Outparcel)
+    -   Tim Hortons (Outparcel)
+    -   CVS Pharmacy (Outparcel)
+
+    Lot 1: **Park Place Plaza** **Left** (2 x 12 lot)
+
+    Lot 2: **Park Place Plaza Center** (18 x 7 lot)
+
+    Lot 3: **Park Place Plaza** **Top** (16 x 3 lot)
+
+    Lot 4: **Park Place Plaza** **Outparcels** (18 x 5 lot)
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33502-park-place-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/5e74bb4b33b50_RRParkPlacePlaza1.jpg.d85b5d0070b39994b0936e1b62c63ab2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/5e74bb4c28701_RRParkPlacePlaza2.jpg.46d8e87d4ed2c1f4647a927d4c4d7c6d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/5e74bb4d01aa3_RRParkPlacePlaza3.jpg.048fc49242404527252998fa94a4b8d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_03/5e74bb4e0a9b9_RRParkPlacePlaza4.jpg.30be53b8956e4a4d972f3fe571afb578.jpg
+dependencies:
+  - rretail:cvs-pharmacy
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol09
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-park-place-plaza
+
+---
+assetId: rretail-park-place-plaza
+version: "1.4.2"
+lastModified: "2020-07-04T03:50:13Z"
+url: https://community.simtropolis.com/files/file/33502-park-place-plaza/?do=download
