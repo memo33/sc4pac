@@ -1,0 +1,35 @@
+group: rretail
+name: shopko-hometown
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Shopko Hometown
+  description: |-
+    In 2012, the Shopko company acquired the Pamida chain. All of the former Pamida locations acquired were re-branded to operate as a Shopko Hometown store. The Shopko Hometown stores operated in areas where a normal sized Shopko would not work. Catering to communities with a smaller population, hometown stores carried about 70% of the merchandise found in Shopko's larger stores. The first two hometown stores opened in 2010 in Oconto and Kewaunee, WI inside eariler closed Pamida locations. An additional 20 stores acquired from ALCO in 2015 would open before the brand would cease operations in 2019.
+
+    5x9 lot with 156 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33746-shopko-hometown/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d7d4f70a1d_RRShopkoHometown.jpg.2eb9a5175ba667d8c9adc6db423d9dd8.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-shopko-hometown
+
+---
+assetId: rretail-shopko-hometown
+version: "1.0.0"
+lastModified: "2020-08-07T16:12:52Z"
+url: https://community.simtropolis.com/files/file/33746-shopko-hometown/?do=download
