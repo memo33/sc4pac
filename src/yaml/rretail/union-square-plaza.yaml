@@ -1,0 +1,70 @@
+group: rretail
+name: union-square-plaza
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Union Square Plaza
+  description: |-
+    A corner shopping center design that is inspired by North Charleston Shopping Center in North Charleston, SC. Only the top lot provides jobs- of which around 820 of which are provided.
+
+    Brands Included:
+
+    -   Conn’s Home Plus
+    -   Bargain Hunt
+    -   DD’s Discounts
+    -   Half Priced Books
+    -   Sky Zone Trampoline Park
+    -   Office Depot
+    -   Lendmark
+    -   Cici’s Pizza
+    -   Mathnasium
+    -   Lenscrafters
+    -   Wingstop
+    -   GEICO
+    -   Pretty Place (generic nail salon)
+    -   TGI Friday’s (outparcel)
+
+    Lot 1: **Union Square Plaza Top** (12 x 12 lot)
+
+    Lot 2: **Union Square Plaza Bottom** (5 x 5 lot)
+
+    Lot 3: **Union Square Plaza** **Right** (6 x 17 lot)
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33977-union-square-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fc25acc0b52e_RRUnionSquarePlazaA.jpg.a3c2e84201f0133a76bc5a3829901bd4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fc25acd341c5_RRUnionSquarePlazaA2.jpg.0706416c483a87bda33e7d298990d35f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fc25ace5bd9c_RRUnionSquarePlazaB.jpg.d4c110381200aef52519c7cab8601c8f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fc25acfc92cd_RRUnionSquarePlazaC.jpg.54d4d2f2491deffd56b1f2891c1ff739.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fc25ad12f2ad_RRUnionSquarePlazaD.jpg.7a3a526580cc45bfd3956a7341ca71b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fc25ad36437c_RRUnionSquarePlazaE.jpg.a51edccd397ce7397b91eef3bcae1cc9.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-union-square-plaza
+
+---
+assetId: rretail-union-square-plaza
+version: "1.1"
+lastModified: "2020-11-30T14:08:49Z"
+url: https://community.simtropolis.com/files/file/33977-union-square-plaza/?do=download
