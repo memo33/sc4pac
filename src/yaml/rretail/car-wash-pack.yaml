@@ -1,0 +1,37 @@
+group: rretail
+name: car-wash-pack
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Car Wash Pack
+  description: |-
+    A pack of six car washes- each with a unique twist.
+
+    Lot sizes vary. Jobs amounts vary from lot to lot.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33747-car-wash-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d7dbb93aa2_RRCarWashPackA.jpg.c597c1dc770dc394cf5dacc70cdf15bc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d7e2c5a99c_RRCarWashPackB.jpg.83f591e9ded0c58cc5cbdb3cfe424f3f.jpg
+dependencies:
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-car-wash-pack
+
+---
+assetId: rretail-car-wash-pack
+version: "1.0.0"
+lastModified: "2020-08-07T16:15:43Z"
+url: https://community.simtropolis.com/files/file/33747-car-wash-pack/?do=download
