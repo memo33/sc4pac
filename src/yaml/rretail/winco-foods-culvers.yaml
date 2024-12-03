@@ -1,0 +1,42 @@
+group: rretail
+name: winco-foods-culvers
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Winco Foods & Culver's
+  description: |-
+    WinCo Foods, Inc. is a supermarket chain that operates over 120 stores across 10 states in the western United States. The chain is a privately held majority employee-owned company and based in Boise, ID. Winco Foods was founded as Waremart in 1967 by Ralph Ward and Bud Williams. Employees purchased a majority stake from the Ward family and set up a stock ownership plan in 1985. Waremart changed its name in 1999 to Winco Foods, though the Waremart name is still used on occasion.
+
+    Culver's is a privately owned and operated fast food restaurant chain that operates 771 restaurants in 25 states. Culver's opened its first restaurant in 1984 in Sauk City, WI, and is based in Prairie du Sac, WI.
+
+    9x12 lot with 657 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33910-winco-foods-culvers/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f94b7c735f6f_RRWincoFoods.jpg.f7952be91c96b2a8c391e7532e068ae1.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-winco-foods-culvers
+
+---
+assetId: rretail-winco-foods-culvers
+version: "1.0.0"
+lastModified: "2020-10-24T23:27:05Z"
+url: https://community.simtropolis.com/files/file/33910-winco-foods-culvers/?do=download
