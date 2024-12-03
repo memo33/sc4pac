@@ -1,0 +1,32 @@
+group: rretail
+name: afc-urgent-care
+version: "1.0.0"
+subfolder: 630-health
+info:
+  summary: AFC Urgent Care
+  description: |-
+    AFC, also known as American Family Care, is a chain of urgent care centers. Founded in 1982 by Dr. Bruce Irwin, the chain has over 200 locations across 26 states.
+
+    3x3 lot. Functions as a clinic.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33764-afc-urgent-care/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f371294df1b9_RRAFCUrgentCareb.jpg.aed9cf4c972b8cd526754434808d281f.jpg
+dependencies:
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-afc-urgent-care
+
+---
+assetId: rretail-afc-urgent-care
+version: "1.0.0"
+lastModified: "2020-08-14T22:40:29Z"
+url: https://community.simtropolis.com/files/file/33764-afc-urgent-care/?do=download
