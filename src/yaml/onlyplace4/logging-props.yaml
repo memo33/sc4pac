@@ -1,0 +1,19 @@
+group: onlyplace4
+name: logging-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Logging Props
+  author: onlyplace4
+  website: https://community.simtropolis.com/files/file/15235-logging-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d556827f1c208b941e850c6d1acfa4bb-LoggingProps_day.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d556827f1c208b941e850c6d1acfa4bb-LoggingProps_night.jpg
+assets:
+  - assetId: onlyplace4-logging-props
+
+---
+assetId: onlyplace4-logging-props
+version: "1.0"
+lastModified: "2006-03-12T11:52:31Z"
+url: https://community.simtropolis.com/files/file/15235-logging-props/?do=download

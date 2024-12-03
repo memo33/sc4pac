@@ -1,0 +1,25 @@
+group: sm2
+name: roundabout-sculptures-set
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Roundabout Sculptures Set
+  description: |-
+    This pack consists of 7 different roundabout sculptures. To be plopped in your 2X2 NAM roundabouts.
+
+    They each give 4000 CAP relief to R$ - R$$ - R$$$
+
+    You also get a substantial park and landmark effect. You will find them in the park menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32435-sm2-roundabout-sculptures-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b877f427ea9d_SM2Roundabouts.jpg.cb29dec89d310784dadc3b49e5e76dbd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Fontana.png.a8b863fdaaf10ecae6764edeb9418c20.png
+assets:
+  - assetId: sm2-roundabout-sculptures-set
+
+---
+assetId: sm2-roundabout-sculptures-set
+version: "1.0"
+lastModified: "2018-08-30T05:30:52Z"
+url: https://community.simtropolis.com/files/file/32435-sm2-roundabout-sculptures-set/?do=download

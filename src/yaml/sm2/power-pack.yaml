@@ -1,0 +1,35 @@
+group: sm2
+name: power-pack
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Power Pack
+  description: |-
+    You will find 5 Power lots in this pack.
+
+     1. SM2 Power Transformer 1 - 2x2 lot - 1000 Output
+     2. SM2 Power Transformer 2 - 2x4 lot - 1500 output
+     3. SM2 Power Transformer 3 - 3x6 lot - 2500 output
+     4. SM2 Power Substation - 3x6 lot - no power output (eye candy, to be used with SM2 Wind Power Marine lots)
+     5. SM2 Substation Transfer Box - 1x1 overhanging lot used to simulate underground connection to Maxis power pylons.
+
+    Custom icons for the 3 powered ones are available. Many timed props are also included.
+
+    You will find them in your Utilities menu
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32002-sm2-power-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/POW1.jpg.a2d4099ba7777df30642abc235c691e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/5a0152a64ace3_SM2PowerPackLotscopy.jpg.046d6b40471b4ff22bf33f3f2ef9d771.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/WTA23.jpg.6167a1a15368d63900c553bda33797dc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/WTA26.jpg.421042e1d4c89cf5c9a860cc27aa6a4b.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+assets:
+  - assetId: sm2-power-pack
+
+---
+assetId: sm2-power-pack
+version: "2.0.0"
+lastModified: "2018-08-23T03:59:25Z"
+url: https://community.simtropolis.com/files/file/32002-sm2-power-pack/?do=download

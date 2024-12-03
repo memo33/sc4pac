@@ -1,0 +1,46 @@
+group: sg
+name: simtropolis-train-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: SimTropolis Train Station
+  description: |-
+    A modern passenger station designed for use in a downtown setting. The upper promenade features boutique shops and restaurants, and there are offices in the front glassed in building. There are three tracks off the rear, 3 tiles back from the road, so it can be used in the middle of a commercial district.
+
+     **Lot Details and Information**
+
+     - Building: Transportation
+     - Lot Size: 7 x 6 tiles
+     - Lot Wealth: Medium Wealth
+     - Jobs: Civic $: 150, $$: 70, $$$: 30
+  author: SimGoober
+  website: https://community.simtropolis.com/files/file/14728-simtropolis-train-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d5617fc0dc0a2a67c3cf3fbb7bfbbc94-SG_SimTropolisStation01.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d5617fc0dc0a2a67c3cf3fbb7bfbbc94-SG_SimTropolisStation02.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: sg-simtropolis-train-station
+    exclude:
+      - .*\.SC4Lot$
+  - assetId: sg-simtropolis-train-station-mac-fix
+
+---
+assetId: sg-simtropolis-train-station
+version: "1.0"
+lastModified: "2023-08-29T20:30:35Z"
+url: https://community.simtropolis.com/files/file/14728-simtropolis-train-station/?do=download&r=197516
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: sg-simtropolis-train-station-mac-fix
+version: "1.0"
+lastModified: "2023-08-29T20:30:35Z"
+url: https://community.simtropolis.com/files/file/14728-simtropolis-train-station/?do=download&r=197517

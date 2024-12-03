@@ -1,0 +1,41 @@
+group: sm2
+name: bordens-dairy-processing-plant
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Borden's Dairy Processing Plant
+  description: |-
+    This lot is an example of rail served industry.
+
+    Borden is a real dairy company and this factory is an adaptation of one of their milk processing plants.
+
+     - Lot size: 8X6
+     - Plop cost: 9000
+     - Power consumed: 120
+     - Water consumed: 350
+     - Provides 390 IM jobs
+
+    You will find it in your landmark menu.
+
+    The middle rail will connect to the RRW network visually therefore make sure it is not on a main line. A simple spur will do.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32493-sm2-bordens-dairy-processing-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/b30.jpg.cc11325115edb34f8eca5ae1b27b0b85.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/b24.jpg.e982452010e5f192b2fe05b9a65d7d59.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/b22.jpg.0dfcd1d082506755ec6f9e624a789420.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - vip:delecto-ploppable-people
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+  - sm2:rrw-nsb-tex
+assets:
+  - assetId: sm2-bordens-dairy-processing-plant
+
+---
+assetId: sm2-bordens-dairy-processing-plant
+version: "1.0"
+lastModified: "2018-09-12T14:32:46Z"
+url: https://community.simtropolis.com/files/file/32493-sm2-bordens-dairy-processing-plant/?do=download

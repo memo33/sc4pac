@@ -1,0 +1,22 @@
+group: cogeo
+name: warehouses-batprops-part-b
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Warehouses BATProps Part B
+  author: cogeo
+  website: https://community.simtropolis.com/files/file/15583-warehouses-batprops-part-b/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/acf131803459f15db092134547827637-WBLeft.jpg
+    - https://www.simtropolis.com/objects/screens/0019/acf131803459f15db092134547827637-WBRight.jpg
+assets:
+  - assetId: cogeo-warehouses-batprops-part-b
+
+---
+assetId: cogeo-warehouses-batprops-part-b
+version: "1.0"
+lastModified: "2006-04-08T16:26:21Z"
+url: https://community.simtropolis.com/files/file/15583-warehouses-batprops-part-b/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

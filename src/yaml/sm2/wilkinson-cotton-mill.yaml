@@ -1,0 +1,62 @@
+group: sm2
+name: wilkinson-cotton-mill
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Wilkinson Cotton Mill
+  description: |-
+    An old cotton mill for your maps.
+
+    2 lots are provided, 1 plop and one grow.
+
+    It was common sight back in the 19th century to see these mills everywhere. Now they are but a memory.
+
+    This one is no longer in operation but it is being converted into a warehouse. That is why you see some cars and trucks on the property !
+
+    On the plop lot connect the rail exit/entry to your rail network by forming a spur.
+
+    Grow stats
+
+     - Stage: 3
+     - Lot size: 4x4
+     - Power req: 10
+     - Water req: 5
+     - Provides 60 I-M jobs
+
+    Plop stats
+
+     - Lot size: 5x4
+     - Plop cost: 4200
+     - Bulldoze cost: 150
+     - Power req: 10
+     - Water req: 5
+     - Provides 60 I-M jobs
+
+    You will find the plop lot under the Landmark Menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33140-sm2-wilkinson-cotton-mill/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/WCM1.jpg.fdf1f342494fcc01f8b7a4cee21b209d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/wcm2.jpg.28e35131a41aa26c900de4580a167f6c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/wcm3.jpg.bacb9841b4a5650eacb117e7fb59b6c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/wcm4.jpg.93416ef4c67e6203a7fb953d3dedd36a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/wcm5.jpg.524fbc5931edf180773d0773248c91e7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/wil1.jpg.87abf7e553725c68ec53d21912b729f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/wil2.jpg.2f6f374e536e2ae67a734b97d3117320.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/wil3.jpg.bbf3fc0dc48bc55a2a9c833b6211426a.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:poplars
+assets:
+  - assetId: sm2-wilkinson-cotton-mill
+
+---
+assetId: sm2-wilkinson-cotton-mill
+version: "2.0.0"
+lastModified: "2021-02-22T16:12:46Z"
+url: https://community.simtropolis.com/files/file/33140-sm2-wilkinson-cotton-mill/?do=download

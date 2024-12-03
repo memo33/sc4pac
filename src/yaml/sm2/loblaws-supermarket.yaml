@@ -1,0 +1,48 @@
+group: sm2
+name: loblaws-supermarket
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Loblaws Supermarket
+  description: |-
+    Loblaws is a very well known chain of supermarkets in Canada.  
+    This model is based on a real location in Toronto.
+
+    This lot will connect to roads for that seamless look and you will find it in the Landmark menu.
+
+     - Lot size: 12X8
+     - Cost to plop: 50000
+     - Bulldoze cost: 9000
+     - Power req: 35
+     - Water req: 80
+     - Provides 225 CS jobs
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32663-sm2-loblaws-supermarket/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/Lw10.jpg.9b0ac4baa88c0b25add059b4ba173e2a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/lw11.jpg.ae9a8db254e60b4ded5fd07208c6ec60.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/lw12.jpg.aaf02481b5a7cff7b860b434f928dc07.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/lw13.jpg.e553ace7e55c3f00e89d5ef592fc6527.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/lw14.jpg.090d4607ac1a8cc9a041093c2db41fd1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/lw15.jpg.f6f84a439639637796cd6693ebc9a7b4.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:common-spruces
+  - girafe:berries
+  - girafe:daisy
+  - girafe:bushes
+  - girafe:beeches
+  - girafe:poplars
+  - girafe:cypresses
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-loblaws-supermarket
+
+---
+assetId: sm2-loblaws-supermarket
+version: "2.0"
+lastModified: "2019-03-15T17:02:02Z"
+url: https://community.simtropolis.com/files/file/32663-sm2-loblaws-supermarket/?do=download

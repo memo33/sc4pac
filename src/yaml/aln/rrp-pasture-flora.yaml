@@ -1,0 +1,326 @@
+group: aln
+name: rrp-pasture-flora-props
+version: "2.0"
+subfolder: 100-props-textures
+info:
+  summary: RRP Pasture Flora Props
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/flora1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/flora2.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/flora3.jpg
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Pasture Flora.dat
+
+---
+group: aln
+name: blue-bonnets-b
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Blue Bonnets-B
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_BlueBonnets-B_1020.dat
+
+---
+group: aln
+name: blue-bonnets
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Blue Bonnets
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_BlueBonnets.dat
+
+---
+group: aln
+name: cat-tails
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Cat Tails
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Cat Tails.dat
+
+---
+group: aln
+name: grasses
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Grasses
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Grasses_1060.dat
+
+---
+group: aln
+name: grass
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Grass
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Grass_green.dat
+
+---
+group: aln
+name: hay-bales
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Hay Bales
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_HayBales_1080.dat
+
+---
+group: aln
+name: johnson-grass
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Johnson Grass
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Johnson Grass_1030.dat
+
+---
+group: aln
+name: lillypads
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Lillypads
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Lillypads.dat
+
+---
+group: aln
+name: marsh
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Marsh
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Marsh.dat
+
+---
+group: aln
+name: medium-scrub-brush
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Medium Scrub Brush
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Medium Scrub Brush.dat
+
+---
+group: aln
+name: pink-wild-flowers-b
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Pink Wild Flowers-B
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Pink Wild Flowers-B_1010.dat
+
+---
+group: aln
+name: reed-grass
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Reed Grass
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Reed Grass_1038.dat
+
+---
+group: aln
+name: straws
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Straws
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Straws_1070.dat
+
+---
+group: aln
+name: stumps
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Stumps
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Stumps.dat
+
+---
+group: aln
+name: weeds-a
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Weeds A
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_WeedsA_1050.dat
+
+---
+group: aln
+name: weeds-b
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Weeds B
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_WeedsB_1058.dat
+
+---
+group: aln
+name: white-wild-flowers
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: White Wild Flowers
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_White Wild Flowers.dat
+
+---
+group: aln
+name: yellow-wild-flowers-b
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Yellow Wild Flowers-B
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Yellow Wild Flowers-B_1018.dat
+
+---
+group: aln
+name: yellow-wild-flowers
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: Yellow Wild Flowers
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Yellow Wild Flowers.dat
+
+---
+assetId: aln-rrp-pasture-flora
+version: "2.0"
+lastModified: "2024-11-01T00:43:50.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=167%3Absc-aln-rrp-pasture-flora

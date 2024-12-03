@@ -1,0 +1,42 @@
+group: aarsgevogelte
+name: stationsstraat-3-tilburg
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Stationsstraat 3, Tilburg
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32077-stationsstraat-3-tilburg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/D.jpg.aca0863aceebfa92c8937d21a17b3be4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/N.jpg.6f4b973c7eb6f8a12f7544372f35527e.jpg
+dependencies:
+  - aarsgevogelte:stationsstraat-3-tilburg-resources
+assets:
+  - assetId: aarsgevogelte-stationsstraat-3-tilburg
+    include:
+      - .*\.SC4Lot$
+
+---
+group: aarsgevogelte
+name: stationsstraat-3-tilburg-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Stationsstraat 3, Tilburg Resources
+  description: |-
+    Resource file for `pkg=aarsgevogelte:stationsstraat-3-tilburg`
+  author: Aarsgevogelte
+  website: https://community.simtropolis.com/files/file/32077-stationsstraat-3-tilburg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/D.jpg.aca0863aceebfa92c8937d21a17b3be4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/N.jpg.6f4b973c7eb6f8a12f7544372f35527e.jpg
+assets:
+  - assetId: aarsgevogelte-stationsstraat-3-tilburg
+    exclude:
+      - .*\.SC4Lot$
+
+---
+assetId: aarsgevogelte-stationsstraat-3-tilburg
+version: "1.0"
+lastModified: "2018-01-22T15:00:05Z"
+url: https://community.simtropolis.com/files/file/32077-stationsstraat-3-tilburg/?do=download

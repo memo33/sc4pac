@@ -1,0 +1,31 @@
+group: sm2
+name: wind-power
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Wind Power
+  description: |-
+    Clean energy for a bright future.
+
+     - Cost to plop: 900  
+     - Power Output: 1800
+
+    No base texture, just plop it and dress it with your choice of MMP.
+    Can be plopped on very steep slopes. Custom foundation included.
+    Run power pylons from this lot to the edge of town and enjoy your zero pollution electricity.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31994-sm2-wind-power/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_10/Wind11.jpg.8430986a146efb5445a4bf41f11a10d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_10/Wind12.jpg.c1ce84281beaf0b073007f534d9c547a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_10/Wind2.jpg.7f769da07630e823fcf18d86f18d6310.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+assets:
+  - assetId: sm2-wind-power
+
+---
+assetId: sm2-wind-power
+version: "2.0.0"
+lastModified: "2018-08-23T03:57:45Z"
+url: https://community.simtropolis.com/files/file/31994-sm2-wind-power/?do=download

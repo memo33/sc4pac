@@ -1,0 +1,21 @@
+group: mikeseith
+name: yellow-taxi-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Yellow taxi props
+  description: |-
+    A set of yellow taxi props for your lots.
+  author: mikeseith
+  website: https://community.simtropolis.com/files/file/13384-yellow-taxi-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/ac51a1d86453cabfc7b2427f25f09c44-taxi1.JPG
+    - https://www.simtropolis.com/objects/screens/0019/ac51a1d86453cabfc7b2427f25f09c44-taxi2.JPG
+assets:
+  - assetId: mikeseith-yellow-taxi-props
+
+---
+assetId: mikeseith-yellow-taxi-props
+version: "1.0"
+lastModified: "2005-08-17T20:32:37Z"
+url: https://community.simtropolis.com/files/file/13384-yellow-taxi-props/?do=download

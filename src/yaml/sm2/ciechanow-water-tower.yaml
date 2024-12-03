@@ -1,0 +1,36 @@
+group: sm2
+name: ciechanow-water-tower
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Ciechanow Water Tower
+  description: |-
+    This water tower actually still exists in Ciechanow, Poland. It was built in 1972 but it is in disuse now.
+
+    With its amazing hyperbole and toroid design it attracts many tourists to that town
+
+    Simple to use, just plop it and connect the water network to it.
+
+     - Lot size: 2x2.
+     - Needs power to run.
+     - Produces 45,000m3 of water per month.
+
+     You will find it in your water utilities menu.
+
+     Both the new and old towers are included. The choice is up to you to plop whichever one you like.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32187-sm2-ciechanow-water-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/WTNbig.jpg.1f8a4e77d4f8c79bea15b8a9ea67b007.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/WTObig.jpg.d6932bd9a000827e632ea7bab1cd6b62.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/Ciechanow_wiezacisnien8.jpg.e0c1a34fc5a444a591165eef7ad787af.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+assets:
+  - assetId: sm2-ciechanow-water-tower
+
+---
+assetId: sm2-ciechanow-water-tower
+version: "2.0.0"
+lastModified: "2018-08-23T04:10:29Z"
+url: https://community.simtropolis.com/files/file/32187-sm2-ciechanow-water-tower/?do=download

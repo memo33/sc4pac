@@ -1,0 +1,54 @@
+group: sm2
+name: train-repair-yard
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Train Repair Yard
+  description: |-
+    This package contains a very detailed replica of a real Train Repair Yard.
+    Most props are HD therefore you must play the game in hardware mode to see this baby in all its glory.
+
+    It is modified to be a medium wealth industrial lot thus giving your sims 98 manufacturing jobs.
+    It will also allow both commuter and freight trains to traverse the lot for that real visual feel.
+    The other rail stub will connect to the rail system visually only and so will the 3 street entry/exits.
+
+    You will find it under your rail icon in game.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31007-sm2-train-repair-yard/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/3.png.75d98b59dec79a6ed1af9eeca78e3c09.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/4.png.f54d9907a41a5fd5511642e23e50f595.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/6.png.2ed4814df25e317b4f28ac446af17c6f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/8.png.87fd2f80075b4f135890dd8f0ae4211a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/7.png.f5eba313fc69a2dcfc3527618742a4fa.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/56fb807eec1f8_dayimage.jpg.f0c44f2e98711e66b8784f4b6f9cefe8.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-t1-vol03
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-misc-vol02
+  - mgb204:rail-depot-pack
+  - sfbt:kenworth-rail-catenaries-props
+  - sfbt:royal-semaphore-signals-props
+  - girafe:chestnuts
+  - girafe:common-spruces
+  - girafe:berries
+  - girafe:ashes
+  - girafe:daisy
+  - girafe:bushes
+  - simcityfreak666:train-prop-pack-vol1
+  - mushymushy:na-40ft-trailers-vol1
+  - mushymushy:na-semi-truck-cabs-vol1
+assets:
+  - assetId: sm2-train-repair-yard
+
+---
+assetId: sm2-train-repair-yard
+version: "1.0"
+lastModified: "2018-08-23T04:32:32Z"
+url: https://community.simtropolis.com/files/file/31007-sm2-train-repair-yard/?do=download

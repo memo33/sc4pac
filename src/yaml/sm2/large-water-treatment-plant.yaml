@@ -1,0 +1,37 @@
+group: sm2
+name: large-water-treatment-plant
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: Large Water Treatment Plant
+  description: |-
+    A larger water treatment plant but still tight enough to fit in smaller areas. More efficient than `sm2:medium-water-treatment-plant`.
+
+    Plop it on a flat surface and connect the water network to it.
+
+    You will find it in the water menu.
+
+     - Lot size: 3x3
+     - Plop cost: 5000
+     - Bulldoze cost: 350
+     - Power req: 15
+     - Water req: 30
+     - Monthly budget: 100
+     - Cleans 100,000m3 of water over 80 tiles radius.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33251-sm2-large-water-treatment-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5daf212e4e3f5_lwt1copy.jpg.738e187ce8bcb28c9656377f798b0003.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/lwt2.jpg.6f89f87d24fb6de399e2a386b43ab766.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol4
+assets:
+  - assetId: sm2-large-water-treatment-plant
+
+---
+assetId: sm2-large-water-treatment-plant
+version: "1.0.0"
+lastModified: "2019-12-02T05:08:57Z"
+url: https://community.simtropolis.com/files/file/33251-sm2-large-water-treatment-plant/?do=download
