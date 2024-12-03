@@ -1,0 +1,36 @@
+group: rretail
+name: motel-6
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Motel 6
+  description: |-
+    Motel 6, which was founded in Santa Barbara, CA in 1962, is a chain of privately owned budget motels in the United States and Canada. The hotel brand is owned by The Blackstone Group. Two local building contractors: William Becker and Paul Greene founded the company as a motel with low rates. A rate of $6 was decided upon at the time which would cover various costs, hence the reason for the company name "Motel 6"
+
+    7x3 lot with 85 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33566-motel-6/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5ea45dae25619_RRMotel6.jpg.0227f6db02ae17fc2c63e18f4cbd4ae6.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:birches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-motel-6
+
+---
+assetId: rretail-motel-6
+version: "1.0.0"
+lastModified: "2020-04-25T16:06:52Z"
+url: https://community.simtropolis.com/files/file/33566-motel-6/?do=download
