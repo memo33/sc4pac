@@ -28,9 +28,6 @@ dependencies:
 - "bsc:mega-props-cp-vol02"
 - "bsc:bat-props-mattb325-vol03"
 - "shk:parking-pack"
-url: "https://community.simtropolis.com/files/file/32250-creator-pack-02-dk1/?do=download"
-assetId: "nos17-creator-pack-02"
-lastModified: "Z"
 assets:
 - assetId: "nos17-creator-pack-02"
 - assetId: "dk1-bowling-lanes"
