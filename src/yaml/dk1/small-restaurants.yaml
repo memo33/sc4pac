@@ -1,0 +1,21 @@
+url: "https://community.simtropolis.com/files/file/20874-dk1-small-restaurant/?do=download"
+assetId: "dk1-small-restaurants"
+version: "1.0"
+lastModified: "2008-08-31T07:15:54Z"
+
+---
+group: "dk1"
+name: "small-restaurants"
+version: "1.0"
+subfolder: "300-commercial"
+info:
+  summary: "An assortment of small fast food restaurants"
+  description: |
+    Three different fast food restaurants are included: Taco John's, Subway and Domino's. CS$1x2. Ploppable and growable lots are included.
+  author: "dk1"
+  website: "https://community.simtropolis.com/files/file/20874-dk1-small-restaurant/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0026/f041723fdef855602f1f52c4cec01f0a-SmRestday.JPG"
+  - "https://www.simtropolis.com/objects/screens/0026/f041723fdef855602f1f52c4cec01f0a-SmRestnight.JPG"
+assets:
+- assetId: "dk1-small-restaurants"

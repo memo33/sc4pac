@@ -1,0 +1,23 @@
+url: "https://community.simtropolis.com/files/file/20299-dk1-burger-chef/?do=download"
+assetId: "dk1-burger-chef"
+version: "1.0"
+lastModified: "2008-08-31T07:15:54Z"
+
+---
+group: "dk1"
+name: "burger-chef"
+version: "1.0"
+subfolder: "300-commercial"
+info:
+  summary: "Fast food burger restaurant"
+  description: |
+    Burger Chef was founded in 1954 by Frank and Donald Thomas. In 1982, Burger Chef was sold off and many locations were converted into Hardee's. In 1996, the last Burger Chef changed its name to Pleaser's. This building is based on a 1960's design. 
+
+    CS$3x3. Ploppable and growable lots are included.
+  author: "dk1"
+  website: "https://community.simtropolis.com/files/file/21504-dk1-bowling/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0027/f79a4119e8e69d394b53451eb05be3e1-BChef_day.JPG"
+  - "https://www.simtropolis.com/objects/screens/0027/f79a4119e8e69d394b53451eb05be3e1-BChef_night.JPG"
+assets:
+- assetId: "dk1-burger-chef"

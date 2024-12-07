@@ -1,0 +1,64 @@
+group: "nos17"
+name: "creator-pack-02"
+version: "4.0"
+subfolder: "300-commercial"
+info:
+  summary: "Relots of dk1's small commercial lots"
+  description: |
+    This package includes relots of dk1's small commercial stores. Lots include bowling alleys (Retro Bowl, SimCity Lanes), fast food restaurants (Burger Chef, Burger King, Dairy Queen, Taco John's, Subway, Domino's, Randy's Donuts and Donut King II), convenience stores (AM/PM, Circle K, 7 Eleven, SPAR, FamilyMart, Tesco Express, Couche-Tard, Kum & Go, Lawson, QuickChek and Valero), and a retro Kroger grocery store. All lots are growable CS$.
+    
+  author: "nos.17, dk1"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cp-dk1-01.png.7340dd9dd86bfe578339232e4906fb6e.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cp-dk1-02.png.e180425af7e2fde1959ede6c63efbd7c.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cp-dk1-03.png.a5a14bc8da36e010edeac6bb76307637.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cp-dk1-04.png.d0591f6fc770aee6d32804b6621287c8.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cp-dk1-05.png.e66f264b5ee3b5733a8d465a84f0151c.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cp-dk1-06.png.03f57a47828a0f1f1e880c17b5be957f.pnghttps://www.simtropolis.com/objects/screens/monthly_2024_08/cp-dk1-07.png.710af2387406eb0f1e273367793d04f2.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cp-dk1-08.png.7cb3cfa14019c54ec9a29f513732cf39.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cp-dk1-09.png.21838b605a897aa584b211989c46f8b2.png"
+  website: "https://community.simtropolis.com/files/file/32250-creator-pack-02-dk1"
+dependencies:
+- "bnl:dutch-prop-pack"
+- "supershk:mega-parking-textures"
+- "bsc:texturepack-cycledogg-vol01"
+- "peg:mtp-super-pack"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:bat-props-mattb325-vol03"
+- "shk:parking-pack"
+url: "https://community.simtropolis.com/files/file/32250-creator-pack-02-dk1/?do=download"
+assetId: "nos17-creator-pack-02"
+lastModified: "Z"
+assets:
+- assetId: "nos17-creator-pack-02"
+- assetId: "dk1-bowling-lanes"
+  include:
+  - "\\.SC4Model$"
+- assetId: "dk1-burger-chef"
+  include:
+  - "\\.SC4Model$"
+- assetId: "dk1-convenience-stores-1"
+  include:
+  - "\\.SC4Model$"
+- assetId: "dk1-convenience-stores-2"
+  include:
+  - "\\.SC4Model$"
+- assetId: "dk1-donut-shops"
+  include:
+  - "\\.SC4Model$"
+- assetId: "dk1-king-and-queen"
+  include:
+  - "\\.SC4Model$"
+- assetId: "dk1-retro-kroger"
+  include:
+  - "\\.SC4Model$"
+- assetId: "dk1-small-restaurants"
+  include:
+  - "\\.SC4Model$"
+
+---
+url: "https://community.simtropolis.com/files/file/32250-creator-pack-02-dk1/?do=download"
+assetId: "nos17-creator-pack-02"
+version: "4.0"
+lastModified: "2024-12-05T00:55:55Z"

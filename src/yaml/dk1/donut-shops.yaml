@@ -1,0 +1,21 @@
+url: "https://community.simtropolis.com/files/file/21144-dk1-donut-shops/?do=download"
+assetId: "dk1-donut-shops"
+version: "1.0"
+lastModified: "2009-02-22T06:54:52Z"
+
+---
+group: "dk1"
+name: "donut-shops"
+version: "1.0"
+subfolder: "300-commercial"
+info:
+  summary: "Donut shops"
+  description: |
+    Randy's Donuts and Donut King II. The store design is from the 1950's Big Donut Drive-In chain. CS$2x2. Ploppable and growable corner lots are included.
+  author: "dk1"
+  website: "https://community.simtropolis.com/files/file/21144-dk1-donut-shops/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0007/35d8a9524256fc7d0ad24301e0e6c421-Donut_day.JPG"
+  - "https://www.simtropolis.com/objects/screens/0007/35d8a9524256fc7d0ad24301e0e6c421-Donut_night.JPG"
+assets:
+- assetId: "dk1-donut-shops"
