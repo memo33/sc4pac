@@ -11,10 +11,10 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe56fdd4c5_WMPMegaTextures.jpg.d397bb120692a2a37f1b950184196fc0.jpg
 assets:
-  - assetId: stex-custodian-wmp-mega-textures-v102
+  - assetId: wmp-mega-textures
 
 ---
-assetId: stex-custodian-wmp-mega-textures-v102
+assetId: wmp-mega-textures
 version: "1.0.2"
 lastModified: "2020-05-25T15:35:14Z"
 url: https://community.simtropolis.com/files/file/33626-wmp-mega-textures-v102/?do=download
