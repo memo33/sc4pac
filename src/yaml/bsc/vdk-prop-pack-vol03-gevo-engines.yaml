@@ -12,6 +12,12 @@ assets:
   - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
     include:
       - /BSCProps/
+dependencies:
+  - bsc:vdk-gevo-textures-props-p1
+  - bsc:vdk-gevo-textures-props-p2
+  - bsc:vdk-gevo-textures-props-p3
+  - bsc:vdk-gevo-textures-props-p4
+  - bsc:vdk-gevo-textures-props-p5
 
 ---
 assetId: bsc-vdk-prop-pack-vol03-gevo-engines
