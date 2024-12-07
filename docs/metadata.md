@@ -445,7 +445,11 @@ To ensure that your package metadata works as intended, you should test your cha
   ```sh
   sc4pac channel add "https://raw.githubusercontent.com/memo33/sc4pac/main/docs/hogwarts-castle.yaml"
   ```
-- (If you created multiple YAML files, consider using the [`channel build`](cli#channel-build) command.)
+- If you created multiple YAML files, use the [`channel build`](cli#channel-build) command.
+  ```sh
+    sc4pac channel build --output "channel/json/" "channel/yaml/"
+    sc4pac channel add "file:///C:/absolute/path/to/local/channel/json/"
+  ```
 
 Next, install your new package as usual and, if necessary, edit the YAML file until everything works as intended.
 
