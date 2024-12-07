@@ -23,7 +23,38 @@ assets:
     # installer used, but absolutely not necessary for SimCity 4 and they even 
     # break sc4pac! Hence we only explicitly include the .dat files/
     include:
-      - .*\.dat$
+      - MGB_RDP_Resource.dat
+      - MGB_RDP_Textures.dat
+
+      # Instead of providing variants, we choose for the NAM textures. Same 
+      # holds for the NAM RRW, but apparently that is the default, so we *dont* 
+      # include the z_RailPEG.dat and z_RailMaxis.dat files.
+      - zMGB_RDPTextureType_GLRNAM.dat
+      - zMGB_RDPTextureType_HSRNAM.dat
+
+variants:
+  - variant: { nightmode: standard, roadstyle: US }
+    assets:
+      - assetId: mgb204-rail-depot-pack-rdp
+        include:
+          - zMGB_RDPTextureType_RoadUS.dat
+          - MGB_RDPDepot_Props_HD-MN.dat
+  - variant: { nightmode: standard, roadstyle: EU }
+    assets:
+      - assetId: mgb204-rail-depot-pack-rdp
+        include:
+          - MGB_RDPDepot_Props_HD-MN.dat
+  - variant: { nightmode: dark, roadstyle: US }
+    assets:
+      - assetId: mgb204-rail-depot-pack-rdp
+        include:
+          - zMGB_RDPTextureType_RoadUS.dat
+          - MGB_RDPDepot_Props_HD-DN.dat
+  - variant: { nightmode: dark, roadstyle: EU }
+    assets:
+      - assetId: mgb204-rail-depot-pack-rdp
+        include:
+          - MGB_RDPDepot_Props_HD-DN.dat
 
 ---
 assetId: mgb204-rail-depot-pack-rdp
