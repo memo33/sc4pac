@@ -22,7 +22,7 @@ dependencies:
 assets:
   - assetId: blam-hidp-fx-chemicals
     include:
-      - .*\.SC4Lot$
+      - .SC4Lot$
 
 ---
 group: blam
@@ -41,7 +41,7 @@ info:
 assets:
   - assetId: blam-hidp-fx-chemicals
     exclude:
-      - .*\.SC4Lot$
+      - .SC4Lot$
 
 ---
 assetId: blam-hidp-fx-chemicals
