@@ -1,0 +1,19 @@
+url: "https://community.simtropolis.com/files/file/19344-dk1-convenience-stores/?do=download"
+assetId: "dk1-convenience-stores-1"
+version: "1.0"
+lastModified: "2008-02-08T07:03:16Z"
+
+---
+group: "dk1"
+name: "convenience-stores-1"
+version: "1.0"
+subfolder: "300-commercial"
+info:
+  summary: "Pack of six convenience stores"
+  description: |
+    6 different buildings belonging to a prop family, so what grows or is plopped will be random. The stores are: AM/PM, Circle K, 7 Eleven, SPAR, FamilyMart and Tesco Express. CS$1x2 and CS$2x2. Growable and ploppable lots are included.
+    
+  author: "dk1"
+  website: "https://community.simtropolis.com/files/file/19344-dk1-convenience-stores//"
+assets:
+- assetId: "dk1-convenience-stores-1"

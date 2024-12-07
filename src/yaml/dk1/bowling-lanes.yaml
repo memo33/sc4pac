@@ -1,0 +1,22 @@
+url: "https://community.simtropolis.com/files/file/21504-dk1-bowling/?do=download"
+assetId: "dk1-bowling-lanes"
+version: "1.0"
+lastModified: "2009-04-04T07:08:15Z"
+
+---
+group: "dk1"
+name: "bowling-lanes"
+version: "1.0"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable bowling alleys"
+  description: |
+    Two different bowling alleys: Retro Bowl and SimCity Lanes. CS$3x3. Growable and ploppable lots are included.
+    
+  author: "dk1"
+  website: "https://community.simtropolis.com/files/file/21504-dk1-bowling/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0018/9d5455ec39f4277c130da8fc2d7a48fc-BowlRB.JPG"
+  - "https://www.simtropolis.com/objects/screens/0018/9d5455ec39f4277c130da8fc2d7a48fc-BowlSCL.JPG"
+assets:
+- assetId: "dk1-bowling-lanes"
