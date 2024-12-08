@@ -29,7 +29,7 @@ dependencies:
 assets:
   - assetId: nbvc-rock-n-stones
     include:
-      - .*\.dat$
+      - \.dat$
 
 ---
 group: nbvc
@@ -50,8 +50,8 @@ info:
 assets:
   - assetId: nbvc-rock-n-stones
     include:
-      - .*\.SC4Model
-      - .*\.SC4Desc
+      - \.SC4Model
+      - \.SC4Desc
 
 ---
 assetId: nbvc-rock-n-stones

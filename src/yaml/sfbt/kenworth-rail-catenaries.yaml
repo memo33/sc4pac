@@ -34,7 +34,7 @@ dependencies:
 assets:
   - assetId: sfbt-kenworth-rail-catenaries-v2
     include:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 group: sfbt
@@ -51,7 +51,7 @@ info:
 assets:
   - assetId: sfbt-kenworth-rail-catenaries-v2
     include:
-      - .*\.dat$
+      - \.dat$
 
 ---
 assetId: sfbt-kenworth-rail-catenaries-v2

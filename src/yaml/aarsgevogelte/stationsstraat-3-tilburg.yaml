@@ -14,7 +14,7 @@ dependencies:
 assets:
   - assetId: aarsgevogelte-stationsstraat-3-tilburg
     include:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 group: aarsgevogelte
@@ -30,7 +30,7 @@ info:
 assets:
   - assetId: aarsgevogelte-stationsstraat-3-tilburg
     exclude:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 assetId: aarsgevogelte-stationsstraat-3-tilburg
