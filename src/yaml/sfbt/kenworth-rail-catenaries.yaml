@@ -10,17 +10,17 @@ info:
 
     The lots can be found in the lower part of the power menu (or in the **Miscellaneous Power Utilities Submenu**) and also provide support for `pkg=memo:submenus-dll`. Place them every other two tiles next to your railway tracks. The lots don't have a base texture, so you can use them with every terrain mod. The catenary props extend over the lot borders and show up directly above the adjacent tracks. Some lots are transit enabled and can be placed directly onto the tracks. This is useful in tight situations, such as the tracks in front of a large railway station. It is advisable to use a rail texture mod, such as PEG's and Swamper77's "No Rail Dirt" mod or PEG's "Alternate Rail Set Mod", which will prevent ugly brown textures below the tracks.
 
-     - Lot size: 1x1 tiles (1x1, 1x2, 1x3, 1x4, 1x5 with overhanging props)
-     - Menu position: Utilities - Energy
-     - Plop cost: § 1 - 17
-     - Bulldoze cost: § 5
-     - Monthly cost: § 0
-     - Flammability: 0
-     - Power consumption: 1 MWh/month
-     - Water consumption: 0 Gallons/month
-     - Air pollution: 0 over 0 tiles
-     - Water pollution: 0 over 0 tiles
-     - Garbage pollution: 0 over 0 tiles
+    - Lot size: 1x1 tiles (1x1, 1x2, 1x3, 1x4, 1x5 with overhanging props)
+    - Menu position: Utilities - Energy
+    - Plop cost: § 1 - 17
+    - Bulldoze cost: § 5
+    - Monthly cost: § 0
+    - Flammability: 0
+    - Power consumption: 1 MWh/month
+    - Water consumption: 0 Gallons/month
+    - Air pollution: 0 over 0 tiles
+    - Water pollution: 0 over 0 tiles
+    - Garbage pollution: 0 over 0 tiles
 
   author: Kenworth, Andreas Roth, Nardo69
   website: https://community.simtropolis.com/files/file/36492-sfbt-kenworth-rail-catenaries-v2/
