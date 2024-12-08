@@ -1,15 +1,17 @@
 assetId: cogeo-logistics-centre-dependency-pack
 version: "2.0"
 lastModified: "2024-01-21T00:58:13Z"
-url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=212:cogeo-logistics-centre-dependency-pack-v2&catid=22
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=212:cogeo-logistics-centre-dependency-pack-v2
 
 ---
 group: cogeo
-name: warehouses-batprops
+name: logistics-centre-dependency-pack
 version: "2.0"
 subfolder: 100-props-textures
 info:
-  summary: Warehouses BATProps
+  summary: Warehouses BATProps A & B
+  description: |-
+    This package contains warehouse buildings and additional prop families.
   author: cogeo
   website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/212-cogeo-logistics-centre-dependency-pack-v2
   images:
@@ -20,7 +22,12 @@ info:
 assets:
   - assetId: cogeo-logistics-centre-dependency-pack
     include:
-      - Cogeo_LCP_Warehouses_BATProps v2.dat
+      - Cogeo_LCP_Warehouses_BATProps v..dat  # must load before LHD patch, so we extract it to the top-level
+  - assetId: cogeo-logistics-centre-dependency-pack
+    include:
+      - FreightAutomataSpawningScripts_Swamper77.dat
+      - LCP_Locale_US.dat
+      - /Props/
 variants:
   - variant: { driveside: right }
   - variant: { driveside: left }
