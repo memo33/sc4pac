@@ -16,8 +16,8 @@ assets:
       - \.SC4Model$
       - \.dat$
 
-# The pack also contains lots, but those require more dependencies, so we don't 
-# do this for now. It's not needed for SM2's content, but feel free to add the 
+# The pack also contains lots, but those require more dependencies, so we don't
+# do this for now. It's not needed for SM2's content, but feel free to add the
 # lots as well.
 
 ---
