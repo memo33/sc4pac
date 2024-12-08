@@ -3,7 +3,7 @@ name: kenworth-rail-catenaries
 version: "2"
 subfolder: 700-transit
 info:
-  summary: SFBT Kenworth Rail Catenaries v2
+  summary: SFBT Kenworth Rail Catenaries
   description: |-
     Catenaries (overhead wires) for railways are mainly used to supply electric locomotives with power. They consist of a special wire that hangs above the tracks. The height can differ from country to country. The pantograph that is mounted on top of a locomotive is in constant touch with the wires, so it can conduct power to the electric generators and engines of the vehicle.  
     This set includes 17 different lots that can be placed next to your railway tracks, some of them are transit enabled and can be placed directly onto the tracks, this is useful in tight spaces, such as in downtown situations. All lots feature a transparent base texture and can be used with all available terrain mods.
@@ -32,7 +32,7 @@ dependencies:
   - sfbt:essentials
   - memo:transparent-texture-fix-dll
 assets:
-  - assetId: sfbt-kenworth-rail-catenaries-v2
+  - assetId: sfbt-kenworth-rail-catenaries
     include:
       - \.SC4Lot$
 
@@ -49,12 +49,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/Oberleitungen_1.jpg.d869d8a6907fa6ddd2c6bc939931fe6f.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/Oberleitungen_2.jpg.53d3264a9aa244aa8070f00c229709b2.jpg
 assets:
-  - assetId: sfbt-kenworth-rail-catenaries-v2
+  - assetId: sfbt-kenworth-rail-catenaries
     include:
       - \.dat$
 
 ---
-assetId: sfbt-kenworth-rail-catenaries-v2
+assetId: sfbt-kenworth-rail-catenaries
 version: "2"
 lastModified: "2024-10-08T11:48:52Z"
 url: https://community.simtropolis.com/files/file/36492-sfbt-kenworth-rail-catenaries-v2/?do=download
