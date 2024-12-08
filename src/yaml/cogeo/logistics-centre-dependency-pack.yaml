@@ -20,3 +20,10 @@ assets:
   - assetId: cogeo-logistics-centre-dependency-pack
     include:
       - Cogeo_LCP_Warehouses_BATProps v2.dat
+variants:
+  - variant: { driveside: right }
+  - variant: { driveside: left }
+    assets:
+      - assetId: cogeo-logistics-centre-dependency-pack
+        include:
+          - z_LCP_UK_PathingPatch.dat
