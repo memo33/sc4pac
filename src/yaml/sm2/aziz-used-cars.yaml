@@ -1,0 +1,42 @@
+group: sm2
+name: aziz-used-cars
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Aziz Used Cars
+  description: |-
+    A common view in just about any town. A good old used car sales joint, it even has those ubiquitous colored flags waving in the wind !
+
+    It comes in 2 versions. Plop and grow.
+
+    Plop version costs 1500
+
+     - Bulldoze cost: 40
+     - Power req: 1
+     - Water req: 2
+     - Monthly cost: 0
+
+    Offers 4 C$ jobs and you will find under the Landmark Menu.
+
+    Grow version stats. Same as above.
+
+    Low wealth, low density commercial zoning required.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32811-sm2-aziz-used-cars/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/az.jpg.382c070b970bd0e7606d517c563a8560.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/az2.jpg.5cbd0d00404b35a9fb840b9dbfad50a7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/az3.jpg.5baaf72ad1d47996b014e710fd189ff8.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol3
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-aziz-used-cars
+
+---
+assetId: sm2-aziz-used-cars
+version: "1.0"
+lastModified: "2019-03-20T17:10:04Z"
+url: https://community.simtropolis.com/files/file/32811-sm2-aziz-used-cars/?do=download

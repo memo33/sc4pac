@@ -1,0 +1,30 @@
+group: sm2
+name: water-towers
+version: "2.0.1"
+subfolder: 500-utilities
+info:
+  summary: Water Towers
+  description: |-
+    2 lots with fully functional water towers.
+
+    2X3 Water Tower with pipe connection to SM2 Aqueduct. (Water output = 39700)
+
+    2X2 Water Tower (Water output = 26500)
+
+    Just connect them with your city's underground water pipes!
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31432-sm2-water-towers/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/9.jpg.2ce9690f23aa8e7164eee54cb55898dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/13.jpg.5071e57aed5f6b653f3db0162a329044.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/15.jpg.daa1b8fc018376464890ebdacbdd86c2.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+assets:
+  - assetId: sm2-water-towers
+
+---
+assetId: sm2-water-towers
+version: "2.0.1"
+lastModified: "2020-09-22T17:18:28Z"
+url: https://community.simtropolis.com/files/file/31432-sm2-water-towers/?do=download

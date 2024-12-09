@@ -1,0 +1,46 @@
+group: sm2
+name: sentry-storage-inc
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: Sentry Storage Inc
+  description: |-
+    A self storage facility not unlike many seen anywhere. Front gated and steel fenced for added security.
+
+    All buildings and props rendered in HD.
+
+    This is the landmark version with CS$$ jobs and you will find it under the landmark menu.
+
+     - Lot size: 8x5
+     - Power req: 9
+     - Water req: 4
+     - Plop cost: 4500
+     - Bulldoze cost: 450
+     - Provides CS$76 or CS$$48 jobs.
+
+    Flatten terrain before placing.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34353-sm2-sentry-storage-inc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/sen1.jpg.b2f8bf6aabecfdf1ecb627df23fd827e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/sen2.jpg.fa40ec7d550d450958db3d4264b5aead.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/sen3.jpg.21281bded5f2b96caddf4eaa449e8fa8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/sen4.jpg.a40b3b9b6649284f4374544b1ead85fb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_04/sen5.jpg.18763fe4af26bc8da4b09bae7ff1ab37.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol5
+  - sm2:mega-prop-pack-vol6
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-sentry-storage-inc
+
+---
+assetId: sm2-sentry-storage-inc
+version: "2.0.0"
+lastModified: "2022-02-25T18:55:36Z"
+url: https://community.simtropolis.com/files/file/34353-sm2-sentry-storage-inc/?do=download

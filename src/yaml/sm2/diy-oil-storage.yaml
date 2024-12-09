@@ -1,0 +1,76 @@
+group: sm2
+name: diy-oil-storage
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: DIY Oil Storage
+  description: |-
+    This set comprises of 29 different lots which combined with SM2 Oil Pipelines Vol2 gives you the ability to create whatever size oil storage field you wish.
+
+    LNG tanks, small, medium, large and very large oil tanks are in the mix.
+
+    Some of the world best known oil storage companies are featured.
+
+     - Esso  
+     - Euroil  
+     - Vopak  
+     - Mobil  
+     - Aral  
+     - BASF  
+     - Gulf
+
+    3 brands even feature a truck loading facility.
+
+    There is also a rail loading/unloading platform which is compatible with both vanilla and RRW rails. Just connect the rail to the end stubs and play.
+
+    Most of the lots can connect to the Oil Pipeline set.  
+    Some of the lots are standalone and do not require pipe connection.
+
+    The entire set is eye candy only and you will find it under the power menu.
+
+    Compatible with `pkg=sm2:fuel-terminal` through pipe connection.
+
+    All lots have these stats.
+
+     - Plop cost: 200
+     - Bulldoze cost: 50
+     - Power req: 5
+     - Water req: 0
+     - Maintenance cost: 0
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33355-sm2-diy-oil-storage/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/DY2.jpg.301bbfab388419cf2f7eac961dd90f84.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/od3.jpg.dc3db711b71c9742634accfb4923ad82.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/of.jpg.d901f74f4dec8409898fe1b83d6300a4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/of1.jpg.11dc24ac1f498f117617c3ca718b6234.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/of2.jpg.7099bcc88d22cdd66e66f9c5b72cbc41.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/of3.jpg.00d4bd7a2873d0d64c0a9e604d7adce5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/of4.jpg.950aa183f59e2bf7545d84fb05253a24.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/of5.jpg.f271b5784477c97d189b3396b3eee667.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/of6.jpg.dbe19ce071d12f6ca4bd7799bbfca61b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/of8.jpg.a23cceb0f58d2453370a147962efd4f8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/of9.jpg.de9a9fd6e2b1b1d8a04e45be1be3efa8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/op3.jpg.fecace04e2774825df92134d28a35968.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/op4.jpg.eeb07439228641ad381986f1f1ec0b53.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/op5.jpg.735eac9176f3e5bce98801c0e018d6df.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/op7.jpg.0469dc75b9d90192d8e7f13eeeced8f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5e039afbcb733_TanksetA.jpg.387d2602c94e7a9e05238dbadf779815.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/vtl11.jpg.7b8c2076438c565a68cebc3ca4646926.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol6
+  - sm2:oil-pipelines-vol2
+  - sm2:fuel-terminal
+assets:
+  - assetId: sm2-diy-oil-storage
+
+---
+assetId: sm2-diy-oil-storage
+version: "2.0.0"
+lastModified: "2022-02-25T19:26:13Z"
+url: https://community.simtropolis.com/files/file/33355-sm2-diy-oil-storage/?do=download

@@ -1,0 +1,71 @@
+# Dependencies not available yet on SC4Evermore
+# group: sm2
+# name: cnut-grain-shipping
+# version: "2.0.0"
+# subfolder: 400-industrial
+# info:
+#   summary: cnut Grain Shipping
+#   description: |-
+#     and thank you for downloading my lot/s.
+
+#     This time I created a much needed freight yard more suited for farming regions. It could also be placed in any industrial settings if you wish.
+
+#     SM2 cnut Grain Shipping.
+
+#     Just like its namesake, it is a grain shipping facility. Farmers bring their grains, (wheat, barley, corn, oats and so on), on trucks which are then weighted on drive on scales. Grains are then vacuumed from the open trucks and are sorted and stored in their appropriate silos.
+
+#     Grains are then pumped into specially made train cars and shipped to mills where they are turned into flour, corn starch, cereals etc.
+
+#     This lot will also allow passenger trains to go through it so you will see both type of trains traverse it.
+
+#      - Lot size: 14X10
+#      - Capacity: 30,200 tons.
+
+#     Jobs 38
+
+#     It will required water and power to run.
+
+#     As usual, textures are custom made and included.
+
+#     Have fun and if you want to see more pics and/or follow my progress on new lots, come and see me at [https://www.sc4devotion.com/forums/index.php?topic=17211.540](https://www.sc4devotion.com/forums/index.php?topic=17211.540)
+
+#     Thank you cnut for making such beautiful models.
+
+#     Simmer2
+
+#     Just like my other lots, dependencies are very common and most likely already are in your plugin.
+#   author: Simmer2
+#   website: https://community.simtropolis.com/files/file/31173-sm2-cnut-grain-shipping/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2016_07/1-1.jpg.b722f5b64df33df92f9b551239962c5a.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2016_07/2-2.jpg.4cf9b0e41009b45d8fad5914468a1c03.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2016_07/3_3.jpg.ee8ea402e2ebebd8569343cce7e82ff6.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2016_07/6_1.jpg.40db77fa86cf9b9c9ef3ea1929e231ec.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2016_07/9_1.jpg.b05fc87ddeb6e981cc90f31a1c80d4a1.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2016_07/10_1.jpg.f7d214d41c3a6c526f8897c4375cbdfc.jpg
+# dependencies:
+#   - sm2:mega-prop-pack-vol1
+#   - bsc:mega-props-misc-vol02
+#   - '"[https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotget=1619](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1619)"'
+#   - '"[https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotget=1367](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1367)"'
+#   - bsc:mega-props-jes-vol01
+#   - bsc:mega-props-jes-vol02
+#   - bsc:mega-props-jes-vol03
+#   - bsc:mega-props-jes-vol04
+#   - bsc:mega-props-jes-vol05
+#   - bsc:mega-props-jes-vol06
+#   - bsc:mega-props-jes-vol07
+#   - bsc:mega-props-jes-vol08
+#   - bsc:mega-props-jes-vol09
+#   - bsc:mega-props-sg-vol01
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - nbvc:rock-n-stones
+# assets:
+#   - assetId: sm2-cnut-grain-shipping
+
+# ---
+# assetId: sm2-cnut-grain-shipping
+# version: "2.0.0"
+# lastModified: "2018-08-23T03:51:12Z"
+# url: https://community.simtropolis.com/files/file/31173-sm2-cnut-grain-shipping/?do=download

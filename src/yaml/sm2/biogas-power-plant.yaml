@@ -1,0 +1,46 @@
+group: sm2
+name: biogas-power-plant
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Biogas Power Plant
+  description: |-
+    Another way to get clean energy is to turn organic material into biogas. Biogas is then burned to create energy through evaporation of water which is used to spin powerful generators.
+
+    This type of plants are popping everywhere around the globe but more so in Europe.
+
+     - Lot size: 10x8
+     - Plop cost: 38000
+     - Bulldoze cost: 2500
+     - Monthly garbage incinerated 50000 tons
+     - Power generated: at full capacity 12500
+     - Power used: 25
+     - Water used: 45
+     - Provides 180 jobs
+     - Monthly maintenance: 300
+
+    Life expectancy 250 years
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33382-sm2-biogas-power-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/bio1.jpg.c3918c1863ce36785ddc0a237db829bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/biog2.jpg.b341e21edfacc1b208306e94e001b66a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/biog4.jpg.d7227b2fb06276b5b753024fb17df894.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/biog3.jpg.04e9fdb244eeac7c57a917b936aca4fd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/biog5.jpg.3c9e78cd4510dff421a2ebf33624019c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/biog6.jpg.37ed41dd6f87d1f819242400a61c71ff.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol6
+assets:
+  - assetId: sm2-biogas-power-plant
+
+---
+assetId: sm2-biogas-power-plant
+version: "2.0.0"
+lastModified: "2022-02-25T19:17:52Z"
+url: https://community.simtropolis.com/files/file/33382-sm2-biogas-power-plant/?do=download

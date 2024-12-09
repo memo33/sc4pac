@@ -1,0 +1,51 @@
+group: sm2
+name: glycerol-distiller-facility
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Glycerol Distiller Facility
+  description: |-
+    Glycerol is an industrial product used by pharmaceutical companies to make certain medicines.
+
+    This is a fictional HD model that represents a Glycerol distiller facility.
+
+    **Plop stats**
+
+     - I-M Medium wealth
+     - Plop cost: 2250
+     - Bulldoze cost: 424
+     - Water req: 20
+     - Power req: 4
+     - Provides 56 jobs
+
+    You will find it under the Landmark menu.
+
+    **Grow stats**
+
+     - IM stage 3 Medium manufacturing
+     - Power req: 2
+     - Water req: 26
+     - Bulldoze cost: 424
+     - Provides 29 jobs
+
+    It will grow on high density industrial zones
+
+    Have fun
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33972-sm2-glycerol-distiller-facility/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Gly1.jpg.dcce7fd65ac27f08a612f8056ab05e93.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Gly2.jpg.dd56f393802cecb707567fef4a62011b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Gly3.jpg.c9430d1572ba29c655b659af610150c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Gly4.jpg.0a2b70f0657f190e5562d7b7a2c2e934.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Gly5.jpg.e4532e406919f912d78bdc2d595ad99f.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol5
+assets:
+  - assetId: sm2-glycerol-distiller-facility
+
+---
+assetId: sm2-glycerol-distiller-facility
+version: "2.0.0"
+lastModified: "2021-03-24T05:34:55Z"
+url: https://community.simtropolis.com/files/file/33972-sm2-glycerol-distiller-facility/?do=download

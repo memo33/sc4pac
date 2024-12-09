@@ -1,0 +1,36 @@
+group: sm2
+name: news-kiosks
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: News Kiosks
+  description: |-
+    Just a tiny 1x1 lot featuring a news stand and a small parking lot.
+
+    This package includes 2 lots, 1 plop and 1 grow. Both are C$. You can choose either or both to put in your plugin, up to you.
+
+    Both offer 4 C$ jobs and you will find the ploppable one under the landmark menu.
+
+     - Plop cost: 1132
+     - Bulldoze cost: 74
+     - Power req: 1
+     - Water Req: 2
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32703-sm2-news-kiosks/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/NK1.jpg.5d93146f974b7686e280b8681c07aa92.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/nk2.jpg.f60e5fa6a12b092bfd7e5fe02ccb5456.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/nk3.jpg.f7d7ef40cc42a174b979f1fbe5eed645.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-news-kiosks
+
+---
+assetId: sm2-news-kiosks
+version: "1.0"
+lastModified: "2019-01-07T04:44:02Z"
+url: https://community.simtropolis.com/files/file/32703-sm2-news-kiosks/?do=download

@@ -1,0 +1,29 @@
+group: sm2
+name: kennedy-bus-and-subway-hub
+version: "3.0.0"
+subfolder: 700-transit
+info:
+  summary: Kennedy Bus and Subway Hub
+  description: |-
+    To be placed in a avenue roundabout.  
+      
+    This is a modern bus and subway station, just drop it in a avenue roundabout and watch it go to work.  
+      
+     - Cost to plop: 3500
+     - Capacity: 85000
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32333-sm2-kennedy-bus-and-subway-hub/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/K1.jpg.10f5d0f091fb70b0dede33c2d8523bc5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/k2.jpg.283fadca913db19d3a9c525c02c05978.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/k3.jpg.0907b53f3b4d6fb0c0ebcbad74d31b19.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/k4.jpg.d03d616d5d34b824399ebf4b1b5d67f5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/K5.jpg.e98fb68602bef2773ceece2ee10fdd4b.jpg
+assets:
+  - assetId: sm2-kennedy-bus-and-subway-hub
+
+---
+assetId: sm2-kennedy-bus-and-subway-hub
+version: "3.0.0"
+lastModified: "2022-02-16T05:44:41Z"
+url: https://community.simtropolis.com/files/file/32333-sm2-kennedy-bus-and-subway-hub/?do=download

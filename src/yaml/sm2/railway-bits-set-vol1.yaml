@@ -1,0 +1,41 @@
+group: sm2
+name: railway-bits-set-vol1
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Railway Bits Set Vol1
+  description: |-
+    These are fill lots that can be used around railways and or industrial/farm areas.
+
+    The base texture is compatible with the game dirt texture and it will make them look as if they are part of the railways/farm/industrial areas.
+
+    There are a total of 25 lots, from 1x1 to 3x3. 95% percent of them are filled with props in families so as to get as little repetitions as possible.
+
+     - Cost to plop: 100
+     - Bulldoze cost: 0
+     - No power or water req.
+     - These lots do not need network access
+     - Maintenance: 5
+
+    Be creative when placing them and you will get amazing results.
+
+    You will find them under the Rail menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32794-sm2-railway-bits-set-vol1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c8bf42befdd4_RBataglance.jpg.efbdd2ac0c3b07805af4d29a955b69f1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/rb5.jpg.2c847aebde68fb65c61cc8e98eaff683.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/rb22.jpg.7da99d0d6068cb1158cb1db38ed95474.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+assets:
+  - assetId: sm2-railway-bits-set-vol1
+
+---
+assetId: sm2-railway-bits-set-vol1
+version: "1.0"
+lastModified: "2019-03-15T18:53:58Z"
+url: https://community.simtropolis.com/files/file/32794-sm2-railway-bits-set-vol1/?do=download

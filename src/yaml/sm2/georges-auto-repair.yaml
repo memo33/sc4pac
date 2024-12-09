@@ -1,0 +1,38 @@
+group: sm2
+name: georges-auto-repair
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: George's Auto Repair
+  description: |-
+    Sim's cars must go somewhere to get fixed right?
+
+    Well, George is really busy these days since there are alot more cars on the roads but only a few mechanics.
+
+     - Lot size: 3x3
+     - Plop cost: 1500
+     - Bulldoze cost: 40
+     - Power req: 5
+     - Water req: 4
+     - Provides 15 C$ jobs
+
+    Look under the landmark menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32810-sm2-georges-auto-repair/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/Gar1.jpg.49a03b664679b985712be39493d14547.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/GAR2.jpg.d181a4fa75ea7cb483b235bb0cedbf44.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/gar3.jpg.ced6627810a8215c25599c1e99c8d5a4.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol3
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-georges-auto-repair
+
+---
+assetId: sm2-georges-auto-repair
+version: "1.0"
+lastModified: "2019-03-20T14:50:44Z"
+url: https://community.simtropolis.com/files/file/32810-sm2-georges-auto-repair/?do=download
