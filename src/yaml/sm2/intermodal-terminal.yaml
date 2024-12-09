@@ -65,7 +65,7 @@ dependencies:
   - mushymushy:na-40ft-trailers-vol1
   - mushymushy:na-semi-truck-cabs-vol1
   - hide-inoki:jim-carprop-pack
-  - cogeo:warehouses-batprops-part-a
+  - cogeo:logistics-centre-dependency-pack
 
 ---
 assetId: sm2-intermodal-terminal

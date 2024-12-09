@@ -44,11 +44,6 @@ dependencies:
   - bsc:mega-props-t1-vol03
   - sm2:mega-prop-pack-vol1
   - bsc:vdk-gevo-props
-  - bsc:vdk-gevo-textures-props-p1
-  - bsc:vdk-gevo-textures-props-p2
-  - bsc:vdk-gevo-textures-props-p3
-  - bsc:vdk-gevo-textures-props-p4
-  - bsc:vdk-gevo-textures-props-p5
 assets:
   - assetId: sm2-heritage-roundhouse
 
