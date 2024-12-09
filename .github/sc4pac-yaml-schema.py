@@ -131,9 +131,9 @@ package_schema = {
             "additionalProperties": False,
             "properties": {
                 "summary": {"type": "string"},
-                "warning": {"type": "string"},
-                "conflicts": {"type": "string"},
-                "description": {"type": "string"},
+                "warning": {"type": "string", "validate_text_field": "warning"},
+                "conflicts": {"type": "string", "validate_text_field": "conflicts"},
+                "description": {"type": "string", "validate_text_field": "description"},
                 "author": {"type": "string"},
                 "images": unique_strings,
                 "website": {"type": "string", "validate_query_params": True},
@@ -352,6 +352,18 @@ def validate_query_params(validator, value, url, schema):
         yield ValidationError('\n'.join(msgs))
 
 
+def validate_text_field(validator, field, text, schema):
+    msgs = []
+    if text is not None and text.strip().lower() == "none":
+        msgs.append(f"""Text "{field}" should not be "{text.strip()}", but should be omitted instead.""")
+    if text is not None and DependencyChecker.pronouns_pattern.search(text):
+        msgs.append(f"""The "{field}" should be written in a neutral perspective (avoid the words 'I', 'me', 'my').""")
+    if text is not None and DependencyChecker.desc_invalid_chars_pattern.search(text):
+        msgs.append("""The "{field}" seems to be malformed (avoid the characters '\\n', '\\"').""")
+    if msgs:
+        yield ValidationError('\n'.join(msgs))
+
+
 def main() -> int:
     args = sys.argv[1:]
     if not args:
@@ -363,6 +375,7 @@ def main() -> int:
             validators=dict(
                 validate_pattern=validate_pattern,
                 validate_query_params=validate_query_params,
+                validate_text_field=validate_text_field,
             ),
         )(schema)
     validator.check_schema(schema)
@@ -386,18 +399,6 @@ def main() -> int:
                             dependency_checker.aggregate_identifiers(doc)
                             err = jsonschema.exceptions.best_match(validator.iter_errors(doc))
                             msgs = [] if err is None else [err.message]
-
-                            # check "None" value
-                            for label in ['conflicts', 'warning', 'summary', 'description']:
-                                field = doc.get('info', {}).get(label)
-                                if field is not None and field.strip().lower() == "none":
-                                    msgs.append(f"""Field "{label}" should not be "{field.strip()}", but should be left out instead.""")
-
-                            desc = doc.get('info', {}).get('description')
-                            if desc is not None and dependency_checker.pronouns_pattern.search(desc):
-                                msgs.append("The description should be written in a neutral perspective (avoid the words 'I', 'me', 'my').")
-                            if desc is not None and dependency_checker.desc_invalid_chars_pattern.search(desc):
-                                msgs.append("""The description seems to be malformed (avoid the characters '\\n', '\\"').""")
 
                             if msgs:
                                 errors += 1
