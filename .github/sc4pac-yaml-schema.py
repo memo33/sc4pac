@@ -6,6 +6,9 @@ import yaml
 import sys
 import os
 import re
+from urllib.parse import (urlparse, parse_qs)
+import jsonschema
+from jsonschema import ValidationError
 
 # add subfolders as necessary
 subfolders = r"""
@@ -68,7 +71,7 @@ asset_schema = {
         "assetId": {"type": "string"},
         "version": {"type": "string"},
         "lastModified": {"type": "string"},
-        "url": {"type": "string"},
+        "url": {"type": "string", "validate_query_params": True},
         "archiveType": {
             "type": "object",
             "additionalProperties": False,
@@ -88,8 +91,8 @@ assets = {
         "required": ["assetId"],
         "properties": {
             "assetId": {"type": "string"},
-            "include": unique_strings,
-            "exclude": unique_strings,
+            "include": {**unique_strings, "validate_pattern": True},
+            "exclude": {**unique_strings, "validate_pattern": True},
         },
     },
 }
@@ -133,7 +136,7 @@ package_schema = {
                 "description": {"type": "string"},
                 "author": {"type": "string"},
                 "images": unique_strings,
-                "website": {"type": "string"},
+                "website": {"type": "string", "validate_query_params": True},
             },
         },
     },
@@ -323,15 +326,45 @@ def validate_document_separators(text) -> None:
                 "YAML file contains multiple package and asset definitions. They all need to be separated by `---`.")
 
 
+def validate_pattern(validator, value, instance, schema):
+    patterns = [instance] if isinstance(instance, str) else instance
+    bad_patterns = [p for p in patterns if p.startswith('.*')]
+    if bad_patterns:
+        yield ValidationError(f"include/exclude patterns should not start with '.*' in {bad_patterns}")
+
+
+_irrelevant_query_parameters = [
+    ("sc4evermore.com", ("catid",)),
+    ("simtropolis.com", ("confirm", "t", "csrfKey")),
+]
+
+
+def validate_query_params(validator, value, url, schema):
+    msgs = []
+    if '/sc4evermore.com/' in url:
+        msgs.append(f"Domain of URL {url} should be www.sc4evermore.com (add www.)")
+    qs = parse_qs(urlparse(url).query)
+    bad_params = [p for domain, params in _irrelevant_query_parameters
+                  if domain in url for p in params if p in qs]
+    if bad_params:
+        msgs.append(f"Avoid these URL query parameters: {', '.join(bad_params)}")
+    if msgs:
+        yield ValidationError('\n'.join(msgs))
+
+
 def main() -> int:
     args = sys.argv[1:]
     if not args:
         "Pass at least one directory or yaml file to validate as argument."
         return 1
 
-    from jsonschema.validators import Draft202012Validator
-    from jsonschema import exceptions
-    validator = Draft202012Validator(schema)
+    validator = jsonschema.validators.extend(
+            jsonschema.validators.Draft202012Validator,
+            validators=dict(
+                validate_pattern=validate_pattern,
+                validate_query_params=validate_query_params,
+            ),
+        )(schema)
     validator.check_schema(schema)
     dependency_checker = DependencyChecker()
     validated = 0
@@ -351,15 +384,8 @@ def main() -> int:
                             if doc is None:  # empty yaml file or document
                                 continue
                             dependency_checker.aggregate_identifiers(doc)
-                            err = exceptions.best_match(validator.iter_errors(doc))
+                            err = jsonschema.exceptions.best_match(validator.iter_errors(doc))
                             msgs = [] if err is None else [err.message]
-
-                            # check URLs
-                            urls = [u for u in [doc.get('url'), doc.get('info', {}).get('website')]
-                                    if u is not None]
-                            for u in urls:
-                                if '/sc4evermore.com/' in u:
-                                    msgs.append(f"Domain of URL {u} should be www.sc4evermore.com")
 
                             # check "None" value
                             for label in ['conflicts', 'warning', 'summary', 'description']:
