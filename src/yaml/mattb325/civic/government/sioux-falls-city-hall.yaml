@@ -8,7 +8,7 @@ dependencies:
 
 info:
   summary: "Sioux Falls City Hall"
-  description: >
+  description: |
     Non-conditional Town Hall reward based on the Sioux Falls City Hall.
     It is constructed in the streamline moderne (a successor to art-deco) style
     with a brick and granite facade.

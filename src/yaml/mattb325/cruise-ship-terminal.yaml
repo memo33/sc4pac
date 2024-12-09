@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 700-transit
 info:
   summary: Cruise Ship Terminal
-  description: >
+  description: |
     Using the cruise ship terminal helps to break through demand caps, increase mayor and landmark ratings, and provides jobs; all of these enable you to get a thriving high end commercial services sector and enable a higher populations of R$$ and R$$$ sims.
     This is crucial to helping build large cities.
 

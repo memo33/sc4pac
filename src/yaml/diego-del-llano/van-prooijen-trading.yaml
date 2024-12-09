@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Van Prooijen Trading
-  description: >
+  description: |
     Van Prooijen Trading is Commercial Offices Building. The Heights is 200 m approximately.
 
   author: Diego Del Llano

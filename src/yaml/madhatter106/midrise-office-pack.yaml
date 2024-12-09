@@ -16,7 +16,7 @@ dependencies:
 
 info:
   summary: "Full collection of madhatter106's Midrise Office Packs, Volumes 1-10"
-  description: >
+  description: |
     A classic and long-running series of midrise commercial office packs with an emphasis
     on complementing existing Maxis commercial buildings.  The pack relies only on Maxis
     assets for lotting and thus requires no dependencies.

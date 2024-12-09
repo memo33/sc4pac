@@ -57,7 +57,7 @@ variantDescriptions:
 
 info:
   summary: "38 growable I-D filler lots to supplement the IRM"
-  description: >
+  description: |
     This expansion package for the Industrial Revolution Mod (IRM) contains a
     set of custom-made lots that can grow as fillers between industrial
     facilities, mainly tanks/silos and warehouses.
@@ -106,7 +106,7 @@ variantDescriptions:
 
 info:
   summary: "45 growable I-M filler lots to supplement the IRM"
-  description: >
+  description: |
     This expansion package for the Industrial Revolution Mod (IRM) contains a
     set of custom-made lots that can grow as fillers between industrial
     facilities, mainly tanks/silos and warehouses. Fillers are particularly

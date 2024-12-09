@@ -3,15 +3,20 @@ name: vdk-gevo-props
 version: "1.0"
 subfolder: 100-props-textures
 info:
-  summary: VDK GEVo Props by Vester
+  summary: GEVo Engines by Vester (Prop Pack Vol03)
   author: Vester
   website: https://www.sc4evermore.com/index.php/downloads/download/296-bsc-vdk-prop-pack-vol03-gevo-engines
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/VDK%20GEvo%20Props%20readme.jpg
 assets:
   - assetId: bsc-vdk-prop-pack-vol03-gevo-engines
-    include:
+    include:  # a random selection of textures for convenience
       - /BSCProps/
+      - /VDK GEVo Textures Props P1 Vol03A BN3.dat
+      - /VDK GEVo Textures Props P2 Vol03B CV.dat
+      - /VDK GEVo Textures Props P3 Vol03C SP5 SPSF.dat
+      - /VDK GEVo Textures Props P4 Vol03D NC.dat
+      - /VDK GEVo Textures Props P5 Vol03E NYSW.dat
 
 ---
 assetId: bsc-vdk-prop-pack-vol03-gevo-engines

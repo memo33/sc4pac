@@ -7,7 +7,7 @@ assets:
 
 info:
   summary: "Small craft brewery company (W2W)"
-  description: >
+  description: |
     The Murray Beer Co is a little craft brewery based on one in Wellington, New Zealand.
     This little CS$$ stage 4 lot (1×2) sells odd flavoured IPAs to 30 year olds with big beards for twice the price of the normal beer.
     No nitelites with this one, their license only runs till 9pm.

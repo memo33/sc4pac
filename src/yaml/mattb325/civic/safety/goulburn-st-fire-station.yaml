@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Goulburn St Fire Station"
-  description: >
+  description: |
     This small W2W fire station is modeled on the old salvation army hall on
     Sydney's Goulburn St. Despite its small size, it has two dispatches and an
     expanded coverage radius. Being fire station, it is found in the fire menu.

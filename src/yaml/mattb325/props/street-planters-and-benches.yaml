@@ -10,7 +10,7 @@ dependencies: []
 
 info:
   summary: "Street Planters and Benches"
-  description: >
+  description: |
     A series of differently rotated street planters and benches for lotting use.
     Only the props are included in this package.
   author: "mattb325"
@@ -32,7 +32,7 @@ dependencies:
 
 info:
   summary: "1x1 Park lots using the Street Planters and Benches prop set"
-  description: >
+  description: |
     Four very simple lots using differently rotated street planter & bench props.
     Useful for gap filling in parks or among developed areas.
 

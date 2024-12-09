@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: Hattan House (W2W)
-  description: >
+  description: |
     Hattan House is a 1962 seventeen story apartment located in Manhattan, New York City.
     The building grows as R$$, R$$$, CS$$ and CS$$$ in four color variations on the New York tileset.
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.

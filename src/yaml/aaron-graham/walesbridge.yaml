@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: Walesbridge
-  description: >
+  description: |
     Walesbridge is a 1940-1950s six story apartment located in The Bronx, New York City.
     The building grows as R$ and R$$ on the New York tile set.
     There are eight variations in total: four corner buildings and four non-corner buildings, each with four different brick colors.

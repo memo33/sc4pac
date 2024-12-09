@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Shaklee Terraces, One Front Street
-  description: >
+  description: |
     One Front Street, also known as Shaklee Terraces, is an office skyscraper in the Financial District of San Francisco, California.
     The 164 m (538 ft), 38-floor tower was completed in 1979.
     The composition of the façade closely resembles that of the Shell Building by Emil Fahrenkamp, which was built in Berlin in 1931.

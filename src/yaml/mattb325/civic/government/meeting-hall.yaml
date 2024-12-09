@@ -7,7 +7,7 @@ dependencies:
 
 info:
   summary: "An old style meeting hall for your cities and towns."
-  description: >
+  description: |
     In many smaller towns and larger cities, meeting halls often took the place
     of the Town Hall. They were an important part of civic life, and while many
     had a quasi-religous purpose, many were purely non-sectarian.

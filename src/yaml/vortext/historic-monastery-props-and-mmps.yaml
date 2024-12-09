@@ -17,7 +17,7 @@ dependencies:
 assets:
   - assetId: vortext-historic-monastery-props-and-mmps
     include:
-      - .*MMPs\.dat$
+      - MMPs\.dat$
 
 ---
 group: vortext
@@ -33,7 +33,7 @@ info:
 assets:
   - assetId: vortext-historic-monastery-props-and-mmps
     include:
-      - .*Props\.dat$
+      - Props\.dat$
 
 ---
 assetId: vortext-historic-monastery-props-and-mmps

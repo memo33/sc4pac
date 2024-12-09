@@ -12,7 +12,7 @@ assets:
 
 info:
   summary: "Sunflower props"
-  description: >
+  description: |
     This package contains slope-friendly sunflower field props (no-shadow variant).
   author: "HunD88"
   website: "https://community.simtropolis.com/files/file/21220-sunflower-field/"

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Renaissance Tower Sacramento
-  description: >
+  description: |
     Renaissance Tower is a 113 m (371 ft) skyscraper in Sacramento, California, completed in 1989.
     The 28 story tower was the tallest in the city when completed, and is now the fifth.
 

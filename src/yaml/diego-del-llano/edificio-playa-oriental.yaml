@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Edificio Playa Oriental
-  description: >
+  description: |
     Building located in Medellin, Antioquia, Colombia.
 
   author: Diego Del Llano

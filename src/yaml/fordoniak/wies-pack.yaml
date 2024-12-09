@@ -8,7 +8,7 @@ assets:
   - "\\.SC4Lot$"
 info:
   summary: "Wieśpack village buildings and barn props"
-  description: >
+  description: |
     This package contains only buildings and props.
     The lot files of the original upload are not included.
   author: "fordoniak"

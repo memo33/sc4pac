@@ -7,7 +7,7 @@ dependencies:
 
 info:
   summary: "Galaxy Casino & Hotel"
-  description: >
+  description: |
     Sleek, modern, high-rise casino reward. It has less severe side-effects
     than the default casino, (it won't cause a city-wide spike in crime or drop
     in mayor rating) but it still discourages nearby R$$$ development.

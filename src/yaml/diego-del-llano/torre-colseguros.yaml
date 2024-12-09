@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Torre Colseguros
-  description: >
+  description: |
     Torre Colseguros is a building located on International Center of the Capital City Bogota, Colombia.
 
   author: Diego Del Llano

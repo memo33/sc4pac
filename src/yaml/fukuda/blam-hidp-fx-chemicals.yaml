@@ -8,10 +8,10 @@ info:
     FX Chemicals started their production in 1954, and were bought by the Gasol Corporation in december of the year 1987, they produce top-quality light ethylenes for variate industries (you can find them everywhere, in diverse forms)
 
     Stats:
-     - Location: Landmarks
-     - Size: 8x2
-     - Bulldoze cost: 100
-     - I-D Jobs: 544
+    - Location: Landmarks
+    - Size: 8x2
+    - Bulldoze cost: 100
+    - I-D Jobs: 544
   author: fukuda
   website: https://community.simtropolis.com/files/file/17591-blam-hidp-fx-chemicals/
   images:
@@ -22,7 +22,7 @@ dependencies:
 assets:
   - assetId: blam-hidp-fx-chemicals
     include:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 group: blam
@@ -35,13 +35,10 @@ info:
     Resource file for `pkg=blam:hidp-fx-chemicals`
   author: fukuda
   website: https://community.simtropolis.com/files/file/17591-blam-hidp-fx-chemicals/
-  images:
-    - https://www.simtropolis.com/objects/screens/0017/93f1338768b381f7cccaa4b9aa5ffcf3-fx1.JPG
-    - https://www.simtropolis.com/objects/screens/0017/93f1338768b381f7cccaa4b9aa5ffcf3-fx2.JPG
 assets:
   - assetId: blam-hidp-fx-chemicals
     exclude:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 assetId: blam-hidp-fx-chemicals

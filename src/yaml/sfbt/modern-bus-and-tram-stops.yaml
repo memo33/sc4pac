@@ -9,7 +9,7 @@ assets:
 
 info:
   summary: "Modern bus and tram stops by Fluggi"
-  description: >
+  description: |
     This download contains 17 lots with several bus and tram stops for your city.
     There are three different models: A simple bus stop with a glass covered roof made by Fluggi which can be found everywhere in Germany,
     and two other stops (one wide and one narrow version) with a roof in three different colors made by khoianh94 which are inspired from the ones in Munich, Germany.

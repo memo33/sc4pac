@@ -6,7 +6,7 @@ assets:
 - assetId: "angry-mozart-trucks-and-trailers-props"
 info:
   summary: "Truck and trailer props"
-  description: >
+  description: |
     This package includes 110 different models each one HD-rendered at 11.25°, 22.5°, 33.75°, 45° and 90° with their respective left versions. Prop families for the 22.5°, 22.5° left, 45° and 90° versions are also included.
   author: "Angry Mozart"
   images:

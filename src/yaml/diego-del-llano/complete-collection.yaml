@@ -4,7 +4,7 @@ version: 1.0.0
 subfolder: 360-landmark
 info:
   summary: Complete collection of all of Diego Del Llano's landmarks
-  description: >
+  description: |
     The collection consists of the North America collection, the Latin America collection
     as well as individual buildings from around the world.
 

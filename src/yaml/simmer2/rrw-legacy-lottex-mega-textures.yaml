@@ -9,10 +9,10 @@ info:
     These are modifications of the old RRW texture set originally created by Indiana Joe and Swordmaster for usage with the NAM. Several new pieces were added including Standard to custom RRW texture transitions and a DTR to Railyard junction.
 
     This new SM2-SW-IJ RRW Legacy Mega Textures compilation collects and replaces the following single textures packs and also fixes some issues:
-    • RRW_Lottex_SM2.dat
-    • RRW Lottex SW.dat
-    • RRW_Lottex_SM2R2.dat
-    • SM2_RRW_Lottex_3.dat
+    * `RRW_Lottex_SM2.dat`
+    * `RRW Lottex SW.dat`
+    * `RRW_Lottex_SM2R2.dat`
+    * `SM2_RRW_Lottex_3.dat`
   author: "Simmer2, Indiana Joe, Swordmaster"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2024_01/RRW_Lottex_SM2.jpg.8247035b3ba8f2b417e7de8631efe186.jpg"

@@ -4,7 +4,7 @@ version: "2.0.0"
 subfolder: 360-landmark
 info:
   summary: One Kansas City Place
-  description: >
+  description: |
     One Kansas City Place is the tallest building in Missouri located in downtown Kansas City, bounded by 12th Street to the north, Baltimore Avenue to the west, and Main Street to the east.
     Built in 1988, the 190.1 m (624 ft) skyscraper was designed by Patty Berkebile Nelson & Immenschuh and replaced the Town Pavilion as the tallest building in the city.
 

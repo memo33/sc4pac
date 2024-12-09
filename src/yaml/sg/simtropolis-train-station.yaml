@@ -7,12 +7,12 @@ info:
   description: |-
     A modern passenger station designed for use in a downtown setting. The upper promenade features boutique shops and restaurants, and there are offices in the front glassed in building. There are three tracks off the rear, 3 tiles back from the road, so it can be used in the middle of a commercial district.
 
-     **Lot Details and Information**
+    **Lot Details and Information**
 
-     - Building: Transportation
-     - Lot Size: 7 x 6 tiles
-     - Lot Wealth: Medium Wealth
-     - Jobs: Civic $: 150, $$: 70, $$$: 30
+    - Building: Transportation
+    - Lot Size: 7 x 6 tiles
+    - Lot Wealth: Medium Wealth
+    - Jobs: Civic $: 150, $$: 70, $$$: 30
   author: SimGoober
   website: https://community.simtropolis.com/files/file/14728-simtropolis-train-station/
   images:
@@ -27,7 +27,7 @@ dependencies:
 assets:
   - assetId: sg-simtropolis-train-station
     exclude:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
   - assetId: sg-simtropolis-train-station-mac-fix
 
 ---

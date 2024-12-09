@@ -9,10 +9,10 @@ info:
 
     This package contains four different types of rocks and stones:
 
-     - Dark Rocks
-     - Dark Stones
-     - Granite Rocks (grey)
-     - Grey Stones
+    - Dark Rocks
+    - Dark Stones
+    - Granite Rocks (grey)
+    - Grey Stones
 
     You can change the rocks with additional clicks on the same rock.
 
@@ -29,7 +29,7 @@ dependencies:
 assets:
   - assetId: nbvc-rock-n-stones
     include:
-      - .*\.dat$
+      - \.dat$
 
 ---
 group: nbvc
@@ -43,15 +43,12 @@ info:
   author: nbvc
   website: https://community.simtropolis.com/files/file/27092-rock-n-stones/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_12_2011/a4763ddbee83a2a8c7b957682f4f8fa7-rocknstones1.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_12_2011/5b664f047aa047637f0b1dea1e16c615-rocknstones2.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_12_2011/cc3485961ce2db6d7836bae0e5fb42a1-rocknstones3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_12_2011/ca3917a81e2a524319ca31aa1d95b770-rocknstones4.jpg
 assets:
   - assetId: nbvc-rock-n-stones
     include:
-      - .*\.SC4Model
-      - .*\.SC4Desc
+      - \.SC4Model
+      - \.SC4Desc
 
 ---
 assetId: nbvc-rock-n-stones

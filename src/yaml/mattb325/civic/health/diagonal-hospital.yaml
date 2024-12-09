@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "A modern diagonal hospital"
-  description: >
+  description: |
     This is a purely fictional larger style hospital that is aligned to diagonal
     roads as an overhanging building.  It has a patient capacity of 20,000 and
     provides 245 civic jobs.  It is located in the health menu.

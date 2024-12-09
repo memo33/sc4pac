@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Ventura Place One
-  description: >
+  description: |
     This landmark is a mixed-used building with commercial center, luxury hotel with terraces and residences.
     It provides 2700 jobs (CS$$$).
   author: Diego Del Llano

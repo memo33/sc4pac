@@ -57,7 +57,7 @@ variants:
 
 info:
   summary: "Streetlight models and props of LRM v4.0"
-  description: >
+  description: |
     This is a dependency pack consisting of the props of the Light Replacement Mod v4.0 (LRM).
     It is not the LRM itself and thus does not override any Maxis streetlights.
   author: "MandelSoft/MRTNRLN"

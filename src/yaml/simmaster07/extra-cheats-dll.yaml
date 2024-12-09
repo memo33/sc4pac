@@ -9,7 +9,7 @@ assets:
 info:
   summary: "Enables additional cheat codes"
   conflicts: "Incompatible with the macOS version of the game."
-  description: >
+  description: |
     The extra cheats plugin adds many additional features to the game, such as the
     ability to plop any building or lot at will, the ability to easily set how much
     money is in your city's treasury and even the ability to add snow to your

@@ -71,7 +71,7 @@ variantDescriptions:
 
 info:
   summary: "Custom UIs, textures and props for SFBT lots"
-  description: >
+  description: |
     The SFBT Essentials contain the custom UIs that every SFBT lot uses, as well as shared textures and prop packs.
 
     Additionally, the package contains several choosable variants of tree families that are used by SFBT lots as well as the SFBT street tree mod.

@@ -4,7 +4,7 @@ version: "2"
 subfolder: "100-props-textures"
 info:
   summary: "Tree props by SimFox"
-  description: >
+  description: |
     This is a pack of 7 trees in form of both Props and Mayor Mode Ploppables.
   author: "SimFox"
   images:

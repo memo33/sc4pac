@@ -13,7 +13,7 @@ dependencies:
 - "bsc:textures-vol03"
 info:
   summary: "4 stations expanding the MBEAR mediterranean set"
-  description: >
+  description: |
     This package contains 4 lots that expand the set of stations in the Mediterranean set made by Mickebear
     in order to support some networks introduced by the Network Addon Mod (NAM) such as GLR and HRW.
   author: "Ulisse Wolf"

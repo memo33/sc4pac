@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Hogan Wallace And White Insurance
-  description: >
+  description: |
     This is a Commercial Offices Building. The height is 240 m approximately.
     It is based on the Messeturm in Frankfurt, Germany.
 

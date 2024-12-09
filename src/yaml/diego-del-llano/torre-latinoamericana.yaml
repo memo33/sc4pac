@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Torre Latinoamericana
-  description: >
+  description: |
     The Torre Latinoamericana (English: Latin-American Tower) is a skyscraper in downtown Mexico City, Mexico.
     Its central location, height (188 m or 597 ft; 44 stories) and history make it one of the city's most important landmarks.
     It is also widely recognized internationally as an engineering and architectural landmark since it was the world's first major skyscraper successfully built on highly active seismic land.

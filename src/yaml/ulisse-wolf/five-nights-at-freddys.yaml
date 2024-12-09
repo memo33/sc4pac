@@ -15,7 +15,7 @@ dependencies:
 
 info:
   summary: "Freddy Fazbear's pizza restaurant (CS$$)"
-  description: >
+  description: |
     This Halloween-themed package contains a pizza restaurant as a Stage 2 growable CS$$ lot as well as a ploppable landmark on a 6×6 lot.
 
     The building is inspired by Five Nights at Freddy's and has been modded to include strange events and brutal murders by cute animatronics during the night.

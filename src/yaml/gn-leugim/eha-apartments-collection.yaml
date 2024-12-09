@@ -13,7 +13,7 @@ dependencies:
 
 info:
   summary: "Collection of midsize European R$ apartment buildings (EBLT)"
-  description: >
+  description: |
     These buildings are part of the European House Add-on (EHA) project
     which seamlessly integrate with Maxis buildings by extending the original building families.
 

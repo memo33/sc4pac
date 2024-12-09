@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Hotel Nikko San Francisco
-  description: >
+  description: |
     Hotel located in San Francisco, California.
 
   author: Diego Del Llano

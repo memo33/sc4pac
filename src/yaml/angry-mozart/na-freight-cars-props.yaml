@@ -22,7 +22,7 @@ dependencies:
 - "angry-mozart:na-locomotive-props"
 info:
   summary: "HD North American rolling stock train props"
-  description: >
+  description: |
      Give realism to your railroad tracks, yards, sidings, spurs and industrial zones with these freight cars and locomotives dating from the 1980's to our modern days. This prop pack includes newer rolling stock pieces, some of them never seen before in SimCity 4, including autoracks, coil cars, gondolas, boxcars, hoppers, and tank cars, containers, and trailers. Over 300 different variations are included, all of them rendered in HD and in 20 different versions (ortho, diagonal, curve fitting and FAR versions).
 
      If you are looking for specific types of train cars only, consider one of the smaller specialized packs listed as dependency instead of this full one.
@@ -94,6 +94,7 @@ info:
   summary: "HD North American autorack train props"
   description: |
      Even automobiles are delivered by rail,and this is done in autoracks. These long boxes come with one, two or three levels, depending of the size of the cars and trucks being transported.
+
      These cars have many features that ensure the safety of the automobiles, like enclosing (the grey panels on the sides of the car), a roof, cushion systems and end doors for an easy loading/unloading, that protect the automobiles form Mother Nature and from rebel teenagers that throw rocks or paint the sides with graffiti. In this pack you'll find the 89 ft Enclosed Autorack , in a great variety of railroad liveries.
   author: "Angry Mozart"
   website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
