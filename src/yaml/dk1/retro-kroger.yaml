@@ -1,0 +1,21 @@
+url: "https://community.simtropolis.com/files/file/20678-dk1-retro-kroger/?do=download"
+assetId: "dk1-retro-kroger"
+version: "1.0"
+lastModified: "2008-11-20T06:29:15Z"
+
+---
+group: "dk1"
+name: "retro-kroger"
+version: "1.0"
+subfolder: "300-commercial"
+info:
+  summary: "Retro Kroger grocery store"
+  description: |
+    Retro Burger King and Dairy Queen. CS$3x3. Ploppable and growable lots are included.
+  author: "dk1"
+  website: "https://community.simtropolis.com/files/file/20678-dk1-retro-kroger/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0020/b741bdd1384e93ddc23008784512711e-Kroger_day.JPG"
+  - "https://www.simtropolis.com/objects/screens/0020/b741bdd1384e93ddc23008784512711e-Kroger_night.JPG"
+assets:
+- assetId: "dk1-retro-kroger"
