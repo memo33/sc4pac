@@ -1,0 +1,27 @@
+group: mandelsoft
+name: french-signage-set
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: French Signage Set
+  description: |
+    This pack contains the French Signage Set. The set contains 73 French-styled signs for your Autoroutes for the most common RHW interchange setups.
+
+     Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28389-french-signage-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/6cf517f93dd4f39fdb9adae8efbb2344-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/0b6ed957bde0a62952b55f50a9f733b7-screen01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/a48b2b430a37f3a0a9cd1ecea101ad65-screen02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/b17c3cec7fb870ccd4c746dfb7ad44ce-screen03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/7450e7f8180d0daebc64f7f86adefc87-screen04.jpg
+
+assets:
+  - assetId: mandelsoft-french-signage-set
+
+---
+assetId: mandelsoft-french-signage-set
+version: "2.0"
+lastModified: "2024-09-03T01:50:47Z"
+url: https://community.simtropolis.com/files/file/28389-french-signage-set/?do=download
