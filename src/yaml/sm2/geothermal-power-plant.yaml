@@ -1,0 +1,43 @@
+group: sm2
+name: geothermal-power-plant
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: Geothermal Power Plant
+  description: |-
+    Geothermal is another mostly untapped source of renewable energy.
+
+    There are places on Earth where the crust is thin enough to be able to drill into in order to tap its heat which is used to vaporizes water in to steam and is then made to turn turbines with attached dynamos that create clean electric power.
+
+    You will find it under the power menu.
+
+     - Lot size: 4x4
+     - Plop cost: 37500
+     - Bulldoze cost: 2500
+     - Power consumed: 10
+     - Water consumed: 90
+     - Power generated: 25000
+     - Life expectancy: 100 years.
+     - Monthly maintenance: 250
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32918-sm2-geothermal-power-plant/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/geo5.jpg.2f4ab9151176c1b97bd829e4d673b0d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/geo6.jpg.3bb625a2037c227ef8d9480c62d68dc5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/geo7.jpg.751d3c80ddd796daba898e39516af31d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/geo8.jpg.1194b3ca996d4d4f954eb5821f8b16be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/geo9.jpg.150b80c07f78093a095dca22c92d3149.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-geothermal-power-plant
+
+---
+assetId: sm2-geothermal-power-plant
+version: "1.0"
+lastModified: "2019-12-02T06:17:17Z"
+url: https://community.simtropolis.com/files/file/32918-sm2-geothermal-power-plant/?do=download

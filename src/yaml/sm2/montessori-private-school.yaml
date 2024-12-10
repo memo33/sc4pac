@@ -1,0 +1,42 @@
+group: sm2
+name: montessori-private-school
+version: "1.0"
+subfolder: 620-education
+info:
+  summary: Montessori Private School
+  description: |-
+    A private school on a budget
+
+     - Lot size: 3x3
+     - Plop cost: 1400
+     - Bulldoze cost: 100
+     - Power req: 8
+     - Water req: 6
+     - Students capacity: 2200
+     - Monthly budget: just 120 at max
+     - Bus budget: 100
+     - Provides 30 jobs
+     - School effective radius: 1000 meters.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32839-sm2-montessori-private-school/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/Mo1.jpg.303d084fc1b4aa97a57312cf062ab69d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/mo2.jpg.85528923c44793520013f7d30218fa76.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/mo3.jpg.a06a56c2e2e20cbcf498a25ec9496e3d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/mo4.jpg.b6b0a03840317e1bd6e5981b6e1dd546.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/mo5.jpg.19722bdeb3577a72f911977511cf4317.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:poplars
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-montessori-private-school
+
+---
+assetId: sm2-montessori-private-school
+version: "1.0"
+lastModified: "2019-12-02T06:23:03Z"
+url: https://community.simtropolis.com/files/file/32839-sm2-montessori-private-school/?do=download

@@ -1,0 +1,46 @@
+group: sm2
+name: main-water-depot
+version: "1.0.0"
+subfolder: 500-utilities
+info:
+  summary: Main Water Depot
+  description: |-
+    At 1 million m3 of water, this lot can easily provide water to an entire large city tile.
+
+    500 years life span coupled with a low monthly maintenance fee makes it an ideal choice.
+
+    You can even use it as a source of income for the city coffers by selling the water to a neighboring city. Just run a pipe across the border and setup a business deal.
+
+    Don't forget to connect it to the water network.
+
+     - Lot size: 9x8
+     - Cost to plop: 28000
+     - Cost to bulldoze: 2500
+     - Power req: 35
+     - Water consumed: 0
+     - Monthly maintenance: 100
+     - Water produced: 1 million m3
+     - Life expectancy: 500 years
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33264-sm2-main-water-depot/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/wd1.jpg.b5470cc39cfbb37b2a274f6539623935.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/wd2.jpg.ccec7e5ac7b85df61e07ff737830a3c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/wd3.jpg.810fa4bb640d1b246569de00b64663c7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/wd4.jpg.e9cdf0bd1a0a18c118ce1951e26bfbc9.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - sm2:water-reservoir
+assets:
+  - assetId: sm2-main-water-depot
+
+---
+assetId: sm2-main-water-depot
+version: "1.0.0"
+lastModified: "2019-12-02T05:06:13Z"
+url: https://community.simtropolis.com/files/file/33264-sm2-main-water-depot/?do=download

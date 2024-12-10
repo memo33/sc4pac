@@ -1,0 +1,58 @@
+group: sm2
+name: milk-and-things
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: Milk and Things
+  description: |-
+    An old variety store for your maps.
+
+    You get 2 lots in one package.
+
+    Both lots will grow on low, medium and high density commercial zoning on any tileset.
+
+    Lot 1
+
+     - Lot size: 2x2
+     - Growth stage: 2
+     - Power req: 2
+     - Water req: 14
+     - Bulldoze cost: 177
+
+    Low wealth CS$-24
+
+    Lot 2
+
+     - Lot size: 1x2
+
+    Stage 2
+
+     - Power req: 2
+     - Water req: 7
+     - Bulldoze cost: 177
+
+    Low wealth CS$-15
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34641-sm2-milk-and-things/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/mt1.jpg.f8b3cadac43c3c33322cd373e4bd1c75.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/mt2.jpg.1ddeeb1956b224125fe1f451483d880c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/mt5.jpg.70bc5758f076a14f87ae38f2e6cd33e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/mt6.jpg.812a96bdf66c0b74b7c658e06d535f1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/mt9.jpg.de142a7b741d3260261049706c954611.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/mt10.jpg.a1c122402b32fd3d5eb3bc4f4026eb5d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_08/mt8.jpg.d178e2e3c276860f57462a8309cb8e0f.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol6
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-milk-and-things
+
+---
+assetId: sm2-milk-and-things
+version: "2.0.0"
+lastModified: "2022-02-25T17:46:00Z"
+url: https://community.simtropolis.com/files/file/34641-sm2-milk-and-things/?do=download

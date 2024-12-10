@@ -1,0 +1,34 @@
+group: sm2
+name: glendale-glr-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Glendale GLR Station
+  description: |-
+    3X3 Round GLR station.
+
+    It has car park facilities and also acts as a bus hub.
+
+     - Cost to plop: 2500
+     - Capacity: 37500
+
+    Needs power to run
+
+    Plop it and run the EL tracks through it. Don't forget to use the GLR tool to flatten the network
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32490-sm2-glendale-glr-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Glen3.jpg.06f6d79d4f37e64573763d18a5ee4d8f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Glen2.jpg.ad05ae57cf601b18334bf0ec6557c1a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Glen1.jpg.d5453131e55bfb394f6dea8586b198dd.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+assets:
+  - assetId: sm2-glendale-glr-station
+
+---
+assetId: sm2-glendale-glr-station
+version: "1.0"
+lastModified: "2018-09-12T01:13:52Z"
+url: https://community.simtropolis.com/files/file/32490-sm2-glendale-glr-station/?do=download

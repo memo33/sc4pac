@@ -1,0 +1,52 @@
+group: sm2
+name: amps-energy-research-facility
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: AMPS Energy Research Facility
+  description: |-
+    This is the facility where all energy research is conducted and the results are then implemented for a better power grid.
+
+    This lot will function just fine with or without the AMPS mod installed therefore it will be an option and not a requirement.
+
+    Both entrances will connect to the road network for a better visual impact
+
+    Stats are as follows
+
+     - Functional landmark Hightech Industry
+     - Lot size: 7x7
+     - Plop cost: 55000
+     - Bulldoze cost: 4000
+     - Power req: 42
+     - Water req: 34
+     - Provides ID I-HT$$$650 jobs
+
+    You will find it under the Landmark menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34330-sm2-amps-energy-research-facility/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/erf1.jpg.3c3a32a7390a23ff0fe3aab6bb72d710.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/erf2.jpg.e0b92ba991581525ee9bfada5f99ab3d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/tet3.jpg.fd7fcd8602ad0e8a816724ddd5eea134.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/tet4.jpg.b9e26e0761be235fdb3f40f5fb0e0bd9.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:grand-firs
+  - girafe:poplars
+  - girafe:cypresses
+  - girafe:narcissus
+  - girafe:sparaxis
+  - girafe:subalpine-firs
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-amps-energy-research-facility
+
+---
+assetId: sm2-amps-energy-research-facility
+version: "1.0.0"
+lastModified: "2021-03-29T05:32:37Z"
+url: https://community.simtropolis.com/files/file/34330-sm2-amps-energy-research-facility/?do=download

@@ -1,0 +1,45 @@
+group: sm2
+name: hayashi-semiconductors-int
+version: "1.0.0"
+subfolder: 400-industrial
+info:
+  summary: Hayashi Semiconductors Int
+  description: |-
+    A fictional modern microchip factory made to beef up your high tech industries.
+
+    Stats
+
+     - Lot size: 7X4
+     - Growth stage: 3 IHT$$$3\_7x4\_SM2 Hayashi Semiconductors Int
+     - Power req: 55
+     - Water req: 28
+     - Bulldoze cost: 649
+
+    Provides I-HT 710 jobs
+
+    Grows on high density industrial zoning.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34873-sm2-hayashi-semiconductors-int/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/hs7.jpg.2ab3a92498dcb92a4317409ca597f850.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/hs8.jpg.84e6d8e3d2caf879d84988828956c43d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/hs9.jpg.9f9d54b8734855a0f822804309eb00ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/hs10.jpg.905ed1905a362ce72f51f283418a7a7a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/hs11.jpg.0410d8a353df98ca45a61f2538799546.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/hs12.jpg.d64ead62a8d5414013fcf9089556c36a.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol3
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol6
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-hayashi-semiconductors-int
+
+---
+assetId: sm2-hayashi-semiconductors-int
+version: "1.0.0"
+lastModified: "2022-02-26T04:48:10Z"
+url: https://community.simtropolis.com/files/file/34873-sm2-hayashi-semiconductors-int/?do=download

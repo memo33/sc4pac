@@ -1,0 +1,42 @@
+group: sm2
+name: oregon-lighthouse
+version: "1.0.0"
+subfolder: 360-landmark
+info:
+  summary: Oregon Lighthouse
+  description: |-
+    This lot represents one of many lighthouses that dot the Oregon coast line.
+
+     - Lot size: 1x1 (overhanging)
+     - Plop cost: 1000
+     - Bulldoze cost: 20
+     - Landmark Effect: 40 over 20 tile radius
+     - Park Effect: -40 over 20 tiles radius
+     - Power req: 4
+     - Water req: 4
+     - Monthly budget: cost 85
+
+    No base texture.
+
+    **This lot gives 1000 ID and IM cap relief**
+
+    You will find it in the Reward menu. This lot does not require any goals to be achieved in order for it to appear in the reward menu.
+
+    This lot does not require road access however for the sake of realism you should build an MMP path by using a sand MMP such as this one: `pkg=sm2:sands`
+    Or a stone path MMP `pkg=sm2:stones-vol1`
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33200-sm2-oregon-lighthouse/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d9169c6dcc3e_L1copy.jpg.32ab1145c5a480c930cfa0f104eaf1ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/l2.jpg.83fa4269b312a264058a70f7cb3ff0d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/l3.jpg.26ff67fc68ea02962dc2cd0bfe8963c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OL1.jpg.9d2555003bfc65850f47e886ec9a4904.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OL2.jpg.5a43eef91594e4c9f1cbdd907c560a28.jpg
+assets:
+  - assetId: sm2-oregon-lighthouse
+
+---
+assetId: sm2-oregon-lighthouse
+version: "1.0.0"
+lastModified: "2019-09-30T02:36:53Z"
+url: https://community.simtropolis.com/files/file/33200-sm2-oregon-lighthouse/?do=download

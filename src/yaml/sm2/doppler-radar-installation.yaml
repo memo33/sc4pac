@@ -1,0 +1,36 @@
+group: sm2
+name: doppler-radar-installation
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Doppler Radar Installation
+  description: |-
+    Doppler radar has been used to track weather systems for decades. These types of installations are critical for air traffic.
+
+    Every airport should have one.
+
+    Plop near an airport.
+
+     - Plop cost 2000
+     - Requires power and water.
+
+    Provides 17 hightech jobs and you will find it in the landmark menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32485-sm2-doppler-radar-installation/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/dop3.jpg.8fddcd94f0a81134b065a3fa411fc3f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/dop2.jpg.707fdb51c663235ad5175fb4db10c445.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/DOp1.jpg.bf9835801f4a3e1802b7ee9151d40f83.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/dop4.jpg.48c7bef3869f43529b3bcb210f820392.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - bsc:vip-girafe-carpack-vol01-vol02
+assets:
+  - assetId: sm2-doppler-radar-installation
+
+---
+assetId: sm2-doppler-radar-installation
+version: "1.0"
+lastModified: "2018-09-11T02:33:23Z"
+url: https://community.simtropolis.com/files/file/32485-sm2-doppler-radar-installation/?do=download

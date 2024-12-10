@@ -1,0 +1,36 @@
+group: sm2
+name: middleport-pottery-diagonal
+version: "2.0.0"
+subfolder: 300-commercial
+info:
+  summary: Middleport Pottery Diagonal
+  description: |-
+    A 19th century pottery business turned into a souvenir shop.
+
+    This is the diagonal version and it is to be plopped in a diagonal setting.
+
+     - Lot size: 1x1 overhanging (takes up 3 diagonal tiles)
+     - Power req: 5
+     - Water req: 12
+     - Plop cost: 4200
+     - Bulldoze cost: 500
+     - Provides medium wealth CS$48 or CS$$24 jobs
+
+    You will find it under the Landmark Menu
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34467-sm2-middleport-pottery-diagonal/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/mp20.jpg.8aeb4bb7fd165e08d1058efa2bd57b15.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/mp21.jpg.8e1b08cdb6201922aabea0d13767ed61.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/mp22.jpg.25bd9a04e78fc1081df0cdc2814e64e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/mp23.jpg.dcdf77096abe926bca4870c3f7625c95.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol6
+assets:
+  - assetId: sm2-middleport-pottery-diagonal
+
+---
+assetId: sm2-middleport-pottery-diagonal
+version: "2.0.0"
+lastModified: "2022-02-25T18:38:06Z"
+url: https://community.simtropolis.com/files/file/34467-sm2-middleport-pottery-diagonal/?do=download

@@ -1,0 +1,41 @@
+group: sm2
+name: trash-dumper
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Trash Dumper
+  description: |-
+    When garbage is sent to an incinerator, it usually gets there by rail if its too far.
+    This is such a facility.
+
+    Garbage filled railcars are pushed on a ramp to a device that tips them in order to unload the trash.
+
+    The Dumper is made with several instances of the model and then by timing them you get a sort of animation.
+
+    The lot on itself is non functional and the RRW DTR rail will only connect visually therefore you should connect it to your main rail line by creating a spur.
+
+    It looks great on its own or if you want to, you can plop it in conjunction with `pkg=sm2:trash-and-burn` for an even greater look.
+
+    You will find it under the rail menu.
+
+     - Lot size: 16X4Power used 50  
+     - Water used 20
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32184-sm2-trash-dumper/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/GD1.jpg.4923d250686880169cf2cc795b0a3fe5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/DS3.jpg.f96381885f38524872a1c297e9651994.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/L1.jpg.cfadd4de7537d96346fe3c2b1068f532.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/L2.jpg.018e3beb55dff8123941d6f05c20ed9b.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:essentials
+  - angry-mozart:na-locomotive-props
+assets:
+  - assetId: sm2-trash-dumper
+
+---
+assetId: sm2-trash-dumper
+version: "2.0.0"
+lastModified: "2018-08-23T04:08:04Z"
+url: https://community.simtropolis.com/files/file/32184-sm2-trash-dumper/?do=download

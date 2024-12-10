@@ -1,0 +1,36 @@
+group: sm2
+name: air-purifier-facility
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Air Purifier Facility
+  description: |-
+    Plop this baby and watch the air pollution disappear before your eyes!!
+
+    Scrubs the air clean up to 50 tiles in any direction.
+
+    But it consumes insane amounts of power and water ! Nothing is for free.
+
+     - Lot size: 2X3
+     - Plop cost: 9000
+     - Power: 300
+     - Water: 100
+
+    You will find it under the utilities menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32181-sm2-air-purifier-facility/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/AP12544.jpg.cc5115538c13828fbff3368a6af3f195.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/5ab1fe4e9d873_Airpur.gif.996f9cc492eec4edfbf99508c877cff3.gif
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/8qlsIGw.jpg.3c48e626e92dc2c65113bc2cd25935dd.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:essentials
+assets:
+  - assetId: sm2-air-purifier-facility
+
+---
+assetId: sm2-air-purifier-facility
+version: "2.0.0"
+lastModified: "2018-08-23T04:09:14Z"
+url: https://community.simtropolis.com/files/file/32181-sm2-air-purifier-facility/?do=download

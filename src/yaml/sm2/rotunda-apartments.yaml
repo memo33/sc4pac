@@ -1,0 +1,39 @@
+group: sm2
+name: rotunda-apartments
+version: "1.0.0"
+subfolder: 200-residential
+info:
+  summary: Rotunda Apartments
+  description: |-
+    A set of 3 differently textured 1x1 8 stories round apartments to fill those small spaces on your maps.
+
+    Rendered in HD and night lighted
+
+    All 3 building stats are as follows.
+
+     - Lot size: 1x1
+     - Bulldoze cost: 500
+     - Medium wealth Stage 5
+     - Capacity: satisfied R-$83 R-$47
+     - Power req: 1
+     - Water req: 3
+
+    All style tilesets supported.
+
+    They grow in medium and high density zones.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34209-sm2-rotunda-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/apt1.jpg.def481fe76a3c659429303b2d1b1d4dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/apt2.jpg.588b3160501d90bc6518a28f09d71da2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/apt3.jpg.aae2b17c9e2077f0954959bd85d2700f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ro1.jpg.fde51d019237a79f42d7b52aed6b5f9c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ro2.jpg.2113da812689d0d4bc6947f7b49255e2.jpg
+assets:
+  - assetId: sm2-rotunda-apartments
+
+---
+assetId: sm2-rotunda-apartments
+version: "1.0.0"
+lastModified: "2021-03-03T15:12:29Z"
+url: https://community.simtropolis.com/files/file/34209-sm2-rotunda-apartments/?do=download

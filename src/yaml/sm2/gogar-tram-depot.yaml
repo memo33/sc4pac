@@ -1,0 +1,53 @@
+group: sm2
+name: gogar-tram-depot
+version: "2.0.0"
+subfolder: 700-transit
+info:
+  summary: Gogar Tram Depot
+  description: |-
+    This tramp depot is a close replica of the Edinburgh Gogar Tram Depot thus the LHD design. What looks like "pink" gravel, used as the base, is actually crushed salmon colored bricks made from recycled construction material.
+
+    The lot is made with TE in mind therefore you will see your tram automata run across the lot. Connect it to your GLR network and watch the trams run East/west and vice versa. There is also 2 entry/exits for visual road connections and one more GLR entry/exit that will also connect visually.
+
+    You will find it in the Miscellaneous network tab.
+
+    $196 $$104 and $$$13 jobs are provided for any sims that wants to get off their lazy pixel bums and finally get to work.
+    Its an electricity hog therefore you will need at least 650Mwh to keep the lights on and 500 units of water per month to wash all those tram windows.....
+
+    It will cost ya...
+    35,000 clams to plop it.
+    850 bananas per month for the lease.
+    And 1,500 silver pieces to bulldoze it.
+    Also, at 30x14 tiles it will need a sizeable chunk of real estate therefore plan ahead
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/31050-sm2-gogar-tram-depot/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/1.png.73c5694265ad4336f3a6ad7e3df0eaf9.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/2.png.12fe112e65eab0652e6a8fff8f1a6c57.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/3.png.af08ce1e5db203ebbfd07073d2e846cc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/4.png.af643419f3e60f364ad23723bd42934d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/5.png.a078b94cccc6e0ebe9a33fe164c5d5c4.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/6.png.4e5b3b8926d8bd8185996b96ebbc04df.png
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - mgb204:rail-depot-pack
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol09
+  - girafe:bushes
+  - girafe:ashes
+  - girafe:berries
+  - girafe:chestnuts
+  - girafe:common-spruces
+  - girafe:daisy
+  - vip:vnaoned-props-pack-vol01
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - simcityfreak666:european-truck-prop-pack-vol1
+assets:
+  - assetId: sm2-gogar-tram-depot
+
+---
+assetId: sm2-gogar-tram-depot
+version: "2.0.0"
+lastModified: "2018-08-23T03:47:54Z"
+url: https://community.simtropolis.com/files/file/31050-sm2-gogar-tram-depot/?do=download

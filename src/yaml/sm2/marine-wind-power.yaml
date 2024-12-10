@@ -1,0 +1,34 @@
+group: sm2
+name: marine-wind-power
+version: "2.0.0"
+subfolder: 500-utilities
+info:
+  summary: Marine Wind Power
+  description: |-
+    You will find 2 lots in this pack
+      
+     1. The Wind Turbine is to be plopped on water.
+     2. The buoy is to be plopped on water, from the Wind Turbine field to the shore.
+      
+    The buoy acts as a power transmission lot. It will light up at night if powered. Turn on your power grid and plop the buoys in a row. Watch the green power grid make the connection. Once satisfied, turn the power grid off.
+      
+    Each Wind Turbine will output 1800 units of power. By plopping a few of them you can enjoy unlimited green power!!
+    
+    A specific Power Substation can be found in `pkg=sm2:power-pack`. Plop it on shore for a seamless power grid.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32001-sm2-marine-wind-power/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/WTA1.jpg.99f9c4d1cb393a4b4010ce6dbe0c6aac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/WTA22.jpg.376837d4d228704b44a2ef60a2a26be7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/WTA23.jpg.f730567ed935efb34147ca4fd578f6b4.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:wind-power
+assets:
+  - assetId: sm2-marine-wind-power
+
+---
+assetId: sm2-marine-wind-power
+version: "2.0.0"
+lastModified: "2018-08-23T03:58:25Z"
+url: https://community.simtropolis.com/files/file/32001-sm2-marine-wind-power/?do=download
