@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Torre Colpatria
-  description: >
+  description: |
     High Rise, locted in the Capital city of Bogota, Colombia.
     Height is 192 m.
 

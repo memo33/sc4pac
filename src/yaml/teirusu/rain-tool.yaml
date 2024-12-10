@@ -6,7 +6,7 @@ assets:
 - assetId: "teirusu-rain-tool"
 info:
   summary: "Helps construct land bridges or plop water lots above sea level"
-  description: >
+  description: |
     The water created by the rain tool will only last for a single game session.
     When the city tile is reopened the rain water will no longer be there.
     The blank terrain can then be filled in with any ploppable water as desired.

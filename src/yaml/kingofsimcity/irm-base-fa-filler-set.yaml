@@ -4,7 +4,7 @@ version: "1.00"
 subfolder: 400-industrial
 info:
   summary: Industrial Revolution Mod - Base Fractional-Angle Filler Set
-  description: >
+  description: |
     This is a set of ploppable filler lots for dirty, manufacturing, and hi-tech industry geared towards adding FA (Fractional Angle) support to the originals.
     The set was designed with IRM in mind and as such, utilizes matching bases and walls from that of T Wrecks' original release (`pkg=memo:industrial-revolution-mod`).
 

@@ -1,0 +1,20 @@
+group: wmp
+name: mega-textures
+version: "1.0.2"
+subfolder: 100-props-textures
+info:
+  summary: Mega Textures
+  description: |-
+    This new Mega Texture set contains the textures from all the previosly released WMP Texture packs (**WMP Textures 1-10** and the **WMP Mega Textures**) and it also has the textures from the previous **wmp\_spam\_freight\_props2**, **rfy\_warehouse** and **rfy\_cardealer** props, which contained some textures.
+  author: DocRorlach, WMP Team, pLynn, RFY Team
+  website: https://community.simtropolis.com/files/file/33626-wmp-mega-textures-v102/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe56fdd4c5_WMPMegaTextures.jpg.d397bb120692a2a37f1b950184196fc0.jpg
+assets:
+  - assetId: wmp-mega-textures
+
+---
+assetId: wmp-mega-textures
+version: "1.0.2"
+lastModified: "2020-05-25T15:35:14Z"
+url: https://community.simtropolis.com/files/file/33626-wmp-mega-textures-v102/?do=download

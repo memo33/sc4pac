@@ -1,0 +1,30 @@
+group: peg
+name: cdk3-vehicle-pack-1
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: CDK3 Vehicle Pack 1
+  description: |-
+    This one of several resource or "dependency" files required for the new Coastal Development Kit (CDK3) industrial style. This new style is designed to add new industry specific lots to the CDK. It is not intended as a replacement for any other CDK style.
+
+    The resource pack includes 20 new truck props that will be used in the various CDK3 lots. The included props are:
+
+    - 6 Semi Trailers (5 van & 1 flatbed)
+    - 6 Semi Tractors (3 conventional style & 3 cab-over style)
+    - 3 Semi Tractor & Trailer combination props
+    - 2 Bobtail style trucks
+    - 3 smaller Flatbed Trucks
+
+    Additionally, this prop pack includes several defined Prop Families for added random variation on the various lots that use them. There are also several timed versions of each truck prop to create a shuffling effect as the props appear, disappear and change throughout the day.
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/19267-peg-cdk3-vehicle-pack-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bdf4ae671631364a1f9565c394f30e1f-product_image.jpg
+assets:
+  - assetId: peg-cdk3-vehicle-pack-1
+
+---
+assetId: peg-cdk3-vehicle-pack-1
+version: "1.0"
+lastModified: "2008-01-22T09:22:38Z"
+url: https://community.simtropolis.com/files/file/19267-peg-cdk3-vehicle-pack-1/?do=download

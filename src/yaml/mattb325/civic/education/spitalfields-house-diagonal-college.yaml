@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Spitalfields House Diagonal College"
-  description: >
+  description: |
     This BAT is based on an old brutalist building from the 1960s in London's
     spitalfields and has been designed to be placed along diagonal roads.
     The lot size is 1x2 but the building overhangs across 6 tiles.

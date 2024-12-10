@@ -14,8 +14,8 @@ and consists of *assets* and *packages*, as defined below.
 
 ## Assets
 
-An asset is usually a ZIP file that can be downloaded from the file exchanges.
-An asset cannot be installed directly by users of *sc4pac*, but it can provide files for one or multiple installable packages.
+An asset is usually a ZIP file that can be downloaded from a file exchange.
+An asset cannot be installed directly by users of *sc4pac*; rather, they specify where to find the files called for in a package.
 
 The metadata of an asset is defined by the following properties.
 
@@ -46,14 +46,14 @@ Conventions:
 
 ### `assetId`
 
-This is a unique identifier used internally by *sc4pac*.
+This is a unique identifier used internally by *sc4pac*. The identifier must be globally unique across all assets.
 ```yaml
 assetId: "dumbledore-hogwarts-castle"
 ```
 You can assign a name of your choice with the following convention:
 - lowercase, alphanumeric, hyphenated, no special characters
 
-The above example includes the group `dumbledore` as part of the asset ID to ensure uniqueness of the identifier.
+It is recommended to prefix a group name (`dumbledore` in this example) to the asset ID to better ensure uniqueness of the identifier.
 
 ### `version` :id=asset-version
 
@@ -85,7 +85,7 @@ use the `Last-Modified` HTTP header of the download URL. Shorthand for cURL user
 
 ### `archiveType`
 
-This is only needed for assets containing Clickteam exe-installers (in particular, not needed for NSIS exe-installers).
+This is only needed for assets containing Clickteam exe-installers. It is not needed for NSIS exe-installers.
 
 ```yaml
 archiveType:
@@ -100,6 +100,7 @@ You can use the tool `cicdec.exe` to find the correct version number: `cicdec.ex
 ## Packages
 
 A package is a collection of files that *sc4pac* can install automatically if requested by a user.
+Packages are exposed to the user when browsing for content.
 - The metadata of a package tells *sc4pac* where to obtain the files and how to install them.
 - The files are extracted from assets.
 - Packages can depend on any number of other packages ("dependencies").
@@ -113,10 +114,10 @@ Package owner, modding group or similar.
 group: "dumbledore"
 ```
 Convention:
-- lowercase, alphanumeric, hyphenated, no special characters
+- Lowercase, alphanumeric, hyphenated, no special characters
 - Replace all other characters by hyphens.
 
-Examples: `harry-potter`, `bsc`, `peg`, `t-wrecks`, `mattb325`.
+Examples: `harry-potter`, `bsc`, `peg`, `nybt`, `t-wrecks`, `mattb325`.
 
 ### `name`
 
@@ -126,7 +127,7 @@ The name of the package, unique within the group.
 name: "hogwarts-castle"
 ```
 Conventions:
-- lowercase, alphanumeric, hyphenated, no special characters
+- Lowercase, alphanumeric, hyphenated, no special characters
 - Do not include the `group` within the name itself
 - Keep it short and memorable, while unambiguously making clear which upload it refers to.
 
@@ -146,7 +147,7 @@ The folder inside the Plugins folder into which the package is installed.
 ```yaml
 subfolder: "620-education"
 ```
-3-digit numbers are used to control load order.
+These names are prefixed with 3-digit numbers to control load order.
 
 List of subfolders currently in use:
 
@@ -169,7 +170,7 @@ dependencies:
 ### `assets` :id=asset-references
 
 Optional list of assets from which to extract files (zero or more).
-The `assetId`-references listed here must have been defined and associated with a `url` elsewhere (see [Assets](#assets)).
+The `assetId` references listed here must have been defined and associated with a `url` elsewhere (see [Assets](#assets)).
 ```yaml
 assets:
 - assetId: "dumbledore-hogwarts-castle"
@@ -244,7 +245,8 @@ Details:
 ### `info`
 
 Additional descriptive information.
-It is mostly optional, but each package should include a one-line `summary` and a link to a `website`, usually the original download page.
+These items are mostly optional, but each package should include a one-line `summary` and a link to a `website`, usually the original download page. Other optional items may be included as appropriate.
+
 
 A `description` may consist of several paragraphs of contextual information (it should not repeat the `summary`).
 
@@ -253,17 +255,17 @@ A `description` may consist of several paragraphs of contextual information (it 
 > * Keep the `description` short. Reduce it to information relevant for using the plugin in the game, for example:
 >   * Are the buildings growable or ploppable?
 >   * RCI types
->   * sizes of growables lots
+>   * sizes of growable lots
 >   * tilesets if not all are enabled
 >
->   Avoid detailed stats like flammability, water consumption, pollution, etc.
-> * An introductary sentence or two about real-life architectural context is fine, but it should not take up several paragraphs.
+> * Avoid detailed stats like flammability, water consumption, pollution, etc.
+> * An introductory sentence or two about real-life architectural context is fine, but it should not take up several paragraphs.
 > * Phrase the `description` in a neutral way and avoid first-person.
 
-You should also inform about possible `conflicts`. (If there are none, leave out this field.)
+You should also inform about possible `conflicts`. If there are none, omit this field.
 
 Moreover, you can add a `warning` message that is displayed during the installation process.
-This should be used sparingly, for example in case a user has to take action before installing the package.
+This should be used sparingly and only included in case a user has to take action before installing the package.
 
 The `author` field should list the original authors of the content by the names they are known to the community.
 
@@ -274,7 +276,7 @@ info:
   summary: School of Witchcraft and Wizardry
   warning: The castle is invisible to Muggles.
   conflicts: Incompatible with Saruman's Isengard Tower
-  description: >
+  description: |
     The school is located in the Scottish Highlands.
 
     It was founded more than 1000 years ago.
@@ -286,14 +288,10 @@ info:
   website: "https://en.wikipedia.org/wiki/Hogwarts"
 ```
 
-?> The multi-line character `>` in YAML files controls text wrapping.
-   See the [YAML format](https://en.wikipedia.org/wiki/YAML#Basic_components).
-   Useful alternatives can be `|` or `>-`.
-   It is important to pick a suitable text wrapping mode for the style of your `description` in oder to preserve paragraphs.
-   Otherwise, all text could end up being displayed on a single line.
+?> The `description` and other text fields use **Markdown** syntax for styling.
+   You can use the [Markdown Live Preview](https://markdownlivepreview.com/) to see how your text will be displayed.
 
-?> Use the syntax `` `pkg=hagrid:whomping-willow` `` to refer to another package from within the description or other text fields
-   in order to render a link to the package.
+?> Use the syntax `` `pkg=hagrid:whomping-willow` `` in order to render a link to another package in the summary or description.
 
 ## Complete example
 
@@ -349,9 +347,9 @@ Recommendations:
   (for example, `kodlovag:uniform-street-lighting-mod:light-color` belongs to `pkg=kodlovag:uniform-street-lighting-mod`).
 - If there is a recommended variant, put it first or clearly describe it in order to make it easy to choose.
 
-Let us continue with our Hogwarts example and add nightmode variants.
+Continuing with the Hogwarts example, let's add nightmode variants.
 There are two common scenarios:
-Either there are two different MaxisNite/DarkNite ZIP files,
+either there are two different MaxisNite/DarkNite ZIP files,
 or there is just one ZIP file containing MaxisNite/DarkNite subfolders.
 
 In the first case, we need to define *two* assets (see [Assets](#assets)), one for each ZIP file,
@@ -395,7 +393,7 @@ For complete examples, inspect the metadata of:
 - `pkg=mattb325:sunken-library` (two ZIP files for MaxisNite and DarkNite)
 - `pkg=mattb325:harbor-clinic` (one ZIP file containing MaxisNite/DarkNite subfolders)
 
-?> If a building has only been published as DarkNite, a MaxisNite variant should be added nevertheless, for compatibility.
+?> If a building has only been published as DarkNite, a MaxisNite variant should be added nevertheless for compatibility.
    This allows to install the building even without a DarkNite mod installed.
    It is just a minor visual conflict that does not affect daytime scenes.
    ```yaml
@@ -423,11 +421,12 @@ variantDescriptions:
 
 ## Collections
 
-Collections are packages that have an empty list of assets, but only have dependencies.
+Collections are packages that do not include any assets and only have dependencies.
 They do not install any files of their own, but can be used to create themed packs of packages that are easy to install in one go.
+Imagine a collection that contains a variety of similarly-themed buildings from multiple exchange uploads (and possibly from different creators). 
 
-One advantage this has is that these collections can receive updates. For example, additional dependencies could be added later on.
-Though, some care must be taken to preserve backward compatibility.
+One advantage this has is that these collections can receive updates - additional dependencies could be added later on.
+However, care should be taken to preserve backward compatibility.
 
 Examples: `pkg=madhatter106:midrise-office-pack-collection`, `pkg=memo:essential-fixes`.
 
@@ -446,7 +445,11 @@ To ensure that your package metadata works as intended, you should test your cha
   ```sh
   sc4pac channel add "https://raw.githubusercontent.com/memo33/sc4pac/main/docs/hogwarts-castle.yaml"
   ```
-- (If you created multiple YAML files, consider using the [`channel build`](cli#channel-build) command.)
+- If you created multiple YAML files, use the [`channel build`](cli#channel-build) command.
+  ```sh
+    sc4pac channel build --output "channel/json/" "channel/yaml/"
+    sc4pac channel add "file:///C:/absolute/path/to/local/channel/json/"
+  ```
 
 Next, install your new package as usual and, if necessary, edit the YAML file until everything works as intended.
 

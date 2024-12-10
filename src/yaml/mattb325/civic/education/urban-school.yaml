@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Urban School"
-  description: >
+  description: |
     This is a large school which combines junior, senior, and adult education
     under one roof.
 

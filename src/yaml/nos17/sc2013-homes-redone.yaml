@@ -21,7 +21,7 @@ assets:
 - assetId: "nos17-andisart-sc2013-homes-redone"
 info:
   summary: "A remake of AndisArt's SC2013 Inspired Homes"
-  description: >
+  description: |
     This relotting pack contains 12 lots, including 1x2, 1x3, 1x4, 2x4, 2x3, 2x2, 3x2, and 3x3 lots.
     Stats were generated with PIMX and all lots range from Stage 1-4 R$$.
   author: "nos.17"

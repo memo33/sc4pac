@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Diagonal Georgian Style Library"
-  description: >
+  description: |
     A simple Georgian style library that is designed to place along diagonal roads.
     This 1x1 lot is found in the education menu. It provides 42 civic jobs,
     holds 50,000 books and provides an EQ boost to all age groups.

@@ -40,7 +40,7 @@ assets:
 
 info:
   summary: "Park pathway overlay textures"
-  description: >
+  description: |
      This set contains a total of 373 overlay textures geared towards dynamic and flowing park paths.
 
      In addition to covering standard fare orthogonal pathways, this set deeply explores inter-connectivity with other less utilized pathing options. Diagonals and FA2 pathways are given a chance to shine with an insane amount of options. Couple that with wide radius curves and s-curves and the layout options provided are practically limitless!

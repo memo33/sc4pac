@@ -4,7 +4,7 @@ version: "2.0.0"
 subfolder: 360-landmark
 info:
   summary: Water Tower Place
-  description: >
+  description: |
     Water Tower Place is a large urban, mixed-use development comprising a 758,000 sq ft (70,400 m2) shopping mall and 74 story skyscraper in Chicago, Illinois, United States.
     The mall is located at 835 North Michigan Avenue, along the Magnificent Mile.
     It is named after the nearby Chicago Water Tower, and is owned by General Growth Properties.

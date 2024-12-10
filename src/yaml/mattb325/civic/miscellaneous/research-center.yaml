@@ -11,7 +11,7 @@ dependencies:
 
 info:
   summary: "Research Center"
-  description: >
+  description: |
     Alternative research center without the NIMBY effects of the in-game version.
     This research center does not generate radiation, reduce residential
     desirability, or lower your mayor rating.

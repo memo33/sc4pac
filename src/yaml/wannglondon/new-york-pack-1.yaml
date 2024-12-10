@@ -11,7 +11,7 @@ variants:
 
 info:
   summary: "Pack of midsize New York styled buildings"
-  description: >
+  description: |
     Included is a set of 9 New York style mid-rises.
 
     They grow as R$$, R$$$, CS$$ and CS$$$ on the New York tile set.

@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Spring St Soup Kitchen, NYC"
-  description: >
+  description: |
     A rather unique reward, this shiny NYC soup kitchen BAT provides cap relief
     for residential, commercial, and industrial categories. It sits on a 2x2 lot
     and provides 95 civic jobs.

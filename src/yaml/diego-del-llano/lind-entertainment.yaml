@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Lind Entertainment
-  description: >
+  description: |
     Lind Entertainment is a Commercial Offices Building created by the Maxis Team.
 
   author: Diego Del Llano

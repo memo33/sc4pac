@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable motel"
-  description: >
+  description: |
     Red Roof Inn was incorporated by founder James R. Trueman in 1972.
     The Inn first opened in Columbus, Ohio with a single room rate of $8.50 USD in 1973.
     Today, Red Roof Inn has more than 325 locations, serves millions of guests each year and employs over 6,000 people.

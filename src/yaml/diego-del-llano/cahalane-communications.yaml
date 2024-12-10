@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Cahalane Communications
-  description: >
+  description: |
     Cahalane Communications is a Commercial Offices Building. The height is 200 m approximately.
 
   author: Diego Del Llano

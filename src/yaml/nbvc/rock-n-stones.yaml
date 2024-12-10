@@ -1,0 +1,57 @@
+group: nbvc
+name: rock-n-stones
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: Rock 'n' Stones
+  description: |-
+    Rocks and stones for mayor menu.
+
+    This package contains four different types of rocks and stones:
+
+    - Dark Rocks
+    - Dark Stones
+    - Granite Rocks (grey)
+    - Grey Stones
+
+    You can change the rocks with additional clicks on the same rock.
+
+    The rocks and stones can also be used as props in the Lot-Editor for your custom lots.
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/27092-rock-n-stones/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/a4763ddbee83a2a8c7b957682f4f8fa7-rocknstones1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/5b664f047aa047637f0b1dea1e16c615-rocknstones2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/cc3485961ce2db6d7836bae0e5fb42a1-rocknstones3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/ca3917a81e2a524319ca31aa1d95b770-rocknstones4.jpg
+dependencies:
+  - nbvc:rock-n-stones-props
+assets:
+  - assetId: nbvc-rock-n-stones
+    include:
+      - \.dat$
+
+---
+group: nbvc
+name: rock-n-stones-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Rock 'n' Stones Props
+  description: |-
+    This is a dependency for `pkg=nbvc:rock-n-stones`
+  author: nbvc
+  website: https://community.simtropolis.com/files/file/27092-rock-n-stones/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/ca3917a81e2a524319ca31aa1d95b770-rocknstones4.jpg
+assets:
+  - assetId: nbvc-rock-n-stones
+    include:
+      - \.SC4Model
+      - \.SC4Desc
+
+---
+assetId: nbvc-rock-n-stones
+version: "1.0"
+lastModified: "2011-12-23T06:31:56Z"
+url: https://community.simtropolis.com/files/file/27092-rock-n-stones/?do=download

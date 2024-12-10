@@ -7,7 +7,7 @@ dependencies:
   - "girafe:maples-v2"
 info:
   summary: 201 E. 19 Street
-  description: >
+  description: |
     201 E. 19 Street is a 1960 sixteen story brick apartment located in Manhattan, New York City.
     The building grows as R$$, R$$$, CS$$ and CS$$$ in four color variations on the New York tile set.
   author: Aaron Graham

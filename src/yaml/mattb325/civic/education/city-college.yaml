@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "City College"
-  description: >
+  description: |
     This BAT is based on an Adult Education College on Sydney's North Shore.
     It is a new build, but is designed to look 'Olde Worlde' and as such is
     quite a mish-mash of styles.
@@ -49,7 +49,7 @@ variants:
 
 # info:
 #   summary: "City College (growable)"
-#   description: >
+#   description: |
 #     This BAT is based on an Adult Education College on Sydney's North Shore.
 #     It is a new build, but is designed to look 'Olde Worlde' and as such is
 #     quite a mish-mash of styles.

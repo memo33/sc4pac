@@ -4,7 +4,7 @@ version: "3.0.0"
 subfolder: 360-landmark
 info:
   summary: Wells Fargo Center Denver
-  description: >
+  description: |
     Wells Fargo Center is a building located in Denver, Colorado, United States.
     It resembles a cash register or mailboxand is known locally as the "Cash Register Building" or the "Mailbox Building".
     It is 698 feet (213 m) high, the third tallest building in Denver.

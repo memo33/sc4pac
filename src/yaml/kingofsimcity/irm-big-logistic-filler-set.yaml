@@ -4,7 +4,7 @@ version: "1.00"
 subfolder: 400-industrial
 info:
   summary: Industrial Revolution Mod - Big Logistic Filler Set
-  description: >
+  description: |
     This is a set of larger, ploppable prefab filler lots for dirty, manufacturing, and hi-tech industry which seek to expand logistic support for your industries.
     The set was designed with IRM in mind and as such, utilizes matching bases and walls from that of T Wrecks' original release (`pkg=memo:industrial-revolution-mod`).
 

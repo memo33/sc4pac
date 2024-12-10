@@ -4,7 +4,7 @@ version: "2.0.0"
 subfolder: 360-landmark
 info:
   summary: Centurylink Tower Denver (1801 California Street)
-  description: >
+  description: |
     1801 California Street, also known as CenturyLink Tower, is a skyscraper in Denver, Colorado.
     The building was completed in 1983, and rises 53 floors and 709 feet (216 m) in height.
     The building stands as the second-tallest building in Denver and Colorado, and as the 111th-tallest building in the United States.

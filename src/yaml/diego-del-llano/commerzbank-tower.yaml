@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Commerzbank Tower
-  description: >
+  description: |
     Commerzbank Tower is a 56-story, 259 m (850 ft) skyscraper in the Innenstadt district of Frankfurt, Germany.
     An antenna spire with a signal light on top gives the tower a total height of 300.1 m (985 ft).
     It is the tallest building in Frankfurt and the tallest building in Germany.

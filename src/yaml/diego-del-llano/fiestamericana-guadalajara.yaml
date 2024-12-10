@@ -4,7 +4,7 @@ version: "2.0.0"
 subfolder: 360-landmark
 info:
   summary: Fiestamericana Guadalajara
-  description: >
+  description: |
     Hotel located in the City of Guadalajara, Mexico, Designed by the Architct Sordo Madaleno in 1990.
 
   author: Diego Del Llano

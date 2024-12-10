@@ -15,7 +15,7 @@ assets:
   - "/NBVC_StonePathsMMP_100.dat"
 info:
   summary: "Stone path props"
-  description: >
+  description: |
     This file contains stones to be used as props in the Lot-Editor for your custom lots.
   author: "nbvc"
   images:
@@ -39,7 +39,7 @@ assets:
   - "/NBVC_StonePathsMMP_100.dat"
 info:
   summary: "Rocks for stone paths as MMPs"
-  description: >
+  description: |
     With the mayor menu ploppable stone paths you can create your own custom paths.
     You can change the MMP stones with additional clicks on the same stone.
 
@@ -71,7 +71,7 @@ assets:
   - "/NBVC_StonePathS_5d420d44.SC4Lot"
 info:
   summary: "Stone paths as lots"
-  description: >
+  description: |
     The file contains stone paths as Lots and for mayor menu.
 
     Optionally, you can install the package `pkg=nbvc:stone-paths-mmp`, as well.

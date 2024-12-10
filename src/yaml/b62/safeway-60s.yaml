@@ -4,7 +4,7 @@ version: "1"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable supermarket"
-  description: >
+  description: |
     In 1915, Marion Barton Skaggs purchased his father's 576-square-foot (53.5 m2) grocery store in American Falls, Idaho, for 1,089.
     By 1926, he had opened 428 Skaggs stores in 10 states.
     In the 1930s Safeway introduced produce pricing by the pound, adding “sell by” dates on perishables to assure freshness, nutritional labeling, even some of the first parking lots.
