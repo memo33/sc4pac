@@ -125,7 +125,7 @@ package_schema = {
     "required": ["group", "name", "version", "subfolder"],
     "properties": {
         "group": {"type": "string"},
-        "name": {"type": "string"},
+        "name": {"type": "string", "validate_name": True},
         "version": {"type": "string"},
         "subfolder": {"enum": subfolders},
         "dependencies": unique_strings,
@@ -374,6 +374,11 @@ def validate_query_params(validator, value, url, schema):
         yield ValidationError('\n'.join(msgs))
 
 
+def validate_name(validator, value, name, schema):
+    if "-vol-" in name:
+        yield ValidationError(f"Avoid the hyphen after 'vol' (for consistency with other packages): {name}")
+
+
 def validate_text_field(validator, field, text, schema):
     msgs = []
     if text is not None and text.strip().lower() == "none":
@@ -402,6 +407,7 @@ def main() -> int:
             validators=dict(
                 validate_pattern=validate_pattern,
                 validate_query_params=validate_query_params,
+                validate_name=validate_name,
                 validate_text_field=validate_text_field,
                 validate_sha256=validate_sha256,
             ),
