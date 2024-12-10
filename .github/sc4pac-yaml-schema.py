@@ -80,6 +80,14 @@ asset_schema = {
                 "version": {"enum": ["20", "24", "30", "35", "40"]},
             },
         },
+        "checksum": {
+            "type": "object",
+            "additionalProperties": False,
+            "required": ["sha256"],
+            "properties": {
+                "sha256": {"type": "string", "validate_sha256": True},
+            },
+        },
     },
 }
 
@@ -93,6 +101,19 @@ assets = {
             "assetId": {"type": "string"},
             "include": {**unique_strings, "validate_pattern": True},
             "exclude": {**unique_strings, "validate_pattern": True},
+            "withChecksum": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "additionalProperties": False,
+                    "required": ["include", "sha256"],
+                    "properties": {
+                        "include": {"type": "string", "validate_pattern": True},
+                        "sha256": {"type": "string", "validate_sha256": True},
+                    },
+                },
+                "uniqueItems": True,
+            },
         },
     },
 }
@@ -161,6 +182,7 @@ class DependencyChecker:
     version_rel_pattern = re.compile(r"(.*?)(-\d+)?")
     pronouns_pattern = re.compile(r"\b[Mm][ey]\b|(?:\bI\b(?!-|\.| [A-Z]))")
     desc_invalid_chars_pattern = re.compile(r'\\n|\\"')
+    sha256_pattern = re.compile(r"[a-f0-9]*", re.IGNORECASE)
 
     def __init__(self):
         self.known_packages = set()
@@ -364,6 +386,11 @@ def validate_text_field(validator, field, text, schema):
         yield ValidationError('\n'.join(msgs))
 
 
+def validate_sha256(validator, value, text, schema):
+    if not (len(text) == 64 and DependencyChecker.sha256_pattern.fullmatch(text)):
+        yield ValidationError(f"value is not a sha256: {text}")
+
+
 def main() -> int:
     args = sys.argv[1:]
     if not args:
@@ -376,6 +403,7 @@ def main() -> int:
                 validate_pattern=validate_pattern,
                 validate_query_params=validate_query_params,
                 validate_text_field=validate_text_field,
+                validate_sha256=validate_sha256,
             ),
         )(schema)
     validator.check_schema(schema)
