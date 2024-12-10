@@ -203,6 +203,7 @@ class DependencyChecker:
         self.invalid_variant_names = set()
         self.packages_with_single_assets = {}  # pkg -> (version, set of assets from variants)
         self.packages_using_asset = {}  # asset -> set of packages
+        self.dlls_without_checksum = set()
 
     def aggregate_identifiers(self, doc):
         if 'assetId' in doc:
@@ -229,7 +230,12 @@ class DependencyChecker:
             def asset_ids(obj):
                 return (a['assetId'] for a in obj.get('assets', []) if 'assetId' in a)
 
-            def add_references(obj):
+            variants0 = doc.get('variants', [])
+            def iterate_doc_and_variants():
+                yield doc
+                yield from variants0
+
+            for obj in iterate_doc_and_variants():
                 local_deps = obj.get('dependencies', [])
                 self.referenced_packages.update(local_deps)
                 if pkg in local_deps:
@@ -241,11 +247,6 @@ class DependencyChecker:
                         self.packages_using_asset[a].add(pkg)
                     else:
                         self.packages_using_asset[a] = set([pkg])
-
-            variants0 = doc.get('variants', [])
-            add_references(doc)
-            for v in variants0:
-                add_references(v)
 
             num_doc_assets = len(doc.get('assets', []))
             if num_doc_assets <= 1:
@@ -274,6 +275,19 @@ class DependencyChecker:
                 for value in variant_values:
                     if not self.naming_convention_variants_value.fullmatch(value):
                         self.invalid_variant_names.add(value)
+
+            is_dll = ("DLL" in doc.get('info', {}).get('summary', "")) or ("dll" in doc['name'].split('-'))
+            if is_dll:
+                has_asset = False
+                has_checksum = False
+                for obj in iterate_doc_and_variants():
+                    for asset in obj.get('assets', []):
+                        has_asset = True
+                        if "withChecksum" in asset:
+                            has_checksum = True
+                if has_asset and not has_checksum:
+                    self.dlls_without_checksum.add(pkg)
+
 
     def _get_channel_contents(self, channel_url):
         import urllib.request
@@ -520,6 +534,12 @@ def main() -> int:
             print("===> The versions of the following packages do not match the version of the referenced assets (usually they should agree, but if the version mismatch is intentional, the packages can be added to the ignore list in .github/sc4pac-yaml-schema.py):")
             for pkg, v1, asset, v2 in version_mismatches:
                 print(f"""{pkg} "{v1}" (expected version "{v2}" of asset {asset})""")
+
+        if dependency_checker.dlls_without_checksum:
+            errors += len(dependency_checker.dlls_without_checksum)
+            print("===> The following packages appear to contain DLLs. A sha256 checksum is required for DLLs (add a `withChecksum` field).")
+            for identifier in dependency_checker.dlls_without_checksum:
+                print(identifier)
 
     if errors > 0:
         print(f"Finished with {errors} errors.")
