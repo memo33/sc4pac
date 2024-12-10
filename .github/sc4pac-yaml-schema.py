@@ -205,6 +205,7 @@ class DependencyChecker:
         self.packages_with_single_assets = {}  # pkg -> (version, set of assets from variants)
         self.packages_using_asset = {}  # asset -> set of packages
         self.dlls_without_checksum = set()
+        self.http_without_checksum = set()
 
     def aggregate_identifiers(self, doc):
         if 'assetId' in doc:
@@ -213,10 +214,13 @@ class DependencyChecker:
                 self.known_assets.add(asset)
             else:
                 self.duplicate_assets.add(asset)
-            self.asset_urls[asset] = doc.get('url')
+            url = doc.get('url')
+            self.asset_urls[asset] = url
             self.asset_versions[asset] = doc.get('version')
             if not self.naming_convention.fullmatch(asset):
                 self.invalid_asset_names.add(asset)
+            if urlparse(url).scheme not in ['https', 'file'] and 'checksum' not in doc:
+                self.http_without_checksum.add(asset)
         if 'group' in doc and 'name' in doc:
             pkg = doc['group'] + ":" + doc['name']
             if pkg not in self.known_packages:
@@ -540,6 +544,12 @@ def main() -> int:
             errors += len(dependency_checker.dlls_without_checksum)
             print("===> The following packages appear to contain DLLs. A sha256 checksum is required for DLLs (add a `withChecksum` field).")
             for identifier in dependency_checker.dlls_without_checksum:
+                print(identifier)
+
+        if dependency_checker.http_without_checksum:
+            errors += len(dependency_checker.http_without_checksum)
+            print("===> The following assets use http instead of https. They should include a `checksum` field.")
+            for identifier in dependency_checker.http_without_checksum:
                 print(identifier)
 
     if errors > 0:
