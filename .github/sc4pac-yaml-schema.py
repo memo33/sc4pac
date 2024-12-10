@@ -435,6 +435,15 @@ def main() -> int:
     dependency_checker = DependencyChecker()
     validated = 0
     errors = 0
+
+    def basic_report(identifiers, msg: str, stringify=None):
+        if identifiers:
+            nonlocal errors
+            errors += len(identifiers)
+            print(f"===> {msg}")
+            for identifier in identifiers:
+                print(identifier if stringify is None else stringify(identifier))
+
     for d in args:
         for (root, dirs, files) in os.walk(d):
             for fname in files:
@@ -467,90 +476,26 @@ def main() -> int:
         # check that all dependencies exist
         # (this check only makes sense for the self-contained main channel)
         for label, unknown in dependency_checker.unknowns().items():
-            if unknown:
-                errors += len(unknown)
-                print(f"===> The following {label} are referenced, but not defined:")
-                for identifier in unknown:
-                    print(identifier)
-
+            basic_report(unknown, f"The following {label} are referenced, but not defined:")
         for label, dupes in dependency_checker.duplicates().items():
-            if dupes:
-                errors += len(dupes)
-                print(f"===> The following {label} are defined multiple times:")
-                for identifier in dupes:
-                    print(identifier)
-
-        if dependency_checker.self_dependencies:
-            errors += len(dependency_checker.self_dependencies)
-            print("===> The following packages unnecessarily depend on themselves:")
-            for pkg in dependency_checker.self_dependencies:
-                print(pkg)
-
-        non_unique_assets = dependency_checker.assets_with_same_url()
-        if non_unique_assets:
-            errors += len(non_unique_assets)
-            print("===> The following assets have the same URL (The same asset was defined twice with different asset IDs):")
-            for assets in non_unique_assets:
-                print(', '.join(assets))
-
-        unused_assets = dependency_checker.unused_assets()
-        if unused_assets:
-            errors += len(unused_assets)
-            print("===> The following assets are not used:")
-            for identifier in unused_assets:
-                print(identifier)
-
-        if dependency_checker.overlapping_variants:
-            errors += len(dependency_checker.overlapping_variants)
-            print("===> The following packages have duplicate variants:")
-            for pkg in dependency_checker.overlapping_variants:
-                print(pkg)
-
-        if dependency_checker.unexpected_variants:
-            errors += len(dependency_checker.unexpected_variants)
-            print("===>")
-            for pkg, key, values, expected_values in dependency_checker.unexpected_variants:
-                print(f"{pkg} defines {key} variants {values} (expected: {expected_values})")
-
-        if dependency_checker.invalid_asset_names:
-            errors += len(dependency_checker.invalid_asset_names)
-            print("===> the following assetIds do not match the naming convention (lowercase alphanumeric hyphenated)")
-            for identifier in dependency_checker.invalid_asset_names:
-                print(identifier)
-        if dependency_checker.invalid_group_names:
-            errors += len(dependency_checker.invalid_group_names)
-            print("===> the following group identifiers do not match the naming convention (lowercase alphanumeric hyphenated)")
-            for identifier in dependency_checker.invalid_group_names:
-                print(identifier)
-        if dependency_checker.invalid_package_names:
-            errors += len(dependency_checker.invalid_package_names)
-            print("===> the following package names do not match the naming convention (lowercase alphanumeric hyphenated)")
-            for identifier in dependency_checker.invalid_package_names:
-                print(identifier)
-        if dependency_checker.invalid_variant_names:
-            errors += len(dependency_checker.invalid_variant_names)
-            print("===> the following variant labels or values do not match the naming convention (alphanumeric hyphenated or dots)")
-            for identifier in dependency_checker.invalid_variant_names:
-                print(identifier)
-
-        version_mismatches = list(dependency_checker.package_asset_version_mismatches())
-        if version_mismatches:
-            errors += len(version_mismatches)
-            print("===> The versions of the following packages do not match the version of the referenced assets (usually they should agree, but if the version mismatch is intentional, the packages can be added to the ignore list in .github/sc4pac-yaml-schema.py):")
-            for pkg, v1, asset, v2 in version_mismatches:
-                print(f"""{pkg} "{v1}" (expected version "{v2}" of asset {asset})""")
-
-        if dependency_checker.dlls_without_checksum:
-            errors += len(dependency_checker.dlls_without_checksum)
-            print("===> The following packages appear to contain DLLs. A sha256 checksum is required for DLLs (add a `withChecksum` field).")
-            for identifier in dependency_checker.dlls_without_checksum:
-                print(identifier)
-
-        if dependency_checker.http_without_checksum:
-            errors += len(dependency_checker.http_without_checksum)
-            print("===> The following assets use http instead of https. They should include a `checksum` field.")
-            for identifier in dependency_checker.http_without_checksum:
-                print(identifier)
+            basic_report(dupes, f"The following {label} are defined multiple times:")
+        basic_report(dependency_checker.self_dependencies, "The following packages unnecessarily depend on themselves:")
+        basic_report(dependency_checker.assets_with_same_url(),
+                     "The following assets have the same URL (The same asset was defined twice with different asset IDs):",
+                     lambda assets: ', '.join(assets))
+        basic_report(dependency_checker.unused_assets(), "The following assets are not used:")
+        basic_report(dependency_checker.overlapping_variants, "The following packages have duplicate variants:")
+        basic_report(dependency_checker.unexpected_variants, "",
+                     lambda tup: "{0} defines unexpected {1} variants {2} (expected: {3})".format(*tup))  # pkg, key, values, expected_values
+        basic_report(dependency_checker.invalid_asset_names, "the following assetIds do not match the naming convention (lowercase alphanumeric hyphenated)")
+        basic_report(dependency_checker.invalid_group_names, "the following group identifiers do not match the naming convention (lowercase alphanumeric hyphenated)")
+        basic_report(dependency_checker.invalid_package_names, "the following package names do not match the naming convention (lowercase alphanumeric hyphenated)")
+        basic_report(dependency_checker.invalid_variant_names, "the following variant labels or values do not match the naming convention (alphanumeric hyphenated or dots)")
+        basic_report(list(dependency_checker.package_asset_version_mismatches()),
+                     "The versions of the following packages do not match the version of the referenced assets (usually they should agree, but if the version mismatch is intentional, the packages can be added to the ignore list in .github/sc4pac-yaml-schema.py):",
+                     lambda tup: """{0} "{1}" (expected version "{3}" of asset {2})""".format(*tup))  # pkg, v1, asset, v2
+        basic_report(dependency_checker.dlls_without_checksum, "The following packages appear to contain DLLs. A sha256 checksum is required for DLLs (add a `withChecksum` field).")
+        basic_report(dependency_checker.http_without_checksum, "The following assets use http instead of https. They should include a `checksum` field.")
 
     if errors > 0:
         print(f"Finished with {errors} errors.")
