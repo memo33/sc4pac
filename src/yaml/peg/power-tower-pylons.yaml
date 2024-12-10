@@ -1,7 +1,7 @@
 group: "peg"
 name: "power-tower-pylons"
-version: "1.01"
-subfolder: "500-utilities"
+version: "1.01.1"
+subfolder: "900-overrides"
 assets:
 - assetId: "peg-power-tower-pylons"
 info:
