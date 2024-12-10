@@ -1,0 +1,27 @@
+group: murimk
+name: props-vol02-mixed-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Mixed props by murimk
+  description: |
+    This pack contains various prop sets for lotting purposes.
+    	- Park Props (large and small set)
+      - Park Fences (tiles and puzzle set)
+      - Industrial Walls
+      - Graffitis
+  author: murimk
+  website: https://community.simtropolis.com/files/file/25888-murimk-props-vol02/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/9e927ebe026ebcbe542f2534c5d1e854-mur_props201.jpg
+
+assets:
+  - assetId: murimk-props-vol02
+    exclude:
+      - "\\.SC4Lot$"
+
+---
+assetId: murimk-props-vol02
+version: "1.0"
+lastModified: "2011-09-21T21:23:18Z"
+url: https://community.simtropolis.com/files/file/25888-murimk-props-vol02/?do=download
