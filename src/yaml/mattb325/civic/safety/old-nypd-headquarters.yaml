@@ -7,7 +7,7 @@ dependencies:
 
 info:
   summary: "Old NYPD Headquarters"
-  description: >
+  description: |
     More like a palace than a police station, this real building on Centre St
     in New York was built in 1909 and housed the New York Police department
     from 1909 to 1973.
@@ -23,6 +23,15 @@ info:
     This is the orthogonal version, it sits on a 6x3 lot.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/32907-old-nypd-headquarters-new-york/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD.jpg.4855ef7293c187ce09965b424575bcd2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD1.jpg.1aaab610966b638e8b855a5df1de4dce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD2.jpg.a8687aefc17b891ae591d630c83a2a9f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD3.jpg.683f96ee912a4656f85f92f449e692e3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD4.jpg.89038f54089cdd9eda619b236b9ca700.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD5.jpg.d15dbf4b6af2716c749380cc404d1f3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD6.jpg.5bf7a99d66f048d4c9b5b8c19af4b216.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD7.jpg.2d8eb33e32d1ccfba6a85bcf7ef18489.jpg
 
 variants:
 - variant: { nightmode: standard }
@@ -54,7 +63,7 @@ dependencies: []
 
 info:
   summary: "Old NYPD Headquarters (diagonal)"
-  description: >
+  description: |
     More like a palace than a police station, this real building on Centre St
     in New York was built in 1909 and housed the New York Police department
     from 1909 to 1973.
@@ -70,6 +79,11 @@ info:
     This is a diagonal, overhanging version.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/32932-old-nypd-headquarters-diagonal-version/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD_Diag.jpg.0aad3b2914734bb2d5717efb27e3a74d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD_Diag0.jpg.1f55ae20171ae87f1e07c520b830e4a8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD_Diag1.jpg.1622e21917f7f2aa8bb8e41b75cd0cb7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/NYPD_Diag2.jpg.9ac997d215b96f50a40527ec45b02b99.jpg
 
 variants:
 - variant: { nightmode: standard }

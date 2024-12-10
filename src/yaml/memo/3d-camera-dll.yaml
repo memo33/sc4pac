@@ -8,12 +8,24 @@ assets:
 info:
   summary: "Allows setting arbitrary camera angles"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
-  description: >
+  description: |
     This DLL plugin activates two cheat codes that allow you to freely change the camera angles of the game.
 
     For detailed instructions, refer to the documentation on Simtropolis or GitHub.
   author: "memo"
   website: "https://community.simtropolis.com/files/file/36188-3d-camera-dll-for-simcity-4/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/01-park-avenue.jpeg.8c1cd0d00364d4687de9ed26a7705c9a.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/10-intersection.jpeg.003c00845a0371c6c62d8ba151d04c51.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/20-bird-houses-jmyer1.jpeg.d37985824beeb39c608cb3b60671fcab.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/21-bird-houses-jmyer2.jpeg.bd1b6dd5cec8654847db06e6cd7c5e05.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/30-low-angle-apartments.jpeg.ec2361788b0c84d864cd58efc2b31f09.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/40-angle-45.jpeg.bea4a5805d740c3a92fc4d34cc39d95c.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/41-bird-houses.jpeg.2d6414bff675f79fb485905c6251e0fc.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/50-low-angle-palms.jpeg.892136eb8201b0ec2ebd6a1cd15af4e1.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/60-angle-45-dense.jpeg.2116ef64ca24649a3ad4752d0f21429b.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/70-top-down.jpeg.ef34e4c0ae4d0168fa705cd8a1ae4ab0.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/71-zones.jpeg.524d61e163c0fd0f73745e28317015f5.jpeg
 
 ---
 assetId: "memo-3d-camera-dll"

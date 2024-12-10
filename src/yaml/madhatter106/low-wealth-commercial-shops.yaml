@@ -10,7 +10,7 @@ dependencies:
 
 info:
   summary: "Full collection of madhatter106's Low Wealth Commercial Shops, Volumes 1-4"
-  description: >
+  description: |
     Collection of four sets of low density, low wealth commercial (CS$) shops.
     Lot sizes are small, mainly 1x1, 1x2, and 1x3.
     These BATs blend well with Maxis assets and have minimal dependencies.
@@ -29,17 +29,20 @@ dependencies:
 
 info:
   summary: "Low Wealth Commercial Shops Volume 1"
-  description: >
+  description: |
     This set contains 22 Maxis-esque low wealth commercial services (CS$) lots.
     The majority of these are on 1x1, 1x2, and 1x3 lots - with anywhere from 8 to 22 jobs, and growth stages 1 through 3.
     These BATs have nightlights.
   author: "madhatter106"
   website: "https://community.simtropolis.com/files/file/20901-low-wealth-commercial-shops-volume-1/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/ddcaa58901b72915217573d907ab49e6-screenshot_01.jpg
+    - https://www.simtropolis.com/objects/screens/0024/ddcaa58901b72915217573d907ab49e6-screenshot_02.jpg
 
 ---
 assetId: "madhatter106-low-wealth-commercial-shops-vol1"
 version: "1.0"
-lastModified: "2008-12-30T02:22:00Z"
+lastModified: "2008-12-30T03:22:09Z"
 url: "https://community.simtropolis.com/files/file/20901-low-wealth-commercial-shops-volume-1/?do=download"
 
 ---
@@ -52,17 +55,20 @@ assets:
 
 info:
   summary: "Low Wealth Commercial Shops Volume 2"
-  description: >
+  description: |
     This set contains 24 Maxis-esque low wealth commercial services (CS$) lots.
     The majority of these are on 1x1, 1x2, and 1x3 lots - with anywhere from 8 to 24 jobs, and growth stages 1 through 3.
     These BATs have nightlights.
   author: "madhatter106"
   website: "https://community.simtropolis.com/files/file/20924-low-wealth-commercial-shops-volume-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0022/cc118b9efb8718880f4b9277392f4019-screenshot_01.jpg
+    - https://www.simtropolis.com/objects/screens/0022/cc118b9efb8718880f4b9277392f4019-screenshot_02.jpg
 
 ---
 assetId: "madhatter106-low-wealth-commercial-shops-vol2"
 version: "1.0"
-lastModified: "2009-01-06T05:28:00Z"
+lastModified: "2009-01-06T06:28:44Z"
 url: "https://community.simtropolis.com/files/file/20924-low-wealth-commercial-shops-volume-2/?do=download"
 
 ---
@@ -78,17 +84,20 @@ dependencies:
 
 info:
   summary: "Low Wealth Commercial Shops Volume 3"
-  description: >
+  description: |
     This set contains 19 Maxis-esque low wealth commercial services (CS$) lots.
     Lot sizes include 1x1, 1x2, and 2x1 with anywhere from 8 to 24 jobs, and growth stages 1 and 2.
     These BATs have nightlights.
   author: "madhatter106"
   website: "https://community.simtropolis.com/files/file/21054-low-wealth-commercial-shops-volume-3/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6cafd6c54e545f3c00814ea6eca7b6fa-screenshot01.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6cafd6c54e545f3c00814ea6eca7b6fa-screenshot02.jpg
 
 ---
 assetId: "madhatter106-low-wealth-commercial-shops-vol3"
 version: "1.0"
-lastModified: "2009-01-27T18:54:00Z"
+lastModified: "2009-01-27T19:54:44Z"
 url: "https://community.simtropolis.com/files/file/21054-low-wealth-commercial-shops-volume-3/?do=download"
 
 ---
@@ -103,12 +112,15 @@ dependencies:
 
 info:
   summary: "Low Wealth Commercial Shops Volume 4"
-  description: >
+  description: |
     This set contains 19 Maxis-esque low wealth commercial services (CS$) lots.
     Lot sizes include 1x1 and 1x2 with anywhere from 8 to 18 jobs.
     These BATs have nightlights.
   author: "madhatter106"
   website: "https://community.simtropolis.com/files/file/21964-low-wealth-commercial-shops-volume-4/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d3827e86a090b85e5b63eedfd2eb88ba-screen01.jpg
+    - https://www.simtropolis.com/objects/screens/0023/d3827e86a090b85e5b63eedfd2eb88ba-screen02.jpg
 
 ---
 assetId: "madhatter106-low-wealth-commercial-shops-vol4"

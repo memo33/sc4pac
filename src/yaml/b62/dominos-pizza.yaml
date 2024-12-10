@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable pizza chain"
-  description: >
+  description: |
     Domino's Pizza is an American restaurant chain and international franchise pizza delivery corporation.
     Founded in 1960, Domino's is the second-largest pizza chain in the United States (after Pizza Hut) and the largest worldwide,
     with more than 10,000 corporate and franchised stores in 70 countries.

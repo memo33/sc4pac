@@ -8,7 +8,7 @@ assets:
 info:
   summary: "Fixes region thumbnail rendering bug"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
-  description: >
+  description: |
     This DLL plugin fixes the rendering bug of a city's region view thumbnail that affects large screen sizes.
 
     The bug occurs with any vertical screen resolution larger than 1024 pixels. When saving a large city tile, it results in an incomplete rendering of the terrain, leading to a visible gap in the region view.

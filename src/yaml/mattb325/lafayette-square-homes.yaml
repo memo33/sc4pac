@@ -9,12 +9,22 @@ dependencies:
 
 info:
   summary: "LaFayette Square St. Louis Row Homes"
-  description: >
+  description: |
     These old world, colourful row homes hail from LaFayette Square in St. Louis.
     The houses are 8m wide, medium wealth (R$$) and have a number of colour variations in a family.
     They grow on 1x2 and 2x2 lots in the Chicago and New York tilesets.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/34165-lafayette-square-homes-st-louis/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/LaFayette.jpg.012db3f19a5a998fb8ded5e0e3fd1765.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/LaFayette1.jpg.40de51f5d818b1310922e9a26fa629d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Lafayette1a.jpg.06a92da31781cf7587a1a8798d66128e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Lafayette1b.jpg.2449322b4ec8dab6e20c2803c40db828.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Lafayette1c.jpg.b17e1a3df48ca83a5dff2d90369e710d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Lafayette1d.jpg.4e5875b18dbce441b4e97579bc7750e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Lafayette2.jpg.57664bbc139faa721e113733bfe550fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Lafayette3.jpg.57b81680b6a28adfd9d915f76a20a6e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/Lafayette4.jpg.3470765f0d517d4483d47f72150afa0b.jpg
 
 variants:
 - variant: { nightmode: standard }

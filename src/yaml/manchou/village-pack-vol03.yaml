@@ -1,0 +1,38 @@
+group: manchou
+name: village-pack-vol03-props
+version: "1"
+subfolder: 100-props-textures
+assets:
+  - assetId: manchou-pack-village-vol03
+    exclude:
+      - \.SC4Lot$
+info:
+  summary: "Agricultural building models"
+  author: "manchou"
+  website: "https://www.toutsimcities.com/downloads/view/1602"
+  images:
+    - https://www.toutsimcities.com/img/downloads/image_1602.jpg
+
+---
+group: manchou
+name: village-pack-vol03
+version: "1"
+subfolder: 200-residential
+dependencies:
+  - manchou:village-pack-vol03-props
+assets:
+  - assetId: manchou-pack-village-vol03
+    include:
+      - \.SC4Lot$
+info:
+  summary: "Agricultural residential lots"
+  author: "manchou"
+  website: "https://www.toutsimcities.com/downloads/view/1602"
+  images:
+    - https://www.toutsimcities.com/img/downloads/image_1602.jpg
+
+---
+assetId: manchou-pack-village-vol03
+version: "1"
+lastModified: "2009-10-13T12:00:00Z"
+url: "https://www.toutsimcities.com/downloads/start/1602"

@@ -4,12 +4,17 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: Worthington Apartments (W2W)
-  description: >
+  description: |
     Worthington Apartments is an apartment building based on 888 Park Avenue located in Manhattan, New York City.
     The building grows as R$$ and R$$$ on the New York and Chicago tile sets.
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28152-worthington-apartments/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/15e6a67f65aea7336c3446b96b2625e0-worthington-apartments-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/33ac07abcd46a264b2ac3a7249573812-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/bcc50e9c8e356c96476a977e6cd1f61c-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/3f12d103dfc733101e354dc5b775712d-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

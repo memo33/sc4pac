@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: BD Bacata
-  description: >
+  description: |
     BD Bacatá (abbreviation for Bogotá Downtown Bacatá) is an architectural complex currently under construction in Bogotá, Colombia, featuring the tallest building in the country, surpassing the Torre Colpatria, and the sixth tallest in South America.
     The South Tower is 67 stories high and covers a total surface area of 1,200,000 square feet (111,480 m2).
     Development includes office and retail space, apartments and a 364-room hotel, replacing the former Hotel Bacatá that was constructed in the same location.
@@ -12,6 +12,10 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32963-bd-bacata/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/BDBACATA.jpg.d0cbbb6f0a67a8fbc4a955d8c7269646.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/BDBACATASUR.jpg.7577fd620e879cb0f111c1b5cec9900d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d0411c8cc630_BDBACATA5.jpg.b3c91e0267c7d4dff91d5d5a4a370ca3.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -27,11 +31,11 @@ variants:
 ---
 assetId: diego-del-llano-bd-bacata-darknite
 version: "1.0"
-lastModified: "2019-08-21T14:18:03Z"
+lastModified: "2019-06-14T21:29:47Z"
 url: https://community.simtropolis.com/files/file/32963-bd-bacata/?do=download&r=176140
 
 ---
 assetId: diego-del-llano-bd-bacata-south-darknite
 version: "1.0"
-lastModified: "2019-08-21T14:18:03Z"
+lastModified: "2019-06-14T21:29:47Z"
 url: https://community.simtropolis.com/files/file/32963-bd-bacata/?do=download&r=176141

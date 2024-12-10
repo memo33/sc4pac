@@ -4,7 +4,7 @@ version: "2.0.0"
 subfolder: 360-landmark
 info:
   summary: U.S. Bank Library Tower
-  description: >
+  description: |
     U.S. Bank Tower, formerly Library Tower and First Interstate Bank World Center, is a 1,018-foot (310.3 m) skyscraper at 633 West Fifth Street in downtown Los Angeles, California.
     It is the third tallest building in California, the second tallest building in LA, the fifteenth tallest in the United States, the third tallest west of the Mississippi River after the Salesforce Tower and the Wilshire Grand Tower, and the 92nd tallest building in the world, after being surpassed by the Wilshire Grand Center.
     Because local building codes required all high-rise buildings to have a helipad, it was known as the tallest building in the world with a roof-top heliport from its completion in 1989 to 2004 when Taipei 101 opened.
@@ -17,6 +17,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31863-us-bank-library-tower/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/12/89/92/128992b797453189924bf8738bd89db0.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/f2/2b/0e/f22b0e13384d9ed8d986e5f71cf63093.jpg
 
 variants:
   - variant: { nightmode: standard }

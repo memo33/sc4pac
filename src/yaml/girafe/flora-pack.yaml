@@ -27,7 +27,7 @@ assets:
   include: [ "/Abies grandis v1/" ]
 info:
   summary: "Abies grandis"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -44,7 +44,7 @@ assets:
   include: [ "/Alders/" ]
 info:
   summary: "Alders"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -61,7 +61,7 @@ assets:
   include: [ "/Ashes v2/" ]
 info:
   summary: "Ashes"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -78,7 +78,7 @@ assets:
   include: [ "/Beeches v3/" ]
 info:
   summary: "Beeches"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -95,7 +95,7 @@ assets:
   include: [ "/Berries/" ]
 info:
   summary: "Berries"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -112,7 +112,7 @@ assets:
   include: [ "/Birches v2/" ]
 info:
   summary: "Birches"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -129,7 +129,7 @@ assets:
   include: [ "/Bushes v2/" ]
 info:
   summary: "Bushes"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -146,7 +146,7 @@ assets:
   include: [ "/Canary date palms/" ]
 info:
   summary: "Canary date palms"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -163,7 +163,7 @@ assets:
   include: [ "/Cattails v2.1/" ]
 info:
   summary: "Cattails"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -180,7 +180,7 @@ assets:
   include: [ "/Chestnuts/" ]
 info:
   summary: "Chestnuts"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -197,7 +197,7 @@ assets:
   include: [ "/Common spruces/" ]
 info:
   summary: "Common spruces"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -214,7 +214,7 @@ assets:
   include: [ "/Conifers/" ]
 info:
   summary: "Conifers"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -231,7 +231,7 @@ assets:
   include: [ "/Cypresses/" ]
 info:
   summary: "Cypresses"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
   author: "Girafe"
   website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
@@ -247,7 +247,7 @@ assets:
   include: [ "/Daisy v2/" ]
 info:
   summary: "Daisy"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -264,7 +264,7 @@ assets:
   include: [ "/Elms/" ]
 info:
   summary: "Elms"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -281,7 +281,7 @@ assets:
   include: [ "/Feather grass/" ]
 info:
   summary: "Feather grass"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -298,7 +298,7 @@ assets:
   include: [ "/Grand Firs \\(Abies Grandis v2\\)/" ]
 info:
   summary: "Grand Firs (Abies Grandis v2)"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -315,7 +315,7 @@ assets:
   include: [ "/Honey locust/" ]
 info:
   summary: "Honey locust"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -332,7 +332,7 @@ assets:
   include: [ "/Larches/" ]
 info:
   summary: "Larches"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -349,7 +349,7 @@ assets:
   include: [ "/Lindens/" ]
 info:
   summary: "Lindens"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -366,7 +366,7 @@ assets:
   include: [ "/Lupins/" ]
 info:
   summary: "Lupins"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -383,7 +383,7 @@ assets:
   include: [ "/Maples/" ]
 info:
   summary: "Maples"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -400,7 +400,7 @@ assets:
   include: [ "/Maples v2/" ]
 info:
   summary: "Maples v2"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -417,7 +417,7 @@ assets:
   include: [ "/Narcissus/" ]
 info:
   summary: "Narcissus"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -434,7 +434,7 @@ assets:
   include: [ "/Norway maples v2/" ]
 info:
   summary: "Norway maples"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -451,7 +451,7 @@ assets:
   include: [ "/Oaks v2/" ]
 info:
   summary: "Oaks"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -468,7 +468,7 @@ assets:
   include: [ "/Parasol pines/" ]
 info:
   summary: "Parasol pines"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
   author: "Girafe"
   website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
@@ -484,7 +484,7 @@ assets:
   include: [ "/Poplars/" ]
 info:
   summary: "Poplars"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -501,7 +501,7 @@ assets:
   include: [ "/Poppies/" ]
 info:
   summary: "Poppies"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -518,7 +518,7 @@ assets:
   include: [ "/Rowan trees v3/" ]
 info:
   summary: "Rowan trees"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -535,7 +535,7 @@ assets:
   include: [ "/Serbian Spruces v1/" ]
 info:
   summary: "Serbian spruces (older BSC-TSC version)"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -552,7 +552,7 @@ assets:
   include: [ "/Serbian spruces v2/" ]
 info:
   summary: "Serbian spruces v2"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -569,7 +569,7 @@ assets:
   include: [ "/Sparaxis/" ]
 info:
   summary: "Sparaxis"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -586,7 +586,7 @@ assets:
   include: [ "/Subalpine firs/" ]
 info:
   summary: "Subalpine firs"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -603,7 +603,7 @@ assets:
   include: [ "/Vines v2/" ]
 info:
   summary: "Vines"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -620,7 +620,7 @@ assets:
   include: [ "/Walnut trees/" ]
 info:
   summary: "Walnut trees"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
@@ -637,7 +637,7 @@ assets:
   include: [ "/Wheat v2/" ]
 info:
   summary: "Wheat"
-  description: >
+  description: |
     Wheat props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"

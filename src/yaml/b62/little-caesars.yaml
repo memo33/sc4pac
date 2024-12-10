@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable pizza chain"
-  description: >
+  description: |
     Little Caesars is the third largest pizza chain in the United States and is headquartered in Detroit, Michigan.
     In its early days, the chain built stores where pizza was never served before, such as sports arenas, college dormitories, and military bases.
     Starting in 2004, the chain began offering "Hot-N-Ready" pizzas, where a customer could pick up a large pepperoni pizza for $5 without calling in or ordering ahead of time.

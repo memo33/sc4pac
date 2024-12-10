@@ -1,0 +1,59 @@
+group: kingofsimcity
+name: sp-modular-parking-extension-set
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: SP Modular Parking - Extension Set
+  description: |
+    This is the 2nd expansion pack of the SuperParking modular parking series, which unlocks even more ridiculous combinations for your parking lots. This set adds some much needed larger basic pieces and covers advanced pathing, S-curves, and more.
+
+    The set contains a set of 44 lots. There are 2 functional “parking garage” pieces, with Transit Enabled connections which are located in the Misc Transportation menu, and 42 cosmetic pieces located near the top of the Parks menu. All of the menus are grouped and color coded according to the specific type of parking, ranging from A to D type. These are broken down in the included readme, which also includes a couple of useful tips for some of the more complex combinations.
+
+    General Stats
+      - Street Entrance
+        - Plop Cost: $250
+        - Capacity: 1,000
+      - Avenue Entrance
+        - Plop Cost: $500
+        - Capacity: 3,000
+      - Cosmetic Pieces
+        - Plop Cost: $0 - $9
+
+    All of the cosmetic pieces are considered “neutral lots”, meaning they have pretty much no stats, come at no maintenance cost, and are not of any particular wealth. The detailing on these lots were kept minimal, as to ensure that MMPs can be used on them liberally.
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/31024-kosc-sp-modular-parking-extension-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160411164831_1.thumb.jpg.b7f21baac0cfca077234b2b7420c5ee1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160411164809_1.thumb.jpg.36bbcf63f7f8cb6ef78f9b3832a93801.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160411165009_1.thumb.jpg.a69f7c5c817ff2c9dd245e34855f3f16.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160411165141_1.thumb.jpg.c86f1d2884bf7e02331227efead9a2cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160411170409_1.thumb.jpg.52375369df0aa58de2e68a1937a55527.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160411171306_1.thumb.jpg.d677b679dcd6afde67a717d6b1b98aab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160411171656_1.thumb.jpg.a2045101cf3eca5257c972ec15a94581.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160411171822_1.thumb.jpg.a575f80d624df3cb389c2d6f92a7b72f.jpg
+
+dependencies:
+  - kingofsimcity:sp-modular-parking-base-set
+  - kingofsimcity:sp-modular-parking-diagonal-set
+  - supershk:mega-parking-textures
+  - shk:parking-pack
+  - peg:spot
+variants:
+- variant: { driveside: right }
+  assets:
+    - assetId: kingofsimcity-sp-modular-parking-extension-set-rhd
+- variant: { driveside: left }
+  assets:
+    - assetId: kingofsimcity-sp-modular-parking-extension-set-lhd
+
+---
+assetId: kingofsimcity-sp-modular-parking-extension-set-rhd
+version: "1.0"
+lastModified: "2016-04-12T02:13:12Z"
+url: https://community.simtropolis.com/files/file/31024-kosc-sp-modular-parking-extension-set/?do=download&r=161347
+
+---
+assetId: kingofsimcity-sp-modular-parking-extension-set-lhd
+version: "1.0"
+lastModified: "2016-04-12T02:13:12Z"
+url: https://community.simtropolis.com/files/file/31024-kosc-sp-modular-parking-extension-set/?do=download&r=161348

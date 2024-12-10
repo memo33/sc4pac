@@ -4,13 +4,17 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Fountain Place
-  description: >
+  description: |
     Fountain Place is a 60-story late-modernist skyscraper in downtown Dallas, Texas.
 
     Standing at a structural height of 720 ft (220 m), it is the fifth-tallest building in Dallas,
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31088-fountain-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/1.jpg.f3eeb277e1db71a4cb235dc741382423.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/2.jpg.4cf93cc2617f8258be548006bacfd6cb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_05/3.jpg.f0b6e5f0e5a0e25a338b517acffdd19e.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -24,11 +28,11 @@ variants:
 ---
 assetId: diego-del-llano-fountain-place-darknite
 version: "1.0"
-lastModified: "2016-05-15T18:17:16Z"
+lastModified: "2016-05-15T18:15:33Z"
 url: https://community.simtropolis.com/files/file/31088-fountain-place/?do=download&r=161802
 
 ---
 assetId: diego-del-llano-fountain-place-maxisnite
 version: "1.0"
-lastModified: "2016-05-15T18:17:16Z"
+lastModified: "2016-05-15T18:15:33Z"
 url: https://community.simtropolis.com/files/file/31088-fountain-place/?do=download&r=161803

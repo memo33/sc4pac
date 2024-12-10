@@ -4,13 +4,18 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: Aronic Place (W2W)
-  description: >
+  description: |
     Aronic Place is a fictitious six story apartment based on 9511 Shore Rd, Brooklyn, New York City.
     The building grows as R$, R$$ and R$$$ on the New York tile set.
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
 
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/29147-aronic-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/ac85554395f7de64d118ad37173b2ef7-aronic-place-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/3d0f3b5aa19144402657f4c41f606817-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/f0310d831ddb2231ca633487b293ea1c-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/ce4baf5bb9ae2e7e61abcfea7b44ab82-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

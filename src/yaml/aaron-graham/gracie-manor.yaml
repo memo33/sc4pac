@@ -4,12 +4,19 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: Thirteen-story W2W modernism apartments (NYBT)
-  description: >
+  description: |
     Gracie Manor is a 1956 residential building in Manhattan, New York City.
     The building grows as R$$ and R$$$ in four color variations on the New York tile set.
     It is a (W2W) wall-to-wall non-corner building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28981-nybt-gracie-manor/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/2734b30d0a738c2df148f0bb8542865f-gracie-manor-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/06f69a871cbc1b31a03bb81fc316077e-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/70b212d4ea4559a9becdbc097663173a-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/36874b5533a08f86783512f5380352ff-dark-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/57f6d78778c72_GracieManorVariations.jpg.f20001586591708ba96a0daf742e90d6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/57f6d78a76d10_GracieManorStats.jpg.a52e88213c83998dec4b2c8951566b76.jpg
 
 dependencies:
 - "nybt:essentials"

@@ -4,11 +4,14 @@ version: "2.0.0"
 subfolder: 360-landmark
 info:
   summary: Fiestamericana Guadalajara
-  description: >
+  description: |
     Hotel located in the City of Guadalajara, Mexico, Designed by the Architct Sordo Madaleno in 1990.
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30972-fiestamericana-guadalajara/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/1.jpg.7a947d5eec13b44e97b35d5797dabcf3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/2.jpg.12a8e097e2fcae894cab164b968a7cf2.jpg
 
 assets:
   - assetId: diego-del-llano-fiestamericana-guadalajara
@@ -16,5 +19,5 @@ assets:
 ---
 assetId: diego-del-llano-fiestamericana-guadalajara
 version: "2.0.0"
-lastModified: "2016-02-26T18:43:42Z"
+lastModified: "2016-02-26T18:20:31Z"
 url: https://community.simtropolis.com/files/file/30972-fiestamericana-guadalajara/?do=download

@@ -6,7 +6,7 @@ assets:
 - assetId: "mushymushy-na-53ft-trailers-vol1"
 info:
   summary: "HD North American 53ft semi trailer props"
-  description: >
+  description: |
     This is a prop pack containing 208 unique HD 53ft semi trailer models, all of which are based on North American designs. All models are rendered at 90, 45, 22.5L, and 22.5R angles with reasonably tight LODs to provide maximum flexibility. This pack includes 53ft box trailers in several liveries with and without cabs.
 
     Trailer liveries include blank white, Best Buy, Conway, Costco, DHL, FedEx Express, FedEx Ground, Kroger, Roadway, rusty, Safeway, Target, custom black, Mushy's Random BATs, UPS, USPS, Walmart, and Yellow. All trailers are also paired with a Mack MR688, Mack CH613, Kenworth T800, Peterbilt 352, Peterbilt 359, or a custom Peterbilt 359 in various colors. This package does not contain standalone cabs.
@@ -24,4 +24,4 @@ info:
 url: "https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/?do=download"
 assetId: "mushymushy-na-53ft-trailers-vol1"
 version: "1.0"
-lastModified: "2015-10-18T13:46:36Z"
+lastModified: "2015-09-07T05:38:37Z"

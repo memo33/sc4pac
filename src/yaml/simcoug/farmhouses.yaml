@@ -26,15 +26,21 @@ assets:
 
 info:
   summary: "30 growable R$ Farmhouse lots"
-  description: >
+  description: |
     This set of lots is desigend to fit in rural settings.
     There are two lot sizes - 3x5 and 5x5.
     The odd lot sizes were chosen to help you grow these lots.
   author: "SimCoug"
   website: "https://community.simtropolis.com/files/file/31591-simcougs-farmhouses-r/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/590399ca5ad11_SC_FarmhousesTitle.jpg.d45c594fd707cef33a4a3cd6ae1149e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/590399d5b3e8e_SC_Farmhouses5x5B.jpg.cb88bf85605a5d106b37413c7cd442ab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/590399d719b3c_SC_Farmhouses5x5A.jpg.306c085402a995d9b60cdaef1b1e195f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/590399d861b86_SC_Farmhouses3x5A.jpg.5ed7dcdd6c4d7a5be81b9e70106083c0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/590399d9b666e_SC_Farmhouses3x5B.jpg.5a4962dc525f1e93546d9762a82b5594.jpg
 
 ---
 assetId: "simcoug-farmhouses-r1"
 version: "1.0"
-lastModified: "2022-11-05T02:16:50Z"
+lastModified: "2017-04-28T19:56:23Z"
 url: "https://community.simtropolis.com/files/file/31591-simcougs-farmhouses-r/?do=download"

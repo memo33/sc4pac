@@ -26,6 +26,8 @@ subfolder: "100-props-textures"
 info:
   summary: "Swedish buildings and apartments props"
   website: "https://community.simtropolis.com/files/file/35927-malmberget-proppack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659ad92ac6ef3_Namnls.png.54c27ec4f2db5159294ebe50c385a1ff.png
   author: "Oidaas"
 assets:
 - assetId: "oidaas-malmberget-props-vol02"

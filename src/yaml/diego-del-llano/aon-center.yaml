@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Aon Center
-  description: >
+  description: |
     Aon Center is a 62-story, 860 ft (260 m) Modernist office skyscraper at 707 Wilshire Boulevard in downtown Los Angeles, California.
     Designed by Charles Luckman, site excavation started in late-1970, and the tower was completed in 1973, the rectangular bronze-clad building with white trim is remarkably slender for a skyscraper in a seismically active area.
     It is the second tallest building in Los Angeles, the second tallest in California, and the 31st tallest in the United States.
@@ -12,6 +12,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31490-aon-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/AON-Center-Preview-01.jpg.de362ea601d21c86d9058f83590957c7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_08/AON-Center-Preview-02.jpg.50ccfd8d0cda969f6a2df83b4a8cbd71.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -25,11 +28,11 @@ variants:
 ---
 assetId: diego-del-llano-aon-center-darknite
 version: "1.0"
-lastModified: "2017-08-09T18:43:32Z"
+lastModified: "2017-03-01T06:37:29Z"
 url: https://community.simtropolis.com/files/file/31490-aon-center/?do=download&r=164763
 
 ---
 assetId: diego-del-llano-aon-center-maxisnite
 version: "1.0"
-lastModified: "2017-08-09T18:43:32Z"
+lastModified: "2017-03-01T06:37:29Z"
 url: https://community.simtropolis.com/files/file/31490-aon-center/?do=download&r=164762

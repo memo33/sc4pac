@@ -7,13 +7,17 @@ assets:
   include: [ "/scoty_ZManag_maxis.dat" ]
 info:
   summary: Increase maximum size for all zones and remove 4×4 minimum size limit from agricultural zones
-  conflicts: >-
+  conflicts: |-
     Incompatible with other zoning mods such as Tropod's, Fukuda's, ReZonePlus or the one included with SPAM.
     Only the one loading last takes effect.
-  description: >
+  description: |
     This package only includes the Maxis style of the Zoning Manager from the original mod.
   author: "hugues aroux"
   website: "https://community.simtropolis.com/files/file/33590-scoty-zoning-mod/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/montage_coul.jpg.d97d64152a1c2552f120dda8027d6421.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/montage_tex.jpg.c546c6b20e50187c1eccf44e805554da.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/erase_duo.jpg.974a63af31780221d7d06ac50bc9efe7.jpg
 
 ---
 assetId: "scoty-zoning-mod"

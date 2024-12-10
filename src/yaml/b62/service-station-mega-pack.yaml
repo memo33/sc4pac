@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Service and gas stations"
-  description: >
+  description: |
     This package contains 45 lots (growable CS$ and CS$$) of sizes 1x1 to 4x4.
 
     Lots for the following brands are included in this package:

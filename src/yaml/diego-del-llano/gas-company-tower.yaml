@@ -4,12 +4,15 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Gas Company Tower
-  description: >
+  description: |
     Gas Company Tower is a 52-story, 228.3 m (749 ft) class-A office skyscraper on Bunker Hill in downtown Los Angeles, California.
     Located on the north side of Fifth Street between Olive Street and Grand Avenue, across from the Biltmore Hotel, the building serves as the headquarters for the Southern California Gas Company, which vacated its previous offices on Eighth- and Flower-streets in 1991, and is home to the Los Angeles offices of Arent Fox and Sidley Austin.
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31483-gas-company-tower/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/38/80/b6/3880b67d6e2417d367eece2061a1b1bb.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/67/83/41/678341d969ac267e8b1f97410274ae37.jpg
 
 variants:
   - variant: { nightmode: standard }

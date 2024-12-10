@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Edificio Del Café
-  description: >
+  description: |
     Torre del Café (English: Coffee Tower), also known as Edificio del Café[ (English: Coffee Building), is a 36-storey high-rise commercial office skyscraper in the city municipality of Medellín, Colombia.
     Although the starting date of its construction is unknown, the Torre del Café was completed in 1975.
     Torre del Café is 160 metres (520 ft) high.
@@ -12,6 +12,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32674-edificio-del-café/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/08.jpg.2fae5367a9bf8afcd0e0532250876622.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/07.jpg.0117a247e04f334611d0a7821bd44d20.jpg
 
 variants:
   - variant: { nightmode: standard }

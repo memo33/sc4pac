@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Comcast Center
-  description: >
+  description: |
     Comcast Center is a skyscraper in Center City, Philadelphia, Pennsylvania, United States.
     The 58-story, 297-meter (974 ft) tower is the tallest building in Philadelphia and the state of Pennsylvania, as well as the twenty-second tallest building in the United States.
     Originally called One Pennsylvania Plaza when the building was first announced in 2001, the Comcast Center went through two redesigns before construction began in 2005.
@@ -19,6 +19,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31908-comcast-center/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/ff/f8/39/fff839b6c6cc4086c6fdc64071370bca.jpg
+    - https://i.pinimg.com/originals/8d/4c/5f/8d4c5f1c2271100237ef06b727e13934.jpg
 
 variants:
   - variant: { nightmode: standard }

@@ -7,7 +7,7 @@ assets:
 - assetId: "vip-orange-fagus-seasonal-flora"
 info:
   summary: "Fagus seasonal flora (VIP)"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Orange_o_"

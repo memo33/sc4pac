@@ -18,12 +18,18 @@ dependencies:
 
 info:
   summary: "Alternate Disearch Research Center (radiation free!)"
-  description: >
+  description: |
     This requirement-free civic reward is offered as an alternative to the default disease research center.
     It is modded reasonably similarly to the in-game version, but does not emit radiation.
     This mod does not override the Maxis version, both may co-exist.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/28014-disease-research-center/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/e5446b61899c9ecfd86893fa66a44e34-diseaseresearch.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/68d8adabd70fe72c6b7298cd44eaeb3c-diseaseresearch1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/bcb5c48d0a2e394f469943af94b11015-diseaseresearch2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/225236c76698dc69941bb69007dce72f-diseaseresearch3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/9da58529eaf5e313732b1b85aa065139-diseaseresearch4.jpg
 
 ---
 assetId: "mattb325-disease-research-center"

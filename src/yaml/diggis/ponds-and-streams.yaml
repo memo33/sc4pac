@@ -32,7 +32,7 @@ assets:
   - "/Ponds/.*Lots.dat"
 info:
   summary: "Modular ploppable ponds"
-  description: >
+  description: |
     This package contains the Shingle and Grass Base ponds lots as well as Ponds Addon Sets 1 and 2.
 
     These lots appear in a new submenu if `pkg=memo:submenus-dll` is installed.
@@ -52,7 +52,7 @@ assets:
   - "/Streams/.*Lots.dat"
 info:
   summary: "Modular ploppable streams"
-  description: >
+  description: |
     This package contains the Shingle (orthogonal and diagonal) and Grass Base streams lots.
 
     These lots appear in a new submenu if `pkg=memo:submenus-dll` is installed.

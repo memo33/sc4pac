@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Hotel Riu Plaza Guadalajara
-  description: >
+  description: |
     This horrible building is a skyscraper located in the city of Guadalajara, Mexico.
     At 215-metre tall (705 ft), it is the city and metropolitan area's tallest building and the fifth highest in Mexico.
 
@@ -15,6 +15,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32677-hotel-riu-plaza-guadalajara/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/11.jpg.a42b3f4893feed28e5b494530413c82b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/13.jpg.ea9b00e321809d3028f6737fe4363a29.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -28,5 +31,5 @@ variants:
 ---
 assetId: diego-del-llano-hotel-riu-plaza-guadalajara-darknite
 version: "1.0"
-lastModified: "2021-01-23T17:52:55Z"
+lastModified: "2018-12-20T13:26:08Z"
 url: https://community.simtropolis.com/files/file/32677-hotel-riu-plaza-guadalajara/?do=download

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Ariel East at 2628 Broadway
-  description: >
+  description: |
     The Ariel East and Ariel West are a pair of apartment buildings on either side of Broadway at 99th Street, the tallest buildings on Manhattan's predominantly residential Upper West Side.
     Ariel East is at 2628 Broadway, and West is at 245 West 99th Street.
 
@@ -14,6 +14,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32960-ariel-east-at-2628-broadway/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/BROADWAY.jpg.360aa9c86053df03a665285f6c1a92a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d04098e93eca_BROADWAY2.jpg.a0ad05c63a3db3aa6b3084eb870b9d21.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -27,5 +30,5 @@ variants:
 ---
 assetId: diego-del-llano-ariel-east-at-2628-broadway-darknite
 version: "1.0"
-lastModified: "2019-08-21T14:21:18Z"
+lastModified: "2019-06-14T20:55:43Z"
 url: https://community.simtropolis.com/files/file/32960-ariel-east-at-2628-broadway/?do=download

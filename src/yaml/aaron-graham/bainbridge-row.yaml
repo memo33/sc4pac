@@ -4,12 +4,18 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: Bainbridge Row (W2W)
-  description: >
+  description: |
     Bainbridge Row is an apartment located in The Bronx, New York City.
     The building grows as R$ and R$$ on the New York tile set.
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/26436-nybt-bainbridge-row/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/592bc931a59c957f99b1346bd990178e-nybt%20bainbridge%20row01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/20d68ff9ffd8d6cc54d1f2f3b6458ad9-nybt%20bainbridge%20row02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/4f0e621d3df4df5df4ce327ec0b9a415-bainbridge%20pic01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/be22d1be4ba436a1f4c8003e48cd0d43-bainbridge%20pic03.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/c90586105eb067af5e961f0a6ed470e8-monthly_07_2011_4b2a259dfc73cd1718cfb4f6af22353b-bainbridge_pic02.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

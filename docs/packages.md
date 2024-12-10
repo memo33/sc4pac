@@ -123,6 +123,7 @@ Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':t
 * `pkg=memo:submenus-dll` (adds more submenus to the game)
 * `pkg=cam:colossus-addon-mod` (adds more growth stages to the game)
 * `pkg=nam-team:tunnel-and-slope-mod` (smooth slopes for networks)
+* `pkg=warrior:god-terraforming-in-mayor-mode` (more convenient access to god tools)
 
 ## Dependency packs
 

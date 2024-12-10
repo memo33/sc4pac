@@ -6,13 +6,20 @@ dependencies: []
 
 info:
   summary: "Small European medical clinic"
-  description: >
+  description: |
     Inspired by a little clinic in Southern Europe, this is a smaller medical
     facility for towns or to supplement larger hospital care.
     The lot comes as a ploppable Clinic, which is found in the Health Menu and
     has a decent capacity (1,500) and radius (600). It provides 57 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33142-clinic/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Clinic.jpg.820ac7551a1799f914794cd450c96be9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Clinic1.jpg.d3aaad2a3b925aec85fafb9a88b19822.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Clinic2.jpg.e9bb003b2f2f9f4a7639221037e7ce0d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Clinic3.jpg.29e3bad3b9e68f1b22676ce48cbf7892.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Clinic4.jpg.2e0cc2debde47d90ff3329ef421dc3f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Clinic5.jpg.a0d0b6243efc345fd7a1c385316613c6.jpg
 
 variants:
 - variant: { nightmode: standard }

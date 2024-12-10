@@ -4,12 +4,17 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: 785 Park Avenue (W2W)
-  description: >
+  description: |
     785 Park Avenue is a sixteen story brick apartment located in Manhattan, New York City.
     The building grows as R$$, R$$$, CS$$ and CS$$$ in four color variations on the New York tile set.
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28741-nybt-785-park-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/fa8da31663e824f60f67236c286a7218-nybt-785-park-avenue-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/bde2dcb6130565ce9a5bcb266102c44a-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/128c15c4a20c93b3bed1f4446bb4baef-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/0665ad6e8a7cc4a191fdf1e4b6b3c0a4-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

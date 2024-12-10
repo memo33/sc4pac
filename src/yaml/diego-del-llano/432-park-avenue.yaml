@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: 432 Park Avenue, New York
-  description: >
+  description: |
     432 Park Avenue is a residential skyscraper in New York City that overlooks Central Park.
     Originally proposed to be 1,300 feet (396.2 meters) in 2011, the structure topped out at 1,396 ft (425.5 m).
     It was developed by CIM Group and features 125 condominium apartments.
@@ -16,6 +16,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32319-432-park-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/04.jpg.fc15517abbf04e56839bf77dc1e69f6c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/03.jpg.0517742c5935e1fda7da5a5e2fb5c113.jpg
 
 variants:
   - variant: { nightmode: standard }

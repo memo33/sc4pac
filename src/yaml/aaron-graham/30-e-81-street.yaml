@@ -4,12 +4,17 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: 30 E. 81 Street (W2W)
-  description: >
+  description: |
     30 E. 81 Street is a 1955 thirteen story apartment located in Manhattan, New York City.
     The building grows as R$$, R$$$, CS$$ and CS$$$ on the New York tile set.
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28572-nybt-30-e-81-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/5c3892f289bc6e0a619fbfbfe10885b1-30-e-81-street-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/4bccac5f3ec82fad231a1e6ffcc18680-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/5b382664e8ce0cd12dcd5031b7691a80-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/6d1b0988090fdcb0b9765f9eaf5881f9-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

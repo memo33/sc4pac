@@ -9,7 +9,7 @@ assets:
 info:
   summary: "Enables additional cheat codes"
   conflicts: "Incompatible with the macOS version of the game."
-  description: >
+  description: |
     The extra cheats plugin adds many additional features to the game, such as the
     ability to plop any building or lot at will, the ability to easily set how much
     money is in your city's treasury and even the ability to add snow to your
@@ -18,6 +18,8 @@ info:
     However, the cheat codes are primarily intended for testing purposes.
   author: "simmaster07/nsgomez, Buggi"
   website: "https://community.simtropolis.com/files/file/31350-simmasters-extra-cheats-dll/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/spills.PNG.5bfe8d3c3a62f7f64b57d447dc4eed7e.PNG
 
 ---
 assetId: "simmaster07-extra-cheats-dll"
@@ -28,5 +30,5 @@ url: "https://community.simtropolis.com/files/file/31350-simmasters-extra-cheats
 ---
 assetId: "buggi-extra-cheats-dll"
 version: "1.0"
-lastModified: "2014-05-07T18:32:32Z"
+lastModified: "2009-02-17T11:06:37Z"
 url: "https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/?do=download"

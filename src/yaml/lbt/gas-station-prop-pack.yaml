@@ -6,6 +6,8 @@ info:
   summary: "Gas station props made by Heblem"
   description: "This package includes part 1 and 2 of the prop pack."
   website: "https://community.simtropolis.com/files/file/26726-lbt-gas-station-prop-pack-1-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/bf671fceb39fd533d000ef776eb52450-show_simtrop1gas.jpg
   author: "Heblem"
 assets:
 - assetId: "lbt-gas-station-prop-pack"
@@ -14,4 +16,4 @@ assets:
 url: "https://community.simtropolis.com/files/file/26726-lbt-gas-station-prop-pack-1-2/?do=download"
 assetId: "lbt-gas-station-prop-pack"
 version: "1"
-lastModified: "2013-02-03T01:38:40Z"
+lastModified: "2011-09-03T01:48:05Z"

@@ -23,13 +23,19 @@ variants:
 
 info:
   summary: "32 R$$ houses with garages"
-  description: >
+  description: |
     The package includes 8 house designs with 4 color variations and 9 detached
     garages on 25 unique lots (stages 1 to 5) for the Houston tile set.
     The houses are all based on real world counterparts in the Morris Park
     neighborhood of South Minneapolis.
   author: "IDS2, SimCoug"
   website: "https://community.simtropolis.com/files/file/30647-minneapolis-house-set/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/thumby.png.2eae29a78ac14e728f3ebad3143037d8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/daypreview.jpg.c1448fe9f64b982f9b998a85be95e4f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/nightpreview.jpg.19fcb43eaf7e6562f94535f8c2abb5e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/all32.jpg.78be4f38b421fcf372872d9be2b324c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/groupshot.png.381401e462cb5c4ef00f44861c5496cf.png
 
 ---
 assetId: "ids-houses-garages-darknite"

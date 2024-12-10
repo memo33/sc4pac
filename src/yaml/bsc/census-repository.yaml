@@ -12,7 +12,7 @@ assets:
 
 info:
   summary: "Provides detailed stats about city growth"
-  description: >
+  description: |
     The Census Repository's query provides detailed information about the
     city's residential, commercial and industrial supply, demand and CAPs.
     Additional information shown includes vacant houses, unemployment,

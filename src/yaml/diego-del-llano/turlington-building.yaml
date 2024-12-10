@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Ralph D. Turlington Florida Education Center
-  description: >
+  description: |
     The Turlington Building is a 17-story building in the heart of Downtown Tallahassee, Florida.
     The building was completed in 1990.
     The entire building serves as the Florida Department of Education.
@@ -12,6 +12,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32928-ralph-d-turlington-florida-education-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/R03.jpg.ad5a4e2453f772207ee5d55bf501270c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/R04.jpg.a54766635efe2ac0db3447b1f52ba4d1.jpg
 
 variants:
   - variant: { nightmode: standard }
