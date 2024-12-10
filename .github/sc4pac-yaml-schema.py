@@ -72,6 +72,7 @@ asset_schema = {
         "version": {"type": "string"},
         "lastModified": {"type": "string"},
         "url": {"type": "string", "validate_query_params": True},
+        "nonPersistentUrl": {"type": "string", "validate_query_params": True},
         "archiveType": {
             "type": "object",
             "additionalProperties": False,

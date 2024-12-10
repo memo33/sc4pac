@@ -56,7 +56,7 @@ def main() -> int:
             continue
 
         # check URLs
-        url = doc.get('url')
+        url = doc.get('nonPersistentUrl') or doc.get('url')
         if url is None:
             continue  # not an asset
         m = url_id_pattern.fullmatch(url)
