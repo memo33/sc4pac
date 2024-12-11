@@ -1,0 +1,35 @@
+group: rretail
+name: mavis-discount-tires
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Mavis Discount Tires
+  description: |-
+    Mavis is a chain of automotive repair stores that specializes in tires.
+
+    3x3 lot with 18 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33074-mavis-discount-tires/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d4dea99e50bd_RRMavisDiscountTire.jpg.0d9c9cc2219750b9577811f3aa5a0e17.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-mavis-discount-tires
+
+---
+assetId: rretail-mavis-discount-tires
+version: "1.0"
+lastModified: "2019-08-09T21:51:23Z"
+url: https://community.simtropolis.com/files/file/33074-mavis-discount-tires/?do=download
