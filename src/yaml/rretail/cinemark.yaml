@@ -1,0 +1,35 @@
+group: rretail
+name: cinemark
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Cinemark
+  description: |-
+    Cinemark is an American movie theater chain owned by Cinemark Holdings, Inc. that operates over 500 locations via its family of banners throughout North America, South America and Taiwan.
+
+    10x6 lot with 298 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33267-cinemark/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5db877a6ccb39_RRCinemark.jpg.4c074d6732e239fb95957f321eea0908.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:birches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-cinemark
+
+---
+assetId: rretail-cinemark
+version: "1.0.0"
+lastModified: "2019-10-29T17:33:20Z"
+url: https://community.simtropolis.com/files/file/33267-cinemark/?do=download
