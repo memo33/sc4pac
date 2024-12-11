@@ -1,0 +1,88 @@
+group: rretail
+name: the-shops-at-simtropolis
+version: "2.1"
+subfolder: 300-commercial
+info:
+  summary: The Shops at Simtropolis
+  description: |-
+    This 3-lot complex is based around various shopping complexes anchored by Target.
+
+    1136 jobs with all three lots used.
+
+    Brands featured include:
+
+    -   Target
+    -   Bed, Bath & Beyond
+    -   Micheals
+    -   TJ Maxx
+    -   Petco
+    -   Books-A-Million
+    -   Ulta Beauty
+    -   Five Below
+    -   Famous Footwear
+    -   Dressbarn
+    -   Cato Fashions
+    -   Aspen Dental
+    -   Mattress Firm
+    -   Moe’s Southwest Grill
+    -   Yo-gen Fruz Frozen Yogurt
+    -   America’s Best Contacts & Eyeglasses
+    -   Panera Bread
+    -   Verizon
+    -   Supercuts
+    -   Gamestop
+    -   Subway
+    -   Longhorn Steakhouse
+    -   Chase Bank
+    -   Chick-Fil-A
+
+    Lot 1: **Simtropolis Shops Left** (11 x 18 lot)
+
+    Lot 2: **Simtropolis Shops Center** (15 x 16 lot)
+
+    Lot 3: **Simtropolis Shops Right** (13 x 13 lot)
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32675-the-shops-at-simtropolis/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ee569825238e_RRShopsatSimtropolisB.jpg.6cb1aef8701c485aed410e6e4769963e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ee56982da0dc_RRShopsatSimtropolisC.jpg.01f9438ffa4198f48855bde96438b27c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ee569835427b_RRShopsatSimtropolisD.jpg.e4395ead4fee2e8433c4e578f7aa099c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ee56983cf3ee_RRShopsatSimtropolisE.jpg.c36b9341cd64f0543eb87d4f71210750.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ee569844b8f0_RRShopsatSimtropolisF.jpg.73f19a299b697d91fc7c71f8e25f605a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_06/5ee56984cd7b7_RRShopsatSimtropolisG.jpg.eb19c0799ddf9981591b4629b9763bfd.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:chase-bank
+  - kingofsimcity:logistics-essentials
+  - bsc:mega-props-cp-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - nos17:essentials
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:common-spruces
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+  - rretail:motel-6
+assets:
+  - assetId: rretail-the-shops-at-simtropolis
+
+---
+assetId: rretail-the-shops-at-simtropolis
+version: "2.1"
+lastModified: "2020-06-20T15:01:20Z"
+url: https://community.simtropolis.com/files/file/32675-the-shops-at-simtropolis/?do=download
