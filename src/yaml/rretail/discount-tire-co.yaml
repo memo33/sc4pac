@@ -1,0 +1,34 @@
+group: rretail
+name: discount-tire-co
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Discount Tire Co.
+  description: |-
+    Headquartered in Scottsdale, Arizona. Discount Tire is a tire and wheel retailer that was founded in 1960 in Ann Arbor, MI by Bruce T. Halle. The company recently opened its 1000th store, a location in Phoenix, AZ, making Discount Tires the largest retailer of tires and wheels in the world.
+
+    3x4 lot with 20 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33075-discount-tire-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d4deb0abc599_RRDiscountTire.jpg.2b85c0eb28225776fddb46f6f5af5df7.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-discount-tire-co
+
+---
+assetId: rretail-discount-tire-co
+version: "1.0"
+lastModified: "2019-08-09T21:53:32Z"
+url: https://community.simtropolis.com/files/file/33075-discount-tire-co/?do=download
