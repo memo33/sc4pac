@@ -1,0 +1,41 @@
+group: rretail
+name: wegmans
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Wegmans
+  description: |-
+    Founded in 1916 as the Rochester Fruit and Vegetable Company by John and Walter Wegman, Wegmans Food Markets, Inc. is a family owned supermarket chain headquartered in Rochester, NY. The company operates over 100 stores across the mid-Atlantic and New England regions of the eastern United States with plans to further expand. Wegmans was ranked No. 2 on on *Fortune*'s annual "100 Best Companies to Work For" list in 2018. The company has been on the best companies to work for list every year since the list first started in 1998.
+
+    12x15 lot with 696 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33359-wegmans/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5e0a4dbd5adfb_RRWegmans.jpg.1101723ace5391dcd4176efd7578c941.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5e0a4df083722_RRWegmans.jpg.efd43ff56539ea8742df83fe0985908d.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-wegmans
+
+---
+assetId: rretail-wegmans
+version: "1.1"
+lastModified: "2020-06-20T14:36:58Z"
+url: https://community.simtropolis.com/files/file/33359-wegmans/?do=download
