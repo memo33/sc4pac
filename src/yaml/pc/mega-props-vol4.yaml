@@ -1,0 +1,19 @@
+group: pc
+name: mega-props-vol4
+version: "4.2"
+subfolder: 100-props-textures
+info:
+  summary: Mega Props Vol. 4
+  author: pclark06
+  website: https://community.simtropolis.com/files/file/35526-pc-mega-props-vol4/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/megaprops4.png.7d2913d89eed33a65e929bc41bd6a529.png
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/6463ce5a5cf2c_Shoemakersville-Nov.14371684260872.png.4d31e50f7b40ee5e2c03ed90aa9cad18.png
+assets:
+  - assetId: pc-mega-props-vol4
+
+---
+assetId: pc-mega-props-vol4
+version: "4.2"
+lastModified: "2024-01-08T21:45:07Z"
+url: https://community.simtropolis.com/files/file/35526-pc-mega-props-vol4/?do=download
