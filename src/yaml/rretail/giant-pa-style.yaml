@@ -1,0 +1,39 @@
+group: rretail
+name: giant-pa-style
+version: "1.2"
+subfolder: 300-commercial
+info:
+  summary: Giant (PA Style)
+  description: |-
+    Giant PA, better known as Giant Carlisle, is a chain of supermarkets located throughout the state of Pennsylvania.
+
+    8x13 lot with 626 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32762-giant-pa-style/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/5c6ddae0e1b60_RRGiantPA.jpg.d4822e932fdc81de06aa1b906e23bcf4.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-giant-pa-style
+
+---
+assetId: rretail-giant-pa-style
+version: "1.2"
+lastModified: "2020-06-20T14:37:50Z"
+url: https://community.simtropolis.com/files/file/32762-giant-pa-style/?do=download

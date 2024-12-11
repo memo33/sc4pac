@@ -1,0 +1,38 @@
+group: rretail
+name: ingles-market
+version: "1.2"
+subfolder: 300-commercial
+info:
+  summary: Ingles Market
+  description: |-
+    Ingles is a supermarket chain serving the southeast region of the United States. Based out of Black Mountain, NC, the company operates 212 stores as of January 2018. Its first location opened in Asheville, NC in 1963.
+
+    8x12 lot with 696 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32733-ingles-market/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/5c5264a607cef_RRIngles.jpg.03093947de45e9ea2986dd76c15712bf.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-ingles-market
+
+---
+assetId: rretail-ingles-market
+version: "1.2"
+lastModified: "2020-06-20T14:38:32Z"
+url: https://community.simtropolis.com/files/file/32733-ingles-market/?do=download

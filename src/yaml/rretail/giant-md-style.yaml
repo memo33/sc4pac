@@ -1,0 +1,37 @@
+group: rretail
+name: giant-md-style
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Giant (MD Style)
+  description: |-
+    Giant MD, better known as Giant Landover, is a chain of supermarkets located in the mid-Atlantic US. It currently operates over 150 stores throughout the region.
+
+    9x12 lot with 697 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32761-giant-md-style/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/5c6dda832199d_RRGiantMD.jpg.34d7ad68af6e15157cad561cf3c039d6.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-giant-md-style
+
+---
+assetId: rretail-giant-md-style
+version: "1.1"
+lastModified: "2019-06-18T22:48:17Z"
+url: https://community.simtropolis.com/files/file/32761-giant-md-style/?do=download
