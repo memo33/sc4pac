@@ -1,0 +1,37 @@
+group: rretail
+name: wells-fargo-bank
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Wells Fargo Bank
+  description: |-
+    Wells Fargo is a chain banks headquartered in San Francisco, California with other offices elsewhere. It is known as one of the "Big Four Banks" of the United States. As of June 2018, it had over 8,000 branches and 13,000 ATMs throughout 35 countries.
+
+    3x4 lot with 33 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33150-wells-fargo-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d76a4f122a0d_RRWellsFargo.jpg.01893780a9e6cdba9c4f3e95e385c9a6.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - sm2:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-wells-fargo-bank
+
+---
+assetId: rretail-wells-fargo-bank
+version: "1.0.0"
+lastModified: "2019-09-09T19:16:46Z"
+url: https://community.simtropolis.com/files/file/33150-wells-fargo-bank/?do=download
