@@ -1,0 +1,35 @@
+group: rretail
+name: firestone-auto-center
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Firestone Auto Center
+  description: |-
+    Founded in 1900 by Harvey Firestone, the Firestone Tire and Rubber Company supplies solid rubber side-wire tires for fire apparatus, pneumatic tires for wagons, buggies, and other forms of wheeled transportation. Firestone jumped onto marketing tires for automobiles, and this would serve the company to be a pioneer in tire mass production. The company was sold in 1988 to the Japanese Bridgestone Corporation.
+
+    3x4 lot with 112 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33002-firestone-auto-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d1bb1fd03504_RRFirestoneAutoCenter.jpg.1958fa1438a2e5e751dcf16743384367.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-firestone-auto-center
+
+---
+assetId: rretail-firestone-auto-center
+version: "1.0"
+lastModified: "2019-07-02T19:36:16Z"
+url: https://community.simtropolis.com/files/file/33002-firestone-auto-center/?do=download

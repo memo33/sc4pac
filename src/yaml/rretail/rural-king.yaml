@@ -1,0 +1,40 @@
+group: rretail
+name: rural-king
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Rural King
+  description: |-
+    Rural King is a farm supply store based in Mattoon, IL. Founded in 1960, it has grown to over 109 stores by reusing retail spaces previously used by other stores. Now the old Kmart building can live on without being abandoned thanks to Rural King moving into the space. Based off of real life instances, I’ve re-used the Kmart style 3 building to get a realistic retail recycle into the game.
+
+    11x12 lot with 570 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32741-rural-king/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d4b7018f1291_RRRuralKing.jpg.c7fdbb4653afb94486371c22a5fcc6ab.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - pc:mega-props-vol1
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:elms
+  - girafe:hedges
+  - girafe:chestnuts
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-rural-king
+
+---
+assetId: rretail-rural-king
+version: "2.0"
+lastModified: "2019-08-08T00:43:08Z"
+url: https://community.simtropolis.com/files/file/32741-rural-king/?do=download

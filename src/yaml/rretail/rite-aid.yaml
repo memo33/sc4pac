@@ -1,0 +1,34 @@
+group: rretail
+name: rite-aid
+version: "1.1"
+subfolder: 630-health
+info:
+  summary: Rite Aid
+  description: |-
+    Rite Aid is a drugstore chain headquartered out of Camp Hill, PA. It is the third largest drugstore chain in the United States behind Walgreens and CVS. Its first location opened in Scranton, PA. After a 2015 attempted merger with Walgreens was unsuccessful, Walgreens bought right around half of Rite Aid’s stores at that time. Rite Aid now primarily operates in the northeast, mid-Atlantic and west coast states.
+
+    Lot functions as a small clinic in game.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32944-rite-aid/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/5ceffca7933be_RRRiteAid.jpg.c17f85b2d987df2b43cab31d95a421e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/5ceffccfd4ed1_RRRiteAid.jpg.0d4357af12632b19acf769f3024990e4.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-rite-aid
+
+---
+assetId: rretail-rite-aid
+version: "1.1"
+lastModified: "2019-06-18T18:11:30Z"
+url: https://community.simtropolis.com/files/file/32944-rite-aid/?do=download

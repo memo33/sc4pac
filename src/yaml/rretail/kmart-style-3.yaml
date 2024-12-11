@@ -1,0 +1,44 @@
+group: rretail
+name: kmart-style-3
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Kmart (Style 3)
+  description: |-
+    The smaller style of building Kmart used during the 1990s for newly built stores. This location is based around the now closed Wellsville, NY location, which was my closest store still open until March 2019. I wanted to preserve the memory of shopping here and figured BATing it would be a nice way to remember it.
+
+    12x12 lot with 572 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32721-kmart-style-3/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/5c40a5cc01569_RRKmartStyle3.jpg.0ca76a48ecbb9dab8ddb3da5e269d627.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-mjb-vol01
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:elms
+  - girafe:hedges
+  - girafe:chestnuts
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-kmart-style-3
+
+---
+assetId: rretail-kmart-style-3
+version: "1.1"
+lastModified: "2019-06-20T19:33:52Z"
+url: https://community.simtropolis.com/files/file/32721-kmart-style-3/?do=download

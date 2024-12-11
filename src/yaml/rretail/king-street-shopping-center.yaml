@@ -1,0 +1,49 @@
+group: rretail
+name: king-street-shopping-center
+version: "1.2"
+subfolder: 300-commercial
+info:
+  summary: King Street Shopping Center
+  description: |-
+    This shopping center is inspired by real-life shopping plazas that became fairly common across parts of the United States during the 1970s and 1980s. Before the days of Walmart being so big, Kmart and Kroger basically teamed up to create a convenient one-stop shopping plaza where one would be able to find everything they needed.
+
+    -   **King Street Shopping Center (Left)**
+        -   6x14 lot with 139 jobs
+        -   Kroger, Kroger gas pumps, Sprint, UPS Store & Papa John’s
+    -   **King Street Shopping Center (Right)**
+        -   12x12 lot with 357 jobs
+        -   Kmart, Huntington Bank, Citi Trends, Aaron’s, Label Shopper, Sherwin Williams, Cosmo Prof, Mariner Fiance and Enterprise Rent A Car.
+    -   **King Street Shopping Center (Corner)**
+        -   2x2 lot with NO jobs (due to game wanting roads to be by the lot)
+        -   Cosmetic piece for a pleasing connection between the two lots. No official buildings on this lot.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33049-king-street-shopping-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d3f0aae4746f_RRKingStreetShoppingPlazaA.jpg.025acbd6096eed1a3561ed17d2ebf82e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d3f0abe7ed4c_RRKingStreetShoppingPlazaB.jpg.5d0ceaefb045eb83b7d3f0730e859033.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d3f0acfc5766_RRKingStreetShoppingPlazaC.jpg.f04394aa714676c8e5c6ed59e803e402.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d3f0ae0b4d9e_RRKingStreetShoppingPlaza.jpg.8b10c1c23bf2ba7c5ef4ea12294b74ca.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:common-spruces
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-king-street-shopping-center
+
+---
+assetId: rretail-king-street-shopping-center
+version: "1.2"
+lastModified: "2020-06-20T14:59:37Z"
+url: https://community.simtropolis.com/files/file/33049-king-street-shopping-center/?do=download

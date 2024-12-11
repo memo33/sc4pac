@@ -1,0 +1,37 @@
+group: rretail
+name: publix
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Publix
+  description: |-
+    Publix is a supermarket chain that operates over 1,200 stores across the southeastern United States.
+
+    9x10 lot with 706 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32933-publix/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/5ce97b7f100a2_RRPublix.jpg.a096f922693e3cea9d3185b89b9bd402.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-publix
+
+---
+assetId: rretail-publix
+version: "1.1"
+lastModified: "2019-06-18T18:46:41Z"
+url: https://community.simtropolis.com/files/file/32933-publix/?do=download

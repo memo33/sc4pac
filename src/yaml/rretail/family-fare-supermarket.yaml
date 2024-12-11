@@ -1,0 +1,39 @@
+group: rretail
+name: family-fare-supermarket
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Family Fare Supermarket
+  description: |-
+    Family Fare is a chain of supermarkets located in the midwestern United States. Its roots begin in 1966 in Michigan, but in recent years has grown to also include Nebraska, North Dakota, Iowa and South Dakota.
+
+    8x6 lot with 295 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32786-family-fare-supermarket/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c82eb8b2f3fb_FamilyFare.jpg.e642391e65703410c87e37e7d0cde2a6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c82ec03337eb_FamilyFare.jpg.f6bc533d3d5ddf1cb0680536ddf167d3.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - bsc:mega-props-sg-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-family-fare-supermarket
+
+---
+assetId: rretail-family-fare-supermarket
+version: "1.1"
+lastModified: "2019-06-18T21:11:49Z"
+url: https://community.simtropolis.com/files/file/32786-family-fare-supermarket/?do=download

@@ -1,0 +1,53 @@
+group: rretail
+name: msm-defunct-commercial-brands-pack
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: MSM Defunct Commercial Brands Pack
+  description: |-
+    14 growable lots with 14 brands that brands from the past. Some featured brands may still continue to operate in some areas thanks to being locally franchised.
+
+    Lot sizes include 1x2, 2x2 and 3x2.
+
+    As part of the RR MSM (Modular Strip Mall) series of buildings, these buildings are designed to fit all together by use of props to create a shopping commercial complex for your neighborhood. I highly recommend you customize the lots to your liking if you wish to do so. The included props are of the buildings in this download.
+
+    If you don’t want any individual lots, make sure to delete the lots folder. You can also ignore the dependency list below.
+
+    Brands included in this pack:
+
+    -   Blockbuster Video
+    -   CD Warehouse
+    -   Deals Dollar Store
+    -   Eckerd Pharmacy
+    -   Empty Storefront
+    -   Factory Card Outlet
+    -   Fashion Bug
+    -   Hancock Fabrics
+    -   Hastings Entertainment
+    -   Hollywood Video & empty storefront\*
+    -   KB Toy Works
+    -   Movie Gallery
+    -   Payless Shoesource      (too soon?)
+    -   Radioshack
+
+    \*these 2 brands share 1 same lot
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32754-rr-msm-defunct-commercial-brands-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/5c689ccbcbcda_RRMSMDefunctCommericalBrands.jpg.8dd3fbd8c326b04247beb6da007cfffa.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-msm-defunct-commercial-brands-pack
+
+---
+assetId: rretail-msm-defunct-commercial-brands-pack
+version: "1.0"
+lastModified: "2019-02-16T23:30:35Z"
+url: https://community.simtropolis.com/files/file/32754-rr-msm-defunct-commercial-brands-pack/?do=download
