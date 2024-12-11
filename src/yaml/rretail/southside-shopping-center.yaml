@@ -1,0 +1,49 @@
+group: rretail
+name: southside-shopping-center
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Southside Shopping Center
+  description: |-
+    A small strip mall anchored by a diagonally angled Big Lots and a Peebles department store that is intentionally designed to look old. However, the Arby’s in the parking lot has modernized to their updated look.
+
+    By the use of 4 separate lots, I am able to make a diagonal shopping center for all you to enjoy.
+
+    Lots #3 and #4 offer 0 jobs as they are purely cosmetic. Lots #1 and #2 offer 255 jobs when both are used.
+
+    - Lot 1: Southside Shopping Center Left (5 x 7 lot)
+    - Lot 2: Southside Shopping Center Right (9x12 lot)
+    - Lot 3: Southside Shopping Center Corner (2x 2 lot)
+    - Lot 4: Southside Shopping Center Corner (1 x 1 lot)
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33170-southside-shopping-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d7eca958a993_RRSouthsideShoppingCenter.jpg.433daedfb077367e339573de8da419ac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d7ecb84dd4f6_RRSouthsideShoppingCenter1.jpg.e76377dda86665e467a16116031745bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d7ecbe39b26f_RRSouthsideShoppingCenter2.jpg.39e3126fe74447957c27e579cf3f0ad5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d7ecc27409dd_RRSouthsideShoppingCenter3.jpg.f562653c597c051e6c145a386fd4529f.jpg
+dependencies:
+  - rretail:discount-tire-co
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-southside-shopping-center
+
+---
+assetId: rretail-southside-shopping-center
+version: "1.1"
+lastModified: "2020-06-20T15:04:47Z"
+url: https://community.simtropolis.com/files/file/33170-southside-shopping-center/?do=download
