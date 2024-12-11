@@ -1,0 +1,35 @@
+group: rretail
+name: pep-boys
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Pep Boys
+  description: |-
+    Originally named Pep Auto Supply Company, the The Pep Boys: Manny, Moe & Jack (branded as Pep Boys) was founded in Philadelphia, Pennsylvania in 1921 by Emanuel (Manny) Rosenfeld, Maurice L. (Moe) Strauss, W. Graham (Jack) Jackson, and Moe Radavitz. The company focuses on providing automotive services to customers in over 930 locations across 35 states and Puerto Rico.
+
+    4x3 lot with 22 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33096-pep-boys/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d5c6389bff3e_RRPepBoys.jpg.cac504fd3751e8e050d2b1bb7d922bde.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-pep-boys
+
+---
+assetId: rretail-pep-boys
+version: "1.0"
+lastModified: "2019-08-20T21:18:50Z"
+url: https://community.simtropolis.com/files/file/33096-pep-boys/?do=download
