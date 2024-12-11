@@ -1,0 +1,46 @@
+group: rretail
+name: lowes
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Lowe's
+  description: |-
+    Doing business as Lowe's, Lowe's Companies, Inc. is a home improvement retailer. Headquartered in Mooresville, NC, the chain opened its first opened in North Wilkesboro, NC in 1921. Lowe’s is the second-largest hardware chain both in the U.S. and the world. As of November 2018, Lowe’s operates over 2,000 stores.
+
+    11x12 lot with 693 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33243-lowes/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5daa0ea86e77f_RRLowes.jpg.71f1ecebb9aed12d4efa180f8cc65d4f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5daa0f038ce91_RRLowes.jpg.819b8fa294beea257b70d3bd8994f0f3.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-mjb-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-lowes
+
+---
+assetId: rretail-lowes
+version: "1.0.0"
+lastModified: "2019-10-18T19:14:23Z"
+url: https://community.simtropolis.com/files/file/33243-lowes/?do=download
