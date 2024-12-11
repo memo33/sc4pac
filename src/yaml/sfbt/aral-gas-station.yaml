@@ -1,9 +1,9 @@
 group: sfbt
-name: royal-aral-gas-station
+name: aral-gas-station
 version: "1.0"
 subfolder: 300-commercial
 info:
-  summary: SFBT ARAL Gas Station by royal
+  summary: ARAL Gas Station
   description: |
     This set contains two different versions of a German ARAL Gas Station, one with a trapezoid glass roof, and one with a round glass roof. Both lots are available as growable and ploppable with jobs. The download also contains a large ARAL sign that can be placed next to a highway exit or a central artery road.
     
@@ -11,19 +11,19 @@ info:
     
     **Lot Details**
     
-      - Lot size: 3x3 tiles
-      - Building style(s): European-contemporary
-      - Stage: 1
-      - Jobs: 8 CS-§§
-      - Bulldoze cost: § 200
-      - Building value: § 750
-      - Construction time: 11 days
-      - Flammability: 40
-      - Power consumption: 2 MWh/month
-      - Water consumption: 10 Gallons/month
-      - Air pollution: 1 over 5 tiles
-      - Water pollution: 1 over 6 tiles
-      - Garbage pollution: 4 over 0 tiles
+    - Lot size: 3x3 tiles
+    - Building style(s): European-contemporary
+    - Stage: 1
+    - Jobs: 8 CS-§§
+    - Bulldoze cost: § 200
+    - Building value: § 750
+    - Construction time: 11 days
+    - Flammability: 40
+    - Power consumption: 2 MWh/month
+    - Water consumption: 10 Gallons/month
+    - Air pollution: 1 over 5 tiles
+    - Water pollution: 1 over 6 tiles
+    - Garbage pollution: 4 over 0 tiles
 
   author: Andreas Roth, royal
   website: https://community.simtropolis.com/files/file/17155-sfbt-aral-gas-station-by-royal/
