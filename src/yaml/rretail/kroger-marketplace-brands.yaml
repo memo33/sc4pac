@@ -31,7 +31,8 @@ dependencies:
 
 assets:
   - assetId: rretail-kroger-marketplace-brands
-    include: /RR Kroger Marketplace/
+    include:
+      - /RR Kroger Marketplace/
 
 ---
 assetId: rretail-kroger-marketplace-brands
