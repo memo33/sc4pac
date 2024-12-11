@@ -16,11 +16,11 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_12/present.jpg.1bf31783618aebadfb1556e410c67105.jpg
 dependencies:
   - simmaster07:sc4fix
-  - sfbt:royal-aral-gas-station
+  - sfbt:aral-gas-station
   - ceafus-88:burger-king-models
   - shk:parking-pack
   - supershk:mega-parking-textures
-  - w-swietwoot:dutch-prop-pack
+  - bnl:dutch-prop-pack
   - simcityfreak666:european-truck-prop-pack-vol1
 assets:
   - assetId: fantozzi-truck-stop
