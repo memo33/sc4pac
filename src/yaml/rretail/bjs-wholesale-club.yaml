@@ -1,0 +1,43 @@
+group: rretail
+name: bjs-wholesale-club
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: BJ's Wholesale Club
+  description: |-
+    TBJ's Wholesale Club Holdings, Inc., better known as simply BJ's, is membership-only warehouse club chain primarily operating over 200 stores on the East Coast of the United States and Ohio, although it now has a few Michigan stores as of fall 2019. The company was started by the now defunct discount department store chain Zayre in 1984. The company's name comes from the initials of Beverly Jean Weich, the daughter of Mervyn Weich, the president of the then new company.
+
+    Zayre sold itself to rival discount chain Ames (also now defunct) in October 1988, and TJX Companies (which included BJ’s at the time) was created as a result. In 1989, TJX spun off their warehouse divisions to create Waban, Inc. and in August 1997, Waban spun off BJ's to become an independent company.
+
+    11x12 lot with 736 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33203-bjs-wholesale-club/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/5d93a28bcc583_RRBJsWholesaleClub.jpg.b4a4a54a7e8b0f18188e2611ae17e2d3.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-bjs-wholesale-club
+
+---
+assetId: rretail-bjs-wholesale-club
+version: "1.1"
+lastModified: "2020-06-20T14:41:50Z"
+url: https://community.simtropolis.com/files/file/33203-bjs-wholesale-club/?do=download
