@@ -1,0 +1,33 @@
+group: rretail
+name: monro-mufflerbrake
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Monro Muffler/Brake
+  description: |-
+    Monro Mufflers & Brakes is an automotive service company focusing on vehicle maintenance, repairs and tire sales. Monro is named after the county it was founded in Monroe County, New York, just without the "e”. Its headquarters remains in the county in the city of Rochester. Monro was actually founded as a Midas franchise in 1957, but would later become its own company after its founder, Charles J. August, decided that his muffler shops should offer additional services not offered by Midas at the time.
+
+    4x2 lot with 17 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33095-monro-mufflerbrake/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d5c62ac154fe_RRMonroMuffler.jpg.26d9232a9c5d8f1abedb8a75ba7edc4d.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-monro-mufflerbrake
+
+---
+assetId: rretail-monro-mufflerbrake
+version: "1.0"
+lastModified: "2019-08-20T21:15:54Z"
+url: https://community.simtropolis.com/files/file/33095-monro-mufflerbrake/?do=download
