@@ -1,0 +1,33 @@
+group: rretail
+name: boston-store
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Boston Store
+  description: |-
+    Boston Store was a small chain of department stores that mainly operated in areas around Milwaukee, Wisconsin. As part of the Bon-Ton brands family, it would close all its stores in August 2018.
+
+    Lot is 6x5 space with 261 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32406-boston-store/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.521747a4d255cf1796e8bb7aa4eb9cc4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.71e439f1677ed3e02f6ae1403c9eefee.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-boston-store
+
+---
+assetId: rretail-boston-store
+version: "1.1"
+lastModified: "2019-06-20T19:40:31Z"
+url: https://community.simtropolis.com/files/file/32406-boston-store/?do=download

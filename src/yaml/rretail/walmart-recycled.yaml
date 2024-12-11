@@ -1,0 +1,36 @@
+group: rretail
+name: walmart-recycled
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Walmart Recycled
+  description: |-
+    Based off of what happened to an old Walmart in Erie, PA, I’ve redone my non-supercenter Walmart into what now occupies the space in real life. The idea is Walmart relocated leaving behind an empty building and over time these three brands featured – Burlington, Hobby Lobby and a newly constructed Old Navy – came to fill the space. And the same thing can happen in your town too if you so wish.
+
+    11x12 lot with 756 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32468-walmart-recycled/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5b9086419d336_RRRecycledWalmart.jpg.cb6a4535a6f71e3ed1ba96a18f4005b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5b9087139a381_RRRecycledWalmart.jpg.78f25a19a855d6f049df96d66b2da39b.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-walmart-recycled
+
+---
+assetId: rretail-walmart-recycled
+version: "1.1"
+lastModified: "2019-06-20T01:55:03Z"
+url: https://community.simtropolis.com/files/file/32468-walmart-recycled/?do=download

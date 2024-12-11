@@ -1,0 +1,37 @@
+group: rretail
+name: walmart
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Walmart
+  description: |-
+    This style of Walmart is based around a non-supercenter design. The building itself takes inspiration from the real world location in Hornell, NY. Walmart mainly operates these smaller stores in areas where the store is in a plaza with a grocery store and because of this there are usually restrictions in place that prevent it from expanding.
+
+    11x12 lot with 652 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32432-walmart/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b81e05f81743_RRWalmart.jpg.f5d75fde9b3457d0f4737790e03639ae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b81e0a32ebfa_RRWalmart.jpg.41014752690ce116016b9b9e63edca01.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-walmart
+
+---
+assetId: rretail-walmart
+version: "1.1"
+lastModified: "2019-06-20T17:19:19Z"
+url: https://community.simtropolis.com/files/file/32432-walmart/?do=download

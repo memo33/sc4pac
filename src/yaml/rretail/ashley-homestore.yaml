@@ -1,0 +1,39 @@
+group: rretail
+name: ashley-homestore
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Ashley Homestore
+  description: |-
+    Ashley Homestore is a chain of furniture stores that sells furniture and related products. Opening its first location in Alaska in 1997, the chain has grown to over 800 locations worldwide. There are both corporate and independently owned and operated stores in the chain
+
+    7x7 lot with 335 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32694-ashley-homestore/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_01/5c2bd289cbcd6_RRAshleyFurniture.jpg.889d30fdfd0f58232f59847a83dba635.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-ashley-homestore
+
+---
+assetId: rretail-ashley-homestore
+version: "1.1"
+lastModified: "2019-06-18T22:56:57Z"
+url: https://community.simtropolis.com/files/file/32694-ashley-homestore/?do=download

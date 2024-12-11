@@ -1,0 +1,37 @@
+group: rretail
+name: chase-bank
+version: "1.2"
+subfolder: 300-commercial
+info:
+  summary: Chase Bank
+  description: |-
+    J.P. Morgan Chase Bank, or known simply as Chase, is a chain of banks all across the United States. It is considered to be one of the big four banks in the country with over 5,000 locations.
+
+    3x4 lot with 39 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32665-chase-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/5c12b84a004ca_RRChaseBank.jpg.c58316913639aef6f3835a0a9e1d55c0.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - sm2:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-chase-bank
+
+---
+assetId: rretail-chase-bank
+version: "1.2"
+lastModified: "2020-06-13T23:55:09Z"
+url: https://community.simtropolis.com/files/file/32665-chase-bank/?do=download

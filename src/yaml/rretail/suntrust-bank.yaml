@@ -1,0 +1,37 @@
+group: rretail
+name: suntrust-bank
+version: "2.1"
+subfolder: 300-commercial
+info:
+  summary: SunTrust Bank
+  description: |-
+    SunTrust is a bank chain across 11 southeastern states and Washington D.C.
+
+    Lot is 4x4 space and offers 36 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32409-suntrust-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/5c0c77eb713be_RRSunTrust2.0.jpg.2e98f100abd2afb329012fea63d16537.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-suntrust-bank
+
+---
+assetId: rretail-suntrust-bank
+version: "2.1"
+lastModified: "2019-06-20T02:06:05Z"
+url: https://community.simtropolis.com/files/file/32409-suntrust-bank/?do=download

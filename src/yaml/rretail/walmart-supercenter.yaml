@@ -1,0 +1,39 @@
+group: rretail
+name: walmart-supercenter
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Walmart Supercenter
+  description: |-
+    This style of Walmart is based around a super center design, although it is not refered to as a supercenter in real life. The building itself takes inspiration from Walmart stores that were built in the early 2000s.
+
+    13x14 lot with 941 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32440-walmart-supercenter/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b89680305c54_RRSuperWalmart.jpg.0e88228059b1fe59715e3ef1142aeba2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/5b89689b0f1b6_RRSuperWalmart.jpg.0bb816144e8fbeef863a117e269a7aae.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-walmart-supercenter
+
+---
+assetId: rretail-walmart-supercenter
+version: "1.1"
+lastModified: "2019-06-19T02:21:30Z"
+url: https://community.simtropolis.com/files/file/32440-walmart-supercenter/?do=download

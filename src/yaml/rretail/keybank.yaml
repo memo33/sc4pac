@@ -1,0 +1,30 @@
+group: rretail
+name: keybank
+version: "2.1"
+subfolder: 300-commercial
+info:
+  summary: KeyBank
+  description: |-
+    KeyBank is a bank chain that operates over 1,000 branches and ATMs across 25 states and Washington D.C.
+
+    Lot is 3x4 space and offers 30 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32416-keybank/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/5c0c748fa73d4_RRKeyBank2.0.jpg.f8b744853ab1663720774c0e1d089d0c.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:lindens
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-keybank
+
+---
+assetId: rretail-keybank
+version: "2.1"
+lastModified: "2019-06-20T02:07:49Z"
+url: https://community.simtropolis.com/files/file/32416-keybank/?do=download

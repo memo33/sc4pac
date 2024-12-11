@@ -1,0 +1,37 @@
+group: rretail
+name: montgomery-wards
+version: "2.1"
+subfolder: 300-commercial
+info:
+  summary: Montgomery Wards
+  description: |-
+    Montgomery Ward once served as a chain of department stores all across the United States. It declared bankruptcy and closed its stores in 2001.
+
+    Lot is 6x8 space with 496 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32393-montgomery-wards/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.133d4517df6eb61d9304c9ccea102168.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.6fe6d8e190f48100dbc17225fb9f577d.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-montgomery-wards
+
+---
+assetId: rretail-montgomery-wards
+version: "2.1"
+lastModified: "2019-06-20T17:15:34Z"
+url: https://community.simtropolis.com/files/file/32393-montgomery-wards/?do=download

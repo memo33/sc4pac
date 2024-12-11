@@ -1,0 +1,38 @@
+group: rretail
+name: stop-and-shop-supermarket
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Stop and Shop Supermarket
+  description: |-
+    Stop & Shop is a chain of supermarkets located in the northeastern US. It currently operates over 400 stores throughout the region.
+
+    9x12 lot with 656 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32420-stop-and-shop-supermarket/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.b9cb6a2ac5ecbeb2d6582fed9cd895b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.0ea947be59bcf71f70c5723e47cbd097.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-stop-and-shop-supermarket
+
+---
+assetId: rretail-stop-and-shop-supermarket
+version: "1.1"
+lastModified: "2019-06-18T22:54:17Z"
+url: https://community.simtropolis.com/files/file/32420-stop-and-shop-supermarket/?do=download

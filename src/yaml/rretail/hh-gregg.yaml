@@ -1,0 +1,36 @@
+group: rretail
+name: hh-gregg
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: HH Gregg
+  description: |-
+    H.H. Gregg was a privately owned and operated electronics and appliance retailer that operated across 20 states with over 200 stores at its peak. The company went bankrupt in March 2017 and ultimately would wind up closing all but one store. H.H. Gregg was headquartered in Indianapolis, Indiana.
+
+    4x5 lot with 123 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32470-hh-gregg/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5b9175d20b49c_RRHHGregg.jpg.210532741727d80bec0333d9379eead4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5b91764724bb6_RRHHGregg.jpg.311b22d8fee67d3b47c689be2674f0a1.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - lbt:mega-prop-pack-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-hh-gregg
+
+---
+assetId: rretail-hh-gregg
+version: "1.1"
+lastModified: "2019-06-20T17:09:02Z"
+url: https://community.simtropolis.com/files/file/32470-hh-gregg/?do=download

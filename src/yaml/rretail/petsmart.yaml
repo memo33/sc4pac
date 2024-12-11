@@ -1,0 +1,33 @@
+group: rretail
+name: petsmart
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Petsmart
+  description: |-
+    Petsmart is a chain of pet stores with operations in the United States and Canada. It also offers other services such as dog grooming and training as well as pet hotels at some locations. PetSmart also offers a variety of small animals that are for sale and can be adopted.
+
+    4x5 lot with 102 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32617-petsmart/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/5bf222ca4bd48_RRPetsmart.jpg.f59ac0aaf8cf83a37fa302da86a20f68.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-petsmart
+
+---
+assetId: rretail-petsmart
+version: "1.1"
+lastModified: "2019-06-20T02:00:41Z"
+url: https://community.simtropolis.com/files/file/32617-petsmart/?do=download

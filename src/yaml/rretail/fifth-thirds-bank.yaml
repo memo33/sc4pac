@@ -1,0 +1,37 @@
+group: rretail
+name: fifth-thirds-bank
+version: "2.1"
+subfolder: 300-commercial
+info:
+  summary: Fifth Thirds Bank
+  description: |-
+    Fifth Thirds is a bank chain with over 1,000 locations across 10 states. The name "Fifth Third" comes from the merger of Third National Bank and Fifth National Bank.
+
+    Lot is 3x5 space and offers 36 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32415-fifth-thirds-bank/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/Untitled.jpg.0e871094f37f73673129d329380750b4.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-fifth-thirds-bank
+
+---
+assetId: rretail-fifth-thirds-bank
+version: "2.1"
+lastModified: "2019-06-20T02:09:50Z"
+url: https://community.simtropolis.com/files/file/32415-fifth-thirds-bank/?do=download

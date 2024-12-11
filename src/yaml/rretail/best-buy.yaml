@@ -1,0 +1,35 @@
+group: rretail
+name: best-buy
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Best Buy
+  description: |-
+    Best Buy is an electronics retailer headquartered in Richfield, MN that operates in the United States, Canada and Mexico. Originally founded as a store named Sound of Music by Richard M. Schulze and James Wheeler in 1966,it was rebranded to its current name with more emphasis placed on consumer electronics in 1983.
+
+    4x5 lot with 120 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32592-best-buy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/5be1ea7b2ea9e_RRBestBuy.jpg.5c3f058eaa09a922fd0ac76ed74f858f.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - lbt:mega-prop-pack-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-best-buy
+
+---
+assetId: rretail-best-buy
+version: "1.1"
+lastModified: "2019-06-19T02:17:56Z"
+url: https://community.simtropolis.com/files/file/32592-best-buy/?do=download

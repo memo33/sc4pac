@@ -1,0 +1,33 @@
+group: rretail
+name: elder-beerman
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Elder-Beerman
+  description: |-
+    Elder-Beerman was a chain of department stores that mainly operated across the states of Ohio and West Virginia. As part of the Bon-Ton brands family, it would close all its stores in August 2018.
+
+    Lot is 6x5 space with 259 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32404-elder-beerman/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.d849e259a33b5c44e1c1f5803f9fe150.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.edfae15f16b30f649657fa14052569cc.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-elder-beerman
+
+---
+assetId: rretail-elder-beerman
+version: "1.1"
+lastModified: "2019-06-20T19:37:16Z"
+url: https://community.simtropolis.com/files/file/32404-elder-beerman/?do=download

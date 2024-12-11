@@ -1,0 +1,37 @@
+group: rretail
+name: staples
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Staples
+  description: |-
+    Staples is an office supply chain with over 1,500 stores across North America. It is headquartered in Framingham, Massachusetts.
+
+    4x5 lot with 112 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32522-staples/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5baba5cbcc4a1_RRStaples.jpg.db2319fd6db86ece85fb3c1147271847.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5baba5ecc940b_RRStaples.jpg.684c36b692df6bfbdaa48cfbc201059f.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - lbt:mega-prop-pack-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-staples
+
+---
+assetId: rretail-staples
+version: "1.1"
+lastModified: "2019-06-20T01:59:09Z"
+url: https://community.simtropolis.com/files/file/32522-staples/?do=download

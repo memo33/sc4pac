@@ -1,0 +1,33 @@
+group: rretail
+name: bon-ton
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Bon-Ton
+  description: |-
+    Bon-Ton is a former northeastern regional chain mainly with stores across New York and Pennsylvania. The company declared bankruptcy and all its stores would close in August 2018.
+
+    Lot is 6x5 space with 284 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32394-bon-ton/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.ac16479a85b2bc620a0fb7164179ccba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.de725328556fbfd591f077301cb0bbc4.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-bon-ton
+
+---
+assetId: rretail-bon-ton
+version: "1.1"
+lastModified: "2019-06-20T19:42:14Z"
+url: https://community.simtropolis.com/files/file/32394-bon-ton/?do=download

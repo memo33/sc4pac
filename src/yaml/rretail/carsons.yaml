@@ -1,0 +1,33 @@
+group: rretail
+name: carsons
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Carson's
+  description: |-
+    Carson’s was a chain of mid-western U.S. department stores. As part of the Bon-Ton brands family, it would close all its stores in August 2018.
+
+    Lot is 6x5 space with 268 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32403-carsons/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.e80b1a17c66070684cc32b3b640d8683.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.c08680dd5034a4a35a7795e544aa030e.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-carsons
+
+---
+assetId: rretail-carsons
+version: "1.1"
+lastModified: "2019-06-20T19:39:15Z"
+url: https://community.simtropolis.com/files/file/32403-carsons/?do=download
