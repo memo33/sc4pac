@@ -1,0 +1,87 @@
+# Left out because of missing dependencies on SC4E
+# group: rretail
+# name: sg-rls-mall-relot-version-20
+# version: "2.3"
+# subfolder: 300-commercial
+# info:
+#   summary: SG RLS Mall Relot - Version 2.0
+#   description: |-
+#     After many months, I’m finally ready to release Version 2.0 of Simgoober’s RLS Mall. The mall has been split into three lots with some variations for a change of anchor stores. It is up to you to pick and choose which files you want to keep, but you must pick at least one from each of the three lot options below. Simply remove the lot files you don’t want to keep from the download folder.
+
+#     Lot 1: **Main Mall** (all four are on a 22x12 lot)
+
+#     -   Lot 1A consists of anchor stores **Belk, JCPenney and Dillard’s** (Southern US)
+#     -   Lot 1B consists of anchor stores **Boscov’s, Bon-Ton and JCPenney** (Northeastern US)
+#     -   Lot 1C consists of anchor stores **Sears, Bon-Ton and JCPenney** (Northern US)
+#     -   Lot 1D consists of anchor stores **Sears, Nordstrom and Macy’s** (anywhere in US)
+
+#     If you choose to keep Lot 1A, you must have all three stores listed in the 1A line. Same goes for the other three options. If you decide to keep all lots, you’ll need to have all the anchor department stores listed below downloaded. The attached Toys R Us building prop must be kept for any of the Lot 1 choices.
+
+#     While none of the following are required, you could replace Bon-Ton with Elder-Beerman, Carson’s or Younkers by simply using the lot editor and having the model and prop files. In fact, feel free to change the anchor combinations beyond the four options I’ve given. Prop pack 1 comes with mall signs for 28 different possible options for the 8 brands featured.
+
+#     Lot 2: **Right Parking Extension** (both are on a 3x16 lot)
+
+#     -   Lot 2A is designed for a texture connection with use for stores made by others.
+#     -   Lot 2B is designed for a proper texture connection with my Bon-Ton BAT due to it being slightly bigger then some of the stores made by others
+#     -   **NEW FOR VERSION 2.2** With the idea of Sears no longer being anchor or never was one, I’ve added my recent Midas Auto Services in its place. Also use Lot 3B for this change.
+
+#     Lot 3: **Front Parking & Outparcels** (both are on a 22x8 lot)
+
+#     -   Lot 3A is designed for a texture connection with use for stores made by others.
+#     -   Lot 3B is designed for a proper texture connection with either my Boscov’s or Belk BAT due to the slightly bigger size then some of the stores made by others
+#     -   **NEW FOR VERSION 2.2** With the idea of Sears no longer being anchor or never was one, I’ve added my recent Midas Auto Services in its place. Also use Lot 2B for this change.
+#   author: RRetail
+#   website: https://community.simtropolis.com/files/file/32645-sg-rls-mall-relot-version-20/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_12/5c06cddae8841_RRSGRLSMallRelot.jpg.02e001913972c4cff87db138e31eed4a.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d460a9d43325_RRRLSMall2Lot.jpg.eca1b0470c15e9aa18f3d6739c5deeb1.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d460a9e052a7_RRRLSMall3Lot.jpg.746aa5cd0285d1fb1a27770176198c0e.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d460a9ec33e3_RRSGRLSMallRelotV2.2.jpg.a0f31a84ca618588f5a09395a95fd3dc.jpg
+# dependencies:
+#   - dk1:jcpenney
+#   - dk1:dillards
+#   - dk1:macys
+#   - '"[sears](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1121)"'
+#   - '"[nordstrom](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1122)"'
+#   - '"[belk](https://community.simtropolis.com/files/file/32392-belk-version-20/)"'
+#   - '"[bon-ton](https://community.simtropolis.com/files/file/32394-bon-ton-version-20/)"'
+#   - '"[boscov’s](https://community.simtropolis.com/files/file/32391-boscovs-version-20/)"'
+#   - dk1:simcity-mall
+#   - '"[rr strip mall #1](https://community.simtropolis.com/files/file/32243-strip-mall-1/)"'
+#   - '"[rr sears auto center (small version)](https://community.simtropolis.com/files/file/32218-sears-auto-center-small-version/)"'
+#   - rretail:midas-auto-care
+#   - '"[sg toys r us](https://community.simtropolis.com/files/file/12568-toys-r-us-updated/)"'
+#   - '"[pc buffalo wild wings](https://community.simtropolis.com/files/file/32304-buffalo-wild-wings/)"'
+#   - '"[blam blank](https://community.simtropolis.com/files/file/17996-blam-blank/)"'
+#   - rretail:mega-prop-pack-vol1
+#   - lbt:mega-prop-pack-vol01
+#   - lbt:gas-station-prop-pack
+#   - bsc:mega-props-cp-vol01
+#   - mushymushy:na-53ft-trailers-vol1
+#   - bsc:mega-props-sg-vol01
+#   - bsc:texturepack-cycledogg-vol01
+#   - shk:parking-pack
+#   - supershk:mega-parking-textures
+#   - supershk:fa3-parking-textures
+#   - girafe:ashes
+#   - girafe:beeches
+#   - girafe:berries
+#   - girafe:birches
+#   - girafe:chestnuts
+#   - girafe:common-spruces
+#   - girafe:elms
+#   - girafe:feather-grass
+#   - girafe:hedges
+#   - girafe:lindens
+#   - girafe:maples-v2
+#   - girafe:poplars
+#   - girafe:rowan-trees
+#   - girafe:walnut-trees
+# assets:
+#   - assetId: rretail-sg-rls-mall-relot-version-20
+
+# ---
+# assetId: rretail-sg-rls-mall-relot-version-20
+# version: "2.3"
+# lastModified: "2020-06-20T00:46:36Z"
+# url: https://community.simtropolis.com/files/file/32645-sg-rls-mall-relot-version-20/?do=download
