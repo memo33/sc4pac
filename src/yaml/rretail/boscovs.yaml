@@ -1,0 +1,38 @@
+group: rretail
+name: boscovs
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Boscov's
+  description: |-
+    Boscov's is a regional chain of department stores found in the northeastern United States. .
+
+    Lot is 6x6 space with 322 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32391-boscovs/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.26589a012e8296b51bb1f29cc0d68306.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/Untitled.jpg.0de4fc31adf695da2c33679bb2bd6132.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:birches
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-boscovs
+
+---
+assetId: rretail-boscovs
+version: "1.1"
+lastModified: "2019-06-20T17:10:44Z"
+url: https://community.simtropolis.com/files/file/32391-boscovs/?do=download

@@ -1,0 +1,47 @@
+group: rretail
+name: meijer
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Meijer
+  description: |-
+    Meijer is a chain of hypermarket superstores which has stores in the midwest states of Ohio, Michigan, Kentucky, Illinois, Indiana and Wisconsin.
+
+    13x16 lot with 990 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32368-meijer/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e9f16f7c0917_RRMeijer.jpg.6b0030de08f16250fb1aeb03e49e9385.jpg
+dependencies:
+  - murimk:industrial-mmp
+  - murimk:props-vol03-industrials
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-mjb-vol01
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-meijer
+
+---
+assetId: rretail-meijer
+version: "2"
+lastModified: "2020-04-21T15:53:55Z"
+url: https://community.simtropolis.com/files/file/32368-meijer/?do=download

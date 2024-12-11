@@ -1,0 +1,29 @@
+group: rretail
+name: otasco-store
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: OTASCO Store
+  description: |-
+    Oklahoma Tire and Supply Company (or OTASCO) was a chain of auto parts supply stores that was based out of Tulsa, OK. The chain closed the majority of its stores in 1988 when it went bankrupt, however some stores still do remain to this day as franchises.
+
+    2x3 lot with 26 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32240-otasco-store/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d112e9fd29cb_RROTASCO.jpg.a7abc3e90416bff89c59a54df4bb97b0.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:narcissus
+assets:
+  - assetId: rretail-otasco-store
+
+---
+assetId: rretail-otasco-store
+version: "2.0"
+lastModified: "2019-06-24T20:12:19Z"
+url: https://community.simtropolis.com/files/file/32240-otasco-store/?do=download

@@ -1,0 +1,43 @@
+group: rretail
+name: dollar-general
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Dollar General
+  description: |-
+    Dollar General is becoming one of the biggest – yet smallest at the same time – stores in the United States. Almost any town with a population of 1,000 is likely to have one and as of late they've even opened in smaller populated areas with less population with one of the designs seen here.
+
+    This Dollar General comes with both long and wide variations of the newest modern design.
+
+    -   The long version is a 3x5 lot with 29 jobs
+    -   The wide version is a 4x4 lot with 27 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32361-dollar-general/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.32b139ebb6e94c5e5e47d2d04ac89265.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.b77c8e74409d649d57e7c672331aa08a.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-dollar-general
+
+---
+assetId: rretail-dollar-general
+version: "1.1"
+lastModified: "2019-06-18T17:50:44Z"
+url: https://community.simtropolis.com/files/file/32361-dollar-general/?do=download

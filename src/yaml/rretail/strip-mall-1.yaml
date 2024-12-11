@@ -1,0 +1,37 @@
+group: rretail
+name: strip-mall-1
+version: "2.1"
+subfolder: 300-commercial
+info:
+  summary: "Strip Mall #1"
+  description: |-
+    Featuring Five Guys, Mens Warehouse, David's Bridal, At&t, Great Clips and Visionworks, Strip Mall #1 is sure to be a destination for your sims.
+
+    7x4 lot with 191 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32243-strip-mall-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d46069fd93ed_RRStripMall1RLSMallShopsV2.jpg.62fd2993b0485e95d8dc563a50198a10.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-strip-mall-1
+
+---
+assetId: rretail-strip-mall-1
+version: "2.1"
+lastModified: "2020-06-20T14:44:04Z"
+url: https://community.simtropolis.com/files/file/32243-strip-mall-1/?do=download

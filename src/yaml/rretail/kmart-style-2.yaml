@@ -1,0 +1,47 @@
+group: rretail
+name: kmart-style-2
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Kmart (Style 2)
+  description: |-
+    This style Kmart is based off the Trenton, NJ location. This is by far the most recognizable Kmart design as this was the style used during Kmart's expansion spree of the very late 1960s through early 1980s. I included a Kmart express gas station in this lot, but you can easily remove it with lot editor.
+
+    12x12 lot with 686 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32345-kmart-style-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.738304e8e5534fde4247fcc44ac5706d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.4e73ed7e33e2c0f4bddcd0079d4d7ef7.jpg
+dependencies:
+  - murimk:industrial-mmp
+  - murimk:props-vol03-industrials
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-mjb-vol01
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:elms
+  - girafe:hedges
+  - girafe:chestnuts
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-kmart-style-2
+
+---
+assetId: rretail-kmart-style-2
+version: "1.1"
+lastModified: "2019-06-20T19:32:19Z"
+url: https://community.simtropolis.com/files/file/32345-kmart-style-2/?do=download

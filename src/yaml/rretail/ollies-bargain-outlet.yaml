@@ -1,0 +1,37 @@
+group: rretail
+name: ollies-bargain-outlet
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Ollie's Bargain Outlet
+  description: |-
+    Ollie's Bargain Outlet is a chain of retail stores that specializes in making deals for surplus merchandise by buying its stock at below wholesale costs by various means. Ollie's is also known for taking over space that had been previously vacated by other stores. Hence the reason why I simply changed logos on my Child World BAT. This idea actually came from the Lancaster, PA Ollie's store (near Park City Mall) which was actually a Child World before Ollie's.
+
+    The chain now has over 280 locations across 21 states.
+
+    5x5 lot with 187 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32276-ollies-bargain-outlet/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.394ee927ad1e565837297f9980484ee5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.f962f4b92547740bbf1213b1f90c1711.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-ollies-bargain-outlet
+
+---
+assetId: rretail-ollies-bargain-outlet
+version: "1.1"
+lastModified: "2019-06-18T17:22:18Z"
+url: https://community.simtropolis.com/files/file/32276-ollies-bargain-outlet/?do=download

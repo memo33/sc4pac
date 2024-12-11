@@ -1,0 +1,37 @@
+group: rretail
+name: aldi
+version: "2.1"
+subfolder: 300-commercial
+info:
+  summary: Aldi
+  description: |-
+    Aldi is a common brand of two German family owned supermarket chains with over 10,000 stores in 20 countries. The chain was founded by brothers Karl and Theo Albrecht in 1946 when they took over their mother's store in Essen, which had opened in 1913. The business was split into two separate groups in 1960, that later would later become Aldi Nord and Aldi Süd.
+
+    Aldi Süd operates the Aldi chain within the United States, and this model is designed after the design used here. There are over 1,000 Aldi stores across the United States.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32258-aldi/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d09182a7ea30_RRAldi.jpg.a87cbf48bac41bd25e9868078a98a5c3.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-jes-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-aldi
+
+---
+assetId: rretail-aldi
+version: "2.1"
+lastModified: "2020-08-07T15:58:07Z"
+url: https://community.simtropolis.com/files/file/32258-aldi/?do=download

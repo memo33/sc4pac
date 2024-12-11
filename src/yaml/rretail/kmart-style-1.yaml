@@ -1,0 +1,43 @@
+group: rretail
+name: kmart-style-1
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Kmart (Style 1)
+  description: |-
+    This style Kmart is based off of the location in Bath, NY with some inspiration taken from the former Kmart in Conneaut, OH. This 1970s small store design was mainly used in areas in smaller communities that weren't large enough to support the typical large store design. A good number of stores of this design were either expanded upon or relocated to a more modern design.
+
+    8x10 lot with 410 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32339-kmart-style-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Untitled8.jpg.6de8435b37591a1458f6ae5a291ab728.jpg
+dependencies:
+  - rretail:mega-prop-pack-vol1
+  - murimk:industrial-mmp
+  - murimk:props-vol03-industrials
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-mjb-vol01
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-kmart-style-1
+
+---
+assetId: rretail-kmart-style-1
+version: "2.0"
+lastModified: "2019-07-29T01:26:02Z"
+url: https://community.simtropolis.com/files/file/32339-kmart-style-1/?do=download

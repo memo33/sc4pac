@@ -1,0 +1,36 @@
+group: rretail
+name: sears-auto-center-small-version
+version: "1.2"
+subfolder: 300-commercial
+info:
+  summary: Sears Auto Center - Small Version
+  description: |-
+    This version of Sears Auto Center was my second attempt at making a BAT of the real life thing. I've come to realize since that it is still slightly smaller then what I'd like personally. However, I've decided to keep this up as a small variant of the service as some of you may prefer the smaller size.
+
+    3x3 lot with 14 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32218-sears-auto-center-small-version/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/Untitled.jpg.130a33bb3fa3aa4b7e148d374d989671.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_04/Untitled.jpg.6c5a548f0ae979b16d9af3d6472a5de2.jpg
+dependencies:
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:rowan-trees
+  - girafe:lindens
+  - girafe:hedges
+  - girafe:feather-grass
+  - girafe:berries
+  - girafe:beeches
+assets:
+  - assetId: rretail-sears-auto-center-small-version
+
+---
+assetId: rretail-sears-auto-center-small-version
+version: "1.2"
+lastModified: "2019-06-20T20:17:18Z"
+url: https://community.simtropolis.com/files/file/32218-sears-auto-center-small-version/?do=download

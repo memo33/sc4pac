@@ -1,0 +1,41 @@
+group: rretail
+name: at-home
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: At Home
+  description: |-
+    Formerly known as Garden Ridge Pottery, At Home is a chain specializing in home decor products based in Plano, Texas.
+
+    There were 116 locations in 33 states in 2016 and the number continues to rise as it expands mostly into vacant storefronts.
+
+    9x12 lot with 777 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32354-at-home/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.3952a138046eebb3b16bc0f85a611f5d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.eee6c3bbc683568e5ef08d1c2f9398d7.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:elms
+  - girafe:hedges
+  - girafe:chestnuts
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-at-home
+
+---
+assetId: rretail-at-home
+version: "1.1"
+lastModified: "2019-06-19T02:15:25Z"
+url: https://community.simtropolis.com/files/file/32354-at-home/?do=download

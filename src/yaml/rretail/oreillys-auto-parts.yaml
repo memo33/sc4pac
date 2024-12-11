@@ -1,0 +1,34 @@
+group: rretail
+name: oreillys-auto-parts
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: O'Reilly's Auto Parts
+  description: |-
+    O’Reilly Auto Parts is an auto parts retailer that sells automotive related parts, equipment, and accessories. Its roots were established by the namesake O’Reilly family in 1957, and today operates more than 5,200 stores across 47 states.
+
+    3x5 lot with 31 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32239-oreillys-auto-parts/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d091bf7705ce_RROReillys.jpg.6534ba05392416101af7649afae2c581.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-oreillys-auto-parts
+
+---
+assetId: rretail-oreillys-auto-parts
+version: "2.0"
+lastModified: "2019-06-18T17:15:00Z"
+url: https://community.simtropolis.com/files/file/32239-oreillys-auto-parts/?do=download

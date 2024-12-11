@@ -1,0 +1,29 @@
+group: rretail
+name: western-auto
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Western Auto
+  description: |-
+    Western Auto was a chain of auto parts supply stores that was based out of Kansas City, MO. It also sold other things such as bicycles and hardware. The chain ended up being bought by Sears who then sold it off to Advance Auto Parts. While the name was supposed to be eliminated entirely in 2006, but there a still a handful of locations that use the name scattered throughout the United States.
+
+    2x3 lot with 26 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32236-western-auto/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d112dffe6f0f_RRWesternAuto.jpg.26035eba3701f68fcf42035877d474e7.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:narcissus
+assets:
+  - assetId: rretail-western-auto
+
+---
+assetId: rretail-western-auto
+version: "2.0"
+lastModified: "2019-06-24T20:09:52Z"
+url: https://community.simtropolis.com/files/file/32236-western-auto/?do=download

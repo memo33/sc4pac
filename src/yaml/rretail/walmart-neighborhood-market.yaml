@@ -1,0 +1,40 @@
+group: rretail
+name: walmart-neighborhood-market
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Walmart Neighborhood Market
+  description: |-
+    Walmart's supermarket design based off the Kingsport, TN location.
+
+    7x10 lot with 321 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32356-walmart-neighborhood-market/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.3ae2c993d7f20cfc1e26c8ae49f0e6b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.eb9acdaad329bbe32bb4e6ef31bda9a3.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-walmart-neighborhood-market
+
+---
+assetId: rretail-walmart-neighborhood-market
+version: "1.1"
+lastModified: "2019-06-20T17:17:34Z"
+url: https://community.simtropolis.com/files/file/32356-walmart-neighborhood-market/?do=download
