@@ -1,0 +1,54 @@
+group: rretail
+name: northtown-plaza
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Northtown Plaza
+  description: |-
+    A small shopping center designed in a corner shape that is ideal for an intersection of two roads.
+
+    9x10 lot with around 468 jobs
+
+    Brands featured include:
+
+    -   Ollie’s Bargain Outlet
+    -   Tuesday Morning
+    -   Pet Supplies Plus
+    -   Firehouse Subs
+    -   Miracle-Ear
+    -   Cricket Wireless
+    -   Sylvan Learning Center
+    -   Holiday Hair
+    -   Liberty Tax
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33322-northtown-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df1795b379f9_RRNorthtownPlaza2.jpg.d6207dc544f975844b71370e54a317f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df1795c35efb_RRNorthtownPlaza3.jpg.f0a00c50e5e611f7592129311a90e1a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5df1795d2bbaa_RRNorthtownPlaza.jpg.48b93c037acae4745e5e196c4d384e98.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:sparaxis
+assets:
+  - assetId: rretail-northtown-plaza
+
+---
+assetId: rretail-northtown-plaza
+version: "1.1"
+lastModified: "2020-06-20T15:04:14Z"
+url: https://community.simtropolis.com/files/file/33322-northtown-plaza/?do=download
