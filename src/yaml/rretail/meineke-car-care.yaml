@@ -1,0 +1,35 @@
+group: rretail
+name: meineke-car-care
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Meineke Car Care
+  description: |-
+    Founded in 1971 in Houston, TX, Meineke Car Care Centers, Inc has grown to have more than 900 locations via a franchise system. The chain changed its name from Meineke Discount Mufflers to Meineke Car Care Centers in 2003 when it expanded to also offer full-service auto repairs.
+
+    3x3 lot with 20 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33094-meineke-car-care/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d5c61e497af0_RRMeinekeCarCare.jpg.21790d4655c11e06d4de2081e352c53f.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-meineke-car-care
+
+---
+assetId: rretail-meineke-car-care
+version: "1.0"
+lastModified: "2019-08-20T21:12:45Z"
+url: https://community.simtropolis.com/files/file/33094-meineke-car-care/?do=download
