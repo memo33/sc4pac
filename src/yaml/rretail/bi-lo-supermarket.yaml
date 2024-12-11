@@ -1,0 +1,33 @@
+group: rretail
+name: bi-lo-supermarket
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: BI-LO Supermarket
+  description: |-
+    BI-LO is a supermarket chain currently owned by Southeastern Grocers. The company operated 164 stores across 3 states in October 2015. The company has since shrunken its store count. The BI-LO name comes from an employee store-naming contest held in 1963.
+
+    5x9 lot with 200 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32793-bi-lo-supermarket/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c89a6deed9ac_RRBI-LO.jpg.f678d57e350eaf11ff3022306389f535.jpg
+dependencies:
+  - rretail:mega-prop-pack-vol1
+  - bsc:mega-props-sg-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-bi-lo-supermarket
+
+---
+assetId: rretail-bi-lo-supermarket
+version: "1.0"
+lastModified: "2019-06-18T21:07:45Z"
+url: https://community.simtropolis.com/files/file/32793-bi-lo-supermarket/?do=download
