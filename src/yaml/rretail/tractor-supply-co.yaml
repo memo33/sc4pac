@@ -1,0 +1,42 @@
+group: rretail
+name: tractor-supply-co
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Tractor Supply Co.
+  description: |-
+    With its roots of tracing back to 1938, Tractor Supply started as a mail order tractor parts business. It now has over 1,700 stores (as of December 2018) that offer products for home improvement, equine and pet care, lawn and garden supplies and livestock. The first Tractor Supply Co. retail store opened in 1939 in Minot, ND. Tractor Supply is currently headquartered in Brentwood, TN.
+
+    5x6 lot with 127 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33104-tractor-supply-co/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d7eca5667292_RRTractorSupplyCoV2.jpg.6a6eb0df9bd438704052e47b72b85732.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - pc:mega-props-vol1
+  - murimk:industrial-mmp
+  - murimk:props-vol03-industrials
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-mjb-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-tractor-supply-co
+
+---
+assetId: rretail-tractor-supply-co
+version: "2.0"
+lastModified: "2019-09-15T23:33:47Z"
+url: https://community.simtropolis.com/files/file/33104-tractor-supply-co/?do=download
