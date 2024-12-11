@@ -1,0 +1,33 @@
+group: rretail
+name: strip-mall-4
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: "Strip Mall #4"
+  description: |-
+    A smaller modern strip mall with Core Life Eatery, Jersey Mike Subs, Sport Clips and MOD Pizza.
+
+    4x4 lot with 54 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33129-strip-mall-4/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d699220a47f2_RRStripMall4.jpg.094809f114e075f0ca27af1a170eb837.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-strip-mall-4
+
+---
+assetId: rretail-strip-mall-4
+version: "1.1"
+lastModified: "2020-06-20T14:45:54Z"
+url: https://community.simtropolis.com/files/file/33129-strip-mall-4/?do=download
