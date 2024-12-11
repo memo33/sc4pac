@@ -1,0 +1,127 @@
+# Relots excluded for now
+# group: rretail
+# name: rretail-supermarket-relots-version-20
+# version: "1.0"
+# subfolder: 300-commercial
+# info:
+#   summary: RRetail Supermarket Relots - Version 2.0
+#   description: |-
+#     I've decided to embark upon a journey to redo a select few of my previous relots. The lots in this pack have all been redone to be different then the relots I originally uploaded. This pack consists of models from [@SimGoober](https://community.simtropolis.com/profile/24419-simgoober/) , [@MarcosMX](https://community.simtropolis.com/profile/111156-marcosmx/), [@nos.17](https://community.simtropolis.com/profile/455740-nos17/) and others.
+
+#     A few of these lots will require lotplop.
+
+#     Lot Sizes:
+
+#     -   BMX Amy's Grocery
+#         -   3x3 lot
+#     -   BMX Peton's Supermarket
+#         -   6x7 lot
+#     -   DGR Save-On Foods
+#         -   6x7 lot
+#     -   DGR Sobey's
+#         -   6x6 lot
+#     -   DK1 Kroger
+#         -   3x4 lot
+#     -   JRG Food 4 Less
+#         -   6x8 lot
+#     -   NWMInc Lowe's Foods
+#         -   6x7 lot
+#     -   Oppie Aldi
+#         -   3x4 lot
+#     -   SG Champion
+#         -   Version 1
+#             -   6x3 lot
+#         -   Version 2
+#             -   5x6 lot
+#     -   SG Food Lion
+#         -   5x6 lot
+#     -   SG Kroger
+#         -   7x9 lot
+#     -   SG Lidl Market
+#         -   4x5 lot
+#     -   SG Piggly Wiggly
+#         -   Classic
+#             -   3x4 lot
+#         -   Strip Center
+#             -   6x7 lot
+#     -   SG Publix
+#         -   6x9 lot
+#     -   SG Safeway
+#         -   5x5 lot
+#     -   SG Sainsbury's
+#         -   5x5 lot
+#     -   SG Shoppers
+#         -   6x7 lot
+#     -   SG Tesco
+#         -   6x9 lot
+#     -   SG Tops
+#         -   7x8 lot
+#     -   SG Wegmans
+#         -   6x8 lot
+#     -   SRD H-E-B
+#         -   7x9 lot
+#   author: RRetail
+#   website: https://community.simtropolis.com/files/file/32329-rretail-supermarket-relots-version-20/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.49cc951675d9238e7b24b7bb3a102eab.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.3f27f8074d7e620b55e3733b2c6a7f2a.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.66303833eefccd42c3b643f4d506df2a.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.4303100b89e4ed0838f0f8393515b54a.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.666809c873c0bd520faa39107e171890.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.d48319cf0257aef731b33f8a42d21ffe.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.a495ca4ae80c376b07412659d9622bab.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.de9c7d22874bab89e5eaf3007d1cad4b.jpg
+# dependencies:
+#   - '"[newman inc lowes foods](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1036)"'
+#   - bsc:mega-props-sg-vol01
+#   - bsc:mega-props-jes-vol03
+#   - lbt:mega-prop-pack-vol01
+#   - rretail:mega-prop-pack-vol1
+#   - mushymushy:na-53ft-trailers-vol1
+#   - shk:parking-pack
+#   - supershk:mega-parking-textures
+#   - supershk:fa3-parking-textures
+#   - girafe:beeches
+#   - girafe:berries
+#   - girafe:chestnuts
+#   - girafe:elms
+#   - girafe:feather-grass
+#   - girafe:hedges
+#   - girafe:lindens
+#   - girafe:maples-v2
+#   - girafe:narcissus
+#   - girafe:poplars
+#   - girafe:rowan-trees
+#   - '"[](https://community.simtropolis.com/files/file/17272-blam-amys-grocery/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3752-aldi/)"'
+#   - dk1:retro-kroger
+#   - '"[](https://community.simtropolis.com/files/file/2885-food-lion-grocery-store/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3257-safeway-gorcery-store/)"'
+#   - '"[](https://community.simtropolis.com/files/file/16602-blam-petons-supermarket/)"'
+#   - b62:safeway-70s-retro-grocery
+#   - b62:albertsons-retro-grocery
+#   - '"[](https://community.simtropolis.com/files/file/3720-food4less/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3541-piggly-wiggly-grocery-store/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3583-shoppers-food-warehouse/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3542-publix-grocery-store/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3539-wegmans-grocery-store/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3540-tops-grocery-store/)"'
+#   - '"[](https://community.simtropolis.com/files/file/20964-piggly-wiggly-classic/)"'
+#   - '"[](https://community.simtropolis.com/files/file/10941-lidl-grocery-store/)"'
+#   - '"[](https://community.simtropolis.com/files/file/11354-sainsbury-grocer-suburban-version/)"'
+#   - '"[](https://community.simtropolis.com/files/file/10942-champion-supermarche/)"'
+#   - b62:safeway-60s-retro-grocery
+#   - '"[](https://community.simtropolis.com/files/file/14021-sobeys/)"'
+#   - b62:pick-n-save
+#   - '"[](https://community.simtropolis.com/files/file/14061-save-on-food/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3287-kroger-grocery-store/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3645-tesco-grocery-store/)"'
+#   - b62:hy-vee-supermarket-and-gas
+# assets:
+#   - assetId: rretail-rretail-supermarket-relots-version-20
+
+# ---
+# assetId: rretail-rretail-supermarket-relots-version-20
+# version: "1.0"
+# lastModified: "2018-06-23T20:13:08Z"
+# url: https://community.simtropolis.com/files/file/32329-rretail-supermarket-relots-version-20/?do=download

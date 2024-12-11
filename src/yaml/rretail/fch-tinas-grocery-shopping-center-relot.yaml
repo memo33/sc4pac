@@ -1,0 +1,42 @@
+# Relots excluded for now
+# group: rretail
+# name: fch-tinas-grocery-shopping-center-relot
+# version: "1.1"
+# subfolder: 300-commercial
+# info:
+#   summary: FCH Tina's Grocery Shopping Center Relot
+#   description: |-
+#     I've decided to embark upon a journey to redo a select few of my previous relots. Next up is just one of many shopping centers using existing buildings already made for SimCity 4. If a brand isn't available to use or is way out of scale when next to other buildings, I cannot use it as part of these shopping centers.
+
+#     This shopping center is ideal for small communities and meant to compliment the previous small town plazas, but will fit and work by itself as well.
+
+#     The lot itself is on a **10x8** space.
+#   author: RRetail
+#   website: https://community.simtropolis.com/files/file/32369-fch-tinas-grocery-shopping-center-relot/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.9af2e83c58f53c0081e204c15ff344c4.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.f71603ad7aa07474054202be2447a1dd.jpg
+# dependencies:
+#   - "[tina's food & drug](https://community.simtropolis.com/files/file/26064-tinas-food-drug/)"
+#   - bsc:mega-props-sg-vol01
+#   - lbt:mega-prop-pack-vol01
+#   - mushymushy:na-53ft-trailers-vol1
+#   - shk:parking-pack
+#   - supershk:mega-parking-textures
+#   - supershk:fa3-parking-textures
+#   - girafe:beeches
+#   - girafe:berries
+#   - girafe:chestnuts
+#   - girafe:feather-grass
+#   - girafe:lindens
+#   - girafe:maples-v2
+#   - girafe:poplars
+#   - girafe:rowan-trees
+# assets:
+#   - assetId: rretail-fch-tinas-grocery-shopping-center-relot
+
+# ---
+# assetId: rretail-fch-tinas-grocery-shopping-center-relot
+# version: "1.1"
+# lastModified: "2020-06-20T00:47:41Z"
+# url: https://community.simtropolis.com/files/file/32369-fch-tinas-grocery-shopping-center-relot/?do=download
