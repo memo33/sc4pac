@@ -1,0 +1,45 @@
+group: rretail
+name: the-home-depot
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: The Home Depot
+  description: |-
+    The Home Depot is a home-improvement retailer that operates stores in the United States, Mexico and Canada. The company was co-founded in 1978 by Bernard Marcus, Arthur Blank, Ron Brill, and Pat Farrah. Investment banker Ken Langone also helped Marcus and Blank to secure the finances needed to get the company going. The first two stores, in spaces leased from J. C. Penney that were originally Treasure Island stores, opened in metro Atlanta on June 21, 1979.
+
+    12x11 lot with around 600 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33314-the-home-depot/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5dea97e74fec0_RRHomeDepot.jpg.f0ee44202b57d1319a54749be9efc5e0.jpg
+dependencies:
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol08
+  - bsc:mega-props-mjb-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-the-home-depot
+
+---
+assetId: rretail-the-home-depot
+version: "1.1"
+lastModified: "2020-06-20T14:43:05Z"
+url: https://community.simtropolis.com/files/file/33314-the-home-depot/?do=download
