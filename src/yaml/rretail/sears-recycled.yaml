@@ -1,0 +1,45 @@
+group: rretail
+name: sears-recycled
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Sears Recycled
+  description: |-
+    Another retail recycle has occurred in SimCity. As we all know the sorry state of Sears, here’s an option for some reuse in what would otherwise be an empty building. Hobby Lobby, Harbor Frieght Tools, and Planet Fitness make effective use of the former Sears at the Village Crossroads Mall.
+
+    The lot has been changed but is still designed to replace the Village Crossroads Mall Sears anchor lot. The empty grass area is implied to be room for future development with the demolition of the Sears Auto Center.
+
+    12x19 lot with 144 jobs.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33070-sears-recycled/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d4b72e8b71ec_RRSearsRecycled.jpg.4ea4aee970f7ebf4d3dd3d71d2f3f9cf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d4b736b0f2b5_RRSearsRecycled.jpg.df60d22985f250de8054aaf56cf91469.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d4b7392401dc_RRSearsRecycled.jpg.4bb853c1f69f29d8eacaed3c942f5059.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - lbt:mega-prop-pack-vol01
+  - mushymushy:na-53ft-trailers-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-sears-recycled
+
+---
+assetId: rretail-sears-recycled
+version: "1.0"
+lastModified: "2019-08-08T00:58:08Z"
+url: https://community.simtropolis.com/files/file/33070-sears-recycled/?do=download
