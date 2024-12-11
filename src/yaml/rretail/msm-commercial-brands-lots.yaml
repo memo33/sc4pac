@@ -1,0 +1,70 @@
+# This package is a bit weird because it is grouped in two uploads on 
+# Simtropolis, one containing the models, and one containing the *lots* AND 
+# *props. We've restructured it so that there are now two packages: one with the 
+# models and props, and one with the lots.
+group: rretail
+name: msm-commercial-brands
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Modular Strip Mall Commercial Brands
+  description: |-
+    5 growable lots and 1 massive ploppable lot. Lot sizes vary in size between 1x2 to 2x3 or 3x2.
+
+    As part of the RR MSM (Modular Strip Mall) series of buildings, these buildings are designed to fit all together by use of props to create a shopping commercial complex for your neighborhood. It is highly recommended to customize the lots to your liking if you wish to do so. The included props are of the MSM Commercial Model buildings found in the dependency list below.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32756-rr-msm-commercial-brands-lots-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/5c68a2a4dd63e_RRMSMCommericalBrandsLotsProps.jpg.005810294dd6543a9ede34b348700118.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/5c68af3a0bdb6_RRMSMLotsProps1.jpg.c57d17731885bc593e5af3420978dd2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/5c68af3b06c41_RRMSMLotsProps2.jpg.3a72d6c7c7473aed928339910b215be2.jpg
+dependencies:
+  - rretail:msm-commercial-brands-models-props
+  - pc:mega-props-vol1
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-msm-commercial-brands-lots-props
+    include:
+      - /Lots/
+
+---
+group: rretail
+name: msm-commercial-brands-models-props
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Modular Strip Mall Commercial Brands resource pack
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32755-rr-msm-commercial-brands-models/
+assets:
+  - assetId: rretail-msm-commercial-brands-lots-props
+    include:
+      - /Props
+  - assetId: rretail-msm-commercial-brands-models
+
+---
+assetId: rretail-msm-commercial-brands-lots-props
+version: "1.0"
+lastModified: "2019-02-17T00:48:00Z"
+url: https://community.simtropolis.com/files/file/32756-rr-msm-commercial-brands-lots-props/?do=download
+
+---
+assetId: rretail-msm-commercial-brands-models
+version: "1.0"
+lastModified: "2019-02-16T23:47:56Z"
+url: https://community.simtropolis.com/files/file/32755-rr-msm-commercial-brands-models/?do=download
