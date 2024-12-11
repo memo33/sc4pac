@@ -1,0 +1,37 @@
+group: rretail
+name: harbor-freight-tools
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Harbor Freight Tools
+  description: |-
+    With its headquarters in Calabasas, California, Harbor Freight Tools is a tool and equipment retailer, which operates both a chain of retail stores and a mail-order and eCommerce business. The company has over 1000 stores in 47 states and continues to grow.
+
+    This standalone location is designed based off of plans for a local store that is not yet open as of August 2019.
+
+    5x5 lot with 105 jobs
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33103-harbor-freight-tools/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/5d606657cc02f_RRHarborFreightTools.jpg.a0220e61e53ad09ba3ae07f246c81c3c.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:berries
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-harbor-freight-tools
+
+---
+assetId: rretail-harbor-freight-tools
+version: "2.0"
+lastModified: "2019-08-23T22:19:10Z"
+url: https://community.simtropolis.com/files/file/33103-harbor-freight-tools/?do=download
