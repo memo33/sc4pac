@@ -11,8 +11,6 @@ info:
 
     As with all such lots, when you switch to subway only passenger traffic can continue through the subway. So either find another route for your freight traffic or perhaps consider using the dedicated URail pieces that come with the NAM.
 
-    Due to the nature of LODs, i.e. you cannot make them below ground, the rail automata must "collide" with the LODs when entering the ramp. However, upon testing I found I preferred for the trains to enter into the ramp, despite the glitch, as opposed to disappearing at the beginning of the lot. The point being, this is not a bug.
-
     **Details / Stats**
 
     - Cost to Plop: 2,144  
