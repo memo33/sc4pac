@@ -1,0 +1,32 @@
+group: rretail
+name: western-dental
+version: "2.0"
+subfolder: 630-health
+info:
+  summary: Western Dental
+  description: |-
+    Western Dental & Orthodontics is a chain of dental offices that was founded in 1903 in Los Angeles, CA. Founded over 100 years ago in 1903, the commonly is headquartered in Orange, CA. Western Dental has almost 250 offices across California, Arizona, Nevada and Texas.
+
+    3x3 lot that acts as a small clinic.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32217-western-dental/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d092a716a2fa_RRWesternDental.jpg.edc192d4057224f670f577877133e228.jpg
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-western-dental
+
+---
+assetId: rretail-western-dental
+version: "2.0"
+lastModified: "2019-06-18T18:16:25Z"
+url: https://community.simtropolis.com/files/file/32217-western-dental/?do=download
