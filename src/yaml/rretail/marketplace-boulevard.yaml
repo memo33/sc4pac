@@ -1,0 +1,101 @@
+group: rretail
+name: marketplace-boulevard
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Marketplace Boulevard
+  description: |-
+    This 5\-lot complex takes inspiration from various shopping centers typically found in the suburbs of larger cities.
+
+    4 of the lots provide jobs totaling to an amount of 1238 jobs.
+
+    Lots:
+
+    -   Lower Left
+        -   15x23 lot with 349 jobs
+    -   Lower Right
+        -   13x17 lot with 404 jobs
+    -   Upper Left
+        -   15x9 lot with 229 jobs
+    -   Upper Right
+        -   14x16 lot with 256 jobs
+    -   Upper Left Extension
+        -   8x1 lot for cosmetic transition between the upper lots
+
+    Brands featured include:
+
+    -   Lowe’s
+    -   Cinemark
+    -   Safeway
+    -   Stein Mart
+    -   Plato’s Closet
+    -   Jos A. Bank
+    -   Sketchers Outlet
+    -   Jimmy John’s
+    -   Med-Express Urgent Care
+    -   AAA Travel
+    -   Cost Cutters
+    -   Pearle Vision
+    -   Chuck E. Cheese’s
+    -   GAP Factory
+    -   Dick’s Sporting Goods
+    -   La-Z-Boy Furniture Gallery
+    -   Kirkland’s
+    -   Buy Buy Baby
+    -   Marshall’s
+    -   Staples
+    -   Shoe Carnival
+    -   Guitar Center
+    -   Qdoba Mexican Eats
+    -   Sally Beauty Supply
+    -   Carter’s
+    -   Osh Kosh B’Gosh
+    -   Lane Bryant
+    -   Christopher & Banks
+    -   Jared Jewelry
+    -   Chili’s
+    -   Pier 1 Imports
+    -   U.S. Bank
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/33308-marketplace-boulevard/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5de990276d179_RRMarketplaceBlvd.jpg.1ea4222638489b3be5908e39bf3caf2c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5de9913ce7e1a_RRMarketplaceBlvd.jpg.ef5a6622699306f5fcfc6bbb5b4e4430.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5de99164e6ce5_RRMarketplaceBlvd.jpg.34ef49e29e9ab64e9acf26ced71f811e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5de991839590c_RRMarketplaceBlvd.jpg.82ef2abcaac3660bfa8de4db5af80cab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5de991ff33b82_RRMarketplaceBlvd.jpg.2aacc53c5ba107749830332166753214.jpg
+dependencies:
+  - rretail:lowes
+  - rretail:cinemark
+  - rretail:pier-1-imports
+  - mushymushy:na-53ft-trailers-vol1
+  - bsc:mega-props-sg-vol01
+  - rretail:mega-prop-pack-vol1
+  - lbt:mega-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:chestnuts
+  - girafe:common-spruces
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:hedges
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+  - girafe:walnut-trees
+assets:
+  - assetId: rretail-marketplace-boulevard
+
+---
+assetId: rretail-marketplace-boulevard
+version: "1.1"
+lastModified: "2020-06-20T15:00:33Z"
+url: https://community.simtropolis.com/files/file/33308-marketplace-boulevard/?do=download
