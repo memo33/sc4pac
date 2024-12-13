@@ -24,6 +24,7 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:sg-models-im1
 assets:
   - assetId: rretail-rite-aid
 

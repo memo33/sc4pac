@@ -22,6 +22,8 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - nos17:essentials
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-afc-urgent-care
 

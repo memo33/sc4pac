@@ -37,6 +37,7 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - nos17:essentials
 assets:
   - assetId: rretail-strip-mall-2
 

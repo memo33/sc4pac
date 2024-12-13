@@ -34,6 +34,9 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - girafe:sparaxis
+  - bsc:mega-props-jes-vol09
+  - girafe:lupins
+  - nos17:essentials
 assets:
   - assetId: rretail-gas-stations-pack-three
 

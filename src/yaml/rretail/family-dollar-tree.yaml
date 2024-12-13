@@ -24,6 +24,7 @@ dependencies:
   - girafe:feather-grass
   - girafe:lindens
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
 assets:
   - assetId: rretail-family-dollar-tree
 

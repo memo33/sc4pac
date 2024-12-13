@@ -24,6 +24,7 @@ dependencies:
   - girafe:feather-grass
   - girafe:berries
   - girafe:beeches
+  - bsc:mega-props-misc-vol02
 assets:
   - assetId: rretail-sears-auto-center-small-version
 

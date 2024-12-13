@@ -35,6 +35,11 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - girafe:walnut-trees
+  - bsc:mega-props-misc-vol02
+  - bsc:sg-models-im1
+  - kingofsimcity:logistics-essentials
+  - nos17:essentials
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-the-home-depot
 

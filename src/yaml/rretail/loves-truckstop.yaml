@@ -40,6 +40,8 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
+  - nos17:essentials
 assets:
   - assetId: rretail-loves-truckstop
 

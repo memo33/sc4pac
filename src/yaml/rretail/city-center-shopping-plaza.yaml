@@ -29,6 +29,7 @@ dependencies:
   - supershk:mega-parking-textures
   - kingofsimcity:logistics-essentials
   - girafe:poplars
+  - bsc:mega-props-misc-vol02
 assets:
   - assetId: rretail-city-center-shopping-plaza
 

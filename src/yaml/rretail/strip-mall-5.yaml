@@ -41,6 +41,7 @@ dependencies:
   - girafe:narcissus
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
 assets:
   - assetId: rretail-strip-mall-5
 

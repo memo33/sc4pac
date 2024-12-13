@@ -33,6 +33,10 @@ dependencies:
   - girafe:hedges
   - girafe:maples-v2
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-sg-vol01
+  - girafe:poplars
+  - nos17:essentials
 assets:
   - assetId: rretail-gas-stations-pack-one
 

@@ -32,6 +32,8 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-misc-vol02
 assets:
   - assetId: rretail-tractor-supply-co
 

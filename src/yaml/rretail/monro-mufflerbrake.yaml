@@ -23,6 +23,9 @@ dependencies:
   - girafe:hedges
   - girafe:lindens
   - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
+  - nos17:essentials
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-monro-mufflerbrake
 

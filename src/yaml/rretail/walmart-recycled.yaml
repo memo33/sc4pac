@@ -26,6 +26,8 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:sg-models-im1
+  - girafe:berries
 assets:
   - assetId: rretail-walmart-recycled
 

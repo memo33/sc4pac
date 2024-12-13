@@ -78,6 +78,9 @@ dependencies:
   - girafe:rowan-trees
   - girafe:walnut-trees
   - rretail:motel-6
+  - bsc:mega-props-kevdan25-vol01
+  - bsc:sg-models-im1
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-the-shops-at-simtropolis
 

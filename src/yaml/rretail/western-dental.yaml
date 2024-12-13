@@ -22,6 +22,7 @@ dependencies:
   - girafe:hedges
   - girafe:lindens
   - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
 assets:
   - assetId: rretail-western-dental
 

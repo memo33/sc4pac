@@ -27,6 +27,9 @@ dependencies:
   - girafe:narcissus
   - girafe:poplars
   - girafe:rowan-trees
+  - girafe:elms
+  - girafe:lupins
+  - nos17:essentials
 assets:
   - assetId: rretail-car-wash-pack
 

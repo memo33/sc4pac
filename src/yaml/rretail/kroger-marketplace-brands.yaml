@@ -1,5 +1,3 @@
-# This package comes with 5 very similar lots. The author explicitly does not 
-# recommend to keep them all 5, so we only keep 1 for simplicity.
 group: rretail
 name: kroger-marketplace-brands
 version: "2.0"
@@ -28,7 +26,11 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
-
+  - bsc:mega-props-sg-vol01
+  - bsc:sg-models-im1
+  - girafe:beeches
+  - kingofsimcity:logistics-essentials
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-kroger-marketplace-brands
     include:

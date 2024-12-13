@@ -1,7 +1,3 @@
-# This package is a bit weird because it is grouped in two uploads on 
-# Simtropolis, one containing the models, and one containing the *lots* AND 
-# *props. We've restructured it so that there are now two packages: one with the 
-# models and props, and one with the lots.
 group: rretail
 name: msm-commercial-brands
 version: "1.0"
@@ -37,6 +33,13 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-rt-vol02
+  - bsc:sg-models-im1
+  - nos17:essentials
+  - rretail:msm-defunct-commercial-brands-pack
+  - rretail:msm-health-education-services-pack
+  - sm2:mega-prop-pack-vol1
 assets:
   - assetId: rretail-msm-commercial-brands-lots-props
     include:

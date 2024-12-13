@@ -60,6 +60,8 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - girafe:sparaxis
+  - bsc:mega-props-jes-vol09
+  - nos17:essentials
 assets:
   - assetId: rretail-union-square-plaza
 

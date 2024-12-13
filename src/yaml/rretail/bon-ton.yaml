@@ -23,6 +23,10 @@ dependencies:
   - girafe:feather-grass
   - girafe:rowan-trees
   - girafe:sparaxis
+  - bsc:mega-props-misc-vol02
+  - bsc:sg-models-im1
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:lindens
 assets:
   - assetId: rretail-bon-ton
 

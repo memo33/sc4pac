@@ -33,6 +33,8 @@ dependencies:
   - girafe:narcissus
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
+  - girafe:walnut-trees
 assets:
   - assetId: rretail-dollar-general
 

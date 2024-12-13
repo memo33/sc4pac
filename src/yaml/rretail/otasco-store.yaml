@@ -19,6 +19,7 @@ dependencies:
   - supershk:mega-parking-textures
   - supershk:fa3-parking-textures
   - girafe:narcissus
+  - girafe:hedges
 assets:
   - assetId: rretail-otasco-store
 

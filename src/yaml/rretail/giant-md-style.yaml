@@ -27,6 +27,8 @@ dependencies:
   - girafe:lindens
   - girafe:maples-v2
   - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
+  - bsc:sg-models-im1
 assets:
   - assetId: rretail-giant-md-style
 

@@ -26,6 +26,9 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
+  - nos17:essentials
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-ac-moore-arts-crafts
 

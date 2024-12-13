@@ -73,6 +73,10 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - girafe:sparaxis
+  - bsc:mega-props-jes-vol09
+  - girafe:birches
+  - girafe:lupins
+  - nos17:essentials
 assets:
   - assetId: rretail-harrison-hills-village-center
 

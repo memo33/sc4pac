@@ -32,6 +32,9 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - girafe:sparaxis
+  - bsc:mega-props-jes-vol09
+  - kingofsimcity:logistics-essentials
+  - nos17:essentials
 assets:
   - assetId: rretail-winco-foods-culvers
 

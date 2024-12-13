@@ -27,6 +27,8 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
+  - girafe:berries
 assets:
   - assetId: rretail-tops-friendly-markets
 

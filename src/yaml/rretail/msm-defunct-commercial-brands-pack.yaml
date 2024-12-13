@@ -43,6 +43,7 @@ dependencies:
   - girafe:feather-grass
   - girafe:hedges
   - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
 assets:
   - assetId: rretail-msm-defunct-commercial-brands-pack
 

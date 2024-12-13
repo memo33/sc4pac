@@ -44,6 +44,9 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - girafe:sparaxis
+  - bsc:mega-props-jes-vol09
+  - nos17:essentials
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-northtown-plaza
 

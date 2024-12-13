@@ -46,6 +46,10 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - girafe:walnut-trees
+  - bsc:mega-props-jes-vol09
+  - kingofsimcity:logistics-essentials
+  - nos17:essentials
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-westgate-plaza
 

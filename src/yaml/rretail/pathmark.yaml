@@ -27,6 +27,8 @@ dependencies:
   - girafe:hedges
   - girafe:lindens
   - girafe:narcissus
+  - bsc:mega-props-jes-vol09
+  - nos17:essentials
 assets:
   - assetId: rretail-pathmark
 

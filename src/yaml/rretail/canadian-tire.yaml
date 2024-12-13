@@ -36,6 +36,12 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - girafe:sparaxis
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-jes-vol09
+  - bsc:mega-props-misc-vol02
+  - kingofsimcity:logistics-essentials
+  - nos17:essentials
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-canadian-tire
 

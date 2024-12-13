@@ -24,6 +24,8 @@ dependencies:
   - girafe:feather-grass
   - girafe:maples-v2
   - girafe:narcissus
+  - bsc:mega-props-misc-vol02
+  - girafe:poplars
 assets:
   - assetId: rretail-sears-auto-center-large-version
 

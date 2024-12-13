@@ -35,6 +35,10 @@ dependencies:
   - girafe:narcissus
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
+  - girafe:daisy
+  - nos17:essentials
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-gas-stations-pack-two
 

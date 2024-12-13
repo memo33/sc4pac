@@ -33,6 +33,9 @@ dependencies:
   - girafe:maples-v2
   - girafe:narcissus
   - girafe:poplars
+  - bsc:mega-props-jes-vol09
+  - girafe:hedges
+  - girafe:rowan-trees
 assets:
   - assetId: rretail-video-stores-recycled
 

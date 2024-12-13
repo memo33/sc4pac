@@ -20,6 +20,8 @@ dependencies:
   - supershk:fa3-parking-textures
   - girafe:lindens
   - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-sg-vol01
 assets:
   - assetId: rretail-keybank
 

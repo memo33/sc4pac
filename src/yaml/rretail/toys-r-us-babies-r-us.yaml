@@ -24,6 +24,7 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
 assets:
   - assetId: rretail-toys-r-us-babies-r-us
 

@@ -27,6 +27,10 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
+  - kingofsimcity:logistics-essentials
+  - mushymushy:na-53ft-trailers-vol1
+  - nos17:essentials
 assets:
   - assetId: rretail-target-style-2
 

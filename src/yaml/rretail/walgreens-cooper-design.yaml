@@ -25,6 +25,8 @@ dependencies:
   - girafe:lindens
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
+  - nos17:essentials
 assets:
   - assetId: rretail-walgreens-cooper-design
 

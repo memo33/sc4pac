@@ -25,6 +25,8 @@ dependencies:
   - girafe:narcissus
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
+  - bsc:texturepack-cycledogg-vol01
 assets:
   - assetId: rretail-sears-hometown-store
 

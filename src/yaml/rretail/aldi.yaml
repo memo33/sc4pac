@@ -27,6 +27,9 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:sg-models-im1
+  - girafe:narcissus
+  - nos17:essentials
 assets:
   - assetId: rretail-aldi
 

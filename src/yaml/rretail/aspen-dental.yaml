@@ -24,6 +24,7 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - rretail:mega-prop-pack-vol2
 assets:
   - assetId: rretail-aspen-dental
 

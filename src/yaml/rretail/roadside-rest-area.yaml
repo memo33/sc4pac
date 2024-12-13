@@ -4,17 +4,14 @@ version: "1.1"
 subfolder: 700-transit
 info:
   summary: Roadside Rest Area
-  description: >
+  description: |
     This rest area building and lot are inspired by the design of the Campbell, NY rest area along I-86 in western New York.
-
     It comes in a size 4x15 lot which acts as a bus stop in game. Both lots also feature transit connection with one way streets for a better transition with the NAM system.
-
   author: RRetail, kingofsimcity
   website: https://community.simtropolis.com/files/file/32713-roadside-rest-area/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/5c390a715e64a_RRRestArea.jpg.ad03d3d89fd442749dad7f6e6ad26024.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/5c390bfd4ab34_RRRestArea.jpg.777fc21e2c96ebc42e434dd806cb551d.jpg
-
 dependencies:
   - mushymushy:na-53ft-trailers-vol1
   - bsc:mega-props-dae-vol01
@@ -38,7 +35,8 @@ dependencies:
   - girafe:rowan-trees
   - girafe:sparaxis
   - girafe:walnut-trees
-
+  - bsc:mega-props-misc-vol02
+  - kingofsimcity:logistics-essentials
 variants:
   - variant: { driveside: right }
     assets:

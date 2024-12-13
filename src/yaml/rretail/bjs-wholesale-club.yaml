@@ -33,6 +33,9 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - girafe:walnut-trees
+  - bsc:mega-props-jes-vol09
+  - bsc:sg-models-im1
+  - nos17:essentials
 assets:
   - assetId: rretail-bjs-wholesale-club
 

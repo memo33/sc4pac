@@ -37,6 +37,9 @@ dependencies:
   - girafe:narcissus
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
+  - girafe:lupins
+  - nos17:essentials
 assets:
   - assetId: rretail-h-e-b-braums-dairy
 

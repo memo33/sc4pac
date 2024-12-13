@@ -31,6 +31,7 @@ dependencies:
   - girafe:poplars
   - girafe:rowan-trees
   - girafe:walnut-trees
+  - bsc:mega-props-jes-vol09
 assets:
   - assetId: rretail-shopko-recycled
 

@@ -33,6 +33,9 @@ dependencies:
   - girafe:narcissus
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-jes-vol09
+  - girafe:hedges
+  - nos17:essentials
 assets:
   - assetId: rretail-video-rental-stores
 

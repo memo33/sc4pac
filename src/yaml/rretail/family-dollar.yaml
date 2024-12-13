@@ -24,6 +24,9 @@ dependencies:
   - girafe:maples-v2
   - girafe:poplars
   - girafe:rowan-trees
+  - bsc:mega-props-misc-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - girafe:narcissus
 assets:
   - assetId: rretail-family-dollar
 
