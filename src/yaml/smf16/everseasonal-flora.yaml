@@ -1,0 +1,91 @@
+group: smf16
+name: everseasonal
+version: "1.0"
+subfolder: 900-overrides
+info:
+  summary: Everseasonal Variant Switcher
+  description: |-
+    This package is a dependency for all of smf_16's everseasonal flora packages.
+    It does nothing on its own, but it provides the variants that the individual packages use to control their appearance.
+
+    The idea of having "everseasonal" flora that can statically change looks instead of changing in the game was based on the excellent `pkg=11241036central-european-tree-controller`.
+    It is highly recommended to use all everseasonal flora packages with this tree controller.
+variants:
+  - variant: { smf16:everseasonal:mode: summer }
+  - variant: { smf16:everseasonal:mode: fall }
+  - variant: { smf16:everseasonal:mode: winter }
+  - variant: { smf16:everseasonal:mode: snowy }
+  - variant: { smf16:everseasonal:mode: spring }
+  - variant: { smf16:everseasonal:mode: seasonal }
+variantDescriptions:
+  smf16:everseasonal:mode:
+    summer: Ensures flora always appears as if it were summer. Also known as evergreen.
+    fall: Ensures flora always appears as if it were dall.
+    winter: Ensures flora always appears as if it were winter.
+    snowy: Ensures flora always appears as if it were winter, but uses a snowy tree if available.
+    spring: Ensures flora always appears as if it were spring. For most flora this is equivalent to the summer, but it may vary for props with a spring variant.
+    seasonal: Equivalent to uninstalling the mod. Seasonal flora and props remain seasonal, and evergreen flora and props remains evergreen.
+
+---
+group: smf16
+name: everseasonal-girafe
+version: "1.0"
+subfolder: 900-overrides
+info:
+  summary: Everseasonal Girafe Flora and Props
+  description: |-
+    This package changes the appearance of all of Girafe's flora and props to always match the look of the configured season, regardless of the ingame time.
+    This means that you can enjoy the stunning looks of seasonal flora, but without their drawbacks, such as having to plant them on September 1st.
+
+    Changing seasons is as simple as changing the smf16:everseasonal:mode variant.
+    You can do this by running
+    ```
+    sc4pac variant reset smf16:everseasonal:mode
+    sc4pac update
+    ```
+    after which you will be prompted to select the season you'd like to use.
+    You have to exit the game first to be able to do this!
+
+    Note that the "everwinter" coniferous flora has intentionally been left unaffected.
+    This means that whatever variant you're using - even the summer one! - they will still look snowy.
+    The idea is that everwinter coniferous flora is planted on higher altitudes where there can be snow, even in summer.
+    If you want coniferous flora that only looks snowy in "snowy" mode, make sure to plant the evergreen variant.
+  warning:
+    Although this mod will make seasonal flora look the same regardless of the ingame time, it is important to realize that under the hood they still function as seasonal flora.
+    This means that if you ever plan to use them as true seasonal flora again, it is still important to plant them on September 1st, or they will be out of sync if you remove this mod!
+dependencies:
+  - memo:submenus-dll
+  - smf16:everseasonal
+variants:
+  - variant: { smf16:everseasonal:mode: summer }
+    assets:
+      - assetId: smf16-everseasonal-girafe-flora-and-props
+        include:
+          - _SUMMER.dat
+  - variant: { smf16:everseasonal:mode: fall }
+    assets:
+      - assetId: smf16-everseasonal-girafe-flora-and-props
+        include:
+          - _FALL.dat
+  - variant: { smf16:everseasonal:mode: winter }
+    assets:
+      - assetId: smf16-everseasonal-girafe-flora-and-props
+        include:
+          - _WINTER.dat
+  - variant: { smf16:everseasonal:mode: snowy }
+    assets:
+      - assetId: smf16-everseasonal-girafe-flora-and-props
+        include:
+          - _SNOWY.dat
+  - variant: { smf16:everseasonal:mode: spring }
+    assets:
+      - assetId: smf16-everseasonal-girafe-flora-and-props
+        include:
+          - _SPRING.dat
+  - variant: { smf16:everseasonal:mode: seasonal }
+
+---
+assetId: smf16-everseasonal-girafe-flora-and-props
+version: "1.0"
+lastModified: "2024-12-13T20:41:00Z"
+url: file:///C:/Users/sebam/Documents/SimCity%204%20modding/Mods/Everseasonal%20Girafe/Everseasonal%20Girafe%20Flora%20and%20Props.zip
