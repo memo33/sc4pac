@@ -1,0 +1,37 @@
+group: sm2
+name: trash-barge-a
+version: "1.0"
+subfolder: 500-utilities
+info:
+  summary: Trash Barge A
+  description: |-
+    Plop it on water. For very large cities you may plop several and watch the garbage disappear.  
+    You can even plop it on a small lake if you wish.
+
+     - Plop cost: 7000
+     - Bulldoze cost: 700
+     - Power req: 0
+     - Water req: 0
+     - Trash shipped 25000 tons monthly
+     - Monthly maintenance: 100
+
+    This lot is not animated. It just represents a simple trash barge hauling garbage but it does not move, however it still functions as a recycling center.
+
+    You will find it under the garbage menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32950-sm2-trash-barge-a/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/tb4.jpg.e490de47c9666a26d2abbcf9791291f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/tb1.jpg.ef100edf7493bd3e391317647614e9ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/tb2.jpg.a2a9ae038784bd19891eb410cbe7dfd3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/tb3.jpg.e270d9798c671807d9b5ed38357462d1.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol4
+assets:
+  - assetId: sm2-trash-barge-a
+
+---
+assetId: sm2-trash-barge-a
+version: "1.0"
+lastModified: "2019-12-02T06:08:00Z"
+url: https://community.simtropolis.com/files/file/32950-sm2-trash-barge-a/?do=download

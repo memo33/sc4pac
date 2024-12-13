@@ -1,0 +1,56 @@
+group: sm2
+name: billboards-pack-vol1
+version: "2.0"
+subfolder: 660-parks
+info:
+  summary: Billboards Pack Vol1
+  description: |-
+    12 different large billboards all nitelited and ready to spice up your cities.
+
+    This pack consists of 3 pairs of lots each one with its own easy to follow icon.
+
+    Each lot will drop 1 of 6 possible billboards. For a total of 12 different props
+
+     - Vol1: Amazon - Apple - Audi - BMW - Cocacola - Ford
+     - Vol2: Google - Jackpot - Pepsi - Samsung - Skittle - Volvo
+     - SM2 BB Vol1 and Vol2 -- no base texture, perfect for rural areas and MMP usage
+     - SM2 BB SBC Vol1 and Vol2 (Sound Barrier Compatible) also no base texture. dress it with MMP if you wish
+     - SM2 BB WB Vol1 and Vol2 (With Base) Perfect for inner city areas where a parking lot blends in.
+
+    They all require power but no water.
+
+     - Plop Cost: 10
+     - Bulldoze cost: 0
+     - Maintenance cost: 0
+
+    All of them will give 250 CAP relief on all 3 residential wealth's.
+
+    Also a bit of mayor and landmark effect.
+
+    You will find them in the park menu.
+
+    Keep plopping until you get the desired billboard!
+
+    See also `pkg=sm2:concrete-sound-barriers` for the set that is Sound Barrier Compatible.
+
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32521-sm2-billboards-pack-vol1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/BBB1.jpg.2eddb2c2584b944be3deb9fc69bc4cf2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/BBB2.jpg.a56102e19ea68e8a4ba913db6c386b13.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/BBB3.jpg.5f2a1ba12541415d4dd90125e591b68b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/BBB4.jpg.e944fe4b6f021237aacd61ebd964bdc2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/BBB5.jpg.3838c0f2c3fb2e80b4d55f93de3ac61d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/BBB6.jpg.3c43cebe47ff0fc8430aea45b13e426a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/BBB7.jpg.32203c86e8e14af6da1d7462cc5a841b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/5bab15da275ee_Billboardsicons.jpg.fd437ebf6d839d4cd0a45c2932217c56.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol3
+assets:
+  - assetId: sm2-billboards-pack-vol1
+
+---
+assetId: sm2-billboards-pack-vol1
+version: "2.0"
+lastModified: "2019-03-15T17:51:29Z"
+url: https://community.simtropolis.com/files/file/32521-sm2-billboards-pack-vol1/?do=download

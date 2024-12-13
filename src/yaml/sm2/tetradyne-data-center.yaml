@@ -1,0 +1,37 @@
+group: sm2
+name: tetradyne-data-center
+version: "2.0"
+subfolder: 400-industrial
+info:
+  summary: Tetradyne Data Center
+  description: |-
+    A futuristic building built specifically to house banks of servers for data storage.
+
+     - Lot size: 6x6
+     - Plop cost: 40,000
+     - Bulldoze cost: 15,000
+     - Water consumed: 40
+     - Power consumed: 62
+     - Provides 160 CO$$$ high wealth jobs
+
+    You will find it under the Landmark menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32516-sm2-tetradyne-data-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Tetra5.jpg.c2c59371c781e45fb9604cfd4169dc92.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Tetra4.jpg.07f7073d1f8e101f8b1b94f538710553.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Tetra3.jpg.219ff9399b9670a470897389d4480e21.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Tetra2.jpg.d31ea91d06ca3e36ee32cbe2ea0fa320.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/Tetra1.jpg.4edd4b0b2d7a4adc939868383fadffc2.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol3
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - supershk:mega-parking-textures
+assets:
+  - assetId: sm2-tetradyne-data-center
+
+---
+assetId: sm2-tetradyne-data-center
+version: "2.0"
+lastModified: "2019-03-15T17:55:47Z"
+url: https://community.simtropolis.com/files/file/32516-sm2-tetradyne-data-center/?do=download

@@ -1,0 +1,44 @@
+group: sm2
+name: scrap-metal-transfer-station
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Scrap Metal Transfer Station
+  description: |-
+    This is a local scrap metal transfer station, where anything metal starts its journey before reaching a proper processing center.
+
+    There used to be a lot of them in the past. Metal is collected and then transported to facilities such as these. It is then loaded onto railcars to be transported to a proper processing center where is then crunched into smaller pieces or compressed into blocks.
+
+    Finally it is brought to a smelting center to be transformed into new metal items, just to start the cycle again.
+
+    Each unit serves up to 50,000 people at 50% recycling reduction.
+
+    You will find it under the utility menu.
+
+     - Lot size: 8X5
+     - Plop cost: 15,000
+     - Power used: 36
+     - Water used: 90
+
+    Lots of timed props where used to make this lot somewhat animated. Action starts at 7am and goes on till closing time at 6pm.
+
+    Due to game lag, you may experience props overlapping. Its not an issue. Wait a bit and it will correct itself.
+
+    RRW DTR rail will connect to this lot visually only therefore it will have to be on a rail spur, not the main line.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32182-sm2-scrap-metal-transfer-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/SM1.jpg.90dafe65091c3bd7d3b68d10c820e845.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/lAwaqw9.jpg.938ecd17217ec6e51526b027290fd491.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_03/ofuglYY.jpg.abe908906e4eeaa2f165919bd456c87a.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol1
+  - sm2:essentials
+assets:
+  - assetId: sm2-scrap-metal-transfer-station
+
+---
+assetId: sm2-scrap-metal-transfer-station
+version: "2.0.0"
+lastModified: "2018-08-23T04:07:16Z"
+url: https://community.simtropolis.com/files/file/32182-sm2-scrap-metal-transfer-station/?do=download

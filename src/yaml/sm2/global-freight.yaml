@@ -1,0 +1,39 @@
+group: sm2
+name: global-freight
+version: "1.0.0"
+subfolder: 700-transit
+info:
+  summary: Global Freight
+  description: |-
+    A freight yard with a DTR line splitting the lot in the middle.  
+    This lot is designed to simulate 2 freight yards into one lot.
+
+    It will also allow both passenger and freight trains to traverse it.
+
+     - Lot size: 4X3
+     - Plop cost: 4500
+     - Bulldoze cost: 150
+     - Power req: 5
+     - Water req: 2
+     - Freight capacity: 22500
+
+    You will find it under the heavy rail menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33186-sm2-global-freight/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/glo1.jpg.d1d68139ec890d818954e75324876471.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/glo2.jpg.7cf5a2f0db849c32e1169bd241cec95a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/glo3.jpg.7d7c732d87303240793c70837f793676.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - sm2:mega-prop-pack-vol3
+assets:
+  - assetId: sm2-global-freight
+
+---
+assetId: sm2-global-freight
+version: "1.0.0"
+lastModified: "2019-09-20T03:50:36Z"
+url: https://community.simtropolis.com/files/file/33186-sm2-global-freight/?do=download

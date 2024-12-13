@@ -1,0 +1,39 @@
+group: sm2
+name: haut-fond-prince-lighthouse
+version: "2.0"
+subfolder: 500-utilities
+info:
+  summary: Haut-Fond Prince Lighthouse
+  description: |-
+    Completed in 1964
+
+    The Haut-Fond Prince Light Tower is a modern pillar light of waisted caisson design. The caisson, anchored below the water’s surface, supports a low, round accommodation unit surrounded by a narrow gallery. The flat roof of the accommodation unit serves as a helicopter pad with a cylindrical tower set to one side.
+
+    A simple gallery and flared lantern sit atop the tower. The light tower is painted in a red and white colour scheme. The caisson, iron pipe railings, and accents below the windows and at the top of the accommodation unit are all painted red. The tower itself features alternating red and white horizontal stripes. The light tower is situated in the lower St.Lawrence River, marking a shoal at the mouth of the Saguenay River.
+
+    This lot can only be plopped on water.  
+    No need to hook it to the power network because it generates its own power.
+
+     - Lot size: 1X1
+     - Plop cost: 6500
+     - Power generated: 25
+
+    You will find it under the utilities menu.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32613-sm2-haut-fond-prince-lighthouse/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/LH2.jpg.77c8c22d92101dd944b4534af9797a9a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/LH3.jpg.7d335ff386392c7e7d8b834b91c44b50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/LH4.jpg.567479301f8ed5530d8d28a21f0cf182.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/LH5.jpg.3bbbe2c1f083fbc1386c97a7eb51e477.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_11/LH6.jpg.9a67675ed997680199479c2150581cc5.jpg
+dependencies:
+  - sm2:mega-prop-pack-vol3
+assets:
+  - assetId: sm2-haut-fond-prince-lighthouse
+
+---
+assetId: sm2-haut-fond-prince-lighthouse
+version: "2.0"
+lastModified: "2019-03-15T17:04:54Z"
+url: https://community.simtropolis.com/files/file/32613-sm2-haut-fond-prince-lighthouse/?do=download

@@ -1,0 +1,40 @@
+group: sm2
+name: middleport-pottery
+version: "2.0.0"
+subfolder: 400-industrial
+info:
+  summary: Middleport Pottery
+  description: |-
+    An 18th century pottery manufacturing establishment. Pottery making was a big business 100 years ago and more.  
+    There are lots of these types of buildings all over Europe and even in the USA, some are abandoned, some have been renovated in to modern businesses. Yet others have been converted in to residential condos.
+
+     - Medium wealth industrial manufacturing lot.
+     - Lot size: 4x1
+     - Growth stage: Growth 
+     - Jobs provided I-M 95
+     - Power req: 8
+     - Water req: 18
+     - Bulldoze cost: 566
+
+    It will grow in high density industrial zoning.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/34433-sm2-middleport-pottery/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/midd1.jpg.f1a60544f922096eb0ec294e63d6d577.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/midd2.jpg.e68239176d9b1f6714d0b0582c5ded79.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/midd3.jpg.1935e776057d5406a80c10bc09dd7702.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/midd4.jpg.e9440bade3491af9cb152adf71be05eb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/midd5.jpg.5c6076b33b0692ec1771649aa8064089.jpg
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol4
+  - sm2:mega-prop-pack-vol6
+assets:
+  - assetId: sm2-middleport-pottery
+
+---
+assetId: sm2-middleport-pottery
+version: "2.0.0"
+lastModified: "2022-02-25T18:49:12Z"
+url: https://community.simtropolis.com/files/file/34433-sm2-middleport-pottery/?do=download

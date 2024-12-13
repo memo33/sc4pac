@@ -1,0 +1,39 @@
+group: sm2
+name: pacific-freight-ltd
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Pacific Freight Ltd
+  description: |-
+    Full fledged DTR freight station with built in siding
+
+     - Lot size: 10X5
+     - Freight capacity: 24000
+     - Provides 45 IM jobs
+     - Requires water and power.
+
+    Bonus, this lot allows passenger trains to traverse it. You can plop in on a main like if you like.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32503-sm2-pacific-freight-ltd/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/PT1big.jpg.83eed83b13bf3c2bb5ca4614a0a7d22e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/PT2.jpg.860504ccc19b4d3b7b3a9dc4f5b19144.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/PT3.jpg.218acdea8454a6eb6bb4f4d4c1ba9903.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_09/PT4.jpg.b8aca5177a4c3fb8e4e44355b4928b6c.jpg
+  warning: RRW rail network requires NAM to be installed.
+dependencies:
+  - sm2:essentials
+  - sm2:mega-prop-pack-vol1
+  - sm2:mega-prop-pack-vol2
+  - bsc:vip-girafe-carpack-vol01-vol02
+  - girafe:poplars
+  - supershk:mega-parking-textures
+  - angry-mozart:na-covered-hopper-train-props
+assets:
+  - assetId: sm2-pacific-freight-ltd
+
+---
+assetId: sm2-pacific-freight-ltd
+version: "2.0"
+lastModified: "2019-03-15T17:59:21Z"
+url: https://community.simtropolis.com/files/file/32503-sm2-pacific-freight-ltd/?do=download

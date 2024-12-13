@@ -1,0 +1,76 @@
+group: sm2
+name: 60s-freight-and-livestock-railyard
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: 60s Freight and Livestock Railyard
+  description: |-
+    This package includes two massive railyards combined in to one.
+    It is a fictional railyard from the 60's built over and around a turn of the century (1900's) building that was purchased by the National Rail Company.
+
+    They are a pair but could work individually if you wish, however because they are visually connected with rail junctions they are best used together.
+
+    Lot 1 is fully transit enabled to railway and streets therefore only freight traffic will go through. It is advisd to connect these lots on spurs when you create the rail network for it. Allowing passenger traffic to bypass.
+
+    Lot 2 will transit connect with the railway and will function as a freightyard but you will not see the freight trains go fully through it. They will start from and end at it.  
+    It is however fully street transit enabled to freight truck traffic. Same bypass as lot 1 must be implemented.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33000-60s-freight-and-livestock-railyard/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/2zjc80m.jpg.jpg.d77d95aa0e22f85723fe6aa72e9f8a1d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/33za54g.jpg.jpg.1fad7d740bc314b9ecb0b77fcbdfcd9f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/35cq5wk.jpg.jpg.c9bbc39f2734536354f753292208b50e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d1ba960e8268_60sFreightandLivestockRailyard1.jpg.2157dfa29ca64a7ea3d097e974626961.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/5d1ba9622b072_60sFreightandLivestockRailyardsplit.jpg.12204726784441ee806ec318cae4f5d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/fd9da8.jpg.jpg.02a01a079e32b0230712e1d0dd3fc963.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/i6icz4.jpg.jpg.d716baa10feeae5673b38f0a50564073.jpg
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol03
+  - bsc:mega-props-jes-vol04
+  - bsc:mega-props-jes-vol05
+  - bsc:mega-props-jes-vol06
+  - bsc:mega-props-jes-vol07
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-newmaninc-vol01
+  - bsc:mega-props-newmaninc-vol02
+  - bsc:mega-props-jmyers-agriculture-vol01
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - orange:mega-props-vol01
+  - girafe:berries
+  - girafe:narcissus
+  - girafe:subalpine-firs
+  - girafe:poppies
+  - girafe:common-spruces
+  - girafe:lupins
+  - girafe:sparaxis
+  - girafe:chestnuts
+  - wmp:mega-props-vol01
+  - wmp:mega-props-vol02
+  - wmp:mega-props-vol05
+  - wmp:mega-textures
+  - bsc:textures-vol02
+  - simmer2:rrw-legacy-lottex-mega-texture-pack
+  - blam:hidp-fx-chemicals-resources
+  - peg:spam-super-resource-pack
+  - peg:mtp-super-pack
+  - peg:mtp-logging-resource
+  - peg:cdk3-sp-rail-fleet
+  - bipin:industry-essentials-resources
+  - murimk:industrial-mmp
+  - murimk:props-vol03-industrials
+  - nbvc:stone-paths-props
+assets:
+  - assetId: sm2-60s-freight-and-livestock-railyard
+
+---
+assetId: sm2-60s-freight-and-livestock-railyard
+version: "2.0"
+lastModified: "2021-04-09T14:49:52Z"
+url: https://community.simtropolis.com/files/file/33000-60s-freight-and-livestock-railyard/?do=download

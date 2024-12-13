@@ -1,0 +1,40 @@
+group: sm2
+name: dry-stone-walls
+version: "2.0.0"
+subfolder: 660-parks
+info:
+  summary: Dry Stone Walls
+  description: |-
+    Are a type of wall made with stones found locally and assembled without mortar thus the name Dry Wall (Muro Secco)
+    They are mostly found in European countries. Unfortunately they are the remnants of a lost art. No one makes them anymore.
+    These walls were used to "fence in" properties and also to provide shelter for livestock.
+
+    Orthogonal, diagonal, round corner, sharp corner, diagonal to orthogonal, broken walls, overhanging diags and orthos, open gates, closed gates, even gates on diagonals and more!
+
+    There are also a few stone structures to complement the set and one special transition piece which will allow you to follow heights differences of 7.5 meters. (slope friendly). Please use the road lifter tool in the NAM menu to set height to 7.5 meters when using the transition piece for best results.
+
+    Included are 4 lots (Orthogonal only) that will make it possible to create EDGE to EDGE scenes.
+
+    And last but not least, 2 MMP files are included based on the model and texture of the wall, for those hard to reach areas. They are slope friendly and you can even place them under water if you wish.
+
+    They were created with a custom icon set with clear and easy to recognize symbols, You will find all 42 lots in the park menu.
+
+    No cost to plop, maintain and bulldoze. Neutral lots. The lots have no base textures. Just plop them and dress them with your favorite MMP.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/32109-sm2-dry-stone-walls/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/Cows2.jpg.2fffcb198feb6687eb8ef6b4002173f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/MS3.jpg.655d9495325f3b7e8bbbc2170b89aec8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/MS8.jpg.da17161bec3bea29993988a6f3862bbc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/MS14.jpg.6d40f88a40fcfdad47394ff82500c619.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/MS15.jpg.ffb88b4360fe1d34c229af2777a2f695.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/MS17.jpg.4a757e0f08dc4f685e5c1716404ba4e0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a7959a2a93f0_MuroSeccolegend.png.4b49ac83c2542dfdbc57b5c6c7caf4e2.png
+assets:
+  - assetId: sm2-dry-stone-walls
+
+---
+assetId: sm2-dry-stone-walls
+version: "2.0.0"
+lastModified: "2018-08-23T04:16:45Z"
+url: https://community.simtropolis.com/files/file/32109-sm2-dry-stone-walls/?do=download

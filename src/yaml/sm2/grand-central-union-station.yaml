@@ -1,0 +1,45 @@
+# WolfZe deleted all of his files, so the mamin building is no longer available. 
+# Hence this won't work.
+# group: sm2
+# name: grand-central-union-station
+# version: "2.0"
+# subfolder: 700-transit
+# info:
+#   summary: ""
+#   description: |-
+#     A turn of the century train station large enough to accommodate a big tile.
+
+#      - Lot size: 14X5
+#      - Plop cost: 60000
+#      - Bulldoze cost: 10000
+#      - Power req: 16
+#      - Water req: 60
+#      - Passenger capacity: 125000
+#      - Provides 42 jobs
+
+#     Bonus! It is also compatible with Maxis vanilla rail.
+
+#     Enjoy!
+#   author: Simmer2, WolfZe
+#   website: https://community.simtropolis.com/files/file/32594-sm2-grand-central-union-station/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_11/ST1.jpg.9075eac429cf4512ccb4c30391c782dd.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_11/st2.jpg.a192cb502e7608555643d04a218ebaca.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_11/st3.jpg.93da2f9a808a74ed1ddb1f9c42da1980.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_11/st4.jpg.29c01c9c1738df963046b177469856d2.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_11/st5.jpg.508d3bc1aa788934669516ae93e15150.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_11/st6.jpg.9f5ebb1513f4280f09e0f29ea44cc4b9.jpg
+# dependencies:
+#   - sm2:mega-prop-pack-vol1
+#   - sm2:mega-prop-pack-vol2
+#   - sm2:mega-prop-pack-vol3
+#   - shk:parking-pack
+#   - https://community.simtropolis.com/files/file/32574-wz-the-pullman-palace-car-works-administration-building-and-shops/
+# assets:
+#   - assetId: sm2-grand-central-union-station
+
+# ---
+# assetId: sm2-grand-central-union-station
+# version: "2.0"
+# lastModified: "2019-03-15T17:31:30Z"
+# url: https://community.simtropolis.com/files/file/32594-sm2-grand-central-union-station/?do=download

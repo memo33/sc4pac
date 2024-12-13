@@ -1,0 +1,59 @@
+group: sm2
+name: bt-tower
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: BT Tower
+  description: |-
+    The BT Tower is a communications tower located in Fitzrovia, London, owned by BT Group.
+
+    It has been previously known as the GPO Tower, the Post Office Tower and the Telecom Tower. The main structure is 177 meters (581 ft) high, with a further section of aerial rigging bringing the total height to 191 meters (627 ft). The tower was designed by the architects of the Ministry of Public Building and Works: the chief architects were Eric Bedford and G. R. Yeats.
+       
+    Typical for its time, the building is concrete clad in glass. The narrow cylindrical shape was chosen because of the requirements of the communications aerials: the building will shift no more than 25 centimeters (10 in) in wind speeds of up to 150 km/h (95mph). Initially, the first 16 floors were for technical equipment and power. Above that was a 35-metre section for the microwave aerials, and above that were six floors of suites, kitchens, technical equipment and finally a cantilevered steel lattice tower. To prevent heat build-up, the glass cladding was of a special tint.
+
+    The tower is still in use, and is the site of a major UK communications hub.
+
+    Microwave links have been replaced by subterranean optical fiber links for most mainstream purposes, but the former are still in use at the tower. The second floor of the base of the tower contains the TV Network Switching Center which carries broadcasting traffic and relays signals between television broadcasters, production companies, advertisers, international satellite services and up-link companies. The outside broadcast control is located above the former revolving restaurant, with the kitchens on floor 35.
+
+    **Plop Lot**
+
+     - Lot size: 4X4
+     - Plop cost: 50000
+     - Bulldoze cost: 4500
+     - Power req: 65
+     - Water req: 35
+     - Provides 400 C$$ jobs
+
+    You will find it under the Landmark menu.
+
+    **Grow lot**
+
+    High Wealth Stage 12 CS$$$ CAM
+
+     - Lot size: 4x4
+     - Bulldoze cost: 2962
+     - Power req: 80
+     - Water req: 40
+     - Provides 1677 CS$$$ jobs
+
+    It will grow in any tile set.
+  author: Simmer2
+  website: https://community.simtropolis.com/files/file/33256-sm2-bt-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/bt3.jpg.3ed6da1d7900c619356273b0642a1d5e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/bt4.jpg.07a6f8b6e7eb6343912fdb8674d78d73.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/bt5.jpg.b4ecc0bcb72dcd3d9644857dde715e15.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/bt6.jpg.16cbaab399cca901f722dc7a738ddf1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/bt7.jpg.ebfcd25dbffccd9ade9fa789df1a263f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/bt20.jpg.bcb17551e28a6c529eeb3c27cf8f789b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/bt21.jpg.75aa621b7e7a834bea031bd2b14cace8.jpg
+dependencies:
+  - sm2:essentials
+assets:
+  - assetId: sm2-bt-tower
+
+---
+assetId: sm2-bt-tower
+version: "1.0.0"
+lastModified: "2019-10-24T03:51:11Z"
+url: https://community.simtropolis.com/files/file/33256-sm2-bt-tower/?do=download
