@@ -1,62 +1,72 @@
-# Package has brown boxes due to a missing model 
-# 0x5ad0e817-0x27d79b48-0x130a0000. Model is nowhere to be found, it might be an 
-# invisible model that was custom made. The comments on the STEX mention this as 
-# well. It's not an sc4pac dependency issue.
-# group: rretail
-# name: meadowbrook-plaza
-# version: "1.0.0"
-# subfolder: 300-commercial
-# info:
-#   summary: Meadowbrook Plaza
-#   description: |-
-#     Another modern shopping center anchored by Fresh Thyme.
+group: rretail
+name: meadowbrook-plaza
+version: "1.0.0"
+subfolder: 300-commercial
+info:
+  summary: Meadowbrook Plaza
+  description: |-
+    Another modern shopping center anchored by Fresh Thyme.
 
-#     Other brands featured include:
+    Other brands featured include:
 
-#     -   Pet People
-#     -   Hook & Reel Cajun Seafood & Bar
-#     -   SPENGA
-#     -   Music & Arts
-#     -   Scrubs & Beyond
-#     -   I Heart Mac and Cheese
-#     -   European Wax Center
-#     -   Smashburger
-#     -   Papa Murphy's Pizza
-#     -   Crumbl Cookies
-#     -   Deka Lash
-#     -   Holiday Hair
+    -   Pet People
+    -   Hook & Reel Cajun Seafood & Bar
+    -   SPENGA
+    -   Music & Arts
+    -   Scrubs & Beyond
+    -   I Heart Mac and Cheese
+    -   European Wax Center
+    -   Smashburger
+    -   Papa Murphy's Pizza
+    -   Crumbl Cookies
+    -   Deka Lash
+    -   Holiday Hair
 
-#     A car wash, Slim Chickens, and Truist bank serve as outparcels.
-#   author: RRetail
-#   website: https://community.simtropolis.com/files/file/35468-meadowbrook-plaza/
-#   images:
-#     - https://www.simtropolis.com/objects/screens/monthly_2023_02/63ee66fbb6de7_RRMeadowbrookSquareA.jpg.e840c2e0aa08382fda5cc8559f4e4a4d.jpg
-#     - https://www.simtropolis.com/objects/screens/monthly_2023_02/63ee66fce46be_RRMeadowbrookSquareB.jpg.4fb6fcca087ad2ca6287c364981e39c3.jpg
-# dependencies:
-#   - bsc:mega-props-jes-vol09
-#   - nos17:essentials
-#   - lbt:mega-prop-pack-vol01
-#   - rretail:mega-prop-pack-vol1
-#   - rretail:mega-prop-pack-vol2
-#   - rretail:mega-prop-pack-vol3
-#   - shk:parking-pack
-#   - supershk:mega-parking-textures
-#   - supershk:fa3-parking-textures
-#   - kingofsimcity:logistics-essentials
-#   - girafe:beeches
-#   - girafe:berries
-#   - girafe:elms
-#   - girafe:feather-grass
-#   - girafe:lindens
-#   - girafe:lupins
-#   - girafe:maples-v2
-#   - girafe:poplars
-#   - girafe:rowan-trees
-# assets:
-#   - assetId: rretail-meadowbrook-plaza
+    A car wash, Slim Chickens, and Truist bank serve as outparcels.
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/35468-meadowbrook-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_02/63ee66fbb6de7_RRMeadowbrookSquareA.jpg.e840c2e0aa08382fda5cc8559f4e4a4d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_02/63ee66fce46be_RRMeadowbrookSquareB.jpg.4fb6fcca087ad2ca6287c364981e39c3.jpg
+dependencies:
+  - bsc:mega-props-jes-vol09
+  - nos17:essentials
+  - lbt:mega-prop-pack-vol01
+  - rretail:mega-prop-pack-vol1
+  - rretail:mega-prop-pack-vol2
+  - rretail:mega-prop-pack-vol3
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - supershk:fa3-parking-textures
+  - kingofsimcity:logistics-essentials
+  - girafe:beeches
+  - girafe:berries
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:poplars
+  - girafe:rowan-trees
+assets:
+  - assetId: rretail-meadowbrook-plaza
+    exclude:
+      - RR_MeadowbrookSquare_Bottom_30f3c790.SC4Lot
+      - RR_MeadowbrookSquare_Top_30fa3a19.SC4Lot
+  - assetId: smf16-meadowbrook-plaza-fixed
 
-# ---
-# assetId: rretail-meadowbrook-plaza
-# version: "1.0.0"
-# lastModified: "2023-02-16T18:00:37Z"
-# url: https://community.simtropolis.com/files/file/35468-meadowbrook-plaza/?do=download
+---
+assetId: rretail-meadowbrook-plaza
+version: "1.0.0"
+lastModified: "2023-02-16T18:00:37Z"
+url: https://community.simtropolis.com/files/file/35468-meadowbrook-plaza/?do=download
+
+# The original package contains brown boxes that can't be solved by downloading 
+# the proper dependencies. Looks like a "private model" is actually missing - 
+# the group id of the missing model is the same as RRetails mega prop packs, but 
+# the IID is nowhere to be found. A fix has been uploaded to ST.
+---
+assetId: smf16-meadowbrook-plaza-fixed
+version: "1.0.0"
+lastModified: "2024-12-13T15:13:40Z"
+url: https://community.simtropolis.com/files/file/36596-meadowbrook-plaza-fixed/?do=download
