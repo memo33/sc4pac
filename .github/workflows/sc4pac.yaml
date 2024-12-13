@@ -84,7 +84,7 @@ jobs:
         STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
       # We are on an actual branch of the repository, so run script here in the repository.
       # TODO This is not perfect yet, as `before` does not exist on new branches or forced pushes.
-      run: git diff --name-only ${{ github.event.before }} -- src/yaml | xargs --delimiter '\n' python .github/st-check-updates.py --mode=id
+      run: git diff --name-only '${{ github.event.before }}' -- src/yaml | xargs --delimiter '\n' python .github/st-check-updates.py --mode=id
 
   deploy:
     needs: lint  # url-check is not needed as ST is flaky
