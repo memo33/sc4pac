@@ -9,14 +9,14 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+      with:
+        persist-credentials: false
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
@@ -27,6 +27,7 @@ jobs:
       if: ${{ github.event_name == 'pull_request_target' }}
       uses: actions/checkout@v4
       with:
+        persist-credentials: false
         # ref: "${{ github.event.pull_request.merge_commit_sha }}"
         # As merge_commit_sha is not up-to-date due to mergeability check, we use actual PR head for now; see https://github.com/actions/checkout/issues/518#issuecomment-1757453837
         # ref: ${{ github.event.pull_request.head.sha }}
@@ -54,6 +55,7 @@ jobs:
       with:
         # to allow diff of other commit
         fetch-depth: 0
+        persist-credentials: false
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
@@ -64,6 +66,7 @@ jobs:
       if: ${{ github.event_name == 'pull_request_target' }}
       uses: actions/checkout@v4
       with:
+        persist-credentials: false
         # ref: "${{ github.event.pull_request.merge_commit_sha }}"
         # As merge_commit_sha is not up-to-date due to mergeability check, we use actual PR head for now; see https://github.com/actions/checkout/issues/518#issuecomment-1757453837
         # ref: ${{ github.event.pull_request.head.sha }}
@@ -82,9 +85,10 @@ jobs:
       if: ${{ github.event_name != 'pull_request_target' }}
       env:
         STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
+        PREVIOUS_COMMIT: ${{ github.event.before }}
       # We are on an actual branch of the repository, so run script here in the repository.
       # TODO This is not perfect yet, as `before` does not exist on new branches or forced pushes.
-      run: git diff --name-only '${{ github.event.before }}' -- src/yaml | xargs --delimiter '\n' python .github/st-check-updates.py --mode=id
+      run: git diff --name-only "$PREVIOUS_COMMIT" -- src/yaml | xargs --delimiter '\n' python .github/st-check-updates.py --mode=id
 
   deploy:
     needs: lint  # url-check is not needed as ST is flaky
@@ -102,6 +106,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          persist-credentials: false
           submodules: recursive
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -124,3 +129,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+    permissions:
+      pages: write
+      id-token: write
