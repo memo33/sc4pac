@@ -8,8 +8,9 @@ info:
     This package is a dependency for all of smf_16's everseasonal flora packages.
     It does nothing on its own, but it provides the variants that the individual packages use to control their appearance.
 
-    The idea of having "everseasonal" flora that can statically change looks instead of changing in the game was based on the excellent `pkg=11241036central-european-tree-controller`.
+    The idea of having "everseasonal" flora that can statically change looks instead of changing in the game was based on the excellent `pkg=11241036:central-european-tree-controller`.
     It is highly recommended to use all everseasonal flora packages with this tree controller.
+  author: smf_16
 variants:
   - variant: { smf16:everseasonal:mode: summer }
   - variant: { smf16:everseasonal:mode: fall }
@@ -30,7 +31,7 @@ variantDescriptions:
 group: smf16
 name: everseasonal-girafe
 version: "1.0"
-subfolder: 900-overrides
+subfolder: 150-mods
 info:
   summary: Everseasonal Girafe Flora and Props
   description: |-
@@ -76,7 +77,7 @@ variants:
     assets:
       - assetId: smf16-everseasonal-girafe-flora-and-props
         include:
-          - _SNOWY.dat
+          - _SNOW.dat
   - variant: { smf16:everseasonal:mode: spring }
     assets:
       - assetId: smf16-everseasonal-girafe-flora-and-props
