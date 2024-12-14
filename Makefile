@@ -5,6 +5,9 @@
 # SC4PAC=sc4pac
 SC4PAC=./sc4pac-tools/sc4pac
 
+# LABEL=Main
+LABEL=Main-local
+
 # Rebuild all .json files, the main.js file and update the gh-pages branch.
 #
 # This assumes that you have initialized the submodule `sc4pac-tools` with:
@@ -26,7 +29,7 @@ gh-pages-no-lint:
 	cp -p ./docs/index.html ./docs/*.md ./docs/.nojekyll ./gh-pages/
 
 channel:
-	$(SC4PAC) channel build --output ./gh-pages/channel/ ./src/yaml/
+	$(SC4PAC) channel build --label $(LABEL) --metadata-source-url https://github.com/memo33/sc4pac/blob/main/src/yaml/ --output ./gh-pages/channel/ ./src/yaml/
 
 # Open e.g. http://localhost:8091/channel/?pkg=memo:essential-fixes
 host:

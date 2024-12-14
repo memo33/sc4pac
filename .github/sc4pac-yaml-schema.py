@@ -6,6 +6,9 @@ import yaml
 import sys
 import os
 import re
+from urllib.parse import (urlparse, parse_qs)
+import jsonschema
+from jsonschema import ValidationError
 
 # add subfolders as necessary
 subfolders = r"""
@@ -68,13 +71,22 @@ asset_schema = {
         "assetId": {"type": "string"},
         "version": {"type": "string"},
         "lastModified": {"type": "string"},
-        "url": {"type": "string"},
+        "url": {"type": "string", "validate_query_params": True},
+        "nonPersistentUrl": {"type": "string", "validate_query_params": True},
         "archiveType": {
             "type": "object",
             "additionalProperties": False,
             "properties": {
                 "format": {"enum": ["Clickteam"]},
                 "version": {"enum": ["20", "24", "30", "35", "40"]},
+            },
+        },
+        "checksum": {
+            "type": "object",
+            "additionalProperties": False,
+            "required": ["sha256"],
+            "properties": {
+                "sha256": {"type": "string", "validate_sha256": True},
             },
         },
     },
@@ -88,8 +100,21 @@ assets = {
         "required": ["assetId"],
         "properties": {
             "assetId": {"type": "string"},
-            "include": unique_strings,
-            "exclude": unique_strings,
+            "include": {**unique_strings, "validate_pattern": True},
+            "exclude": {**unique_strings, "validate_pattern": True},
+            "withChecksum": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "additionalProperties": False,
+                    "required": ["include", "sha256"],
+                    "properties": {
+                        "include": {"type": "string", "validate_pattern": True},
+                        "sha256": {"type": "string", "validate_sha256": True},
+                    },
+                },
+                "uniqueItems": True,
+            },
         },
     },
 }
@@ -101,7 +126,7 @@ package_schema = {
     "required": ["group", "name", "version", "subfolder"],
     "properties": {
         "group": {"type": "string"},
-        "name": {"type": "string"},
+        "name": {"type": "string", "validate_name": True},
         "version": {"type": "string"},
         "subfolder": {"enum": subfolders},
         "dependencies": unique_strings,
@@ -128,12 +153,12 @@ package_schema = {
             "additionalProperties": False,
             "properties": {
                 "summary": {"type": "string"},
-                "warning": {"type": "string"},
-                "conflicts": {"type": "string"},
-                "description": {"type": "string"},
+                "warning": {"type": "string", "validate_text_field": "warning"},
+                "conflicts": {"type": "string", "validate_text_field": "conflicts"},
+                "description": {"type": "string", "validate_text_field": "description"},
                 "author": {"type": "string"},
                 "images": unique_strings,
-                "website": {"type": "string"},
+                "website": {"type": "string", "validate_query_params": True},
             },
         },
     },
@@ -158,6 +183,7 @@ class DependencyChecker:
     version_rel_pattern = re.compile(r"(.*?)(-\d+)?")
     pronouns_pattern = re.compile(r"\b[Mm][ey]\b|(?:\bI\b(?!-|\.| [A-Z]))")
     desc_invalid_chars_pattern = re.compile(r'\\n|\\"')
+    sha256_pattern = re.compile(r"[a-f0-9]*", re.IGNORECASE)
 
     def __init__(self):
         self.known_packages = set()
@@ -178,6 +204,8 @@ class DependencyChecker:
         self.invalid_variant_names = set()
         self.packages_with_single_assets = {}  # pkg -> (version, set of assets from variants)
         self.packages_using_asset = {}  # asset -> set of packages
+        self.dlls_without_checksum = set()
+        self.http_without_checksum = set()
 
     def aggregate_identifiers(self, doc):
         if 'assetId' in doc:
@@ -186,10 +214,13 @@ class DependencyChecker:
                 self.known_assets.add(asset)
             else:
                 self.duplicate_assets.add(asset)
-            self.asset_urls[asset] = doc.get('url')
+            url = doc.get('url')
+            self.asset_urls[asset] = url
             self.asset_versions[asset] = doc.get('version')
             if not self.naming_convention.fullmatch(asset):
                 self.invalid_asset_names.add(asset)
+            if urlparse(url).scheme not in ['https', 'file'] and 'checksum' not in doc:
+                self.http_without_checksum.add(asset)
         if 'group' in doc and 'name' in doc:
             pkg = doc['group'] + ":" + doc['name']
             if pkg not in self.known_packages:
@@ -204,7 +235,12 @@ class DependencyChecker:
             def asset_ids(obj):
                 return (a['assetId'] for a in obj.get('assets', []) if 'assetId' in a)
 
-            def add_references(obj):
+            variants0 = doc.get('variants', [])
+            def iterate_doc_and_variants():
+                yield doc
+                yield from variants0
+
+            for obj in iterate_doc_and_variants():
                 local_deps = obj.get('dependencies', [])
                 self.referenced_packages.update(local_deps)
                 if pkg in local_deps:
@@ -216,11 +252,6 @@ class DependencyChecker:
                         self.packages_using_asset[a].add(pkg)
                     else:
                         self.packages_using_asset[a] = set([pkg])
-
-            variants0 = doc.get('variants', [])
-            add_references(doc)
-            for v in variants0:
-                add_references(v)
 
             num_doc_assets = len(doc.get('assets', []))
             if num_doc_assets <= 1:
@@ -249,6 +280,19 @@ class DependencyChecker:
                 for value in variant_values:
                     if not self.naming_convention_variants_value.fullmatch(value):
                         self.invalid_variant_names.add(value)
+
+            is_dll = ("DLL" in doc.get('info', {}).get('summary', "")) or ("dll" in doc['name'].split('-'))
+            if is_dll:
+                has_asset = False
+                has_checksum = False
+                for obj in iterate_doc_and_variants():
+                    for asset in obj.get('assets', []):
+                        has_asset = True
+                        if "withChecksum" in asset:
+                            has_checksum = True
+                if has_asset and not has_checksum:
+                    self.dlls_without_checksum.add(pkg)
+
 
     def _get_channel_contents(self, channel_url):
         import urllib.request
@@ -323,19 +367,83 @@ def validate_document_separators(text) -> None:
                 "YAML file contains multiple package and asset definitions. They all need to be separated by `---`.")
 
 
+def validate_pattern(validator, value, instance, schema):
+    patterns = [instance] if isinstance(instance, str) else instance
+    bad_patterns = [p for p in patterns if p.startswith('.*')]
+    if bad_patterns:
+        yield ValidationError(f"include/exclude patterns should not start with '.*' in {bad_patterns}")
+
+
+_irrelevant_query_parameters = [
+    ("sc4evermore.com", ("catid",)),
+    ("simtropolis.com", ("confirm", "t", "csrfKey")),
+]
+
+
+def validate_query_params(validator, value, url, schema):
+    msgs = []
+    if '/sc4evermore.com/' in url:
+        msgs.append(f"Domain of URL {url} should be www.sc4evermore.com (add www.)")
+    qs = parse_qs(urlparse(url).query)
+    bad_params = [p for domain, params in _irrelevant_query_parameters
+                  if domain in url for p in params if p in qs]
+    if bad_params:
+        msgs.append(f"Avoid these URL query parameters: {', '.join(bad_params)}")
+    if msgs:
+        yield ValidationError('\n'.join(msgs))
+
+
+def validate_name(validator, value, name, schema):
+    if "-vol-" in name:
+        yield ValidationError(f"Avoid the hyphen after 'vol' (for consistency with other packages): {name}")
+
+
+def validate_text_field(validator, field, text, schema):
+    msgs = []
+    if text is not None and text.strip().lower() == "none":
+        msgs.append(f"""Text "{field}" should not be "{text.strip()}", but should be omitted instead.""")
+    if text is not None and DependencyChecker.pronouns_pattern.search(text):
+        msgs.append(f"""The "{field}" should be written in a neutral perspective (avoid the words 'I', 'me', 'my').""")
+    if text is not None and DependencyChecker.desc_invalid_chars_pattern.search(text):
+        msgs.append("""The "{field}" seems to be malformed (avoid the characters '\\n', '\\"').""")
+    if msgs:
+        yield ValidationError('\n'.join(msgs))
+
+
+def validate_sha256(validator, value, text, schema):
+    if not (len(text) == 64 and DependencyChecker.sha256_pattern.fullmatch(text)):
+        yield ValidationError(f"value is not a sha256: {text}")
+
+
 def main() -> int:
     args = sys.argv[1:]
     if not args:
         "Pass at least one directory or yaml file to validate as argument."
         return 1
 
-    from jsonschema.validators import Draft202012Validator
-    from jsonschema import exceptions
-    validator = Draft202012Validator(schema)
+    validator = jsonschema.validators.extend(
+            jsonschema.validators.Draft202012Validator,
+            validators=dict(
+                validate_pattern=validate_pattern,
+                validate_query_params=validate_query_params,
+                validate_name=validate_name,
+                validate_text_field=validate_text_field,
+                validate_sha256=validate_sha256,
+            ),
+        )(schema)
     validator.check_schema(schema)
     dependency_checker = DependencyChecker()
     validated = 0
     errors = 0
+
+    def basic_report(identifiers, msg: str, stringify=None):
+        if identifiers:
+            nonlocal errors
+            errors += len(identifiers)
+            print(f"===> {msg}")
+            for identifier in identifiers:
+                print(identifier if stringify is None else stringify(identifier))
+
     for d in args:
         for (root, dirs, files) in os.walk(d):
             for fname in files:
@@ -351,27 +459,8 @@ def main() -> int:
                             if doc is None:  # empty yaml file or document
                                 continue
                             dependency_checker.aggregate_identifiers(doc)
-                            err = exceptions.best_match(validator.iter_errors(doc))
+                            err = jsonschema.exceptions.best_match(validator.iter_errors(doc))
                             msgs = [] if err is None else [err.message]
-
-                            # check URLs
-                            urls = [u for u in [doc.get('url'), doc.get('info', {}).get('website')]
-                                    if u is not None]
-                            for u in urls:
-                                if '/sc4evermore.com/' in u:
-                                    msgs.append(f"Domain of URL {u} should be www.sc4evermore.com")
-
-                            # check "None" value
-                            for label in ['conflicts', 'warning', 'summary', 'description']:
-                                field = doc.get('info', {}).get(label)
-                                if field is not None and field.strip().lower() == "none":
-                                    msgs.append(f"""Field "{label}" should not be "{field.strip()}", but should be left out instead.""")
-
-                            desc = doc.get('info', {}).get('description')
-                            if desc is not None and dependency_checker.pronouns_pattern.search(desc):
-                                msgs.append("The description should be written in a neutral perspective (avoid the words 'I', 'me', 'my').")
-                            if desc is not None and dependency_checker.desc_invalid_chars_pattern.search(desc):
-                                msgs.append("""The description seems to be malformed (avoid the characters '\\n', '\\"').""")
 
                             if msgs:
                                 errors += 1
@@ -387,78 +476,26 @@ def main() -> int:
         # check that all dependencies exist
         # (this check only makes sense for the self-contained main channel)
         for label, unknown in dependency_checker.unknowns().items():
-            if unknown:
-                errors += len(unknown)
-                print(f"===> The following {label} are referenced, but not defined:")
-                for identifier in unknown:
-                    print(identifier)
-
+            basic_report(unknown, f"The following {label} are referenced, but not defined:")
         for label, dupes in dependency_checker.duplicates().items():
-            if dupes:
-                errors += len(dupes)
-                print(f"===> The following {label} are defined multiple times:")
-                for identifier in dupes:
-                    print(identifier)
-
-        if dependency_checker.self_dependencies:
-            errors += len(dependency_checker.self_dependencies)
-            print("===> The following packages unnecessarily depend on themselves:")
-            for pkg in dependency_checker.self_dependencies:
-                print(pkg)
-
-        non_unique_assets = dependency_checker.assets_with_same_url()
-        if non_unique_assets:
-            errors += len(non_unique_assets)
-            print("===> The following assets have the same URL (The same asset was defined twice with different asset IDs):")
-            for assets in non_unique_assets:
-                print(', '.join(assets))
-
-        unused_assets = dependency_checker.unused_assets()
-        if unused_assets:
-            errors += len(unused_assets)
-            print("===> The following assets are not used:")
-            for identifier in unused_assets:
-                print(identifier)
-
-        if dependency_checker.overlapping_variants:
-            errors += len(dependency_checker.overlapping_variants)
-            print("===> The following packages have duplicate variants:")
-            for pkg in dependency_checker.overlapping_variants:
-                print(pkg)
-
-        if dependency_checker.unexpected_variants:
-            errors += len(dependency_checker.unexpected_variants)
-            print("===>")
-            for pkg, key, values, expected_values in dependency_checker.unexpected_variants:
-                print(f"{pkg} defines {key} variants {values} (expected: {expected_values})")
-
-        if dependency_checker.invalid_asset_names:
-            errors += len(dependency_checker.invalid_asset_names)
-            print("===> the following assetIds do not match the naming convention (lowercase alphanumeric hyphenated)")
-            for identifier in dependency_checker.invalid_asset_names:
-                print(identifier)
-        if dependency_checker.invalid_group_names:
-            errors += len(dependency_checker.invalid_group_names)
-            print("===> the following group identifiers do not match the naming convention (lowercase alphanumeric hyphenated)")
-            for identifier in dependency_checker.invalid_group_names:
-                print(identifier)
-        if dependency_checker.invalid_package_names:
-            errors += len(dependency_checker.invalid_package_names)
-            print("===> the following package names do not match the naming convention (lowercase alphanumeric hyphenated)")
-            for identifier in dependency_checker.invalid_package_names:
-                print(identifier)
-        if dependency_checker.invalid_variant_names:
-            errors += len(dependency_checker.invalid_variant_names)
-            print("===> the following variant labels or values do not match the naming convention (alphanumeric hyphenated or dots)")
-            for identifier in dependency_checker.invalid_variant_names:
-                print(identifier)
-
-        version_mismatches = list(dependency_checker.package_asset_version_mismatches())
-        if version_mismatches:
-            errors += len(version_mismatches)
-            print("===> The versions of the following packages do not match the version of the referenced assets (usually they should agree, but if the version mismatch is intentional, the packages can be added to the ignore list in .github/sc4pac-yaml-schema.py):")
-            for pkg, v1, asset, v2 in version_mismatches:
-                print(f"""{pkg} "{v1}" (expected version "{v2}" of asset {asset})""")
+            basic_report(dupes, f"The following {label} are defined multiple times:")
+        basic_report(dependency_checker.self_dependencies, "The following packages unnecessarily depend on themselves:")
+        basic_report(dependency_checker.assets_with_same_url(),
+                     "The following assets have the same URL (The same asset was defined twice with different asset IDs):",
+                     lambda assets: ', '.join(assets))
+        basic_report(dependency_checker.unused_assets(), "The following assets are not used:")
+        basic_report(dependency_checker.overlapping_variants, "The following packages have duplicate variants:")
+        basic_report(dependency_checker.unexpected_variants, "",
+                     lambda tup: "{0} defines unexpected {1} variants {2} (expected: {3})".format(*tup))  # pkg, key, values, expected_values
+        basic_report(dependency_checker.invalid_asset_names, "the following assetIds do not match the naming convention (lowercase alphanumeric hyphenated)")
+        basic_report(dependency_checker.invalid_group_names, "the following group identifiers do not match the naming convention (lowercase alphanumeric hyphenated)")
+        basic_report(dependency_checker.invalid_package_names, "the following package names do not match the naming convention (lowercase alphanumeric hyphenated)")
+        basic_report(dependency_checker.invalid_variant_names, "the following variant labels or values do not match the naming convention (alphanumeric hyphenated or dots)")
+        basic_report(list(dependency_checker.package_asset_version_mismatches()),
+                     "The versions of the following packages do not match the version of the referenced assets (usually they should agree, but if the version mismatch is intentional, the packages can be added to the ignore list in .github/sc4pac-yaml-schema.py):",
+                     lambda tup: """{0} "{1}" (expected version "{3}" of asset {2})""".format(*tup))  # pkg, v1, asset, v2
+        basic_report(dependency_checker.dlls_without_checksum, "The following packages appear to contain DLLs. A sha256 checksum is required for DLLs (add a `withChecksum` field).")
+        basic_report(dependency_checker.http_without_checksum, "The following assets use http instead of https. They should include a `checksum` field.")
 
     if errors > 0:
         print(f"Finished with {errors} errors.")
