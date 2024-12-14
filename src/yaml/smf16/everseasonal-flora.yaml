@@ -20,7 +20,7 @@ variants:
 variantDescriptions:
   smf16:everseasonal:mode:
     summer: Ensures flora always appears as if it were summer. Also known as evergreen.
-    fall: Ensures flora always appears as if it were dall.
+    fall: Ensures flora always appears as if it were fall.
     winter: Ensures flora always appears as if it were winter.
     snowy: Ensures flora always appears as if it were winter, but uses a snowy tree if available.
     spring: Ensures flora always appears as if it were spring. For most flora this is equivalent to the summer, but it may vary for props with a spring variant.
