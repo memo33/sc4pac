@@ -118,7 +118,7 @@ jobs:
       - name: Build sc4pac executable
         run: cd sc4pac-tools && sbt assembly && ./sc4pac --version
       - name: Build channel and website
-        run: make gh-pages-no-lint
+        run: make LABEL=Main gh-pages-no-lint
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
