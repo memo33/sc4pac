@@ -51,6 +51,15 @@ ignore_version_mismatches = set([
     "bsc:mega-props-newmaninc-rivers-and-ponds",
 ])
 
+# Add packages as necessary. These packages should only be used as dependencies
+# from packages with a matching variant. For example, a package without a DN
+# variant should never depend on simfox:day-and-nite-mod.
+variant_specific_dependencies = {
+    "simfox:day-and-nite-mod": ("nightmode", "dark"),
+    "toroca:industry-quadrupler": ("toroca:industry-quadrupler:capacity", "quadrupled"),
+    "cam:colossus-addon-mod": ("CAM", "yes"),
+}
+
 unique_strings = {
     "type": "array",
     "items": {"type": "string"},
@@ -206,6 +215,7 @@ class DependencyChecker:
         self.packages_using_asset = {}  # asset -> set of packages
         self.dlls_without_checksum = set()
         self.http_without_checksum = set()
+        self.unexpected_variant_specific_dependencies = []  # (pkg, dependency)
 
     def aggregate_identifiers(self, doc):
         if 'assetId' in doc:
@@ -243,8 +253,14 @@ class DependencyChecker:
             for obj in iterate_doc_and_variants():
                 local_deps = obj.get('dependencies', [])
                 self.referenced_packages.update(local_deps)
-                if pkg in local_deps:
-                    self.self_dependencies.add(pkg)
+                for dep in local_deps:
+                    if dep == pkg:
+                        self.self_dependencies.add(pkg)
+                    if dep in variant_specific_dependencies:
+                        expected_variant, expected_value = variant_specific_dependencies[dep]
+                        if obj.get('variant', {}).get(expected_variant) != expected_value:
+                            self.unexpected_variant_specific_dependencies.append((pkg, dep))
+
                 local_assets = list(asset_ids(obj))
                 self.referenced_assets.update(local_assets)
                 for a in local_assets:
@@ -480,6 +496,8 @@ def main() -> int:
         for label, dupes in dependency_checker.duplicates().items():
             basic_report(dupes, f"The following {label} are defined multiple times:")
         basic_report(dependency_checker.self_dependencies, "The following packages unnecessarily depend on themselves:")
+        basic_report(dependency_checker.unexpected_variant_specific_dependencies, "The following packages have dependencies that should only be used with specific variants:",
+                     lambda tup: "{0} depends on {1}, but this dependency should only be used with variant \"{2}={3}\"".format(*(tup + variant_specific_dependencies[tup[1]])))
         basic_report(dependency_checker.assets_with_same_url(),
                      "The following assets have the same URL (The same asset was defined twice with different asset IDs):",
                      lambda assets: ', '.join(assets))
