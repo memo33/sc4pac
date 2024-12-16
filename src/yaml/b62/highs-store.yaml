@@ -4,7 +4,7 @@ version: "1"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable convenience store"
-  description: >
+  description: |
     In 1928, the High's brand was born as a quickly growing chain of ice cream stores in the Mid-Atlantic states.
     At one time there were more than 500 locations, making High's the largest ice cream store chain in the world.
     Today, High's is a chain of 50 convenience stores run by a team of 600 talented individuals.

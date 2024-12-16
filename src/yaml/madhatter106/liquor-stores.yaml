@@ -6,16 +6,19 @@ assets:
 - assetId: "madhatter106-liquor-stores"
 info:
   summary: "Set of various liquor stores"
-  description: >
+  description: |
     Ten different liquor store buildings on 25 total lots.
     Lot sizes include 1x1, 1x2, 1x3 and 2x1. Jobs range from 11-30.
     The majority are CS$ stages 1 through 3, three are CS$$ stage 1.
     These BATs have nightlights.
   author: "madhatter106"
   website: "https://community.simtropolis.com/files/file/25137-liquor-stores/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b40ab7dad12e5fd8b3a9c044facb3188-screen01.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b40ab7dad12e5fd8b3a9c044facb3188-screen02.jpg
 
 ---
 assetId: "madhatter106-liquor-stores"
 version: "1.0"
-lastModified: "2021-04-19T23:31:00Z"
+lastModified: "2010-10-25T22:49:19Z"
 url: "https://community.simtropolis.com/files/file/25137-liquor-stores/?do=download"

@@ -8,7 +8,7 @@ dependencies:
 
 info:
   summary: "Convention Center"
-  description: >
+  description: |
     This is an iconic early 1960's building inspired by the Council Building in
     Perth's Stirling Gardens. This is an example of the modernist style with
     Bauhaus leanings, and has distinctive external 'T' shaped sun-shades in
@@ -20,6 +20,12 @@ info:
     commercial demand caps that can hinder city development.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/31872-perth-council-building/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/PerthCouncil.jpg.647fd87bb0eac97605e92ace84dd8512.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/PerthCouncil1.jpg.ca7f448afb45dac2369d0da09c111336.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/PerthCouncil2.jpg.42b0a249fd40024a1223d8e9f968d2d6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/PerthCouncil3.jpg.89ae4b10fc5e9b95c64de2f044388b31.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/PerthCouncil4.jpg.eb542fac8272dad082a85b28643e90ce.jpg
 
 variants:
 - variant: { nightmode: standard }

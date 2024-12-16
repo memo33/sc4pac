@@ -9,13 +9,22 @@ dependencies:
 
 info:
   summary: "Community Center"
-  description: >
+  description: |
     Community center based on a real building in Westchester County, NY.
     Designed to tie in with KOSC's park series, the building sits on a 5x4 lot,
     provides 155 civic jobs, provides cap relief, and increases desirability.
     It is found in the rewards menu.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33289-community-center/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/CommunityCtr.jpg.82c7a54a658510b351d9d7f3c44d7f12.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/CommunityCtr1.jpg.88bcb4dd39c77cb72368f0dfe177f587.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/CommunityCtr2.jpg.37f3b3f7f7bb549007ae86edcb0d3b64.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/CommunityCtr3.jpg.e73db535738ff4ac0727ea1f0d47ad1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/CommunityCtr4.jpg.a550400bb962a604d3bae7e2d317f25d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/CommunityCtr5.jpg.543c63d0f74fcab4e3012dce0d843ed1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/CommunityCtr6.jpg.1c6789a9f4ae737ed3be1b40903686f1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_11/CommunityCtr7.jpg.0ffd9440aeb7f45114131cc032dcd8b0.jpg
 
 variants:
 - variant: { nightmode: standard }

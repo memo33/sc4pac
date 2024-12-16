@@ -1,7 +1,7 @@
 url: "https://community.simtropolis.com/files/file/23985-peg-statue-collection-01/?do=download"
 assetId: "peg-statue-collection"
 version: "1.0"
-lastModified: "2015-07-07T01:44:41Z"
+lastModified: "2010-05-26T18:05:44Z"
 
 ---
 group: "peg"
@@ -11,7 +11,7 @@ subfolder: "100-props-textures"
 info:
   summary: "Marine animal and other statues by Pegasus"
   website: "https://community.simtropolis.com/files/file/23985-peg-statue-collection-01/"
-  description: >
+  description: |
     The Statue Collection 01 started out the whole statue craze with a request to re-texture the whale, shark & dolphin statues used in the old RTK kit. It mushroomed into a larger collection of statues intended for use along beaches & the CDK3 shorelines... then expanded further to include a variety of both practical and whimsical statues. Pretty much anything we could put on pedestal and give a patina finish to... we made into a statue. Feel free to use them in the lots you develop and distribute. Enjoy!!
 
     These custom props are free to use and distribute in lots your create for your own use or to publicly distribute.  If re-distributed, please reference the original prop pack as a dependency. Do not copy and redistribute the original prop material. Most of the props are larger in-game than the their bounding boxes will indicate in the Lot Editor. Most notably, the statues with longer tails may extend beyond the tile that the prop is placed on.

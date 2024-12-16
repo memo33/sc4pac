@@ -7,7 +7,7 @@ dependencies:
 
 info:
   summary: "Griffith Observatory"
-  description: >
+  description: |
     The Griffith Observatory and Planetarium opened in 1935 and has a commanding
     view of the Los Angeles skyline from its prime position on the slope of
     Mount Hollywood in Griffith Park. It is an example of Art Deco &
@@ -20,6 +20,12 @@ info:
     tourism and has a positive landmark, park and mayor-rating effect.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/30905-griffith-observatory/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Griffith1.6.jpg.2793be47410b97a8b1119f79233717f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Griffith1.5.jpg.2ee44e9124b66aebecd1579375b63b8b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Griffith1.4.jpg.69a41efd84cebc24abd1dcb7d57cb078.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Griffith1.3.jpg.426a7cb78bcc31e0289d20093329b7bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/Griffith1.2.jpg.deddd09ebf4cff3fe3a7e60c2c9707a7.jpg
 
 variants:
 - variant: { nightmode: standard }

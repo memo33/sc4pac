@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable department store"
-  description: >
+  description: |
     This is part of a series of bankrupted department chains created for your Sims to relive which what we had experienced in North America.
     Ames, Zayre, Woolco, Bradlees, and now Caldor all have been swallowed up by the effects of Sam Walton's, Wal-Mart.
 

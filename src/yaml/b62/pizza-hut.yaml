@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable pizza chain"
-  description: >
+  description: |
     Pizza Hut is an American restaurant chain and international franchise, known for pizza and side dishes and currently is the world's largest restaurant company.
     In 2012, the company had more than 6,000 Pizza Hut restaurants in the United States and had more than 5,139 store locations in 94 other countries and territories around the world.
 

@@ -16,10 +16,13 @@ variants:
 
 info:
   summary: "Small W2W commercial building (CS$$)"
-  description: >
+  description: |
     These wall-to-wall buildings grow in the Chicago tileset.
   author: "nofunk"
   website: "https://community.simtropolis.com/files/file/28680-jingo-blotts/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/aa8cb6843ce97d5dc9d4afe8c69ea7bc-jingoblotts_stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/f6c1ed57c74811f14c076111daa17185-jingoblotts_stex2.jpg
 
 ---
 assetId: "jingo-and-blotts-mn"

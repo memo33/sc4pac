@@ -4,13 +4,16 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Messeturm
-  description: >
+  description: |
     The Messeturm, or Trade Fair Tower, is a 63-storey, 257 m (843 ft) skyscraper in the Westend-Süd district of Frankfurt, Germany.
     It is the second tallest building in Frankfurt, the second tallest building in Germany and the third tallest building in the European Union.
     It was the tallest building in Europe from its completion in 1991 until 1997 when it was surpassed by the Commerzbank Tower, which is also located in Frankfurt.
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32845-messeturm/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/03.jpg.4e95762dd3f768dbaac5f6736a577506.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/01.jpg.b476824a0ac543550ebcfd610bc51573.jpg
 
 variants:
   - variant: { nightmode: standard }

@@ -12,7 +12,7 @@ dependencies:
 
 info:
   summary: "Radio Station"
-  description: >
+  description: |
     Like the ingame Radio Station this lot is basically used as a cap buster;
     it increases desirability, mayor rating and also substantially lifts the
     demand cap for R$$ and Manufacturing jobs. Given how most of the industrial
@@ -29,9 +29,15 @@ info:
     DOES NOT over-write the ingame radio station.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/27999-radio-station/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/c291e23941c69ca9569d687862215f1b-radiostation.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/45f023a5cd2362c89f114a4850e1f405-radiostation1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/9794e655c5f0ebb6a7785f6359f1f3b0-radiostation2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/7eb9fe79508798c7cb02205cc43e66b8-radiostation3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/a1522f1538a7dee5734ab39a836c06d2-radiostation4.jpg
 
 ---
 assetId: "mattb325-radio-station"
 version: "1.0"
-lastModified: "2012-09-07T01:42:29Z"
+lastModified: "2012-09-07T01:25:29Z"
 url: "https://community.simtropolis.com/files/file/27999-radio-station/?do=download"

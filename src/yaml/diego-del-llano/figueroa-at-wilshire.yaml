@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Figueroa At Wilshire
-  description: >
+  description: |
     Figueroa at Wilshire, formerly Sanwa Bank Plaza, is a 53-storey, 218.5 m (717 ft) skyscraper in Los Angeles, California, United States.
     It is the eighth-tallest building in Los Angeles.
     It was designed by Albert C. Martin & Associates, and developed by Hines Interests Limited Partnership.
@@ -13,6 +13,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/33091-figueroa-at-wilshire/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/01.jpg.17be8ae5b9a7b84a2d28d4ed9cd9bc25.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/FIGUEROA.jpg.4a0331fcbf151da15c33b422fbaf622b.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -26,5 +29,5 @@ variants:
 ---
 assetId: diego-del-llano-figueroa-at-wilshire-darknite
 version: "1.0"
-lastModified: "2019-08-21T14:14:13Z"
+lastModified: "2019-08-18T23:58:56Z"
 url: https://community.simtropolis.com/files/file/33091-figueroa-at-wilshire/?do=download

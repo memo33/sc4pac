@@ -1,0 +1,48 @@
+group: paeng
+name: streetside-diagonal-parking
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Paeng's StreetSide Diagonal Parking (SSDP)
+  description: |
+    A small set of four lots for diagonal parking that comes in three flavors:
+      - Standalone
+      - Parks205 Sidings
+      - BikePaths-compatible
+
+    All items can be found in the 'Transport | Miscellaneous' menu with custom icons.
+    The Left/Right Ends of each version are functional parking and generate a small income.
+    All items are compatible with any installed sidewalk mods.
+  author: paeng
+  website: https://community.simtropolis.com/files/file/31162-paengs-streetside-diagonal-parking-ssdp/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_07/SSDP_Day.thumb.jpg.6d2e160b293f41002a6928fb70e9a63f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_07/SSDP_Night.thumb.jpg.ba63cda1f86cdfb9ff9cee0e0fe6f68a.jpg
+
+dependencies:
+  - shk:parking-pack
+  - bsc:mega-props-sg-vol01
+assets:
+  - assetId: paeng-streetside-diagonal-parking
+    exclude:
+      - KEEP_SSDP_Resource.dat
+
+---
+group: paeng
+name: streetside-diagonal-parking-textures
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Textures for paeng's StreetSide Diagonal Parking (SSDP)
+  author: paeng
+  website: https://community.simtropolis.com/files/file/31162-paengs-streetside-diagonal-parking-ssdp/
+assets:
+  - assetId: paeng-streetside-diagonal-parking
+    include:
+      - KEEP_SSDP_Resource.dat
+
+---
+assetId: paeng-streetside-diagonal-parking
+version: "1.0"
+lastModified: "2021-01-18T20:06:11Z"
+url: https://community.simtropolis.com/files/file/31162-paengs-streetside-diagonal-parking-ssdp/?do=download

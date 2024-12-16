@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Olympia Centre
-  description: >
+  description: |
     The Olympia Centre is a skyscraper in Chicago.
     It is a mixed use building consisting of offices in the lower part of the building and residences in the narrower upper section.
     It was designed by Skidmore, Owings & Merrill LLP, and at 725 ft (221 m) tall, with 63 floors, it is Chicago's tallest mid-block building.
@@ -14,6 +14,11 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30991-olympia-centre/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/1.jpg.568bcd39c1324efeb331482d02c5e058.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/2.jpg.5fb8018f8d469708247d1d2fdaca93e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/3.jpg.93374b335aa990f4a97dbb6401315f13.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/4.jpg.2770142ea4200ad677de436c455b3d32.jpg
 
 assets:
   - assetId: diego-del-llano-olympia-centre
@@ -21,5 +26,5 @@ assets:
 ---
 assetId: diego-del-llano-olympia-centre
 version: "1.0"
-lastModified: "2016-03-11T06:42:41Z"
+lastModified: "2016-03-11T06:40:01Z"
 url: https://community.simtropolis.com/files/file/30991-olympia-centre/?do=download

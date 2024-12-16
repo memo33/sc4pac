@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable department store"
-  description: >
+  description: |
     Shopko was founded in 1962 by James Ruben, and its first store opened in Green Bay.
     In 2012, Shopko merged with Pamida, a regional discount chain that operated mainly in smaller communities of 3,000 to 8,000 people;
     all the stores were rebranded under the Shopko Hometown name.

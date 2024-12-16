@@ -34,7 +34,7 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
 info:
   summary: "Badlands terrain mod based on eastern Montana, including Rock, Water & Beach mod"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
-  description: >
+  description: |
     This is an SD terrain mod, compatible with software rendering mode.
 
     This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.

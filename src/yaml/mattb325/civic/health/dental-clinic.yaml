@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Dental Clinic"
-  description: >
+  description: |
     This little building is inspired by a real such mid-century low rise building
     near downtown Los Angeles. In game, this supplements the main hospital
     function and the capacities have been modded to sit mid way between the clinic
@@ -16,6 +16,10 @@ info:
     It sits on a 2x2 lot and provides 68 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/30940-dental-clinic/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/DentalSurgery.jpg.795d71decd883036f8ffb18a84a848ba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/DentalSurgery0.jpg.456b26795cbe5080a4f8226de4add5c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/DentalSurgery1.jpg.8379c3ef53e8391cb414de4f0ce5c366.jpg
 
 variants:
 - variant: { nightmode: standard }

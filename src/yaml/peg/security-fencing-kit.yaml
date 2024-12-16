@@ -6,7 +6,7 @@ assets:
 - assetId: "peg-security-fencing-kit"
 info:
   summary: "Collection of chain link fence props"
-  description: >
+  description: |
     This resource pack is a collection of chain link fence props that can be used
     on any type of lot that requires security fencing. The props in this pack may
     be used by other developers to enhance the appearance of their lots.
@@ -16,9 +16,12 @@ info:
     pedestrian gates and automatic rolling styled gates.
   author: "Pegasus"
   website: "https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/e93137f82ebbfe8be9f12c8d2085c058-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0026/e93137f82ebbfe8be9f12c8d2085c058-product_image1.jpg
 
 ---
 assetId: "peg-security-fencing-kit"
 version: "1.0"
-lastModified: "2015-07-08T07:51:00Z"
+lastModified: "2008-02-06T08:17:17Z"
 url: "https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/?do=download"

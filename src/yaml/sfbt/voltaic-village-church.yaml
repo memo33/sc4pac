@@ -10,7 +10,7 @@ assets:
 
 info:
   summary: "Czech village church"
-  description: >
+  description: |
     This church was modeled after a church in Zablaticko, Czech Republic.
     For the most part, the architecture is a reproduction of the original, with some creative liberty regarding roof and textures.
   author: "voltaic"

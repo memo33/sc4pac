@@ -1,0 +1,23 @@
+group: sfbt
+name: royal-semaphore-signals-props
+version: "1"
+subfolder: 100-props-textures
+info:
+  summary: Semaphore Signals Props by Royal
+  description: |
+    This prop pack contains a total number of more than 100 different semaphore signals, both distant signals and main signals. The props are intended for usage on rail lots and mods for SimCity 4. The pack only serves as a dependency, there are no lots or similar included.
+
+  author: Royal
+  website: https://www.sc4evermore.com/index.php/downloads/download/120-sfbt-props-royal-semaphore-signals-props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Formsignale_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Formsignale_02.jpg
+
+assets:
+  - assetId: sfbt-royal-semaphore-signals-props
+
+---
+assetId: sfbt-royal-semaphore-signals-props
+version: "1"
+lastModified: "2023-08-17T17:59:45.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=120:sfbt-props-royal-semaphore-signals-props

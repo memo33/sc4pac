@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Torre Mayor
-  description: >
+  description: |
     The Torre Mayor (literally "Major Tower") is a skyscraper in Mexico City, Mexico.
     With a height of 225 metres (738 feet) to the top floor and 55 stories, it is the third tallest building in Mexico.
      From its completion in 2003 until 2010 (when it was surpassed by the 236 meter (774 ft) high Ocean Two in Panama City.
@@ -16,6 +16,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31556-torre-mayor/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/9a/76/2f/9a762f728285bf1e5750175f1627e620.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/7a/fa/7b/7afa7bef928d1a53a90b3ab551211622.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -29,11 +32,11 @@ variants:
 ---
 assetId: diego-del-llano-torre-mayor-darknite
 version: "1.0"
-lastModified: "2017-04-09T03:41:58Z"
+lastModified: "2017-04-09T03:40:57Z"
 url: https://community.simtropolis.com/files/file/31556-torre-mayor/?do=download&r=165301
 
 ---
 assetId: diego-del-llano-torre-mayor-maxisnite
 version: "1.0"
-lastModified: "2017-04-09T03:41:58Z"
+lastModified: "2017-04-09T03:40:57Z"
 url: https://community.simtropolis.com/files/file/31556-torre-mayor/?do=download&r=165300

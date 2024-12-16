@@ -4,13 +4,18 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Great American Tower at Queen City Square
-  description: >
+  description: |
     The Great American Tower at Queen City Square, is a 41-story, 665-foot-tall (203 m), skyscraper in Cincinnati, Ohio.
     The tower, built by Western & Southern Financial Group, began construction in July 2008 and opened in January 2011 Half the building is occupied by the headquarters of the Great American Insurance Company.
     It is currently the third tallest building in the state of Ohio.
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/30994-great-american-tower-at-queen-city-square/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/1.jpg.7ff69f5b68511bdc33c0230ea0201dab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/2.jpg.e8e477044dba09f105dff91b91a52ad3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/3.jpg.8f556751771a982e13596fb42a404fb2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/4.jpg.e44692efa2bc298c5c0325af5750a323.jpg
 
 assets:
   - assetId: diego-del-llano-great-american-tower-at-queen-city-square

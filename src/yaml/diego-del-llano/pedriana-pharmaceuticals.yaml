@@ -4,11 +4,15 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Pedriana Pharmaceuticals
-  description: >
+  description: |
     Pedriana Pharmaceuticals is a Commercial Offices Building created by the Maxis Team.
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32101-pedriana-pharmaceuticals/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a7336e9e1781_PEDRIANA04.jpg.dc9d298e974685c0bb74f53b33ee7070.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a7336fcf119a_PEDRIANA06.jpg.dde1219412828d9b8a1646c9eeba9376.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/5a733714dc078_PEDRIANA05.jpg.9698ca6d5f52e7e963bc5fa094b903fd.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -22,11 +26,11 @@ variants:
 ---
 assetId: diego-del-llano-pedriana-pharmaceuticals-darknite
 version: "1.0"
-lastModified: "2018-02-02T00:03:47Z"
+lastModified: "2018-02-01T15:50:58Z"
 url: https://community.simtropolis.com/files/file/32101-pedriana-pharmaceuticals/?do=download&r=169905
 
 ---
 assetId: diego-del-llano-pedriana-pharmaceuticals-maxisnite
 version: "1.0"
-lastModified: "2018-02-02T00:03:47Z"
+lastModified: "2018-02-01T15:50:58Z"
 url: https://community.simtropolis.com/files/file/32101-pedriana-pharmaceuticals/?do=download&r=169907

@@ -11,7 +11,7 @@ assets:
 
 info:
   summary: "Two simple German bus stops"
-  description: >
+  description: |
     Gooooooooooong! "Attention on platform two! Now arriving Regio Runner to Leipzig Central Station! Please stand clear of the edge of platform two!" -
     This or something similar takes place on Germany's train stations every day.
     Unfortunately, the number of German train stations for SimCity was next to nonexistant.

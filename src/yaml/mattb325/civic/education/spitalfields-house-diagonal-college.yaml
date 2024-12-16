@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Spitalfields House Diagonal College"
-  description: >
+  description: |
     This BAT is based on an old brutalist building from the 1960s in London's
     spitalfields and has been designed to be placed along diagonal roads.
     The lot size is 1x2 but the building overhangs across 6 tiles.
@@ -15,6 +15,12 @@ info:
     and provides 563 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33133-spitalfields-house-diagonal-college/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/College.jpg.29a255bc1f57905e1e03d229576f2673.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/College1.jpg.abbcd367f65df572a5e53612b5f71897.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/College2.jpg.6cc421f08cebc6ffba451d2712e0affc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/College3.jpg.9664f6eef01c1beb337b5cc9e031f8b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/College4.jpg.09c22e779200b3d1c2eb565af2f4bb8d.jpg
 
 variants:
 - variant: { nightmode: standard }

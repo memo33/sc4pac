@@ -18,11 +18,14 @@ variants:
 
 info:
   summary: "Small CS$ building"
-  description: >
+  description: |
     The building is based on a bar in Melbourne's Chinatown
     and grows on a 1×2 CS$ lot.
   author: "gutterclub"
   website: "https://community.simtropolis.com/files/file/27077-camy-dumpling-house/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/a195dc073e605d05e652dc6203f94a65-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/6fe2f2560851e045ae97a8c832c308c4-night.jpg
 
 ---
 assetId: "gutterclub-camy-dumpling-house"

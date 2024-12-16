@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Shaklee Terraces, One Front Street
-  description: >
+  description: |
     One Front Street, also known as Shaklee Terraces, is an office skyscraper in the Financial District of San Francisco, California.
     The 164 m (538 ft), 38-floor tower was completed in 1979.
     The composition of the façade closely resembles that of the Shell Building by Emil Fahrenkamp, which was built in Berlin in 1931.
@@ -13,6 +13,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/32343-shaklee-terraces-one-front-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/06.jpg.cff57df8a40b27efc3e2918f5d4de0d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_07/07.jpg.f7820977fa4433af1c58dce807347af8.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -26,5 +29,5 @@ variants:
 ---
 assetId: diego-del-llano-shaklee-terraces-one-front-street-darknite
 version: "1.0"
-lastModified: "2018-07-01T16:07:02Z"
+lastModified: "2018-07-01T16:07:01Z"
 url: https://community.simtropolis.com/files/file/32343-shaklee-terraces-one-front-street/?do=download

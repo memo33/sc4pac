@@ -11,7 +11,7 @@ dependencies:
 
 info:
   summary: "James Park House"
-  description: >
+  description: |
     Listed on the US National Register of Historic Places since 1972, the house
     was built by merchant and Knoxville Mayor James Park in 1812, making it the
     second-oldest building in downtown Knoxville.
@@ -21,6 +21,11 @@ info:
     of this hospital are basically aligned to the ingame version.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/27960-james-park-house/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/3735d31f6837ae1e29efade83f9b7de4-jamespark.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/278ce17d28435011d2564658987cb964-jamespark1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/8badd1f6bcdb94e7ce3d8443763f615e-jamespark2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/a83a15c37bbac01a220cd92954783632-jamespark3.jpg
 
 ---
 assetId: "mattb325-james-park-house"

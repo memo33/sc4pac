@@ -8,6 +8,8 @@ info:
   summary: "Props by the Mexican BAT Team (MBT) and Latin American Bat Team (LBT)"
   author: "LBT Team, Berethor07, Tcxalapa, VictorGonzales, Heblem"
   website: "https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/91782ecd0cab62f30596829aa2e20770-show_propapck.jpg
 
 ---
 assetId: "lbt-mega-prop-pack-vol01"

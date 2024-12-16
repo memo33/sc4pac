@@ -3,24 +3,24 @@ name: "industry-quadrupler"
 version: "2.1"
 subfolder: "150-mods"
 variants:
-- variant: { IRM.industrial-capacity: "standard" }
+- variant: { toroca:industry-quadrupler:capacity: "standard" }
   # empty
-- variant: { IRM.industrial-capacity: "quadrupled" }
+- variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
   assets:
   - assetId: "toroca-industry-quadrupler"
 
 variantDescriptions:
-  IRM.industrial-capacity:
+  toroca:industry-quadrupler:capacity:
     "standard": "Maxis-default capacity"
     "quadrupled": "4x capacity for Maxis industrial buildings"
 
 info:
   summary: "Quadruple the number of jobs of Maxis industrial buildings"
-  warning: >
+  warning: |-
     If you install this mod in a pre-existing region, expect demand for industry to fall sharply.
     It is advisable to remove a large part of the industrial zones from each city.
   conflicts: "Incompatible with CAM, compatible with IRM."
-  description: >
+  description: |
     This mod increases the number of jobs provided by industrial buildings to a more realistic level.
     Factories in fact employ hundreds or thousands of people,
     but in SimCity 4 there is hardly a single operation that offers more than 100 jobs.
@@ -30,6 +30,9 @@ info:
     With the standard variant, the mod is not installed, but an empty placeholder package is installed instead.
   author: "toroca"
   website: "https://community.simtropolis.com/files/file/21293-industry-quadrupler/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/01-industry-quadrupler-main.jpg.c091cbdcd6b393f52323f9d07a0f1619.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/02-industry-quadrupler-query.jpg.95e76586770c9fe98b3285d551a734e4.jpg
 
 ---
 assetId: "toroca-industry-quadrupler"

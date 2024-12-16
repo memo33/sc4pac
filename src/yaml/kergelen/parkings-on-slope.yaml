@@ -1,0 +1,76 @@
+group: kergelen
+name: parkings-on-slope
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Parkings on-slope
+  description: |
+    This is a set of parking lots to fit on the slopes. You can use them on slopes between 0 to 30 meters.
+
+    You will find the Lots under the "Rail Menu". The set also includes a small add-on with some plaza pieces.
+
+    Important: In order to be placed correctly the lots need to be a road/rail above and below the slope as shown in the pictures!
+
+    CONTENTS
+     - 1 straight parking piece with tree
+     - 1 straight parking piece with lamp
+     - 1 end left parking piece
+     - 1 end right parking piece
+     - 1 plaza corner right
+     - 1 plaza corner left
+
+  author: kergelen
+  website: https://community.simtropolis.com/files/file/28905-krg-parkings-on-slope/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/5417a8c4ce46b336c68cbe27dd7ca6b9-parking_stex_2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/88aa9e66f0ca7cd3081f9a361ba40acd-parking-and-plaza-on-slope.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/00e53b138206443c0120fe79f884153c-parking-grid.png
+
+dependencies:
+  - paeng:streetside-diagonal-parking-textures
+  - mattb325:cruise-ship-terminal-retaining-wall
+  - bsc:mega-props-newmaninc-vol02
+  - shk:parking-pack
+  - bsc:mega-props-cp-vol01
+  - girafe:ashes
+  - bsc:mega-props-swi21-vol01
+assets:
+  - assetId: kergelen-parkings-on-slope
+    exclude:
+      - Kergelen Parking on slope/Add-on/
+
+---
+group: kergelen
+name: parkings-on-slope-plaza-addon
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Parkings on-slope plaza addon
+  description: |
+    Plaza addons for `pkg=kergelen:parkings-on-slope`
+
+    Contains:
+     - 1 plaza with benches
+     - 1 plaza with flowers
+     - 1 plaza with kiosk
+  author: kergelen
+  website: https://community.simtropolis.com/files/file/28905-krg-parkings-on-slope/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/5417a8c4ce46b336c68cbe27dd7ca6b9-parking_stex_2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/88aa9e66f0ca7cd3081f9a361ba40acd-parking-and-plaza-on-slope.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2013/00e53b138206443c0120fe79f884153c-parking-grid.png
+
+dependencies:
+  - kergelen:parkings-on-slope
+  - bsc:mega-props-sg-vol01
+  - namspopof:props-pack-vol2
+assets:
+  - assetId: kergelen-parkings-on-slope
+    include:
+      - Kergelen Parking on slope/Add-on/
+
+---
+assetId: kergelen-parkings-on-slope
+version: "1.0"
+lastModified: "2013-08-01T08:21:47Z"
+url: https://community.simtropolis.com/files/file/28905-krg-parkings-on-slope/?do=download

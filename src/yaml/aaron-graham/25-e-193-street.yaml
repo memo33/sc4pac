@@ -4,12 +4,17 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: 25 E. 193 Street (W2W)
-  description: >
+  description: |
     25 E. 193 Street is a 1921 five story apartment located in The Bronx, New York City.
     The building grows as R$ and R$$ in four color variations on the New York tile set.
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/29835-nybt-25-e-193-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/b8ef358df4af2f2215fdcfeca8ced4e5-25-e-193-street-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/17a26e5a2ccf7b564bf89f78719bd1b0-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/e01c300fe6d226e367ba89c28cd4a9f8-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2014/5b3eb5430b221daf966b9b723cb9b79b-dark-night.jpg
 
 dependencies: ["nybt:essentials"]
 variants:

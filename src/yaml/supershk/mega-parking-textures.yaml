@@ -10,11 +10,20 @@ info:
   summary: "Parking lot textures"
   author: "kingofsimcity, shokthrpy"
   website: "https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329151326_1.jpg.1dc103899058f6cf33505ebc34dafbd8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329151556_1.jpg.cecfebc41f5b668f6ee69db95ff24924.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329151435_1.jpg.72d3f76adbb1c701e8f5a2c1ea250f90.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003153_1.jpg.cb9b278cea2a34d8089d0779109cce7e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003442_1.jpg.01a1c7e65011299408925b017b0ce002.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003250_1.jpg.ba675f79180f7103949ebb65fabae302.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003229_1.jpg.06fbefa3c151a7cba988bc0b7f85b566.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/20160329003355_1.jpg.c51bc915e116ddd0c95f4b52dd74ad05.jpg
 
 ---
 assetId: "supershk-mega-parking-textures"
 version: "1.0.1"
-lastModified: "2016-04-01T01:57:31Z"
+lastModified: "2016-03-30T07:29:40Z"
 url: "https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/?do=download"
 
 ---
@@ -28,9 +37,14 @@ info:
   summary: "Fractional-angle parking lot textures"
   author: "kingofsimcity, shokthrpy"
   website: "https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/cheese.jpg.943c2310ac467686de3292b3334111a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/20170101172454_1.jpg.ec07e16dfb255a27682d8138fd955f40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/20170101194239_1.jpg.ba861a9cf170ef417f1cd3f08304ed8a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/20170101172404_1.jpg.3cfcedeef270b49f8d6f60cea8a735e9.jpg
 
 ---
 assetId: "supershk-fa3-parking-textures"
 version: "1.0"
-lastModified: "2017-01-02T07:46:35Z"
+lastModified: "2017-01-02T05:36:59Z"
 url: "https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/?do=download"

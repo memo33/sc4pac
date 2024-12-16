@@ -4,11 +4,15 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Ventura Place Three
-  description: >
+  description: |
     This landmark is a mixed-used building with commercial center, offices and residences.
     It provides 2700 jobs (CO$$$).
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31459-ventura-place-three/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/1.jpg.5ab5f3795522e6e8bea599d3d873debf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/2.jpg.d8fd522db514c8afbb9b85b33a2f7c9f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/3.jpg.692475c121c58530b4f68084b6c674fd.jpg
 
 variants:
   - variant: { nightmode: standard }
@@ -22,11 +26,11 @@ variants:
 ---
 assetId: diego-del-llano-ventura-place-three-darknite
 version: "1.0"
-lastModified: "2017-02-12T11:18:15Z"
+lastModified: "2017-02-12T02:27:11Z"
 url: https://community.simtropolis.com/files/file/31459-ventura-place-three/?do=download&r=164546
 
 ---
 assetId: diego-del-llano-ventura-place-three-maxisnite
 version: "1.0"
-lastModified: "2017-02-12T11:18:15Z"
+lastModified: "2017-02-12T02:27:11Z"
 url: https://community.simtropolis.com/files/file/31459-ventura-place-three/?do=download&r=164547

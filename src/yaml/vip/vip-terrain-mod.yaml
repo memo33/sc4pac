@@ -16,7 +16,7 @@ dependencies:
 info:
   summary: "VIP Terrain Mod - All Components"
   conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
-  description: >
+  description: |
     Installs VIP Terrain Mod, including optional beach, rock, and water textures.
 
     This is an HD terrain mod, requiring the use of hardware rendering mode.
@@ -36,7 +36,7 @@ assets:
 info:
   summary: "VIP Terrain Mod - Terrain Only"
   conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
-  description: >
+  description: |
     Installs only the base terrain textures for the VIP Terrain Mod, and does not include optional beach, rock, and water textures.
 
     This is an HD terrain mod, requiring the use of hardware rendering mode.
@@ -55,7 +55,7 @@ assets:
 info:
   summary: "VIP Terrain Mod - Beach Textures"
   conflicts: ""
-  description: >
+  description: |
     Optional beach textures for the VIP Terrain Mod.
 
     This is an HD terrain mod, requiring the use of hardware rendering mode.
@@ -74,7 +74,7 @@ assets:
 info:
   summary: "VIP Terrain Mod - Rock Textures"
   conflicts: ""
-  description: >
+  description: |
     Optional rock textures for the VIP Terrain Mod.
 
     This is an HD terrain mod, requiring the use of hardware rendering mode.
@@ -93,7 +93,7 @@ assets:
 info:
   summary: "VIP Terrain Mod - Water Textures"
   conflicts: ""
-  description: >
+  description: |
     Optional water textures for the VIP Terrain Mod.
 
     This is an HD terrain mod, requiring the use of hardware rendering mode.

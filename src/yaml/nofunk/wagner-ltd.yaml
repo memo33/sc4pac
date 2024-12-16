@@ -16,22 +16,25 @@ variants:
 
 info:
   summary: "Small architectural services firm (CS$$)"
-  description: >
+  description: |
     Wagner, Ltd., is the premier architectural services firm, from concept, to
     design, to modding and lotting. They even reticulate splines! From the
     biggest office tower to the smallest bungalow, Wagner, Ltd. has got you
     covered for all your architectural needs!
   author: "nofunk"
   website: "https://community.simtropolis.com/files/file/28405-wagner-ltd/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/644f1638762452d49254028226843dae-wagnerltd_stex1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/47a03c51e6a2a6ef89e09a1fb57c7a30-wagnerltd_stex2.jpg
 
 ---
 assetId: "wagner-ltd-mn"
 version: "1.0"
-lastModified: "2013-01-28T02:34:54Z"
+lastModified: "2013-01-28T02:00:23Z"
 url: "https://community.simtropolis.com/files/file/28405-wagner-ltd/?do=download&r=111242"
 
 ---
 assetId: "wagner-ltd-dn"
 version: "1.0"
-lastModified: "2013-01-28T02:34:54Z"
+lastModified: "2013-01-28T02:00:23Z"
 url: "https://community.simtropolis.com/files/file/28405-wagner-ltd/?do=download&r=111241"

@@ -14,7 +14,7 @@ variants:
 
 info:
   summary: "Small pizza restaurant"
-  description: >
+  description: |
     Your one stop shop for world famous pizza, ribs, and sushi!
 
     Grows in the Euro and Houston tilesets on a CS$ 1×2 lot (W2W).

@@ -5,6 +5,8 @@ subfolder: "100-props-textures"
 info:
   summary: "Residential building models made by LBT"
   website: "https://community.simtropolis.com/files/file/20816-lbt-residentials-models-files-vol-01/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b190011b6668ec5d411bf96ff5288916-show1residentialsModels.jpg
   author: "Berethor07, tcx, Heblem"
 assets:
 - assetId: "lbt-residentials-models-files-vol01"
@@ -23,6 +25,8 @@ subfolder: "100-props-textures"
 info:
   summary: "Residential building models made by LBT"
   website: "https://community.simtropolis.com/files/file/20817-lbt-residentials-models-files-vol-02/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/187eb5f4a8d94e2b7879246998d9493f-resmod2.jpg
   author: "Berethor07, tcx, Heblem"
 assets:
 - assetId: "lbt-residentials-models-files-vol02"

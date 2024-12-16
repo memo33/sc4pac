@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: One World Trade Center
-  description: >
+  description: |
     One World Trade Center (also known as 1 World Trade Center, 1 WTC or Freedom Tower) is the main building of the rebuilt World Trade Center complex in Lower Manhattan, New York City.
     It is the tallest building in the Western Hemisphere, and the sixth-tallest in the world.
     The supertall structure has the same name as the North Tower of the original World Trade Center, which was destroyed in the terrorist attacks of September 11, 2001.
@@ -27,6 +27,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31913-one-world-trade-center/
+  images:
+    - https://i.pinimg.com/originals/f6/9d/e3/f69de31a925a3f1fde9d0c37cbd69051.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/ce/2e/9f/ce2e9f978bf59c928a79e365ec34c182.jpg
 
 variants:
   - variant: { nightmode: standard }

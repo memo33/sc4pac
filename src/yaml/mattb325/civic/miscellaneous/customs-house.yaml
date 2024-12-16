@@ -10,7 +10,7 @@ dependencies:
 
 info:
   summary: "Customs House"
-  description: >
+  description: |
     This particular Customs House is inspired by the one that has stood in Salem,
     Massachusetts since 1819 (it is not an exact replica). The basement at the
     rear of the building is used for impounding goods.
@@ -23,6 +23,12 @@ info:
     and can be placed more than once in a city. It is found in the rewards menu.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/28037-customs-house/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/a02a3d49f4b9076a5a14f469162c1f18-customshouse.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/b36a615ac43d37fe81f6b74c12261bf8-customshouse1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/da832284820e12c566ff225b5aedafaa-customshouse2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/6dc236191fc1dfd7c504c4a013c39fd3-customshouse3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/ea79542a0c5e3747422fab78070e4f0b-customshouse4.jpg
 
 ---
 assetId: "mattb325-customs-house"

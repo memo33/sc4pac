@@ -83,7 +83,7 @@ variantDescriptions:
 
 info:
   summary: "Huge set of CAM-patible farms (stage 1 to 10)"
-  description: >
+  description: |
     The mod contains a large assortment of farms designed for use with the Colossus Addon Mod (`pkg=cam:colossus-addon-mod`).
 
     It includes 134 growable farms and 45 fields as well as new props, textures and some ploppable filler pieces.
@@ -95,6 +95,17 @@ info:
     Please consult the extensive documentation for more information about the design philosophy and use of this mod.
   author: "Fantozzi"
   website: "https://community.simtropolis.com/files/file/32023-colossus-farming/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE1.jpg.b63fa0e3ec0e8918cf397e8bbae6a05f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE2.jpg.d3486c403a257d8c5671f7fd3d3ab4da.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE3.jpg.a25b542497e7fc765a9713e515a12724.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE4.jpg.deb5b961cccd1c48abd4cc7f6292517b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE5.jpg.db9c3706f7dddfa1c8608ba523f1e760.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE6.jpg.a34056f4a837fd4ffc1328069ca13315.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE7.jpg.e8e02815c878c50fd9b15dd9fe1478e7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE8.jpg.1e18ff50fe8ef20686d5b8db596b2363.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE9.jpg.d87290aeeb0f8580ef1e57f2b0865657.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE10.jpg.8b84a71a9d324bc8eb538726a8f2e032.jpg
 
 ---
 group: "fantozzi"
@@ -127,5 +138,5 @@ info:
 ---
 assetId: "fantozzi-colossus-farming"
 version: "1.0"
-lastModified: "2023-01-01T05:02:53Z"
+lastModified: "2017-11-30T02:16:23Z"
 url: "https://community.simtropolis.com/files/file/32023-colossus-farming/?do=download"

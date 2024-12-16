@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: First National Bank Tower
-  description: >
+  description: |
     The First National Bank Tower is a 634 ft (193 m), 45-story skyscraper at 1601 Dodge Street in downtown Omaha, Nebraska.
     Completed in 2002, it is currently the tallest building in Nebraska.
     It was built on the site of the former Medical Arts Building which was imploded on April 2, 1999.
@@ -17,6 +17,9 @@ info:
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31467-first-national-bank-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/1.jpg.fbaec0990e89d1e63f3d0e20a46cb867.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_02/2.jpg.4022f51bed98648cb0286906cc8a72be.jpg
 
 variants:
   - variant: { nightmode: standard }

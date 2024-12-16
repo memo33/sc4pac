@@ -7,11 +7,16 @@ dependencies:
   - "girafe:maples-v2"
 info:
   summary: 201 E. 19 Street
-  description: >
+  description: |
     201 E. 19 Street is a 1960 sixteen story brick apartment located in Manhattan, New York City.
     The building grows as R$$, R$$$, CS$$ and CS$$$ in four color variations on the New York tile set.
   author: Aaron Graham
   website: https://community.simtropolis.com/files/file/28649-nybt-201-e-19-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/4276a896198f87d6988f0128c1089c7c-201-e-19-street-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/474fae9d733c91ba27d7a7d5b7750c81-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/9e97de5be5b8f6a12979dbb696923ec9-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2013/76a2a10145fbf61690c2d34215c6f1b5-dark-night.jpg
 
 variants:
   - variant: { nightmode: dark }

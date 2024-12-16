@@ -4,13 +4,16 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Two Liberty Place
-  description: >
+  description: |
     Liberty Place is a skyscraper complex in Philadelphia, Pennsylvania, United States.
     The complex is composed of a 61-story 945-foot (288 m) skyscraper called One Liberty Place, a 58-story 848-foot (258 m) skyscraper called Two Liberty Place, a two-story shopping mall called the Shops at Liberty Place, and the 14-story Westin Philadelphia Hotel.
     Prior to the construction of Liberty Place, there was a "gentlemen's agreement" not to build any structure inCenter City higher than the statue of William Penn on top of Philadelphia City Hall
 
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/31989-two-liberty-place/
+  images:
+    - https://i.pinimg.com/originals/e7/70/fa/e770fa03e77afc0dd7c94dce24a98ee6.jpg
+    - https://i.pinimg.com/originals/e3/cb/16/e3cb1617df47214045cfd91e1e4f5b6d.jpg
 
 variants:
   - variant: { nightmode: standard }
