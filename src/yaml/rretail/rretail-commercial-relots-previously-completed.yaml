@@ -1,0 +1,244 @@
+# Relots excluded for now
+# group: rretail
+# name: rretail-commercial-relots-previously-completed
+# version: "1.0"
+# subfolder: 300-commercial
+# info:
+#   summary: RRetail Commercial Relots - Previously Completed
+#   description: |-
+#     **MANY of you may already have these lots**. But because of my relot plans and I uploaded in packs for the commercial relots, here's all my commercial relots that I previously uploaded to the STEX that I don't not plan to redo. If a commercial building I previously worked on is not in here that is because it will a part of a new and updated commerical relot pack or someone else has relotted it.
+
+#     These are for those of you who don't have these.
+
+#     **\------------------------------------------------------------------------------------ com1 dependencies ----------------------------------------------------------------------------**
+
+#     To plop the Blaine's Farm & Fleet and Mills Fleet Farm stores you will need to use the lotplop cheat.
+
+#     **3x4 lots:**
+
+#     **4x5 lots:**
+
+#     **5x5 lots:**
+
+#     **\------------------------------------------------------------------------------------ com2 dependencies ----------------------------------------------------------------------------**
+
+#     **7x5 lots:**
+
+#     **\------------------------------------------------------------------------------------ com3 dependencies ----------------------------------------------------------------------------**
+
+#     **5x4 lots:**
+
+#     **6x4 lots:**
+
+#     **\------------------------------------------------------------------------------------ com5 dependencies ----------------------------------------------------------------------------**
+
+#     **4x5 lots:**
+
+#     **\------------------------------------------------------------------------------------ com7 dependencies ----------------------------------------------------------------------------**
+
+#     **7x8 lots:**
+
+#     **7x9 lots:**
+
+#     **7x11 lots:**
+
+#     **9x13 lots:**
+
+#     -   Only need the Fry Electronics files found in 'The Forsaken Files'
+
+#     **15x14 lots:**
+
+#     **\------------------------------------------------------------------------------------ com8 dependencies ----------------------------------------------------------------------------**
+
+#     **4x3 lots:**
+
+#     **4x4 lots:**
+
+#     **6x8 lots:**
+
+#     **7x9 lots:**
+
+#     **\------------------------------------------------------------------------------------ com9 dependencies ----------------------------------------------------------------------------**
+
+#     **Sears Grand:**
+
+#     -   You only need to keep these two Sears-related files found in the B62 Sears Grand file.
+#         -   b62\_SearsGrand\_MB v3.41 (both the Model and Desc files)
+#     -   You do not need to keep the Diggis or Non-Diggis Version if you plan to ONLY use my relot. If, however, you want to use both mine and nos17's version, you will need to choose. Likewise if you just want to use nos17's version.
+
+#     **Lowe's:**
+
+#     -   You only need to keep the B62- Lowe's Home Improvement folder
+
+#     A couple of these lots require lotplop to work.
+
+#     **6x8 lots:**
+
+#     **8x9 lots:**
+
+#     **8x11 lots:**
+
+#     **12x10 lots:**
+
+#     **13x12 lots:**
+
+#     **13x13 lots:**
+
+#     **\------------------------------------------------------------------------------------ com10 dependencies ----------------------------------------------------------------------------**
+
+#     **4x5 lots:**
+
+#     **5x5 lots:**
+
+#     **6x5 lots:**
+
+#     **7x9 lots:**
+
+#     **\------------------------------------------------------------------------------------ com11 dependencies ----------------------------------------------------------------------------**
+
+#     When downloading, please know the following:
+
+#     -   Because this pack uses Simgoober [LEX department store models](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1093), please follow the instructions in the remove list files to get rid of any models and/or lots you may already have.
+#     -   **USER** **BEWARE**: While the [LEX lots files](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1094) aren't required for all of my relots, some of my relots will crash the game if you don't have Simgoober's lots downloaded. I apologize for this, but I have no idea how to get around this. Therefore his original lots are a dependency.
+#     -   One [STEX file](https://community.simtropolis.com/files/file/15726-wally-ks-bullseye/) is required as it is not part of the department store files on the LEX
+
+#     **Lot Sizes:**
+
+#     3x4 lots:
+
+#     -   SG Richardson's Department Store
+
+#     4x4 lots:
+
+#     -   SG Urban Department Store
+
+#     5x3 lots:
+
+#     -   SG Hess Department Store
+
+#     5x5 lots
+
+#     -   SG Monkey Wards
+
+#     5x6 lots:
+
+#     -   SG Neiman Marcus
+
+#     6x5 lots:
+
+#     -   SG Hechts
+#     -   SG Nordstrom
+#     -   SG Sears
+
+#     6x7 lots:
+
+#     -   SG Wally K's Bullseye
+#   author: RRetail
+#   website: https://community.simtropolis.com/files/file/32318-rretail-commercial-relots-previously-completed/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b2551ebde7bf_bonus1.jpg.a3720f9b98b074394b11bd0bddb06307.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b2551ec7dd78_bonus2.jpg.d25d5618908ecfc6313871ce0a49680a.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b2551ed0d342_com3a.jpg.1c8f79397e3a148850bd1ae1e3359d47.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b2551ed707c4_com5a.jpg.f17c1afb74fc402c5677a78a6edf8724.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com5b.jpg.fd79a0d66d1d5e092315a67a9c4c7480.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com5c.jpg.f709655f9e88ac89f70f7af302b8a2ac.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com6b.jpg.58f57adc2c2c90dc205228ebc85d0817.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com7a.jpg.d72e79c5ca81bda0365cdac29948a792.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com7c.jpg.a974a9d1e63f7df536552710aa988dda.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com7d.jpg.2249d4b503016a3056d28c15ca6aa802.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com10.jpg.23ca69769e4b3f059b959d3c307c9a47.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com11a.jpg.75d672de094da0c654b02993ca896e34.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com11c.jpg.781ec8375ce125391d502e7030d96148.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com11d.jpg.461f13a3e6ac4aa5f39c14b89ff06872.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com15b.jpg.9c5a03cea7bd7463bdc3d5329e19a9dd.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com15c.jpg.19b7b4a3f66745c78e94ad3d2709b8bc.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com16b.jpg.0329a9f444b5e98b1710b078dc875d24.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com16c.jpg.c320ddaa3e9779f4196a7cf8d54a4f1d.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b2551fc28389_com2a.jpg.ebd14e6ce2a6a583ed8f6106c7af1387.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com4a.jpg.1dbb54ed0954983d1115745a6232fc49.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com6a.jpg.a98c3f53cf8ced07c83002299259e249.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com7b.jpg.8044b0a9a9e035e62ad51a72f64b1ed1.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com7e.jpg.ecd19bcfeeb19cc7037d22de60e04367.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com11b.jpg.b323f55931fba7a94ce05125cc745a2d.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com15a.jpg.37b76eab7614664139353fc717f1fbd8.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com16a.jpg.d23f9d440d42980f022bcd746f2f38ad.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/com16d.jpg.91128627a5f9b794a47aa48c146f84ed.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/5b25521015938_wolfplaza.jpg.5f3fbcb76fba4c1975e213b2c7c65ef6.jpg
+# dependencies:
+#   - '"[lex department store models](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1093)"'
+#   - '"[lex lots files](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1094)"'
+#   - '"[stex file](https://community.simtropolis.com/files/file/15726-wally-ks-bullseye/)"'
+#   - "\"[wally k's bullseye](https://community.simtropolis.com/files/file/15726-wally-ks-bullseye/)\""
+#   - '"[simgoober department store models](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1093)"'
+#   - '"[simgoober department store lots](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1094)"'
+#   - '"[lex small commercial models](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1123)"'
+#   - '"[lex lots files](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1124)"'
+#   - '"[simgoober commercials models small shops](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1123)"'
+#   - '"[simgoober commercial lots small shops](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1124)"'
+#   - '"[lex medium store models](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1121)"'
+#   - '"[lex lots files](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1122)"'
+#   - '"[stex file](https://community.simtropolis.com/files/file/3646-wilson-farms-convenience-store/)"'
+#   - '"[wilson farms](https://community.simtropolis.com/files/file/3646-wilson-farms-convenience-store/)"'
+#   - '"[simgoober commercial models medium stores](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1121)"'
+#   - '"[simgoober commercial lots medium stores](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1122)"'
+#   - '"[sears department store](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2093)"'
+#   - '"[b62 walmart](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1229)"'
+#   - nos17:essentials
+#   - bsc:texturepack-cycledogg-vol01
+#   - murimk:industrial-mmp
+#   - murimk:props-vol03-industrials
+#   - bsc:mega-props-sg-vol01
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-d66-vol01
+#   - bsc:mega-props-jes-vol01
+#   - bsc:mega-props-jes-vol03
+#   - bsc:mega-props-jes-vol08
+#   - shk:parking-pack
+#   - supershk:mega-parking-textures
+#   - supershk:fa3-parking-textures
+#   - mushymushy:na-53ft-trailers-vol1
+#   - '"[](https://community.simtropolis.com/files/file/12562-best-buy-updated/)"'
+#   - '"[](https://community.simtropolis.com/files/file/13852-blains-farm-and-fleet/)"'
+#   - '"[](https://community.simtropolis.com/files/file/13853-mills-fleet-farm/)"'
+#   - '"[](https://community.simtropolis.com/files/file/22207-wolf-plaza/)"'
+#   - '"[](https://community.simtropolis.com/files/file/20275-west-city-mall/)"'
+#   - '"[](https://community.simtropolis.com/files/file/20265-strip-mall/)"'
+#   - '"[](https://community.simtropolis.com/files/file/14163-lazy-boy-furniture-galleries/)"'
+#   - b62:walmart-supercenter-02
+#   - b62:walmart-supercenter-03
+#   - '"[](https://community.simtropolis.com/files/file/2775-the-home-depot-by-c-rockett/)"'
+#   - b62:k-mart-super-center
+#   - '"[](https://community.simtropolis.com/files/file/30815-b62-remastered-the-forsaken-files/)"'
+#   - b62:walmart-supercenter-01
+#   - '"[](https://community.simtropolis.com/files/file/26594-pepboys-auto-shop/)"'
+#   - b62:circuit-city-70s
+#   - b62:circuit-city
+#   - b62:caldor-department-store
+#   - b62:bradlees-department-store
+#   - b62:shopko-stores
+#   - '"[](https://community.simtropolis.com/files/file/19506-lbt-walmart-supercenter-v2/)"'
+#   - b62:sams-club
+#   - b62:lowes-distribution-center
+#   - b62:lowes-home-improvement
+#   - b62:sears-grand
+#   - '"[](https://community.simtropolis.com/files/file/30076-b62-remastered-target-supercenter/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3052-nesco-petsmart/)"'
+#   - dk1:jcpenney
+#   - dk1:macys
+#   - dk1:dillards
+#   - '"[](https://community.simtropolis.com/files/file/22997-sams-club/)"'
+#   - '"[](https://community.simtropolis.com/files/file/16838-blam-the-golden-boot/)"'
+#   - '"[](https://community.simtropolis.com/files/file/16654-blam-sr-brick-masonry-store/)"'
+#   - '"[](https://community.simtropolis.com/files/file/15679-mx-fedex-kinkos/)"'
+#   - '"[](https://community.simtropolis.com/files/file/4490-nordstrom/)"'
+#   - '"[](https://community.simtropolis.com/files/file/2342-walmart/)"'
+#   - '"[](https://community.simtropolis.com/files/file/3909-costco-retail/)"'
+#   - '"[](https://community.simtropolis.com/files/file/17996-blam-blank/)"'
+# assets:
+#   - assetId: rretail-rretail-commercial-relots-previously-completed
+
+# ---
+# assetId: rretail-rretail-commercial-relots-previously-completed
+# version: "1.0"
+# lastModified: "2018-06-16T18:31:43Z"
+# url: https://community.simtropolis.com/files/file/32318-rretail-commercial-relots-previously-completed/?do=download

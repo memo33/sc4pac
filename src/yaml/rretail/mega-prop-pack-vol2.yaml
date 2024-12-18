@@ -1,0 +1,18 @@
+group: rretail
+name: mega-prop-pack-vol2
+version: "2.4.1"
+subfolder: 100-props-textures
+info:
+  summary: MEGA Prop Pack Vol. 2
+  author: RRetail
+  website: https://community.simtropolis.com/files/file/32473-rr-mega-prop-pack-vol-2/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2d78a637189_RRMEGAPropPackVol.2.jpg.a9c01d56768e82e850b452327d264351.jpg
+assets:
+  - assetId: rretail-mega-prop-pack-vol-2
+
+---
+assetId: rretail-mega-prop-pack-vol-2
+version: "2.4.1"
+lastModified: "2022-02-15T18:03:09Z"
+url: https://community.simtropolis.com/files/file/32473-rr-mega-prop-pack-vol-2/?do=download

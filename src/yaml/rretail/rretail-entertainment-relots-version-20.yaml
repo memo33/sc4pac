@@ -1,0 +1,149 @@
+# Relots excluded for now
+# group: rretail
+# name: rretail-entertainment-relots-version-20
+# version: "1.0"
+# subfolder: 360-landmark
+# info:
+#   summary: RRetail Entertainment Relots - Version 2.0
+#   description: |-
+#     I've decided to embark upon a journey to redo a select few of my previous relots. Some of the lots for the entertainment venues in this pack have changed only slightly while others have changed drastically. This pack consists of models from [@SimGoober](https://community.simtropolis.com/profile/24419-simgoober/), [@Heblem](https://community.simtropolis.com/profile/198321-heblem/), [@Ceafus 88](https://community.simtropolis.com/profile/358450-ceafus-88/), [@dk1](https://community.simtropolis.com/profile/153428-dk1/), [@Fribe](https://community.simtropolis.com/profile/373522-fribe/) and many others.
+
+#     Lot Sizes:
+
+#     -   [AGS Flag River Stadium](https://community.simtropolis.com/files/file/17886-ags-flag-river-stadium/)
+#         -   12x11 lot
+#     -   [AGS Taylor Memorial Field](https://community.simtropolis.com/files/file/19274-ags-taylor-memorial-field/)
+#         -   6x10 lot
+#     -   [BLUOB Fitness Club](https://community.simtropolis.com/files/file/3342-fitness-club/)
+#         -   4x3 lot
+#     -   [BMX Chuck E. Cheese's](https://community.simtropolis.com/files/file/17289-blam-chuck-e-cheese/)
+#         -   3x3 lot
+#     -   [C88 Swimming Pool](https://community.simtropolis.com/files/file/25851-public-swimming-pool/)
+#         -   2x2 lot
+#     -   [CDZM Kingpin Lanes](https://community.simtropolis.com/files/file/25815-king-pin-lanes/)
+#         -   3x4 lot
+#     -   [DEDWD Indoor Sports Center](https://community.simtropolis.com/files/file/2974-dedw-indoor-sports-centre/)
+#         -   6x6 lot
+#     -   [DEDWD Karate Dojo](https://community.simtropolis.com/files/file/17055-dedwd-small-karate-dojos/)
+#         -   2x2 lot
+#     -   [DK1 Retro Bowl](https://community.simtropolis.com/files/file/21504-dk1-bowling/)
+#         -   3x4 lot
+#     -   [FBE Brewer Stadium](https://community.simtropolis.com/files/file/28601-brewer-stadium/)
+#         -   11x10 lot
+#     -   [FBE Creek Park](https://community.simtropolis.com/files/file/27853-creek-park-stadium/)
+#         -   8x9 lot
+#     -   [FBE Mallow Park](https://community.simtropolis.com/files/file/28664-mallow-park/)
+#         -   11x11 lot
+#     -   [FBE Talbot Speedway](https://community.simtropolis.com/files/file/27657-talbot-speedway/)
+#         -   15x15 lot
+#     -   [LBT MMCinemas](https://community.simtropolis.com/files/file/19432-lbt-mmcinemas/)
+#         -   6x7 lot
+#     -   [SCM World Gym](https://community.simtropolis.com/files/file/19970-world-gym/)
+#         -   3x3 lot
+#     -   [SG Century Movie Theater](https://community.simtropolis.com/files/file/12926-century-movie-theater/)
+#         -   6x5 lot
+#     -   [SG Chuck E. Cheese's](https://community.simtropolis.com/files/file/15716-chuck-e-cheese/)
+#         -   4x4 lot
+#     -   [SG Dave N Buster's](https://community.simtropolis.com/files/file/15711-dave-and-busters/)
+#         -   5x5 lot
+#     -   [SG Deadwoods Movie Theater](https://community.simtropolis.com/files/file/21117-deadwoods-theater/)
+#         -   4x3 lot
+#     -   [SG Mini Golf](https://community.simtropolis.com/files/file/12898-mini-golf/)
+#         -   3x3 lot
+#     -   SG Swimming Pool 1
+#         -   4x4 lot
+#     -   SG Swimming Pool 2
+#         -   4x3 lot
+#     -   SG Swimming Pool 3
+#         -   3x3 lot
+
+#     Other Dependencies:
+
+#     -   [BSC TexturePack Cycledogg Vol 1b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+#     -   [BSC MEGA Props JES Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+#     -   [BSC MEGA Props SG Vol 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+#     -   [LBT MEGA Prop Pack Vol 1](https://community.simtropolis.com/files/file/21770-lbt-mega-prop-pack-vol01/)
+#     -   [SG Swimming Pools](https://community.simtropolis.com/files/file/14522-public-pools-pack/)
+#     -   [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+#     -   [SuperSHK MEGA Parking Textures 1.0.1](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+#     -   [SuperSHK + FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+#     -   BSC \- VIP Girafe Trees/Shrubs
+#         -   [Ash Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2854)
+#         -   [Beech Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2995)
+#         -   [Berries](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2888)
+#         -   [Birch Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620)
+#         -   [Chestnut Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3049)
+#         -   [Daisies](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3251)
+#         -   [Elm Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3347)
+#         -   [Feather Grass](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3001)
+#         -   [Hedges](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071)
+#         -   [Linden Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2869)
+#         -   [Maple Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2809)
+#         -   [Narcissus](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2964)
+#         -   [Poplar Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3579)
+#         -   [Rowan Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244)
+#         -   [Walnut Trees](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3461)
+#   author: RRetail
+#   website: https://community.simtropolis.com/files/file/32259-rretail-entertainment-relots-version-20/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.6c005a74a51bd40d907d2e976c461cbc.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.c29728c5baaf6d6f5d77d4130e01f5f8.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.787eb5828458a003c15329ea7a2082f6.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.7c75921af28a44847cfd80708d2aabca.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.6669a3a30a0e6b96d6a85dae1cf1d08a.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.aec30eb419d2e6607f9c25f3f22ec9bd.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.497db23ac544c54fc305ae59837e33f2.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.10497b416c00305488c24f989f30c9f2.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.39c4e4150e20018103b10323d4772106.jpg
+# dependencies:
+#   - '"[ags flag river stadium](https://community.simtropolis.com/files/file/17886-ags-flag-river-stadium/)"'
+#   - '"[ags taylor memorial field](https://community.simtropolis.com/files/file/19274-ags-taylor-memorial-field/)"'
+#   - '"[bluob fitness club](https://community.simtropolis.com/files/file/3342-fitness-club/)"'
+#   - "\"[bmx chuck e. cheese's](https://community.simtropolis.com/files/file/17289-blam-chuck-e-cheese/)\""
+#   - '"[c88 swimming pool](https://community.simtropolis.com/files/file/25851-public-swimming-pool/)"'
+#   - '"[cdzm kingpin lanes](https://community.simtropolis.com/files/file/25815-king-pin-lanes/)"'
+#   - '"[dedwd indoor sports center](https://community.simtropolis.com/files/file/2974-dedw-indoor-sports-centre/)"'
+#   - '"[dedwd karate dojo](https://community.simtropolis.com/files/file/17055-dedwd-small-karate-dojos/)"'
+#   - dk1:bowling
+#   - '"[fbe brewer stadium](https://community.simtropolis.com/files/file/28601-brewer-stadium/)"'
+#   - '"[fbe creek park](https://community.simtropolis.com/files/file/27853-creek-park-stadium/)"'
+#   - '"[fbe mallow park](https://community.simtropolis.com/files/file/28664-mallow-park/)"'
+#   - '"[fbe talbot speedway](https://community.simtropolis.com/files/file/27657-talbot-speedway/)"'
+#   - '"[lbt mmcinemas](https://community.simtropolis.com/files/file/19432-lbt-mmcinemas/)"'
+#   - '"[scm world gym](https://community.simtropolis.com/files/file/19970-world-gym/)"'
+#   - '"[sg century movie theater](https://community.simtropolis.com/files/file/12926-century-movie-theater/)"'
+#   - "\"[sg chuck e. cheese's](https://community.simtropolis.com/files/file/15716-chuck-e-cheese/)\""
+#   - "\"[sg dave n buster's](https://community.simtropolis.com/files/file/15711-dave-and-busters/)\""
+#   - '"[sg deadwoods movie theater](https://community.simtropolis.com/files/file/21117-deadwoods-theater/)"'
+#   - '"[sg mini golf](https://community.simtropolis.com/files/file/12898-mini-golf/)"'
+#   - bsc:texturepack-cycledogg-vol01
+#   - bsc:mega-props-jes-vol01
+#   - bsc:mega-props-sg-vol01
+#   - lbt:mega-prop-pack-vol01
+#   - '"[sg swimming pools](https://community.simtropolis.com/files/file/14522-public-pools-pack/)"'
+#   - shk:parking-pack
+#   - supershk:mega-parking-textures
+#   - supershk:fa3-parking-textures
+#   - girafe:ashes
+#   - girafe:beeches
+#   - girafe:berries
+#   - girafe:birches
+#   - girafe:chestnuts
+#   - girafe:daisy
+#   - girafe:elms
+#   - girafe:feather-grass
+#   - girafe:hedges
+#   - girafe:lindens
+#   - girafe:maples-v2
+#   - girafe:narcissus
+#   - girafe:poplars
+#   - girafe:rowan-trees
+#   - girafe:walnut-trees
+# assets:
+#   - assetId: rretail-rretail-entertainment-relots-version-20
+
+# ---
+# assetId: rretail-rretail-entertainment-relots-version-20
+# version: "1.0"
+# lastModified: "2018-05-17T02:41:08Z"
+# url: https://community.simtropolis.com/files/file/32259-rretail-entertainment-relots-version-20/?do=download

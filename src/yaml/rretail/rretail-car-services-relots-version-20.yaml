@@ -1,0 +1,85 @@
+# Relots excluded for now
+# group: rretail
+# name: rretail-car-services-relots-version-20
+# version: "1.0"
+# subfolder: 300-commercial
+# info:
+#   summary: RRetail Car Services Relots - Version 2.0
+#   description: |-
+#     I've decided to embark upon a journey to redo a select few of my previous relots. Some of the lots for the car dealerships and such in this pack have changed only slightly while others have changed drastically. This pack consists of models mainly from [@mikeseith](https://community.simtropolis.com/profile/5519-mikeseith/), but also includes a few from other users. A prop file of SG's Jiffy Lube is also included for my relot.
+
+#     Lot Sizes:
+
+#     -   [C88 Auto Garage](https://community.simtropolis.com/files/file/28747-sbt-ceafus-car-repairsauto-parts/)
+#         -   2x2 lot
+#     -   [MKS BMW](https://community.simtropolis.com/files/file/3027-central-bmw/)
+#         -   4x3 lot
+#     -   [MKS Citroen](https://community.simtropolis.com/files/file/16540-citroen-dealerships/)
+#         -   2x3 lot
+#     -   MKS Fiat
+#         -   2x2 lot
+#     -   [MKS Hyundai](https://community.simtropolis.com/files/file/17804-hyundai-dealerships-and-automata/)
+#         -   4x5 lot
+#     -   [MKS Toyota](https://community.simtropolis.com/files/file/18729-toyota-dealership-and-automata/)
+#         -   4x4 lot
+#     -   [MKS Ford](https://community.simtropolis.com/files/file/3016-metropolitan-ford/)
+#         -   3x4 lot
+#     -   [MKS Honda v1](https://community.simtropolis.com/files/file/12256-honda-dealership-growable-and-landmark/)
+#         -   3x4 lot
+#     -   MKS Honda v2
+#         -   3x3 lot
+#     -   [MKS Renault v1](https://community.simtropolis.com/files/file/14407-renault-spawning-renault-dealership/)
+#         -   2x3 lot
+#     -   MKS Renault v2
+#         -   4x3 lot
+#     -   [MKS Dodge, Jeep and Chrysler](https://community.simtropolis.com/files/file/27909-dodge-chrysler-jeep-dealership/)
+#         -   4x4 lot
+#     -   [SG Jiffy Lube](https://community.simtropolis.com/files/file/12188-jiffy-lube/)
+#         -   2x3 lot
+#   author: RRetail
+#   website: https://community.simtropolis.com/files/file/32260-rretail-car-services-relots-version-20/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.45fd0f8afacd16f6a4c9dc20843fdfed.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.0d14fe6300f3dc431285532a554bcdaa.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.54dbfd82cd78b401ca4e9ce745cc89db.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.0f370bacbb5d41ee38ca06d91b495826.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_05/Untitled.jpg.d7ddbf953aa504ba6d68b41eb6dfa9f1.jpg
+# dependencies:
+#   - ceafus-88:ceafus-car-repairs-auto-parts
+#   - ceafus-88:ceafus-car-repairs-auto-parts-model
+#   - '"[mks bmw](https://community.simtropolis.com/files/file/3027-central-bmw/)"'
+#   - '"[mks citroen](https://community.simtropolis.com/files/file/16540-citroen-dealerships/)"'
+#   - '"[mks hyundai](https://community.simtropolis.com/files/file/17804-hyundai-dealerships-and-automata/)"'
+#   - '"[mks toyota](https://community.simtropolis.com/files/file/18729-toyota-dealership-and-automata/)"'
+#   - '"[mks ford](https://community.simtropolis.com/files/file/3016-metropolitan-ford/)"'
+#   - '"[mks honda v1](https://community.simtropolis.com/files/file/12256-honda-dealership-growable-and-landmark/)"'
+#   - '"[mks renault v1](https://community.simtropolis.com/files/file/14407-renault-spawning-renault-dealership/)"'
+#   - '"[mks dodge, jeep and chrysler](https://community.simtropolis.com/files/file/27909-dodge-chrysler-jeep-dealership/)"'
+#   - '"[sg jiffy lube](https://community.simtropolis.com/files/file/12188-jiffy-lube/)"'
+#   - bsc:texturepack-cycledogg-vol01
+#   - bsc:mega-props-jes-vol09
+#   - bsc:mega-props-sg-vol01
+#   - '"[blam blank](https://community.simtropolis.com/files/file/17996-blam-blank/)"'
+#   - lbt:mega-prop-pack-vol01
+#   - shk:parking-pack
+#   - supershk:mega-parking-textures
+#   - supershk:fa3-parking-textures
+#   - girafe:beeches
+#   - girafe:berries
+#   - girafe:birches
+#   - girafe:elms
+#   - girafe:feather-grass
+#   - girafe:hedges
+#   - girafe:lindens
+#   - girafe:maples-v2
+#   - girafe:poplars
+#   - girafe:rowan-trees
+#   - girafe:sparaxis
+# assets:
+#   - assetId: rretail-rretail-car-services-relots-version-20
+
+# ---
+# assetId: rretail-rretail-car-services-relots-version-20
+# version: "1.0"
+# lastModified: "2018-05-17T18:07:05Z"
+# url: https://community.simtropolis.com/files/file/32260-rretail-car-services-relots-version-20/?do=download

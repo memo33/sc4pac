@@ -1,0 +1,102 @@
+# Relots excluded for now
+# group: rretail
+# name: rretail-civic-relots-version-20
+# version: "1.0"
+# subfolder: 360-landmark
+# info:
+#   summary: RRetail Civic Relots - Version 2.0
+#   description: |-
+#     I've decided to embark upon a journey to redo a select few of my previous relots. Some of the lots for the civic services in this pack have changed only slightly while others have changed drastically. This pack consists of models from [@SimGoober](https://community.simtropolis.com/profile/24419-simgoober/), [@dk1](https://community.simtropolis.com/profile/153428-dk1/), [@s\_olah](https://community.simtropolis.com/profile/174274-s_olah/) and others.
+
+#     2 prop files are included to make the post office and U-Haul lots work.
+
+#     Lot Sizes:
+
+#     -   ak72 Post Office
+#         -   3x2 lot
+#     -   BMX Fire Station 38
+#         -   3x2 lot
+#     -   C88 Vet
+#         -   2x3 lot
+#     -   DK1 Fire Station V3
+#         -   2x2 lot
+#     -   DK1 Fire Station
+#         -   2x2 lot
+#     -   DK1 Highway Patrol
+#         -   3x3 lot
+#     -   DK1 Methane Power Plant
+#         -   3x4 lot
+#     -   DK1 Police Dept
+#         -   2x2 lot
+#     -   DK1 Power Plant
+#         -   3x3 lot
+#     -   DK1 Substation
+#         -   1x1 lot
+#     -   SG BSC Retirement Home
+#         -   6x4 lot
+#     -   SG GooberGen Rural Hospital
+#         -   6x7 lot
+#     -   SG GooberGen Urban Hospital
+#         -   6x3 lot
+#     -   SG GooberGen Urgent Care
+#         -   3x3 lot
+#     -   SOH Saint George Hospital
+#         -   4x3 lot
+#     -   SOH Simville Jail
+#         -   2x2 lot
+#     -   SOH Simville Local Police
+#         -   3x3 lot
+#     -   SRD U-Haul
+#         -   5x4 lot
+#   author: RRetail
+#   website: https://community.simtropolis.com/files/file/32370-rretail-civic-relots-version-20/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.2e78908c1491a71b2f9e4ffe58203b95.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.30c07df5dc56c2d86a9e9ea2d0c8a254.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.91c202090ab8a80a3e2b9c53365b558b.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.16002439eb1d831d1fc2c90b413620db.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_07/Untitled.jpg.dc73ef7d134ce7ba9110f3fe068bebb3.jpg
+# dependencies:
+#   - '"[sg health bsc](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1384)"'
+#   - bsc:texturepack-cycledogg-vol01
+#   - bsc:mega-props-sg-vol01
+#   - '"[blam blank](https://community.simtropolis.com/files/file/17996-blam-blank/)"'
+#   - shk:parking-pack
+#   - supershk:mega-parking-textures
+#   - supershk:fa3-parking-textures
+#   - girafe:ashes
+#   - girafe:beeches
+#   - girafe:berries
+#   - girafe:birches
+#   - girafe:chestnuts
+#   - girafe:elms
+#   - girafe:feather-grass
+#   - girafe:hedges
+#   - girafe:lindens
+#   - girafe:maples-v2
+#   - girafe:narcissus
+#   - girafe:poplars
+#   - girafe:rowan-trees
+#   - girafe:walnut-trees
+#   - dk1:fire-station-3
+#   - dk1:fire-station
+#   - dk1:police-department
+#   - '"[](https://community.simtropolis.com/files/file/3316-post-office/)"'
+#   - dk1:highway-patrol-v2
+#   - '"[](https://community.simtropolis.com/files/file/17261-blam-fire-station-38/)"'
+#   - '"[](https://community.simtropolis.com/files/file/16226-uhaul-storage-center/)"'
+#   - '"[](https://community.simtropolis.com/files/file/21959-simville-jail/)"'
+#   - '"[](https://community.simtropolis.com/files/file/26153-vet/)"'
+#   - dk1:power-plant
+#   - '"[](https://community.simtropolis.com/files/file/21952-simville-local-police/)"'
+#   - '"[](https://community.simtropolis.com/files/file/21960-simville-clinic/)"'
+#   - dk1:methane-power-plant
+#   - '"[](https://community.simtropolis.com/files/file/23960-saint-george-hospital/)"'
+# assets:
+#   - assetId: rretail-rretail-civic-relots-version-20
+
+# ---
+# assetId: rretail-rretail-civic-relots-version-20
+# version: "1.0"
+# lastModified: "2018-07-22T22:04:36Z"
+# url: https://community.simtropolis.com/files/file/32370-rretail-civic-relots-version-20/?do=download

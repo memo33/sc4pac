@@ -1,0 +1,243 @@
+# Relots excluded for now
+# group: rretail
+# name: rretail-commercial-relots-version-20
+# version: "1.0"
+# subfolder: 300-commercial
+# info:
+#   summary: RRetail Commercial Relots - Version 2.0
+#   description: |-
+#     I've decided to embark upon a journey to redo a select few of my previous relots. The lots in this pack have all been redone to be different then the relots I originally uploaded. This pack consists of models from [@SimGoober](https://community.simtropolis.com/profile/24419-simgoober/) ,[@Heblem](https://community.simtropolis.com/profile/198321-heblem/), [@MarcosMX](https://community.simtropolis.com/profile/111156-marcosmx/), and others.
+
+#     Prop files are also included in this download to allow for a couple lots to work properly. A special thanks to [@kingofsimcity](https://community.simtropolis.com/profile/33566-kingofsimcity/) and for his assistance with that.
+
+#     Lot Sizes:
+
+#     -   BMX Advance Auto Parts
+#         -   3x4 lot
+#     -   BMX Burlington Coat Factory
+#         -   6x7 lot
+#     -   BMX Dick's Sporting Goods
+#         -   7x8 lot
+#     -   BMX Family Dollar
+#         -   2x4 lot
+#     -   BMX Gander Mountain
+#         -   4x5 lot
+#     -   BMX Micheal's
+#         -   6x7 lot
+#     -   BMX Petco
+#         -   3x4 lot
+#     -   BMX Strip Mall
+#         -   4x4 lot
+#     -   GSCKR IKEA
+#         -   8x9 lot
+#     -   HBS Academy Sports
+#         -   5x4 lot
+#     -   HBS Ashley Furniture
+#         -   5x4 lot
+#     -   HBS Home Depot
+#         -   9x10 lot
+#     -   HBS Kmart
+#         -   9x10 lot
+#     -   HBS/nos17 Lowe's
+#         -   9x8 lot
+#     -   HBS Office Depot
+#         -   6x4 lot
+#     -   HBS Sam's Club
+#         -   Lot #1
+#             -   (Building) 8x6 lot
+#         -   Lot #2
+#             -   (Parking) 9x5 lot
+#     -   HBS Target Supercenter
+#         -   12x12 lot
+#     -   HBS Walmart
+#         -   13x13 lot
+#     -   JRG Target
+#         -   6x10 lot
+#     -   SG Ace Hardware
+#         -   3x3 lot
+#     -   SG ACMoore
+#         -   3x3 lot
+#     -   SG Barnes and Noble
+#         -   4x5 lot
+#     -   SG Bass Pro Shops
+#         -   8x9 lot
+#     -   SG Bed, Bath & Beyond
+#         -   4x5 lot
+#     -   SG Big Lots
+#         -   3x3 lot
+#     -   SG Blockbuster
+#         -   2x3 lot
+#     -   SG Borders
+#         -   4x5 lot
+#     -   SG CompUSA
+#         -   3x4 lot
+#     -   SG Circuit City
+#         -   3x4 lot
+#     -   SG DSW Shoes
+#         -   4x4 lot
+#     -   SG Dick's Sporting Goods
+#         -   4x3 lot
+#     -   SG Famous Footwear
+#         -   3x3 lot
+#     -   SG Fashion Bug
+#         -   2x2 lot (with overhang)
+#     -   SG Goody's
+#         -   2x2 lot (with overhang)
+#     -   SG Kinko's
+#         -   2x3 lot
+#     -   SG Kohl's
+#         -   8x6 lot
+#     -   SG Linens 'N Things
+#         -   4x5 lot
+#     -   SG Mini Strip Mall
+#         -   5x4 lot (all four variations)
+#     -   SG Office Depot
+#         -   3x3 lot
+#     -   SG Old Navy
+#         -   3x3 lot
+#     -   SG Party City
+#         -   2x2 lot (with overhang)
+#     -   SG Pet Supermarket
+#         -   2x3 lot (all four variations)
+#     -   SG Petco
+#         -   3x4 lot
+#     -   SG Pier 1 Imports
+#         -   3x3 lot
+#     -   SG RLS Strip Mall
+#         -   7x4 lot
+#     -   SG Scheels All Sports
+#         -   4x4 lot (both variations)
+#     -   SG Sports Authority
+#         -   3x3 lot
+#     -   SG Staples
+#         -   3x3 lot
+#     -   SG Stein Mart
+#         -   4x3 lot
+#     -   SG Strip Plaza
+#         -   7x5 lot
+#     -   SG TJMaxx
+#         -   4x3 lot
+#     -   SG Thomasville Furnishings
+#         -   4x3 lot
+#     -   SG Toys R Us
+#         -   4x5 lot
+#     -   SG Tractor Supply
+#         -   5x5 lot
+#     -   SG Value City
+#         -   4x3 lot
+#     -   SG Verizon Wireless
+#         -   2x2 lot (with overhang)
+#     -   SRD Dollar Tree
+#         -   2x2 lot
+#   author: RRetail
+#   website: https://community.simtropolis.com/files/file/32324-rretail-commercial-relots-version-20/
+#   images:
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.4cf1981ff5b64a64d04e1a3cf1431656.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.0d3b0323fc573943a99ef46a2923a9b1.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.1982a799ce6a92e95f3326984427c48f.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/ikea.jpg.310d8471b4d3e49fa3dc3b399980b623.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.f6d8b8502c824a82809edeb1ccc83f73.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.0c0bcbdb65a42486e6de7e9044a514f4.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.70259bb67a555251d286c38a1d694a3e.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.07a4230344f3097fe7b831b2458c5874.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.9627e74568fb601c386e2c27b3d83b91.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.d3eb6da8d988ef83d2fd74749dd9c7f2.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.06df59c4da5c512d48d0f8b4b798e874.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.219b444f64279697506dc812c6b6e238.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.dec282689c480d69d993c0c02e945518.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.49fb640fa5000778b29fb9ee82353fd0.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.d5f8f11f4130844dfc8c72e54e2a9122.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.db59dc835886794314f73070c37dcb60.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.96e2a1cd42ecec2e5a1972c6174875f9.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.ed5600c957e74ab06f689599d5de2df5.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.9f1907838c191047a6af0eda264eb309.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.265131e18a32648781c0013271ee82c3.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.f29f8bde8099936f55e96bbeb4dbd2fd.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.e5555e737ee23a2621f1ba860e42a5b2.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.e7eb4f01beb143d8094040623e29dfe2.jpg
+#     - https://www.simtropolis.com/objects/screens/monthly_2018_06/Untitled.jpg.4a6ff7a9f03d84c4eeb9c24014805f2e.jpg
+# dependencies:
+#   - rretail:motel-6
+#   - '"[https://community.simtropolis.com/files/file/18800-dollar-tree/](https://community.simtropolis.com/files/file/18800-dollar-tree/)"'
+#   - '"[https://community.simtropolis.com/files/file/13854-tractor-supply-company/](https://community.simtropolis.com/files/file/13854-tractor-supply-company/)"'
+#   - '"[https://community.simtropolis.com/files/file/15985-modern-circuit-city/](https://community.simtropolis.com/files/file/15985-modern-circuit-city/)"'
+#   - '"[https://community.simtropolis.com/files/file/15986-modern-compusa/](https://community.simtropolis.com/files/file/15986-modern-compusa/)"'
+#   - '"[https://community.simtropolis.com/files/file/13709-outdoor-world/](https://community.simtropolis.com/files/file/13709-outdoor-world/)"'
+#   - '"[https://community.simtropolis.com/files/file/13621-ace-hardware/](https://community.simtropolis.com/files/file/13621-ace-hardware/)"'
+#   - '"[https://community.simtropolis.com/files/file/12568-toys-r-us-updated/](https://community.simtropolis.com/files/file/12568-toys-r-us-updated/)"'
+#   - '"[https://community.simtropolis.com/files/file/4543-petco/](https://community.simtropolis.com/files/file/4543-petco/)"'
+#   - '"[https://community.simtropolis.com/files/file/11185-rls-strip-mall-shopping-center/](https://community.simtropolis.com/files/file/11185-rls-strip-mall-shopping-center/)"'
+#   - '"[https://community.simtropolis.com/files/file/10990-plop-a-shop-pack-1/](https://community.simtropolis.com/files/file/10990-plop-a-shop-pack-1/)"'
+#   - '"[https://community.simtropolis.com/files/file/10991-plop-a-shop-pack-2/](https://community.simtropolis.com/files/file/10991-plop-a-shop-pack-2/)"'
+#   - '"[https://community.simtropolis.com/files/file/10992-plop-a-shop-pack-3/](https://community.simtropolis.com/files/file/10992-plop-a-shop-pack-3/)"'
+#   - '"[https://community.simtropolis.com/files/file/11045-plop-a-shop-pack-4/](https://community.simtropolis.com/files/file/11045-plop-a-shop-pack-4/)"'
+#   - '"[https://community.simtropolis.com/files/file/4594-kohls-department-store/](https://community.simtropolis.com/files/file/4594-kohls-department-store/)"'
+#   - '"[https://community.simtropolis.com/files/file/4565-dsw-shoe-warehouse/](https://community.simtropolis.com/files/file/4565-dsw-shoe-warehouse/)"'
+#   - '"[https://community.simtropolis.com/files/file/4544-pet-supermarket/](https://community.simtropolis.com/files/file/4544-pet-supermarket/)"'
+#   - '"[https://community.simtropolis.com/files/file/4534-linens-n-things/](https://community.simtropolis.com/files/file/4534-linens-n-things/)"'
+#   - '"[https://community.simtropolis.com/files/file/4532-bed-bath-beyond/](https://community.simtropolis.com/files/file/4532-bed-bath-beyond/)"'
+#   - '"[https://community.simtropolis.com/files/file/4533-borders-books/](https://community.simtropolis.com/files/file/4533-borders-books/)"'
+#   - '"[https://community.simtropolis.com/files/file/3581-kinkos/](https://community.simtropolis.com/files/file/3581-kinkos/)"'
+#   - '"[https://community.simtropolis.com/files/file/3580-blockbuster-video/](https://community.simtropolis.com/files/file/3580-blockbuster-video/)"'
+#   - '"[https://community.simtropolis.com/files/file/3427-barnes-noble-booksellers/](https://community.simtropolis.com/files/file/3427-barnes-noble-booksellers/)"'
+#   - '"[https://community.simtropolis.com/files/file/3361-strip-mall-shopping-center-1/](https://community.simtropolis.com/files/file/3361-strip-mall-shopping-center-1/)"'
+#   - '"[https://community.simtropolis.com/files/file/21813-hbs-ashley-furniture-homestore/](https://community.simtropolis.com/files/file/21813-hbs-ashley-furniture-homestore/)"'
+#   - '"[https://community.simtropolis.com/files/file/26210-hbs-target-supercenter/](https://community.simtropolis.com/files/file/26210-hbs-target-supercenter/)"'
+#   - '"[https://community.simtropolis.com/files/file/26117-hbs-wal-mart/](https://community.simtropolis.com/files/file/26117-hbs-wal-mart/)"'
+#   - '"[https://community.simtropolis.com/files/file/21811-hbs-academy-sports-outdoors/](https://community.simtropolis.com/files/file/21811-hbs-academy-sports-outdoors/)"'
+#   - '"[https://community.simtropolis.com/files/file/19604-lbt-big-kmart/](https://community.simtropolis.com/files/file/19604-lbt-big-kmart/)"'
+#   - '"[https://community.simtropolis.com/files/file/19603-lbt-the-home-depot/](https://community.simtropolis.com/files/file/19603-lbt-the-home-depot/)"'
+#   - '"[https://community.simtropolis.com/files/file/19483-lbt-office-depot/](https://community.simtropolis.com/files/file/19483-lbt-office-depot/)"'
+#   - '"[https://community.simtropolis.com/files/file/19479-lbt-sams-club/](https://community.simtropolis.com/files/file/19479-lbt-sams-club/)"'
+#   - '"[https://community.simtropolis.com/files/file/30116-hbs-lowes/](https://community.simtropolis.com/files/file/30116-hbs-lowes/)"'
+#   - blam:family-dollar
+#   - blam:advance-auto-parts
+#   - '"[https://community.simtropolis.com/files/file/17304-blam-petco/](https://community.simtropolis.com/files/file/17304-blam-petco/)"'
+#   - '"[https://community.simtropolis.com/files/file/17258-blam-burlington-coat-factory/](https://community.simtropolis.com/files/file/17258-blam-burlington-coat-factory/)"'
+#   - '"[https://community.simtropolis.com/files/file/17106-blam-little-strip-mall-pack-one/](https://community.simtropolis.com/files/file/17106-blam-little-strip-mall-pack-one/)"'
+#   - '"[https://community.simtropolis.com/files/file/16438-blam-dick-s-sporting-goods/](https://community.simtropolis.com/files/file/16438-blam-dick-s-sporting-goods/)"'
+#   - '"[https://community.simtropolis.com/files/file/16147-blam-michaels/](https://community.simtropolis.com/files/file/16147-blam-michaels/)"'
+#   - '"[https://community.simtropolis.com/files/file/16220-blam-gander-mountain/](https://community.simtropolis.com/files/file/16220-blam-gander-mountain/)"'
+#   - murimk:industrial-mmp
+#   - murimk:props-vol03-industrials
+#   - '"[bsc ikea superstore](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=223)"'
+#   - bsc:mega-props-sg-vol01
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-d66-vol01
+#   - bsc:mega-props-d66-vol02
+#   - bsc:mega-props-jes-vol01
+#   - bsc:mega-props-jes-vol03
+#   - bsc:mega-props-jes-vol05
+#   - bsc:mega-props-jes-vol08
+#   - bsc:mega-props-mjb-vol01
+#   - lbt:mega-prop-pack-vol01
+#   - nos17:essentials
+#   - '"[blam blank](https://community.simtropolis.com/files/file/17996-blam-blank/)"'
+#   - rretail:mega-prop-pack-vol1
+#   - mushymushy:na-53ft-trailers-vol1
+#   - shk:parking-pack
+#   - supershk:mega-parking-textures
+#   - supershk:fa3-parking-textures
+#   - girafe:ashes
+#   - girafe:beeches
+#   - girafe:berries
+#   - girafe:birches
+#   - girafe:chestnuts
+#   - girafe:common-spruces
+#   - girafe:elms
+#   - girafe:feather-grass
+#   - girafe:hedges
+#   - girafe:lindens
+#   - girafe:maples-v2
+#   - girafe:poplars
+#   - girafe:rowan-trees
+#   - girafe:walnut-trees
+#   - girafe:sparaxis
+# assets:
+#   - assetId: rretail-rretail-commercial-relots-version-20
+
+# ---
+# assetId: rretail-rretail-commercial-relots-version-20
+# version: "1.0"
+# lastModified: "2018-06-21T01:50:41Z"
+# url: https://community.simtropolis.com/files/file/32324-rretail-commercial-relots-version-20/?do=download
