@@ -1,0 +1,17 @@
+subfolders: []
+
+extra-channels: []
+
+allow-ego-perspective: false
+
+# Package names for which the check for asset version mismatches should be skipped.
+# Only needed when the linter tells you so.
+ignore-version-mismatches:
+- vortext:vortexture-1
+- vortext:vortexture-2
+- t-wrecks:industrial-revolution-mod-addon-set-i-d
+- memo:industrial-revolution-mod
+- bsc:mega-props-jrj-vol01
+- bsc:mega-props-diggis-canals-streams-and-ponds
+- bsc:mega-props-rubik3-vol01-wtc-props
+- bsc:mega-props-newmaninc-rivers-and-ponds

@@ -176,7 +176,7 @@ These names are prefixed with 3-digit numbers to control load order.
 
 List of subfolders currently in use:
 
-[list-of-subfolders](https://raw.githubusercontent.com/memo33/sc4pac/main/.github/sc4pac-yaml-schema.py ':include :type=code "" :fragment=subfolders-docsify')
+[list-of-subfolders](https://raw.githubusercontent.com/memo33/sc4pac-actions/main/src/lint.py ':include :type=code "" :fragment=subfolders-docsify')
 
 
 
