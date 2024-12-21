@@ -290,7 +290,7 @@ In contrast to the `checksum` field of an asset, this is the sha256 hash of the 
 ### `info`
 
 Additional descriptive information.
-These items are mostly optional, but each package should include a one-line `summary` and a link to a `website`, usually the original download page. Other optional items may be included as appropriate.
+These items are mostly optional, but each package should include a one-line `summary` and a link to a `website` or multiple `websites`, usually the original download page. Other optional items may be included as appropriate.
 
 
 A `description` may consist of several paragraphs of contextual information (it should not repeat the `summary`).
