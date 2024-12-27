@@ -1551,7 +1551,7 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
 
 dependencies:
-  - overhanging-multifunction-stations
+  - mattb325:overhanging-multifunction-stations
 variants:
   - variant: { nightmode: standard }
     assets:
