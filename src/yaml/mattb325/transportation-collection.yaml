@@ -89,12 +89,28 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
-        include: [ "/BSCProps#/" ]
+        include: [ "/Terminus Station Models" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
-        include: [ "/BSCProps#/" ]
+        include: [ "/Terminus Station Models" ]
+
+---
+group: mattb325
+name: overhanging-multifunction-stations
+version: "1.0"
+subfolder: 100-props-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include: [ "/Overhanging Multipurpose Station Props" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include: [ "/Overhanging Multipurpose Station Props" ]
 
 ---
 group: mattb325
@@ -1138,7 +1154,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation8.jpg.779da18532deea02b2582ea13d16b943.jpg
 
 dependencies:
-  - mattb325:terminus-stations
+  - mattb325:overhanging-multifunction-stations
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1163,7 +1179,7 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
 
 dependencies:
-  - mattb325:terminus-stations
+  - mattb325:overhanging-multifunction-stations
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1188,7 +1204,7 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
 
 dependencies:
-  - mattb325:terminus-stations
+  - mattb325:overhanging-multifunction-stations
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1535,7 +1551,7 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
 
 dependencies:
-  - mattb325:terminus-stations
+  - overhanging-multifunction-stations
 variants:
   - variant: { nightmode: standard }
     assets:
