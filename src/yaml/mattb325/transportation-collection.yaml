@@ -436,7 +436,6 @@ info:
 
 dependencies:
   - bsc:essentials
-  - simfox:day-and-nite-mod
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -660,7 +659,6 @@ dependencies:
   - bsc:essentials
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - simfox:day-and-nite-mod
 variants:
   - variant: { nightmode: standard }
     assets:
