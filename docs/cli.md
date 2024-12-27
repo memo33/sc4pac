@@ -218,8 +218,8 @@ Start a local server to use the HTTP [API](api).
 **Example:**
 ```sh
 sc4pac server --profiles-dir profiles --indent 1
-sc4pac server --profiles-dir profiles --web-app-dir build/web                # used by GUI web
-sc4pac server --profiles-dir profiles --auto-shutdown --startup-tag [READY]  # used by GUI desktop
+sc4pac server --profiles-dir profiles --web-app-dir build/web --launch-browser  # used by GUI web
+sc4pac server --profiles-dir profiles --auto-shutdown --startup-tag [READY]     # used by GUI desktop
 ```
 
 **Options:**
@@ -227,6 +227,7 @@ sc4pac server --profiles-dir profiles --auto-shutdown --startup-tag [READY]  # u
 - `--indent <number>`       indentation of JSON responses (default: -1, no indentation)
 - `--profiles-dir <path>`   directory containing the `sc4pac-profiles.json` file and profile sub-directories (default: current working directory), newly created if necessary
 - `--web-app-dir <path>`    optional directory containing statically served webapp files (default: no static files)
+- `--launch-browser`        automatically open the web browser when using the `--web-app-dir` option (default: `--launch-browser=false`)
 - `--auto-shutdown`         automatically shut down the server when client closes connection to `/server.connect` (default: `--auto-shutdown=false`). This is used by the desktop GUI to ensure the port is cleared when the GUI exits.
 - `--startup-tag <string>`  optional tag to print once server has started and is listening
 

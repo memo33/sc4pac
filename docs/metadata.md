@@ -176,7 +176,7 @@ These names are prefixed with 3-digit numbers to control load order.
 
 List of subfolders currently in use:
 
-[list-of-subfolders](https://raw.githubusercontent.com/memo33/sc4pac/main/.github/sc4pac-yaml-schema.py ':include :type=code "" :fragment=subfolders-docsify')
+[list-of-subfolders](https://raw.githubusercontent.com/memo33/sc4pac-actions/main/src/lint.py ':include :type=code "" :fragment=subfolders-docsify')
 
 
 
@@ -290,7 +290,7 @@ In contrast to the `checksum` field of an asset, this is the sha256 hash of the 
 ### `info`
 
 Additional descriptive information.
-These items are mostly optional, but each package should include a one-line `summary` and a link to a `website`, usually the original download page. Other optional items may be included as appropriate.
+These items are mostly optional, but each package should include a one-line `summary` and a link to a `website` or multiple `websites`, usually the original download page. Other optional items may be included as appropriate.
 
 
 A `description` may consist of several paragraphs of contextual information (it should not repeat the `summary`).

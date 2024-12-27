@@ -4,6 +4,8 @@
 #
 # Pass directories or yaml files as arguments.
 
+# TODO incorporate this script into sc4pac-actions
+
 import yaml
 import sys
 import os

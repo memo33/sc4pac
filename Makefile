@@ -8,6 +8,9 @@ SC4PAC=./sc4pac-tools/sc4pac
 # LABEL=Main
 LABEL=Main-local
 
+# assumes you have checked out sc4pac-actions in the same parent folder
+ACTIONS=../sc4pac-actions
+
 # Rebuild all .json files, the main.js file and update the gh-pages branch.
 #
 # This assumes that you have initialized the submodule `sc4pac-tools` with:
@@ -23,10 +26,9 @@ gh-pages: lint gh-pages-no-lint
 gh-pages-no-lint:
 	rm -rf ./gh-pages/
 	$(MAKE) channel
-	cd ./sc4pac-tools/ && sbt web/fullLinkJS
-	cp -p ./sc4pac-tools/web/target/scala-3.4.2/sc4pac-web-opt/main.js ./gh-pages/channel/
-	cp -p ./sc4pac-tools/web/channel/styles.css ./sc4pac-tools/web/channel/index.html ./gh-pages/channel/
-	cp -p ./docs/index.html ./docs/*.md ./docs/.nojekyll ./gh-pages/
+	cd ./sc4pac-tools/ && ./src/scripts/build-channel-page.sh
+	cp -p ./sc4pac-tools/web/target/website/channel/* ./gh-pages/channel/
+	cp -pr ./docs/. ./gh-pages/
 
 channel:
 	$(SC4PAC) channel build --label $(LABEL) --metadata-source-url https://github.com/memo33/sc4pac/blob/main/src/yaml/ --output ./gh-pages/channel/ ./src/yaml/
@@ -40,16 +42,18 @@ host-docs:
 	cd ./docs/ && python -m http.server 8091
 
 lint:
-	python .github/sc4pac-yaml-schema.py src/yaml
+	python $(ACTIONS)/src/lint.py src/yaml
 
 sc4e-check-updates:
 	python .github/sc4e-check-updates.py src/yaml
 
 # First reads in the STEX_API_KEY from a file into an environment variable and then checks for asset updates using the authenticated STEX API.
 st-check-updates:
-	set -a && source ./.git/sc4pac-stex-api-key && set +a && python .github/st-check-updates.py src/yaml
+	set -a && source ./.git/sc4pac-stex-api-key && set +a && python $(ACTIONS)/src/st-check-updates.py src/yaml
 
 st-url-check:
-	set -a && source ./.git/sc4pac-stex-api-key && set +a && sh .github/url-check.sh origin/main src/yaml
+	set -a && source ./.git/sc4pac-stex-api-key && set +a \
+		&& git diff "$(shell git merge-base @ "origin/main")" --name-only -- "src/yaml" \
+		| xargs --delimiter '\n' python $(ACTIONS)/src/st-check-updates.py --mode=id
 
 .PHONY: gh-pages gh-pages-no-lint channel host host-docs lint sc4e-check-updates st-check-updates st-url-check
