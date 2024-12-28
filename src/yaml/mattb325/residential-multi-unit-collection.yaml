@@ -123,8 +123,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -192,8 +190,6 @@ info:
 
 dependencies:
   - bsc:essentials
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -287,9 +283,6 @@ dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol04
   - bsc:textures-vol01
 variants:
   - variant: { nightmode: standard }
@@ -492,8 +485,6 @@ info:
 
 dependencies:
   - bsc:essentials
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -556,11 +547,6 @@ dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-misc-vol01
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:textures-vol01
   - bsc:textures-vol03
 variants:
@@ -619,7 +605,6 @@ dependencies:
   - bsc:bat-props-mattb325-london-w2w-vol01
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-gascooker-vol01
-  - bsc:mega-props-rt-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -647,7 +632,6 @@ dependencies:
   - bsc:essentials
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-gascooker-vol01
-  - bsc:mega-props-mjb-vol01
   - bsc:mega-props-sg-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
@@ -898,8 +882,6 @@ dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -962,9 +944,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol04
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -994,10 +973,7 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-newmaninc-vol04
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1097,8 +1073,6 @@ dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1166,10 +1140,6 @@ info:
 dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol04
-  - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1252,7 +1222,6 @@ dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol01
   - bsc:bat-props-mattb325-vol04
-  - bsc:mega-props-rt-vol02
   - bsc:mega-props-sg-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
@@ -1323,8 +1292,6 @@ dependencies:
   - bsc:essentials
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1359,8 +1326,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1492,7 +1457,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1527,8 +1491,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1564,9 +1526,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol04
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard, mattb325:casa-de-manana:climate: temperate }
