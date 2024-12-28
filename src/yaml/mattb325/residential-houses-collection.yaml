@@ -97,7 +97,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -160,7 +159,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:textures-vol01
 variants:
   - variant: { nightmode: standard }
@@ -189,7 +187,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -219,7 +216,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
@@ -252,7 +248,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -283,7 +278,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -313,7 +307,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -343,8 +336,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -372,7 +363,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mjb-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -402,7 +392,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -432,7 +421,6 @@ dependencies:
   - bsc:bat-props-mattb325-mcmansion-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -465,7 +453,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -522,7 +509,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -552,7 +538,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -584,7 +569,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mjb-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -615,7 +599,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -647,7 +630,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -703,9 +685,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -736,9 +715,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol02
@@ -771,7 +747,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mjb-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -801,8 +776,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -861,7 +834,6 @@ dependencies:
   - bsc:mega-props-cp-vol02
   - bsc:mega-props-jrj-vol04
   - bsc:mega-props-jrj-vol05
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -893,7 +865,6 @@ dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
   - bsc:mega-props-misc-vol01
-  - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -921,8 +892,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -950,8 +919,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -982,7 +949,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1083,7 +1049,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1113,7 +1078,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1142,10 +1106,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1174,7 +1134,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:prop-family-names
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1231,7 +1190,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1287,9 +1245,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
-  - bsc:mega-props-rt-vol02
   - bsc:textures-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1321,7 +1276,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1380,9 +1334,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1434,7 +1385,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1521,7 +1471,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1553,8 +1502,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1582,7 +1529,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1610,7 +1556,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1644,9 +1589,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1676,8 +1618,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
