@@ -30,7 +30,9 @@ info:
   summary: Transportation Collection
   description: |
     This package features the transporation related LOTs and BATs by mattb325.
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - mattb325:subway-station
   - mattb325:underground-parking
@@ -85,6 +87,12 @@ group: mattb325
 name: terminus-stations
 version: "1.0"
 subfolder: 100-props-textures
+info:
+  summary: Models for terminus stations
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -103,6 +111,12 @@ group: mattb325
 name: overhanging-multifunction-stations
 version: "1.0"
 subfolder: 100-props-textures
+info:
+  summary: Props for multipurpose stations
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -121,6 +135,15 @@ group: mattb325
 name: multifunction-stations
 version: "2.0"
 subfolder: 100-props-textures
+info:
+  summary: Props for multipurpose stations
+  author: mattb325
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/MultiStationPropPack_s1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Mattb325_MultiStationPropPack_sn0.jpg
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/113-mattb325-multifunction-stations-prop-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/112-mattb325-multifunction-stations-prop-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -138,7 +161,9 @@ subfolder: 700-transit
 info:
   summary: Subway Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
@@ -162,7 +187,10 @@ subfolder: 700-transit
 info:
   summary: Underground Parking
   author: mattb325
-  website: https://community.simtropolis.com/files/file/34333-underground-parking-entrance/
+  websites:
+    - https://community.simtropolis.com/files/file/34333-underground-parking-entrance/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/Underground.jpg.cb95b42c82e16e9c2840308e57e6db70.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/Underground1.jpg.64158203f484cfc7c683bea4bfcd3410.jpg
@@ -191,7 +219,10 @@ subfolder: 700-transit
 info:
   summary: Parking Garage Ortho
   author: mattb325
-  website: https://community.simtropolis.com/files/file/32956-parking-garage/
+  websites:
+    - https://community.simtropolis.com/files/file/32956-parking-garage/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage.jpg.153ba6c42c03452069a9058749426a7b.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage1.jpg.3ab07ef2ff79c9eaaaab4a521d459d12.jpg
@@ -219,7 +250,10 @@ subfolder: 700-transit
 info:
   summary: Parking Garage Diagonal
   author: mattb325
-  website: https://community.simtropolis.com/files/file/34490-diagonal-parking-garage/
+  websites:
+    - https://community.simtropolis.com/files/file/34490-diagonal-parking-garage/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking.jpg.38dbf606e968a521c2825869152befab.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking1.jpg.27fc7c15fed944c583484e2aabe0bd0f.jpg
@@ -246,7 +280,9 @@ subfolder: 700-transit
 info:
   summary: Electric Car Recharge Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -271,7 +307,10 @@ subfolder: 700-transit
 info:
   summary: Electric Car Recharge Bay
   author: mattb325
-  website: https://community.simtropolis.com/files/file/34306-electric-car-recharge-bay/
+  websites:
+    - https://community.simtropolis.com/files/file/34306-electric-car-recharge-bay/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay.jpg.f94b61c3c82ec5bd3c5aa1ec855eed56.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay1.jpg.610b5cbde301b6510d7c9626f2baccc6.jpg
@@ -307,7 +346,9 @@ subfolder: 700-transit
 info:
   summary: Xiangshen Centre L0 and L2 Viaduct Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - mattb325:multifunction-stations
@@ -332,7 +373,9 @@ subfolder: 700-transit
 info:
   summary: Victorian L1 Viaduct Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -358,7 +401,9 @@ subfolder: 700-transit
 info:
   summary: Victorian Diagonal L1 Viaduct Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - mattb325:multifunction-stations
 variants:
@@ -382,7 +427,9 @@ subfolder: 700-transit
 info:
   summary: Underground Rail (U-Rail) Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
@@ -406,7 +453,9 @@ subfolder: 700-transit
 info:
   summary: Terminus Pack
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - mattb325:terminus-stations
 variants:
@@ -430,7 +479,9 @@ subfolder: 700-transit
 info:
   summary: Sunken Railway Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -452,7 +503,9 @@ subfolder: 700-transit
 info:
   summary: Strickland L1 Viaduct Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - mattb325:multifunction-stations
 variants:
@@ -476,7 +529,9 @@ subfolder: 700-transit
 info:
   summary: Spitalfields House L0 and L2 Viaduct Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -502,7 +557,9 @@ subfolder: 700-transit
 info:
   summary: National Audit Office L0 and L2 Viaduct Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - mattb325:multifunction-stations
@@ -527,7 +584,9 @@ subfolder: 700-transit
 info:
   summary: Modern L2 Viaduct Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -554,7 +613,9 @@ subfolder: 700-transit
 info:
   summary: Modern L1 Viaduct Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -581,7 +642,9 @@ subfolder: 700-transit
 info:
   summary: L1 Viaduct Rail Terminus
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-misc-vol02
@@ -608,7 +671,9 @@ subfolder: 700-transit
 info:
   summary: High Holbourn Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-jes-vol01
   - bsc:mega-props-jes-vol02
@@ -638,7 +703,10 @@ subfolder: 700-transit
 info:
   summary: Grand Central Chicago
   author: mattb325
-  website: https://community.simtropolis.com/files/file/30925-chicago-grand-central-terminal/
+  websites:
+    - https://community.simtropolis.com/files/file/30925-chicago-grand-central-terminal/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral.jpg.dea76c862f45e1bad85f0508784bc3be.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral1.1.jpg.b8e67eb88f8f6bf85dc385f25dbd08c1.jpg
@@ -673,7 +741,9 @@ subfolder: 700-transit
 info:
   summary: Galleria GC L2 Viaduct Rail Terminus
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -700,7 +770,9 @@ subfolder: 700-transit
 info:
   summary: Emu Plains Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-jes-vol01
@@ -729,7 +801,10 @@ subfolder: 700-transit
 info:
   summary: Citylink Transport Hub
   author: mattb325
-  website: https://community.simtropolis.com/files/file/32073-city-link-transport-hub/
+  websites:
+    - https://community.simtropolis.com/files/file/32073-city-link-transport-hub/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink.jpg.80474b4e42edc2c05d67d2875ddeebfb.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink2.jpg.816ac6cc4521b57cde28b244766d8412.jpg
@@ -761,7 +836,9 @@ subfolder: 700-transit
 info:
   summary: Central L2 Viaduct Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -787,7 +864,9 @@ subfolder: 700-transit
 info:
   summary: Central L1 Viaduct Rail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -813,7 +892,9 @@ subfolder: 700-transit
 info:
   summary: Xiangshen Centre Rail-MonoRail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - csx:mega-props-vol07
   - mattb325:multifunction-stations
@@ -838,7 +919,9 @@ subfolder: 700-transit
 info:
   summary: Xiangshen Centre Rail-HSR Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - mattb325:multifunction-stations
@@ -863,7 +946,9 @@ subfolder: 700-transit
 info:
   summary: Xiangshen Centre Rail-ElRail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - mattb325:multifunction-stations
@@ -888,7 +973,9 @@ subfolder: 700-transit
 info:
   summary: Spitalfields House Rail-MonoRail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:textures-vol01
   - csx:mega-props-vol07
@@ -914,7 +1001,9 @@ subfolder: 700-transit
 info:
   summary: Spitalfields House Rail-HSR Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -940,7 +1029,9 @@ subfolder: 700-transit
 info:
   summary: Spitalfields House Rail-ElRail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -964,9 +1055,12 @@ name: overhanging-multifunction-station-ortho
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Overhanging Multifunction Station Ortho
+  summary: Overhanging Multifunction Station (Orthogonal)
   author: mattb325
-  website: https://community.simtropolis.com/files/file/33181-ortho-rail-bus-and-subway-station-transport-hub/
+  websites:
+    - https://community.simtropolis.com/files/file/33181-ortho-rail-bus-and-subway-station-transport-hub/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation.jpg.d0aee799fe6604a9401d767793a0d9d0.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation1.jpg.bfb0b93dc822eab128202ea2373e90d8.jpg
@@ -999,9 +1093,11 @@ name: overhanging-multifunction-station-fa
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Overhanging Multifunction Station FA
+  summary: Overhanging Multifunction Station (Fractionally Angled)
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - mattb325:overhanging-multifunction-stations
 variants:
@@ -1023,9 +1119,11 @@ name: overhanging-multifunction-station-diagonal
 version: "1.0"
 subfolder: 700-transit
 info:
-  summary: Overhanging Multifunction Station Diagonal
+  summary: Overhanging Multifunction Station (Diagonal)
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - mattb325:overhanging-multifunction-stations
 variants:
@@ -1049,7 +1147,9 @@ subfolder: 700-transit
 info:
   summary: National Audit Office Rail-MonoRail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - csx:mega-props-vol07
   - mattb325:multifunction-stations
@@ -1074,7 +1174,9 @@ subfolder: 700-transit
 info:
   summary: National Audit Office Rail-HSR Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - mattb325:multifunction-stations
@@ -1099,7 +1201,9 @@ subfolder: 700-transit
 info:
   summary: National Audit Office Rail-ElRail Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - mattb325:multifunction-stations
@@ -1124,7 +1228,9 @@ subfolder: 700-transit
 info:
   summary: Modern Rail Station Monorail
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:textures-vol01
   - bsc:textures-vol03
@@ -1151,7 +1257,9 @@ subfolder: 700-transit
 info:
   summary: Galleria GC Monorail Terminus
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:textures-vol01
   - bsc:textures-vol03
@@ -1178,7 +1286,9 @@ subfolder: 700-transit
 info:
   summary: Central Station Monorail
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:textures-vol01
   - csx:mega-props-vol07
@@ -1204,7 +1314,9 @@ subfolder: 700-transit
 info:
   summary: Modern Rail Station HSR
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -1231,7 +1343,9 @@ subfolder: 700-transit
 info:
   summary: Galleria GC HSR Terminus
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -1258,7 +1372,9 @@ subfolder: 700-transit
 info:
   summary: Central Station HSR
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -1284,7 +1400,9 @@ subfolder: 700-transit
 info:
   summary: Diagonal GLR Station
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - mattb325:overhanging-multifunction-stations
 variants:
@@ -1308,7 +1426,9 @@ subfolder: 700-transit
 info:
   summary: Modern Rail Station El-Rail
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -1335,7 +1455,9 @@ subfolder: 700-transit
 info:
   summary: Galleria GC El-Rail Terminus
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
@@ -1362,7 +1484,9 @@ subfolder: 700-transit
 info:
   summary: Central Station El-Rail
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:textures-vol01
