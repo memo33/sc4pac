@@ -89,12 +89,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
-        include: [ "/Terminus Station Models" ]
+        include:
+          - /Terminus Station Models
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
-        include: [ "/Terminus Station Models" ]
+        include:
+          - /Terminus Station Models
 
 ---
 group: mattb325
@@ -105,12 +107,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
-        include: [ "/Overhanging Multipurpose Station Props" ]
+        include:
+          - /Overhanging Multipurpose Station Props
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
-        include: [ "/Overhanging Multipurpose Station Props" ]
+        include:
+          - /Overhanging Multipurpose Station Props
 
 ---
 group: mattb325
@@ -194,23 +198,18 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage2.jpg.a3cdcc8249785e43a6e638151c24a7f8.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage3.jpg.31391f3dd09bbde5c9eef765fa8b9cac.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage4.jpg.6edfdf78655f34c83f9cd6a00a0371a2.jpg
-
-dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/Parking/Parking Garage Ortho#/"
+          - /Parking/Parking Garage Ortho#/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
         include:
-          - "/Parking/Parking Garage Ortho#/"
+          - /Parking/Parking Garage Ortho#/
 
 ---
 group: mattb325
@@ -226,19 +225,18 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking1.jpg.27fc7c15fed944c583484e2aabe0bd0f.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking2.jpg.78f64ceaaf91b9d1bfd9bbd25a00f52c.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking3.jpg.98a42bab02b27ff5f987d0362b917f64.jpg
-
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/Parking/Parking Garage Diagonal#/"
+          - /Parking/Parking Garage Diagonal#/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
         include:
-          - "/Parking/Parking Garage Diagonal#/"
+          - /Parking/Parking Garage Diagonal#/
 
 ---
 group: mattb325
@@ -433,21 +431,18 @@ info:
   summary: Sunken Railway Station
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
-
-dependencies:
-  - bsc:essentials
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/Rail Stations/Sunken Railway Station#/"
+          - /Rail Stations/Sunken Railway Station#/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
         include:
-          - "/Rail Stations/Sunken Railway Station#/"
+          - /Rail Stations/Sunken Railway Station#/
 
 ---
 group: mattb325
@@ -653,10 +648,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral4.jpg.e5a1058f4df64275961ca99c9fb0cbc3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral5.jpg.1c12f884b44e1431b435a340a3849a5c.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral6.jpg.84646f19ac2897784eaa9448178dfff8.jpg
-
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:essentials
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
 variants:
@@ -664,13 +657,13 @@ variants:
     assets:
       - assetId: mattb325-transportation-collection-maxisnite
         include:
-          - "/Rail Stations/Grand Central Chicago#/"
+          - /Rail Stations/Grand Central Chicago#/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-transportation-collection-darknite
         include:
-          - "/Rail Stations/Grand Central Chicago#/"
+          - /Rail Stations/Grand Central Chicago#/
 
 ---
 group: mattb325
