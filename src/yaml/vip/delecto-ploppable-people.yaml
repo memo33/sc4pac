@@ -1,0 +1,20 @@
+group: vip
+name: delecto-ploppable-people
+version: "2.0"
+subfolder: 100-props-textures
+info:
+  summary: Electo Ploppable People
+  description: |-
+    This is a set of ploppable people for the mayor menu. You could find these creations at the end of the list of this menu.
+  author: Delecto
+  website: https://www.sc4evermore.com/index.php/downloads/download/186-vip-delecto-ploppable-people
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_ploppable_people.jpg
+assets:
+  - assetId: vip-delecto-ploppable-people
+
+---
+assetId: vip-delecto-ploppable-people
+version: "2.0"
+lastModified: "2024-01-20T14:14:55.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=186%3Avip-delecto-ploppable-people

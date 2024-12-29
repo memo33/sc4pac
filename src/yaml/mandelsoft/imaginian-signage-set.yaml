@@ -1,0 +1,26 @@
+group: mandelsoft
+name: imaginian-signage-set
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Imaginian Signage Set
+  description: |
+    This pack contains the fictional Imaginian Signage Set (from the fictional country of Imaginia), which is a mix between the Dutch and German signage style with additional elements from Belgian and Scandinavian signage. The set contains 120 Imaginian-styled signs for your motorways for the most common RHW interchange setups.
+
+    Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/28345-imaginian-signage-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/6a26f83848cf2803b418ed5453cfa8f0-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/eb27f9697fc1ae6de2319c003ecb340f-screen01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/12e688d3d0465336fd93ab342b2781af-screen02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/8a55e4d7f4fdd10cddf1951f01b85ea4-screen03.jpg
+
+assets:
+  - assetId: mandelsoft-imaginian-signage-set
+
+---
+assetId: mandelsoft-imaginian-signage-set
+version: "2.0"
+lastModified: "2024-09-03T19:13:12Z"
+url: https://community.simtropolis.com/files/file/28345-imaginian-signage-set/?do=download

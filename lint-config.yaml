@@ -1,0 +1,28 @@
+subfolders: []
+
+extra-channels: []
+
+allow-ego-perspective: false
+
+# Package names for which the check for asset version mismatches should be skipped.
+# Only needed when the linter tells you so.
+ignore-version-mismatches:
+- vortext:vortexture-1
+- vortext:vortexture-2
+- t-wrecks:industrial-revolution-mod-addon-set-i-d
+- memo:industrial-revolution-mod
+- bsc:mega-props-jrj-vol01
+- bsc:mega-props-diggis-canals-streams-and-ponds
+- bsc:mega-props-rubik3-vol01-wtc-props
+- bsc:mega-props-newmaninc-rivers-and-ponds
+
+group-to-github:
+- null-45: "0xC0000054"
+- simmaster07: nsgomez
+- memo: memo33
+
+# The following is only appropriate when nobody can make unnoticed changes to
+# the metadata checksum fields.
+ignore-non-github-urls:
+- simmaster07-extra-cheats-dll
+- buggi-extra-cheats-dll

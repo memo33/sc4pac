@@ -4,6 +4,8 @@
 #
 # Pass directories or yaml files as arguments.
 
+# TODO incorporate this script into sc4pac-actions
+
 import yaml
 import sys
 import os
@@ -56,7 +58,7 @@ def main() -> int:
             continue
 
         # check URLs
-        url = doc.get('url')
+        url = doc.get('nonPersistentUrl') or doc.get('url')
         if url is None:
             continue  # not an asset
         m = url_id_pattern.fullmatch(url)
