@@ -1,5 +1,5 @@
 group: "11241036"
-name: various-lot-foundations-and-retaining-walls
+name: foundations-and-retaining-walls
 version: "1.0"
 subfolder: 100-props-textures
 info:
@@ -15,12 +15,12 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/Anleitung_3.png.de43eb44243c947ce7eff75c17b88c17.png
 
 assets:
-  - assetId: 11241036-various-lot-foundations-and-retaining-walls
+  - assetId: 11241036-foundations-and-retaining-walls
     exclude:
       - "TestLots.dat"
 
 ---
-assetId: 11241036-various-lot-foundations-and-retaining-walls
+assetId: 11241036-foundations-and-retaining-walls
 version: "1.0"
 lastModified: "2016-11-01T04:56:53Z"
 url: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/?do=download

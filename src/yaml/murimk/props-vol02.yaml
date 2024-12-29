@@ -1,12 +1,12 @@
 group: murimk
-name: props-vol02-mixed-props
+name: props-vol02-mixed
 version: "1.0"
 subfolder: 100-props-textures
 info:
   summary: Mixed props by murimk
   description: |
     This pack contains various prop sets for lotting purposes.
-    	- Park Props (large and small set)
+      - Park Props (large and small set)
       - Park Fences (tiles and puzzle set)
       - Industrial Walls
       - Graffitis

@@ -1,5 +1,5 @@
 group: murimk
-name: props-vol01-bicycle-props
+name: props-vol01-bicycles
 version: "1.0"
 subfolder: 100-props-textures
 info:
@@ -32,14 +32,13 @@ subfolder: 180-flora
 info:
   summary: Bikers MMP
   description: |
-    This pack provides as Mayor Mode Ploppable (MMP) bikers set.
+    This pack provides a Mayor Mode Ploppable (MMP) bikers set.
   author: murimk, Paeng
   website: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/
   images:
-    - https://www.simtropolis.com/objects/screens/0022/c5ba4a400b1e01c96c2e5b7237ad2e6f-stex01.jpg
     - https://www.simtropolis.com/objects/screens/0022/c5ba4a400b1e01c96c2e5b7237ad2e6f-stex02.jpg
 dependencies:
-  - murimk:props-vol01-bicycle-props
+  - murimk:props-vol01-bicycles
 
 assets:
   - assetId: murimk-bicycle-props-with-bikers-mmp

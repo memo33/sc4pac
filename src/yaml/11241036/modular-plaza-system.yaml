@@ -5,7 +5,7 @@ subfolder: 660-parks
 info:
   summary: Modular Plaza System
   description: |
-    This plugin contains a good number of modular lots that will allow you to create your custom plaza, sidewalk, or seawall. Fountains, ponds, benches, seawalls, market stalls, trees – nearly everything is available, Most of them are purely decorational (while having park and landmark effect), only the market stalls will yield a bit money. All lots have been designed in a way that they are rather simple, thereby being able to be combined with each other easily. All lots can be found in the park menu, just below the default Maxis parks.
+    This plugin contains a good number of modular lots that will allow you to create your custom plaza, sidewalk, or seawall. Fountains, ponds, benches, seawalls, market stalls, trees – nearly everything is available, Most of them are purely decorative (while having park and landmark effect), only the market stalls will yield a bit money. All lots have been designed in a way that they are rather simple, thereby being able to be combined with each other easily. All lots can be found in the park menu, just below the default Maxis parks.
 
     Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Parks > Plazas submenu.
 
@@ -62,14 +62,14 @@ dependencies:
   - girafe:norway-maples
   - girafe:serbian-spruces
   - girafe:grand-firs
-  - maxis:buildings-as-props
+  - t-wrecks:maxis-prop-names-and-query-fix  # supersedes buildings-as-props
   - ralphaelninja:landmark-props
   - sfbt:essentials
   - historic-harbor:dependencies
-  - jrj:concrete-wall-addon-stairs-props
-  - murimk:props-vol01-bicycle-props
-  - murimk:props-vol02-mixed-props
-  - 11241036:various-lot-foundations-and-retaining-walls
+  - buddybud:concrete-wall-addon-stairs-resources
+  - murimk:props-vol01-bicycles
+  - murimk:props-vol02-mixed
+  - 11241036:foundations-and-retaining-walls
   - 11241036:textures
   - wmp:shoreline-county-bridges-props
   - porkissimo:jenx-porkie-expanded-porkie-props
