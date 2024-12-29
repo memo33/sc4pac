@@ -1,4 +1,4 @@
-# Adding metadata
+# Metadata format
 
 This page details how to write, for an existing mod, custom metadata that is understood by *sc4pac*.
 The metadata is stored in [YAML](https://en.wikipedia.org/wiki/YAML) files which can be edited in any text editor
@@ -83,6 +83,31 @@ On SC4Evermore, grab the *Changed* timestamp from the info box on the download p
 For other sites, use the available info on the download page or, when supported by the server,
 use the `Last-Modified` HTTP header of the download URL. Shorthand for cURL users: `curl -I -L '<url>'`.
 
+### `checksum`
+
+An optional sha256 checksum can be added for verifying file integrity.
+If present, the checksum of the file is checked directly after download, before extracting the archive.
+```yaml
+checksum:
+  sha256: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+```
+This is recommended for files that are downloaded using http instead of https.
+
+### `nonPersistentUrl`
+
+When the `url` points to a specific _persistent_ version of a file,
+a `nonPersistentUrl` can be added that always points to the _latest_ version of the file.
+```yaml
+nonPersistentUrl: "https://community.simtropolis.com/files/file/25137-hogwarts-castle/?do=download"
+url: "https://github.com/....../v950/hogwarts-castle.zip"
+```
+
+?> Mainly, this is useful for DLLs released on GitHub and Simtropolis.
+   The `url` would point to the current release on GitHub, while the `nonPersistentUrl` links to Simtropolis.
+   The `nonPersistentUrl` is never used for downloading, but can be used by tools to check for updates.
+   As the file is downloaded from a specific release on GitHub,
+   this avoids intermittent checksum errors when the metadata has not yet been updated after a new release has been uploaded to Simtropolis.
+
 ### `archiveType`
 
 This is only needed for assets containing Clickteam exe-installers. It is not needed for NSIS exe-installers.
@@ -151,7 +176,7 @@ These names are prefixed with 3-digit numbers to control load order.
 
 List of subfolders currently in use:
 
-[list-of-subfolders](https://raw.githubusercontent.com/memo33/sc4pac/main/.github/sc4pac-yaml-schema.py ':include :type=code "" :fragment=subfolders-docsify')
+[list-of-subfolders](https://raw.githubusercontent.com/memo33/sc4pac-actions/main/src/lint.py ':include :type=code "" :fragment=subfolders-docsify')
 
 
 
@@ -236,16 +261,36 @@ Details:
 - The matching is case-insensitive for file-system independence.
 - In any case, always both `include` and `exclude` filters are evaluated.
   If one or both are absent, they default to the following behavior:
-  - If the `include` filter is absent or empty, then by default all files with file type .dat/.sc4model/.sc4lot/.sc4desc/.sc4/.dll are included.
-  - If the `exclude` filter is absent or empty, then by default all file types other than .dat/.sc4model/.sc4lot/.sc4desc/.sc4/.dll are excluded.
+  - If the `include` filter is absent or empty, then by default all files with file type .dat/.sc4model/.sc4lot/.sc4desc/.sc4 are included.
+  - If the `exclude` filter is absent or empty, then by default all file types other than .dat/.sc4model/.sc4lot/.sc4desc/.sc4 are excluded.
+- All extracted files without checksum must be DBPF files.
 
 ?> If you anticipate file names changing with future updates of the original upload,
    consider using regular expressions to make the matching more generic, so that the `include` filter keeps working after the updates.
 
+### `withChecksum`
+
+In addition to the `include`/`exclude` fields, you can use a `withChecksum` block to only include files if their checksum matches.
+This is _required_ for DLL files (code mods) and other non-DBPF file types.
+The checksums are verified after the files are extracted from an asset,
+but before they are moved from a temporary location into the plugins folder loaded by the game.
+```yaml
+assets:
+- assetId: "dumbledore-hogwarts-castle"
+  include:
+  - "/Hogwarts/"  # only DBPF files
+  withChecksum:
+  - include: "/magic.dll"
+    sha256: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+```
+In contrast to the `checksum` field of an asset, this is the sha256 hash of the extracted file itself (e.g. hash of the .dll instead of the .zip file).
+
+?> When using `withChecksum`, it is recommended to also add a [`nonPersistentUrl`](#nonPersistentUrl) to the corresponding asset definition.
+
 ### `info`
 
 Additional descriptive information.
-These items are mostly optional, but each package should include a one-line `summary` and a link to a `website`, usually the original download page. Other optional items may be included as appropriate.
+These items are mostly optional, but each package should include a one-line `summary` and a link to a `website` or multiple `websites`, usually the original download page. Other optional items may be included as appropriate.
 
 
 A `description` may consist of several paragraphs of contextual information (it should not repeat the `summary`).

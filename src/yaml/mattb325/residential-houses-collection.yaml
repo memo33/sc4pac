@@ -83,7 +83,7 @@ dependencies:
 ---
 group: mattb325
 name: worthington
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Worthington
@@ -97,7 +97,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -145,7 +144,7 @@ variants:
 ---
 group: mattb325
 name: wolsely-rd
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Wolsely Rd
@@ -160,7 +159,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:textures-vol01
 variants:
   - variant: { nightmode: standard }
@@ -176,7 +174,7 @@ variants:
 ---
 group: mattb325
 name: wilmore
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Wilmore
@@ -189,7 +187,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -204,7 +201,7 @@ variants:
 ---
 group: mattb325
 name: westcliffe-xiii
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Westcliffe XIII
@@ -219,7 +216,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
@@ -237,7 +233,7 @@ variants:
 ---
 group: mattb325
 name: wellington-i
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Wellington I
@@ -252,7 +248,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -269,7 +264,7 @@ variants:
 ---
 group: mattb325
 name: timberline
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Timberline
@@ -283,7 +278,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -300,7 +294,7 @@ variants:
 ---
 group: mattb325
 name: the-warren
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: The Warren
@@ -313,7 +307,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -328,7 +321,7 @@ variants:
 ---
 group: mattb325
 name: texas
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Texas
@@ -343,8 +336,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -359,7 +350,7 @@ variants:
 ---
 group: mattb325
 name: sterling-cape-cod
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Sterling Cape Cod
@@ -372,7 +363,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mjb-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -387,7 +377,7 @@ variants:
 ---
 group: mattb325
 name: southport-ii
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Southport II
@@ -402,7 +392,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -419,7 +408,7 @@ variants:
 ---
 group: mattb325
 name: southport-mk1
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Southport MK1
@@ -432,7 +421,6 @@ dependencies:
   - bsc:bat-props-mattb325-mcmansion-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -449,7 +437,7 @@ variants:
 ---
 group: mattb325
 name: reussdale-house
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Reussdale House
@@ -465,7 +453,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -509,7 +496,7 @@ variants:
 ---
 group: mattb325
 name: radcliffe
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Radcliffe
@@ -522,7 +509,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -537,7 +523,7 @@ variants:
 ---
 group: mattb325
 name: prestondale
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Prestondale
@@ -552,7 +538,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -569,7 +554,7 @@ variants:
 ---
 group: mattb325
 name: pomeroy
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Pomeroy
@@ -584,7 +569,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mjb-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -599,7 +583,7 @@ variants:
 ---
 group: mattb325
 name: northcote-st-haberfield
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Northcote St Haberfield
@@ -615,7 +599,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -632,7 +615,7 @@ variants:
 ---
 group: mattb325
 name: newark
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Newark
@@ -647,7 +630,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -690,7 +672,7 @@ variants:
 ---
 group: mattb325
 name: minnetonka
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Minnetonka
@@ -703,9 +685,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -720,7 +699,7 @@ variants:
 ---
 group: mattb325
 name: mid-wealth-modern-homes
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Mid Wealth Modern Homes
@@ -736,9 +715,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol02
@@ -756,7 +732,7 @@ variants:
 ---
 group: mattb325
 name: melrose
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Melrose
@@ -771,7 +747,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mjb-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -786,7 +761,7 @@ variants:
 ---
 group: mattb325
 name: low-wealth-modern-homes
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Low Wealth Modern Homes
@@ -801,8 +776,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -847,7 +820,7 @@ variants:
 ---
 group: mattb325
 name: lakehouse
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Lakehouse
@@ -861,7 +834,6 @@ dependencies:
   - bsc:mega-props-cp-vol02
   - bsc:mega-props-jrj-vol04
   - bsc:mega-props-jrj-vol05
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -878,7 +850,7 @@ variants:
 ---
 group: mattb325
 name: la-salle
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: La Salle
@@ -893,7 +865,6 @@ dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
   - bsc:mega-props-misc-vol01
-  - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -908,7 +879,7 @@ variants:
 ---
 group: mattb325
 name: kiowa
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Kiowa
@@ -921,8 +892,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -937,7 +906,7 @@ variants:
 ---
 group: mattb325
 name: kimberley
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Kimberley
@@ -950,8 +919,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -966,7 +933,7 @@ variants:
 ---
 group: mattb325
 name: kendrick
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Kendrick
@@ -982,7 +949,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1063,7 +1029,7 @@ variants:
 ---
 group: mattb325
 name: hotondo-homes-alpha-237-series
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Hotondo Homes Alpha 237 Series
@@ -1083,7 +1049,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1100,7 +1065,7 @@ variants:
 ---
 group: mattb325
 name: hillsboro
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Hillsboro
@@ -1113,7 +1078,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1128,7 +1092,7 @@ variants:
 ---
 group: mattb325
 name: hickory
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Hickory
@@ -1142,10 +1106,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1160,7 +1120,7 @@ variants:
 ---
 group: mattb325
 name: glendale
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Glendale
@@ -1174,7 +1134,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:prop-family-names
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1216,7 +1175,7 @@ variants:
 ---
 group: mattb325
 name: fitzsimmon
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Fitzsimmon
@@ -1231,7 +1190,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1274,7 +1232,7 @@ variants:
 ---
 group: mattb325
 name: english-revival-cottage
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: English Revival Cottage
@@ -1287,9 +1245,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
-  - bsc:mega-props-rt-vol02
   - bsc:textures-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1305,7 +1260,7 @@ variants:
 ---
 group: mattb325
 name: edith-st-mosman
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Edith St Mosman
@@ -1321,7 +1276,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1365,7 +1319,7 @@ variants:
 ---
 group: mattb325
 name: connecticut
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Connecticut
@@ -1380,9 +1334,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1421,7 +1372,7 @@ variants:
 ---
 group: mattb325
 name: castleton
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Castleton
@@ -1434,7 +1385,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1506,7 +1456,7 @@ variants:
 ---
 group: mattb325
 name: bristol
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Bristol
@@ -1521,7 +1471,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1538,7 +1487,7 @@ variants:
 ---
 group: mattb325
 name: biltwell-4235
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: BiltWell 4235
@@ -1553,8 +1502,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1569,7 +1516,7 @@ variants:
 ---
 group: mattb325
 name: biltwell-4224
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: BiltWell 4224
@@ -1582,7 +1529,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1597,7 +1543,7 @@ variants:
 ---
 group: mattb325
 name: biltwell-4205
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: BiltWell 4205
@@ -1610,7 +1556,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1625,7 +1570,7 @@ variants:
 ---
 group: mattb325
 name: belmont-rd
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Belmont Rd
@@ -1644,9 +1589,6 @@ dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-misc-vol01
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -1663,7 +1605,7 @@ variants:
 ---
 group: mattb325
 name: american-stick
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: American Stick
@@ -1676,8 +1618,6 @@ dependencies:
   - bsc:bat-props-mattb325-cottages-ornee-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-jmyers-common-props
-  - bsc:mega-props-misc-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
