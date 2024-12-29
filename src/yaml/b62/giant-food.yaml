@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable retro grocery chain"
-  description: >
+  description: |
     Giant Food of Maryland, LLC, also known as Giant, is an American supermarket chain that was founded in 1936 when N.M.
     Cohen and Samuel Lehrman opened Washington, DC's first supermarket.
     Since its start, Giant has pioneered computer-assisted checkout scanning and operates over 170 stores and 156 full-service pharmacies located in Delaware, Maryland, Virginia, and Washington, D.C.

@@ -4,7 +4,7 @@ version: "2.0.0"
 subfolder: 360-landmark
 info:
   summary: John Hancock Center
-  description: >
+  description: |
     The John Hancock Center is a 100-story, 1,127-foot, (344 m) supertall skyscraper at 875 North Michigan Avenue,Chicago, Illinois, United States.
     It was constructed under the supervision of Skidmore, Owings and Merrill,with chief designer Bruce Graham and structural engineer Fazlur Khan.
     When the building topped out on May 6, 1968, it was the tallest building in the world outside New York City.

@@ -28,13 +28,13 @@ dependencies:
 - "t-wrecks:maxis-prop-names-and-query-fix"
 
 variants:
-- variant: { CAM: "no", IRM.industrial-capacity: "standard" }
+- variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
   assets:
   - assetId: "t-wrecks-irm-addon-set-i-d"
     include:
     - "\\.SC4Lot$"
     - "/Standard Edition/"
-- variant: { CAM: "no", IRM.industrial-capacity: "quadrupled" }
+- variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
   dependencies: [ "toroca:industry-quadrupler" ]
   assets:
   - assetId: "t-wrecks-irm-addon-set-i-d"
@@ -51,13 +51,13 @@ variantDescriptions:
   CAM:
     "no": "Choose this if you have not installed the Colossus Addon Mod (CAM)."
     "yes": "Choose this if you have installed the Colossus Addon Mod (CAM)."
-  IRM.industrial-capacity:
+  toroca:industry-quadrupler:capacity:
     "standard": "Maxis-default capacity"
     "quadrupled": "4x capacity, for use with the Industry Quadrupler"
 
 info:
   summary: "38 growable I-D filler lots to supplement the IRM"
-  description: >
+  description: |
     This expansion package for the Industrial Revolution Mod (IRM) contains a
     set of custom-made lots that can grow as fillers between industrial
     facilities, mainly tanks/silos and warehouses.
@@ -77,13 +77,13 @@ dependencies:
 - "t-wrecks:maxis-prop-names-and-query-fix"
 
 variants:
-- variant: { CAM: "no", IRM.industrial-capacity: "standard" }
+- variant: { CAM: "no", toroca:industry-quadrupler:capacity: "standard" }
   assets:
   - assetId: "t-wrecks-irm-addon-set-i-m"
     include:
     - "\\.SC4Lot$"
     - "/Standard Edition/"
-- variant: { CAM: "no", IRM.industrial-capacity: "quadrupled" }
+- variant: { CAM: "no", toroca:industry-quadrupler:capacity: "quadrupled" }
   dependencies: [ "toroca:industry-quadrupler" ]
   assets:
   - assetId: "t-wrecks-irm-addon-set-i-m"
@@ -100,13 +100,13 @@ variantDescriptions:
   CAM:
     "no": "Choose this if you have not installed the Colossus Addon Mod (CAM)."
     "yes": "Choose this if you have installed the Colossus Addon Mod (CAM)."
-  IRM.industrial-capacity:
+  toroca:industry-quadrupler:capacity:
     "standard": "Maxis-default capacity"
     "quadrupled": "4x capacity, for use with the Industry Quadrupler"
 
 info:
   summary: "45 growable I-M filler lots to supplement the IRM"
-  description: >
+  description: |
     This expansion package for the Industrial Revolution Mod (IRM) contains a
     set of custom-made lots that can grow as fillers between industrial
     facilities, mainly tanks/silos and warehouses. Fillers are particularly

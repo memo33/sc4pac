@@ -9,7 +9,7 @@ assets:
 
 info:
   summary: "Two simple German bus stops"
-  description: >
+  description: |
     This package includes 2 simple, slightly run down bus stops, like they can be found everywhere in Germany and the rest of the world.
     The download includes two different lots, one that has some grass behind the shelter, and an urban version with the standard sidewalk texture.
 

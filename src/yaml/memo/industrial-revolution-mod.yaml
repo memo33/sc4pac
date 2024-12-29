@@ -40,10 +40,10 @@ variantDescriptions:
 
 info:
   summary: "Alter the appearance of all Maxis industrial lots (IRM base pack)"
-  warning: >-
+  warning: |-
     With this mod installed, dirty industry (I-D) only grows on *medium*-density industrial zones,
     whereas high-tech industry (I-HT) only grows on *high*-density zones.
-  description: >
+  description: |
     The IRM, an absolute masterpiece of a mod created by T Wrecks, redesigns
     all Maxis industrial Lots, giving them a complete overhaul and spicing them
     up with custom textures, props, and lighting.

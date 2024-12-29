@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Sao Paulo Art Museum"
-  description: >
+  description: |
     This is a recreation of the Museu de Arte de São Paulo on Paulista Avenue.
     It was built in 1968 and is an eye catching steel, concrete and glass
     structure which is supported by two red lateral reinforced concrete beams

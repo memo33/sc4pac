@@ -35,14 +35,14 @@ variantDescriptions:
 
 info:
   summary: Colossus Addon Mod
-  warning: >-
+  warning: |-
     It is crucial to start a new region when installing CAM, as the mod drastically changes the simulation parameters.
 
-  conflicts: >-
+  conflicts: |-
     Only compatible with game version 1.1.641, the Windows digital edition.
     See the CAM manual for a list of mod incompatibilities.
 
-  description: >
+  description: |
     The Colossus Addon Mod (CAM) is a big mod that drastically changes the way cities and regions develop.
     Most importantly, it adds new Growth Stages 9 to 15, beyond the game's default Stages 1 through 8.
     This leads to extended and more realistic gameplay, especially for the later phases of the game.

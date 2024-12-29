@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: IBM Marathon Tower
-  description: >
+  description: |
     1250 René-Lévesque, also known as the IBM-Marathon Tower, is a 226 m (741 ft), 47-story skyscraper in Montreal,Quebec, Canada.
     The building was designed by Kohn Pedersen Fox Associates for IBM Canada and Marathon Realty, hence the former name "IBM-Marathon".
     It is now named for its address at 1250 René Lévesque Boulevard West, in the Ville-Marie borough of Downtown Montreal.

@@ -8,7 +8,7 @@ dependencies:
 
 info:
   summary: "Both of madhatter106's Medium Wealth Commercial Shops sets."
-  description: >
+  description: |
     Two sets of medium wealth commercial shops (CS$$) that mesh well with Maxis assets.
   author: "madhatter106"
   website: "https://community.simtropolis.com/profile/207209-madhatter106/content/?type=downloads_file"
@@ -23,7 +23,7 @@ assets:
 dependencies: []
 info:
   summary: "Twelve CS$$ Maxis-esque commercial shops on 1x1, 1x2 or 1x3 lots."
-  description: >
+  description: |
     These are 1x1 and 1x2 BATs and are mostly on those sized lots (with a few 1x3 sprinkled in).
     Stats have been modded mostly in keeping with prior uploads,
     and all are medium wealth stage 1 growable with nightlights and custom queries as well.
@@ -51,7 +51,7 @@ assets:
 
 info:
   summary: "Ten multi-story 1x1 CS$$ Maxis-esque commercial shops."
-  description: >
+  description: |
     Ten different buildings with multiple lots - these buildngs are all 1x1 multi-storeys,
     similar in size to original Maxis offerings like King Design and Tinkler's, Inc.
     All have standard stats and configurations, and all are tricked out with nightlighting to boot.

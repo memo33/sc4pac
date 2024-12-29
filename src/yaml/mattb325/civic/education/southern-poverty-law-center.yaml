@@ -7,7 +7,7 @@ dependencies:
 
 info:
   summary: "Southern Poverty Law Center"
-  description: >
+  description: |
     The Southern Poverty Law Center (SPLC) is a legal advocacy organisation that
     specialises in civil rights: it monitors hate group activity, champions
     voter rights, criminal justice reform, etc.

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Chanin Building
-  description: >
+  description: |
     The Chanin Building is a brick and terra-cotta skyscraper located at 122 East 42nd Street, at the corner of Lexington Avenue, in Midtown Manhattan, New York City.
     Built by Irwin S.
     Chanin in 1929, it is 56 stories high, reaching 197.8 metres (649 ft) excluding the spire and 207.3 metres (680 ft) including it.

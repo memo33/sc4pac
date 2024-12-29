@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Denver Place
-  description: >
+  description: |
     Denver Place is an office complex in Denver, Colorado, comprising the North and South Towers, Terraces and the Granite Tower.
     It is Colorado's largest commercial office property.
     Denver Place South Tower is the tallest building of the complex.

@@ -11,7 +11,7 @@ assets:
 - assetId: "kingofsimcity-logistics-essentials"
 info:
   summary: "FA3 angled parking textures and prop families"
-  description: >
+  description: |
     Do you want to recreate a large distribution center with ample truck parking space of all angles and populate them with tons of random trailers from different freight and logistic companies? If so, then you've come to the right place! This package contains a set of 175 overlay textures, offered in either white or yellow (mostly) paint. There are 36 prop families for MushyMushy's HD North American trucks and cabs covering all bases and angles, and 16 new prop families that cover some of the more irregular angles of Angry Mozart's cabs.
   author: "kingofsimcity"
   images:

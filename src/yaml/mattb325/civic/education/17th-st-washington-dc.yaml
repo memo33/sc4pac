@@ -7,7 +7,7 @@ dependencies:
 
 info:
   summary: "17th St, Washington DC (college)"
-  description: >
+  description: |
     This is an eye-catching modern midrise building that definitely helps break
     the grid when it grows.  It has upper roof gardens (both as open terraces
     and semi-enclosed spaces (the areas under the metal lattice-work at either
@@ -53,7 +53,7 @@ variants:
 
 # info:
 #   summary: "17th St, Washington DC (growable)"
-#   description: >
+#   description: |
 #     This is an eye-catching modern midrise building that definitely helps break
 #     the grid when it grows.  It has upper roof gardens (both as open terraces
 #     and semi-enclosed spaces (the areas under the metal lattice-work at either

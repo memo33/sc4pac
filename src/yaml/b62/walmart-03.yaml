@@ -4,7 +4,7 @@ version: "1"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable Walmart supercenter"
-  description: >
+  description: |
     Many trace discount retailing's birth to 1962, the first year of operation for Kmart, Target and Wal-Mart.
     Sam Walton and his wife, Helen, put up 95 percent of the money for the first Wal-Mart store in Rogers, Arkansas -
     borrowing heavily on Sam's vision that the American consumer was hinting to a different type of general store.

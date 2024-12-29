@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Central Park Corporativo
-  description: >
+  description: |
     Building Located in Guadalajara, Mexico.
 
   author: Diego Del Llano

@@ -11,7 +11,7 @@ dependencies:
 
 info:
   summary: "London Stock Exchange"
-  description: >
+  description: |
     Fairly faithful representation of the real-life London Stock Exchange.
     Modded as a non-conditional Stock Exchange reward and does not override the
     original Maxis stock exchange.

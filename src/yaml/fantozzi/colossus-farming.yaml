@@ -83,7 +83,7 @@ variantDescriptions:
 
 info:
   summary: "Huge set of CAM-patible farms (stage 1 to 10)"
-  description: >
+  description: |
     The mod contains a large assortment of farms designed for use with the Colossus Addon Mod (`pkg=cam:colossus-addon-mod`).
 
     It includes 134 growable farms and 45 fields as well as new props, textures and some ploppable filler pieces.

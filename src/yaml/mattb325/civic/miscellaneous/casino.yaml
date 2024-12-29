@@ -8,7 +8,7 @@ dependencies:
 
 info:
   summary: "Casino"
-  description: >
+  description: |
     This casino is completely fictional and is modded such that it is a little
     less offensive to surrounding areas when placed (both visually and in terms
     of its modding) than the default casino.  At nine stories high, it is

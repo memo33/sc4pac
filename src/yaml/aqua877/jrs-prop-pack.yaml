@@ -11,6 +11,8 @@ info:
 
 ---
 assetId: "aqua-877-jrs-prop-pack-signs"
-version: "1"
+version: "1-1"
 lastModified: "2020-08-26T12:37:13Z"
 url: "http://hide-inoki.com/bbs/archives/files/1107.zip"
+checksum:
+  sha256: 28cbea30c01afe556884236210d0557c68787acc84c93535b9878aba10635ee3

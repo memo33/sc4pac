@@ -4,7 +4,7 @@ version: "1"
 subfolder: "360-landmark"
 info:
   summary: "A TV and radio broadcast tower"
-  description: >
+  description: |
     The Mount Royal Transmission Tower is a freestanding lattice tower located on "Mount Royal" in Montreal, Canada.
     Nearly all of Montreal's TV & radio stations broadcast from here, hence the need for a candelabra (multi-platform) design.
     The actual height of the tower in the real world is approximately 433ft/132m (including transmitters).

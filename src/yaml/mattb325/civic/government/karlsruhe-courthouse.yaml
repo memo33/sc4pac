@@ -10,7 +10,7 @@ dependencies:
 
 info:
   summary: "Karlsruhe Courthouse"
-  description: >
+  description: |
     The district attorney's office in Karlsruhe is presented in SC4 as a
     functional courthouse.
 

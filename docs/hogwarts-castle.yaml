@@ -17,7 +17,7 @@ info:
   summary: School of Witchcraft and Wizardry
   warning: The castle is invisible to Muggles.
   conflicts: Incompatible with Saruman's Isengard Tower
-  description: >
+  description: |
     The school is located in the Scottish Highlands.
 
     It was founded more than 1000 years ago.

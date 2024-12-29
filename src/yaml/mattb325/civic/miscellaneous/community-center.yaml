@@ -9,7 +9,7 @@ dependencies:
 
 info:
   summary: "Community Center"
-  description: >
+  description: |
     Community center based on a real building in Westchester County, NY.
     Designed to tie in with KOSC's park series, the building sits on a 5x4 lot,
     provides 155 civic jobs, provides cap relief, and increases desirability.

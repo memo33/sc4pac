@@ -4,7 +4,7 @@ version: "1"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable American restaurant chain"
-  description: >
+  description: |
     "Come in and enjoy an outrageously delicious burger with Bottomless Steak Fries. Pair it with a cold beer or signature Freckled Lemonade."
 
     This package contains a 4x4 CS$$ growable and ploppable lot.

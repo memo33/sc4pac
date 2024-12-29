@@ -7,7 +7,7 @@ dependencies:
   - "bsc:mega-props-cp-vol01"
 info:
   summary: Eyrene Apartments (W2W)
-  description: >
+  description: |
     Eyrene Apartments is a fictitious apartment inspired by New York City.
     The building grows as R$$ and R$$$ on the New York tile set.
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.

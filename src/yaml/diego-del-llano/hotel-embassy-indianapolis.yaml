@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Hotel Embassy Indianapolis
-  description: >
+  description: |
     Embassy Suites Locted in Indianapolis, Indiana.
 
   author: Diego Del Llano

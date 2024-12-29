@@ -1,0 +1,42 @@
+group: vortext
+name: historic-monastery-mmps
+version: "1"
+subfolder: 180-flora
+info:
+  summary: Historic Monastery MMPs
+  description: |-
+    Made by Krashspeed on request of Vortext, this download contains various monk BATs which will spice up the monastic life in your cities!
+
+    For your convenience 4 different Mayor Mode Ploppables are included, found in 'Historic Monastery MMPs.dat'.
+  author: Vortext, Krashspeed
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/317-vortext-historic-monastery-props-and-mmps
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Historic Monastery MMPs Overview.jpg
+dependencies:
+  - vortext:historic-monastery-props
+assets:
+  - assetId: vortext-historic-monastery-props-and-mmps
+    include:
+      - MMPs\.dat$
+
+---
+group: vortext
+name: historic-monastery-props
+version: "1"
+subfolder: 100-props-textures
+info:
+  summary: Historic Monastery Props
+  author: Vortext, Krashspeed
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/317-vortext-historic-monastery-props-and-mmps
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Historic Monastery MMPs Overview.jpg
+assets:
+  - assetId: vortext-historic-monastery-props-and-mmps
+    include:
+      - Props\.dat$
+
+---
+assetId: vortext-historic-monastery-props-and-mmps
+version: "1"
+lastModified: "2024-10-27T11:33:54.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=317%3Avortext-historic-monastery-props-and-mmps

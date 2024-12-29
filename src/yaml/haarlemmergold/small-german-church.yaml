@@ -7,7 +7,7 @@ assets:
 
 info:
   summary: "Stiftskirche"
-  description: >
+  description: |
     This package contains a small German village church.
     It comes as a landmark on a 2x3 lot and includes nightlights.
   author: "Haarlemmergold"

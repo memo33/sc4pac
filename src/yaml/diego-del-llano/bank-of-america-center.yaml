@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: 555 California Street (Bank Of America Center)
-  description: >
+  description: |
     555 California Street, formerly Bank of America Center, is a 52-story 779 ft (237 m) skyscraper in San Francisco, California.
     It is the fourth tallest building in the city, the largest by floor area,  and a focal point of the Financial District.
 

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Two Prudential Plaza
-  description: >
+  description: |
     Two Prudential Plaza is a 64-story skyscraper that was built in the Loop area of Chicago, Illinois, United States in 1990.
     At 995 feet (303 m) tall, it is currently the sixth-tallest building in Chicago and the seventeenth-tallest in the U.S., being only five feet from 1,000 feet, making it the closest of any building under 1,000.
     The building was designed by the firm Loebl Schlossman & Hackl, with Stephen T.

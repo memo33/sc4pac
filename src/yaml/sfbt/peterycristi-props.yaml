@@ -4,7 +4,7 @@ version: "1"
 subfolder: 100-props-textures
 info:
   summary: Peterycristi Props
-  description: >
+  description: |
     This prop pack contains 25 different props from Berlin and the surrounding area.
     The props are intended for usage on Berlin-related lots for SimCity 4.
     The pack only serves as a dependency, there are no lots or similar included.

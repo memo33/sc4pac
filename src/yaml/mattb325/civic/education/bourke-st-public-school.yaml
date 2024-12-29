@@ -14,7 +14,7 @@ assets:
 
 info:
   summary: "Bourke St Public School"
-  description: >
+  description: |
     This BAT is loosely based on a real school in Bourke Street Surry Hills
     and acts a combined older style elementary and high school with an expanded
     school coverage radius. It is modelled in the Italianate Palace Style.

@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable restaurant"
-  description: >
+  description: |
     Culver Franchising System, Inc. is a privately owned and operated fast casual restaurant chain that operates primarily in the Midwestern United States.
     The first Culver’s opened in 1984 in Sauk City, Wisconsin.
     As of November 5, 2014, the chain had 527 restaurants across the United States delighting guests one meal at a time with their signature ButterBurgers and made-daily Fresh Frozen Custard.

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Republic Plaza
-  description: >
+  description: |
     Republic Plaza is a skyscraper in Denver, Colorado.
     Rising 714 feet (218 m), the building currently stands as the tallest building in the city of Denver and the entire Rocky Mountain region of the United States. It was built in 1984, and contains 56 floors, the majority of which are used as office space.
     Republic Plaza currently stands as the 137th-tallest building in the United States.

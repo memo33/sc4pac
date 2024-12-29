@@ -4,7 +4,7 @@ version: "0.20"
 subfolder: "150-mods"
 info:
   summary: "Network Addon Mod Tunnel and Slope Mod"
-  description: >
+  description: |
     This package provides players with additional choices for the slope
     parameters of surface transportation networks in the game.
     This collection of slope mods was designed by Lucario Boricua, author of

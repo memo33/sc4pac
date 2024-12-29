@@ -1,0 +1,18 @@
+group: peg
+name: mtp-logging-resource
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: MTP Logging Resource
+  author: Pegasus
+  website: http://community.simtropolis.com/files/file/20965-peg-mtp-logging-resource/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/425f2f302e490a07b7ec08d8ab192007-product_image.jpg
+assets:
+  - assetId: peg-mtp-logging-resource
+
+---
+assetId: peg-mtp-logging-resource
+version: "1.0"
+lastModified: "2009-01-11T09:08:22Z"
+url: https://community.simtropolis.com/files/file/20965-peg-mtp-logging-resource/?do=download

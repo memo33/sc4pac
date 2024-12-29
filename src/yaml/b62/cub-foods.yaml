@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable supermarket"
-  description: >
+  description: |
     Cub Foods is a supermarket chain with seventy-three stores in Minnesota and Illinois.
     The company is a wholly owned subsidiary of Eden Prairie, Minnesota-based SuperValu Inc.
     The store was famous for being “no frills; sack your own groceries ...” Cub Foods is credited with many innovations,

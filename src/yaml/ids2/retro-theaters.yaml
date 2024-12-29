@@ -14,7 +14,7 @@ variants:
 
 info:
   summary: "4 small theaters (CS$$)"
-  description: >
+  description: |
     This is a set of four 40s-50s theaters faithfully modeled after real world examples.
 
     All lots are 1×3, CS$$, and are both growable and ploppable.

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: Complete collection of Aaron Graham's NYBT BATs
-  description: >
+  description: |
     The collection consists of the Manhattan, Queens, Brooklyn, Bronx and fictitious collections.
     You can install the entire collection or choose individual buildings by following the dependency links.
 

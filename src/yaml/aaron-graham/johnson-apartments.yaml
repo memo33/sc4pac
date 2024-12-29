@@ -7,7 +7,7 @@ dependencies:
   - "bsc:mega-props-cp-vol01"
 info:
   summary: Johnson Apartments (W2W)
-  description: >
+  description: |
     Johnson Apartments is a fictitious apartment inspired by New York City.
     The building grows as R$$ and R$$$ on the New York tile set.
     It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.

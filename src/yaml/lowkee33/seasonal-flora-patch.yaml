@@ -17,9 +17,9 @@ assets:
 
 info:
   summary: "A patch required to make seasonal flora work"
-  description: >
+  description: |
     This patch corrects the Maxis Flora Tuning Parameters Exemplar for the use with seasonal tree controllers.
-  conflicts: >-
+  conflicts: |-
     This patch is compatible with the Maxis-default terrain
     and with terrain mods not including the Flora Tuning Parameters Exemplar
     (Pyrenean terrain mod and terrain mods coming from the PLEX).

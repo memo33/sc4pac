@@ -10,7 +10,7 @@ dependencies:
 
 info:
   summary: "World Health Organisation Geneva"
-  description: >
+  description: |
     The nine-story WHO headquarters in Geneva were designed in 1959 by the Swiss
     architect Jean Tschumi. It is unashamedly modernist and quite graceful in
     its execution.

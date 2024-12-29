@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Small European medical clinic"
-  description: >
+  description: |
     Inspired by a little clinic in Southern Europe, this is a smaller medical
     facility for towns or to supplement larger hospital care.
     The lot comes as a ploppable Clinic, which is found in the Health Menu and

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Carlton Hotel Johannesburg
-  description: >
+  description: |
     The Carlton Hotel is a historic hotel in the Central Business District of Johannesburg, South Africa.
     It opened in 1972 as part of the enormous Carlton Centre complex, and has been closed since 1998.
 
