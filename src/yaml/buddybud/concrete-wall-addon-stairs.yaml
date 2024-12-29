@@ -1,0 +1,42 @@
+group: buddybud
+name: concrete-wall-addon-stairs
+version: "1.0"
+subfolder: 660-parks
+info:
+  summary: Stairs Add-on for Jeronij's Modern Concrete Walls
+  description: |
+    This is a collection of six lots based directly on Jeronij's Modern Concrete Diagonal Walls. These are eyecandy stairs to beautify your modern concrete walls. Also all of the fences and stairs are Slope Conforming.
+  author: Buddybud, Jeronij
+  website: https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/ffe807fb16a457274b2cf25a66ea3e55-BudUD-Jeronij_CW_Addon_Stairs.jpg
+    - https://www.simtropolis.com/objects/screens/0028/ffe807fb16a457274b2cf25a66ea3e55-BudUD-Jeronij_CW_Addon_Stairs2.jpg
+
+dependencies:
+  - buddybud:concrete-wall-addon-stairs-resources
+assets:
+  - assetId: buddybud-jrj-concrete-wall-addon-stairs
+    include: ["SimCity 4/Plugins/Buddybud/BudUD-Jeronij_CW_Addon_Stairs/"]
+
+---
+group: buddybud
+name: concrete-wall-addon-stairs-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Textures and props for Jeronij's Modern Concrete Walls
+  author: Buddybud, Jeronij
+assets:
+  - assetId: buddybud-jrj-concrete-wall-addon-stairs
+    include:
+      - "/Texture Packs/"
+      - "/Prop Packs/"
+
+---
+assetId: buddybud-jrj-concrete-wall-addon-stairs
+version: "1.0"
+lastModified: "2005-10-12T01:46:25Z"
+url: https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/?do=download
+archiveType:
+  format: Clickteam
+  version: "40"

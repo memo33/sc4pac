@@ -1,0 +1,140 @@
+group: "11241036"
+name: modular-plaza-system
+version: "2"
+subfolder: 660-parks
+info:
+  summary: Modular Plaza System
+  description: |
+    This plugin contains a good number of modular lots that will allow you to create your custom plaza, sidewalk, or seawall. Fountains, ponds, benches, seawalls, market stalls, trees – nearly everything is available, Most of them are purely decorative (while having park and landmark effect), only the market stalls will yield a bit money. All lots have been designed in a way that they are rather simple, thereby being able to be combined with each other easily. All lots can be found in the park menu, just below the default Maxis parks.
+
+    Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Parks > Plazas submenu.
+
+  author: "11241036"
+  website: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f877e6bff2_MPSFlowerbeds.jpg.5889083c3a2281192f06e8fe9c33264b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878469e0f_MPSMarketStalls.jpg.92bf5fafa666103aea84553130a8a82b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f87856a0c5_MPSPlazas.jpg.10aa5cd7a833d3381d452d8361df1178.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8789df844_MPSSeawalls.jpg.976ebdcb8c4ed5cd2989a70d6b591d00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878c7eb98_MPSSquares.jpg.ae8a5bd6bcdbb9a29c431d524c5d47f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878d61b0b_MPSStatues.jpg.aad4b752d61f7076b9414063f86b41fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878e5682f_MPSTrees.jpg.f0065d2827f9ca245b936235ce0d178c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8790c8b18_SeawallConnectionLots.jpg.98b8e5096e6d35b0430ee739654cfc1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666221d7475d9_MPSSquares2.jpg.461eb175d27c232dbeb39ff56351adeb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666224ce84643_2MPS.png.997e8a240e19873333f98d98b00afdf1.png
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-kwk-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-swi21-vol01
+  - bsc:vip-girafe-urbanpack-vol01
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:birches
+  - girafe:common-spruces
+  - girafe:elms
+  - girafe:lindens
+  - girafe:norway-maples
+  - t-wrecks:maxis-prop-names-and-query-fix  # supersedes buildings-as-props
+  - ralphaelninja:landmark-props
+  - sfbt:essentials
+  - historic-harbor:dependencies
+  - buddybud:concrete-wall-addon-stairs-resources
+  - murimk:props-vol01-bicycles
+  - murimk:props-vol02-mixed
+  - 11241036:foundations-and-retaining-walls
+  - 11241036:textures
+  - wmp:shoreline-county-bridges-props
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - rdg:prop-pack-1
+  - sfbt:peterycristi-props
+  - peg:spot
+assets:
+  - assetId: 11241036-modular-plaza-system
+    include:
+      - MPS Core Files.dat
+      - MPS_Submenu Plazas.dat
+      - Seawall Connection Lots.dat
+
+variants:
+  - variant: { 11241036:modular-plaza-system:textures: maxis-white }
+  - variant: { 11241036:modular-plaza-system:textures: maxis-concrete }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_Maxis Concrete.dat
+  - variant: { 11241036:modular-plaza-system:textures: bsc-diagonal-brick }
+    dependencies:
+      - bsc:textures-vol01
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_BSC Diagonal Brick.dat
+  - variant: { 11241036:modular-plaza-system:textures: bsc-mediterranean-red-cobblestone }
+    dependencies:
+      - bsc:textures-vol01
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_BSC Mediterranean Red Cobblestone.dat
+  - variant: { 11241036:modular-plaza-system:textures: bsc-pink-pavement }
+    dependencies:
+      - bsc:textures-vol02
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_BSC Pink Pavement.dat
+  - variant: { 11241036:modular-plaza-system:textures: mtp-red-sandstone }
+    dependencies:
+      - peg:mtp-super-pack
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_MTP Red Sandstone.dat
+  - variant: { 11241036:modular-plaza-system:textures: nam-cobblestone }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_NAM Cobblestone.dat
+  - variant: { 11241036:modular-plaza-system:textures: nam-industrial }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_NAM Industrial.dat
+  - variant: { 11241036:modular-plaza-system:textures: nam-pink-pavement }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_NAM Pink Pavement.dat
+  - variant: { 11241036:modular-plaza-system:textures: nam-red-brick }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_NAM Red Brick.dat
+  - variant: { 11241036:modular-plaza-system:textures: nam-sandstone }
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_NAM Sandstone.dat
+  - variant: { 11241036:modular-plaza-system:textures: vortexture-cobblestone-1 }
+    dependencies:
+      - vortext:vortexture-1
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_Vortexture Cobblestone 1.dat
+  - variant: { 11241036:modular-plaza-system:textures: vortexture-cobblestone-2 }
+    dependencies:
+      - vortext:vortexture-1
+    assets:
+      - assetId: 11241036-modular-plaza-system
+        include:
+          - z_Vortexture Cobblestone 2.dat
+
+---
+assetId: 11241036-modular-plaza-system
+version: "2"
+lastModified: "2024-06-06T21:06:29Z"
+url: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps/?do=download
