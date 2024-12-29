@@ -1,0 +1,25 @@
+group: mandelsoft
+name: norwegian-sign-pack
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Norwegian Sign Pack
+  description: |
+    This pack contains 13 Norwegian Styled highway signs.
+
+    Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
+
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/24182-sc4dot-norwegian-sign-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/0003/0edf377409051858e9235834e985960c-SC4DOT%20Norwegian%20Sign%20Pack%20011.jpg
+    - https://www.simtropolis.com/objects/screens/0003/0edf377409051858e9235834e985960c-SC4DOT%20Norwegian%20Sign%20Pack%2002.jpg
+
+assets:
+  - assetId: mandelsoft-norwegian-sign-pack
+
+---
+assetId: mandelsoft-norwegian-sign-pack
+version: "2.0"
+lastModified: "2024-09-04T00:50:33Z"
+url: https://community.simtropolis.com/files/file/24182-sc4dot-norwegian-sign-pack/?do=download
