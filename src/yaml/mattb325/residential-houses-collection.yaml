@@ -83,7 +83,7 @@ dependencies:
 ---
 group: mattb325
 name: worthington
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Worthington
@@ -144,7 +144,7 @@ variants:
 ---
 group: mattb325
 name: wolsely-rd
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Wolsely Rd
@@ -174,7 +174,7 @@ variants:
 ---
 group: mattb325
 name: wilmore
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Wilmore
@@ -201,7 +201,7 @@ variants:
 ---
 group: mattb325
 name: westcliffe-xiii
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Westcliffe XIII
@@ -233,7 +233,7 @@ variants:
 ---
 group: mattb325
 name: wellington-i
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Wellington I
@@ -264,7 +264,7 @@ variants:
 ---
 group: mattb325
 name: timberline
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Timberline
@@ -294,7 +294,7 @@ variants:
 ---
 group: mattb325
 name: the-warren
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: The Warren
@@ -321,7 +321,7 @@ variants:
 ---
 group: mattb325
 name: texas
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Texas
@@ -350,7 +350,7 @@ variants:
 ---
 group: mattb325
 name: sterling-cape-cod
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Sterling Cape Cod
@@ -377,7 +377,7 @@ variants:
 ---
 group: mattb325
 name: southport-ii
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Southport II
@@ -408,7 +408,7 @@ variants:
 ---
 group: mattb325
 name: southport-mk1
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Southport MK1
@@ -437,7 +437,7 @@ variants:
 ---
 group: mattb325
 name: reussdale-house
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Reussdale House
@@ -496,7 +496,7 @@ variants:
 ---
 group: mattb325
 name: radcliffe
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Radcliffe
@@ -523,7 +523,7 @@ variants:
 ---
 group: mattb325
 name: prestondale
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Prestondale
@@ -554,7 +554,7 @@ variants:
 ---
 group: mattb325
 name: pomeroy
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Pomeroy
@@ -583,7 +583,7 @@ variants:
 ---
 group: mattb325
 name: northcote-st-haberfield
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Northcote St Haberfield
@@ -615,7 +615,7 @@ variants:
 ---
 group: mattb325
 name: newark
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Newark
@@ -672,7 +672,7 @@ variants:
 ---
 group: mattb325
 name: minnetonka
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Minnetonka
@@ -699,7 +699,7 @@ variants:
 ---
 group: mattb325
 name: mid-wealth-modern-homes
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Mid Wealth Modern Homes
@@ -732,7 +732,7 @@ variants:
 ---
 group: mattb325
 name: melrose
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Melrose
@@ -761,7 +761,7 @@ variants:
 ---
 group: mattb325
 name: low-wealth-modern-homes
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Low Wealth Modern Homes
@@ -820,7 +820,7 @@ variants:
 ---
 group: mattb325
 name: lakehouse
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Lakehouse
@@ -850,7 +850,7 @@ variants:
 ---
 group: mattb325
 name: la-salle
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: La Salle
@@ -879,7 +879,7 @@ variants:
 ---
 group: mattb325
 name: kiowa
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Kiowa
@@ -906,7 +906,7 @@ variants:
 ---
 group: mattb325
 name: kimberley
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Kimberley
@@ -933,7 +933,7 @@ variants:
 ---
 group: mattb325
 name: kendrick
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Kendrick
@@ -1029,7 +1029,7 @@ variants:
 ---
 group: mattb325
 name: hotondo-homes-alpha-237-series
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Hotondo Homes Alpha 237 Series
@@ -1065,7 +1065,7 @@ variants:
 ---
 group: mattb325
 name: hillsboro
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Hillsboro
@@ -1092,7 +1092,7 @@ variants:
 ---
 group: mattb325
 name: hickory
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Hickory
@@ -1120,7 +1120,7 @@ variants:
 ---
 group: mattb325
 name: glendale
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Glendale
@@ -1175,7 +1175,7 @@ variants:
 ---
 group: mattb325
 name: fitzsimmon
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Fitzsimmon
@@ -1232,7 +1232,7 @@ variants:
 ---
 group: mattb325
 name: english-revival-cottage
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: English Revival Cottage
@@ -1260,7 +1260,7 @@ variants:
 ---
 group: mattb325
 name: edith-st-mosman
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Edith St Mosman
@@ -1319,7 +1319,7 @@ variants:
 ---
 group: mattb325
 name: connecticut
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Connecticut
@@ -1372,7 +1372,7 @@ variants:
 ---
 group: mattb325
 name: castleton
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Castleton
@@ -1456,7 +1456,7 @@ variants:
 ---
 group: mattb325
 name: bristol
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Bristol
@@ -1487,7 +1487,7 @@ variants:
 ---
 group: mattb325
 name: biltwell-4235
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: BiltWell 4235
@@ -1516,7 +1516,7 @@ variants:
 ---
 group: mattb325
 name: biltwell-4224
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: BiltWell 4224
@@ -1543,7 +1543,7 @@ variants:
 ---
 group: mattb325
 name: biltwell-4205
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: BiltWell 4205
@@ -1570,7 +1570,7 @@ variants:
 ---
 group: mattb325
 name: belmont-rd
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: Belmont Rd
@@ -1605,7 +1605,7 @@ variants:
 ---
 group: mattb325
 name: american-stick
-version: "1.1"
+version: "1.1-1"
 subfolder: 200-residential
 info:
   summary: American Stick

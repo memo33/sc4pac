@@ -103,7 +103,7 @@ variants:
 ---
 group: mattb325
 name: waterloo-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Waterloo Apartments
@@ -174,7 +174,7 @@ variants:
 ---
 group: mattb325
 name: vivo-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Vivo Apartments
@@ -271,7 +271,7 @@ variants:
 ---
 group: mattb325
 name: small-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Small Apartments
@@ -470,7 +470,7 @@ variants:
 ---
 group: mattb325
 name: modern-townhouses
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Modern Townhouses
@@ -528,7 +528,7 @@ variants:
 ---
 group: mattb325
 name: l-aquila-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: L'Aquila Apartments
@@ -592,7 +592,7 @@ variants:
 ---
 group: mattb325
 name: lennox-gardens
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Lennox Gardens
@@ -620,7 +620,7 @@ variants:
 ---
 group: mattb325
 name: lansdowne-terrace
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Lansdowne Terrace
@@ -865,7 +865,7 @@ variants:
 ---
 group: mattb325
 name: ennuyeuse-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Ennuyeuse Apartments
@@ -931,7 +931,7 @@ variants:
 ---
 group: mattb325
 name: emporio-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Emporio Apartments
@@ -960,7 +960,7 @@ variants:
 ---
 group: mattb325
 name: embassy-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Embassy Apartments
@@ -1054,7 +1054,7 @@ variants:
 ---
 group: mattb325
 name: cube-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Cube Apartments
@@ -1122,7 +1122,7 @@ variants:
 ---
 group: mattb325
 name: commons-court
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Commons Court
@@ -1210,7 +1210,7 @@ variants:
 ---
 group: mattb325
 name: boom-style-terraces
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Boom Style Terraces
@@ -1268,7 +1268,7 @@ variants:
 ---
 group: mattb325
 name: beurlay-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Beurlay Apartments
@@ -1307,7 +1307,7 @@ variants:
 ---
 group: mattb325
 name: bayauxlaan-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Bayauxlaan Apartments
@@ -1438,7 +1438,7 @@ variants:
 ---
 group: mattb325
 name: alhambra-duplex
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Alhambra Duplex
@@ -1472,7 +1472,7 @@ variants:
 ---
 group: mattb325
 name: ainslee-condos
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Ainslee Condos
@@ -1506,7 +1506,7 @@ variants:
 ---
 group: mattb325
 name: casa-de-manana
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Casa de Manana
