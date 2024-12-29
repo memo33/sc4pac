@@ -7,7 +7,7 @@ info:
   description: |-
     ESSO is one of the biggest brands of fuel stations in the UK, and are found in many locations including cities and rural areas.
 
-    This particular version is designed to be used with the RHW network, and linked up with FA\-MIS ramps to simulate a setup commonly found on busy arterial roads in the UK and Ireland.
+    This particular version is designed to be used with the RHW network, and linked up with FA-MIS ramps to simulate a setup commonly found on busy arterial roads in the UK and Ireland.
 
     A mirrored version of this is available in `pkg=dexter:esso-service-station-lhd`. Both can be installed at the same time so that you can create "in the median" style service stations if you wish.
 
@@ -17,7 +17,7 @@ info:
 
     You will find it in the Landmarks menu.
 
-    This lot is for eye candy only, and is NOT transit-enabled. In order for it to look decent, it is strongly recommended that you plop FA\-MIS pieces either side of the lot.
+    This lot is for eye candy only, and is NOT transit-enabled. In order for it to look decent, it is strongly recommended that you plop FA-MIS pieces either side of the lot.
 
   author: Dexter
   website: https://community.simtropolis.com/files/file/26962-dex-esso-service-station/
@@ -64,7 +64,7 @@ info:
   description: |-
     ESSO is one of the biggest brands of fuel stations in the UK, and are found in many locations including cities and rural areas.
 
-    This particular version is designed to be used with the RHW network, and linked up with FA\-MIS ramps to simulate a setup commonly found on busy arterial roads in the UK and Ireland.
+    This particular version is designed to be used with the RHW network, and linked up with FA-MIS ramps to simulate a setup commonly found on busy arterial roads in the UK and Ireland.
 
     A mirrored version of this is available in `pkg=dexter:esso-service-station-rhd`. Both can be installed at the same time so that you can create "in the median" style service stations if you wish.
 
@@ -74,7 +74,7 @@ info:
 
     You will find it in the Landmarks menu.
 
-    This lot is for eye candy only, and is NOT transit-enabled. In order for it to look decent, it is strongly recommended that you plop FA\-MIS pieces either side of the lot.
+    This lot is for eye candy only, and is NOT transit-enabled. In order for it to look decent, it is strongly recommended that you plop FA-MIS pieces either side of the lot.
 
   author: Dexter
   website: https://community.simtropolis.com/files/file/26962-dex-esso-service-station/

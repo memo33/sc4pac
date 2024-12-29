@@ -3,11 +3,12 @@ name: "dutch-prop-pack"
 version: "1.1"
 subfolder: "100-props-textures"
 info:
-  summary: "This is a Dutch themed prop pack."
+  summary: "Dutch-themed prop pack"
   author: "w_swietwoot"
   website: "https://community.simtropolis.com/files/file/28522-bnl-was-dutch-prop-pack/"
   description: |
-    This is a Dutch themed prop pack. About 100 props, including colour variations and diagonals. You can give your lots or modds a Dutch theme with these. Various stuff like trash cans, paid-parking machines, glass recycle containers and phone booths.
+    This is Dutch-themed prop pack contains about 100 props, including colour variations and diagonals.
+    You can give your lots or modds a Dutch theme with these. Various stuff like trash cans, paid-parking machines, glass recycle containers and phone booths.
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_01_2014/d14d2d42603e857010262d492b1cf0ea-78.jpg"
   - "https://www.simtropolis.com/objects/screens/monthly_01_2014/188f9f42d46fe79aac3855a81c30315a-79.jpg"

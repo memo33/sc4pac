@@ -27,7 +27,7 @@ dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:sg-models-grocery-stores
   - ceafus-88:burger-king-models
-  - ceafus-88:ceafus-car-repairs-auto-parts-model
+  - ceafus-88:car-repairs-auto-parts-model
   - dexter:esso-service-station-resources
   - dexter:esso-service-station-resources-rhd
   - fantozzi:truck-stop
@@ -78,7 +78,7 @@ dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:sg-models-grocery-stores
   - ceafus-88:burger-king-models
-  - ceafus-88:ceafus-car-repairs-auto-parts-model
+  - ceafus-88:car-repairs-auto-parts-model
   - dexter:esso-service-station-resources
   - dexter:esso-service-station-resources-rhd
   - fantozzi:truck-stop
