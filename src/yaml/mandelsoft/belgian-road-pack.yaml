@@ -23,26 +23,7 @@ assets:
       - Belgian Lights_Plop.dat
       - Lights_LightCones.dat
       - Belgian Lights_White.dat
-
----
-group: mandelsoft
-name: lrm-belgium
-version: "1.0"
-subfolder: 150-mods
-info:
-  summary: Belgian Light Replacement Mod
-  description: |
-    This plugin replaces the standard game lights by Belgian styled lights.
-  author: MandelSoft
-  website: https://community.simtropolis.com/files/file/23779-belgian-road-pack-01/
-  conflicts: This pack may cause conflicts with the Light Replacement Mod and MRTNRLN's Ploppable RHW Median Lights Set 01.
-
-dependencies:
-  - mandelsoft:belgian-road-pack
-assets:
-  - assetId: mandelsoft-belgian-road-pack-01
-    include:
-      - LRM_Belgium_OPTIONAL.dat
+      # We exclude the LRM_Belgium_OPTIONAL.dat file as it seems more advisable to install the more recent LRM 4.0 or 5.1 instead.
 
 ---
 assetId: mandelsoft-belgian-road-pack-01
