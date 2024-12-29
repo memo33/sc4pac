@@ -5,7 +5,7 @@ subfolder: 700-transit
 info:
   summary: German Matrix Sign Pack
   description: |
-    This pack contains German Styled Matrix signs for the RHW-4, 6C, 6S, 8C, 8S and 10. Night lightning included.
+    This pack contains German Styled Matrix signs for the RHW-4, 6C, 6S, 8C, 8S and 10. Night lighting included.
 
     Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
 
@@ -24,7 +24,7 @@ variants:
   - variant: { driveside: left }
     assets:
       - assetId: mandelsoft-german-matrix-sign-pack
-        exclude: 
+        exclude:
           - "RHD\\.dat$"
 
 ---
