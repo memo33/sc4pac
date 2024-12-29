@@ -5,7 +5,7 @@ subfolder: 700-transit
 info:
   summary: American Truck Stop
   description: |-
-    Inspired and reloted from Fantozzi truck stops, this lots is transit enabled with OWR. This is the standard edition. The desert edition with desertic flora and dryer grass textures can be found here: `pkg=angry:mozart-american-truck-stop-desert-edition`
+    Inspired and reloted from Fantozzi truck stops, this lots is transit enabled with OWR. This is the standard edition. The desert edition with desertic flora and dryer grass textures can be found here: `pkg=angry-mozart:american-truck-stop-desert-edition`
 
     This lot appears in the misc transportation menu and cost §3600. Also this lot acts like a freight train station.
   author: Angry Mozart

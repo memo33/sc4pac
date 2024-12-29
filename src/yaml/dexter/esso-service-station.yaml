@@ -52,7 +52,7 @@ subfolder: 100-props-textures
 info:
   summary: ESSO Service Station RHD Resources
   description: |-
-    This is a resource file for `pkg:dexter:esso-service-station-rhd`.
+    This is a resource file for `pkg=dexter:esso-service-station-rhd`.
   author: Dexter
   website: https://community.simtropolis.com/files/file/26962-dex-esso-service-station/
 assets:
@@ -70,7 +70,7 @@ subfolder: 100-props-textures
 info:
   summary: ESSO Service Station LHD Resources
   description: |-
-    This is a resource file for `pkg:dexter:esso-service-station-lhd`.
+    This is a resource file for `pkg=dexter:esso-service-station-lhd`.
   author: Dexter
   website: https://community.simtropolis.com/files/file/26962-dex-esso-service-station/
 assets:
