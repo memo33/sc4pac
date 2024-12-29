@@ -1,6 +1,6 @@
 group: andisart
 name: tower-verre
-version: "1.0"
+version: "1.0-1"
 subfolder: 360-landmark
 info:
   summary: Tower Verre - 53W53 (MoMA Expansion Tower)
@@ -27,8 +27,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2018_02/closeup.thumb.jpg.a77e5252f67dd1dd2eadcf9adbe0dc30.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2018_02/logo.thumb.jpg.c5926809b29dd839553292b9dd8c7625.jpg
 
-dependencies:
-  - simfox:day-and-nite-mod
 variants:
 - variant: { nightmode: standard }
   assets:

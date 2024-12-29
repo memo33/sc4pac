@@ -5,9 +5,9 @@ subfolder: 100-props-textures
 info:
   summary: CDK3 SP Rail Fleet
   description: |-
-    This is a RESOURCE file for the PEG-CDK3 Seaport collection of lots. It is a required dependency, specifically, for the upcoming break-bulk freight dock lots and the new freight rail stations.
+    This is a RESOURCE file for the PEG-CDK3 Seaport collection of lots.
 
-    The pack contains a ton of static, timed and random rolling stock & locomotive props. These are intended for use as props on various lots. These are NOT game automata... however, many will be released separately as such.
+    The pack contains a ton of static, timed and random rolling stock & locomotive props. These are intended for use as props on various lots. These are NOT game automata...
 
     As the game automata trains are considerably under scaled, these props are larger... and scaled to look more appropriate on lots with properly scaled structures, vehicles, peeps and other props.
   author: Pegasus

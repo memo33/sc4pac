@@ -1,0 +1,72 @@
+group: ceafus-88
+name: burger-king
+version: "2.0"
+subfolder: 300-commercial
+info:
+  summary: Burger King
+  description: |-
+    A Burger King as CS$$, on a 3x4 Lot.
+  author: Ceafus 88
+  website: https://community.simtropolis.com/files/file/30864-burger-king-v20/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/56688a2477c4d_BigCityTutorial-Apr.30161449690790.png.e020f756e50813e09cdaf9d8c7aaf1de.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/56688a39e4bcd_BigCityTutorial-Apr.30161449690803.png.bdbc8e25605e0cda2b6a24a89d593746.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/56688a3ae7a2f_BigCityTutorial-Apr.30161449690813.png.a2832792eff3ccb5b44760d4daffd342.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/56688a3c9af60_BigCityTutorial-May.11161449690848.png.543389069b428e11b26fed25c0298019.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/56688a3d55226_BigCityTutorial-May.11161449690856.png.c37a7fbae1bc2df572df2c66392323f2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/56688a574b5c8_BigCityTutorial-May.11161449690839.png.249adb5d0a581e998d3ad4fa1b036df1.png
+dependencies:
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-d66-vol01
+  - bsc:mega-props-d66-vol02
+  - bsc:mega-props-jenx-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:bat-props-mattb325-vol02
+  - ceafus-88:burger-king-models
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ceafus-88-burger-king-v20
+        include:
+          - MaxisNite.*/.*\.SC4Lot
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ceafus-88-burger-king-v20
+        include:
+          - DarkNite.*/.*\.SC4Lot
+
+---
+group: ceafus-88
+name: burger-king-models
+version: "2.0"
+subfolder: 100-props-textures
+info:
+  summary: Burger King Models
+  description: |-
+    Models for `pkg=ceafus-88:burger-king`
+  author: Ceafus 88
+  website: https://community.simtropolis.com/files/file/30864-burger-king-v20/
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ceafus-88-burger-king-v20
+        include:
+          - MaxisNite.*/.*\.SC4Desc
+          - MaxisNite.*/.*\.SC4Model
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ceafus-88-burger-king-v20
+        include:
+          - DarkNite.*/.*\.SC4Desc
+          - DarkNite.*/.*\.SC4Model
+
+---
+assetId: ceafus-88-burger-king-v20
+version: "2.0"
+lastModified: "2015-12-09T20:32:55Z"
+url: https://community.simtropolis.com/files/file/30864-burger-king-v20/?do=download

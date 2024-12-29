@@ -1,0 +1,24 @@
+group: mandelsoft
+name: dutch-signage-pack
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: ITC Dutch Signage Pack 01
+  description: |
+    This pack contains 72 common Dutch signs for the RHW 3.0. These signs are compatible with the RHW-4, RHW-6C, RHW-6S, RHW-8 and RHW-10. This pack also contains Dutch speed control signs.
+
+    Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/21780-itc-dutch-signage-pack-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/dd124856476ea5c3e2e24f28b2f59db7-DSPprim.jpg
+    - https://www.simtropolis.com/objects/screens/0024/dd124856476ea5c3e2e24f28b2f59db7-DSPsec.jpg
+
+assets:
+  - assetId: mandelsoft-itc-dutch-signage-pack-01
+
+---
+assetId: mandelsoft-itc-dutch-signage-pack-01
+version: "2.0"
+lastModified: "2024-09-05T19:33:47Z"
+url: https://community.simtropolis.com/files/file/21780-itc-dutch-signage-pack-01/?do=download

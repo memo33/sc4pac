@@ -1,0 +1,126 @@
+group: angry-mozart
+name: american-truck-stop
+version: 1.0.0
+subfolder: 700-transit
+info:
+  summary: American Truck Stop
+  description: |-
+    Inspired and reloted from Fantozzi truck stops, this lots is transit enabled with OWR. This is the standard edition. The desert edition with desertic flora and dryer grass textures can be found here: `pkg=angry-mozart:american-truck-stop-desert-edition`
+
+    This lot appears in the misc transportation menu and cost §3600. Also this lot acts like a freight train station.
+  author: Angry Mozart
+  website: https://community.simtropolis.com/files/file/33128-american-truck-stop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/truckstop8.png.98d61dbcf7ed272aaa38a170db8a3258.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/truckstop7.png.ad5e7dd537cd9d7417e5d35849282754.png
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_08/reststop.png.848561bdaf9b0f579432f4b0a1fe7564.png
+dependencies:
+  - angry-mozart:american-truck-stop-resources
+  - angry-mozart:trucks-and-trailers-props
+  - bsc:essentials
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:sg-models-grocery-stores
+  - ceafus-88:burger-king-models
+  - ceafus-88:car-repairs-auto-parts-model
+  - dexter:esso-service-station-resources
+  - dexter:esso-service-station-resources-rhd
+  - fantozzi:truck-stop
+  - kingofsimcity:logistics-essentials
+  - lbt:gas-station-prop-pack
+  - lbt:mega-prop-pack-vol01
+  - lbt:mega-textures-vol01
+  - marcosmx:el-rancho-mexican-restaurant-resources
+  - murimk:props-vol03-industrials
+  - paeng:modular-truckstop-resources
+  - sfbt:aral-gas-station
+  - sg:reds-roadside-motel-models
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - bnl:dutch-prop-pack
+assets:
+  - assetId: angry-mozart-american-truck-stop
+    include:
+      - /AngryMozart_American_Truck_Stop_8a6b60a2.SC4Lot
+
+---
+group: angry-mozart
+name: american-truck-stop-desert-edition
+version: 1.0.0
+subfolder: 700-transit
+info:
+  summary: American Truck Stop (Desert Edition)
+  description: |-
+    Inspired and reloted from Fantozzi truck stops, this lots is transit enabled with OWR. This is the desert edition of `pkg=angry-mozart:american-truck-stop` (with desertic flora and dryer grass textures).
+
+    This lot appears in the misc transportation menu and cost §3600. Also this lot acts like a freight train station.
+  author: Angry Mozart
+  website: https://community.simtropolis.com/files/file/33128-american-truck-stop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/truckstop8.png.98d61dbcf7ed272aaa38a170db8a3258.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/truckstop7.png.ad5e7dd537cd9d7417e5d35849282754.png
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_08/reststop.png.848561bdaf9b0f579432f4b0a1fe7564.png
+dependencies:
+  - angry-mozart:american-truck-stop-resources
+  - angry-mozart:trucks-and-trailers-props
+  - bsc:essentials
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-dae-vol01
+  - bsc:mega-props-gascooker-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-mjb-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:sg-models-grocery-stores
+  - ceafus-88:burger-king-models
+  - ceafus-88:car-repairs-auto-parts-model
+  - dexter:esso-service-station-resources
+  - dexter:esso-service-station-resources-rhd
+  - fantozzi:truck-stop
+  - kingofsimcity:logistics-essentials
+  - lbt:gas-station-prop-pack
+  - lbt:mega-prop-pack-vol01
+  - lbt:mega-textures-vol01
+  - marcosmx:el-rancho-mexican-restaurant-resources
+  - murimk:props-vol03-industrials
+  - paeng:modular-truckstop-resources
+  - sfbt:aral-gas-station
+  - sg:reds-roadside-motel-models
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+  - bnl:dutch-prop-pack
+assets:
+  - assetId: angry-mozart-american-truck-stop
+    include:
+      - /AngryMozart_American_Truck_Stop_Desert_Edition_8a6f3bab.SC4Lot
+
+---
+group: angry-mozart
+name: american-truck-stop-resources
+version: 1.0.0
+subfolder: 100-props-textures
+info:
+  summary: American Truck Stop Resources
+  description: |-
+    This packages is a shared resource for `pkg=angry-mozart:american-truck-stop` and `pkg=angry-mozart:american-truck-stop-desert-edition`
+  author: Angry Mozart
+  website: https://community.simtropolis.com/files/file/33128-american-truck-stop/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/truckstop8.png.98d61dbcf7ed272aaa38a170db8a3258.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/truckstop7.png.ad5e7dd537cd9d7417e5d35849282754.png
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_08/reststop.png.848561bdaf9b0f579432f4b0a1fe7564.png
+assets:
+  - assetId: angry-mozart-american-truck-stop
+    include:
+      - \.dat$
+
+---
+assetId: angry-mozart-american-truck-stop
+version: "1.0.0"
+lastModified: "2019-08-30T18:04:28Z"
+url: https://community.simtropolis.com/files/file/33128-american-truck-stop/?do=download

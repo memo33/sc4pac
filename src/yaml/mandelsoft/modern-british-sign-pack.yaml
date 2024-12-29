@@ -1,0 +1,24 @@
+group: mandelsoft
+name: modern-british-sign-pack
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Modern British Sign Pack
+  description: |
+    This pack contains 40 modern British styled signs.
+
+    Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/24291-modern-british-sign-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d7d2f70897a26a40b40f52f94b8ea642-SC4DOT%20Modern%20British%20Sign%20Pack.jpg
+    - https://www.simtropolis.com/objects/screens/0024/d7d2f70897a26a40b40f52f94b8ea642-SignsUK05.jpg
+
+assets:
+  - assetId: mandelsoft-modern-british-sign-pack
+
+---
+assetId: mandelsoft-modern-british-sign-pack
+version: "2.0"
+lastModified: "2024-09-05T01:20:50Z"
+url: https://community.simtropolis.com/files/file/24291-modern-british-sign-pack/?do=download

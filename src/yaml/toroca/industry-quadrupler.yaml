@@ -3,14 +3,14 @@ name: "industry-quadrupler"
 version: "2.1"
 subfolder: "150-mods"
 variants:
-- variant: { IRM.industrial-capacity: "standard" }
+- variant: { toroca:industry-quadrupler:capacity: "standard" }
   # empty
-- variant: { IRM.industrial-capacity: "quadrupled" }
+- variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
   assets:
   - assetId: "toroca-industry-quadrupler"
 
 variantDescriptions:
-  IRM.industrial-capacity:
+  toroca:industry-quadrupler:capacity:
     "standard": "Maxis-default capacity"
     "quadrupled": "4x capacity for Maxis industrial buildings"
 

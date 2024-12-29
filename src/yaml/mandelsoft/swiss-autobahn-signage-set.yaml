@@ -1,0 +1,26 @@
+group: mandelsoft
+name: swiss-autobahn-signage-set
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Swiss Autobahn Signage Set
+  description: |
+    This pack contains Swiss Autobahn Signage Set, which contains 47 signs for your Autobahns for the most common RHW interchange setups.
+
+    Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/27994-swiss-autobahn-signage-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/452b6da9c540ee8d753313b4e5da78d2-promo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/9fe5adbcb0a6372b14507de56526ee59-screen01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/806fedcd17252d81ef2f46a870414821-screen02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/2bad7187ca1f5cfb784ff0fbb346ae62-screen03.jpg
+
+assets:
+  - assetId: mandelsoft-swiss-autobahn-signage-set
+
+---
+assetId: mandelsoft-swiss-autobahn-signage-set
+version: "2.0"
+lastModified: "2024-09-03T23:42:23Z"
+url: https://community.simtropolis.com/files/file/27994-swiss-autobahn-signage-set/?do=download

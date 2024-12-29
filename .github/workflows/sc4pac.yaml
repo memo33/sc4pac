@@ -1,126 +1,25 @@
-name: Sc4pac CI
+name: sc4pac CI
 
 on:
   push:
     branches: [ "main", "action" ]
   pull_request_target:
     branches: [ "main" ]
-  workflow_dispatch:  # for manually triggering the workflow from Actions tab
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+# permissions:
+#   contents: read
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
-    - name: Install dependencies
-      run: python -m pip install --upgrade PyYAML jsonschema
-    - name: Checkout pull request
-      if: ${{ github.event_name == 'pull_request_target' }}
-      uses: actions/checkout@v4
-      with:
-        # ref: "${{ github.event.pull_request.merge_commit_sha }}"
-        # As merge_commit_sha is not up-to-date due to mergeability check, we use actual PR head for now; see https://github.com/actions/checkout/issues/518#issuecomment-1757453837
-        # ref: ${{ github.event.pull_request.head.sha }}
-        # (This merge might correspond to a newer commit than the one that triggered this workflow, in case the PR was updated in the meantime -> ok)
-        ref: ${{ format('refs/pull/{0}/merge', github.event.pull_request.number) }}
-        path: tmp
-        sparse-checkout: |
-          src/yaml
-    - name: Check sc4pac yaml schema (pull_request_target)
-      if: ${{ github.event_name == 'pull_request_target' }}
-      # With pull_request_target, the `main` branch is checked out, not the PR.
-      # We checked out PR into `tmp` and run script from main branch.
-      run: cd tmp && python ../.github/sc4pac-yaml-schema.py src/yaml
-    - name: Check sc4pac yaml schema (push)
-      if: ${{ github.event_name != 'pull_request_target' }}
-      # We are on an actual branch of the repository, so run script here in the repository.
-      run: python .github/sc4pac-yaml-schema.py src/yaml
-
-  # requires STEX_API_KEY, so job is skipped in forks
-  url-check:
-    if: ${{ github.repository == 'memo33/sc4pac' }}
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-      with:
-        # to allow diff of other commit
-        fetch-depth: 0
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
-    - name: Install dependencies
-      run: python -m pip install --upgrade PyYAML jsonschema python-dateutil
-    - name: Checkout pull request
-      if: ${{ github.event_name == 'pull_request_target' }}
-      uses: actions/checkout@v4
-      with:
-        # ref: "${{ github.event.pull_request.merge_commit_sha }}"
-        # As merge_commit_sha is not up-to-date due to mergeability check, we use actual PR head for now; see https://github.com/actions/checkout/issues/518#issuecomment-1757453837
-        # ref: ${{ github.event.pull_request.head.sha }}
-        # (This merge might correspond to a newer commit than the one that triggered this workflow, in case the PR was updated in the meantime -> ok)
-        ref: ${{ format('refs/pull/{0}/merge', github.event.pull_request.number) }}
-        path: tmp
-        sparse-checkout: |
-          src/yaml
-    - name: Check STEX URLs (pull_request_target)
-      if: ${{ github.event_name == 'pull_request_target' }}
-      env:
-        STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
-      # We checked out PR into `tmp` and run script from main branch.
-      run: cd tmp && git diff --no-index --name-only ../src/yaml src/yaml | xargs --delimiter '\n' python ../.github/st-check-updates.py --mode=id
-    - name: Check STEX URLs (push)
-      if: ${{ github.event_name != 'pull_request_target' }}
-      env:
-        STEX_API_KEY: ${{ secrets.STEX_API_KEY }}
-      # We are on an actual branch of the repository, so run script here in the repository.
-      # TODO This is not perfect yet, as `before` does not exist on new branches or forced pushes.
-      run: git diff --name-only ${{ github.event.before }} -- src/yaml | xargs --delimiter '\n' python .github/st-check-updates.py --mode=id
-
-  deploy:
-    needs: lint  # url-check is not needed as ST is flaky
-    if: ${{ github.repository == 'memo33/sc4pac' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request_target' }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-    # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-    concurrency:
-      group: "pages"
-      cancel-in-progress: false
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-          cache: 'sbt'
-      - uses: sbt/setup-sbt@v1
-      - name: Build sc4pac executable
-        run: cd sc4pac-tools && sbt assembly && ./sc4pac --version
-      - name: Build channel and website
-        run: make gh-pages-no-lint
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Upload artifact
-        # note that this action dereferences our `latest` symlinks, but that's not a huge problem, it just duplicates each json file
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "gh-pages"
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  channel:
+    uses: memo33/sc4pac-actions/.github/workflows/sc4pac-channel.yaml@main
+    with:
+      path: src/yaml
+      channel-label: Main
+      deploy-repository: memo33/sc4pac
+      sc4pac-tools-submodule: sc4pac-tools
+      use-stex-api: true
+    secrets:
+      stex-api-key: ${{ secrets.STEX_API_KEY }}
+    permissions:
+      pages: write                   # to deploy to GitHub Pages
+      id-token: write                # to verify the deployment originates from an appropriate source
