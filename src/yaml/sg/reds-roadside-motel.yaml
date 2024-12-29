@@ -22,7 +22,7 @@ info:
 assets:
   - assetId: sg-reds-roadside-motel
     include:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 group: sg
@@ -41,7 +41,7 @@ info:
 assets:
   - assetId: sg-reds-roadside-motel
     exclude:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 assetId: sg-reds-roadside-motel

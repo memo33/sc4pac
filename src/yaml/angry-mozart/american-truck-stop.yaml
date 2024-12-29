@@ -117,7 +117,7 @@ info:
 assets:
   - assetId: angry-mozart-american-truck-stop
     include:
-      - .*\.dat$
+      - \.dat$
 
 ---
 assetId: angry-mozart-american-truck-stop

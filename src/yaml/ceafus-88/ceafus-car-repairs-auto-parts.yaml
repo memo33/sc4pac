@@ -21,7 +21,7 @@ dependencies:
 assets:
   - assetId: ceafus-88-ceafus-car-repairs-auto-parts
     include:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 group: ceafus-88
@@ -40,7 +40,7 @@ info:
 assets:
   - assetId: ceafus-88-ceafus-car-repairs-auto-parts
     exclude:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 assetId: ceafus-88-ceafus-car-repairs-auto-parts

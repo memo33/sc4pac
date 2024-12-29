@@ -34,7 +34,7 @@ dependencies:
 assets:
   - assetId: dexter-esso-service-station
     include:
-      - .* RHD .*/.*\.SC4Lot$
+      - RHD .*/.*\.SC4Lot$
 
 ---
 group: dexter
@@ -50,9 +50,9 @@ info:
 assets:
   - assetId: dexter-esso-service-station
     include:
-      - .* RHD .*/.*\.SC4Model$
-      - .* RHD .*/.*\.SC4Desc$
-      - .* RHD .*/.*\.dat$
+      - RHD .*/.*\.SC4Model$
+      - RHD .*/.*\.SC4Desc$
+      - RHD .*/.*\.dat$
 
 ---
 group: dexter
@@ -91,7 +91,7 @@ dependencies:
 assets:
   - assetId: dexter-esso-service-station
     include:
-      - .* LHD .*/.*\.SC4Lot$
+      - LHD .*/.*\.SC4Lot$
 
 ---
 group: dexter
@@ -107,9 +107,9 @@ info:
 assets:
   - assetId: dexter-esso-service-station
     include:
-      - .* LHD .*/.*\.SC4Model$
-      - .* LHD .*/.*\.SC4Desc$
-      - .* LHD .*/.*\.dat$
+      - LHD .*/.*\.SC4Model$
+      - LHD .*/.*\.SC4Desc$
+      - LHD .*/.*\.dat$
 
 ---
 group: dexter
@@ -124,7 +124,7 @@ info:
 assets:
   - assetId: dexter-esso-service-station
     include:
-      - .* Shared .*/
+      - Shared .*/
 
 ---
 assetId: dexter-esso-service-station

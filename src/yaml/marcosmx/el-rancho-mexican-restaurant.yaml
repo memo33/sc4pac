@@ -36,7 +36,7 @@ dependencies:
 assets:
   - assetId: marcosmx-el-rancho-mexican-restaurant
     include:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 group: marcosmx
@@ -55,7 +55,7 @@ info:
 assets:
   - assetId: marcosmx-el-rancho-mexican-restaurant
     exclude:
-      - .*\.SC4Lot$
+      - \.SC4Lot$
 
 ---
 assetId: marcosmx-el-rancho-mexican-restaurant
