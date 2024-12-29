@@ -14,7 +14,7 @@ variants:
 
 info:
   summary: "Small furniture store"
-  description: >
+  description: |
     Model Discount Furniture is based on a furniture store of the same name, in Chicago, USA.
     It grows in the Chicago and NYC tilesets on a CS$ 1×2 lot (W2W).
   author: "Jasoncw"

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: One World Trade Center
-  description: >
+  description: |
     One World Trade Center (also known as 1 World Trade Center, 1 WTC or Freedom Tower) is the main building of the rebuilt World Trade Center complex in Lower Manhattan, New York City.
     It is the tallest building in the Western Hemisphere, and the sixth-tallest in the world.
     The supertall structure has the same name as the North Tower of the original World Trade Center, which was destroyed in the terrorist attacks of September 11, 2001.

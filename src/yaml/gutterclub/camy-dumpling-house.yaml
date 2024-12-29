@@ -18,7 +18,7 @@ variants:
 
 info:
   summary: "Small CS$ building"
-  description: >
+  description: |
     The building is based on a bar in Melbourne's Chinatown
     and grows on a 1×2 CS$ lot.
   author: "gutterclub"

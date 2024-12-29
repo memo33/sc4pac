@@ -6,7 +6,7 @@ assets:
 - assetId: "madhatter106-small-office-pack"
 info:
   summary: "Set of small, Maxis-esque medium wealth (CO$$) offices"
-  description: >
+  description: |
     Specifically designed to compete with 'Simpson, Inc.', an early stage Maxis building.
     All buildings provide 20 jobs, and grow on 1x2, 2x1, and 2x2 lots.
     These BATs have nightlights.

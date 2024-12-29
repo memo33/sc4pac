@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Peninsula Puerto Vallarta
-  description: >
+  description: |
     These luxury beach-front condos are located in Puerto Vallarta, Mexico. The height is 328 ft (100 meters).
 
   author: Diego Del Llano

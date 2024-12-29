@@ -7,7 +7,7 @@ assets:
 - assetId: "nos17-essentials"
 info:
   summary: "Props and textures made by nos.17 and Bobbo662"
-  description: >
+  description: |
     A small pack containing miscellaneous B62 props, custom prop families (including ones for LBT and SHK vehicles), and some custom textures.
 
     This package has no dependencies.

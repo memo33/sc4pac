@@ -8,7 +8,7 @@ assets:
 info:
   summary: "Ancient Greek props"
   website: "https://community.simtropolis.com/files/file/35795-agc-ancient-greece-dlc/"
-  description: >
+  description: |
     Does not include night lights. Props are listed under the names 'AGC_Buildings_Greece_' and 'AGC_Props_Greece_'.
   author: "Barroco Hispano"
   images:
@@ -109,7 +109,7 @@ subfolder: "100-props-textures"
 info:
   summary: "Futuristic space craft props"
   website: "https://community.simtropolis.com/files/file/35849-agc-space-ships-dlc/"
-  description: >
+  description: |
     Props do not include night lights.
   author: "Barroco Hispano"
   images:
@@ -137,7 +137,7 @@ subfolder: "100-props-textures"
 info:
   summary: "Small props for streets and sidewalks"
   website: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/"
-  description: >
+  description: |
     Props can be found with the names  AGC_Props_St_ and AGC_Subway_ .
   author: "Barroco Hispano"
   images:

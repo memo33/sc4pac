@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Transamerica Pyramid
-  description: >
+  description: |
     The Transamerica Pyramid at 600 Montgomery Street between Clay and Washington Streets in the Financial District of San Francisco, California, is a 48-story postmodern building and the second-tallest skyscraper in the San Francisco skyline.
     Its height will be surpassed by Salesforce Tower, currently under construction.The building no longer houses the headquarters of the Transamerica Corporation, which moved its U.S.
     headquarters to Baltimore, Maryland, but it is still associated with the company and is depicted in the company's logo.

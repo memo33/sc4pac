@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Olympia Centre
-  description: >
+  description: |
     The Olympia Centre is a skyscraper in Chicago.
     It is a mixed use building consisting of offices in the lower part of the building and residences in the narrower upper section.
     It was designed by Skidmore, Owings & Merrill LLP, and at 725 ft (221 m) tall, with 63 floors, it is Chicago's tallest mid-block building.

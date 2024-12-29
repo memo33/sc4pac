@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 200-residential
 info:
   summary: Bainbridge Row (W2W)
-  description: >
+  description: |
     Bainbridge Row is an apartment located in The Bronx, New York City.
     The building grows as R$ and R$$ on the New York tile set.
     It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.

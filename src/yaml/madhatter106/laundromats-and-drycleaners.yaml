@@ -6,7 +6,7 @@ assets:
 - assetId: "madhatter106-laundromats-drycleaners"
 info:
   summary: "Set of various laundromats and drycleaners"
-  description: >
+  description: |
     Set of laundromat and drycleaners BATs on 1x1, 1x2, and 1x3 lots.
     Most are CS$ stage 1 or 2, some are CS$$ stage 1.
     Jobs range from 8 to 32.

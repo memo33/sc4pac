@@ -4,7 +4,7 @@ version: 1.0.0
 subfolder: 360-landmark
 info:
   summary: Edificio Lopez Serrano
-  description: >
+  description: |
     López Serrano Building was the tallest residential building in Cuba until the construction of FOCSA in 1956.
     It was designed by the architect Ricardo Mira in 1929, who also designed the "La Moderna Poesía" bookstore for the same owner in 1941, on Calle Bishop.
     It has been compared many times with the Bacardí Building in Old Havana, built two years after the López Serrano, due to its similarities in the towers.

@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Torre Ejecutiva Pemex
-  description: >
+  description: |
     The Pemex Executive Tower (Spanish: Torre Ejecutiva Pemex) is a skyscraper in Mexico City.
     The 214 meter (211 meters to top floor) international style tower was built between 1976 and 1982.
     Since the building's opening, it has been occupied by state-owned Pemex, one of the largest petroleum companies in the world.

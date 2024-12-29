@@ -1,0 +1,37 @@
+group: kingofsimcity
+name: irm-base-fa-filler-set
+version: "1.00"
+subfolder: 400-industrial
+info:
+  summary: Industrial Revolution Mod - Base Fractional-Angle Filler Set
+  description: |
+    This is a set of ploppable filler lots for dirty, manufacturing, and hi-tech industry geared towards adding FA (Fractional Angle) support to the originals.
+    The set was designed with IRM in mind and as such, utilizes matching bases and walls from that of T Wrecks' original release (`pkg=memo:industrial-revolution-mod`).
+
+    This package contains a set of 12 wall filler lots: 4 for dirty, manufacturing and hi-tech industry respectively. FA2 (2x1) and FA3 (3x1) are supported and each type comes with a mirrored version.
+    With the exception of I-HT variants - which are wall-less pieces - both I-D and I-M use the same walls as the originals.
+
+    Lot stats are designed to match the original IRM fillers as closely as possible. Positioning indicators are present to help with lot placement and alignment.
+    Every lot is practically neutral, with negligible amounts of pollution, no power/water consumption and cost nothing to maintain.
+    It takes §5 to bulldoze a lot and are extremely cheap to plop (§5 for I-D, §6 for I-M, §7 for I-HT).
+
+    The lots are located in the landmarks menu and are positioned in-line with the originals.
+  author: kingofsimcity
+  website: https://community.simtropolis.com/files/file/32426-industrial-revolution-mod-base-fa-filler-set/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/splash.thumb.jpg.8f8fd9ad78d7a27a9c326b92dd2a402c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/detail_1.thumb.jpg.53bcd017787d8a8da7d6a41b234879e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/lots.thumb.jpg.b80338c5684b272bd4bf04e5376ce408.jpg
+
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - sfbt:essentials
+  - ncd:rail-yard-and-spur-mega-pak-1
+assets:
+  - assetId: kingofsimcity-irm-base-fa-filler-set
+
+---
+assetId: kingofsimcity-irm-base-fa-filler-set
+version: "1.00"
+lastModified: "2018-08-20T05:54:31Z"
+url: https://community.simtropolis.com/files/file/32426-industrial-revolution-mod-base-fa-filler-set/?do=download

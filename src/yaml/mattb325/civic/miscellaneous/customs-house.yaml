@@ -10,7 +10,7 @@ dependencies:
 
 info:
   summary: "Customs House"
-  description: >
+  description: |
     This particular Customs House is inspired by the one that has stood in Salem,
     Massachusetts since 1819 (it is not an exact replica). The basement at the
     rear of the building is used for impounding goods.

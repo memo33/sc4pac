@@ -4,7 +4,7 @@ version: "3"
 subfolder: "400-industrial"
 info:
   summary: "Distribution warehouse compatible with Industrial Revolution Mod"
-  description: >
+  description: |
     This package contains a 6x7 I-M growable lot.
   author: "Bobbo662, nos.17"
   images:

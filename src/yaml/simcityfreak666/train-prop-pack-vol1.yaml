@@ -1,0 +1,35 @@
+group: simcityfreak666
+name: train-prop-pack-vol1
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Train Prop Pack vol.1
+  description: |-
+    This Prop Pack contains european style train Props.
+
+    This pack focuses on vehicles mostly used by the german main rail company ("Deutsche Bahn")
+
+    It contains more then 50 props:
+
+    - 6 engines (including the "Taurus" in different versions)
+    - the ICE 2 seperated in engine,waggons
+    - Intercity wagons
+    - 12 fright wagons (featuring,Container-,car transporter,log wagons)
+    - Metrorail vehicle based on the german 423 (Munich s-bahn)
+    - wagons for the "Rollende Landstraße"
+    - nuclear waste wagon
+    - a lot of nighlighted props
+    - opened waggons for making railyards lookin alive
+
+  author: SimCityFreak666
+  website: https://community.simtropolis.com/files/file/26342-train-prop-pack-vol1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/8b8aee2fd912e4c12f31ce561e14d32d-trainpack%20simtrop.jpg
+assets:
+  - assetId: simcityfreak666-train-prop-pack-vol1
+
+---
+assetId: simcityfreak666-train-prop-pack-vol1
+version: "1.0"
+lastModified: "2011-06-12T17:54:41Z"
+url: https://community.simtropolis.com/files/file/26342-train-prop-pack-vol1/?do=download

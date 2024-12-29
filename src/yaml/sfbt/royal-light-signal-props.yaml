@@ -1,0 +1,23 @@
+group: sfbt
+name: royal-light-signal-props
+version: "1"
+subfolder: 100-props-textures
+info:
+  summary: Light Signal Props by Royal
+  description: |
+    This prop pack contains a total number of 147 different light signals, both distant signals and main signals. The props are intended for usage on rail lots and mods for SimCity 4. The pack only serves as a dependency, there are no lots or similar included.
+
+  author: Royal
+  website: https://www.sc4evermore.com/index.php/downloads/download/119-sfbt-props-royal-light-signal-props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Lichtsignale_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Lichtsignale_02.jpg
+
+assets:
+  - assetId: sfbt-royal-light-signal-props
+
+---
+assetId: sfbt-royal-light-signal-props
+version: "1"
+lastModified: "2023-08-17T17:44:15.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=119:sfbt-props-royal-light-signal-props

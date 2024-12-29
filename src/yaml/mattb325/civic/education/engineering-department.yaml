@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Engineering Department"
-  description: >
+  description: |
     A simple, fictional mid-century BAT modded as a college reward.
     This is the orthogonal version.
   author: "mattb325"
@@ -36,7 +36,7 @@ dependencies: []
 
 info:
   summary: "Engineering Department (diagonal)"
-  description: >
+  description: |
     A simple, fictional mid-century BAT modded as a college reward.
     This is the diagonal version.
   author: "mattb325"

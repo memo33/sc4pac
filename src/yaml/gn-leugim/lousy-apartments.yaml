@@ -6,7 +6,7 @@ assets:
 - assetId: "gnl-eha-lousy-apartments"
 info:
   summary: "Midsize European R$ apartment building (EHA) (EBLT)"
-  description: >
+  description: |
     This building is part of the European House Add-on (EHA) project
     which seamlessly integrates with Maxis buildings by extending the original building families.
   conflicts: "Incompatible with mods blocking Maxis lots"

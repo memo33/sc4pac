@@ -6,7 +6,7 @@ assets:
 - assetId: "peg-security-fencing-kit"
 info:
   summary: "Collection of chain link fence props"
-  description: >
+  description: |
     This resource pack is a collection of chain link fence props that can be used
     on any type of lot that requires security fencing. The props in this pack may
     be used by other developers to enhance the appearance of their lots.

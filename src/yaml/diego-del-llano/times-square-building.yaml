@@ -4,7 +4,7 @@ version: 1.0.0
 subfolder: 360-landmark
 info:
   summary: Times Square Building
-  description: >
+  description: |
     The Times Square Building is an Art Deco skyscraper designed by Ralph Thomas Walker of the firm Voorhees, Gmelin, and Walker located in Rochester, New York, United States.
     At 260 feet (79 m), it is the eighth-tallest building in Rochester, with 14 floors.
     The former Genesee Valley Trust Building is a streamlined twelve-story building supporting four aluminum wings 42 feet (13 m) high, known as the "Wings of Progress", each weighing 12,000 pounds (5,400 kg).

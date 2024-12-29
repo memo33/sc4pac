@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Fountain Place
-  description: >
+  description: |
     Fountain Place is a 60-story late-modernist skyscraper in downtown Dallas, Texas.
 
     Standing at a structural height of 720 ft (220 m), it is the fifth-tallest building in Dallas,

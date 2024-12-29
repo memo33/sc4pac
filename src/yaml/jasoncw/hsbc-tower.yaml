@@ -14,7 +14,7 @@ variants:
 
 info:
   summary: "30-floor CO$$$ skyscraper"
-  description: >
+  description: |
     This package includes a growable and ploppable version of the HSBC Tower located in Auckland, New Zealand.
     It grows in the Houston and Euro tilesets on a 4×5 corner lot.
   author: "Jasoncw"

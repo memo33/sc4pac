@@ -4,7 +4,7 @@ version: 1.0.0
 subfolder: 360-landmark
 info:
   summary: Edificio Alas
-  description: >
+  description: |
     The Alas Building is a residential and office tower, designed in the rationalist style, located in the San Nicolás neighborhood, in the City of Buenos Aires, Argentina.
     It was the tallest building in Buenos Aires from 1957 to 1994.
 

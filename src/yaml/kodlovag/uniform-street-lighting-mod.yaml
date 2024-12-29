@@ -57,7 +57,7 @@ variants:
 
 info:
   summary: "Uniform Street Lighting Mod (USL)"
-  description: >
+  description: |
     USL replaces lamp posts and light cones across many networks.
     Its goal is to create uniformly lit streets for realistic night scenes.
     There are six light color variants provided.

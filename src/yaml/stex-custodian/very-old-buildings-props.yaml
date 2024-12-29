@@ -8,7 +8,7 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ebe975d2bb6d_VeryOldBuildingPropsLogo.jpg.5304c8b48552c73e8b34b3695be4bc6e.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ebe8b5f69015_VeryOldBuildingPropsImage.jpg.30bb244ccd9afee8d9f4e29203bde2e7.jpg
-  description: >
+  description: |
     Some very old content will need one or more of these legacy files and will likely not even mention them as a dependency. (Long, long ago it was assumed peeps had them.)
 
     Important: Do not use these for current lotting projects. They are provided only so very old content can be used in one's game.

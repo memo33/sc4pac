@@ -4,7 +4,7 @@ version: "3"
 subfolder: "300-commercial"
 info:
   summary: "Ploppable and growable drugstore"
-  description: >
+  description: |
      CVS was originally founded in Lowell, Massachusetts in 1963 and today, it is based in Woonsocket, Rhode Island.
      CVS is an acronym which stands for "Customer, Value, and Service."
      CVS now no longer builds stores without pharmacies, and many of the "CVS" stores (stores without pharmacies) have been phased out.

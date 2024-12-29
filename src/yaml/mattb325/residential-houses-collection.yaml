@@ -1,0 +1,1661 @@
+assetId: mattb325-residential-houses-darknite
+version: "1.1"
+lastModified: "2023-08-20T03:02:51-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=100:sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+---
+assetId: mattb325-residential-houses-maxisnite
+version: "1.1"
+lastModified: "2023-08-20T02:53:24-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=101:sc4d-lex-legacy-mattb325-residential-houses-pack-maxisnite
+
+---
+group: mattb325
+name: residential-houses-collection
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: A pack of 55 low-density residential houses
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Mattb325_Alpha237_lg0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/JohnBrogan_lg0.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Kendrick_lg0.jpg
+
+dependencies:
+  - mattb325:1329-carroll-ave
+  - mattb325:american-stick
+  - mattb325:belmont-rd
+  - mattb325:biltwell-4205
+  - mattb325:biltwell-4224
+  - mattb325:biltwell-4235
+  - mattb325:bristol
+  - mattb325:californian-craftsman
+  - mattb325:cascade
+  - mattb325:castleton
+  - mattb325:chez-winterton
+  - mattb325:connecticut
+  - mattb325:dover
+  - mattb325:edith-st-mosman
+  - mattb325:english-revival-cottage
+  - mattb325:essex
+  - mattb325:fitzsimmon
+  - mattb325:gateshead
+  - mattb325:glendale
+  - mattb325:hickory
+  - mattb325:hillsboro
+  - mattb325:hotondo-homes-airlee-199
+  - mattb325:hotondo-homes-alpha-237-series
+  - mattb325:house-15028r
+  - mattb325:john-brogan
+  - mattb325:kendrick
+  - mattb325:kimberley
+  - mattb325:kiowa
+  - mattb325:la-salle
+  - mattb325:lakehouse
+  - mattb325:lorraine-blvd
+  - mattb325:low-wealth-modern-homes
+  - mattb325:melrose
+  - mattb325:mid-wealth-modern-homes
+  - mattb325:minnetonka
+  - mattb325:mt-pleasant-mansion-pennsylvania
+  - mattb325:newark
+  - mattb325:northcote-st-haberfield
+  - mattb325:pomeroy
+  - mattb325:prestondale
+  - mattb325:radcliffe
+  - mattb325:radford
+  - mattb325:reussdale-house
+  - mattb325:southport-ii
+  - mattb325:southport-mk1
+  - mattb325:sterling-cape-cod
+  - mattb325:texas
+  - mattb325:the-warren
+  - mattb325:timberline
+  - mattb325:wellington-i
+  - mattb325:westcliffe-xiii
+  - mattb325:wilmore
+  - mattb325:wolsely-rd
+  - mattb325:woodrun-ii
+  - mattb325:worthington
+
+---
+group: mattb325
+name: worthington
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Worthington
+  description: 3 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Worthington(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Worthington(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: woodrun-ii
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Woodrun II
+  description: 3 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-mcmansion-vol01
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/WoodrunII(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/WoodrunII(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: wolsely-rd
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Wolsely Rd
+  description: 2 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Wolsely ?Rd(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Wolsely ?Rd(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: wilmore
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Wilmore
+  description: 3 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Wilmore(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Wilmore(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: westcliffe-xiii
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Westcliffe XIII
+  description: 4 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-mcmansion-vol01
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/WestcliffeXIII(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/WestcliffeXIII(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: wellington-i
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Wellington I
+  description: 4 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-mcmansion-vol01
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/WellingtonI(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/WellingtonI(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: timberline
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Timberline
+  description: 3 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-mcmansion-vol01
+  - bsc:bat-props-mattb325-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Timberline(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Timberline(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: the-warren
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: The Warren
+  description: 3 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/The ?Warren(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/The ?Warren(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: texas
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Texas
+  description: 4 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Texas(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Texas(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: sterling-cape-cod
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Sterling Cape Cod
+  description: 3 R$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Sterling ?Cape ?Cod(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Sterling ?Cape ?Cod(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: southport-ii
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Southport II
+  description: 4 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-mcmansion-vol01
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/SouthportII(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/SouthportII(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: southport-mk1
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Southport MK1
+  description: 2 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-mcmansion-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Southport ?MK1(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Southport ?MK1(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: reussdale-house
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Reussdale House
+  description: 2 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Reussdale ?House(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Reussdale ?House(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: radford
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Radford
+  description: 2 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Radford(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Radford(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: radcliffe
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Radcliffe
+  description: 2 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Radcliffe(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Radcliffe(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: prestondale
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Prestondale
+  description: 4 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-mcmansion-vol01
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Prestondale(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Prestondale(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: pomeroy
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Pomeroy
+  description: 3 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Pomeroy(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Pomeroy(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: northcote-st-haberfield
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Northcote St Haberfield
+  description: 4 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Northcote ?St ?Haberfield(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Northcote ?St ?Haberfield(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: newark
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Newark
+  description: 6 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Newark(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Newark(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: mt-pleasant-mansion-pennsylvania
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Mt Pleasant Mansion Pennsylvania
+  description: 3 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Mt ?Pleasant ?Mansion ?Pennsylvania(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Mt ?Pleasant ?Mansion ?Pennsylvania(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: minnetonka
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Minnetonka
+  description: 3 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Minnetonka(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Minnetonka(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: mid-wealth-modern-homes
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Mid Wealth Modern Homes
+  description: 25 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-small-modern-house-pack
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Mid ?Wealth ?Modern ?Homes(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Mid ?Wealth ?Modern ?Homes(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: melrose
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Melrose
+  description: 6 R$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Melrose(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Melrose(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: low-wealth-modern-homes
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Low Wealth Modern Homes
+  description: 18 R$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-small-modern-house-pack
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Low ?Wealth ?Modern ?Homes(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Low ?Wealth ?Modern ?Homes(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: lorraine-blvd
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Lorraine Blvd
+  description: 4 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Lorraine ?Blvd(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Lorraine ?Blvd(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: lakehouse
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Lakehouse
+  description: 3 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-jrj-vol04
+  - bsc:mega-props-jrj-vol05
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Lakehouse(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Lakehouse(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: la-salle
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: La Salle
+  description: 4 R$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-misc-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/La ?Salle(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/La ?Salle(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: kiowa
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Kiowa
+  description: 5 R$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Kiowa(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Kiowa(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: kimberley
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Kimberley
+  description: 4 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Kimberley(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Kimberley(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: kendrick
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Kendrick
+  description: 9 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Kendrick(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Kendrick(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: john-brogan
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: John Brogan
+  description: 2 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/John ?Brogan(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/John ?Brogan(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: house-15028r
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: House 15028R
+  description: 6 R$$ houses on low-density lots
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33176-craftsman-style-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/15028R.jpg.1651daba6ba795badefe95bffea226bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/15028R1.jpg.4dfc2be210a66684af6640e0bf174fc5.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol03
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/House ?15028R(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/House ?15028R(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: hotondo-homes-alpha-237-series
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Hotondo Homes Alpha 237 Series
+  description: 6 R$$ houses on low-density lots
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/33169-hotondo-homes-alpha237-series/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Alpha237(1).jpg.f6e3cfe9759237f6596d468559676051.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Alpha237(2).jpg.1585974831186252fce6f897fa07e7f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Alpha237(3).jpg.437b10ea9e724da9f7376981c9432b85.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Alpha237(4).jpg.070e1c12d653a858da3cd5925353b8ff.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Alpha237.jpg.e144ac87a96ed5b5a7bdb4588a910588.jpg
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Hotondo ?Homes ?Alpha ?237 ?Series(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Hotondo ?Homes ?Alpha ?237 ?Series(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: hillsboro
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Hillsboro
+  description: 4 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Hillsboro(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Hillsboro(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: hickory
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Hickory
+  description: 4 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Hickory(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Hickory(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: glendale
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Glendale
+  description: 2 R$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Glendale(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Glendale(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: gateshead
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Gateshead
+  description: 2 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Gateshead(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Gateshead(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: fitzsimmon
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Fitzsimmon
+  description: 3 R$$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-mcmansion-vol01
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Fitzsimmon(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Fitzsimmon(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: essex
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Essex
+  description: 2 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol01
+  - bsc:mega-props-cp-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Essex(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Essex(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: english-revival-cottage
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: English Revival Cottage
+  description: 2 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/English ?Revival ?Cottage(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/English ?Revival ?Cottage(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: edith-st-mosman
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Edith St Mosman
+  description: 3 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Edith ?St ?Mosman(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Edith ?St ?Mosman(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: dover
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Dover
+  description: 2 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Dover(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Dover(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: connecticut
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Connecticut
+  description: 5 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Connecticut(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Connecticut(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: chez-winterton
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Chez Winterton
+  description: 1 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Chez ?Winterton(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Chez ?Winterton(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: castleton
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Castleton
+  description: 4 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Castleton(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Castleton(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: cascade
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Cascade
+  description: 4 R$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Cascade(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Cascade(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: californian-craftsman
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: Californian Craftsman
+  description: 2 R$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Californian ?Craftsman(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Californian ?Craftsman(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: bristol
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Bristol
+  description: 7 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Bristol(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Bristol(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: biltwell-4235
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: BiltWell 4235
+  description: 2 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/BiltWell ?4235(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/BiltWell ?4235(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: biltwell-4224
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: BiltWell 4224
+  description: 4 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/BiltWell ?4224(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/BiltWell ?4224(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: biltwell-4205
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: BiltWell 4205
+  description: 4 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/BiltWell ?4205(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/BiltWell ?4205(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: belmont-rd
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: Belmont Rd
+  description: 6 R$$ houses on low-density lots
+  author: mattb325
+  website: https://community.simtropolis.com/files/file/16122-sym-productions-belmont-rd-houses
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9b93322b7b39bbf66a279282614c0157-Belmont%20Rd%20Day.JPG
+    - https://www.simtropolis.com/objects/screens/0017/9b93322b7b39bbf66a279282614c0157-Belmont%20Rd%20Night.JPG
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/Belmont ?Rd(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/Belmont ?Rd(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: american-stick
+version: "1.1-1"
+subfolder: 200-residential
+info:
+  summary: American Stick
+  description: 4 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-cottages-ornee-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/American ?Stick(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/American ?Stick(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: 1329-carroll-ave
+version: "1.1"
+subfolder: 200-residential
+info:
+  summary: 1329 Carroll Ave
+  description: 2 R$$ houses on low-density lots
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/11-residential/100-sc4d-lex-legacy-mattb325-residential-houses-pack-darknite
+
+dependencies:
+  - bsc:essentials
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol04
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-residential-houses-maxisnite
+        include: [ "/1329CarrollAve(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-residential-houses-darknite
+        include: [ "/1329CarrollAve(_[MD]N)?#?/" ]

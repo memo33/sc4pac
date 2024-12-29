@@ -11,7 +11,7 @@ assets:
 
 info:
   summary: "Bosham Church, Sussex, UK"
-  description: >
+  description: |
     Bosham Church (Holy Trinity), established AD 850 and featured in the Bayeux tapestry depicting the visit of Harold II to the church.
 
     Situated within the Diocese of Chichester (UK), this is one of the earliest churches in Sussex.
@@ -33,7 +33,7 @@ assets:
 
 info:
   summary: "Props and models of the Bosham Church"
-  description: >
+  description: |
     This is only a dependency.
   author: "mntoes"
   website: https://community.simtropolis.com/files/file/17530-bosham-church/

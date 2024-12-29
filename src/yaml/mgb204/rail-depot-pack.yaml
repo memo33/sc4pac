@@ -1,0 +1,63 @@
+group: mgb204
+name: rail-depot-pack
+version: "1.01"
+subfolder: 100-props-textures
+info:
+  summary: Rail Depot Pack (RDP)
+  description: |-
+    This package contains modular rail depot models, rail service platforms plus props (linked to automata) and textures to use with them.
+
+    Whilst the idea of this package is to allow lotters to use them making Rail Depots, there are a number of user-customisable features, that any lots created with this resource can take advantage of.
+
+    ***The main depot props have been rendered in three different ways. Two HD versions, containing higher-res textures, with either Maxis Nite or Dark Nite variants. There is also an SD Maxis Nite version for those who dislike/can't use HD models.***
+
+    The textures included can be customised during installation to support many different configurations. The automata props are linked to the installed automata for Rail, HSR/Monorail and GLR/EL-Rail. This means lots using them will show a users installed automata on them (limitations apply). The Depot and Automata props are provided additionally in three timed groups, for more variation.
+  author: mgb204
+  website: https://www.sc4evermore.com/index.php/downloads/download/92-mgb204-rail-depot-pack-rdp
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/RDP_1.jpg
+assets:
+  - assetId: mgb204-rail-depot-pack-rdp
+    # IMPORTANT! For some reason the rail depot pack contains two dlls when
+    # extracted: System.dll and nsDialogs.dll. Those are probably related to the
+    # installer used, but absolutely not necessary for SimCity 4 and they even
+    # break sc4pac! Hence we only explicitly include the .dat files/
+    include:
+      - MGB_RDP_Resource.dat
+      - MGB_RDP_Textures.dat
+
+      # Instead of providing variants, we choose for the NAM textures. Same
+      # holds for the NAM RRW, but apparently that is the default, so we *dont*
+      # include the z_RailPEG.dat and z_RailMaxis.dat files.
+      - zMGB_RDPTextureType_GLRNAM.dat
+      - zMGB_RDPTextureType_HSRNAM.dat
+
+variants:
+  - variant: { nightmode: standard, roadstyle: US }
+    assets:
+      - assetId: mgb204-rail-depot-pack-rdp
+        include:
+          - zMGB_RDPTextureType_RoadUS.dat
+          - MGB_RDPDepot_Props_HD-MN.dat
+  - variant: { nightmode: standard, roadstyle: EU }
+    assets:
+      - assetId: mgb204-rail-depot-pack-rdp
+        include:
+          - MGB_RDPDepot_Props_HD-MN.dat
+  - variant: { nightmode: dark, roadstyle: US }
+    assets:
+      - assetId: mgb204-rail-depot-pack-rdp
+        include:
+          - zMGB_RDPTextureType_RoadUS.dat
+          - MGB_RDPDepot_Props_HD-DN.dat
+  - variant: { nightmode: dark, roadstyle: EU }
+    assets:
+      - assetId: mgb204-rail-depot-pack-rdp
+        include:
+          - MGB_RDPDepot_Props_HD-DN.dat
+
+---
+assetId: mgb204-rail-depot-pack-rdp
+version: "1.01"
+lastModified: "2023-12-06T10:37:59.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=92%3Amgb204-rail-depot-pack-rdp

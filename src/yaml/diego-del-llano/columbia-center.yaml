@@ -4,7 +4,7 @@ version: "1.0"
 subfolder: 360-landmark
 info:
   summary: Columbia Center
-  description: >
+  description: |
     The Columbia Center, formerly named the Bank of America Tower and Columbia Seafirst Center, is a skyscraper in downtown Seattle, Washington.
     The 76-story structure is the tallest building in Seattle and the state of Washington, reaching a height of 937 ft (286 m).
     At the time of its completion, the Columbia Center was the tallest structure on the West Coast; as of 2017, it is the fourth-tallest, behind buildings in Los Angeles and San Francisco.

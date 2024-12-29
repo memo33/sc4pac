@@ -10,7 +10,7 @@ dependencies:
 
 info:
   summary: "Full collection of madhatter106's Low Wealth Commercial Shops, Volumes 1-4"
-  description: >
+  description: |
     Collection of four sets of low density, low wealth commercial (CS$) shops.
     Lot sizes are small, mainly 1x1, 1x2, and 1x3.
     These BATs blend well with Maxis assets and have minimal dependencies.
@@ -29,7 +29,7 @@ dependencies:
 
 info:
   summary: "Low Wealth Commercial Shops Volume 1"
-  description: >
+  description: |
     This set contains 22 Maxis-esque low wealth commercial services (CS$) lots.
     The majority of these are on 1x1, 1x2, and 1x3 lots - with anywhere from 8 to 22 jobs, and growth stages 1 through 3.
     These BATs have nightlights.
@@ -55,7 +55,7 @@ assets:
 
 info:
   summary: "Low Wealth Commercial Shops Volume 2"
-  description: >
+  description: |
     This set contains 24 Maxis-esque low wealth commercial services (CS$) lots.
     The majority of these are on 1x1, 1x2, and 1x3 lots - with anywhere from 8 to 24 jobs, and growth stages 1 through 3.
     These BATs have nightlights.
@@ -84,7 +84,7 @@ dependencies:
 
 info:
   summary: "Low Wealth Commercial Shops Volume 3"
-  description: >
+  description: |
     This set contains 19 Maxis-esque low wealth commercial services (CS$) lots.
     Lot sizes include 1x1, 1x2, and 2x1 with anywhere from 8 to 24 jobs, and growth stages 1 and 2.
     These BATs have nightlights.
@@ -112,7 +112,7 @@ dependencies:
 
 info:
   summary: "Low Wealth Commercial Shops Volume 4"
-  description: >
+  description: |
     This set contains 19 Maxis-esque low wealth commercial services (CS$) lots.
     Lot sizes include 1x1 and 1x2 with anywhere from 8 to 18 jobs.
     These BATs have nightlights.
