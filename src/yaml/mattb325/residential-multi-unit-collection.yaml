@@ -103,7 +103,7 @@ variants:
 ---
 group: mattb325
 name: waterloo-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Waterloo Apartments
@@ -123,8 +123,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -176,7 +174,7 @@ variants:
 ---
 group: mattb325
 name: vivo-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Vivo Apartments
@@ -192,8 +190,6 @@ info:
 
 dependencies:
   - bsc:essentials
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -275,7 +271,7 @@ variants:
 ---
 group: mattb325
 name: small-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Small Apartments
@@ -287,9 +283,6 @@ dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol04
   - bsc:textures-vol01
 variants:
   - variant: { nightmode: standard }
@@ -477,7 +470,7 @@ variants:
 ---
 group: mattb325
 name: modern-townhouses
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Modern Townhouses
@@ -492,8 +485,6 @@ info:
 
 dependencies:
   - bsc:essentials
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -537,7 +528,7 @@ variants:
 ---
 group: mattb325
 name: l-aquila-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: L'Aquila Apartments
@@ -556,11 +547,6 @@ dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-misc-vol01
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:textures-vol01
   - bsc:textures-vol03
 variants:
@@ -606,7 +592,7 @@ variants:
 ---
 group: mattb325
 name: lennox-gardens
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Lennox Gardens
@@ -619,7 +605,6 @@ dependencies:
   - bsc:bat-props-mattb325-london-w2w-vol01
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-gascooker-vol01
-  - bsc:mega-props-rt-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -635,7 +620,7 @@ variants:
 ---
 group: mattb325
 name: lansdowne-terrace
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Lansdowne Terrace
@@ -647,7 +632,6 @@ dependencies:
   - bsc:essentials
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-gascooker-vol01
-  - bsc:mega-props-mjb-vol01
   - bsc:mega-props-sg-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
@@ -881,7 +865,7 @@ variants:
 ---
 group: mattb325
 name: ennuyeuse-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Ennuyeuse Apartments
@@ -898,8 +882,6 @@ dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -949,7 +931,7 @@ variants:
 ---
 group: mattb325
 name: emporio-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Emporio Apartments
@@ -962,9 +944,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol04
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -981,7 +960,7 @@ variants:
 ---
 group: mattb325
 name: embassy-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Embassy Apartments
@@ -994,10 +973,7 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-newmaninc-vol04
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1078,7 +1054,7 @@ variants:
 ---
 group: mattb325
 name: cube-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Cube Apartments
@@ -1097,8 +1073,6 @@ dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1148,7 +1122,7 @@ variants:
 ---
 group: mattb325
 name: commons-court
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Commons Court
@@ -1166,10 +1140,6 @@ info:
 dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol04
-  - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1240,7 +1210,7 @@ variants:
 ---
 group: mattb325
 name: boom-style-terraces
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Boom Style Terraces
@@ -1252,7 +1222,6 @@ dependencies:
   - bsc:essentials
   - bsc:bat-props-mattb325-vol01
   - bsc:bat-props-mattb325-vol04
-  - bsc:mega-props-rt-vol02
   - bsc:mega-props-sg-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
@@ -1299,7 +1268,7 @@ variants:
 ---
 group: mattb325
 name: beurlay-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Beurlay Apartments
@@ -1323,8 +1292,6 @@ dependencies:
   - bsc:essentials
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1340,7 +1307,7 @@ variants:
 ---
 group: mattb325
 name: bayauxlaan-apartments
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Bayauxlaan Apartments
@@ -1359,8 +1326,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1473,7 +1438,7 @@ variants:
 ---
 group: mattb325
 name: alhambra-duplex
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Alhambra Duplex
@@ -1492,7 +1457,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1508,7 +1472,7 @@ variants:
 ---
 group: mattb325
 name: ainslee-condos
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Ainslee Condos
@@ -1527,8 +1491,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1544,7 +1506,7 @@ variants:
 ---
 group: mattb325
 name: casa-de-manana
-version: "1.2"
+version: "1.2-1"
 subfolder: 200-residential
 info:
   summary: Casa de Manana
@@ -1564,9 +1526,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol04
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard, mattb325:casa-de-manana:climate: temperate }
