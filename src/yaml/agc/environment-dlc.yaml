@@ -1,0 +1,44 @@
+group: agc
+name: environment-dlc
+version: "5.0.0"
+subfolder: 180-flora
+info:
+  summary: Environment DLC
+  description: |-
+    This package contains trees, plants, rocks, ponds and other things related to the environment, and provides them as MMP's.
+
+    Note: if you use the props on your lots, please specify `pkg=agc:environment-dlc-props` as a dependency rather than this one, as this one will add a lot of items to your MMP menu, which is not desirable if you're only using the props as a dependency!
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34720-agc-environment-dlc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/ENVIRONMENT_ICON.png.9ef96068a94834cce519aed06c392fb8.png
+dependencies:
+  - agc:environment-dlc-props
+assets:
+  - assetId: agc-environment-dlc
+    include:
+      - .dat$
+
+---
+group: agc
+name: environment-dlc-props
+version: "5.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Environment DLC Props
+  description: |-
+    This package is a resource package for `pkg=agc:environment-dlc` and contains all the models & prop exemplars.
+    Specify this one as a dependency if you use them on your lots instead of `pkg=agc:environment-dlc`.
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/34720-agc-environment-dlc/
+assets:
+  - assetId: agc-environment-dlc
+    include:
+      - .SC4Desc$
+      - .SC4Model$
+
+---
+assetId: agc-environment-dlc
+version: "5.0.0"
+lastModified: "2023-06-10T16:10:48Z"
+url: https://community.simtropolis.com/files/file/34720-agc-environment-dlc/?do=download&r=197215
