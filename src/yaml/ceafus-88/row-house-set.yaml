@@ -8,7 +8,7 @@ dependencies:
 info:
   summary: Set of large, multi-color, R$ row houses on 1x2 lots
   description: |
-    In this set, are 5 different lots, sporting 10 different colored buildings.
+    This set contains 5 different lots, sporting 10 different colored buildings.
     There are 2 buildings to a lot, with the lot size being 1x2.
     They are R$, and will grow in medium to high density zoning.
   author: "Ceafus 88"
@@ -22,13 +22,13 @@ variants:
   assets:
   - assetId: "ceafus-88-row-house-set"
     include:
-    - "/C88- Rowhouse Set (Maxis)/"
+    - "/C88- Rowhouse Set \\(Maxis\\)/"
 - variant: { nightmode: dark }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
   - assetId: "ceafus-88-row-house-set"
     include:
-    - "/C88- Rowhouse Set (Dark)/"
+    - "/C88- Rowhouse Set \\(Dark\\)/"
 
 ---
 assetId: ceafus-88-row-house-set
