@@ -116,19 +116,19 @@ info:
   author: "Maxis"
   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
 
-# ---
-# group: "maxis"
-# name: "day-of-peace"
-# version: "1"
-# subfolder: "100-props-textures"
-# assets:
-# - assetId: "maxis-additional-landmarks"
-#   include:
-#   - "/Day of Peace/"
-# info:
-#   summary: "International Day of Peace prop"
-#   author: "Maxis"
-#   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+---
+group: "maxis"
+name: "day-of-peace"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Day of Peace/"
+info:
+  summary: "International Day of Peace prop"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
 
 ---
 group: "maxis"
