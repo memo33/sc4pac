@@ -11,13 +11,14 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=103:s
 
 ---
 group: mattb325
-name: 100-king-st
+name: 100-king-st-manchester
 subfolder: 300-commercial
 version: "1.0"
 info:
-  summary: 100 King St
+  summary: 100 King St, Manchester
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33144-100-king-st-manchester/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -35,13 +36,14 @@ variants:
 
 ---
 group: mattb325
-name: 17th-st
+name: 17th-st-washington-dc
 subfolder: 300-commercial
 version: "1.0"
 info:
-  summary: 17th St
+  summary: 17th St, Washington, DC
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33088-17th-st-washington-dc/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -60,13 +62,14 @@ variants:
 
 ---
 group: mattb325
-name: 45-east-ave
+name: 45-east-avenue-rochester-ny
 subfolder: 300-commercial
 version: "1.0"
 info:
   summary: 45 East Ave
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33893-45-east-avenue-rochester-ny/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
@@ -82,13 +85,14 @@ variants:
 
 ---
 group: mattb325
-name: 85-elizabeth-st
+name: 85-elizabeth-st-sydney
 subfolder: 300-commercial
 version: "1.0"
 info:
-  summary: 85 Elizabeth St
+  summary: 85 Elizabeth St, Sydney
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33899-85-elizabeth-st-sydney/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -140,6 +144,7 @@ info:
   summary: American City Bank
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/30976-american-city-bank/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -191,6 +196,7 @@ info:
   summary: Ashland Ave
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/32992-ashland-ave/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
@@ -215,6 +221,7 @@ info:
   summary: Audi Dealership
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/30871-modern-audi-dealership/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -241,6 +248,7 @@ info:
   summary: Bauhaus_Mannheim
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33110-bauhaus-mannheim/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -267,6 +275,7 @@ info:
   summary: Bonzai Building
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33132-bonzai-building/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -321,6 +330,7 @@ info:
   summary: Canadian Bitters CS
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33177-canadian-bitters-factory/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -369,6 +379,7 @@ info:
   summary: Chevrolet Dealer
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/30866-chevrolet-dealership/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -394,6 +405,7 @@ info:
   summary: Chez Mondo
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/28120-chez-mondo/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -423,6 +435,7 @@ info:
   summary: Ciros Nightclub
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33038-ciros-nightclub/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -451,6 +464,7 @@ info:
   summary: City College-CS
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33012-city-college/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -508,6 +522,7 @@ info:
   summary: Columbia Savings Bank
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33109-columbia-savings-bank/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
@@ -559,6 +574,7 @@ info:
   summary: Crosstown Hotel
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33031-crosstown-hotel/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -612,6 +628,7 @@ info:
   summary: David Jones
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33930-david-jones/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -639,6 +656,7 @@ info:
   summary: Debenhams
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33033-debenhams-department-store/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -664,6 +682,7 @@ info:
   summary: Downtown Hotel
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33032-downtown-hotel/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -692,6 +711,7 @@ info:
   summary: Eddy Hall-CS
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/31618-eddy-hall-minnesota/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -745,6 +765,7 @@ info:
   summary: Europa House
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/31627-europa-house/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -771,6 +792,7 @@ info:
   summary: First Federal Bank
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/31629-first-federal-bank/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -824,6 +846,7 @@ info:
   summary: Golden State Insurance
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/30923-golden-state-insurance/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -903,6 +926,7 @@ info:
   summary: Harlequin Bldg
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33067-harlequin-building-london/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -927,6 +951,7 @@ info:
   summary: Harrods
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/31736-harrods/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -954,6 +979,7 @@ info:
   summary: Hua Seng Offices
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33019-hua-seng-enterprises-inc/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
@@ -976,6 +1002,7 @@ info:
   summary: Hungry Jacks
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33947-hungry-jacks/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1005,6 +1032,7 @@ info:
   summary: ING Direct
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/31833-ing-direct/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
@@ -1055,6 +1083,7 @@ info:
   summary: Kyneton Sq
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33125-kyneton-square/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
@@ -1138,6 +1167,7 @@ info:
   summary: McDonalds (new)
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33188-mcdonalds/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1166,6 +1196,7 @@ info:
   summary: Millennium Hotel Knightsbridge
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/31744-millennium-hotel-knightsbridge/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1192,6 +1223,7 @@ info:
   summary: Mini Cooper Dealership
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/30873-mini-cooper-dealership/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1318,6 +1350,7 @@ info:
   summary: Niche Moderne
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33010-niche-moderne/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1419,6 +1452,7 @@ info:
   summary: PWN London CS
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33952-pwn-london/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1443,6 +1477,7 @@ info:
   summary: PinYin Ltd
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33018-pinyin-enterprises-pty-ltd/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1605,6 +1640,7 @@ info:
   summary: SAC Commercial
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/30881-sac-commercial/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1707,6 +1743,7 @@ info:
   summary: Standard Federal Savings and Loan
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/31839-standard-federal-savings-and-loan/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1733,6 +1770,7 @@ info:
   summary: Teville Square
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/30959-teville-square/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
@@ -1757,6 +1795,7 @@ info:
   summary: The Bon Marche
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/30986-the-bon-marche/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1784,6 +1823,7 @@ info:
   summary: Transport Indemnity Building
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33037-transport-indemnity-insurance-building/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
@@ -1835,6 +1875,8 @@ info:
   summary: UK Retailers Pack
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/30975-uk-retailers-pack-maxis-nite/
+    - https://community.simtropolis.com/files/file/30974-uk-retailers-pack-dark-nite/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1862,6 +1904,7 @@ info:
   summary: United Central Bank
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/28488-united-central-bank/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1914,6 +1957,7 @@ info:
   summary: Zurich Insurance
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/28683-zurich-insurance/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
