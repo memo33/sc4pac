@@ -1513,7 +1513,7 @@ info:
   summary: Red Cross House-CO
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
   - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - mattb325:commercial-collection-shared-resources
@@ -1537,8 +1537,9 @@ version: "1.0"
 info:
   summary: Retro Tower
   author: mattb325
-  website:
+  websites:
     - https://community.simtropolis.com/files/file/33131-retro-tower/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
