@@ -16,7 +16,9 @@ info:
      - 4x6 Landmark Lot
 
   author: SimFox
-  website: https://community.simtropolis.com/files/file/24680-nybt-seagram-building-darknite-version/
+  websites:
+    - https://community.simtropolis.com/files/file/24680-nybt-seagram-building-darknite-version/
+    - https://community.simtropolis.com/files/file/24686-nybt-seagram-building-maxisnite-version/
   images:
     - https://www.simtropolis.com/objects/screens/0022/c77e47ad9508f5b724c850c9283dfcc8-STEXMain_Maxis.jpg
     - https://www.simtropolis.com/objects/screens/0022/c77e47ad9508f5b724c850c9283dfcc8-STEXSecondaryMaxis.jpg
