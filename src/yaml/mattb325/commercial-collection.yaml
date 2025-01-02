@@ -1370,9 +1370,12 @@ version: "1.0"
 info:
   summary: Quay House
   author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  website:
+    - https://community.simtropolis.com/files/file/31645-quay-house/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
+  - mattb325:commercial-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
     assets:
