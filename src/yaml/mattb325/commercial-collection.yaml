@@ -36,7 +36,7 @@ variants:
 
 ---
 group: mattb325
-name: 17th-st-washington-dc
+name: 17th-st-washington-dc-cs
 subfolder: 300-commercial
 version: "1.0"
 info:
@@ -1994,10 +1994,10 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/McDonalds_lg.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/DHL_sn.jpg
 dependencies:
-  - mattb325:100-king-st
-  - mattb325:17th-st
-  - mattb325:45-east-ave
-  - mattb325:85-elizabeth-st
+  - mattb325:100-king-st-manchester
+  - mattb325:17th-st-washington-dc-cs
+  - mattb325:45-east-avenue-rochester-ny
+  - mattb325:85-elizabeth-st-sydney
   - mattb325:american-cement-building
   - mattb325:american-city-bank
   - mattb325:ardmore-investments
