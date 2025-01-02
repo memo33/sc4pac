@@ -154,10 +154,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - supershk:mega-parking-textures
 variants:
   - variant: { nightmode: standard }
@@ -179,11 +175,6 @@ info:
   summary: Ashland Ave
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
-dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -368,10 +359,6 @@ info:
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -397,12 +384,7 @@ info:
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - csx:mega-props-vol06
-  - simfox:day-and-nite-mod
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -450,12 +432,7 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-jrj-vol05
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:mega-props-rt-vol01
-  - bsc:mega-props-rt-vol02
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-swi21-vol01
   - bsc:textures-vol01
@@ -481,11 +458,6 @@ info:
   summary: Columbia Savings Bank
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
-dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -510,12 +482,7 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
-  - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -538,8 +505,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol04
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:textures-vol01
   - bsc:textures-vol02
 variants:
@@ -565,9 +530,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-mjb-vol01
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -687,11 +649,6 @@ info:
   summary: Envoy Motel
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
-dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -714,8 +671,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -761,8 +716,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 variants:
@@ -835,11 +788,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:textures-vol01
 variants:
   - variant: { nightmode: standard }
@@ -906,9 +854,6 @@ info:
   summary: Hua Seng Offices
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
-dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -932,8 +877,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
   - supershk:mega-parking-textures
 variants:
@@ -956,9 +899,6 @@ info:
   summary: ING Direct
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
-dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1055,15 +995,10 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-d66-vol01
   - bsc:mega-props-jes-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol01
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol02
-  - csx:mega-props-vol03
   - csx:mega-props-vol04
 variants:
   - variant: { nightmode: standard }
@@ -1087,11 +1022,7 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol04
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - supershk:mega-parking-textures
 variants:
   - variant: { nightmode: standard }
@@ -1114,11 +1045,7 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1165,10 +1092,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1192,10 +1115,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:mega-props-sg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1218,10 +1137,6 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -1290,8 +1205,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1314,10 +1227,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:mega-props-sg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1342,10 +1251,6 @@ info:
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1415,13 +1320,7 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
-  - bsc:mega-props-rt-vol02
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
 variants:
@@ -1447,27 +1346,9 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-shopping-mall-pack-vol01
   - bsc:bat-props-mattb325-vol02
-  - bsc:essentials
-  - bsc:mega-props-cal-vol01
-  - bsc:mega-props-carch-vol01
-  - bsc:mega-props-carch-vol08
   - bsc:mega-props-cp-vol01
-  - bsc:mega-props-jbsimio-vol01
-  - bsc:mega-props-jbsimio-vol03
-  - bsc:mega-props-jes-vol03
-  - bsc:mega-props-jrj-vol06
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-mjb-vol02
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:mega-props-sg-vol01
-  - bsc:mega-props-swi21-vol02
-  - bsc:mega-props-t1-vol01
-  - bsc:sg-models-entertainment
-  - bsc:sg-models-grocery-stores
   - bsc:textures-vol01
   - maxis:dlc-props
 variants:
@@ -1492,7 +1373,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
-  - mattb325:commercial-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1514,10 +1394,6 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - mattb325:commercial-collection-shared-resources
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
@@ -1585,11 +1461,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
-  - bsc:mega-props-rt-vol02
   - bsc:textures-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1614,12 +1485,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
-  - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1685,11 +1550,6 @@ info:
   summary: Teville Square
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
-dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1711,11 +1571,7 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:textures-vol01
 variants:
   - variant: { nightmode: standard }
@@ -1760,13 +1616,8 @@ info:
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
-  - bsc:textures-vol02
   - bsc:textures-vol03
   - peg:security-fencing-kit
 variants:
@@ -1791,11 +1642,7 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
 variants:
@@ -1820,8 +1667,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1845,8 +1690,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - maxis:dlc-props
 variants:
   - variant: { nightmode: standard }
@@ -1871,8 +1714,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1891,7 +1732,8 @@ version: "1.0"
 subfolder: 300-commercial
 info:
   summary: Commercial Collection
-  description: A collection of 75 commercial lots
+  description: |-
+    A collection of 75 commercial lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
   images:
@@ -1976,15 +1818,14 @@ dependencies:
   - mattb325:zurich-insurance
 
 ---
-
 group: mattb325
 name: commercial-collection-shared-resources
 version: "1.0"
 subfolder: 100-props-textures
 info:
   summary: Shared resources for the Commercial Collection
-  description: A dependency containing shared resources used in `pkg=mattb325:commercial-collection`
-
+  description: |-
+    A dependency containing shared resources used in `pkg=mattb325:commercial-collection`
 variants:
   - variant: { nightmode: standard }
     assets:
