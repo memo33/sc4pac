@@ -18,8 +18,8 @@ info:
   summary: 1960s Diag Office
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -40,8 +40,8 @@ info:
   summary: 1970s W2W Offices
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-misc-vol02
@@ -66,8 +66,8 @@ info:
   summary: 324 Clarence St
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -91,8 +91,8 @@ info:
   summary: 5657 Wilshire Blvd
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:mega-props-misc-vol02
 variants:
@@ -115,8 +115,8 @@ info:
   summary: 90A Miller Street
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -140,8 +140,8 @@ info:
   summary: Amestoy Bldg
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -162,8 +162,8 @@ info:
   summary: Banking Row
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -187,8 +187,8 @@ info:
   summary: Bond St
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -212,8 +212,8 @@ info:
   summary: Boutiques
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -237,8 +237,8 @@ info:
   summary: British Pub
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -259,8 +259,8 @@ info:
   summary: Cheyne House
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -284,8 +284,8 @@ info:
   summary: Colourful Living Interiors
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -309,8 +309,8 @@ info:
   summary: Coopers Hall
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-misc-vol02
@@ -335,8 +335,8 @@ info:
   summary: Exhibition Rd Kensington
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-london-w2w-vol01
   - bsc:bat-props-mattb325-vol02
@@ -361,8 +361,8 @@ info:
   summary: Foveaux St
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -386,8 +386,8 @@ info:
   summary: Foveaux St Lettings
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -411,8 +411,8 @@ info:
   summary: Grosvenor Hotel
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-london-w2w-vol01
   - bsc:bat-props-mattb325-vol02
@@ -437,8 +437,8 @@ info:
   summary: Harris St
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-misc-vol02
@@ -463,8 +463,8 @@ info:
   summary: High St
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -488,8 +488,8 @@ info:
   summary: High Street Corner Offices
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -513,8 +513,8 @@ info:
   summary: High Street Shops & Offices
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -538,8 +538,8 @@ info:
   summary: Historic Shops
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -560,8 +560,8 @@ info:
   summary: Holland Park House
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -585,8 +585,8 @@ info:
   summary: JB Covington Services
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -610,8 +610,8 @@ info:
   summary: King George House
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -635,8 +635,8 @@ info:
   summary: King St
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -660,8 +660,8 @@ info:
   summary: King St Sydney
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:mega-props-misc-vol02
 variants:
@@ -684,8 +684,8 @@ info:
   summary: Lundstrom House
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -709,8 +709,8 @@ info:
   summary: McDonalds W2W
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-misc-vol02
@@ -735,8 +735,8 @@ info:
   summary: Newtown Post Office
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
@@ -762,8 +762,8 @@ info:
   summary: Offices of the Exchequer
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -787,8 +787,8 @@ info:
   summary: Pirie St
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -809,8 +809,8 @@ info:
   summary: QBE Insurance
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -834,8 +834,8 @@ info:
   summary: Regent House
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -859,8 +859,8 @@ info:
   summary: Sim Telecom Call Centre
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -884,8 +884,8 @@ info:
   summary: SpyBar
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -909,8 +909,8 @@ info:
   summary: St Georges Hall Post Office
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol02
@@ -935,8 +935,8 @@ info:
   summary: Swan Insurance
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -960,8 +960,8 @@ info:
   summary: Sydney Gazette Offices
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -985,8 +985,8 @@ info:
   summary: W2W Chinese Restaurant
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
   - bsc:mega-props-misc-vol02
@@ -1011,8 +1011,8 @@ info:
   summary: Woodstock Road
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -1038,8 +1038,8 @@ info:
     A collection of 41 commercial W2W lots
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Amestoy_lg.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ImmoderateCur_s.jpg
