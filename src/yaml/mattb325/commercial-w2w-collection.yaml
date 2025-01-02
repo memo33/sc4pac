@@ -40,11 +40,7 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -68,8 +64,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -92,10 +86,7 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
-  - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -119,8 +110,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -163,11 +152,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -191,9 +175,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-mjb-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -217,11 +198,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -243,11 +219,6 @@ info:
   summary: British Pub
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
-dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -270,10 +241,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -320,8 +287,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
   - csx:mega-props-vol06
 variants:
@@ -370,8 +335,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -395,11 +358,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -471,10 +429,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -498,8 +452,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -523,7 +475,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mjb-vol01
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -545,14 +496,6 @@ info:
   summary: Historic Shops
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
-dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-misc-vol02
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
-  - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -575,8 +518,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -600,10 +541,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -627,8 +564,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -652,8 +587,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -699,9 +632,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-rt-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -725,8 +655,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
@@ -750,8 +678,6 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
   - bsc:textures-vol02
@@ -778,8 +704,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -823,8 +747,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -871,10 +793,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -898,8 +816,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -922,8 +838,6 @@ info:
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol02
   - mattb325:commercial-w2w-collection-shared-resources
@@ -949,8 +863,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -974,11 +886,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-mjb-vol01
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -1002,8 +909,6 @@ info:
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
   - bsc:mega-props-misc-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
@@ -1047,7 +952,8 @@ version: "1.1"
 subfolder: 300-commercial
 info:
   summary: Commercial W2W Collection
-  description: A collection of 41 commercial W2W lots
+  description: |-
+    A collection of 41 commercial W2W lots
   author: mattb325
   website: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
   images:
@@ -1104,7 +1010,8 @@ version: "1.1"
 subfolder: 100-props-textures
 info:
   summary: Shareed resources for the Commercial W2W Collection
-  description: A dependency containing shared resources used in `pkg=mattb325:commercial-w2w-collection`
+  description: |-
+    A dependency containing shared resources used in `pkg=mattb325:commercial-w2w-collection`
 
 variants:
   - variant: { nightmode: standard }
