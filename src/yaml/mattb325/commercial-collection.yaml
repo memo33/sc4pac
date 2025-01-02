@@ -18,8 +18,8 @@ info:
   summary: 100 King St
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - mattb325:commercial-collection-shared-resources
 variants:
@@ -42,8 +42,8 @@ info:
   summary: 17th St
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - mattb325:commercial-collection-shared-resources
   - mattb325:urban-civics-prop-pack-vol01
@@ -67,8 +67,8 @@ info:
   summary: 45 East Ave
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -89,8 +89,8 @@ info:
   summary: 85 Elizabeth St
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -115,8 +115,8 @@ info:
   summary: American Cement Building
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -140,20 +140,22 @@ info:
   summary: American City Bank
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/American ?City ?Bank(_[MD]N)?#?/" ]
+        include:
+          - /American ?City ?Bank(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/American ?City ?Bank(_[MD]N)?#?/" ]
+        include:
+          - /American ?City ?Bank(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -164,8 +166,8 @@ info:
   summary: Ardmore Investments
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - supershk:mega-parking-textures
@@ -189,18 +191,20 @@ info:
   summary: Ashland Ave
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Ashland ?Ave(_[MD]N)?#?/" ]
+        include:
+          - /Ashland ?Ave(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Ashland ?Ave(_[MD]N)?#?/" ]
+        include:
+          - /Ashland ?Ave(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -211,8 +215,8 @@ info:
   summary: Audi Dealership
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -237,20 +241,22 @@ info:
   summary: Bauhaus_Mannheim
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Bauhaus ?Mannheim(_[MD]N)?#?/" ]
+        include:
+          - /Bauhaus ?Mannheim(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Bauhaus_Mannheim(_[MD]N)?#?/" ]
+        include:
+          - /Bauhaus_Mannheim(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -261,8 +267,8 @@ info:
   summary: Bonzai Building
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:textures-vol01
@@ -271,12 +277,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Bonzai ?Building(_[MD]N)?#?/" ]
+        include:
+          - /Bonzai ?Building(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Bonzai ?Building(_[MD]N)?#?/" ]
+        include:
+          - /Bonzai ?Building(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -287,8 +295,8 @@ info:
   summary: Bullocks Wilshire
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -313,8 +321,8 @@ info:
   summary: Canadian Bitters CS
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -339,8 +347,8 @@ info:
   summary: Catalina Restaurant (Ploppable)
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -361,8 +369,8 @@ info:
   summary: Chevrolet Dealer
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol02
@@ -386,8 +394,8 @@ info:
   summary: Chez Mondo
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -397,12 +405,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Chez ?Mondo(_[MD]N)?#?/" ]
+        include:
+          - /Chez ?Mondo(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Chez ?Mondo(_[MD]N)?#?/" ]
+        include:
+          - /Chez ?Mondo(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -413,8 +423,8 @@ info:
   summary: Ciros Nightclub
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -423,12 +433,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Ciros ?Nightclub(_[MD]N)?#?/" ]
+        include:
+          - /Ciros ?Nightclub(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Ciros ?Nightclub(_[MD]N)?#?/" ]
+        include:
+          - /Ciros ?Nightclub(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -439,8 +451,8 @@ info:
   summary: City College-CS
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-misc-vol02
   - mattb325:commercial-collection-shared-resources
@@ -464,8 +476,8 @@ info:
   summary: Civic Offices
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
@@ -496,18 +508,20 @@ info:
   summary: Columbia Savings Bank
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Columbia ?Savings ?Bank(_[MD]N)?#?/" ]
+        include:
+          - /Columbia ?Savings ?Bank(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Columbia ?Savings ?Bank(_[MD]N)?#?/" ]
+        include:
+          - /Columbia ?Savings ?Bank(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -518,8 +532,8 @@ info:
   summary: Concord NH Post Office
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
@@ -545,8 +559,8 @@ info:
   summary: Crosstown Hotel
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:textures-vol01
@@ -555,12 +569,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/CrosstownHotel(_[MD]N)?#?/" ]
+        include:
+          - /CrosstownHotel(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Crosstown ?Hotel(_[MD]N)?#?/" ]
+        include:
+          - /Crosstown ?Hotel(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -571,8 +587,8 @@ info:
   summary: DHL Offices
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -596,8 +612,8 @@ info:
   summary: David Jones
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -605,12 +621,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/David ?Jones(_[MD]N)?#?/" ]
+        include:
+          - /David ?Jones(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/David ?Jones(_[MD]N)?#?/" ]
+        include:
+          - /David ?Jones(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -621,8 +639,8 @@ info:
   summary: Debenhams
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -646,8 +664,8 @@ info:
   summary: Downtown Hotel
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -656,12 +674,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/DowntownHotel(_[MD]N)?#?/" ]
+        include:
+          - /DowntownHotel(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Downtown ?Hotel(_[MD]N)?#?/" ]
+        include:
+          - /Downtown ?Hotel(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -672,8 +692,8 @@ info:
   summary: Eddy Hall-CS
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
@@ -703,8 +723,8 @@ info:
   summary: Envoy Motel
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -725,20 +745,22 @@ info:
   summary: Europa House
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Europa ?House(_[MD]N)?#?/" ]
+        include:
+          - /Europa ?House(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Europa ?House(_[MD]N)?#?/" ]
+        include:
+          - /Europa ?House(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -749,20 +771,22 @@ info:
   summary: First Federal Bank
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/First ?Federal ?Bank(_[MD]N)?#?/" ]
+        include:
+          - /First ?Federal ?Bank(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/First ?Federal ?Bank(_[MD]N)?#?/" ]
+        include:
+          - /First ?Federal ?Bank(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -773,8 +797,8 @@ info:
   summary: GE Money
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -800,20 +824,22 @@ info:
   summary: Golden State Insurance
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Golden ?State ?Insurance(_[MD]N)?#?/" ]
+        include:
+          - /Golden ?State ?Insurance(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Golden ?State ?Insurance(_[MD]N)?#?/" ]
+        include:
+          - /Golden ?State ?Insurance(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -824,8 +850,8 @@ info:
   summary: HM Hotel and Theatre
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-sg-vol01
   - bsc:mega-props-w2w-vol01
@@ -851,8 +877,8 @@ info:
   summary: HP Offices
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -877,8 +903,8 @@ info:
   summary: Harlequin Bldg
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol03
 variants:
@@ -901,8 +927,8 @@ info:
   summary: Harrods
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-misc-vol02
   - maxis:dlc-props
@@ -910,12 +936,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Harrods(_[MD]N)?#?/" ]
+        include:
+          - /Harrods(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Harrods(_[MD]N)?#?/" ]
+        include:
+          - /Harrods(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -926,8 +954,8 @@ info:
   summary: Hua Seng Offices
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -948,8 +976,8 @@ info:
   summary: Hungry Jacks
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
@@ -959,12 +987,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/HungryJacks(_[MD]N)?#?/" ]
+        include:
+          - /HungryJacks(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Hungry ?Jacks(_[MD]N)?#?/" ]
+        include:
+          - /Hungry ?Jacks(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -975,18 +1005,20 @@ info:
   summary: ING Direct
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/ING ?Direct(_[MD]N)?#?/" ]
+        include:
+          - /ING ?Direct(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/ING ?Direct(_[MD]N)?#?/" ]
+        include:
+          - /ING ?Direct(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -997,8 +1029,8 @@ info:
   summary: Kia Lexington KY
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
@@ -1023,8 +1055,8 @@ info:
   summary: Kyneton Sq
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1045,8 +1077,8 @@ info:
   summary: Luxury Auto Yard
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
@@ -1074,8 +1106,8 @@ info:
   summary: Mail Distribution Center CS
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol01
   - bsc:bat-props-mattb325-vol04
@@ -1106,8 +1138,8 @@ info:
   summary: McDonalds (new)
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-misc-vol02
@@ -1116,12 +1148,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/McDonalds ?\\(new\\)(_[MD]N)?#?/" ]
+        include:
+          - /McDonalds ?\(new\)(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/McDonalds ?\\(new\\)(_[MD]N)?#?/" ]
+        include:
+          - /McDonalds ?\(new\)(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1132,20 +1166,22 @@ info:
   summary: Millennium Hotel Knightsbridge
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Millennium ?Hotel ?Knightsbridge(_[MD]N)?#?/" ]
+        include:
+          - /Millennium ?Hotel ?Knightsbridge(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Millennium ?Hotel ?Knightsbridge(_[MD]N)?#?/" ]
+        include:
+          - /Millennium ?Hotel ?Knightsbridge(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1156,8 +1192,8 @@ info:
   summary: Mini Cooper Dealership
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -1165,12 +1201,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Mini ?Cooper ?Dealership(_[MD]N)?#?/" ]
+        include:
+          - /Mini ?Cooper ?Dealership(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Mini ?Cooper ?Dealership(_[MD]N)?#?/" ]
+        include:
+          - /Mini ?Cooper ?Dealership(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1181,8 +1219,8 @@ info:
   summary: Modern Office
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -1206,8 +1244,8 @@ info:
   summary: Motorola Offices
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -1232,8 +1270,8 @@ info:
   summary: Myer Department Store
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
@@ -1256,8 +1294,8 @@ info:
   summary: NatGeo CS
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - mattb325:commercial-collection-shared-resources
 variants:
@@ -1280,20 +1318,22 @@ info:
   summary: Niche Moderne
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Niche ?Moderne(_[MD]N)?#?/" ]
+        include:
+          - /Niche ?Moderne(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Niche ?Moderne(_[MD]N)?#?/" ]
+        include:
+          - /Niche ?Moderne(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1304,8 +1344,8 @@ info:
   summary: Nokia Building-CO
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -1329,8 +1369,8 @@ info:
   summary: Novotel
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-sg-vol01
@@ -1354,8 +1394,8 @@ info:
   summary: Omega_Services
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -1379,8 +1419,8 @@ info:
   summary: PWN London CS
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - mattb325:commercial-collection-shared-resources
 variants:
@@ -1403,8 +1443,8 @@ info:
   summary: PinYin Ltd
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - mattb325:urban-civics-prop-pack-vol01
 variants:
@@ -1427,8 +1467,8 @@ info:
   summary: Pine Valley Growables
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-shopping-mall-pack-vol01
   - bsc:bat-props-mattb325-vol02
@@ -1457,8 +1497,8 @@ info:
   summary: Pine Valley Mall (Ploppable)
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-shopping-mall-pack-vol01
   - bsc:bat-props-mattb325-vol02
@@ -1497,12 +1537,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Quay ?House(_[MD]N)?#?/" ]
+        include:
+          - /Quay ?House(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Quay ?House(_[MD]N)?#?/" ]
+        include:
+          - /Quay ?House(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1545,12 +1587,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Retro ?Tower(_[MD]N)?#?/" ]
+        include:
+          - /Retro ?Tower(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Retro ?Tower(_[MD]N)?#?/" ]
+        include:
+          - /Retro ?Tower(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1561,20 +1605,22 @@ info:
   summary: SAC Commercial
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/SAC ?Commercial(_[MD]N)?#?/" ]
+        include:
+          - /SAC ?Commercial(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/SAC ?Commercial(_[MD]N)?#?/" ]
+        include:
+          - /SAC ?Commercial(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1585,8 +1631,8 @@ info:
   summary: SPACE Furniture
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -1611,8 +1657,8 @@ info:
   summary: Sagra Technology
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -1636,8 +1682,8 @@ info:
   summary: Saks Fifth Ave LA
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
   - shk:parking-pack
@@ -1661,20 +1707,22 @@ info:
   summary: Standard Federal Savings and Loan
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Standard ?Federal ?Savings ?and ?Loan(_[MD]N)?#?/" ]
+        include:
+          - /Standard ?Federal ?Savings ?and ?Loan(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Standard ?Federal ?Savings ?and ?Loan(_[MD]N)?#?/" ]
+        include:
+          - /Standard ?Federal ?Savings ?and ?Loan(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1685,18 +1733,20 @@ info:
   summary: Teville Square
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Teville ?Square(_[MD]N)?#?/" ]
+        include:
+          - /Teville ?Square(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Teville ?Square(_[MD]N)?#?/" ]
+        include:
+          - /Teville ?Square(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1707,8 +1757,8 @@ info:
   summary: The Bon Marche
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-misc-vol02
   - bsc:textures-vol01
@@ -1716,12 +1766,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/The ?Bon ?Marche(_[MD]N)?#?/" ]
+        include:
+          - /The ?Bon ?Marche(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/The ?Bon ?Marche(_[MD]N)?#?/" ]
+        include:
+          - /The ?Bon ?Marche(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1732,8 +1784,8 @@ info:
   summary: Transport Indemnity Building
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1754,8 +1806,8 @@ info:
   summary: Troll Factory
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -1783,8 +1835,8 @@ info:
   summary: UK Retailers Pack
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:mega-props-cp-vol02
   - bsc:mega-props-misc-vol02
@@ -1810,20 +1862,22 @@ info:
   summary: United Central Bank
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol03
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/United ?Central ?Bank(_[MD]N)?#?/" ]
+        include:
+          - /United ?Central ?Bank(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/United ?Central ?Bank(_[MD]N)?#?/" ]
+        include:
+          - /United ?Central ?Bank(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1834,8 +1888,8 @@ info:
   summary: Virgin Mobile
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -1860,8 +1914,8 @@ info:
   summary: Zurich Insurance
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -1869,12 +1923,14 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Zurich ?Insurance(_[MD]N)?#?/" ]
+        include:
+          - /Zurich ?Insurance(_[MD]N)?#?/
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Zurich ?Insurance(_[MD]N)?#?/" ]
+        include:
+          - /Zurich ?Insurance(_[MD]N)?#?/
 
 ---
 group: mattb325
@@ -1887,8 +1943,8 @@ info:
     A collection of 75 commercial lots
   author: mattb325
   websites:
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
-  - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/UK_DN_lg.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/McDonalds_lg.jpg
