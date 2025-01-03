@@ -1,0 +1,20 @@
+group: maxis
+name: dlc-props
+version: "2.1"
+subfolder: 100-props-textures
+info:
+  summary: DLC Props
+  description: |
+    This pack contains the file **Maxis DLC Props.dat**, which contains the generic/common props from three of the official Maxis Landmark DLCs (Castleset.dat, Parthenon and Stonehange) and the props from the very ancient Plugin Landmark Props (from version 2.1). The main castle model and prop, the castle wall props, the main Parthenon building and prop and the main Stonehange building and prop are **NOT** part of this file. This file was compiled to address the commonly listed props as dependencies.
+  author: Maxis
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/14-maxis-buildings-as-props-and-dlc-props-v2-1
+
+assets:
+  - assetId: maxis-dlc-props
+    include: [ "/Maxis DLC Props/" ]
+
+---
+assetId: maxis-dlc-props
+version: "2.1"
+lastModified: "2023-12-06T15:41:39.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=14:maxis-buildings-as-props-and-dlc-props-v2-1
