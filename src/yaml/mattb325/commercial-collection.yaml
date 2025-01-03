@@ -119,6 +119,7 @@ info:
   summary: American Cement Building
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/30886-2404-wilshire-blvd/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -304,6 +305,7 @@ info:
   summary: Bullocks Wilshire
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33041-bullocks-department-store/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1320,13 +1322,14 @@ variants:
 
 ---
 group: mattb325
-name: natgeo-cs
+name: national-geographic-hq-cs
 subfolder: 300-commercial
 version: "1.0"
 info:
-  summary: NatGeo CS
+  summary: National Geographic Society Headquarters CS
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33016-national-geographic-society-headquarters/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1719,6 +1722,7 @@ info:
   summary: Saks Fifth Ave LA
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33873-saks-fifth-avenue/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -2044,7 +2048,7 @@ dependencies:
   - mattb325:modern-office
   - mattb325:motorola-offices
   - mattb325:myer-department-store
-  - mattb325:natgeo-cs
+  - mattb325:national-geographic-hq-cs
   - mattb325:niche-moderne
   - mattb325:nokia-building-co
   - mattb325:novotel
