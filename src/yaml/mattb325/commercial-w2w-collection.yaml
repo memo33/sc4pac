@@ -116,6 +116,7 @@ info:
   summary: 90A Miller Street
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/28161-miller-street-offices/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
@@ -134,13 +135,14 @@ variants:
 
 ---
 group: mattb325
-name: amestoy-bldg
+name: amestoy-building
 subfolder: 300-commercial
 version: "1.1"
 info:
   summary: Amestoy Bldg
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33126-amestoy-building/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 variants:
@@ -1054,7 +1056,7 @@ dependencies:
   - mattb325:324-clarence-st
   - mattb325:5657-wilshire-blvd
   - mattb325:90a-miller-street
-  - mattb325:amestoy-bldg
+  - mattb325:amestoy-building
   - mattb325:banking-row
   - mattb325:bond-st
   - mattb325:boutiques
