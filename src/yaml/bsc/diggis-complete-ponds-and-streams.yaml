@@ -1,0 +1,41 @@
+group: diggis
+name: ponds-and-streams
+version: "2.0"
+subfolder: 660-parks
+info:
+  summary: Ponds and Streams
+  description: |-
+    A pack containing a set of ploppable ponds and streams.
+  author: Diggis
+  website: https://www.sc4evermore.com/index.php/downloads/download/108-sc4d-lex-legacy-bsc-diggis-complete-ponds-and-streams
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Diggis LEX image Ponds Shingle Base Set.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Diggis Ponds Grass Base Set BSC.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Diggis LEX image Streams Shingle Base diagonal Set.jpg
+dependencies:
+  - bsc:essentials
+  - bsc:mega-props-diggis-ponds-streams
+assets:
+  - assetId: bsc-diggis-ponds-and-streams
+    exclude:
+      - /BSCProps/
+
+---
+group: bsc
+name: mega-props-diggis-ponds-streams
+version: "2.0"
+subfolder: 100-props-textures
+info:
+  summary: Ponds and Streams props
+  author: Diggis
+  website: https://www.sc4evermore.com/index.php/downloads/download/108-sc4d-lex-legacy-bsc-diggis-complete-ponds-and-streams
+assets:
+  - assetId: bsc-diggis-ponds-and-streams
+    include:
+      - /BSCProps/
+
+---
+assetId: bsc-diggis-ponds-and-streams
+version: "2.0"
+lastModified: "2024-08-20T10:01:49.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=108%3Asc4d-lex-legacy-bsc-diggis-complete-ponds-and-streams
