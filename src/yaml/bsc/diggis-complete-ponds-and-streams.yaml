@@ -1,7 +1,7 @@
 group: diggis
 name: ponds-and-streams
 version: "2.0"
-subfolder: 660-parks
+subfolder: 700-transit
 info:
   summary: Ponds and Streams
   description: |-
