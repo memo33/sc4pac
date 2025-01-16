@@ -28,10 +28,6 @@ assets:
   - assetId: mattb325-spar-distribution
     include:
       - "\\(Com Svc\\)"
-variants:
-  - variant: { nightmode: standard }
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
 
 ---
 assetId: mattb325-spar-distribution
