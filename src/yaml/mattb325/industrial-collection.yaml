@@ -742,7 +742,7 @@ variants:
 
 ---
 group: mattb325
-name: watco
+name: watco-manufacturing
 subfolder: 400-industrial
 version: "2"
 info:
