@@ -1,0 +1,34 @@
+group: mandelsoft
+name: german-matrix-sign-pack
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: German Matrix Sign Pack
+  description: |
+    This pack contains German Styled Matrix signs for the RHW-4, 6C, 6S, 8C, 8S and 10. Night lighting included.
+
+    Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
+
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/24154-sc4dot-german-matrix-sign-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a1b209aa013349be97bdc048330bc4b5-MatrixRHW8S.jpg
+    - https://www.simtropolis.com/objects/screens/0018/a1b209aa013349be97bdc048330bc4b5-AllMatrixSigns.jpg
+
+variants:
+  - variant: { driveside: right }
+    assets:
+      - assetId: mandelsoft-german-matrix-sign-pack
+        exclude:
+          - "LHD\\.dat$"
+  - variant: { driveside: left }
+    assets:
+      - assetId: mandelsoft-german-matrix-sign-pack
+        exclude:
+          - "RHD\\.dat$"
+
+---
+assetId: mandelsoft-german-matrix-sign-pack
+version: "2.0"
+lastModified: "2024-09-04T11:36:20Z"
+url: https://community.simtropolis.com/files/file/24154-sc4dot-german-matrix-sign-pack/?do=download

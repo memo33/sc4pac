@@ -1,0 +1,44 @@
+group: agc
+name: casual-sims-dlc
+version: "1.0.0"
+subfolder: 180-flora
+info:
+  summary: Casual Sims DLC
+  description: |-
+    This DLC contain 60 sims, and provides them as MMP's.
+
+    Note: if you use the props on your lots, please specify `pkg=agc:casual-sims-dlc-props` as a dependency rather than this one.
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/35560-agc-casual-sims-dlc/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/649d7b0d8cb06_image(1).png.a50b033afacff103b8d00d725981b1af.png
+dependencies:
+  - agc:casual-sims-dlc-props
+assets:
+  - assetId: agc-casual-sims-dlc
+    include:
+      - .dat$
+
+---
+group: agc
+name: casual-sims-dlc-props
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Casual Sims DLC Props
+  description: |-
+    This package is a resource package for `pkg=agc:casual-sims-dlc` and contains all the models & prop exemplars.
+    Specify this one as a dependency if you use them on your lots instead of `pkg=agc:casual-sims-dlc`.
+  author: Barroco Hispano
+  website: https://community.simtropolis.com/files/file/35560-agc-casual-sims-dlc/
+assets:
+  - assetId: agc-casual-sims-dlc
+    include:
+      - .SC4Desc$
+      - .SC4Model$
+
+---
+assetId: agc-casual-sims-dlc
+version: "1.0.0"
+lastModified: "2023-06-29T12:42:35Z"
+url: https://community.simtropolis.com/files/file/35560-agc-casual-sims-dlc/?do=download&r=197307

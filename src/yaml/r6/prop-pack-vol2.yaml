@@ -1,0 +1,16 @@
+group: r6
+name: prop-pack-vol2
+version: "1"
+subfolder: 100-props-textures
+assets:
+  - assetId: r6-prop-pack-vol2
+info:
+  summary: Prop Pack Vol 02
+  author: r6
+  website: https://www.toutsimcities.com/downloads/view/1592
+
+---
+assetId: r6-prop-pack-vol2
+version: "1"
+lastModified: "2009-09-19T12:00:00Z"
+url: https://www.toutsimcities.com/downloads/start/1592

@@ -45,20 +45,19 @@ info:
   author: "Maxis"
   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
 
-# ---
-# # TODO uncomment if necessary
-# group: "maxis"
-# name: "american-flag"
-# version: "1"
-# subfolder: "100-props-textures"
-# assets:
-# - assetId: "maxis-additional-landmarks"
-#   include:
-#   - "/American Flag/"
-# info:
-#   summary: "American flag prop"
-#   author: "Maxis"
-#   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+---
+group: "maxis"
+name: "american-flag"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/American Flag/"
+info:
+  summary: "American flag prop"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
 
 ---
 group: "maxis"
@@ -88,19 +87,19 @@ info:
   author: "Maxis"
   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
 
-# ---
-# group: "maxis"
-# name: "canada-flag"
-# version: "1"
-# subfolder: "100-props-textures"
-# assets:
-# - assetId: "maxis-additional-landmarks"
-#   include:
-#   - "/Canada Flag/"
-# info:
-#   summary: "Canada flag prop"
-#   author: "Maxis"
-#   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+---
+group: "maxis"
+name: "canada-flag"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Canada Flag/"
+info:
+  summary: "Canada flag prop"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
 
 ---
 group: "maxis"
@@ -116,19 +115,19 @@ info:
   author: "Maxis"
   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
 
-# ---
-# group: "maxis"
-# name: "day-of-peace"
-# version: "1"
-# subfolder: "100-props-textures"
-# assets:
-# - assetId: "maxis-additional-landmarks"
-#   include:
-#   - "/Day of Peace/"
-# info:
-#   summary: "International Day of Peace prop"
-#   author: "Maxis"
-#   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+---
+group: "maxis"
+name: "day-of-peace"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Day of Peace/"
+info:
+  summary: "International Day of Peace prop"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
 
 ---
 group: "maxis"
