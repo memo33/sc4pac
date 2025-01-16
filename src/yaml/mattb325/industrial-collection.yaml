@@ -496,6 +496,8 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 assets:
@@ -552,9 +554,11 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol02
+  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
   - peg:security-fencing-kit
+  - csx:mega-props-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -585,6 +589,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2020_11/Like3.jpg.daac35089365624d4c826d2aba0ccd79.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -687,6 +692,7 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:essentials
   - peg:security-fencing-kit
+  - csx:mega-props-vol04
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -726,6 +732,8 @@ variants:
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Watco(_[MD]N)?#?/" ]
+dependencies:
+  - bsc:mega-props-misc-vol02
 
 ---
 group: mattb325
@@ -747,6 +755,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/WhoopAss4.jpg.a0f1ad892828fbf4ce69cf16a19073ff.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-misc-vol02
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
   - peg:security-fencing-kit
