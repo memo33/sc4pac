@@ -9,27 +9,25 @@ version: "1.0"
 info:
   summary: SPAR Distribution-CS
   author: mattb325
-  website: https://community.simtropolis.com/files/file/28451-spar-distribution/
+  websites:
+    - https://community.simtropolis.com/files/file/28451-spar-distribution/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
   images:
     - https://www.simtropolis.com/objects/screens/monthly_02_2013/0fd2cc746303cb8e7759014ea63c51e8-spar.jpg
     - https://www.simtropolis.com/objects/screens/monthly_02_2013/eeab01788719ce327a08e7a13234cf1f-spar-4x4-.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-mikeseith-vol01
-  - bsc:mega-props-mikeseith-vol03
-  - bsc:mega-props-newmaninc-vol01
-  - bsc:mega-props-newmaninc-vol04
+  - bsc:essentials
+  - bsc:mega-props-jes-vol01
   - bsc:mega-props-sg-vol01
+  - bsc:mega-props-jrj-vol02
   - bsc:texturepack-cycledogg-vol01
 assets:
   - assetId: mattb325-spar-distribution
     include:
       - "\\(Com Svc\\)"
-variants:
-  - variant: { nightmode: standard }
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
 
 ---
 assetId: mattb325-spar-distribution
