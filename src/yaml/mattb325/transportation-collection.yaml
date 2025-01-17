@@ -1407,8 +1407,19 @@ info:
   summary: Diagonal GLR Station
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/33006-diagonal-rail-glr-bus-and-subway-stations/
     - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
     - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail3a.jpg.6d0c7544a5a0aff24fb60b5e1e06f090.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail3.jpg.b77e9db9e42e97afe48d7c896ad8d5ef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail4.jpg.e5b7481bd58ac7b46b4e0bf25a125456.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail5.jpg.e2260245115c44d36f55c8e5c46bdb4a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail6.jpg.cecd5b7a35a73b53907d597b8369d6c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail7.jpg.a0279edfe307ba2e2be31a16d9182b05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail.jpg.ce1e5b6f2c34eb4852d751df58d07e0f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail8.jpg.51bbbe67703f456cc38583eca437b15b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail9.jpg.a206af1d74f6c98135d5cc0251e03152.jpg
 dependencies:
   - mattb325:overhanging-multifunction-stations
 variants:
