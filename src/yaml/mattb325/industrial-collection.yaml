@@ -22,7 +22,6 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
 dependencies:
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol02
   - bsc:texturepack-cycledogg-vol01
 variants:
   - variant: { nightmode: standard }
@@ -58,7 +57,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters8.jpg.f057c00d8e6c512aa8edee96ca1cc11f.jpg
 dependencies:
   - bsc:mega-props-cp-vol01
-  - bsc:mega-props-misc-vol02
   - mattb325:industrial-pack-shared-resources
 variants:
   - variant: { nightmode: standard }
@@ -88,8 +86,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre2.jpg.a4eab9c222d5e368df14aeccd262a5e4.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre3.jpg.b63f2b766babfca68199fbe7494faca1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre4.jpg.1ae2ddb4dec308e9cb3f1fbedc0204f0.jpg
-dependencies:
-  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -116,11 +112,6 @@ variants:
 # dependencies:
 #   - bsc:bat-props-mattb325-vol02
 #   - bsc:mega-props-cp-vol01
-#   - bsc:mega-props-mikeseith-vol01
-#   - bsc:mega-props-mikeseith-vol03
-#   - bsc:mega-props-misc-vol02
-#   - bsc:mega-props-newmaninc-vol01
-#   - bsc:mega-props-newmaninc-vol04
 #   - bsc:texturepack-cycledogg-vol01
 #   - csx:mega-props-vol04
 #   - mattb325:industrial-pack-shared-resources
@@ -148,7 +139,6 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
 dependencies:
-  - bsc:mega-props-misc-vol02
   - bsc:mega-props-rt-vol02
 variants:
   - variant: { nightmode: standard }
@@ -174,7 +164,6 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -207,7 +196,6 @@ info:
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol02
   - csx:mega-props-vol04
 variants:
   - variant: { nightmode: standard }
@@ -240,7 +228,6 @@ info:
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
@@ -303,17 +290,10 @@ variants:
 #   - bsc:mega-props-d66-vol01
 #   - bsc:mega-props-d66-vol02
 #   - bsc:mega-props-jes-vol01
-#   - bsc:mega-props-mikeseith-vol01
-#   - bsc:mega-props-mikeseith-vol03
-#   - bsc:mega-props-misc-vol01
-#   - bsc:mega-props-misc-vol02
-#   - bsc:mega-props-newmaninc-vol01
-#   - bsc:mega-props-newmaninc-vol04
 #   - bsc:mega-props-sg-vol01
 #   - bsc:textures-vol02
 #   - csx:mega-props-vol03
 #   - csx:mega-props-vol04
-#   - csx:mega-props-vol06
 # variants:
 #   - variant: { nightmode: standard }
 #     assets:
@@ -372,7 +352,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-jes-vol01
-  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -429,7 +408,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
@@ -466,7 +444,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/Peerless4.jpg.a53e50c721c5844cf138d125b6a048c9.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol04
-  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -497,7 +474,8 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-jes-vol01
-  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-jrj-vol04
+  - bsc:mega-props-jrj-vol05
   - bsc:mega-props-sg-vol01
   - bsc:texturepack-cycledogg-vol01
 assets:
@@ -532,8 +510,6 @@ variants:
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/" ]
-dependencies:
-  - bsc:mega-props-misc-vol02
 
 ---
 group: mattb325
@@ -554,7 +530,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
   - peg:security-fencing-kit
@@ -589,7 +564,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2020_11/Like3.jpg.daac35089365624d4c826d2aba0ccd79.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol04
-  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -622,7 +596,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_11_2012/327ad5f4169e8c67368981055648bb88-warehouse4.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-misc-vol02
   - csx:mega-props-vol04
   - peg:security-fencing-kit
 variants:
@@ -732,8 +705,6 @@ variants:
     assets:
       - assetId: mattb325-industrial-pack-darknite
         include: [ "/Watco(_[MD]N)?#?/" ]
-dependencies:
-  - bsc:mega-props-misc-vol02
 
 ---
 group: mattb325
@@ -755,7 +726,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/WhoopAss4.jpg.a0f1ad892828fbf4ce69cf16a19073ff.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol04
-  - bsc:mega-props-misc-vol02
   - bsc:texturepack-cycledogg-vol01
   - bsc:textures-vol01
   - peg:security-fencing-kit
