@@ -148,6 +148,12 @@ info:
     - https://community.simtropolis.com/files/file/30976-american-city-bank/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/AmericanCityBank.jpg.a2f0e7bb75f7c6a660c077df6865348e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/AmericanCityBank1.jpg.233d7a8a497059d8a39318aea4cdc893.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/AmericanCityBank2.jpg.f1bdb975c871a243d466c2231e843ca2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/AmericanCityBank3.jpg.6321b8096b5105dfa6632a923e160a4c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/AmericanCityBank4.jpg.553e077aef6a6952daab8efb3cc0e13e.jpg
 dependencies:
   - bsc:mega-props-cp-vol02
 variants:
@@ -200,6 +206,12 @@ info:
     - https://community.simtropolis.com/files/file/32992-ashland-ave/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/FoodCourt.jpg.9f26db5bd3e9a288cc4dd363950341e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/FoodCourt1.jpg.49d6d1cc81d1139b4fe5ba4b012d154b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/FoodCourt2.jpg.8cdbb8b30a8ba484e41cd634752c9276.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/FoodCourt3.jpg.d5d0bbea95e319f1df8b175b61a99b20.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/FoodCourt4.jpg.7e5a8f5b5eb23a5a08a1ca7a7c018480.jpg
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -252,6 +264,13 @@ info:
     - https://community.simtropolis.com/files/file/33110-bauhaus-mannheim/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus.jpg.8a641028de9e15ba7a1118477361986f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus1.jpg.ccdf6f6a1ea24ce17789bb544f6c32c4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus2.jpg.3458cd4128224b7b2b9fb7526482bd38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus3.jpg.0f84eacda54764671163e495f3a0d4e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus4.jpg.a0d2aa588d33ce09b5fb2922f4fa71c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Bauhaus5.jpg.608e655d4a4eae4b7bdae733552315ee.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
@@ -279,6 +298,12 @@ info:
     - https://community.simtropolis.com/files/file/33132-bonzai-building/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Bonzai.jpg.09d05e2a2f9104c14bd8f94bbd79e558.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Bonzai1.jpg.8b5814fb2905f2e24815161f9ba342a8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Bonzai2.jpg.b3f78cfda658413498f802586238cfdd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Bonzai3.jpg.2daa332a9e10af7e955775c40a196729.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Bonzai4.jpg.4402f39b347febc2531deeb560d1bdb2.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol03
   - bsc:textures-vol01
@@ -410,6 +435,11 @@ info:
     - https://community.simtropolis.com/files/file/28120-chez-mondo/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/4c60e6d044bc60dd043c4a888c97d15e-chezmondo.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/5bac577149fb192dbae878414f7cb537-chezmondo1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/8049a78a14d4111eb28ad22911ed05a9-chezmondo11.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/e8228add53f82a8f6fb15303a396c678-chezmondo2.jpg
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -440,6 +470,14 @@ info:
     - https://community.simtropolis.com/files/file/33038-ciros-nightclub/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros.jpg.2bffbba35d93a1a300e653809391680b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros1.jpg.adf6be4e0fa569aab8412db3a7bdcb59.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros2.jpg.c4fff14fc33bad3eb4b137e9155b1731.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros3.jpg.c475e1e2bf87b87038f61b2b5b52f128.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros4.jpg.a5e10511f9b70ff1086ecd4485dd9e72.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros5.jpg.885a1264bd3ad14ef2c1ad792f96bfad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Ciros6.jpg.c2c9c948c7a65756cffec661e0ed7216.jpg
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -527,6 +565,12 @@ info:
     - https://community.simtropolis.com/files/file/33109-columbia-savings-bank/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ColumbiaSavings.jpg.2b898dcf59d0954015fb16a73fdd89b8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ColumbiaSavings1.jpg.47e65be2f14bf721ff57de234d733844.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ColumbiaSavings2.jpg.00e5c8840ac5900dc2917aa9623cd411.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ColumbiaSavings3.jpg.79535144097e568e0b4c06bcdcd3bcf5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/ColumbiaSavings4.jpg.3af215ea16a6345955121250e28c3973.jpg
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -579,6 +623,11 @@ info:
     - https://community.simtropolis.com/files/file/33031-crosstown-hotel/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Crosstown.jpg.5fecc66d4629d1d158a0af924d72ac75.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Crosstown1.jpg.0d2abadcd7f2af7cd5da376a6eefa7af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Crosstown2.jpg.d5c50b7e5afe9a1c1c56834bd71d42a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Crosstown3.jpg.1e3c88176f0a98197cf6c50e2ba19df1.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:textures-vol01
@@ -687,6 +736,13 @@ info:
     - https://community.simtropolis.com/files/file/33032-downtown-hotel/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown.jpg.d24b6cef62cdff77808dc3871b402093.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown1.jpg.ca8599a4605aa6144a54c674017c72be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown2.jpg.076ac1cde94ea624a9d65710bf9ba877.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown3.jpg.0fdf9878571b647b162da9b00d1e1ea3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown4.jpg.73fef281cac4b170ea9e8d507ddbdbae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown5.jpg.9ae82d46d0d079b044c0fff33f0de56d.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -770,6 +826,11 @@ info:
     - https://community.simtropolis.com/files/file/31627-europa-house/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Europa.jpg.8b9c4994cd4a58069208d6745f803349.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Europa1.jpg.f44a9e144f56f268fb4244bbe07344b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Europa2.jpg.9be17af5b1ff26e4d66718af8f2f6533.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Europa3.jpg.c3b514516c40f16ec170f3b1f5dc101d.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
@@ -797,6 +858,18 @@ info:
     - https://community.simtropolis.com/files/file/31629-first-federal-bank/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal.jpg.3e37e301ca65b7fe0d2c4c1889030800.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal_PostCard.jpg.f1a0f246fb1289bcd08aa84ffd2d517d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal1.jpg.3403a09056298c9c83daaced23ca274c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal2.jpg.37558c49e671d86dff8bfe45f82de747.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal3.jpg.959bcf29bd2c73c7779c07b4bb684094.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal4.jpg.08277ed8f456d911b5fb30bd892bafc0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal5.jpg.8b4e9ee231bb1411f6d9864ae792b7e8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal6.jpg.ad11cb2858020fe163d3764efc4aacf1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederal7.jpg.92acad06d508fd25c6487461f02b4d3c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirstFederalPostCard1.jpg.75d7b9d8a78acd461a6f5ec9121360d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/FirtsFederal8.jpg.e71a207baed97350d3345baf70aae397.jpg
 dependencies:
   - bsc:mega-props-cp-vol02
 variants:
@@ -851,6 +924,12 @@ info:
     - https://community.simtropolis.com/files/file/30923-golden-state-insurance/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/GoldenState_sn1.jpg.9f4c0e447126b29459136dc30ed191c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/GoldenState_Sn2.jpg.889815bd75580ac7244ab3211ff4f06b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/GoldenState_Sn3.jpg.0f52840e3a170e6bd54b49630549cf9e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/GoldenState_sn.jpg.24639c724c6df1e5dbdd50141744087d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/GoldenState_n.jpg.5056f3bba09d40cb5831fe7b7b744189.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
@@ -956,6 +1035,13 @@ info:
     - https://community.simtropolis.com/files/file/31736-harrods/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods.jpg.d9a5dc9f9a3bdcca1c7d05687493dc2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods1.jpg.cd87ff24024d58e50158649ecd3ad874.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods2.jpg.7fa934eac0d4827b2f570a13bb81cabe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods3.jpg.90509a7bff0b86cee2ec52972beecf53.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods4.jpg.b0294cf017ea1f0323623d6107685439.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods5.jpg.af3d2772fa3b8b0b1e3ea709ded54f75.jpg
 dependencies:
   - bsc:mega-props-misc-vol02
   - maxis:dlc-props
@@ -1007,6 +1093,14 @@ info:
     - https://community.simtropolis.com/files/file/33947-hungry-jacks/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/HungryJacks.jpg.7ae342b0516dc214ecb493359c942161.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/HungryJacks1.jpg.c5a673657a84da979edf69536a331630.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/HungryJacks2.jpg.fafc5a507619373145ccf4bcdfe6df34.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/HungryJacks3.jpg.7e2b7eebd2c763b779e42fe8217715cc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/HungryJacks4.jpg.5f99d79faa745bf6f5f23d6e742f7d4b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/HungryJacks5.jpg.24cb904989ceb5142721b7d9ef9440f1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/HungryJacks6.jpg.fbad8d6a704c8869ff276595607cdeb1.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
@@ -1037,6 +1131,13 @@ info:
     - https://community.simtropolis.com/files/file/31833-ing-direct/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING.jpg.8b23fee14a2632d735dfe33a829c056b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING_N.jpg.2f1513e2194503eb3acb5e9be8618221.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING1.jpg.b260a82a8768300401fef5ec73c12901.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING2.jpg.dc7b3fc53ca1e8e34bad49fa67efae50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING3.jpg.5e5580d8650870067b327ddaf4a4ad3f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING4.jpg.49d8431a0081517e833f4abbdc0e4bd6.jpg
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1173,6 +1274,16 @@ info:
     - https://community.simtropolis.com/files/file/33188-mcdonalds/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/McDonalds.jpg.82d8e26a68315d0de0b56d94aa56a531.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/McDonalds0.jpg.ab7e00826f8edc08e42a134c63292067.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/McDonalds1.jpg.37735babbaaec51fc0215047f26db12d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/McDonalds2.jpg.0cd4660ad0c002da631be04af52edd62.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/McDonalds3.jpg.ab133cb46840e038262d3c5ec24c2659.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/McDonalds4.jpg.7aa0fb2ba08b40014722d19ae96036cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/McDonalds5.jpg.21f73ed21556f791884c0cfd67359e8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/McDonalds6.jpg.c1c646ec9f507b9c0dde6df47a7f074b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/McDonalds7.jpg.33e3b47090885889ff6575230045baa2.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-misc-vol02
@@ -1202,6 +1313,13 @@ info:
     - https://community.simtropolis.com/files/file/31744-millennium-hotel-knightsbridge/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium.jpg.d2dfb70ed5fdbb4c34a8bffc8268ac41.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium1.jpg.91cac86ed9cdaa4e9542b11390f3dda9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium2.jpg.371dccfaea40901ae45609e0ec874c8e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium3.jpg.a22e77e4804df6fb469f97da517ee095.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium4.jpg.636a4568de244684ef9c17f78ffdf810.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium5.jpg.40efd666fffc8373486c0c1a0f549fa4.jpg
 dependencies:
   - bsc:mega-props-misc-vol02
 variants:
@@ -1229,6 +1347,13 @@ info:
     - https://community.simtropolis.com/files/file/30873-mini-cooper-dealership/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/MiniCooper.jpg.7b474029b3a9a04c7f7cf15ec0f54271.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/MiniCooper1.jpg.d0f08ef79ceda6f13bf0571eef6d9f59.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/MiniCooper2.jpg.46a42b686e453fffbbb15cdb539829ae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/MiniCooper3.jpg.4b9df6db8c99df1c484bbf69f369feef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/MiniCooper4.jpg.975ab8785117bf47006e496f045418b8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/MiniCooper5.jpg.dca5acd6c0df3a3d41c4818c79e788af.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -1357,6 +1482,11 @@ info:
     - https://community.simtropolis.com/files/file/33010-niche-moderne/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NicheModerne.jpg.f2867d493e91c39f9ed3ee5f151881b5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NicheModerne1.jpg.2d441b1df58d5cb5e05fdefbd07cc4f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NicheModerne2.jpg.7de2a39d19f22f14fc13e7a9212b4792.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/NicheModerne3.jpg.05ae9f42882c88e9c6f39335ba7b7ee2.jpg
 dependencies:
   - bsc:mega-props-cp-vol02
 variants:
@@ -1569,6 +1699,12 @@ info:
     - https://community.simtropolis.com/files/file/31645-quay-house/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/QuayHouse.jpg.137cae39ac6934cb0e22a5617aa65e1e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/QuayHouse1.jpg.d08781cfd9c2f2c974c54cda49a1891e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/QuayHouse2.jpg.fc27c0add402f91f093b84c670937233.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/QuayHouse3.jpg.c0d9f9f0bb095054d1de54b8272f20f3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/QuayHouse4.jpg.0bfe0568fe3d93379a2df260e9463edc.jpg
 dependencies:
   - bsc:mega-props-cp-vol02
   - mattb325:commercial-collection-shared-resources
@@ -1622,6 +1758,12 @@ info:
     - https://community.simtropolis.com/files/file/33131-retro-tower/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Polaroid.jpg.9d7c6ea991d87b7e027dadf707eb1b04.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Polaroid1.jpg.4024260910871c979298e0b8dd646e70.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Polaroid2.jpg.8e4cfab2b5dea8dd487fe2b5b0278b58.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Polaroid3.jpg.5ff70c0d8b907d8bf6a6077bc38711ed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Polaroid4.jpg.244b46824806213967b6616a5c3c880a.jpg
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1751,6 +1893,15 @@ info:
     - https://community.simtropolis.com/files/file/31839-standard-federal-savings-and-loan/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/StandardFederal.jpg.d6766f3361df33330642f54d99c96b6b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/StandardFederal1.jpg.4def11e188461e430f9affcb0d21e1ba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/StandardFederal2.jpg.451989acec484faa694a1bafab309dd2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/StandardFederal3.jpg.f02308c2933ffbde5948e09fbaa71964.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/StandardFederal4.jpg.4c04aad9c141f5a434202519ce3706e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/StandardFederal5.jpg.cb86f79aaab53ca70b6a6a8258dcadb2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/StandardFederal6.jpg.a477a6e79cbeaa89fd16755b4d274269.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_07/StandardFederal7.jpg.287b138dfc7b5abdf8cfe94be481d7c2.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol03
 variants:
@@ -1778,6 +1929,10 @@ info:
     - https://community.simtropolis.com/files/file/30959-teville-square/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Teville.jpg.78940316e56a95b6827d3ea308112290.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Teville1.jpg.6fa333b00d9680c8fb2bea3283727916.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Teville2.jpg.e364a54f49849714414dafa7a7179667.jpg
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1803,6 +1958,12 @@ info:
     - https://community.simtropolis.com/files/file/30986-the-bon-marche/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/TheBonMarche.jpg.bb7c37c8103130755cca9f3daddba4fc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/TheBonMarche1.jpg.02175d5827c1ded3ccfd9b557e9e6b0c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/TheBonMarche2.jpg.ef4f36efd9a43616434fe38aea274393.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/TheBonMarche3.jpg.9008016e5f03cec8350081b7050a2c07.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/TheBonMarche4.jpg.66724c07b79ea8b003067d3db59f8f04.jpg
 dependencies:
   - bsc:mega-props-misc-vol02
   - bsc:textures-vol01
@@ -1884,6 +2045,21 @@ info:
     - https://community.simtropolis.com/files/file/30974-uk-retailers-pack-dark-nite/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail.jpg.9893d7fa7bffd54f8bc04a48c33f2c92.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail1.jpg.89302675c5c854adecf5a85b7b73c89e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail2.jpg.3bf18d57e52ce9c10fa3daee2511f72e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail3.jpg.1d348ae2bac15764b6f3138ba49e5225.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail4.jpg.ac69c46f9bca845637f7118e2dded652.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail5.jpg.1f677fcc0e03a3b27f5e4888c1c6908f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail6.jpg.cc8273a89bb3be19ab2c41741731ec14.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail7.jpg.9d35bc3819720587bff89d1b771bc187.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail8.jpg.1f9fe6c2ddb9eb6fbd946f193310884a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail5.jpg.fa7491ee80c4df331ec2cb84ee480d3b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail6.jpg.44bb5c52d65b9971ab3fbae26e8b89d4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail7.jpg.0b40014a28e6a6c5ead7df47b491afd8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail8.jpg.30c3ca2fb5cb80519a1a25cacc771759.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail9.jpg.e62a40742ff00acfe64002cd473d4970.jpg
 dependencies:
   - bsc:mega-props-cp-vol02
   - bsc:mega-props-misc-vol02
@@ -1912,6 +2088,12 @@ info:
     - https://community.simtropolis.com/files/file/28488-united-central-bank/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/8cc996c75a6c088455d0d726d4a4d470-ucb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/eca42df6e8065294ee517179b788820d-ucb1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/8a0fdb886bcdfae53e76a1b21f00aae7-ucb2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/79c22ebce858630d53a7e2eda0c3ac45-ucb4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/65a5d0eddc5327e4be480ebe0a54edee-ucb5.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol03
 variants:
