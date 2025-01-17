@@ -1332,7 +1332,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium3.jpg.a22e77e4804df6fb469f97da517ee095.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium4.jpg.636a4568de244684ef9c17f78ffdf810.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium5.jpg.40efd666fffc8373486c0c1a0f549fa4.jpg
-dependencies:
 variants:
   - variant: { nightmode: standard }
     assets:
