@@ -44,7 +44,6 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-misc-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -101,7 +100,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_02_2013/a86c2fe2895a43a3b61c76d811885c1e-wilshire3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_02_2013/7c7a0f17296dbb798ef4683e768d87c7-wilshire4.jpg
 dependencies:
-  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -333,8 +331,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_10_2012/7dd43c40edcf49da7b94804d60ae85f8-coopershall3.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
-  - bsc:mega-props-misc-vol02
-  - csx:mega-props-vol06
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -461,7 +457,6 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-misc-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -690,7 +685,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2020_10/KingSt3.jpg.2b1eb1b7f9a8deccad3d673af4f2ba72.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_10/KingSt4.jpg.3c473894be35ce769760d90c680551d6.jpg
 dependencies:
-  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -740,7 +734,6 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-misc-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }
@@ -1017,7 +1010,6 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
 dependencies:
   - bsc:bat-props-mattb325-w2w-prop-pack-vol01
-  - bsc:mega-props-misc-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
 variants:
   - variant: { nightmode: standard }

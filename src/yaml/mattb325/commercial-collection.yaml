@@ -503,7 +503,6 @@ info:
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - csx:mega-props-vol06
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -530,7 +529,6 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
-  - bsc:mega-props-misc-vol02
   - mattb325:commercial-collection-shared-resources
 variants:
   - variant: { nightmode: standard }
@@ -563,7 +561,6 @@ dependencies:
   - bsc:mega-props-swi21-vol01
   - bsc:textures-vol01
   - bsc:textures-vol02
-  - csx:mega-props-vol06
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -621,7 +618,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -768,7 +764,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
-  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1065,7 +1060,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods4.jpg.b0294cf017ea1f0323623d6107685439.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/Harrods5.jpg.af3d2772fa3b8b0b1e3ea709ded54f75.jpg
 dependencies:
-  - bsc:mega-props-misc-vol02
   - maxis:dlc-props
 variants:
   - variant: { nightmode: standard }
@@ -1126,7 +1120,6 @@ info:
 dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-cp-vol01
-  - bsc:mega-props-misc-vol02
   - supershk:mega-parking-textures
 variants:
   - variant: { nightmode: standard }
@@ -1268,8 +1261,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-d66-vol01
   - bsc:mega-props-jes-vol01
-  - bsc:mega-props-misc-vol01
-  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol02
   - csx:mega-props-vol04
@@ -1308,7 +1299,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_09/McDonalds7.jpg.33e3b47090885889ff6575230045baa2.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol04
-  - bsc:mega-props-misc-vol02
   - supershk:mega-parking-textures
 variants:
   - variant: { nightmode: standard }
@@ -1343,7 +1333,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium4.jpg.636a4568de244684ef9c17f78ffdf810.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_06/Millennium5.jpg.40efd666fffc8373486c0c1a0f549fa4.jpg
 dependencies:
-  - bsc:mega-props-misc-vol02
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1665,7 +1654,6 @@ dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
 variants:
@@ -1694,7 +1682,6 @@ dependencies:
   - bsc:bat-props-mattb325-shopping-mall-pack-vol01
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
-  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
   - maxis:dlc-props
@@ -1987,7 +1974,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_03/TheBonMarche3.jpg.9008016e5f03cec8350081b7050a2c07.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_03/TheBonMarche4.jpg.66724c07b79ea8b003067d3db59f8f04.jpg
 dependencies:
-  - bsc:mega-props-misc-vol02
   - bsc:textures-vol01
 variants:
   - variant: { nightmode: standard }
@@ -2084,7 +2070,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_02/UK_Retail9.jpg.e62a40742ff00acfe64002cd473d4970.jpg
 dependencies:
   - bsc:mega-props-cp-vol02
-  - bsc:mega-props-misc-vol02
   - bsc:mega-props-sg-vol01
   - bsc:textures-vol01
 variants:
