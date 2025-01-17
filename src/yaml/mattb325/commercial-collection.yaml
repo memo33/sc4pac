@@ -921,11 +921,11 @@ variants:
 
 ---
 group: mattb325
-name: harlequin-bldg
+name: harlequin-building
 subfolder: 300-commercial
 version: "1.0"
 info:
-  summary: Harlequin Bldg
+  summary: Harlequin Building
   author: mattb325
   websites:
     - https://community.simtropolis.com/files/file/33067-harlequin-building-london/
@@ -2033,7 +2033,7 @@ dependencies:
   - mattb325:golden-state-insurance
   - mattb325:hm-hotel-and-theatre
   - mattb325:hp-offices
-  - mattb325:harlequin-bldg
+  - mattb325:harlequin-building
   - mattb325:harrods
   - mattb325:hua-seng-offices
   - mattb325:hungry-jacks
