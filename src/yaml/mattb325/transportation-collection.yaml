@@ -1098,6 +1098,12 @@ info:
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
     - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+    - https://community.simtropolis.com/files/file/33950-far-3-rail-and-subway-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail.jpg.e55d299958ed288df789236ed60be7ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail1_lg.jpg.2592856f6e6e3ac5e452f3d43025f4c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail2_lg.jpg.7679459d552d597550f7587cd968d3f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail3_lg.jpg.b2b9cfe4548506d8a144faf6905b9998.jpg
 dependencies:
   - mattb325:overhanging-multifunction-stations
 variants:

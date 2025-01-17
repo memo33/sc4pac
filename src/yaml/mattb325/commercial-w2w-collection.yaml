@@ -122,6 +122,12 @@ info:
     - https://community.simtropolis.com/files/file/28161-miller-street-offices/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/9f4cedafa7459cca585d6f97f2532779-miller.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/82c6697ba5b0bf17bd508818ac27dd6a-miller1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/a08f7af45c2623afa4be4ab1758c84ad-miller2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/566c061a02e09695f37ea29596ab47d7-miller3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/88fd29bcde5171d570ba69ae8f79df57-miller4.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -808,6 +814,12 @@ info:
     - https://community.simtropolis.com/files/file/33874-pirie-st-adelaide/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St.jpg.d945ade15056bef38a9ac57c8690d5f9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St1.jpg.c26990a198ff41ad12735a2014aa12e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St2.jpg.a10ad054ee1eb5102402afa879bdf413.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St3.jpg.cd5df842859c4688683968be4d21726a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St4.jpg.99d82c98e8226f3618ccb17e7b2bea3e.jpg
 variants:
   - variant: { nightmode: standard }
     assets:

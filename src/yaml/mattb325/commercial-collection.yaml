@@ -144,6 +144,13 @@ info:
     - https://community.simtropolis.com/files/file/30886-2404-wilshire-blvd/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/AmericanCement.jpg.914bc8130a32224b11b55093b671db93.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/AmericanCement1.jpg.f7f09ef9f75d5ea8d9426bfb8ffdfc7a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/AmericanCement2.jpg.8bb6046c894017a2b570fdf37f8c98d5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/AmericanCement3.jpg.64e8d73a8858c7d58de81359d9b75183.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/AmericanCement4.jpg.a748c8c055b8f8dfdf8be88df1e81d27.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/AmericanCement5.jpg.6d04be1e929fe639ddd14ad5ceecad45.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -259,6 +266,14 @@ info:
     - https://community.simtropolis.com/files/file/30871-modern-audi-dealership/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi.jpg.ba961e5235d624df04de8bd29e9e5b47.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi1.jpg.c6244ff3a6066a181ff5d381ac6179dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi2.jpg.9d98e3ba36aac09db03c4069cd9168ae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi3.jpg.2690df5d7eec845d962f936e1e493314.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi4.jpg.f838f55c6eb21c3cd7cd9419d43a9903.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi5.jpg.a8b075e28dbde41e68848cf98aeae824.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Audi6.jpg.1fa766af513edb41f9cf808e5cc9ded8.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
@@ -355,7 +370,14 @@ info:
     - https://community.simtropolis.com/files/file/33041-bullocks-department-store/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Bullocks.jpg.5fb50043308c3d02ffb0c3e3a87d09e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Bullocks1.jpg.df1844f0842e9757f6919f6f23aeb66e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Bullocks2.jpg.4aa6873ff2a5a8ccb862f1ccbd1d503f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Bullocks3.jpg.118ec990d18302863a4e974a2eb5b132.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Bullocks4.jpg.42d8768527ba3ca93b5218c6e6b12444.jpg
 dependencies:
+  - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
   - shk:parking-pack
@@ -431,6 +453,10 @@ info:
     - https://community.simtropolis.com/files/file/30866-chevrolet-dealership/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Chevrolet.jpg.286f5e5286d6020c03a2ef9f87e16900.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Chevrolet1.jpg.7eb2fa87f7b9deb5ac8921237cd26585.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Chevrolet2.jpg.5dfeabfb54914295e55990d546e793ce.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol02
@@ -728,6 +754,12 @@ info:
     - https://community.simtropolis.com/files/file/33033-debenhams-department-store/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Debenhams.jpg.00227702806b40890147fc1981b02792.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Debenhams1.jpg.9214d694a0331e058401a526d4d673c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Debenhams2.jpg.b5e21e85f0deb3913259c6765091a52c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Debenhams3.jpg.91292541c334e26a13facd84768ab077.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Debenhams4.jpg.3544f5a6b25f39c12b8e71fec2325009.jpg
 dependencies:
   - bsc:mega-props-cp-vol02
   - porkissimo:jenx-porkie-expanded-porkie-props
@@ -1027,6 +1059,11 @@ info:
     - https://community.simtropolis.com/files/file/33067-harlequin-building-london/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Harlequin.jpg.11e4e6795c0d785c5f8513bcfdee261c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Harlequin1.jpg.1ec705902c6257d20929d7e0ad6d5729.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Harlequin2.jpg.7a69360ebe70459bdaff836aa1d96b65.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Harlequin3.jpg.2d88c82ca8441c1c95ac71556d208bce.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol03
 variants:
@@ -1086,6 +1123,13 @@ info:
     - https://community.simtropolis.com/files/file/33019-hua-seng-enterprises-inc/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng.jpg.279dbf47d441900223ca0698b391c6f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng1.jpg.98c6dffa8a4621f0be1493d2cc8b2399.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng2.jpg.3c95fb1ad67c55a1f1ffa879e304c03e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng3.jpg.6eee7fc5f7e6a4b20681785e2331a990.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng4.jpg.e47f45496c01623edf31a771f0ce80e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/HuaSeng5.jpg.2aa33c130c3c785d1e2bb504e6f91d40.jpg
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1178,6 +1222,11 @@ info:
     - https://community.simtropolis.com/files/file/30865-car-yard-by-mattb325/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Kia.jpg.1d905ae4fc2ba5909e6faa565e114c75.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Kia1.jpg.4383380c27b05226b1981e841cf2e62c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Kia2.jpg.117c0938337f0cf7f2d0588f1578b79a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/Kia3.jpg.923cb362860b8a1f484f041c766e4308.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
@@ -1205,6 +1254,12 @@ info:
     - https://community.simtropolis.com/files/file/33125-kyneton-square/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Kyneton.jpg.9034641e4d785dd13574754da223bd84.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Kyneton1.jpg.db86170daaa577f1d3ea048204526024.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Kyneton2.jpg.15157d3a163022d2cfd3973cefce4732.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Kyneton3.jpg.9434037114bcbf22da63705fef6286ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Kyneton4.jpg.ea6d61e4d2f4e744be4e1cecec3f1ffb.jpg
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -1225,8 +1280,14 @@ info:
   summary: Luxury Auto Yard
   author: mattb325
   websites:
+    - https://community.simtropolis.com/files/file/27998-luxury-car-dealership/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/2aa39640550696b611cce19606bcd5e9-caryard.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/16b4a5b9cf7741efada88f9ee58fd677-caryard1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/27435b9740b0b6328bb0383c1f316318-caryard2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/16c496f8be41ab8f717a7f9be94d7a9f-caryard3.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:mega-props-cp-vol01
@@ -1597,6 +1658,7 @@ info:
   author: mattb325
   websites:
     - https://community.simtropolis.com/files/file/33952-pwn-london/
+    - https://community.simtropolis.com/files/file/32993-pwn-london/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
@@ -1624,6 +1686,12 @@ info:
     - https://community.simtropolis.com/files/file/33018-pinyin-enterprises-pty-ltd/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/PinYin.jpg.36dbe6444618154453096fd5a526d1df.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/PinYin1.jpg.72c0cde752758e7812fe5ed76c957ca6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/PinYin2.jpg.b9702bba87396e411f49c2d7654da07c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/PinYin3.jpg.e9059439a6c7fa80d3be86e66c0cfa4b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/PinYin4.jpg.08b00804949f9c9c79a2c6aa2004004e.jpg
 dependencies:
   - mattb325:urban-civics-prop-pack-vol01
 variants:
@@ -1797,6 +1865,13 @@ info:
     - https://community.simtropolis.com/files/file/30881-sac-commercial/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC.jpg.74b9b658c291dbbbba759f020868db0f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC1.jpg.3078c9d2dd03ddffae4a3ac6e3b9d097.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC2.jpg.26b644ae243caa2db32e2c0eeac9a933.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC3.jpg.a27d3f486e3688f787ee19a067a01498.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC4.jpg.604d1ab6384e187728e33f76f777356c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/SAC5.jpg.3531b16f3523ffe3d2498057a00356e1.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
 variants:
@@ -1875,6 +1950,13 @@ info:
     - https://community.simtropolis.com/files/file/33873-saks-fifth-avenue/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA.jpg.8956cf56d75d282d09e58f09d5f98475.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA1.jpg.567b1cbe1c74400ec6b834c419e7ef5c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA2.jpg.288b808fafe5a46ea9a316e88733b2af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA3.jpg.9c444bafabefb0d83c06b1a7f52b2731.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA4.jpg.9e8d813555f3acb81fddcc30be22d93b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/SAKS_LA5.jpg.fd8552af271cf4f893e1628cff656823.jpg
 dependencies:
   - bsc:mega-props-cp-vol02
   - shk:parking-pack
@@ -1999,6 +2081,11 @@ info:
     - https://community.simtropolis.com/files/file/33037-transport-indemnity-insurance-building/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail.jpg.e55d299958ed288df789236ed60be7ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail1_lg.jpg.2592856f6e6e3ac5e452f3d43025f4c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail2_lg.jpg.7679459d552d597550f7587cd968d3f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail3_lg.jpg.b2b9cfe4548506d8a144faf6905b9998.jpg
 variants:
   - variant: { nightmode: standard }
     assets:
