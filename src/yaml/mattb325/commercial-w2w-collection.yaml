@@ -99,7 +99,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_02_2013/2da6dac81c4d1d16a26720f8b2c669c2-wilshire2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_02_2013/a86c2fe2895a43a3b61c76d811885c1e-wilshire3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_02_2013/7c7a0f17296dbb798ef4683e768d87c7-wilshire4.jpg
-dependencies:
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -684,7 +683,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2020_10/KingSt2.jpg.465c41662ef5af823f2297232609cb54.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_10/KingSt3.jpg.2b1eb1b7f9a8deccad3d673af4f2ba72.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_10/KingSt4.jpg.3c473894be35ce769760d90c680551d6.jpg
-dependencies:
 variants:
   - variant: { nightmode: standard }
     assets:
