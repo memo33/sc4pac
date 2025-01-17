@@ -21,6 +21,15 @@ info:
     - https://community.simtropolis.com/files/file/33144-100-king-st-manchester/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/100KingSt.jpg.af5b801fbde2dd59936f80af29f5987f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/100KingSt1.jpg.4b22b626c062e24bce0a3ce437cacd78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/100KingSt2.jpg.351077775864ba32e67f6c2a977fb6be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/100KingSt3.jpg.8e1aa99112f147dc73670f8ac535d090.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/100KingSt4.jpg.aba845c29412f41e2efa7c43d36b5877.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/100KingSt5.jpg.d3e6160dd07fafbeb17f7630678e76e3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/100KingSt6.jpg.d134f049af9a08f2020c0cb75ab2a72a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/100KingSt7.jpg.407f23ace888bb7ff2bd67150b567c71.jpg
 dependencies:
   - mattb325:commercial-collection-shared-resources
 variants:
@@ -72,6 +81,12 @@ info:
     - https://community.simtropolis.com/files/file/33893-45-east-avenue-rochester-ny/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/45EastAveRochester.jpg.9e2ee4bbbbd079982e1fc979ce389391.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/45EastAveRochester1.jpg.1bc6efd4a82d972b5561ba7b8e74edd7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/45EastAveRochester2.jpg.ab5067ea19a9952d85fc961b175c5afa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/45EastAveRochester3.jpg.f57eb7eb9e98690cfe6ced40787a6996.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/45EastAveRochester4.jpg.61997635a2782f5de205a98b2c83c36a.jpg
 variants:
   - variant: { nightmode: standard }
     assets:
@@ -95,6 +110,13 @@ info:
     - https://community.simtropolis.com/files/file/33899-85-elizabeth-st-sydney/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic.jpg.dde1f8db6c32be11218d036e862bc9c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic1.jpg.783f9fb9e1f66183729e873b87d85397.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic2.jpg.df63f73912c0158eefc5e279d5282dbe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic3.jpg.58c5ecc3aea743417047e94ee8d3b9bf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic4.jpg.02ebd82f4e1d195f766ca060b4f7dd2d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Atanaskovic5.jpg.63c86fb11c32bbae688e2ad36df45a2f.jpg
 dependencies:
   - bsc:mega-props-cp-vol01
   - bsc:mega-props-cp-vol02
@@ -2147,6 +2169,12 @@ info:
     - https://community.simtropolis.com/files/file/28683-zurich-insurance/
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/2c72f637a667de5fbdc746d2c98e3011-zurich.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/30b09270fd2ed3f8cd04c0e102162ad4-zurich1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/3f5bf2cdd1e2adf3e36aaf4999f987e6-zurich2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/d1e7d048c7a15b835ae3aa9f14471d24-zurich3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/e930fb25f0a82186ceb0b5f416a46acb-zurich4.jpg
 dependencies:
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
