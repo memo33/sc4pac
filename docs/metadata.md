@@ -264,6 +264,7 @@ Details:
   - If the `include` filter is absent or empty, then by default all files with file type .dat/.sc4model/.sc4lot/.sc4desc/.sc4 are included.
   - If the `exclude` filter is absent or empty, then by default all file types other than .dat/.sc4model/.sc4lot/.sc4desc/.sc4 are excluded.
 - All extracted files without checksum must be DBPF files.
+- The `exclude` patterns are also matched against nested archives to allow skipping nested extraction.
 
 ?> If you anticipate file names changing with future updates of the original upload,
    consider using regular expressions to make the matching more generic, so that the `include` filter keeps working after the updates.
