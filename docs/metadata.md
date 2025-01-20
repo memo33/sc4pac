@@ -4,7 +4,7 @@ This page details how to write, for an existing mod, custom metadata that is und
 The metadata is stored in [YAML](https://en.wikipedia.org/wiki/YAML) files which can be edited in any text editor
 and consists of *assets* and *packages*, as defined below.
 
-?> An interactive editor for creating metadata files from scratch is available online:
+?> An interactive editor for creating and editing metadata files is available online:
    [YAML editor for sc4pac](https://yamleditorforsc4pac.net/).
    The editor assists you in obtaining the required metadata and producing syntactically valid metadata files.
 
