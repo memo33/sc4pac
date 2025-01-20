@@ -5,7 +5,7 @@ The metadata is stored in [YAML](https://en.wikipedia.org/wiki/YAML) files which
 and consists of *assets* and *packages*, as defined below.
 
 ?> An interactive editor for creating metadata files from scratch is available online:
-   [YAML editor for sc4pac](https://yamleditorforsc4pac.azurewebsites.net/).
+   [YAML editor for sc4pac](https://yamleditorforsc4pac.net/).
    The editor assists you in obtaining the required metadata and producing syntactically valid metadata files.
 
 ?> If you prefer to write the YAML files manually, you can use the [empty template](https://github.com/memo33/sc4pac-tools/blob/main/channel-testing/template-empty.yaml)
