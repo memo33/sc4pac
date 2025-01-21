@@ -311,7 +311,7 @@ name: maxs-microchips
 subfolder: 400-industrial
 version: "2"
 info:
-  summary: Maxs Microchips
+  summary: Max's Microchips
   author: mattb325
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
@@ -369,7 +369,7 @@ name: nokia-building-i-ht
 subfolder: 400-industrial
 version: "2"
 info:
-  summary: Nokia Building-I-HT
+  summary: Nokia Building (I-HT)
   author: mattb325
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
@@ -787,7 +787,7 @@ subfolder: 100-props-textures
 info:
   summary: Industrial pack shared resources
   description: |-
-    A dependency containing a few resources used in `pkg=mattb325:industrial-pack`
+    A dependency containing a few resources used in `pkg=mattb325:industrial-collection`
 variants:
   - variant: { nightmode: standard }
     assets:
