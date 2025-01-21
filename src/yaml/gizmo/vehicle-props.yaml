@@ -1,0 +1,20 @@
+group: gizmo
+name: vehicle-props
+version: "5.0"
+subfolder: 100-props-textures
+info:
+  summary: Vehicle Props
+  description: |-
+    This package adds all the default UDI vehicles as props.
+
+    The older, but still used **Vehicle\_Props-V3.dat** file, as a dependency for many contents all over the exchanges has been merged with the later recommended **Vehicle Props v4.0.dat** and now they form the **Vehicle Props v5.0.dat**. Bear in mind that these props are the very same apart from the Instance IDs.
+  author: Gizmo
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/59-gizmo-vehicle-props
+assets:
+  - assetId: gizmo-vehicle-props
+
+---
+assetId: gizmo-vehicle-props
+version: "5.0"
+lastModified: "2023-07-25T15:33:08.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=59%3Agizmo-vehicle-props
