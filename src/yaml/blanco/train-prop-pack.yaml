@@ -5,7 +5,7 @@ subfolder: 100-props-textures
 assets:
   - assetId: blanco-train-prop-pack
 info:
-  summary: Tram Prop Pack
+  summary: Train Prop Pack (HD)
   author: blanco
   website: https://www.toutsimcities.com/downloads/view/1573
 
@@ -14,3 +14,22 @@ assetId: blanco-train-prop-pack
 version: "2.0"
 lastModified: "2009-07-30T12:00:00Z"
 url: https://www.toutsimcities.com/downloads/start/1573
+
+---
+# This one uses different TGIs
+group: blanco
+name: train-prop-pack-sd
+version: "1.0"
+subfolder: 100-props-textures
+assets:
+  - assetId: blanco-train-prop-pack-sd
+info:
+  summary: Train Prop Pack (SD)
+  author: blanco
+  website: https://www.toutsimcities.com/downloads/view/1335
+
+---
+assetId: blanco-train-prop-pack-sd
+version: "1.0"
+lastModified: "2008-12-01T12:00:00Z"
+url: https://www.toutsimcities.com/downloads/start/1335
