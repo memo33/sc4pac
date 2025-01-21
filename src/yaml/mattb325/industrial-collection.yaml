@@ -1,0 +1,799 @@
+assetId: mattb325-industrial-pack-darknite
+version: "2"
+lastModified: "2023-08-21T11:21:24.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=114:sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+
+---
+assetId: mattb325-industrial-pack-maxisnite
+version: "2"
+lastModified: "2023-08-20T09:40:24.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=115:sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+
+---
+group: mattb325
+name: 2121-north-san-fernando-rd
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: 2121 North San Fernando Rd
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+dependencies:
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/2121 ?North ?San ?Fernando ?Rd(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: canadian-bitters
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Canadian Bitters
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/33177-canadian-bitters-factory/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters.jpg.8e8d57a34188e70f5a3444f216007e0a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters1.jpg.ba93638c92a6714fe0347d3a9d922dda.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters2.jpg.a8a158cfe4f4183306a6cd620d47c507.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters3.jpg.1531fc9b5e48cdbd452cdc81746cb46d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters4.jpg.faf12d0ef81a2cbe439843c8955c967e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters5.jpg.a35731160b366bcefc6edd917c709642.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters6.jpg.0fa53c07345541dc965f030bb26becb6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters7.jpg.aefbe9258b4351caa0795bc293896c68.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/CanadianBitters8.jpg.f057c00d8e6c512aa8edee96ca1cc11f.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - mattb325:industrial-pack-shared-resources
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Canadian ?Bitters ?I-M(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Canadian ?Bitters ?I-M(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: city-data-center
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Data Centre_DN (Ploppable)
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/31619-city-data-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre.jpg.7b6667326a3a75d14e5de79d6b351105.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre1.jpg.4be8775532f4a9cc926ed8afe29dfd71.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre2.jpg.a4eab9c222d5e368df14aeccd262a5e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre3.jpg.b63f2b766babfca68199fbe7494faca1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/DataCentre4.jpg.1ae2ddb4dec308e9cb3f1fbedc0204f0.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Data ?Centre(_MN)?( \\(Ploppable\\))?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Data ?Centre(_DN)?( \\(Ploppable\\))?#?/" ]
+
+# Disease center is already included in the default channel
+# ---
+# group: mattb325
+# name: disease-research-center-i-ht
+# subfolder: 400-industrial
+# version: "2"
+# info:
+#   summary: Disease Research Center
+#   author: mattb325
+#   websites:
+#    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+#    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:mega-props-cp-vol01
+#   - bsc:texturepack-cycledogg-vol01
+#   - csx:mega-props-vol04
+#   - mattb325:industrial-pack-shared-resources
+#   - peg:security-fencing-kit
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: mattb325-industrial-pack-maxisnite
+#         include: [ "/Disease ?Research ?Center(_[MD]N)?#?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: mattb325-industrial-pack-darknite
+#         include: [ "/Disease ?Research ?Center(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: door-mat-factory
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Door Mat Factory
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+dependencies:
+  - bsc:mega-props-rt-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Door ?Mat ?Factory(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Door ?Mat ?Factory(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: gsk-packaging
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: GSK Packaging
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/GSK ?Packaging(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: havoc-bioenhancements
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Havoc Bioenhancements
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/31613-havoc-bioenhancements/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Havoc.jpg.0e2b5a35e38797daa57c2fda1c05e359.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Havoc1.jpg.7142c8a1175929b14bb49c7a70548c1e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Havoc2.jpg.e0aab81fa6f124a664033e64595c2eb4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Havoc3.jpg.5dd16e14fabe77fbaa54bc56b3904ee2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Havoc4.jpg.36532d0730ea149953367dc9d869584c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Havoc5.jpg.72eddf028cd5c75267d687c7ceed69ba.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - csx:mega-props-vol04
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Havoc ?Bioenhancements(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Havoc ?Bioenhancements(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: jenquai-alchemy
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Jenquai Alchemy
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/31655-jenquai-alchemy/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Jenquai.jpg.f6a010014cc3e44b2d8e3c95cf507550.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Jenquai_4nite.jpg.ebcefbaefe730fb830da8d045c83b81f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Jenquai1.jpg.0394312bf7335bd0092fe301dc2143b0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Jenquai2.jpg.0e36809872c4c8ce96064862fbeca875.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Jenquai3.jpg.20e9551006e27ef363d11c6f0348c28a.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Jenquai ?Alchemy(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Jenquai ?Alchemy(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: kane-tiberium
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Kane Tiberium
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/31612-kane-tiberium/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Kane.jpg.d0c355881d8e7172a0fcddb9c3e8b47f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Kane1.jpg.4ea440b22b392674a12292dcdb0d28d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Kane2.jpg.77cfe815b7490a0723a87a3602643e37.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Kane3.jpg.cf09cefefa31a1c2dcfce94433b740ca.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-sg-vol01
+  - csx:mega-props-vol04
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Kane ?Tiberium(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Kane ?Tiberium(_[MD]N)?#?/" ]
+
+# ---
+# group: mattb325
+# name: mail-distribution-center-i-ht
+# subfolder: 400-industrial
+# version: "2"
+# info:
+#   summary: Mail Distribution Center I-HT
+#   author: mattb325
+#   websites:
+#    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+#    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol01
+#   - bsc:bat-props-mattb325-vol04
+#   - bsc:mega-props-d66-vol01
+#   - bsc:mega-props-d66-vol02
+#   - bsc:mega-props-jes-vol01
+#   - bsc:mega-props-sg-vol01
+#   - bsc:textures-vol02
+#   - csx:mega-props-vol03
+#   - csx:mega-props-vol04
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: mattb325-industrial-pack-maxisnite
+#         include: [ "/Mail Distribution Center I-HT/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: mattb325-industrial-pack-darknite
+#         include: [ "/Mail Distribution Center I-HT/" ]
+
+---
+group: mattb325
+name: maxs-microchips
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Max's Microchips
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/31608-maxs-microchips/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Max1.jpg.9768448f42dc149825cf5349c4a946e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Max2.jpg.dac810009f8554abb5478a776e55c568.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Max3.jpg.bc9f2889a131f9c1554bdfd0482590c0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Max4.jpg.7c72a00ef1bc7a4562891b595a2995e1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/MaxMain.jpg.c13975b058e97f33be3799eff2c3af10.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Maxs ?Microchips(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Maxs ?Microchips(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: newsome-mill
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Newsome Mill
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-jes-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Newsome ?Mill(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Newsome ?Mill(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: nokia-building-i-ht
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Nokia Building (I-HT)
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Nokia ?Building-I-HT(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Nokia ?Building-I-HT(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: pedriana-pharmaceuticals
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Pedriana Pharmaceuticals
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/31614-pedriana-pharmaceuticals/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Pedriana.jpg.e9c40376174ea4657c2a31cd8dc4c344.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Pedriana1.jpg.70cd7d2e99b0ed302be42142e0d0e0c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Pedriana2.jpg.0298cac7ca2dc42f911a20da319fe769.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Pedriana3.jpg.79891d6e6c5935d92adcea76f04ed244.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - csx:mega-props-vol04
+  - peg:security-fencing-kit
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Pedriana ?Pharmaceuticals(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Pedriana ?Pharmaceuticals(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: peerless-jal
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Peerless JAL
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/33042-peerless-jal-manufacturing/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Peerless.jpg.0ffe25bdabf574ec199ca17d1d0b40ed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Peerless1.jpg.f9338f2210ce67eec6bd8ab4605dacd6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Peerless2.jpg.1d1c81d118e3ba4f9f64140c9d0d5d65.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Peerless3.jpg.237711700d7590a799263f778685401f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Peerless4.jpg.a53e50c721c5844cf138d125b6a048c9.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Peerless ?JAL(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Peerless ?JAL(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: spar-distribution-i-ht
+subfolder: 400-industrial
+version: "1.0"
+info:
+  summary: SPAR Distribution-I-HT
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/28451-spar-distribution/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/0fd2cc746303cb8e7759014ea63c51e8-spar.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/eeab01788719ce327a08e7a13234cf1f-spar-4x4-.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jrj-vol04
+  - bsc:mega-props-jrj-vol05
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+assets:
+  - assetId: mattb325-spar-distribution
+    exclude:
+      - "\\(Com Svc\\)"
+
+---
+group: mattb325
+name: selby-shoes
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Selby Shoes
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/30951-selby-shoe-factory/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Selby.jpg.9f16711e6971d1b6cfebfff02f8da982.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Selby1.jpg.9db793d7e31308ef861136fc8787c9ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Selby2.jpg.6daeea6ab870ff006e282bd282770dce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Selby3.jpg.23db47400cc766a7421db0b9723c8d6c.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Sh?elby ?Shoes(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: stratton-biotech
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Stratton Biotech
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/31611-stratton-biotech/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Stratton4x4.jpg.253f55f23419e0ff51b1565a895ac41c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Stratton4x4_s.jpg.dc2bb7859b4d75814a07c623a5af36ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Stratton8x8.jpg.3c422949f9d09e6c4c3c9789f10dfed3.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol03
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - peg:security-fencing-kit
+  - csx:mega-props-vol04
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Stratton ?Biotech(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Stratton ?Biotech(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: the-like-factory
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: The Like Factory
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/33946-the-like-factory/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Like.jpg.16c8bad88adef50ef385b9107b5fbea0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Like1.jpg.9e840fe71e48b9733a2312cc790b4e2f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Like2.jpg.c742798004228405a9ea13f1a58f5e66.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Like3.jpg.daac35089365624d4c826d2aba0ccd79.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/The ?Like ?Factory(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/The ?Like ?Factory(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: old-timber-warehouses
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Timber Warehouses
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/28240-old-timber-warehouses/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/b52aa8d7fc3c2f88bd310706514a0394-warehouse.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/61be9309a3fd8b57aef40d6903f4ad67-warehouse1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/ec0a916b85d2bdae3ccc4fd644bfcbe5-warehouse2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/5a18ca48febb456d7e448e2dfbf81aea-warehouse3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/e595093365baf77e3245a2c63a32b83f-warehouse3a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2012/327ad5f4169e8c67368981055648bb88-warehouse4.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol03
+  - csx:mega-props-vol04
+  - peg:security-fencing-kit
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Timber ?Warehouses(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Timber ?Warehouses(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: tsvirkunov-electronics
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Tsvirkunov Electronics
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/31650-tsvirkunov-electronics/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Tsvirkunov.jpg.4b7e5455d48473356df282d7c9686fd5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Tsvirkunov_nite.jpg.ce3aafdf7f87a557cc9f26edd17f7f34.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Tsvirkunov1.jpg.8d8fbf8a503d4b805195bb195af95b6c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Tsvirkunov2.jpg.9275dff001d851e55f2f07c0f41d0aa7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/Tsvirkunov3.jpg.75fbe493bfef573d88dd315f5b28645f.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Tsvirkunov ?Electronics(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Tsvirkunov ?Electronics(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: vu-laboratories
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Vu Laboratories
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/27936-vu-laboratories/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/866190b00787e71471a5e7806b8ed345-vu1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/e548e62aa125c3b0288c038bca896aa3-vu2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/ca72ad85b16ab206f07615752c1fea95-vu3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/51d3207fa275381ead62aa946c26cd6b-vu4.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:essentials
+  - peg:security-fencing-kit
+  - csx:mega-props-vol04
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Vu ?Laboratories(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Vu ?Laboratories(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: watco-manufacturing
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Watco Manufacturing
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/33043-watco-manufacturing/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Watco.jpg.f552e9e2393c14465250b8bbdbea5faf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Watco1.jpg.d0bfc812a8badcad3619735a5ca2f742.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Watco2.jpg.75c15b97774f2608fca113d3c9a23454.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Watco3.jpg.1fa418d90d5f8c3228301d87beef5ffd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/Watco4.jpg.2f6c06985fb06b097570201f49e09c9a.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Watco(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Watco(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: whoop-ass-factory
+subfolder: 400-industrial
+version: "2"
+info:
+  summary: Whoop Ass Factory
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+    - https://community.simtropolis.com/files/file/33044-whoop-ass-factory/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/WhoopAss.jpg.b20f7b07ffa88fe311467b27e17b7572.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/WhoopAss1.jpg.2750f1f55fce1a4d6d22256dde4d9880.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/WhoopAss2.jpg.7f02c0c576c4dd471b0c29c26d4ff112.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/WhoopAss3.jpg.c1bd525e110949eb353bb86a5f95778a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/WhoopAss4.jpg.a0f1ad892828fbf4ce69cf16a19073ff.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - peg:security-fencing-kit
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Whoop ?Ass ?Factory(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Whoop ?Ass ?Factory(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: industrial-collection
+version: "1.0"
+subfolder: 400-industrial
+info:
+  summary: Industrial Collection
+  description: |-
+    A collection of 23 industrial lots
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/115-sc4d-lex-legacy-mattb325-industrial-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/13-industrial/114-sc4d-lex-legacy-mattb325-industrial-pack-dark-nite
+dependencies:
+  - mattb325:2121-north-san-fernando-rd
+  - mattb325:canadian-bitters
+  - mattb325:city-data-center
+  # - mattb325:disease-research-center-i-ht
+  - mattb325:door-mat-factory
+  - mattb325:gsk-packaging
+  - mattb325:havoc-bioenhancements
+  - mattb325:jenquai-alchemy
+  - mattb325:kane-tiberium
+  # - mattb325:mail-distribution-center-i-ht
+  - mattb325:maxs-microchips
+  - mattb325:newsome-mill
+  - mattb325:nokia-building-i-ht
+  - mattb325:pedriana-pharmaceuticals
+  - mattb325:peerless-jal
+  - mattb325:spar-distribution-i-ht
+  - mattb325:selby-shoes
+  - mattb325:stratton-biotech
+  - mattb325:the-like-factory
+  - mattb325:old-timber-warehouses
+  - mattb325:tsvirkunov-electronics
+  - mattb325:vu-laboratories
+  - mattb325:watco-manufacturing
+  - mattb325:whoop-ass-factory
+
+---
+group: mattb325
+name: industrial-pack-shared-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Industrial pack shared resources
+  description: |-
+    A dependency containing a few resources used in `pkg=mattb325:industrial-collection`
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-industrial-pack-maxisnite
+        include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: mattb325-industrial-pack-darknite
+        include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
