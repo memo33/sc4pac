@@ -23,6 +23,7 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/cablecar 1.jpg
 dependencies:
+  - bsc:essentials
   - girafe:winterpack-props
 assets:
   - assetId: girafe-winterpack
@@ -41,6 +42,7 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/combi 1.jpg
   website: https://www.sc4evermore.com/index.php/downloads/download/209-sc4d-LEX-legacy-bsc-tsc-girafe-winterpack
 dependencies:
+  - bsc:essentials
   - girafe:winterpack-props
 assets:
   - assetId: girafe-winterpack
