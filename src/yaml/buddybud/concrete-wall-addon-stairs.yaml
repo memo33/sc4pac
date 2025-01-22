@@ -26,6 +26,7 @@ subfolder: 100-props-textures
 info:
   summary: Textures and props for Jeronij's Modern Concrete Walls
   author: Buddybud, Jeronij
+  website: https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/
 assets:
   - assetId: buddybud-jrj-concrete-wall-addon-stairs
     include:
