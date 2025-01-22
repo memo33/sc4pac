@@ -1,0 +1,75 @@
+group: girafe
+name: bicycle-pack-vol01-props
+version: "1"
+subfolder: 100-props-textures
+info:
+  summary: Bicyclepack vol01 props
+  description: |-
+    This upload contains a set of bicycle props and prop families which contain 10 orthogonal and 10 diagonal bike props.
+  author: Girafe and MGB204
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/154-bsc-vip-girafe-mgb204-bicyclepack-vol01
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_bicyclepack.jpg
+assets:
+  - assetId: bsc-vip-girafe-mgb204-bicyclepack-vol01
+    include:
+      - /Grfe_Props_Pack_MGB_Bicyclepack_vol01.dat
+
+---
+group: girafe
+name: bicycle-pack-vol01-mmp
+version: "1"
+subfolder: 180-flora
+info:
+  summary: Bicyclepack vol01 MMP
+  author: Girafe and MGB204
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/154-bsc-vip-girafe-mgb204-bicyclepack-vol01
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_bicyclepack.jpg
+dependencies:
+  - bsc:vip-girafe-mgb204-bicyclepack-vol01
+assets:
+  - assetId: bsc-vip-girafe-mgb204-bicyclepack-vol01
+    include:
+      - /Grfe_mgb_bikes_diago.dat
+      - /Grfe_mgb_bikes_ortho.dat
+
+---
+group: girafe
+name: murimk-bikers-override
+version: "1"
+subfolder: 900-overrides
+info:
+  summary: Murimk bikers override
+  author: Girafe and MGB204
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/154-bsc-vip-girafe-mgb204-bicyclepack-vol01
+dependencies:
+  - bsc:vip-girafe-mgb204-bicyclepack-vol01
+  - murimk:props-vol01-bicycles
+assets:
+  - assetId: bsc-vip-girafe-mgb204-bicyclepack-vol01
+    include:
+      - /Grfe_mgb_Murimk_bikers_override.dat
+
+---
+group: girafe
+name: murimk-bikers-override-mmp
+version: "1"
+subfolder: 900-overrides
+info:
+  summary: Murimk bikers override MMP
+  author: Girafe and MGB204
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/154-bsc-vip-girafe-mgb204-bicyclepack-vol01
+dependencies:
+  - bsc:vip-girafe-mgb204-bicyclepack-vol01
+  - murimk:bikers-mmp
+assets:
+  - assetId: bsc-vip-girafe-mgb204-bicyclepack-vol01
+    include:
+      - /Grfe_mgb_Murimk_bikers_MMP_override.dat
+
+---
+assetId: bsc-vip-girafe-mgb204-bicyclepack-vol01
+version: "1"
+lastModified: "2023-11-11T16:19:39.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=154:bsc-vip-girafe-mgb204-bicyclepack-vol01&catid=22

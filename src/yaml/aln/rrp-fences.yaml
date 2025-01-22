@@ -1,0 +1,44 @@
+group: aln
+name: rrp-fences-props
+version: "2.0"
+subfolder: 100-props-textures
+info:
+  summary: ALN RRP Fences props
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/166-bsc-aln-rrp-fences
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/fences1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/tracks1.jpg
+assets:
+  - assetId: aln-rrp-fences
+    include:
+      - /BSCProps/
+---
+group: aln
+name: rrp-fences
+version: "2.0"
+subfolder: 660-parks
+info:
+  summary: ALN RRP Fences
+  description: |-
+    A pack of fences and gravel paths to give your rural areas more realism. The lots appear in the water utilities
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/166-bsc-aln-rrp-fences
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/fences1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/tracks1.jpg
+dependencies:
+  - aln:rrp-fences-props
+  - bsc:mega-props-misc-vol02
+  - bsc:mega-props-jrj-vol06
+  - bsc:textures-vol03
+  - memo:transparent-texture-fix-dll
+assets:
+  - assetId: aln-rrp-fences
+    exclude:
+      - /BSCProps/
+---
+assetId: aln-rrp-fences
+version: "1.0"
+lastModified: "2025-01-08T01:03:02Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=166:bsc-aln-rrp-fences
