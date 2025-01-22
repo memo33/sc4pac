@@ -116,7 +116,9 @@ info:
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Girafe"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+    - "https://community.simtropolis.com/files/file/29630-bsc-vip-girafe-birches/"
 
 ---
 group: "girafe"
@@ -471,7 +473,9 @@ info:
   description: |
     Tree props and mayor-mode ploppables (MMPs).
   author: "Girafe"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+  websites: 
+    - "https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/27-sc4d-lex-legacy-bsc-vip-girafe-flora"
+    - "https://community.simtropolis.com/files/file/29493-bsc-vip-girafe-parasol-pines/"
 
 ---
 group: "girafe"
