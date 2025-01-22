@@ -27,7 +27,7 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_bicyclepack.jpg
 dependencies:
-  - girafe:bicyclepack-vol01-props
+  - girafe:bicycle-pack-vol01-props
 assets:
   - assetId: bsc-vip-girafe-mgb204-bicyclepack-vol01
     include:
@@ -44,7 +44,7 @@ info:
   author: Girafe and MGB204
   website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/154-bsc-vip-girafe-mgb204-bicyclepack-vol01
 dependencies:
-  - girafe:bicyclepack-vol01-props
+  - girafe:bicycle-pack-vol01-props
   - murimk:props-vol01-bicycles
 assets:
   - assetId: bsc-vip-girafe-mgb204-bicyclepack-vol01
@@ -61,7 +61,7 @@ info:
   author: Girafe and MGB204
   website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/154-bsc-vip-girafe-mgb204-bicyclepack-vol01
 dependencies:
-  - girafe:bicyclepack-vol01-props
+  - girafe:bicycle-pack-vol01-props
   - murimk:bikers-mmp
 assets:
   - assetId: bsc-vip-girafe-mgb204-bicyclepack-vol01
