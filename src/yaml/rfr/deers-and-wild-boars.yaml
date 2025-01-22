@@ -22,7 +22,7 @@ dependencies:
 assets:
   - assetId: rfr-deers-and-wild-boars
     include: 
-      - .*MMP.dat
+      - /Deer-WildboarMMP.dat
 
 ---
 group: rfr
