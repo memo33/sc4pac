@@ -5,66 +5,7 @@ subfolder: 150-mods
 info:
   summary: Plane trees
   description: |-
-    Plane trees by Girafe
-
     This is a set of plane trees flora for the mayor menu. You can find these creations at the beginning of the list of this menu. This plane trees series includes evergreen & seasonal versions.
-
-    These trees are available in Lot Editor props section under the name:
-
-    -   Grfe\_plane\_tree...
-
-    The LE and MM props have been datpacked into two files: Grfe\_props\_pack\_LE\_plane\_trees.dat (for the Lot Editor files) and Grfe\_props\_pack\_MM\_plane\_trees.dat (for the MMPs).
-
-    Special thanks to Orange, Simfox, Badsim, Carl and all BSC members.
-
-    MOD Details and information
-
-    Mayor mode version / props
-
-    Menu position
-
-    UP mayor menu
-
-    Plop cost
-
-    $ 0
-
-    Buldoze cost
-
-    $ 0
-
-    Note: for fitting with other seasonal items, props need to be planted the 1st September.
-
-    We do not recommand you to use seasonal trees on growable LOTs.
-    We do not recommand you to use the props located in Flora's section under the LE.
-
-    Compatibility
-
-    This download is only compatible with SimCity 4 Rush Hour or SimCity 4 Deluxe.
-
-    Installation
-
-    **Installation:** copy/extract the BSC parent folder into your plugins. If you extracted the \_Documents folder into your plugins, too, it's highly recommended to keep it, but move it out of the Plugins folder.
-
-    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
-
-    Dependencies
-
-    There is one dependency concerning the flora tuning parameters:
-
-    [BSC Seasonal Flora Patch for All Terrain Mods](http://sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2612)
-
-    Notes about Nightlighting Effects
-
-    Night light fix: you will not see any lighting effects on any custom buildings unless these two updates are installed. First, install the [EP1-Update 1 1.1.638](http://sc4devotion.com/forums/index.php?page=7) for Rush Hour/SimCity 4 Deluxe to see nightlights. Then install the [SC4-Update 1.1.640.](http://sc4devotion.com/forums/index.php?page=14) You may have to accept the End User Licence Agreement.
-
-    Disclaimer
-
-    The usage of this download is on your own risk. I try to test my mod extensively, so they should work properly, but errors may still exist. Feel free to modify the mod for yourself and show them in your city journals, but please don't distribute them without asking first.
-
-    Credits & Feedback
-
-    Thank you all for having downloaded this mod, I hope it will give you satisfaction. For comments, questions and/or supports, please see [my thread in SC4Devotion.](http://sc4devotion.com/forums/index.php?topic=8378.0)
   author: Girafe
   website: https://community.simtropolis.com/files/file/36421-bsc-vip-girafe-plane-trees/
   images:

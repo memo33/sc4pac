@@ -5,57 +5,9 @@ subfolder: 660-parks
 info:
   summary: Field Paths & Hedges
   description: |-
-    **New Textures, 34 New Lots, New track, and ...**
-    **New Seasonal Version By Phil** - **[philforhockey51](https://community.simtropolis.com/profile/694208-philforhockey51/?do=content&type=downloads_file&change_section=1)**
-
     This little plugin of 66 Lots, proposes a field path lined with hedges (bushes, trees). To create bocages. The tracks are adapted to the tractors proposed by the VIP and Namspopof team. They can be found for example in Fantozzi’s farms (Colossus Farming). And won’t be too disturbing with SPAM. The set of Lots includes ortho, diag, and various junctions with streets.
 
     All Lots come with a generic grass Basetexture, which can be «canceled» to obtain transparent Lots. So, depending on your situation (DLL, OS, plugin) you will be able to use this plugin while keeping texture files or simply delete them. It’s not more complicated than that!
-
-    -   If you have installed **[Transparent Texture (Water Bug) Fix DLL](https://community.simtropolis.com/files/file/36379-transparent-texture-water-bug-fix-dll/)**, do the part A installation.
-    -   If you do not want or can not use this DLL, you can use the **[file proposed here in 2021](https://community.simtropolis.com/forums/topic/760847-coris-partial-water-bug-fix-ready-for-testing/?do=findComment&comment=1767299)** (from Cori’s patch), to fix the «water-bug» and thus do part **A** installation also.
-    -   You prefer or can not fix the water-bug (really ?!) - FPH v. 1 - then I propose you the part **B** of installation.
-
-    **Installation**
-
-    Unzip into the Plugins\\ directory.
-    Load the Dependencies.
-    .. In directory ..\\plugins\\scoty\\
-    Choose between the EverGreen or Seasonal version of Lots by deleting one of this folder : scoty\_fieldpaths\_hedges\_seasonal\\ or scoty\_fieldpaths\_hedges\\
-    .. In directory ..\\plugins\\scoty\\scoty\_textures\\ scoty\_FPH\_Tex\_strt\_CHOOSE
-    Choose the texture of ***your current streets*** and delete the others
-    .. In directory ..\\plugins\\scoty\\scoty\_textures\\scoty\_FPH\_grass\_CHOOSE-ONE
-    .. **A**.
-    You can delete all files, since you opt for Transparent Lots!
-    .. **B**.
-    Choose the file to keep from the supported Terrains (V.1 of FPH .. see scoty\_FPH\_guide\_2.pdf in ZIP).
-
-    **Dependencies**
-    [@namspopof](https://community.simtropolis.com/profile/86503-namspopof/)
-    » [Nams props pack vol 2](https://www.toutsimcities.com/downloads/view/1882)
-    » [Nams props pack vol 1](https://www.toutsimcities.com/downloads/view/1780)
-    VIP Team - [@Orange\_o\_desespoir](https://community.simtropolis.com/profile/195182-orange_o_desespoir/)
-    » [VIP orange AgriPack](https://community.simtropolis.com/files/file/27906-vip-orange-agripack/)
-    Only VIP\_Or\_AgriPack\_Props.dat, if you don’t want the MMPs.
-    [@vnaoned](https://community.simtropolis.com/profile/107505-vnaoned/)
-    » [Vnaoned propspack 1](https://www.sc4evermore.com/index.php/downloads/download/188-vip-vnaoned-props-pack-vol01)
-    TSC
-    » [Les Murets de l’Aubrac Orange TSC](https://www.toutsimcities.com/downloads/view/1505)
-    Only /props/Or\_TSC\_Les\_MuretsAubrac\_prop.dat .. But I recommend this complete plugin!
-    [@Girafe](https://community.simtropolis.com/profile/319793-girafe/)
-    » [Plane Tree](https://community.simtropolis.com/files/file/36421-bsc-vip-girafe-plane-trees/)
-    » [bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
-    [@nbvc](https://community.simtropolis.com/profile/201408-nbvc/)
-    » [Rock ‘n’ Stones](https://community.simtropolis.com/files/file/27092-rock-n-stones/)
-    [@RebaLynnTS](https://community.simtropolis.com/profile/68757-rebalynnts/)
-    » [SPOT](https://community.simtropolis.com/files/file/24509-spot/)
-
-    Many thanks to  [@philforhockey51](https://community.simtropolis.com/profile/694208-philforhockey51/)  - aka BushMan ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)")  - and his horticultural team, fresh out of the agronomy school of FPH (Fabulist Prankster Hedgehog), for his most luxurious and bushy Seasonal version!
-
-    \-----------
-    A special thanks for RIVIT. For its time, expertise and support in so many projects. Zip of information and Photoshop Curve file :
-
-    **[convert\_Terrain\_inLot.zip](https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=60602)**
   author: hugues aroux
   website: https://community.simtropolis.com/files/file/33722-scoty-field-paths-hedges/
   images:

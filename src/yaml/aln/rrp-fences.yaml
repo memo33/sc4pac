@@ -3,7 +3,7 @@ name: rrp-fences-props
 version: "2.0"
 subfolder: 100-props-textures
 info:
-  summary: ALN RRP Fences props
+  summary: RRP Fences props
   author: Chrisadams3997
   website: https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/166-bsc-aln-rrp-fences
   images:
@@ -19,7 +19,7 @@ name: rrp-fences
 version: "2.0"
 subfolder: 660-parks
 info:
-  summary: ALN RRP Fences
+  summary: RRP Fences
   description: |-
     A pack of fences and gravel paths to give your rural areas more realism. The lots appear in the water utilities
   author: Chrisadams3997

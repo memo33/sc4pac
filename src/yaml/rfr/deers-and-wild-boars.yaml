@@ -5,42 +5,12 @@ subfolder: 180-flora
 info:
   summary: RFR Deers and Wild Boars
   description: |-
-    **RFR Deers and Wild Boars**
+    This package consists of:
 
-    The SC4-Community of the diverse forums has created quite a number of beautiful trees and bushes, which give the players almost
-
-    unlimited possibilites of creating woods. But woods do not only consist of flora. Every wood is habitat for a wide range of wildlife.
-
-    **We therefor present a pack consisting of:**
-
-    **\- 1 Deer-MMP with 14 models**
-
-    **\- 1 Wild Boar-MMP with 8 models**
-
-    **\- 1 Deerstand-MMP with one model**
-
-    *The animals are HD-rendered and therefore clear displayable even in Zoom 5.*
-
-    **This is the second Project of RFR-Team.**
-
-    **Dependencies:**
-
-    **None!**
-
-    **Thanks to:**
-
-    **Framly: Ideas**
-
-    **rambuckel:** **BAT**
-
-    **Framly: Modding**
-
-    **SimForum Community: helpful critics and suggestions.**
-
-    ***Our first Project:*** [RFR Maize Set](https://www.simtropolis.com/forum/files/file/27139-rfr-maize-set/)
-
-    **RFR Team**
-  author: Framly
+    - 1 Deer-MMP with 14 models
+    - 1 Wild Boar-MMP with 8 models
+    - 1 Deerstand-MMP with one model
+  author: Framly, rambuckel
   website: https://community.simtropolis.com/files/file/27196-rfr-deers-and-wild-boars/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_01_2012/cb5da4e7b9fac6275594d8de083ee8c4-rfrvorschau1.jpg
