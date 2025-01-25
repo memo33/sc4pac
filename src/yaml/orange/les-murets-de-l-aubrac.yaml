@@ -1,0 +1,38 @@
+group: orange
+name: les-murets-de-l-aubrac
+version: "1"
+subfolder: 180-flora
+info:
+  summary: Les Murets de l'Aubrac
+  author: orange
+  website: https://www.toutsimcities.com/downloads/view/1505
+dependencies:
+  - orange:les-murets-de-l-aubrac-resources
+assets:
+  - assetId: orange-les-murets-de-l-aubrac
+    include:
+      - /Lot/
+      - /Plop Mode maire/
+
+---
+group: orange
+name: les-murets-de-l-aubrac-resources
+version: "1"
+subfolder: 100-props-textures
+info:
+  summary: Les Murets de l'Aubrac
+  author: orange
+  website: https://www.toutsimcities.com/downloads/view/1505
+assets:
+  - assetId: orange-les-murets-de-l-aubrac
+    include:
+      - /Prop/
+
+---
+assetId: orange-les-murets-de-l-aubrac
+version: "1"
+lastModified: "2009-05-18T12:00:00Z"
+url: https://www.toutsimcities.com/downloads/start/1505
+archiveType:
+  format: Clickteam
+  version: "40"
