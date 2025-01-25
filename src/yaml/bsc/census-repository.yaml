@@ -1,10 +1,11 @@
 group: "bsc"
 name: "census-repository"
-version: "3.5"
+version: "3.6"
 subfolder: "600-civics"
 dependencies:
 - "bsc:essentials"
 - "bsc:textures-vol01"
+- "bsc:mega-props-misc-vol03"
 assets:
 - assetId: "bsc-census-repository-building-by-ripplejet"
   include:
@@ -13,6 +14,8 @@ assets:
 info:
   summary: "Provides detailed stats about city growth"
   description: |
+    This is the non-DLL version of the Census Repository.
+
     The Census Repository's query provides detailed information about the
     city's residential, commercial and industrial supply, demand and CAPs.
     Additional information shown includes vacant houses, unemployment,
@@ -40,9 +43,12 @@ info:
     Consult the Readme file for detailed information.
   author: "RippleJet, RalphaelNinja, Callagrafx, Colyn"
   website: "https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet"
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Census%20Repository%20Facility%20Day0.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Census%20Repository%20Facility%20Night0.jpg
 
 ---
 assetId: "bsc-census-repository-building-by-ripplejet"
-version: "3.5"
-lastModified: "2023-07-20T03:48:28-07:00"
+version: "3.6"
+lastModified: "2025-01-14T12:17:00Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=39:bsc-census-repository-building-by-ripplejet"
