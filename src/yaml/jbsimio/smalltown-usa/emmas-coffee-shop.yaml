@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "emmas-coffee-shop"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-emmas-coffee-shop"
+
+info:
+  summary: "Emma's Coffee Shop, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    Emma's Coffee Shop is the sixth release in the Smalltown, USA series. This
+    package contains both growable and ploppable versions of the building.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 1700 and bulldoze cost of 170.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16063-smalltownusa-emmas-coffee-shop/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f7f722d6bfa0a93fb7b35778dd6c399f-Emmas_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f7f722d6bfa0a93fb7b35778dd6c399f-Emmas_Night.jpg
+
+---
+assetId: "jbsimio-emmas-coffee-shop"
+version: "1.0"
+lastModified: "2006-05-26T19:20:18Z"
+url: "https://community.simtropolis.com/files/file/16063-smalltownusa-emmas-coffee-shop/?do=download"

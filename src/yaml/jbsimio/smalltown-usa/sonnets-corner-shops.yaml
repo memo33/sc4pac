@@ -1,0 +1,30 @@
+group: "jbsimio"
+name: "sonnets-corner-shops"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-sonnets-corner-shops"
+
+info:
+  summary: "Sonnet's Corner Shops, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    Sonnet's Corner Shops is the fifth release in the Smalltown, USA series.
+    This package contains both growable and ploppable versions of the building.
+    This is a corner lot, meaning it will only grow with roads along the front and right sides of the lot.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 2500 and bulldoze cost of 240.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16044-smalltownusa-sonnets-corner-shops/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b2ff99e730f8b9a79b275b8b573e89fc-Sonnets_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b2ff99e730f8b9a79b275b8b573e89fc-Sonnets_Night.jpg
+
+---
+assetId: "jbsimio-sonnets-corner-shops"
+version: "1.0"
+lastModified: "2006-05-24T07:42:12Z"
+url: "https://community.simtropolis.com/files/file/16044-smalltownusa-sonnets-corner-shops/?do=download"
