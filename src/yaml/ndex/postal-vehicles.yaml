@@ -1,0 +1,27 @@
+group: ndex
+name: postal-vehicles
+version: "1.0"
+subfolder: 100-props-textures
+
+assets:
+- assetId: "ndex-postal-vehicles"
+
+info:
+  summary: NDEX Postal Vehicles
+  description: |
+    This set of files allows postal trucks to be spawned into your cities,
+    and cruise around your homes and businesses. Before you can see these
+    trucks in your cities, however, you also need to plop some sort of
+    Post Office lot in your city.
+
+  author: Ardecila
+  website: https://community.simtropolis.com/files/file/17038-ndex-postal-vehicles-by-ardecila/
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/5301e5108bfce4bf06a83857e9e3f91b-ADC_Postal_STEX1.jpg
+    - https://www.simtropolis.com/objects/screens/0010/5301e5108bfce4bf06a83857e9e3f91b-ADC_Postal_STEX2.jpg
+
+---
+assetId: "ndex-postal-vehicles"
+version: "1.0"
+lastModified: "2006-10-07T23:55:08Z"
+url: https://community.simtropolis.com/files/file/17038-ndex-postal-vehicles-by-ardecila/?do=download

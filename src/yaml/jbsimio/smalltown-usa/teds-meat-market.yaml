@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "teds-meat-market"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-teds-meat-market"
+
+info:
+  summary: "Ted's Meat Market, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    Ted's Meat Market is the tenth release in the Smalltown, USA series.
+    This package contains both growable and ploppable versions of the building.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 2000 and bulldoze cost of 200.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16128-smalltownusa-teds-meat-market/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0019/ab836428bcc71d4c917899c622f37042-Teds_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0019/ab836428bcc71d4c917899c622f37042-Teds_Night.jpg
+
+---
+assetId: "jbsimio-teds-meat-market"
+version: "1.0"
+lastModified: "2006-06-08T16:34:26Z"
+url: "https://community.simtropolis.com/files/file/16128-smalltownusa-teds-meat-market/?do=download"

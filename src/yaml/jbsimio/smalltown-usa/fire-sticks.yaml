@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "fire-sticks"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-fire-sticks"
+
+info:
+  summary: "Fire Sticks, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    Fire Sticks is the seventh sixth release in the Smalltown, USA series.
+    This package contains both growable and ploppable versions of the building.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 1700 and bulldoze cost of 170.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16069-smalltownusa-fire-sticks/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f5d8e3ac719a33c1392bffdbf63b5ace-Fire%20Sticks_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f5d8e3ac719a33c1392bffdbf63b5ace-Fire%20Sticks_Night.jpg
+
+---
+assetId: "jbsimio-fire-sticks"
+version: "1.0"
+lastModified: "2006-05-28T09:04:27Z"
+url: "https://community.simtropolis.com/files/file/16069-smalltownusa-fire-sticks/?do=download"
