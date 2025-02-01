@@ -29,12 +29,16 @@ assets:
       - /Lot/.*\.SC4Lot$
 
 ---
+# The MMPs in this package are actually "les pierres de laubrac". The murets de 
+# l'Aubrac can be found on Simtropolis:
+# https://community.simtropolis.com/files/file/26807-vip-aubracwallmmp/, which 
+# relies on this prop pack.
 group: orange
-name: les-murets-de-laubrac-mmp
+name: les-pierres-de-laubrac-mmp
 version: "2"
 subfolder: 180-flora
 info:
-  summary: Les Murets de l'Aubrac Props
+  summary: Les Pierres de l'Aubrac MMP
   author: Orange
   website: https://www.toutsimcities.com/downloads/view/1505
 dependencies:
