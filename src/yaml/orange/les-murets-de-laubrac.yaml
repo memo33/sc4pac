@@ -1,0 +1,58 @@
+group: orange
+name: les-murets-de-laubrac-props
+version: "2"
+subfolder: 100-props-textures
+info:
+  summary: Les Murets de l'Aubrac Props
+  author: Orange
+  website: https://www.toutsimcities.com/downloads/view/1505
+assets:
+  - assetId: orange-les-murets-de-laubrac
+    include:
+      - /Prop/
+      - /Plop Mode Maire/Props/
+
+---
+group: orange
+name: les-murets-de-laubrac
+version: "2"
+subfolder: 660-parks
+info:
+  summary: Les Murets de l'Aubrac
+  author: Orange
+  website: https://www.toutsimcities.com/downloads/view/1505
+dependencies:
+  - orange:les-murets-de-laubrac-props
+assets:
+  - assetId: orange-les-murets-de-laubrac
+    include:
+      - /Lot/.*\.SC4Lot$
+
+---
+# The MMPs in this package are actually "les pierres de laubrac". The murets de 
+# l'Aubrac can be found on Simtropolis:
+# https://community.simtropolis.com/files/file/26807-vip-aubracwallmmp/, which 
+# relies on this prop pack.
+group: orange
+name: les-pierres-de-laubrac-mmp
+version: "2"
+subfolder: 180-flora
+info:
+  summary: Les Pierres de l'Aubrac MMP
+  author: Orange
+  website: https://www.toutsimcities.com/downloads/view/1505
+dependencies:
+  - orange:les-murets-de-laubrac-props
+assets:
+  - assetId: orange-les-murets-de-laubrac
+    include:
+      - /Plop Mode maire/Or_TSC_PierresAubrac.dat
+
+---
+assetId: orange-les-murets-de-laubrac
+version: "2"
+lastModified: "2009-05-15T12:00:00Z"
+url: https://www.toutsimcities.com/downloads/start/1505
+archiveType:
+  format: Clickteam
+  version: "40"
