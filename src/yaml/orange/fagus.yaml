@@ -11,8 +11,9 @@ info:
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Orange_o_"
-  # website: "https://community.simtropolis.com/files/file/27008-vip-orange-fagus-mmpseasonal-flora/"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/191-vip-orange-fagus"
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/191-vip-orange-fagus"
+    - "https://community.simtropolis.com/files/file/27008-vip-orange-fagus/"
 
 ---
 assetId: "vip-orange-fagus-seasonal-flora"
