@@ -1,0 +1,46 @@
+group: "jbsimio"
+name: "smalltown-usa"
+version: "1.0"
+subfolder: "300-commercial"
+
+info:
+  summary: "Smalltown USA Collection"
+  description: "JBSimio's complete Smalltown USA Series"
+  author: "JBSimio"
+
+dependencies:
+- "jbsimio:falers-and-sebalds"
+- "jbsimio:herters-music-store"
+- "jbsimio:schust-hotel"
+- "jbsimio:scottish-inn-and-pub"
+- "jbsimio:sonnets-corner-shops"
+- "jbsimio:emmas-coffee-shop"
+- "jbsimio:fire-sticks"
+- "jbsimio:onsted-state-bank"
+- "jbsimio:hamiltons-jewelry"
+- "jbsimio:teds-meat-market"
+- "jbsimio:fire-station-no2"
+- "jbsimio:smalltown-muse"
+- "jbsimio:pit-and-balcony-theater"
+- "jbsimio:town-hall"
+- "jbsimio:stanley-mercer-building"
+- "jbsimio:clinton-clock-tower"
+- "jbsimio:post-office"
+
+---
+
+group: "jbsimio"
+name: "smalltown-usa-props-and-queries"
+version: "1.0-1"
+subfolder: "100-props-textures"
+
+assets:
+- assetId: "jbsimio-falers-and-sebalds"
+  include: [ "JB_Smalltown_USA.dat" ]
+
+info:
+  summary: "JB_Smalltown_USA.dat"
+  description: |
+    Contains several props used in the Smalltown USA series, as well as reference information for custom queries.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/15914-smalltownusa-falers-and-sebalds/"

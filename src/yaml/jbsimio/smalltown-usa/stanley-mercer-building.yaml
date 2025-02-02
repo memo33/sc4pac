@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "stanley-mercer-building"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-stanley-mercer-building"
+
+info:
+  summary: "Stanley Mercer Building, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    The Stanley and Mercer Buildings are the fifteenth release in the Smalltown, USA series.
+    This package contains both growable and ploppable versions of the building.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 2300 and bulldoze cost of 230.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16423-smalltownusa-stanley-mercer-building/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/82cdd5298bbe8ea61350c988a8176420-Stanley_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0015/82cdd5298bbe8ea61350c988a8176420-Stanley_Night.jpg
+
+---
+assetId: "jbsimio-stanley-mercer-building"
+version: "1.0"
+lastModified: "2006-07-21T09:41:09Z"
+url: "https://community.simtropolis.com/files/file/16423-smalltownusa-stanley-mercer-building/?do=download"

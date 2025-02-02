@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "scottish-inn-and-pub"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-scottish-inn-and-pub"
+
+info:
+  summary: "Scottish Inn and Pub, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    The Schust Hotel is the third release in the Smalltown, USA series.
+    This package contains both growable and ploppable versions of the building.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 1700 and bulldoze cost of 170.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/15984-smalltownusa-scottish-inn-and-pub/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3310ee80e14211c025b27b238d58efb7-Scottish%20Inn_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3310ee80e14211c025b27b238d58efb7-Scottish%20Inn_Night.jpg
+
+---
+assetId: "jbsimio-scottish-inn-and-pub"
+version: "1.0"
+lastModified: "2006-05-19T18:52:47Z"
+url: "https://community.simtropolis.com/files/file/15984-smalltownusa-scottish-inn-and-pub/?do=download"
