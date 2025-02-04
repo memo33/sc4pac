@@ -1,0 +1,173 @@
+group: mgb204
+name: terrain-grass-nam-base-sudden-valley
+version: "2.45"
+subfolder: 900-overrides
+info:
+  author: rsc204
+dependencies:
+  - mgb204:terrain-grass-nam-variants-rail
+assets:
+  - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+    include:
+      - /TGN S3D Textures.dat
+variants:
+  - variant: { driveside: right, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: maxis }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bLHD\b
+          - \bEU\b
+          - \bPEG Rail\b
+          - \bRRW\b
+          - /zoption_
+          - UkOld
+  - variant: { driveside: right, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: peg }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bLHD\b
+          - \bEU\b
+          - \bMaxis Rail\b
+          - \bRRW\b
+          - /zoption_
+          - UkOld
+  - variant: { driveside: right, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: rrw }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bLHD\b
+          - \bEU\b
+          - \bMaxis Rail\b
+          - \bPEG Rail\b
+          - /zoption_
+          - UkOld
+  - variant: { driveside: right, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: maxis }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bLHD\b
+          - \bUS\b
+          - \bPEG Rail\b
+          - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
+  - variant: { driveside: right, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: peg }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bLHD\b
+          - \bUS\b
+          - \bMaxis Rail\b
+          - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
+  - variant: { driveside: right, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: rrw }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bLHD\b
+          - \bUS\b
+          - \bMaxis Rail\b
+          - \bPEG Rail\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
+  - variant: { driveside: left, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: maxis }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bRHD\b
+          - \bEU\b
+          - \bPEG Rail\b
+          - \bRRW\b
+          - /zoption_
+          - UkOld
+  - variant: { driveside: left, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: peg }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bRHD\b
+          - \bEU\b
+          - \bMaxis Rail\b
+          - \bRRW\b
+          - /zoption_
+          - UkOld
+  - variant: { driveside: left, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: rrw }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bRHD\b
+          - \bEU\b
+          - \bMaxis Rail\b
+          - \bPEG Rail\b
+          - /zoption_
+          - UkOld
+  - variant: { driveside: left, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: maxis }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bRHD\b
+          - \bUS\b
+          - \bMaxis Rail\b
+          - \bPEG Rail\b
+          - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
+  - variant: { driveside: left, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: peg }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bRHD\b
+          - \bUS\b
+          - \bMaxis Rail\b
+          - \bPEG Rail\b
+          - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
+  - variant: { driveside: left, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: rrw }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bRHD\b
+          - \bUS\b
+          - \bMaxis Rail\b
+          - \bPEG Rail\b
+          - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
+
+---
+# We use the "unified wealth" as default option, it's getting too complex otherwise.
+assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+version: "2.45"
+lastModified: "2022-11-27T21:57:27Z"
+url: https://community.simtropolis.com/files/file/30162-mgb-terrain-grass-nam-tgn-for-gobias-sudden-valley/?do=download&r=195732
