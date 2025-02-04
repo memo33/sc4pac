@@ -3,6 +3,7 @@ name: terrain-grass-nam-option-cul-de-sacs
 version: "2.45"
 subfolder: 900-overrides
 info:
+  summary: Terrain Grass NAM (TGN) - Cul de Sacs option
   author: rsc204
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain

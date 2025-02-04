@@ -3,6 +3,7 @@ name: terrain-grass-nam-base-pyrenean
 version: "2.45"
 subfolder: 900-overrides
 info:
+  summary: Terrain Grass NAM (TGN) - Pyrenean core files
   author: rsc204
 dependencies:
   - mgb204:terrain-grass-nam-variants-rail
