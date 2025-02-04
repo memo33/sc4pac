@@ -15,7 +15,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/PY-3.jpg.a891728c779a0a500947b46760332928.jpg
 dependencies:
   - mgb204:terrain-grass-nam-base
-  - mgb204:terrain-grass-nam-option-cul-de-sacs
   - mgb204:terrain-grass-nam-addon-base-textures
   - mgb204:terrain-grass-nam-addon-bsc-textures
   - mgb204:terrain-grass-nam-addon-diagonal-fillers
@@ -31,6 +30,7 @@ info:
   author: rsc204
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
+  - mgb204:terrain-grass-nam-option-cul-de-sacs
 variants:
   - variant: { mgb204:tgn:terrain-mod: appalachian }
     dependencies:
