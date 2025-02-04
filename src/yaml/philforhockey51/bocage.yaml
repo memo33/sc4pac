@@ -1,0 +1,90 @@
+group: philforhockey51
+name: bocage
+version: "1.0.0"
+subfolder: 410-agriculture
+info:
+  summary: Bocage
+  description: |-
+    A huge set of neutral Lots with fences and dirt edge texture overlays with girafe seasonal flora.
+    
+    Multiple sets of lots for placement along the edge of your farm fields to create Bocage type areas between fields.
+    
+    The lots include fence props from the BSC ALN RRP fences and overlay textures from the BSC Textures to create a dirt edge along the borders of your farm fields.
+    
+    The lots are divided into three groups; Side, Center, and 2x2. Each of these groups are subdivided into sets with some varied props/paths.  
+  author: philforhockey51, hugues aroux
+  website: https://community.simtropolis.com/files/file/36499-phil-bocage/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670b72ca3cfac_BocageFall.jpg.b4145acfe2aa77bf52ba439d6d326975.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670b72d596584_BocageSummer.jpg.d59c64186dda605ac3ff23305899104a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670b72e62976f_BocageAll.jpg.0e5b64b9f6956b4aa99edee2964c821f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670b73139918e_BocageSampleSummer.jpg.1b7afb8800c18c81dfdbcf31136f57b2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670b7316a1d09_BocageSampleFall.jpg.e36e13b303ee158e6bdfe8c4a6b0c6e1.jpg
+dependencies:
+  - aln:rrp-fences-props
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - girafe:bicycle-pack-vol01-props
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:birches
+  - girafe:bushes
+  - girafe:chestnuts
+  - girafe:daisy
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:grand-firs
+  - girafe:lindens
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:rowan-trees
+  - girafe:sparaxis
+  - hugues-aroux:field-paths-and-hedges-resources
+  - hugues-aroux:field-paths-and-hedges-grass-textures
+  - hugues-aroux:textures-pack
+  - namspopof:props-pack-vol1
+  - namspopof:props-pack-vol2
+  - nbvc:rock-n-stones-props
+  - orange:agri-pack
+  - peg:spot
+  - rfr:deers-and-wild-boars-resources
+variants:
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: transparent }
+    dependencies:
+      - memo:transparent-texture-fix-dll
+    assets:
+      - assetId: philforhockey51-bocage-without-base
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: maxis }
+    assets:
+      - assetId: philforhockey51-bocage-with-base
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: appalachian }
+    assets:
+      - assetId: philforhockey51-bocage-with-base
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: berner-oberland }
+    assets:
+      - assetId: philforhockey51-bocage-with-base
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: pyrenean }
+    assets:
+      - assetId: philforhockey51-bocage-with-base
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: sudden-valley }
+    assets:
+      - assetId: philforhockey51-bocage-with-base
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: wasco }
+    assets:
+      - assetId: philforhockey51-bocage-with-base
+
+---
+url: https://community.simtropolis.com/files/file/36499-phil-bocage/?do=download&r=203860
+assetId: philforhockey51-bocage-with-base
+version: "1.0.0"
+lastModified: "2024-10-13T07:44:09Z"
+
+---
+url: https://community.simtropolis.com/files/file/36499-phil-bocage/?do=download&r=203861
+assetId: philforhockey51-bocage-without-base
+version: "1.0.0"
+lastModified: "2024-10-13T07:44:09Z"
