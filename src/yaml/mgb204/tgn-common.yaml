@@ -1,6 +1,29 @@
 group: mgb204
+name: terrain-grass-nam-base
+version: "2.45"
+info:
+  author: rsc204
+  websites:
+    - https://community.simtropolis.com/files/file/30896-mgb-terrain-grass-nam-tgn-for-lowkee-appalachian/
+    - https://community.simtropolis.com/files/file/30897-mgb-terrain-grass-nam-tgn-for-tsc-pyrenean/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/5686c6d893a46_AP-HousingEstate.jpg.e4ac80a7d1836de8524b37691714ea24.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/5686c6de53c85_AP-ParkandSchool.jpg.4eadfe25b7eb61e8224bdd6af8d84c6a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/PY-1.jpg.a110458b62f3bd8f56a72c985e49c919.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/PY-2.jpg.8af1a7f2472174b3a5beb70a17f2fb02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/PY-3.jpg.a891728c779a0a500947b46760332928.jpg
+variants:
+  - variant: { mgb204:tgn:terrain-mod: appalachian }
+    dependencies:
+      - mgb204:terrain-grass-nam-base-appalachian
+  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+    dependencies:
+      - mgb204:terrain-grass-nam-base-pyrenean
+
+---
+group: mgb204
 name: tgn-rail-variants
-version: "2"
+version: "2.45"
 subfolder: 900-overrides
 info:
   author: rsc204
@@ -13,3 +36,18 @@ variantDescriptions:
     maxis: Choose this if you're using the default Maxis rail textures
     peg: Choose this if you're using PEG's rail textures
     rrw: Choose this if you're using the NAMs RRW override (recommended)
+
+---
+group: mgb204
+name: tgn-terrain-variants
+version: "2.45"
+subfolder: 900-overrides
+info:
+  author: rsc204
+variants:
+  - variant: { mgb204:tgn:terrain-mod: appalachian }
+  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+variantDescriptions:
+  mgb204:tgn:terrain-mod:
+    appalachian: Choose this if you're using Lowkee's Appalachian Terrain Mod
+    pyrenean: Choose this if you're using TSC Pyrenean Terrain Mod
