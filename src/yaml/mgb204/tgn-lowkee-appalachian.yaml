@@ -5,7 +5,7 @@ subfolder: 900-overrides
 info:
   author: rsc204
 dependencies:
-  - mgb204:tgn-rail-variants
+  - mgb204:terrain-grass-nam-variants-rail
 assets:
   - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
     include:

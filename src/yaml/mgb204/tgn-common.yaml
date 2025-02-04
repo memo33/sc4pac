@@ -1,6 +1,7 @@
 group: mgb204
-name: terrain-grass-nam-base
+name: terrain-grass-nam-full
 version: "2.45"
+subfolder: 900-overrides
 info:
   author: rsc204
   websites:
@@ -12,6 +13,23 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/PY-1.jpg.a110458b62f3bd8f56a72c985e49c919.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/PY-2.jpg.8af1a7f2472174b3a5beb70a17f2fb02.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/PY-3.jpg.a891728c779a0a500947b46760332928.jpg
+dependencies:
+  - mgb204:terrain-grass-nam-base
+  - mgb204:terrain-grass-nam-addon-base-textures
+  - mgb204:terrain-grass-nam-addon-bsc-textures
+  - mgb204:terrain-grass-nam-addon-diagonal-fillers
+  - mgb204:terrain-grass-nam-addon-mntoes
+  - mgb204:terrain-grass-nam-addon-paengs-parks
+
+---
+group: mgb204
+name: terrain-grass-nam-base
+version: "2.45"
+subfolder: 900-overrides
+info:
+  author: rsc204
+dependencies:
+  - mgb204:terrain-grass-nam-variants-terrain
 variants:
   - variant: { mgb204:tgn:terrain-mod: appalachian }
     dependencies:
@@ -22,7 +40,107 @@ variants:
 
 ---
 group: mgb204
-name: tgn-rail-variants
+name: terrain-grass-nam-addon-base-textures
+version: "2.45"
+subfolder: 900-overrides
+info:
+  summary: Terrain Grass NAM - Base Texture Addon
+  author: rsc204
+variants:
+  - variant: { mgb204:tgn:terrain-mod: appalachian }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
+        include:
+          - TGN Base Textures.dat
+  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
+        include:
+          - TGN Base Textures.dat
+
+---
+group: mgb204
+name: terrain-grass-nam-addon-bsc-textures
+version: "2.45"
+subfolder: 900-overrides
+info:
+  summary: Terrain Grass NAM - BSC Textures Addon
+  author: rsc204
+variants:
+  - variant: { mgb204:tgn:terrain-mod: appalachian }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
+        include:
+          - TGN BSC Vol1-3 Override.dat
+  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
+        include:
+          - TGN BSC Vol1-3 Override.dat
+
+---
+group: mgb204
+name: terrain-grass-nam-addon-diagonal-fillers
+version: "2.45"
+subfolder: 900-overrides
+info:
+  summary: Terrain Grass NAM - Diagonal Fillers Addon
+  author: rsc204
+variants:
+  - variant: { mgb204:tgn:terrain-mod: appalachian }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
+        include:
+          - TGN Diag Filler Override.dat
+  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
+        include:
+          - TGN Diag Filler Override.dat
+
+---
+group: mgb204
+name: terrain-grass-nam-addon-mntoes
+version: "2.45"
+subfolder: 900-overrides
+info:
+  summary: Terrain Grass NAM - Mntoe's Textures addon
+  author: rsc204
+variants:
+  - variant: { mgb204:tgn:terrain-mod: appalachian }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
+        include:
+          - TGN Mntoes HFC Override.dat
+  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
+        include:
+          - TGN Mntoes HFC Override.dat
+
+---
+group: mgb204
+name: terrain-grass-nam-addon-paengs-parks
+version: "2.45"
+subfolder: 900-overrides
+info:
+  summary: Terrain Grass NAM - Paeng's Parks Addon
+  author: rsc204
+variants:
+  - variant: { mgb204:tgn:terrain-mod: appalachian }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
+        include:
+          - TGN Parks 205 Override.dat
+  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
+        include:
+          - TGN Parks 205 Override.dat
+
+---
+group: mgb204
+name: terrain-grass-nam-variants-rail
 version: "2.45"
 subfolder: 900-overrides
 info:
@@ -39,7 +157,7 @@ variantDescriptions:
 
 ---
 group: mgb204
-name: tgn-terrain-variants
+name: terrain-grass-nam-variants-terrain
 version: "2.45"
 subfolder: 900-overrides
 info:
