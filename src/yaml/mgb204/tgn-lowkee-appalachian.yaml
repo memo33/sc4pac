@@ -11,7 +11,7 @@ assets:
     include:
       - /TGN S3D Textures.dat
 variants:
-  - variant: { driveside: right, roadstyle: US, mgb204:tgn:rail-textures: maxis }
+  - variant: { driveside: right, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: maxis }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
@@ -23,7 +23,7 @@ variants:
           - \bRRW\b
           - /zoption_
           - UkOld
-  - variant: { driveside: right, roadstyle: US, mgb204:tgn:rail-textures: peg }
+  - variant: { driveside: right, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: peg }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
@@ -35,7 +35,7 @@ variants:
           - \bRRW\b
           - /zoption_
           - UkOld
-  - variant: { driveside: right, roadstyle: US, mgb204:tgn:rail-textures: rrw }
+  - variant: { driveside: right, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: rrw }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
@@ -47,7 +47,7 @@ variants:
           - \bPEG Rail\b
           - /zoption_
           - UkOld
-  - variant: { driveside: right, roadstyle: EU, mgb204:tgn:rail-textures: maxis }
+  - variant: { driveside: right, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: maxis }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
@@ -60,7 +60,7 @@ variants:
           - /zoption_
           - UkOld
           - \bRoad RTL\b
-  - variant: { driveside: right, roadstyle: EU, mgb204:tgn:rail-textures: peg }
+  - variant: { driveside: right, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: peg }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
@@ -73,7 +73,7 @@ variants:
           - /zoption_
           - UkOld
           - \bRoad RTL\b
-  - variant: { driveside: right, roadstyle: EU, mgb204:tgn:rail-textures: rrw }
+  - variant: { driveside: right, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: rrw }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
@@ -86,7 +86,7 @@ variants:
           - /zoption_
           - UkOld
           - \bRoad RTL\b
-  - variant: { driveside: left, roadstyle: US, mgb204:tgn:rail-textures: maxis }
+  - variant: { driveside: left, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: maxis }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
@@ -98,7 +98,7 @@ variants:
           - \bRRW\b
           - /zoption_
           - UkOld
-  - variant: { driveside: left, roadstyle: US, mgb204:tgn:rail-textures: peg }
+  - variant: { driveside: left, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: peg }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
@@ -110,7 +110,7 @@ variants:
           - \bRRW\b
           - /zoption_
           - UkOld
-  - variant: { driveside: left, roadstyle: US, mgb204:tgn:rail-textures: rrw }
+  - variant: { driveside: left, roadstyle: US, mgb204:terrain-grass-nam:rail-textures: rrw }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
@@ -122,21 +122,7 @@ variants:
           - \bPEG Rail\b
           - /zoption_
           - UkOld
-  - variant: { driveside: left, roadstyle: EU, mgb204:tgn:rail-textures: maxis }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - /[1235]\b.*
-        exclude:
-          - \bRHD\b
-          - \bUS\b
-          - \bMaxis Rail\b
-          - \bPEG Rail\b
-          - \bRRW\b
-          - /zoption_
-          - UkOld
-          - \bRoad RTL\b
-  - variant: { driveside: left, roadstyle: EU, mgb204:tgn:rail-textures: peg }
+  - variant: { driveside: left, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: maxis }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
@@ -150,7 +136,21 @@ variants:
           - /zoption_
           - UkOld
           - \bRoad RTL\b
-  - variant: { driveside: left, roadstyle: EU, mgb204:tgn:rail-textures: rrw }
+  - variant: { driveside: left, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: peg }
+    assets:
+      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
+        include:
+          - /[1235]\b.*
+        exclude:
+          - \bRHD\b
+          - \bUS\b
+          - \bMaxis Rail\b
+          - \bPEG Rail\b
+          - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
+  - variant: { driveside: left, roadstyle: EU, mgb204:terrain-grass-nam:rail-textures: rrw }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:

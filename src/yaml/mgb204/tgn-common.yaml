@@ -32,10 +32,10 @@ dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
   - mgb204:terrain-grass-nam-option-cul-de-sacs
 variants:
-  - variant: { mgb204:tgn:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
     dependencies:
       - mgb204:terrain-grass-nam-base-appalachian
-  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
     dependencies:
       - mgb204:terrain-grass-nam-base-pyrenean
 
@@ -50,12 +50,12 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:tgn:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - TGN Base Textures.dat
-  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
@@ -72,12 +72,12 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:tgn:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - TGN BSC Vol1-3 Override.dat
-  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
@@ -94,12 +94,12 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:tgn:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - TGN Diag Filler Override.dat
-  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
@@ -116,12 +116,12 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:tgn:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - TGN Mntoes HFC Override.dat
-  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
@@ -138,12 +138,12 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:tgn:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - TGN Parks 205 Override.dat
-  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
@@ -157,11 +157,11 @@ subfolder: 900-overrides
 info:
   author: rsc204
 variants:
-  - variant: { mgb204:tgn:rail-textures: maxis }
-  - variant: { mgb204:tgn:rail-textures: peg }
-  - variant: { mgb204:tgn:rail-textures: rrw }
+  - variant: { mgb204:terrain-grass-nam:rail-textures: maxis }
+  - variant: { mgb204:terrain-grass-nam:rail-textures: peg }
+  - variant: { mgb204:terrain-grass-nam:rail-textures: rrw }
 variantDescriptions:
-  mgb204:tgn:rail-textures:
+  mgb204:terrain-grass-nam:rail-textures:
     maxis: Choose this if you're using the default Maxis rail textures
     peg: Choose this if you're using PEG's rail textures
     rrw: Choose this if you're using the NAMs RRW override (recommended)
@@ -174,9 +174,9 @@ subfolder: 900-overrides
 info:
   author: rsc204
 variants:
-  - variant: { mgb204:tgn:terrain-mod: appalachian }
-  - variant: { mgb204:tgn:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
 variantDescriptions:
-  mgb204:tgn:terrain-mod:
+  mgb204:terrain-grass-nam:terrain-mod:
     appalachian: Choose this if you're using Lowkee's Appalachian Terrain Mod
     pyrenean: Choose this if you're using TSC Pyrenean Terrain Mod
