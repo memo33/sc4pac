@@ -1,0 +1,15 @@
+group: mgb204
+name: tgn-rail-variants
+version: "2"
+subfolder: 900-overrides
+info:
+  author: rsc204
+variants:
+  - variant: { mgb204:tgn:rail-textures: maxis }
+  - variant: { mgb204:tgn:rail-textures: peg }
+  - variant: { mgb204:tgn:rail-textures: rrw }
+variantDescriptions:
+  mgb204:tgn:rail-textures:
+    maxis: Choose this if you're using the default Maxis rail textures
+    peg: Choose this if you're using PEG's rail textures
+    rrw: Choose this if you're using the NAMs RRW override (recommended)

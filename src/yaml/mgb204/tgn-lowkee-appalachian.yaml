@@ -1,5 +1,5 @@
 group: mgb204
-name: tgn-for-lowkee-appalachian
+name: tgn-lowkee-appalachian
 version: "2.45"
 subfolder: 900-overrides
 info:
@@ -12,18 +12,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/5686c6d893a46_AP-HousingEstate.jpg.e4ac80a7d1836de8524b37691714ea24.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_01/5686c6de53c85_AP-ParkandSchool.jpg.4eadfe25b7eb61e8224bdd6af8d84c6a.jpg
 dependencies:
-  - mgb204:tgn-for-lowkee-appalachian-base
-  - mgb204:tgn-for-lowkee-appalachian-rail
-
----
-group: mgb204
-name: tgn-for-lowkee-appalachian-base
-version: "2.45"
-subfolder: 900-overrides
-info:
-  summary: TGN Lowkee Appalachian core files
-  author: rsc204
-  website: https://community.simtropolis.com/files/file/30896-mgb-terrain-grass-nam-tgn-for-lowkee-appalachian/
+  - mgb204:tgn-rail-variants
 assets:
   - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
     include:
@@ -31,182 +20,159 @@ assets:
       - /TGN Diag Filler Override.dat
       - /TGN S3D Textures.dat
 variants:
-  - variant: { driveside: right, roadstyle: US }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - /[123]\b.*/
-        exclude:
-          - \bEU\b
-          - \bLHD\b
-          - /zoption_
-          - UkOld
-  - variant: { driveside: left, roadstyle: US }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - /[123]\b.*/
-        exclude:
-          - \bEU\b
-          - \bRHD\b
-          - /zoption_
-          - UkOld
-  - variant: { driveside: right, roadstyle: EU }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - /[123]\b.*/
-        exclude:
-          - \bUS\b
-          - \bLHD\b
-          - /zoption_
-          - UkOld
-          - \bRoad RTL\b
-  - variant: { driveside: left, roadstyle: EU }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - /[123]\b.*/
-        exclude:
-          - \bUS\b
-          - \bRHD\b
-          - /zoption_
-          - UkOld
-          - \bRoad RTL\b
-
----
-group: mgb204
-name: tgn-for-lowkee-appalachian-rail
-version: "2.45"
-subfolder: 900-overrides
-info:
-  summary: TGN Lowkee Appalachian rail files
-  author: rsc204
-  website: https://community.simtropolis.com/files/file/30896-mgb-terrain-grass-nam-tgn-for-lowkee-appalachian/
-variants:
   - variant: { driveside: right, roadstyle: US, mgb204:tgn:rail-textures: maxis }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bLHD\b
           - \bEU\b
           - \bPEG Rail\b
           - \bRRW\b
+          - /zoption_
+          - UkOld
   - variant: { driveside: right, roadstyle: US, mgb204:tgn:rail-textures: peg }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bLHD\b
           - \bEU\b
           - \bMaxis Rail\b
           - \bRRW\b
+          - /zoption_
+          - UkOld
   - variant: { driveside: right, roadstyle: US, mgb204:tgn:rail-textures: rrw }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bLHD\b
           - \bEU\b
           - \bMaxis Rail\b
           - \bPEG Rail\b
+          - /zoption_
+          - UkOld
   - variant: { driveside: right, roadstyle: EU, mgb204:tgn:rail-textures: maxis }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bLHD\b
           - \bUS\b
           - \bPEG Rail\b
           - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
   - variant: { driveside: right, roadstyle: EU, mgb204:tgn:rail-textures: peg }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bLHD\b
           - \bUS\b
           - \bMaxis Rail\b
           - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
   - variant: { driveside: right, roadstyle: EU, mgb204:tgn:rail-textures: rrw }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bLHD\b
           - \bUS\b
           - \bMaxis Rail\b
           - \bPEG Rail\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
   - variant: { driveside: left, roadstyle: US, mgb204:tgn:rail-textures: maxis }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bRHD\b
           - \bEU\b
           - \bPEG Rail\b
           - \bRRW\b
+          - /zoption_
+          - UkOld
   - variant: { driveside: left, roadstyle: US, mgb204:tgn:rail-textures: peg }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bRHD\b
           - \bEU\b
           - \bMaxis Rail\b
           - \bRRW\b
+          - /zoption_
+          - UkOld
   - variant: { driveside: left, roadstyle: US, mgb204:tgn:rail-textures: rrw }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bRHD\b
           - \bEU\b
           - \bMaxis Rail\b
           - \bPEG Rail\b
+          - /zoption_
+          - UkOld
   - variant: { driveside: left, roadstyle: EU, mgb204:tgn:rail-textures: maxis }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bRHD\b
           - \bUS\b
           - \bMaxis Rail\b
           - \bPEG Rail\b
           - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
   - variant: { driveside: left, roadstyle: EU, mgb204:tgn:rail-textures: peg }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bRHD\b
           - \bUS\b
           - \bMaxis Rail\b
           - \bPEG Rail\b
           - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
   - variant: { driveside: left, roadstyle: EU, mgb204:tgn:rail-textures: rrw }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /5\b.*
+          - /[1235]\b.*
         exclude:
           - \bRHD\b
           - \bUS\b
           - \bMaxis Rail\b
           - \bPEG Rail\b
           - \bRRW\b
+          - /zoption_
+          - UkOld
+          - \bRoad RTL\b
 
 ---
 assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
