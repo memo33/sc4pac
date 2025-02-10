@@ -466,16 +466,22 @@ For complete examples, inspect the metadata of:
      conflicts: Only a DarkNite model exists for this building, so the same model is installed with either nightmode setting.
    ```
 
-### `variantDescriptions`
+### `variantInfo`
 
 You may add descriptions that explain the different variant choices and help in choosing the right one:
 
 ```yaml
-variantDescriptions:
-  nightmode:
-    "standard": "the default MaxisNite style (recommended)"
-    "dark": "for use with a DarkNite mod"
+variantInfo:
+- variantId: "nightmode"
+  description: This setting determines whether buildings rendered for DN or MN are installed.
+  - values:
+    - value: "standard"
+      description: the default MaxisNite style (recommended)
+    - value: "dark"
+      description: for use with a DarkNite mod
 ```
+
+Define a default variant by adding `default: true` to one of the values.
 
 ## Collections
 
