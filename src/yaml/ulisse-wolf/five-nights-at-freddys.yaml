@@ -1,0 +1,50 @@
+group: "ulisse-wolf"
+name: "five-nights-at-freddys"
+version: "2.0"
+subfolder: "300-commercial"
+dependencies:
+- "bsc:mega-props-jenx-vol03"
+- "bsc:vip-girafe-carpack-vol01-vol02"
+- "bsc:vip-girafe-carpack-vol01-vol02-remastered"
+- "bsc:vip-girafe-carpack-vol03"
+- "bsc:vip-girafe-carpack-vol04"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:mega-props-jes-vol01"
+- "supershk:mega-parking-textures"
+
+info:
+  summary: "Freddy Fazbear's pizza restaurant (CS$$)"
+  description: |
+    This Halloween-themed package contains a pizza restaurant as a Stage 2 growable CS$$ lot as well as a ploppable landmark on a 6×6 lot.
+
+    The building is inspired by Five Nights at Freddy's and has been modded to include strange events and brutal murders by cute animatronics during the night.
+  author: "Ulisse Wolf"
+  website: "https://community.simtropolis.com/files/file/35635-ulisse-wolf-five-nights-at-freddys/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/651043b301dc3_FNAFNight.jpg.a0d9e63723575cbc42e65be2854fe433.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/651043b7e7d46_FNAFDay.jpg.3eb0524549a567b129474b2a60dcea5f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/five-nights-at-freddys-group-i61034.jpg.7d778071d9b67d3b8543ae5fefe7f390.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "ulisse-wolf-five-nights-at-freddys"
+    include:
+    - "Allert News - No Invasive/"
+    - "Dependency - Maxis Nite/"
+    - "/Lots/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "ulisse-wolf-five-nights-at-freddys"
+    include:
+    - "Allert News - No Invasive/"
+    - "Dependency - Dark Nite/"
+    - "/Lots/"
+
+---
+assetId: "ulisse-wolf-five-nights-at-freddys"
+version: "2.0"
+lastModified: "2024-05-22T19:44:22Z"
+url: "https://community.simtropolis.com/files/file/35635-ulisse-wolf-five-nights-at-freddys/?do=download"

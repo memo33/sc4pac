@@ -1,0 +1,92 @@
+group: "nam-team"
+name: "tunnel-and-slope-mod"
+version: "0.31"
+subfolder: "150-mods"
+info:
+  summary: "Network Addon Mod Tunnel and Slope Mod"
+  description: |
+    This package provides players with additional choices for the slope
+    parameters of surface transportation networks in the game.
+    This collection of slope mods was designed by Lucario Boricua, author of
+    the Earthworks Tutorials series. Extensive research was conducted for both
+    other slope mods and the findings of previous precision terraforming pioneers,
+    most notably BigRedFish and Ennedi, as well as geometric design
+    characteristics of real transportation networks, to best harmonize playability
+    and realism.
+  author: "Lucario Boricua"
+  website: "https://community.simtropolis.com/files/file/35420-network-addon-mod-tunnel-and-slope-mod/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c4a9482c3dd_NAMTunnelandSlopeMod-01VeryEasy-VerySteep.jpg.09ef905e5748d4429f1e99dce455d32d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c4a94f04fad_NAMTunnelandSlopeMod-02Easy-Steep.jpg.5b7d93c7c92939c4501fb476df661f7b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c4a9562eea3_NAMTunnelandSlopeMod-03Moderate-Vanilla.jpg.3a8a14438a79639aaf2d3a6a322f602c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c4a95b44c57_NAMTunnelandSlopeMod-03Moderate-NAMStyle.jpg.b6072d40249c1f0beef6e97fc9a5261b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c4a95fe4cc2_NAMTunnelandSlopeMod-04Strict-Flat.jpg.2a3f15e464be20f1c58f23d259fa439d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63c4a96868fad_NAMTunnelandSlopeMod-05Realistic-VeryFlat.jpg.9063726ead3170f099ad6f22bee3ffee.jpg
+
+variantInfo:
+- variantId: nam-team:tunnel-and-slope-mod:difficulty
+  description: Choose the relative steepness for all networks.
+  values:
+  - value: maxis
+    description: default slopes
+  - value: very-easy
+    description: very steep
+  - value: easy
+    description: steep
+  - value: moderate-vanilla
+    description: moderate
+  - value: moderate-nam
+    description: moderate with curvature (recommended)
+  - value: strict
+    description: flat with curvature
+  - value: realistic
+    description: very flat with curvature
+
+variants:
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "maxis"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/zNAM_TunnelSLope_00Maxis_Full ?Set/"
+
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "very-easy"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/zNAM_TunnelSlope_01_VeryEasy_VerySteep_Full ?Set/"
+
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "easy"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/zNAM_TunnelSlope_02_Easy_Steep_Full ?Set/"
+
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "moderate-vanilla"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/zNAM_TunnelSlope_03a_Moderate_Vanilla_Full ?Set/"
+
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "moderate-nam"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/zNAM_TunnelSlope_03b_Moderate_NAM_Full ?Set/"
+
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "strict"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/zNAM_TunnelSlope_04_Strict_Flat_Full ?Set/"
+
+- variant: {nam-team:tunnel-and-slope-mod:difficulty: "realistic"}
+  assets:
+  - assetId: "nam-tunnel-and-slope-mod"
+    include:
+    - "/zNAM_TunnelSlope_05_Realistic_VeryFlat_Full ?Set/"
+
+---
+assetId: "nam-tunnel-and-slope-mod"
+version: "0.31"
+lastModified: "2025-02-09T16:42:21Z"
+url: "https://community.simtropolis.com/files/file/35420-network-addon-mod-tunnel-and-slope-mod/?do=download"

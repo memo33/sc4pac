@@ -1,0 +1,48 @@
+group: "mntoes"
+name: "bosham-church"
+version: "2.0"
+subfolder: "650-religion"
+dependencies:
+- "mntoes:bosham-church-model"
+assets:
+- assetId: "mntoes-bosham-church"
+  include:
+  - "/Mntoes Bosham Church_LOT.dat"
+
+info:
+  summary: "Bosham Church, Sussex, UK"
+  description: |
+    Bosham Church (Holy Trinity), established AD 850 and featured in the Bayeux tapestry depicting the visit of Harold II to the church.
+
+    Situated within the Diocese of Chichester (UK), this is one of the earliest churches in Sussex.
+  author: "mntoes"
+  images:
+  - https://www.simtropolis.com/objects/screens/0014/7787272f99ada78ee84c28914f533b44-Bosham%20Church%20Day.jpg
+  - https://www.simtropolis.com/objects/screens/0014/7787272f99ada78ee84c28914f533b44-Bosham%20Church%20night.jpg
+  website: https://community.simtropolis.com/files/file/17530-bosham-church/
+
+---
+group: "mntoes"
+name: "bosham-church-model"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "mntoes-bosham-church"
+  include:
+  - "/Mntoes Bosham Church_resources.dat"
+
+info:
+  summary: "Props and models of the Bosham Church"
+  description: |
+    This is only a dependency.
+  author: "mntoes"
+  website: https://community.simtropolis.com/files/file/17530-bosham-church/
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7787272f99ada78ee84c28914f533b44-Bosham%20Church%20Day.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7787272f99ada78ee84c28914f533b44-Bosham%20Church%20night.jpg
+
+---
+assetId: "mntoes-bosham-church"
+version: "2.0"
+lastModified: "2024-06-13T11:55:03Z"
+url: "https://community.simtropolis.com/files/file/17530-bosham-church/?do=download"

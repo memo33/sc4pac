@@ -1,20 +1,26 @@
-assetId: "cycledogg-tree-controllers"
-version: "1"
-lastModified: "2023-07-20T03:15:30Z"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=32:cycledogg-tree-controllers"
+# assetId: "cycledogg-tree-controllers"
+# version: "1"
+# lastModified: "2023-07-20T03:15:30Z"
+# url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=32:cycledogg-tree-controllers"
+
+assetId: "cycledogg-terrain-essentials-no8-no9"
+version: "2.1"
+lastModified: "2024-01-20T14:05:39Z"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=175:cpt-terrain-essentials-no8-and-no9"
 
 ---
 group: "cycledogg"
 name: "tree-models-part-one-and-two"
-version: "1"
+version: "2.1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "cycledogg-tree-controllers"
-  include:
-  - "/CPT_No8_TreeModelsPartOne.dat"
-  - "/CPT_No9_TreeModelsPartTwo.dat"
+- assetId: "cycledogg-terrain-essentials-no8-no9"
 
 info:
-  summary: "CPT_No8_TreeModelsPartOne.dat and CPT_No9_TreeModelsPartTwo.dat"
+  summary: "CPT Terrain Essentials No8 and No9"
+  description: |
+    This pack contains tree models for use with various CPT tree mods
+    and includes the contents of the former files
+    CPT_No8_TreeModelsPartOne.dat and CPT_No9_TreeModelsPartTwo.dat.
   author: "c.p./Cycledogg"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/32-cycledogg-tree-controllers"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/175-cpt-terrain-essentials-no8-and-no9"

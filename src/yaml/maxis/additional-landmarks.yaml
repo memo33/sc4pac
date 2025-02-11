@@ -3,22 +3,201 @@ version: "1"
 lastModified: "2017-12-11T22:43:15Z"
 url: "https://community.simtropolis.com/library/maxis/sc4/buildings/Maxis_Buildings.zip"
 
-# TODO: Add the full collection?
-# ---
-# group: "maxis"
-# name: "additional-landmarks"
-# version: "1"
-# subfolder: "100-props-textures"
-# assets:
-# - assetId: "maxis-additional-landmarks"
-#   include:
-#   - "/BSC Essentials"
-#   - "/BSC_Reward_essential.*dat"
-# info:
-#   summary: "Additional Maxis landmarks DLC"
-#   description: >
-#     The collection of extra Maxis DLC buildings for SC4.
-#   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+---
+group: "maxis"
+name: "63-building"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/63 Building/"
+info:
+  summary: "63 Building (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "adler-planetarium"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Adler Planetarium/"
+info:
+  summary: "Adler Planetarium (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "air-force-base"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Air Force Base/"
+info:
+  summary: "Air Force Base (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "american-flag"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/American Flag/"
+info:
+  summary: "American flag prop"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "arc-de-triomphe"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Arc de Triomphe/"
+info:
+  summary: "Arc de Triomphe (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "brandenburg-gate"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Brandenburg Gate/"
+info:
+  summary: "Brandenburg Gate (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "canada-flag"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Canada Flag/"
+info:
+  summary: "Canada flag prop"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "capitol-records"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Capitol Records/"
+info:
+  summary: "Capitol Records (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "day-of-peace"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Day of Peace/"
+info:
+  summary: "International Day of Peace prop"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "globe-arena"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Globe Arena/"
+info:
+  summary: "Globe Arena (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "grand-central-station"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Grand Central Station/"
+info:
+  summary: "Grand Central Station (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "grutzehaus"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Grutzehaus/"
+info:
+  summary: "Grutzehaus (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "grutze-industries"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Grutze Industries/"
+info:
+  summary: "Grutze Industries (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "kunjungjon"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Kunjungjon/"
+info:
+  summary: "Kunjungjon (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
 
 ---
 group: "maxis"
@@ -31,5 +210,301 @@ assets:
   - "CastleSet\\.dat$"
 info:
   summary: "CastleSet.dat dependency from the Maxis additional landmarks"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "longfellow-castle"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Longfellow Castle_4d50ba18.SC4Lot"
+dependencies:
+- "maxis:castle-set"
+info:
+  summary: "Longfellow Castle (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "luckys-hang-ten"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Lucky's Hang Ten/"
+info:
+  summary: "Lucky's Hang Ten (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "mayflower-port"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Mayflower Port/"
+info:
+  summary: "Mayflower Port (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "nam-dae-moon"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Nam Dae Moon \\(Sungnyemun\\)/"
+info:
+  summary: "Nam Dae Moon (Sungnyemun) (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "parthenon"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Parthenon/"
+info:
+  summary: "Parthenon (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "rockefeller-center"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Rockefeller Center/"
+info:
+  summary: "Rockefeller Center (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "san-francisco-city-hall"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/San Francisco City Hall/"
+info:
+  summary: "San Francisco City Hall (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "schloss-schoenbrun"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Schloss Schoenbrun/"
+info:
+  summary: "Schloss Schönbrunn (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "seoul-city-hall"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Seoul City Hall/"
+info:
+  summary: "Seoul City Hall (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "seoul-world-cup-stadium"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Seoul World Cup Stadium/"
+info:
+  summary: "Seoul World Cup Stadium (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "shorty-burger"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Shorty Burger/"
+info:
+  summary: "Shorty Burger (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "sobchak-lanes"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Sobchak Lanes/"
+info:
+  summary: "Sobchak Lanes (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "stonehenge"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Stonehenge/"
+info:
+  summary: "Stonehenge (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "stone-house"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Stone House/"
+info:
+  summary: "Ian's House of Stone (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "taipei-fine-arts-museum"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Taipei Fine Arts Museum/"
+info:
+  summary: "Taipei Fine Arts Museum (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "temple-expiatiori"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Temple Expiatiori de la Sagrada Familia/"
+info:
+  summary: "Temple Expiatiori de la Sagrada Familia (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "temple-of-grutz"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/Temple of Grutz/"
+info:
+  summary: "Temple of Grutz (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "the-living-mall"
+version: "1"
+subfolder: "360-landmark"
+assets:
+- assetId: "maxis-additional-landmarks"
+  include:
+  - "/The Living Mall/"
+info:
+  summary: "The Living Mall (Maxis landmark)"
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"
+
+---
+group: "maxis"
+name: "landmarks-collection"
+version: "1"
+subfolder: "360-landmark"
+dependencies:
+- maxis:63-building
+- maxis:adler-planetarium
+- maxis:air-force-base
+- maxis:arc-de-triomphe
+- maxis:brandenburg-gate
+- maxis:capitol-records
+- maxis:globe-arena
+- maxis:grand-central-station
+- maxis:grutze-industries
+- maxis:grutzehaus
+- maxis:kunjungjon
+- maxis:longfellow-castle
+- maxis:luckys-hang-ten
+- maxis:mayflower-port
+- maxis:nam-dae-moon
+- maxis:parthenon
+- maxis:rockefeller-center
+- maxis:san-francisco-city-hall
+- maxis:schloss-schoenbrun
+- maxis:seoul-city-hall
+- maxis:seoul-world-cup-stadium
+- maxis:shorty-burger
+- maxis:sobchak-lanes
+- maxis:stone-house
+- maxis:stonehenge
+- maxis:taipei-fine-arts-museum
+- maxis:temple-expiatiori
+- maxis:temple-of-grutz
+- maxis:the-living-mall
+info:
+  summary: "Additional Maxis landmarks"
+  description: |
+    This collection of plugins contains all the additional landmarks that Maxis published as DLC.
   author: "Maxis"
   website: "https://community.simtropolis.com/sc4-maxis-files/coolstuff/landmarks/index.php"

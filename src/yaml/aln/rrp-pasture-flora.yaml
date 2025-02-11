@@ -1,0 +1,41 @@
+group: aln
+name: rrp-pasture-flora-props
+version: "2.0"
+subfolder: 100-props-textures
+info:
+  summary: RRP Pasture Flora Props
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+assets:
+  - assetId: aln-rrp-pasture-flora
+    include:
+      - /ALN_Pasture Flora.dat
+
+---
+group: aln
+name: rrp-pasture-flora
+version: "2.0"
+subfolder: 180-flora
+info:
+  summary: RRP Pasture Flora
+  description: |-
+    This pack contains a wide variety of mayor mode flora to enhance your terrains in rural and urban settings.
+    They can be found in the middle of the mayor mode menu.
+  author: Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/flora1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/flora2.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/flora3.jpg
+dependencies:
+  - aln:rrp-pasture-flora-props
+assets:
+  - assetId: aln-rrp-pasture-flora
+    exclude:
+      - /ALN_Pasture Flora.dat
+
+---
+assetId: aln-rrp-pasture-flora
+version: "2.0"
+lastModified: "2024-11-01T00:43:50.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=167%3Absc-aln-rrp-pasture-flora

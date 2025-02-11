@@ -1,12 +1,15 @@
+# TODO rename to BSC BATProps Mattb325 Urban Civics
 group: "mattb325"
 name: "urban-civics-prop-pack-vol01"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 
 info:
   summary: "Urban Civics Prop Pack Vol01 by mattb325"
   author: "mattb325"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/97-mattb325-urban-civics-prop-pack-vol01-maxisnite"
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/97-mattb325-urban-civics-prop-pack-vol01-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/96-mattb325-urban-civics-prop-pack-vol01-darknite
 
 variants:
 - variant: { nightmode: standard }
@@ -19,13 +22,12 @@ variants:
 
 ---
 assetId: "mattb325-urban-civics-prop-pack-vol01-darknite"
-version: "1"
-lastModified: "2023-08-09T01:26:41Z"
+version: "2"
+lastModified: "2024-10-26T15:11:52Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=96:mattb325-urban-civics-prop-pack-vol01-darknite"
 
 ---
 assetId: "mattb325-urban-civics-prop-pack-vol01-maxisnite"
-version: "1"
-lastModified: "2023-08-09T01:27:45Z"
+version: "2"
+lastModified: "2024-10-26T21:16:37Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=97:mattb325-urban-civics-prop-pack-vol01-maxisnite"
-

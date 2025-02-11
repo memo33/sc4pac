@@ -8,13 +8,21 @@ dependencies:
 
 info:
   summary: "Casino"
-  description: >
+  description: |
     This casino is completely fictional and is modded such that it is a little
     less offensive to surrounding areas when placed (both visually and in terms
     of its modding) than the default casino.  At nine stories high, it is
     designed to fit into a mid-rise city scape.  It provides 410 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33147-casino/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Casino.jpg.d528754207782346b44cc23a5eea25dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Casino0.jpg.5529073be21278a1651458cec6857bc8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Casino1.jpg.a969f4746ef568c6ac138bb25cfc326d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Casino2.jpg.ade203c3dbc8b20170c79ae38c570dcd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Casino3.jpg.9b6e6c5015ad61c0558633f323becb2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Casino4.jpg.1bc2df1561e1ca962fed1eba99b26669.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/Casino5.jpg.e8aff1259e0c36b75a9c1a62beecf7f6.jpg
 
 variants:
 - variant: { nightmode: standard }

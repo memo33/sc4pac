@@ -1,0 +1,37 @@
+group: scotty222
+name: safeco-plaza
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Safeco Plaza
+  description: |
+    Safeco Plaza, previously 1001 Fourth Avenue Plaza, and the Seattle First National Bank Building is a 50 storey, 192 m (630 ft) skyscraper in downtown Seattle, WA. The tower is nicknamed "the Box the Space Needle came in" by locals. When the tower was completed in 1969 it dwarfed the Smith Tower which had been the cities tallest since 1914 and edged out the Space Needle.
+
+    Includes a CO$$ grow and a CO$$ plop both on a 3x4 lot and both with 4749 jobs.
+  author: scotty222
+  website: https://community.simtropolis.com/files/file/29721-safeco-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/34b79633a67ad157898b3cc147a15aa1-safeco-preview.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/65af1f61a5296066af650e26ab60c25a-safeco-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2014/58f223ecdc81e62d5c8be0e214f5d8f4-safeco-night.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+    - assetId: scotty222-safeco-plaza-maxisnite
+- variant: { nightmode: dark }
+  dependencies: ["simfox:day-and-nite-mod"]
+  assets:
+    - assetId: scotty222-safeco-plaza-darknite
+
+---
+assetId: scotty222-safeco-plaza-maxisnite
+version: "1.0"
+lastModified: "2014-07-07T01:34:38Z"
+url: https://community.simtropolis.com/files/file/29721-safeco-plaza/?do=download&r=137274
+
+---
+assetId: scotty222-safeco-plaza-darknite
+version: "1.0"
+lastModified: "2014-07-07T01:34:38Z"
+url: https://community.simtropolis.com/files/file/29721-safeco-plaza/?do=download&r=137275

@@ -1,0 +1,40 @@
+group: "b62"
+name: "verizon-substation"
+version: "3"
+subfolder: "400-industrial"
+info:
+  summary: "A Verizon cellular broadcast tower"
+  description: |
+    Lately your sims have been complaining about the crappy cell service in your city.
+    Luckily, you decided to commission this new Verizon Substation in your city to boost service before the sims riot.
+
+    This package contains a 3x3 I-HT growable and ploppable lot.
+
+    Additionally, this package adds a Verizon Van as automata that may or may not spawn when you place the lot.
+    It was created by Swamper77, an authority on automata.
+  author: "Bobbo662, nos.17, Swamper77"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/verizon-1.png.b45a2cfcfe32246e5bebaa12b303177a.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/verizon-2.png.61a544f5c9a9fb97a2edbd91871b05ca.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/verizon-3.png.95b5c2988a98f1a70525faba3110dbcc.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/verizon-4.png.1253c54d286c68a70f45619c12959ced.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/verizon-5.png.c1bf77596d38fdc63a69df7de4e50f2a.png"
+  website: "https://community.simtropolis.com/files/file/30632-b62-remastered-verizon-substation/"
+dependencies:
+- "bsc:mega-props-jes-vol02"
+- "shk:parking-pack"
+- "bsc:mega-props-cp-vol02"
+- "supershk:mega-parking-textures"
+# - "takemethere:mount-royal-transmission-tower"  # not needed, as asset is extracted directly below
+assets:
+- assetId: "b62-verizon-substation"
+- assetId: "takemethere-mount-royal-transmission-tower"
+  include:
+  - "/Montreal1 red-white.SC4Desc"
+  - "/Montreal1 red-white.SC4Model"
+
+---
+url: "https://community.simtropolis.com/files/file/30632-b62-remastered-verizon-substation/?do=download&r=202775"
+assetId: "b62-verizon-substation"
+version: "3"
+lastModified: "2024-08-23T01:14:24Z"

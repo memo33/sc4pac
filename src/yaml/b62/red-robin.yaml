@@ -1,0 +1,30 @@
+group: "b62"
+name: "red-robin"
+version: "1"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable American restaurant chain"
+  description: |
+    "Come in and enjoy an outrageously delicious burger with Bottomless Steak Fries. Pair it with a cold beer or signature Freckled Lemonade."
+
+    This package contains a 4x4 CS$$ growable and ploppable lot.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/red-robin-1.png.dfe0e139e4e686d195409803745e117d.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/red-robin-2.png.6b7334c5098e8512ba8be2095cba54f0.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/red-robin-3.png.6faf43e8daf5037641ac8f052b6f4107.png"
+  website: "https://community.simtropolis.com/files/file/31803-b62-remastered-red-robin/"
+dependencies:
+- "shk:parking-pack"
+- "bsc:mega-props-sg-vol01"
+- "supershk:mega-parking-textures"
+- "lbt:mega-prop-pack-vol01"
+- "bsc:mega-props-mjb-vol01"
+assets:
+- assetId: "b62-red-robin"
+
+---
+url: "https://community.simtropolis.com/files/file/31803-b62-remastered-red-robin/?do=download&r=202582"
+assetId: "b62-red-robin"
+version: "1"
+lastModified: "2024-08-17T00:25:42Z"

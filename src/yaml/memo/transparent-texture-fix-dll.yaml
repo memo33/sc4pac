@@ -1,0 +1,26 @@
+group: "memo"
+name: "transparent-texture-fix-dll"
+version: "1.0.0-1"
+subfolder: "150-mods"
+assets:
+- assetId: "memo-transparent-texture-fix-dll"
+  withChecksum:
+  - include: "/memo.transparent-texture-fix.dll"
+    sha256: 5b472588ff9a6df1628203fe26983c00cea0bbccfc1a9f755a9a03dd9c668c17
+
+info:
+  summary: "Fixes the underground/water view bug"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    This DLL plugin fixes the underground view bug (water bug) that occurs on lots using overlay textures without a base texture, after exiting the underground view.
+  author: "memo"
+  website: "https://community.simtropolis.com/files/file/36379-transparent-texture-fix-dll/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.jpeg.0ff9c72de8289d13d1854c204a6efc49.jpeg"
+
+---
+assetId: "memo-transparent-texture-fix-dll"
+version: "1.0.0-1"
+lastModified: "2024-08-08T20:09:26Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36379-transparent-texture-fix-dll/?do=download"
+url: "https://github.com/memo33/transparent-texture-fix-dll/releases/download/1.0.0/transparent-texture-fix-dll-1.0.0.zip"

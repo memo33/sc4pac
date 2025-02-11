@@ -1,0 +1,21 @@
+group: "simfox"
+name: "treepack-vol02"
+version: "2"
+subfolder: "100-props-textures"
+info:
+  summary: "Tree props by SimFox"
+  description: |
+    This is a pack of 7 trees in form of both Props and Mayor Mode Ploppables.
+  author: "SimFox"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0026/e9fb36f5a103a762ac3afd1fdfaf2c07-Title1.jpg"
+  - "https://www.simtropolis.com/objects/screens/0026/e9fb36f5a103a762ac3afd1fdfaf2c07-Title2.jpg"
+  website: "https://community.simtropolis.com/files/file/21640-simfox-treepack-2/"
+assets:
+- assetId: "simfox-treepack-vol02"
+
+---
+url: "https://community.simtropolis.com/files/file/21640-simfox-treepack-2/?do=download"
+assetId: "simfox-treepack-vol02"
+version: "2"
+lastModified: "2009-05-01T08:37:44Z"

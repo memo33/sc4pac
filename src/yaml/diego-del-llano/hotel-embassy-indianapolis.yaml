@@ -1,0 +1,29 @@
+group: diego-del-llano
+name: hotel-embassy-indianapolis
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Hotel Embassy Indianapolis
+  description: |
+    Embassy Suites Locted in Indianapolis, Indiana.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32937-hotel-embassy-indianapolis/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/INDIA03.jpg.15624f6eca5cb4e3f53cfc0d1ffde277.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_05/EMBASY.jpg.fea4a9f86a18311ca037726f4eaead64.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-hotel-embassy-indianapolis-darknite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-hotel-embassy-indianapolis-darknite
+
+---
+assetId: diego-del-llano-hotel-embassy-indianapolis-darknite
+version: "1.0"
+lastModified: "2019-05-28T01:31:42Z"
+url: https://community.simtropolis.com/files/file/32937-hotel-embassy-indianapolis/?do=download

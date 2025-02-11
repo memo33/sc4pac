@@ -1,0 +1,47 @@
+# The asset contains several more fauna types. TODO Package the rest of them.
+assetId: "jenx-fauna"
+version: "1.0"
+lastModified: "2023-09-15T16:33:15-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=155:sc4d-lex-legacy-jenx-fauna"
+
+---
+group: "jenx"
+name: "cows"
+version: "1.0"
+subfolder: "180-flora"
+assets:
+- assetId: "jenx-fauna"
+  include:  # we exclude the lots
+  - "/JENXFAUNA_Cows.dat"
+info:
+  summary: "Cows as god-mode ploppable fauna"
+  author: "xannepan"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/155-sc4d-lex-legacy-jenx-fauna"
+
+---
+group: "jenx"
+name: "sheep"
+version: "1.0"
+subfolder: "180-flora"
+assets:
+- assetId: "jenx-fauna"
+  include:  # we exclude the lots
+  - "/JENXFAUNA_Sheep.dat"
+info:
+  summary: "Sheep as god-mode ploppable fauna"
+  author: "xannepan"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/155-sc4d-lex-legacy-jenx-fauna"
+
+---
+group: "jenx"
+name: "pigs"
+version: "1.0"
+subfolder: "180-flora"
+assets:
+- assetId: "jenx-fauna"
+  include:  # we exclude the lots
+  - "/JENXFAUNA_Pigs.dat"
+info:
+  summary: "Pigs as god-mode ploppable fauna"
+  author: "xannepan"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/155-sc4d-lex-legacy-jenx-fauna"

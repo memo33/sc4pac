@@ -1,0 +1,45 @@
+group: aaron-graham
+name: dover-house
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Dover House (W2W)
+  description: |
+    Dover House is a 1962 fourteen story apartment located in Manhattan, New York City.
+    The building grows as R$$ and R$$$ in four color variations on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/28900-nybt-dover-house/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/59f7c7b7c1a8839864f4878b9ccb814c-dover-house-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/f581660ee998854621caca3d9718060e-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/79d69ccc0c6b5fc00b8fee31fa5adf89-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/d902bd1f79e43abd2aa13a7b9cd11952-dark-night.jpg
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-dover-house-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-dover-house-maxisnite
+
+---
+assetId: aaron-graham-dover-house-darknite
+version: "1.0"
+lastModified: "2013-07-31T04:00:32Z"
+url: https://community.simtropolis.com/files/file/28900-nybt-dover-house/?do=download&r=120750
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-dover-house-maxisnite
+version: "1.0"
+lastModified: "2013-07-31T04:00:32Z"
+url: https://community.simtropolis.com/files/file/28900-nybt-dover-house/?do=download&r=120749
+archiveType:
+  format: Clickteam
+  version: "40"

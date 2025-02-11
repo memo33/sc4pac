@@ -1,0 +1,30 @@
+group: "b62"
+name: "bjs-wholesale-club"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "BJ's Wholesale Grocery"
+  description: |
+    BJ's was started by discount department store chain Zayre in 1984. The company's name was derived from the initials of Beverly Jean Weich, the daughter of Mervyn Weich, the president of the new company. As of November 6, 2013, BJ's operated 200 BJ's clubs in fifteen states and employed approximately 25,000 team members (both full- and part-time). Its major competitors are Costco Wholesale and Walmart's version of a warehouse club concept, Sam's Club.
+
+    This package contains an 8x8 CS$ growable and ploppable lot.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/bjs-1.png.0482d8d8b1bca72ff8199a029004ddff.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/bjs-2.png.58891b714691d10da6ad6684475f71fc.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/bjs-3.png.bc897b91b5b546da29bb725f12beb70d.png"
+  website: "https://community.simtropolis.com/files/file/31106-b62-remastered-bjs-wholesale/"
+dependencies:
+- "shk:parking-pack"
+- "lbt:mega-prop-pack-vol01"
+- "bsc:mega-props-cp-vol02"
+- "supershk:mega-parking-textures"
+- "nos17:essentials"
+assets:
+- assetId: "b62-bjs-wholesale-club"
+
+---
+url: "https://community.simtropolis.com/files/file/31106-b62-remastered-bjs-wholesale/?do=download&r=202451"
+assetId: "b62-bjs-wholesale-club"
+version: "3"
+lastModified: "2024-08-14T23:16:27Z"

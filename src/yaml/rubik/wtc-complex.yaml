@@ -1,0 +1,17 @@
+assetId: "bsc-rubik-wtc-complex"
+version: "2.0"
+lastModified: "2024-09-02T23:42:33Z"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=279:sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex"
+
+---
+group: "bsc"
+name: "mega-props-rubik3-vol01-wtc-props"
+version: "2"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-rubik-wtc-complex"
+  include: [ "/BSC MEGA Props - Rubik3 Vol01 - WTC Props v..dat" ]
+info:
+  summary: "BSC MEGA Props Rubik3 Vol01 - WTC Props by Rubik3"
+  author: "Rubik"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/279-sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex"

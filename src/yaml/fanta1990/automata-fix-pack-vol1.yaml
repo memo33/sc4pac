@@ -1,13 +1,24 @@
 group: "fanta1990"
 name: "automata-fix-pack-vol1"
 version: "1.0"
-subfolder: "150-mods"
+subfolder: "150-mods"  # installed here instead of 710-automata to allow overriding by custom automata mods
 assets:
 - assetId: "apeek-automata-fix-pack-vol1"
 info:
   summary: "Fix visual glitches of plane and train models"
   author: "FANTA1990, apeek"
   website: "https://community.simtropolis.com/files/file/29394-automata-fix-pack-vol1/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/efb028794f332e6d3b2c049cb54b5996-freight-engine--old----copy.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/07d7a5613a775b9cd824c815ef7f4213-freight-engine--both-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/4d08cc6d7fa0ae56af7ad606c36ba744-midjetplane-fix--before-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/a8757c1d953de95315396d1cf43c242e-midjetplane-fix--after-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/0f4840c16aa54d97b3abae22b6d83ccb-midjetplane-fix--both-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/755c56851a0bfdbad54bcf6f35993300-skydiver-skin-fix--before-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/286069317f62dc3aae62bfbaa5cc49b6-skydiver-skin-fix--after-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/0991bccc04fe3adcd2b54e452092aaf7-armybase_jumpjacksx3--before-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/eb29255ea3216ba3f3ac87a885422903-armybase_jumpjacksx3--after-a-.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2014/4a6801c603d47912921395cbe91d1ded-armybase_jumpjacksx3--after-b-.jpg
 
 ---
 assetId: "apeek-automata-fix-pack-vol1"

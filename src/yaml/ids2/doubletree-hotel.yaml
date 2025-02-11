@@ -1,0 +1,40 @@
+group: "ids2"
+name: "doubletree-hotel"
+version: "1.0.0"
+subfolder: "300-commercial"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "ids2-doubletree-hotel-mn"
+- variant: { nightmode: "dark" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "ids2-doubletree-hotel-dn"
+
+info:
+  summary: "Large hotel building (CS$$)"
+  description: |
+    Based on one in Milwaukee, Wisconsin, this is a fairly nondescript mid-70s hotel and conference center, akin to what you would see in any sizeable American city.
+
+    This building sits on a 7×3 lot and comes in growable and ploppable CS$$ varieties.
+  author: "IDS2"
+  website: "https://community.simtropolis.com/files/file/36424-doubletree-hotel/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_09/icon_large.jpg.d147a08a695a651a563c0848820e3112.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_09/day.jpg.f6459acf4d36c78b5016eeb4d42e58d7.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_09/night.jpg.e7f09205078556a7e4c585917f0eccf5.jpg"
+
+---
+assetId: "ids2-doubletree-hotel-mn"
+version: "1.0.0"
+lastModified: "2024-09-03T00:53:45Z"
+url: "https://community.simtropolis.com/files/file/36424-doubletree-hotel/?do=download&r=203084"
+
+---
+assetId: "ids2-doubletree-hotel-dn"
+version: "1.0.0"
+lastModified: "2024-09-03T00:53:45Z"
+url: "https://community.simtropolis.com/files/file/36424-doubletree-hotel/?do=download&r=203083"

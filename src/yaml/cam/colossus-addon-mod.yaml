@@ -1,0 +1,61 @@
+assetId: "cam-colossus-addon-mod"  # invisichem mac version
+version: "2.1.0a"
+lastModified: "2023-07-25T19:35:58-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=52:colossus-addon-mod-version-2-1-0a-mac-by-invisichem"
+
+---
+assetId: "cam-memo-exemlar-patch"
+version: "1"
+lastModified: "2024-03-24T18:22:49Z"
+url: "https://github.com/memo33/submenus-dll/releases/download/1.1.0/CAM_2.1.0_Stand_Permanent.memo-exemplar-patch.zip"
+
+---
+group: "cam"
+name: "colossus-addon-mod"
+version: "2.1.0a-2"
+subfolder: "050-load-first"
+
+variants:
+- variant: { CAM: "no" }
+- variant: { CAM: "yes" }
+  dependencies:
+  - "memo:submenus-dll"  # for exemplar patching
+  assets:
+  - assetId: "cam-colossus-addon-mod"
+    include:
+    - "/CAM_2.1.0_Main_Controller.dat"
+    - "/CAM_2.1.0_PlayStyle_Extended.dat"
+    - "/CAM_2.1.0_Buildings.dat"
+  - assetId: "cam-memo-exemlar-patch"
+
+variantDescriptions:
+  CAM:
+    "no": "Choose this if you do not want to install the Colossus Addon Mod (CAM)."
+    "yes": "Choose this to install the Colossus Addon Mod (CAM)."
+
+info:
+  summary: Colossus Addon Mod
+  warning: |-
+    It is crucial to start a new region when installing CAM, as the mod drastically changes the simulation parameters.
+
+  conflicts: |-
+    Only compatible with game version 1.1.641, the Windows digital edition.
+    See the CAM manual for a list of mod incompatibilities.
+
+  description: |
+    The Colossus Addon Mod (CAM) is a big mod that drastically changes the way cities and regions develop.
+    Most importantly, it adds new Growth Stages 9 to 15, beyond the game's default Stages 1 through 8.
+    This leads to extended and more realistic gameplay, especially for the later phases of the game.
+
+    To make the most of CAM, you will need to install a variety of CAM-patible buildings for the higher Growth Stages.
+
+    This package installs the default "Extended" playstyle variant.
+
+    This package includes the agricultural demand fix (I-R fix).
+    (This fix is now implemented using a DLL, so it is not necessary to modify any original game files.
+    For game versions not supported by the DLL, you can install CAM or the I-R fix manually instead.)
+
+    Please consult the extensive CAM documentation for further information.
+
+  author: "RippleJet, BarbyW, InvisiChem, CorinaMarie, Ulisse Wolf and many others"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/52-colossus-addon-mod-version-2-1-0a-mac-by-invisichem"

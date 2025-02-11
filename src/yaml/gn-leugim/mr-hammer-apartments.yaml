@@ -1,0 +1,23 @@
+group: "gn-leugim"
+name: "mr-hammer-apartments"
+version: "1.0"
+subfolder: "200-residential"
+assets:
+- assetId: "gnl-eha-mr-hammer-apartments"
+info:
+  summary: "Midsize European R$ apartment building (EHA) (EBLT)"
+  description: |
+    This building is part of the European House Add-on (EHA) project
+    which seamlessly integrates with Maxis buildings by extending the original building families.
+  conflicts: "Incompatible with mods blocking Maxis lots"
+  author: "Gn_Leugim"
+  website: "https://community.simtropolis.com/files/file/28045-gnl-eha-mr-hammer-aparments/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/76f7ee3d925a9d2fa9d2acbcbed68aa5-img.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/a4e3082faecc2eaf90e6826976d68330-img2.jpg
+
+---
+assetId: "gnl-eha-mr-hammer-apartments"
+version: "1.0"
+lastModified: "2024-02-06T12:22:49Z"
+url: "https://community.simtropolis.com/files/file/28045-gnl-eha-mr-hammer-aparments/?do=download"

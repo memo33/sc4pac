@@ -1,24 +1,25 @@
 # Apart from the Maxis variant, this patch is merged directly into the corresponding terrain mods.
+# For example: src/yaml/cycledogg/terrain-mods.yaml
 
 assetId: "lowkee33-seasonal-flora-patch"
-version: "1"
-lastModified: "2023-07-20T00:56:21Z"
+version: "2"
+lastModified: "2024-01-28T13:59:53-08:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=36:lk33-seasonalflorapatch"
 
 ---
 group: "lowkee33"
 name: "seasonal-flora-patch-maxis"
-version: "1"
-subfolder: "050-early-mods"  # placed here so that other terrain mods can easily override it
+version: "2-1"
+subfolder: "050-load-first"  # placed here so that other terrain mods can easily override it
 assets:
 - assetId: "lowkee33-seasonal-flora-patch"
-  include: [ "^/z_LK_FloraTuningParameters_Seasonal_Maxis_or_Other.dat" ]
+  include: [ "/z_LK_FloraTuningParameters_Seasonal_Maxis_or_Other.dat" ]
 
 info:
   summary: "A patch required to make seasonal flora work"
-  description: >
+  description: |
     This patch corrects the Maxis Flora Tuning Parameters Exemplar for the use with seasonal tree controllers.
-  conflicts: >-
+  conflicts: |-
     This patch is compatible with the Maxis-default terrain
     and with terrain mods not including the Flora Tuning Parameters Exemplar
     (Pyrenean terrain mod and terrain mods coming from the PLEX).

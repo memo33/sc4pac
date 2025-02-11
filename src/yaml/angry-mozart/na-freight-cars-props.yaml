@@ -1,0 +1,258 @@
+url: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/?do=download"
+assetId: "angry-mozart-na-freight-cars-props"
+version: "1.0"
+lastModified: "2017-10-15T06:51:46Z"
+
+
+---
+group: "angry-mozart"
+name: "na-freight-cars-props"
+version: "1.0"
+subfolder: "100-props-textures"
+dependencies:
+- "angry-mozart:na-covered-hopper-train-props"
+- "angry-mozart:na-boxcar-props"
+- "angry-mozart:na-autorack-props"
+- "angry-mozart:na-flat-car-props"
+- "angry-mozart:na-tank-car-props"
+- "angry-mozart:na-gondola-props"
+- "angry-mozart:na-coil-car-props"
+- "angry-mozart:na-coal-hopper-props"
+- "angry-mozart:na-intermodal-props"
+- "angry-mozart:na-locomotive-props"
+info:
+  summary: "HD North American rolling stock train props"
+  description: |
+     Give realism to your railroad tracks, yards, sidings, spurs and industrial zones with these freight cars and locomotives dating from the 1980's to our modern days. This prop pack includes newer rolling stock pieces, some of them never seen before in SimCity 4, including autoracks, coil cars, gondolas, boxcars, hoppers, and tank cars, containers, and trailers. Over 300 different variations are included, all of them rendered in HD and in 20 different versions (ortho, diagonal, curve fitting and FAR versions).
+
+     If you are looking for specific types of train cars only, consider one of the smaller specialized packs listed as dependency instead of this full one.
+  author: "Angry Mozart"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic1.png.a9995b6d155d30515da74432be7bdcdc.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic2.png.da5b1f3f377efc0c95ee86b9ab0a7000.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic3.png.3e7c56368e6ea942aa7bd8ad579e0710.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic4.png.b75c78a53bfcc6ddc084a8dc3eb0c1ef.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2017_10/pic5.png.0211449f55075acfabd67d037803517e.png"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+group: "angry-mozart"
+name: "na-covered-hopper-train-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+  include:
+  - "/50box"
+  - "/60box"
+  - "/57mechreef"
+  - "/reefer"
+  - "/89box"
+info:
+  summary: "HD North American boxcar props"
+  description: |
+     Boxcars are maybe the most popular and recognized freight car in history, shaping the railroads for more than 150 years. carrying almost everything as long as it fits, keeping the cargo safe. In the modern times, you can find  different lengths of boxcars, from the 50 foot boxcar to 86 foot Hi-Cube boxcar.
+      • 50 ft Boxcar This boxcar can be found almost everywhere, being used for general service.
+      • 60 ft Hi-Cube Boxcar Longer and taller version of the 50 ft boxcar, being used for (lighter) general service. This boxcar can be found almost everywhere.
+      • 57 ft Mechanical Refrigerated Boxcar This boxcar is specialized for temperature sensible cargo, such as perishables like fruits, fish, etc.
+      • 64 ft and 72 ft Refrigerated Boxcar A longer, modern version of the mechanical reefer. It can be found on food processing plants, fishing docks, etc.
+      • 86 ft Hi-Cube Boxcar This is the longest boxcar, carrying most of the time auto parts, but they can also carry large, bulky cargo, such as toilet paper, boxes of cereal, etc. Found most of the times in auto parts or automobiles plants.
+  author: "Angry Mozart"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+group: "angry-mozart"
+name: "na-boxcar-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+  include:
+  - "/2bay"
+  - "/3bay"
+  - "/4bay"
+info:
+  summary: "HD North American covered hopper train props"
+  description: |
+    Although they are not as old as boxcars, these cars are one of the most common cars, hauling a great variety of things, like corn, wheat, sand, cement, chemical products, plastic pellets, etc. They can be found in such a great variety of industries, from grain elevators to chemical plants.  In this pack you can find the following covered hoppers:
+      • 2-Bay Covered Hopper: A small covered hopper with two unloading bays at the bottom. Used mostly for heavier bulk cargo like cement, although they can haul everything.
+      • 3-Bay Covered Hopper: A covered hopper with three unloading bays. Used for general bulk service.
+      • 4-Bay Cylindrical Covered Hopper A cylindrical hopper with four unloading bays. This hopper was unsuccessful in the US and, in consequence, hard to spot on American railroads, but they were quite popular in Canada and Mexico, being more common in these countries.
+  author: "Angry Mozart"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+group: "angry-mozart"
+name: "na-autorack-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+  include:
+  - "/autorack"
+info:
+  summary: "HD North American autorack train props"
+  description: |
+     Even automobiles are delivered by rail,and this is done in autoracks. These long boxes come with one, two or three levels, depending of the size of the cars and trucks being transported.
+
+     These cars have many features that ensure the safety of the automobiles, like enclosing (the grey panels on the sides of the car), a roof, cushion systems and end doors for an easy loading/unloading, that protect the automobiles form Mother Nature and from rebel teenagers that throw rocks or paint the sides with graffiti. In this pack you'll find the 89 ft Enclosed Autorack , in a great variety of railroad liveries.
+  author: "Angry Mozart"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+group: "angry-mozart"
+name: "na-flat-car-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+  include:
+  - "/60flat"
+  - "/bulkhead"
+  - "/centerbeam"
+  - "/89flat"
+  - "/logbulkhead"
+  - "/loads"
+info:
+  summary: "HD North American flat car train props"
+  description: |
+    Ah, the good old flat car, maybe the most simplest car on service. But don't be fooled by its simpleness, it can haul big and complex loads, such as heavy duty equipment, military vehicles, wind turbines, etc. It can haul almost everything, being one of the most versatile cars. Flat cars also have many variations, like depressed flat cars, centerbeams or bulkhead flat cars. This pack contains:
+      • 60 ft Flat Car: a small flat car for general purposes.
+      • 62 ft Bulkhead Flat car: A flatcar with two bulkheads at its ends.
+      • 62 ft Log Bulkhead Flat Car: A bulkhead specialized for log transportation.
+      • 66 ft Bulkhead Flat Car: A longer bulkhead for longer loads.
+      • 73 ft Centerbeam: A flatcar with beams on its center. Used specially for wood panels.
+      • 89 ft Flat Car: A longer flat car, used for general purposes and/or longer loads.
+      • Loads: A set of loads to use with the flat cars and bulkheads, like steel beams, wheels,pipes, etc
+  author: "Angry Mozart"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+group: "angry-mozart"
+name: "na-tank-car-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+  include:
+  - "/tankcar"
+info:
+  summary: "HD North American tank car train props"
+  description: |
+    At first glance, they look the same, but they're different depending of what does they move. Tank cars are used to move fluids (liquids and gases) like crude oil, acids, ethanol, corn syrup, chlorine, anhydrous ammonia, etc. They come in different sizes and they are usually named by capacity than length, but, for general purposes, in this pack they are named by length. You will find:
+      • 40 ft Tank Car: A small tank car, used mostly for food grade fluids, like corn syrup.
+      • 57 ft Tank Car: A tank car used for general purposes, such as crude oil, chlorine, ethanol, etc.
+
+    You can find them in refineries, chemical plants, oil wells, ethanol plants, and in some food processing plants, like beverages factories.
+  author: "Angry Mozart"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+group: "angry-mozart"
+name: "na-gondola-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+  include:
+  - "/gondola"
+  - "/woodchip"
+info:
+  summary: "HD North American gondola train props"
+  description: |
+    Gondolas are an important car for the industry (specially the steel industry).Due to its versatility and rude use, they are used to haul many different loads, like scrap, woodchip, steel coils, coal, etc. This pack, includes two different types of gondolas:
+      • 54 ft Gondola: Used for great variety of loads. These cars are found on scrap yards, recycling plants and/or steel foundries. In this pack, you'll find an empty version and three different loads:
+        - Chipped scrap.
+        - Mixed scrap.
+        - Aluminum can bales.
+      • 59 ft Woodchip Gondola A taller, longer gondola, used for woodchips. Found on sawmills and industries that burn or recycle the woodchips, like paper factories.
+  author: "Angry Mozart"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+group: "angry-mozart"
+name: "na-coil-car-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+  include:
+  - "/coilcar"
+info:
+  summary: "HD North American coil car train props"
+  description: |
+    Known in some places as ”lunch boxes”, these cars are specialized to haul steel coils that requires careful handling. These cars are basically a small cushioned gondola with removable hoods that covers the coils, keeping them safe from environment. These cars can be found on steel mills, auto parts factories, or any other industry that produce steel products. In this pack, you'll find the 42 ft Steel Coil Car.
+  author: "Angry Mozart"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+group: "angry-mozart"
+name: "na-coal-hopper-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+  include:
+  - "/bethgoncoal"
+  - "/coalhopper"
+info:
+  summary: "HD North American coal hopper train props"
+  description: |
+    Coal is one of the most transported commodities in the world, and its mostly transported by rail. These hoppers can haul tons of coal. These cars can be found near coal mines, power plants, and industries that need burn coal. In this pack:
+      • Bethlehem Steel 100 Ton Coal Hopper: A coal hopper with an empty version and two loaded versions.
+      • Bethgon Coalporter Hopper: A modern, aluminum hopper with an empty version and a loaded version
+  author: "Angry Mozart"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+group: "angry-mozart"
+name: "na-intermodal-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+  include:
+  - "/40wellcar"
+  - "/40container"
+  - "/45container"
+  - "/53container"
+  - "/53wellcar"
+  - "/tofc"
+  - "/dryvan"
+info:
+  summary: "HD North American intermodal train props"
+  description: |
+    Today, intermodal freight transport is the most popular way to transport products all around the world. This is not a surprise when it comes to a mode of transportation that can be shipped by road, rail or ship without opening the container, reducing time and cost. In North America exist two types of intermodal: International Intermodal and Domestic Intermodal.
+
+    International Intermodal: In international intermodal (figure 4), containers are standardized by international rules (ISO), making it possible to load a container on a truck, train or ship anywhere in the world. International intermodal uses 20 ft, 40 ft and 45 ft containers.
+
+    Domestic Intermodal: In domestic intermodal (figure 5), containers are shipped only trough the US, Mexico and Canada. This makes possible the loading of longer containers (28 ft, 48 ft, 53 ft). Also, trailers can be loaded on special flat cars, (Trailer On Flat Car or TOFC), reducing cost in transportation and time. In this pack, you will find:
+      • 40 ft Wellcar A car that can haul containers of maximum length of 40 ft.
+      • 53 ft Wellcar: A car that can haul containers of maximum length of 53 ft.
+      • 40 ft Container: A container used for international intermodal.
+      • 45 ft Container: Another container used for international intermodal.
+      • 53 ft Container: A container used for domestic intermodal.
+      • 89 ft TOFC Flat Car: A flat car usually loaded with trailers.
+      • 45 ft Dry van: A dry van trailer.
+      • 53 ft Dry van: Another dry van trailer.
+  author: "Angry Mozart"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"
+
+---
+group: "angry-mozart"
+name: "na-locomotive-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "angry-mozart-na-freight-cars-props"
+  include:
+  - "/gp38"
+  - "/gp40"
+info:
+  summary: "HD North American locomotive train props"
+  description: |
+    What is a train without locomotives? Just a bunch of static cars. That's why this package brings some locomotives, although they are not so modern, (built in the early 70's) they're still serving in many railroads, as a switchers or in short lines. In this pack you will find:
+      • EMD GP38-2: Built from 1972 to 1989, this 2000 hp (1.5 MW) locomotive is capable to do all the switching you'll need.
+      • EMD GP40: Built from 1965 to 1972, this locomotive with its 3000 hp (2240 kW) can haul heavy freight trains
+  author: "Angry Mozart"
+  website: "https://community.simtropolis.com/files/file/31976-north-american-freight-cars-prop-pack/"

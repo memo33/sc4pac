@@ -1,0 +1,109 @@
+assetId: "shk-hd-rock-mods"
+version: "1.0.1"
+lastModified: "2024-03-29T03:20:17Z"
+url: "https://community.simtropolis.com/files/file/27655-shk-hd-rock-mods/?do=download"
+
+---
+group: "shk"
+name: "hd-rock-mod-01"
+version: "1.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "shk-hd-rock-mods"
+  include:
+  - "SHK_HDRockMod_01.dat"
+
+info:
+  summary: "HD Rock Mod 01 - grey & black"
+  description: |
+    This variety has mostly gray and black tones.
+
+    These are HD rock textures which require the use of hardware rendering mode.
+  author: "shokthrpy"
+  website: "https://community.simtropolis.com/files/file/27655-shk-hd-rock-mods/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/df5efd21d9881815a3b5b7b7857d5b11-.jpg
+
+---
+group: "shk"
+name: "hd-rock-mod-02"
+version: "1.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "shk-hd-rock-mods"
+  include:
+  - "SHK_HDRockMod_02.dat"
+
+info:
+  summary: "HD Rock Mod 02 - bright, silvery with red & pink"
+  description: |
+    This variety is bright, sort of silvery with some red/pink hues.
+
+    These are HD rock textures which require the use of hardware rendering mode.
+  author: "shokthrpy"
+  website: "https://community.simtropolis.com/files/file/27655-shk-hd-rock-mods/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/82d67d54554ea174c0eee259fcfc7fbe-.jpg
+
+---
+group: "shk"
+name: "hd-rock-mod-03"
+version: "1.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "shk-hd-rock-mods"
+  include:
+  - "SHK_HDRockMod_03.dat"
+
+info:
+  summary: "HD Rock Mod 03 - dark brown"
+  description: |
+    This variety has dark, brown hues.
+
+    These are HD rock textures which require the use of hardware rendering mode.
+  author: "shokthrpy"
+  website: "https://community.simtropolis.com/files/file/27655-shk-hd-rock-mods/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/82d67d54554ea174c0eee259fcfc7fbe-.jpg
+
+---
+group: "shk"
+name: "hd-rock-mod-04"
+version: "1.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "shk-hd-rock-mods"
+  include:
+  - "SHK_HDRockMod_04.dat"
+
+info:
+  summary: "HD Rock Mod 04 - mossy grey"
+  description: |
+    This variety is a mossy grey.
+
+    These are HD rock textures which require the use of hardware rendering mode.
+  author: "shokthrpy"
+  website: "https://community.simtropolis.com/files/file/27655-shk-hd-rock-mods/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/93442a52449bfcd22e07425d0e835b62-.jpg
+
+---
+group: "shk"
+name: "hd-rock-mod-05"
+version: "1.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "shk-hd-rock-mods"
+  include:
+  - "SHK_HDRockMod_05.dat"
+
+info:
+  summary: "HD Rock Mod 05 - red/pink granite"
+  description: |
+    This variety resembles a reddish pink granite.
+
+    These are HD rock textures which require the use of hardware rendering mode.
+  author: "shokthrpy"
+  website: "https://community.simtropolis.com/files/file/27655-shk-hd-rock-mods/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2012/93442a52449bfcd22e07425d0e835b62-.jpg

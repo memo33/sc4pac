@@ -1,0 +1,39 @@
+group: null-45
+name: startup-performance-optimization-dll
+version: "2.0"
+subfolder: 150-mods
+assets:
+- assetId: null-45-sc4-dbpf-loading-dll
+  withChecksum:
+  - include: "/SC4DBPFLoading.dll"
+    sha256: acd53cd21a050bd44d8baf98b40dde5cb4c292add6f811fb0e8bc897f2873266
+
+info:
+  summary: Optimizes the DBPF plugin loading that the game performs on startup.
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    The effect that the plugin has on the game's startup time will depend on your system and plugins.
+    It may have little to no effect for some configurations.
+
+    ### Features
+
+    - Reduces the time for the game to show the SC4 logo by up to 90%.
+    - Adds an optimization to the game code for large data reads.
+    - Allows the game to handle plugin paths that are longer than the standard Microsoft Windows limit of 260 characters.
+      - Some of the file paths used by sc4pac packages may exceed the above limit.
+    - Reduce lag and city load times with large numbers of .SC4* plugins.
+    - Disables the game code that searches the entire file if the DBPF signature was not found.
+    - Changes the game code that loads the .SC4* files to ignore files with non-DBPF file extensions, .txt, .png, etc.
+      - With this change only .SC4Desc, .SC4Lot, .SC4Model, and files without any file extension will be loaded.
+      - Files without any file extension are included due to some older plugins having that issue.
+    - Changes the 'missing plugin' dialog to display the plugin pack ID in hexadecimal.
+
+  author: Null 45
+  website: https://community.simtropolis.com/files/file/36244-startup-performance-optimization-dll-for-simcity-4/
+
+---
+assetId: null-45-sc4-dbpf-loading-dll
+version: "2.0"
+lastModified: "2025-02-09T05:09:01Z"
+nonPersistentUrl: https://community.simtropolis.com/files/file/36244-startup-performance-optimization-dll-for-simcity-4/?do=download
+url: https://github.com/0xC0000054/sc4-dbpf-loading/releases/download/v2.0/SC4DBPFLoading.zip

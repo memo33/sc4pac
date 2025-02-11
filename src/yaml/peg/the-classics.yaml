@@ -1,0 +1,21 @@
+group: "peg"
+name: "the-classics"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Classical statue props by Pegasus"
+  website: "https://community.simtropolis.com/files/file/23982-the-classics/"
+  description: |
+    The Classics is a collection of classic statue props that you can use in the Lot Editor to make parks, museums, art galleries... or whatever your imagination comes up with. Enjoy!!
+  author: "Pegasus"
+  images:
+  - "https://www.simtropolis.com/objects/screens/0020/b061e557d1dba6d020e198181c1d1ee8-product_Image1_st.jpg"
+  - "https://www.simtropolis.com/objects/screens/0020/b061e557d1dba6d020e198181c1d1ee8-product_Image2_st.jpg"
+assets:
+- assetId: "peg-the-classics"
+
+---
+url: "https://community.simtropolis.com/files/file/23982-the-classics/?do=download"
+assetId: "peg-the-classics"
+version: "1.0"
+lastModified: "2010-05-26T10:42:55Z"

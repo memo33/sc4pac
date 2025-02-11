@@ -1,0 +1,39 @@
+group: diego-del-llano
+name: torre-reforma
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Torre Reforma
+  description: |
+    The Torre Reforma is a Mexico City skyscraper with a height of 800.5 feet (244.0 m) to the roof and housing 57 stories, in 2016 it became the tallest skyscraper in Mexico City, exceeding both Torre BBVA Bancomer at 771 feet (235 m) located just across the street, and Torre Mayor at 739.5 feet (225.4 m) located next to it.
+
+    Construction began in May 2008.
+    The complex will host a restaurant, a shopping mall, entertainment areas and DOOM International's Reforma Gym.
+    The construction of the building will be managed by Vertical Capital Group while LBR and Architects is in charge of development.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31561-torre-reforma/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/3a/de/38/3ade38e26413b814aa423ad80ef27905.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/be/18/2a/be182a1b58f47518c512e96c3b21c9bc.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torre-reforma-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-torre-reforma-darknite
+
+---
+assetId: diego-del-llano-torre-reforma-darknite
+version: "1.0"
+lastModified: "2017-04-13T05:33:26Z"
+url: https://community.simtropolis.com/files/file/31561-torre-reforma/?do=download&r=165336
+
+---
+assetId: diego-del-llano-torre-reforma-maxisnite
+version: "1.0"
+lastModified: "2017-04-13T05:33:26Z"
+url: https://community.simtropolis.com/files/file/31561-torre-reforma/?do=download&r=165335

@@ -1,0 +1,1522 @@
+assetId: mattb325-transportation-collection-darknite
+version: "1.0"
+lastModified: "2024-10-27T04:25:27-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=315:sc4d-lex-legacy-mattb325-transportation-collection-darknite
+
+---
+assetId: mattb325-transportation-collection-maxisnite
+version: "1.0"
+lastModified: "2024-10-27T04:25:54-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=316:sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+
+---
+assetId: mattb325-multifunction-stations-darknite
+version: "2.0"
+lastModified: "2024-10-26T08:14:24-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=112:mattb325-multifunction-stations-prop-pack-dark-nite
+
+---
+assetId: mattb325-multifunction-stations-maxisnite
+version: "2.0"
+lastModified: "2024-10-26T08:13:53-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=113:mattb325-multifunction-stations-prop-pack-maxis-nite
+
+---
+group: mattb325
+name: transportation-collection
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Transportation Collection
+  description: |
+    This package features the transporation related LOTs and BATs by mattb325.
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - mattb325:subway-station
+  - mattb325:underground-parking
+  - mattb325:parking-garage-ortho
+  - mattb325:parking-garage-diagonal
+  - mattb325:electric-car-recharge-station
+  - mattb325:electric-car-recharge-bay
+  - mattb325:xiangshen-centre-l0-and-l2-viaduct-rail-station
+  - mattb325:victorian-l1-viaduct-rail-station
+  - mattb325:victorian-diagonal-l1-viaduct-rail-station
+  - mattb325:underground-rail-station
+  - mattb325:terminus-pack
+  - mattb325:sunken-railway-station
+  - mattb325:strickland-l1-viaduct-rail-station
+  - mattb325:spitalfields-house-l0-and-l2-viaduct-rail-station
+  - mattb325:national-audit-office-l0-and-l2-viaduct-rail-station
+  - mattb325:modern-l2-viaduct-rail-station
+  - mattb325:modern-l1-viaduct-rail-station
+  - mattb325:l1-viaduct-rail-terminus
+  - mattb325:high-holbourn-station
+  - mattb325:grand-central-chicago
+  - mattb325:galleria-gc-l2-viaduct-rail-terminus
+  - mattb325:emu-plains-rail-station
+  - mattb325:citylink-transport-hub
+  - mattb325:central-l2-viaduct-rail-station
+  - mattb325:central-l1-viaduct-rail-station
+  - mattb325:xiangshen-centre-rail-monorail-station
+  - mattb325:xiangshen-centre-rail-hsr-station
+  - mattb325:xiangshen-centre-rail-elrail-station
+  - mattb325:spitalfields-house-rail-monorail-station
+  - mattb325:spitalfields-house-rail-hsr-station
+  - mattb325:spitalfields-house-rail-elrail-station
+  - mattb325:overhanging-multifunction-station-ortho
+  - mattb325:overhanging-multifunction-station-fa
+  - mattb325:overhanging-multifunction-station-diagonal
+  - mattb325:national-audit-office-rail-monorail-station
+  - mattb325:national-audit-office-rail-hsr-station
+  - mattb325:national-audit-office-rail-elrail-station
+  - mattb325:modern-rail-station-monorail
+  - mattb325:galleria-gc-monorail-terminus
+  - mattb325:central-station-monorail
+  - mattb325:modern-rail-station-hsr
+  - mattb325:galleria-gc-hsr-terminus
+  - mattb325:central-station-hsr
+  - mattb325:diagonal-glr-station
+  - mattb325:modern-rail-station-el-rail
+  - mattb325:galleria-gc-el-rail-terminus
+  - mattb325:central-station-el-rail
+
+---
+group: mattb325
+name: terminus-stations
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Models for terminus stations
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Terminus Station Models
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Terminus Station Models
+
+---
+group: mattb325
+name: overhanging-multifunction-stations
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Props for multipurpose stations
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Overhanging Multipurpose Station Props
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Overhanging Multipurpose Station Props
+
+---
+group: mattb325
+name: multifunction-stations
+version: "2.0"
+subfolder: 100-props-textures
+info:
+  summary: Props for multipurpose stations
+  author: mattb325
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/MultiStationPropPack_s1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Mattb325_MultiStationPropPack_sn0.jpg
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/113-mattb325-multifunction-stations-prop-pack-maxis-nite
+    - https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/112-mattb325-multifunction-stations-prop-pack-darknite
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-multifunction-stations-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-multifunction-stations-darknite
+
+---
+group: mattb325
+name: subway-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Subway Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Subway Station/Subway Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Subway Station/Subway Station/
+
+---
+group: mattb325
+name: underground-parking
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Underground Parking
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/34333-underground-parking-entrance/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Underground.jpg.cb95b42c82e16e9c2840308e57e6db70.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Underground1.jpg.64158203f484cfc7c683bea4bfcd3410.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Underground2.jpg.5ad590d5451d5adb0f735696f3681acd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/Underground3.jpg.d07f74a0ab61ca61b2474a738ff685dd.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Parking/Underground Parking#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Parking/Underground Parking#/
+
+---
+group: mattb325
+name: parking-garage-ortho
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Parking Garage Ortho
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/32956-parking-garage/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage.jpg.153ba6c42c03452069a9058749426a7b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage1.jpg.3ab07ef2ff79c9eaaaab4a521d459d12.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage2.jpg.a3cdcc8249785e43a6e638151c24a7f8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage3.jpg.31391f3dd09bbde5c9eef765fa8b9cac.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/ParkingGarage4.jpg.6edfdf78655f34c83f9cd6a00a0371a2.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Parking/Parking Garage Ortho#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Parking/Parking Garage Ortho#/
+
+---
+group: mattb325
+name: parking-garage-diagonal
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Parking Garage Diagonal
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/34490-diagonal-parking-garage/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking.jpg.38dbf606e968a521c2825869152befab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking1.jpg.27fc7c15fed944c583484e2aabe0bd0f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking2.jpg.78f64ceaaf91b9d1bfd9bbd25a00f52c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_05/DiagParking3.jpg.98a42bab02b27ff5f987d0362b917f64.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Parking/Parking Garage Diagonal#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Parking/Parking Garage Diagonal#/
+
+---
+group: mattb325
+name: electric-car-recharge-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Electric Car Recharge Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Parking/Electric Car Recharge Station#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Parking/Electric Car Recharge Station#/
+
+---
+group: mattb325
+name: electric-car-recharge-bay
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Electric Car Recharge Bay
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/34306-electric-car-recharge-bay/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay.jpg.f94b61c3c82ec5bd3c5aa1ec855eed56.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay1.jpg.610b5cbde301b6510d7c9626f2baccc6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay1a.jpg.9db53c0551e39fa665771e5cfe4389f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay2.jpg.2b8031472ee40178e5ff039d11fd3a78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay3.jpg.37f8adac470c687fc3c4c4909139e24d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay4.jpg.88c7da9cfcabbb5537d949c940bc3fc6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay5.jpg.3cacf2217a98e1ce7399d4819ea96d96.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay6.jpg.1a2ea2de399f49efa199391350d28a3c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/ElectricCarRechargeBay7.jpg.00e9b79011820524293d80713f28f23c.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - shk:parking-pack
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Parking/Electric Car Recharge Bay#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Parking/Electric Car Recharge Bay#/
+
+---
+group: mattb325
+name: xiangshen-centre-l0-and-l2-viaduct-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Xiangshen Centre L0 and L2 Viaduct Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Xiangshen Centre L0 and L2 Viaduct Rail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Xiangshen Centre L0 and L2 Viaduct Rail Station/
+
+---
+group: mattb325
+name: victorian-l1-viaduct-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Victorian L1 Viaduct Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Victorian L1 Viaduct Rail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Victorian L1 Viaduct Rail Station/
+
+---
+group: mattb325
+name: victorian-diagonal-l1-viaduct-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Victorian Diagonal L1 Viaduct Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Victorian Diagonal L1 Viaduct Rail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Victorian Diagonal L1 Viaduct Rail Station/
+
+---
+group: mattb325
+name: underground-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Underground Rail (U-Rail) Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Underground Rail \(U-Rail\) Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Underground Rail \(U-Rail\) Station/
+
+---
+group: mattb325
+name: terminus-pack
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Terminus Pack
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - mattb325:terminus-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Terminus Pack#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Terminus Pack#/
+
+---
+group: mattb325
+name: sunken-railway-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Sunken Railway Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Sunken Railway Station#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Sunken Railway Station#/
+
+---
+group: mattb325
+name: strickland-l1-viaduct-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Strickland L1 Viaduct Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Strickland L1 Viaduct Rail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Strickland L1 Viaduct Rail Station/
+
+---
+group: mattb325
+name: spitalfields-house-l0-and-l2-viaduct-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Spitalfields House L0 and L2 Viaduct Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Spitalfields House L0 and L2 Viaduct Rail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Spitalfields House L0 and L2 Viaduct Rail Station/
+
+---
+group: mattb325
+name: national-audit-office-l0-and-l2-viaduct-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: National Audit Office L0 and L2 Viaduct Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/National Audit Office L0 and L2 Viaduct Rail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/National Audit Office L0 and L2 Viaduct Rail Station/
+
+---
+group: mattb325
+name: modern-l2-viaduct-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modern L2 Viaduct Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Modern L2 Viaduct Rail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Modern L2 Viaduct Rail Station/
+
+---
+group: mattb325
+name: modern-l1-viaduct-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modern L1 Viaduct Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Modern L1 Viaduct Rail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Modern L1 Viaduct Rail Station/
+
+---
+group: mattb325
+name: l1-viaduct-rail-terminus
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: L1 Viaduct Rail Terminus
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-misc-vol02
+  - bsc:textures-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/L1 Viaduct Rail Terminus/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/L1 Viaduct Rail Terminus/
+
+---
+group: mattb325
+name: high-holbourn-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: High Holbourn Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:mega-props-rt-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - csx:mega-props-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/High Holbourn Station#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/High Holbourn Station#/
+
+---
+group: mattb325
+name: grand-central-chicago
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Grand Central Chicago
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/30925-chicago-grand-central-terminal/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral.jpg.dea76c862f45e1bad85f0508784bc3be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral1.1.jpg.b8e67eb88f8f6bf85dc385f25dbd08c1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral1.jpg.08279f7b5dd2e7371bb248414490b1ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral2.jpg.62246d691dd628cc4d20868a3ef0a5fc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral3.jpg.13a94670fe4bfd2bdab1bc3c50cf0901.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral4.jpg.e5a1058f4df64275961ca99c9fb0cbc3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral5.jpg.1c12f884b44e1431b435a340a3849a5c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_01/ChicagoCentral6.jpg.84646f19ac2897784eaa9448178dfff8.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Grand Central Chicago#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Grand Central Chicago#/
+
+---
+group: mattb325
+name: galleria-gc-l2-viaduct-rail-terminus
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Galleria GC L2 Viaduct Rail Terminus
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Galleria GC L2 Viaduct Rail Terminus/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Galleria GC L2 Viaduct Rail Terminus/
+
+---
+group: mattb325
+name: emu-plains-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Emu Plains Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-jes-vol01
+  - bsc:mega-props-jes-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Emu Plains Rail Station#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Emu Plains Rail Station#/
+
+---
+group: mattb325
+name: citylink-transport-hub
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Citylink Transport Hub
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/32073-city-link-transport-hub/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink.jpg.80474b4e42edc2c05d67d2875ddeebfb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink2.jpg.816ac6cc4521b57cde28b244766d8412.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink3.jpg.7b2d3ffca387bd4d23ef24222e42d7c0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink4.jpg.ea85d03a5dc6852f91c2fcfaf6c2aa1e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink5.jpg.4dad4773aea3c9292a027d9a0579ad0c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/CityLink1.jpg.519f164df5ee86435f274dbf5f2a35ad.jpg
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Citylink Rail Station#/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Citylink Rail Station#/
+
+---
+group: mattb325
+name: central-l2-viaduct-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Central L2 Viaduct Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Central L2 Viaduct Rail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Central L2 Viaduct Rail Station/
+
+---
+group: mattb325
+name: central-l1-viaduct-rail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Central L1 Viaduct Rail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Rail Stations/Central L1 Viaduct Rail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Rail Stations/Central L1 Viaduct Rail Station/
+
+---
+group: mattb325
+name: xiangshen-centre-rail-monorail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Xiangshen Centre Rail-MonoRail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - csx:mega-props-vol07
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/Xiangshen Centre Rail-MonoRail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/Xiangshen Centre Rail-MonoRail Station/
+
+---
+group: mattb325
+name: xiangshen-centre-rail-hsr-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Xiangshen Centre Rail-HSR Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/Xiangshen Centre Rail-HSR Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/Xiangshen Centre Rail-HSR Station/
+
+---
+group: mattb325
+name: xiangshen-centre-rail-elrail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Xiangshen Centre Rail-ElRail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/Xiangshen Centre Rail-ElRail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/Xiangshen Centre Rail-ElRail Station/
+
+---
+group: mattb325
+name: spitalfields-house-rail-monorail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Spitalfields House Rail-MonoRail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:textures-vol01
+  - csx:mega-props-vol07
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/Spitalfields House Rail-MonoRail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/Spitalfields House Rail-MonoRail Station/
+
+---
+group: mattb325
+name: spitalfields-house-rail-hsr-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Spitalfields House Rail-HSR Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/Spitalfields House Rail-HSR Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/Spitalfields House Rail-HSR Station/
+
+---
+group: mattb325
+name: spitalfields-house-rail-elrail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Spitalfields House Rail-ElRail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/Spitalfields House Rail-ElRail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/Spitalfields House Rail-ElRail Station/
+
+---
+group: mattb325
+name: overhanging-multifunction-station-ortho
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Overhanging Multifunction Station (Orthogonal)
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/33181-ortho-rail-bus-and-subway-station-transport-hub/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation.jpg.d0aee799fe6604a9401d767793a0d9d0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation1.jpg.bfb0b93dc822eab128202ea2373e90d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation1a.jpg.d47e7b2571174058d194d0138142fb2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation2.jpg.a1c995ab7d3c8489cf44d6b317022c2b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation3.jpg.d639254663b5a42fed236cd366be0f51.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation4.jpg.292aa4eece0608629ca0e6ef07d2503e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation5.jpg.04d325275bd63b87fc47f1203353e58e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation6.jpg.f3d1acadd45dafd25a7fb02cf87640f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation7.jpg.e2a0325319bcf8e999d649753e51314e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/OrthoStation8.jpg.779da18532deea02b2582ea13d16b943.jpg
+dependencies:
+  - mattb325:overhanging-multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/Multifunction Station Ortho/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/Overhanging Multifunction Station Ortho/
+
+---
+group: mattb325
+name: overhanging-multifunction-station-fa
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Overhanging Multifunction Station (Fractionally Angled)
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+    - https://community.simtropolis.com/files/file/33950-far-3-rail-and-subway-station/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail.jpg.e55d299958ed288df789236ed60be7ea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail1_lg.jpg.2592856f6e6e3ac5e452f3d43025f4c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail2_lg.jpg.7679459d552d597550f7587cd968d3f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/FARrrail3_lg.jpg.b2b9cfe4548506d8a144faf6905b9998.jpg
+dependencies:
+  - mattb325:overhanging-multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/Multifunction Station FA/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/Overhanging Multifunction Station FA/
+
+---
+group: mattb325
+name: overhanging-multifunction-station-diagonal
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Overhanging Multifunction Station (Diagonal)
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - mattb325:overhanging-multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/Multifunction Station Diagonal/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/Overhanging Multifunction Station Diagonal/
+
+---
+group: mattb325
+name: national-audit-office-rail-monorail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: National Audit Office Rail-MonoRail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - csx:mega-props-vol07
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/National Audit Office Rail-MonoRail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/National Audit Office Rail-MonoRail Station/
+
+---
+group: mattb325
+name: national-audit-office-rail-hsr-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: National Audit Office Rail-HSR Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/National Audit Office Rail-HSR Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/National Audit Office Rail-HSR Station/
+
+---
+group: mattb325
+name: national-audit-office-rail-elrail-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: National Audit Office Rail-ElRail Station
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Multi-Purpose Stations/National Audit Office Rail-ElRail Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Multi-Purpose Stations/National Audit Office Rail-ElRail Station/
+
+---
+group: mattb325
+name: modern-rail-station-monorail
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modern Rail Station Monorail
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - csx:mega-props-vol07
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Monorail-BTM Stations/Modern Rail Station Monorail/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Monorail-BTM Stations/Modern Rail Station Monorail/
+
+---
+group: mattb325
+name: galleria-gc-monorail-terminus
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Galleria GC Monorail Terminus
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - csx:mega-props-vol07
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Monorail-BTM Stations/Galleria GC Monorail Terminus/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Monorail-BTM Stations/Galleria GC Monorail Terminus/
+
+---
+group: mattb325
+name: central-station-monorail
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Central Station Monorail
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:textures-vol01
+  - csx:mega-props-vol07
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Monorail-BTM Stations/Central Station Monorail/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Monorail-BTM Stations/Central Station Monorail/
+
+---
+group: mattb325
+name: modern-rail-station-hsr
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modern Rail Station HSR
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /High Speed Rail \(HSR\) Stations/Modern Rail Station HSR/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /High Speed Rail \(HSR\) Stations/Modern Rail Station HSR/
+
+---
+group: mattb325
+name: galleria-gc-hsr-terminus
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Galleria GC HSR Terminus
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /High Speed Rail \(HSR\) Stations/Galleria GC HSR Terminus/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /High Speed Rail \(HSR\) Stations/Galleria GC HSR Terminus/
+
+---
+group: mattb325
+name: central-station-hsr
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Central Station HSR
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /High Speed Rail \(HSR\) Stations/Central Station HSR/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /High Speed Rail \(HSR\) Stations/Central Station HSR/
+
+---
+group: mattb325
+name: diagonal-glr-station
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Diagonal GLR Station
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/33006-diagonal-rail-glr-bus-and-subway-stations/
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail3a.jpg.6d0c7544a5a0aff24fb60b5e1e06f090.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail3.jpg.b77e9db9e42e97afe48d7c896ad8d5ef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail4.jpg.e5b7481bd58ac7b46b4e0bf25a125456.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail5.jpg.e2260245115c44d36f55c8e5c46bdb4a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail6.jpg.cecd5b7a35a73b53907d597b8369d6c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail7.jpg.a0279edfe307ba2e2be31a16d9182b05.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail.jpg.ce1e5b6f2c34eb4852d751df58d07e0f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail8.jpg.51bbbe67703f456cc38583eca437b15b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/DiagonalRail9.jpg.a206af1d74f6c98135d5cc0251e03152.jpg
+dependencies:
+  - mattb325:overhanging-multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Ground Light Rail \(GLR\) Stations/Diagonal GLR Station/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Ground Light Rail \(GLR\) Stations/Diagonal GLR Station/
+
+---
+group: mattb325
+name: modern-rail-station-el-rail
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Modern Rail Station El-Rail
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Elevated Light Rail Stations/Modern Rail Station El-Rail/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Elevated Light Rail Stations/Modern Rail Station El-Rail/
+
+---
+group: mattb325
+name: galleria-gc-el-rail-terminus
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Galleria GC El-Rail Terminus
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol03
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Elevated Light Rail Stations/Galleria GC El-Rail Terminus/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Elevated Light Rail Stations/Galleria GC El-Rail Terminus/
+
+---
+group: mattb325
+name: central-station-el-rail
+version: "1.0"
+subfolder: 700-transit
+info:
+  summary: Central Station El-Rail
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/315-sc4d-lex-legacy-mattb325-transportation-collection-darknite
+    - https://www.sc4evermore.com/index.php/downloads/download/19-transportation/316-sc4d-lex-legacy-mattb325-transportation-collection-maxisnight
+dependencies:
+  - bsc:mega-props-cp-vol01
+  - bsc:textures-vol01
+  - mattb325:multifunction-stations
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-transportation-collection-maxisnite
+        include:
+          - /Elevated Light Rail Stations/Central Station El-Rail/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-transportation-collection-darknite
+        include:
+          - /Elevated Light Rail Stations/Central Station El-Rail/

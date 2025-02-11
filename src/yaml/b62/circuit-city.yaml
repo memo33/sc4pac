@@ -1,0 +1,36 @@
+group: "b62"
+name: "circuit-city"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable electronics store"
+  description: |
+    Circuit City Stores, Inc. was an American multinational consumer electronics corporation.
+    It was founded in 1949 and pioneered the electronics superstore format in the 1970s.
+    Circuit City liquidated its final American retail store in 2009, following a bankruptcy filing and subsequent failure to find a buyer.
+    At the time of liquidation, Circuit City was the second largest U.S. electronics retailer, after Best Buy.
+    There were 567 Circuit City Superstores nationwide, ranging in size from 15,000 to 45,000 square feet.
+
+    This package contains a 6x10 CS$ growable and ploppable lot.
+    It utilizes both the timed props contained in SHK parking pack and seasonal trees. These items may take a day or so to appear.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/circuit-city-1.png.0b830c4c396e3ba5d8d0201a4ea76360.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/circuit-city-2.png.e45eb694960e6aa424fff6be13bde1cd.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/circuit-city-3.png.7b84511a426f18729169d841aad4bc61.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/circuit-city-4.png.3081f831981ebd44473b068c40e28b11.png"
+  website: "https://community.simtropolis.com/files/file/29960-b62-remastered-circuit-city/"
+dependencies:
+- "lbt:mega-prop-pack-vol01"
+- "lbt:mega-textures-vol01"
+- "supershk:mega-parking-textures"
+- "shk:parking-pack"
+- "girafe:birches"
+assets:
+- assetId: "b62-circuit-city"
+
+---
+url: "https://community.simtropolis.com/files/file/29960-b62-remastered-circuit-city/?do=download&r=202470"
+assetId: "b62-circuit-city"
+version: "3"
+lastModified: "2024-08-14T23:43:34Z"

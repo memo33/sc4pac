@@ -1,0 +1,28 @@
+group: "memo"
+name: "region-thumbnail-fix-dll"
+version: "1.0.0-1"
+subfolder: "150-mods"
+assets:
+- assetId: "memo-region-thumbnail-fix-dll"
+  withChecksum:
+  - include: "/memo.thumbnail-fix.dll"
+    sha256: 2b17a275727012c8d9d74a84035be5bdcca480bea4b23322bab3941ed14609a5
+
+info:
+  summary: "Fixes region thumbnail rendering bug"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    This DLL plugin fixes the rendering bug of a city's region view thumbnail that affects large screen sizes.
+
+    The bug occurs with any vertical screen resolution larger than 1024 pixels. When saving a large city tile, it results in an incomplete rendering of the terrain, leading to a visible gap in the region view.
+  author: "memo"
+  website: "https://community.simtropolis.com/files/file/36396-region-thumbnail-fix-dll/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.jpeg.147e3ee01bff54be8999236ff119a78b.jpeg"
+
+---
+assetId: "memo-region-thumbnail-fix-dll"
+version: "1.0.0-1"
+lastModified: "2024-08-17T10:12:54Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36396-region-thumbnail-fix-dll/?do=download"
+url: "https://github.com/memo33/sc4-thumbnail-fix-dll/releases/download/1.0.0/thumbnail-fix-dll-1.0.0.zip"

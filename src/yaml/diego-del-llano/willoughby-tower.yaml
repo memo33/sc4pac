@@ -1,0 +1,37 @@
+group: diego-del-llano
+name: willoughby-tower
+version: "2.0"
+subfolder: 360-landmark
+info:
+  summary: Willoughby Tower
+  description: |
+    Willoughby Tower, at 8 S. Michigan avenue, on the southwest corner of E. Madison street, built in 1929, is 36 stories high, on caissons.
+    Samuel N. Crowen was the architect.
+    The eight-story Willoughby building (Western Bank Note building) previously occupied this corner.
+
+    The newest design for the Willoughby Tower, by S.V. Croweon, architect, to be erected at the southwest corner of Madison and Boul Mich was announced on February 4, 1928.
+    It is almost changed from the first design shown in The Tribune of Sunday, Sept. 18, 1927.
+    Instead of being black, it’ll be of variegated Indiana limestone on the two street elevations, with the first two floors of granite.
+    The tower will be flood lighted.
+    Work started May 1, 1928.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/33149-willoughby-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/WILLOUGH.jpg.0fab4c89731e69858e594aff8b116665.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d75c2b96ca32_WILLOUGH2.jpg.4c09d95df70ffe92187fcec44d64c77b.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-willoughby-tower-darknite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-willoughby-tower-darknite
+
+---
+assetId: diego-del-llano-willoughby-tower-darknite
+version: "2.0"
+lastModified: "2019-09-09T03:13:07Z"
+url: https://community.simtropolis.com/files/file/33149-willoughby-tower/?do=download

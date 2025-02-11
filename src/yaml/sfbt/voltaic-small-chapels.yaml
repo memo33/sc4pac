@@ -1,0 +1,27 @@
+group: "sfbt"
+name: "voltaic-small-chapels"
+version: "1"
+subfolder: "650-religion"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "sfbt:essentials"
+assets:
+- assetId: "sfbt-voltaic-small-chapels"
+
+info:
+  summary: "Two small chapels by voltaic"
+  description: |
+    Especially in the Alpine area, small chapels that only hold slightly more than a handful of people can be found everywhere.
+    Here, the devout members of the surrounding farms and travellers are gathering.
+    The small church "Maria Hilf" is located near the Ludescherberg mountain in Vorarlberg, Austria.
+    The second model in this set is a chapel in Leutasch.
+  author: "voltaic"
+  images:
+  - https://www.simtropolis.com/objects/screens/monthly_2024_03/Kapellen_01.jpg.78d56cb2c27828dcf128b49c588d819f.jpg
+  website: https://community.simtropolis.com/files/file/36168-sfbt-voltaic-small-chapels/
+
+---
+assetId: "sfbt-voltaic-small-chapels"
+version: "1"
+lastModified: "2024-03-13T21:07:21Z"
+url: "https://community.simtropolis.com/files/file/36168-sfbt-voltaic-small-chapels/?do=download"

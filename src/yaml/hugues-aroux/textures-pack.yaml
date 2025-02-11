@@ -1,0 +1,20 @@
+group: "hugues-aroux"
+name: "textures-pack"
+version: "1.0.5"
+subfolder: "100-props-textures"
+info:
+  summary: "Scoty textures pack"
+  description: |
+    Base and overlay textures for pavements, paths, parks, etc.
+  website: "https://community.simtropolis.com/files/file/36297-scoty-textures-packs/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/img_tech_diff_2.jpg.7196c6232b1007a2c1717a04ade1e5aa.jpg
+  author: "hugues aroux"
+assets:
+- assetId: "hugues-aroux-textures-pack"
+
+---
+url: "https://community.simtropolis.com/files/file/36297-scoty-textures-packs/?do=download"
+assetId: "hugues-aroux-textures-pack"
+version: "1.0.5"
+lastModified: "2024-12-16T22:30:07Z"

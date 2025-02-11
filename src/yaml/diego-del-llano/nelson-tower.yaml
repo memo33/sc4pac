@@ -1,0 +1,41 @@
+group: diego-del-llano
+name: nelson-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Nelson Tower, 450 Fashion Ave
+  description: |
+    Nelson Tower is a 46 story 171 meter (560 feet) tall building located at 450 7th Avenue in Manhattan, New York City, United States.
+
+    It was completed in 1931 and became the tallest building in the Garment District of New York.
+    Today it is dwarfed by the 60 story One Penn Plaza that sits across 34th Street from the Nelson Tower but still visible from most directions except the southeast.
+    It was designed by H.
+    Craig Severance.
+    The building was originally planned and built by New York developer, Julius Nelson.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31604-nelson-tower-450-fashion-ave/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/86/d4/ff/86d4ff3305c4c75667b39e27902ec9d8.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/86/4e/0b/864e0b8c27d881f735ff87aa7ea97b32.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-nelson-tower-450-fashion-ave-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-nelson-tower-450-fashion-ave-darknite
+
+---
+assetId: diego-del-llano-nelson-tower-450-fashion-ave-darknite
+version: "1.0"
+lastModified: "2017-05-09T04:18:41Z"
+url: https://community.simtropolis.com/files/file/31604-nelson-tower-450-fashion-ave/?do=download&r=165660
+
+---
+assetId: diego-del-llano-nelson-tower-450-fashion-ave-maxisnite
+version: "1.0"
+lastModified: "2017-05-09T04:18:41Z"
+url: https://community.simtropolis.com/files/file/31604-nelson-tower-450-fashion-ave/?do=download&r=165659

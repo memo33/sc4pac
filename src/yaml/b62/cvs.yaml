@@ -1,0 +1,31 @@
+group: "b62"
+name: "cvs"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable drugstore"
+  description: |
+     CVS was originally founded in Lowell, Massachusetts in 1963 and today, it is based in Woonsocket, Rhode Island.
+     CVS is an acronym which stands for "Customer, Value, and Service."
+     CVS now no longer builds stores without pharmacies, and many of the "CVS" stores (stores without pharmacies) have been phased out.
+
+     This package contains a 5x4 CS$$ growable and ploppable lot.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cvs-1.png.60e8254a1184c127eefc9ce33fd65c73.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cvs-2.png.0281803ee0156073a622389fcb2e29c1.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cvs-3.png.28295bca0cdbcc4f0a6ada99c0442d7c.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/cvs-4.png.0dea6d59f59c85b2b39c3072f11eee57.png"
+  website: "https://community.simtropolis.com/files/file/30785-b62-remastered-cvs-pharmacy/"
+dependencies:
+- "supershk:mega-parking-textures"
+- "lbt:mega-prop-pack-vol01"
+- "bsc:textures-vol01"
+assets:
+- assetId: "b62-cvs"
+
+---
+url: "https://community.simtropolis.com/files/file/30785-b62-remastered-cvs-pharmacy/?do=download&r=202503"
+assetId: "b62-cvs"
+version: "3"
+lastModified: "2024-08-17T00:09:09Z"

@@ -1,0 +1,45 @@
+group: aaron-graham
+name: 655-e-228-street
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 655 E. 228 Street (W2W)
+  description: |
+    655 E. 228 Street is a 1939 six story apartment located in The Bronx, New York City.
+    The building grows as R$ and R$$ in four color variations on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/29076-nybt-655-e-228-street/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/91aaa35e9c13877bb396f6411a0e7ff7-655-e-228-street.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/cd6e9f2b57f535b4f14dadab5bc72a27-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/b9477d67da15d520320f65723843c8f3-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/4e29e82b79c4762fead76914f0a9d47c-dark-night.jpg
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-655-e-228-street-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-655-e-228-street-maxisnite
+
+---
+assetId: aaron-graham-655-e-228-street-darknite
+version: "1.0"
+lastModified: "2013-12-01T03:49:41Z"
+url: https://community.simtropolis.com/files/file/29076-nybt-655-e-228-street/?do=download&r=121140
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-655-e-228-street-maxisnite
+version: "1.0"
+lastModified: "2013-12-01T03:49:41Z"
+url: https://community.simtropolis.com/files/file/29076-nybt-655-e-228-street/?do=download&r=121139
+archiveType:
+  format: Clickteam
+  version: "40"

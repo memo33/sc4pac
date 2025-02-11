@@ -20,21 +20,82 @@ dependencies:
 
 info:
   summary: "Full set of override Lots replacing all default Maxis mansion Lots"
-  description: >
+  description: |
     This mod brings more details, more variety, better slope tolerance,
     seasonal trees and many other improvements to the Maxis mansions.
 
     It only affects newly growing mansion lots, due to the use of a Maxis blocker.
   author: "kingofsimcity"
   website: "https://community.simtropolis.com/files/file/31308-maxis-mansion-overhaul/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/splash.jpg.e35ea2077daf8c4917360ca187273053.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160927171539_1.jpg.700e9d82c65bbcf1c18038becc96d98e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160927171727_1.jpg.b5c1e6a604b23acce10b3353cba2109d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160913180518_1.jpg.dacd2f1e536c15b5471cc48c1f475fed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160913181043_1.jpg.e65555cc08c1606f9bb87fd0957d638b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160913190950_1.jpg.8efe30430d17239b3d6e5c7a6732adfc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160913200318_1.jpg.1acfbd551270edf7dfa0a5b2bf9abbc5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160913200814_1.jpg.c8ee808ff1f929a6ce2455f0831c4adf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160913204532_1.jpg.be6099fa4c70a334e16ea3643df9991c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160913204946_1.jpg.c4aa890ebe231f096f195f1620f73572.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160916201904_1.jpg.0b10dc56261070fcb707eeb1cdeaec38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160916201121_1.jpg.04be4cbdd204f5c0f22a2b8fe68e4b93.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_09/20160916201237_1.jpg.ba417cd0c6e5a00ff0baabab7dbeddac.jpg
 
 ---
 # assetId: "kosc-maxis-mansion-overhaul-override"
 # version: "1.0"
-# lastModified: "2020-07-28T05:27:11Z"
+# lastModified: "2016-09-28T00:48:52Z"
 # url: "https://community.simtropolis.com/files/file/31308-maxis-mansion-overhaul/?do=download&r=163317"
 
 assetId: "kosc-maxis-mansion-overhaul-standalone"
 version: "1.0"
-lastModified: "2020-07-28T05:27:11Z"
+lastModified: "2016-09-28T00:48:52Z"
 url: "https://community.simtropolis.com/files/file/31308-maxis-mansion-overhaul/?do=download&r=163318"
+
+---
+assetId: "kosc-maxis-mansion-overhaul-extension-set"
+version: "1.00"
+lastModified: "2017-05-11T00:18:56Z"
+url: "https://community.simtropolis.com/files/file/31606-maxis-mansion-overhaul-extension-set/?do=download"
+
+---
+group: "kingofsimcity"
+name: "maxis-mansion-overhaul-extension-set"
+version: "1.00"
+subfolder: "200-residential"
+assets:
+- assetId: "kosc-maxis-mansion-overhaul-extension-set"
+dependencies:
+- "shk:parking-pack"
+- "lbt:mega-prop-pack-vol01"
+- "bsc:mega-props-sg-vol01"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "mgb204:anyone-for-tennis"
+- "ndex:textures-vol1"
+- "bsc:textures-vol01"
+- "bsc:textures-vol02"
+- "bsc:textures-vol03"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+info:
+  summary: "33 additional lots supplementing the Maxis Mansion Overhaul"
+  description: |
+    This set expands the original mod by taking advantage of new lot sizes,
+    climate variation, and the strength of the individual models themselves to
+    add further variation in your affluent areas.
+
+    Not mandatory, but highly recommended is installing the original mod
+    kingofsimcity:maxis-mansion-overhaul
+    as well.
+  author: "kingofsimcity"
+  website: "https://community.simtropolis.com/files/file/31606-maxis-mansion-overhaul-extension-set/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/splash_ext.jpg.c4bcce3ebd289b95e285ae600231de94.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/detail.jpg.cc8932588e88ab489386870aa801f8fb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/exp.jpg.3fe11e70919c9ede7f33b4349ae52bd8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/i_villas.jpg.1b715ce3a2ec6b92ef38080f89294b5a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/i_msp.jpg.44243138aa6600fad77a7d035cada973.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/i_msc.jpg.65255b584ba8dfba0cebdb26edd193bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/i_lp.jpg.3a97c509182de00f9fd6bbe130f03419.jpg

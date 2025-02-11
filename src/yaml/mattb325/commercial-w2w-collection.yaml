@@ -1,0 +1,1139 @@
+assetId: mattb325-commercial-w2w-pack-darknite
+version: "1.1"
+lastModified: "2023-08-20T10:04:31Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=104:sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+
+---
+assetId: mattb325-commercial-w2w-pack-maxisnite
+version: "1.1"
+lastModified: "2023-08-20T10:05:00Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=105:sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+
+---
+group: mattb325
+name: 1960s-diag-office
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: 1960s Diag Office
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/1960s ?Diag ?Office(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/1960s ?Diag ?Office ?\\(Ploppable\\)(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: 1970s-w2w-offices
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: 1970s W2W Offices
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/1970s ?W2W ?Offices(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/1970s ?W2W ?Offices(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: 324-clarence-st
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: 324 Clarence St
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/324 ?Clarence ?St(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/324 ?Clarence ?St(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: 5657-wilshire-blvd
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: 5657 Wilshire Blvd
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/28505-5657-wilshire-blvd/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/a694f69fbc7a9d91a40f1187fde44738-wilshire.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/e767a69e017eed0ab304bdef3cbfddfa-wilshire1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/2da6dac81c4d1d16a26720f8b2c669c2-wilshire2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/a86c2fe2895a43a3b61c76d811885c1e-wilshire3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2013/7c7a0f17296dbb798ef4683e768d87c7-wilshire4.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/5657 ?Wilshire ?Blvd(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/5657 ?Wilshire ?Blvd(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: 90a-miller-street
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: 90A Miller Street
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/28161-miller-street-offices/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/9f4cedafa7459cca585d6f97f2532779-miller.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/82c6697ba5b0bf17bd508818ac27dd6a-miller1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/a08f7af45c2623afa4be4ab1758c84ad-miller2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/566c061a02e09695f37ea29596ab47d7-miller3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/88fd29bcde5171d570ba69ae8f79df57-miller4.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/90A ?Miller ?Street(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/90A ?Miller ?Street(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: amestoy-building
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Amestoy Bldg
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/33126-amestoy-building/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Amestoy.jpg.6cbad28f67846dd1b864865f0456f9c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Amestoy1.jpg.34080b92d3e4916231574eb63821e775.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Amestoy2.jpg.84d53adf040c429e575bc8d0582732fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/Amestoy3.jpg.17b476940ce8ce054c1c7b4fff01b8c5.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Amestoy ?Bldg(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Amestoy ?Bldg(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: banking-row
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Banking Row
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Banking ?Row(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Banking ?Row(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: bond-st
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Bond St
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Bond ?St(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Bond ?St(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: boutiques
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Boutiques
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Boutiques(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Boutiques(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: british-pub
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: British Pub
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/British ?Pub(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/British ?Pub(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: cheyne-house
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Cheyne House
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Cheyne ?House(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Cheyne ?House(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: colourful-living-interiors
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Colourful Living Interiors
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Colourful ?Living ?Interiors(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Colourful ?Living ?Interiors(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: coopers-hall
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Coopers Hall
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/28144-coopers-hall/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/fa3024855a823a5b0db49f07e78bcd48-coopershall.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/3d7e8c4d517e42d35a178554bca4bfb9-coopershall1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/a91bb2911608e6bb15f1c449dec029e4-coopershall2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/7dd43c40edcf49da7b94804d60ae85f8-coopershall3.jpg
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Coopers ?Hall(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Coopers ?Hall(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: exhibition-rd-kensington-co
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Exhibition Rd Kensington
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-london-w2w-vol01
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Exhibition ?Rd ?Kensington(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Exhibition ?Rd ?Kensington ?\\(Ploppable\\)(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: foveaux-st
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Foveaux St
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Foveaux ?St(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Foveaux ?St(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: foveaux-st-lettings
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Foveaux St Lettings
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Foveaux ?St ?Lettings(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Foveaux ?St ?Lettings(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: grosvenor-hotel
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Grosvenor Hotel
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-london-w2w-vol01
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Grosvenor ?Hotel(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Grosvenor ?Hotel(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: harris-st
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Harris St
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Harris ?St(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Harris ?St(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: high-st
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: High Street
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/High ?St(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/High ?St(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: high-street-corner-offices
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: High Street Corner Offices
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/High ?Street ?Corner ?Offices(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/High ?Street ?Corner ?Offices(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: high-street-shops-and-offices
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: High Street Shops & Offices
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/High ?Street ?Shops ?& ?Offices(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/High ?Street ?Shops ?& ?Offices(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: historic-shops
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Historic Shops
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Historic ?Shops(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Historic ?Shops(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: holland-park-house
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Holland Park House
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Holland ?Park ?House(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Holland ?Park ?House(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: jb-covington-services
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: JB Covington Services
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/JB ?Covington ?Services(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/JB ?Covington ?Services(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: king-george-house
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: King George House
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/King ?George ?House(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/King ?George ?House(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: king-st
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: King St
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/King ?St(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/King ?St(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: king-st-sydney
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: King St Sydney
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/33914-king-st-sydney/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/KingSt.jpg.b21f122fac04925254a07ba8904821ae.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/KingSt1.jpg.b3a9cc2b9e4e977e6be36716fd546eda.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/KingSt2.jpg.465c41662ef5af823f2297232609cb54.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/KingSt3.jpg.2b1eb1b7f9a8deccad3d673af4f2ba72.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/KingSt4.jpg.3c473894be35ce769760d90c680551d6.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/King ?St ?Sydney(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/King ?St ?Sydney(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: lundstrom-house
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Lundstrom House
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Lundstrom ?House(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Lundstrom ?House(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: mcdonalds-w2w
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: McDonalds W2W
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/McDonalds ?W2W(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/McDonalds ?W2W(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: newtown-post-office
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Newtown Post Office
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - mattb325:commercial-w2w-collection-shared-resources
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Newtown ?Post ?Office(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Newtown ?Post ?Office(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: offices-of-the-exchequer
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Offices of the Exchequer
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Offices ?of ?the ?Exchequer(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Offices ?of ?the ?Exchequer(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: pirie-st
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Pirie St
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/33874-pirie-st-adelaide/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St.jpg.d945ade15056bef38a9ac57c8690d5f9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St1.jpg.c26990a198ff41ad12735a2014aa12e5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St2.jpg.a10ad054ee1eb5102402afa879bdf413.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St3.jpg.cd5df842859c4688683968be4d21726a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Pirie_St4.jpg.99d82c98e8226f3618ccb17e7b2bea3e.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Pirie ?St(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Pirie ?St(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: qbe-insurance
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: QBE Insurance
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/QBE ?Insurance(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/QBE ?Insurance(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: regent-house
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Regent House
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Regent ?House(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Regent ?House(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: sim-telecom-call-centre
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Sim Telecom Call Centre
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Sim ?Telecom ?Call ?Centre(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Sim ?Telecom ?Call ?Centre(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: spybar
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: SpyBar
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/SpyBar(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/SpyBar(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: st-georges-hall-post-office
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: St Georges Hall Post Office
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol02
+  - mattb325:commercial-w2w-collection-shared-resources
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/St ?Georges ?Hall ?Post ?Office(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/St ?Georges ?Hall ?Post ?Office(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: swan-insurance
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Swan Insurance
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Swan ?Insurance(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Swan ?Insurance(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: sydney-gazette-offices
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Sydney Gazette Offices
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Sydney ?Gazette ?Offices(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Sydney ?Gazette ?Offices(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: w2w-chinese-restaurant
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: W2W Chinese Restaurant
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/W2W ?Chinese ?Restaurant(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/W2W ?Chinese ?Restaurant(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: woodstock-road
+subfolder: 300-commercial
+version: "1.1"
+info:
+  summary: Woodstock Road
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Woodstock ?Road(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Woodstock ?Road(_[MD]N)?#?/" ]
+
+---
+group: mattb325
+name: commercial-w2w-collection
+version: "1.1"
+subfolder: 300-commercial
+info:
+  summary: Commercial W2W Collection
+  description: |-
+    A collection of 41 commercial W2W lots
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Amestoy_lg.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ImmoderateCur_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/PWN_lg.jpg
+dependencies:
+  - mattb325:1960s-diag-office
+  - mattb325:1970s-w2w-offices
+  - mattb325:324-clarence-st
+  - mattb325:5657-wilshire-blvd
+  - mattb325:90a-miller-street
+  - mattb325:amestoy-building
+  - mattb325:banking-row
+  - mattb325:bond-st
+  - mattb325:boutiques
+  - mattb325:british-pub
+  - mattb325:cheyne-house
+  - mattb325:colourful-living-interiors
+  - mattb325:coopers-hall
+  - mattb325:exhibition-rd-kensington-co
+  - mattb325:foveaux-st
+  - mattb325:foveaux-st-lettings
+  - mattb325:grosvenor-hotel
+  - mattb325:harris-st
+  - mattb325:high-st
+  - mattb325:high-street-corner-offices
+  - mattb325:high-street-shops-and-offices
+  - mattb325:historic-shops
+  - mattb325:holland-park-house
+  - mattb325:jb-covington-services
+  - mattb325:king-george-house
+  - mattb325:king-st
+  - mattb325:king-st-sydney
+  - mattb325:lundstrom-house
+  - mattb325:mcdonalds-w2w
+  - mattb325:newtown-post-office
+  - mattb325:offices-of-the-exchequer
+  - mattb325:pirie-st
+  - mattb325:qbe-insurance
+  - mattb325:regent-house
+  - mattb325:sim-telecom-call-centre
+  - mattb325:spybar
+  - mattb325:st-georges-hall-post-office
+  - mattb325:swan-insurance
+  - mattb325:sydney-gazette-offices
+  - mattb325:w2w-chinese-restaurant
+  - mattb325:woodstock-road
+
+---
+group: mattb325
+name: commercial-w2w-collection-shared-resources
+version: "1.1"
+subfolder: 100-props-textures
+info:
+  summary: Shareed resources for the Commercial W2W Collection
+  description: |-
+    A dependency containing shared resources used in `pkg=mattb325:commercial-w2w-collection`
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-maxisnite
+        include: [ "/Shared ?Resources(_[MD]N)?#?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-w2w-pack-darknite
+        include: [ "/Shared ?Resources(_[MD]N)?#?/" ]

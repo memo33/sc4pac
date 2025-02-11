@@ -1,0 +1,45 @@
+group: aaron-graham
+name: 1225-morris-avenue
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: 1225 Morris Avenue (W2W)
+  description: |
+    1225 Morris Avenue is a 1937 six story apartment located in The Bronx, New York City.
+    The building grows as R$ and R$$ in four color variations on the New York tile set.
+    It is a (W2W) wall to wall building and will fit perfectly in the middle of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/28949-nybt-1225-morris-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/46db947a1bd9db5fc28a34d98b145328-1225-morris-avenue-main-picture.png
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/71411da9e8f19de6a842be09ea59e065-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/53015ed865631753a10a1540c2a394ef-maxis-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2013/883696391c8d48ebd1d418d081314916-dark-night.jpg
+
+dependencies: ["nybt:essentials"]
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-1225-morris-avenue-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-1225-morris-avenue-maxisnite
+
+---
+assetId: aaron-graham-1225-morris-avenue-darknite
+version: "1.0"
+lastModified: "2013-09-01T03:24:38Z"
+url: https://community.simtropolis.com/files/file/28949-nybt-1225-morris-avenue/?do=download&r=120960
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-1225-morris-avenue-maxisnite
+version: "1.0"
+lastModified: "2013-09-01T03:24:38Z"
+url: https://community.simtropolis.com/files/file/28949-nybt-1225-morris-avenue/?do=download&r=120959
+archiveType:
+  format: Clickteam
+  version: "40"

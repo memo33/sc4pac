@@ -1,0 +1,32 @@
+group: "jmyers2043"
+name: "homes-pack"
+version: "1"
+subfolder: "200-residential"
+dependencies:
+- "bsc:essentials"
+- "bsc:mega-props-cp-vol01"
+- "bsc:mega-props-cp-vol02"
+- "bsc:textures-vol03"
+- "bsc:texturepack-cycledogg-vol01"
+- "bsc:mega-props-jmyers-common-props"
+assets:
+- assetId: "jmyers-homes-pack"
+  include: [ "/JMyers/" ]  # excludes BSCProps folder which has been moved to bsc:mega-props-jmyers-common-props
+
+info:
+  summary: "18 R$ houses"
+  description: |
+    This package is intended to add variety to the beginning of the game.
+    It also adds variety for those who enjoy rural region play where R$ residents reside.
+
+    The set contains 18 home models, each in 6 color variations.
+    There are a total of 42 lots growing at stages 1 to 3.
+    Some homes are set at a 45 degree angle and are placed on corner lots.
+  author: "JMyers2043"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/11-residential/4-sc4d-lex-legacy-jmyers-homes-pack"
+
+---
+assetId: "jmyers-homes-pack"
+version: "1"
+lastModified: "2023-07-20T02:39:41-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=4:sc4d-lex-legacy-jmyers-homes-pack"

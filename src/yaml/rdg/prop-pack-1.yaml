@@ -1,0 +1,20 @@
+group: "rdg"
+name: "prop-pack-1"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "RDG Prop Pack 1"
+  author: "robdragon"
+  website: "https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/"
+  description: |
+    This is a prop pack that will be needed for most, if not all of RDG's lots.
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_11/583364aeef437_Animal2.jpg.ae5abdfdeef2552f3033f15030b05d52.jpg"
+assets:
+- assetId: "rdg-prop-pack-1"
+
+---
+url: "https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/?do=download"
+assetId: "rdg-prop-pack-1"
+version: "1.0"
+lastModified: "2016-11-21T21:21:47Z"

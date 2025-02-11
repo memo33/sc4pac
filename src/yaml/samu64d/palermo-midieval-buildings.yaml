@@ -1,0 +1,20 @@
+group: "samu64d"
+name: "palermo-medieval-building-props"
+version: "1.0.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "samu64d-palermo-medieval-building-props"
+info:
+  summary: "Medieval buildings inspired by those in the city of Palermo"
+  website: "https://community.simtropolis.com/files/file/36140-palermo-medieval-building-prop-pack/"
+  author: "Samu64d"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_02/cattura2.png.d3d13252589cca8f6ffb85a3898437c3.png.a082f515ab72a78d36964ed2852c7674.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_02/65ce56f38c5f0_test-Jul.18361708021251.png.dd66c65549ada62ce9c26b12c7ba911a.png.d3278a41c851a49baed832e863cfa7bb.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_02/65ce56efa1b15_test-Jul.18361708021234.png.634cadd21110a75dfcd18c078b35db06.png.7da4639d390356d25d33624f0364d06c.png"
+
+---
+url: "https://community.simtropolis.com/files/file/36140-palermo-medieval-building-prop-pack/?do=download"
+assetId: "samu64d-palermo-medieval-building-props"
+version: "1.0.0"
+lastModified: "2024-02-22T22:10:01Z"

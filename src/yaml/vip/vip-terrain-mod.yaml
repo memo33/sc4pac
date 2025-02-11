@@ -1,0 +1,101 @@
+assetId: "vip-terrain-mod"
+version: "1"
+lastModified: "2020-08-15T14:21:59Z"
+url: "https://www.dropbox.com/sh/3vv8wi4jpqvjftj/AAAld2VbdWi-MctBYCiCaxi-a?dl=1"
+
+---
+group: "vip"
+name: "vip-terrain-mod-complete"
+version: "1"
+subfolder: "170-terrain"
+dependencies:
+- "vip:vip-terrain-mod-base"
+- "vip:vip-terrain-mod-beach"
+- "vip:vip-terrain-mod-rock"
+- "vip:vip-terrain-mod-water"
+info:
+  summary: "VIP Terrain Mod - All Components"
+  conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    Installs VIP Terrain Mod, including optional beach, rock, and water textures.
+
+    This is an HD terrain mod, requiring the use of hardware rendering mode.
+  author: "Badsim/Cédric"
+  website: "https://www.sc4devotion.com/forums/index.php?topic=17728.0"
+
+---
+group: "vip"
+name: "vip-terrain-mod-base"
+version: "1"
+subfolder: "170-terrain"
+assets:
+- assetId: "vip-terrain-mod"
+  include:
+  - "/VIP Terrain Mod Textures/"
+  - "/VIP Terrain Properties/"
+info:
+  summary: "VIP Terrain Mod - Terrain Only"
+  conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    Installs only the base terrain textures for the VIP Terrain Mod, and does not include optional beach, rock, and water textures.
+
+    This is an HD terrain mod, requiring the use of hardware rendering mode.
+  author: "Badsim/Cédric"
+  website: "https://www.sc4devotion.com/forums/index.php?topic=17728.0"
+
+---
+group: "vip"
+name: "vip-terrain-mod-beach"
+version: "1"
+subfolder: "170-terrain"
+assets:
+- assetId: "vip-terrain-mod"
+  include:
+  - "/VIP Terrain Mod Optional/Beach/"
+info:
+  summary: "VIP Terrain Mod - Beach Textures"
+  conflicts: ""
+  description: |
+    Optional beach textures for the VIP Terrain Mod.
+
+    This is an HD terrain mod, requiring the use of hardware rendering mode.
+  author: "Badsim/Cédric"
+  website: "https://www.sc4devotion.com/forums/index.php?topic=17728.0"
+
+---
+group: "vip"
+name: "vip-terrain-mod-rock"
+version: "1"
+subfolder: "170-terrain"
+assets:
+- assetId: "vip-terrain-mod"
+  include:
+  - "/VIP Terrain Mod Optional/Rock/"
+info:
+  summary: "VIP Terrain Mod - Rock Textures"
+  conflicts: ""
+  description: |
+    Optional rock textures for the VIP Terrain Mod.
+
+    This is an HD terrain mod, requiring the use of hardware rendering mode.
+  author: "Badsim/Cédric"
+  website: "https://www.sc4devotion.com/forums/index.php?topic=17728.0"
+
+---
+group: "vip"
+name: "vip-terrain-mod-water"
+version: "1"
+subfolder: "170-terrain"
+assets:
+- assetId: "vip-terrain-mod"
+  include:
+  - "/VIP Terrain Mod Optional/Water/"
+info:
+  summary: "VIP Terrain Mod - Water Textures"
+  conflicts: ""
+  description: |
+    Optional water textures for the VIP Terrain Mod.
+
+    This is an HD terrain mod, requiring the use of hardware rendering mode.
+  author: "Badsim/Cédric"
+  website: "https://www.sc4devotion.com/forums/index.php?topic=17728.0"

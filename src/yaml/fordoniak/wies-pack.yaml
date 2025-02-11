@@ -1,0 +1,24 @@
+group: "fordoniak"
+name: "wies-pack"
+version: "1-1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "fordoniak-wies-pack"
+  exclude:
+  - "\\.SC4Lot$"
+info:
+  summary: "Wieśpack village buildings and barn props"
+  description: |
+    This package contains only buildings and props.
+    The lot files of the original upload are not included.
+  author: "fordoniak"
+  # website: ""  # unknown
+
+---
+assetId: "fordoniak-wies-pack"
+version: "1-1"
+lastModified: "2024-07-28T13:49:00Z"
+# url: "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=40040"
+# The entry names in the original zip file seem to be encoded with IBM852 (or IBM775) charset
+# which can result in issues on extraction, so the zip file has be reencoded using UTF-8 instead.
+url: "https://github.com/memo33/sc4pac-tools/releases/download/0.1.0/wiespack.zip"

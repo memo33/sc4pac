@@ -1,0 +1,27 @@
+group: "mushymushy"
+name: "na-53ft-trailers-vol1"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "mushymushy-na-53ft-trailers-vol1"
+info:
+  summary: "HD North American 53ft semi trailer props"
+  description: |
+    This is a prop pack containing 208 unique HD 53ft semi trailer models, all of which are based on North American designs. All models are rendered at 90, 45, 22.5L, and 22.5R angles with reasonably tight LODs to provide maximum flexibility. This pack includes 53ft box trailers in several liveries with and without cabs.
+
+    Trailer liveries include blank white, Best Buy, Conway, Costco, DHL, FedEx Express, FedEx Ground, Kroger, Roadway, rusty, Safeway, Target, custom black, Mushy's Random BATs, UPS, USPS, Walmart, and Yellow. All trailers are also paired with a Mack MR688, Mack CH613, Kenworth T800, Peterbilt 352, Peterbilt 359, or a custom Peterbilt 359 in various colors. This package does not contain standalone cabs.
+  author: "MushyMushy"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2015_09/trailersback.jpg.d1cb9b4ec529c5fd1581a146e573f420.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2015_09/trailersside.jpg.9a787c58097441011d8d946083404e5e.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2015_09/mushside.jpg.23be19ac1760c3105923b89134ca1cfd.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2015_09/dhl352.jpg.970f6157e012ade7411c41441fb197b0.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2015_09/rustyt800.jpg.b1df1186bd96bad37f29f885ae58b31d.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2015_09/target.jpg.e53146fbbad9d773216edafdcb7dfeeb.jpg"
+  website: "https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/"
+
+---
+url: "https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/?do=download"
+assetId: "mushymushy-na-53ft-trailers-vol1"
+version: "1.0"
+lastModified: "2015-09-07T05:38:37Z"

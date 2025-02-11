@@ -1,0 +1,51 @@
+group: "ids2"
+name: "retro-theaters"
+version: "1.0"
+subfolder: "300-commercial"
+
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "ids2-retro-theaters-mn"
+- variant: { nightmode: "dark" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "ids2-retro-theaters-dn"
+
+info:
+  summary: "4 small theaters (CS$$)"
+  description: |
+    This is a set of four 40s-50s theaters faithfully modeled after real world examples.
+
+    All lots are 1×3, CS$$, and are both growable and ploppable.
+
+    Included:
+
+    - Eureka Theater - Batesville, MS
+
+    - Normal Theater - Normal, IL
+
+    - North Bend Theater - North Bend, WA
+
+    - Watts Theater - Osage, IA
+  author: "IDS2"
+  website: "https://community.simtropolis.com/files/file/29793-retro-theaters-pack/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_08_2014/586828d393a976e785e6a35d75aa408c-comp.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_08_2014/4c179c90d886f29e0875f02d59a3deed-compn.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_08_2014/8879fc08d970fcf35c83700f98921109-eureka.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_08_2014/9bed0482a25258992de1f277cb48ce0a-normal.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_08_2014/5be8b71f769ff68233fb7b3fead2cec4-northbend.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_08_2014/54a72b1cc32828fc781f0f8834eb27d0-watts.png"
+
+---
+assetId: "ids2-retro-theaters-mn"
+version: "1.0"
+lastModified: "2014-08-10T02:51:06Z"
+url: "https://community.simtropolis.com/files/file/29793-retro-theaters-pack/?do=download&r=139593"
+
+---
+assetId: "ids2-retro-theaters-dn"
+version: "1.0"
+lastModified: "2014-08-10T02:51:06Z"
+url: "https://community.simtropolis.com/files/file/29793-retro-theaters-pack/?do=download&r=139592"

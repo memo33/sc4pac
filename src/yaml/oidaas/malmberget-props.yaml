@@ -1,0 +1,39 @@
+group: "oidaas"
+name: "malmberget-props-vol01"
+version: "1.0.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Swedish buildings and apartments props"
+  website: "https://community.simtropolis.com/files/file/33552-malmberget-proppack-vol1/"
+  author: "Oidaas"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2020_04/5e99baff699e5_lotpict.png.24428719e76b84b53c848b1e9e127eb3.png"
+assets:
+- assetId: "oidaas-malmberget-props-vol01"
+
+---
+url: "https://community.simtropolis.com/files/file/33552-malmberget-proppack-vol1//?do=download"
+assetId: "oidaas-malmberget-props-vol01"
+version: "1.0.0"
+lastModified: "2020-04-17T14:24:21Z"
+
+
+---
+group: "oidaas"
+name: "malmberget-props-vol02"
+version: "1.0.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Swedish buildings and apartments props"
+  website: "https://community.simtropolis.com/files/file/35927-malmberget-proppack-vol-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659ad92ac6ef3_Namnls.png.54c27ec4f2db5159294ebe50c385a1ff.png
+  author: "Oidaas"
+assets:
+- assetId: "oidaas-malmberget-props-vol02"
+
+---
+url: "https://community.simtropolis.com/files/file/35927-malmberget-proppack-vol-2/?do=download"
+assetId: "oidaas-malmberget-props-vol02"
+version: "1.0.0"
+lastModified: "2024-01-07T17:04:05Z"

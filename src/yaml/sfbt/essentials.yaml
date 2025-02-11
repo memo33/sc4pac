@@ -1,0 +1,95 @@
+group: "sfbt"
+name: "essentials"
+version: "2015-1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sfbt-essentials"
+  include:
+  - "/SFBT/"
+
+variants:
+- variant: { "sfbt:essentials:tree-family" : "CP-deciduous-trees" }
+  dependencies:
+  - "bsc:mega-props-cp-vol01"
+  - "cycledogg:tree-models-part-one-and-two"
+  - "peg:mtp-super-pack"
+  assets:
+  - assetId: "sfbt-essentials"
+    include: [ "/SFBT_CP_Street_Deciduous_Trees.dat" ]
+
+- variant: { "sfbt:essentials:tree-family" : "CP-ponderosa-pines" }
+  dependencies:
+  - "bsc:mega-props-cp-vol01"
+  - "cycledogg:tree-models-part-one-and-two"
+  - "peg:mtp-super-pack"
+  assets:
+  - assetId: "sfbt-essentials"
+    include: [ "/SFBT_CP_Street_Ponderosa_Pines.dat" ]
+
+- variant: { "sfbt:essentials:tree-family" : "CP-shore-pinyon-pines" }
+  dependencies:
+  - "bsc:mega-props-cp-vol01"
+  - "cycledogg:tree-models-part-one-and-two"
+  - "peg:mtp-super-pack"
+  assets:
+  - assetId: "sfbt-essentials"
+    include: [ "/SFBT_CP_Street_Shore_Pinyon_Pines.dat" ]
+
+- variant: { "sfbt:essentials:tree-family" : "PEG-pines" }
+  dependencies:
+  - "bsc:mega-props-cp-vol01"
+  - "cycledogg:tree-models-part-one-and-two"
+  - "peg:mtp-super-pack"
+  assets:
+  - assetId: "sfbt-essentials"
+    include: [ "/SFBT_PEG_Street_Pines.dat" ]
+
+- variant: { "sfbt:essentials:tree-family" : "Maxis-deciduous-trees" }
+  assets:
+  - assetId: "sfbt-essentials"
+    include: [ "/SFBT_Maxis_Street_Deciduous_Trees.dat" ]
+
+- variant: { "sfbt:essentials:tree-family" : "Maxis-palm-trees" }
+  assets:
+  - assetId: "sfbt-essentials"
+    include: [ "/SFBT_Maxis_Street_Palm_Trees.dat" ]
+
+- variant: { "sfbt:essentials:tree-family" : "Maxis-pine-trees" }
+  assets:
+  - assetId: "sfbt-essentials"
+    include: [ "/SFBT_Maxis_Street_Pine_Trees.dat" ]
+
+variantInfo:
+- variantId: sfbt:essentials:tree-family
+  description: |-
+    The tree family you choose here is used by various SFBT lots as well as the SFBT street tree mod.
+  values:
+  - value: CP-deciduous-trees
+    description: mix of various deciduous trees by Cycledogg (recommended for use with custom tree controllers)
+  - value: CP-ponderosa-pines
+    description: various ponderosa pines by Cycledogg
+  - value: CP-shore-pinyon-pines
+    description: various shore and pinyon pines by Cycledogg
+  - value: PEG-pines
+    description: mix of pine trees by Pegasus
+  - value: Maxis-deciduous-trees
+    description: the default Maxis deciduous trees (recommended for use without a custom tree controller)
+  - value: Maxis-palm-trees
+    description: the default Maxis palm trees
+  - value: Maxis-pine-trees
+    description: the default Maxis pine trees
+
+info:
+  summary: "Custom UIs, textures and props for SFBT lots"
+  description: |
+    The SFBT Essentials contain the custom UIs that every SFBT lot uses, as well as shared textures and prop packs.
+
+    Additionally, the package contains several choosable variants of tree families that are used by SFBT lots as well as the SFBT street tree mod.
+  author: "Andreas, SFBT"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials"
+
+---
+assetId: "sfbt-essentials"
+version: "2015"
+lastModified: "2023-08-17T11:52:53-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=13:sfbt-essentials"

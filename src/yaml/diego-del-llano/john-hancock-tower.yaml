@@ -1,0 +1,36 @@
+group: diego-del-llano
+name: john-hancock-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: John Hancock Tower
+  description: |
+    200 Clarendon Street, previously John Hancock Tower and colloquially known as The Hancock, is a 60-story, 790-foot (240 m) skyscraper in Boston.
+    The tower was designed by Henry N. Cobb of the firm I.M. Pei & Partners and was completed in 1976. In 1977, the American Institute of Architects presented the firm with a National Honor Award for the building, and in 2011 conferred on it the Twenty-five Year Award. It has been the tallest building in Boston and New England since 1976.
+
+    The street address is 200 Clarendon Street, but occupants use both "Hancock Place" and "200 Clarendon Street" as mailing addresses for offices in the building.
+    John Hancock Insurance was the main tenant of the building when it opened, but the company announced in 2004 that some offices would relocate to a new building at 601 Congress Street, in Fort Point, Boston.
+
+    The tower was originally named for the insurance company that occupied it.
+    The insurance company, in turn, was named for John Hancock, whose large and conspicuous signature on the United States Declaration of Independence made his name so famous in the U.S. that a colloquialism for a signature is "a John Hancock."
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32788-john-hancock-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/03.jpg.0456b89fffddc150573c4ba8e64a3351.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c8496706d9ac_MACHOTEPARAEDIFICIOS.jpg.f4e7b20e30bf38e9591d2a22ae5ab383.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-john-hancock-tower-darknite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-john-hancock-tower-darknite
+
+---
+assetId: diego-del-llano-john-hancock-tower-darknite
+version: "1.0"
+lastModified: "2019-03-10T04:53:35Z"
+url: https://community.simtropolis.com/files/file/32788-john-hancock-tower/?do=download

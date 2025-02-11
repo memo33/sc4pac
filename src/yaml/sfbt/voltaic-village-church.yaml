@@ -1,0 +1,26 @@
+group: "sfbt"
+name: "voltaic-village-church"
+version: "1"
+subfolder: "650-religion"
+dependencies:
+- "bsc:mega-props-cp-vol01"
+- "sfbt:essentials"
+assets:
+- assetId: "sfbt-voltaic-village-church"
+
+info:
+  summary: "Czech village church"
+  description: |
+    This church was modeled after a church in Zablaticko, Czech Republic.
+    For the most part, the architecture is a reproduction of the original, with some creative liberty regarding roof and textures.
+  author: "voltaic"
+  images:
+  - https://www.simtropolis.com/objects/screens/monthly_2024_03/Dorfkirche_Tag.jpg.b2e41713fc2e624d9c5092d1890319fc.jpg
+  - https://www.simtropolis.com/objects/screens/monthly_2024_03/Dorfkirche_Nacht.jpg.86000a509682325eb9b6d387db1661b8.jpg
+  website: https://community.simtropolis.com/files/file/36169-sfbt-voltaic-village-church/
+
+---
+assetId: "sfbt-voltaic-village-church"
+version: "1"
+lastModified: "2024-03-13T21:12:15Z"
+url: "https://community.simtropolis.com/files/file/36169-sfbt-voltaic-village-church/?do=download"

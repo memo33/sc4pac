@@ -1,0 +1,49 @@
+group: andisart
+name: tower-verre
+version: "1.0-1"
+subfolder: 360-landmark
+info:
+  summary: Tower Verre - 53W53 (MoMA Expansion Tower)
+  description: |
+    - Origin: Midtown, New York City
+    - Construction: 2014 - 2018
+    - Building Height: 320m after design revision. This BAT represents the original design (381m height)
+    - Architect: Jean Nouvel
+    - Lot Size: 4x2
+
+    Contains 3 different lots:
+     - Landmark
+     - Growable R$$$ (Tilesets: New York, Chicago)
+     - Plobbable with Jobs
+
+  author: AndisArt
+  website: https://community.simtropolis.com/files/file/32106-tower-verre-53w53/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/ingame_plain.thumb.jpg.0635f65c4fb3e7a302c2dd1ee90da0f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2018-FINAL_N_complete.thumb.jpg.3a6491ff11ae8d4eb39e138aa46657dc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2018-FINAL_E_complete.thumb.jpg.8f3f143f81c429b77e22f8d51e9ba579.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2018-ingame_N_small.thumb.jpg.b965083f9b6f907373a4f6a31f6fd71e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/2018-ingame_E_small.thumb.jpg.3d3963efff3efaf3b3f4b862f61bc688.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/closeup.thumb.jpg.a77e5252f67dd1dd2eadcf9adbe0dc30.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_02/logo.thumb.jpg.c5926809b29dd839553292b9dd8c7625.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+    - assetId: andisart-tower-verre-53w53-maxisnite
+- variant: { nightmode: dark }
+  dependencies: ["simfox:day-and-nite-mod"]
+  assets:
+    - assetId: andisart-tower-verre-53w53-darknite
+
+---
+assetId: andisart-tower-verre-53w53-maxisnite
+version: "1.0"
+lastModified: "2018-02-05T23:58:20Z"
+url: https://community.simtropolis.com/files/file/32106-tower-verre-53w53/?do=download&r=169929
+
+---
+assetId: andisart-tower-verre-53w53-darknite
+version: "1.0"
+lastModified: "2018-02-05T23:58:20Z"
+url: https://community.simtropolis.com/files/file/32106-tower-verre-53w53/?do=download&r=169930

@@ -1,0 +1,47 @@
+group: diego-del-llano
+name: latin-america-collection
+version: 1.0.0
+subfolder: 360-landmark
+info:
+  summary: Latin American part of Diego Del Llano's landmarks collection
+  description: |
+    Contains the Latin American part of Diego Del Llano's collection, including Mexico.
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file
+
+dependencies: [
+  "diego-del-llano:bd-bacata",
+  "diego-del-llano:central-park-corporativo",
+  "diego-del-llano:cititower-guadalajara",
+  "diego-del-llano:ciudadela-san-martin",
+  "diego-del-llano:ciudadela-san-martin-tower-one",
+  "diego-del-llano:distrito-armenia",
+  "diego-del-llano:edificio-alas",
+  "diego-del-llano:edificio-avianca",
+  "diego-del-llano:edificio-del-cafe",
+  "diego-del-llano:edificio-lopez-serrano",
+  "diego-del-llano:edificio-playa-oriental",
+  "diego-del-llano:fiestamericana-guadalajara",
+  "diego-del-llano:gran-torre-santiago",
+  "diego-del-llano:hotel-presidente-guadalajara",
+  "diego-del-llano:hotel-presidente-intercontinental-mexico-city",
+  "diego-del-llano:hotel-riu-plaza-guadalajara",
+  "diego-del-llano:hyatt-ziva-tower-one",
+  "diego-del-llano:hyatt-ziva-tower-two",
+  "diego-del-llano:icon-vallarta",
+  "diego-del-llano:midtown-jalisco",
+  "diego-del-llano:peninsula-puerto-vallarta",
+  "diego-del-llano:shangri-la",
+  "diego-del-llano:the-h1",
+  "diego-del-llano:torre-colpatria",
+  "diego-del-llano:torre-colseguros",
+  "diego-del-llano:torre-coltejer",
+  "diego-del-llano:torre-ejecutiva-pemex",
+  "diego-del-llano:torre-latinoamericana",
+  "diego-del-llano:torre-mayor",
+  "diego-del-llano:torre-multiva",
+  "diego-del-llano:torre-reforma",
+  "diego-del-llano:torres-atrio",
+  "diego-del-llano:tres-mares",
+  "diego-del-llano:westin-regina",
+]

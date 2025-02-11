@@ -1,0 +1,51 @@
+group: diego-del-llano
+name: north-america-collection
+version: 1.0.0
+subfolder: 360-landmark
+info:
+  summary: North American part of Diego Del Llano's landmarks collection
+  description: |
+    Contains the North American part of Diego Del Llano's collection, excluding Mexico.
+    Mexico can be found in the Latin American counterpart.
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file
+
+dependencies: [
+  # collections
+  "diego-del-llano:new-york-collection",
+  "diego-del-llano:chicago-collection",
+  "diego-del-llano:san-francisco-collection",
+  "diego-del-llano:los-angeles-collection",
+  # remaining buildings
+  "diego-del-llano:aldred-building",
+  "diego-del-llano:capella-tower",
+  "diego-del-llano:centurylink-tower-denver",
+  "diego-del-llano:columbia-center",
+  "diego-del-llano:comcast-center",
+  "diego-del-llano:denver-art-museum",
+  "diego-del-llano:denver-place",
+  "diego-del-llano:first-national-bank-tower",
+  "diego-del-llano:fountain-place",
+  "diego-del-llano:great-american-tower",
+  "diego-del-llano:hotel-embassy-indianapolis",
+  "diego-del-llano:ibm-marathon",
+  "diego-del-llano:john-hancock-tower",
+  "diego-del-llano:lasalle-wacker-building",
+  "diego-del-llano:one-cleveland-center",
+  "diego-del-llano:one-kansas-city-place",
+  "diego-del-llano:one-liberty-place",
+  "diego-del-llano:one-metropolitan-square",
+  "diego-del-llano:one-shell-plaza",
+  "diego-del-llano:one-shell-square",
+  "diego-del-llano:oneamerica-tower-indianapolis",
+  "diego-del-llano:regions-center",
+  "diego-del-llano:renaissance-tower-sacramento",
+  "diego-del-llano:republic-plaza",
+  "diego-del-llano:reynolds-building",
+  "diego-del-llano:seattle-municipal-tower",
+  "diego-del-llano:simmons-tower",
+  "diego-del-llano:stephens-inc",
+  "diego-del-llano:turlington-building",
+  "diego-del-llano:two-liberty-place",
+  "diego-del-llano:wells-fargo-center-denver"
+]

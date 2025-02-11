@@ -1,32 +1,48 @@
 assetId: "cycledogg-terrain-mods-sc4e"
-version: "1"
-lastModified: "2023-07-20T03:15:26Z"
+version: "3.0"
+lastModified: "2024-12-31T17:16:59Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=34:cycledogg-terrain-mods"
 
 ---
 group: "cycledogg"
 name: "missouri-breaks-terrain"
-version: "1-2"
+version: "3.0"
 subfolder: "170-terrain"
-assets:
+assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
+  # TODO consider splitting off essentials and optional components
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:  # TODO consider splitting off essentials and optional components
-  - "/CPT_No3_TerrainTextures_Essential.dat"
-  - "/CPT_No4_TerrainTextures_Essential.dat"
-  - "/CPT_No5_MissouriBreaksRockTextures_EssentialButInterchangableWithOtherNo5.dat"
+  include:
+  - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_No5_RockTextures_MissouriBreaks_Essential.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_No6_MissouriBreaksTerrainController.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_B_MissouriBreaksBeach_Optional.dat"
-  - "/CPT_C_MissouriBreaksCliff_Optional_EquivalentToPegRockMod.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_C_MissouriBreaksCliff_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_W_MissouriBreaks_MuddyWater_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
-  include:  # note that asset contains two files with the same name, so we need to choose one
-  - "^/z_LK_FloraTuningParameters_Seasonal_CP_MissouriBreaks.dat"  # needs to load after the terrain mod
+  include:
+  - "/z_LK_FloraTuningParameters_Seasonal_CP_MissouriBreaks.dat"  # needs to load after the terrain controller file
 info:
   summary: "Badlands terrain mod based on eastern Montana, including Rock, Water & Beach mod"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
-  description: >
+  description: |
     This is an SD terrain mod, compatible with software rendering mode.
 
     This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  - https://community.simtropolis.com/files/file/16035-cpt-missouri-breaks-terrain-mod/
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MissouriBreaksTerrainMod.jpg
+  - https://www.simtropolis.com/objects/screens/0006/2a8077c0c6f70d5e7e30eb9d74a78524-MissBrksLeft.jpg
+  - https://www.simtropolis.com/objects/screens/0006/2a8077c0c6f70d5e7e30eb9d74a78524-MissBrksRt.jpg

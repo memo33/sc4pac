@@ -1,0 +1,25 @@
+group: "mushymushy"
+name: "american-school-bus-props"
+version: "1.0.1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "mushymushy-american-school-bus-props"
+info:
+  summary: "HD American school bus props"
+  description: |
+    This package contains 20 HD models. It has 5 different bus designs rendered in 90 degree (ortho), 45 degree (diagonal), and both 22.5 degree angles. Four of the buses are built off of a Navistar International truck chassis and the other one is a Ford E-Series bus with a handicap door.
+  author: "MushyMushy"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_09/buspacksq.png.2070d1b1fa014bcfba1a8b6ac60dc82d.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_09/3800L.png.cfcaffe8f315e7d515ae3cb771b1b3fa.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_09/3800S.png.9ac034a2cfb82a38748277a06fc3857d.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_09/3900fe.png.59a4768400cc5e4211336e952746ffae.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_09/3900re.png.a90fd875af36b96bacdedb0232b60f2a.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_09/e450.png.0f015decd89d348d2ca03ebe33732385.png"
+  website: "https://community.simtropolis.com/files/file/31279-american-school-bus-prop-pack"
+
+---
+url: "https://community.simtropolis.com/files/file/31279-american-school-bus-prop-pack/?do=download"
+assetId: "mushymushy-american-school-bus-props"
+version: "1.0.1"
+lastModified: "2016-09-05T08:33:29Z"

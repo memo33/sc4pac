@@ -1,0 +1,26 @@
+group: mandelsoft
+name: luxembourg-road-pack
+version: "2.0"
+subfolder: 700-transit
+info:
+  summary: Luxembourg Road Pack 01
+  description: |
+    This pack contains the following:
+      - 8 Luxembourgian Motorway Signs for very simple RHW interchanges, because Luxembourg doesn't have complex interchanges.
+      - 2 Styles of Ploppable Luxembourgian Lights.
+
+    Submenu support is baked in. To take advantage of it, you have to install `pkg=memo:submenus-dll`, after which the lots can be found in the Transit > Highway submenu
+  author: MandelSoft
+  website: https://community.simtropolis.com/files/file/23857-luxembourg-road-pack-01/
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/3ef6ae7a5bdbba4b81b36e632241d966-LuxRP01%20Prim.jpg
+    - https://www.simtropolis.com/objects/screens/0008/3ef6ae7a5bdbba4b81b36e632241d966-LuxRP01%20Sec.jpg
+
+assets:
+  - assetId: mandelsoft-luxembourg-road-pack
+
+---
+assetId: mandelsoft-luxembourg-road-pack
+version: "2.0"
+lastModified: "2024-09-04T01:17:37Z"
+url: https://community.simtropolis.com/files/file/23857-luxembourg-road-pack-01/?do=download

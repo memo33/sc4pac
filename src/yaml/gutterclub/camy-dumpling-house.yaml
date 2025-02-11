@@ -1,0 +1,41 @@
+group: "gutterclub"
+name: "camy-dumpling-house"
+version: "1.0"
+subfolder: "300-commercial"
+
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "gutterclub-camy-dumpling-house"
+    exclude: [ "/DN/", "/MN/" ]
+    # the MN model is broken, so use the following patch instead
+  - assetId: "gutterclub-camy-dumpling-house-maxisnite-model-patch"
+- variant: { nightmode: "dark" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "gutterclub-camy-dumpling-house"
+    exclude: [ "/MN/" ]
+
+info:
+  summary: "Small CS$ building"
+  description: |
+    The building is based on a bar in Melbourne's Chinatown
+    and grows on a 1×2 CS$ lot.
+  author: "gutterclub"
+  website: "https://community.simtropolis.com/files/file/27077-camy-dumpling-house/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/a195dc073e605d05e652dc6203f94a65-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/6fe2f2560851e045ae97a8c832c308c4-night.jpg
+
+---
+assetId: "gutterclub-camy-dumpling-house"
+version: "1.0"
+lastModified: "2011-12-17T22:47:52Z"
+url: "https://community.simtropolis.com/files/file/27077-camy-dumpling-house/?do=download"
+
+---
+# rsc204's patch from https://community.simtropolis.com/forums/topic/71410-graphical-issue-with-camy-dumpling-house/?do=findComment&comment=1635341
+assetId: "gutterclub-camy-dumpling-house-maxisnite-model-patch"
+version: "1"
+lastModified: "2016-09-03T02:36:24Z"
+url: "https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=21315"

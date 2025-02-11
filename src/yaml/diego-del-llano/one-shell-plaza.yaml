@@ -1,0 +1,31 @@
+group: diego-del-llano
+name: one-shell-plaza
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: One Shell Plaza
+  description: |
+    One Shell Plaza (OSP) is a 50-story, 218 m (715 ft) skyscraper at 910 Louisiana Street in Downtown Houston, Texas.
+    Perched atop the building is an antenna that brings the height to 304.8 m (1,000 ft).
+    At its completion in 1971, the tower was the tallest in the city.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32282-one-shell-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/07.jpg.6d17763df303ebd9157ceb93388ac44e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/06.jpg.843acfe82f3854b36ee47330bac03788.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-one-shell-plaza-darknite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-one-shell-plaza-darknite
+
+---
+assetId: diego-del-llano-one-shell-plaza-darknite
+version: "1.0"
+lastModified: "2018-06-03T18:23:47Z"
+url: https://community.simtropolis.com/files/file/32282-one-shell-plaza/?do=download

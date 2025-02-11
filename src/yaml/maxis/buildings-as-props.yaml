@@ -1,0 +1,14 @@
+# included for easier discoverability
+group: "maxis"
+name: "buildings-as-props"
+version: "1"
+subfolder: "100-props-textures"
+dependencies:
+- "t-wrecks:maxis-prop-names-and-query-fix"
+info:
+  summary: "Buildings as props (bldgprop_vol1.dat and bldgprop_vol2.dat)"
+  description: |
+    Superseded by `pkg=t-wrecks:maxis-prop-names-and-query-fix`.
+    It is enough to install that package instead.
+  author: "Maxis"
+  website: "https://community.simtropolis.com/sc4-maxis-files/"

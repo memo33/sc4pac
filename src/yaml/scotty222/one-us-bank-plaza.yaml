@@ -1,0 +1,28 @@
+group: scotty222
+name: one-us-bank-plaza
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: One US Bank Plaza
+  description: |
+    One US Bank Plaza, St Louis, MO
+
+    Comes as a ploppable and growable
+
+    * CO$$
+    * 3500 jobs
+    * 4x2 lot
+  author: scotty222
+  website: https://community.simtropolis.com/files/file/26819-one-us-bank-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/4cf243e14113825fbb0b802b962b78e1-us_bank_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2011/4f52f4d45495728ba02058876fd36348-us_bank_night.jpg
+
+assets:
+  - assetId: scotty222-one-us-bank-plaza
+
+---
+assetId: scotty222-one-us-bank-plaza
+version: "1.0"
+lastModified: "2011-09-29T03:41:25Z"
+url: https://community.simtropolis.com/files/file/26819-one-us-bank-plaza/?do=download

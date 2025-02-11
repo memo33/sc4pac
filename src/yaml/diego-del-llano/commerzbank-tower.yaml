@@ -1,0 +1,40 @@
+group: diego-del-llano
+name: commerzbank-tower
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Commerzbank Tower
+  description: |
+    Commerzbank Tower is a 56-story, 259 m (850 ft) skyscraper in the Innenstadt district of Frankfurt, Germany.
+    An antenna spire with a signal light on top gives the tower a total height of 300.1 m (985 ft).
+    It is the tallest building in Frankfurt and the tallest building in Germany.
+    It had been the tallest building in Europe from its completion in 1997 until 2003 when it was surpassed by the Triumph-Palace in Moscow.
+    The Commerzbank Tower is only two metres taller than the Messeturm, which is also located in Frankfurt.
+    The Messeturm had been the tallest building in Europe before the construction of the Commerzbank Tower.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31516-commerzbank-tower/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/a8/05/08/a80508ba2672f1ed8405bf9c2ae33334.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/eb/31/dc/eb31dc32e512cbe8167b9c35b4426cbd.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-commerzbank-tower-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-commerzbank-tower-darknite
+
+---
+assetId: diego-del-llano-commerzbank-tower-darknite
+version: "1.0"
+lastModified: "2017-03-16T15:25:51Z"
+url: https://community.simtropolis.com/files/file/31516-commerzbank-tower/?do=download&r=165032
+
+---
+assetId: diego-del-llano-commerzbank-tower-maxisnite
+version: "1.0"
+lastModified: "2017-03-16T15:25:51Z"
+url: https://community.simtropolis.com/files/file/31516-commerzbank-tower/?do=download&r=165031

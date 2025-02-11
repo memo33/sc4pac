@@ -1,0 +1,50 @@
+group: diego-del-llano
+name: ciudadela-san-martin
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Ciudadela San Martin
+  description: |
+    High Rise, locted in the Capital city of Bogota, Colombia.
+    Height is 170 m.
+
+  conflicts: Only DarkNite models exist for these buildings, so the same models are installed with either nightmode setting.
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/SANMARTIN.jpg.6cb95eac77616970060c0e80c54c2c45.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bc2496713958_SANMARTIN2.jpg.a8e48dd1073db346b71cdd83f05f3a9c.jpg
+
+assets:
+  - assetId: diego-del-llano-ciudadela-san-martin-north-darknite
+  - assetId: diego-del-llano-ciudadela-san-martin-north-mall-darknite
+  - assetId: diego-del-llano-ciudadela-san-martin-south-darknite
+  - assetId: diego-del-llano-ciudadela-san-martin-complete-darknite
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+
+---
+assetId: diego-del-llano-ciudadela-san-martin-north-darknite
+version: "1.0"
+lastModified: "2018-10-13T19:40:36Z"
+url: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/?do=download&r=173133
+
+---
+assetId: diego-del-llano-ciudadela-san-martin-north-mall-darknite
+version: "1.0"
+lastModified: "2018-10-13T19:40:36Z"
+url: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/?do=download&r=173134
+
+---
+assetId: diego-del-llano-ciudadela-san-martin-south-darknite
+version: "1.0"
+lastModified: "2018-10-13T19:40:36Z"
+url: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/?do=download&r=173135
+
+---
+assetId: diego-del-llano-ciudadela-san-martin-complete-darknite
+version: "1.0"
+lastModified: "2018-10-13T19:40:36Z"
+url: https://community.simtropolis.com/files/file/32546-ciudadela-san-martin/?do=download&r=173136

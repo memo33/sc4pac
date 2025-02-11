@@ -6,7 +6,7 @@ dependencies: []
 
 info:
   summary: "Sao Paulo Art Museum"
-  description: >
+  description: |
     This is a recreation of the Museu de Arte de São Paulo on Paulista Avenue.
     It was built in 1968 and is an eye catching steel, concrete and glass
     structure which is supported by two red lateral reinforced concrete beams
@@ -17,6 +17,14 @@ info:
     menu.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33035-sao-paulo-art-museum/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP.jpg.f0daec4a900b6266838b863b7f695905.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP1.jpg.b9be10a8a48e84c340f8c4c005778092.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP2.jpg.fd7c33f0b16cea6585eb876cfa1a5c67.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP3.jpg.ede5a0d4cf0ef28f194ffa2baac2f28d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP4.jpg.7375d92bd279506bd5e901e61922091e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP5.jpg.aef9a5df660efc3a62f408b009815cce.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_07/MASP6.jpg.9be17a958fa0ad2817ee340319da3750.jpg
 
 variants:
 - variant: { nightmode: standard }

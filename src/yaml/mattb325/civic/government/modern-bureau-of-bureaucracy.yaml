@@ -10,7 +10,7 @@ dependencies:
 
 info:
   summary: "Modern Bureau of Bureaucracy"
-  description: >
+  description: |
     This modern Bureau of Bureaucracy is a fictional government building reached
     by a distinctive semi-circular sunken staircase. The design of the building
     is intended to be austere and intimidating. The building gouges through the
@@ -22,6 +22,13 @@ info:
     demand caps and mayor rating.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33072-modern-bureau-of-bureaucracy/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB.jpg.69408c9d11f4f2a8024af8e3e077e97a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB1.jpg.01ce30f50335c9ef92fd299ab5b89eec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB2.jpg.b6f1cf8b3d1befe766c8222e0d565f29.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB3.jpg.c96097ded744353a31c918d021254fb2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB4.jpg.ced7edb5ceea5a1ab0cd50ddee5d8d38.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_08/BoB5.jpg.af5e786ee42c539de2605aaae6796c9b.jpg
 
 variants:
 - variant: { nightmode: standard }

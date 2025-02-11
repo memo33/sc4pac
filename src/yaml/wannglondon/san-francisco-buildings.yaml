@@ -1,0 +1,26 @@
+group: "wannglondon"
+name: "san-francisco-buildings-1"
+version: "1.0.0"
+subfolder: "200-residential"
+assets:
+- assetId: "wannglondon-san-francisco-buildings-1"
+variants:
+- variant: { nightmode: "standard" }
+- variant: { nightmode: "dark" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+
+info:
+  summary: "4 midsize W2W buildings (R$$)"
+  description: |
+    Included are four Stage 5 R$$ W2W buildings from San Francisco which grow on 1×2 lots.
+  conflicts: Only DarkNite models exist for these buildings, so the same models are installed with either nightmode setting.
+  author: "WannGLondon"
+  website: "https://community.simtropolis.com/files/file/36385-san-francisco-buildings-1/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/SF.jpg.b4052ab6fbc9f4f09e5bc8f5094c129d.jpg"
+
+---
+assetId: "wannglondon-san-francisco-buildings-1"
+version: "1.0.0"
+lastModified: "2024-08-09T16:37:54Z"
+url: "https://community.simtropolis.com/files/file/36385-san-francisco-buildings-1/?do=download"

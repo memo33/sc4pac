@@ -46,6 +46,20 @@
         },
         // externalLinkTarget: '_self', // open external or non-hashed links in same tab
         //...
+        plugins: [
+          function editButton(hook, vm) {
+            $docsify.formatUpdated = '{YYYY}-{MM}-{DD}';  // date template pattern
+
+            hook.beforeEach(function (html) {
+              let page = vm.route.file;
+              let url = (page == 'README.md' || page == 'api.md')  // these pages include file from other repository
+                ? 'https://github.com/memo33/sc4pac-tools/blob/main/' + page
+                : 'https://github.com/memo33/sc4pac/blob/main/docs/' + page;
+              let editHtml = '[📝 Edit this page](' + url + ') *(Last modified {docsify-updated})*';
+              return html + '\n<br/>' + editHtml;
+            });
+          },
+        ],
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>

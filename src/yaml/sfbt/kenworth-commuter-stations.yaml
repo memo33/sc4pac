@@ -1,0 +1,38 @@
+group: "sfbt"
+name: "kenworth-commuter-stations"
+version: "1.0.0"
+subfolder: "700-transit"
+dependencies:
+- "bsc:textures-vol01"
+- "sfbt:essentials"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+assets:
+- assetId: "sfbt-kenworth-commuter-stations"
+
+info:
+  summary: "Two simple German bus stops"
+  description: |
+    Gooooooooooong! "Attention on platform two! Now arriving Regio Runner to Leipzig Central Station! Please stand clear of the edge of platform two!" -
+    This or something similar takes place on Germany's train stations every day.
+    Unfortunately, the number of German train stations for SimCity was next to nonexistant.
+    And weren't you looking for a station with elevators that can be connected to the NAM overpasses?
+    That can be changed with this set.
+
+    Five new stations with typical German appearance for urban and rural settings, with and without elevator,
+    some with parking lots and integrated bus stop, handicap accessible, with information plates and ticket machines.
+    The stations are designed after real-life examples around Leipzig, Germany - ideal for your cities with European flair!
+
+    Lot sizes: 2×1 (7×1), 7×3, 8×1, 8×2 tiles.
+  author: "Kenworth, Andreas"
+  website: "https://community.simtropolis.com/files/file/36491-sfbt-kenworth-commuter-stations-v2/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_10/S-Bahnhof_01.jpg.3251f2b57b9ca2a02d9d866d1b4f1ae3.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_10/S-Bahnhof_02.jpg.4c46ee7aec2e2559ad57907e72ee5cdf.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_10/S-Bahnhof_03.jpg.445e5a3fe9fa691f7e4dbadf645cb697.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_10/S-Bahnhof_04.jpg.55937c2a6a49b9a51926d994cd05cb38.jpg"
+
+---
+assetId: "sfbt-kenworth-commuter-stations"
+version: "1.0.0"
+lastModified: "2024-10-08T11:37:47Z"
+url: "https://community.simtropolis.com/files/file/36491-sfbt-kenworth-commuter-stations-v2/?do=download"

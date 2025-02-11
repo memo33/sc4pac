@@ -1,0 +1,36 @@
+group: "jasoncw"
+name: "hsbc-tower"
+version: "1.0.0"
+subfolder: "300-commercial"
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "jasoncw-hsbc-tower-mn"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "jasoncw-hsbc-tower-dn"
+
+info:
+  summary: "30-floor CO$$$ skyscraper"
+  description: |
+    This package includes a growable and ploppable version of the HSBC Tower located in Auckland, New Zealand.
+    It grows in the Houston and Euro tilesets on a 4×5 corner lot.
+  author: "Jasoncw"
+  website: "https://community.simtropolis.com/files/file/35371-hsbc-tower/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2022_12/HSBC-Auckland-00.jpg.2cd685b9b41d4e4a6c7eaf557939c386.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2022_12/HSBC-Auckland-01.jpg.efcafb063aa2a2bf1e2d1241bb7fac6e.jpg"
+
+---
+assetId: "jasoncw-hsbc-tower-mn"
+version: "1.0.0"
+lastModified: "2022-12-25T06:10:46Z"
+url: "https://community.simtropolis.com/files/file/35371-hsbc-tower/?do=download&r=195914"
+
+---
+assetId: "jasoncw-hsbc-tower-dn"
+version: "1.0.0"
+lastModified: "2022-12-25T06:10:46Z"
+url: "https://community.simtropolis.com/files/file/35371-hsbc-tower/?do=download&r=195915"

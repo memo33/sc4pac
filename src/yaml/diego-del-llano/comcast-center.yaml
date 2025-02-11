@@ -1,0 +1,45 @@
+group: diego-del-llano
+name: comcast-center
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Comcast Center
+  description: |
+    Comcast Center is a skyscraper in Center City, Philadelphia, Pennsylvania, United States.
+    The 58-story, 297-meter (974 ft) tower is the tallest building in Philadelphia and the state of Pennsylvania, as well as the twenty-second tallest building in the United States.
+    Originally called One Pennsylvania Plaza when the building was first announced in 2001, the Comcast Center went through two redesigns before construction began in 2005.
+    Comcast Center was designed by Robert A.M.
+    Stern Architects for Liberty Property Trust.
+
+    At the beginning of 2005, the final redesign and its new name—the Comcast Center—was unveiled.
+    The building is named after its lead tenant, cable company Comcast, which makes the skyscraper its corporate headquarters.[6] Leasing 1,094,212 square feet (101,656 m2), Comcast takes up 89 percent of the building.
+    The building features retail and restaurant space and a connection to the nearby Suburban Station.
+    In Comcast Center's lobby is the Comcast Experience, which is a 2,000 square feet (190 m2) high-definition LED screen that has become a tourist attraction.
+    Designed to be environmentally friendly, the skyscraper is the tallest Leadership in Energy and Environmental Design (LEED) certified building in Philadelphia.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31908-comcast-center/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/ff/f8/39/fff839b6c6cc4086c6fdc64071370bca.jpg
+    - https://i.pinimg.com/originals/8d/4c/5f/8d4c5f1c2271100237ef06b727e13934.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-comcast-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-comcast-center-darknite
+
+---
+assetId: diego-del-llano-comcast-center-darknite
+version: "1.0"
+lastModified: "2017-08-21T00:14:52Z"
+url: https://community.simtropolis.com/files/file/31908-comcast-center/?do=download&r=168015
+
+---
+assetId: diego-del-llano-comcast-center-maxisnite
+version: "1.0"
+lastModified: "2017-08-21T00:14:52Z"
+url: https://community.simtropolis.com/files/file/31908-comcast-center/?do=download&r=168016

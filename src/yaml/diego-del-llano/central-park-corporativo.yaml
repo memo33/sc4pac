@@ -1,0 +1,29 @@
+group: diego-del-llano
+name: central-park-corporativo
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Central Park Corporativo
+  description: |
+    Building Located in Guadalajara, Mexico.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32854-central-park-corporativo/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/01.jpg.ab95a4ec8ec5f7ab4d6861750041032e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_04/02.jpg.874890ae3805560b492b1163c2ac8c21.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-central-park-corporativo-darknite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-central-park-corporativo-darknite
+
+---
+assetId: diego-del-llano-central-park-corporativo-darknite
+version: "1.0"
+lastModified: "2019-04-09T01:06:46Z"
+url: https://community.simtropolis.com/files/file/32854-central-park-corporativo/?do=download

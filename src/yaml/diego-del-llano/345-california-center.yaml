@@ -1,0 +1,42 @@
+group: diego-del-llano
+name: 345-california-center
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: 345 California Center
+  description: |
+    345 California Center is a 48-story office tower in the financial district of San Francisco, California.
+    Completed in 1986, the 211.8 m (695 ft) tower is the third-tallest in the city after the Transamerica Pyramid and 555 California Street if the spires are included.
+    It was originally proposed to be 30 m (98 ft) taller.
+
+    345 California is in the middle of a block with historic buildings on each of the four corners.
+    Initially planned as condominiums, the top 11 floors of the building are the Loews Regency San Francisco hotel, located in twin towers set at 45-degree angles to the rest of the building.
+    Several glass skybridges offer views of the San Francisco Bay Area.
+    The Loews Regency has the street address 222 Sansome, with a different entrance.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31439-345-california-center/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/1.jpg.fa62a36ceff9f6d4e85b8f6f1258ccf1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/58851d4514137_CALIFORNIACENTER.jpg.133579811c10dd7761d4f43a85fd0a48.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-345-california-center-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-345-california-center-darknite
+
+---
+assetId: diego-del-llano-345-california-center-darknite
+version: "1.0"
+lastModified: "2017-01-22T21:01:32Z"
+url: https://community.simtropolis.com/files/file/31439-345-california-center/?do=download&r=164399
+
+---
+assetId: diego-del-llano-345-california-center-maxisnite
+version: "1.0"
+lastModified: "2017-01-22T21:01:32Z"
+url: https://community.simtropolis.com/files/file/31439-345-california-center/?do=download&r=164400

@@ -1,0 +1,18 @@
+group: "ndex"
+name: "textures-vol1"
+version: "2"
+subfolder: "100-props-textures"
+assets:
+- assetId: "ndex-texture-set-volume-1"
+info:
+  summary: "NDEX Texture Set Volume 1"
+  author: "Equinox"
+  website: "https://community.simtropolis.com/files/file/11617-ndex-texture-set-volume-1/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5f62f51601f32831edeb0a21607f423f-NDEX_Textures_1.jpg
+
+---
+assetId: "ndex-texture-set-volume-1"
+version: "2"
+lastModified: "2022-06-20T18:08:34Z"
+url: "https://community.simtropolis.com/files/file/11617-ndex-texture-set-volume-1/?do=download"

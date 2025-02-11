@@ -7,14 +7,16 @@ assets:
 - assetId: "vip-orange-aesculus"
 info:
   summary: "Aesculus seasonal flora (VIP)"
-  description: >
+  description: |
     Tree props and mayor-mode ploppables (MMPs).
     For fitting with other seasonal items, props need to be planted on the 1st of September.
   author: "Orange_o_"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/190-vip-orange-aesculus"
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/190-vip-orange-aesculus"
+    - "https://community.simtropolis.com/files/file/27001-vip-orange-aesculus/"
 
 ---
 assetId: "vip-orange-aesculus"
 version: "1.0"
-lastModified: "2023-11-13T18:51:20Z"
+lastModified: "2024-01-22T17:32:45Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=190:vip-orange-aesculus"

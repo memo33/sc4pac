@@ -1,0 +1,36 @@
+group: diego-del-llano
+name: cahalane-communications
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Cahalane Communications
+  description: |
+    Cahalane Communications is a Commercial Offices Building. The height is 200 m approximately.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32031-cahalane-communications/
+  images:
+    - https://i.pinimg.com/originals/3d/1e/b0/3d1eb049e78cbb7a881cda2a0b3b8d71.jpg
+    - https://i.pinimg.com/originals/b8/db/6c/b8db6c31f5b89a6fc7eeef3e50edaddd.jpg
+    - https://i.pinimg.com/originals/fc/8c/b7/fc8cb71d36dba545aaf76dc3e6611a44.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-cahalane-communications-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-cahalane-communications-darknite
+
+---
+assetId: diego-del-llano-cahalane-communications-darknite
+version: "1.0"
+lastModified: "2017-12-10T03:35:37Z"
+url: https://community.simtropolis.com/files/file/32031-cahalane-communications/?do=download&r=169364
+
+---
+assetId: diego-del-llano-cahalane-communications-maxisnite
+version: "1.0"
+lastModified: "2017-12-10T03:35:37Z"
+url: https://community.simtropolis.com/files/file/32031-cahalane-communications/?do=download&r=169362

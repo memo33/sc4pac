@@ -1,0 +1,24 @@
+group: "gutterclub"
+name: "murray-beer-co"
+version: "1.0.0"
+subfolder: "300-commercial"
+assets:
+- assetId: "gutterclub-murray-beer-co"
+
+info:
+  summary: "Small craft brewery company (W2W)"
+  description: |
+    The Murray Beer Co is a little craft brewery based on one in Wellington, New Zealand.
+    This little CS$$ stage 4 lot (1×2) sells odd flavoured IPAs to 30 year olds with big beards for twice the price of the normal beer.
+    No nitelites with this one, their license only runs till 9pm.
+  author: "gutterclub"
+  website: "https://community.simtropolis.com/files/file/36439-murray-beer-co/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_09/66df923422c6a_CentralMurraytown-May.164071725927754.png.3d83647ba485b089f80877f44781517f.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_09/66df92374e487_CentralMurraytown-May.164071725927769.png.b863f29d2e1fa9fd1989ff5b1783e5d5.png"
+
+---
+assetId: "gutterclub-murray-beer-co"
+version: "1.0.0"
+lastModified: "2024-09-10T00:30:08Z"
+url: "https://community.simtropolis.com/files/file/36439-murray-beer-co/?do=download"

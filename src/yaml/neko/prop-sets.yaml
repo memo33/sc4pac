@@ -1,0 +1,171 @@
+group: "neko"
+name: "prop-set-vol01-part1"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "neko-prop-set-vol01-part1"
+info:
+  summary: "Neko Prop Set 01 - part 1"
+  description: |
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0856.html"
+
+---
+assetId: "neko-prop-set-vol01-part1"
+version: "1-1"
+lastModified: "2020-08-26T12:39:31Z"
+url: "http://hide-inoki.com/bbs/archives/files/1482.zip"
+checksum:
+  sha256: 7fd3d6126f9fc100892c7f8d9e3e7a9b256f008f2cbfb14ee622063722c1c8b8
+
+---
+group: "neko"
+name: "prop-set-vol01-part2"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "neko-prop-set-vol01-part2"
+info:
+  summary: "Neko Prop Set 01 - part 2"
+  description: |
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0856.html"
+
+---
+assetId: "neko-prop-set-vol01-part2"
+version: "1-1"
+lastModified: "2020-08-26T12:39:38Z"
+url: "http://hide-inoki.com/bbs/archives/files/1483.zip"
+checksum:
+  sha256: 3192341cf288cbc62c3e1793cab95b5e35161a6ee5504c3ffb32cc77b8686547
+
+---
+group: "neko"
+name: "prop-set-vol02"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "neko-prop-set-vol02"
+info:
+  summary: "Neko Prop Set 02"
+  description: |
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0837.html"
+
+---
+assetId: "neko-prop-set-vol02"
+version: "1-1"
+lastModified: "2020-08-26T12:38:58Z"
+url: "http://hide-inoki.com/bbs/archives/files/1392.zip"
+checksum:
+  sha256: af657c7443c46c143ea4d8db1c374f965f6d5887e1bc9176b5aad2f77654dada
+
+---
+group: "neko"
+name: "prop-set-vol03"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "neko-prop-set-vol03"
+info:
+  summary: "Neko Prop Set 03"
+  description: |
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0837.html"
+
+---
+assetId: "neko-prop-set-vol03"
+version: "1-1"
+lastModified: "2020-08-26T12:38:53Z"
+url: "http://hide-inoki.com/bbs/archives/files/1391.zip"
+checksum:
+  sha256: 0312a80ad0130bbe3718176b3e11f24cc8529e5a785eaae0d4e8efa9ad5bfc59
+
+---
+group: "neko"
+name: "prop-set-vol04-part1"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+  - assetId: "neko-prop-set-vol04-part1"
+info:
+  summary: "Neko Prop Set 04 part 1"
+  description: |
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"
+
+---
+url: "http://hide-inoki.com/bbs/archives/files/1582.zip"
+assetId: "neko-prop-set-vol04-part1"
+version: "1-1"
+lastModified: "2020-08-26T12:41:09Z"
+checksum:
+  sha256: 6841c4e9887e67e9bacfb707cd0442bd30e4b5919395a1da093103d9222a1df5
+
+---
+group: "neko"
+name: "prop-set-vol04-part2"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+  - assetId: "neko-prop-set-vol04-part2"
+info:
+  summary: "Neko Prop Set 05"
+  description: |
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"
+
+---
+url: "http://hide-inoki.com/bbs/archives/files/1581.zip"
+assetId: "neko-prop-set-vol04-part2"
+version: "1-1"
+lastModified: "2020-08-26T12:41:03Z"
+checksum:
+  sha256: d82617c873ca8f9afa4e9a1a673d0f4c0b2dbebe284060a25624c4ff337a582a
+
+---
+group: "neko"
+name: "prop-set-vol05"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+  - assetId: "neko-prop-set-vol05"
+info:
+  summary: "Neko Prop Set 05"
+  description: |
+    Japanese props.
+  author: "Neko Panchi"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"
+
+---
+url: "http://hide-inoki.com/bbs/archives/files/1592.zip"
+assetId: "neko-prop-set-vol05"
+version: "1-1"
+lastModified: "2020-08-26T12:41:15Z"
+checksum:
+  sha256: 66fb3a6e7233a5f0f88f178ef88e90e5d8d99c9c0039c2edba3b6f2201fb996a
+
+---
+group: "neko"
+name: "texture-set-01"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "neko-texture-set-01"
+info:
+  summary: "Road and pavement overlay textures"
+  website: "http://hide-inoki.com/bbs/archives/sc4_0887.html"
+
+---
+url: "http://hide-inoki.com/bbs/archives/files/1580.zip"
+assetId: "neko-texture-set-01"
+version: "1-1"
+lastModified: "2020-08-26T12:40:59Z"
+checksum:
+  sha256: 27f44a65ae0f941f97554a48175c86f81e1a69903eb9df14fc9205a4e97ee8f6

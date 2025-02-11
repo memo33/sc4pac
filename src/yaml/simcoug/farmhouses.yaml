@@ -1,0 +1,46 @@
+group: "simcoug"
+name: "farmhouses"
+version: "1.0"
+subfolder: "200-residential"
+dependencies:
+- bsc:texturepack-cycledogg-vol01
+- bsc:mega-props-cp-vol01
+- bsc:mega-props-cp-vol02
+- bsc:mega-props-sg-vol01
+- bsc:mega-props-jmyers-agriculture-vol01
+- bsc:mega-props-jmyers-agriculture-vol02  # also contains props from `JMyers Farms - Corn Crops Vol 2`
+- bsc:mega-props-mjb-vol01
+# CP_Early19thCentury_Small$Houses.dat  # bundled explicitly via asset for now
+- bsc:mega-props-jmyers-common-props  # includes props originally contained in `JMyers Homes Vol 01`
+- bsc:textures-vol03  # includes textures originally contained in `JMyers Homes Vol 01`
+- peg:spam-super-resource-pack
+- onlyplace4:wild-west-shotgun-house-props
+- wmp:mega-props-vol01
+- krashspeed:mailbox-set
+- t-wrecks:maxis-prop-names-and-query-fix
+
+assets:
+- assetId: "simcoug-farmhouses-r1"
+- assetId: "cycledogg-early-19th-century-residentials-pack"
+  include: [ "/CP_Early19thCentury_Small\\$Houses_Models.dat" ]
+
+info:
+  summary: "30 growable R$ Farmhouse lots"
+  description: |
+    This set of lots is desigend to fit in rural settings.
+    There are two lot sizes - 3x5 and 5x5.
+    The odd lot sizes were chosen to help you grow these lots.
+  author: "SimCoug"
+  website: "https://community.simtropolis.com/files/file/31591-simcougs-farmhouses-r/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/590399ca5ad11_SC_FarmhousesTitle.jpg.d45c594fd707cef33a4a3cd6ae1149e4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/590399d5b3e8e_SC_Farmhouses5x5B.jpg.cb88bf85605a5d106b37413c7cd442ab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/590399d719b3c_SC_Farmhouses5x5A.jpg.306c085402a995d9b60cdaef1b1e195f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/590399d861b86_SC_Farmhouses3x5A.jpg.5ed7dcdd6c4d7a5be81b9e70106083c0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_04/590399d9b666e_SC_Farmhouses3x5B.jpg.5a4962dc525f1e93546d9762a82b5594.jpg
+
+---
+assetId: "simcoug-farmhouses-r1"
+version: "1.0"
+lastModified: "2017-04-28T19:56:23Z"
+url: "https://community.simtropolis.com/files/file/31591-simcougs-farmhouses-r/?do=download"

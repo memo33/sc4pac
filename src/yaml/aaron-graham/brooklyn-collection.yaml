@@ -1,0 +1,13 @@
+group: aaron-graham
+name: brooklyn-collection
+version: "1.0"
+subfolder: 200-residential
+info:
+  summary: Brooklyn part of Aaron Graham's NYBT bats
+  description: |
+    Contains the Brooklyn part of Aaron Graham's NYBT collection.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/profile/226625-aaron-graham/content/?type=downloads_file
+
+dependencies:
+  - "aaron-graham:tapscott-houses"

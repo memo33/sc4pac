@@ -8,13 +8,19 @@ dependencies:
 
 info:
   summary: "Sioux Falls City Hall"
-  description: >
+  description: |
     Non-conditional Town Hall reward based on the Sioux Falls City Hall.
     It is constructed in the streamline moderne (a successor to art-deco) style
     with a brick and granite facade.
     It sits on a 4x4 lot and provides 65 civic jobs.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/34004-sioux-falls-city-hall/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SiouxFalls_CityHall.jpg.2b431814a83b91d24c72e441376744e3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SiouxFalls_CityHall1.jpg.4d4b5edc1854f64edea9286b4ebf13d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SiouxFalls_CityHall2.jpg.aa5702d4b52fe78517253b8646ba7c76.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SiouxFalls_CityHall2a.jpg.322b81aef4ed31eb8110a1bbe42a7f8d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/SiouxFalls_CityHall3.jpg.94e26d38d8c74d1e77298062fa813ee2.jpg
 
 variants:
 - variant: { nightmode: standard }

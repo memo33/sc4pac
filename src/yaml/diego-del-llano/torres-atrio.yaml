@@ -1,0 +1,51 @@
+group: diego-del-llano
+name: torres-atrio
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Torres Atrio
+  description: |
+    ATRIO is a major mixed-use commercial development in central Bogotá comprising two towers – North and South – with a large, open public space at ground level.
+
+    At 42 floors (201 metres) and 58 floors (268 metres) high respectively, the towers provide a total of more than 250,000 m² of office space, public services and retail with up to 72,000 people expected to pass through each day.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32065-torres-atrio/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/5a5aa9c8d2950_00TORREATRIOMAXIS.jpg.e1290c9bbe4d95ae770c70c11d8937e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_01/5a5aaa295074e_TORRESATRIO2324.jpg.8eed2b12961619e0bb64b8181c604715.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torres-atrio-sur-maxisnite
+      - assetId: diego-del-llano-torres-atrio-norte-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-torres-atrio-sur-darknite
+      - assetId: diego-del-llano-torres-atrio-norte-darknite
+
+---
+assetId: diego-del-llano-torres-atrio-sur-darknite
+version: "1.0"
+lastModified: "2018-01-14T00:56:53Z"
+url: https://community.simtropolis.com/files/file/32065-torres-atrio/?do=download&r=169591
+
+---
+assetId: diego-del-llano-torres-atrio-norte-darknite
+version: "1.0"
+lastModified: "2018-01-14T00:56:53Z"
+url: https://community.simtropolis.com/files/file/32065-torres-atrio/?do=download&r=169593
+
+---
+assetId: diego-del-llano-torres-atrio-sur-maxisnite
+version: "1.0"
+lastModified: "2018-01-14T00:56:53Z"
+url: https://community.simtropolis.com/files/file/32065-torres-atrio/?do=download&r=169592
+
+---
+assetId: diego-del-llano-torres-atrio-norte-maxisnite
+version: "1.0"
+lastModified: "2018-01-14T00:56:53Z"
+url: https://community.simtropolis.com/files/file/32065-torres-atrio/?do=download&r=169590

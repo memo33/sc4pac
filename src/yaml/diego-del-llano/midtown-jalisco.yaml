@@ -1,0 +1,29 @@
+group: diego-del-llano
+name: midtown-jalisco
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Midtown Jalisco
+  description: |
+    Mixed-use building located in Guadalajara, Mexico.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32678-midtown-jalisco/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/09.jpg.f475da0cac5ccd85c62b14c5d3ee71fb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_12/14.jpg.939dc3e1350f21a048ca5d54d7279493.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-midtown-jalisco-darknite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-midtown-jalisco-darknite
+
+---
+assetId: diego-del-llano-midtown-jalisco-darknite
+version: "1.0"
+lastModified: "2018-12-20T13:34:47Z"
+url: https://community.simtropolis.com/files/file/32678-midtown-jalisco/?do=download

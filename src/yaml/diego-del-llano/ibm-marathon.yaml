@@ -1,0 +1,41 @@
+group: diego-del-llano
+name: ibm-marathon
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: IBM Marathon Tower
+  description: |
+    1250 René-Lévesque, also known as the IBM-Marathon Tower, is a 226 m (741 ft), 47-story skyscraper in Montreal,Quebec, Canada.
+    The building was designed by Kohn Pedersen Fox Associates for IBM Canada and Marathon Realty, hence the former name "IBM-Marathon".
+    It is now named for its address at 1250 René Lévesque Boulevard West, in the Ville-Marie borough of Downtown Montreal.
+    It is adjacent to the Bell Centre and Windsor Station to the south, and stands on the site of the former American Presbyterian Church.
+    It is connected to the Bonaventure metro station and the underground city network.
+
+    1250 is currently owned and managed by global real estate investor, developer and owner Oxford Properties and is still partially occupied by IBM.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-rené-lévesque/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/37/a7/b7/37a7b787a679b16e9426a95410e5fcf6.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/a0/10/08/a01008d4a0a6b3c89a539240b2295c6c.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-darknite
+
+---
+assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-darknite
+version: "1.0"
+lastModified: "2017-03-14T06:44:11Z"
+url: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-réne-lévesque/?do=download&r=164978
+
+---
+assetId: diego-del-llano-ibm-marathon-1250-rene-levesque-maxisnite
+version: "1.0"
+lastModified: "2017-03-14T06:44:11Z"
+url: https://community.simtropolis.com/files/file/31513-ibm-marathon-1250-réne-lévesque/?do=download&r=164979

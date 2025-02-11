@@ -1,0 +1,20 @@
+group: "peg"
+name: "oops-mod"
+version: "1"
+subfolder: "150-mods"
+info:
+  summary: "Replaces the brown boxes with small colored flags"
+  description: |
+    This mod replaces those big ugly brown packages with small multi-colored flags. These flags are quite small and do not cover the entire lot, allowing you to more accurately guess what dependency is missing.
+  author: "Pegasus"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_06_2011/25f0f54c77e1be20f7882d31137bf26f-1140825300product_image1.jpg"
+  website: "https://community.simtropolis.com/files/file/26298-peg-oops-mod-zip-version-peg-no-more-brown-boxes/"
+assets:
+- assetId: "peg-oops-mod"
+
+---
+url: "https://community.simtropolis.com/files/file/26298-peg-oops-mod-zip-version-peg-no-more-brown-boxes/?do=download"
+assetId: "peg-oops-mod"
+version: "1"
+lastModified: "2011-06-01T08:05:55Z"

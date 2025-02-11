@@ -1,0 +1,35 @@
+group: diego-del-llano
+name: westin-regina
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Westin Regina
+  description: |
+    These luxury beach-front condos are located in Puerto Vallarta, Mexico. The height is 196,85 ft (60 meters).
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31849-westin-regina/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/63/10/a6/6310a6af85896ce46d92594b268b4136.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/9d/c1/59/9dc15914c49d2e4c38c6a19e5c6a5037.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-westin-regina-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-westin-regina-darknite
+
+---
+assetId: diego-del-llano-westin-regina-darknite
+version: "1.0"
+lastModified: "2017-07-17T04:22:20Z"
+url: https://community.simtropolis.com/files/file/31849-westin-regina/?do=download&r=167559
+
+---
+assetId: diego-del-llano-westin-regina-maxisnite
+version: "1.0"
+lastModified: "2017-07-17T04:22:20Z"
+url: https://community.simtropolis.com/files/file/31849-westin-regina/?do=download&r=167561

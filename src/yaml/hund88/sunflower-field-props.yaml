@@ -1,0 +1,27 @@
+group: "hund88"
+name: "sunflower-field-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "hund88-sunflower-field-props"
+  include:
+    # We include the no-shadow variant for better performance
+    # and exclude the lots, as they override Maxis files and are inCAMpatible.
+  - "/Sunflower \\(No Shadows\\)/.*.SC4Model$"
+  - "/Sunflower \\(No Shadows\\)/.*.SC4Desc$"
+
+info:
+  summary: "Sunflower props"
+  description: |
+    This package contains slope-friendly sunflower field props (no-shadow variant).
+  author: "HunD88"
+  website: "https://community.simtropolis.com/files/file/21220-sunflower-field/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/174adaab569346bbc4f6228d7e8a1324-Screen1.jpg
+    - https://www.simtropolis.com/objects/screens/0004/174adaab569346bbc4f6228d7e8a1324-Screen3.jpg
+
+---
+assetId: "hund88-sunflower-field-props"
+version: "1.0"
+lastModified: "2009-03-17T10:58:13Z"
+url: "https://community.simtropolis.com/files/file/21220-sunflower-field/?do=download"

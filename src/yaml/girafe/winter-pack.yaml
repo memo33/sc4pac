@@ -1,0 +1,72 @@
+group: girafe
+name: winterpack-props
+version: "1"
+subfolder: 100-props-textures
+info:
+  summary: Winterpack props
+  author: Girafe
+  website: https://www.sc4evermore.com/index.php/downloads/download/209-sc4d-LEX-legacy-bsc-tsc-girafe-winterpack
+assets:
+  - assetId: girafe-winterpack
+    include:
+      - /BSCProps/
+
+---
+group: girafe
+name: cablecar
+version: "1"
+subfolder: 660-parks
+info:
+  summary: Cablecar
+  author: Girafe
+  website: https://www.sc4evermore.com/index.php/downloads/download/209-sc4d-LEX-legacy-bsc-tsc-girafe-winterpack
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/cablecar 1.jpg
+dependencies:
+  - bsc:essentials
+  - girafe:winterpack-props
+assets:
+  - assetId: girafe-winterpack
+    include:
+      - /Cablecar/
+
+---
+group: girafe
+name: ski-lift
+version: "1"
+subfolder: 660-parks
+info:
+  summary: Ski lift
+  author: Girafe
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/combi 1.jpg
+  website: https://www.sc4evermore.com/index.php/downloads/download/209-sc4d-LEX-legacy-bsc-tsc-girafe-winterpack
+dependencies:
+  - bsc:essentials
+  - girafe:winterpack-props
+assets:
+  - assetId: girafe-winterpack
+    include:
+      - /Ski lift/
+
+---
+group: girafe
+name: pines
+version: "1"
+subfolder: 180-flora
+info:
+  summary: Pines
+  author: Girafe
+  website: https://www.sc4evermore.com/index.php/downloads/download/209-sc4d-LEX-legacy-bsc-tsc-girafe-winterpack
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/image_pack.jpg
+assets:
+  - assetId: girafe-winterpack
+    include:
+      - /Pack pines/
+
+---
+assetId: girafe-winterpack
+version: "1"
+lastModified: "2024-01-20T15:36:37.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=209%3Asc4d-lex-legacy-bsc-tsc-girafe-winterpack

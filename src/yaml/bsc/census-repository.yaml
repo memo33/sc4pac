@@ -1,0 +1,54 @@
+group: "bsc"
+name: "census-repository"
+version: "3.6"
+subfolder: "600-civics"
+dependencies:
+- "bsc:essentials"
+- "bsc:textures-vol01"
+- "bsc:mega-props-misc-vol03"
+assets:
+- assetId: "bsc-census-repository-building-by-ripplejet"
+  include:
+  - "/Census Repository/"  # includes the Ultra variant
+
+info:
+  summary: "Provides detailed stats about city growth"
+  description: |
+    This is the non-DLL version of the Census Repository.
+
+    The Census Repository's query provides detailed information about the
+    city's residential, commercial and industrial supply, demand and CAPs.
+    Additional information shown includes vacant houses, unemployment,
+    commuters, taxes and educational quotient, all important factors when
+    analysing a city's growth. By hovering above any piece of information in
+    the query, you will get more explanations.
+
+    The Census Repository consists of two lots: the Vault and the Facility.
+
+    The Census Repository Vault is meant for rural towns and other locations
+    where you want to encourage agricultural growth. It is cheaper to plop and
+    cheaper to run, and employs only 5 over-working clerks.
+
+    The Census Repository Facility isn't available in every city. You need to
+    have a situation where you must soon provide CAP relief in order to keep
+    your city growing. It needs to be plopped across a busy road in a
+    commercial area. It boosts commercial growth but you don't want to live too
+    close to it. It is more expensive to plop and to run than the Vault, as it
+    employs up to 85 clerks. However, you will get income from sims who love to
+    drive under the glass corridors of this formidable formicarium.
+
+    For compatibility with all traffic simulators, this package installs the
+    Ultra variant of the Census Repository Facility.
+
+    Consult the Readme file for detailed information.
+  author: "RippleJet, RalphaelNinja, Callagrafx, Colyn"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet"
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Census%20Repository%20Facility%20Day0.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Census%20Repository%20Facility%20Night0.jpg
+
+---
+assetId: "bsc-census-repository-building-by-ripplejet"
+version: "3.6"
+lastModified: "2025-01-14T12:17:00Z"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=39:bsc-census-repository-building-by-ripplejet"

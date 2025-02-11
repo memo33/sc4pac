@@ -1,0 +1,35 @@
+group: "b62"
+name: "little-caesars-pizza"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable pizza chain"
+  description: |
+    Little Caesars is the third largest pizza chain in the United States and is headquartered in Detroit, Michigan.
+    In its early days, the chain built stores where pizza was never served before, such as sports arenas, college dormitories, and military bases.
+    Starting in 2004, the chain began offering "Hot-N-Ready" pizzas, where a customer could pick up a large pepperoni pizza for $5 without calling in or ordering ahead of time.
+    The concept was successful enough to become a permanent fixture of the chain, and Little Caesars' business model has shifted to focus more on carryout.
+
+    This package contains a 2x2 CS$ growable and ploppable lot.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/little-caesars-1.png.3c0254db05974db36f0a6ef17ec33ff0.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/little-caesars-2.png.6aa8dde33d34462dabc191a8c0e2e316.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/little-caesars-3.png.c2bd1a91aff91d50420bfb4aabdaca15.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/little-caesars-4.png.1b0777851cd9e0cff0a768af08aadc46.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/little-caesars-5.png.a6378472e006e003b6800c5b943b253e.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/little-caesars-6.png.2dcc9eebc515e54ebb083057fad81a67.png"
+  website: "https://community.simtropolis.com/files/file/30139-b62-remastered-little-caesars-pizza/"
+dependencies:
+- "girafe:maples-v2"
+- "shk:parking-pack"
+- "supershk:mega-parking-textures"
+- "nos17:essentials"
+assets:
+- assetId: "b62-little-caesars-pizza"
+
+---
+url: "https://community.simtropolis.com/files/file/30139-b62-remastered-little-caesars-pizza/?do=download&r=202547"
+assetId: "b62-little-caesars-pizza"
+version: "3"
+lastModified: "2024-08-17T00:19:23Z"

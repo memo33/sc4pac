@@ -1,0 +1,37 @@
+group: diego-del-llano
+name: hotel-presidente-intercontinental-mexico-city
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Hotel Presidente Intercontinental Mexico City
+  description: |
+    The Hotel Presidente InterContinental is a hotel in Campos Eliseos #218, Colonia Polanco, in Miguel Hidalgo Delegation in Mexico City, has 15 elevators that move at 6.5 meters per second, was one of the first buildings in the City Of Mexico in counting the high-speed elevators, in addition to having one of the fastest elevators in the world for its time.
+
+    The building became the third highest in Mexico City and for the 20 years in the highest of the Polanco colony, being the first skyscraper of that area, currently the 20th highest building in Mexico City and for the 2011 the building is expected to move to the 30th place on the list of the highest skyscrapers in the Federal District.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31533-hotel-presidente-intercontinental-mexico-city/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/cf/8d/9e/cf8d9e5a63f5e4479ab8343c55f22448.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/8a/9f/a6/8a9fa62d1b32f8d01946814060943c84.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-hotel-presidente-intercontinental-mexico-city-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-hotel-presidente-intercontinental-mexico-city-darknite
+
+---
+assetId: diego-del-llano-hotel-presidente-intercontinental-mexico-city-darknite
+version: "1.0"
+lastModified: "2017-03-20T23:07:15Z"
+url: https://community.simtropolis.com/files/file/31533-hotel-presidente-intercontinental-mexico-city/?do=download&r=165097
+
+---
+assetId: diego-del-llano-hotel-presidente-intercontinental-mexico-city-maxisnite
+version: "1.0"
+lastModified: "2017-03-20T23:07:15Z"
+url: https://community.simtropolis.com/files/file/31533-hotel-presidente-intercontinental-mexico-city/?do=download&r=165098

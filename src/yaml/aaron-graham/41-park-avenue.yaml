@@ -1,0 +1,45 @@
+group: aaron-graham
+name: 41-park-avenue
+version: "1.0"
+subfolder: 200-residential
+dependencies:
+  - "nybt:essentials"
+  - "bsc:mega-props-cp-vol01"
+info:
+  summary: 41 Park Avenue (W2W)
+  description: |
+    41 Park Avenue is a 1950 apartment located in Manhattan, New York City.
+    The building grows as R$ and R$$ on the New York tile set.
+    It is a (W2W) wall to wall corner building and will fit perfectly on the end of your city block.
+  author: Aaron Graham
+  website: https://community.simtropolis.com/files/file/27913-nybt-41-park-avenue/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/d333be0f9aefa89028dad1696c8e1cbc-nybt-41-park-avenue-front-pic.png
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/276d6033f35a9e91705df3b863e9786a-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/be68dfbeb54ed085e232f55949977ccc-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/fa3855266d901952a9ecf36f51bce6c5-dark-night.jpg
+
+variants:
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: aaron-graham-41-park-avenue-darknite
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: aaron-graham-41-park-avenue-maxisnite
+
+---
+assetId: aaron-graham-41-park-avenue-darknite
+version: "1.0"
+lastModified: "2012-08-10T04:02:56Z"
+url: https://community.simtropolis.com/files/file/27913-nybt-41-park-avenue/?do=download&r=109903
+archiveType:
+  format: Clickteam
+  version: "40"
+
+---
+assetId: aaron-graham-41-park-avenue-maxisnite
+version: "1.0"
+lastModified: "2012-08-10T04:02:56Z"
+# cicdec fails to unpack the installer for this one, so we download the zip from GitHub instead.
+url: https://github.com/memo33/sc4pac-tools/releases/download/0.1.0/NYBT.41.Park.Avenue.Maxis.Nite.2012.zip

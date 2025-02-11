@@ -1,0 +1,42 @@
+group: diego-del-llano
+name: distrito-armenia
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Distrito Armenia
+  description: |
+    This is an original design of Diego Del Llano, 3 towers located in Armenia, in the city of Bogota, Colombia.
+
+  conflicts: Only DarkNite models exist for these buildings, so the same models are installed with either nightmode setting.
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32547-distrito-armenia/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/ARMENIA.jpg.79dd992334e754febf38274d52517dd7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_10/5bc25d86dca6c_ARMENIA2.jpg.0c0476ea729b455a134d98efe9a665f5.jpg
+
+assets:
+  - assetId: diego-del-llano-distrito-armenia-2000-darknite
+  - assetId: diego-del-llano-distrito-armenia-3000-darknite
+  - assetId: diego-del-llano-distrito-armenia-1000-darknite
+variants:
+  - variant: { nightmode: standard }
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+
+---
+assetId: diego-del-llano-distrito-armenia-2000-darknite
+version: "1.0"
+lastModified: "2018-10-13T21:05:09Z"
+url: https://community.simtropolis.com/files/file/32547-distrito-armenia/?do=download&r=173139
+
+---
+assetId: diego-del-llano-distrito-armenia-3000-darknite
+version: "1.0"
+lastModified: "2018-10-13T21:05:09Z"
+url: https://community.simtropolis.com/files/file/32547-distrito-armenia/?do=download&r=173140
+
+---
+assetId: diego-del-llano-distrito-armenia-1000-darknite
+version: "1.0"
+lastModified: "2018-10-13T21:05:09Z"
+url: https://community.simtropolis.com/files/file/32547-distrito-armenia/?do=download&r=173141

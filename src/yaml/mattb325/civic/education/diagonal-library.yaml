@@ -6,12 +6,18 @@ dependencies: []
 
 info:
   summary: "Diagonal Georgian Style Library"
-  description: >
+  description: |
     A simple Georgian style library that is designed to place along diagonal roads.
     This 1x1 lot is found in the education menu. It provides 42 civic jobs,
     holds 50,000 books and provides an EQ boost to all age groups.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/33247-diagonal-library/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary.jpg.7a324fa14596134de970f2835c9ef70d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary1.jpg.f86da620c9b263ae97a77c16ed5fb5a7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary2.jpg.6fd2380f7c4751ebb2d2ae3bbd0901a5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary3.jpg.20580b9a818497b79d17bf001a2d5031.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/DiagLibrary4.jpg.8991d41c2b6a1cb6e494daef35c80f8a.jpg
 
 variants:
 - variant: { nightmode: standard }
@@ -25,11 +31,11 @@ variants:
 ---
 assetId: "mattb325-diagonal-library-darknite"
 version: "1.0.0"
-lastModified: "2019-10-23T06:59:16Z"
+lastModified: "2019-10-19T21:58:22Z"
 url: "https://community.simtropolis.com/files/file/33247-diagonal-library/?do=download&r=178352"
 
 ---
 assetId: "mattb325-diagonal-library-maxisnite"
 version: "1.0.0"
-lastModified: "2019-10-23T06:59:16Z"
+lastModified: "2019-10-19T21:58:22Z"
 url: "https://community.simtropolis.com/files/file/33247-diagonal-library/?do=download&r=178353"

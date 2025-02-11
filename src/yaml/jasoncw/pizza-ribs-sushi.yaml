@@ -1,0 +1,37 @@
+group: "jasoncw"
+name: "pizza-ribs-sushi"
+version: "1.0.0"
+subfolder: "300-commercial"
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "jasoncw-pizza-ribs-sushi-mn"
+- variant: { nightmode: "dark" }
+  dependencies:
+  - "simfox:day-and-nite-mod"
+  assets:
+  - assetId: "jasoncw-pizza-ribs-sushi-dn"
+
+info:
+  summary: "Small pizza restaurant"
+  description: |
+    Your one stop shop for world famous pizza, ribs, and sushi!
+
+    Grows in the Euro and Houston tilesets on a CS$ 1×2 lot (W2W).
+  author: "Jasoncw"
+  website: "https://community.simtropolis.com/files/file/36453-pizza-ribs-sushi/"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_09/66eb30f688835_PizzaRibsSushi00.jpg.0cd6cee0615be3e572439ac6d8187391.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_09/66eb310228cbd_PizzaRibsSushi01.jpg.3897b2eb56d20296fa323b4d9809be6c.jpg"
+
+---
+assetId: "jasoncw-pizza-ribs-sushi-mn"
+version: "1.0.0"
+lastModified: "2024-09-18T19:59:49Z"
+url: "https://community.simtropolis.com/files/file/36453-pizza-ribs-sushi/?do=download&r=203487"
+
+---
+assetId: "jasoncw-pizza-ribs-sushi-dn"
+version: "1.0.0"
+lastModified: "2024-09-18T19:59:49Z"
+url: "https://community.simtropolis.com/files/file/36453-pizza-ribs-sushi/?do=download&r=203488"

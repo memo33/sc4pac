@@ -9,7 +9,7 @@ dependencies:
 
 info:
   summary: "A simple, yet idyllic church typical of rural New England"
-  description: >
+  description: |
     The New England style of Church surrounded by deciduous trees in autumnal
     hues is an often photographed building: they are - pictorially at least -
     an archetypal representation of the rural idyll of America's North East.
@@ -29,6 +29,13 @@ info:
     to enable you to replicate the typical new england small town scene.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/34713-new-england-style-church/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch.jpg.6fc586a5cf674f511eb14f99c0a19b93.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch1.jpg.86fa0be3c2df4be69cdb50a69d5ef318.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch2.jpg.606b619331eb689f5c62f9e439f2526d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch3.jpg.4b9d198f7753b6a0d2530e877b841c86.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch4.jpg.b10057228090f388028177651ce23d4d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/NewEnglandChurch5.jpg.7d8372415574e1f0e982a4e0099a18b3.jpg
 
 variants:
 - variant: { nightmode: standard }

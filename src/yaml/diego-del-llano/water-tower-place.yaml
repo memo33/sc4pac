@@ -1,0 +1,31 @@
+group: diego-del-llano
+name: water-tower-place
+version: "2.0.0"
+subfolder: 360-landmark
+info:
+  summary: Water Tower Place
+  description: |
+    Water Tower Place is a large urban, mixed-use development comprising a 758,000 sq ft (70,400 m2) shopping mall and 74 story skyscraper in Chicago, Illinois, United States.
+    The mall is located at 835 North Michigan Avenue, along the Magnificent Mile.
+    It is named after the nearby Chicago Water Tower, and is owned by General Growth Properties.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/32323-water-tower-place/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/05.jpg.aa2111f92917842bfce66c1669ba35be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_06/03.jpg.a680a4ac8172f2a5fd528568cc1ce89e.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-water-tower-place-darknite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-water-tower-place-darknite
+
+---
+assetId: diego-del-llano-water-tower-place-darknite
+version: "2.0.0"
+lastModified: "2018-06-19T02:41:09Z"
+url: https://community.simtropolis.com/files/file/32323-water-tower-place/?do=download

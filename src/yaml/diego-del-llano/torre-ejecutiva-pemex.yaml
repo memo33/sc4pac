@@ -1,0 +1,44 @@
+group: diego-del-llano
+name: torre-ejecutiva-pemex
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Torre Ejecutiva Pemex
+  description: |
+    The Pemex Executive Tower (Spanish: Torre Ejecutiva Pemex) is a skyscraper in Mexico City.
+    The 214 meter (211 meters to top floor) international style tower was built between 1976 and 1982.
+    Since the building's opening, it has been occupied by state-owned Pemex, one of the largest petroleum companies in the world.
+
+    The Torre Ejecutiva Pemex originally proposed to replace two 14-story towers built between 1967 and 1970.
+    Later, these buildings were replaced by a pair of 26-story towers to house Pemex's administrative offices.
+    However, the 1980s oil boom demanded office space growth and Pemex decided to build a single 52-story tower in a downtown lot with a huge plaza covering an underground avenue.
+    The building is anchored to the ground, rests on 164 concrete and steel piles that penetrate to a depth of 35 meters surpassing the old filling swampy lake to reach firmer ground.
+    In addition, its x-braced structure features 90 shock-absorbers to minimize oscillations from earthquakes.
+    The tower was completed in 1982, but the surrounding plaza was never completed.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31795-torre-ejecutiva-pemex/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/1b/bd/08/1bbd08138a2d8a81723d7e37edbde19d.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/04/86/df/0486df1c40b5b70f55f5d6bf804c8b30.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-torre-ejecutiva-pemex-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-torre-ejecutiva-pemex-darknite
+
+---
+assetId: diego-del-llano-torre-ejecutiva-pemex-darknite
+version: "1.0"
+lastModified: "2017-06-19T04:54:08Z"
+url: https://community.simtropolis.com/files/file/31795-torre-ejecutiva-pemex/?do=download&r=166920
+
+---
+assetId: diego-del-llano-torre-ejecutiva-pemex-maxisnite
+version: "1.0"
+lastModified: "2017-06-19T04:54:08Z"
+url: https://community.simtropolis.com/files/file/31795-torre-ejecutiva-pemex/?do=download&r=166921

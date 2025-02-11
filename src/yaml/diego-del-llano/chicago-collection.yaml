@@ -1,0 +1,18 @@
+group: diego-del-llano
+name: chicago-collection
+version: 1.0.0
+subfolder: 360-landmark
+info:
+  summary: Diego Del Llano's Chicago landmarks collection
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/profile/199222-diego-del-llano/content/?type=downloads_file
+
+dependencies: [
+  "diego-del-llano:federal-center-chicago",
+  "diego-del-llano:john-hancock-center",
+  "diego-del-llano:olympia-centre",
+  "diego-del-llano:two-prudential-plaza",
+  "diego-del-llano:water-tower-place",
+  "diego-del-llano:willis-tower",
+  "diego-del-llano:willoughby-tower"
+]

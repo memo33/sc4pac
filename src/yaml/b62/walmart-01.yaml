@@ -1,0 +1,34 @@
+group: "b62"
+name: "walmart-supercenter-01"
+version: "3"
+subfolder: "300-commercial"
+info:
+  summary: "Ploppable and growable Walmart supercenter"
+  description: |
+    Sam Walton started his discount store and the simple idea of selling more for less, which has grown into the Walmart brand, the largest retailer in the world.
+    Today, nearly 260 million customers visit more than 11,500 stores under 65 banners in 28 countries each week.
+    With fiscal year 2015 net sales of $482.2 billion, Walmart employs 2.2 million associates worldwide – 1.4 million in the U.S. alone.
+
+    This package contains a 12x14 CS$ growable and ploppable lot.
+  author: "Bobbo662, nos.17"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart01-1.png.8ed8b11986ca803c89c3f14ac9ce4787.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart01-2.png.cc51a8a7f52a3043529045f118262ef4.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart01-3.png.29104fde60ff02c77816b5f6575dfe31.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart01-4.png.53ea448864d2e4e5cc4b847cf764ec53.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart01-5.png.db0ce95065b75f2b4308e62d76042d7f.png"
+  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/walmart01-6.png.049b98c588d11e302e150be3ca30bfe3.png"
+  website: "https://community.simtropolis.com/files/file/30931-b62-remastered-walmart-supercenter-style-01/"
+dependencies:
+- "bsc:mega-props-sg-vol01"
+- "shk:parking-pack"
+- "bsc:texturepack-cycledogg-vol01"
+- "supershk:mega-parking-textures"
+assets:
+- assetId: "b62-walmart-supercenter-01"
+
+---
+url: "https://community.simtropolis.com/files/file/30931-b62-remastered-walmart-supercenter-style-01/?do=download&r=202782"
+assetId: "b62-walmart-supercenter-01"
+version: "3"
+lastModified: "2024-08-23T01:17:52Z"

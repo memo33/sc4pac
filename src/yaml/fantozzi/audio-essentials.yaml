@@ -1,0 +1,18 @@
+group: "fantozzi"
+name: "audio-essentials"
+version: "1.3"
+subfolder: "100-props-textures"
+assets:
+- assetId: "fantozzi-audio-essentials"
+info:
+  summary: "Broadly usable custom query sounds"
+  description: |
+    This package is a dependency file containing handcrafted custom query sounds.
+  author: "Fantozzi"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/89-fantozzis-audio-essentials"
+
+---
+assetId: "fantozzi-audio-essentials"
+version: "1.3"
+lastModified: "2023-08-07T16:53:47-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=89:fantozzis-audio-essentials"

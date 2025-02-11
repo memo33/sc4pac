@@ -1,0 +1,142 @@
+group: "fantozzi"
+name: "colossus-farming"
+version: "1.0-1"
+subfolder: "410-agriculture"
+dependencies:
+- fantozzi:farm-props
+- fantozzi:farm-textures
+
+#=== Section 1 (Megapacks)
+- bsc:textures-vol01
+- bsc:texturepack-cycledogg-vol01
+- peg:spam-super-resource-pack
+- bsc:mega-props-cp-vol01
+- bsc:mega-props-cp-vol02
+- bsc:mega-props-sg-vol01
+- bsc:mega-props-newmaninc-vol01
+- bsc:mega-props-newmaninc-vol02
+- fantozzi:audio-essentials
+
+#=== Section 2 (JMyers' Stuff)
+- bsc:mega-props-jmyers-agriculture-vol01
+- bsc:mega-props-jmyers-agriculture-vol02
+# `JMyers Hydrophonics` contained in agriculture-vol01
+# `JMyers Dairy Farms` contained in agriculture-vol01
+# `JMyers Corn Crops Vol.2` contained in agriculture-vol02
+
+#=== Section 3 (French stuff)
+- namspopof:bat-props-pack-vol02
+- namspopof:bat-props-pack-vol03
+- namspopof:props-pack-vol1
+- namspopof:props-pack-vol2
+- girafe:vines
+- girafe:wheat
+- manchou:houses-ag-models
+- vip:rural-pack
+# `VIP RuralPack Expansion1` contained in vip:rural-pack
+- orange:agri-pack
+
+#=== Section 4 (Working Man Production)
+- wmp:mega-props-vol01
+- wmp:mega-props-vol02
+
+#=== Section 5 (the assorted section)
+- nexis:greenhouse-props
+- fordoniak:wies-pack
+- sfbt:rfr-maize-set  # TODO weedy lots may need patching for use with Colossus Farming
+- jenx:cows
+- jenx:sheep
+- jenx:pigs
+- hund88:sunflower-field-props
+- sfbt:vineyards
+- bsc:mega-props-cp-industrials
+# `Cycledoggs Organ Works` contained in bsc:mega-props-cp-industrials
+# `Cycledoggs Hankie Mill` contained in bsc:mega-props-cp-industrials
+
+#=== Optional Stuff
+# Colossus Addon Mod 2.1.0 (the CAM - strongly recommended)
+# A maxis farm blocker or a maxis farms replacement mod compatible with CAM or SPAM (recommended) --> bsc:no-maxis-farms
+# Simmer2 Stone walls --> MMP walls
+# VIP Les Murets d'Aubrac --> MMP walls
+# CP Seasonal woods --> ploppable tree lots
+
+variants:
+- variant: { CAM: "no" }
+  assets:
+  - assetId: "fantozzi-colossus-farming"
+    exclude:  # only stages 1-3 are needed, so higher stages are excluded
+    - "/Fz_farm_lots_[4-9]/"
+    - "/Fz_farm_lots_10/"
+    - "/fz_farmprops.dat"
+    - "/Fz_farmtex.dat"
+- variant: { CAM: "yes" }
+  assets:
+  - assetId: "fantozzi-colossus-farming"
+    exclude:
+    - "/fz_farmprops.dat"
+    - "/Fz_farmtex.dat"
+
+variantDescriptions:
+  CAM:
+    "no": "Choose this if you have not installed the Colossus Addon Mod (CAM)."
+    "yes": "Choose this if you have installed the Colossus Addon Mod (CAM)."
+
+info:
+  summary: "Huge set of CAM-patible farms (stage 1 to 10)"
+  description: |
+    The mod contains a large assortment of farms designed for use with the Colossus Addon Mod (`pkg=cam:colossus-addon-mod`).
+
+    It includes 134 growable farms and 45 fields as well as new props, textures and some ploppable filler pieces.
+
+    The non-CAM version of the package includes only the lots for stages 1 to 3.
+
+    The mod may be used in combination with a Maxis farms blocker (`pkg=bsc:no-maxis-farms`) or a Maxis farms replacement mod.
+
+    Please consult the extensive documentation for more information about the design philosophy and use of this mod.
+  author: "Fantozzi"
+  website: "https://community.simtropolis.com/files/file/32023-colossus-farming/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE1.jpg.b63fa0e3ec0e8918cf397e8bbae6a05f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE2.jpg.d3486c403a257d8c5671f7fd3d3ab4da.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE3.jpg.a25b542497e7fc765a9713e515a12724.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE4.jpg.deb5b961cccd1c48abd4cc7f6292517b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE5.jpg.db9c3706f7dddfa1c8608ba523f1e760.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE6.jpg.a34056f4a837fd4ffc1328069ca13315.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE7.jpg.e8e02815c878c50fd9b15dd9fe1478e7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE8.jpg.1e18ff50fe8ef20686d5b8db596b2363.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE9.jpg.d87290aeeb0f8580ef1e57f2b0865657.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_11/00_STAGE10.jpg.8b84a71a9d324bc8eb538726a8f2e032.jpg
+
+---
+group: "fantozzi"
+name: "farm-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "fantozzi-colossus-farming"
+  include:
+  - "/fz_farmprops.dat"
+info:
+  summary: "Agricultural props"
+  author: "Fantozzi"
+  website: "https://community.simtropolis.com/files/file/32023-colossus-farming/"
+
+---
+group: "fantozzi"
+name: "farm-textures"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "fantozzi-colossus-farming"
+  include:
+  - "/Fz_farmtex.dat"
+info:
+  summary: "Agricultural base and overlay textures"
+  author: "Fantozzi"
+  website: "https://community.simtropolis.com/files/file/32023-colossus-farming/"
+
+---
+assetId: "fantozzi-colossus-farming"
+version: "1.0"
+lastModified: "2017-11-30T02:16:23Z"
+url: "https://community.simtropolis.com/files/file/32023-colossus-farming/?do=download"

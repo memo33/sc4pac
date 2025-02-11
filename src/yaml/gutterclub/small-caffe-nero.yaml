@@ -1,0 +1,36 @@
+group: "gutterclub"
+name: "small-caffe-nero"
+version: "1.0"
+subfolder: "300-commercial"
+
+variants:
+- variant: { nightmode: "standard" }
+  assets:
+  - assetId: "gutterclub-small-caffe-nero-mn"
+- variant: { nightmode: "dark" }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "gutterclub-small-caffe-nero-dn"
+
+info:
+  summary: "Small CS$$ W2W coffee shop"
+  description: |
+    The 1×2 CS$$ building is based on various small coffee shops found in retail parks and town centres across the UK.
+    The lot sits wall-to-wall, however is set slightly back from the sidewalk and has tables out front.
+  author: "gutterclub"
+  website: "https://community.simtropolis.com/files/file/27492-small-caffe-nero/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/5e298ac436169cde77718b406ae647ab-.png
+    - https://www.simtropolis.com/objects/screens/monthly_04_2012/366e3b83d76e53fb2ba13c739eaac00e-.png
+
+---
+assetId: "gutterclub-small-caffe-nero-dn"
+version: "1.0"
+lastModified: "2012-04-19T22:21:12Z"
+url: "https://community.simtropolis.com/files/file/27492-small-caffe-nero/?do=download&r=99591"
+
+---
+assetId: "gutterclub-small-caffe-nero-mn"
+version: "1.0"
+lastModified: "2012-04-19T22:21:12Z"
+url: "https://community.simtropolis.com/files/file/27492-small-caffe-nero/?do=download&r=99592"

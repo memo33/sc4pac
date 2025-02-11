@@ -1,6 +1,6 @@
 group: "mattb325"
 name: "council-chambers-and-civic-center"
-version: "1.0.0"
+version: "1.0"
 subfolder: "640-government"
 dependencies:
 - "bsc:bat-props-mattb325-vol02"
@@ -11,7 +11,7 @@ dependencies:
 
 info:
   summary: "Bankstown Council Chambers and Civic Center"
-  description: >
+  description: |
     This is a campus-style council chambers and civic center building. This is
     a modified model based on the auditorium, council offices and tourist
     information kiosk of a similarly scaled complex in suburban Sydney.
@@ -30,6 +30,14 @@ info:
     a suburban setting or to be break up a larger downtown area.
   author: "mattb325"
   website: "https://community.simtropolis.com/files/file/31001-council-chambers-and-civic-center/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/Council.jpg.309408453a3e1c78507ffa6d579ca0db.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/Council1.jpg.3346f46dc40bda0b4cf8221df59e5914.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/Council2.jpg.a4a70010071db405f11e7b0586135abc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/Council3.jpg.d60def06cb1df6f4743c2a651635d7b7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/Council4.jpg.db1ac6a423f17e5b73d4d17419e7fb23.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/Council5.jpg.1da72bafe8ecf58d2ea2539c253b8494.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/Council6.jpg.50e789f0e120bacddde6ca0eeb366b8e.jpg
 
 variants:
 - variant: { nightmode: standard }

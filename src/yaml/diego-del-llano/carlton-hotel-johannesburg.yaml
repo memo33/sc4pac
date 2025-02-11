@@ -1,0 +1,40 @@
+group: diego-del-llano
+name: carlton-hotel-johannesburg
+version: "1.0"
+subfolder: 360-landmark
+info:
+  summary: Carlton Hotel Johannesburg
+  description: |
+    The Carlton Hotel is a historic hotel in the Central Business District of Johannesburg, South Africa.
+    It opened in 1972 as part of the enormous Carlton Centre complex, and has been closed since 1998.
+
+    The enormous, modern Carlton Centre, built at a cost of R88 million, would contain a fifty-story office tower, the tallest in Africa; the thirty-story luxury Carlton Hotel; a five-story Garlicks department store; a huge three-and-a-half-acre public plaza with a two-story underground shopping centre beneath it containing 140 shops; parking garages with space for 2000 cars; and an adjacent 57,000 square-foot exhibition centre with an indoor ice skating rink on the top level.
+    The complex was designed by noted American architect Gordon Bunshaft, of the internationally renowned firm of Skidmore, Owings & Merrill, working in conjunction with the local Johannesburg firm of Rhodes-Harrison Hoffe and Partners.
+    Anglo American bought out SAB's share of the project in 1969, while it was still under construction.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/31477-carlton-hotel-johannesburg/
+  images:
+    - https://s-media-cache-ak0.pinimg.com/originals/4d/c0/90/4dc09018c9411c9f8adb8bed7c242200.jpg
+    - https://s-media-cache-ak0.pinimg.com/originals/04/fe/f6/04fef6ba3bd648fae6b0d4165705eb8e.jpg
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-carlton-hotel-johannesburg-maxisnite
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-carlton-hotel-johannesburg-darknite
+
+---
+assetId: diego-del-llano-carlton-hotel-johannesburg-darknite
+version: "1.0"
+lastModified: "2017-02-22T16:34:59Z"
+url: https://community.simtropolis.com/files/file/31477-carlton-hotel-johannesburg/?do=download&r=164680
+
+---
+assetId: diego-del-llano-carlton-hotel-johannesburg-maxisnite
+version: "1.0"
+lastModified: "2017-02-22T16:34:59Z"
+url: https://community.simtropolis.com/files/file/31477-carlton-hotel-johannesburg/?do=download&r=164681

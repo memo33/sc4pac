@@ -1,0 +1,35 @@
+group: diego-del-llano
+name: wells-fargo-center-denver
+version: "3.0.0"
+subfolder: 360-landmark
+info:
+  summary: Wells Fargo Center Denver
+  description: |
+    Wells Fargo Center is a building located in Denver, Colorado, United States.
+    It resembles a cash register or mailboxand is known locally as the "Cash Register Building" or the "Mailbox Building".
+    It is 698 feet (213 m) high, the third tallest building in Denver.
+    It is shorter than the Republic Plaza building 714 feet (218 m) and the CenturyLink Tower, at 709 feet (216 m).
+    The building sits on a hill, making its overall elevation higher than the two taller buildings, but its ground-to-roof height is less.
+    It is 52 stories tall.
+
+    The building was designed by architect Philip Johnson and was completed in 1983.
+    As it was originally designed for a downtown area in Texas, a heated roof is necessary to prevent snow from accumulating and sliding dangerously off the curved crown.
+    Located at 1700 Lincoln Street, a skybridge over Lincoln Street connects the Wells Fargo Center to the building at 1700 Broadway which houses a food court, a small museum featuring artifacts, and memorabilia from Wells Fargo history, and the Downtown Denver branch of Wells Fargo Bank.
+    Both buildings have large atriums constructed in the same cash register style.
+
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/30985-wells-fargo-center-denver/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/1.jpg.56687f84007c226f19c46730e85ee074.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/2.jpg.496a9bb209513c0d71bc8833e2e3fdc1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/3.jpg.52cb5c571c14b11db34279032eefe8fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_03/4.jpg.b7bd7d5a488d5bbfd73f08557d6d837f.jpg
+
+assets:
+  - assetId: diego-del-llano-wells-fargo-center-denver
+
+---
+assetId: diego-del-llano-wells-fargo-center-denver
+version: "3.0.0"
+lastModified: "2016-03-05T00:26:50Z"
+url: https://community.simtropolis.com/files/file/30985-wells-fargo-center-denver/?do=download

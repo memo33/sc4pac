@@ -1,0 +1,28 @@
+group: "kingofsimcity"
+name: "logistics-essentials"
+version: "2.00"
+subfolder: "900-overrides"
+dependencies:
+- "angry-mozart:trucks-and-trailers-props"
+- "mushymushy:na-40ft-trailers-vol1"
+- "mushymushy:na-53ft-trailers-vol1"
+- "mushymushy:na-semi-truck-cabs-vol1"
+assets:
+- assetId: "kingofsimcity-logistics-essentials"
+info:
+  summary: "FA3 angled parking textures and prop families"
+  description: |
+    Do you want to recreate a large distribution center with ample truck parking space of all angles and populate them with tons of random trailers from different freight and logistic companies? If so, then you've come to the right place! This package contains a set of 175 overlay textures, offered in either white or yellow (mostly) paint. There are 36 prop families for MushyMushy's HD North American trucks and cabs covering all bases and angles, and 16 new prop families that cover some of the more irregular angles of Angry Mozart's cabs.
+  author: "kingofsimcity"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2018_12/splash.jpg.a2c648f5b72a4311e409e9fa1ee1c885.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2018_12/textures.jpg.2e7f3dd3c31109e4fc9ed64302502f99.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2018_12/families.jpg.e45b2b378ad7cde740f67ddd49fd2680.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2018_12/families2.jpg.1c4f04437148f81d0ca58173cfc881f4.jpg"
+  website: "https://community.simtropolis.com/files/file/31578-kosc-logistics-essentials-dec-2018-update/"
+
+---
+url: "https://community.simtropolis.com/files/file/31578-kosc-logistics-essentials-dec-2018-update/?do=download"
+assetId: "kingofsimcity-logistics-essentials"
+version: "2.00"
+lastModified: "2018-12-15T08:09:35Z"

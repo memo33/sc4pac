@@ -1,24 +1,25 @@
-name: Sc4pac CI
+name: sc4pac CI
 
 on:
   push:
     branches: [ "main", "action" ]
-  pull_request:
+  pull_request_target:
     branches: [ "main" ]
 
-permissions:
-  contents: read
+# permissions:
+#   contents: read
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-    - name: Install dependencies
-      run: python -m pip install --upgrade PyYAML jsonschema
-    - name: Check sc4pac yaml schema
-      run: make lint
+  channel:
+    uses: memo33/sc4pac-actions/.github/workflows/sc4pac-channel.yaml@main
+    with:
+      path: src/yaml
+      channel-label: Main
+      deploy-repository: memo33/sc4pac
+      sc4pac-tools-submodule: sc4pac-tools
+      use-stex-api: true
+    secrets:
+      stex-api-key: ${{ secrets.STEX_API_KEY }}
+    permissions:
+      pages: write                   # to deploy to GitHub Pages
+      id-token: write                # to verify the deployment originates from an appropriate source

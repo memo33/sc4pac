@@ -1,0 +1,32 @@
+group: "takemethere"
+name: "mount-royal-transmission-tower"
+version: "1"
+subfolder: "360-landmark"
+info:
+  summary: "A TV and radio broadcast tower"
+  description: |
+    The Mount Royal Transmission Tower is a freestanding lattice tower located on "Mount Royal" in Montreal, Canada.
+    Nearly all of Montreal's TV & radio stations broadcast from here, hence the need for a candelabra (multi-platform) design.
+    The actual height of the tower in the real world is approximately 433ft/132m (including transmitters).
+    It is one of the shorter towers but makes up for the lack of height by being very detailed.
+
+    The tower comes on a 1x1 lot, using three randomly choosen paint schemes.
+  author: "TakemeThere"
+  images:
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_04/572061fda877b_Mon3.jpg.de1f764b3073dd1c9f63f41d39a16076.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_04/details.jpg.df19911c2a20b3b942d329d7d65006b6.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_04/57214f83e4e30_Montrealother2.jpg.e7248c2208e3f5b0a17b5fc66aabd28c.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_04/57214f8f77635_Monred.jpg.238181047500dfe21ff4f0ea5a3b288b.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_04/57214f925fc4e_Monnite.jpg.70c78d6e0f364084b12dd52087c0f337.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_04/57214fa751d5e_MountRoyalCandelabra.jpg.50b739ca219c969c9a95b755f950b5e3.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_04/57214fa989466_montMountRoyalCandelabra.jpg.21afc9d0298dfe5bcc3f0dbcd1b6ab93.jpg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2016_04/57214fae8fcab_MountRoyalCandelabra.jpg.2faac1b904793cb1ea385982d015382a.jpg"
+  website: "https://community.simtropolis.com/files/file/31045-mount-royal-transmission-tower/"
+assets:
+- assetId: "takemethere-mount-royal-transmission-tower"
+
+---
+url: "https://community.simtropolis.com/files/file/31045-mount-royal-transmission-tower/?do=download"
+assetId: "takemethere-mount-royal-transmission-tower"
+version: "1"
+lastModified: "2016-04-28T01:05:23Z"

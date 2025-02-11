@@ -1,0 +1,19 @@
+group: "mas71"
+name: "mega-props-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "mas71-mega-prop-pack-vol01-misc"
+info:
+  summary: "Repackaged version of MAS71 prop packs"
+  description: |
+    Also known as MAS71 Mega Prop Pack vol01 - Misc.
+    Includes in particular MAS71 Prop Pack Vol. 01, MAS71 Prop Pack Vol. 03 as well as many others.
+  author: "Mas71"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/87-mas71-mega-prop-pack-vol01-misc"
+
+---
+assetId: "mas71-mega-prop-pack-vol01-misc"
+version: "1.0"
+lastModified: "2024-01-20T13:09:53Z"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=87:mas71-mega-prop-pack-vol01-misc"
