@@ -14,6 +14,8 @@ dependencies:
   - bsc:mega-props-jes-vol07
 assets:
   - assetId: bsc-jestarr-mayor-mode-ploppable-livestock
+    exclude:
+      - /BSCProps/
 
 ---
 assetId: bsc-jestarr-mayor-mode-ploppable-livestock
