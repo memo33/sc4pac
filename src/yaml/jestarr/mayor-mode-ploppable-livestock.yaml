@@ -1,0 +1,24 @@
+group: jestarr
+name: mayor-mode-ploppable-livestock
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: Mayor Mode Ploppable Livestock
+  description: |-
+    This package contains eleven different models of sheep, cows and pigs, rendered in 6 different orientations.
+  author: Jestarr, Chrisadams3997
+  website: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/281-bsc-jestarr-mayor-mode-ploppable-livestock
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MayorModePloppableLivestock_s.jpg
+dependencies:
+  - bsc:mega-props-jes-vol07
+assets:
+  - assetId: bsc-jestarr-mayor-mode-ploppable-livestock
+    exclude:
+      - /BSCProps/
+
+---
+assetId: bsc-jestarr-mayor-mode-ploppable-livestock
+version: "1.0"
+lastModified: "2024-08-20T09:49:50.000Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=281%3Absc-jestarr-mayor-mode-ploppable-livestock
