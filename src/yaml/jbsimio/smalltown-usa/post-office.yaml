@@ -1,0 +1,39 @@
+group: "jbsimio"
+name: "post-office"
+version: "1.0"
+subfolder: "600-civics"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+- "peg:one-flag-many-nations"
+- "ndex:postal-vehicles"
+
+assets:
+- assetId: "jbsimio-post-office"
+
+info:
+  summary: "Stanley Mercer Building, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    The Post Office is the seventeenth release in the Smalltown, USA Series.
+    There are three versions included in this package.  The first is a landmark
+    that does nothing more than sit and look pretty.  The second is a landmark
+    lot which provides CO$$ jobs, but gives no further benefits.  The third is
+    a reward version which includes several nifty little things, thanks to BarbyW.
+    Your city will need to be over ten years old and have a population of 5,000
+    or more to unlock the reward version.  In return, when built, the post office
+    will not only provide civic jobs, but also boost your city's EQ, slightly
+    increase commercial demand, and put a little money in the treasury as part of
+    a business deal.  All three versions use the One Flag Many Nations Mod by
+    Pegasus.  All three versions also use the Postal Truck Mod by Ardecila to
+    spawn postal vehicles all over town.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/17046-smalltownusa-post-office/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/cd07ef76b02af802d1d838b3784ca353-Post%20Office_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0023/cd07ef76b02af802d1d838b3784ca353-Post%20Office_Night.jpg
+
+---
+assetId: "jbsimio-post-office"
+version: "1.0"
+lastModified: "2006-10-08T17:21:03Z"
+url: "https://community.simtropolis.com/files/file/17046-smalltownusa-post-office/?do=download"

@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "hamiltons-jewelry"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-hamiltons-jewelry"
+
+info:
+  summary: "Hamilton's Jewelry, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    Hamilton's Jewelry is the ninth release in the Smalltown, USA series. This
+    package contains both growable and ploppable versions of the building.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 1900 and bulldoze cost of 190.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16093-smalltownusa-hamiltons-jewelry/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f3b3ebf4181d0145629ca7ed29d97ec0-Hamiltons_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f3b3ebf4181d0145629ca7ed29d97ec0-Hamiltons_Night.jpg
+
+---
+assetId: "jbsimio-hamiltons-jewelry"
+version: "1.0"
+lastModified: "2006-06-03T16:46:36Z"
+url: "https://community.simtropolis.com/files/file/16093-smalltownusa-hamiltons-jewelry/?do=download"

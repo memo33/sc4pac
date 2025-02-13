@@ -1,0 +1,28 @@
+group: "jbsimio"
+name: "fire-station-no2"
+version: "1.0"
+subfolder: "610-safety"
+
+assets:
+- assetId: "jbsimio-fire-station-no2"
+
+info:
+  summary: "Fire Station No 2, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    Fire Station No 2 is the eleventh release in the Smalltown, USA Series.
+    The building is a modified version of the Fire Sticks Pool Hall released here
+    earlier and made at the request of several SimTropolis members.  This is a
+    working fire station that can stand alone or be used in a wall to wall setting.
+    All costs and statistics mirror the small fire station included with SC4, but
+    the coverage area has been doubled.  This was done mainly for realism in small
+    farming communities where the original coverage radius was far too small.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16129-smalltownusa-fire-station-no-2/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7e495bd8567aefcc8bf67f851756f9b7-Fire%20Station_Day.jpg
+
+---
+assetId: "jbsimio-fire-station-no2"
+version: "1.0"
+lastModified: "2006-06-08T16:36:09Z"
+url: "https://community.simtropolis.com/files/file/16129-smalltownusa-fire-station-no-2/?do=download"
