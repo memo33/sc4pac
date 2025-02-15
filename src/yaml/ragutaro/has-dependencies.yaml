@@ -12,4 +12,4 @@ info:
   summary: "Models and textures for content by Ragutaro (ラグ太郎) posted on Hide and Seek (HaS)."
   website: "http://hide-inoki.com/sc4/buildings_bat.htm"
 assets:
-- "ragutaro-has-dependencies"
+  - "ragutaro-has-dependencies"
