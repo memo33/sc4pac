@@ -1,6 +1,6 @@
 group: "fantozzi"
 name: "colossus-farming"
-version: "1.0-1"
+version: "1.0-2"
 subfolder: "410-agriculture"
 dependencies:
 - fantozzi:farm-props
@@ -61,11 +61,19 @@ dependencies:
 # CP Seasonal woods --> ploppable tree lots
 
 variants:
-- variant: { CAM: "no" }
+- variant: { CAM: "no", fantozzi:colossus-farming:spam: "no" }
   assets:
   - assetId: "fantozzi-colossus-farming"
     exclude:  # only stages 1-3 are needed, so higher stages are excluded
     - "/Fz_farm_lots_[4-9]/"
+    - "/Fz_farm_lots_10/"
+    - "/fz_farmprops.dat"
+    - "/Fz_farmtex.dat"
+- variant: { CAM: "no", fantozzi:colossus-farming:spam: "yes" }
+  assets:
+  - assetId: "fantozzi-colossus-farming"
+    exclude:  # only stages 1-5 are needed, so higher stages are excluded
+    - "/Fz_farm_lots_[6-9]/"
     - "/Fz_farm_lots_10/"
     - "/fz_farmprops.dat"
     - "/Fz_farmtex.dat"
@@ -76,10 +84,24 @@ variants:
     - "/fz_farmprops.dat"
     - "/Fz_farmtex.dat"
 
-variantDescriptions:
-  CAM:
-    "no": "Choose this if you have not installed the Colossus Addon Mod (CAM)."
-    "yes": "Choose this if you have installed the Colossus Addon Mod (CAM)."
+variantInfo:
+- variantId: "CAM"
+  values:
+  - value: "no"
+    description: |-
+      Choose this if you have not installed the Colossus Addon Mod (CAM).
+  - value: "yes"
+    description: |-
+      Choose this if you have installed the Colossus Addon Mod (CAM).
+- variantId: "fantozzi:colossus-farming:spam"
+  description: |-
+    Do you have `pkg=peg:spam` installed?
+    If so, this option installs farms for the additional growth stages 4 and 5 added by SPAM.
+  values:
+  - value: "no"
+    description: growth stages 1 to 3 (Maxis default)
+  - value: "yes"
+    description: growth stages 1 to 5
 
 info:
   summary: "Huge set of CAM-patible farms (stage 1 to 10)"
@@ -89,6 +111,7 @@ info:
     It includes 134 growable farms and 45 fields as well as new props, textures and some ploppable filler pieces.
 
     The non-CAM version of the package includes only the lots for stages 1 to 3.
+    The SPAM version includes lots for stages 1 to 5 for use with `pkg=peg:spam`.
 
     The mod may be used in combination with a Maxis farms blocker (`pkg=bsc:no-maxis-farms`) or a Maxis farms replacement mod.
 
