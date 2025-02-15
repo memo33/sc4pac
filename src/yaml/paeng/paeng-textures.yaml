@@ -5,7 +5,7 @@ subfolder: "100-props-textures"
 info:
   summary: Overlay textures for pathways used for many of paeng's lots and sets. 
   description: |-
-    The overlays are for paths of all kinds - narrow and wide paths, straight, curve, tee, cross, diagonal, wide-to-narrow-transitions etc. This **updated** version maintains all textures from the previous version and now includes a number of additional matching overlays for more intricate path-variations. Plus some... ;-)  
+    The overlays are for paths of all kinds - narrow and wide paths, straight, curve, tee, cross, diagonal, wide-to-narrow-transitions etc. This **updated** version maintains all textures from the previous version and now includes a number of additional matching overlays for more intricate path-variations.
   author: paeng
   website: https://community.simtropolis.com/files/file/22823-paeng-textures-vol104/
   images:
