@@ -474,11 +474,11 @@ You may add descriptions that explain the different variant choices and help in 
 variantInfo:
 - variantId: "nightmode"
   description: This setting determines whether buildings rendered for DN or MN are installed.
-  - values:
-    - value: "standard"
-      description: the default MaxisNite style (recommended)
-    - value: "dark"
-      description: for use with a DarkNite mod
+  values:
+  - value: "standard"
+    description: the default MaxisNite style (recommended)
+  - value: "dark"
+    description: for use with a DarkNite mod
 ```
 
 Define a default variant by adding `default: true` to one of the values.
