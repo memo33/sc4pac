@@ -1,6 +1,6 @@
 group: peg
 name: cdk-rec-seawall-kit-vol1
-version: "1.0"
+version: "1.1"
 subfolder: 100-props-textures
 info:
   summary: CDK-REC Seawall Kit Vol. 1
@@ -21,9 +21,6 @@ assets:
 
 ---
 assetId: peg-cdk-rec-seawall-kit-vol1
-version: "1.0"
-lastModified: "2005-02-24T19:19:33Z"
+version: "1.1"
+lastModified: "2025-01-30T00:37:53Z"
 url: https://community.simtropolis.com/files/file/11773-peg-cdk-rec-seawall-kit-vol-1/?do=download
-archiveType:
-  format: Clickteam
-  version: "20"

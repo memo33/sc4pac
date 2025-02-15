@@ -1,12 +1,12 @@
 assetId: "cycledogg-terrain-mods-sc4e"
-version: "2"
-lastModified: "2024-01-20T12:14:19Z"
+version: "3.0"
+lastModified: "2024-12-31T17:16:59Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=34:cycledogg-terrain-mods"
 
 ---
 group: "cycledogg"
 name: "missouri-breaks-terrain"
-version: "2"
+version: "3.0"
 subfolder: "170-terrain"
 assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
   # TODO consider splitting off essentials and optional components
@@ -39,4 +39,10 @@ info:
 
     This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  - https://community.simtropolis.com/files/file/16035-cpt-missouri-breaks-terrain-mod/
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MissouriBreaksTerrainMod.jpg
+  - https://www.simtropolis.com/objects/screens/0006/2a8077c0c6f70d5e7e30eb9d74a78524-MissBrksLeft.jpg
+  - https://www.simtropolis.com/objects/screens/0006/2a8077c0c6f70d5e7e30eb9d74a78524-MissBrksRt.jpg
