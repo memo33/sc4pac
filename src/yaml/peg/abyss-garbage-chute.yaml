@@ -1,6 +1,6 @@
 group: peg
 name: abyss-garbage-chute
-version: "2.05"
+version: "2.05a"
 subfolder: 500-utilities
 info:
   summary: Abyss Garbage Chute
@@ -25,9 +25,6 @@ assets:
 
 ---
 assetId: peg-abyss-garbage-chute
-version: "2.05"
-lastModified: "2004-10-29T00:57:14Z"
+version: "2.05a"
+lastModified: "2025-01-30T00:33:27Z"
 url: https://community.simtropolis.com/files/file/4569-peg%C2%A0abyss-garbage-chute/?do=download
-archiveType:
-  format: Clickteam
-  version: "20"

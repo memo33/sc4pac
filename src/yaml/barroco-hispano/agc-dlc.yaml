@@ -234,18 +234,19 @@ lastModified: "2024-05-15T15:50:26Z"
 ### agc heavy machinery props
 group: "agc"
 name: "heavy-machinery-props"
-version: "1.0.0"
+version: "2.0.0"
 subfolder: "100-props-textures"
 info:
   summary: "Heavy machinery props"
   website: "https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/Red-D3D-HeavyMachines.jpg.1883881dd25ca14609bc70ccba688501.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/A_Heavy_Machinery_DLC_ICON.png.28112f32ce7024a8087a18b88fb41a76.png
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/A_Heavy_Machinery_DLC_ICON2.jpg.d06f3cec347a42d49510888f631ed089.jpg
   author: "Barroco Hispano"
 variants:
 - variant: { nightmode: "standard" }
   assets:
-  - assetId: "agc-heavy-machinery-props-mn"
+  - assetId: "agc-heavy-machinery-props-dn"  # MN support dropped
 - variant: { nightmode: "dark" }
   dependencies:
   - "simfox:day-and-nite-mod"
@@ -253,13 +254,7 @@ variants:
   - assetId: "agc-heavy-machinery-props-dn"
 
 ---
-url: "https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/?do=download&r=201633"
+url: "https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/?do=download"
 assetId: "agc-heavy-machinery-props-dn"
-version: "1.0.0"
-lastModified: "2024-06-07T12:56:57Z"
-
----
-url: "https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/?do=download&r=201632"
-assetId: "agc-heavy-machinery-props-mn"
-version: "1.0.0"
-lastModified: "2024-06-07T12:56:57Z"
+version: "2.0.0"
+lastModified: "2025-01-09T23:49:16Z"

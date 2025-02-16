@@ -288,6 +288,18 @@ In contrast to the `checksum` field of an asset, this is the sha256 hash of the 
 
 ?> When using `withChecksum`, it is recommended to also add a [`nonPersistentUrl`](#nonPersistentUrl) to the corresponding asset definition.
 
+If a DLL file comes with an INI configuration file, the .ini file requires a checksum as well.
+It will be installed into the package subfolder.
+Add a warning to inform the user that the INI needs to be manually copied to the root of the Plugins folder:
+```yaml
+info:
+  warning: |-
+    This DLL plugin comes with an INI configuration file.
+    To complete the installation, copy the .ini file from the package subfolder
+    into the root directory of your Plugins folder
+    and edit the file to set your preferences.
+```
+
 ### `info`
 
 Additional descriptive information.
@@ -311,7 +323,7 @@ A `description` may consist of several paragraphs of contextual information (it 
 You should also inform about possible `conflicts`. If there are none, omit this field.
 
 Moreover, you can add a `warning` message that is displayed during the installation process.
-This should be used sparingly and only included in case a user has to take action before installing the package.
+This should be used sparingly and only included in case a user has to take action before or after installing a package.
 
 The `author` field should list the original authors of the content by the names they are known to the community.
 
@@ -454,16 +466,22 @@ For complete examples, inspect the metadata of:
      conflicts: Only a DarkNite model exists for this building, so the same model is installed with either nightmode setting.
    ```
 
-### `variantDescriptions`
+### `variantInfo`
 
 You may add descriptions that explain the different variant choices and help in choosing the right one:
 
 ```yaml
-variantDescriptions:
-  nightmode:
-    "standard": "the default MaxisNite style (recommended)"
-    "dark": "for use with a DarkNite mod"
+variantInfo:
+- variantId: "nightmode"
+  description: This setting determines whether buildings rendered for DN or MN are installed.
+  values:
+  - value: "standard"
+    description: the default MaxisNite style (recommended)
+  - value: "dark"
+    description: for use with a DarkNite mod
 ```
+
+Define a default variant by adding `default: true` to one of the values.
 
 ## Collections
 

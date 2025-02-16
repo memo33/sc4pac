@@ -1,6 +1,6 @@
 group: "sfbt"
 name: "essentials"
-version: "2015"
+version: "2015-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sfbt-essentials"
@@ -59,15 +59,25 @@ variants:
   - assetId: "sfbt-essentials"
     include: [ "/SFBT_Maxis_Street_Pine_Trees.dat" ]
 
-variantDescriptions:
-  sfbt:essentials:tree-family:
-    CP-deciduous-trees: mix of various deciduous trees by Cycledogg (recommended for use with custom tree controllers)
-    CP-ponderosa-pines: various ponderosa pines by Cycledogg
-    CP-shore-pinyon-pines: various shore and pinyon pines by Cycledogg
-    PEG-pines: mix of pine trees by Pegasus
-    Maxis-deciduous-trees: the default Maxis deciduous trees (recommended for use without a custom tree controller)
-    Maxis-palm-trees: the default Maxis palm trees
-    Maxis-pine-trees: the default Maxis pine trees
+variantInfo:
+- variantId: sfbt:essentials:tree-family
+  description: |-
+    The tree family you choose here is used by various SFBT lots as well as the SFBT street tree mod.
+  values:
+  - value: CP-deciduous-trees
+    description: mix of various deciduous trees by Cycledogg (recommended for use with custom tree controllers)
+  - value: CP-ponderosa-pines
+    description: various ponderosa pines by Cycledogg
+  - value: CP-shore-pinyon-pines
+    description: various shore and pinyon pines by Cycledogg
+  - value: PEG-pines
+    description: mix of pine trees by Pegasus
+  - value: Maxis-deciduous-trees
+    description: the default Maxis deciduous trees (recommended for use without a custom tree controller)
+  - value: Maxis-palm-trees
+    description: the default Maxis palm trees
+  - value: Maxis-pine-trees
+    description: the default Maxis pine trees
 
 info:
   summary: "Custom UIs, textures and props for SFBT lots"
