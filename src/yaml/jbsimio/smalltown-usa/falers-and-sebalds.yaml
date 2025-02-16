@@ -1,0 +1,31 @@
+group: "jbsimio"
+name: "falers-and-sebalds"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-falers-and-sebalds"
+  include:
+  - "\\.sc4(?:lot|desc|model)"
+
+info:
+  summary: "Faler's and Sebald's, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    Faler's Drugstore and Sebald's Bakery is the first release in the
+    Smalltown, USA series. It contains both growable and ploppable versions.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 1200 and bulldoze cost of 120.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/15914-smalltownusa-falers-and-sebalds/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0014/7c45bba24cb6620e3796ae6692dc8d70-STEX_Falers_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0014/7c45bba24cb6620e3796ae6692dc8d70-STEX_Falers_Night.jpg
+
+---
+assetId: "jbsimio-falers-and-sebalds"
+version: "1.0"
+lastModified: "2006-05-10T19:13:17Z"
+url: "https://community.simtropolis.com/files/file/15914-smalltownusa-falers-and-sebalds/?do=download"

@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "herters-music-store"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-herters-music-store"
+
+info:
+  summary: "Herter's Music Store, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    Herter's Music Store is the second release in the Smalltown, USA series.
+    This small "filler" building contains both growable and ploppable versions.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 900 and bulldoze cost of 90.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/15950-smalltownusa-herters-music-store/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0002/08f632b77c652bb78b44b44422920110-Herters_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0002/08f632b77c652bb78b44b44422920110-Herters_Night.jpg
+
+---
+assetId: "jbsimio-herters-music-store"
+version: "1.0"
+lastModified: "2006-05-14T15:33:29Z"
+url: "https://community.simtropolis.com/files/file/15950-smalltownusa-herters-music-store/?do=download"

@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "clinton-clock-tower"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-clinton-clock-tower"
+
+info:
+  summary: "Clinton Clock Tower, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    The Clinton Clock Tower is the sixteenth release in the Smalltown, USA series.
+    This package contains both growable and ploppable versions of the building.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 3700 and bulldoze cost of 370.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16627-smalltownusa-clinton-clock-tower/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0009/47865093963064abaf3e3a9990b7f172-Clinton%20Clock%20Tower_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0009/47865093963064abaf3e3a9990b7f172-Clinton%20Clock%20Tower_Night.jpg
+
+---
+assetId: "jbsimio-clinton-clock-tower"
+version: "1.0"
+lastModified: "2006-08-13T14:58:27Z"
+url: "https://community.simtropolis.com/files/file/16627-smalltownusa-clinton-clock-tower/?do=download"

@@ -1,0 +1,42 @@
+group: "jbsimio"
+name: "town-hall"
+version: "1.0"
+subfolder: "610-safety"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-town-hall"
+  include:
+    - "/Town Hall_Clock Tower_3x3_Police Station/"
+    - "/Town Hall_Clock Tower_4x3_Police Station/"
+    - "/Town Hall_3x3_CO\\$\\$_Plop/"
+    - "/Town Hall_Cupola_3x3_Police Station/"
+    - "/Town Hall_Cupola_4x3_Police Station/"
+    - "/JB_SmalltownUSA_TownHall\\.dat"
+
+info:
+  summary: "Town Hall, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    The Town Hall is the fourteenth release in the Smalltown, USA series.
+    There are two different model versions, both with two lot sizes.
+    The original upload contained a growable residential version which has been
+    excluded from this package.
+
+    This BAT serves primarily as a police station and city hall combined into one
+    building.  For the most part, the police attributes are similar to the Maxis
+    large precinct, although the protection area has been doubled.  Extra $$ jobs,
+    YIMBY and landmark effects have been added to simulate the benefits of the
+    Maxis city hall.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16389-smalltownusa-town-hall/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/5c5873901c85c7e7a81e3a1d6d5cff92-JB_Town%20Hall_Clock.jpg
+    - https://www.simtropolis.com/objects/screens/0011/5c5873901c85c7e7a81e3a1d6d5cff92-JB_Town%20Hall_Cupola.jpg
+
+---
+assetId: "jbsimio-town-hall"
+version: "1.0"
+lastModified: "2006-07-15T14:27:49Z"
+url: "https://community.simtropolis.com/files/file/16389-smalltownusa-town-hall/?do=download"

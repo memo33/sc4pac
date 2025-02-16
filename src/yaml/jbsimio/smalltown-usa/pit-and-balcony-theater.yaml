@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "pit-and-balcony-theater"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-pit-and-balcony-theater"
+
+info:
+  summary: "Pit and Balcony Theater, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    The Pit & Balcony Theater is the twelfth release in the Smalltown, USA series.
+    This package contains both growable and ploppable versions of the building.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 1400 and bulldoze cost of 140.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16157-smalltownusa-pit-and-balcony-theater/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bdd1d8df6ef174d97b6fd4896150a6bc-Theater_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0021/bdd1d8df6ef174d97b6fd4896150a6bc-Theater_Night.jpg
+
+---
+assetId: "jbsimio-pit-and-balcony-theater"
+version: "1.0"
+lastModified: "2006-06-12T17:16:42Z"
+url: "https://community.simtropolis.com/files/file/16157-smalltownusa-pit-and-balcony-theater/?do=download"

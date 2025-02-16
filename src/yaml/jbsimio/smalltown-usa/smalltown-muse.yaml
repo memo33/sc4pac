@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "smalltown-muse"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-smalltown-muse"
+
+info:
+  summary: "Smalltown Muse, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    The Smalltown Muse is the eleventh release in the Smalltown, USA series.
+    This package contains both growable and ploppable versions of the building.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 2300 and bulldoze cost of 230.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16145-smalltownusa-smalltown-muse/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/cfa7e4f12d4c065cf42f819264b9f096-Muse_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0023/cfa7e4f12d4c065cf42f819264b9f096-Muse_Night.jpg
+
+---
+assetId: "jbsimio-smalltown-muse"
+version: "1.0"
+lastModified: "2006-06-10T18:01:09Z"
+url: "https://community.simtropolis.com/files/file/16145-smalltownusa-smalltown-muse/?do=download"

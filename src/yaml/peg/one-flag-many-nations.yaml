@@ -1,0 +1,117 @@
+group: peg
+name: one-flag-many-nations
+version: "1.0"
+subfolder: 100-props-textures
+
+dependencies:
+  - maxis:day-of-peace
+
+info:
+  summary: One Flag Many Nations Mod by Pegasus
+  description: |
+    The One Flag... Many Nations mod allows Lot Developers to place a generic
+    flag on their lots which will then display the user's specific or chosen
+    national flag when that lot is used in their game. The player decides which
+    flag will be displayed by selecting the appropriate package variant.
+
+  author: Pegasus
+  website: https://community.simtropolis.com/files/file/27711-peg-one-flag-many-nations-mod/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/75dbec6dd5d5e27c7b5d3b7a4d11a304-peg_ofmn.jpg
+
+variantInfo:
+- variantId: peg:one-flag-many-nations:flag
+  description: |-
+    Choose a national flag for display on various custom lots.
+
+variants:
+  - variant: { peg:one-flag-many-nations:flag: Australia }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "AUS.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Brazil }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Brazil.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Canada }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "CAN.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: China }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "China.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Denmark }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Danish.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Finland }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Finland.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: France }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "France.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Germany }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Germany.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Italy }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Italy.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Japan }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Japan.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Netherlands }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "NETH.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Norway }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Norway.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Poland }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Poland.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Portugal }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "PORT.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: South-Korea }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "SKorea.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Spain }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Spain.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Sweden }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "SWED.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Taiwan }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Taiwan.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: Thai }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "Thai.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: UK }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "UK.dat" ]
+  - variant: { peg:one-flag-many-nations:flag: USA }
+    assets:
+      - assetId: peg-one-flag-many-nations
+        include: [ "USA.dat" ]
+
+---
+assetId: peg-one-flag-many-nations
+version: "1.0"
+lastModified: "2012-06-09T04:12:45Z"
+url: https://community.simtropolis.com/files/file/27711-peg-one-flag-many-nations-mod/?do=download
