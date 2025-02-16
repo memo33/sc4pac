@@ -51,6 +51,7 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=jasoncw:cecil-hotel` (highrise CS$ hotel)
 * `pkg=jasoncw:hsbc-tower` (highrise CO$$$ office building)
 * `pkg=mattb325:new-york-w2w-pack-vol01` (medium/high W2W New York buildings)
+* `pkg=jbsimio:smalltown-usa` (Smalltown USA Collection)
 
 ## Industrial
 

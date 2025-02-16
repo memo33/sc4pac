@@ -12,7 +12,7 @@ assets:
 info:
   summary: "Fire Sticks, part of the Smalltown, USA Series by JBSimio"
   description: |
-    Fire Sticks is the seventh sixth release in the Smalltown, USA series.
+    Fire Sticks is the seventh release in the Smalltown, USA series.
     This package contains both growable and ploppable versions of the building.
     The ploppable version shares the same jobs, pollution, etc. as the growable.
     The only differences are a plop cost of 1700 and bulldoze cost of 170.
