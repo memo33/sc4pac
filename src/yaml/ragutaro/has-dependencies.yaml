@@ -1,7 +1,9 @@
 url: "http://hide-inoki.com/works/sc4/has_dependencies.zip"
 assetId: "ragutaro-has-dependencies"
 version: "1"
-lastModified: "0001-01-01T00:00Z"
+lastModified: "2008-02-09T13:41:00Z"
+checksum:
+  sha256: 03370C91C1F99500CB578D841E95B938060C6E6743ACC02039E909493D259A7C
 
 ---
 group: "ragutaro"
@@ -12,4 +14,4 @@ info:
   summary: "Models and textures for content by Ragutaro (ラグ太郎) posted on Hide and Seek (HaS)."
   website: "http://hide-inoki.com/sc4/buildings_bat.htm"
 assets:
-  - "ragutaro-has-dependencies"
+  - assetId: "ragutaro-has-dependencies"
