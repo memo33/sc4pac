@@ -83,8 +83,6 @@ On SC4Evermore, grab the *Changed* timestamp from the info box on the download p
 For other sites, use the available info on the download page or, when supported by the server,
 use the `Last-Modified` HTTP header of the download URL. Shorthand for cURL users: `curl -I -L '<url>'`.
 
-If none of the above are applicable, use the timestamp from one of the files.
-
 ### `checksum`
 
 An optional sha256 checksum can be added for verifying file integrity.
