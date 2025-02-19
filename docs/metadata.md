@@ -83,6 +83,8 @@ On SC4Evermore, grab the *Changed* timestamp from the info box on the download p
 For other sites, use the available info on the download page or, when supported by the server,
 use the `Last-Modified` HTTP header of the download URL. Shorthand for cURL users: `curl -I -L '<url>'`.
 
+If none of the above are applicable, use the timestamp from one of the files.
+
 ### `checksum`
 
 An optional sha256 checksum can be added for verifying file integrity.
@@ -91,7 +93,11 @@ If present, the checksum of the file is checked directly after download, before 
 checksum:
   sha256: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ```
-This is recommended for files that are downloaded using http instead of https.
+
+Use with files that are downloaded using http instead of https.
+This is required for http files in the default channel; it is recommended for http files in other channels.
+
+The file hash can be acquired via PowerShell with `Get-FileHash archive.zip | Format-List` or via Bash with `sha256sum archive.zip`.
 
 ### `nonPersistentUrl`
 
