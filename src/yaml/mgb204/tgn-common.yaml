@@ -78,16 +78,16 @@ dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
   - mgb204:terrain-grass-nam-option-cul-de-sacs
 variants:
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     dependencies:
       - mgb204:terrain-grass-nam-base-appalachian
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
     dependencies:
       - mgb204:terrain-grass-nam-base-pyrenean
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: berner-oberland }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
     dependencies:
       - mgb204:terrain-grass-nam-base-berner-oberland
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: sudden-valley }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
     dependencies:
       - mgb204:terrain-grass-nam-base-sudden-valley
 
@@ -102,20 +102,20 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - TGN Base Textures.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
           - TGN Base Textures.dat
   # Berner Oberland and Sudden Valley apparently don't have a base texture 
   # override option.
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: berner-oberland }
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: sudden-valley }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
 
 ---
 group: mgb204
@@ -128,22 +128,22 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - TGN BSC Vol1-3 Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
           - TGN BSC Vol1-3 Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: berner-oberland }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
         include:
           - TGN BSC Vol1-3 Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: sudden-valley }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
         include:
@@ -160,22 +160,22 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - TGN Diag Filler Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
           - TGN Diag Filler Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: berner-oberland }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
         include:
           - TGN Diag Filler Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: sudden-valley }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
         include:
@@ -192,22 +192,22 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - TGN Mntoes HFC Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
           - TGN Mntoes HFC Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: berner-oberland }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
         include:
           - TGN Mntoes HFC Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: sudden-valley }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
         include:
@@ -224,22 +224,22 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - TGN Parks 205 Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
           - TGN Parks 205 Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: berner-oberland }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
         include:
           - TGN Parks 205 Override.dat
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: sudden-valley }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
         include:
@@ -253,11 +253,11 @@ subfolder: 900-overrides
 info:
   author: rsc204
 variants:
-  - variant: { mgb204:terrain-grass-nam:rail-textures: maxis }
-  - variant: { mgb204:terrain-grass-nam:rail-textures: peg }
-  - variant: { mgb204:terrain-grass-nam:rail-textures: rrw }
+  - variant: { mgb204:terrain-grass-nam-base:rail-textures: maxis }
+  - variant: { mgb204:terrain-grass-nam-base:rail-textures: peg }
+  - variant: { mgb204:terrain-grass-nam-base:rail-textures: rrw }
 variantDescriptions:
-  mgb204:terrain-grass-nam:rail-textures:
+  mgb204:terrain-grass-nam-base:rail-textures:
     maxis: Choose this if you're using the default Maxis rail textures
     peg: Choose this if you're using PEG's rail textures
     rrw: Choose this if you're using the NAMs RRW override (recommended)
@@ -270,12 +270,12 @@ subfolder: 900-overrides
 info:
   author: rsc204
 variants:
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: appalachian }
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: berner-oberland }
-  - variant: { mgb204:terrain-grass-nam:terrain-mod: sudden-valley }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
+  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
 variantDescriptions:
-  mgb204:terrain-grass-nam:terrain-mod:
+  mgb204:terrain-grass-nam-base:terrain-mod:
     appalachian: Choose this if you're using Lowkee's Appalachian Terrain Mod
     pyrenean: Choose this if you're using TSC Pyrenean Terrain Mod
     berner-oberland: Choose this if you're using Gobias' Berner Oberland Terrain Mod
