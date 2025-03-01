@@ -5,8 +5,6 @@ subfolder: 900-overrides
 info:
   summary: Terrain Grass NAM (TGN) - Cul de Sacs option
   author: rsc204
-dependencies:
-  - mgb204:terrain-grass-nam-variants-terrain
 variants:
   - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "no" }
   - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "yes", roadstyle: US, mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
@@ -65,3 +63,15 @@ variants:
           - CullDeSac Patch
         exclude:
           - \bUS\b
+variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
+- variantId: mgb204:terrain-grass-nam-base:terrain-mod
+  description: Choose a TGN terrain texture style that matches your installed terrain mod.
+  values:
+  - value: appalachian
+    description: Lowkee's Appalachian Terrain Mod
+  - value: pyrenean
+    description: TSC Pyrenean Terrain Mod
+  - value: berner-oberland
+    description: Gobias' Berner Oberland Terrain Mod
+  - value: sudden-valley
+    description: Gobias' Sudden Valley Terrain Mod

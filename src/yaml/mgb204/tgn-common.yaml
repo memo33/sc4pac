@@ -75,7 +75,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/TGN_SV2.jpg.7fcf8ef4b2f2ad0684f437410edddefb.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/TGN_SV1.jpg.236bd195a1083fdd55007dbd549aa5c4.jpg
 dependencies:
-  - mgb204:terrain-grass-nam-variants-terrain
   - mgb204:terrain-grass-nam-option-cul-de-sacs
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
@@ -90,6 +89,27 @@ variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
     dependencies:
       - mgb204:terrain-grass-nam-base-sudden-valley
+variantInfo:
+- variantId: mgb204:terrain-grass-nam-base:terrain-mod
+  description: Choose a TGN terrain texture style that matches your installed terrain mod.
+  values:
+  - value: appalachian
+    description: Lowkee's Appalachian Terrain Mod
+  - value: pyrenean
+    description: TSC Pyrenean Terrain Mod
+  - value: berner-oberland
+    description: Gobias' Berner Oberland Terrain Mod
+  - value: sudden-valley
+    description: Gobias' Sudden Valley Terrain Mod
+# - variantId: mgb204:terrain-grass-nam-base:rail-textures  # TODO activate once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
+#   description: Choose the TGN rail texture style that matches the rest of your installed Plugins.
+#   values:
+#   - value: maxis
+#     description: default Maxis rail textures
+#   - value: peg
+#     description: PEG's rail textures
+#   - value: rrw
+#     description: the NAM's Real Railway (RRW) textures (recommended)
 
 ---
 group: mgb204
@@ -99,8 +119,6 @@ subfolder: 900-overrides
 info:
   summary: Terrain Grass NAM - Base Textures Addon
   author: rsc204
-dependencies:
-  - mgb204:terrain-grass-nam-variants-terrain
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
@@ -116,6 +134,18 @@ variants:
   # override option.
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
+variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
+- variantId: mgb204:terrain-grass-nam-base:terrain-mod
+  description: Choose a TGN terrain texture style that matches your installed terrain mod.
+  values:
+  - value: appalachian
+    description: Lowkee's Appalachian Terrain Mod
+  - value: pyrenean
+    description: TSC Pyrenean Terrain Mod
+  - value: berner-oberland
+    description: Gobias' Berner Oberland Terrain Mod
+  - value: sudden-valley
+    description: Gobias' Sudden Valley Terrain Mod
 
 ---
 group: mgb204
@@ -125,8 +155,6 @@ subfolder: 900-overrides
 info:
   summary: Terrain Grass NAM - BSC Textures Addon
   author: rsc204
-dependencies:
-  - mgb204:terrain-grass-nam-variants-terrain
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
@@ -148,6 +176,18 @@ variants:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
         include:
           - TGN BSC Vol1-3 Override.dat
+variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
+- variantId: mgb204:terrain-grass-nam-base:terrain-mod
+  description: Choose a TGN terrain texture style that matches your installed terrain mod.
+  values:
+  - value: appalachian
+    description: Lowkee's Appalachian Terrain Mod
+  - value: pyrenean
+    description: TSC Pyrenean Terrain Mod
+  - value: berner-oberland
+    description: Gobias' Berner Oberland Terrain Mod
+  - value: sudden-valley
+    description: Gobias' Sudden Valley Terrain Mod
 
 ---
 group: mgb204
@@ -157,8 +197,6 @@ subfolder: 900-overrides
 info:
   summary: Terrain Grass NAM - Diagonal Fillers Addon
   author: rsc204
-dependencies:
-  - mgb204:terrain-grass-nam-variants-terrain
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
@@ -180,6 +218,18 @@ variants:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
         include:
           - TGN Diag Filler Override.dat
+variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
+- variantId: mgb204:terrain-grass-nam-base:terrain-mod
+  description: Choose a TGN terrain texture style that matches your installed terrain mod.
+  values:
+  - value: appalachian
+    description: Lowkee's Appalachian Terrain Mod
+  - value: pyrenean
+    description: TSC Pyrenean Terrain Mod
+  - value: berner-oberland
+    description: Gobias' Berner Oberland Terrain Mod
+  - value: sudden-valley
+    description: Gobias' Sudden Valley Terrain Mod
 
 ---
 group: mgb204
@@ -189,8 +239,6 @@ subfolder: 900-overrides
 info:
   summary: Terrain Grass NAM - Mntoe's Textures addon
   author: rsc204
-dependencies:
-  - mgb204:terrain-grass-nam-variants-terrain
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
@@ -212,6 +260,18 @@ variants:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
         include:
           - TGN Mntoes HFC Override.dat
+variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
+- variantId: mgb204:terrain-grass-nam-base:terrain-mod
+  description: Choose a TGN terrain texture style that matches your installed terrain mod.
+  values:
+  - value: appalachian
+    description: Lowkee's Appalachian Terrain Mod
+  - value: pyrenean
+    description: TSC Pyrenean Terrain Mod
+  - value: berner-oberland
+    description: Gobias' Berner Oberland Terrain Mod
+  - value: sudden-valley
+    description: Gobias' Sudden Valley Terrain Mod
 
 ---
 group: mgb204
@@ -221,8 +281,6 @@ subfolder: 900-overrides
 info:
   summary: Terrain Grass NAM - Paeng's Parks Addon
   author: rsc204
-dependencies:
-  - mgb204:terrain-grass-nam-variants-terrain
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
@@ -244,42 +302,7 @@ variants:
       - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
         include:
           - TGN Parks 205 Override.dat
-
----
-group: mgb204
-name: terrain-grass-nam-variants-rail
-version: "2.45"
-subfolder: 900-overrides
-info:
-  author: rsc204
-variants:
-  - variant: { mgb204:terrain-grass-nam-base:rail-textures: maxis }
-  - variant: { mgb204:terrain-grass-nam-base:rail-textures: peg }
-  - variant: { mgb204:terrain-grass-nam-base:rail-textures: rrw }
-variantInfo:
-- variantId: mgb204:terrain-grass-nam-base:rail-textures
-  description: Choose the TGN rail texture style that matches the rest of your installed Plugins.
-  values:
-  - value: maxis
-    description: default Maxis rail textures
-  - value: peg
-    description: PEG's rail textures
-  - value: rrw
-    description: the NAM's Real Railway (RRW) textures (recommended)
-
----
-group: mgb204
-name: terrain-grass-nam-variants-terrain
-version: "2.45"
-subfolder: 900-overrides
-info:
-  author: rsc204
-variants:
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
-variantInfo:
+variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
 - variantId: mgb204:terrain-grass-nam-base:terrain-mod
   description: Choose a TGN terrain texture style that matches your installed terrain mod.
   values:

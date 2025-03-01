@@ -5,8 +5,6 @@ subfolder: 900-overrides
 info:
   summary: Terrain Grass NAM (TGN) - Pyrenean core files
   author: rsc204
-dependencies:
-  - mgb204:terrain-grass-nam-variants-rail
 assets:
   - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
     include:
@@ -165,6 +163,16 @@ variants:
           - /zoption_
           - UkOld
           - \bRoad RTL\b
+variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
+- variantId: mgb204:terrain-grass-nam-base:rail-textures
+  description: Choose the TGN rail texture style that matches the rest of your installed Plugins.
+  values:
+  - value: maxis
+    description: default Maxis rail textures
+  - value: peg
+    description: PEG's rail textures
+  - value: rrw
+    description: the NAM's Real Railway (RRW) textures (recommended)
 
 ---
 assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
