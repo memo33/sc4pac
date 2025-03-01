@@ -92,10 +92,10 @@ checksum:
   sha256: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ```
 
-Use with files that are downloaded using http instead of https.
-This is required for http files in the default channel; it is recommended for http files in other channels.
+Use this especially for files that are downloaded using http instead of https.
+This is required for http files in the default channel, but can be omitted in local channels.
 
-The file hash can be acquired via PowerShell with `Get-FileHash archive.zip | Format-List` or via Bash with `sha256sum archive.zip`.
+The file hash can be acquired via PowerShell with `Get-FileHash asset.zip | Format-List` or via Bash with `sha256sum asset.zip`.
 
 ### `nonPersistentUrl`
 
