@@ -8,14 +8,7 @@ info:
 dependencies:
   - mgb204:terrain-grass-nam-variants-terrain
 variants:
-  - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "no", roadstyle: US, mgb204:terrain-grass-nam:terrain-mod: appalachian }
-  - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "no", roadstyle: US, mgb204:terrain-grass-nam:terrain-mod: pyrenean }
-  - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "no", roadstyle: US, mgb204:terrain-grass-nam:terrain-mod: berner-oberland }
-  - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "no", roadstyle: US, mgb204:terrain-grass-nam:terrain-mod: sudden-valley }
-  - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "no", roadstyle: EU, mgb204:terrain-grass-nam:terrain-mod: appalachian }
-  - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "no", roadstyle: EU, mgb204:terrain-grass-nam:terrain-mod: pyrenean }
-  - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "no", roadstyle: EU, mgb204:terrain-grass-nam:terrain-mod: berner-oberland }
-  - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "no", roadstyle: EU, mgb204:terrain-grass-nam:terrain-mod: sudden-valley }
+  - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "no" }
   - variant: { mgb204:terrain-grass-nam-cul-de-sacs: "yes", roadstyle: US, mgb204:terrain-grass-nam:terrain-mod: appalachian }
     assets:
       - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
