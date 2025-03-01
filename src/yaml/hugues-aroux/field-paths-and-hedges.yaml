@@ -1,0 +1,160 @@
+group: hugues-aroux
+name: field-paths-and-hedges
+version: "2.1.0"
+subfolder: 660-parks
+info:
+  summary: Field Paths & Hedges
+  description: |-
+    This little plugin of 66 Lots, proposes a field path lined with hedges (bushes, trees). To create bocages. The tracks are adapted to the tractors proposed by the VIP and Namspopof team. They can be found for example in Fantozzi’s farms (Colossus Farming). And won’t be too disturbing with SPAM. The set of Lots includes ortho, diag, and various junctions with streets.
+
+    All Lots come with a generic grass Basetexture, which can be «canceled» to obtain transparent Lots. So, depending on your situation (DLL, OS, plugin) you will be able to use this plugin while keeping texture files or simply delete them. It’s not more complicated than that!
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/33722-scoty-field-paths-hedges/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/FPH_season_241225.jpg.2ae567f809e4b91dc7674e796a117718.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/lots_2.jpg.0f37a12a1bd4415cf121e2635673e944.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676bdc477b364_Capturedcran2024-12-24112120.jpg.7cbf54f353a514861796d841a819c3c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/lots_1.jpg.d932dbbff2e7ae9e4c0ca0e016e7f2dc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/tracks_01.jpg.b847d0a5ee0f620c8fab081424d3a509.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/tracks_02.jpg.d24cd7e368863e5a2128295d96de4ace.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/tracks_04.jpg.ed0962081db780344a978f42b24e23d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/appalachian_terrain.jpg.d6ef8446dc46ccdd7362b2997dfec6d5.jpg
+dependencies:
+  - girafe:beeches
+  - girafe:bushes
+  - girafe:feather-grass
+  - girafe:lupins
+  - girafe:narcissus
+  - girafe:oaks
+  - girafe:plane-trees
+  - girafe:rowan-trees
+  - girafe:sparaxis
+  - hugues-aroux:field-paths-and-hedges-resources
+  - hugues-aroux:field-paths-and-hedges-street-textures
+  - hugues-aroux:field-paths-and-hedges-grass-textures
+  - namspopof:props-pack-vol1
+  - namspopof:props-pack-vol2
+  - nbvc:rock-n-stones-props
+  - orange:les-murets-de-laubrac-props
+  - orange:agri-pack
+  - peg:spot
+  - vip:vnaoned-props-pack-vol01
+assets:
+  - assetId: hugues-aroux-field-paths-and-hedges
+    include:
+      - /scoty_fieldpaths_hedges_common/
+variants:
+  - variant: { hugues-aroux:field-paths-and-hedges:season: evergreen }
+    assets:
+      - assetId: hugues-aroux-field-paths-and-hedges
+        include:
+          - /scoty_fieldpaths_hedges/
+  - variant: { hugues-aroux:field-paths-and-hedges:season: seasonal }
+    assets:
+      - assetId: hugues-aroux-field-paths-and-hedges
+        include:
+          - /scoty_fieldpaths_hedges_seasonal/
+
+---
+group: hugues-aroux
+name: field-paths-and-hedges-resources
+version: "2.1.0"
+subfolder: 100-props-textures
+info:
+  summary: Field Paths and Hedges resources
+  author: hugues-aroux
+  website: https://community.simtropolis.com/files/file/33722-scoty-field-paths-hedges/
+assets:
+  - assetId: hugues-aroux-field-paths-and-hedges
+    include:
+      - /scoty_textures/scoty_FPH_Textures.dat
+
+---
+group: hugues-aroux
+name: field-paths-and-hedges-street-textures
+version: "2.1.0"
+subfolder: 100-props-textures
+info:
+  summary: Field Paths and Hedges (Street Textures)
+  author: hugues-aroux
+  website: https://community.simtropolis.com/files/file/33722-scoty-field-paths-hedges/
+variants:
+  - variant: { hugues-aroux:field-paths-and-hedges:street-textures: maxis }
+    assets:
+    - assetId: hugues-aroux-field-paths-and-hedges
+      include:
+        - /scoty_textures/scoty_FPH_Tex_strt_CHOOSE/scoty_FPH_Textures_Maxis.dat
+  - variant: { hugues-aroux:field-paths-and-hedges:street-textures: tsr }
+    assets:
+    - assetId: hugues-aroux-field-paths-and-hedges
+      include:
+        - /scoty_textures/scoty_FPH_Tex_strt_CHOOSE/scoty_FPH_Textures_TSR.dat
+  - variant: { hugues-aroux:field-paths-and-hedges:street-textures: wws }
+    assets:
+    - assetId: hugues-aroux-field-paths-and-hedges
+      include:
+        - /scoty_textures/scoty_FPH_Tex_strt_CHOOSE/scoty_FPH_Textures_WWS.dat
+variantDescriptions:
+  hugues-aroux:field-paths-and-hedges:street-textures:
+    maxis: Use this one if you use the default Maxis street textures
+    tsr: Use this one if you use TSR street textures
+    wws: Use this one if you use hugues aroux' WestWind Streets textures
+
+---
+group: hugues-aroux
+name: field-paths-and-hedges-grass-textures
+version: "2.1.0"
+subfolder: 100-props-textures
+info:
+  summary: Field Paths and Hedges (Grass Textures)
+  author: hugues-aroux
+  website: https://community.simtropolis.com/files/file/33722-scoty-field-paths-hedges/
+variants:
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: transparent }
+    dependencies:
+      - memo:transparent-texture-fix-dll
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: maxis }
+    assets:
+      - assetId: hugues-aroux-field-paths-and-hedges
+        include:
+          - /scoty_textures/scoty_FPH_grass_CHOOSE-ONE/scoty_FPH_grass_maxis.dat
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: appalachian }
+    assets:
+      - assetId: hugues-aroux-field-paths-and-hedges
+        include:
+          - /scoty_textures/scoty_FPH_grass_CHOOSE-ONE/scoty_FPH_grass_appalachian.dat
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: berner-oberland }
+    assets:
+      - assetId: hugues-aroux-field-paths-and-hedges
+        include:
+          - /scoty_textures/scoty_FPH_grass_CHOOSE-ONE/scoty_FPH_grass_berner-oberland.dat
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: pyrenean }
+    assets:
+      - assetId: hugues-aroux-field-paths-and-hedges
+        include:
+          - /scoty_textures/scoty_FPH_grass_CHOOSE-ONE/scoty_FPH_grass_pyrenean.dat
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: sudden-valley }
+    assets:
+      - assetId: hugues-aroux-field-paths-and-hedges
+        include:
+          - /scoty_textures/scoty_FPH_grass_CHOOSE-ONE/scoty_FPH_grass_sudden-valley.dat
+  - variant: { hugues-aroux:field-paths-and-hedges:grass-textures: wasco }
+    assets:
+      - assetId: hugues-aroux-field-paths-and-hedges
+        include:
+          - /scoty_textures/scoty_FPH_grass_CHOOSE-ONE/scoty_FPH_grass_wasco.dat
+variantDescriptions:
+  hugues-aroux:field-paths-and-hedges:grass-textures:
+    transparent: Choose this if your installation supports DLL mods
+    maxis: Choose this if you can't use DLL mods and use no terrain mod
+    appalachian: Choose this if you can't use DLL mods and use Lowkee's Appalachian Terrain Mod
+    berner-oberland: Choose this if you can't use DLL mods and use the Berner Oberland Terrain Mod
+    pyrenean: Choose this if you can't use DLL mods and use Orange's Pyrenean Terrain Mod
+    sudden-valley: Choose this if you can't use DLL mods and use the Sudden Valley Terrain Mod
+    wasco: Choose this if you can't use DLL mods and use the Wasco Terrain Mod
+
+---
+assetId: hugues-aroux-field-paths-and-hedges
+version: "2.1.0"
+lastModified: "2025-01-11T15:48:47Z"
+url: https://community.simtropolis.com/files/file/33722-scoty-field-paths-hedges/?do=download&r=205219

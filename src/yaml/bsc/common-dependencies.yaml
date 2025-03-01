@@ -1416,7 +1416,9 @@ assets:
 info:
   summary: "Urban props by Girafe"
   description: "Includes Grfe_Props_Pack_Wood_Fence_4m, Grfe_Props_Pack_Villa Libeskind, Grfe_Props_Pack_4_rue_des_Lilas.dat."
-  website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
+    - "https://community.simtropolis.com/files/file/35572-bsc-vip-girafe-urbanpack-vol01/"
 
 ---
 group: "bsc"
