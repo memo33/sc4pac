@@ -1,5 +1,5 @@
 group: mgb204
-name: terrain-grass-nam-full
+name: terrain-grass-nam-complete
 version: "2.45"
 subfolder: 900-overrides
 info:
@@ -57,7 +57,7 @@ info:
     - Gobias' Sudden Valley Terrain Mod
 
     This package will not override base textures of lots.
-    If you want this functionality, then you should install the full version `pkg=mgb204:terrain-grass-nam-full`.
+    If you want this functionality, then you should install the full version `pkg=mgb204:terrain-grass-nam-complete`.
   author: rsc204
   websites:
     - https://community.simtropolis.com/files/file/30896-mgb-terrain-grass-nam-tgn-for-lowkee-appalachian/
