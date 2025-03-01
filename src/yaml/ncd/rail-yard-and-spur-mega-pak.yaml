@@ -17,3 +17,26 @@ assetId: "ncd-rail-yard-and-spur-mega-pak"
 version: "3"
 lastModified: "2024-01-29T00:42:31Z"
 url: "https://community.simtropolis.com/files/file/22325-rail-yard-and-spur-mega-pak-1-version-2/?do=download"
+
+---
+group: "ncd"
+name: "rail-yard-and-spur-mega-pak-1-legacy"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "ncd-rail-yard-and-spur-mega-pak-legacy"
+info:
+  summary: "Textures for realistic railyards and industrial lots (original version)"
+  description: |
+    This package is largely superseded by `pkg=ncd:rail-yard-and-spur-mega-pak-1`, but uses different TGI IDs.
+    Some very old content might require these older IDs.
+  author: "north country dude"
+  website: "https://community.simtropolis.com/files/file/15976-rail-yard-and-spur-textures-mega-pack-1/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/38ed9363869ec62b1f93d17fa966bfdd-RailYard-Mega-1.jpg
+
+---
+assetId: "ncd-rail-yard-and-spur-mega-pak-legacy"
+version: "1.0"
+lastModified: "2006-05-18T16:37:28Z"
+url: "https://community.simtropolis.com/files/file/15976-rail-yard-and-spur-textures-mega-pack-1/?do=download"

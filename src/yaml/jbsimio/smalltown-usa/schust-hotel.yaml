@@ -1,0 +1,29 @@
+group: "jbsimio"
+name: "schust-hotel"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-schust-hotel"
+
+info:
+  summary: "Schust Hotel, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    The Schust Hotel is the third release in the Smalltown, USA series.
+    This package contains both growable and ploppable versions of the building.
+    The ploppable version shares the same jobs, pollution, etc. as the growable.
+    The only differences are a plop cost of 1700 and bulldoze cost of 170.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/15955-smalltownusa-schust-hotel/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0001/0315ef60110c1de45c0657b28f1168a4-Schust%20Hotel_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0001/0315ef60110c1de45c0657b28f1168a4-Schust%20Hotel_Night.jpg
+
+---
+assetId: "jbsimio-schust-hotel"
+version: "1.0"
+lastModified: "2006-05-15T17:59:40Z"
+url: "https://community.simtropolis.com/files/file/15955-smalltownusa-schust-hotel/?do=download"

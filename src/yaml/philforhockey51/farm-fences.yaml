@@ -1,0 +1,52 @@
+group: philforhockey51
+name: farm-fences
+version: "1.0.0"
+subfolder: 410-agriculture
+info:
+  summary: Farm Fences
+  description: |-
+    58 Neutral Lots with Maxis Farm Field and Fences with girafe seasonal flora.
+
+    A set of lots that can be used around the border of your farm fields. Similar concept to the cercafazendas lots created by Suico adding fences to a farm border.
+
+    These lots have some diagonals and multiple versions for variety, fence props from the BSC ALN RRP fences. A smaller pasture set with the white SPAM fences is also included.
+  author: philforhockey51, hugues aroux
+  website: https://community.simtropolis.com/files/file/36485-phil-farm-fences/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/67010286db80d_ExampleLayoutFall.jpeg.fa9db6d096934641e28816202c81e297.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/6701029aecdc5_ALN-Field1-Par-Diag2.jpeg.22be4151a5ceb44cce323e14af0e61e5.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/6701029db1b72_ALN-Field2-Per-Str2.jpeg.4d64e2e110e233c822b6e5d43a600c78.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670102a0c4d33_ALN-Pasture-Str3.jpeg.6c7b343478309f52774c24a0f2774359.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670102cf3451f_SPAM-Pasture-Diag2.jpeg.2464979e6e14d2e1eca03388c627dc9e.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670102f5088de_FarmFences-All-Fall.jpeg.00e1de0f5d8edc3f30bda89bf7320956.jpeg
+dependencies:
+  - aln:rrp-fences-props
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - girafe:ashes
+  - girafe:beeches
+  - girafe:berries
+  - girafe:bushes
+  - girafe:chestnuts
+  - girafe:elms
+  - girafe:feather-grass
+  - girafe:grand-firs
+  - girafe:lupins
+  - girafe:maples-v2
+  - girafe:narcissus
+  - girafe:rowan-trees
+  - hugues-aroux:textures-pack
+  - nbvc:rock-n-stones-props
+  - peg:spam-super-resource-pack
+  - peg:spot
+  - sfbt:essentials
+assets:
+  - assetId: philforhockey51-farm-fences
+
+---
+url: https://community.simtropolis.com/files/file/36485-phil-farm-fences/?do=download
+assetId: philforhockey51-farm-fences
+version: "1.0.0"
+lastModified: "2024-10-05T09:39:02Z"

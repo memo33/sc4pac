@@ -40,7 +40,8 @@ info:
 
   conflicts: |-
     Only compatible with game version 1.1.641, the Windows digital edition.
-    See the CAM manual for a list of mod incompatibilities.
+    Incompatible with `pkg=peg:spam`.
+    See the CAM manual for a list of additional mod incompatibilities.
 
   description: |
     The Colossus Addon Mod (CAM) is a big mod that drastically changes the way cities and regions develop.

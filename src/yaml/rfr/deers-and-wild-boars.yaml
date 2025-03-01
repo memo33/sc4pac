@@ -1,0 +1,47 @@
+group: rfr
+name: deers-and-wild-boars
+version: "1.0"
+subfolder: 180-flora
+info:
+  summary: RFR Deers and Wild Boars
+  description: |-
+    This package consists of:
+
+    - 1 Deer-MMP with 14 models
+    - 1 Wild Boar-MMP with 8 models
+    - 1 Deerstand-MMP with one model
+  author: Framly, rambuckel
+  website: https://community.simtropolis.com/files/file/27196-rfr-deers-and-wild-boars/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/cb5da4e7b9fac6275594d8de083ee8c4-rfrvorschau1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/39aba7210b104f781be293ca22a9e3f8-rfrvorschau2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/a39adab8c01fa6c5559a53a7580ed5d2-rfrvorschau3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2012/91335771dcc9e390968be6ad99b636c4-rfrvorschau4.jpg
+dependencies:
+  - rfr:deers-and-wild-boars-resources
+assets:
+  - assetId: rfr-deers-and-wild-boars
+    include: 
+      - /Deer-WildboarMMP.dat
+
+---
+group: rfr
+name: deers-and-wild-boars-resources
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: RFR Deers and Wild Boars resources
+  description: |-
+    This package is a resource for `pkg=rfr:deers-and-wild-boars`
+  author: Framly
+  website: https://community.simtropolis.com/files/file/27196-rfr-deers-and-wild-boars/
+assets:
+  - assetId: rfr-deers-and-wild-boars
+    include:
+      - /RFR - Main Files.dat
+
+---
+assetId: rfr-deers-and-wild-boars
+version: "1.0"
+lastModified: "2012-01-15T22:29:34Z"
+url: https://community.simtropolis.com/files/file/27196-rfr-deers-and-wild-boars/?do=download&r=96046

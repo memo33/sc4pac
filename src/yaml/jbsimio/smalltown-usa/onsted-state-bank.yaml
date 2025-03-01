@@ -1,0 +1,30 @@
+group: "jbsimio"
+name: "onsted-state-bank"
+version: "1.0"
+subfolder: "300-commercial"
+
+dependencies:
+- "jbsimio:smalltown-usa-props-and-queries"
+
+assets:
+- assetId: "jbsimio-onsted-state-bank"
+
+info:
+  summary: "Onsted State Bank, part of the Smalltown, USA Series by JBSimio"
+  description: |
+    Onsted State Bank is the eighth release in the Smalltown, USA series.
+    This package contains both Commercial Service and Commercial Office versions,
+    with growable and ploppable options for both.  That's four versions!  Call now
+    and we'll also send you… well, nothing else.  Sorry.  The ploppable versions
+    both have a plop cost of 1900 and bulldoze cost of 190.
+  author: "JBSimio"
+  website: "https://community.simtropolis.com/files/file/16085-smalltownusa-onsted-state-bank/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/eac8208051efaa4b9a4b19a24f8e9a7c-OSB_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0026/eac8208051efaa4b9a4b19a24f8e9a7c-OSB_Night.jpg
+
+---
+assetId: "jbsimio-onsted-state-bank"
+version: "1.0"
+lastModified: "2006-05-31T07:27:42Z"
+url: "https://community.simtropolis.com/files/file/16085-smalltownusa-onsted-state-bank/?do=download"

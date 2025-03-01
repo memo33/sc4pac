@@ -8,6 +8,7 @@ This list will be expanded as more packages are added to the metadata channel.
 
 * `pkg=memo:essential-fixes` (important fixes everyone should have – more to come)
 * `pkg=simmaster07:sc4fix` (DLL plugin fixing two notorious SC4 bugs)
+* `pkg=null-45:startup-performance-optimization-dll` (important for some packages that contain very long file paths)
 * `pkg=memo:transparent-texture-fix-dll` (a fix for the water bug)
 * `pkg=memo:region-thumbnail-fix-dll` (a fix for the region thumbnail rendering bug on large screens)
 
@@ -51,6 +52,7 @@ This list will be expanded as more packages are added to the metadata channel.
 * `pkg=jasoncw:cecil-hotel` (highrise CS$ hotel)
 * `pkg=jasoncw:hsbc-tower` (highrise CO$$$ office building)
 * `pkg=mattb325:new-york-w2w-pack-vol01` (medium/high W2W New York buildings)
+* `pkg=jbsimio:smalltown-usa` (Smalltown USA Collection)
 
 ## Industrial
 
