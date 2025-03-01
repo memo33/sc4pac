@@ -3,7 +3,7 @@ name: terrain-grass-nam-full
 version: "2.45"
 subfolder: 900-overrides
 info:
-  summary: Terrain Grass NAM (TGN) - Full Mod
+  summary: Terrain Grass NAM (TGN) – Full Mod
   description: |-
     This package will replace the grass textures on transport networks with grass that blends in with your terrain mod, as well as other textures, such as lot base textures, some BSC grass textures and more.
 
@@ -45,7 +45,7 @@ name: terrain-grass-nam-base
 version: "2.45"
 subfolder: 900-overrides
 info:
-  summary: Terrain Grass NAM (TGN) - Base Mod
+  summary: Terrain Grass NAM (TGN) – Base Mod
   description: |-
     This package will replace the grass textures on transport networks with grass that blends in with your terrain mod.
 
@@ -117,7 +117,7 @@ name: terrain-grass-nam-addon-base-textures
 version: "2.45"
 subfolder: 900-overrides
 info:
-  summary: Terrain Grass NAM - Base Textures Addon
+  summary: Terrain Grass NAM (TGN) – Base Textures Addon
   author: rsc204
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
@@ -153,7 +153,7 @@ name: terrain-grass-nam-addon-bsc-textures
 version: "2.45"
 subfolder: 900-overrides
 info:
-  summary: Terrain Grass NAM - BSC Textures Addon
+  summary: Terrain Grass NAM (TGN) – BSC Textures Addon
   author: rsc204
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
@@ -195,7 +195,7 @@ name: terrain-grass-nam-addon-diagonal-fillers
 version: "2.45"
 subfolder: 900-overrides
 info:
-  summary: Terrain Grass NAM - Diagonal Fillers Addon
+  summary: Terrain Grass NAM (TGN) – Diagonal Fillers Addon
   author: rsc204
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
@@ -237,7 +237,7 @@ name: terrain-grass-nam-addon-mntoes
 version: "2.45"
 subfolder: 900-overrides
 info:
-  summary: Terrain Grass NAM - Mntoe's Textures addon
+  summary: Terrain Grass NAM (TGN) – Mntoe's Textures addon
   author: rsc204
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
@@ -279,7 +279,7 @@ name: terrain-grass-nam-addon-paengs-parks
 version: "2.45"
 subfolder: 900-overrides
 info:
-  summary: Terrain Grass NAM - Paeng's Parks Addon
+  summary: Terrain Grass NAM (TGN) – Paeng's Parks Addon
   author: rsc204
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
