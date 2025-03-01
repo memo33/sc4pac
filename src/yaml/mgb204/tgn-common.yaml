@@ -112,7 +112,7 @@ variants:
       - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
         include:
           - TGN Base Textures.dat
-  # Berner Oberland and Sudden Valley apparently don't have a base texture 
+  # Berner Oberland and Sudden Valley apparently don't have a base texture
   # override option.
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
@@ -256,11 +256,16 @@ variants:
   - variant: { mgb204:terrain-grass-nam-base:rail-textures: maxis }
   - variant: { mgb204:terrain-grass-nam-base:rail-textures: peg }
   - variant: { mgb204:terrain-grass-nam-base:rail-textures: rrw }
-variantDescriptions:
-  mgb204:terrain-grass-nam-base:rail-textures:
-    maxis: Choose this if you're using the default Maxis rail textures
-    peg: Choose this if you're using PEG's rail textures
-    rrw: Choose this if you're using the NAMs RRW override (recommended)
+variantInfo:
+- variantId: mgb204:terrain-grass-nam-base:rail-textures
+  description: Choose the TGN rail texture style that matches the rest of your installed Plugins.
+  values:
+  - value: maxis
+    description: default Maxis rail textures
+  - value: peg
+    description: PEG's rail textures
+  - value: rrw
+    description: the NAM's Real Railway (RRW) textures (recommended)
 
 ---
 group: mgb204
@@ -274,9 +279,15 @@ variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
-variantDescriptions:
-  mgb204:terrain-grass-nam-base:terrain-mod:
-    appalachian: Choose this if you're using Lowkee's Appalachian Terrain Mod
-    pyrenean: Choose this if you're using TSC Pyrenean Terrain Mod
-    berner-oberland: Choose this if you're using Gobias' Berner Oberland Terrain Mod
-    sudden-valley: Choose this if you're using Gobias' Sudden Valley Terrain Mod
+variantInfo:
+- variantId: mgb204:terrain-grass-nam-base:terrain-mod
+  description: Choose a TGN terrain texture style that matches your installed terrain mod.
+  values:
+  - value: appalachian
+    description: Lowkee's Appalachian Terrain Mod
+  - value: pyrenean
+    description: TSC Pyrenean Terrain Mod
+  - value: berner-oberland
+    description: Gobias' Berner Oberland Terrain Mod
+  - value: sudden-valley
+    description: Gobias' Sudden Valley Terrain Mod
