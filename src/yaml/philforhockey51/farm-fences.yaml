@@ -10,7 +10,7 @@ info:
     A set of lots that can be used around the border of your farm fields. Similar concept to the cercafazendas lots created by Suico adding fences to a farm border.
 
     These lots have some diagonals and multiple versions for variety, fence props from the BSC ALN RRP fences. A smaller pasture set with the white SPAM fences is also included.
-  author: philforhockey51, hugues aroux    
+  author: philforhockey51, hugues aroux
   website: https://community.simtropolis.com/files/file/36485-phil-farm-fences/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/67010286db80d_ExampleLayoutFall.jpeg.fa9db6d096934641e28816202c81e297.jpeg
@@ -38,7 +38,7 @@ dependencies:
   - girafe:narcissus
   - girafe:rowan-trees
   - hugues-aroux:textures-pack
-  - nbvc:rock-n-stones
+  - nbvc:rock-n-stones-props
   - peg:spam-super-resource-pack
   - peg:spot
   - sfbt:essentials
