@@ -3,9 +3,9 @@ name: terrain-grass-nam-complete
 version: "2.45"
 subfolder: 900-overrides
 info:
-  summary: Terrain Grass NAM (TGN) – Full Mod
+  summary: Terrain Grass NAM (TGN) – ***Full Mod***
   description: |-
-    This package will replace the grass textures on transport networks with grass that blends in with your terrain mod, as well as other textures, such as lot base textures, some BSC grass textures and more.
+    This package replaces the grass textures on transport networks with grass that blends in with your terrain mod, as well as other textures, such as lot base textures, some BSC grass textures and more.
 
     There are four supported terrain mods:
 
@@ -14,7 +14,7 @@ info:
     - Gobias' Berner Oberland Terrain Mod
     - Gobias' Sudden Valley Terrain Mod
 
-    If you only want network textures to be overriden, you should install `pkg=mgb204:terrain-grass-nam-base` instead.
+    If you only want network textures to be overridden, install `pkg=mgb204:terrain-grass-nam-base` instead.
   author: rsc204
   websites:
     - https://community.simtropolis.com/files/file/30896-mgb-terrain-grass-nam-tgn-for-lowkee-appalachian/
@@ -45,9 +45,9 @@ name: terrain-grass-nam-base
 version: "2.45"
 subfolder: 900-overrides
 info:
-  summary: Terrain Grass NAM (TGN) – Base Mod
+  summary: Terrain Grass NAM (TGN) – ***Base Mod***
   description: |-
-    This package will replace the grass textures on transport networks with grass that blends in with your terrain mod.
+    This package replaces the grass textures on transport networks with grass that blends in with your terrain mod.
 
     There are four supported terrain mods:
 
@@ -56,8 +56,8 @@ info:
     - Gobias' Berner Oberland Terrain Mod
     - Gobias' Sudden Valley Terrain Mod
 
-    This package will not override base textures of lots.
-    If you want this functionality, then you should install the full version `pkg=mgb204:terrain-grass-nam-complete`.
+    This package does not override base textures of lots.
+    If you want this functionality, install the full version `pkg=mgb204:terrain-grass-nam-complete`.
   author: rsc204
   websites:
     - https://community.simtropolis.com/files/file/30896-mgb-terrain-grass-nam-tgn-for-lowkee-appalachian/
