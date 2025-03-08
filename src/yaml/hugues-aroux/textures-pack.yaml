@@ -1,6 +1,6 @@
 group: "hugues-aroux"
 name: "textures-pack"
-version: "1.0.5"
+version: "1.0.6"
 subfolder: "100-props-textures"
 info:
   summary: "Scoty textures pack"
@@ -9,12 +9,18 @@ info:
   website: "https://community.simtropolis.com/files/file/36297-scoty-textures-packs/"
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/img_tech_diff_2.jpg.7196c6232b1007a2c1717a04ade1e5aa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/garden2.jpg.3a2242861479c60de8ef146ec4c79fb7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/phil_fiels_paths.jpg.8019172481d8bd46b3fd2e54561447a8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/FA_kparc_Plaza.jpg.c0671af406fd1f633a844b8373e89ce9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/TE_type1.jpg.3c82f4852ba72b802855a3c32c6b9ff6.jpg
   author: "hugues aroux"
 assets:
 - assetId: "hugues-aroux-textures-pack"
+  exclude:  # for simplicity, we exclude non-default choices for now, as this is just one tiny texture anyway
+  - _choose/.*(?<!Maxis|NAM)\.dat$
 
 ---
 url: "https://community.simtropolis.com/files/file/36297-scoty-textures-packs/?do=download"
 assetId: "hugues-aroux-textures-pack"
-version: "1.0.5"
-lastModified: "2024-12-16T22:30:07Z"
+version: "1.0.6"
+lastModified: "2025-03-05T21:27:46Z"

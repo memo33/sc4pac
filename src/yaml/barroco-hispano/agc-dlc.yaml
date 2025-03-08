@@ -30,7 +30,7 @@ lastModified: "2023-12-08T23:54:20Z"
 ### agc monuments props
 group: "agc"
 name: "monuments-props"
-version: "6.0.0"
+version: "7.0.0"
 subfolder: "100-props-textures"
 info:
   summary: "Monument props made by Barroco Hispano"
@@ -43,7 +43,7 @@ info:
 variants:
 - variant: { nightmode: "standard" }
   assets:
-  - assetId: "agc-monuments-props-mn"
+  - assetId: "agc-monuments-props-dn"  # MN support removed in 7.0.0
 - variant: { nightmode: "dark" }
   dependencies:
   - "simfox:day-and-nite-mod"
@@ -51,15 +51,10 @@ variants:
   - assetId: "agc-monuments-props-dn"
 
 ---
-url: "https://community.simtropolis.com/files/file/35941-agc-monuments-dlc/?do=download&r=201402"
+url: "https://community.simtropolis.com/files/file/35941-agc-monuments-dlc/?do=download"
 assetId: "agc-monuments-props-dn"
-version: "6.0.0"
-lastModified: "2024-05-19T17:30:16Z"
----
-url: "https://community.simtropolis.com/files/file/35941-agc-monuments-dlc/?do=download&r=201401"
-assetId: "agc-monuments-props-mn"
-version: "6.0.0"
-lastModified: "2024-05-19T17:30:16Z"
+version: "7.0.0"
+lastModified: "2025-02-17T23:33:20Z"
 
 
 ---
