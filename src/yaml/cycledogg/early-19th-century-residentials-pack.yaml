@@ -1,5 +1,41 @@
-# This asset is used directly by simcoug:farmhouses.
-# TODO Create a dependency package of the models if these are used anywhere else.
+# Note: lots are not included, only the models, as they serve as dependencies, 
+# for example for simcoug:farmhouses
+group: cycledogg
+name: early-19th-century-tenements-props
+version: "1"
+subfolder: 100-props-textures
+assets:
+  - assetId: "cycledogg-early-19th-century-residentials-pack"
+    include: [ "CP_Early19thCenturyTenements_Models.dat" ]
+
+---
+group: cycledogg
+name: early-19th-century-r1-props
+version: "1"
+subfolder: 100-props-textures
+assets:
+  - assetId: "cycledogg-early-19th-century-residentials-pack"
+    include: [ "/CP_Early19thCentury_Small\\$Houses_Models.dat" ]
+
+---
+group: cycledogg
+name: early-19th-century-r2-props
+version: "1"
+subfolder: 100-props-textures
+assets:
+  - assetId: "cycledogg-early-19th-century-residentials-pack"
+    include: [ "/CP_Early19thCent_MedHse_Models.dat" ]
+
+---
+group: cycledogg
+name: early-19th-century-r3-props
+version: "1"
+subfolder: 100-props-textures
+assets:
+  - assetId: "cycledogg-early-19th-century-residentials-pack"
+    include: [ "/CP_Early19thCentury_R\\$\\$\\$Houses_Models.dat" ]
+
+---
 assetId: "cycledogg-early-19th-century-residentials-pack"
 version: "1"
 lastModified: "2023-07-20T14:14:56-07:00"
