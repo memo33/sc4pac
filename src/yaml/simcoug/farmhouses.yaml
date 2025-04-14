@@ -1,6 +1,6 @@
 group: "simcoug"
 name: "farmhouses"
-version: "1.0"
+version: "1.0-1"
 subfolder: "200-residential"
 dependencies:
 - bsc:texturepack-cycledogg-vol01
