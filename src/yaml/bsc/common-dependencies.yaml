@@ -1,12 +1,12 @@
 assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-version: "9b"
-lastModified: "2024-08-21T22:51:45Z"
+version: "9c"
+lastModified: "2025-04-21T10:38:51Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=3:sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "essentials"
-version: "2024b"
+version: "2025a"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -20,7 +20,7 @@ info:
 ---
 group: "bsc"
 name: "prop-family-names"
-version: "4"
+version: "5"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -56,7 +56,7 @@ info:
 ---
 group: "bsc"
 name: "textures-vol03"
-version: "5"
+version: "6"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -200,7 +200,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-t1-vol01"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -224,11 +224,11 @@ info:
 ---
 group: "bsc"
 name: "mega-props-t1-vol03"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - T1 vol03.dat" ]
+  include: [ "/BSC MEGA Props - T1 vol03 v..dat" ]
 info:
   summary: "BSC Mega Props - T1 Vol03 by tag_one"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -344,7 +344,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-gascooker-vol01"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -356,13 +356,13 @@ info:
 ---
 group: "bsc"
 name: "mega-props-gascooker-vol02"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Gascooker vol02 v..dat" ]
+  include: [ "/BSC MEGA Props - Gascooker Vol02 v..dat" ]
 info:
-  summary: "BSC MEGA Props - Gascooker vol02"
+  summary: "BSC MEGA Props - Gascooker Vol02"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
@@ -524,7 +524,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-mjb-vol01"
-version: "3"
+version: "3-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -572,11 +572,11 @@ info:
 ---
 group: "bsc"
 name: "mega-props-misc-vol03"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Misc Vol03.dat" ]
+  include: [ "/BSC MEGA Props - MISC Vol03 v..dat" ]
 info:
   summary: "BSC MEGA Props - Misc Vol03"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1329,11 +1329,11 @@ info:
 ---
 group: "bsc"
 name: "mega-props-mikeseith-vol01"
-version: "1-1"
+version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Mikeseith Vol01.dat" ]
+  include: [ "/BSC MEGA Props - Mikeseith vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - Mikeseith vol01"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1392,6 +1392,20 @@ info:
 
 ---
 group: "bsc"
+name: "vip-girafe-carpack-vol03-remastered"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+  include: [ "/Grfe_Props_Pack_Carpack vol03-Remastered.dat" ]
+info:
+  summary: "Grfe_Props_Pack_Carpack vol03-Remastered.dat by Girafe, uses separate IDs from the original"
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
+    - "https://community.simtropolis.com/files/file/36441-bsc-vip-girafe-carpack-vol-3-remastered/"
+
+---
+group: "bsc"
 name: "vip-girafe-carpack-vol04"
 version: "1-2"
 subfolder: "100-props-textures"
@@ -1406,13 +1420,14 @@ info:
 ---
 group: "bsc"
 name: "vip-girafe-urbanpack-vol01"
-version: "1-1"
+version: "2"
 subfolder: "100-props-textures"
 dependencies:
 - "bsc:vip-girafe-carpack-vol04"  # originally included in this urbanpack -> split off for consistency
+- "girafe:hedges"  # the ST upload includes this, so we make it a dependency as a precaution
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC VIP Girafe Urbanpack Vol01/" ]
+  include: [ "/BSC VIP Girafe Urbanpack Vol01" ]
 info:
   summary: "Urban props by Girafe"
   description: "Includes Grfe_Props_Pack_Wood_Fence_4m, Grfe_Props_Pack_Villa Libeskind, Grfe_Props_Pack_4_rue_des_Lilas.dat."
