@@ -1,0 +1,31 @@
+group: "memo"
+name: "i-r-fix"
+version: "1.0.0"
+subfolder: "150-mods"
+assets:
+- assetId: "memo-i-r-fix"
+dependencies:
+- "memo:submenus-dll"
+
+info:
+  summary: "Include Farm jobs in the Regional Counts"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    > SimCity Farms (I-R) have two serious flaws: They are not included in the Regional counts and there is no CAP relief provided. The jobs are counted in your city, but never make it to the regional counts. This is the reason farm jobs never help to bring Industry to the next stages of development. Since there is no CAP relief, this is also the reason Farm demand dies after a short time of development.
+    >
+    > This fix allows the Farm jobs to be calculated into the Regional Counts. Each farm job now helps increase the stage of development throughout the region. It also adds I-R CAP relief to the industrial connections (i.e. roads, freight station, etc).
+
+    The original fix was developed by RippleJet and InvisiChem and distributed as part of CAM (`pkg=cam:colossus-addon-mod`).
+
+    This new version of the fix is a stand-alone mod that can be used without CAM.
+    The fix is applied using Exemplar Patching, a DLL-based modding technique, which avoids the need to modify the original game files.
+
+    Use the `pkg=bsc:census-repository` if you want to inspect the I-R census numbers more closely.
+  author: "memo, InvisiChem, RippleJet"
+  website: "https://community.simtropolis.com/files/file/36841-i-r-fix/"
+
+---
+assetId: "memo-i-r-fix"
+version: "1.0.0"
+lastModified: "2025-04-24T19:10:20Z"
+url: "https://community.simtropolis.com/files/file/36841-i-r-fix/?do=download"
