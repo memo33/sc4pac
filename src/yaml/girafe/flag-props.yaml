@@ -1,0 +1,21 @@
+group: "girafe"
+name: "flags-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-vip-girafe-flags"
+info:
+  summary: "Girafe - Flags Props"
+  description: |-
+    Contains flag props for 41 countries. 
+  
+    The included countries are Argentina, Austria, Belgium, Brazil, Bulgaria, Canada, China, Croatia, Cyprus, Czech Republic, Denmark, Estonia, European Union, Finland, France, Germany, Greece, Hungary, India, IOC, Ireland, Italy, Japan, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Russia, Slovakia, Slovenia, Spain, Sweden, Switzerland, UK, Ukraine, and USA.
+  author: "Girafe"
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/213-bsc-vip-girafe-flags"
+
+---
+assetId: "bsc-vip-girafe-flags"
+version: "1.0"
+lastModified: "2024-01-21T02:25:51-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=213:bsc-vip-girafe-flags"

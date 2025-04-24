@@ -1,0 +1,29 @@
+assetId: "sc4d-lex-legacy-torremayor-dependency-pack"
+version: "2.0"
+lastModified: "2025-03-21T15:06:06-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=239:sc4d-lex-legacy-torremayor-dependency-pack-v1"
+
+---
+group: "torremayor"
+name: "ultra-props-pack-vol01"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-torremayor-dependency-pack"
+  include: [ "/torremayor ULTRA Pack Vol01.dat" ]
+info:
+  summary: "Torremayor ULTRA Props Vol 01 by Torremayor"
+  description: |-
+    Contains the former Torremayor MEGA Props Vol01, Vol02 and Vol03, with the following models and props:
+    * Bank of America Centre
+    * Mirage
+    * Opera de Bastille
+    * Pan Am Building
+    * Pearl Continental Tower
+    * Pudong International Information Port
+    * Statistisches Bundesamt
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/torremayor%20MEGA%20Pack%20vol01_day.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/torremayor%20MEGA%20Pack%20vol02_day.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/torremayor%20MEGA%20Pack%20vol03_day.jpg
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/239-sc4d-lex-legacy-torremayor-dependency-pack-v1"

@@ -1,0 +1,18 @@
+group: "haarlemmergold"
+name: "mega-props-german-vol01"
+version: "2.1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "haarlemmergold-mega-props-german-vol01"
+info:
+  summary: "German building models by Haarlemmergold"
+  description: |-
+    This package is a Mega Pack of all Haarlemmergold Dutch buildings to date.
+  author: "Haarlemmergold"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/172-haarl-mega-props-german-vol-01"
+
+---
+assetId: "haarlemmergold-mega-props-german-vol01"
+version: "2.1"
+lastModified: "2025-03-13T16:27:52-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=172:haarl-mega-props-german-vol-01"

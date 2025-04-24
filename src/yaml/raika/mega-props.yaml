@@ -1,0 +1,104 @@
+assetId: "sc4d-lex-legacy-raika-dependency-pack"
+version: "2.0"
+lastModified: "2025-03-21T15:00:25-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=238:sc4d-lex-legacy-raika-dependency-pack-v1"
+
+---
+group: "raika"
+name: "mega-props-vol01"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-raika-dependency-pack"
+  include: [ "/Raika Mega Pack Vol01 v..dat" ]
+info:
+  summary: "Raika MEGA Props Vol 01 by Raika"
+  description: |-
+    Contains models from
+    * High-tech Agricultural Laboratory (BiotechLab2)
+    * Blue Coral Mall (CrystalPile_recover)
+    * Mitsubishi Crystal Mall (CrystalPile)
+    * Freyman Hotel (Jade Hotel)
+    * Kirishima Iolite Spire
+    * Japanese Public Housing
+    * Mihama Estate (MiddleJPProject)
+    * Modern Large House (LargeSHouse)
+    * Canderra Memorial Stadium (MinorLeagueStadium)
+    * Sender Grand Hotel
+    * Fujimino Heights
+    * Hikawa Estate
+    * Sezaki Highrise
+    * Tokiwa Highrise 
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Raika%20Mega%20Pack%20VOl%2001%20LEX%20Image.jpg
+  author: Raika
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/238-sc4d-lex-legacy-raika-dependency-pack-v1"
+  
+---
+group: "raika"
+name: "mega-props-vol02"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-raika-dependency-pack"
+  include: [ "/Raika Mega Pack Vol02 v..dat" ]
+info:
+  summary: "Raika MEGA Props Vol 02 by Raika"
+  description: |-
+    Contains models from
+    * Aero Cleaner
+    * Artificial Reef
+    * Biosphere Zero
+    * Calcite Inc
+    * Container Yard
+    * Desalination Plant
+    * Full Cell Power Plant
+    * Genetic Engineering Facility
+    * Large Elevated Rail Station
+    * Large Rail Station
+    * Large Subway Rail
+    * Kombu Cultivation Field
+    * Nori Cultivation Field
+    * Riman Glass
+    * Road Bridge
+    * Avenue Bridge
+    * Small Oil Tank
+    * Small Wharf
+    * Soilent Foods
+    * Water Power Station
+    * Water Power Station Pipe
+    * Wave Power Bouys
+    * Road Land Bridge v1
+    * Road Land Bridge v2
+    * Highway Cross Wide
+    * Highway Signs
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Raika%20Mega%20Pack%20VOl%2002%20LEX%20Image.jpg
+  author: Raika
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/238-sc4d-lex-legacy-raika-dependency-pack-v1"
+  
+---
+group: "raika"
+name: "mega-props-vol03"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-raika-dependency-pack"
+  include: [ "/Raika Mega Pack Vol03.dat" ]
+info:
+  summary: "Raika MEGA Props Vol 02 by Raika"
+  description: |-
+    Contains models from
+    * Assassination Inc
+    * Matsubara Estate
+    * Christian Church
+    * Golanoth Ponther Inc
+    * Grand Hotel Medical Center
+    * Large Glass Library
+    * Modern Dordoi
+    * NTT Yoyogi Building
+    * Jade Metal
+    * Skyview Takasago
+    * Japanese Style Housing Project (Tower Mansion)
+  author: Raika
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/238-sc4d-lex-legacy-raika-dependency-pack-v1"

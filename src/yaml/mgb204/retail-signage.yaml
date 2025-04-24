@@ -1,0 +1,29 @@
+group: "mgb204"
+name: "retail-signage-pack-rsp"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "mgb204-retail-signage-pack-rsp"
+info:
+  summary: Banners with retail logos for stores
+  description: |-
+    Retail Signage Pack (RSP) by MGB204. Contains 30 banners/props, grouped by 6 countries:
+    * AUS - Australia
+    * DE - Germany 
+    * JPN - Japan
+    * RUS - Russia
+    * UK - United Kingdom
+    * US - United States
+
+    Each pack contains between 3 and 6 props for stores of those countries grouped in a prop family.
+  author: "MGB204"
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/small_RSP.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/large_RSP.jpg
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/91-mgb204-retail-signage-pack-rsp"
+
+---
+assetId: "mgb204-retail-signage-pack-rsp"
+version: "1.0"
+lastModified: "2023-12-06T02:42:16-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=91:mgb204-retail-signage-pack-rsp"

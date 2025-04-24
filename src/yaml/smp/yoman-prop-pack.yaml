@@ -1,0 +1,24 @@
+group: "smp"
+name: "yoman-prop-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "smp-yoman-prop-pack-vol01"
+info:
+  summary: "Yoman - SMP Prop Pack Vol01"
+  description: |-
+    A pack containing intermodal cranes for use in container terminals of all sorts. These props are based off of real life container cranes (or Portainers) located in the APM Container Terminal in Europort, Rotterdam. Included is one large Super Post Panamax Portainer crane in both an active (arm down) and inactive (arm up) version.
+
+    These cranes are LODed to allow them to be placed overhanging all known container ships available in SimCity 4 and probably for all ships in the foreseeable future. Also included is one Straddle Carrier prop which is used to carry containers around the terminal available in loaded, unloaded, 45 degree, and 22.5 (left and right) versions. It is strongly suggested that you also download Jestarr's excellent standard TEU units (containers), as they have been modeled with the scale of those containers in mind.
+  author: "Yoman"
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SMPPortRealismProjectPropPackVolume1.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/SMP%20Yoman%20Prop%20Pack%20Vol01_index.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/242-smp-yoman-prop-pack-vol01"
+
+---
+assetId: "smp-yoman-prop-pack-vol01"
+version: "1.0"
+lastModified: "2024-01-24T02:06:41-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=242:smp-yoman-prop-pack-vol01"

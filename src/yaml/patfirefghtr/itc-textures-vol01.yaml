@@ -1,0 +1,22 @@
+group: "itc"
+name: "pat-texture-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "itc-pat-texture-pack-vol01"
+info:
+  summary: "ITC - Texture Pack Vol01"
+  description: Texture Pack Vol01 by Patfirefghtr
+  author: "ITC, Patfirefghtr"
+  images:
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/ViewOne.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/ViewTwo.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/ITC%20Texture%20Pack%20Pat%20vol%2001_index.jpg"
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/233-itc-pat-texture-pack-vol01"
+
+---
+assetId: "itc-pat-texture-pack-vol01"
+version: "1.0"
+lastModified: "2025-03-21T14:38:24-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=233:itc-pat-texture-pack-vol01"
