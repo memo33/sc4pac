@@ -13,7 +13,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol01.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 01 by ks_JPN"
-  description: Contains models for
+  description: |-
+    Contains props and models for
     * 21st Century Tower
     * Al Attar Tower
     * API World Tower
@@ -31,7 +32,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol02.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vo2 01 by ks_JPN"
-  description: Contains models for
+  description: |-
+    Contains props and models for
     * Bahrain WTC
     * Infinity Tower
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/153-sc4d-lex-legacy-ks-jpn-dependencies"
@@ -46,7 +48,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol03.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 03 by ks_JPN"
-  description: Contains models for
+  description: |-
+    Contains props and models for
     * Burj Al Arab
     * Dorra Bay
     * Dusit Dubai
@@ -62,7 +65,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol04 v..dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 04 by ks_JPN"
-  description: Contains models for
+  description: |-
+    Contains props and models for
     * Vienna Tower
     * Marina Residence
     * Marina Crown
@@ -80,7 +84,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol05.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 05 by ks_JPN"
-  description: Contains models for
+  description: |-
+    Contains props and models for
     * Wilton Tower
     * Najd Tower
     * Millennium Tower
@@ -96,7 +101,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol06.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 06 by ks_JPN"
-  description: Contains models for
+  description: |-
+    Contains props and models for
     * Zayeed Residence
     * Tower Residence B
     * Tower Residence
@@ -113,7 +119,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol07.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 07 by ks_JPN"
-  description: Contains models for
+  description: |-
+    Contains props and models for
     * Chelsea Tower
     * Shinjuku Mitsui Building
     * Shinjuku Sumitomo Building
@@ -130,7 +137,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol08.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 08 by ks_JPN"
-  description: Contains the model for
+  description: |-
+    Contains the model for
     * Sears Tower
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/153-sc4d-lex-legacy-ks-jpn-dependencies"
   
@@ -144,7 +152,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol09.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 09 by ks_JPN"
-  description: Contains the models for
+  description: |-
+    Contains the models for
     * Rosslare Tower
     * Oceanic Tower
     * Princess Tower
@@ -160,7 +169,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol10.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 10 by ks_JPN"
-  description: Contains models for
+  description: |-
+    Contains props and models for
     * Shinjuku Nomura Building
     * Two Prudential Plaza
     * Toshiba Building
@@ -176,7 +186,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol11 v..dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 11 by ks_JPN"
-  description: Contains models for
+  description: |-
+    Contains props and models for
     * Grand Prince Hotel Akasaka
     * Grand Prince Hotel Akasaka (Christmas Version)
     * Lighthouse Tower
@@ -192,7 +203,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol12.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 12 by ks_JPN"
-  description: Contains models and props for
+  description: |-
+    Contains models and props for
     * Allianz Arena
     * Osaka Expo '70 Stadium
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/153-sc4d-lex-legacy-ks-jpn-dependencies"
@@ -207,7 +219,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol13.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 13 by ks_JPN"
-  description: Contains models and props for
+  description: |-
+    Contains models and props for
     * Kashima Stadium
     * Stadion Feyenoord (DeKuip)
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/153-sc4d-lex-legacy-ks-jpn-dependencies"
@@ -222,7 +235,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol14 v..dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 14 by ks_JPN"
-  description: Contains models and props for
+  description: |-
+    Contains models and props for
     * LTU Arena
     * Kobe Wing Stadium
     * Kobe Wing Stadium FIFA Worldcup Version
@@ -239,7 +253,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol15.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 15 by ks_JPN"
-  description: Contains models and props for
+  description: |-
+    Contains models and props for
     * Lake City Tower
     * Worldwide Plaza 
     * Tour Montparnasse
@@ -256,7 +271,8 @@ assets:
   include: [ "/ks_jpn MEGA Props Vol16.dat" ]
 info:
   summary: "ks_JPN MEGA Props Vol 16 by ks_JPN"
-  description: Contains models and props for
+  description: |-
+    Contains models and props for
     * Arabian Canal
     * Oasis Park
     * Palm Square
