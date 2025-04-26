@@ -1,16 +1,31 @@
 group: "heinbloed4711"
 name: "hi-tech-missing-high-wealth-jobs"
-version: "1.11"
+version: "1.11-1"
 subfolder: "150-mods"
-assets:
-- assetId: "heinbloed4711-ih-missing-r3-jobs-fix"
+variants:
+- variant: { CAM: "no" }
+  assets:
+  - assetId: "heinbloed4711-ih-missing-r3-jobs-fix"
+- variant: { CAM: "yes" }
 info:
-  summary: Fix arithmetic error causing missing high-wealth jobs on most IH lots
+  summary: Fix arithmetic error causing missing high-wealth jobs on most I-HT lots
+  description: >
+    (The CAM variant of this package installs nothing, as CAM already comes with its own fix for this problem, using slightly different stats.)
   author: "HeinBloed4711"
   website: "https://community.simtropolis.com/files/file/22771-ih-missing-jobs-fix-update/"
   images:
     - https://www.simtropolis.com/objects/screens/0008/3dfed99e5cbbdcdedaabc24d76571a26-before.jpg
     - https://www.simtropolis.com/objects/screens/0008/3dfed99e5cbbdcdedaabc24d76571a26-after.jpg
+
+variantInfo:
+- variantId: "CAM"
+  values:
+  - value: "no"
+    description: |-
+      Choose this if you have not installed the Colossus Addon Mod (CAM).
+  - value: "yes"
+    description: |-
+      Choose this if you have installed the Colossus Addon Mod (CAM).
 
 ---
 assetId: "heinbloed4711-ih-missing-r3-jobs-fix"

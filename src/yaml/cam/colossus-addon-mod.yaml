@@ -4,29 +4,23 @@ lastModified: "2025-03-12T23:56:14Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=52:colossus-addon-mod-version-2-1-0a-mac-by-invisichem"
 
 ---
-assetId: "cam-memo-exemlar-patch"
-version: "1"
-lastModified: "2024-03-24T18:22:49Z"
-url: "https://github.com/memo33/submenus-dll/releases/download/1.1.0/CAM_2.1.0_Stand_Permanent.memo-exemplar-patch.zip"
-
----
 group: "cam"
 name: "colossus-addon-mod"
-version: "2.1.0a-2"
+version: "2.1.0a-3"
 subfolder: "050-load-first"
 
 variants:
 - variant: { CAM: "no" }
 - variant: { CAM: "yes" }
   dependencies:
-  - "memo:submenus-dll"  # for exemplar patching
+  - "memo:i-r-fix"
+  - "heinbloed4711:hi-tech-missing-high-wealth-jobs"
   assets:
   - assetId: "cam-colossus-addon-mod"
     include:
     - "/CAM_2.1.0_Main_Controller.dat"
     - "/CAM_2.1.0_PlayStyle_Extended.dat"
     - "/CAM_2.1.0_Buildings.dat"
-  - assetId: "cam-memo-exemlar-patch"
 
 variantDescriptions:
   CAM:
@@ -52,9 +46,9 @@ info:
 
     This package installs the default "Extended" playstyle variant.
 
-    This package includes the agricultural demand fix (I-R fix).
+    This package depends on the I-R fix.
     (This fix is now implemented using a DLL, so it is not necessary to modify any original game files.
-    For game versions not supported by the DLL, you can install CAM or the I-R fix manually instead.)
+    For game versions not supported by the DLL, you can install CAM with the I-R fix manually instead.)
 
     Please consult the extensive CAM documentation for further information.
 
