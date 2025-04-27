@@ -1,19 +1,19 @@
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=7:sc4d-lex-legacy-ultimate-airport-pack"
-version: "1"
-lastModified: "2023-07-20T10:12:23Z"
-assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=348:sc4-legacy-airport-common-dependency-pack"
+version: "1.0"
+lastModified: "2025-04-26T10:12:40-07:00"
+assetId: "sc4d-legacy-airport-common-dependency-pack"
 
 ---
 group: "ac"
 name: "mega-props-vol01"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft and airport props by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props.*Vol 01.dat"
 
@@ -27,231 +27,402 @@ info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props Vol02.*dat"
 
 ---
 group: "ac"
 name: "mega-props-vol03"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft and airport props by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props Vol03.*dat"
 
 ---
 group: "ac"
 name: "mega-props-vol04"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft and airport props by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props Vol04.*dat"
 
 ---
 group: "ac"
 name: "mega-props-vol05"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft and airport props by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props Vol05.*dat"
 
 ---
 group: "ac"
 name: "mega-props-vol06"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft and airport props by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props Vol06.*dat"
 
 ---
 group: "ac"
 name: "mega-props-vol07"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft and airport props by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props Vol07.*dat"
 
 ---
 group: "ac"
 name: "mega-props-vol08"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft and airport props by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props Vol08.*dat"
 
 ---
 group: "ac"
 name: "mega-props-vol09"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft and airport props by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props Vol09.*dat"
 
 ---
 group: "ac"
 name: "mega-props-vol10"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft and airport props by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props Vol10.*dat"
 
 ---
 group: "ac"
 name: "mega-props-vol11"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft and airport props by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Props Vol11.*dat"
 
 ---
 group: "ac"
 name: "vlt-cargo-planes-vol01"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Contains 11 cargo airliners by the AC Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC VLT Cargo Planes Vol01.dat"
 
 ---
+group: "bripizza"
+name: "aircraft-prop-pack"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Aircraft props by bripizza"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
+  author: "bripizza"
+assets:
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
+  include:
+  - "/Aircraft Prop Pack.dat"
+
+---
+group: "bripizza"
+name: "japan-airport-prop-pack"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Airport terminal props by bripizza"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
+  author: "bripizza"
+assets:
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
+  include:
+  - "/Japan Airport Terminal Prop Pack.dat"
+
+---
+group: "bripizza"
+name: "runway-resources"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Airport runway props and textures by bripizza"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
+  author: "bripizza"
+assets:
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
+  include:
+  - "/Runway 4X Prop Pack.dat"
+  - "/Runway 4X Texture Mega Pack.dat"
+
+---
+group: "voltaire"
+name: "rmip-resources"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Props and textures for the Runway Markings Improvement Pack (RMIP) by Voltaire"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
+  author: "Voltaire"
+assets:
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
+  include:
+  - "/RMIP Mega Prop Pack.dat"
+  - "/RMIP Texture Mega Pack.dat"
+
+---
 group: "bsc"
 name: "mega-props-sg-heliport"
-version: "1"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Contains the models for all stages of SimGoober's upgradeable heliport"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "SimGoober"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/BSC MEGA Props - SG Heliport.dat"
 
 ---
-group: "xannepan"
-name: "dulles-airport-terminal-model"
-version: "1"
+group: "scag"
+name: "road-dependency-pack"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
-  summary: "Xannepan's Dulles Airport Saarinen Terminal model"
+  summary: "Airport road textures by the SCAG Team"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
-  author: "SimGoober"
+  author: "SCAG Team"
+variants:
+- variant: { driveside: "left" }
+  assets:
+  - assetId: "sc4d-legacy-airport-common-dependency-pack"
+    include:
+    - "/SCAG - ARIP Road Dependency Pack LHD.dat"
+- variant: { driveside: "right" }
+  assets:
+  - assetId: "sc4d-legacy-airport-common-dependency-pack"
+    include:
+    - "/SCAG - ARIP Road Dependency Pack RHD.dat"
+
+---
+group: "scag"
+name: "dependency-alt-texture"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Airport textures by the SCAG Team"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
+  author: "SCAG Team"
+variants:
+- variant: { scag:dependency-alt-texture:style: "us" }
+  assets:
+  - assetId: "sc4d-legacy-airport-common-dependency-pack"
+    include:
+    - "/TPropsTexturesUS.dat"
+- variant: { scag:dependency-alt-texture:style: "eu" }
+  assets:
+  - assetId: "sc4d-legacy-airport-common-dependency-pack"
+    include:
+    - "/TPropsTexturesEU.dat"
+- variant: { scag:dependency-alt-texture:style: "nz" }
+  assets:
+  - assetId: "sc4d-legacy-airport-common-dependency-pack"
+    include:
+    - "/TPropsTexturesNZ.dat"
+variantInfo:
+- variantId: "scag:dependency-alt-texture:style"
+  description: Choose texture style
+  values:
+  - value: "us"
+    description: American style textures - areas defined with white outlines and filled with white hashes
+  - value: "eu"
+    description: European style textures - areas defined by white outlines
+  - value: "nz"
+    description: New Zealand style textures - areas defined by blue outlines
+
+---
+group: "scag"
+name: "aircraft-mega-pack"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Aircraft models and props by the SCAG Team"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
+  author: "SCAG Team"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
-  - "/JENXAIRPORT_Dulles.dat"
+  - "/SCAG Aircraft Mega Prop Pack.dat"
+
+---
+group: "scag"
+name: "airport-auxiliary-mega-pack"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Airport models and props by the SCAG Team"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
+  author: "SCAG Team"
+assets:
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
+  include:
+  - "/SCAG Airport Auxil.?ary Mega Prop Pack.dat"
+
+---
+group: "scag"
+name: "mega-dependency-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Airport models and props by the SCAG Team"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
+  author: "SCAG Team"
+assets:
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
+  include:
+  - "/SCAG Mega Dependency Vol1.dat"
+
+---
+group: "scag"
+name: "mega-dependency-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Airport models and props by the SCAG Team"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
+  author: "SCAG Team"
+assets:
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
+  include:
+  - "/SCAG Mega Dependency Vol2.dat"
+
+---
+group: "scag"
+name: "tmip-resources"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "Textures and UI elements for the Taxiway Marking Improvement Pack (TMIP) and props by the SCAG Team"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
+  author: "SCAG Team"
+assets:
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
+  include:
+  - "/tmip Texture Mega Pack.dat"
 
 ---
 group: "xannepan"
-name: "jfk-twa-terminal-model"
-version: "1"
+name: "jenxairport-mega-pack"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
-  summary: "Xannepan's JFK TWA Airport Terminal model"
+  summary: "Models and props for Xannepan's airports"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
-  author: "SimGoober"
+  author: "xannepan"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
-  - "/JENXAIRPORT_JFK_TWA.dat"
+  - "/JENXAIRPORT Airport Mega Prop Pack.dat"
 
 ---
 group: "tabi"
-name: "mega-prop-pack-vol01"
-version: "1"
+name: "mega-props-vol01"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft props by Tabi"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Tabi"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/Tabi Mega Prop Pack vol01.dat"
 
 ---
 group: "tabi"
-name: "mega-prop-pack-vol02"
-version: "1"
+name: "mega-props-vol02"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft props by Tabi"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Tabi"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/Tabi Mega Prop Pack vol02.dat"
 
 ---
 group: "tabi"
-name: "mega-prop-pack-vol03"
-version: "1"
+name: "mega-props-vol03"
+version: "1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Aircraft props by Tabi"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Tabi"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/Tabi Mega Prop Pack vol03.dat"
 
@@ -265,21 +436,20 @@ info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC MEGA Textures Vol01.*dat"
 
 ---
-group: "ac"
+group: "ac-jenx"
 name: "essentials"
 version: "2023"
 subfolder: "100-props-textures"
 info:
-  summary: "AC Team queries, sound effects, and other related files"
+  summary: "Xannepan and AC Team queries, sound effects, and other related files"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack"
   author: "Voltaire"
 assets:
-- assetId: "sc4d-lex-legacy-ultimate-airport-pack"
+- assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
-  - "/AC_Essentials_v.*dat"
-  - "/AC Airport Sounds.dat"
+  - "/AC-JENX Airport Essentials.dat"
