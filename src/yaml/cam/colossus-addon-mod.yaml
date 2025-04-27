@@ -6,7 +6,7 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=52:c
 ---
 group: "cam"
 name: "colossus-addon-mod"
-version: "2.1.0a-3"
+version: "2.1.0a-4"
 subfolder: "050-load-first"
 
 variants:
@@ -21,6 +21,8 @@ variants:
     - "/CAM_2.1.0_Main_Controller.dat"
     - "/CAM_2.1.0_PlayStyle_Extended.dat"
     - "/CAM_2.1.0_Buildings.dat"
+  conflicting:
+  - "peg:spam"
 
 variantDescriptions:
   CAM:
@@ -34,8 +36,7 @@ info:
 
   conflicts: |-
     Only compatible with game version 1.1.641, the Windows digital edition.
-    Incompatible with `pkg=peg:spam`.
-    See the CAM manual for a list of additional mod incompatibilities.
+    See the CAM manual for a list of mod incompatibilities.
 
   description: |
     The Colossus Addon Mod (CAM) is a big mod that drastically changes the way cities and regions develop.

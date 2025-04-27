@@ -6,6 +6,8 @@ dependencies:
 - "hagrid:whomping-willow"
 - "lupin:shrieking-shack"
 - "madam-hooch:brooms-and-quidditch-equipment"
+conflicting:
+- "saruman:isengard-tower"
 assets:
 - assetId: "dumbledore-hogwarts-castle"
   include:

@@ -1,6 +1,6 @@
 group: "toroca"
 name: "industry-quadrupler"
-version: "2.1"
+version: "2.1-1"
 subfolder: "150-mods"
 variants:
 - variant: { toroca:industry-quadrupler:capacity: "standard" }
@@ -8,6 +8,8 @@ variants:
 - variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
   assets:
   - assetId: "toroca-industry-quadrupler"
+  conflicting:
+  - "cam:colossus-addon-mod"
 
 variantDescriptions:
   toroca:industry-quadrupler:capacity:

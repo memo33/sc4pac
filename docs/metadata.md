@@ -196,6 +196,17 @@ dependencies:
 - "madam-hooch:brooms-and-quidditch-equipment"
 ```
 
+### `conflicting`
+
+Optional list of conflicting packages (zero or more).
+When installing a package, *sc4pac* ensures that none of the conflicting packages are installed at the same time.
+```yaml
+conflicting:
+- "saruman:isengard-tower"
+```
+When two packages are in conflict with each other, it is enough to add the `conflicting` field to just one of them.
+The conflict will be recognized automatically for the other, as well.
+
 ### `assets` :id=asset-references
 
 Optional list of assets from which to extract files (zero or more).
@@ -324,7 +335,8 @@ A `description` may consist of several paragraphs of contextual information (it 
 > * An introductory sentence or two about real-life architectural context is fine, but it should not take up several paragraphs.
 > * Phrase the `description` in a neutral way and avoid first-person.
 
-You should also inform about possible `conflicts`. If there are none, omit this field.
+You should also inform about potential incompatibilities: `conflicts`. If there are none, omit this field.
+In contrast to the `conflicting` field, this is an information-only text field which is not processed by *sc4pac* in any way.
 
 Moreover, you can add a `warning` message that is displayed during the installation process.
 This should be used sparingly and only included in case a user has to take action before or after installing a package.
