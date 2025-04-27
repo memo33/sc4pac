@@ -1,7 +1,11 @@
 group: simmaster07
 name: upgradeable-city-halls-dll
-version: "1.1.0"
+version: "1.1.0-1"
 subfolder: 150-mods
+dependencies:
+- "config:sc4-edition"
+conflicting:
+- "config:sc4-edition-macos"
 assets:
 - assetId: simmaster07-real-upgradeable-city-halls
   withChecksum:

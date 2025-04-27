@@ -1,9 +1,10 @@
 group: "memo"
 name: "submenus-dll"
-version: "1.1.5"
+version: "1.1.5-1"
 subfolder: "150-mods"
 dependencies:
 - "null-45:sc4-resource-loading-hooks"
+- "config:sc4-edition-windows-digital"
 assets:
 - assetId: "memo-submenus-dll"
   withChecksum:

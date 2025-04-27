@@ -1,0 +1,85 @@
+packages:
+- group: config
+  name: sc4-edition
+  version: "1"
+  subfolder: 060-config
+  variants:
+  - variant: { config:sc4-edition:edition: "Windows-digital" }
+    dependencies: [ config:sc4-edition-windows-digital ]
+  - variant: { config:sc4-edition:edition: "Windows-disc" }
+    dependencies: [ config:sc4-edition-windows-disc ]
+  - variant: { config:sc4-edition:edition: "macOS" }
+    dependencies: [ config:sc4-edition-macos ]
+
+  variantInfo:
+  - variantId: config:sc4-edition:edition
+    description: |-
+      Select the _SimCity 4 Deluxe_ edition for which you are installing plugins.
+
+      This is mainly used to determine if selected plugins are compatible with your edition of the game.
+      For example, DLL mods [cannot be used](https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/) with the macOS edition, but often require the Windows digital edition.
+    values:
+    - value: "Windows-digital"
+      description: |-
+        The Windows digital edition (GOG, Steam, EA App), version `1.1.641`.
+    - value: "Windows-disc"
+      description: |-
+        The original disc edition.
+        Make sure the game is fully patched to version `1.1.640` by applying the [official patches](https://community.simtropolis.com/sc4-maxis-files/).
+        Older versions are not supported.
+    - value: "macOS"
+      description: |-
+        The Aspyr macOS port on Steam or on the Mac App Store.
+
+  info:
+    summary: Select the edition of your game
+    description: &desc This is a meta-package which does not install anything, but is used for defining incompatibilities.
+    website: &forum https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/
+
+# ---
+- group: config
+  name: sc4-edition-windows-digital
+  version: "1.1.641"
+  subfolder: 060-config
+  dependencies:
+  - config:sc4-edition
+  conflicting:
+  - config:sc4-edition-windows-disc
+  - config:sc4-edition-macos
+
+  info:
+    summary: The Windows digital edition
+    description: *desc
+    website: *forum
+
+# ---
+- group: config
+  name: sc4-edition-windows-disc
+  version: "1.1.638"
+  subfolder: 060-config
+  dependencies:
+  - config:sc4-edition
+  conflicting:
+  - config:sc4-edition-windows-digital
+  - config:sc4-edition-macos
+
+  info:
+    summary: The disc edition for Windows
+    description: *desc
+    website: *forum
+
+# ---
+- group: config
+  name: sc4-edition-macos
+  version: "1.1.610"
+  subfolder: 060-config
+  dependencies:
+  - config:sc4-edition
+  conflicting:
+  - config:sc4-edition-windows-digital
+  - config:sc4-edition-windows-disc
+
+  info:
+    summary: The macOS port on Steam or the Mac App Store
+    description: *desc
+    website: *forum

@@ -1,7 +1,9 @@
 group: "memo"
 name: "transparent-texture-fix-dll"
-version: "1.0.0-1"
+version: "1.0.0-2"
 subfolder: "150-mods"
+dependencies:
+- "config:sc4-edition-windows-digital"
 assets:
 - assetId: "memo-transparent-texture-fix-dll"
   withChecksum:
