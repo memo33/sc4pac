@@ -35,7 +35,7 @@ info:
   
 ---
 group: "xiahoudun"
-name: "parking-lot-texture"
+name: "parking-lot-textures"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
