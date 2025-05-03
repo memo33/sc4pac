@@ -14,7 +14,8 @@ assets:
 info:
   summary: "Parking lot props by XiahouDun rendered in HD"
   author: XiahouDun
-  images: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Prop%20pack.jpg
+  images: 
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Prop%20pack.jpg
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/241-sc4d-lex-legacy-xds-parking-lot-dependency-pack"
   
 ---
