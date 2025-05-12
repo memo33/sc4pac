@@ -7,8 +7,8 @@ assets:
 info:
   summary: "Girafe - Flags Props"
   description: |-
-    Contains flag props for 41 countries. 
-  
+    Contains flag props for 41 countries.
+
     The included countries are Argentina, Austria, Belgium, Brazil, Bulgaria, Canada, China, Croatia, Cyprus, Czech Republic, Denmark, Estonia, European Union, Finland, France, Germany, Greece, Hungary, India, IOC, Ireland, Italy, Japan, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Russia, Slovakia, Slovenia, Spain, Sweden, Switzerland, UK, Ukraine, and USA.
   author: "Girafe"
   websites:

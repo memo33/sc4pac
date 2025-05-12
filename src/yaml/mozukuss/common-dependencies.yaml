@@ -16,11 +16,11 @@ info:
   description: |-
     Contains the models for
     * Shiodome Dentsu HQ v1 - it was formerly available on Mozukuss' website for a short time and it was also compiled into the Mozukuss MEGA Props vol01 for an SC4D LEX release. Due to its size the model was cut into two halves. However apparently a few weeks later (and a few days after the release of the Mozukuss Mega Props vol01) a new render was made with one standalone model and since then this second version is the only available version on Mozukuss' website.
-    * Shiodome Dentsu HQ v2 - the same building, but the former two halves rendered and exported together as one. Both the v1 and the v2 models are diagonals. 
+    * Shiodome Dentsu HQ v2 - the same building, but the former two halves rendered and exported together as one. Both the v1 and the v2 models are diagonals.
     * Shiodome Dentsu Light - the orthogonal and slightly modified version of the Dentsu HQ building.
   author: Mozukuss
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/237-sc4d-lex-legacy-mozukuss-dependency-pack-v1"
-  
+
 ---
 group: "mozukuss"
 name: "mega-props-vol02"
@@ -43,7 +43,7 @@ info:
     * Minatomirai Mid Square Tower Residence
   author: Mozukuss
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/237-sc4d-lex-legacy-mozukuss-dependency-pack-v1"
-  
+
 ---
 group: "mozukuss"
 name: "mega-props-vol03"
@@ -60,7 +60,7 @@ info:
     * Shibuya109 SD
   author: Mozukuss
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/237-sc4d-lex-legacy-mozukuss-dependency-pack-v1"
-  
+
 ---
 group: "mozukuss"
 name: "mega-props-vol04"

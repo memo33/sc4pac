@@ -16,7 +16,7 @@ info:
   description: |-
     Contains mall/department store like low and midrise buildings from the former Prop Packs vol01, vol02, vol03 and vol04.
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/142-aptx-ultra-prop-pack"
-  
+
 ---
 group: "aptx"
 name: "mega-props-vol02"
@@ -30,7 +30,7 @@ info:
   description: |-
     Contains highrises and office towers from the former Prop Packs vol01, vol02, vol05, and vol06.
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/142-aptx-ultra-prop-pack"
-  
+
 ---
 group: "aptx"
 name: "mega-props-vol03"
@@ -44,7 +44,7 @@ info:
   description: |-
     Contains mainly civic and few commercial buildings from the former Prop Packs vol01, vol02, vol03, vol05
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/142-aptx-ultra-prop-pack"
-  
+
 ---
 group: "aptx"
 name: "mega-props-vol04"
@@ -58,7 +58,7 @@ info:
   description: |-
     A completely new compilation which contains mostly APTX's EL-rail stations and the props which originally had come with these, including the Sakuragicho Terminus, Toyoko Terminus, Shibuya Station, and more.
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/142-aptx-ultra-prop-pack"
-  
+
 ---
 group: "aptx"
 name: "mega-props-vol05"
@@ -72,7 +72,7 @@ info:
   description: |-
     A completely new compilation which contains mostly APTX's rail, high speed rail/monorail, subway, and bus station models and props, including Yokohama Station, Tokio Central, and more.
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/142-aptx-ultra-prop-pack"
-  
+
 ---
 group: "aptx"
 name: "mega-props-vol06"
@@ -86,7 +86,7 @@ info:
   description: |-
     Primarily contains the Nippon Space Ship Yard models and some other industrial contents which previously were not included in prop packs.
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/142-aptx-ultra-prop-pack"
-  
+
 ---
 group: "aptx"
 name: "textures-vol01"
