@@ -1,0 +1,38 @@
+assetId: "sc4d-lex-legacy-nhp-dependency-pack"
+version: "2.0"
+lastModified: "2025-03-21T15:10:23-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=240:sc4d-lex-legacy-nhp-dependency-compilation"
+
+---
+group: "nhp"
+name: "prop-pack-vol01"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nhp-dependency-pack"
+  include: [ "/NHP Props Pack Vol01 v..dat" ]
+info:
+  summary: "NHP Prop Pack Vol 1 by NHP"
+  description: |-
+    Contains two formerly available separate prop packs:
+    * NHP Prop Pack Vol 1.dat
+    * NHP Prop Pack Vol 2.dat
+  author: NHP Team
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/240-sc4d-lex-legacy-nhp-dependency-compilation"
+
+---
+group: "nhp"
+name: "essentials"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nhp-dependency-pack"
+  include: [ "/NHP_UIs_and_Essentials.dat" ]
+info:
+  summary: "NHP UIs and Essentials by NHP"
+  description: |-
+    Contains two formerly available UI (User Interfaces) Querries for all of the known lot types for NHP products
+    * NHPUIs.dat
+    * NHPCAMEssentials.dat
+  author: NHP Team
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/240-sc4d-lex-legacy-nhp-dependency-compilation"

@@ -1,0 +1,496 @@
+assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+version: "1.0"
+lastModified: " 2023-07-19T08:26:22-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=1:sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol01.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 01 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol02.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 02 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol03"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol03.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 03 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol04"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol04.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 04 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol05"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol05.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 05 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol06"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol06.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 06 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol07"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol07.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 07 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol08"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "HKABT-bixel Vol08.*.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 08 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol09"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol09.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 09 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol10"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol10.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 10 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol11"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol11.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 11 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol12"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol12.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 12 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol13"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol13.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 13 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol14"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol14.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 14 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol15"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol15.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 15 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol16"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol16.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 16 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol17"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol17.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 17 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol18"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol18.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 18 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol19"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol19.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 19 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol20"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol20.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 20 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol21"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol21.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 21 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol22"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol22.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 22 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol23"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol23.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 23 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "bixel-mega-props-vol24"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-bixel Vol24.dat" ]
+info:
+  summary: "HKABT bixel MEGA Props Vol 24 by Bixel"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "paulvmontfort"
+name: "mega-props-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/Paulvmontfort Mega Prop Pack 1.dat" ]
+info:
+  summary: "HKABT Paulvmontfort Mega Prop Pack 1 by Paulvmontfort"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "paulvmontfort"
+name: "mega-props-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/Paulvmontfort Mega Prop Pack 2.dat" ]
+info:
+  summary: "HKABT Paulvmontfort Mega Prop Pack 2 by Paulvmontfort"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "paulvmontfort"
+name: "mega-props-vol03"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/Paulvmontfort Mega Prop Pack 3.dat" ]
+info:
+  summary: "HKABT Paulvmontfort Mega Prop Pack 3 by Paulvmontfort"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "paulvmontfort"
+name: "mega-props-vol04"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/Paulvmontfort Mega Prop Pack 4.dat" ]
+info:
+  summary: "HKABT Paulvmontfort Mega Prop Pack 4 by Paulvmontfort"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "paulvmontfort"
+name: "mega-props-vol05"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/Paulvmontfort Mega Prop Pack 5.dat" ]
+info:
+  summary: "HKABT Paulvmontfort Mega Prop Pack 5 by Paulvmontfort"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "paulvmontfort"
+name: "mega-props-vol06"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/Paulvmontfort Mega Prop Pack 6.dat" ]
+info:
+  summary: "HKABT Paulvmontfort Mega Prop Pack 6 by Paulvmontfort"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "paulvmontfort"
+name: "mega-props-vol07"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/Paulvmontfort Mega Prop Pack 7.dat" ]
+info:
+  summary: "HKABT Paulvmontfort Mega Prop Pack 7 by Paulvmontfort"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "paulvmontfort"
+name: "mega-props-vol08"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/Paulvmontfort Mega Prop Pack 8.dat" ]
+info:
+  summary: "HKABT Paulvmontfort Mega Prop Pack 8 by Paulvmontfort"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "dmscopio-mega-props-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-NHP Dmscopio MEGA Prop Pack Vol 1.dat" ]
+info:
+  summary: "HKABT-NHP Dmscopio MEGA Prop Pack Vol 1 by DMScopio"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "dmscopio-mega-props-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-NHP Dmscopio MEGA Prop Pack Vol 2.dat" ]
+info:
+  summary: "HKABT-NHP Dmscopio MEGA Prop Pack Vol 2 by DMScopio"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "dmscopio-mega-props-vol03"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-NHP Dmscopio MEGA Prop Pack Vol 3.dat" ]
+info:
+  summary: "HKABT-NHP Dmscopio MEGA Prop Pack Vol 3 by DMScopio"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "dmscopio-mega-props-vol04"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-NHP Dmscopio MEGA Prop Pack Vol 4.dat" ]
+info:
+  summary: "HKABT-NHP Dmscopio MEGA Prop Pack Vol 4 by DMScopio"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "dmscopio-mega-props-vol05"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-NHP Dmscopio MEGA Prop Pack Vol 5.dat" ]
+info:
+  summary: "HKABT-NHP Dmscopio MEGA Prop Pack Vol 5 by DMScopio"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "dmscopio-mega-props-vol06"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-NHP Dmscopio MEGA Prop Pack Vol 6.dat" ]
+info:
+  summary: "HKABT-NHP Dmscopio MEGA Prop Pack Vol 6 by DMScopio"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "dmscopio-mega-props-vol07"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-NHP Dmscopio MEGA Prop Pack Vol 7.dat" ]
+info:
+  summary: "HKABT-NHP Dmscopio MEGA Prop Pack Vol 7 by DMScopio"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "dmscopio-mega-props-vol08"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-NHP Dmscopio MEGA Prop Pack Vol 8.dat" ]
+info:
+  summary: "HKABT-NHP Dmscopio MEGA Prop Pack Vol 8 by DMScopio"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"
+
+---
+group: "hkabt"
+name: "dmscopio-mega-props-vol09"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-hkabt-dependencies-pack"
+  include: [ "/HKABT-NHP Dmscopio MEGA Prop Pack Vol 9.dat" ]
+info:
+  summary: "HKABT-NHP Dmscopio MEGA Prop Pack Vol 9 by DMScopio"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack"

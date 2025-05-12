@@ -1,0 +1,49 @@
+assetId: "sc4d-lex-legacy-xiahoudun-dependency-pack"
+version: "1.0"
+lastModified: "2025-03-21T15:10:23-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=241:sc4d-lex-legacy-xds-parking-lot-dependency-pack"
+
+---
+group: "xiahoudun"
+name: "parking-lot-props-hd"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-xiahoudun-dependency-pack"
+  include: [ "/XDs Parking Lot Prop HD.dat" ]
+info:
+  summary: "Parking lot props by XiahouDun rendered in HD"
+  author: XiahouDun
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Prop%20pack.jpg
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/241-sc4d-lex-legacy-xds-parking-lot-dependency-pack"
+
+---
+group: "xiahoudun"
+name: "parking-lot-props-sd"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-xiahoudun-dependency-pack"
+  include: [ "/XDs Parking Lot Prop SD-Starter Kit.dat" ]
+info:
+  summary: "Parking lot props by XiahouDun rendered in SD"
+  author: XiahouDun
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Props%20lot%20readme.jpg
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/241-sc4d-lex-legacy-xds-parking-lot-dependency-pack"
+
+---
+group: "xiahoudun"
+name: "parking-lot-textures"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-xiahoudun-dependency-pack"
+  include: [ "/XDs Parking Lot Textures.dat" ]
+info:
+  summary: "XDs Parking Lot Texture by XiahouDun"
+  author: XiahouDun
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture%20lot%20readme.jpg
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/241-sc4d-lex-legacy-xds-parking-lot-dependency-pack"

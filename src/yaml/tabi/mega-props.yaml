@@ -1,0 +1,26 @@
+group: "tabi"
+name: "mega-props-vol04"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "tabi-mega-prop-pack-vol04-navy-ship-sets"
+info:
+  summary: "Tabi - Mega Prop Pack Navy Ship Set Vol4"
+  description: |-
+    This mega prop pack completely replaces the following single prop packs:
+    * Tabi Navy Force Amphibious Warfare Vessels Props
+    * Tabi Navy Force Auxiliary Ships Props
+    * Tabi Navy Force Submarine Props
+    * Tabi Navy Force Surface Combatants Props
+  author: "Tabi (tabinohito)"
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Tabi%20Mega%20Prop%20Pack%20vol04_LEX250.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Tabi%20Mega%20Prop%20Pack%20vol04_index.jpg
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/243-tabi-mega-prop-pack-vol04-navy-ship-sets"
+
+---
+assetId: "tabi-mega-prop-pack-vol04-navy-ship-sets"
+version: "1.0"
+lastModified: "2024-01-27T17:35:04-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=243:tabi-mega-prop-pack-vol04-navy-ship-sets"

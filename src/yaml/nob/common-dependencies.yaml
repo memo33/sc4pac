@@ -1,0 +1,127 @@
+assetId: "sc4d-lex-legacy-nob-dependencies-pack"
+version: "2.0"
+lastModified: " 2024-01-20T02:39:34-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=11:sc4d-lex-legacy-nob-dependencies-pack"
+
+---
+group: "nob"
+name: "mega-props-vol01"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nob-dependencies-pack"
+  include: [ "/NOB Mega Props Vol01 v..dat" ]
+info:
+  summary: "NOB MEGA Props Vol 01 by NOB"
+  description: Contains mostly models and props from the former Hiroshima sets.
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/NOB%20Mega%20Props%20Vol01%20v2lexD.jpg
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack"
+
+---
+group: "nob"
+name: "mega-props-vol02"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nob-dependencies-pack"
+  include: [ "/NOB Mega Props Vol02 v..dat" ]
+info:
+  summary: "NOB MEGA Props Vol 02 by NOB"
+  description: Contains mostly models and props from the seaport/harbour/waterfront sets.
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack"
+
+---
+group: "nob"
+name: "mega-props-vol03"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nob-dependencies-pack"
+  include: [ "/NOB Mega Props Vol03 v..dat" ]
+info:
+  summary: "NOB MEGA Props Vol 03 by NOB"
+  description: Contains generic commercial, civic and utility models and props from various sets.
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/NOB%20Mega%20Props%20Vol03%20v2lex.jpg
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack"
+
+---
+group: "nob"
+name: "mega-props-vol04"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nob-dependencies-pack"
+  include: [ "/NOB Mega Props Vol04 v..dat" ]
+info:
+  summary: "NOB MEGA Props Vol 04 by NOB"
+  description: Contains mostly models and props from the futuristic utility sets.
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack"
+
+---
+group: "nob"
+name: "mega-props-vol05"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nob-dependencies-pack"
+  include: [ "/NOB Mega Props Vol05 v..dat" ]
+info:
+  summary: "NOB MEGA Props Vol 05 by NOB"
+  description: Contains mostly models and props from the (fake) EDO style series.
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack"
+
+---
+group: "nob"
+name: "mega-props-vol06"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nob-dependencies-pack"
+  include: [ "/NOB Mega Props Vol06.dat" ]
+info:
+  summary: "NOB MEGA Props Vol 06 by NOB"
+  description: Contains the models and props that support the Hiroshima Piece Park set.
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack"
+
+---
+group: "nob"
+name: "mega-props-vol07"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nob-dependencies-pack"
+  include: [ "/NOB Mega Props Vol07.dat" ]
+info:
+  summary: "NOB MEGA Props Vol 07 by NOB"
+  description: Contains mostly props and models that support NOB's verious transportation station contents.
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack"
+
+---
+group: "nob"
+name: "mega-props-vol08"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nob-dependencies-pack"
+  include: [ "/NOB Mega Props Vol08.dat" ]
+info:
+  summary: "NOB MEGA Props Vol 08 by NOB"
+  description: Contains mostly models and props that support the NOB Walls sets.
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack"
+
+---
+group: "nob"
+name: "texture-pack-vol01"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-nob-dependencies-pack"
+  include: [ "/NOB Texture Pack Vol01_v..dat" ]
+info:
+  summary: "NOB Texture Pack Vol 01 by NOB"
+  description: Formerly known as `FTextures.dat`.
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/NOB%20Texture%20Pack%20Vol01lex.jpg
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack"

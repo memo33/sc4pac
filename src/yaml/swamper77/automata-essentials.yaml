@@ -1,0 +1,18 @@
+group: "swamper77"
+name: "automata-essentials"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "swamper77s-automata-essentials"
+info:
+  summary: "Swamper77's Automata Essentials"
+  description: Automata Essentials by Swamper77
+  author: "Swamper77"
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/179-swamper77s-automata-essentials"
+
+---
+assetId: "swamper77s-automata-essentials"
+version: "1.0"
+lastModified: "2023-11-21T15:21:07-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=179:swamper77s-automata-essentials"

@@ -1,0 +1,29 @@
+group: "citynut"
+name: "nuts-props-pack-a"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "nuts-props-pack-a-v2"
+info:
+  summary: Props Pack A by NUTs Team
+  description: |-
+    A collection of sports base props and textures developed for the NUTs team, containing:
+    * NUTs Cricket Nets
+    * NUTs Cricket Wickets
+    * NUTs Fan Zone Screens
+    * NUTs Leaf Litter
+    * NUTs Tennis Courts/NUTs Tennis Sets
+    * NUTs Tennis Players
+    * NUTs 6m Fences
+    * NUTs 9m Fences
+  author: "NUTs Team, citynut"
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/NUTs%20Prop%20Pack%20A.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/NUTs%20Props%20Pack%20A_index.jpg
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/236-nuts-props-pack-a-v2"
+
+---
+assetId: "nuts-props-pack-a-v2"
+version: "2.0"
+lastModified: "2025-03-21T14:25:42-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=236:nuts-props-pack-a-v2"

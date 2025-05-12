@@ -1,0 +1,21 @@
+group: "porkissimo"
+name: "mega-props-vol01"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "porkissimo-mega-props-vol01"
+info:
+  summary: "Porkissimo MEGA Props vol01"
+  description: |-
+    Porkissimo MEGA Props vol 01 by Porkissimo.
+
+    This is Porkissimo MEGA Props vol01, not to be confused with `pkg=porkissimo:jenx-porkie-expanded-porkie-props`, which is a revised and updated version of Porkie Props Vol 1 and 2.
+  author: "Porkissimo"
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/9-porkissimo-mega-props-vol01"
+
+---
+assetId: "porkissimo-mega-props-vol01"
+version: "2.0"
+lastModified: "2024-01-23T16:45:30-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=9:porkissimo-mega-props-vol01"

@@ -1,0 +1,95 @@
+assetId: "sc4d-lex-legacy-mozukuss-dependency-pack"
+version: "2.0"
+lastModified: "2025-03-21T14:52:22-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=237:sc4d-lex-legacy-mozukuss-dependency-pack-v1"
+
+---
+group: "mozukuss"
+name: "mega-props-vol01"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-mozukuss-dependency-pack"
+  include: [ "/Mozukuss Mega Pack Vol01 v..dat" ]
+info:
+  summary: "Mozukuss MEGA Props Vol 01 by Mozukuss"
+  description: |-
+    Contains the models for
+    * Shiodome Dentsu HQ v1 - it was formerly available on Mozukuss' website for a short time and it was also compiled into the Mozukuss MEGA Props vol01 for an SC4D LEX release. Due to its size the model was cut into two halves. However apparently a few weeks later (and a few days after the release of the Mozukuss Mega Props vol01) a new render was made with one standalone model and since then this second version is the only available version on Mozukuss' website.
+    * Shiodome Dentsu HQ v2 - the same building, but the former two halves rendered and exported together as one. Both the v1 and the v2 models are diagonals.
+    * Shiodome Dentsu Light - the orthogonal and slightly modified version of the Dentsu HQ building.
+  author: Mozukuss
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/237-sc4d-lex-legacy-mozukuss-dependency-pack-v1"
+
+---
+group: "mozukuss"
+name: "mega-props-vol02"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-mozukuss-dependency-pack"
+  include: [ "/Mozukuss Mega Pack Vol02 v..dat" ]
+info:
+  summary: "Mozukuss MEGA Props Vol 02 by Mozukuss"
+  description: |-
+    Contains the models for
+    * Sunshine 60
+    * Sukima Sangyou Bldg
+    * Farley's Foundry HQ
+    * The One (Animated Elevator) - it features elevator movement animation
+    * Sofmap Akihabara Main Building - it features billboard animation
+    Canon Makuhari
+    * NTT docomo Kawasaki Building
+    * Minatomirai Mid Square Tower Residence
+  author: Mozukuss
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/237-sc4d-lex-legacy-mozukuss-dependency-pack-v1"
+
+---
+group: "mozukuss"
+name: "mega-props-vol03"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-mozukuss-dependency-pack"
+  include: [ "/Mozukuss Mega Pack Vol03 v..dat" ]
+info:
+  summary: "Mozukuss MEGA Props Vol 03 by Mozukuss"
+  description: |-
+    Contains the models for
+    * Shibuya109 HD
+    * Shibuya109 SD
+  author: Mozukuss
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/237-sc4d-lex-legacy-mozukuss-dependency-pack-v1"
+
+---
+group: "mozukuss"
+name: "mega-props-vol04"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-mozukuss-dependency-pack"
+  include: [ "/Mozukuss Mega Pack Vol04.dat" ]
+info:
+  summary: "Mozukuss MEGA Props Vol 04 by Mozukuss"
+  description: |-
+    Contains the models for
+    * Roppongi Hills Mori Tower
+    * Shiodome City Center
+  author: Mozukuss
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/237-sc4d-lex-legacy-mozukuss-dependency-pack-v1"
+
+---
+group: "mozukuss"
+name: "mega-props-vol05"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-mozukuss-dependency-pack"
+  include: [ "/Mozukuss Mega Pack Vol05.dat" ]
+info:
+  summary: "Mozukuss MEGA Props Vol 05 by Mozukuss"
+  description: |-
+    Contains the models for
+    * Zakkyo Buildings Set
+  author: Mozukuss
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/237-sc4d-lex-legacy-mozukuss-dependency-pack-v1"

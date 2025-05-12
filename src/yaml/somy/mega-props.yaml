@@ -1,0 +1,134 @@
+assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+version: "2.0"
+lastModified: "2025-03-19T15:28:54-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=174:sc4d-lex-legacy-somy-dependencies-pack"
+
+---
+group: "somy"
+name: "mega-props-vol01"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+  include: [ "/Somy Mega Props vol01.dat" ]
+info:
+  summary: "MEGA Props Vol 01 by SOMY"
+  author: SOMY
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack"
+
+---
+group: "somy"
+name: "mega-props-vol02"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+  include: [ "/Somy Mega Props vol02.dat" ]
+info:
+  summary: "MEGA Props Vol 02 by SOMY"
+  author: SOMY
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack"
+
+---
+group: "somy"
+name: "mega-props-vol03"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+  include: [ "/Somy Mega Props vol03.dat" ]
+info:
+  summary: "MEGA Props Vol 03 by SOMY"
+  author: SOMY
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack"
+
+---
+group: "somy"
+name: "mega-props-vol04"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+  include: [ "/Somy Mega Props vol04.dat" ]
+info:
+  summary: "MEGA Props Vol 04 by SOMY"
+  author: SOMY
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack"
+
+---
+group: "somy"
+name: "mega-props-vol05"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+  include: [ "/Somy Mega Props vol05.dat" ]
+info:
+  summary: "MEGA Props Vol 05 by SOMY"
+  author: SOMY
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack"
+
+---
+group: "somy"
+name: "mega-props-vol06"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+  include: [ "/Somy Mega Props vol06.dat" ]
+info:
+  summary: "MEGA Props Vol 06 by SOMY"
+  author: SOMY
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack"
+
+---
+group: "somy"
+name: "mega-props-vol07"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+  include: [ "/Somy Mega Props vol07.dat" ]
+info:
+  summary: "MEGA Props Vol 07 by SOMY"
+  author: SOMY
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack"
+
+---
+group: "somy"
+name: "mega-props-vol08"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+  include: [ "/Somy Mega Props vol08.dat" ]
+info:
+  summary: "MEGA Props Vol 08 by SOMY"
+  author: SOMY
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack"
+
+---
+group: "somy"
+name: "mega-props-vol09"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+  include: [ "/Somy Mega Props vol09.dat" ]
+info:
+  summary: "MEGA Props Vol 09 by SOMY"
+  author: SOMY
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack"
+
+---
+group: "somy"
+name: "mega-props-vol10"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-somy-dependencies-pack"
+  include: [ "/Somy Mega Props vol10.dat" ]
+info:
+  summary: "MEGA Props Vol 10 by SOMY"
+  author: SOMY
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack"

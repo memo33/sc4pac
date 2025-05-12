@@ -1,0 +1,17 @@
+group: "lbt"
+name: "latin-american-housepack-props"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "lbt-prop-pack-latin-american-housepack"
+info:
+  summary: A house prop set for Latin American styled residential lots by the LBT Team
+  author: "LBT"
+  websites:
+    - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/178-lbt-prop-pack-latin-american-housepack"
+
+---
+assetId: "lbt-prop-pack-latin-american-housepack"
+version: "2.0"
+lastModified: "2023-11-21T15:18:56-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=178:lbt-prop-pack-latin-american-housepack"

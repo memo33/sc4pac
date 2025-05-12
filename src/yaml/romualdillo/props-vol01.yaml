@@ -1,0 +1,29 @@
+group: "romualdillo"
+name: "props-vol01"
+version: "1.2"
+subfolder: "100-props-textures"
+info:
+  summary: "Romualdillo - Prop Pack Vol1"
+  description: |-
+    This prop pack includes residential props, inspired in the Spanish architecture from 1800's to 1920's, including:
+    * House props
+    * Wall props
+    * Backyard props (mostly semi-seasonal)
+    * Street Props
+
+    MandelSoft's light cones are included with the streetlights included in this pack, with permission.
+  author: "Romualdillo"
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Romualdillo%20-%20Props%20VOL01%20Main.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Romualdillo%20-%20Props%20VOL01%20sample.jpg
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/269-romualdillo-props-vol01-v1-2"
+assets:
+- assetId: "romualdillo-props-vol01"
+dependencies:
+- girafe:cypresses
+
+---
+assetId: "romualdillo-props-vol01"
+version: "1.2"
+lastModified: "2025-03-19T13:55:40-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=269:romualdillo-props-vol01-v1-2"
