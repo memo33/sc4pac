@@ -371,8 +371,8 @@ assets:
   - "/tmip Texture Mega Pack.dat"
 
 ---
-group: "xannepan"
-name: "jenxairport-mega-pack"
+group: "jenx"
+name: "airport-mega-pack"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
