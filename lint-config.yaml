@@ -1,4 +1,9 @@
-subfolders: []
+subfolders:
+- 770-network-addon-mod/1-core
+- 770-network-addon-mod/2-networks
+- 770-network-addon-mod/3-overrides
+- 770-network-addon-mod/6-misc
+- 770-network-addon-mod/8-tex
 
 extra-channels: []
 
