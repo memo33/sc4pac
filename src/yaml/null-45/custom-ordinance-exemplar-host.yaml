@@ -1,0 +1,27 @@
+group: "null-45"
+name: "custom-ordinance-exemplar-host"
+version: "1.0"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-custom-ordinance-exemplar-host"
+  withChecksum:
+  - include: "/SC4CustomOrdinanceHost.dll"
+    sha256: 6093419C813165E3C9AD30665EFCC0BC7E70F885E564C7B531D433420F0477EE 
+
+info:
+  summary: "A DLL Plugin for SimCity 4 that allows new ordinances to be defined in ordinance exemplars."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    This DLL plugin is a dependency for other Mods.
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/36860-custom-ordinance-exemplar-host-dll/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_05/STEXIcon.png.cf8c73fa5a9f79e2511dcf47735bd0e5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2025_05/NewExemplarOrdinances2.jpg.a297d01dfd04743ce94aa2ff1244bc01.jpg
+
+---
+assetId: "null-45-custom-ordinance-exemplar-host"
+version: "3.3.1"
+lastModified: "2025-05-03T22:36:35Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36860-custom-ordinance-exemplar-host-dll/?do=download"
+url: "https://github.com/0xC0000054/sc4-custom-ordinance-host/releases/download/v1.0/SC4CustomOrdinanceHost.zip"
