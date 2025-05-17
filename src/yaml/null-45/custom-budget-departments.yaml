@@ -1,6 +1,6 @@
 group: "null-45"
 name: "custom-budget-departments"
-version: "1.0.1"
+version: "1.0"
 subfolder: "150-mods"
 assets:
 - assetId: "null-45-custom-budget-departments"
@@ -20,7 +20,7 @@ info:
 
 ---
 assetId: "null-45-custom-budget-departments"
-version: "1.0.1"
+version: "1.0"
 lastModified: "2024-10-04T22:22:34Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36437-remove-phantom-budget-items-dll-plugin/?do=download"
 url: "https://github.com/0xC0000054/sc4-custom-budget-departments/releases/download/v1.0.1/SC4CustomBudgetDepartments.zip"
