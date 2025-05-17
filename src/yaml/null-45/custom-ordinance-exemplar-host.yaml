@@ -6,7 +6,7 @@ assets:
 - assetId: "null-45-custom-ordinance-exemplar-host"
   withChecksum:
   - include: "/SC4CustomOrdinanceHost.dll"
-    sha256: 6093419C813165E3C9AD30665EFCC0BC7E70F885E564C7B531D433420F0477EE 
+    sha256: d35294580360dd30b788a19f707dff4a539d90ec9b6a7b3f33e6ba2f0c006b06 
 
 info:
   summary: "A DLL Plugin for SimCity 4 that allows new ordinances to be defined in ordinance exemplars."

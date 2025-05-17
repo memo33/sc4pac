@@ -6,7 +6,7 @@ assets:
 - assetId: "null-45-custom-budget-departments"
   withChecksum:
   - include: "/CustomBudgetDepartments.dll"
-    sha256: E6D7250E35743DD12988C8740DA4FD5BAEE915D532A731A641C2058F29AFEB6D 
+    sha256: b58b7600a3f0bf91b589bad909446a84ba2da2f0423cf7865849d56a6deac6c3 
 
 info:
   summary: "A DLL plugin for SimCity 4 that allows new budget departments to be added to the game using a building's exemplar. "
