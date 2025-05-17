@@ -5,7 +5,7 @@ subfolder: "150-mods"
 assets:
 - assetId: "null-45-remove-phantom-budget-items"
   withChecksum:
-  - include: "/SC4CustomOrdinanceHost.dll"
+  - include: "/SC4RemovePhantomBudgetItems.dll"
     sha256: 1DAD31BB3D2CDA50463A6326AEEBADC5D00CB70A89303A9CD809E059269218CA 
 
 info:
