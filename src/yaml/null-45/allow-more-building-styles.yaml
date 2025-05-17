@@ -1,0 +1,30 @@
+group: "null-45"
+name: "allow-more-building-styles"
+version: "3.3.1"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-allow-more-building-styles"
+  withChecksum:
+  - include: "/SC4MoreBuildingStyles.dll"
+    sha256: b7c5f5afd70b3f29a722ab6f9077ba049310970e29adb935eb1b3cc08a4a1aec
+  - include: "/SC4MoreBuildingStyles.ini"
+    sha256: 3dd4f135b7c5a9cfa40167500ed473cb4f844f960b624b2404f71c26c0ff0b2b
+  - include: "/BuildingStyles.ini"
+    sha256: 10f22a925f67c3341dc4e36049c8389b0a232212b8c444b115b1ef0b663fa511
+
+info:
+  summary: "A DLL Plugin for SimCity 4 that allows the game to use more than 4 building styles. "
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    This DLL plugin is a dependency for other Mods.
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.349200b77528f735e0b85e347f5a6cb5.png
+
+---
+assetId: "null-45-allow-more-building-styles"
+version: "3.3.1"
+lastModified: "2024-06-26T13:34:16Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/?do=download"
+url: "https://github.com/0xC0000054/sc4-more-building-styles/releases/download/v3.3.1/SC4MoreBuildingStyles.zip"
