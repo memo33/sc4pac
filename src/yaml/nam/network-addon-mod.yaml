@@ -25,892 +25,893 @@ checksum:
   sha256: "7db5509389b20122ee4e0b81b0c12ff0b941a8711a2c7dcdb5e631317b70009d"
 
 ---
-group: nam
-name: network-addon-mod
-version: "49"
-subfolder: 770-network-addon-mod/1-core
-dependencies:
-  - nam:network-addon-mod-core
-  - nam:street-addon-mod             # optional
-  - nam:network-widening-mod         # optional
-  - nam:real-highway-mod             # optional
-  - nam:real-expressway              # optional
-  - nam:ground-light-rail            # optional
-  - nam:hybrid-railway               # optional
-  - nam:high-speed-rail              # optional
-  - nam:canal-addon-mod              # optional
-  - nam:bridges                      # optional
-  - nam:one-way-arrows               # optional
-  - nam:maxis-transit-lots           # optional
-  - nam:data-views                   # optional
-
-info:
-  summary: "Install the full feature set of the NAM: a myriad of new transport network items and transit-related fixes"
-  description: |
-    This meta-package bundles all the core and most optional components of the NAM.
-
-    To exclude some optional components, check the list of Dependencies and install them individually (instead of installing this entire package).
-
-    The minimal NAM installation includes just `pkg=nam:network-addon-mod-core`.
-    All the other dependencies are optional.
-
-    Additionally, you can install the following optional components (not included):
-    * `pkg=nam:additional-transit-stations`
-    * `pkg=nam-team:tunnel-and-slope-mod`
-  websites:
-    - https://www.sc4nam.com/
-    - https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/2-network-addon-mod
-    - https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-cross-platform/
-    - https://github.com/NAMTeam/Network-Addon-Mod/releases
-  images:
-    - https://www.sc4nam.com/20yearsSC4.jpg
-
----
-group: nam
-name: network-addon-mod-core
-version: "49"
-subfolder: 770-network-addon-mod/1-core
-info:
-  summary: Base content of the NAM excluding optional components
-  description: |
-    This package bundles all the mandatory components of the NAM.
-
-    In particular, this includes:
-    * the Traffic Simulator (`pkg=nam:traffic-simulator`)
-    * the Automata Controller (`pkg=nam:automata-controller`)
-    * base network additions such as new intersections and highway interchanges (`pkg=nam:maxis-highway`)
-    * Diagonal Streets
-    * Roundabouts
-    * Fractionally-Angled Roads and Multi-Radius Curves
-    * Road Viaducts
-    * Elevated Light Rail and Monorail plugins
-    * Real Railway (`pkg=nam:real-railway`) and Underground Rail
-    * Flexible Underpasses
-    * Pedestrian Malls and Mid-block Crosswalks
-    * Rural Roads
-    * Euro Road texture options (`pkg=nam:textures`)
-
-    To include all optional components as well, install `pkg=nam:network-addon-mod` instead.
-  website: https://www.sc4nam.com/
-
-dependencies:
-  - nam:network-addon-mod-controller
-  - nam:traffic-simulator
-  - nam:automata-controller
-  - nam:maxis-highway
-  - nam:real-railway
-  - nam:textures
-
-assets:
-  - assetId: nam-gh
-    include:
-      - "/installation/"
-    exclude:
-        # List files below that are contained in other NAM packages.
-        # core:
-      - "NAM Controller_(?:RHD|LHD)"                      # nam:network-addon-mod-controller
-      - "Automata Controller#?/"                          # nam:automata-controller
-      - "Traffic Simulator#?/"                            # nam:traffic-simulator
-      - "Network Features/Maxis Highway#?/"               # nam:maxis-highway
-      - "Network Features/.*z_Rail \\(RealRailway\\)"     # nam:real-railway
-      - "Texture and Drive Side Support/"                 # nam:textures
-        # optional:
-      - "Network Features/.*Street Addon Mod"             # nam:street-addon-mod
-      - "Network Features/.*Network Widening Mod"         # nam:network-widening-mod
-      - "Network Features/RealHighway"                    # nam:real-highway-mod
-      - "Network Features/.*/RealExpressway/"             # nam:real-expressway
-      - "Network Features/.*/Ground Light Rail"           # nam:ground-light-rail
-      - "Network Features/Hybrid Railway"                 # nam:hybrid-railway
-      - "Network Features/.*High Speed Rail Project"      # nam:high-speed-rail
-      - "Network Features/Water Transport"                # nam:canal-addon-mod
-      - "/@57 Bridges/"                                   # nam:bridges
-      - "Network Features/.*One-Way Road Arrow Plugins"   # nam:one-way-arrows
-      - "Maxis Transit Lots#?/"                           # nam:maxis-transit-lots
-      - "DataView Options#?/"                             # nam:data-views
-      - "Additional Transit Stations/"                    # nam:additional-transit-stations
-        # external:
-      - "RRW Tunnel and Slope Parameters"                 # nam-team:tunnel-and-slope-mod
-        # Exclude non-default options.
-      - "/!"                                              # deselected checkbox like legacy content
-      - "/(@\\d+)?-"                                      # deselected radio button (possibly ordered)
-      - "(?:4gb_patch\\.exe|\\.txt)$"                     # exe and txt files
-
----
-group: nam
-name: network-addon-mod-controller
-version: "49"
-subfolder: 770-network-addon-mod/1-core
-info:
-  summary: The NAM controller contains the NAM's internal network logic
-  warning: |-
-    If you chose the RHW-variant of the NAM controller,
-    you *must* apply the 4 GB patch to avoid crashes when loading a city tile.
-
-    More information at https://www.sc4nam.com/docs/getting-started/installation/#4gb-patch
-
-    You can ignore this warning if you chose not to install the RHW.
-  website: https://www.sc4nam.com/docs/getting-started/installation/#4gb-patch
-variantInfo:
-  - variantId: driveside
-    description: |-
-      Select whether cars in your game drive on the right or on the left.
-
-      Note that this setting does not allow changing the drive side of your game.
-      Instead, it must match the drive side your game was installed with (for example, `left` for UK or Japanese games, `right` for US).
-
-dependencies:
-  - nam:network-addon-mod-core  # this package is a mandatory part of NAM
-variants:
-- variant: { driveside: "right", nam:real-highway-mod:enabled: "no" }
-  assets:
-  - assetId: nam-gh
-    include: ["NAM Controller_RHD_LowRAM_NoRHW/"]
-    exclude: &ex ["(?:4gb_patch\\.exe|\\.txt)$"]
-- variant: { driveside: "left",  nam:real-highway-mod:enabled: "no" }
-  assets:
-  - assetId: nam-gh
-    include: ["NAM Controller_LHD_LowRAM_NoRHW/"]
-    exclude: *ex
-- variant: { driveside: "right", nam:real-highway-mod:enabled: "yes" }
+packages:
+- group: nam
+  name: network-addon-mod
+  version: &version "49"
+  subfolder: 770-network-addon-mod/1-core
   dependencies:
-    - nam:real-highway-mod
-  assets:
-  - assetId: nam-gh
-    include: ["NAM Controller_RHD_4GB_Full/"]
-    exclude: *ex
-- variant: { driveside: "left",  nam:real-highway-mod:enabled: "yes" }
+    - nam:network-addon-mod-core
+    - nam:street-addon-mod             # optional
+    - nam:network-widening-mod         # optional
+    - nam:real-highway-mod             # optional
+    - nam:real-expressway              # optional
+    - nam:ground-light-rail            # optional
+    - nam:hybrid-railway               # optional
+    - nam:high-speed-rail              # optional
+    - nam:canal-addon-mod              # optional
+    - nam:bridges                      # optional
+    - nam:one-way-arrows               # optional
+    - nam:maxis-transit-lots           # optional
+    - nam:data-views                   # optional
+
+  info:
+    summary: "Install the full feature set of the NAM: a myriad of new transport network items and transit-related fixes"
+    description: |
+      This meta-package bundles all the core and most optional components of the NAM.
+
+      To exclude some optional components, check the list of Dependencies and install them individually (instead of installing this entire package).
+
+      The minimal NAM installation includes just `pkg=nam:network-addon-mod-core`.
+      All the other dependencies are optional.
+
+      Additionally, you can install the following optional components (not included):
+      * `pkg=nam:additional-transit-stations`
+      * `pkg=nam-team:tunnel-and-slope-mod`
+    websites:
+      - https://www.sc4nam.com/
+      - https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/2-network-addon-mod
+      - https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-cross-platform/
+      - https://github.com/NAMTeam/Network-Addon-Mod/releases
+    images:
+      - https://www.sc4nam.com/20yearsSC4.jpg
+
+# ---
+- group: nam
+  name: network-addon-mod-core
+  version: *version
+  subfolder: 770-network-addon-mod/1-core
+  info:
+    summary: Base content of the NAM excluding optional components
+    description: |
+      This package bundles all the mandatory components of the NAM.
+
+      In particular, this includes:
+      * the Traffic Simulator (`pkg=nam:traffic-simulator`)
+      * the Automata Controller (`pkg=nam:automata-controller`)
+      * base network additions such as new intersections and highway interchanges (`pkg=nam:maxis-highway`)
+      * Diagonal Streets
+      * Roundabouts
+      * Fractionally-Angled Roads and Multi-Radius Curves
+      * Road Viaducts
+      * Elevated Light Rail and Monorail plugins
+      * Real Railway (`pkg=nam:real-railway`) and Underground Rail
+      * Flexible Underpasses
+      * Pedestrian Malls and Mid-block Crosswalks
+      * Rural Roads
+      * Euro Road texture options (`pkg=nam:textures`)
+
+      To include all optional components as well, install `pkg=nam:network-addon-mod` instead.
+    website: https://www.sc4nam.com/
+
   dependencies:
-    - nam:real-highway-mod
+    - nam:network-addon-mod-controller
+    - nam:traffic-simulator
+    - nam:automata-controller
+    - nam:maxis-highway
+    - nam:real-railway
+    - nam:textures
+
   assets:
-  - assetId: nam-gh
-    include: ["NAM Controller_LHD_4GB_Full/"]
-    exclude: *ex
+    - assetId: nam-gh
+      include:
+        - "/installation/"
+      exclude:
+          # List files below that are contained in other NAM packages.
+          # core:
+        - "NAM Controller_(?:RHD|LHD)"                      # nam:network-addon-mod-controller
+        - "Automata Controller#?/"                          # nam:automata-controller
+        - "Traffic Simulator#?/"                            # nam:traffic-simulator
+        - "Network Features/Maxis Highway#?/"               # nam:maxis-highway
+        - &rrwPath "Network Features/.*z_Rail \\(RealRailway\\)"     # nam:real-railway
+        - &texPath "Texture and Drive Side Support/"                 # nam:textures
+          # optional:
+        - &samPath "Network Features/.*Street Addon Mod"             # nam:street-addon-mod
+        - &nwmPath "Network Features/.*Network Widening Mod"         # nam:network-widening-mod
+        - &rhwPath "Network Features/RealHighway"                    # nam:real-highway-mod
+        - &rewPath "Network Features/.*/RealExpressway/"             # nam:real-expressway
+        - &glrPath "Network Features/.*/Ground Light Rail"           # nam:ground-light-rail
+        - &hrwPath "Network Features/Hybrid Railway"                 # nam:hybrid-railway
+        - &hsrPath "Network Features/.*High Speed Rail Project"      # nam:high-speed-rail
+        - &canPath "Network Features/Water Transport"                # nam:canal-addon-mod
+        - &bridgePath "/@57 Bridges/"                                   # nam:bridges
+        - &arrowPath "Network Features/.*One-Way Road Arrow Plugins"   # nam:one-way-arrows
+        - "Maxis Transit Lots#?/"                           # nam:maxis-transit-lots
+        - &dataPath "DataView Options#?/"                             # nam:data-views
+        - &stationsPath "Additional Transit Stations/"                    # nam:additional-transit-stations
+          # external:
+        - "RRW Tunnel and Slope Parameters"                 # nam-team:tunnel-and-slope-mod
+          # Exclude non-default options.
+        - "/!"                                              # deselected checkbox like legacy content
+        - "/(@\\d+)?-"                                      # deselected radio button (possibly ordered)
+        - &exe "(?:4gb_patch\\.exe|\\.txt|\\.png|\\.pdn)$"  # exe, txt and other files
 
----
-group: nam
-name: textures
-version: "49"
-subfolder: 770-network-addon-mod/8-tex
-info:
-  summary: NAM textures and drive side support
-  description: |-
-    Installs proper support for US/North American or Euro/International textures, either for traffic driving on the right or on the left side of roads.
-variantInfo:
-  - variantId: nightmode
-    description: Choose whether to use Maxis Nite or Dark Nite models for night scenes.
-    values:
-      - value: "standard"
-        default: true
-        description: Maxis Nite, the default night light mode.
-      - value: "dark"
-        description: Dark Nite, for use with `pkg=simfox:day-and-nite-mod`.
-  - variantId: roadstyle
-    values:
-      - value: "US"
-        default: true
-        description: US/North American road textures (yellow stripes)
-      - value: "EU"
-        description: Euro/International road textures (white stripes)
-  - variantId: driveside
+# ---
+- group: nam
+  name: network-addon-mod-controller
+  version: *version
+  subfolder: 770-network-addon-mod/1-core
+  info:
+    summary: The NAM controller contains the NAM's internal network logic
+    warning: |-
+      If you chose the RHW-variant of the NAM controller,
+      you *must* apply the 4 GB patch to avoid crashes when loading a city tile.
+
+      More information at https://www.sc4nam.com/docs/getting-started/installation/#4gb-patch
+
+      You can ignore this warning if you chose not to install the RHW.
+    website: https://www.sc4nam.com/docs/getting-started/installation/#4gb-patch
+  variantInfo:
+    - variantId: driveside
+      description: |-
+        Select whether cars in your game drive on the right or on the left.
+
+        Note that this setting does not allow changing the drive side of your game.
+        Instead, it must match the drive side your game was installed with (for example, `left` for UK or Japanese games, `right` for US).
+
+  dependencies:
+    - nam:network-addon-mod-core  # this package is a mandatory part of NAM
+  variants:
+  - variant: { driveside: "right", nam:real-highway-mod:enabled: "no" }
+    assets:
+    - assetId: nam-gh
+      include: ["NAM Controller_RHD_LowRAM_NoRHW/"]
+      exclude: [*exe]
+  - variant: { driveside: "left",  nam:real-highway-mod:enabled: "no" }
+    assets:
+    - assetId: nam-gh
+      include: ["NAM Controller_LHD_LowRAM_NoRHW/"]
+      exclude: [*exe]
+  - variant: { driveside: "right", nam:real-highway-mod:enabled: "yes" }
+    dependencies:
+      - nam:real-highway-mod
+    assets:
+    - assetId: nam-gh
+      include: ["NAM Controller_RHD_4GB_Full/"]
+      exclude: [*exe]
+  - variant: { driveside: "left",  nam:real-highway-mod:enabled: "yes" }
+    dependencies:
+      - nam:real-highway-mod
+    assets:
+    - assetId: nam-gh
+      include: ["NAM Controller_LHD_4GB_Full/"]
+      exclude: [*exe]
+
+# ---
+- group: nam
+  name: textures
+  version: "49"
+  subfolder: 770-network-addon-mod/8-tex
+  info:
+    summary: NAM textures and drive side support
     description: |-
-      Select whether cars in your game drive on the right or on the left.
+      Installs proper support for US/North American or Euro/International textures, either for traffic driving on the right or on the left side of roads.
+  variantInfo:
+    - variantId: nightmode
+      description: Choose whether to use Maxis Nite or Dark Nite models for night scenes.
+      values:
+        - value: "standard"
+          default: true
+          description: Maxis Nite, the default night light mode.
+        - value: "dark"
+          description: Dark Nite, for use with `pkg=simfox:day-and-nite-mod`.
+    - variantId: roadstyle
+      values:
+        - value: "US"
+          default: true
+          description: US/North American road textures (yellow stripes)
+        - value: "EU"
+          description: Euro/International road textures (white stripes)
+    - variantId: driveside
+      description: |-
+        Select whether cars in your game drive on the right or on the left.
 
-      Note that this setting does not allow changing the drive side of your game.
-      Instead, it must match the drive side your game was installed with (for example, `left` for UK or Japanese games, `right` for US).
+        Note that this setting does not allow changing the drive side of your game.
+        Instead, it must match the drive side your game was installed with (for example, `left` for UK or Japanese games, `right` for US).
 
-dependencies:
-  - nam:network-addon-mod-controller  # this package is a mandatory part of NAM
-variants:
-    # MN
-  - variant: { driveside: "right", roadstyle: "US", nightmode: "standard" }
-    assets:
-      - &a
-        assetId: nam-gh
-        include:
-          - "Texture and Drive Side Support/"
-        exclude:
-          - "/@1-EU/"
-          - "/@2-US_LeftSide/"
-          - "Dark Nite"
-          # - "Maxis Highway Override"
-          - &deselectedNumberedCheck "/@\\d!"  # deselected numbered checkbox
-          - &ex "(?:4gb_patch\\.exe|\\.txt)$"
-  - variant: { driveside: "left",  roadstyle: "US", nightmode: "standard" }
-    assets:
-      - <<: *a
-        exclude:
-          - "/@1-EU/"
-          - "/@1=US_RightSide/"
-          - "Dark Nite"
-          # - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
-  - variant: { driveside: "right", roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "default" }
-    assets:
-      - <<: *a
-        exclude:
-          - "/@0=US/"
-          - "/@2-EU_LeftSide/"
-          - "Dark Nite"
-          - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
-  - variant: { driveside: "left",  roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "default" }
-    assets:
-      - <<: *a
-        exclude:
-          - "/@0=US/"
-          - "/@1=EU_RightSide/"
-          - "Dark Nite"
-          - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
-  - variant: { driveside: "right", roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "mho" }
-    dependencies:
-      - nam:maxis-highway
-    assets:
-      - <<: *a
-        exclude:
-          - "/@0=US/"
-          - "/@2-EU_LeftSide/"
-          - "Dark Nite"
-          # - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
-  - variant: { driveside: "left",  roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "mho" }
-    dependencies:
-      - nam:maxis-highway
-    assets:
-      - <<: *a
-        exclude:
-          - "/@0=US/"
-          - "/@1=EU_RightSide/"
-          - "Dark Nite"
-          # - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
+  dependencies:
+    - nam:network-addon-mod-controller  # this package is a mandatory part of NAM
+  variants:
+      # MN
+    - variant: { driveside: "right", roadstyle: "US", nightmode: "standard" }
+      assets:
+        - &texAsset
+          assetId: nam-gh
+          include:
+            - *texPath
+          exclude:
+            - "/@1-EU/"
+            - "/@2-US_LeftSide/"
+            - "Dark Nite"
+            # - "Maxis Highway Override"
+            - &deselectedNumberedCheck "/@\\d!"  # deselected numbered checkbox
+            - *exe
+    - variant: { driveside: "left",  roadstyle: "US", nightmode: "standard" }
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@1-EU/"
+            - "/@1=US_RightSide/"
+            - "Dark Nite"
+            # - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
+    - variant: { driveside: "right", roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "default" }
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@0=US/"
+            - "/@2-EU_LeftSide/"
+            - "Dark Nite"
+            - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
+    - variant: { driveside: "left",  roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "default" }
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@0=US/"
+            - "/@1=EU_RightSide/"
+            - "Dark Nite"
+            - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
+    - variant: { driveside: "right", roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "mho" }
+      dependencies:
+        - nam:maxis-highway
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@0=US/"
+            - "/@2-EU_LeftSide/"
+            - "Dark Nite"
+            # - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
+    - variant: { driveside: "left",  roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "mho" }
+      dependencies:
+        - nam:maxis-highway
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@0=US/"
+            - "/@1=EU_RightSide/"
+            - "Dark Nite"
+            # - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
 
-    # DN
-  - variant: { driveside: "right", roadstyle: "US", nightmode: "dark" }
-    dependencies:
-      - simfox:day-and-nite-mod
-    assets:
-      - <<: *a
-        exclude:
-          - "/@1-EU/"
-          - "/@2-US_LeftSide/"
-          - "Maxis Nite"
-          # - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
-  - variant: { driveside: "left",  roadstyle: "US", nightmode: "dark" }
-    dependencies:
-      - simfox:day-and-nite-mod
-    assets:
-      - <<: *a
-        exclude:
-          - "/@1-EU/"
-          - "/@1=US_RightSide/"
-          - "Maxis Nite"
-          # - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
-  - variant: { driveside: "right", roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "default" }
-    dependencies:
-      - simfox:day-and-nite-mod
-    assets:
-      - <<: *a
-        exclude:
-          - "/@0=US/"
-          - "/@2-EU_LeftSide/"
-          - "Maxis Nite"
-          - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
-  - variant: { driveside: "left",  roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "default" }
-    dependencies:
-      - simfox:day-and-nite-mod
-    assets:
-      - <<: *a
-        exclude:
-          - "/@0=US/"
-          - "/@1=EU_RightSide/"
-          - "Maxis Nite"
-          - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
-  - variant: { driveside: "right", roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "mho" }
-    dependencies:
-      - simfox:day-and-nite-mod
-      - nam:maxis-highway
-    assets:
-      - <<: *a
-        exclude:
-          - "/@0=US/"
-          - "/@2-EU_LeftSide/"
-          - "Maxis Nite"
-          # - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
-  - variant: { driveside: "left",  roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "mho" }
-    dependencies:
-      - simfox:day-and-nite-mod
-      - nam:maxis-highway
-    assets:
-      - <<: *a
-        exclude:
-          - "/@0=US/"
-          - "/@1=EU_RightSide/"
-          - "Maxis Nite"
-          # - "Maxis Highway Override"
-          - *deselectedNumberedCheck
-          - *ex
+      # DN
+    - variant: { driveside: "right", roadstyle: "US", nightmode: "dark" }
+      dependencies:
+        - simfox:day-and-nite-mod
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@1-EU/"
+            - "/@2-US_LeftSide/"
+            - "Maxis Nite"
+            # - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
+    - variant: { driveside: "left",  roadstyle: "US", nightmode: "dark" }
+      dependencies:
+        - simfox:day-and-nite-mod
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@1-EU/"
+            - "/@1=US_RightSide/"
+            - "Maxis Nite"
+            # - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
+    - variant: { driveside: "right", roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "default" }
+      dependencies:
+        - simfox:day-and-nite-mod
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@0=US/"
+            - "/@2-EU_LeftSide/"
+            - "Maxis Nite"
+            - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
+    - variant: { driveside: "left",  roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "default" }
+      dependencies:
+        - simfox:day-and-nite-mod
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@0=US/"
+            - "/@1=EU_RightSide/"
+            - "Maxis Nite"
+            - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
+    - variant: { driveside: "right", roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "mho" }
+      dependencies:
+        - simfox:day-and-nite-mod
+        - nam:maxis-highway
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@0=US/"
+            - "/@2-EU_LeftSide/"
+            - "Maxis Nite"
+            # - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
+    - variant: { driveside: "left",  roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "mho" }
+      dependencies:
+        - simfox:day-and-nite-mod
+        - nam:maxis-highway
+      assets:
+        - <<: *texAsset
+          exclude:
+            - "/@0=US/"
+            - "/@1=EU_RightSide/"
+            - "Maxis Nite"
+            # - "Maxis Highway Override"
+            - *deselectedNumberedCheck
+            - *exe
 
----
-group: nam
-name: real-highway-mod
-version: "49"
-subfolder: 770-network-addon-mod/2-networks
-info:
-  summary: Add a series of new highway networks and interchanges
-  description: |-
-    The RealHighway (RHW) system is a series of new highway networks added by the NAM, based on the reactivated stub of an unfinished transportation network (originally intended as a "DirtRoad" network) that Maxis left in the game.
-    It is a variable width, variable height system with extensive modular interchange construction capabilities.
-  website: https://www.sc4nam.com/docs/feature-guides/realhighway-mod/
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser2.jpg
-    - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser3.jpg
-    - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser4.jpg
-    - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser1.jpg
-variants:
-  - variant: { nam:real-highway-mod:enabled: "no" }
-  - variant: { nam:real-highway-mod:enabled: "yes" }
-    dependencies:
-      - nam:network-addon-mod-core
-    assets:
-      - assetId: nam-gh
-        include:
-          - "Network Features/RealHighway"
-        exclude:
-          - &deselectedRadioCheck "/[-!]"  # deselected radio button or checkbox
-          - &ex "(?:4gb_patch\\.exe|\\.txt)$"
-
-variantInfo:
-  - variantId: nam:real-highway-mod:enabled
+# ---
+- group: nam
+  name: real-highway-mod
+  version: "49"
+  subfolder: 770-network-addon-mod/2-networks
+  info:
+    summary: Add a series of new highway networks and interchanges
     description: |-
-      Choose whether or not to install the Real Highway Mod (RHW).
-    values:
-      - value: "no"
-        description: Requires less RAM and starting the game is faster.
-      - value: "yes"
-        description: |-
-          Only choose this option if you have manually patched your game to use 4 GB of RAM. Otherwise your game will crash when entering a city tile.
+      The RealHighway (RHW) system is a series of new highway networks added by the NAM, based on the reactivated stub of an unfinished transportation network (originally intended as a "DirtRoad" network) that Maxis left in the game.
+      It is a variable width, variable height system with extensive modular interchange construction capabilities.
+    website: https://www.sc4nam.com/docs/feature-guides/realhighway-mod/
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser2.jpg
+      - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser3.jpg
+      - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser4.jpg
+      - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser1.jpg
+  variants:
+    - variant: { nam:real-highway-mod:enabled: "no" }
+    - variant: { nam:real-highway-mod:enabled: "yes" }
+      dependencies:
+        - nam:network-addon-mod-core
+      assets:
+        - assetId: nam-gh
+          include:
+            - *rhwPath
+          exclude:
+            - &deselectedRadioCheck "/[-!]"  # deselected radio button or checkbox
+            - *exe
 
-          More information at https://www.sc4nam.com/docs/getting-started/installation/#4gb-patch
+  variantInfo:
+    - variantId: nam:real-highway-mod:enabled
+      description: |-
+        Choose whether or not to install the Real Highway Mod (RHW).
+      values:
+        - value: "no"
+          description: Requires less RAM and starting the game is faster.
+        - value: "yes"
+          description: |-
+            Only choose this option if you have manually patched your game to use 4 GB of RAM. Otherwise your game will crash when entering a city tile.
 
----
-group: nam
-name: maxis-highway
-version: "49"
-subfolder: 770-network-addon-mod/2-networks
-info:
-  summary: Features for Maxis highways, including additional interchanges
-  description: &desc |-
-    Installs options for the Maxis Highway networks (Highway and Ground Highway).
+            More information at https://www.sc4nam.com/docs/getting-started/installation/#4gb-patch
 
-    Default Style keeps Maxis Highways in their original state.
+# ---
+- group: nam
+  name: maxis-highway
+  version: "49"
+  subfolder: 770-network-addon-mod/2-networks
+  info:
+    summary: Features for Maxis highways, including additional interchanges
+    description: |-
+      Installs options for the Maxis Highway networks (Highway and Ground Highway).
 
-    Maxis Highway Override changes the Maxis Highways to look more like the NAM's RealHighway (RHW) network, which uses the RHW's Modular Interchange System (MIS) functionality and its own interchanges, and is NOT compatible with the game's original Maxis Highway interchanges.
-  website: https://www.sc4nam.com/docs/feature-guides/maxis-highway-override/
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/maxis-highway-override/images/MHO_Intro1.jpg
-    - https://www.sc4nam.com/docs/feature-guides/maxis-highway-override/images/MHO_Intro2.jpg
-    - https://www.sc4nam.com/docs/feature-guides/maxis-highway-override/images/MHO_Intro3.jpg
-    - https://www.sc4nam.com/docs/feature-guides/maxis-highway-override/images/MHO_Intro4.jpg
-variantInfo:
-  - variantId: nam:maxis-highway:style
-    description: Installs options for the Maxis Highway networks (Highway and Ground Highway).
-    values:
-      - value: "default"
-        description: Default Style keeps Maxis Highways and Ground Highways in their original state.
-        default: true
-      - value: "mho"
-        description: |-
-          Maxis Highway Override. This style reskins the base Maxis Highway network to better match with the RealHighway (RHW) system.
+      Default Style keeps Maxis Highways in their original state.
 
-          When using the Maxis Highway Override, it is recommended to install the RHW as well to be able to use the RHW's Modular Interchange System (MIS).
-          The Maxis Highway Override is NOT compatible with the game's original Maxis Highway interchanges.
+      Maxis Highway Override changes the Maxis Highways to look more like the NAM's RealHighway (RHW) network, which uses the RHW's Modular Interchange System (MIS) functionality and its own interchanges, and is NOT compatible with the game's original Maxis Highway interchanges.
+    website: https://www.sc4nam.com/docs/feature-guides/maxis-highway-override/
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/maxis-highway-override/images/MHO_Intro1.jpg
+      - https://www.sc4nam.com/docs/feature-guides/maxis-highway-override/images/MHO_Intro2.jpg
+      - https://www.sc4nam.com/docs/feature-guides/maxis-highway-override/images/MHO_Intro3.jpg
+      - https://www.sc4nam.com/docs/feature-guides/maxis-highway-override/images/MHO_Intro4.jpg
+  variantInfo:
+    - variantId: nam:maxis-highway:style
+      description: Installs options for the Maxis Highway networks (Highway and Ground Highway).
+      values:
+        - value: "default"
+          description: Default Style keeps Maxis Highways and Ground Highways in their original state.
+          default: true
+        - value: "mho"
+          description: |-
+            Maxis Highway Override. This style reskins the base Maxis Highway network to better match with the RealHighway (RHW) system.
 
-dependencies:
-  - nam:network-addon-mod-controller
-variants:
-  - variant: { nam:maxis-highway:style: "default" }
-    assets:
-      - assetId: nam-gh
-        include:
-          - "Network Features/Maxis Highway#?/.*Default Style"
-        exclude:
-          - &ex "(?:4gb_patch\\.exe|\\.txt)$"
-  - variant: { nam:maxis-highway:style: "mho" }
-    assets:
-      - assetId: nam-gh
-        include:
-          - "Network Features/Maxis Highway#?/.*Maxis Highway Override"
-        exclude:
-          - *ex
+            When using the Maxis Highway Override, it is recommended to install the RHW as well to be able to use the RHW's Modular Interchange System (MIS).
+            The Maxis Highway Override is NOT compatible with the game's original Maxis Highway interchanges.
 
----
-group: nam
-name: real-expressway
-version: "49"
-subfolder: 770-network-addon-mod/2-networks
-info:
-  summary: Add a series of Ramp Interfaces for One-Way Roads
-  description: |-
-    The RealExpressway (REW) system adds a series of Ramp Interfaces (both FLEX Piece-based and draggable) to the base One-Way Road (OWR) network and the additional OWR widths of the Network Widening Mod (NWM).
-    The REW's ramps can be used to recreate urban and suburban surface arterials that have expressway/freeway-like features, Texas-style frontage roads supporting RCI development/access (especially in combination with RealHighways), or various novel intersection configurations.
-  website: https://www.sc4nam.com/docs/feature-guides/realexpressway-mod/
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/realexpressway-mod/images/rew-flex-5.jpg
+  dependencies:
+    - nam:network-addon-mod-controller
+  variants:
+    - variant: { nam:maxis-highway:style: "default" }
+      assets:
+        - assetId: nam-gh
+          include:
+            - "Network Features/Maxis Highway#?/.*Default Style"
+          exclude:
+            - *exe
+    - variant: { nam:maxis-highway:style: "mho" }
+      assets:
+        - assetId: nam-gh
+          include:
+            - "Network Features/Maxis Highway#?/.*Maxis Highway Override"
+          exclude:
+            - *exe
 
-dependencies:
-  - nam:network-addon-mod-core
-  - nam:network-widening-mod
-assets:
-  - assetId: nam-gh
-    include:
-      - "Network Features/.*/RealExpressway/"
-    exclude:
-      - "(?:4gb_patch\\.exe|\\.txt)$"
+# ---
+- group: nam
+  name: real-expressway
+  version: "49"
+  subfolder: 770-network-addon-mod/2-networks
+  info:
+    summary: Add a series of Ramp Interfaces for One-Way Roads
+    description: |-
+      The RealExpressway (REW) system adds a series of Ramp Interfaces (both FLEX Piece-based and draggable) to the base One-Way Road (OWR) network and the additional OWR widths of the Network Widening Mod (NWM).
+      The REW's ramps can be used to recreate urban and suburban surface arterials that have expressway/freeway-like features, Texas-style frontage roads supporting RCI development/access (especially in combination with RealHighways), or various novel intersection configurations.
+    website: https://www.sc4nam.com/docs/feature-guides/realexpressway-mod/
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/realexpressway-mod/images/rew-flex-5.jpg
 
----
-group: nam
-name: network-widening-mod
-version: "49"
-subfolder: 770-network-addon-mod/2-networks
-info:
-  summary: Add a number of surface-road networks providing different widths, higher capacity and turn lanes
-  description: |-
-    The Network Widening Mod adds 13 new override networks, which extend the game's base Road and One-Way Road networks by providing different width variants, many with higher capacities.
+  dependencies:
+    - nam:network-addon-mod-core
+    - nam:network-widening-mod
+  assets:
+    - assetId: nam-gh
+      include:
+        - *rewPath
+      exclude:
+        - *exe
 
-    This includes 6 single-tile, 5 dual-tile, and 2 triple-tile override networks.
-    Among these networks are the Turning Lane Avenues (TLA), which feature a center turn lane/flush median, multi-lane variants of the Road network, and four additional widths of the One-Way Road (OWR) network.
-    It also includes some degree of diagonal functionality for all networks, transitions to connect NWM networks to Maxis networks or other NAM override networks, a series of Wide-Radius Curve pieces, and neighbor connector puzzle pieces for selected networks.
-  website: https://www.sc4nam.com/docs/feature-guides/network-widening-mod/
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/network-widening-mod/images/nwmteaser1.jpg
-    - https://www.sc4nam.com/docs/feature-guides/network-widening-mod/images/nwmteaser2.jpg
-    - https://www.sc4nam.com/docs/feature-guides/network-widening-mod/images/nwmteaser3.jpg
-    - https://www.sc4nam.com/docs/feature-guides/network-widening-mod/images/nwmteaser4.jpg
-dependencies:
-  - nam:network-addon-mod-core
-assets:
-  - assetId: nam-gh
-    include:
-      - "Network Features/.*Network Widening Mod"
-    exclude:
-      - "(?:4gb_patch\\.exe|\\.txt)$"
+# ---
+- group: nam
+  name: network-widening-mod
+  version: "49"
+  subfolder: 770-network-addon-mod/2-networks
+  info:
+    summary: Add a number of surface-road networks providing different widths, higher capacity and turn lanes
+    description: |-
+      The Network Widening Mod adds 13 new override networks, which extend the game's base Road and One-Way Road networks by providing different width variants, many with higher capacities.
 
----
-group: nam
-name: street-addon-mod
-version: "49"
-subfolder: 770-network-addon-mod/2-networks
-info:
-  summary: Add a variety of cosmetic override networks for the Street network
-  description: |-
-    The Street Addon Mod (SAM) is a plugin which uses Starter Piece technology to add texture variants of the Street network.
+      This includes 6 single-tile, 5 dual-tile, and 2 triple-tile override networks.
+      Among these networks are the Turning Lane Avenues (TLA), which feature a center turn lane/flush median, multi-lane variants of the Road network, and four additional widths of the One-Way Road (OWR) network.
+      It also includes some degree of diagonal functionality for all networks, transitions to connect NWM networks to Maxis networks or other NAM override networks, a series of Wide-Radius Curve pieces, and neighbor connector puzzle pieces for selected networks.
+    website: https://www.sc4nam.com/docs/feature-guides/network-widening-mod/
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/network-widening-mod/images/nwmteaser1.jpg
+      - https://www.sc4nam.com/docs/feature-guides/network-widening-mod/images/nwmteaser2.jpg
+      - https://www.sc4nam.com/docs/feature-guides/network-widening-mod/images/nwmteaser3.jpg
+      - https://www.sc4nam.com/docs/feature-guides/network-widening-mod/images/nwmteaser4.jpg
+  dependencies:
+    - nam:network-addon-mod-core
+  assets:
+    - assetId: nam-gh
+      include:
+        - *nwmPath
+      exclude:
+        - *exe
 
-    These variants also support (as appropriate) many of the same features as the base Street network, including support for the NAM's Diagonal Streets Plugin and Wide-Radius and Multi-Radius Curves.
-  website: https://www.sc4nam.com/docs/feature-guides/street-addon-mod/
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser1.jpg
-    - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser2.jpg
-    - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser3.jpg
-    - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser4.jpg
-dependencies:
-  - nam:network-addon-mod-core
-assets:
-  - assetId: nam-gh
-    include:
-      - "Network Features/.*Street Addon Mod"
-    exclude:
-      - "(?:4gb_patch\\.exe|\\.txt)$"
+# ---
+- group: nam
+  name: street-addon-mod
+  version: "49"
+  subfolder: 770-network-addon-mod/2-networks
+  info:
+    summary: Add a variety of cosmetic override networks for the Street network
+    description: |-
+      The Street Addon Mod (SAM) is a plugin which uses Starter Piece technology to add texture variants of the Street network.
 
----
-group: nam
-name: ground-light-rail
-version: "49"
-subfolder: 770-network-addon-mod/2-networks
-info:
-  summary: Ground Light Rail and Tram networks
-  description: |-
-    The Light Rail or Tram system in the NAM offers extensive additions to the game's Elevated Rail (or Light Rail) tool, which is designed primarily to provide urban and suburban passenger transit service, along the lines of real-life light rail, tram, and streetcar systems.
+      These variants also support (as appropriate) many of the same features as the base Street network, including support for the NAM's Diagonal Streets Plugin and Wide-Radius and Multi-Radius Curves.
+    website: https://www.sc4nam.com/docs/feature-guides/street-addon-mod/
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser1.jpg
+      - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser2.jpg
+      - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser3.jpg
+      - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser4.jpg
+  dependencies:
+    - nam:network-addon-mod-core
+  assets:
+    - assetId: nam-gh
+      include:
+        - *samPath
+      exclude:
+        - *exe
 
-    This package includes features allowing for Light Rail and Tram service to be placed at ground level, in the median of various surface street networks, including Roads, Avenues, and Streets.
-  website: https://www.sc4nam.com/docs/feature-guides/light-rail-tram/
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/light-rail-tram/images/tramteaser1.jpg
-    - https://www.sc4nam.com/docs/feature-guides/light-rail-tram/images/tramteaser2.jpg
-dependencies:
-  - nam:network-addon-mod-core
-assets:
-  - assetId: nam-gh
-    include:
-      - "Network Features/.*/Ground Light Rail"
-      - "Network Features/.*GroundLightRailxURail"
-    exclude:
-      - "(?:4gb_patch\\.exe|\\.txt)$"
+# ---
+- group: nam
+  name: ground-light-rail
+  version: "49"
+  subfolder: 770-network-addon-mod/2-networks
+  info:
+    summary: Ground Light Rail and Tram networks
+    description: |-
+      The Light Rail or Tram system in the NAM offers extensive additions to the game's Elevated Rail (or Light Rail) tool, which is designed primarily to provide urban and suburban passenger transit service, along the lines of real-life light rail, tram, and streetcar systems.
 
----
-group: nam
-name: hybrid-railway
-version: "49"
-subfolder: 770-network-addon-mod/2-networks
-info:
-  summary: Hybrid Railway
-  description: |-
-    The Hybrid Railway, or HRW, is an intermediate FLEX based dual-network that provides for both heavy and High Speed (Monorail) traffic.
-    Specifications of the HRW include catenaries, textures that are the same as the RRW, as well as including some purpose-built textures for specific pieces.
+      This package includes features allowing for Light Rail and Tram service to be placed at ground level, in the median of various surface street networks, including Roads, Avenues, and Streets.
+    website: https://www.sc4nam.com/docs/feature-guides/light-rail-tram/
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/light-rail-tram/images/tramteaser1.jpg
+      - https://www.sc4nam.com/docs/feature-guides/light-rail-tram/images/tramteaser2.jpg
+  dependencies:
+    - nam:network-addon-mod-core
+  assets:
+    - assetId: nam-gh
+      include:
+        - *glrPath
+        - &glrURailPath "Network Features/.*GroundLightRailxURail"
+      exclude:
+        - *exe
 
-    The HRW is a FLEX network utilising dual-networking (Rail and Monorail) pieces meaning it can only be constructed with FLEX pieces provided in the menus.
-    To gain full functionality, all items require placing FLEX pieces, with drawability only relevant for transitioning to the RRW.
-  website: https://www.sc4nam.com/docs/feature-guides/hybrid-railway/
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/hybrid-railway/images/~combined_use_HRW.jpg
+# ---
+- group: nam
+  name: hybrid-railway
+  version: "49"
+  subfolder: 770-network-addon-mod/2-networks
+  info:
+    summary: Hybrid Railway
+    description: |-
+      The Hybrid Railway, or HRW, is an intermediate FLEX based dual-network that provides for both heavy and High Speed (Monorail) traffic.
+      Specifications of the HRW include catenaries, textures that are the same as the RRW, as well as including some purpose-built textures for specific pieces.
 
-dependencies:
-  - nam:network-addon-mod-core
-assets:
-  - assetId: nam-gh
-    include:
-      - "Network Features/Hybrid Railway"
-    exclude:
-      - "(?:4gb_patch\\.exe|\\.txt)$"
+      The HRW is a FLEX network utilising dual-networking (Rail and Monorail) pieces meaning it can only be constructed with FLEX pieces provided in the menus.
+      To gain full functionality, all items require placing FLEX pieces, with drawability only relevant for transitioning to the RRW.
+    website: https://www.sc4nam.com/docs/feature-guides/hybrid-railway/
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/hybrid-railway/images/~combined_use_HRW.jpg
 
----
-group: nam
-name: high-speed-rail
-version: "49"
-subfolder: 770-network-addon-mod/2-networks
-info:
-  summary: High Speed Rail Project (HSRP)
-  description: |-
-    The High Speed Rail Project adds two new “model variation” overrides to the Monorail network.
-  website: https://www.sc4nam.com/docs/feature-guides/high-speed-rail/
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/high-speed-rail/images/HSRP_01.jpg
-    - https://www.sc4nam.com/docs/feature-guides/high-speed-rail/images/HSRP_02.jpg
+  dependencies:
+    - nam:network-addon-mod-core
+  assets:
+    - assetId: nam-gh
+      include:
+        - *hrwPath
+      exclude:
+        - *exe
 
-dependencies:
-  - nam:network-addon-mod-core
-assets:
-  - assetId: nam-gh
-    include:
-      - "Network Features/.*High Speed Rail Project"
-    exclude:
-      - "(?:4gb_patch\\.exe|\\.txt)$"
+# ---
+- group: nam
+  name: high-speed-rail
+  version: "49"
+  subfolder: 770-network-addon-mod/2-networks
+  info:
+    summary: High Speed Rail Project (HSRP)
+    description: |-
+      The High Speed Rail Project adds two new “model variation” overrides to the Monorail network.
+    website: https://www.sc4nam.com/docs/feature-guides/high-speed-rail/
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/high-speed-rail/images/HSRP_01.jpg
+      - https://www.sc4nam.com/docs/feature-guides/high-speed-rail/images/HSRP_02.jpg
 
----
-group: nam
-name: canal-addon-mod
-version: "49"
-subfolder: 770-network-addon-mod/2-networks
-info:
-  summary: Canal Addon Mod (CAN-AM)
-  description: |-
-    The CAN-AM is designed to work with one of the following canal sets (not included):
-    * [CAL Remastered SimGoober canals](https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection) by **callagrafx**.
-    * The original [SG canals](https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection) by **SimGoober**.
-  website: https://www.sc4nam.com/docs/feature-guides/canals/
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/canals/images/can-am-building-11.jpg
-variantInfo:
-  - variantId: nam:canal-addon-mod:style
-    description: Select a canal style. The matching canal set is not included, but needs to be installed separately.
-    values:
-      - value: "cal"
-        description: CAL Remastered SimGoober canals by **callagrafx**.
-        default: true
-      - value: "sg"
-        description: The original SG canals by **SimGoober**.
+  dependencies:
+    - nam:network-addon-mod-core
+  assets:
+    - assetId: nam-gh
+      include:
+        - *hsrPath
+      exclude:
+        - *exe
 
-dependencies:
-  - nam:network-addon-mod-core
-variants:
-  - variant: { nam:canal-addon-mod:style: "cal" }
-    assets:
-      - &a
-        assetId: nam-gh
-        include:
-          - "Network Features/Water Transport"
-        exclude:
-          - "SimGoober Style"
-          - &ex "(?:4gb_patch\\.exe|\\.txt)$"
-  - variant: { nam:canal-addon-mod:style: "sg" }
-    assets:
-      - <<: *a
-        exclude:
-          - "Callagrafx Style"
-          - *ex
+# ---
+- group: nam
+  name: canal-addon-mod
+  version: "49"
+  subfolder: 770-network-addon-mod/2-networks
+  info:
+    summary: Canal Addon Mod (CAN-AM)
+    description: |-
+      The CAN-AM is designed to work with one of the following canal sets (not included):
+      * [CAL Remastered SimGoober canals](https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection) by **callagrafx**.
+      * The original [SG canals](https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection) by **SimGoober**.
+    website: https://www.sc4nam.com/docs/feature-guides/canals/
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/canals/images/can-am-building-11.jpg
+  variantInfo:
+    - variantId: nam:canal-addon-mod:style
+      description: Select a canal style. The matching canal set is not included, but needs to be installed separately.
+      values:
+        - value: "cal"
+          description: CAL Remastered SimGoober canals by **callagrafx**.
+          default: true
+        - value: "sg"
+          description: The original SG canals by **SimGoober**.
 
----
-group: nam
-name: real-railway
-version: "49"
-subfolder: 770-network-addon-mod/3-overrides  # must load after other network features
-info:
-  summary: Real Railway (RRW)
-  description: |-
-    The RealRailway is the new standard for rail transport in the NAM.
-    It is a complete replacement of the Maxis rail network.
-  website: https://www.sc4nam.com/docs/feature-guides/real-railway/
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/real-railway/images/RRW-FARR.jpg
-    - https://www.sc4nam.com/docs/feature-guides/real-railway/images/ERRW/OST-Orthogonal.jpg
+  dependencies:
+    - nam:network-addon-mod-core
+  variants:
+    - variant: { nam:canal-addon-mod:style: "cal" }
+      assets:
+        - &canalAsset
+          assetId: nam-gh
+          include:
+            - *canPath
+          exclude:
+            - "SimGoober Style"
+            - *exe
+    - variant: { nam:canal-addon-mod:style: "sg" }
+      assets:
+        - <<: *canalAsset
+          exclude:
+            - "Callagrafx Style"
+            - *exe
 
-dependencies:
-  - nam:network-addon-mod-controller  # this package is a mandatory part of NAM
-assets:
-  - assetId: nam-gh
-    include:
-      - "Network Features/.*z_Rail \\(RealRailway\\)"
-    exclude:
-      - "Network Features/.*GroundLightRailxURail"        # nam:ground-light-rail
-      - "(?:4gb_patch\\.exe|\\.txt|\\.png|\\.pdn)$"
+# ---
+- group: nam
+  name: real-railway
+  version: "49"
+  subfolder: 770-network-addon-mod/3-overrides  # must load after other network features
+  info:
+    summary: Real Railway (RRW)
+    description: |-
+      The RealRailway is the new standard for rail transport in the NAM.
+      It is a complete replacement of the Maxis rail network.
+    website: https://www.sc4nam.com/docs/feature-guides/real-railway/
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/real-railway/images/RRW-FARR.jpg
+      - https://www.sc4nam.com/docs/feature-guides/real-railway/images/ERRW/OST-Orthogonal.jpg
 
----
-group: nam
-name: one-way-arrows
-version: "49"
-subfolder: 770-network-addon-mod/2-networks
-info:
-  summary: One-Way Road Arrow plugin
-  description: &desc Select an arrow style for One-Way Roads.
-  images:
-    - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser2.jpg
-variantInfo:
-  - variantId: nam:one-way-arrows:style
-    description: *desc
-    values:
-      - value: "single"
-        description: Replace the Maxis double arrows by a slim single arrow style.
-        default: true
-      - value: "reduce"
-        description: |-
-          Use single arrows, but reduce the number of arrows by removing them outside of intersections.
-          (With this option, you can still use the query tool to see the arrows, by hovering over One-Way Roads.)
-      - value: "eliminate"
-        description:
-          Remove all arrows.
+  dependencies:
+    - nam:network-addon-mod-controller  # this package is a mandatory part of NAM
+  assets:
+    - assetId: nam-gh
+      include:
+        - *rrwPath
+      exclude:
+        - *glrURailPath        # nam:ground-light-rail
+        - *exe
 
-dependencies:
-  - nam:network-addon-mod-core
-variants:
-  - variant: { nam:one-way-arrows:style: "single" }
-    assets:
-      - &a
-        assetId: nam-gh
-        include:
-          - "Network Features/.*One-Way Road Arrow Plugins"
-        exclude:
-          - &ex "(?:4gb_patch\\.exe|\\.txt)$"
-          - &rew "RealExpressway_Arrow_Remover"
-          - &red "One-Way Road Arrow Reduction"
-          - &elim "One-Way Road Arrow Elimination"
-  - variant: { nam:one-way-arrows:style: "reduce" }
-    assets:
-      - <<: *a
-        exclude:
-          - *ex
-          - *rew
-          - *elim
-  - variant: { nam:one-way-arrows:style: "eliminate" }
-    assets:
-      - <<: *a
-        exclude:
-          - *ex
-          - *rew
-          - *red
+# ---
+- group: nam
+  name: one-way-arrows
+  version: "49"
+  subfolder: 770-network-addon-mod/2-networks
+  info:
+    summary: One-Way Road Arrow plugin
+    description: &arrowDesc Select an arrow style for One-Way Roads.
+    images:
+      - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser2.jpg
+  variantInfo:
+    - variantId: nam:one-way-arrows:style
+      description: *arrowDesc
+      values:
+        - value: "single"
+          description: Replace the Maxis double arrows by a slim single arrow style.
+          default: true
+        - value: "reduce"
+          description: |-
+            Use single arrows, but reduce the number of arrows by removing them outside of intersections.
+            (With this option, you can still use the query tool to see the arrows, by hovering over One-Way Roads.)
+        - value: "eliminate"
+          description:
+            Remove all arrows.
 
----
-group: nam
-name: data-views
-version: "49"
-subfolder: 770-network-addon-mod/6-misc
-info:
-  summary: Improved versions of transit-related Data Views
-  description: |-
-    The NAM's Data View plugin options contain an improved version of the Traffic Volume View that comes with the game, and which can be found under Data Views.
-    They also contain improved versions of the Subway View, Subway Building View, and Zones View, designed to make the process of building Subways and Transit Stations less error-prone.
-  website: https://www.sc4nam.com/docs/feature-guides/data-view-plugins/
+  dependencies:
+    - nam:network-addon-mod-core
+  variants:
+    - variant: { nam:one-way-arrows:style: "single" }
+      assets:
+        - &arrowAsset
+          assetId: nam-gh
+          include:
+            - *arrowPath
+          exclude:
+            - *exe
+            - &rew "RealExpressway_Arrow_Remover"
+            - &red "One-Way Road Arrow Reduction"
+            - &elim "One-Way Road Arrow Elimination"
+    - variant: { nam:one-way-arrows:style: "reduce" }
+      assets:
+        - <<: *arrowAsset
+          exclude:
+            - *exe
+            - *rew
+            - *elim
+    - variant: { nam:one-way-arrows:style: "eliminate" }
+      assets:
+        - <<: *arrowAsset
+          exclude:
+            - *exe
+            - *rew
+            - *red
 
-dependencies:
-  - nam:network-addon-mod-core
-assets:
-  - assetId: nam-gh
-    include:
-      - "DataView Options#?/"
-    exclude:
-      - "(?:4gb_patch\\.exe|\\.txt)$"
+# ---
+- group: nam
+  name: data-views
+  version: "49"
+  subfolder: 770-network-addon-mod/6-misc
+  info:
+    summary: Improved versions of transit-related Data Views
+    description: |-
+      The NAM's Data View plugin options contain an improved version of the Traffic Volume View that comes with the game, and which can be found under Data Views.
+      They also contain improved versions of the Subway View, Subway Building View, and Zones View, designed to make the process of building Subways and Transit Stations less error-prone.
+    website: https://www.sc4nam.com/docs/feature-guides/data-view-plugins/
 
----
-group: nam
-name: additional-transit-stations
-version: "49"
-subfolder: 770-network-addon-mod/6-misc
-info:
-  summary: Add a multitude of new transit stations beyond the game's default
-  website: https://www.sc4nam.com/docs/feature-guides/stations/
-dependencies:
-  - nam:network-addon-mod-core
-assets:
-  - assetId: nam-gh
-    include:
-      - "Additional Transit Stations/"
-    exclude:
-      - "(?:4gb_patch\\.exe|\\.txt)$"
+  dependencies:
+    - nam:network-addon-mod-core
+  assets:
+    - assetId: nam-gh
+      include:
+        - *dataPath
+      exclude:
+        - *exe
 
----
-group: nam
-name: traffic-simulator
-version: "49"
-subfolder: 770-network-addon-mod/6-misc
-info:
-  summary: NAM Traffic Simulator
-  description: &desc |-
-    The Traffic Simulator improves in-game simulation behavior and ensures proper functionality of all NAM components.
-  website: https://www.sc4nam.com/docs/feature-guides/the-nam-traffic-simulator/
-variantInfo:
-  - variantId: nam:traffic-simulator:capacity
-    description: *desc
-    values:
-      - value: "classic"
-        description: Original Maxis capacity
-      - value: "low"
-        description: recommended
-        default: true
-      - value: "medium"
-      - value: "high"
-      - value: "ultra"
-        description: Highest capacity
+# ---
+- group: nam
+  name: additional-transit-stations
+  version: "49"
+  subfolder: 770-network-addon-mod/6-misc
+  info:
+    summary: Add a multitude of new transit stations beyond the game's default
+    website: https://www.sc4nam.com/docs/feature-guides/stations/
+  dependencies:
+    - nam:network-addon-mod-core
+  assets:
+    - assetId: nam-gh
+      include:
+        - *stationsPath
+      exclude:
+        - *exe
 
-dependencies: []  # can be installed stand-alone
-variants:
-- variant: { nam:traffic-simulator:capacity: "classic" }
-  assets: [ &a { assetId: nam-gh, exclude: ["(?:4gb_patch\\.exe|\\.txt)$"], include: ["Traffic Simulator#?/.*[=-]Classic"] }]
-- variant: { nam:traffic-simulator:capacity: "low" }
-  assets: [{ <<: *a, include: ["Traffic Simulator#?/.*[=-]Low"] }]
-- variant: { nam:traffic-simulator:capacity: "medium" }
-  assets: [{ <<: *a, include: ["Traffic Simulator#?/.*[=-]Medium"] }]
-- variant: { nam:traffic-simulator:capacity: "high" }
-  assets: [{ <<: *a, include: ["Traffic Simulator#?/.*[=-]High"] }]
-- variant: { nam:traffic-simulator:capacity: "ultra" }
-  assets: [{ <<: *a, include: ["Traffic Simulator#?/.*[=-]Ultra"] }]
+# ---
+- group: nam
+  name: traffic-simulator
+  version: "49"
+  subfolder: 770-network-addon-mod/6-misc
+  info:
+    summary: NAM Traffic Simulator
+    description: &tsDesc |-
+      The Traffic Simulator improves in-game simulation behavior and ensures proper functionality of all NAM components.
+    website: https://www.sc4nam.com/docs/feature-guides/the-nam-traffic-simulator/
+  variantInfo:
+    - variantId: nam:traffic-simulator:capacity
+      description: *tsDesc
+      values:
+        - value: "classic"
+          description: Original Maxis capacity
+        - value: "low"
+          description: recommended
+          default: true
+        - value: "medium"
+        - value: "high"
+        - value: "ultra"
+          description: Highest capacity
 
----
-group: nam
-name: automata-controller
-version: "49"
-subfolder: 770-network-addon-mod/6-misc
-info:
-  summary: NAM Automata Controller
-  description: &desc |-
-    The Automata Controller options affect the display of in-game vehicles (Automata).
-    Please note that the Automata will still disappear under any setting -- this is part of the game.
-  website: https://www.sc4nam.com/docs/feature-guides/automata-plugins/
-variantInfo:
-  - variantId: nam:automata-controller:animation-style
-    description: *desc
-    values:
-      - value: "standard-persistent"
-        default: true
+  dependencies: []  # can be installed stand-alone
+  variants:
+  - variant: { nam:traffic-simulator:capacity: "classic" }
+    assets: [ &tsAsset { assetId: nam-gh, exclude: [*exe], include: ["Traffic Simulator#?/.*[=-]Classic"] }]
+  - variant: { nam:traffic-simulator:capacity: "low" }
+    assets: [{ <<: *tsAsset, include: ["Traffic Simulator#?/.*[=-]Low"] }]
+  - variant: { nam:traffic-simulator:capacity: "medium" }
+    assets: [{ <<: *tsAsset, include: ["Traffic Simulator#?/.*[=-]Medium"] }]
+  - variant: { nam:traffic-simulator:capacity: "high" }
+    assets: [{ <<: *tsAsset, include: ["Traffic Simulator#?/.*[=-]High"] }]
+  - variant: { nam:traffic-simulator:capacity: "ultra" }
+    assets: [{ <<: *tsAsset, include: ["Traffic Simulator#?/.*[=-]Ultra"] }]
 
-dependencies: []  # can be installed stand-alone
-variants:
-- variant: { nam:automata-controller:animation-style: "standard" }
-  assets: [ &a { assetId: nam-gh, exclude: ["(?:4gb_patch\\.exe|\\.txt)$"], include: ["Automata Controller#?/.*[=-]Standard/"] }]
-- variant: { nam:automata-controller:animation-style: "standard-24h" }
-  assets: [{ <<: *a, include: ["Automata Controller#?/.*[=-]Standard 24-Hour/"] }]
-- variant: { nam:automata-controller:animation-style: "standard-persistent" }
-  assets: [{ <<: *a, include: ["Automata Controller#?/.*[=-]Standard Persistent/"] }]
-- variant: { nam:automata-controller:animation-style: "standard-persistent-24h" }
-  assets: [{ <<: *a, include: ["Automata Controller#?/.*[=-]Standard Persistent 24-Hour/"] }]
-- variant: { nam:automata-controller:animation-style: "radical" }
-  assets: [{ <<: *a, include: ["Automata Controller#?/.*[=-]Radical/"] }]
-- variant: { nam:automata-controller:animation-style: "radical-24h" }
-  assets: [{ <<: *a, include: ["Automata Controller#?/.*[=-]Radical 24-Hour/"] }]
-- variant: { nam:automata-controller:animation-style: "radical-persistent" }
-  assets: [{ <<: *a, include: ["Automata Controller#?/.*[=-]Radical Persistent/"] }]
-- variant: { nam:automata-controller:animation-style: "radical-persistent-24h" }
-  assets: [{ <<: *a, include: ["Automata Controller#?/.*[=-]Radical Persistent 24-Hour/"] }]
-- variant: { nam:automata-controller:animation-style: "radical-persistent-24h-lb" }
-  assets: [{ <<: *a, include: ["Automata Controller#?/.*[=-]LB Radical Persistent 24-Hour/"] }]
+# ---
+- group: nam
+  name: automata-controller
+  version: "49"
+  subfolder: 770-network-addon-mod/6-misc
+  info:
+    summary: NAM Automata Controller
+    description: &acDesc |-
+      The Automata Controller options affect the display of in-game vehicles (Automata).
+      Please note that the Automata will still disappear under any setting -- this is part of the game.
+    website: https://www.sc4nam.com/docs/feature-guides/automata-plugins/
+  variantInfo:
+    - variantId: nam:automata-controller:animation-style
+      description: *acDesc
+      values:
+        - value: "standard-persistent"
+          default: true
 
----
-group: nam
-name: maxis-transit-lots
-version: "49"
-subfolder: 770-network-addon-mod/6-misc
-info:
-  summary: Updated stats for Maxis Transit Lots
-  description: Includes Maxis transit stations, tollboths, transitions and airports.
-variantInfo:
-  - variantId: nam:maxis-transit-lots:airport-capacity
-    description: Select a capacity setting for the Maxis airports.
-    values:
-      - value: "standard"
-        description: The default Maxis airport capacity
-      - value: "medium"
-        default: true
-        description: Medium capacity
-      - value: "high"
-        description: High capacity
+  dependencies: []  # can be installed stand-alone
+  variants:
+  - variant: { nam:automata-controller:animation-style: "standard" }
+    assets: [ &acAsset { assetId: nam-gh, exclude: [*exe], include: ["Automata Controller#?/.*[=-]Standard/"] }]
+  - variant: { nam:automata-controller:animation-style: "standard-24h" }
+    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Standard 24-Hour/"] }]
+  - variant: { nam:automata-controller:animation-style: "standard-persistent" }
+    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Standard Persistent/"] }]
+  - variant: { nam:automata-controller:animation-style: "standard-persistent-24h" }
+    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Standard Persistent 24-Hour/"] }]
+  - variant: { nam:automata-controller:animation-style: "radical" }
+    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Radical/"] }]
+  - variant: { nam:automata-controller:animation-style: "radical-24h" }
+    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Radical 24-Hour/"] }]
+  - variant: { nam:automata-controller:animation-style: "radical-persistent" }
+    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Radical Persistent/"] }]
+  - variant: { nam:automata-controller:animation-style: "radical-persistent-24h" }
+    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Radical Persistent 24-Hour/"] }]
+  - variant: { nam:automata-controller:animation-style: "radical-persistent-24h-lb" }
+    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]LB Radical Persistent 24-Hour/"] }]
 
-dependencies:
-  - nam:network-addon-mod-core
-assets:
-  - assetId: nam-gh
-    exclude: &ex ["(?:4gb_patch\\.exe|\\.txt)$"]
-    include:
-      - "Maxis Transit Lots#?/.*Tollbooths"
-variants:
-  - variant: { nam:maxis-transit-lots:airport-capacity: "standard" }
-  - variant: { nam:maxis-transit-lots:airport-capacity: "medium" }
-    assets:
-      - assetId: nam-gh
-        exclude: *ex
-        include: ["Maxis Transit Lots#?/.*Airport Medium Capacity/"]
-  - variant: { nam:maxis-transit-lots:airport-capacity: "high" }
-    assets:
-      - assetId: nam-gh
-        exclude: *ex
-        include: ["Maxis Transit Lots#?/.*Airport Large Capacity/"]
+# ---
+- group: nam
+  name: maxis-transit-lots
+  version: "49"
+  subfolder: 770-network-addon-mod/6-misc
+  info:
+    summary: Updated stats for Maxis Transit Lots
+    description: Includes Maxis transit stations, tollboths, transitions and airports.
+  variantInfo:
+    - variantId: nam:maxis-transit-lots:airport-capacity
+      description: Select a capacity setting for the Maxis airports.
+      values:
+        - value: "standard"
+          description: The default Maxis airport capacity
+        - value: "medium"
+          default: true
+          description: Medium capacity
+        - value: "high"
+          description: High capacity
 
----
-group: nam
-name: bridges
-version: "49"
-subfolder: 770-network-addon-mod/6-misc
-info:
-  summary: Additional bridges for various networks
-  website: https://www.sc4nam.com/docs/feature-guides/bridges/
-dependencies:
-  - nam:network-addon-mod-core
-variants:
-  - variant: { nam:real-highway-mod:enabled: "no" }
-    assets:
-      - assetId: nam-gh
-        include:
-          - "/@57 Bridges/"
-        exclude:
-          - "(?:4gb_patch\\.exe|\\.txt)$"
-          - "Real Highway/"
-          - "/RHW/"
-  - variant: { nam:real-highway-mod:enabled: "yes" }
-    assets:
-      - assetId: nam-gh
-        include:
-          - "/@57 Bridges/"
-        exclude:
-          - "(?:4gb_patch\\.exe|\\.txt)$"
+  dependencies:
+    - nam:network-addon-mod-core
+  assets:
+    - assetId: nam-gh
+      exclude: [*exe]
+      include:
+        - "Maxis Transit Lots#?/.*Tollbooths"
+  variants:
+    - variant: { nam:maxis-transit-lots:airport-capacity: "standard" }
+    - variant: { nam:maxis-transit-lots:airport-capacity: "medium" }
+      assets:
+        - assetId: nam-gh
+          exclude: [*exe]
+          include: ["Maxis Transit Lots#?/.*Airport Medium Capacity/"]
+    - variant: { nam:maxis-transit-lots:airport-capacity: "high" }
+      assets:
+        - assetId: nam-gh
+          exclude: [*exe]
+          include: ["Maxis Transit Lots#?/.*Airport Large Capacity/"]
+
+# ---
+- group: nam
+  name: bridges
+  version: "49"
+  subfolder: 770-network-addon-mod/6-misc
+  info:
+    summary: Additional bridges for various networks
+    website: https://www.sc4nam.com/docs/feature-guides/bridges/
+  dependencies:
+    - nam:network-addon-mod-core
+  variants:
+    - variant: { nam:real-highway-mod:enabled: "no" }
+      assets:
+        - assetId: nam-gh
+          include:
+            - *bridgePath
+          exclude:
+            - *exe
+            - "Real Highway/"
+            - "/RHW/"
+    - variant: { nam:real-highway-mod:enabled: "yes" }
+      assets:
+        - assetId: nam-gh
+          include:
+            - *bridgePath
+          exclude:
+            - *exe
