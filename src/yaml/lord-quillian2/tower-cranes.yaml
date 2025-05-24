@@ -1,0 +1,20 @@
+group: lord-quillian2
+name: foss-construction-tower-crane
+version: "3.0"
+subfolder: 100-props-textures
+info:
+  summary: Foss Construction Tower Crane
+  description: |-
+    Contains a tower crane and its tower. The tower unit is 12m high, so it should be raised by 12m every time to make a larger tower. Then the crane should go on top at a multiple of 12m of hight.
+  author: Lord_Quillian2
+  website: https://community.simtropolis.com/files/file/2879-foss-construction-tower-crane/
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/bbbef2c8ad8811c8cc969eec1d2570a0-Crane-props-03.jpg
+assets:
+  - assetId: lord-quillian2-foss-construction-tower-crane
+
+---
+assetId: lord-quillian2-foss-construction-tower-crane
+version: "3.0"
+lastModified: "2025-05-11T19:50:25Z"
+url: https://community.simtropolis.com/files/file/2879-foss-construction-tower-crane/?do=download&r=207635
