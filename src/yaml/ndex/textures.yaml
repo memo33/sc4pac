@@ -7,7 +7,9 @@ assets:
 info:
   summary: "NDEX Texture Set Volume 1"
   author: "Equinox"
-  website: "https://community.simtropolis.com/files/file/11617-ndex-texture-set-volume-1/"
+  websites:
+  - "https://community.simtropolis.com/files/file/11617-ndex-texture-set-volume-1/"
+  - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/373-ndex-texture-pack-vol01"
   images:
     - https://www.simtropolis.com/objects/screens/0011/5f62f51601f32831edeb0a21607f423f-NDEX_Textures_1.jpg
 
