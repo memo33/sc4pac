@@ -190,7 +190,7 @@ packages:
 # ---
 - group: nam
   name: textures
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/8-textures
   info:
     summary: NAM textures and drive side support
@@ -243,13 +243,13 @@ packages:
           exclude: ["Maxis Nite"]
         - ifVariant: { nam:maxis-highway:style: "default", roadstyle: "EU" }  # currently, there aren't any US MHO files
           exclude: ["Maxis Highway Override"]
-        - ifVariant: { nam:maxis-highway:style: "mho", roadstyle: "EU" }
+        - ifVariant: { nam:maxis-highway:style: "MHO", roadstyle: "EU" }
           exclude: []  # no non-MHO files to exclude
 
 # ---
 - group: nam
   name: real-highway-mod
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: Add a series of new highway networks and interchanges
@@ -291,7 +291,7 @@ packages:
 # ---
 - group: nam
   name: maxis-highway
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: Features for Maxis highways, including additional interchanges
@@ -314,7 +314,7 @@ packages:
         - value: "default"
           description: Default Style keeps Maxis Highways and Ground Highways in their original state.
           default: true
-        - value: "mho"
+        - value: "MHO"
           description: |-
             Maxis Highway Override. This style reskins the base Maxis Highway network to better match with the RealHighway (RHW) system.
 
@@ -330,13 +330,13 @@ packages:
       withConditions:
         - ifVariant: { nam:maxis-highway:style: "default" }
           exclude: ["Maxis Highway Override"]
-        - ifVariant: { nam:maxis-highway:style: "mho" }
+        - ifVariant: { nam:maxis-highway:style: "MHO" }
           exclude: ["Default Style"]
 
 # ---
 - group: nam
   name: real-expressway
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: Add a series of Ramp Interfaces for One-Way Roads
@@ -360,7 +360,7 @@ packages:
 # ---
 - group: nam
   name: network-widening-mod
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: Add a number of surface-road networks providing different widths, higher capacity and turn lanes
@@ -388,7 +388,7 @@ packages:
 # ---
 - group: nam
   name: street-addon-mod
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: Add a variety of cosmetic override networks for the Street network
@@ -414,7 +414,7 @@ packages:
 # ---
 - group: nam
   name: ground-light-rail
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: Ground Light Rail and Tram networks
@@ -439,7 +439,7 @@ packages:
 # ---
 - group: nam
   name: hybrid-railway
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: Hybrid Railway
@@ -465,7 +465,7 @@ packages:
 # ---
 - group: nam
   name: high-speed-rail
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: High Speed Rail Project (HSRP)
@@ -488,7 +488,7 @@ packages:
 # ---
 - group: nam
   name: canal-addon-mod
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: Canal Addon Mod (CAN-AM)
@@ -503,16 +503,16 @@ packages:
     - variantId: nam:canal-addon-mod:style
       description: Select a canal style. The matching canal set is not included, but needs to be installed separately.
       values:
-        - value: "cal"
+        - value: "CAL"
           description: CAL Remastered SimGoober canals by **callagrafx**.
           default: true
-        - value: "sg"
+        - value: "SG"
           description: The original SG canals by **SimGoober**.
 
   dependencies:
     - nam:network-addon-mod-core
   variants:
-    - variant: { nam:canal-addon-mod:style: "cal" }
+    - variant: { nam:canal-addon-mod:style: "CAL" }
       assets:
         - &canalAsset
           assetId: nam-gh
@@ -521,7 +521,7 @@ packages:
           exclude:
             - "SimGoober Style"
             - *exe
-    - variant: { nam:canal-addon-mod:style: "sg" }
+    - variant: { nam:canal-addon-mod:style: "SG" }
       assets:
         - <<: *canalAsset
           exclude:
@@ -531,7 +531,7 @@ packages:
 # ---
 - group: nam
   name: real-railway
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/3-overrides  # must load after other network features
   info:
     summary: Real Railway (RRW)
@@ -556,7 +556,7 @@ packages:
 # ---
 - group: nam
   name: one-way-arrows
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: One-Way Road Arrow plugin
@@ -602,7 +602,7 @@ packages:
 # ---
 - group: nam
   name: data-views
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/6-misc
   info:
     summary: Improved versions of transit-related Data Views
@@ -623,7 +623,7 @@ packages:
 # ---
 - group: nam
   name: additional-transit-stations
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/6-misc
   info:
     summary: Add a multitude of new transit stations beyond the game's default
@@ -640,7 +640,7 @@ packages:
 # ---
 - group: nam
   name: traffic-simulator
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/6-misc
   info:
     summary: NAM Traffic Simulator
@@ -680,7 +680,7 @@ packages:
 # ---
 - group: nam
   name: automata-controller
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/6-misc
   info:
     summary: NAM Automata Controller
@@ -716,13 +716,13 @@ packages:
           include: ["Automata Controller#?/.*[=-]Radical Persistent/"]
         - ifVariant: { nam:automata-controller:animation-style: "radical-persistent-24h" }
           include: ["Automata Controller#?/.*[=-]Radical Persistent 24-Hour/"]
-        - ifVariant: { nam:automata-controller:animation-style: "radical-persistent-24h-lb" }
+        - ifVariant: { nam:automata-controller:animation-style: "radical-persistent-24h-LB" }
           include: ["Automata Controller#?/.*[=-]LB Radical Persistent 24-Hour/"]
 
 # ---
 - group: nam
   name: maxis-transit-lots
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/6-misc
   info:
     summary: Updated stats for Maxis Transit Lots
@@ -755,7 +755,7 @@ packages:
 # ---
 - group: nam
   name: bridges
-  version: "49"
+  version: *version
   subfolder: 770-network-addon-mod/6-misc
   info:
     summary: Additional bridges for various networks
