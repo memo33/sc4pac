@@ -1,0 +1,29 @@
+group: "null-45"
+name: "more-demand-info-dll"
+version: "1.3"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-more-demand-info"
+  withChecksum:
+  - include: "/SC4MoreDemandInfo.dll"
+    sha256: a16108a7236ab59ff7aa06406847fe5a3670fce496b0aecf62793ab1d9f6f1b5
+  exclude:
+    - "Census.Repository"  # patch for RippleJet's Census Repository 3.5 is not included in this package, as there is a DLL-based Census Repository 4.0 now
+
+info:
+  summary: "A DLL plugin that provides modders with more RCI demand info"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    This DLL plugin is a dependency for other Mods.
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/35978-sc4-more-demand-info/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/STEXIcon.png.59c37a3a6c5bd2aa3f9d1f55d9094d62.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/MoreDemandInfo.png.c3511a969cc46a867c82ffdad708ec45.png
+
+---
+assetId: "null-45-more-demand-info"
+version: "1.3"
+lastModified: "2024-12-18T05:41:01Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/35978-sc4-more-demand-info/?do=download"
+url: "https://github.com/0xC0000054/sc4-more-demand-info/releases/download/v1.3.0/SC4MoreDemandInfo.zip"

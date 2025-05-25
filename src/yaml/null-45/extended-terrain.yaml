@@ -1,0 +1,31 @@
+group: "null-45"
+name: "extended-terrain-dll"
+version: "1.0"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-extended-terrain"
+  include:
+  - "/ExtendedTerrainUI.dat"
+  withChecksum:
+  - include: "/SC4ExtendedTerrain.dll"
+    sha256: 39a3ae682601d7992473ce328d798ba573e31c5a464d5eaf71c466df77ef81c5
+
+info:
+  summary: "A DLL Plugin that adds support for more terrain types"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    This DLL mod adds a region view cheat code that displays a UI for the user to switch between the different terrain types.
+
+    This DLL mod is intended as a dependency for other mods that add new terrain types beyond the Tropical terrain type that Maxis created.
+    It does not add any terrain types to the game by itself.
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/36614-extended-terrain-dll/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/STEXIcon.png.315a8d2d793b41edc08efaa05377ff8b.png
+
+---
+assetId: "null-45-extended-terrain"
+version: "1.0"
+lastModified: "2024-12-19T12:45:20Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36614-extended-terrain-dll/?do=download"
+url: "https://github.com/0xC0000054/sc4-extended-terrain/releases/download/v1.0/SC4ExtendedTerrain.zip"
