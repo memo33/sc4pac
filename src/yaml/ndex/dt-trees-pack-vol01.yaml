@@ -1,0 +1,34 @@
+group: "ndex"
+name: "dt-trees-pack-vol01"
+version: "2.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/369-ndex-dt-trees-pack-vol01"
+  summary: "Tree props created by DuskTrooper"
+  author: "DuskTrooper"
+  description: |-
+    This prop pack contains a collection of trees created by DuskTrooper, with advice and tricks from N74704.
+
+    These trees are typical of what can be found in the South, particularly, the Houston area, in wooded and urban areas.
+
+    Props contained include:
+    * Water Oak Trees (various types, some with moss)
+    * Southern Live Oak trees (small, and large) with moss
+    * Water Pecan trees
+    * Various Water Trees
+    * Mont Elm Trees
+    * Lombardy Poplar Trees
+    * Various Deciduous trees
+    * Stubby Oak Trees
+  images:
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/DT_trees1_01.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/DT_TREES_001.JPG"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/DT_TREES_002.JPG"
+assets:
+- assetId: "ndex-dt-trees-pack-vol01"
+
+---
+assetId: "ndex-dt-trees-pack-vol01"
+version: "2.0"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=369:ndex-dt-trees-pack-vol01"
+lastModified: "2025-05-05T15:07:31Z"

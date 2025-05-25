@@ -1,0 +1,22 @@
+group: "ndex"
+name: "kd5rax-flora-props-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  summary: "A series of trees and forest props by kd5rax"
+  websites:
+  - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/368-ndex-kd5rax-flora-props-vol01"
+  - "https://community.simtropolis.com/files/file/4100-flora-prop-pack/"
+  - "https://community.simtropolis.com/files/file/3105-forest-props/"
+  author: "kd5rax"
+  images:
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/kd5rax%20-%20Floara%20Prop%20Pack.jpg"
+  - "https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/kd5rax%20-%20Forest%20Props-01.jpg"
+assets:
+- assetId: "ndex-kd5rax-flora-props-vol01"
+
+---
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=368:ndex-kd5rax-flora-props-vol01"
+assetId: "ndex-kd5rax-flora-props-vol01"
+version: "1.0"
+lastModified: "2025-05-05T14:52:24Z"
