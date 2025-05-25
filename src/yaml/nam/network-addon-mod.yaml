@@ -109,10 +109,10 @@ packages:
       exclude:
           # List files below that are contained in other NAM packages.
           # core:
-        - "NAM Controller_(?:RHD|LHD)"                      # nam:network-addon-mod-controller
-        - "Automata Controller#?/"                          # nam:automata-controller
-        - "Traffic Simulator#?/"                            # nam:traffic-simulator
-        - "Network Features/Maxis Highway#?/"               # nam:maxis-highway
+        - "NAM Controller_(?:RHD|LHD)"                               # nam:network-addon-mod-controller
+        - "Automata Controller#?/"                                   # nam:automata-controller
+        - "Traffic Simulator#?/"                                     # nam:traffic-simulator
+        - &mhwPath "Network Features/Maxis Highway#?/"               # nam:maxis-highway
         - &rrwPath "Network Features/.*z_Rail \\(RealRailway\\)"     # nam:real-railway
         - &texPath "Texture and Drive Side Support/"                 # nam:textures
           # optional:
@@ -124,17 +124,17 @@ packages:
         - &hrwPath "Network Features/Hybrid Railway"                 # nam:hybrid-railway
         - &hsrPath "Network Features/.*High Speed Rail Project"      # nam:high-speed-rail
         - &canPath "Network Features/Water Transport"                # nam:canal-addon-mod
-        - &bridgePath "/@57 Bridges/"                                   # nam:bridges
-        - &arrowPath "Network Features/.*One-Way Road Arrow Plugins"   # nam:one-way-arrows
-        - "Maxis Transit Lots#?/"                           # nam:maxis-transit-lots
-        - &dataPath "DataView Options#?/"                             # nam:data-views
-        - &stationsPath "Additional Transit Stations/"                    # nam:additional-transit-stations
+        - &bridgePath "/@57 Bridges/"                                # nam:bridges
+        - &arrowPath "Network Features/.*One-Way Road Arrow Plugins" # nam:one-way-arrows
+        - "Maxis Transit Lots#?/"                                    # nam:maxis-transit-lots
+        - &dataPath "DataView Options#?/"                            # nam:data-views
           # external:
-        - "RRW Tunnel and Slope Parameters"                 # nam-team:tunnel-and-slope-mod
+        - &stationsPath "Additional Transit Stations/"               # nam:additional-transit-stations
+        - "RRW Tunnel and Slope Parameters"                          # nam-team:tunnel-and-slope-mod
           # Exclude non-default options.
-        - "/!"                                              # deselected checkbox like legacy content
-        - "/(@\\d+)?-"                                      # deselected radio button (possibly ordered)
-        - &exe "(?:4gb_patch\\.exe|\\.txt|\\.png|\\.pdn)$"  # exe, txt and other files
+        - "/!"                                                       # deselected checkbox like legacy content
+        - "/(@\\d+)?-"                                               # deselected radio button (possibly ordered)
+        - &exe "(?:4gb_patch\\.exe|\\.txt|\\.png|\\.pdn)$"           # exe, txt and other files
 
 # ---
 - group: nam
@@ -191,7 +191,7 @@ packages:
 - group: nam
   name: textures
   version: "49"
-  subfolder: 770-network-addon-mod/8-tex
+  subfolder: 770-network-addon-mod/8-textures
   info:
     summary: NAM textures and drive side support
     description: |-
@@ -221,151 +221,30 @@ packages:
 
   dependencies:
     - nam:network-addon-mod-controller  # this package is a mandatory part of NAM
-  variants:
-      # MN
-    - variant: { driveside: "right", roadstyle: "US", nightmode: "standard" }
-      assets:
-        - &texAsset
-          assetId: nam-gh
-          include:
-            - *texPath
-          exclude:
-            - "/@1-EU/"
-            - "/@2-US_LeftSide/"
-            - "Dark Nite"
-            # - "Maxis Highway Override"
-            - &deselectedNumberedCheck "/@\\d!"  # deselected numbered checkbox
-            - *exe
-    - variant: { driveside: "left",  roadstyle: "US", nightmode: "standard" }
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@1-EU/"
-            - "/@1=US_RightSide/"
-            - "Dark Nite"
-            # - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
-    - variant: { driveside: "right", roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "default" }
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@0=US/"
-            - "/@2-EU_LeftSide/"
-            - "Dark Nite"
-            - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
-    - variant: { driveside: "left",  roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "default" }
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@0=US/"
-            - "/@1=EU_RightSide/"
-            - "Dark Nite"
-            - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
-    - variant: { driveside: "right", roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "mho" }
-      dependencies:
-        - nam:maxis-highway
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@0=US/"
-            - "/@2-EU_LeftSide/"
-            - "Dark Nite"
-            # - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
-    - variant: { driveside: "left",  roadstyle: "EU", nightmode: "standard", nam:maxis-highway:style: "mho" }
-      dependencies:
-        - nam:maxis-highway
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@0=US/"
-            - "/@1=EU_RightSide/"
-            - "Dark Nite"
-            # - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
-
-      # DN
-    - variant: { driveside: "right", roadstyle: "US", nightmode: "dark" }
-      dependencies:
-        - simfox:day-and-nite-mod
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@1-EU/"
-            - "/@2-US_LeftSide/"
-            - "Maxis Nite"
-            # - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
-    - variant: { driveside: "left",  roadstyle: "US", nightmode: "dark" }
-      dependencies:
-        - simfox:day-and-nite-mod
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@1-EU/"
-            - "/@1=US_RightSide/"
-            - "Maxis Nite"
-            # - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
-    - variant: { driveside: "right", roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "default" }
-      dependencies:
-        - simfox:day-and-nite-mod
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@0=US/"
-            - "/@2-EU_LeftSide/"
-            - "Maxis Nite"
-            - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
-    - variant: { driveside: "left",  roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "default" }
-      dependencies:
-        - simfox:day-and-nite-mod
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@0=US/"
-            - "/@1=EU_RightSide/"
-            - "Maxis Nite"
-            - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
-    - variant: { driveside: "right", roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "mho" }
-      dependencies:
-        - simfox:day-and-nite-mod
-        - nam:maxis-highway
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@0=US/"
-            - "/@2-EU_LeftSide/"
-            - "Maxis Nite"
-            # - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
-    - variant: { driveside: "left",  roadstyle: "EU", nightmode: "dark", nam:maxis-highway:style: "mho" }
-      dependencies:
-        - simfox:day-and-nite-mod
-        - nam:maxis-highway
-      assets:
-        - <<: *texAsset
-          exclude:
-            - "/@0=US/"
-            - "/@1=EU_RightSide/"
-            - "Maxis Nite"
-            # - "Maxis Highway Override"
-            - *deselectedNumberedCheck
-            - *exe
+  assets:
+    - assetId: nam-gh
+      include:
+        - *texPath
+      exclude:
+        - &deselectedNumberedCheck "/@\\d!"  # deselected numbered checkbox
+        - *exe
+      withConditions:
+        - ifVariant: { driveside: "right" }
+          exclude: ["/@2[=-](?:US|EU)_LeftSide/"]
+        - ifVariant: { driveside: "left" }
+          exclude: ["/@1[=-](?:US|EU)_RightSide/"]
+        - ifVariant: { roadstyle: "US" }
+          exclude: ["/@1[=-]EU/"]
+        - ifVariant: { roadstyle: "EU" }
+          exclude: ["/@0[=-]US/"]
+        - ifVariant: { nightmode: "standard" }
+          exclude: ["Dark Nite"]
+        - ifVariant: { nightmode: "dark" }
+          exclude: ["Maxis Nite"]
+        - ifVariant: { nam:maxis-highway:style: "default", roadstyle: "EU" }  # currently, there aren't any US MHO files
+          exclude: ["Maxis Highway Override"]
+        - ifVariant: { nam:maxis-highway:style: "mho", roadstyle: "EU" }
+          exclude: []  # no non-MHO files to exclude
 
 # ---
 - group: nam
@@ -444,21 +323,15 @@ packages:
 
   dependencies:
     - nam:network-addon-mod-controller
-  variants:
-    - variant: { nam:maxis-highway:style: "default" }
-      assets:
-        - assetId: nam-gh
-          include:
-            - "Network Features/Maxis Highway#?/.*Default Style"
-          exclude:
-            - *exe
-    - variant: { nam:maxis-highway:style: "mho" }
-      assets:
-        - assetId: nam-gh
-          include:
-            - "Network Features/Maxis Highway#?/.*Maxis Highway Override"
-          exclude:
-            - *exe
+  assets:
+    - assetId: nam-gh
+      include: [*mhwPath]
+      exclude: [*exe]
+      withConditions:
+        - ifVariant: { nam:maxis-highway:style: "default" }
+          exclude: ["Maxis Highway Override"]
+        - ifVariant: { nam:maxis-highway:style: "mho" }
+          exclude: ["Default Style"]
 
 # ---
 - group: nam
@@ -707,32 +580,24 @@ packages:
 
   dependencies:
     - nam:network-addon-mod-core
-  variants:
-    - variant: { nam:one-way-arrows:style: "single" }
-      assets:
-        - &arrowAsset
-          assetId: nam-gh
-          include:
-            - *arrowPath
+  assets:
+    - assetId: nam-gh
+      include:
+        - *arrowPath
+      exclude:
+        - *exe
+        - "RealExpressway_Arrow_Remover"
+      withConditions:
+        - ifVariant: { nam:one-way-arrows:style: "single" }
           exclude:
-            - *exe
-            - &rew "RealExpressway_Arrow_Remover"
-            - &red "One-Way Road Arrow Reduction"
-            - &elim "One-Way Road Arrow Elimination"
-    - variant: { nam:one-way-arrows:style: "reduce" }
-      assets:
-        - <<: *arrowAsset
+            - &reduceArr "One-Way Road Arrow Reduction"
+            - &elimArr "One-Way Road Arrow Elimination"
+        - ifVariant: { nam:one-way-arrows:style: "reduce" }
           exclude:
-            - *exe
-            - *rew
-            - *elim
-    - variant: { nam:one-way-arrows:style: "eliminate" }
-      assets:
-        - <<: *arrowAsset
+            - *elimArr
+        - ifVariant: { nam:one-way-arrows:style: "eliminate" }
           exclude:
-            - *exe
-            - *rew
-            - *red
+            - *reduceArr
 
 # ---
 - group: nam
@@ -797,17 +662,20 @@ packages:
           description: Highest capacity
 
   dependencies: []  # can be installed stand-alone
-  variants:
-  - variant: { nam:traffic-simulator:capacity: "classic" }
-    assets: [ &tsAsset { assetId: nam-gh, exclude: [*exe], include: ["Traffic Simulator#?/.*[=-]Classic"] }]
-  - variant: { nam:traffic-simulator:capacity: "low" }
-    assets: [{ <<: *tsAsset, include: ["Traffic Simulator#?/.*[=-]Low"] }]
-  - variant: { nam:traffic-simulator:capacity: "medium" }
-    assets: [{ <<: *tsAsset, include: ["Traffic Simulator#?/.*[=-]Medium"] }]
-  - variant: { nam:traffic-simulator:capacity: "high" }
-    assets: [{ <<: *tsAsset, include: ["Traffic Simulator#?/.*[=-]High"] }]
-  - variant: { nam:traffic-simulator:capacity: "ultra" }
-    assets: [{ <<: *tsAsset, include: ["Traffic Simulator#?/.*[=-]Ultra"] }]
+  assets:
+    - assetId: nam-gh
+      exclude: [*exe]
+      withConditions:
+        - ifVariant: { nam:traffic-simulator:capacity: "classic" }
+          include: ["Traffic Simulator#?/.*[=-]Classic"]
+        - ifVariant: { nam:traffic-simulator:capacity: "low" }
+          include: ["Traffic Simulator#?/.*[=-]Low"]
+        - ifVariant: { nam:traffic-simulator:capacity: "medium" }
+          include: ["Traffic Simulator#?/.*[=-]Medium"]
+        - ifVariant: { nam:traffic-simulator:capacity: "high" }
+          include: ["Traffic Simulator#?/.*[=-]High"]
+        - ifVariant: { nam:traffic-simulator:capacity: "ultra" }
+          include: ["Traffic Simulator#?/.*[=-]Ultra"]
 
 # ---
 - group: nam
@@ -828,25 +696,28 @@ packages:
           default: true
 
   dependencies: []  # can be installed stand-alone
-  variants:
-  - variant: { nam:automata-controller:animation-style: "standard" }
-    assets: [ &acAsset { assetId: nam-gh, exclude: [*exe], include: ["Automata Controller#?/.*[=-]Standard/"] }]
-  - variant: { nam:automata-controller:animation-style: "standard-24h" }
-    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Standard 24-Hour/"] }]
-  - variant: { nam:automata-controller:animation-style: "standard-persistent" }
-    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Standard Persistent/"] }]
-  - variant: { nam:automata-controller:animation-style: "standard-persistent-24h" }
-    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Standard Persistent 24-Hour/"] }]
-  - variant: { nam:automata-controller:animation-style: "radical" }
-    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Radical/"] }]
-  - variant: { nam:automata-controller:animation-style: "radical-24h" }
-    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Radical 24-Hour/"] }]
-  - variant: { nam:automata-controller:animation-style: "radical-persistent" }
-    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Radical Persistent/"] }]
-  - variant: { nam:automata-controller:animation-style: "radical-persistent-24h" }
-    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]Radical Persistent 24-Hour/"] }]
-  - variant: { nam:automata-controller:animation-style: "radical-persistent-24h-lb" }
-    assets: [{ <<: *acAsset, include: ["Automata Controller#?/.*[=-]LB Radical Persistent 24-Hour/"] }]
+  assets:
+    - assetId: nam-gh
+      exclude: [*exe]
+      withConditions:
+        - ifVariant: { nam:automata-controller:animation-style: "standard" }
+          include: ["Automata Controller#?/.*[=-]Standard/"]
+        - ifVariant: { nam:automata-controller:animation-style: "standard-24h" }
+          include: ["Automata Controller#?/.*[=-]Standard 24-Hour/"]
+        - ifVariant: { nam:automata-controller:animation-style: "standard-persistent" }
+          include: ["Automata Controller#?/.*[=-]Standard Persistent/"]
+        - ifVariant: { nam:automata-controller:animation-style: "standard-persistent-24h" }
+          include: ["Automata Controller#?/.*[=-]Standard Persistent 24-Hour/"]
+        - ifVariant: { nam:automata-controller:animation-style: "radical" }
+          include: ["Automata Controller#?/.*[=-]Radical/"]
+        - ifVariant: { nam:automata-controller:animation-style: "radical-24h" }
+          include: ["Automata Controller#?/.*[=-]Radical 24-Hour/"]
+        - ifVariant: { nam:automata-controller:animation-style: "radical-persistent" }
+          include: ["Automata Controller#?/.*[=-]Radical Persistent/"]
+        - ifVariant: { nam:automata-controller:animation-style: "radical-persistent-24h" }
+          include: ["Automata Controller#?/.*[=-]Radical Persistent 24-Hour/"]
+        - ifVariant: { nam:automata-controller:animation-style: "radical-persistent-24h-lb" }
+          include: ["Automata Controller#?/.*[=-]LB Radical Persistent 24-Hour/"]
 
 # ---
 - group: nam
@@ -873,19 +744,12 @@ packages:
   assets:
     - assetId: nam-gh
       exclude: [*exe]
-      include:
-        - "Maxis Transit Lots#?/.*Tollbooths"
-  variants:
-    - variant: { nam:maxis-transit-lots:airport-capacity: "standard" }
-    - variant: { nam:maxis-transit-lots:airport-capacity: "medium" }
-      assets:
-        - assetId: nam-gh
-          exclude: [*exe]
+      include: ["Maxis Transit Lots#?/.*Tollbooths"]
+      withConditions:
+        - ifVariant: { nam:maxis-transit-lots:airport-capacity: "standard" }
+        - ifVariant: { nam:maxis-transit-lots:airport-capacity: "medium" }
           include: ["Maxis Transit Lots#?/.*Airport Medium Capacity/"]
-    - variant: { nam:maxis-transit-lots:airport-capacity: "high" }
-      assets:
-        - assetId: nam-gh
-          exclude: [*exe]
+        - ifVariant: { nam:maxis-transit-lots:airport-capacity: "high" }
           include: ["Maxis Transit Lots#?/.*Airport Large Capacity/"]
 
 # ---
@@ -898,20 +762,16 @@ packages:
     website: https://www.sc4nam.com/docs/feature-guides/bridges/
   dependencies:
     - nam:network-addon-mod-core
-  variants:
-    - variant: { nam:real-highway-mod:enabled: "no" }
-      assets:
-        - assetId: nam-gh
-          include:
-            - *bridgePath
+  assets:
+    - assetId: nam-gh
+      include:
+        - *bridgePath
+      exclude:
+        - *exe
+      withConditions:
+        - ifVariant: { nam:real-highway-mod:enabled: "no" }
           exclude:
-            - *exe
             - "Real Highway/"
             - "/RHW/"
-    - variant: { nam:real-highway-mod:enabled: "yes" }
-      assets:
-        - assetId: nam-gh
-          include:
-            - *bridgePath
-          exclude:
-            - *exe
+        - ifVariant: { nam:real-highway-mod:enabled: "yes" }
+          exclude: []
