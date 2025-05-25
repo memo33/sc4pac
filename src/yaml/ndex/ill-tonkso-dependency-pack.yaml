@@ -6,7 +6,7 @@ lastModified: "2025-05-07T09:34:15Z"
 ---
 group: "ndex"
 name: "its-mega-pack-vol01"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
@@ -18,7 +18,7 @@ info:
     * [NDEX ITS Georgian Set 2](https://community.simtropolis.com/files/file/17939-ndex-its-georgian-set-2/) - aka _NDEX\_ITS\_Brenntia\_Cityset 4-6_
     * [NDEX ITS Georgian Set 3](https://community.simtropolis.com/files/file/17940-ndex-its-georgian-set-3/) - aka _NDEX\_ITS\_Brenntia\_Cityset 7-9_
     * [ITS - UK High Street Shops Set vol01](https://community.simtropolis.com/files/file/13588-uk-high-street-shops-tonkso-set-1/)
-    * [ITS - UK High Street Shops Set vol02](https://community.simtropolis.com/files/file/13596-uk-high-street-shops-tonkso-set-2/)  
+    * [ITS - UK High Street Shops Set vol02](https://community.simtropolis.com/files/file/13596-uk-high-street-shops-tonkso-set-2/)
     * [ITS - UK High Street Shops Set vol03](https://community.simtropolis.com/files/file/13632-uk-high-street-shops-tonkso-set-3/) - aka _ITS\_PropPack\_Old\_Shops.dat_
     * [ITS - UK High Street Shops Set vol04 Ottakers Bookstore](https://community.simtropolis.com/files/file/17382-its-shopset-4-ottakers-bookstore/) - aka _ITS\_Shopset4\_1_
     * [ITS - UK High Street Shops Set vol04 Debenhas Department Store](https://community.simtropolis.com/files/file/17383-its-shopset-4-debenhams-department-store/) - aka _ITS\_Shopset4\_2_
@@ -41,7 +41,7 @@ assets:
 ---
 group: "ndex"
 name: "its-mega-pack-vol02"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
@@ -69,7 +69,7 @@ assets:
 ---
 group: "ndex"
 name: "its-mega-pack-vol03"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
@@ -101,7 +101,7 @@ assets:
 ---
 group: "ndex"
 name: "its-mega-pack-vol04"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
@@ -123,7 +123,7 @@ assets:
 ---
 group: "ndex"
 name: "its-mega-pack-vol05"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
@@ -154,14 +154,14 @@ assets:
 ---
 group: "ndex"
 name: "its-mega-pack-vol06"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
   summary: "Models by Ill Tonkso"
   description: |-
     The following models are included:
-    
+
     * [ITS - 10 Upper Bank Street Canary Wharf](https://community.simtropolis.com/files/file/14355-10-upper-bank-street-canary-wharf/)
     * [ITS - Cardiff Capital Tower](https://community.simtropolis.com/files/file/13424-cardiff-capital-tower/)
     * [ITS - IBM Basingstoke](https://community.simtropolis.com/files/file/13446-ibm-basingstoke/)
@@ -180,14 +180,14 @@ assets:
 ---
 group: "ndex"
 name: "its-mega-pack-vol07"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
   summary: "Models by Ill Tonkso"
   description: |-
     The following models are included:
-    
+
     * [ITS - One Cabot Square Canary Wharf](https://community.simtropolis.com/files/file/14388-one-cabot-square-canary-wharf/)
     * [NDEX ITS 286 Euston Road](https://community.simtropolis.com/files/file/20250-ndex-its-286-euston-road/)
     * [NDEX ITS Churchill Plaza, Basingstoke](https://community.simtropolis.com/files/file/20021-ndex-its-churchill-plaza-basingstoke/)
@@ -203,14 +203,14 @@ assets:
 ---
 group: "ndex"
 name: "its-mega-pack-vol08"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
   summary: "Models by Ill Tonkso"
   description: |-
     The following models are included:
-    
+
     * [ITS - Ship Anson, Portsmouth](https://community.simtropolis.com/files/file/15585-the-ship-anson/)
     * [NDEX ITS Small Town Generic Office Park](https://community.simtropolis.com/files/file/18607-ndex-its-boring-generic-suburban-office-park/)
     * [NDEX ITS 24 Broad Street](https://community.simtropolis.com/files/file/17958-ndex-its-24-broad-street/)
@@ -234,14 +234,14 @@ assets:
 ---
 group: "ndex"
 name: "its-mega-pack-vol09"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
   summary: "Models by Ill Tonkso"
   description: |-
     These models were formerly linked for the BSC Rayden CAM Commercial and Residential sets. The following models are included:
-    
+
     * [NDEX ITS 62 Telford Row](https://community.simtropolis.com/files/file/20024-ndex-its-62-telford-row/)
     * [NDEX ITS 82 Chatham Street](https://community.simtropolis.com/files/file/20762-ndex-its-82-chatham-street/)
     * [NDEX ITS Albert Bridge House, Manchester](https://community.simtropolis.com/files/file/20195-ndex-its-albert-bridge-house-manchester/)
@@ -268,7 +268,7 @@ assets:
 ---
 group: "ndex"
 name: "its-mega-pack-vol10"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
@@ -295,7 +295,7 @@ assets:
 ---
 group: "ndex"
 name: "its-mega-pack-vol11"
-version: "1"
+version: "2"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/375-sc4-legacy-ndex-ill-tonkso-dependency-pack"
@@ -336,7 +336,7 @@ info:
   summary: "Models by Ill Tonkso"
   description: |-
     The following models are included:
-    
+
     * [ITS - Ill Tonkso's Unreleased Stuff vol01](https://community.simtropolis.com/files/file/15516-its-unreleased-set-vol1/)
       * Canalside Mills
     * [ITS - The Metropolitan Mal](https://community.simtropolis.com/files/file/16004-the-metropolitan-mall/)l
@@ -360,7 +360,7 @@ info:
   summary: "Models by Ill Tonkso"
   description: |-
     The following models are included:
-    
+
     * [ITS - Ill Tonkso's Unreleased Stuff vol01](https://community.simtropolis.com/files/file/15516-its-unreleased-set-vol1/)
       * BirmingsfieldRegency
       * ITS\_BrenntLife2\_Model
@@ -395,7 +395,7 @@ info:
   summary: "Models by Ill Tonkso"
   description: |-
     The following models are included:
-    
+
     * [ITS - Tonksies Fun Pools Swimming Center V2](https://community.simtropolis.com/files/file/11757-tonksies-fun-pools/)
     * [ITS - Brenntia National Library](https://community.simtropolis.com/files/file/15468-brenntia-national-library/)
     * [ITS - Ill Tonkso's Unreleased Stuff vol01](https://community.simtropolis.com/files/file/15516-its-unreleased-set-vol1/)
@@ -436,7 +436,7 @@ info:
   summary: "Models by Ill Tonkso"
   description: |-
     The following models are included:
-    
+
     * [ITS - Ill Tonkso's Unreleased Stuff vol01](https://community.simtropolis.com/files/file/15516-its-unreleased-set-vol1/)
       * ITS\_Southbury\_Station
     * [ITS - Eastland Grand Underground Station](https://community.simtropolis.com/files/file/12521-eastland-grand-underground-station/)
@@ -479,4 +479,3 @@ assets:
 - assetId: "sc4-legacy-ndex-ill-tonkso-dependency-pack"
   include:
   - "/NDEX ITS MEGA Props Vol15.dat"
- 

@@ -4,10 +4,10 @@ version: "2.0"
 subfolder: "100-props-textures"
 info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/369-ndex-dt-trees-pack-vol01"
-  summary: "Contains a collection of trees created by DuskTrooper"
+  summary: "Tree props created by DuskTrooper"
   author: "DuskTrooper"
   description: |-
-    This prop pack contains a collection of trees created by DuskTrooper, with the advice and tricks from N74704.
+    This prop pack contains a collection of trees created by DuskTrooper, with advice and tricks from N74704.
 
     These trees are typical of what can be found in the South, particularly, the Houston area, in wooded and urban areas.
 
@@ -20,15 +20,7 @@ info:
     * Lombardy Poplar Trees
     * Various Deciduous trees
     * Stubby Oak Trees
-
-    FILES INCLUDED:
-
-    *NDEX DT Trees PropsV1.001.dat*
-
-    These props can be used for your own personal lot editing, or can be used on custom lots uploaded on the exchanges, as long as you do NOT include the props with the upload, and link users to this pack as a dependency.  Also, you must credit the creator (DuskTrooper).
   images:
-  - "https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/kd5rax%20-%20Floara%20Prop%20Pack.jpg"
-  - "https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/kd5rax%20-%20Forest%20Props-01.jpg"
   - "https://www.sc4evermore.com/images/jdownloads/screenshots/DT_trees1_01.jpg"
   - "https://www.sc4evermore.com/images/jdownloads/screenshots/DT_TREES_001.JPG"
   - "https://www.sc4evermore.com/images/jdownloads/screenshots/DT_TREES_002.JPG"
