@@ -7,7 +7,8 @@ assets:
   withChecksum:
   - include: "/SC4MoreDemandInfo.dll"
     sha256: a16108a7236ab59ff7aa06406847fe5a3670fce496b0aecf62793ab1d9f6f1b5
-  # patch for RippleJet's Census Repository 3.5 is not included in this package, as there is a DLL-based Census Repository 4.0 now
+  exclude:
+    - "Census.Repository"  # patch for RippleJet's Census Repository 3.5 is not included in this package, as there is a DLL-based Census Repository 4.0 now
 
 info:
   summary: "A DLL plugin that provides modders with more RCI demand info"
