@@ -6,9 +6,9 @@ assets:
 - assetId: "null-45-query-tool-ui-extensions"
   withChecksum:
   - include: "/SC4QueryUIHooks.dll"
-    sha256: f2d0a49cb021d21d303bf936817f390ead751981299d08a83917ec626a2ced51
+    sha256: 6b213639b7c69dc67ecea4caf5f3a6099907741e1191cadd7dac170ef1f3dab6
   - include: "/SC4QueryUIHooks.ini"
-    sha256: 5c940d1f3b5717872bb87c6c4e994485d0a2a3da64c7451c9f72497f4a147d7f
+    sha256: 25c2065ea205b46c3d1b487c5907e2f9eb44c1caad8aec89cd43ea4dd0a834d3
 
 info:
   summary: "A DLL plugin that adds various enhancements to the building query tool and query dialog"

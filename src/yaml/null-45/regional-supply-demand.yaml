@@ -8,7 +8,7 @@ assets:
   - "/RegionalSupplyDemand.dat"
   withChecksum:
   - include: "/SC4RegionalSupplyDemand.dll"
-    sha256: 416ec670c04822ef87437e8d694becf7be1c06c7c4ac20acffd32b0d958fda04
+    sha256: 8e4b24d519cccf7c02c2877058e1fb1aab1ba704d39dfe02304f21b8756f0e85
 
 info:
   summary: "Adds a basic supply/demand system in the form of a region-wide resource pool"

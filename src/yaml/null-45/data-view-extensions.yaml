@@ -9,7 +9,7 @@ assets:
   # optional transient aura not included in this package for now
   withChecksum:
   - include: "/SC4DataViewExtensions.dll"
-    sha256: 989282cf576df93cec1c9128be232b383f1f5427fed487f7cb0fcff55992e678
+    sha256: 401ff94f8b7f9bfdf6209a1908422125a3aec39248dcf616844cc040f4e8b2fd
 
 info:
   summary: "A DLL Plugin that extends the game's data views"

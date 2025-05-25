@@ -8,7 +8,7 @@ assets:
   - "/ExtendedTerrainUI.dat"
   withChecksum:
   - include: "/SC4ExtendedTerrain.dll"
-    sha256: dbecb5f3df415523c452395901a50c8fbed67cd4a13e1b2aa372d24166ea0ced
+    sha256: 39a3ae682601d7992473ce328d798ba573e31c5a464d5eaf71c466df77ef81c5
 
 info:
   summary: "A DLL Plugin that adds support for more terrain types"

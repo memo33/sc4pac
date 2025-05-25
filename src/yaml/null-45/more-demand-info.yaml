@@ -6,7 +6,7 @@ assets:
 - assetId: "null-45-more-demand-info"
   withChecksum:
   - include: "/SC4MoreDemandInfo.dll"
-    sha256: 55fe6872b201792e6fa7d5361f42901a1d97cf2fb3d24c10405604a88128cff5
+    sha256: a16108a7236ab59ff7aa06406847fe5a3670fce496b0aecf62793ab1d9f6f1b5
   # patch for RippleJet's Census Repository 3.5 is not included in this package, as there is a DLL-based Census Repository 4.0 now
 
 info:

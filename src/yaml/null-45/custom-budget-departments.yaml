@@ -6,7 +6,7 @@ assets:
 - assetId: "null-45-custom-budget-departments"
   withChecksum:
   - include: "/CustomBudgetDepartments.dll"
-    sha256: b58b7600a3f0bf91b589bad909446a84ba2da2f0423cf7865849d56a6deac6c3
+    sha256: e6d7250e35743dd12988c8740da4fd5baee915d532a731a641c2058f29afeb6d
 
 info:
   summary: "A DLL plugin that allows new budget departments to be added to the game"
