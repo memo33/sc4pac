@@ -1,18 +1,18 @@
 group: "null-45"
-name: "remove-phantom-budget-items"
+name: "remove-phantom-budget-items-dll"
 version: "1.0"
 subfolder: "150-mods"
 assets:
 - assetId: "null-45-remove-phantom-budget-items"
   withChecksum:
   - include: "/SC4RemovePhantomBudgetItems.dll"
-    sha256: 0a8aced225499ad874a5edf484dcc54f9c1257831f95a80f05284d7a6bd666a7 
+    sha256: 0a8aced225499ad874a5edf484dcc54f9c1257831f95a80f05284d7a6bd666a7
 
 info:
-  summary: "A DLL Plugin for SimCity 4 that removes phantom items from the budget department lists."
+  summary: "A DLL Plugin that removes phantom items from the budget department lists"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    This DLL only removes the phantom budget entries, it does not remove the buildings, lots, or other in-game effects such as the Landmark or Park effects. 
+    This DLL only removes the phantom budget entries, it does not remove the buildings, lots, or other in-game effects such as the Landmark or Park effects.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36437-remove-phantom-budget-items-dll-plugin/"
   images:

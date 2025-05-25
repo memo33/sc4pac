@@ -1,20 +1,22 @@
 group: "null-45"
-name: "data-view-extensions"
+name: "data-view-extensions-dll"
 version: "1.0"
 subfolder: "150-mods"
 assets:
 - assetId: "null-45-data-view-extensions"
+  include:
+  - "/ExtendedDataViewUI.dat"
+  # optional transient aura not included in this package for now
   withChecksum:
   - include: "/SC4DataViewExtensions.dll"
-    sha256: 989282cf576df93cec1c9128be232b383f1f5427fed487f7cb0fcff55992e678 
-  - include: "/ExtendedDataViewUI.dat"
-    sha256: d543575a12c2c0bb3352dfd59d9b277314cf9c5d3927c85e07843fe30361689d 
+    sha256: 989282cf576df93cec1c9128be232b383f1f5427fed487f7cb0fcff55992e678
 
 info:
-  summary: "A DLL Plugin for SimCity 4 that extends the game's data views."
+  summary: "A DLL Plugin that extends the game's data views"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    This DLL plugin is a dependency for other Mods. 
+    This plugin includes a modified data view UI that adds dedicated radio buttons for Moisture, Park Aura and Landmark Aura data views.
+    The modified UI is otherwise identical to the standard Maxis UI, so it will work with existing mods that re-purpose the Maxis data view radio buttons.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36632-data-view-extensions-dll/"
   images:

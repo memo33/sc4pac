@@ -1,20 +1,49 @@
 group: "null-45"
-name: "query-tool-ui-extensions"
+name: "query-tool-ui-extensions-dll"
 version: "2.4"
 subfolder: "150-mods"
 assets:
 - assetId: "null-45-query-tool-ui-extensions"
   withChecksum:
   - include: "/SC4QueryUIHooks.dll"
-    sha256: f2d0a49cb021d21d303bf936817f390ead751981299d08a83917ec626a2ced51 
+    sha256: f2d0a49cb021d21d303bf936817f390ead751981299d08a83917ec626a2ced51
   - include: "/SC4QueryUIHooks.ini"
-    sha256: 5c940d1f3b5717872bb87c6c4e994485d0a2a3da64c7451c9f72497f4a147d7f 
+    sha256: 5c940d1f3b5717872bb87c6c4e994485d0a2a3da64c7451c9f72497f4a147d7f
 
 info:
   summary: "A DLL plugin that adds various enhancements to the building query tool and query dialog"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    This DLL plugin is a dependency for other Mods. 
+
+    ### Shift + Click Object Copying
+
+    Some objects can be copied by holding down the shift key and clicking on them with the query tool.
+
+    - Buildings: Clicking a building will activate the Place Lot tool with the building's lot selected. Note that the exact building may be different if the lot uses Building Families.
+    - Flora: Clicking certain flora types will activate the Place Flora tool with that flora type selected. Note that this only works with the flora objects that have a hover query tool tip.
+
+    ### Extended Terrain Query
+
+    The TerrainQuery command now shows the x, y, and z variables without truncating to the first decimal place, and the cell moisture value is now provided as part of the standard query info.
+
+    - Alternate Terrain Query: This mode is accessed by holding the Alt key. It shows the humidity and ambient wind information, this data appears to be for the entire tile instead of varying per-cell.
+    - Pollution Terrain Query: This mode is accessed by holding the Ctrl key. It shows the flammability, land value, and pollution (air, water, garbage, and radiation).
+
+    ### Advanced Query Tool Tips
+
+    These tool tips are accessed by holding Control + Alt + Shift when hovering over an appropriate item.
+
+    - Flora: This tool tip provides the flora object's exemplar name, birth date, and last seeding date.
+    - Network: This tool tip provides technical info about the transportation networks, excluding power lines and pipes.
+    - Props: This tool tip provides the prop object's exemplar name.
+
+    Moreover, the DLL is a dependency for other Mods, providing services that can be used to add more building query values and/or customize the building and network tool tips.
+  warning: |-
+    This DLL plugin comes with an INI configuration file:
+
+    * `SC4QueryUIHooks.ini`
+
+    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/"
   images:

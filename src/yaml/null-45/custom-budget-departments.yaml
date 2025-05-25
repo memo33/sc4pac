@@ -1,18 +1,18 @@
 group: "null-45"
-name: "custom-budget-departments"
+name: "custom-budget-departments-dll"
 version: "1.0"
 subfolder: "150-mods"
 assets:
 - assetId: "null-45-custom-budget-departments"
   withChecksum:
   - include: "/CustomBudgetDepartments.dll"
-    sha256: b58b7600a3f0bf91b589bad909446a84ba2da2f0423cf7865849d56a6deac6c3 
+    sha256: b58b7600a3f0bf91b589bad909446a84ba2da2f0423cf7865849d56a6deac6c3
 
 info:
-  summary: "A DLL plugin for SimCity 4 that allows new budget departments to be added to the game using a building's exemplar. "
+  summary: "A DLL plugin that allows new budget departments to be added to the game"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    This DLL plugin is a dependency for other Mods. 
+    This DLL plugin is a dependency for other Mods.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36481-custom-budget-departments-dll-plugin/"
   images:

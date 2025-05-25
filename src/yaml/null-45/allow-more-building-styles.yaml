@@ -1,22 +1,31 @@
 group: "null-45"
-name: "allow-more-building-styles"
+name: "allow-more-building-styles-dll"
 version: "3.3.2"
 subfolder: "150-mods"
 assets:
 - assetId: "null-45-allow-more-building-styles"
   withChecksum:
   - include: "/SC4MoreBuildingStyles.dll"
-    sha256: b7c5f5afd70b3f29a722ab6f9077ba049310970e29adb935eb1b3cc08a4a1aec
+    sha256: 68a7cfc1d04dbcb1354801cdb1f320517b525a2086f1a58e3f8f7103402b704d
   - include: "/SC4MoreBuildingStyles.ini"
-    sha256: 3dd4f135b7c5a9cfa40167500ed473cb4f844f960b624b2404f71c26c0ff0b2b
+    sha256: 4a02425b6d9ac5bb8293b0ee64cbac472125465587d33d37b23e4b45d57193f3
   - include: "/BuildingStyles.ini"
-    sha256: 10f22a925f67c3341dc4e36049c8389b0a232212b8c444b115b1ef0b663fa511
+    sha256: 06a12f502cb1a2f968b61c048e8bd91272acf94bc0e191d528fbfe9c15bcb791
 
 info:
-  summary: "A DLL Plugin for SimCity 4 that allows the game to use more than 4 building styles. "
+  summary: "A DLL Plugin that allows the game to use more than 4 building styles"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    This DLL plugin is a dependency for other Mods.
+    This DLL mod is intended as a dependency for other mods that add new building styles beyond the 4 that Maxis included. It does not add any building styles to the game by itself.
+
+    Moreover, the DLL fixes a game bug to make the "build all styles at once" feature work as Maxis intended.
+  warning: |-
+    This DLL plugin comes with two INI configuration files:
+
+    * `SC4MoreBuildingStyles.ini`
+    * `BuildingStyles.ini`
+
+    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/"
   images:
