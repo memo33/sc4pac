@@ -14,10 +14,18 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2024_12/FA_kparc_Plaza.jpg.c0671af406fd1f633a844b8373e89ce9.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_12/TE_type1.jpg.3c82f4852ba72b802855a3c32c6b9ff6.jpg
   author: "hugues aroux"
-assets:
-- assetId: "hugues-aroux-textures-pack"
-  exclude:  # for simplicity, we exclude non-default choices for now, as this is just one tiny texture anyway
-  - _choose/.*(?<!Maxis|NAM)\.dat$
+variants:
+  - variant: { driveside: "right" }
+    assets:
+    - assetId: "hugues-aroux-textures-pack"
+      exclude:  # for simplicity, we exclude non-default choices for now, as this is just one tiny texture anyway
+      - &path _choose/.*(?<!Maxis|NAM)\.dat$
+      - _LHD\.dat$
+  - variant: { driveside: "left" }
+    assets:
+    - assetId: "hugues-aroux-textures-pack"
+      exclude:
+      - *path
 
 ---
 url: "https://community.simtropolis.com/files/file/36297-scoty-textures-packs/?do=download"
