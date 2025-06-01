@@ -1,6 +1,6 @@
 group: "hugues-aroux"
 name: "textures-pack"
-version: "1.0.6"
+version: "1.1.0"
 subfolder: "100-props-textures"
 info:
   summary: "Scoty textures pack"
@@ -22,5 +22,5 @@ assets:
 ---
 url: "https://community.simtropolis.com/files/file/36297-scoty-textures-packs/?do=download"
 assetId: "hugues-aroux-textures-pack"
-version: "1.0.6"
-lastModified: "2025-03-05T21:27:46Z"
+version: "1.1.0"
+lastModified: "2025-05-29T20:56:34Z"
