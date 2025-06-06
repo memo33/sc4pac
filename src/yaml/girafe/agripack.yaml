@@ -3,13 +3,40 @@ name: "agripack-props"
 version: "3.0"
 subfolder: "100-props-textures"
 info:
-  summary: "Agricultural props created by girafe"
+  summary: "Agricultural props by girafe"
   website: "https://www.sc4evermore.com/index.php/downloads/download/43-agriculture/210-bsc-vip-girafe-agripack-vol01-v2"
   author: "Girafe"
 assets:
 - assetId: "bsc-vip-girafe-agripack-props"
   include:
   - "/Grfe_Props_Pack_Agripack_vol01 v..dat"
+
+---
+group: "girafe"
+name: "agripack-farms"
+version: "3.0"
+subfolder: "410-agriculture"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/43-agriculture/210-bsc-vip-girafe-agripack-vol01-v2"
+  summary: "A collection of seasonal corn, rapeseed, and wheat fields"
+  author: "Girafe"
+  description: |-
+    Corn, rapeseed and wheat are available as ploppable lots (1 lot with tractors and 1 lot without tractors each), which you can find under park menu.
+
+    This pack also includes growable farms and farm fields.
+
+    **Note: the farms do not include any visible building (farm house) - only a plain field.**
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Image_agripack_2.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Image_agripack_1.jpg
+assets:
+- assetId: "bsc-vip-girafe-agripack-props"
+  exclude:
+  - "/Grfe_Props_Pack_Agripack_vol01 v..dat"
+dependencies:
+- "girafe:agripack-props"
+- "memo:submenus-dll"
+- "null-45:allow-more-building-styles-dll"
 
 ---
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=210:bsc-vip-girafe-agripack-vol01"
