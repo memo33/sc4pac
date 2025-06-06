@@ -6,6 +6,8 @@ info:
   summary: "Agricultural props by girafe"
   website: "https://www.sc4evermore.com/index.php/downloads/download/43-agriculture/210-bsc-vip-girafe-agripack-vol01-v2"
   author: "Girafe"
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/Image_agripack_props.jpg
 assets:
 - assetId: "bsc-vip-girafe-agripack-props"
   include:
