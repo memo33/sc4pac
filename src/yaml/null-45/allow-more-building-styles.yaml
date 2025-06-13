@@ -1,16 +1,18 @@
 group: "null-45"
 name: "allow-more-building-styles-dll"
-version: "3.3.2"
+version: "3.4.0"
 subfolder: "150-mods"
 assets:
 - assetId: "null-45-allow-more-building-styles"
   withChecksum:
   - include: "/SC4MoreBuildingStyles.dll"
-    sha256: 68a7cfc1d04dbcb1354801cdb1f320517b525a2086f1a58e3f8f7103402b704d
+    sha256: b5852359cea1bf45f8671e13e50babc005a87f0f051a833beea8a8222ff8945f
   - include: "/SC4MoreBuildingStyles.ini"
-    sha256: 4a02425b6d9ac5bb8293b0ee64cbac472125465587d33d37b23e4b45d57193f3
+    sha256: 3dd4f135b7c5a9cfa40167500ed473cb4f844f960b624b2404f71c26c0ff0b2b
   - include: "/BuildingStyles.ini"
-    sha256: 06a12f502cb1a2f968b61c048e8bd91272acf94bc0e191d528fbfe9c15bcb791
+    sha256: 10f22a925f67c3341dc4e36049c8389b0a232212b8c444b115b1ef0b663fa511
+  - include: "/SC4MoreBuildingStyles.dat"
+    sha256: b81e46f8e8505de74a8a8a4b12d2132e3aa6162e43171d77b5456d714e290c3c
 
 info:
   summary: "A DLL Plugin that allows the game to use more than 4 building styles"
@@ -33,7 +35,7 @@ info:
 
 ---
 assetId: "null-45-allow-more-building-styles"
-version: "3.3.2"
-lastModified: "2025-05-07T04:57:27Z"
+version: "3.4.0"
+lastModified: "2025-06-13T01:56:58Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/?do=download"
-url: "https://github.com/0xC0000054/sc4-more-building-styles/releases/download/v3.3.2/SC4MoreBuildingStyles.zip"
+url: "https://github.com/0xC0000054/sc4-more-building-styles/releases/download/v3.4.0/SC4MoreBuildingStyles.zip"
