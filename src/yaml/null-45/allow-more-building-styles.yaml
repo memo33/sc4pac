@@ -10,7 +10,7 @@ assets:
   - include: "/SC4MoreBuildingStyles.ini"
     sha256: 3dd4f135b7c5a9cfa40167500ed473cb4f844f960b624b2404f71c26c0ff0b2b
   - include: "/BuildingStyles.ini"
-    sha256: 10f22a925f67c3341dc4e36049c8389b0a232212b8c444b115b1ef0b663fa511
+    sha256: 06a12f502cb1a2f968b61c048e8bd91272acf94bc0e191d528fbfe9c15bcb791
   - include: "/SC4MoreBuildingStyles.dat"
     sha256: b81e46f8e8505de74a8a8a4b12d2132e3aa6162e43171d77b5456d714e290c3c
 
