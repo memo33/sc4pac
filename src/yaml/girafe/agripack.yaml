@@ -35,8 +35,10 @@ assets:
 - assetId: "bsc-vip-girafe-agripack-props"
   exclude:
   - "/Grfe_Props_Pack_Agripack_vol01 v..dat"
+  - "/Wheat/.*\\.dat$"
 dependencies:
 - "girafe:agripack-props"
+- "girafe:wheat"
 
 ---
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=210:bsc-vip-girafe-agripack-vol01"
