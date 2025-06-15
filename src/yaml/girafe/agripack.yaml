@@ -37,8 +37,6 @@ assets:
   - "/Grfe_Props_Pack_Agripack_vol01 v..dat"
 dependencies:
 - "girafe:agripack-props"
-- "memo:submenus-dll"
-- "null-45:allow-more-building-styles-dll"
 
 ---
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=210:bsc-vip-girafe-agripack-vol01"
