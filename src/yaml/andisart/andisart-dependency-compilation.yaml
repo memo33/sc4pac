@@ -39,7 +39,7 @@ variants:
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Confessions-Tour-Edition_v2.dat" ]
-  - variant: { andisart:madison-square-garden-prop-pack:msg: rolling stones version}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: rolling-stones-version}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Rolling-Stones_Version.dat" ]
@@ -55,11 +55,11 @@ variants:
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Wrestlemania-XX-Edition_v2.dat" ]
-  - variant: { andisart:madison-square-garden-prop-pack:msg: wrestling state championship edition}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: wrestling-state-championship-edition}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Wrestling-State-Championship-Edition.dat" ]
-  - variant: { andisart:madison-square-garden-prop-pack:msg: gay pride edition}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: gay-pride-edition}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Gay-Pride_Version.dat" ]
