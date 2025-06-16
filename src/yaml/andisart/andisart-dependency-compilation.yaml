@@ -31,35 +31,35 @@ name: "andisart-madison-square-garden-prop-pack"
 version: "1.0"
 subfolder: "100-props-textures"
 variants: 
-  - variant: { msg: regular edition}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: regular-edition}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Regular_Version.dat" ]
-  - variant: { msg: madonna confessions tour edition}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: madonna-confessions-tour-edition}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Confessions-Tour-Edition_v2.dat" ]
-  - variant: { msg: rolling stones version}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: rolling stones version}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Rolling-Stones_Version.dat" ]
-  - variant: { msg: nba draft edition}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: nba-draft-edition}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_NBA-Draft-Edition.dat" ]
-  - variant: { msg: sumo exhibition edition}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: sumo-exhibition-edition}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Sumo-Exhibition_Version.dat" ]
-  - variant: { msg: wrestlemania xx edition}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: wrestlemania-xx-edition}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Wrestlemania-XX-Edition_v2.dat" ]
-  - variant: { msg: wrestling state championship edition}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: wrestling state championship edition}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Wrestling-State-Championship-Edition.dat" ]
-  - variant: { msg: gay pride edition}
+  - variant: { andisart:madison-square-garden-prop-pack:msg: gay pride edition}
     assets:
     - assetId: "andisart-madison-square-garden-prop-pack"
       include: [ "/MSG_Gay-Pride_Version.dat" ]
