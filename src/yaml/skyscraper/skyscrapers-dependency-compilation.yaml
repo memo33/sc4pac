@@ -12,7 +12,7 @@ assets:
 - assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
   include: [ "/Skyscraper Models Mega Pack vol01.dat" ]
 info:
-  summary: "Skyscraper Models Mega Pack Vol0 by Skyscraper"
+  summary: "Models Mega Pack Vol0 by Skyscraper"
   description: |-
     These models were formerly linked for the different core CAM Commercial and Residential sets
     * Business Trade Center
@@ -34,7 +34,7 @@ assets:
 - assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
   include: [ "/Skyscraper Models Mega Pack vol02.dat" ]
 info:
-  summary: "Skyscraper Models Mega Pack Vol02 by Skyscraper"
+  summary: "Models Mega Pack Vol02 by Skyscraper"
   description: |-
     these models were formerly linked for the different core CAM Commercial and Residential sets
     * 7 World Trade Center
@@ -60,7 +60,7 @@ assets:
 - assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
   include: [ "/Skyscraper Models Mega Pack vol03.dat" ]
 info:
-  summary: "Skyscraper Models Mega Pack Vol03 by Skyscraper"
+  summary: "Models Mega Pack Vol03 by Skyscraper"
   description: |-
     these models were formerly linked for the different core CAM Commercial and Residential sets
     * 888 7th Avenue 
@@ -85,7 +85,7 @@ assets:
 - assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
   include: [ "/Skyscraper Models Mega Pack vol04.dat" ]
 info:
-  summary: "Skyscraper Models Mega Pack Vol04 by Skyscraper"
+  summary: "Models Mega Pack Vol04 by Skyscraper"
   description: |-
     * 23 Marina, Dubai
     * Bank World Tower
@@ -105,7 +105,7 @@ assets:
 - assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
   include: [ "/Skyscraper Models Mega Pack vol05.dat" ]
 info:
-  summary: "Skyscraper Models Mega Pack Vol05 by Skyscraper"
+  summary: "Models Mega Pack Vol05 by Skyscraper"
   description: |-
     * Marina Residence
     * National Bank
@@ -125,7 +125,7 @@ assets:
 - assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
   include: [ "/Skyscraper Models Mega Pack vol06.dat" ]
 info:
-  summary: "Skyscraper Models Mega Pack Vol06 - Construction Props by Skyscraper"
+  summary: "Models Mega Pack Vol06 - Construction Props by Skyscraper"
   description: |-
     * Construction Set Vol01
     * Construction Set Vol02
