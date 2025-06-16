@@ -1,0 +1,83 @@
+assetId: "sc4-lex-legacy-andisart-dependency-compilation"
+version: "1.0"
+lastModified: "2025-06-16T06:59:47-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=387:sc4-legacy-andisart-dependency-compilation"
+
+---
+group: "andisart"
+name: "andisart-prop-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
+  include: [ "/AndisArt Models Mega Pack vol01.dat" ]
+info:
+  summary: "Models Mega Pack Vol01 by AndisArt"
+  description: |-
+    * 1 Andis Plaza
+    * One21 Apartment Tower
+    * Lighthouse Tower Dubai
+    * Okhta Center
+    * Sunken Lots Pack
+
+  author: AndisArt
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/387-sc4-legacy-andisart-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_AndisArt%20Dependency%20Compilation.png
+
+---
+group: "andisart"
+name: "andisart-madison-square-garden-prop-pack"
+version: "1.0"
+subfolder: "100-props-textures"
+variants: 
+  - variant: { msg: regular edition}
+    assets:
+    - assetId: "andisart-madison-square-garden-regular-edition"
+      include: [ "/MSG_Regular_Version.dat" ]
+  - variant: { msg: madonna confessions tour edition}
+    assets:
+    - assetId: "andisart-madison-square-garden-madonna-confessions-tour-edition"
+      include: [ "/MSG_Confessions-Tour-Edition_v2.dat" ]
+  - variant: { msg: rolling stones version}
+    assets:
+    - assetId: "andisart-madison-square-garden-rolling-stones-edition"
+      include: [ "/MSG_Rolling-Stones_Version.dat" ]
+  - variant: { msg: nba draft edition}
+    assets:
+    - assetId: "andisart-madison-square-garden-nba-draft-edition"
+      include: [ "/MSG_NBA-Draft-Edition.dat" ]
+  - variant: { msg: sumo exhibition edition}
+    assets:
+    - assetId: "andisart-madison-square-garden-sumo-exhibition-edition"
+      include: [ "/MSG_Sumo-Exhibition_Version.dat" ]
+  - variant: { msg: wrestlemania xx edition}
+    assets:
+    - assetId: "andisart-madison-square-garden-wrestlemania-xx-edition"
+      include: [ "/MSG_Wrestlemania-XX-Edition_v2.dat" ]
+  - variant: { msg: wrestling state championship edition}
+    assets:
+    - assetId: "andisart-madison-square-garden-wrestling-state-championship-edition"
+      include: [ "/MSG_Wrestling-State-Championship-Edition.dat" ]
+  - variant: { msg: gay pride edition}
+    assets:
+    - assetId: "andisart-madison-square-garden-gay-pride-edition"
+      include: [ "/MSG_Gay-Pride_Version.dat" ]
+info:
+  summary: "Madison Square Garden Prop by AndisArt"
+  description: |-
+    * Madison Square Garden - Regular Version
+    * Madison Square Garden - Madonna Version
+    * Madison Square Garden - Rolling Stones Version
+    * Madison Square Garden - Gay Pride Version
+    * Madison Square Garden - Sumo Exhibition Version
+    * Madison Square Garden - NBA Draft Edition
+    * Madison Square Garden - Wrestlemania XX Edition
+    * Madison Square Garden - Wrestling Championship Edition
+
+  author: AndisArt
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/387-sc4-legacy-andisart-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_AndisArt%20Dependency%20Compilation.png
+
+---
