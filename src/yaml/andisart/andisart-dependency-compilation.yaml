@@ -33,35 +33,35 @@ subfolder: "100-props-textures"
 variants: 
   - variant: { andisart:madison-square-garden-prop-pack:msg: regular-edition}
     assets:
-    - assetId: "andisart-madison-square-garden-prop-pack"
+    - assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
       include: [ "/MSG_Regular_Version.dat" ]
   - variant: { andisart:madison-square-garden-prop-pack:msg: madonna-confessions-tour-edition}
     assets:
-    - assetId: "andisart-madison-square-garden-prop-pack"
+    - assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
       include: [ "/MSG_Confessions-Tour-Edition_v2.dat" ]
   - variant: { andisart:madison-square-garden-prop-pack:msg: rolling-stones-version}
     assets:
-    - assetId: "andisart-madison-square-garden-prop-pack"
+    - assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
       include: [ "/MSG_Rolling-Stones_Version.dat" ]
   - variant: { andisart:madison-square-garden-prop-pack:msg: nba-draft-edition}
     assets:
-    - assetId: "andisart-madison-square-garden-prop-pack"
+    - assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
       include: [ "/MSG_NBA-Draft-Edition.dat" ]
   - variant: { andisart:madison-square-garden-prop-pack:msg: sumo-exhibition-edition}
     assets:
-    - assetId: "andisart-madison-square-garden-prop-pack"
+    - assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
       include: [ "/MSG_Sumo-Exhibition_Version.dat" ]
   - variant: { andisart:madison-square-garden-prop-pack:msg: wrestlemania-xx-edition}
     assets:
-    - assetId: "andisart-madison-square-garden-prop-pack"
+    - assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
       include: [ "/MSG_Wrestlemania-XX-Edition_v2.dat" ]
   - variant: { andisart:madison-square-garden-prop-pack:msg: wrestling-state-championship-edition}
     assets:
-    - assetId: "andisart-madison-square-garden-prop-pack"
+    - assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
       include: [ "/MSG_Wrestling-State-Championship-Edition.dat" ]
   - variant: { andisart:madison-square-garden-prop-pack:msg: gay-pride-edition}
     assets:
-    - assetId: "andisart-madison-square-garden-prop-pack"
+    - assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
       include: [ "/MSG_Gay-Pride_Version.dat" ]
 info:
   summary: "Madison Square Garden Prop by AndisArt"
