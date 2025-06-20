@@ -5,7 +5,7 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=388:
 
 ---
 group: "nycc06"
-name: "nycc06-prop-pack-vol01"
+name: "prop-pack-vol01"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -29,7 +29,7 @@ info:
 
 ---
 group: "nycc06"
-name: "nycc06-prop-pack-vol02"
+name: "prop-pack-vol02"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -50,7 +50,7 @@ info:
 
 ---
 group: "nycc06"
-name: "nycc06-prop-pack-vol03"
+name: "prop-pack-vol03"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -73,7 +73,7 @@ info:
 
 ---
 group: "nycc06"
-name: "nycc06-prop-pack-vol04"
+name: "prop-pack-vol04"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -94,7 +94,7 @@ info:
 
 ---
 group: "nycc06"
-name: "nycc06-prop-pack-vol05"
+name: "prop-pack-vol05"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -114,7 +114,7 @@ info:
 
 ---
 group: "nycc06"
-name: "nycc06-prop-pack-vol06"
+name: "prop-pack-vol06"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
