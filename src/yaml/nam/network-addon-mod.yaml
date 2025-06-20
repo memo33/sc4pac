@@ -598,6 +598,7 @@ packages:
         - ifVariant: { nam:one-way-arrows:style: "eliminate" }
           exclude:
             - *reduceArr
+            - &singleArr "Single Arrows for One-Way Roads"
 
 # ---
 - group: nam
