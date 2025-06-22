@@ -9,11 +9,6 @@ info:
   summary: "Superseded by `pkg=blanco:transport-prop-pack`"
   author: blanco
   website: "https://www.toutsimcities.com/downloads/view/1573"
----
-assetId: blanco-train-prop-pack
-version: "2.0"
-lastModified: "2009-07-30T12:00:00Z"
-
 
 ---
 # This one uses different TGIs
@@ -28,8 +23,4 @@ info:
   summary: "Superseded by `pkg=blanco:transport-prop-pack`"
   author: blanco
   website: "https://www.toutsimcities.com/downloads/view/1335"
----
-assetId: blanco-train-prop-pack-sd
-version: "1.0"
-lastModified: "2008-12-01T12:00:00Z"
 

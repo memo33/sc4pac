@@ -11,12 +11,6 @@ info:
   website: "https://www.toutsimcities.com/downloads/view/1919"
 
 ---
-assetId: "nams-bats-props-pack-vol-02"
-version: "1"
-lastModified: "2012-03-17T12:00:00Z"
-
-
----
 group: "namspopof"
 name: "bat-props-pack-vol03"
 version: "1"
@@ -28,11 +22,6 @@ info:
   summary: "Superseded by `pkg=namspopof:bat-prop-pack`"
   author: "namspopof"
   website: "https://www.toutsimcities.com/downloads/view/1959"
-
----
-assetId: "nams-bats-props-pack-vol-03"
-version: "1"
-lastModified: "2012-11-26T12:00:00Z"
 
 
 ---
@@ -49,12 +38,6 @@ info:
   website: "https://www.toutsimcities.com/downloads/view/1780"
 
 ---
-assetId: "nams-props-pack-vol-01"
-version: "1"
-lastModified: "2010-10-14T12:00:00Z"
-
-
----
 group: "namspopof"
 name: "props-pack-vol2"
 version: "1"
@@ -66,9 +49,3 @@ info:
   summary: "Superseded by `pkg=namspopof:nams-prop-pack`"
   author: "namspopof"
   website: "https://www.toutsimcities.com/downloads/view/1882"
-
----
-assetId: "nams-props-pack-vol-02"
-version: "1"
-lastModified: "2011-08-17T12:00:00Z"
-
