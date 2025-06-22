@@ -1,0 +1,92 @@
+group: "cam"
+name: "colossus-addon-mod-ordinances"
+version: "2.6"
+subfolder: "140-ordinances"
+dependencies:
+- "null-45:custom-ordinance-exemplar-host-dll"
+info:
+  summary: "Colossus Addon Mod - Ordinances is the essential mod for enhancing the original SimCity 4 ordinances as well as expanding with new ordinances."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |-
+    **Colossus Addon Mod - Ordinances** is the essential mod for enhancing the original SimCity 4 ordinances as well as expanding with new ordinances. This pack is a dependency for CAM players but can also be used by SPAM and Pure Vanilla players to enhance gameplay The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod.
+
+    Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+
+    Extra feature, if you hover over the folders in the installer, you will get some extra information about each contents.
+
+    ***WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only). If you run CAM 2.5 or later on systems other than those listed, the mod may malfunction and no support is provided.
+    Installation*
+
+    This package is a simple .zip file. Just extract the a_CAM folder to your My Documents\SimCity 4\Plugins\140-ordinances directory (or equivalent, if you have a custom Plugins folder location).
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer nos.17's SC4 Cleanitol or the older BSC Cleanitol tool you can search and remove old and outdated versions of these files.
+
+    In the ~Documents folder is the readme of the mod where there is all the information inherent in the ordinances
+
+    ** DLL Dependencies**
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies(the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
+
+    Custom Ordinance Exemplar Host DLL - This file is necessary for the correct functioning of new ordinances 
+
+    Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
+
+    ** Dependencies**
+
+    The following files are required in order for the contents of this package to appear correctly (i.e., no 'brown boxes' or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
+
+    NONE
+
+    ** Credits**
+
+    The following SimCity 4 community members contributed models, textures, and modding support to this collection:
+
+    *     Ulisse Wolf
+    *     Tyberius06
+    *     Cyclone Boom
+    *     CorinaMarie
+    *     InvisiChem
+    *     Indisguise
+    *     BarbyW
+    *     Wouanagaine
+    *     JMyers2043
+    *     Shoreman905
+    *     Rayden
+    *     MAS71
+    *     Jplumbley
+    *     Andreas
+    *     Callagrafx
+    *     Tropod
+    *     RippleJet
+    *     Tag one
+    *     Memo33
+    *     Dragonsteincole
+    *     xBlaze89x
+    *     paeng
+    *     Pegasus
+    *     MasterDwaine (Original author of Ordinance Overhaul Mod)
+
+    This package was assembled by Ulisse Wolf.
+    Special Thanks
+
+    Webmaster & administration staff at SC4Evermore and Simtropolis.
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after 20 years thanks to you!
+
+    And last but not least, a thanks for the Maxis individuals too, for the [paid] work that they did. ;-)
+
+  author: "CAM Team"
+  websites:
+  - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/386-colossus-addon-mod-ordinances"
+  - "https://community.simtropolis.com/files/file/36878-colossus-addon-mod-ordinances/"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/CAM-ORDINANCES.jpg
+
+---
+assetId: "cam-team-colossus-addon-mod-ordinances"
+version: "2.6"
+lastModified: "2025-05-15T19:29:53-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=386:colossus-addon-mod-ordinances"
