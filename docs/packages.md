@@ -122,6 +122,8 @@ Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':t
 
 ## Gameplay mods
 
+* `pkg=nam:network-addon-mod` (the full NAM, an extensive transportation mod)
+* `pkg=nam:network-addon-mod-lite` (NAM Lite, a more compact variant of the NAM)
 * `pkg=memo:3d-camera-dll` (arbitrary camera angles)
 * `pkg=memo:submenus-dll` (adds more submenus to the game)
 * `pkg=cam:colossus-addon-mod` (adds more growth stages to the game)
