@@ -1,0 +1,72 @@
+assetId: nam-lite-gh
+version: "4"  # rev1
+lastModified: "2025-03-04T21:44:13Z"
+nonPersistentUrl: https://community.simtropolis.com/files/file/35417-network-addon-mod-lite-nam-lite-cross-platform/?do=download
+url: https://github.com/NAMTeam/Network-Addon-Mod/releases/download/49_rev1/NetworkAddonMod_Lite_Setup_Version4_rev1.zip
+checksum:
+  sha256: "4cf25a29d6ca7a3471b5cd366e7e19f9f5c00efefe8aa451bddaac526ace8d48"
+
+---
+packages:
+- group: nam
+  name: network-addon-mod-lite
+  version: "4"
+  subfolder: 770-network-addon-mod/1-core
+
+  info:
+    summary: "NAM Lite, a more compact variant of the NAM, including just the most essential NAM features"
+    description: |
+      NAM Lite is a minimal standalone package that includes features such as:
+      * the Traffic Simulator (`pkg=nam:traffic-simulator`)
+      * the Automata Controller (`pkg=nam:automata-controller`)
+      * additional interchanges for the game's base Highway system (the "Maxis Highways")
+      * Diagonal Streets
+      * Roundabouts
+      * Euro Road texture options
+      * Hole Diggers/Ground Raisers
+
+      Additionally, you can install the following optional component (not included):
+      * `pkg=nam-team:tunnel-and-slope-mod`
+
+      If you want to install more features not included in NAM Lite, install one of the following packages instead:
+      * `pkg=nam:network-addon-mod` (full NAM, includes everything)
+      * `pkg=nam:network-addon-mod-core` (NAM without optional components which can be installed separately on top)
+    websites:
+      - https://www.sc4nam.com/
+      - https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/40-nam-lite
+      - https://community.simtropolis.com/files/file/35417-network-addon-mod-lite-nam-lite-cross-platform/
+      - https://github.com/NAMTeam/Network-Addon-Mod/releases
+    images:
+      - https://www.sc4nam.com/20yearsSC4.jpg
+
+  variantInfo:
+    - variantId: roadstyle
+      values:
+        - value: "US"
+          default: true
+          description: US/North American road textures (yellow stripes)
+        - value: "EU"
+          description: Euro/International road textures (white stripes)
+
+  conflicting:
+    - nam:network-addon-mod
+    - nam:network-addon-mod-core
+
+  dependencies:
+    - nam:traffic-simulator
+    - nam:automata-controller
+
+  assets:
+    - assetId: nam-lite-gh
+      include:
+        - "/installation/"
+      exclude:
+          # List files below that are contained in other NAM packages.
+        - "Automata Controller#?/"                                   # nam:automata-controller
+        - "Traffic Simulator#?/"                                     # nam:traffic-simulator
+        - &exe "(?:4gb_patch\\.exe|\\.txt|\\.png|\\.pdn)$"           # exe, txt and other files
+      withConditions:
+        - ifVariant: { roadstyle: "US" }
+          exclude: ["/[=-]EU/"]
+        - ifVariant: { roadstyle: "EU" }
+          exclude: ["/[=-]US/"]

@@ -5,6 +5,7 @@
 # The Core depends on (internal) packages like:
 # - nam:network-addon-mod-controller
 # - nam:textures
+# - ...
 #
 # Optional components only depend on the Core:
 # - nam:real-highway-mod
@@ -54,6 +55,7 @@ packages:
 
       The minimal NAM installation includes just `pkg=nam:network-addon-mod-core`.
       All the other dependencies are optional.
+      (An even smaller alternative is NAM Lite: `pkg=nam:network-addon-mod-lite`.)
 
       Additionally, you can install the following optional components (not included):
       * `pkg=nam:additional-transit-stations`
@@ -90,8 +92,11 @@ packages:
       * Pedestrian Malls and Mid-block Crosswalks
       * Rural Roads
       * Euro Road texture options (`pkg=nam:textures`)
+      * Hole Diggers/Ground Raisers
 
       To include all optional components as well, install `pkg=nam:network-addon-mod` instead.
+
+      To install an even smaller feature set, install `pkg=nam:network-addon-mod-lite` instead.
     website: https://www.sc4nam.com/
 
   dependencies:
