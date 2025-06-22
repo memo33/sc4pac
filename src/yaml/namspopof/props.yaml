@@ -8,7 +8,7 @@ assets:
 info:
   summary: "Superseded by `pkg=namspopof:bat-prop-pack`"
   author: "namspopof"
-
+  website: "https://www.toutsimcities.com/downloads/view/1919"
 
 ---
 assetId: "nams-bats-props-pack-vol-02"
@@ -27,7 +27,7 @@ assets:
 info:
   summary: "Superseded by `pkg=namspopof:bat-prop-pack`"
   author: "namspopof"
-
+  website: "https://www.toutsimcities.com/downloads/view/1959"
 
 ---
 assetId: "nams-bats-props-pack-vol-03"
@@ -46,7 +46,7 @@ assets:
 info:
   summary: "Superseded by `pkg=namspopof:nams-prop-pack`"
   author: "namspopof"
-
+  website: "https://www.toutsimcities.com/downloads/view/1780"
 
 ---
 assetId: "nams-props-pack-vol-01"
@@ -65,6 +65,7 @@ assets:
 info:
   summary: "Superseded by `pkg=namspopof:nams-prop-pack`"
   author: "namspopof"
+  website: "https://www.toutsimcities.com/downloads/view/1882"
 
 ---
 assetId: "nams-props-pack-vol-02"

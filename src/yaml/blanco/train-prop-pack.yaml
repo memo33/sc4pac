@@ -8,7 +8,7 @@ assets:
 info:
   summary: "Superseded by `pkg=blanco:transport-prop-pack`"
   author: blanco
-
+  website: "https://www.toutsimcities.com/downloads/view/1573"
 ---
 assetId: blanco-train-prop-pack
 version: "2.0"
@@ -27,7 +27,7 @@ assets:
 info:
   summary: "Superseded by `pkg=blanco:transport-prop-pack`"
   author: blanco
-
+  website: "https://www.toutsimcities.com/downloads/view/1335"
 ---
 assetId: blanco-train-prop-pack-sd
 version: "1.0"
