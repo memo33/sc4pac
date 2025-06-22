@@ -1,11 +1,11 @@
-assetId: "cam-colossus-addon-mod"  # invisichem mac version
+assetId: "cam-colossus-addon-mod-legacy-version"  # invisichem mac version
 version: "2.1.0a"
 lastModified: "2025-05-16T02:08:15Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=52:colossus-addon-mod-version-2-1-0a-mac-by-invisichem"
 
 ---
-group: "cam"
-name: "colossus-addon-mod"
+group: "cam-team"
+name: "colossus-addon-mod-legacy-version"
 version: "2.1.0a-4"
 subfolder: "050-load-first"
 
@@ -16,7 +16,7 @@ variants:
   - "memo:i-r-fix"
   - "heinbloed4711:hi-tech-missing-high-wealth-jobs"
   assets:
-  - assetId: "cam-colossus-addon-mod"
+  - assetId: "cam-colossus-addon-mod-legacy-version"
     include:
     - "/CAM_2.1.0_Main_Controller.dat"
     - "/CAM_2.1.0_PlayStyle_Extended.dat"
@@ -33,6 +33,12 @@ info:
   summary: Colossus Addon Mod
   warning: |-
     It is crucial to start a new region when installing CAM, as the mod drastically changes the simulation parameters.
+    
+    This version is only for compatibility support of already developed regions and for those who cannot upgrade to CAM 2.5
+
+    If you are starting a new region and have met all the requirements of CAM 2.5 please install this version
+
+    * `pkg=cam:colossus-addon-mod`
 
   conflicts: |-
     Only compatible with game version 1.1.641, the Windows digital edition.
