@@ -309,10 +309,11 @@ Add a warning to inform the user that the INI needs to be manually copied to the
 ```yaml
 info:
   warning: |-
-    This DLL plugin comes with an INI configuration file.
-    To complete the installation, copy the .ini file from the package subfolder
-    into the root directory of your Plugins folder
-    and edit the file to set your preferences.
+    This DLL plugin comes with an INI configuration file:
+
+    * `filename.ini`
+
+    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
 ```
 
 ### `info`

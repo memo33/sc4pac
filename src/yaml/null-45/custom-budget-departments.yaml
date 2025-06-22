@@ -1,0 +1,26 @@
+group: "null-45"
+name: "custom-budget-departments-dll"
+version: "1.0"
+subfolder: "150-mods"
+assets:
+- assetId: "null-45-custom-budget-departments"
+  withChecksum:
+  - include: "/CustomBudgetDepartments.dll"
+    sha256: e6d7250e35743dd12988c8740da4fd5baee915d532a731a641c2058f29afeb6d
+
+info:
+  summary: "A DLL plugin that allows new budget departments to be added to the game"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    This DLL plugin is a dependency for other Mods.
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/36481-custom-budget-departments-dll-plugin/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/STEXIcon.png.db29d909dc0172907ea8f5453d72b0eb.png
+
+---
+assetId: "null-45-custom-budget-departments"
+version: "1.0"
+lastModified: "2024-09-07T05:11:45Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36437-remove-phantom-budget-items-dll-plugin/?do=download"
+url: "https://github.com/0xC0000054/sc4-custom-budget-departments/releases/download/v1.0.1/SC4CustomBudgetDepartments.zip"

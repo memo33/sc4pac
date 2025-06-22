@@ -1,6 +1,6 @@
 group: "simcoug"
 name: "farmhouses"
-version: "1.0-1"
+version: "2.0"
 subfolder: "200-residential"
 dependencies:
 - bsc:texturepack-cycledogg-vol01
@@ -39,6 +39,6 @@ info:
 
 ---
 assetId: "simcoug-farmhouses-r1"
-version: "1.0"
-lastModified: "2017-04-28T19:56:23Z"
+version: "2.0"
+lastModified: "2025-05-03T23:31:16Z"
 url: "https://community.simtropolis.com/files/file/31591-simcougs-farmhouses-r/?do=download"

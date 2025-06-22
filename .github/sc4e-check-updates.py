@@ -15,7 +15,7 @@ from datetime import timezone
 import urllib.request
 import json
 
-url_id_pattern = re.compile(r".*sc4evermore.com/.*[?&]id=(\d+):.*")
+url_id_pattern = re.compile(r".*sc4evermore.com/.*[?&]id=(\d+).*")
 
 
 def nonempty_docs(dirs_or_files):

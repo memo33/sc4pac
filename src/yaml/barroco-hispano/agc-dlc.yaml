@@ -127,7 +127,7 @@ lastModified: "2023-12-19T00:46:38Z"
 ### agc street props
 group: "agc"
 name: "street-props"
-version: "3.0.0"
+version: "4.0.0"
 subfolder: "100-props-textures"
 info:
   summary: "Small props for streets and sidewalks"
@@ -141,7 +141,7 @@ info:
 variants:
 - variant: { nightmode: "standard" }
   assets:
-  - assetId: "agc-street-props-mn"
+  - assetId: "agc-street-props-dn"  # MN support removed
 - variant: { nightmode: "dark" }
   dependencies:
   - "simfox:day-and-nite-mod"
@@ -150,16 +150,11 @@ variants:
 
 
 ---
-url: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/?do=download&r=201345"
+url: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/?do=download"
 assetId: "agc-street-props-dn"
-version: "3.0.0"
-lastModified: "2024-05-15T15:50:26Z"
+version: "4.0.0"
+lastModified: "2025-05-21T22:56:26Z"
 
----
-url: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/?do=download&r=201344"
-assetId: "agc-street-props-mn"
-version: "3.0.0"
-lastModified: "2024-05-15T15:50:26Z"
 
 # ---
 # Commented out for now until needed as a dependency. Needs decision whether or not to package the lots. The purpose of the lots may need more explanation.
