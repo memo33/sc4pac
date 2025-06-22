@@ -1,0 +1,21 @@
+group: "raymond7cn"
+name: "texture-fix-of-jenkins-consulting"
+version: "1.0"
+subfolder: "150-mods"
+assets:
+  - assetId: "raymond7cn-texture-fix-of-jenkins-consulting-maxis"
+info:
+  summary: Fixes a graphical issue in a Maxis building
+  description: |
+    There is a texture bug in the Vanilla high-wealth commercial building 'Jenkins Consulting'.  The side wall of the building is 'open' and looks bad in the game. Textures were repaired by using a little imagination to fill in the missing parts of the outer wall.
+  author: "Raymond7cn"
+  website: "https://community.simtropolis.com/files/file/33601-texture-fix-of-jenkins-consulting-maxis/"
+  images:
+    - "https://www.simtropolis.com/objects/screens/monthly_2020_05/Fixed.jpg.3ac2cb574c798e63d119183d836ea9d9.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2020_05/Original.jpg.87508c51b78e8180cc76d76d751ebadb.jpg"
+
+---
+url: "https://community.simtropolis.com/files/file/33601-texture-fix-of-jenkins-consulting-maxis/?do=download"
+assetId: "raymond7cn-texture-fix-of-jenkins-consulting-maxis"
+version: "1.0"
+lastModified: "2020-05-17T04:05:14Z"

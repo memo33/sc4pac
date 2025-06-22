@@ -1,0 +1,22 @@
+group: cyclone-boom
+name: web-button-improvement-mod
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Removes the disfunctional Web Button in region view
+  description: |-
+    This mod removes the now defunct `SimCity.ea.com` website button from the Region View screen.
+  author: Cyclone Boom
+  website: https://community.simtropolis.com/files/file/33583-web-button-improvement-mod/
+  images:
+    - https://www.simtropolis.com/objects/attachments/monthly_2020_05/5eabe66cd97eb_03-PreviewOptionC-SimplyRemoved.png.a665b87195c68c99636d6e76e89c6f32.png
+assets:
+- assetId: cyclone-boom-web-button-improvement-mod
+  include:  # windowed option seems unnecessary for non-raised UI, just like all the other button choices
+    - "/z_Full Screen.*Option C"
+
+---
+assetId: cyclone-boom-web-button-improvement-mod
+version: "1.0"
+lastModified: "2020-05-01T02:25:29Z"
+url: https://community.simtropolis.com/files/file/33583-web-button-improvement-mod/?do=download&r=180883

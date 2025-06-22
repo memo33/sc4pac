@@ -1,0 +1,35 @@
+group: "dragonsteincole"
+name: "rail-maxis-passenger-trains-remake"
+version: "1.0.1"
+subfolder: "150-mods"
+variants:
+- variant: { nightmode: standard }
+  assets:
+  - assetId: "dragonsteincole-rail-maxis-passenger-trains-remake"
+    include:
+    - "/DSC_PassengerTrainsRemake_MN/"
+- variant: { nightmode: dark }
+  dependencies: [ "simfox:day-and-nite-mod" ]
+  assets:
+  - assetId: "dragonsteincole-rail-maxis-passenger-trains-remake"
+    include:
+    - "/DSC_PassengerTrainsRemake_DN/"
+info:
+  summary: Maxis-like replacement of passenger train automata
+  description: |
+    Whilst the original vanilla models are pretty iconic and still used by most people, these new models are not meant to be a massive depature or be realistic, as other automata releases have been. Instead, these are trying to update those originals whilst retaining their charm, and also making them a little nicer to look at overall.
+
+    All the trains and coaches have nightlighting in both Maxis Nite(MN) and Dark Nite(DN) variations, with added details and nightlighting on coaches that were missing it previously.
+  author: "dragonsteincole"
+  website: "https://community.simtropolis.com/files/file/35891-dsc-rail-maxis-passenger-trains-remake/"
+  images:
+    - "https://www.simtropolis.com/objects/screens/monthly_2023_12/6589b160c05cc_MaxisPassengerTrainRemakes.png.754710be273949c2e47380bc45aee865.png"
+    - "https://www.simtropolis.com/objects/screens/monthly_2023_12/Commuter1d.jpg.82265e4f99b88c1780d2ef509f9d0f79.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2023_12/Mono2d.jpg.d867d9478eb6c637209a02b0fa2fd21d.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2023_12/El2d.jpg.f55fadd2cde28e862cdda7a21467534e.jpg"
+
+---
+url: "https://community.simtropolis.com/files/file/35891-dsc-rail-maxis-passenger-trains-remake/?do=download"
+assetId: "dragonsteincole-rail-maxis-passenger-trains-remake"
+version: "1.0.1"
+lastModified: "2023-12-26T11:18:09Z"

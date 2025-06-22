@@ -1,0 +1,26 @@
+group: cyclone-boom
+name: no-more-neighbour-connection-arrows
+version: "1.1"
+subfolder: 150-mods
+info:
+  summary: No More Neighbour Connection Arrows
+  description: |-
+    Tired of those oversized road signs, dangerously placed on your centrelines?
+
+    This mod removes the yellow arrows that appear on all networks when connected to a neighbouring city.
+
+    The functionality of the connections is preserved. As a result, querying the network still reveals the information dialog. You may find this useful for creating City Journals, or to just make your cities more appealing.
+
+  author: Cyclone Boom
+  website: https://community.simtropolis.com/files/file/29051-no-more-neighbour-connection-arrows/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fc52bdbb6ee5_NoMoreNeighbourConnectionArrows-Preview01.jpg.ec6735b135ee404438f12cc0afb43654.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fc52bdf9c63b_NoMoreNeighbourConnectionArrows-Preview02.jpg.49f76cede6a0fc0a513499538e1a9373.jpg
+assets:
+  - assetId: cyclone-boom-no-more-neighbour-connection-arrows
+
+---
+assetId: cyclone-boom-no-more-neighbour-connection-arrows
+version: "1.1"
+lastModified: "2020-11-30T17:29:28Z"
+url: https://community.simtropolis.com/files/file/29051-no-more-neighbour-connection-arrows/?do=download&r=184052
