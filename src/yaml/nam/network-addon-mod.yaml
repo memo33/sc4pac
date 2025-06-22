@@ -8,7 +8,7 @@
 # - ...
 #
 # Optional components only depend on the Core:
-# - nam:real-highway-mod
+# - nam:real-highway
 # - nam:network-widening-mod
 # - nam:street-addon-mod
 # - nam:additional-transit-stations
@@ -35,7 +35,7 @@ packages:
     - nam:network-addon-mod-core
     - nam:street-addon-mod             # optional
     - nam:network-widening-mod         # optional
-    - nam:real-highway-mod             # optional
+    - nam:real-highway                 # optional
     - nam:real-expressway              # optional
     - nam:ground-light-rail            # optional
     - nam:hybrid-railway               # optional
@@ -123,7 +123,7 @@ packages:
           # optional:
         - &samPath "Network Features/.*Street Addon Mod"             # nam:street-addon-mod
         - &nwmPath "Network Features/.*Network Widening Mod"         # nam:network-widening-mod
-        - &rhwPath "Network Features/RealHighway"                    # nam:real-highway-mod
+        - &rhwPath "Network Features/RealHighway"                    # nam:real-highway
         - &rewPath "Network Features/.*/RealExpressway/"             # nam:real-expressway
         - &glrPath "Network Features/.*/Ground Light Rail"           # nam:ground-light-rail
         - &hrwPath "Network Features/Hybrid Railway"                 # nam:hybrid-railway
@@ -167,26 +167,26 @@ packages:
   dependencies:
     - nam:network-addon-mod-core  # this package is a mandatory part of NAM
   variants:
-  - variant: { driveside: "right", nam:real-highway-mod:enabled: "no" }
+  - variant: { driveside: "right", nam:real-highway:enabled: "no" }
     assets:
     - assetId: nam-gh
       include: ["NAM Controller_RHD_LowRAM_NoRHW/"]
       exclude: [*exe]
-  - variant: { driveside: "left",  nam:real-highway-mod:enabled: "no" }
+  - variant: { driveside: "left",  nam:real-highway:enabled: "no" }
     assets:
     - assetId: nam-gh
       include: ["NAM Controller_LHD_LowRAM_NoRHW/"]
       exclude: [*exe]
-  - variant: { driveside: "right", nam:real-highway-mod:enabled: "yes" }
+  - variant: { driveside: "right", nam:real-highway:enabled: "yes" }
     dependencies:
-      - nam:real-highway-mod
+      - nam:real-highway
     assets:
     - assetId: nam-gh
       include: ["NAM Controller_RHD_4GB_Full/"]
       exclude: [*exe]
-  - variant: { driveside: "left",  nam:real-highway-mod:enabled: "yes" }
+  - variant: { driveside: "left",  nam:real-highway:enabled: "yes" }
     dependencies:
-      - nam:real-highway-mod
+      - nam:real-highway
     assets:
     - assetId: nam-gh
       include: ["NAM Controller_LHD_4GB_Full/"]
@@ -253,7 +253,7 @@ packages:
 
 # ---
 - group: nam
-  name: real-highway-mod
+  name: real-highway
   version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
@@ -268,8 +268,8 @@ packages:
       - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser4.jpg
       - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser1.jpg
   variants:
-    - variant: { nam:real-highway-mod:enabled: "no" }
-    - variant: { nam:real-highway-mod:enabled: "yes" }
+    - variant: { nam:real-highway:enabled: "no" }
+    - variant: { nam:real-highway:enabled: "yes" }
       dependencies:
         - nam:network-addon-mod-core
       assets:
@@ -281,7 +281,7 @@ packages:
             - *exe
 
   variantInfo:
-    - variantId: nam:real-highway-mod:enabled
+    - variantId: nam:real-highway:enabled
       description: |-
         Choose whether or not to install the Real Highway Mod (RHW).
       values:
@@ -775,9 +775,9 @@ packages:
       exclude:
         - *exe
       withConditions:
-        - ifVariant: { nam:real-highway-mod:enabled: "no" }
+        - ifVariant: { nam:real-highway:enabled: "no" }
           exclude:
             - "Real Highway/"
             - "/RHW/"
-        - ifVariant: { nam:real-highway-mod:enabled: "yes" }
+        - ifVariant: { nam:real-highway:enabled: "yes" }
           exclude: []
