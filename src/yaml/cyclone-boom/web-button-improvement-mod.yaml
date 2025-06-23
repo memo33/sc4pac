@@ -128,9 +128,9 @@ variantInfo:
   description: Choose in which mode you typically play the game. 
   values:
   - value: "full-screen"
-    description: I play SC4 in full screen mode.
+    description: Play SC4 in full screen mode.
   - value: "windowed"
-    description: I play SC4 in windowed mode.
+    description: Play SC4 in windowed mode.
 
 ---
 assetId: cyclone-boom-web-button-improvement-mod
