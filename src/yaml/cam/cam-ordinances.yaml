@@ -4,6 +4,8 @@ version: "2.6"
 subfolder: "140-ordinances"
 dependencies:
 - "null-45:custom-ordinance-exemplar-host-dll"
+assets:
+  - assetId: "cam-colossus-addon-mod-ordinances"
 info:
   summary: "Colossus Addon Mod - Ordinances is the essential mod for enhancing the original SimCity 4 ordinances as well as expanding with new ordinances."
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
