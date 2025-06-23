@@ -11,7 +11,7 @@ dependencies:
 - "fanta1990:automata-fix-pack-vol1"
 - "rivit:piggyback-freight-car-fix"
 - "raymond7cn:texture-fix-of-jenkins-consulting-maxis"
-- "dragonsteincole:maxis-passenger-trains-remake"
+- "dragonsteincole:rail-maxis-passenger-trains-remake"
 - "smp:yellow-pause-thingy-remover"
 variants:
 - variant: { CAM: "no" }

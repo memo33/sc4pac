@@ -1,4 +1,4 @@
-assetId: "cam-colossus-addon-mod"  # invisichem mac version
+assetId: "cam-colossus-addon-mod"  
 version: "2.5.1"
 lastModified: "2025-05-15T19:07:54-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:colossus-addon-mod"
@@ -13,8 +13,10 @@ variants:
 - variant: { CAM: "no" }
 - variant: { CAM: "yes" }
   dependencies:
-  - "memo:submenu"
-  - "heinbloed4711:hi-tech-missing-high-wealth-jobs"
+  - "memo:submenus-dll"
+  - "cam:colossus-addon-mod-ordinances"
+  - "cam:colossus-addon-mod-modpaczero"
+
   assets:
   - assetId: "cam-colossus-addon-mod"
     include:
