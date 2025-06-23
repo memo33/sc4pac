@@ -2,6 +2,8 @@ group: "raymond7cn"
 name: "texture-fix-of-jenkins-consulting-maxis"
 version: "1.0"
 subfolder: "150-mods"
+assets:
+  - assetId: "raymond7cn-texture-fix-of-jenkins-consulting-maxis"
 info:
   summary: "Fixes some graphical bugs in some Maxis buildings"
   description: |

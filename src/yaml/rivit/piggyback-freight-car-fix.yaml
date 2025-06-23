@@ -2,6 +2,8 @@ group: "rivit"
 name: "piggyback-freight-car-fix"
 version: "1.0"
 subfolder: "150-mods"
+assets:
+  - assetId: "rivit-piggyback-freight-car-fix"
 info:
   summary: "Fixes some graphical bugs of piggyback automata"
   description: |
