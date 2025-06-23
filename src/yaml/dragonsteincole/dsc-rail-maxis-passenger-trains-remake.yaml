@@ -5,13 +5,13 @@ subfolder: "150-mods"
 variants:
 - variant: { nightmode: standard }
   assets:
-  - assetId: "rail-maxis-passenger-trains-remake"
+  - assetId: "dragonsteincole-rail-maxis-passenger-trains-remake"
     include:
     - "/DSC_PassengerTrainsRemake_MN/"
 - variant: { nightmode: dark }
   dependencies: [ "simfox:day-and-nite-mod" ]
   assets:
-  - assetId: "rail-maxis-passenger-trains-remake"
+  - assetId: "dragonsteincole-rail-maxis-passenger-trains-remake"
     include:
     - "/DSC_PassengerTrainsRemake_DN/"
 info:
