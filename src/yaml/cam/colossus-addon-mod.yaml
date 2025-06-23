@@ -16,6 +16,9 @@ variants:
   - "memo:submenus-dll"
   - "cam:colossus-addon-mod-ordinances"
   - "cam:colossus-addon-mod-modpaczero"
+  - "null-45:query-tool-ui-extensions-dll"
+  - "null-45:custom-budget-departments-dll"
+  - "heinbloed4711:hi-tech-missing-high-wealth-jobs"  
 
   assets:
   - assetId: "cam-colossus-addon-mod"

@@ -13,6 +13,8 @@ dependencies:
 - "raymond7cn:texture-fix-of-jenkins-consulting-maxis"
 - "dragonsteincole:rail-maxis-passenger-trains-remake"
 - "smp:yellow-pause-thingy-remover"
+- "scoty:zoning-mod-maxis"
+
 variants:
 - variant: { CAM: "no" }
   assets:
