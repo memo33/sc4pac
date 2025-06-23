@@ -46,7 +46,7 @@ info:
 
     **Installation**
 
-    This package is a simple .zip file. Just extract the Z_CAM folder to your My DocumentsSimCity 4Plugins directory (or equivalent, if you have a custom Plugins folder location).
+    This package is a simple .zip file. Just extract the Z_CAM folder to your Documents\SimCity 4\Plugins directory (or equivalent, if you have a custom Plugins folder location).
 
     It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
     Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer nos.17's SC4 Cleanitol or the older BSC Cleanitol tool you can search and remove old and outdated versions of these files.
