@@ -1,5 +1,5 @@
 group: "eggman121"
-name: "ncd-bsc-realrailway-texture-pack-by-eggman121-and-rivit"
+name: "rrw-reskin-3rd-party-lot-support"
 version: "3.49"
 subfolder: "900-overrides"
 assets:
@@ -7,20 +7,21 @@ assets:
 info:
   summary: "Real RailWay (RRW) Reskin 3rd Party Lot Support"
   description: |
-    Updated and expanded version of Real RailWay (RRW) Reskin 3rd Party Lot Support.
+    In order to make the RRW Reskin (a project to enable the recoloring of the Real Railway), a set of Lot Textures has been created for the Original RRW texture colours.
+    With the help of a number of modders (spotting, making and testing) a very comprehensive coverage has been achieved - roughly 1100 textures.
 
-    Replaces:
-    1. `NCD Railyard Texture Mega-Pack Vol01 `
-    2. `BSC Textures packs (vol01-vol03)`
-    3. `APTX Textures Vol01`
-    4. `Cogeo Textures`
-    5. `MGB204/rsc204 Textures`
-    6. `NOB Textures`
-    7. `PEGPROD Textures`
-    8. `Simmer2 Textures`
-    9. `WMP Team Textures`
-    10. `Network Addon Mod Textures`
-  author: "eggman121; rivit; MGB204"
+    Overrides railway lot textures of:
+    1. `pkg=ncd:rail-yard-and-spur-mega-pak-1`
+    2. `pkg=bsc:textures-vol01`, `pkg=bsc:textures-vol02`, `pkg=bsc:textures-vol03`
+    3. `pkg=aptx:textures-vol01`
+    4. Cogeo Textures
+    5. MGB204/rsc204 Textures
+    6. `pkg=nob:mega-props-vol01`
+    7. `pkg=peg:mtp-super-pack`
+    8. `pkg=simmer2:rrw-legacy-lottex-mega-texture-pack`
+    9. `pkg=wmp:mega-textures`
+    10. `pkg=nam:textures`
+  author: "eggman121, rivit, MGB204/rsc204"
   websites:
     - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/207-ncd-bsc-realrailway-texture-pack-by-eggman121-and-rivit"
     - "https://community.simtropolis.com/files/file/31988-real-railway-rrw-reskin-3rd-party-lot-support/"
