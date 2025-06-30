@@ -14,17 +14,17 @@ info:
     2. `BSC Textures packs (vol01-vol03)`
     3. `APTX Textures Vol01`
     4. `Cogeo Textures`
-    5. `MGB204/rsc204 Textures`    
-    6. `NOB Textures`   
-    7. `PEGPROD Textures` 
-    8. `Simmer2 Textures`    
-    9. `WMP Team Textures`  
-    10. `Network Addon Mod Textures`      
+    5. `MGB204/rsc204 Textures`
+    6. `NOB Textures`
+    7. `PEGPROD Textures`
+    8. `Simmer2 Textures`
+    9. `WMP Team Textures`
+    10. `Network Addon Mod Textures`
   author: "eggman121; rivit; MGB204"
   websites:
     - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/207-ncd-bsc-realrailway-texture-pack-by-eggman121-and-rivit"
     - "https://community.simtropolis.com/files/file/31988-real-railway-rrw-reskin-3rd-party-lot-support/"
-  images:  
+  images:
     - "https://www.sc4evermore.com/images/jdownloads/screenshots/NCD-BSC%20RealRailway%20Texture%20Pack%20V1-01.jpg"
 ---
 assetId: "ncd-bsc-realrailway-texture-pack-by-eggman121-and-rivit"

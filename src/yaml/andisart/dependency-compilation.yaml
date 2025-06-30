@@ -30,7 +30,7 @@ group: "andisart"
 name: "madison-square-garden-prop-pack"
 version: "1.0"
 subfolder: "100-props-textures"
-variants: 
+variants:
   - variant: { andisart:madison-square-garden-prop-pack:msg: regular-edition}
     assets:
     - assetId: "sc4-lex-legacy-andisart-dependency-compilation"
