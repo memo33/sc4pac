@@ -5,7 +5,7 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=387:
 
 ---
 group: "andisart"
-name: "prop-pack-vol01"
+name: "models-mega-pack-vol01"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -27,55 +27,85 @@ info:
 
 ---
 group: "andisart"
-name: "madison-square-garden-prop-pack"
+name: "models-mega-pack-vol02"
 version: "1.0"
 subfolder: "100-props-textures"
 variants:
-  - variant: { andisart:madison-square-garden-prop-pack:msg: regular-edition}
+  - variant: { andisart:models-mega-pack-vol02:madison-square-garden: regular }
     assets:
     - assetId: "sc4-lex-legacy-andisart-dependency-compilation"
       include: [ "/MSG_Regular_Version.dat" ]
-  - variant: { andisart:madison-square-garden-prop-pack:msg: madonna-confessions-tour-edition}
+  - variant: { andisart:models-mega-pack-vol02:madison-square-garden: madonna }
     assets:
     - assetId: "sc4-lex-legacy-andisart-dependency-compilation"
       include: [ "/MSG_Confessions-Tour-Edition_v2.dat" ]
-  - variant: { andisart:madison-square-garden-prop-pack:msg: rolling-stones-version}
+  - variant: { andisart:models-mega-pack-vol02:madison-square-garden: rolling-stones }
     assets:
     - assetId: "sc4-lex-legacy-andisart-dependency-compilation"
       include: [ "/MSG_Rolling-Stones_Version.dat" ]
-  - variant: { andisart:madison-square-garden-prop-pack:msg: nba-draft-edition}
+  - variant: { andisart:models-mega-pack-vol02:madison-square-garden: nba }
     assets:
     - assetId: "sc4-lex-legacy-andisart-dependency-compilation"
       include: [ "/MSG_NBA-Draft-Edition.dat" ]
-  - variant: { andisart:madison-square-garden-prop-pack:msg: sumo-exhibition-edition}
+  - variant: { andisart:models-mega-pack-vol02:madison-square-garden: sumo }
     assets:
     - assetId: "sc4-lex-legacy-andisart-dependency-compilation"
       include: [ "/MSG_Sumo-Exhibition_Version.dat" ]
-  - variant: { andisart:madison-square-garden-prop-pack:msg: wrestlemania-xx-edition}
+  - variant: { andisart:models-mega-pack-vol02:madison-square-garden: wrestlemania }
     assets:
     - assetId: "sc4-lex-legacy-andisart-dependency-compilation"
       include: [ "/MSG_Wrestlemania-XX-Edition_v2.dat" ]
-  - variant: { andisart:madison-square-garden-prop-pack:msg: wrestling-state-championship-edition}
+  - variant: { andisart:models-mega-pack-vol02:madison-square-garden: wrestling }
     assets:
     - assetId: "sc4-lex-legacy-andisart-dependency-compilation"
       include: [ "/MSG_Wrestling-State-Championship-Edition.dat" ]
-  - variant: { andisart:madison-square-garden-prop-pack:msg: gay-pride-edition}
+  - variant: { andisart:models-mega-pack-vol02:madison-square-garden: pride }
     assets:
     - assetId: "sc4-lex-legacy-andisart-dependency-compilation"
       include: [ "/MSG_Gay-Pride_Version.dat" ]
 info:
   summary: "Madison Square Garden Prop Pack by AndisArt"
   description: |-
-    * Madison Square Garden - Regular Version
-    * Madison Square Garden - Madonna Version
-    * Madison Square Garden - Rolling Stones Version
-    * Madison Square Garden - Gay Pride Version
-    * Madison Square Garden - Sumo Exhibition Version
-    * Madison Square Garden - NBA Draft Edition
-    * Madison Square Garden - Wrestlemania XX Edition
-    * Madison Square Garden - Wrestling Championship Edition
-
+    * Madison Square Garden - Regular edition
+    * Madison Square Garden - Madonna Confessions Tour edition
+    * Madison Square Garden - Rolling Stones edition
+    * Madison Square Garden - NBA Draft edition
+    * Madison Square Garden - Sumo Exhibition edition
+    * Madison Square Garden - Wrestlemania XX edition
+    * Madison Square Garden - Wrestling Championship edition
+    * Madison Square Garden - Gay Pride edition
   author: AndisArt
-  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/387-sc4-legacy-andisart-dependency-compilation"
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/387-sc4-legacy-andisart-dependency-compilation
+    - https://community.simtropolis.com/files/file/16338-madison-square-garden-regular-version-new-model/
+    - https://community.simtropolis.com/files/file/16291-madison-square-garden-madonna-version/
+    - https://community.simtropolis.com/files/file/18623-madison-square-garden-rolling-stones-version/
+    - https://community.simtropolis.com/files/file/16346-madison-square-garden-nba-draft-edition/
+    - https://community.simtropolis.com/files/file/16437-madison-square-garden-sumo-exhibition-version/
+    - https://community.simtropolis.com/files/file/16353-madison-square-garden-wrestlemania-xx-edition/
+    - https://community.simtropolis.com/files/file/16339-madison-square-garden-wrestling-championship-edition/
+    - https://community.simtropolis.com/files/file/18621-madison-square-garden-gay-pride-version/
   images:
    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_AndisArt%20Dependency%20Compilation.png
+
+variantInfo:
+  - variantId: "andisart:models-mega-pack-vol02:madison-square-garden"
+    description: Choose an exterior visual style for the model of the Madison Square Garden indoor arena.
+    values:
+      - value: regular
+        description: Regular edition
+        default: true
+      - value: madonna
+        description: Madonna Confessions Tour edition
+      - value: rolling-stones
+        description: Rolling Stones edition
+      - value: nba
+        description: NBA Draft edition
+      - value: sumo
+        description: Sumo Exhibition edition
+      - value: wrestlemania
+        description: Wrestlemania XX edition
+      - value: wrestling
+        description: Wrestling State Championship edition
+      - value: pride
+        description: Gay Pride edition
