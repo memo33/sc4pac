@@ -1,12 +1,12 @@
-group: "cm"
+group: "citymax"
 name: "road-prop-pack"
 version: "2.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "tsc-props-pack-cm-road-prop-pack"
 info:
-  summary: "TSC Road Prop Pack by CM"
-  author: "CM"
+  summary: "TSC Road Signs Prop Pack by CityMax"
+  author: "CityMax"
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/399-tsc-props-pack-cm-road-signs"
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/CM%20Road%20Signs.jpg

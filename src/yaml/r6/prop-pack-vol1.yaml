@@ -1,17 +1,9 @@
 group: r6
 name: prop-pack-vol1
-version: "2"
+version: "2-1"
 subfolder: 100-props-textures
-dependencies: [ "r6:mega-props-pack" ]
-assets:
-  - assetId: r6-prop-pack-vol1
+dependencies: [ "r6:mega-props" ]
 info:
-  summary: "Superseded by `pkg=r6:mega-props-pack`"
-  author: r6
+  summary: "Superseded by `pkg=r6:mega-props`"
+  author: R6
   website: "https://www.toutsimcities.com/downloads/view/1584"
-
----
-assetId: r6-prop-pack-vol1
-version: "2"
-lastModified: "2009-09-09T12:00:00Z"
-url: https://www.toutsimcities.com/downloads/start/1584

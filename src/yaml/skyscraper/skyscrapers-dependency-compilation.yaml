@@ -5,14 +5,14 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=389:
 
 ---
 group: "skyscraper"
-name: "prop-pack-vol01"
+name: "models-pack-vol01"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
   include: [ "/Skyscraper Models Mega Pack vol01.dat" ]
 info:
-  summary: "Models Mega Pack Vol0 by Skyscraper"
+  summary: "Models Mega Pack Vol01 by Skyscraper"
   description: |-
     These models were formerly linked for the different core CAM Commercial and Residential sets
     * Business Trade Center
@@ -27,7 +27,7 @@ info:
    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_Skyscraper%20Dependency%20Compilation.png
 ---
 group: "skyscraper"
-name: "prop-pack-vol02"
+name: "models-pack-vol02"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -53,7 +53,7 @@ info:
 
 ---
 group: "skyscraper"
-name: "prop-pack-vol03"
+name: "models-pack-vol03"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -78,7 +78,7 @@ info:
 
 ---
 group: "skyscraper"
-name: "prop-pack-vol04"
+name: "models-pack-vol04"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -98,7 +98,7 @@ info:
 
 ---
 group: "skyscraper"
-name: "prop-pack-vol05"
+name: "models-pack-vol05"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
@@ -118,7 +118,7 @@ info:
 
 ---
 group: "skyscraper"
-name: "prop-pack-vol06-construction-props"
+name: "models-pack-vol06"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:

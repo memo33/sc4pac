@@ -27,18 +27,16 @@ assets:
 ---
 group: blam
 name: hidp-fx-chemicals-resources
-version: "1.0"
+version: "1.0-1"
 subfolder: 100-props-textures
 info:
-  summary: HIDP FX Chemicals Resources
+  summary: Superseded by `pkg=blam:hidp-mega-props`
   description: |-
     Resource file for `pkg=blam:hidp-fx-chemicals`
   author: fukuda
   website: https://community.simtropolis.com/files/file/17591-blam-hidp-fx-chemicals/
-assets:
-  - assetId: blam-hidp-fx-chemicals
-    exclude:
-      - \.SC4Lot$
+dependencies:
+  - blam:hidp-mega-props
 
 ---
 assetId: blam-hidp-fx-chemicals
