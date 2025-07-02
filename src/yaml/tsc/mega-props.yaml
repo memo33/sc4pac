@@ -1,0 +1,121 @@
+group: "tsc"
+name: "mega-props-vol01-antoine"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "tsc-mega-props-vol01-antoine"
+info:
+  summary: "TSC Mega Prop Pack by Antoine"
+  author: "Antoine"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/397-tsc-mega-props-vol01-antoine"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/TSC%20MEGA%20Props%20Antoine-01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/TSC%20MEGA%20Props%20Antoine-02.jpg
+
+---
+assetId: "tsc-mega-props-vol01-antoine"
+version: "1.0"
+lastModified: "2025-05-24T04:24:35-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=397:tsc-mega-props-vol01-antoine"
+
+---
+group: "tsc"
+name: "mega-props-vol02-blanco05"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "tsc-mega-props-vol02-blanco05"
+info:
+  summary: "TSC Mega Prop Pack by Blanco_05"
+  author: "Blanco_05"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/396-tsc-mega-props-vol02-blanco-05"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/TSC%20MEGA%20Props%20Blanco_05-01.jpg
+
+---
+assetId: "tsc-mega-props-vol02-blanco05"
+version: "1.0"
+lastModified: "2025-05-24T04:08:08-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=396:tsc-mega-props-vol02-blanco-05"
+
+---
+group: "tsc"
+name: "mega-props-vol03-roulback"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "tsc-mega-props-vol03-roulback"
+info:
+  summary: "TSC Mega Prop Pack by Roulback"
+  author: "Roulback"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/395-tsc-mega-props-vol03-roulback"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/TSC%20MEGA%20Props%20Roulback.jpg
+
+---
+assetId: "tsc-mega-props-vol03-roulback"
+version: "1.0"
+lastModified: "2025-05-23T07:44:54-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=395:tsc-mega-props-vol03-roulback"
+
+---
+group: "tsc"
+name: "mega-props-vol04-orange"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "tsc-mega-props-vol04-orange"
+info:
+  summary: "TSC Mega Prop Pack by Orange"
+  author: "Orange_o_"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/394-tsc-mega-props-vol04-orange"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/TSC%20MEGA%20Props%20Orange_O.jpg
+
+---
+assetId: "tsc-mega-props-vol04-orange"
+version: "1.0"
+lastModified: "2025-05-23T07:37:35-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=394:tsc-mega-props-vol04-orange"
+
+---
+group: "tsc"
+name: "mega-props-vol05-namspopof"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "tsc-mega-props-vol05-namspopof"
+info:
+  summary: "TSC Mega Prop Pack by namspopof"
+  author: "namspopof"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/393-tsc-mega-props-vol05-namspopof-bat-props"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Props_render_17.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Props_render_18.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Props_render_19.jpg
+
+---
+assetId: "tsc-mega-props-vol05-namspopof"
+version: "1.0"
+lastModified: "2025-05-23T04:29:46-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=393:tsc-mega-props-vol05-namspopof-bat-props"
+
+---
+group: "tsc"
+name: "mega-props-vol06-misc"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "tsc-mega-props-vol06-misc"
+info:
+  summary: "TSC Mega Prop Pack - Misc"
+  author: "CityMax, Choucass and Lacoigne"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/392-tsc-mega-props-vol06-misc-vol01"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/TSC%20MEGA%20Props%20MISC%20Vol01.jpg
+
+---
+assetId: "tsc-mega-props-vol06-misc"
+version: "1.0"
+lastModified: "2025-05-23T04:29:46-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=392:tsc-mega-props-vol06-misc-vol01"

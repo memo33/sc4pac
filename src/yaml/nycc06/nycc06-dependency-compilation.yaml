@@ -1,0 +1,134 @@
+assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
+version: "1.0"
+lastModified: "2025-06-16T06:59:47-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=388:sc4-lex-legacy-nycc06-dependency-compilation"
+
+---
+group: "nycc06"
+name: "models-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
+  include: [ "/nycc06 Models Mega Pack Vol01.dat" ]
+info:
+  summary: "Models Mega Pack Vol01 by NYCC06"
+  description: |-
+    These models were formerly linked for the different core CAM Commercial and Residential sets
+    * Alexander Building
+    * Amethyst Hotel Tower
+    * Austin City Bank Tower V3
+    * Castle Reach Tower
+    * Eclipse Tower
+    * Jackson Tower
+
+  author: NYCC06
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/388-sc4-lex-legacy-nycc06-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NYCC06%20Dependency%20Compilation.png
+
+---
+group: "nycc06"
+name: "models-pack-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
+  include: [ "/nycc06 Models Mega Pack Vol02.dat" ]
+info:
+  summary: "Models Mega Pack Vol02 by NYCC06"
+  description: |-
+    These models were formerly linked for the different core CAM Commercial and Residential sets
+    * One World Trade Center (Freedom Tower)
+    * Goldman Sachs NWHQ
+    * Hammond Tower
+
+  author: NYCC06
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/388-sc4-lex-legacy-nycc06-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NYCC06%20Dependency%20Compilation.png
+
+---
+group: "nycc06"
+name: "models-pack-vol03"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
+  include: [ "/nycc06 Models Mega Pack Vol03.dat" ]
+info:
+  summary: "Models Mega Pack Vol03 by NYCC06"
+  description: |-
+    These models were formerly linked for the different core CAM Commercial and Residential sets
+    * Lincoln Heights Tower
+    * Oceana Tower
+    * Pearl Coast Hotel Tower
+    * Poseidon Tower
+    * Shilito Tower
+
+  author: NYCC06
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/388-sc4-lex-legacy-nycc06-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NYCC06%20Dependency%20Compilation.png
+
+---
+group: "nycc06"
+name: "models-pack-vol04"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
+  include: [ "/nycc06 Models Mega Pack Vol04.dat" ]
+info:
+  summary: "Models Mega Pack Vol04 by NYCC06"
+  description: |-
+    * CACC Acsylis Tower
+    * CACC Chrysalis Tower V2
+    * CACC Bay View Tower
+    * CACC Bay View Tower Construction
+
+  author: NYCC06
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/388-sc4-lex-legacy-nycc06-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NYCC06%20Dependency%20Compilation.png
+
+---
+group: "nycc06"
+name: "models-pack-vol05"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
+  include: [ "/nycc06 Models Mega Pack Vol05.dat" ]
+info:
+  summary: "Models Mega Pack Vol05 by NYCC06"
+  description: |-
+    * CAA Tower
+    * Marina 101 Tower
+    * Rialto Spire
+
+  author: NYCC06
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/388-sc4-lex-legacy-nycc06-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NYCC06%20Dependency%20Compilation.png
+
+---
+group: "nycc06"
+name: "models-pack-vol06"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-nycc06-dependency-compilation"
+  include: [ "/nycc06 Models Mega Pack Vol06.dat" ]
+info:
+  summary: "Models Mega Pack Vol06 by NYCC06"
+  description: |-
+    * Alexander Building V2
+    * Austin Financial Tower II V2
+    * Riverside Grand Plaza
+    * Willow Place Part 1 V2
+
+  author: NYCC06
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/388-sc4-lex-legacy-nycc06-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NYCC06%20Dependency%20Compilation.png

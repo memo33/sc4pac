@@ -1,0 +1,18 @@
+group: "fukuda"
+name: "industrial-mega-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "fukuda-industrial-mega-props"
+info:
+  summary: "Industrial props by Fukuda"
+  author: "Fukuda"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/391-fukuda-industrial-mega-prop-pack"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Fukuda%20Industrial%20Mega%20Prop%20Pack.jpg
+
+---
+assetId: "fukuda-industrial-mega-props"
+version: "1.0"
+lastModified: "2025-05-23T03:45:00-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=391:fukuda-industrial-mega-prop-pack"

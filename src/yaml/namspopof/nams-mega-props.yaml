@@ -1,0 +1,20 @@
+group: "namspopof"
+name: "nams-mega-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "tsc-props-pack-nams-prop-pack"
+info:
+  summary: "TSC Prop Packs by namspopof"
+  author: "namspopof"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/403-tsc-props-pack-nams-mega-props"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/logo_nams_props_pack_vol_01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/logo_nams_props_pack_vol_02.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Props_render_16.jpg
+
+---
+assetId: "tsc-props-pack-nams-prop-pack"
+version: "1.0"
+lastModified: "2025-05-24T05:58:18-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=403:tsc-props-pack-nams-mega-props"

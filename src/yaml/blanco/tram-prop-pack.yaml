@@ -1,16 +1,9 @@
 group: blanco
 name: tram-prop-pack
-version: "1.0"
+version: "1.0-1"
 subfolder: 100-props-textures
-assets:
-  - assetId: blanco-tram-prop-pack
+dependencies: [ "blanco:transport-prop-pack" ]
 info:
-  summary: Tram Prop Pack
+  summary: "Superseded by `pkg=blanco:transport-prop-pack`"
   author: blanco
-  website: https://www.toutsimcities.com/downloads/view/1516
-
----
-assetId: blanco-tram-prop-pack
-version: "1.0"
-lastModified: "2009-05-18T12:00:00Z"
-url: https://www.toutsimcities.com/downloads/start/1516
+  website: "https://www.toutsimcities.com/downloads/view/1516"
