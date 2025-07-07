@@ -1,70 +1,42 @@
 group: "namspopof"
 name: "bat-props-pack-vol02"
-version: "1"
+version: "1-1"
 subfolder: "100-props-textures"
-assets:
-- assetId: "nams-bats-props-pack-vol-02"
+dependencies: [ "tsc:mega-props-vol05-namspopof" ]
 info:
-  summary: "Nams BATs Props Pack Vol 02"
+  summary: "Superseded by `pkg=tsc:mega-props-vol05-namspopof`"
   author: "namspopof"
   website: "https://www.toutsimcities.com/downloads/view/1919"
 
 ---
-assetId: "nams-bats-props-pack-vol-02"
-version: "1"
-lastModified: "2012-03-17T12:00:00Z"
-url: "https://www.toutsimcities.com/downloads/start/1919"
-
----
 group: "namspopof"
 name: "bat-props-pack-vol03"
-version: "1"
+version: "1-1"
 subfolder: "100-props-textures"
-assets:
-- assetId: "nams-bats-props-pack-vol-03"
+dependencies: [ "tsc:mega-props-vol05-namspopof" ]
 info:
-  summary: "Nams BATs Props Pack Vol 03"
+  summary: "Superseded by `pkg=tsc:mega-props-vol05-namspopof`"
   author: "namspopof"
   website: "https://www.toutsimcities.com/downloads/view/1959"
 
 ---
-assetId: "nams-bats-props-pack-vol-03"
-version: "1"
-lastModified: "2012-11-26T12:00:00Z"
-url: "https://www.toutsimcities.com/downloads/start/1959"
-
----
 group: "namspopof"
 name: "props-pack-vol1"
-version: "1"
+version: "1-1"
 subfolder: "100-props-textures"
-assets:
-- assetId: "nams-props-pack-vol-01"
+dependencies: [ "namspopof:nams-mega-props" ]
 info:
-  summary: "Nams Props Pack Vol 01"
+  summary: "Superseded by `pkg=namspopof:nams-mega-props`"
   author: "namspopof"
   website: "https://www.toutsimcities.com/downloads/view/1780"
 
 ---
-assetId: "nams-props-pack-vol-01"
-version: "1"
-lastModified: "2010-10-14T12:00:00Z"
-url: "https://www.toutsimcities.com/downloads/start/1780"
-
----
 group: "namspopof"
 name: "props-pack-vol2"
-version: "1"
+version: "1-1"
 subfolder: "100-props-textures"
-assets:
-- assetId: "nams-props-pack-vol-02"
+dependencies: [ "namspopof:nams-mega-props" ]
 info:
-  summary: "Nams Props Pack Vol 2"
+  summary: "Superseded by `pkg=namspopof:nams-mega-props`"
   author: "namspopof"
   website: "https://www.toutsimcities.com/downloads/view/1882"
-
----
-assetId: "nams-props-pack-vol-02"
-version: "1"
-lastModified: "2011-08-17T12:00:00Z"
-url: "https://www.toutsimcities.com/downloads/start/1882"

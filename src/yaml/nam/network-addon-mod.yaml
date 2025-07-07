@@ -40,7 +40,7 @@ packages:
     - nam:ground-light-rail            # optional
     - nam:hybrid-railway               # optional
     - nam:high-speed-rail              # optional
-    - nam:canal-addon-mod              # optional
+    - nam:canals                       # optional
     - nam:bridges                      # optional
     - nam:one-way-arrows               # optional
     - nam:maxis-transit-lots           # optional
@@ -128,7 +128,7 @@ packages:
         - &glrPath "Network Features/.*/Ground Light Rail"           # nam:ground-light-rail
         - &hrwPath "Network Features/Hybrid Railway"                 # nam:hybrid-railway
         - &hsrPath "Network Features/.*High Speed Rail Project"      # nam:high-speed-rail
-        - &canPath "Network Features/Water Transport"                # nam:canal-addon-mod
+        - &canPath "Network Features/Water Transport"                # nam:canals
         - &bridgePath "/@57 Bridges/"                                # nam:bridges
         - &arrowPath "Network Features/.*One-Way Road Arrow Plugins" # nam:one-way-arrows
         - "Maxis Transit Lots#?/"                                    # nam:maxis-transit-lots
@@ -492,7 +492,7 @@ packages:
 
 # ---
 - group: nam
-  name: canal-addon-mod
+  name: canals
   version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
@@ -505,7 +505,7 @@ packages:
     images:
       - https://www.sc4nam.com/docs/feature-guides/canals/images/can-am-building-11.jpg
   variantInfo:
-    - variantId: nam:canal-addon-mod:style
+    - variantId: nam:canals:style
       description: Select a canal style. The matching canal set is not included, but needs to be installed separately.
       values:
         - value: "CAL"
@@ -517,7 +517,7 @@ packages:
   dependencies:
     - nam:network-addon-mod-core
   variants:
-    - variant: { nam:canal-addon-mod:style: "CAL" }
+    - variant: { nam:canals:style: "CAL" }
       assets:
         - &canalAsset
           assetId: nam-gh
@@ -526,7 +526,7 @@ packages:
           exclude:
             - "SimGoober Style"
             - *exe
-    - variant: { nam:canal-addon-mod:style: "SG" }
+    - variant: { nam:canals:style: "SG" }
       assets:
         - <<: *canalAsset
           exclude:

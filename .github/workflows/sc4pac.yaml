@@ -20,6 +20,7 @@ jobs:
       use-stex-api: true
     secrets:
       stex-api-key: ${{ secrets.STEX_API_KEY }}
+      sc4pac-simtropolis-token: ${{ secrets.SC4PAC_SIMTROPOLIS_TOKEN }}
     permissions:
       pages: write                   # to deploy to GitHub Pages
       id-token: write                # to verify the deployment originates from an appropriate source

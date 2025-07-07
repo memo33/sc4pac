@@ -1,0 +1,139 @@
+assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
+version: "1.0"
+lastModified: "2025-06-16T06:43:37-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=389:sc4-lex-legacy-skyscrapers-dependency-compilation"
+
+---
+group: "skyscraper"
+name: "models-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
+  include: [ "/Skyscraper Models Mega Pack vol01.dat" ]
+info:
+  summary: "Models Mega Pack Vol01 by Skyscraper"
+  description: |-
+    These models were formerly linked for the different core CAM Commercial and Residential sets
+    * Business Trade Center
+    * Commerce Bank Complex
+    * Global Office Center
+    * Marble Tower
+    * Marble Tower V2
+    * The Exchange
+  author: Skyscraper
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/389-sc4-lex-legacy-skyscrapers-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_Skyscraper%20Dependency%20Compilation.png
+---
+group: "skyscraper"
+name: "models-pack-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
+  include: [ "/Skyscraper Models Mega Pack vol02.dat" ]
+info:
+  summary: "Models Mega Pack Vol02 by Skyscraper"
+  description: |-
+    these models were formerly linked for the different core CAM Commercial and Residential sets
+    * 7 World Trade Center
+    * Broad Financial Center, New York
+    * Jing Guang Center, Beijing
+    * JP Stevens Company Tower, New York
+    * Lake Shore Views
+    * Park Avenue Plaza Building
+    * The Bay Gate
+    * The Palm Building
+    * Tower 49
+  author: Skyscraper
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/389-sc4-lex-legacy-skyscrapers-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_Skyscraper%20Dependency%20Compilation.png
+
+---
+group: "skyscraper"
+name: "models-pack-vol03"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
+  include: [ "/Skyscraper Models Mega Pack vol03.dat" ]
+info:
+  summary: "Models Mega Pack Vol03 by Skyscraper"
+  description: |-
+    these models were formerly linked for the different core CAM Commercial and Residential sets
+    * 888 7th Avenue
+    * Arraya Tower, Kuvait City
+    * Concord Tower
+    * First Union Center
+    * The Olympiaturm
+    * Ubora Tower
+    * West Nitron Center
+
+  author: Skyscraper
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/389-sc4-lex-legacy-skyscrapers-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_Skyscraper%20Dependency%20Compilation.png
+
+---
+group: "skyscraper"
+name: "models-pack-vol04"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
+  include: [ "/Skyscraper Models Mega Pack vol04.dat" ]
+info:
+  summary: "Models Mega Pack Vol04 by Skyscraper"
+  description: |-
+    * 23 Marina, Dubai
+    * Bank World Tower
+    * Bayswater, Dubai
+    * One Business Bay
+  author: Skyscraper
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/389-sc4-lex-legacy-skyscrapers-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_Skyscraper%20Dependency%20Compilation.png
+
+---
+group: "skyscraper"
+name: "models-pack-vol05"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
+  include: [ "/Skyscraper Models Mega Pack vol05.dat" ]
+info:
+  summary: "Models Mega Pack Vol05 by Skyscraper"
+  description: |-
+    * Marina Residence
+    * National Bank
+    * The Index, Dubai
+
+  author: Skyscraper
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/389-sc4-lex-legacy-skyscrapers-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_Skyscraper%20Dependency%20Compilation.png
+
+---
+group: "skyscraper"
+name: "models-pack-vol06"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4-lex-legacy-skyscrapers-dependency-compilation"
+  include: [ "/Skyscraper Models Mega Pack vol06.dat" ]
+info:
+  summary: "Models Mega Pack Vol06 - Construction Props by Skyscraper"
+  description: |-
+    * Construction Set Vol01
+    * Construction Set Vol02
+    * Burj Dubai Construction
+    * Emirates Office Towers Construction
+    * Petronas Towers Construction
+
+  author: Skyscraper
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/389-sc4-lex-legacy-skyscrapers-dependency-compilation"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_Skyscraper%20Dependency%20Compilation.png

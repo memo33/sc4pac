@@ -53,7 +53,7 @@ st-check-updates:
 
 st-url-check:
 	set -a && source ./.git/sc4pac-stex-api-key && set +a \
-		&& git diff "$(shell git merge-base @ "origin/main")" --name-only -- "src/yaml" \
+		&& git diff "$(shell git merge-base @ "origin/main")" --diff-filter=d --name-only -- "src/yaml" \
 		| xargs --delimiter '\n' python $(ACTIONS)/src/st-check-updates.py --mode=id
 
 .PHONY: gh-pages gh-pages-no-lint channel host host-docs lint sc4e-check-updates st-check-updates st-url-check

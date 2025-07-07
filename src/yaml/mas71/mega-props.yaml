@@ -1,6 +1,6 @@
 group: "mas71"
 name: "mega-props-vol01"
-version: "1.0"
+version: "2.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "mas71-mega-prop-pack-vol01-misc"
@@ -14,6 +14,6 @@ info:
 
 ---
 assetId: "mas71-mega-prop-pack-vol01-misc"
-version: "1.0"
-lastModified: "2024-01-20T13:09:53Z"
+version: "2.0"
+lastModified: "2025-06-19T18:17:17-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=87:mas71-mega-prop-pack-vol01-misc"

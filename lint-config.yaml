@@ -9,6 +9,8 @@ extra-channels: []
 
 allow-ego-perspective: false
 
+lowercase-file-names: true
+
 # Package names for which the check for asset version mismatches should be skipped.
 # Only needed when the linter tells you so.
 ignore-version-mismatches:
