@@ -1,0 +1,24 @@
+group: ndex
+name: n747-palm-props-vol01
+version: "2.0"
+subfolder: 100-props-textures
+
+assets:
+- assetId: "ndex-n747-palm-props-vol01"
+
+info:
+  summary: NDEX Global Essentials
+  description: |
+    This file contains the queries, and the associated images necessary to display the custom queries linked to by the majority of NDEX lots. It has been updated to include queries for industrial lots and for CAMeLots.
+
+  author: N74704(NDEX) and BarbyW
+  website: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/370-ndex-n747-palm-props-vol01
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/NDEX%20N74704%20Palm%20Trees_LEX.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/NDEX%20N74704%20Palm%20Trees02.jpg
+
+---
+assetId: "ndex-n747-palm-props-vol01"
+version: "2.0"
+lastModified: "2025-05-05T08:07:16-07:00"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=370:ndex-n747-palm-props-vol01
