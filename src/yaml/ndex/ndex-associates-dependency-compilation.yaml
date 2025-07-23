@@ -1,0 +1,246 @@
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=374:sc4-legacy-ndex-associates-dependency-compilation"
+assetId: "sc4-legacy-ndex-associates-dependency-compilation"
+version: "1.0"
+lastModified: "2025-05-07T07:08:00-07:00"
+
+---
+group: "ndex"
+name: "ndex-and-associates-mega-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/374-sc4-legacy-ndex-associates-dependency-compilation"
+  summary: "Models by NDEX & Associates"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers like Ardecilia, Brenda_Xne, Decius, FrogFace, kd5rax, GeoffDiamond, Conceptual, N74704, Tragicomicus and Equinox which have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX.  This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+    
+    * [NDEX Conceptual Wilkshire Tower](https://community.simtropolis.com/files/file/11538-ndex-wilkshire-tower-by-conceptual/)
+    * [Conceptual - Regency Hotel](https://community.simtropolis.com/files/file/18132-regency-hotel/)
+    * [NDEX Brenda_Xne Modern GLR Station](https://community.simtropolis.com/files/file/16201-ndex-modern-glr-station/)
+    * [NDEX & Associates Konietzko Fountain](https://community.simtropolis.com/files/file/12747-ndex-konietzko-fountain/)
+    * [NDEX & Associates Rail-to-Subway Network Transition](https://community.simtropolis.com/files/file/4174-ndex-railtosubway-transition/)
+  author: "NDEX & Associates"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NDEX%20Associates%20MEGA%20Pack%20Vol01.png
+assets:
+- assetId: "sc4-legacy-ndex-associates-dependency-compilation"
+  include:
+  - "/NDEX & Associates MEGA Pack Vol01.dat"
+
+---
+group: "ndex"
+name: "adc-mega-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/374-sc4-legacy-ndex-associates-dependency-compilation"
+  summary: "Models by NDEX & Associates"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers like Ardecilia, Brenda_Xne, Decius, FrogFace, kd5rax, GeoffDiamond, Conceptual, N74704, Tragicomicus and Equinox which have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX.  This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+    
+    * [NDEX ADC Marshall Field River Warehouse](https://community.simtropolis.com/files/file/17009-ndex-marshall-field-river-warehouse-by-ardecila/)
+    * [NDEX ADC Old Post Office](https://community.simtropolis.com/files/file/15266-ndex-old-post-office-by-ardecila/)
+    * [ADC - 150 North Michigan](https://community.simtropolis.com/files/file/18915-150-north-michigan/)
+    * [ADC - 1363 North Paulina](https://community.simtropolis.com/files/file/18661-1363-north-paulina/)
+    * [ADC - Boston Market](https://community.simtropolis.com/files/file/3874-boston-market/)
+    * [ADC - FlibbidyFleu's Chicago Chase Plaza XL](https://community.simtropolis.com/files/file/16076-chase-tower-xl-by-flibbidyfleu/)
+    * [ADC - Wrigley Peristyle](https://community.simtropolis.com/files/file/3815-wrigley-peristyle/)
+    * [ADC - Reliance Building](https://community.simtropolis.com/files/file/3584-reliance-building/)
+    * [ADC - Shedd Park Field House](https://community.simtropolis.com/files/file/19087-shedd-park/)
+    * [PDA ADC Buckingham Fountain](https://community.simtropolis.com/files/file/11058-buckingham-fountain/)
+    * [PDA ADC Chicago Water Tower](https://community.simtropolis.com/files/file/11329-pda-chicago-water-tower/)
+  author: "Ardecila (ACD)"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NDEX%20Associates%20MEGA%20Pack%20Vol01.png
+assets:
+- assetId: "sc4-legacy-ndex-associates-dependency-compilation"
+  include:
+  - "/NDEX ADC MEGA Pack Vol01.dat"
+
+---
+group: "ndex"
+name: "ff-mega-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/374-sc4-legacy-ndex-associates-dependency-compilation"
+  summary: "Models by NDEX & Associates"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers like Ardecilia, Brenda_Xne, Decius, FrogFace, kd5rax, GeoffDiamond, Conceptual, N74704, Tragicomicus and Equinox which have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX.  This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+    
+    * [NDEX FF Communist Tenement](https://community.simtropolis.com/files/file/11310-ndex-communist-tenement-by-frogface/)
+    * [NDEX FF Cathedral of Saint Paul](https://community.simtropolis.com/files/file/11633-ndex-cathedral-of-saint-paul-by-frogface/)
+    * [FrogFace - 20 Fenchurch Street](https://community.simtropolis.com/files/file/12480-20-fenchurch-street/)
+    * [FrogFace - 99 Bishopsgate](https://community.simtropolis.com/files/file/12454-99-bishopsgate/)
+    * [FrogFace - 125 London Wall](https://community.simtropolis.com/files/file/13640-125-london-wall/)
+    * [FrogFace - Air Building (Frogface HQ)](https://community.simtropolis.com/files/file/2749-frogface-hq/)
+    * [FrogFace - Unreleased BATS](https://community.simtropolis.com/files/file/13197-ff-unreleased-bats/)
+    * [FrogFace - UK Cottages](https://community.simtropolis.com/files/file/12178-uk-cottage-pack/)
+    * [FrogFace - Frogface INC](https://community.simtropolis.com/files/file/2517-frogface-inc/)
+    * [FrogFace - General Hospital](https://community.simtropolis.com/files/file/3191-general-hospital/)
+    * [FrogFace - Garibaldi Arms](https://community.simtropolis.com/files/file/3714-frogface-garibaldi-arms/)
+    * [FrogFace - Marble Arch Tower](https://community.simtropolis.com/files/file/13356-marble-arch-tower/)
+    * [FrogFace - La Valencio Hotel](https://community.simtropolis.com/files/file/3237-frogface-la-valencio-hotel/)
+    * [FrogFace - St Helens](https://community.simtropolis.com/files/file/12414-st-helens/)
+    * [FrogFace - UK High Street](https://community.simtropolis.com/files/file/13630-ffuk-highstreet-set-1/)
+    * [FrogFace - Paris Metro Station](https://community.simtropolis.com/files/file/11409-ffparis-metro-station/)
+    * [FrogFace - Frogface Telecom](https://community.simtropolis.com/files/file/3633-frogface-telecom/)
+    * [FrogFace - Concrete Wall Props](https://community.simtropolis.com/files/file/3978-frogface-concrete-wall-prop-pack/)
+  author: "FrogFace (FF)"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NDEX%20Associates%20MEGA%20Pack%20Vol01.png
+assets:
+- assetId: "sc4-legacy-ndex-associates-dependency-compilation"
+  include:
+  - "/NDEX FF MEGA Pack vol01.dat"
+  
+---
+group: "ndex"
+name: "gd-mega-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/374-sc4-legacy-ndex-associates-dependency-compilation"
+  summary: "Models by NDEX & Associates"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers like Ardecilia, Brenda_Xne, Decius, FrogFace, kd5rax, GeoffDiamond, Conceptual, N74704, Tragicomicus and Equinox which have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX.  This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+    
+    * [NDEX GD Michigan Ave Center](https://community.simtropolis.com/files/file/13179-ndex-michigan-ave-center-by-geoffdiamond/)
+    * [GD - Aon Center, Chicago](https://community.simtropolis.com/files/file/3051-aon-center-chicago-il/)
+    * [GD - ATT Corporate Center v2](https://community.simtropolis.com/files/file/3147-att-corporate-center/)
+    * [GD - Lake Tower](https://community.simtropolis.com/files/file/3208-geoff-diamonds-lake-tower/)
+    * [GD - North Pier Tower ](https://community.simtropolis.com/files/file/3955-north-pier-tower/)
+    * [GD - The Randolph](https://community.simtropolis.com/files/file/3221-geoff-diamonds-the-randolph/)
+    * [GD - Trump International Hotel and Tower, Chicago](https://community.simtropolis.com/files/file/3193-trump-international-hotel-and-tower/)
+    * [GD - Wabash Tower](https://community.simtropolis.com/files/file/4002-wabash-tower/)
+  author: "GeoffDiamond (GD)"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NDEX%20Associates%20MEGA%20Pack%20Vol01.png
+assets:
+- assetId: "sc4-legacy-ndex-associates-dependency-compilation"
+  include:
+  - "/NDEX GD MEGA Pack Vol01.dat"
+
+---
+group: "ndex"
+name: "kd5rax-mega-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/374-sc4-legacy-ndex-associates-dependency-compilation"
+  summary: "Models by NDEX & Associates"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers like Ardecilia, Brenda_Xne, Decius, FrogFace, kd5rax, GeoffDiamond, Conceptual, N74704, Tragicomicus and Equinox which have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX.  This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+    
+    * [NDEX kd5rax Club Malibu](https://community.simtropolis.com/files/file/11343-club-malibu/)
+    * [NDEX kd5rax Rax Condos](https://community.simtropolis.com/files/file/4325-ndex-rax-condos-by-kd5rax/)
+    * [NDEX kd5rax Taipei Lite ](https://community.simtropolis.com/files/file/11302-ndex-taipei-lite-by-kd5rax/)
+    * [NDEX kd5rax York Tower](https://community.simtropolis.com/files/file/11545-ndex-york-tower-by-kd5rax/)
+  author: "kd5rax"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NDEX%20Associates%20MEGA%20Pack%20Vol01.png
+assets:
+- assetId: "sc4-legacy-ndex-associates-dependency-compilation"
+  include:
+  - "/NDEX GD MEGA Pack Vol01.dat"
+
+---
+group: "ndex"
+name: "kd5rax-mega-pack-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/374-sc4-legacy-ndex-associates-dependency-compilation"
+  summary: "Models by NDEX & Associates"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers like Ardecilia, Brenda_Xne, Decius, FrogFace, kd5rax, GeoffDiamond, Conceptual, N74704, Tragicomicus and Equinox which have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX.  This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+    
+    * [kd5rax - Dome Tower](https://community.simtropolis.com/files/file/2657-dome-tower/)
+    * [kd5rax - Eiffel Tower](https://community.simtropolis.com/files/file/2625-eiffel-tower/)
+    * [kd5rax - Suburban Homes](https://community.simtropolis.com/files/file/4316-suburbian-homes/)
+    * [kd5rax - Master Chief Reflector Pool](https://community.simtropolis.com/files/file/4197-master-chief-reflector-pool/)
+    * [kd5rax - Rax Inc](https://community.simtropolis.com/files/file/11396-rax-inc/)
+    * [kd5rax - Tiny Taipei CC](https://community.simtropolis.com/files/file/4120-tiny-taipei/)
+    * [kd5rax - Regional University](https://community.simtropolis.com/files/file/2665-regional-university/)
+  author: "kd5rax"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NDEX%20Associates%20MEGA%20Pack%20Vol01.png
+assets:
+- assetId: "sc4-legacy-ndex-associates-dependency-compilation"
+  include:
+  - "/NDEX kd5rax MEGA Pack vol02.dat"
+  
+---
+group: "ndex"
+name: "n747-mega-pack-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/374-sc4-legacy-ndex-associates-dependency-compilation"
+  summary: "Models by NDEX & Associates"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers like Ardecilia, Brenda_Xne, Decius, FrogFace, kd5rax, GeoffDiamond, Conceptual, N74704, Tragicomicus and Equinox which have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX.  This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+    
+    * [NDEX N747 Club ATOM Blue](https://community.simtropolis.com/files/file/4244-ndex-club-atom-blue-by-n747/)
+    * [NDEX N747 Club Volcanic V2](https://community.simtropolis.com/files/file/4394-ndex-volcanic-nightclub-by-n747/)
+    * [NDEX N747 EkRoe Publishing](https://community.simtropolis.com/files/file/4161-ndex-ekroe-publishing-by-n747/)
+    * [NDEX N747 Oceans 27 Nightclub](https://community.simtropolis.com/files/file/4148-ndex-oceans-27-nightclub-by-n747/)
+    * [NDEX N747 Riddle Me This Nightclub](https://community.simtropolis.com/files/file/11432-ndex-riddle-me-this-nightclub-by-n747/)
+    * [N74704 - The Palms Hotel](https://community.simtropolis.com/files/file/2940-the-palms/)
+    * [N74704 - ATOM Green](https://community.simtropolis.com/files/file/2988-atom-green/)
+    * [N74704 - EuroChic Modern Tract Housing](https://community.simtropolis.com/files/file/3321-eurochic-modern-tract-housing/)
+    * [N74704 - Vera Corp](https://community.simtropolis.com/files/file/2679-veracorp/)
+  author: "N747"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NDEX%20Associates%20MEGA%20Pack%20Vol01.png
+assets:
+- assetId: "sc4-legacy-ndex-associates-dependency-compilation"
+  include:
+  - "/NDEX N747 MEGA Props Vol01.dat"
+
+---
+group: "ndex"
+name: "t-ragic-mega-pack-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/374-sc4-legacy-ndex-associates-dependency-compilation"
+  summary: "Models by NDEX & Associates"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers like Ardecilia, Brenda_Xne, Decius, FrogFace, kd5rax, GeoffDiamond, Conceptual, N74704, Tragicomicus and Equinox which have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX.  This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+    
+    * [NDEX Tragicomicus Zeus Corp](https://community.simtropolis.com/files/file/16378-ndex-zeus-corporation-by-tragicomicus/)
+    * [NDEX Tragicomicus Saints Plaza](https://community.simtropolis.com/files/file/19060-ndex-saints-plaza-by-tragicomicus1/)
+    * [NDEX Tragicomicus Arch Museum](https://community.simtropolis.com/files/file/13106-ndex-architectural-museum/)
+    * [t-ragic Bank One Tower, Indianapolis](https://community.simtropolis.com/files/file/10912-bank-one-tower-indianapolis/)
+    * [t-ragic - Five Points Condos](https://community.simtropolis.com/files/file/3386-five-points-condominiums/)
+    * [t-ragic - Insane Asylum ](https://community.simtropolis.com/files/file/4256-simcity-insane-asylum/)
+    * [t-ragic - Jade Tower](https://community.simtropolis.com/files/file/4290-jade-tower/)
+    * [t-ragic - Lakeview Condos](https://community.simtropolis.com/files/file/4209-lakeview-condos/)
+    * [t-ragic - Medeterranian Mansion](https://community.simtropolis.com/files/file/13448-tragicomicus-medeterranian-mansion/)
+    * [t-ragic - Shuei Tower](https://community.simtropolis.com/files/file/13536-shuei-tower/)
+    * [t-ragic - Sunset Terrace Apartments](https://community.simtropolis.com/files/file/3377-sunset-terrace-apartments/)
+    * [t-ragic - Tragicomicus Tower](https://community.simtropolis.com/files/file/3796-tragicomicus-tower/)
+  author: "t-ragic"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar_NDEX%20Associates%20MEGA%20Pack%20Vol01.png
+assets:
+- assetId: "sc4-legacy-ndex-associates-dependency-compilation"
+  include:
+  - "/NDEX t-ragic MEGA Pack Vol01.dat"
