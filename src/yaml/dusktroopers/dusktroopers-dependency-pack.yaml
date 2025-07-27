@@ -5,7 +5,7 @@ lastModified: "2025-05-07T07:08:00-07:00"
 
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol01"
+name: "dusktroopers-mega-pack-vol01"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -19,13 +19,13 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol01.dat"
 
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol02"
+name: "dusktroopers-mega-pack-vol02"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -39,13 +39,13 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol02.dat"
 
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol03"
+name: "dusktroopers-mega-pack-vol03"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -65,7 +65,7 @@ assets:
 
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol04"
+name: "dusktroopers-mega-pack-vol04"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -79,13 +79,13 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol04.dat"
 
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol05"
+name: "dusktroopers-mega-pack-vol05"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -99,13 +99,13 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol05.dat"
 
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol06"
+name: "dusktroopers-mega-pack-vol06"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -119,13 +119,13 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol06.dat"
 
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol07"
+name: "dusktroopers-mega-pack-vol07"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -139,13 +139,13 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol07.dat"
   
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol08"
+name: "dusktroopers-mega-pack-vol08"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -159,13 +159,13 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol08.dat"
 
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol09"
+name: "dusktroopers-mega-pack-vol09"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -179,13 +179,13 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol09.dat"
   
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol10"
+name: "dusktroopers-mega-pack-vol10"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -199,13 +199,13 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol10.dat"
   
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol11"
+name: "dusktroopers-mega-pack-vol11"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -219,13 +219,13 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol11.dat"
   
 ---
 group: "ndex"
-name: "dusktroopers-eburress-mega-pack-vol12"
+name: "dusktroopers-mega-pack-vol12"
 version: "1.0"
 subfolder: "100-props-textures"
 info:
@@ -239,6 +239,6 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar1.png
 assets:
-- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+- assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol12.dat"
