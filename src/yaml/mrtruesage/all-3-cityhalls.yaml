@@ -1,0 +1,66 @@
+group: mrtruesage
+name: all-3-city-halls
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Allows all three City Hall rewards to be placed independent of each other
+  description: |-
+    This mod allows all City Hall rewards to be placed in the game at separate intervals (conditions apply - see below). Includes updated LUA script + a maxis LUA script fix.
+
+    * * *
+
+    **Small CityHall conditions:**
+
+    - Pop = 15500 or higher  
+    - Mayor Rating = 40 or higher
+
+    **Medium CityHall conditions:**
+
+    - Pop = 31000 or higher  
+    - Mayor Rating = 45 or higher
+
+    **Large CityHall conditions:**
+
+    - Pop = 62000 or higher  
+    - Mayor Rating = 50 or higher
+
+    * * *
+
+    **Other parameter changes:**
+
+    All City halls now build once plopped (eye candy).
+
+    **Small CityHall:**  
+
+    - Jobs created - 1$, 10$$ and 3$$$  
+    - CAP increase - CO$$ 1500, CO$$$ 1500, ID 500 and IM 500  
+    - NIMBY effect - 50,20
+
+    **Medium CityHall:**
+
+    - Jobs created - 3$, 18$$ and 6$$$  
+    - CAP increase - CO$$ 2500, CO$$$ 2500, ID 500 ,IM 500 and IHT 1000  
+    - NIMBY effect - 70,32
+
+    **Large CityHall:**
+
+    - Jobs created - 8$, 29$$ and 18$$$  
+    - CAP increase - CO$$ 5000, CO$$$ 5000, ID 500 ,IM 1000 and IHT 2000  
+    - NIMBY effect - 90,52
+
+    **UI Changes:**
+
+    The city hall query is modified to add the following information: tax revenue (RCI only), workforce count, population count, education coverage percentage, health coverage percentage, police coverage percentage, and fire coverage percentage.
+  author: MrTruesage
+  website: https://community.simtropolis.com/files/file/11154-all-3-cityhalls-modd-reward-fix/
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/63b7212c3b9fae0258535998530097c8-CityHall.jpg
+    - https://www.simtropolis.com/objects/screens/0011/63b7212c3b9fae0258535998530097c8-CityHall_Query.jpg
+assets:
+  - assetId: mrtruesage-all-3-cityhalls-modd-reward-fix
+
+---
+assetId: mrtruesage-all-3-cityhalls-modd-reward-fix
+version: "1.0"
+lastModified: "2004-12-09T04:00:44Z"
+url: https://community.simtropolis.com/files/file/11154-all-3-cityhalls-modd-reward-fix/?do=download&r=31067
