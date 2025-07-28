@@ -5,21 +5,21 @@ subfolder: 150-mods
 info:
   summary: Allows all three City Hall rewards to be placed independent of each other
   description: |-
-    This mod allows all City Hall rewards to be placed in the game at separate intervals (conditions apply - see below). Includes updated LUA script + a maxis LUA script fix.
+    This mod allows all City Hall rewards to be placed in the game at separate intervals (conditions apply - see below). Includes an updated LUA script and a maxis LUA script fix.
 
     * * *
 
-    **Small CityHall conditions:**
+    **Small City Hall conditions:**
 
     - Pop = 15500 or higher  
     - Mayor Rating = 40 or higher
 
-    **Medium CityHall conditions:**
+    **Medium City Hall conditions:**
 
     - Pop = 31000 or higher  
     - Mayor Rating = 45 or higher
 
-    **Large CityHall conditions:**
+    **Large City Hall conditions:**
 
     - Pop = 62000 or higher  
     - Mayor Rating = 50 or higher
@@ -30,19 +30,19 @@ info:
 
     All City halls now build once plopped (eye candy).
 
-    **Small CityHall:**  
+    **Small City Hall:**  
 
     - Jobs created - 1$, 10$$ and 3$$$  
     - CAP increase - CO$$ 1500, CO$$$ 1500, ID 500 and IM 500  
     - NIMBY effect - 50,20
 
-    **Medium CityHall:**
+    **Medium City Hall:**
 
     - Jobs created - 3$, 18$$ and 6$$$  
     - CAP increase - CO$$ 2500, CO$$$ 2500, ID 500 ,IM 500 and IHT 1000  
     - NIMBY effect - 70,32
 
-    **Large CityHall:**
+    **Large City Hall:**
 
     - Jobs created - 8$, 29$$ and 18$$$  
     - CAP increase - CO$$ 5000, CO$$$ 5000, ID 500 ,IM 1000 and IHT 2000  
