@@ -46,10 +46,6 @@ version: "3.5.0"
 subfolder: "150-mods"
 assets:
 - assetId: "null-45-building-style-control-ui-for-the-building-styles-dll"
-  withChecksum:
-  - include: "/SC4MoreBuildingStyles.dll"
-    sha256: 0022963fb4e10d338db52b933e8a7ba54f4acc3c3db50b1cce1a470edca87f89
-
 info:
   summary: "The 36 style check box version of the Building Style Control UI that was created for use with the Allow More Building Styles DLL Plugin"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
