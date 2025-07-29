@@ -15,7 +15,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2025_07/6887e04f2c8e2_CoriBoom36styleUI.png.e211e1339b7758ed54101797cf2d2971.png   
 dependencies:
   - "null-45:allow-more-building-styles-dll"
-  - "null-45:building-style-control-ui-for-the-building-styles-dll"
+  - "null-45:building-style-control-ui-for-the-building-styles"
 
 ---
 group: "null-45"
