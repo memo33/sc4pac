@@ -22,8 +22,6 @@ group: "null-45"
 name: "building-style-control-ui-for-the-building-styles"
 version: "1.0.0"
 subfolder: "150-mods"
-assets:
-- assetId: "null-45-building-style-control-ui-for-the-building-styles"
 info:
   summary: "The 36 style check box version of the Building Style Control UI that was created for use with the Allow More Building Styles DLL Plugin"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
@@ -35,6 +33,8 @@ info:
   website: "https://community.simtropolis.com/files/file/36962-building-style-control-ui-for-the-building-styles-dll/"
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2025_07/6887e04f2c8e2_CoriBoom36styleUI.png.e211e1339b7758ed54101797cf2d2971.png
+assets:
+- assetId: "null-45-building-style-control-ui-for-the-building-styles"
 
 ---
 assetId: "null-45-building-style-control-ui-for-the-building-styles"
