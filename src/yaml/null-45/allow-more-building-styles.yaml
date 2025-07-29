@@ -41,7 +41,7 @@ url: "https://github.com/0xC0000054/sc4-more-building-styles/releases/download/v
 
 ---
 group: "null-45"
-name: "building-style-control-ui-for-the-building-styles-dll"
+name: "building-style-control-ui-for-the-building-styles"
 version: "3.5.0"
 subfolder: "150-mods"
 assets:
@@ -59,7 +59,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2025_07/6887e04f2c8e2_CoriBoom36styleUI.png.e211e1339b7758ed54101797cf2d2971.png
 
 ---
-assetId: "null-45-building-style-control-ui-for-the-building-styles-dll"
+assetId: "null-45-building-style-control-ui-for-the-building-styles"
 version: "3.5.0"
 lastModified: "2025-07-28T21:26:20Z"
 url: "https://community.simtropolis.com/files/file/36962-building-style-control-ui-for-the-building-styles-dll/?do=download"
