@@ -1,4 +1,4 @@
-assetId: "cam-colossus-addon-mod-cam-controller"  
+assetId: "cam-colossus-addon-mod"  
 version: "3.0.0"
 lastModified: "2025-08-11T19:40:07-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:colossus-addon-mod"
@@ -18,7 +18,7 @@ variants:
   - "cam:colossus-addon-mod-corefile"
 
   assets:
-  - assetId: "cam-colossus-addon-mod-cam-controller"
+  - assetId: "cam-colossus-addon-mod"
   conflicting:
   - "peg:spam"
   - "cam:colossus-addon-mod-spam-controller"
