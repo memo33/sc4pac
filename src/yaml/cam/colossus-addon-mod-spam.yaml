@@ -64,7 +64,7 @@ info:
     If you are installing CAM starting from these given directions it is discouraged not to use the already developed regions as you may experience compatibility problems with edphics, problems with RCI simualtion so it is strongly advised to create a new region to avoid the problems.
     Installation
 
-    This package is a simple .zip file. Just extract the a_CAM folder to your My Documents/SimCity 4/Plugins directory (or equivalent, if you have a custom Plugins folder location).
+    This package is a simple .zip file. Just extract the a_CAM folder to your MyDocuments/SimCity 4/Plugins directory (or equivalent, if you have a custom Plugins folder location).
 
     It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
     Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer nos.17's SC4 Cleanitol or the older BSC Cleanitol tool you can search and remove old and outdated versions of these files.
