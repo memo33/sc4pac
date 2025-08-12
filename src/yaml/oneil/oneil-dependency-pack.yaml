@@ -42,7 +42,7 @@ assets:
 - assetId: "sc4-legacy-ndex-oneil-dependency-pack"
   include:
   - "/NDEX ONeil MEGA Pack Vol02.dat"
-  
+
 ---
 group: "ndex"
 name: "oneil-mega-pack-vol03"

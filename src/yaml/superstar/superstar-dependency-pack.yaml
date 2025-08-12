@@ -42,7 +42,7 @@ assets:
 - assetId: "sc4-legacy-ndex-superstar-dependency-pack"
   include:
   - "/NDEX SS MEGA Pack Vol02.dat"
-  
+
 ---
 group: "ndex"
 name: "superstar-mega-pack-vol03"

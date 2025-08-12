@@ -13,7 +13,7 @@ info:
   summary: "Models by NDEX & Associates"
   description: |-
     The following models are included:
-    
+
     * [NDEX Conceptual Wilkshire Tower](https://community.simtropolis.com/files/file/11538-ndex-wilkshire-tower-by-conceptual/)
     * [Conceptual - Regency Hotel](https://community.simtropolis.com/files/file/18132-regency-hotel/)
     * [NDEX Brenda_Xne Modern GLR Station](https://community.simtropolis.com/files/file/16201-ndex-modern-glr-station/)
@@ -38,7 +38,7 @@ info:
   summary: "Models by NDEX & Associates"
   description: |-
     The following models are included:
-    
+
     * [NDEX ADC Marshall Field River Warehouse](https://community.simtropolis.com/files/file/17009-ndex-marshall-field-river-warehouse-by-ardecila/)
     * [NDEX ADC Old Post Office](https://community.simtropolis.com/files/file/15266-ndex-old-post-office-by-ardecila/)
     * [ADC - 150 North Michigan](https://community.simtropolis.com/files/file/18915-150-north-michigan/)
@@ -68,8 +68,8 @@ info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/374-sc4-legacy-ndex-associates-dependency-compilation"
   summary: "Models by NDEX & Associates"
   description: |-
-    The following models are included:    
-    
+    The following models are included:
+
     * [NDEX FF Communist Tenement](https://community.simtropolis.com/files/file/11310-ndex-communist-tenement-by-frogface/)
     * [NDEX FF Cathedral of Saint Paul](https://community.simtropolis.com/files/file/11633-ndex-cathedral-of-saint-paul-by-frogface/)
     * [FrogFace - 20 Fenchurch Street](https://community.simtropolis.com/files/file/12480-20-fenchurch-street/)
@@ -96,7 +96,7 @@ assets:
 - assetId: "sc4-legacy-ndex-associates-dependency-compilation"
   include:
   - "/NDEX FF MEGA Pack vol01.dat"
-  
+
 ---
 group: "ndex"
 name: "gd-mega-pack-vol01"
@@ -107,7 +107,7 @@ info:
   summary: "Models by NDEX & Associates"
   description: |-
     The following models are included:
-    
+
     * [NDEX GD Michigan Ave Center](https://community.simtropolis.com/files/file/13179-ndex-michigan-ave-center-by-geoffdiamond/)
     * [GD - Aon Center, Chicago](https://community.simtropolis.com/files/file/3051-aon-center-chicago-il/)
     * [GD - ATT Corporate Center v2](https://community.simtropolis.com/files/file/3147-att-corporate-center/)
@@ -135,7 +135,7 @@ info:
   summary: "Models by NDEX & Associates"
   description: |-
     The following models are included:
-    
+
     * [NDEX kd5rax Club Malibu](https://community.simtropolis.com/files/file/11343-club-malibu/)
     * [NDEX kd5rax Rax Condos](https://community.simtropolis.com/files/file/4325-ndex-rax-condos-by-kd5rax/)
     * [NDEX kd5rax Taipei Lite ](https://community.simtropolis.com/files/file/11302-ndex-taipei-lite-by-kd5rax/)
@@ -158,8 +158,8 @@ info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/374-sc4-legacy-ndex-associates-dependency-compilation"
   summary: "Models by NDEX & Associates"
   description: |-
-    The following models are included:    
-    
+    The following models are included:
+
     * [kd5rax - Dome Tower](https://community.simtropolis.com/files/file/2657-dome-tower/)
     * [kd5rax - Eiffel Tower](https://community.simtropolis.com/files/file/2625-eiffel-tower/)
     * [kd5rax - Suburban Homes](https://community.simtropolis.com/files/file/4316-suburbian-homes/)
@@ -175,7 +175,7 @@ assets:
 - assetId: "sc4-legacy-ndex-associates-dependency-compilation"
   include:
   - "/NDEX kd5rax MEGA Pack vol02.dat"
-  
+
 ---
 group: "ndex"
 name: "n747-mega-pack-vol02"
@@ -186,7 +186,7 @@ info:
   summary: "Models by NDEX & Associates"
   description: |-
     The following models are included:
-    
+
     * [NDEX N747 Club ATOM Blue](https://community.simtropolis.com/files/file/4244-ndex-club-atom-blue-by-n747/)
     * [NDEX N747 Club Volcanic V2](https://community.simtropolis.com/files/file/4394-ndex-volcanic-nightclub-by-n747/)
     * [NDEX N747 EkRoe Publishing](https://community.simtropolis.com/files/file/4161-ndex-ekroe-publishing-by-n747/)
@@ -215,7 +215,7 @@ info:
   summary: "Models by NDEX & Associates"
   description: |-
     The following models are included:
-    
+
     * [NDEX Tragicomicus Zeus Corp](https://community.simtropolis.com/files/file/16378-ndex-zeus-corporation-by-tragicomicus/)
     * [NDEX Tragicomicus Saints Plaza](https://community.simtropolis.com/files/file/19060-ndex-saints-plaza-by-tragicomicus1/)
     * [NDEX Tragicomicus Arch Museum](https://community.simtropolis.com/files/file/13106-ndex-architectural-museum/)

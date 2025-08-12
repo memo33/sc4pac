@@ -142,7 +142,7 @@ assets:
 - assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol07.dat"
-  
+
 ---
 group: "ndex"
 name: "dusktroopers-mega-pack-vol08"
@@ -182,7 +182,7 @@ assets:
 - assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol09.dat"
-  
+
 ---
 group: "ndex"
 name: "dusktroopers-mega-pack-vol10"
@@ -202,7 +202,7 @@ assets:
 - assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol10.dat"
-  
+
 ---
 group: "ndex"
 name: "dusktroopers-mega-pack-vol11"
@@ -222,7 +222,7 @@ assets:
 - assetId: "sc4-legacy-ndex-dusktroopers-dependency-pack"
   include:
   - "/NDEX DT MEGA Pack Vol11.dat"
-  
+
 ---
 group: "ndex"
 name: "dusktroopers-mega-pack-vol12"

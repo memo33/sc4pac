@@ -62,7 +62,7 @@ assets:
 - assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
   include:
   - "/NDEX EBDT MEGA Pack Vol01.dat"
-  
+
 ---
 group: "ndex"
 name: "its-ebdt-mega-pack-vol02"

@@ -82,7 +82,7 @@ assets:
 - assetId: "sc4-legacy-ndex-dragonanime-dependency-pack"
   include:
   - "/NDEX DA MEGA Pack Vol04.dat"
-  
+
 ---
 group: "ndex"
 name: "dragonanime-mega-pack-vol05"
@@ -102,7 +102,7 @@ assets:
 - assetId: "sc4-legacy-ndex-dragonanime-dependency-pack"
   include:
   - "/NDEX DA MEGA Pack Vol05.dat"
-  
+
 ---
 group: "ndex"
 name: "dragonanime-mega-pack-vol06"
