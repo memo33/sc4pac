@@ -1,7 +1,7 @@
 group: "cam"
 name: "colossus-addon-mod-corefile"
 version: "3.0"
-subfolder: "050-load-first/a_CAM/1 CAM Core"
+subfolder: "050-load-first"
 dependencies:
 - "null-45:custom-budget-departments-dll"
 - "null-45:query-tool-ui-extensions-dll"

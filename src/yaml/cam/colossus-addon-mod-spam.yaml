@@ -7,7 +7,7 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:c
 group: "cam"
 name: "colossus-addon-mod-spam-controller"
 version: "3.0.0"
-subfolder: "050-load-first/a_CAM"
+subfolder: "050-load-first"
 
 variants:
 - variant: { SPAM: "no" }
@@ -18,7 +18,7 @@ variants:
   - "cam:colossus-addon-mod-corefile"
 
   assets:
-  - assetId: "cam-colossus-addon-mod"
+  - assetId: "cam-colossus-addon-mod-spam-controller"
   conflicting:
   - "peg:spam"
   - "cam:colossus-addon-mod-cam-controller"
@@ -135,12 +135,12 @@ info:
    
 ---
 group: cam
-name:  colossus-addon-mod-cam-installer   
+name:  colossus-addon-mod-spam-installer   
 version: "3.0.0"
 subfolder: 050-load-first
 info:
-  summary: Automatic CAM installer
-  description: It allows you to automatically install CAM        
+  summary: Automatic CAM (SPAM Controller) installer
+  description: It allows you to automatically install CAM (SPAM Controller)       
   author: CAM Team
   websites: 
     - https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/415-colossus-addon-mod-spam-controller
@@ -154,4 +154,4 @@ dependencies:
   - "cam:colossus-addon-mod-ordinances"
   - "cam:colossus-addon-mod-modpaczero"
   - "cam:colossus-addon-mod-corefile"
-  - "cam:colossus-addon-mod-cam-controller"
+  - "cam:colossus-addon-mod-spam-controller"

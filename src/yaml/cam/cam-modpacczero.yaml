@@ -1,7 +1,7 @@
 group: "cam"
 name: "colossus-addon-mod-modpaczero"
 version: "3.0"
-subfolder: "050-load-first/a_CAM/3 CAM Modpacc Zero"
+subfolder: "050-load-first"
 dependencies:
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "swordmaster:minimize-button-remover"
