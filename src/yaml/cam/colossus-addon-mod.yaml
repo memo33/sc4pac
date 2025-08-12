@@ -7,7 +7,7 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:c
 group: "cam"
 name: "colossus-addon-mod-cam-controller"
 version: "3.0.0"
-subfolder: "050-load-first/a_CAM/0 CAM Controller"
+subfolder: "050-load-first/a_CAM"
 
 variants:
 - variant: { CAM: "no" }
