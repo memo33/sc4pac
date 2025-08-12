@@ -77,7 +77,7 @@ info:
 
     **Dependencies**
 
-    The following files are required in order for the contents of this package to appear correctly (i.e., no 'brown boxes' or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
+    The following files are required in order for the contents of this package to appear correctly (no 'brown boxes' or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
 
     * Colossus Addon Mod - ModPacc Zero
       Essential zero patch for all SimCity 4 players in which there are essential gameplay bugfixes
