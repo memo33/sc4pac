@@ -1,7 +1,7 @@
 assetId: "cam-colossus-addon-mod-spam-controller"  
 version: "3.0.0"
-lastModified: "2025-08-11T19:40:07-07:00"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:colossus-addon-mod"
+lastModified: "2025-08-11T20:09:37-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=415:colossus-addon-mod-spam-controller"
 
 ---
 group: "cam"
@@ -127,7 +127,7 @@ info:
 
   author: "CAM Team"
   website: 
-   - https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/51-colossus-addon-mod
+   - https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/415-colossus-addon-mod-spam-controller
    - https://community.simtropolis.com/files/file/30956-colossus-addon-mod-cam-controller/  
   images:
    - https://www.sc4evermore.com/images/jdownloads/screenshots/SPAMC.jpg
