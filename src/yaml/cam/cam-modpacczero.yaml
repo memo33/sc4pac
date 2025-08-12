@@ -1,7 +1,7 @@
 group: "cam"
 name: "colossus-addon-mod-modpaczero"
-version: "2.6"
-subfolder: "150-mods"
+version: "3.0"
+subfolder: "050-load-first/a_CAM/3 CAM Modpacc Zero"
 dependencies:
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "swordmaster:minimize-button-remover"
@@ -15,25 +15,9 @@ dependencies:
 - "smp:yellow-pause-thingy-remover"
 - "scoty:zoning-mod-maxis"
 
-variants:
-- variant: { CAM: "no" }
-  assets:
-  - assetId: "cam-team-colossus-addon-mod-modpaczero"
-    exclude:  
-    - "/CAM_Maxis_Buildings_Blocker.dat/"
-- variant: { CAM: "yes" }
-  assets:
+assets:
   - assetId: "cam-team-colossus-addon-mod-modpaczero"
 
-variantInfo:
-- variantId: "CAM"
-  values:
-  - value: "no"
-    description: |-
-      Choose this if you have not installed the Colossus Addon Mod (CAM).
-  - value: "yes"
-    description: |-
-      Choose this if you have installed the Colossus Addon Mod (CAM).
 info:
   summary: "Colossus Addon Mod - ModPacc Zero is the essential zero patch for all SimCity 4 players in which there are essential gameplay bugfixes."
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
@@ -134,6 +118,6 @@ info:
 
 ---
 assetId: "cam-team-colossus-addon-mod-modpaczero"
-version: "2.6"
-lastModified: "2025-06-22T18:10:51-07:00"
+version: "3.0"
+lastModified: "2025-08-11T20:10:07-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=412:colossus-addon-mod-modpacc-zero"

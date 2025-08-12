@@ -1,5 +1,5 @@
 group: "null-45"
-name: "lua-extensions"
+name: "lua-extensions-dll"
 version: "1.0.0"
 subfolder: "150-mods"
 assets:

@@ -1,0 +1,122 @@
+group: "cam"
+name: "colossus-addon-mod-corefile"
+version: "3.0"
+subfolder: "050-load-first/a_CAM/1 CAM Core"
+dependencies:
+- "null-45:custom-budget-departments-dll"
+- "null-45:query-tool-ui-extensions-dll"
+- "null-45:lua-extensions-dll"
+- "null-45:legalize-gambling-ordinance-upgrade"
+- "memo:submenus-dll"
+- "cam:colossus-addon-mod-modpaczero"
+
+assets:
+- assetId: "cam-team-colossus-addon-mod-corefile"
+  withChecksum:
+  - include: "/AdvancedWaterManagement.dll"
+    sha256: 7E20DEA3C55D02963BE35A4BA5B465A2267467A0944430EC959C464305A48CC4
+  - include: "/UpgradeableCityHalls.dll"
+    sha256: 3CF5D9911B6C2201EEB8F6B2A1E60773D985A2BF2473FB54B0DB9AEBA33A6771
+
+info:
+  summary: "Colossus Addon Mod - Core File is the main dependency of CAM. This Core File is suitable for both players using CAM and both SPAM and Pure Vanilla players."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |+
+    **Colossus Addon Mod - Core File** is the main dependency of CAM. This Core File is suitable for both players using CAM and both SPAM and Pure Vanilla players. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
+
+    Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+
+    Extra feature, if you hover over the folders in the installer, you will get some extra information about each contents.
+
+    WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only). If you run CAM 2.5 or later on systems other than those listed, the mod may malfunction and no support is provided.
+
+    **Installation**
+
+    This package is a simple .zip file. Just extract the a_CAM folder to your My DocumentsSimCity 4Plugins directory (or equivalent, if you have a custom Plugins folder location).
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer nos.17's SC4 Cleanitol or the older BSC Cleanitol tool you can search and remove old and outdated versions of these files.
+    DLL Dependencies
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies(the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
+
+    * Advanced Water Management (INCLUDED) - This file is needed to run the advanced features related to water
+      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
+    
+    * Submenu DLL - this file is needed to run the submenus and I-R Exemplar Patch
+      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
+      
+    * Real Upgradeable City Halls (INCLUDED) - this file is needed for upgradable town halls to work
+      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
+      
+    * Query Tool UI Extensions DLL for SimCity 4 - This file is necessary for the correct functioning of the queries 
+      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
+      
+    * Lua Extensions DLL - This file is necessary for the correct functioning of LUA 
+      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
+      
+    * Custom Budget Departments DLL Plugin - This file is necessary for the correct functioning of Custom Budget Department 
+      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
+      
+    * Legalize Gambling Ordinance Upgrade - Required for the correct functioning of casino specialization
+      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
+
+    **Dependencies**
+
+    The following files are required in order for the contents of this package to appear correctly (i.e., no 'brown boxes' or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
+
+    * Colossus Addon Mod - ModPacc Zero
+      Essential zero patch for all SimCity 4 players in which there are essential gameplay bugfixes
+
+    **Credits**
+
+    The following SimCity 4 community members contributed models, textures, and modding support to this collection:
+
+    * Ulisse Wolf
+    * Tyberius06
+    * Cyclone Boom
+    * CorinaMarie
+    * InvisiChem
+    * Indisguise
+    * BarbyW
+    * Wouanagaine
+    * JMyers2043
+    * Shoreman905
+    * Rayden
+    * MAS71
+    * Jplumbley
+    * Andreas
+    * Callagrafx
+    * Tropod
+    * RippleJet
+    * Tag one
+    * Memo33
+    * Dragonsteincole
+    * xBlaze89x
+    * paeng
+    * Pegasus
+    * hugues aroux
+
+    This package was assembled by Ulisse Wolf.
+    Special Thanks
+
+    Webmaster & administration staff at SC4Evermore and SC4 Devotion.
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after 20 years thanks to you!
+
+    And last but not least, a thanks for the Maxis individuals too, for the [paid] work that they did. ;-)
+
+  author: "CAM Team"
+  websites:
+  - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-colossus-addon-mod-core-files"
+  - "https://community.simtropolis.com/files/file/36978-colossus-addon-mod-core-files/"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/COREF.jpg
+
+---
+assetId: "cam-team-colossus-addon-mod-modpaczero"
+version: "3.0"
+lastModified: "2025-08-11T20:10:07-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"

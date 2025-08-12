@@ -1,33 +1,27 @@
 assetId: "cam-colossus-addon-mod"  
-version: "2.5.1"
-lastModified: "2025-05-15T19:07:54-07:00"
+version: "3.0.0"
+lastModified: "2025-08-11T19:40:07-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:colossus-addon-mod"
 
 ---
 group: "cam"
-name: "colossus-addon-mod"
-version: "2.5.1"
-subfolder: "050-load-first"
+name: "colossus-addon-mod-cam-controller"
+version: "3.0.0"
+subfolder: "050-load-first/a_CAM/0 CAM Controller"
 
 variants:
 - variant: { CAM: "no" }
 - variant: { CAM: "yes" }
   dependencies:
-  - "memo:submenus-dll"
   - "cam:colossus-addon-mod-ordinances"
   - "cam:colossus-addon-mod-modpaczero"
-  - "null-45:query-tool-ui-extensions-dll"
-  - "null-45:custom-budget-departments-dll"
-  - "heinbloed4711:hi-tech-missing-high-wealth-jobs"  
+  - "cam:colossus-addon-mod-corefile"
 
   assets:
   - assetId: "cam-colossus-addon-mod"
-    include:
-    - "/CAM_2.1.0_Main_Controller.dat"
-    - "/CAM_2.1.0_PlayStyle_Extended.dat"
-    - "/CAM_2.1.0_Buildings.dat"
   conflicting:
   - "peg:spam"
+  - "cam:colossus-addon-mod-spam-controller"
 
 variantDescriptions:
   CAM:
@@ -43,20 +37,119 @@ info:
     Only compatible with game version 1.1.641, the Windows digital edition.
     See the CAM manual for a list of mod incompatibilities.
 
-  description: |
-    The Colossus Addon Mod (CAM) is a big mod that drastically changes the way cities and regions develop.
-    Most importantly, it adds new Growth Stages 9 to 15, beyond the game's default Stages 1 through 8.
-    This leads to extended and more realistic gameplay, especially for the later phases of the game.
+  description: |+
+    **Colossus Addon Mod - CAM Controller** is the popular SimCity 4 mod that involves substantial changes in the RCI (Residential - Commercial - Industrial) simulation as well as essential bugfixes. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
 
-    To make the most of CAM, you will need to install a variety of CAM-patible buildings for the higher Growth Stages.
+    Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
 
-    This package installs the default "Extended" playstyle variant.
+    Extra feature, if you hover over the folders in the installer, you will get some extra information about each contents
 
-    This package depends on the I-R fix.
-    (This fix is now implemented using a DLL, so it is not necessary to modify any original game files.
-    For game versions not supported by the DLL, you can install CAM with the I-R fix manually instead.)
+    WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only). If you run CAM 2.5 or later on systems different from those listed, the mod may malfunction and no support is provided
+    MIGRATION:
 
-    Please consult the extensive CAM documentation for further information.
+    Migration to CAM 3.0 and later versions can be done if you meet these requirements
 
-  author: "RippleJet, BarbyW, InvisiChem, CorinaMarie, Ulisse Wolf and many others"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/51-colossus-addon-mod"
+    * Players coming from CAM 2.5 can upgrade to CAM 3.0 using only the CAM Controller
+    * Players from vanilla can switch to CAM 3.0 using the CAM Controller but must create a new region
+
+    Migration to CAM 3.0 and later versions cannot be done if you meet these requirements
+
+    * Players coming from CAM 2.1.1 cannot upgrade to CAM 3.0 
+    * Players from SPAM cannot switch to CAM 3.0 using only the CAM Controller.
+    * Players from vanilla cannot switch to CAM 3.0 if it is used in a developed region
+    * Players coming from CAM 3.0 with the CAM-SPAM Controller cannot switch to CAM 3.0 - CAM Controller
+    * Players coming from CAM 3.0 with the CAM Controller cannot switch to CAM 3.0 CAM-SPAM Controller
+
+    If you are installing CAM starting from these given directions it is discouraged not to use the already developed regions as you may experience compatibility problems with edphics, problems with RCI simualtion so it is strongly advised to create a new region to avoid the problems.
+    Installation
+
+    This package is a simple .zip file. Just extract the a_CAM folder to your My Documents/SimCity 4/Plugins directory (or equivalent, if you have a custom Plugins folder location).
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer nos.17's SC4 Cleanitol or the older BSC Cleanitol tool you can search and remove old and outdated versions of these files.
+
+    **DLL Dependencies**
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies(the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
+
+        NONE
+
+    **Dependencies**
+
+    The following files are required in order for the contents of this package to appear correctly (i.e., no 'brown boxes' or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
+
+    * Colossus Addon Mod - ModPacc Zero
+      Essential zero patch for all SimCity 4 players in which there are essential gameplay bugfixes
+    * Colossus Addon Mod - Core File
+      The essential dependence for CAM
+    * Colossus Addon Mod - Ordinances
+      Enhance and expand ordinances
+
+    Credits
+
+    The following SimCity 4 community members contributed models, textures, and modding support to this collection:
+
+    *  Ulisse Wolf
+    *  Tyberius06
+    *  Cyclone Boom
+    *  CorinaMarie
+    *  InvisiChem
+    *  Indisguise
+    *  BarbyW
+    *  Wouanagaine
+    *  JMyers2043
+    *  Shoreman905
+    *  Rayden
+    *  MAS71
+    *  Jplumbley
+    * Andreas
+    * Callagrafx
+    * Tropod
+    * RippleJet
+    * Tag one
+    * Memo33
+    * Dragonsteincole
+    * xBlaze89x
+    * paeng
+    * Pegasus
+
+    This package was assembled by Ulisse Wolf.
+    Special Thanks
+
+    Webmaster & administration staff at SC4Evermore and Simtropolis.
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after 20 years thanks to you!
+
+    And last but not least, a thanks for the Maxis individuals too, for the [paid] work that they did. ;-)
+
+  author: "CAM Team"
+  website: 
+   - https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/51-colossus-addon-mod
+   - https://community.simtropolis.com/files/file/30956-colossus-addon-mod-cam-controller/  
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/CAMC.jpg
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/CAM%20Logo.png
+   
+---
+group: cam
+name:  colossus-addon-mod-cam-installer   
+version: "3.0.0"
+subfolder: 050-load-first
+info:
+  summary: Automatic CAM installer
+  description: It allows you to automatically install CAM        
+  author: CAM Team
+  websites: 
+    - https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/51-colossus-addon-mod
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CAM%20Logo.png
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/CAMC.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/STF_1.jpg
+
+dependencies:
+  - "cam:colossus-addon-mod-ordinances"
+  - "cam:colossus-addon-mod-modpaczero"
+  - "cam:colossus-addon-mod-corefile"
+  - "cam:colossus-addon-mod-cam-controller"

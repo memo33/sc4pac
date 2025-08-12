@@ -34,9 +34,9 @@ info:
   warning: |-
     It is crucial to start a new region when installing CAM, as the mod drastically changes the simulation parameters.
     
-    This version is only for compatibility support of already developed regions and for those who cannot upgrade to CAM 2.5
+    This version is only for compatibility support of already developed regions and for those who cannot upgrade to CAM 2.5 or later
 
-    If you are starting a new region and have met all the requirements of CAM 2.5 please install this version
+    If you are starting a new region and have met all the requirements of CAM 2.5 or later please install this version
 
     * `pkg=cam:colossus-addon-mod`
 
