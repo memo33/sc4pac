@@ -16,7 +16,7 @@ dependencies:
 - "scoty:zoning-mod-maxis"
 
 assets:
-  - assetId: "cam-team-colossus-addon-mod-modpaczero"
+  - assetId: "cam-colossus-addon-mod-modpaczero"
 
 info:
   summary: "Colossus Addon Mod - ModPacc Zero is the essential zero patch for all SimCity 4 players in which there are essential gameplay bugfixes."
@@ -117,7 +117,7 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/CAMMZ%203.jpg
 
 ---
-assetId: "cam-team-colossus-addon-mod-modpaczero"
+assetId: "cam-colossus-addon-mod-modpaczero"
 version: "3.0"
 lastModified: "2025-08-11T20:10:07-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=412:colossus-addon-mod-modpacc-zero"

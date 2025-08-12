@@ -1,6 +1,6 @@
 group: "cam"
 name: "colossus-addon-mod-corefile"
-version: "3.0"
+version: "3.0.0"
 subfolder: "050-load-first"
 dependencies:
 - "null-45:custom-budget-departments-dll"
@@ -11,7 +11,7 @@ dependencies:
 - "cam:colossus-addon-mod-modpaczero"
 
 assets:
-- assetId: "cam-team-colossus-addon-mod-corefile"
+- assetId: "cam-colossus-addon-mod-corefile"
   withChecksum:
   - include: "/AdvancedWaterManagement.dll"
     sha256: 7E20DEA3C55D02963BE35A4BA5B465A2267467A0944430EC959C464305A48CC4
@@ -116,7 +116,7 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/COREF.jpg
 
 ---
-assetId: "cam-team-colossus-addon-mod-modpaczero"
-version: "3.0"
-lastModified: "2025-08-11T20:10:07-07:00"
+assetId: "cam-colossus-addon-mod-corefile"
+version: "3.0.0"
+lastModified: "2025-08-11T20:09:20-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
