@@ -153,4 +153,4 @@ dependencies:
   - "cam:colossus-addon-mod-ordinances"
   - "cam:colossus-addon-mod-modpaczero"
   - "cam:colossus-addon-mod-corefile"
-  - "cam:colossus-addon-mod-cam-controller"
+  - "cam:colossus-addon-mod"
