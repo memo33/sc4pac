@@ -21,7 +21,7 @@ variants:
   - assetId: "cam-colossus-addon-mod-spam-controller"
   conflicting:
   - "peg:spam"
-  - "cam-colossus-addon-mod"
+  - "cam:colossus-addon-mod"
 
 variantDescriptions:
   SPAM:
