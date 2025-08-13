@@ -14,7 +14,6 @@ variants:
 - variant: { SPAM: "yes" }
   dependencies:
   - "cam:colossus-addon-mod-ordinances"
-  - "cam:colossus-addon-mod-modpaczero"
   - "cam:colossus-addon-mod-corefile"
 
   assets:

@@ -8,7 +8,8 @@ dependencies:
 - "null-45:lua-extensions-dll"
 - "null-45:legalize-gambling-ordinance-upgrade"
 - "memo:submenus-dll"
-- "cam:colossus-addon-mod-modpaczero"
+- "t-wrecks:maxis-prop-names-and-query-fix"
+- "scoty:zoning-mod-maxis"
 
 assets:
 - assetId: "cam-colossus-addon-mod-corefile"
