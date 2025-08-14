@@ -1,3 +1,10 @@
+---
+assetId: "cam-colossus-addon-mod-corefile"
+version: "3.0.0"
+lastModified: "2025-08-11T20:09:20-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
+
+---
 group: "cam"
 name: "colossus-addon-mod-corefile"
 version: "3.0.0"
@@ -6,6 +13,7 @@ dependencies:
 - "null-45:custom-budget-departments-dll"
 - "null-45:query-tool-ui-extensions-dll"
 - "null-45:lua-extensions-dll"
+- "null-45:sc4-advanced-water-management"
 - "null-45:legalize-gambling-ordinance-upgrade"
 - "memo:submenus-dll"
 - "t-wrecks:maxis-prop-names-and-query-fix"
@@ -13,6 +21,8 @@ dependencies:
 
 assets:
 - assetId: "cam-colossus-addon-mod-corefile"
+  exclude:
+  - "/AdvancedWaterManagement.dll"
   withChecksum:
   - include: "/AdvancedWaterManagement.dll"
     sha256: 7E20DEA3C55D02963BE35A4BA5B465A2267467A0944430EC959C464305A48CC4
@@ -117,7 +127,42 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/COREF.jpg
 
 ---
+group: "null-45"
+name: "sc4-advanced-water-management"
+version: "1.0.0"
+subfolder: "150-mods"
+dependencies:
+  - "cam:colossus-addon-mod-corefile"
+
+assets:
+- assetId: "cam-colossus-addon-mod-corefile"
+  include:
+  - "/AdvancedWaterManagement.dll"
+  withChecksum:
+  - include: "/AdvancedWaterManagement.dll"
+    sha256: 7E20DEA3C55D02963BE35A4BA5B465A2267467A0944430EC959C464305A48CC4
+
+
+info:
+  summary: "A DLL Mod that enables advanced water management, making Fresh Water and Salt Water available."
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |+
+    A DLL mod that enables advanced water management by making Fresh Water and Salt Water available.
+
+    This mod alerts the player when a water pump set to use fresh water and salt water is not working, allowing them to receive a warning. Also available is a cheat code ***ScanPumps*** that can be used as a debugging tool for modders.
+    
+    This mod cannot work without `pkg=cam:colossus-addon-mod-corefile`
+
+  author: "CAM Team"
+  websites:
+  - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-colossus-addon-mod-core-files"
+  - "https://community.simtropolis.com/files/file/36978-colossus-addon-mod-core-files/"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/COREF.jpg
+
+---
 assetId: "cam-colossus-addon-mod-corefile"
 version: "3.0.0"
 lastModified: "2025-08-11T20:09:20-07:00"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/?do=download"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
