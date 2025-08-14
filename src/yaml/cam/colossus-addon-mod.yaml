@@ -19,7 +19,7 @@ variants:
   assets:
   - assetId: "cam-colossus-addon-mod"
   conflicting:
-  - "peg:spam"
+  - "peg:spam-legacy-version"
   - "cam:colossus-addon-mod-spam-controller"
 
 variantDescriptions:
