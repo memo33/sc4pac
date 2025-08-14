@@ -1,0 +1,33 @@
+group: mz
+name: city-hall-fixes
+version: "1.2"
+subfolder: 150-mods
+assets:
+- assetId: mz-city-hall-fixes
+  include:  # ignore fluff news and query sound remover
+  - "/MZ City Hall Package \\(Beta v1..\\).dat"
+info:
+  summary: Activates and fixes all three City Hall lots (Modpacc Zero)
+  description: |-
+    This mod combines various fixes for the Maxis City Hall.
+    It also enables the later City Hall lots, Phases 2 and 3, unlockable as reward – which Maxis planned for, but never activated.
+
+    Additionally, the mod adds a small Village Hall lot.
+
+    (The optional fluff news remover and query sound remover are not included in this package.)
+  conflicts: |-
+    Compatible with `pkg=simmaster07:upgradeable-city-halls-dll`,
+    but incompatible with both the City Hall fix by Andreas and the one by MrTruesage.
+  author: CorinaMarie, Cyclone Boom, memo
+  website: https://community.simtropolis.com/forums/topic/761100-2nd-beta-all-3-city-halls-fixes-1-for-modpacc-zero/
+  images:
+  - https://www.simtropolis.com/objects/attachments/monthly_2021_09/6143d1ea5a750_Phase3-MetropolisHall.jpg.090d914d32c2cda0799ed027cdf04801.jpg
+  - https://www.simtropolis.com/objects/attachments/monthly_2021_09/6143d1e997a8f_Phase2-CityHall.jpg.9cf83f063495656290c3734dbad6399c.jpg
+  - https://www.simtropolis.com/objects/attachments/monthly_2021_09/6143d1e8507a9_Phase1-TownHall.jpg.cedd70c10b61ed55ac6c7cc55b30ec9c.jpg
+  - https://www.simtropolis.com/objects/attachments/monthly_2021_09/6143d1e7487f3_Phase0-VillageHall.jpg.04c2c48257d59730613a5e2ea0599a48.jpg
+
+---
+assetId: mz-city-hall-fixes
+version: "1.2"
+lastModified: "2025-08-14T13:48:00Z"
+url: https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=116366
