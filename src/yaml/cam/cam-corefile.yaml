@@ -155,7 +155,7 @@ info:
     
     This mod cannot work without `pkg=cam:colossus-addon-mod-corefile`
 
-  author: "CAM Team"
+  author: "CAM Team and Null-45"
   websites:
   - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-colossus-addon-mod-core-files"
   - "https://community.simtropolis.com/files/file/36978-colossus-addon-mod-core-files/"
@@ -166,5 +166,5 @@ info:
 assetId: "cam-colossus-addon-mod-corefile"
 version: "3.1.0"
 lastModified: "2025-08-13T18:44:28-07:00"
-nonPersistentUrl: "https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/?do=download"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
+nonPersistentUrl: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
+url: "https://github.com/0xC0000054/sc4-advanced-water-management/releases/download/v1.0/AdvancedWaterManagement.zip"
