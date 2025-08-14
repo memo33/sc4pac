@@ -5,7 +5,6 @@ subfolder: "050-load-first"
 dependencies:
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "swordmaster:minimize-button-remover"
-- "cyclone-boom:save-warning"
 - "cyclone-boom:web-button-improvement-mod"
 - "cyclone-boom:no-more-neighbour-connection-arrows"
 - "fanta1990:automata-fix-pack-vol1"
@@ -49,23 +48,21 @@ info:
 
     * SimFox Day and Nite Modd
     If you are using dark nite and therefore want to make Automata Fixes compatible with Dark Nite.
-    * Piggyback Freight Car Fix
+    * Piggyback Freight Car Fix (Recommended for Vanilla users who don't want to change much from the Maxis graphics)
     Fixes some graphical bugs of piggyback automata.
-    * Texture Fix of Jenkins Consulting (Maxis)
+    * Automata Fix Pack Vol1 (Recommended for Vanilla users who don't want to change much from the Maxis graphics)
+    Fix some bugs in Maxis automata 
+    * Texture Fix of Jenkins Consulting (Maxis)(Recommended for Vanilla users who don't want to change much from the Maxis graphics)
     Fixes some graphical bugs in some Maxis buildings.
     * Minimize Button Remover
     Minimizes the button that removes the UI.
     * No More Neighbour Connection Arrows
     Eliminate the arrows of neighborhood connections.
-    * Save Warning
-    Blocks the ability to save and exit the game to prevent data corruption.
     * Web Button Improvement Mod
     Replaces SimCity.ea.com button with another alternative
     * SMP Yellow Pause thingy remover
     Removes the yellow box during the simulation pause time
-    * Maxis Prop Names and Query Fix
-    Solves problems for maxis building props querry
-    * DSC - Rail - Maxis Passenger Trains Remake
+    * DSC - Rail - Maxis Passenger Trains Remake (Recommended for Vanilla users who don't want to change much from the Maxis graphics)
     Replaces Maxis Auotmata with modern versions allowing for graphical bug fixes
 
     **Credits**
@@ -110,7 +107,7 @@ info:
   author: "CAM Team"
   websites:
   - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/412-colossus-addon-mod-modpacc-zero"
-  - "https://community.simtropolis.com/files/file/36914-colossus-addon-mod-modpacc-zero/"
+  - "https://community.simtropolis.com/files/file/36914-colossus-addon-mod-modpacc-zero-optional/"
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/CAMMZ%201.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/CAMMZ%202.jpg
@@ -119,5 +116,5 @@ info:
 ---
 assetId: "cam-colossus-addon-mod-modpaczero"
 version: "3.0"
-lastModified: "2025-08-11T20:10:07-07:00"
+lastModified: "2025-08-13T18:28:01-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=412:colossus-addon-mod-modpacc-zero"

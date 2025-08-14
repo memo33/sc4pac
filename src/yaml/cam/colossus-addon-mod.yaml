@@ -1,6 +1,6 @@
 assetId: "cam-colossus-addon-mod"
 version: "3.0.0"
-lastModified: "2025-08-11T19:40:07-07:00"
+lastModified: "2025-08-13T18:44:13-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:colossus-addon-mod"
 
 ---
@@ -77,8 +77,6 @@ info:
 
     The following files are required in order for the contents of this package to appear correctly (no 'brown boxes' or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
 
-    * Colossus Addon Mod - ModPacc Zero
-      Essential zero patch for all SimCity 4 players in which there are essential gameplay bugfixes
     * Colossus Addon Mod - Core File
       The essential dependence for CAM
     * Colossus Addon Mod - Ordinances

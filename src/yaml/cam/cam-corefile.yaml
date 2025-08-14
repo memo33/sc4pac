@@ -1,13 +1,13 @@
 ---
 assetId: "cam-colossus-addon-mod-corefile"
-version: "3.0.0"
-lastModified: "2025-08-11T20:09:20-07:00"
+version: "3.1.0"
+lastModified: "2025-08-13T18:44:28-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
 
 ---
 group: "cam"
 name: "colossus-addon-mod-corefile"
-version: "3.0.0"
+version: "3.1.0"
 subfolder: "050-load-first"
 dependencies:
 - "null-45:custom-budget-departments-dll"
@@ -18,16 +18,12 @@ dependencies:
 - "memo:submenus-dll"
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "scoty:zoning-mod-maxis"
+- "cyclone-boom:save-warning"
 
 assets:
 - assetId: "cam-colossus-addon-mod-corefile"
   exclude:
   - "/AdvancedWaterManagement.dll"
-  withChecksum:
-  - include: "/AdvancedWaterManagement.dll"
-    sha256: 7E20DEA3C55D02963BE35A4BA5B465A2267467A0944430EC959C464305A48CC4
-  - include: "/UpgradeableCityHalls.dll"
-    sha256: 3CF5D9911B6C2201EEB8F6B2A1E60773D985A2BF2473FB54B0DB9AEBA33A6771
 
 info:
   summary: "Colossus Addon Mod - Core File is the main dependency of CAM. This Core File is suitable for both players using CAM and both SPAM and Pure Vanilla players."
@@ -76,8 +72,14 @@ info:
 
     The following files are required in order for the contents of this package to appear correctly (i.e., no 'brown boxes' or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
 
-    * Colossus Addon Mod - ModPacc Zero
-      Essential zero patch for all SimCity 4 players in which there are essential gameplay bugfixes
+    
+    * Maxis Prop Names and Query Fix
+    Solves problems for maxis building props querry
+    * Scoty Zoning Mod
+    Increase maximum size for all zones and remove 4×4 minimum size limit from agricultural zones
+    * Save Warning
+    Blocks the ability to save and exit the game to prevent data corruption.
+
 
     **Credits**
 
@@ -129,7 +131,7 @@ info:
 ---
 group: "null-45"
 name: "sc4-advanced-water-management"
-version: "1.0.0"
+version: "3.1.0"
 subfolder: "150-mods"
 dependencies:
   - "cam:colossus-addon-mod-corefile"
@@ -162,7 +164,7 @@ info:
 
 ---
 assetId: "cam-colossus-addon-mod-corefile"
-version: "3.0.0"
-lastModified: "2025-08-11T20:09:20-07:00"
+version: "3.1.0"
+lastModified: "2025-08-13T18:44:28-07:00"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/?do=download"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
