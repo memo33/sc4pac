@@ -1,7 +1,7 @@
 ---
 assetId: "cam-colossus-addon-mod-corefile"
 version: "3.1.0"
-lastModified: "2025-08-13T18:44:28-07:00"
+lastModified: "2025-08-14T19:07:37-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
 
 ---
@@ -51,9 +51,6 @@ info:
       Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
     
     * Submenu DLL - this file is needed to run the submenus and I-R Exemplar Patch
-      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
-      
-    * Real Upgradeable City Halls (INCLUDED) - this file is needed for upgradable town halls to work
       Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
       
     * Query Tool UI Extensions DLL for SimCity 4 - This file is necessary for the correct functioning of the queries 
@@ -165,6 +162,6 @@ info:
 ---
 assetId: "cam-colossus-addon-mod-corefile"
 version: "3.1.0"
-lastModified: "2025-08-13T18:44:28-07:00"
+lastModified: "2025-08-14T19:07:37-07:00"
 nonPersistentUrl: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
 url: "https://github.com/0xC0000054/sc4-advanced-water-management/releases/download/v1.0/AdvancedWaterManagement.zip"

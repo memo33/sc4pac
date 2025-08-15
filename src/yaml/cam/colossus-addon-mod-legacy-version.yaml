@@ -22,7 +22,7 @@ variants:
     - "/CAM_2.1.0_PlayStyle_Extended.dat"
     - "/CAM_2.1.0_Buildings.dat"
   conflicting:
-  - "peg:spam"
+  - "peg:spam-legacy-version"
 
 variantDescriptions:
   CAM:
