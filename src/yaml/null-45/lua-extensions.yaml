@@ -52,12 +52,6 @@ info:
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-lua-extensions
 
-  warning: |-
-    This DLL plugin comes with one INI configuration file:
-
-    * `SC4LegalizeGamblingUpgrade.ini`
-
-    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36925-lua-extensions-dll/"
   images:
