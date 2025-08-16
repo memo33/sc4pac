@@ -1,6 +1,6 @@
 group: "t-wrecks"
 name: "maxis-prop-names-and-query-fix"
-version: "1.01"
+version: "2.0"
 subfolder: "150-mods"
 assets:
 - assetId: "t-wrecks-maxis-prop-names-and-query-fix"
@@ -16,6 +16,6 @@ info:
 
 ---
 assetId: "t-wrecks-maxis-prop-names-and-query-fix"
-version: "1.01"
-lastModified: "2024-10-14T12:05:00Z"
+version: "2.0"
+lastModified: "2025-08-14T01:01:00Z"
 url: "https://community.simtropolis.com/files/file/22400-maxis-prop-names-and-query-fix/?do=download"

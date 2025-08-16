@@ -1,31 +1,31 @@
-assetId: "cam-colossus-addon-mod"
+assetId: "cam-colossus-addon-mod-spam-controller"  
 version: "3.0.0"
-lastModified: "2025-08-13T18:44:13-07:00"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:colossus-addon-mod"
+lastModified: "2025-08-13T18:45:01-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=415:colossus-addon-mod-spam-controller"
 
 ---
 group: "cam"
-name: "colossus-addon-mod"
+name: "colossus-addon-mod-spam-controller"
 version: "3.0.0"
 subfolder: "050-load-first"
 
 variants:
-- variant: { CAM: "no" }
-- variant: { CAM: "yes" }
+- variant: { SPAM: "no" }
+- variant: { SPAM: "yes" }
   dependencies:
   - "cam:colossus-addon-mod-ordinances"
   - "cam:colossus-addon-mod-corefile"
 
   assets:
-  - assetId: "cam-colossus-addon-mod"
+  - assetId: "cam-colossus-addon-mod-spam-controller"
   conflicting:
   - "peg:spam-legacy-version"
-  - "cam:colossus-addon-mod-spam-controller"
+  - "cam:colossus-addon-mod"
 
 variantDescriptions:
-  CAM:
-    "no": "Choose this if you do not want to install the Colossus Addon Mod (CAM)."
-    "yes": "Choose this to install the Colossus Addon Mod (CAM)."
+  SPAM:
+    "no": "Choose this if you do not want to install the Colossus Addon Mod (CAM) with SPAM Controller."
+    "yes": "Choose this to install the Colossus Addon Mod (CAM) SPAM Controller."
 
 info:
   summary: Colossus Addon Mod
@@ -37,7 +37,7 @@ info:
     See the CAM manual for a list of mod incompatibilities.
 
   description: |+
-    **Colossus Addon Mod - CAM Controller** is the popular SimCity 4 mod that involves substantial changes in the RCI (Residential - Commercial - Industrial) simulation as well as essential bugfixes. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
+    **Colossus Addon Mod - SPAM Controller** is the updated and improved version of SPAM that allows you to fix agricultural demand without altering the RCI simulation and enjoy the CAM enhancements The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
 
     Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
 
@@ -48,8 +48,9 @@ info:
 
     Migration to CAM 3.0 and later versions can be done if you meet these requirements
 
-    * Players coming from CAM 2.5 can upgrade to CAM 3.0 using only the CAM Controller
-    * Players from vanilla can switch to CAM 3.0 using the CAM Controller but must create a new region
+    * Players from SPAM can switch to CAM 3.0 using only the CAM-SPAM Controller
+    * Players from vanilla can switch to CAM 3.0 using the CAM-SPAM Controller but must create a new region
+
 
     Migration to CAM 3.0 and later versions cannot be done if you meet these requirements
 
@@ -123,8 +124,8 @@ info:
 
   author: "CAM Team"
   websites: 
-   - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/51-colossus-addon-mod-cam-controller"
+   - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/415-colossus-addon-mod-spam-controller"
    - "https://community.simtropolis.com/files/file/30956-colossus-addon-mod-cam-controller/"  
   images:
-   - https://www.sc4evermore.com/images/jdownloads/screenshots/CAMC.jpg
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/SPAMC.jpg
    - https://www.sc4evermore.com/images/jdownloads/screenshots/CAM%20Logo.png
