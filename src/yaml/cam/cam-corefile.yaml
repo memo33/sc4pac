@@ -134,7 +134,7 @@ dependencies:
   - "cam:colossus-addon-mod-corefile"
 
 assets:
-- assetId: "cam-colossus-addon-mod-corefile"
+- assetId: "null-45-sc4-advanced-water-management"
   include:
   - "/AdvancedWaterManagement.dll"
   withChecksum:
@@ -160,7 +160,7 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/COREF.jpg
 
 ---
-assetId: "cam-colossus-addon-mod-corefile"
+assetId: "null-45-sc4-advanced-water-management"
 version: "3.1.0"
 lastModified: "2025-08-14T19:07:37-07:00"
 nonPersistentUrl: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
