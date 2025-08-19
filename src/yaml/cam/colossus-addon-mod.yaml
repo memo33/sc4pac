@@ -38,13 +38,22 @@ info:
 
   description: |+
     **Colossus Addon Mod - CAM Controller** is the popular SimCity 4 mod that involves substantial changes in the RCI (Residential - Commercial - Industrial) simulation as well as essential bugfixes. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
+    
+    CAM Controller introduces improvements to the educational simulation system and utility, as well as changes to the stage system, giving you:
+
+    * 15 Residential Stages (8 Maxis Stages + 7 CAM Stages)
+    * 15 Commercial Stages (8 Maxis Stages + 7 CAM Stages)
+    * 10 Agricultural Stages (3 Maxis Stages + 7 CAM Stages)
+    * 10 Industrial Stages (3 Maxis Stages + 7 CAM Stages)
+
+    The changes implemented in the RCI simulation will give players greater emphasis and planning in regional development, rather than just on individual cities.
+
+    In addition, this controller is compatible with **CAMeLot** lots because these lots use the additional stages introduced by CAM.
 
     Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
 
-    Extra feature, if you hover over the folders in the installer, you will get some extra information about each contents
-
-    WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only). If you run CAM 2.5 or later on systems different from those listed, the mod may malfunction and no support is provided
-    MIGRATION:
+    ***WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only). If you run CAM 2.5 or later on systems different from those listed, the mod may malfunction and no support is provided***
+    ***MIGRATION:***
 
     Migration to CAM 3.0 and later versions can be done if you meet these requirements
 
@@ -53,73 +62,11 @@ info:
 
     Migration to CAM 3.0 and later versions cannot be done if you meet these requirements
 
-    * Players coming from CAM 2.1.1 cannot upgrade to CAM 3.0 
-    * Players from SPAM cannot switch to CAM 3.0 using only the CAM Controller.
+    * Players coming from CAM 2.1.1 (Legacy Version) cannot upgrade to CAM 3.0 
+    * Players from SPAM (Legacy Version) cannot switch to CAM 3.0 using only the CAM Controller.
     * Players from vanilla cannot switch to CAM 3.0 if it is used in a developed region
     * Players coming from CAM 3.0 with the CAM-SPAM Controller cannot switch to CAM 3.0 - CAM Controller
     * Players coming from CAM 3.0 with the CAM Controller cannot switch to CAM 3.0 CAM-SPAM Controller
-
-    If you are installing CAM starting from these given directions it is discouraged not to use the already developed regions as you may experience compatibility problems with edphics, problems with RCI simualtion so it is strongly advised to create a new region to avoid the problems.
-    Installation
-
-    This package is a simple .zip file. Just extract the a_CAM folder to your MyDocuments/SimCity 4/Plugins directory (or equivalent, if you have a custom Plugins folder location).
-
-    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
-    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer nos.17's SC4 Cleanitol or the older BSC Cleanitol tool you can search and remove old and outdated versions of these files.
-
-    **DLL Dependencies**
-
-    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies(the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
-
-        NONE
-
-    **Dependencies**
-
-    The following files are required in order for the contents of this package to appear correctly (no 'brown boxes' or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
-
-    * Colossus Addon Mod - Core File
-      The essential dependence for CAM
-    * Colossus Addon Mod - Ordinances
-      Enhance and expand ordinances
-
-    Credits
-
-    The following SimCity 4 community members contributed models, textures, and modding support to this collection:
-
-    *  Ulisse Wolf
-    *  Tyberius06
-    *  Cyclone Boom
-    *  CorinaMarie
-    *  InvisiChem
-    *  Indisguise
-    *  BarbyW
-    *  Wouanagaine
-    *  JMyers2043
-    *  Shoreman905
-    *  Rayden
-    *  MAS71
-    *  Jplumbley
-    * Andreas
-    * Callagrafx
-    * Tropod
-    * RippleJet
-    * Tag one
-    * Memo33
-    * Dragonsteincole
-    * xBlaze89x
-    * paeng
-    * Pegasus
-
-    This package was assembled by Ulisse Wolf.
-    Special Thanks
-
-    Webmaster & administration staff at SC4Evermore and Simtropolis.
-
-    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
-
-    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after 20 years thanks to you!
-
-    And last but not least, a thanks for the Maxis individuals too, for the [paid] work that they did. ;-)
 
   author: "CAM Team"
   websites: 

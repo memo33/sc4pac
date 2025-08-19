@@ -3,7 +3,6 @@ name: "colossus-addon-mod-modpaczero"
 version: "3.0"
 subfolder: "050-load-first"
 dependencies:
-- "t-wrecks:maxis-prop-names-and-query-fix"
 - "swordmaster:minimize-button-remover"
 - "cyclone-boom:web-button-improvement-mod"
 - "cyclone-boom:no-more-neighbour-connection-arrows"
@@ -12,7 +11,6 @@ dependencies:
 - "raymond7cn:texture-fix-of-jenkins-consulting-maxis"
 - "dragonsteincole:rail-maxis-passenger-trains-remake"
 - "smp:yellow-pause-thingy-remover"
-- "scoty:zoning-mod-maxis"
 
 assets:
   - assetId: "cam-colossus-addon-mod-modpaczero"
@@ -23,86 +21,13 @@ info:
   description: |-
     Colossus Addon Mod - ModPacc Zero is the essential zero patch for all SimCity 4 players in which there are essential gameplay bugfixes. This zero mdopack is suitable for both players using CAM and both SPAM and Pure Vanilla players The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
 
+    This modpac zero is an optional file that allows you to fix Maxis content bugs and eliminate annoying elements. Many patches that are considered dependencies can be installed individually without having to install them all.
+    
     Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
 
     Extra feature, if you hover over the folders in the installer, you will get some extra information about each contents.
 
     ***WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only). If you run CAM 2.5 or later on systems other than those listed, the mod may malfunction and no support is provided.****
-
-    **Installation**
-
-    This package is a simple .zip file. Just extract the Z_CAM folder to your Documents\SimCity 4\Plugins directory (or equivalent, if you have a custom Plugins folder location).
-
-    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
-    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer nos.17's SC4 Cleanitol or the older BSC Cleanitol tool you can search and remove old and outdated versions of these files.
-
-    **DLL Dependencies**
-
-    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies(the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
-
-    NONE
-
-    **Dependencies**
-
-    The following files are required in order for the contents of this package to appear correctly (i.e., no 'brown boxes' or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
-
-    * SimFox Day and Nite Modd
-    If you are using dark nite and therefore want to make Automata Fixes compatible with Dark Nite.
-    * Piggyback Freight Car Fix (Recommended for Vanilla users who don't want to change much from the Maxis graphics)
-    Fixes some graphical bugs of piggyback automata.
-    * Automata Fix Pack Vol1 (Recommended for Vanilla users who don't want to change much from the Maxis graphics)
-    Fix some bugs in Maxis automata 
-    * Texture Fix of Jenkins Consulting (Maxis)(Recommended for Vanilla users who don't want to change much from the Maxis graphics)
-    Fixes some graphical bugs in some Maxis buildings.
-    * Minimize Button Remover
-    Minimizes the button that removes the UI.
-    * No More Neighbour Connection Arrows
-    Eliminate the arrows of neighborhood connections.
-    * Web Button Improvement Mod
-    Replaces SimCity.ea.com button with another alternative
-    * SMP Yellow Pause thingy remover
-    Removes the yellow box during the simulation pause time
-    * DSC - Rail - Maxis Passenger Trains Remake (Recommended for Vanilla users who don't want to change much from the Maxis graphics)
-    Replaces Maxis Auotmata with modern versions allowing for graphical bug fixes
-
-    **Credits**
-
-    The following SimCity 4 community members contributed models, textures, and modding support to this collection:
-
-    * Ulisse Wolf
-    * Tyberius06
-    * Cyclone Boom
-    * CorinaMarie
-    * InvisiChem
-    * Indisguise
-    * BarbyW
-    * Wouanagaine
-    * JMyers2043
-    * Shoreman905
-    * Rayden
-    * MAS71
-    * Jplumbley
-    * Andreas
-    * Callagrafx
-    * Tropod
-    * RippleJet
-    * Tag one
-    * Memo33
-    * Dragonsteincole
-    * xBlaze89x
-    * paeng
-    * Pegasus
-
-    This package was assembled by Ulisse Wolf.
-    Special Thanks
-
-    Webmaster & administration staff at SC4Evermore and SC4 Devotion.
-
-    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
-
-    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after 20 years thanks to you!
-
-    And last but not least, a thanks for the Maxis individuals too, for the [paid] work that they did. ;-)
 
   author: "CAM Team"
   websites:

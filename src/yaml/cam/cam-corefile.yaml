@@ -28,6 +28,8 @@ info:
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |+
     **Colossus Addon Mod - Core File** is the main dependency of CAM. This Core File is suitable for both players using CAM and both SPAM and Pure Vanilla players. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
+    
+    This mod is considered the main dependency for CAM Controllers and other mods that use the advanced content of this mod. Therefore, the mod consists mainly of code and support files for UI, LTEXT, and Exemplar.
 
     Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
 
