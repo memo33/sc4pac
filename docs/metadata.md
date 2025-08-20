@@ -573,6 +573,10 @@ To ensure that your package metadata works as intended, you should test your cha
   ```sh
   sc4pac channel add "file:///C:/Users/Dumbledore/Desktop/hogwarts-castle.yaml"
   ```
+- You may also test a YAML file in the sc4pac GUI by adding it's path as a new channel in the channel definition list:
+  ```sh
+  file:///C:/Users/Dumbledore/Desktop/hogwarts-castle.yaml
+  ```
 - If you created a YAML file directly on GitHub, click the *Raw* button on GitHub to get the direct link to the YAML file and add it as channel:
   ```sh
   sc4pac channel add "https://raw.githubusercontent.com/memo33/sc4pac/main/docs/hogwarts-castle.yaml"
