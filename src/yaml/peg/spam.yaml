@@ -11,8 +11,8 @@ variants:
   
   assets:
   - assetId: peg-simpeg-agricultural-mod-spam
-  exclude:
-  - /SPAM_Super_Resource_Pack/
+    exclude:
+    - /SPAM_Super_Resource_Pack/
   conflicting:
   - "cam:colossus-addon-mod-spam-controller"
   - "cam:colossus-addon-mod"
