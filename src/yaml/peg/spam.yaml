@@ -2,6 +2,20 @@ group: peg
 name: spam-legacy-version
 version: "2.0"
 subfolder: 150-mods
+variants:
+- variant: { SPAM: "no" }
+- variant: { SPAM: "yes" }
+  assets:
+  - assetId: "spam-legacy-version"
+  conflicting:
+  - "cam:colossus-addon-mod-spam-controller"
+  - "cam:colossus-addon-mod"
+  - "cam:colossus-addon-mod-legacy-version"
+
+variantDescriptions:
+  SPAM:
+    "no": "Choose this if you do not want to install the Colossus Addon Mod (CAM) with SPAM Controller or SPAM Legacy Controller."
+    "yes": "Choose this to install the Colossus Addon Mod (CAM) SPAM Controller or SPAM Legacy Controller."
 info:
   summary: SimPeg Agricultural Mod (SPAM) - Legacy Version
   warning: |-
