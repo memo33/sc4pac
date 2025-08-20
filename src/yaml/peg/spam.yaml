@@ -5,8 +5,14 @@ subfolder: 150-mods
 variants:
 - variant: { SPAM: "no" }
 - variant: { SPAM: "yes" }
+  dependencies:
+  - peg:mtp-super-pack
+  - peg:spam-super-resource-pack
+  
   assets:
-  - assetId: "spam-legacy-version"
+  - assetId: peg-simpeg-agricultural-mod-spam
+  exclude:
+  - /SPAM_Super_Resource_Pack/
   conflicting:
   - "cam:colossus-addon-mod-spam-controller"
   - "cam:colossus-addon-mod"
@@ -16,6 +22,7 @@ variantDescriptions:
   SPAM:
     "no": "Choose this if you do not want to install the Colossus Addon Mod (CAM) with SPAM Controller or SPAM Legacy Controller."
     "yes": "Choose this to install the Colossus Addon Mod (CAM) SPAM Controller or SPAM Legacy Controller."
+
 info:
   summary: SimPeg Agricultural Mod (SPAM) - Legacy Version
   warning: |-
@@ -46,7 +53,10 @@ assets:
   - assetId: peg-simpeg-agricultural-mod-spam
     exclude:
       - /SPAM_Super_Resource_Pack/
-
+  conflicting:
+  - "cam:colossus-addon-mod-spam-controller"
+  - "cam:colossus-addon-mod"
+  - "cam:colossus-addon-mod-legacy-version"
 ---
 assetId: peg-simpeg-agricultural-mod-spam
 version: "2.0"
