@@ -6,9 +6,9 @@ assets:
 - assetId: "null-45-lua-extensions"
   withChecksum:
   - include: "/SC4LuaExtensions.dll"
-    sha256: E187202EE74967A89B5532390827AB9CC6E17AD1034713BD4F493DEF522670E1
+    sha256: 761AA7881C6051D0AA151B3977F273100D0ABEFE2D5A2DCE2BB2999EC7ABCE16
   - include: "/SC4LuaExtensions.dat"
-    sha256: 4DF1318FF2D4E24CE25807B2261C5DD4ED947B162E2B7806D123AEDB3CD123BD
+    sha256: 4652D0E40ACA1DDB4EAECE2499DD0CEE2A37BAF45B39E2558592885FED32442D
 
 info:
   summary: "A DLL Plugin for SimCity 4 that extends the game's Lua system with new functions. This file is a dependency for plugins that use the new Lua script functions. "
