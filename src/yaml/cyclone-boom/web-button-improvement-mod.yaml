@@ -3,80 +3,17 @@ name: web-button-improvement-mod
 version: "1.0"
 subfolder: 150-mods
 info:
-  summary: Replaces the disfunctional Web Button in region view
+  summary: Removes the disfunctional Web Button in region view
   description: |-
-    This mod contains 4 options to modify the now defunct `SimCity.ea.com` website button in the Region View screen.
-
-    **Option A**   **(Click Prevented)**
-    Prevents the click (and features a hover over dialog).
-    Upon click a harmless sound will play which is only for effect. ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)")
-
-    ![01 - Preview Option A - Click Prevented.png](https://www.simtropolis.com/objects/attachments/monthly_2020_05/5eabe661e8183_01-PreviewOptionA-ClickPrevented.png.09d301e92ec04d302c3aa0b9899262ed.png)
-
-    **Option B**   **(Replaced with Exit)**
-    Replaces the Web button with the Exit button exactly in the same location.
-
-    ![02 - Preview Option B - Replaced with Exit.png](https://www.simtropolis.com/objects/attachments/monthly_2020_05/5eabe6686852a_02-PreviewOptionB-ReplacedwithExit.png.889aae6a98bc56e85aceca3773ca8f92.png)
-
-    **Option C**   **(Simply Removed)**
-    Just makes the Web button no longer visible, meaning there's a gap where it was.
-
-    ![03 - Preview Option C - Simply Removed.png](https://www.simtropolis.com/objects/attachments/monthly_2020_05/5eabe66cd97eb_03-PreviewOptionC-SimplyRemoved.png.a665b87195c68c99636d6e76e89c6f32.png)
-
-    **Option D**   **(Simtropolis Link)**
-    The Web button is still available, but now links directly to Simtropolis instead.
-
-    ![04 - Preview Option D - Simtropolis Link.png](https://www.simtropolis.com/objects/attachments/monthly_2020_05/5eabe67069aff_04-PreviewOptionD-SimtropolisLink.png.43cf680bd5de8b7b20d2055333d267cc.png)
-
-    There are two variants of each option.
-    One which supports running SC4 in full screen mode, and the other in windowed mode.
-
+    This mod removes the now defunct `SimCity.ea.com` website button from the Region View screen.
   author: Cyclone Boom
   website: https://community.simtropolis.com/files/file/33583-web-button-improvement-mod/
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5eab8657bdf03_00-WebButtonImprovementMod-Logo.png.69f0f491f3e2ea427ea823d2f71e44f3.png
-    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5eab865a57b0d_01-PreviewOptionA-ClickPrevented.png.f520f99df7691f5ebee6bcd2affc0245.png
-    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5eab865cebcc3_04-PreviewOptionD-SimtropolisLink.png.2701013bf986305b9d6073b634e267f5.png
+    - https://www.simtropolis.com/objects/attachments/monthly_2020_05/5eabe66cd97eb_03-PreviewOptionC-SimplyRemoved.png.a665b87195c68c99636d6e76e89c6f32.png
 assets:
 - assetId: cyclone-boom-web-button-improvement-mod
-  withConditions:
-  - ifVariant: { cyclone-boom:web-button-improvement-mod:button: "disable" }
-    exclude:
-    - "Option [BCD]"
-  - ifVariant: { cyclone-boom:web-button-improvement-mod:button: "exit" }
-    exclude:
-    - "Option [ACD]"
-  - ifVariant: { cyclone-boom:web-button-improvement-mod:button: "remove" }
-    exclude:
-    - "Option [ABD]"
-  - ifVariant: { cyclone-boom:web-button-improvement-mod:button: "simtropolis" }
-    exclude:
-    - "Option [ABC]"
-  - ifVariant: { cyclone-boom:web-button-improvement-mod:window-size: "fullscreen" }
-    exclude:
-    - "/z_Windowed"
-  - ifVariant: { cyclone-boom:web-button-improvement-mod:window-size: "windowed" }
-    exclude:
-    - "/z_Full Screen"
-variantInfo:
-- variantId: "cyclone-boom:web-button-improvement-mod:button"
-  description: Choose how to modify the `simcity.ea.com` website button in the Region View screen.
-  values:
-  - value: "disable"
-    description: Disable the button and show it greyed out.
-  - value: "exit"
-    description: Move the Exit button to its location.
-  - value: "remove"
-    description: Make the button invisible.
-  - value: "simtropolis"
-    description: The Web button is still available, but now links directly to Simtropolis instead.
-- variantId: "cyclone-boom:web-button-improvement-mod:window-size"
-  description: For ideal display of the button UI, ehoose in which window mode you typically play the game.
-  values:
-  - value: "fullscreen"
-    description: Play SC4 in full screen mode.
-  - value: "windowed"
-    description: Play SC4 in windowed mode.
+  include:  # windowed option seems unnecessary for non-raised UI, just like all the other button choices
+    - "/z_Full Screen.*Option C"
 
 ---
 assetId: cyclone-boom-web-button-improvement-mod
