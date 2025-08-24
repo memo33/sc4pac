@@ -22,7 +22,7 @@ variants:
   - "peg:spam-legacy-version"
   - "cam:colossus-addon-mod-spam-controller"
   - "cam:colossus-addon-mod-legacy-version"
-  
+
 variantDescriptions:
   CAM:
     "no": "Choose this if you do not want to install the Colossus Addon Mod (CAM) or Colossus Addon Mod (CAM) Legacy Version."
@@ -39,7 +39,7 @@ info:
 
   description: |+
     **Colossus Addon Mod - CAM Controller** is the popular SimCity 4 mod that involves substantial changes in the RCI (Residential - Commercial - Industrial) simulation as well as essential bugfixes. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
-    
+
     CAM Controller introduces improvements to the educational simulation system and utility, as well as changes to the stage system, giving you:
 
     * 15 Residential Stages (8 Maxis Stages + 7 CAM Stages)
@@ -53,7 +53,7 @@ info:
 
     Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
 
-    ***WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only). If you run CAM 2.5 or later on systems different from those listed, the mod may malfunction and no support is provided***
+    ***WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only). If you run CAM 2.5 or later on systems different from those listed, the mod may malfunction and no support is provided***
     ***MIGRATION:***
 
     Migration to CAM 3.0 and later versions can be done if you meet these requirements
@@ -63,16 +63,16 @@ info:
 
     Migration to CAM 3.0 and later versions cannot be done if you meet these requirements
 
-    * Players coming from CAM 2.1.1 (Legacy Version) cannot upgrade to CAM 3.0 
+    * Players coming from CAM 2.1.1 (Legacy Version) cannot upgrade to CAM 3.0
     * Players from SPAM (Legacy Version) cannot switch to CAM 3.0 using only the CAM Controller.
     * Players from vanilla cannot switch to CAM 3.0 if it is used in a developed region
     * Players coming from CAM 3.0 with the CAM-SPAM Controller cannot switch to CAM 3.0 - CAM Controller
     * Players coming from CAM 3.0 with the CAM Controller cannot switch to CAM 3.0 CAM-SPAM Controller
 
   author: "CAM Team"
-  websites: 
+  websites:
    - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/51-colossus-addon-mod-cam-controller"
-   - "https://community.simtropolis.com/files/file/30956-colossus-addon-mod-cam-controller/"  
+   - "https://community.simtropolis.com/files/file/30956-colossus-addon-mod-cam-controller/"
   images:
    - https://www.sc4evermore.com/images/jdownloads/screenshots/CAMC.jpg
    - https://www.sc4evermore.com/images/jdownloads/screenshots/CAM%20Logo.png

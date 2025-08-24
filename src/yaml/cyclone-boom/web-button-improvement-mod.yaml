@@ -9,28 +9,28 @@ info:
 
     Solving a problem which has been prevalent for many years now, this mod contains 4 options to modify the now defunct **SimCity.ea.com** website button in the Region View screen.
 
-    **Option A**   **(Click Prevented)**  
-    Prevents the click (and features a hover over dialog).  
+    **Option A**   **(Click Prevented)**
+    Prevents the click (and features a hover over dialog).
     Upon click a harmless sound will play which is only for effect. ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;)")
 
     ![01 - Preview Option A - Click Prevented.png](https://www.simtropolis.com/objects/attachments/monthly_2020_05/5eabe661e8183_01-PreviewOptionA-ClickPrevented.png.09d301e92ec04d302c3aa0b9899262ed.png)
 
-    **Option B**   **(Replaced with Exit)**  
+    **Option B**   **(Replaced with Exit)**
     Replaces the Web button with the Exit button exactly in the same location.
 
     ![02 - Preview Option B - Replaced with Exit.png](https://www.simtropolis.com/objects/attachments/monthly_2020_05/5eabe6686852a_02-PreviewOptionB-ReplacedwithExit.png.889aae6a98bc56e85aceca3773ca8f92.png)
 
-    **Option C**   **(Simply Removed)**  
+    **Option C**   **(Simply Removed)**
     Just makes the Web button no longer visible, meaning there's a gap where it was.
 
     ![03 - Preview Option C - Simply Removed.png](https://www.simtropolis.com/objects/attachments/monthly_2020_05/5eabe66cd97eb_03-PreviewOptionC-SimplyRemoved.png.a665b87195c68c99636d6e76e89c6f32.png)
 
-    **Option D**   **(Simtropolis Link)**  
+    **Option D**   **(Simtropolis Link)**
     The Web button is still available, but now links directly to Simtropolis instead.
 
     ![04 - Preview Option D - Simtropolis Link.png](https://www.simtropolis.com/objects/attachments/monthly_2020_05/5eabe67069aff_04-PreviewOptionD-SimtropolisLink.png.43cf680bd5de8b7b20d2055333d267cc.png)
 
-    Added 1st October 2020:  
+    Added 1st October 2020:
     Or alternatively, you may wish to use this version:
 
     [Web Button Improvement Mod\_v1.0 - EA Archived Link for Option D.zip](https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=63400)
@@ -57,7 +57,7 @@ info:
 
     The z\_ at the beginning will ensure mine loads last, and both can work together properly.
 
-    Hopefully preventing the web button being clicked (or making it functional) comes in useful. 
+    Hopefully preventing the web button being clicked (or making it functional) comes in useful.
 
     Special Mention
 
@@ -125,7 +125,7 @@ variantInfo:
   - value: "simtropolis-link"
     description: The Web button is still available, but now links directly to Simtropolis instead.
 - variantId: "cyclone-boom:web-button-improvement-mod:window-style"
-  description: Choose in which mode you typically play the game. 
+  description: Choose in which mode you typically play the game.
   values:
   - value: "full-screen"
     description: Play SC4 in full screen mode.

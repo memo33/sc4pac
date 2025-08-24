@@ -14,7 +14,7 @@ info:
   summary: "A DLL Plugin for SimCity 4 that extends the game's Lua system with new functions. This file is a dependency for plugins that use the new Lua script functions. "
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    A DLL Plugin for SimCity 4 that extends the game's Lua system with new functions. This file is a dependency for plugins that use the new Lua script functions. 
+    A DLL Plugin for SimCity 4 that extends the game's Lua system with new functions. This file is a dependency for plugins that use the new Lua script functions.
 
     A DLL Plugin for SimCity 4 that extends the game's Lua system with new functions. This file is a dependency for plugins that use the new Lua script functions.
 

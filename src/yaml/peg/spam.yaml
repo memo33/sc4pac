@@ -8,7 +8,7 @@ variants:
   dependencies:
   - peg:mtp-super-pack
   - peg:spam-super-resource-pack
-  
+
   assets:
   - assetId: peg-simpeg-agricultural-mod-spam
     exclude:
@@ -27,7 +27,7 @@ info:
   summary: SimPeg Agricultural Mod (SPAM) - Legacy Version
   warning: |-
     It is crucial to start a new region when installing SPAM, as the mod drastically changes the simulation parameters.
-    
+
     This version is only for compatibility support of already developed regions and for those who cannot upgrade to CAM 2.5 or later
 
     If you are starting a new region and have met all the requirements of CAM 2.5 or later please install this version

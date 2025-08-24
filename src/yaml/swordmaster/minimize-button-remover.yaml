@@ -5,7 +5,7 @@ subfolder: 900-overrides
 info:
   summary: Minimize button remover
   description: |-
-    Ever wanted to take clean snapshots without the minimize button in the lower left corner?  
+    Ever wanted to take clean snapshots without the minimize button in the lower left corner?
     Then this is for you.
 
     Place this file anywhere in your plugins folder. The button is just invisible - it's still there so you can still click on it to bring the UI back. Otherwise, use the shortcut NumLock.
