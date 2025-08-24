@@ -1,5 +1,5 @@
 group: "null-45"
-name: "legalize-gambling-ordinance-upgrade"
+name: "legalize-gambling-ordinance-upgrade-dll"
 version: "1.0.0"
 subfolder: "150-mods"
 assets:
@@ -11,72 +11,24 @@ assets:
     sha256: 0955B4C8A79A9C20C1D463105CB9E5AFA462E7F931E8C28B7F2AA19E5B6737B0
 
 info:
-  summary: "A DLL Plugin for SimCity 4 that updates the built-in Legalize Gambling ordinance to have its income based on the city's residential population."
+  summary: "A DLL Plugin that alters the Legalize Gambling ordinance so that its income scales with the city's residential population"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    A DLL Plugin for SimCity 4 that updates the built-in Legalize Gambling ordinance to have its income based on the city's residential population.
+    - Availability Requirements: None.
+    - Income: Base income of §250/month, plus additional income based on the residential wealth group populations.
+    - Effects: Crime Effect +20%.
 
-    Availability Requirements: None.
-    Income: Base income of §250/month, plus additional income based on the residential wealth group populations.
-    Effects:
-    * Crime Effect: +20%.
+    This ordinance replaces the game's built-in Legalize Gambling ordinance.
+    It is incompatible with any mod that alters the built-in ordinance.
+    This mod ignores the ordinance Exemplar and only uses the LTEXT files from the built-in ordinance.
 
-    This ordinance replaces the game's built-in Legalize Gambling ordinance, it is incompatible with any mod that alters the built-in ordinance. This mod ignores the ordinance Exemplar and only uses the LTEXT files from the built-in ordinance.
-
-    * System Requirements
-
-    *    Windows 10 or later
-
-    The plugin may work on Windows 7 or later with the Microsoft Visual C++ 2022 x86 Redistribute installed.
-
-    **Installation**
-
-    1. Close SimCity 4.
-    2. Copy SC4LegalizeGamblingUpgrade.dll and SC4LegalizeGamblingUpgrade.ini into the Plugins folder in the SimCity 4 installation directory.
-    3. Configure the plugin settings, see the Configuring the plugin section.
-
-    **Configuring the plugin**
-
-    1. Open SC4LegalizeGamblingUpgrade.ini in a text editor (e.g. Notepad).
-    *Note that depending on the permissions of your SimCity 4 installation directory you may need to start the text editor with administrator permissions to be able to save the file.*
-    2. Adjust the settings in the [GamblingOrdinance] section to your preferences.
-    3. Save the file and start the game.
-
-    **Settings overview:**
-
-    BaseMonthlyIncome is the base monthly income provided by the ordinance, defaults to §250.
-
-    **Wealth Group Income Factors**
-
-    The following values represent the factors (multipliers) that control how much each wealth group contributes to the monthly income based on the group's population. A value of 0.0 excludes the specified wealth group from contributing to the monthly income. For example, if the city's R§ population is 1000 and the R§ income factor is 0.05 the R§ group would contribute an additional §50 to the monthly income total.
-
-    R$IncomeFactor: income factor for the R§ population, defaults to 0.02.
-
-    R$$IncomeFactor: income factor for the R§§ population, defaults to 0.03.
-
-    R$$$IncomeFactor: income factor for the R§§§ population, defaults to 0.05.
-
-    **Ordinance Effects**
-
-    CrimeEffectMultiplier: the effect that the ordinance has on global city crime. Defaults to 1.20, a +20% increase. The value uses a range of [0.01, 2.0] inclusive, a value of 1.0 has no effect. Values below 1.0 reduce crime, and values above 1.0 increase crime.
-
-    **Troubleshooting**
-
-    The plugin should write a SC4LegalizeGamblingUpgrade.log file in the same folder as the plugin.
-    The log contains status information for the most recent run of the plugin.
-
-    **Source Code and Support**
-
-    Plugin thread: https://community.simtropolis.com/forums/topic/762856-legalize-gambling-ordinance-upgrade-dll-plugin/
-
-    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
-
+    See the documentation on how to configure the plugin.
   warning: |-
-    This DLL plugin comes with one INI configuration file:
+    This DLL plugin comes with an INI configuration file:
 
     * `SC4LegalizeGamblingUpgrade.ini`
 
-    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
+    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/35889-legalize-gambling-ordinance-upgrade/"
   images:

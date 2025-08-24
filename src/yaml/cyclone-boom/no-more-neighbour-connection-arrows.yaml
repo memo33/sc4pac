@@ -7,36 +7,9 @@ info:
   description: |-
     Tired of those oversized road signs, dangerously placed on your centrelines?
 
-    This mod removes the yellow arrows that appear on all networks, when connected to a neighbouring city.
+    This mod removes the yellow arrows that appear on all networks when connected to a neighbouring city.
 
-    The functionality of the connections is preserved. As a result, querying the network still reveals the information dialog (see screenshot). You may find this useful for creating City Journals, or to just make your cities more appealing.
-
-    Note: A while ago there was a similar mod on the STEX, based around this concept, but for some reason is no longer available. So for the benefit of the community, A new mod was created with the same purpose. ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif ":)")
-
-    **Installation**
-
-    Simply copy / move the file named **no\_more\_arrows.dat** into your "Documents/SimCity 4/Plugins" folder.
-
-    **Dependencies**
-
-    None
-
-    **Related Mods**
-
-    -   [No Track Checker Mod](https://community.simtropolis.com/forums/topic/75453-no-need-to-bulldoze-stations-track-checker-removal-mod-beta/) - by *Cori*
-    -   [Bird Pesticide](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1929) - by *RippleJet*
-    -   [Block Maxis Hangglider](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1602) - by *RippleJet*
-    -   [Block Road Barriers](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2482) - by *RippleJet*
-    -   [Disable Bridge Wash Effect](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1925) - by *RippleJet*
-    -   [Ghostbusters](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1994) - by *RippleJet*
-    -   [Minimize Button Remover](https://community.simtropolis.com/files/file/28243-minimize-button-remover/) - by *Swordmaster*
-    -   [No More Brown Boxes](https://community.simtropolis.com/files/file/15297-peg-no-more-brown-boxes/) - by *Pegasus*
-    -   [No More Yellow Lines Mod](https://community.simtropolis.com/files/file/14591-no-more-yellow-lines-mod/) - by *Sc4jeeks*
-    -   [No Palms Mod](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=620) - by *Swamper77*
-    -   [No Roadway Junk Mod](https://community.simtropolis.com/files/file/14586-peg-mtp-no-roadway-junk-mod/) - by *Pegasus*
-    -   [Toilet Paper Free Toilet Paper Tree](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1810) - by *RippleJet*
-    -   [Wind Power Plant No Grass Mod](https://community.simtropolis.com/files/file/29168-wind-power-plant-no-grass-mod/) - by *Leshan*
-    -   [Yellow Pause Thingy Remover](https://community.simtropolis.com/files/file/18680-smp-yellow-pause-thingy-remover/) - by *mjig\_dudy*
+    The functionality of the connections is preserved. As a result, querying the network still reveals the information dialog. You may find this useful for creating City Journals, or to just make your cities more appealing.
 
   author: Cyclone Boom
   website: https://community.simtropolis.com/files/file/29051-no-more-neighbour-connection-arrows/

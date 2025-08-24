@@ -6,7 +6,7 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:
 
 ---
 group: "cam"
-name: "colossus-addon-mod-corefile"
+name: "colossus-addon-mod-core"
 version: "3.2.0"
 subfolder: "050-load-first"
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
 - "null-45:query-tool-ui-extensions-dll"
 - "null-45:lua-extensions-dll"
 - "null-45:sc4-advanced-water-management"
-- "null-45:legalize-gambling-ordinance-upgrade"
+- "null-45:legalize-gambling-ordinance-upgrade-dll"
 - "memo:submenus-dll"
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "scoty:zoning-mod-maxis"
@@ -26,7 +26,7 @@ assets:
 info:
   summary: "Colossus Addon Mod - Core File is the main dependency of CAM. This Core File is suitable for both players using CAM and both SPAM and Pure Vanilla players."
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
-  description: |+
+  description: |-
     **Colossus Addon Mod - Core File** is the main dependency of CAM. This Core File is suitable for both players using CAM and both SPAM and Pure Vanilla players. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
 
     This mod is considered the main dependency for CAM Controllers and other mods that use the advanced content of this mod. Therefore, the mod consists mainly of code and support files for UI, LTEXT, and Exemplar.
@@ -131,7 +131,7 @@ name: "sc4-advanced-water-management"
 version: "3.1.0"
 subfolder: "150-mods"
 dependencies:
-  - "cam:colossus-addon-mod-corefile"
+  - "cam:colossus-addon-mod-core"
 
 assets:
 - assetId: "null-45-sc4-advanced-water-management"
@@ -143,12 +143,12 @@ assets:
 info:
   summary: "A DLL Mod that enables advanced water management, making Fresh Water and Salt Water available."
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
-  description: |+
+  description: |-
     A DLL mod that enables advanced water management by making Fresh Water and Salt Water available.
 
     This mod alerts the player when a water pump set to use fresh water and salt water is not working, allowing them to receive a warning. Also available is a cheat code ***ScanPumps*** that can be used as a debugging tool for modders.
 
-    This mod cannot work without `pkg=cam:colossus-addon-mod-corefile`
+    This mod cannot work without `pkg=cam:colossus-addon-mod-core`
 
   author: "CAM Team and Null-45"
   websites:

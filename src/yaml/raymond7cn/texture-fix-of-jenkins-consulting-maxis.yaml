@@ -1,53 +1,13 @@
 group: "raymond7cn"
-name: "texture-fix-of-jenkins-consulting-maxis"
+name: "texture-fix-of-jenkins-consulting"
 version: "1.0"
 subfolder: "150-mods"
 assets:
   - assetId: "raymond7cn-texture-fix-of-jenkins-consulting-maxis"
 info:
-  summary: "Fixes some graphical bugs in some Maxis buildings"
+  summary: Fixes a graphical issue in a Maxis building
   description: |
-    =========================================
-    Texture Fix of Jenkins Consulting (Maxis)
-    =========================================
-
-    There is a texture bug in the vanilla high wealth commercial building 'Jenkins Consulting'.  The side wall of the building is 'open' and looks bad in the game. Textures were repaired by using a little imagination to fill in the missing parts of the outer wall.
-    Many thanks to Cori and CB !!
-
-
-    Relevant Info - The Building Affected
-    -------------------------------------
-    Building Exemplar TGI:  6534284a-47bddf12-05430000 (Located in SimCity_1.dat)
-    Building Exemplar Name: CO$$$12x28_1NYOfficeBldg1_0543
-
-
-    FSH Files Repaired / Original Location
-    --------------------------------------
-    7ab50e44-1abe787d-0x04f20320 / SimCity_3.dat
-    7ab50e44-1abe787d-0x04f30320 / SimCity_3.dat
-    7ab50e44-1abe787d-0x04fc0200 / SimCity_3.dat
-    7ab50e44-1abe787d-0x057b0230 / SimCity_3.dat
-    7ab50e44-1abe787d-0x05430110 / SimCity_3.dat
-    7ab50e44-1abe787d-0x054f0120 / SimCity_3.dat
-
-    7ab50e44-1abe787d-0x04e60413 / SimCity_4.dat
-    7ab50e44-1abe787d-0x04e60406 / SimCity_4.dat
-
-
-    **DEPENDENCIES:**
-    -------------
-    There are no dependencies required for this file.
-
-
-    **INSTALLATION:**
-    -------------
-    To install, simply unzip the 'Jenkins Consulting Texture Fix.dat' into your Plugins folder or any subdirectory of Plugins you prefer.
-
-
-    Thanks.
-    -- Raymond
-
-
+    There is a texture bug in the Vanilla high-wealth commercial building 'Jenkins Consulting'.  The side wall of the building is 'open' and looks bad in the game. Textures were repaired by using a little imagination to fill in the missing parts of the outer wall.
   author: "Raymond7cn"
   website: "https://community.simtropolis.com/files/file/33601-texture-fix-of-jenkins-consulting-maxis/"
   images:

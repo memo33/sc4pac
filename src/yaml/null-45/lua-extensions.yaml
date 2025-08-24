@@ -11,46 +11,19 @@ assets:
     sha256: 4652D0E40ACA1DDB4EAECE2499DD0CEE2A37BAF45B39E2558592885FED32442D
 
 info:
-  summary: "A DLL Plugin for SimCity 4 that extends the game's Lua system with new functions. This file is a dependency for plugins that use the new Lua script functions. "
+  summary: A DLL Plugin that extends the game's Lua system with new functions for developers
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    A DLL Plugin for SimCity 4 that extends the game's Lua system with new functions. This file is a dependency for plugins that use the new Lua script functions.
-
-    A DLL Plugin for SimCity 4 that extends the game's Lua system with new functions. This file is a dependency for plugins that use the new Lua script functions.
+    This file is a dependency for plugins that use the new Lua script functions.
 
     The DLL provides a number of functions that allow Lua scripts to do the following:
 
-    *     Run cheats and pause/resume the game.
-    *     Have better access to SC4's built-in number formatting.
-    *     Get or set the city/mayor names and plop lots.
-    *     Manipulate the in-game camera and take snapshots.
-
-    See null45_lua_extensions.lua for a list of the provided functions, and null45_lua_extensions_tests.lua for examples of their use.
+    * Run cheats and pause/resume the game.
+    * Have better access to SC4's built-in number formatting.
+    * Get or set the city/mayor names and plop lots.
+    * Manipulate the in-game camera and take snapshots.
 
     It also re-enables the Lua error logging that Maxis disabled in the retail version of the game. Note that due to the way that the game loads plugin Lua scripts, the error messages only give the line number within the script unless the error occurs within a function.
-
-    **System Requirements**
-
-    *     SimCity 4 version 641
-    *     Windows 10 or later
-    *     Microsoft Visual C++ 2022 x86 Redistribute
-
-    Installation
-
-    1.     Close SimCity 4.
-    2.     Copy SC4LuaExtensions.dll, and SC4LuaExtensions.dat into the top-level of the Plugins folder in the SimCity 4 installation directory or Documents/SimCity 4 directory.
-    3.     Start SimCity 4.
-
-    **Troubleshooting**
-
-    The plugin should write a SC4LuaExtensions.log file in the same folder as the plugin.
-    The log contains status information for the most recent run of the plugin.
-
-    **Source Code and Support**
-
-    Plugin thread: https://community.simtropolis.com/forums/topic/763879-lua-extensions-dll-plugin/
-
-    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-lua-extensions
 
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36925-lua-extensions-dll/"

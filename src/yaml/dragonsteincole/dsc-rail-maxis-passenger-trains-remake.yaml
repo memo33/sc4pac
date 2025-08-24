@@ -15,25 +15,11 @@ variants:
     include:
     - "/DSC_PassengerTrainsRemake_DN/"
 info:
-  summary: "Replaces Maxis Auotmata with modern versions allowing for graphical bug fixes"
+  summary: Maxis-like replacement of passenger train automata
   description: |
-    This file contains remade Replacement versions of the vanilla Maxis Passenger train automata. There are two folders for two different nightlighting variations - each folder contains three DAT files, one for Rail, El Rail & Subway, and Monorail.  The Subway version is packed in with the El Rail due to similarity and sharing nightlighting. Bonus points if you actually see one in your playthroughs!
-    Whilst the original vanilla models are pretty iconic and still used by most people, these are not meant to be a massive depature or be realistic, as other automata releases have been. Instead, these are trying to update those originals whilst retaining their charm, and also making them a little nicer to look at overall.
+    Whilst the original vanilla models are pretty iconic and still used by most people, these new models are not meant to be a massive depature or be realistic, as other automata releases have been. Instead, these are trying to update those originals whilst retaining their charm, and also making them a little nicer to look at overall.
+
     All the trains and coaches have nightlighting in both Maxis Nite(MN) and Dark Nite(DN) variations, with added details and nightlighting on coaches that were missing it previously.
-
-    **INSTALLATION**
-
-    Drag either the Maxis Nite (MN) or Dark Nite (DN) folders into your 'Plugins' folder. Remove DATs if you do not wish to use those particular automata.
-
-    **COMPATIBILITY**
-
-    Use only one set of DATs, depending on the type of nightlighting you have. All DATs are REPlacement versions, there are no additional versions included.
-
-    **DEPENDENCIES**
-
-    The Dark Nite (DN) versions are best used with Simfox's Day and Nite Modd. They are untested with other night mods.
-
-
   author: "dragonsteincole"
   website: "https://community.simtropolis.com/files/file/35891-dsc-rail-maxis-passenger-trains-remake/"
   images:

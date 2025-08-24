@@ -14,7 +14,7 @@ variants:
 - variant: { CAM: "yes" }
   dependencies:
   - "cam:colossus-addon-mod-ordinances"
-  - "cam:colossus-addon-mod-corefile"
+  - "cam:colossus-addon-mod-core"
 
   assets:
   - assetId: "cam-colossus-addon-mod"
@@ -37,7 +37,7 @@ info:
     Only compatible with game version 1.1.641, the Windows digital edition.
     See the CAM manual for a list of mod incompatibilities.
 
-  description: |+
+  description: |-
     **Colossus Addon Mod - CAM Controller** is the popular SimCity 4 mod that involves substantial changes in the RCI (Residential - Commercial - Industrial) simulation as well as essential bugfixes. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
 
     CAM Controller introduces improvements to the educational simulation system and utility, as well as changes to the stage system, giving you:

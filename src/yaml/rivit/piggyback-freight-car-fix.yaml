@@ -5,7 +5,7 @@ subfolder: "150-mods"
 assets:
   - assetId: "rivit-piggyback-freight-car-fix"
 info:
-  summary: "Fixes some graphical bugs of piggyback automata"
+  summary: Fixes graphical glitches of piggyback freight train automata models
   description: |
     After a 10 year safety review this sloppy freighting practice has been rectified. Appropriate heads will roll.
 

@@ -14,7 +14,7 @@ variants:
 - variant: { SPAM: "yes" }
   dependencies:
   - "cam:colossus-addon-mod-ordinances"
-  - "cam:colossus-addon-mod-corefile"
+  - "cam:colossus-addon-mod-core"
 
   assets:
   - assetId: "cam-colossus-addon-mod-spam-controller"
@@ -37,7 +37,7 @@ info:
     Only compatible with game version 1.1.641, the Windows digital edition.
     See the CAM manual for a list of mod incompatibilities.
 
-  description: |+
+  description: |-
     **Colossus Addon Mod - SPAM Controller** is the updated and improved version of SPAM that allows you to fix agricultural demand without altering the RCI simulation and enjoy the CAM enhancements The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
 
     CAM - SPAM Controller introduces improvements to the educational and utility simulation system, as well as changes to the stage system, giving you:
