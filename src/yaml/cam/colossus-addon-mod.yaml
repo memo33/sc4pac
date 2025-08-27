@@ -15,6 +15,7 @@ variants:
   dependencies:
   - "cam:colossus-addon-mod-ordinances"
   - "cam:colossus-addon-mod-core"
+  - "heinbloed4711:hi-tech-missing-high-wealth-jobs"
 
   assets:
   - assetId: "cam-colossus-addon-mod"

@@ -19,9 +19,12 @@ dependencies:
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "scoty:zoning-mod-maxis"
 - "cyclone-boom:save-warning"
+- "memo:i-r-fix"
 
 assets:
 - assetId: "cam-colossus-addon-mod-corefile"
+  exclude:
+  - "/CAM_IR_Fix_Exemplar_Patch.dat"
 
 info:
   summary: "Colossus Addon Mod - Core File is the main dependency of CAM. This Core File is suitable for both players using CAM and both SPAM and Pure Vanilla players."
