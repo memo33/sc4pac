@@ -19,14 +19,13 @@ variants:
   assets:
   - assetId: "cam-colossus-addon-mod"
   conflicting:
-  - "peg:spam-legacy-version"
-  - "cam:colossus-addon-mod-spam-controller"
-  - "cam:colossus-addon-mod-legacy-version"
+  - "peg:spam"
+  - "invisichem:colossus-addon-mod-legacy"
 
 variantDescriptions:
   CAM:
-    "no": "Choose this if you do not want to install the Colossus Addon Mod (CAM) or Colossus Addon Mod (CAM) Legacy Version."
-    "yes": "Choose this to install the Colossus Addon Mod (CAM) Colossus Addon Mod (CAM) Legacy Version."
+    "no": "Choose this if you do not want to install the Colossus Addon Mod (CAM)."
+    "yes": "Choose this to install the current version of the Colossus Addon Mod (CAM) or its legacy version."
 
 info:
   summary: Colossus Addon Mod
