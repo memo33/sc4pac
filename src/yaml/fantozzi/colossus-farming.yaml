@@ -95,7 +95,7 @@ variantInfo:
       Choose this if you have installed the Colossus Addon Mod (CAM).
 - variantId: "fantozzi:colossus-farming:spam"
   description: |-
-    Do you have `pkg=peg:spam-legacy-version` or `pkg=cam:colossus-addon-mod-spam-controller` installed?
+    Do you have `pkg=peg:spam` installed?
     If so, this option installs farms for the additional growth stages 4 and 5 added by SPAM.
   values:
   - value: "no"
