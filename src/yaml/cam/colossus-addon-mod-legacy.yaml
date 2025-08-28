@@ -33,7 +33,7 @@ variantDescriptions:
 info:
   summary: Colossus Addon Mod (CAM) Legacy Version 2.1
   warning: |-
-    It is crucial to start a new region when installing CAM, as the mod drastically changes the simulation parameters.
+    It is crucial to start a new region when first installing CAM, as the mod drastically changes the simulation parameters.
 
     This legacy version is only for compatibility support of already developed regions and for those who cannot upgrade to CAM 3.0 or later.
     If you are starting a new region and meet all the requirements for CAM 3.0 or later, install `pkg=cam:colossus-addon-mod` instead.

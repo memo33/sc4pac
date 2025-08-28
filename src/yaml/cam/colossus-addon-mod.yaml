@@ -31,48 +31,52 @@ variantDescriptions:
 info:
   summary: Colossus Addon Mod
   warning: |-
-    It is crucial to start a new region when installing CAM, as the mod drastically changes the simulation parameters.
+    It is crucial to start a new region when first installing CAM, as the mod drastically changes the simulation parameters.
 
   conflicts: |-
     Only compatible with game version 1.1.641, the Windows digital edition.
     See the CAM manual for a list of mod incompatibilities.
 
   description: |-
-    **Colossus Addon Mod - CAM Controller** is the popular SimCity 4 mod that involves substantial changes in the RCI (Residential - Commercial - Industrial) simulation as well as essential bugfixes. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
+    # Colossus Addon Mod – CAM Controller
 
-    CAM Controller introduces improvements to the educational simulation system and utility, as well as changes to the stage system, giving you:
+    The _Colossus Addon Mod (CAM)_ makes substantial changes to the way cities and regions develop.
+    Most importantly, it adds new Growth Stages 9 to 15, beyond the game's default Stages 1 through 8.
+    This leads to extended and more realistic gameplay, especially for the later phases of the game.
+    Additionally, it includes several essential bugfixes developed by the community.
+
+    To make the most of CAM, you will need to install a variety of CAM-patible buildings for the higher Growth Stages.
+
+    ## Overview
+
+    This version of the _CAM Controller_ introduces improvements to the educational simulation system and utility system, as well as changes to the Growth Stages, giving you:
 
     * 15 Residential Stages (8 Maxis Stages + 7 CAM Stages)
     * 15 Commercial Stages (8 Maxis Stages + 7 CAM Stages)
     * 10 Agricultural Stages (3 Maxis Stages + 7 CAM Stages)
     * 10 Industrial Stages (3 Maxis Stages + 7 CAM Stages)
 
-    The changes implemented in the RCI simulation will give players greater emphasis and planning in regional development, rather than just on individual cities.
+    The changes implemented in the RCI simulation will give players greater emphasis on planning in regional development, rather than just on individual cities.
 
-    In addition, this controller is compatible with **CAMeLot** lots because these lots use the additional stages introduced by CAM.
+    In addition, this controller is compatible with **CAMeLot** lots, which use the additional stages introduced by CAM.
 
-    Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+    ## MIGRATION
 
-    ***WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only). If you run CAM 2.5 or later on systems different from those listed, the mod may malfunction and no support is provided***
-    ***MIGRATION:***
+    Migration to CAM 3.0 and later versions **can** be done if you meet these requirements:
 
-    Migration to CAM 3.0 and later versions can be done if you meet these requirements
+    * ✅ Players coming from CAM 2.5 can upgrade to this version of CAM.
+    * ✅ Players coming from CAM 2.1 (Legacy Version) can upgrade this version of CAM if they used the _Extended Playstyle_ option.
+    * ✅ Players from Vanilla must create a new region before switching to this version of CAM.
 
-    * Players coming from CAM 2.5 can upgrade to CAM 3.0 using only the CAM Controller
-    * Players from vanilla can switch to CAM 3.0 using the CAM Controller but must create a new region
+    Migration to CAM 3.0 and later versions **cannot** be done if you meet these conditions:
 
-    Migration to CAM 3.0 and later versions cannot be done if you meet these requirements
-
-    * Players coming from CAM 2.1.1 (Legacy Version) cannot upgrade to CAM 3.0
-    * Players from SPAM (Legacy Version) cannot switch to CAM 3.0 using only the CAM Controller.
-    * Players from vanilla cannot switch to CAM 3.0 if it is used in a developed region
-    * Players coming from CAM 3.0 with the CAM-SPAM Controller cannot switch to CAM 3.0 - CAM Controller
-    * Players coming from CAM 3.0 with the CAM Controller cannot switch to CAM 3.0 CAM-SPAM Controller
+    * ❌ Players from SPAM (Legacy Version) cannot switch to this version of CAM.
+    * ❌ Players from Vanilla cannot switch to this version of CAM if using it in an already developed region.
+    * ❌ Players coming from CAM 3.0 with the _CAM-SPAM Controller_ cannot switch to this variant of CAM, and vice-versa.
 
   author: "CAM Team"
   websites:
    - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/51-colossus-addon-mod-cam-controller"
    - "https://community.simtropolis.com/files/file/30956-colossus-addon-mod-cam-controller/"
   images:
-   - https://www.sc4evermore.com/images/jdownloads/screenshots/CAMC.jpg
    - https://www.sc4evermore.com/images/jdownloads/screenshots/CAM%20Logo.png
