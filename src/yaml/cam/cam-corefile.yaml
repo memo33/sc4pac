@@ -13,7 +13,7 @@ dependencies:
 - "null-45:custom-budget-departments-dll"
 - "null-45:query-tool-ui-extensions-dll"
 - "null-45:lua-extensions-dll"
-- "null-45:sc4-advanced-water-management"
+- "null-45:advanced-water-management-dll"
 - "null-45:legalize-gambling-ordinance-upgrade-dll"
 - "memo:submenus-dll"
 - "t-wrecks:maxis-prop-names-and-query-fix"
@@ -27,99 +27,15 @@ assets:
   - "/CAM_IR_Fix_Exemplar_Patch.dat"
 
 info:
-  summary: "Colossus Addon Mod - Core File is the main dependency of CAM. This Core File is suitable for both players using CAM and both SPAM and Pure Vanilla players."
+  summary: "Colossus Addon Mod Core File – the main dependency of CAM"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |-
-    **Colossus Addon Mod - Core File** is the main dependency of CAM. This Core File is suitable for both players using CAM and both SPAM and Pure Vanilla players. The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod
+    This mod is the main dependency for CAM Controllers.
+    To install CAM, install a CAM Controller that depends on this package (see _Required By_).
 
-    This mod is considered the main dependency for CAM Controllers and other mods that use the advanced content of this mod. Therefore, the mod consists mainly of code and support files for UI, LTEXT, and Exemplar.
-
-    Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
-
-    Extra feature, if you hover over the folders in the installer, you will get some extra information about each contents.
-
-    WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only). If you run CAM 2.5 or later on systems other than those listed, the mod may malfunction and no support is provided.
-
-    **Installation**
-
-    This package is a simple .zip file. Just extract the a_CAM folder to your MyDocuments/SimCity 4/Plugins directory (or equivalent, if you have a custom Plugins folder location).
-
-    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
-    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer nos.17's SC4 Cleanitol or the older BSC Cleanitol tool you can search and remove old and outdated versions of these files.
-    DLL Dependencies
-
-    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies(the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
-
-    * Advanced Water Management (INCLUDED) - This file is needed to run the advanced features related to water
-      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
-
-    * Submenu DLL - this file is needed to run the submenus and I-R Exemplar Patch
-      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
-
-    * Query Tool UI Extensions DLL for SimCity 4 - This file is necessary for the correct functioning of the queries
-      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
-
-    * Lua Extensions DLL - This file is necessary for the correct functioning of LUA
-      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
-
-    * Custom Budget Departments DLL Plugin - This file is necessary for the correct functioning of Custom Budget Department
-      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
-
-    * Legalize Gambling Ordinance Upgrade - Required for the correct functioning of casino specialization
-      Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
-
-    **Dependencies**
-
-    The following files are required in order for the contents of this package to appear correctly (i.e., no 'brown boxes' or missing textures) (the below listed dependencies are covering a full install; for dependencies for individual collections see the list of contents secion):
-
-
-    * Maxis Prop Names and Query Fix
-    Solves problems for maxis building props querry
-    * Scoty Zoning Mod
-    Increase maximum size for all zones and remove 4×4 minimum size limit from agricultural zones
-    * Save Warning
-    Blocks the ability to save and exit the game to prevent data corruption.
-
-
-    **Credits**
-
-    The following SimCity 4 community members contributed models, textures, and modding support to this collection:
-
-    * Ulisse Wolf
-    * Tyberius06
-    * Cyclone Boom
-    * CorinaMarie
-    * InvisiChem
-    * Indisguise
-    * BarbyW
-    * Wouanagaine
-    * JMyers2043
-    * Shoreman905
-    * Rayden
-    * MAS71
-    * Jplumbley
-    * Andreas
-    * Callagrafx
-    * Tropod
-    * RippleJet
-    * Tag one
-    * Memo33
-    * Dragonsteincole
-    * xBlaze89x
-    * paeng
-    * Pegasus
-    * hugues aroux
-
-    This package was assembled by Ulisse Wolf.
-    Special Thanks
-
-    Webmaster & administration staff at SC4Evermore and SC4 Devotion.
-
-    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
-
-    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after 20 years thanks to you!
-
-    And last but not least, a thanks for the Maxis individuals too, for the [paid] work that they did. ;-)
+    This package consists mainly of code and support files for UI, LText, and Exemplar.
+    However, it does make many alterations to various Maxis default buildings that are designed for use with CAM,
+    and also modifies Lua files affecting the Advisor system and other functionality of the game.
 
   author: "CAM Team"
   websites:
@@ -130,8 +46,8 @@ info:
 
 ---
 group: "null-45"
-name: "sc4-advanced-water-management"
-version: "3.1.0"
+name: "advanced-water-management-dll"
+version: "1.0"
 subfolder: "150-mods"
 dependencies:
   - "cam:colossus-addon-mod-core"
@@ -144,25 +60,22 @@ assets:
 
 
 info:
-  summary: "A DLL Mod that enables advanced water management, making Fresh Water and Salt Water available."
+  summary: "A DLL Mod that enables advanced water management, making Fresh Water and Salt Water available"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |-
-    A DLL mod that enables advanced water management by making Fresh Water and Salt Water available.
+    This mod alerts the player when a water pump set to use fresh water and salt water is not working, allowing them to receive a warning.
+    Also available is a cheat code `ScanPumps` that can be used as a debugging tool for modders.
 
-    This mod alerts the player when a water pump set to use fresh water and salt water is not working, allowing them to receive a warning. Also available is a cheat code ***ScanPumps*** that can be used as a debugging tool for modders.
+    This mod cannot work without `pkg=cam:colossus-addon-mod-core`.
 
-    This mod cannot work without `pkg=cam:colossus-addon-mod-core`
-
-  author: "CAM Team and Null-45"
+  author: "CAM Team and Null 45"
   websites:
   - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-colossus-addon-mod-core-files"
   - "https://community.simtropolis.com/files/file/36978-colossus-addon-mod-core-files/"
-  images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/COREF.jpg
 
 ---
 assetId: "null-45-sc4-advanced-water-management"
-version: "3.1.0"
+version: "1.0"
 lastModified: "2025-08-24T12:45:37-07:00"
 nonPersistentUrl: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
 url: "https://github.com/0xC0000054/sc4-advanced-water-management/releases/download/v1.0/AdvancedWaterManagement.zip"

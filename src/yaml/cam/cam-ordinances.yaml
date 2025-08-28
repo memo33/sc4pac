@@ -1,37 +1,28 @@
 group: "cam"
-name: "colossus-addon-mod-ordinances"
-version: "2.6"
+name: "ordinances"
+version: "3.0.0"
 subfolder: "140-ordinances"
 dependencies:
 - "null-45:custom-ordinance-exemplar-host-dll"
 assets:
   - assetId: "cam-colossus-addon-mod-ordinances"
 info:
-  summary: "Colossus Addon Mod - Ordinances is the essential mod for enhancing the original SimCity 4 ordinances as well as expanding with new ordinances."
+  summary: "Colossus Addon Mod Ordinances – alters the original SimCity 4 ordinances and adds new ones"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |-
-    **Colossus Addon Mod - Ordinances** is the essential mod for enhancing the original SimCity 4 ordinances as well as expanding with new ordinances. This pack is a dependency for CAM players but can also be used by SPAM and Pure Vanilla players to enhance gameplay The mod was developed by the various members of the CAM Team who over time have brought modifications to improve this mod.
+    **Colossus Addon Mod - Ordinances** is a dependency for CAM, but is suitable for players without CAM as well, including those using SPAM or the Vanilla game.
 
-    This mod allows you to enhance Maxis ordinances by introducing new effects and revising existing ones, giving ordinances a more influential role in the growth of the city.
+    This mod alters the Maxis ordinances by introducing new effects and revising existing ones, giving ordinances a more influential role in the growth of the city.
 
     It also introduces new ordinances that will allow you to modify development based on the ordinances you select. Some may promote urban development, but others will earn you money at the expense of influence.
-
-    Please note that this pack may receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
-
-    Extra feature, if you hover over the folders in the installer, you will get some extra information about each contents.
-
-    ***WARNING: From version 2.5 onward Colossus Addon Mod works only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only). If you run CAM 2.5 or later on systems other than those listed, the mod may malfunction and no support is provided.
-    Installation***
 
   author: "CAM Team"
   websites:
   - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/386-colossus-addon-mod-ordinances"
   - "https://community.simtropolis.com/files/file/36878-colossus-addon-mod-ordinances/"
-  images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/CAM-ORDINANCES.jpg
 
 ---
 assetId: "cam-colossus-addon-mod-ordinances"
-version: "2.6"
-lastModified: "2025-05-15T19:29:53-07:00"
+version: "3.0.0"
+lastModified: "2025-08-12T03:10:20Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=386:colossus-addon-mod-ordinances"

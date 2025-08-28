@@ -13,7 +13,7 @@ variants:
 - variant: { CAM: "no" }
 - variant: { CAM: "yes" }
   dependencies:
-  - "cam:colossus-addon-mod-ordinances"
+  - "cam:ordinances"
   - "cam:colossus-addon-mod-core"
   - "heinbloed4711:hi-tech-missing-high-wealth-jobs"
 
