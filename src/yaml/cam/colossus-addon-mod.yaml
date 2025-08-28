@@ -11,22 +11,38 @@ subfolder: "050-load-first"
 
 variants:
 - variant: { CAM: "no" }
-- variant: { CAM: "yes" }
+- variant: { CAM: "yes", cam:colossus-addon-mod:version: "current" }
   dependencies:
-  - "cam:ordinances"
   - "cam:colossus-addon-mod-core"
+  - "cam:ordinances"
   - "heinbloed4711:hi-tech-missing-high-wealth-jobs"
-
   assets:
   - assetId: "cam-colossus-addon-mod"
   conflicting:
   - "peg:spam"
   - "invisichem:colossus-addon-mod-legacy"
+- variant: { CAM: "yes", cam:colossus-addon-mod:version: "legacy" }
+  dependencies:
+  - "invisichem:colossus-addon-mod-legacy"
 
-variantDescriptions:
-  CAM:
-    "no": "Choose this if you do not want to install the Colossus Addon Mod (CAM)."
-    "yes": "Choose this to install the current version of the Colossus Addon Mod (CAM) or its legacy version."
+variantInfo:
+- variantId: "CAM"
+  values:
+  - value: "no"
+    description: Choose this if you do not want to install the Colossus Addon Mod (CAM).
+  - value: "yes"
+    description: Choose this to install the current version of the Colossus Addon Mod (CAM) or its legacy version.
+- variantId: "cam:colossus-addon-mod:version"
+  values:
+  - value: "current"
+    description: Install the current version of CAM, version 3.0 or later.
+    default: true
+  - value: "legacy"
+    description: |-
+      Install the Legacy version 2.1 of CAM: `pkg=invisichem:colossus-addon-mod-legacy`.
+
+      This option is for compatibility support of already developed regions and for those who cannot upgrade to the current version of CAM.
+      If you are starting a new region and meet all the requirements, pick the `current` version instead.
 
 info:
   summary: Colossus Addon Mod

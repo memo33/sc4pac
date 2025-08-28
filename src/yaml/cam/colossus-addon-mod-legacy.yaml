@@ -23,7 +23,6 @@ variants:
     - "/CAM_2.1.0_Buildings.dat"
   conflicting:
   - "peg:spam"
-  - "cam:colossus-addon-mod"
 
 variantDescriptions:
   CAM:
@@ -36,7 +35,7 @@ info:
     It is crucial to start a new region when first installing CAM, as the mod drastically changes the simulation parameters.
 
     This legacy version is only for compatibility support of already developed regions and for those who cannot upgrade to CAM 3.0 or later.
-    If you are starting a new region and meet all the requirements for CAM 3.0 or later, install `pkg=cam:colossus-addon-mod` instead.
+    If you are starting a new region and meet all the requirements for CAM 3.0 or later, install the current version of `pkg=cam:colossus-addon-mod` instead.
 
   conflicts: |-
     Only compatible with game version 1.1.641, the Windows digital edition.
