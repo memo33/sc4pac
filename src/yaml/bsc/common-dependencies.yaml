@@ -1,12 +1,12 @@
 assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-version: "9c"
-lastModified: "2025-04-21T10:38:51Z"
+version: "9d"
+lastModified: "2025-08-31T01:17:17Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=3:sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "essentials"
-version: "2025a"
+version: "2025b"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -344,7 +344,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-gascooker-vol01"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -552,7 +552,7 @@ version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Misc Vol01 v..dat" ]
+  include: [ "/BSC MEGA Props - MISC Vol01 v..dat" ]
 info:
   summary: "BSC MEGA Props - Misc Vol01"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -564,7 +564,7 @@ version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - Misc Vol02 v..dat" ]
+  include: [ "/BSC MEGA Props - MISC Vol02 v..dat" ]
 info:
   summary: "BSC MEGA Props - Misc Vol02"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -572,7 +572,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-misc-vol03"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -799,7 +799,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-prepo-vol01"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1981,7 +1981,7 @@ info:
 ---
 group: "cobb"
 name: "mega-props-vol01"
-version: "1-1"
+version: "1-2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
