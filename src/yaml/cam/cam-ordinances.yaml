@@ -1,6 +1,6 @@
 group: "cam"
 name: "ordinances"
-version: "3.2.0"
+version: "3.3.0"
 subfolder: "140-ordinances"
 dependencies:
 - "null-45:custom-ordinance-exemplar-host-dll"
@@ -23,6 +23,6 @@ info:
 
 ---
 assetId: "cam-colossus-addon-mod-ordinances"
-version: "3.2.0"
-lastModified: "2025-09-01T17:36:18-07:00"
+version: "3.3.0"
+lastModified: "2025-09-04T10:19:10-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=386:colossus-addon-mod-ordinances"
