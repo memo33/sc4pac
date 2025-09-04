@@ -1,7 +1,9 @@
 group: peg
 name: spam
-version: "1.0"
+version: "2.0"
 subfolder: 150-mods
+# conflicting:  # not defined here as there's no conflict if CAM=no, so instead the conflict is defined in the CAM YAML file
+# - "cam:colossus-addon-mod"
 info:
   summary: SimPeg Agricultural Mod (SPAM)
   description: |-
@@ -13,7 +15,7 @@ info:
 
     Please consult the documentation for further information.
   author: Pegasus
-  website: https://community.simtropolis.com/files/file/26080-simpeg-agricultural-mod-spam/
+  website: https://community.simtropolis.com/files/file/26080-simpeg-agricultural-mod-spam-legacy-version/
   images:
     - https://www.simtropolis.com/objects/screens/monthly_06_2012/39a2a7e52169570a7f3ca1b46e9174d9-.jpg
   conflicts: This mod is incompatible with the CAM (`pkg=cam:colossus-addon-mod`). Do not install both the SPAM and the CAM.
@@ -27,6 +29,6 @@ assets:
 
 ---
 assetId: peg-simpeg-agricultural-mod-spam
-version: "1.0"
-lastModified: "2011-04-13T08:57:58Z"
-url: https://community.simtropolis.com/files/file/26080-simpeg-agricultural-mod-spam/?do=download&r=102131
+version: "2.0"
+lastModified: "2025-08-13T01:57:11Z"
+url: https://community.simtropolis.com/files/file/26080-simpeg-agricultural-mod-spam-legacy-version/?do=download
