@@ -6,6 +6,10 @@ dependencies:
 - "null-45:custom-ordinance-exemplar-host-dll"
 assets:
   - assetId: "cam-colossus-addon-mod-ordinances"
+    exclude:
+      - "/CAM_Maxis_Ordinance_Overhaul_Mod.dat"  # contains duplicate files that are not needed
+dependencies:
+  - "memo:submenus-dll"  # for exemplar patching
 info:
   summary: "Colossus Addon Mod Ordinances – alters the original SimCity 4 ordinances and adds new ones"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."

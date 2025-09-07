@@ -51,6 +51,7 @@ version: "1.0"
 subfolder: "150-mods"
 dependencies:
   - "cam:colossus-addon-mod-core"
+  - "config:sc4-edition-windows-digital"
 
 assets:
 - assetId: "null-45-sc4-advanced-water-management"
