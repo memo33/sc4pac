@@ -1,7 +1,11 @@
 group: "simmaster07"
 name: "extra-cheats-dll"
-version: "1.1.1-2"
+version: "1.1.1-3"
 subfolder: "150-mods"
+dependencies:
+- "config:sc4-edition"
+conflicting:
+- "config:sc4-edition-macos"
 assets:
 - assetId: "simmaster07-extra-cheats-dll"
   withChecksum:

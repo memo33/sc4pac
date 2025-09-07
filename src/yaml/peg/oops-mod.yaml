@@ -9,7 +9,9 @@ info:
   author: "Pegasus"
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_06_2011/25f0f54c77e1be20f7882d31137bf26f-1140825300product_image1.jpg"
-  website: "https://community.simtropolis.com/files/file/26298-peg-oops-mod-zip-version-peg-no-more-brown-boxes/"
+  websites: 
+    - "https://community.simtropolis.com/files/file/26298-peg-oops-mod-zip-version-peg-no-more-brown-boxes/"
+    - "https://community.simtropolis.com/files/file/15297-peg-opps-oops-mod-installer-peg-no-more-brown-boxes/"
 assets:
 - assetId: "peg-oops-mod"
 

@@ -1,6 +1,6 @@
 group: "hugues-aroux"
 name: "textures-pack"
-version: "1.1.0"
+version: "1.1.1"
 subfolder: "100-props-textures"
 info:
   summary: "Scoty textures pack"
@@ -21,14 +21,16 @@ variants:
       exclude:  # for simplicity, we exclude non-default choices for now, as this is just one tiny texture anyway
       - &path _choose/.*(?<!Maxis|NAM)\.dat$
       - _LHD\.dat$
+      - &bsc /Scoty_Tex_BSCtoSV.dat  # override of BSC textures has no business in a texture dependency
   - variant: { driveside: "left" }
     assets:
     - assetId: "hugues-aroux-textures-pack"
       exclude:
       - *path
+      - *bsc
 
 ---
 url: "https://community.simtropolis.com/files/file/36297-scoty-textures-packs/?do=download"
 assetId: "hugues-aroux-textures-pack"
-version: "1.1.0"
-lastModified: "2025-05-29T20:56:34Z"
+version: "1.1.1"
+lastModified: "2025-08-29T10:08:45Z"

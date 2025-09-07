@@ -1,7 +1,9 @@
 group: "null-45"
 name: "sc4-resource-loading-hooks"
-version: "1.0.1"
+version: "1.0.1-1"
 subfolder: "150-mods"
+dependencies:
+- "config:sc4-edition-windows-digital"
 assets:
 - assetId: "null-45-sc4-resource-loading-hooks"
   withChecksum:
