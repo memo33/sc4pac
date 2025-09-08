@@ -34,3 +34,6 @@ ignore-non-github-urls:
 - simmaster07-extra-cheats-dll
 - buggi-extra-cheats-dll
 - simmaster07-real-upgradeable-city-halls
+
+single-choice-variants:
+- invisichem:colossus-addon-mod-legacy:patch-method
