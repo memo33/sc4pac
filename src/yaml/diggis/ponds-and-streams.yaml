@@ -1,4 +1,4 @@
-assetId: "bsc-diggis-complete-ponds-and-streams"
+assetId: "bsc-diggis-complete-ponds-and-streams-props"
 version: "2.0"
 lastModified: "2024-08-20T10:01:49Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=108:sc4d-lex-legacy-bsc-diggis-complete-ponds-streams"
@@ -9,7 +9,7 @@ name: "mega-props-diggis-canals-streams-and-ponds"
 version: "1"
 subfolder: "100-props-textures"
 assets:
-- assetId: "bsc-diggis-complete-ponds-and-streams"
+- assetId: "bsc-diggis-complete-ponds-and-streams-props"
   include:
   - "/BSC MEGA Props - Canals Diggis Streams and Ponds.dat"
   - "/BSC_Diggis_Canals_Submenu.dat"
