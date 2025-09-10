@@ -1,6 +1,6 @@
 group: "null-45"
 name: "sc4-resource-loading-hooks"
-version: "2.0.0"
+version: "2.0.1"
 subfolder: "150-mods"
 dependencies:
 - "config:sc4-edition-windows-digital"
@@ -8,7 +8,7 @@ assets:
 - assetId: "null-45-sc4-resource-loading-hooks"
   withChecksum:
   - include: "/SC4ResourceLoadingHooks.dll"
-    sha256: 4857DFDE8525C6EE37138ADEFC3F88AE3C12AAA90AA610A473CBB262D4038C45
+    sha256: C1CCA74BB77A2E58D4BA0B76206C48845CDF2C4E3E351727D6E46D341EA3A01F
 
 info:
   summary: "DLL that modifies resources as the game loads them"
@@ -20,7 +20,7 @@ info:
 
 ---
 assetId: "null-45-sc4-resource-loading-hooks"
-version: "2.0.0"
-lastModified: "2025-09-08T23:23:43Z"
+version: "2.0.1"
+lastModified: "2025-09-10T01:36:07Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/?do=download"
-url: "https://github.com/0xC0000054/sc4-resource-loading-hooks/releases/download/v2.0/SC4ResourceLoadingHooks.zip"
+url: "https://github.com/0xC0000054/sc4-resource-loading-hooks/releases/download/v2.0.1/SC4ResourceLoadingHooks.zip"
