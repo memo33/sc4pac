@@ -1,12 +1,12 @@
 assetId: "bsc-parks-prop-collection"
-version: "2.0"
-lastModified: "2025-04-21T04:03:52-07:00"
+version: "3.0.0"
+lastModified: "2025-09-15T16:34:09-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=283:sc4d-lex-legacy-bsc-parks-collection"
 
 ---
 group: "bsc"
 name: "mega-props-bsc-parks"
-version: "2.0"
+version: "3.0.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-parks-prop-collection"
@@ -27,7 +27,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-dedwd-bsc-raised-parks"
-version: "2.0"
+version: "3.0.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-parks-prop-collection"
@@ -48,7 +48,7 @@ info:
 ---
 group: "bsc"
 name: "dae-road-texture-pack"
-version: "2.0"
+version: "3.0.0"
 subfolder: "100-props-textures"
 variants:
   - variant: { roadstyle: US }
@@ -75,7 +75,7 @@ info:
 ---
 group: "bsc"
 name: "bsc-parks-texture-pack"
-version: "2.0"
+version: "3.0.0"
 subfolder: "100-props-textures"
 variants:
   - variant: { bsc:bsck-parks:texture: default }
