@@ -6,7 +6,7 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=277:
 ---
 group: "bsc"
 name: "mega-props-canals-simgoober-brick-style"
-version: "2.0"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
@@ -27,7 +27,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-canals-cal-remastered-simgoober-style"
-version: "2.0"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
@@ -48,7 +48,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-canals-cal-stone-style"
-version: "2.0"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
@@ -69,7 +69,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-newmaninc-rivers-and-ponds"
-version: "2.0"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
@@ -90,7 +90,7 @@ info:
 ---
 group: "bsc"
 name: "zero7-sunken-canal-props"
-version: "2.0"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
@@ -111,12 +111,12 @@ info:
 ---
 group: "bsc"
 name: "sg-irrigation-canals-props"
-version: "2.0"
+version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
   include:
-  - "/BSC BATProps SG Irrigation Canals v2.dat"
+  - "/BSC BATProps SG Irrigation Canals v..dat"
   - "/BSC_Canals_Submenu.dat"
 info:
   summary: "SG Irrigation Canals props"
@@ -132,7 +132,7 @@ info:
 ---
 group: "bsc"
 name: "sg-ditches-2009-props"
-version: "2.0"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
@@ -153,7 +153,7 @@ info:
 ---
 group: "bsc"
 name: "sg-urban-canal-props"
-version: "2.0"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
