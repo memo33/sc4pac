@@ -103,7 +103,7 @@ variants:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_GreyRock.dat"
-  - variant: { bsc:bsc-parks-texture-pack:texture: red-brick-smal }
+  - variant: { bsc:bsc-parks-texture-pack:texture: brown-brick-large }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
@@ -113,16 +113,16 @@ variants:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_SandPavers.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: red-brick-small }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_RedBrickSmal.dat"
   - variant: { bsc:bsc-parks-texture-pack:texture: retrowave }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_0_Retrowave.dat"
-  - variant: { bsc:bsc-parks-texture-pack:texture: brown-brick-large }
-    assets:
-    - assetId: "bsc-parks-prop-collection"
-      include:
-      - "/BSC_Park_Textures_RedBrickSmal.dat"
   - variant: { bsc:bsc-parks-texture-pack:texture: limestone }
     assets:
     - assetId: "bsc-parks-prop-collection"
