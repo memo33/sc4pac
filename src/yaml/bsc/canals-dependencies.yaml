@@ -1,0 +1,172 @@
+assetId: "bsc-canals-prop-collection"
+version: "2.0"
+lastModified: "2024-08-20T02:52:39-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=277:sc4d-lex-legacy-bsc-canals-collection"
+
+---
+group: "bsc"
+name: "mega-props-canals-simgoober-brick-style"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-canals-prop-collection"
+  include:
+  - "/BSC MEGA Props - Canals SimGoober Brick Style.dat"
+  - "/BSC_Canals_Submenu.dat"
+info:
+  summary: "Canals SimGoober Brick Style props"
+  description:
+    Prop Pack for Canals SimGoober Brick Style
+  author: "SimGoober"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+---
+group: "bsc"
+name: "mega-props-canals-cal-remastered-simgoober-style"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-canals-prop-collection"
+  include:
+  - "/BSC MEGA Props - Canals SimGoober Brick Style.dat"
+  - "/BSC_Canals_Submenu.dat"
+info:
+  summary: "Canals CAL Remastered SimGoober Style props"
+  description:
+    Prop Pack for Canals CAL Remastered SimGoober Style
+  author: "Callagrafx"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+---
+group: "bsc"
+name: "mega-props-canals-cal-stone-style"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-canals-prop-collection"
+  include:
+  - "/BSC MEGA Props - Canals CAL Stone Canals.dat"
+  - "/BSC_Canals_Submenu.dat"
+info:
+  summary: "Canals CAL Stone Canals props"
+  description:
+    Prop Pack for Canals CAL Remastered SimGoober Style
+  author: "Callagrafx"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+---
+group: "bsc"
+name: "mega-props-newmaninc-rivers-and-ponds"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-canals-prop-collection"
+  include:
+  - "/BSC MEGA Props - Canals Newman Inc Rivers and Ponds.dat"
+  - "/BSC_Canals_Submenu.dat"
+info:
+  summary: "Newman Inc Rivers and Ponds props (RPK)"
+  description:
+    This package supersedes the older BSCBATPRops NewmanInc RPK Vol01.
+  author: "Citynut"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+---
+group: "bsc"
+name: "zero7-sunken-canal-props"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-canals-prop-collection"
+  include:
+  - "/Zero7_SunkenCanalProps.dat"
+  - "/BSC_Canals_Submenu.dat"
+info:
+  summary: "Zero7 Sunken Canal props"
+  description:
+    Prop Pack for Zero7 Sunken Canal
+  author: "SimGoober"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+---
+group: "bsc"
+name: "sg-irrigation-canals-props"
+version: "2"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-canals-prop-collection"
+  include:
+  - "/BSC BATProps SG Irrigation Canals v..dat"
+  - "/BSC_Canals_Submenu.dat"
+info:
+  summary: "SG Irrigation Canals props"
+  description:
+    Prop Pack for SG Irrigation Canals
+  author: "SimGoober"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+---
+group: "bsc"
+name: "sg-ditches-2009-props"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-canals-prop-collection"
+  include:
+  - "/BSC BATProps SG Ditches 2009.dat"
+  - "/BSC_Canals_Submenu.dat"
+info:
+  summary: "SG Ditches 2009 props"
+  description:
+    Prop Pack for SG Ditches 2009
+  author: "SimGoober"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
+---
+group: "bsc"
+name: "sg-urban-canal-props"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-canals-prop-collection"
+  include:
+  - "/BSC BATProps SG Urban Canal.dat"
+  - "/BSC_Canals_Submenu.dat"
+info:
+  summary: "SG Urban Canal props"
+  description:
+    Prop Pack for SG Urban Canal
+  author: "SimGoober"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg

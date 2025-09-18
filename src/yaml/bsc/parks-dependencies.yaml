@@ -1,0 +1,183 @@
+assetId: "bsc-parks-prop-collection"
+version: "3.0.0"
+lastModified: "2025-09-15T16:34:09-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=283:sc4d-lex-legacy-bsc-parks-collection"
+
+---
+group: "bsc"
+name: "mega-props-bsc-parks"
+version: "3.0.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-parks-prop-collection"
+  include:
+  - "/BSC BATProps BSC Parks.dat"
+  - "/BSC_Parks_Submenu.dat"
+info:
+  summary: "BSC Parks props"
+  description:
+    Prop Pack for BSC Parks
+  author: "SimGoober"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/2x2parks1_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/wfk_red.jpg
+
+---
+group: "bsc"
+name: "mega-props-dedwd-bsc-raised-parks"
+version: "3.0.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-parks-prop-collection"
+  include:
+  - "/BSC BATProps DEDWD BSC Raised Parks.dat"
+  - "/BSC_Parks_Submenu.dat"
+info:
+  summary: "DEDWD BSC Raised Parks props"
+  description:
+    Prop Pack for DEDWD BSC Raised Parks
+  author: "deadwoods"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/2x2parks1_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/wfk_red.jpg
+
+---
+group: "bsc"
+name: "dae-road-texture-pack"
+version: "3.0.0"
+subfolder: "100-props-textures"
+variants:
+  - variant: { roadstyle: US }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_DAE_RoadMaxis_textures.dat"
+  - variant: { roadstyle: EU }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_DAE_RoadEuro_textures.dat"
+info:
+  summary: "DAE Road Textures"
+  description:
+    Texture Pack for DAE Road Textures
+  author: "deadwoods"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/2x2parks1_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/wfk_red.jpg
+
+---
+group: "bsc"
+name: "bsc-parks-texture-pack"
+version: "3.0.0"
+subfolder: "100-props-textures"
+variants:
+  - variant: { bsc:bsc-parks-texture-pack:texture: default }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_zDefault.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: angled-brick }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_AngledBrick.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: brown-dirt }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_BrownDirt.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: grey-pavers }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_GreyPavers.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: grey-rock }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_GreyRock.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: brown-brick-large }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_BrownBrickLarge.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: sand-pavers }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_SandPavers.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: red-brick-small }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_RedBrickSmal.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: retrowave }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_Add_0_Retrowave.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: limestone }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_Add_1_Limestone.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: brown-sandstone }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_Add_2_BrownSandstone.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: cinder-brick }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_Add_3_CinderBrick.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: star-mosaic }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_Add_4_StarMosaic.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: red-mosaic }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_Add_5_RedMosaic.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: golden-mosaic }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_Add_6_GoldenMosaic.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: blue-slate }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_Add_7_BlueSlate.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: green-slate }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_Add_8_GreenSlate.dat"
+  - variant: { bsc:bsc-parks-texture-pack:texture: brown-slate }
+    assets:
+    - assetId: "bsc-parks-prop-collection"
+      include:
+      - "/BSC_Park_Textures_Add_9_BrownSlate.dat"
+variantInfo:
+- variantId: bsc:bsc-parks-texture-pack:texture
+  description: Choose a texture style for the BSC parks.
+info:
+  summary: "BSC Parks Textures"
+  description:
+    Texture Pack for BSC Parks
+  author: "BSC Team"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/2x2parks1_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/wfk_red.jpg
