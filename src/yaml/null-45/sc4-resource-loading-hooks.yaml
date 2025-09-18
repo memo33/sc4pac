@@ -14,7 +14,8 @@ info:
   summary: "DLL that modifies resources as the game loads them"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    This DLL plugin is a dependency for other DLLs.
+    This DLL implements the [Exemplar Patching](https://github.com/0xC0000054/sc4-resource-loading-hooks?tab=readme-ov-file#exemplar-patching) functionality.
+    As such, the DLL is a dependency for plugins that make use of this feature.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/"
 
