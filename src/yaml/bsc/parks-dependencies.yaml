@@ -38,7 +38,7 @@ info:
   summary: "DEDWD BSC Raised Parks props"
   description:
     Prop Pack for DEDWD BSC Raised Parks
-  author: "Deadwoods"
+  author: "deadwoods"
   website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection"
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
@@ -65,7 +65,7 @@ info:
   summary: "DAE Road Textures"
   description:
     Texture Pack for DAE Road Textures
-  author: "Deadwoods"
+  author: "deadwoods"
   website: "https://www.sc4evermore.com/index.php/downloads/download/14-park/283-sc4d-lex-legacy-bsc-parks-collection"
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_Parksv2_BaseSet-stexpic1.jpg
@@ -78,96 +78,99 @@ name: "bsc-parks-texture-pack"
 version: "3.0.0"
 subfolder: "100-props-textures"
 variants:
-  - variant: { bsc:bsck-parks:texture: default }
+  - variant: { bsc:bsc-parks-texture-pack:texture: default }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_zDefault.dat"
-  - variant: { bsc:bsck-parks:texture: angled-brick }
+  - variant: { bsc:bsc-parks-texture-pack:texture: angled-brick }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_AngledBrick.dat"
-  - variant: { bsc:bsck-parks:texture: brown-dirt }
+  - variant: { bsc:bsc-parks-texture-pack:texture: brown-dirt }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_BrownDirt.dat"
-  - variant: { bsc:bsck-parks:texture: grey-pavers }
+  - variant: { bsc:bsc-parks-texture-pack:texture: grey-pavers }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_GreyPavers.dat"
-  - variant: { bsc:bsck-parks:texture: grey-rock }
+  - variant: { bsc:bsc-parks-texture-pack:texture: grey-rock }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_GreyRock.dat"
-  - variant: { bsc:bsck-parks:texture: red-brick-smal }
+  - variant: { bsc:bsc-parks-texture-pack:texture: red-brick-smal }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_BrownBrickLarge.dat"
-  - variant: { bsc:bsck-parks:texture: sand-pavers }
+  - variant: { bsc:bsc-parks-texture-pack:texture: sand-pavers }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_SandPavers.dat"
-  - variant: { bsc:bsck-parks:texture: retrowave }
+  - variant: { bsc:bsc-parks-texture-pack:texture: retrowave }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_0_Retrowave.dat"
-  - variant: { bsc:bsck-parks:texture: brown-brick-large }
+  - variant: { bsc:bsc-parks-texture-pack:texture: brown-brick-large }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_RedBrickSmal.dat"
-  - variant: { bsc:bsck-parks:texture: limestone }
+  - variant: { bsc:bsc-parks-texture-pack:texture: limestone }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_1_Limestone.dat"
-  - variant: { bsc:bsck-parks:texture: brown-sandstone }
+  - variant: { bsc:bsc-parks-texture-pack:texture: brown-sandstone }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_2_BrownSandstone.dat"
-  - variant: { bsc:bsck-parks:texture: cinder-brick }
+  - variant: { bsc:bsc-parks-texture-pack:texture: cinder-brick }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_3_CinderBrick.dat"
-  - variant: { bsc:bsck-parks:texture: star-mosaic }
+  - variant: { bsc:bsc-parks-texture-pack:texture: star-mosaic }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_4_StarMosaic.dat"
-  - variant: { bsc:bsck-parks:texture: red-mosaic }
+  - variant: { bsc:bsc-parks-texture-pack:texture: red-mosaic }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_5_RedMosaic.dat"
-  - variant: { bsc:bsck-parks:texture: golden-mosaic }
+  - variant: { bsc:bsc-parks-texture-pack:texture: golden-mosaic }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_6_GoldenMosaic.dat"
-  - variant: { bsc:bsck-parks:texture: blue-slate }
+  - variant: { bsc:bsc-parks-texture-pack:texture: blue-slate }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_7_BlueSlate.dat"
-  - variant: { bsc:bsck-parks:texture: green-slate }
+  - variant: { bsc:bsc-parks-texture-pack:texture: green-slate }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_8_GreenSlate.dat"
-  - variant: { bsc:bsck-parks:texture: brown-slate }
+  - variant: { bsc:bsc-parks-texture-pack:texture: brown-slate }
     assets:
     - assetId: "bsc-parks-prop-collection"
       include:
       - "/BSC_Park_Textures_Add_9_BrownSlate.dat"
+variantInfo:
+- variantId: bsc:bsc-parks-texture-pack:texture
+  description: Choose a texture style for the BSC parks.
 info:
   summary: "BSC Parks Textures"
   description:
