@@ -1,11 +1,11 @@
 group: "memo"
 name: "i-r-fix"
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: "150-mods"
 assets:
 - assetId: "memo-i-r-fix"
 dependencies:
-- "memo:submenus-dll"
+- "null-45:sc4-resource-loading-hooks"  # for exemplar patching
 
 info:
   summary: "Include Farm jobs in the Regional Counts"
