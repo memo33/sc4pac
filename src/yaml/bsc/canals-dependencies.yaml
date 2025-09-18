@@ -31,7 +31,7 @@ version: "2.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
-  include: 
+  include:
   - "/BSC MEGA Props - Canals SimGoober Brick Style.dat"
   - "/BSC_Canals_Submenu.dat"
 info:
@@ -52,7 +52,7 @@ version: "2.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
-  include: 
+  include:
   - "/BSC MEGA Props - Canals CAL Stone Canals.dat"
   - "/BSC_Canals_Submenu.dat"
 info:
@@ -64,8 +64,8 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg    
-    
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
 ---
 group: "bsc"
 name: "mega-props-newmaninc-rivers-and-ponds"
@@ -86,7 +86,7 @@ info:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
-    
+
 ---
 group: "bsc"
 name: "zero7-sunken-canal-props"
@@ -94,7 +94,7 @@ version: "2.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
-  include: 
+  include:
   - "/Zero7_SunkenCanalProps.dat"
   - "/BSC_Canals_Submenu.dat"
 info:
@@ -106,7 +106,7 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg    
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
 
 ---
 group: "bsc"
@@ -115,7 +115,7 @@ version: "2.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
-  include: 
+  include:
   - "/BSC BATProps SG Irrigation Canals v2.dat"
   - "/BSC_Canals_Submenu.dat"
 info:
@@ -127,8 +127,8 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg    
-    
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
+
 ---
 group: "bsc"
 name: "sg-ditches-2009-props"
@@ -136,7 +136,7 @@ version: "2.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
-  include: 
+  include:
   - "/BSC BATProps SG Ditches 2009.dat"
   - "/BSC_Canals_Submenu.dat"
 info:
@@ -148,7 +148,7 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg    
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
 
 ---
 group: "bsc"
@@ -157,7 +157,7 @@ version: "2.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
-  include: 
+  include:
   - "/BSC BATProps SG Urban Canal.dat"
   - "/BSC_Canals_Submenu.dat"
 info:
@@ -169,4 +169,4 @@ info:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/header.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/SG_CanalSet01.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg    
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ACS_re1.jpg
