@@ -7,7 +7,7 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:
 ---
 group: "cam"
 name: "colossus-addon-mod-core"
-version: "3.4.1"
+version: "3.4.1-1"
 subfolder: "050-load-first"
 dependencies:
 - "null-45:custom-budget-departments-dll"
@@ -15,7 +15,7 @@ dependencies:
 - "null-45:lua-extensions-dll"
 - "null-45:advanced-water-management-dll"
 - "null-45:legalize-gambling-ordinance-upgrade-dll"
-- "memo:submenus-dll"
+- "null-45:sc4-resource-loading-hooks"  # for exemplar patching
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "scoty:zoning-mod-maxis"
 - "cyclone-boom:save-warning"
