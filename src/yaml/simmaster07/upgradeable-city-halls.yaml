@@ -1,0 +1,32 @@
+group: simmaster07
+name: upgradeable-city-halls-dll
+version: "1.1.0-1"
+subfolder: 150-mods
+dependencies:
+- "config:sc4-edition"
+conflicting:
+- "config:sc4-edition-macos"
+assets:
+- assetId: simmaster07-real-upgradeable-city-halls
+  withChecksum:
+  - include: "/UpgradeableCityHalls.dll"
+    sha256: 3cf5d9911b6c2201eeb8f6b2a1e60773d985a2bf2473fb54b0db9aeba33a6771
+
+info:
+  summary: DLL plugin that makes the City Hall rewards upgradeable in place
+  conflicts: Incompatible with the macOS version of the game. Compatible with `pkg=mz:city-hall-fixes`.
+  description: |-
+    Instead of implementing the three City Hall stages as separate reward lots, this mod implements Maxis' originally intended behavior of actually replacing the City Hall lot as new stages are unlocked.
+    It also prompts the user with advisor messages asking if they want to upgrade the reward, just like the airport upgrade behavior.
+  author: simmaster07/nsgomez
+  website: https://community.simtropolis.com/files/file/31339-real-upgradeable-city-halls/
+  images:
+  - https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall2.png.4e8c754a248bf1b52b5dc684a0c59b5a.png
+  - https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall3.png.8b8fd43297237fa33ead9f816a88e66d.png
+  - https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall1.png.e28e6d30e2b13e4b1fc3a59f640c3007.png
+
+---
+assetId: simmaster07-real-upgradeable-city-halls
+version: "1.1.0"
+lastModified: "2017-12-27T03:47:02Z"
+url: https://community.simtropolis.com/files/file/31339-real-upgradeable-city-halls/?do=download&r=169470

@@ -1,0 +1,44 @@
+group: "null-45"
+name: "legalize-gambling-ordinance-upgrade-dll"
+version: "1.0.0-1"
+subfolder: "150-mods"
+dependencies:
+- "config:sc4-edition-windows-digital"
+assets:
+- assetId: "null-45-legalize-gambling-ordinance-upgrade"
+  withChecksum:
+  - include: "/SC4LegalizeGamblingUpgrade.dll"
+    sha256: F8C027294D234C0BB8F93D3D234CD5980081ECFD2208DFA42AB9A29EC36AD6FE
+  - include: "/SC4LegalizeGamblingUpgrade.ini"
+    sha256: 0955B4C8A79A9C20C1D463105CB9E5AFA462E7F931E8C28B7F2AA19E5B6737B0
+
+info:
+  summary: "A DLL Plugin that alters the Legalize Gambling ordinance so that its income scales with the city's residential population"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    - Availability Requirements: None.
+    - Income: Base income of §250/month, plus additional income based on the residential wealth group populations.
+    - Effects: Crime Effect +20%.
+
+    This ordinance replaces the game's built-in Legalize Gambling ordinance.
+    It is incompatible with any mod that alters the built-in ordinance.
+    This mod ignores the ordinance Exemplar and only uses the LTEXT files from the built-in ordinance.
+
+    See the documentation on how to configure the plugin.
+  warning: |-
+    This DLL plugin comes with an INI configuration file:
+
+    * `SC4LegalizeGamblingUpgrade.ini`
+
+    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
+  author: "Null 45"
+  website: "https://community.simtropolis.com/files/file/35889-legalize-gambling-ordinance-upgrade/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/STEXIcon.png.b5ae659ed8fdf7fe87e55242dc781d48.png
+
+---
+assetId: "null-45-legalize-gambling-ordinance-upgrade"
+version: "1.0.0"
+lastModified: "2023-12-25T03:10:47Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/35889-legalize-gambling-ordinance-upgrade/?do=download"
+url: "https://github.com/0xC0000054/sc4-legalize-gambling-ordinance-upgrade/releases/download/v1.0.0/SC4LegalizeGamblingUpgrade.zip"

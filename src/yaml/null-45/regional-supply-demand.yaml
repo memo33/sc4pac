@@ -1,7 +1,9 @@
 group: "null-45"
 name: "regional-supply-demand-dll"
-version: "1.0"
+version: "1.0-1"
 subfolder: "150-mods"
+dependencies:
+- "config:sc4-edition-windows-digital"
 assets:
 - assetId: "null-45-regional-supply-demand"
   include:

@@ -1,57 +1,98 @@
-assetId: "cam-colossus-addon-mod"  # invisichem mac version
-version: "2.1.0a"
-lastModified: "2025-05-16T02:08:15Z"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=52:colossus-addon-mod-version-2-1-0a-mac-by-invisichem"
+assetId: "cam-colossus-addon-mod"
+version: "3.0.0"
+lastModified: "2025-08-13T18:44:13-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:colossus-addon-mod"
 
 ---
 group: "cam"
 name: "colossus-addon-mod"
-version: "2.1.0a-4"
+version: "3.0.0"
 subfolder: "050-load-first"
 
 variants:
 - variant: { CAM: "no" }
-- variant: { CAM: "yes" }
+- variant: { CAM: "yes", cam:colossus-addon-mod:version: "current" }
   dependencies:
-  - "memo:i-r-fix"
+  - "cam:colossus-addon-mod-core"
+  - "cam:ordinances"
   - "heinbloed4711:hi-tech-missing-high-wealth-jobs"
   assets:
   - assetId: "cam-colossus-addon-mod"
-    include:
-    - "/CAM_2.1.0_Main_Controller.dat"
-    - "/CAM_2.1.0_PlayStyle_Extended.dat"
-    - "/CAM_2.1.0_Buildings.dat"
   conflicting:
   - "peg:spam"
+  - "invisichem:colossus-addon-mod-legacy"
+- variant: { CAM: "yes", cam:colossus-addon-mod:version: "legacy" }
+  dependencies:
+  - "invisichem:colossus-addon-mod-legacy"
 
-variantDescriptions:
-  CAM:
-    "no": "Choose this if you do not want to install the Colossus Addon Mod (CAM)."
-    "yes": "Choose this to install the Colossus Addon Mod (CAM)."
+variantInfo:
+- variantId: "CAM"
+  values:
+  - value: "no"
+    description: Choose this if you do not want to install the Colossus Addon Mod (CAM).
+  - value: "yes"
+    description: Choose this to install the current version of the Colossus Addon Mod (CAM) or its legacy version.
+- variantId: "cam:colossus-addon-mod:version"
+  values:
+  - value: "current"
+    description: Install the current version of CAM, version 3.0 or later.
+    default: true
+  - value: "legacy"
+    description: |-
+      Install the Legacy version 2.1 of CAM: `pkg=invisichem:colossus-addon-mod-legacy`.
+
+      This option is for compatibility support of already developed regions and for those who cannot upgrade to the current version of CAM.
+      If you are starting a new region and meet all the requirements, pick the `current` version instead.
 
 info:
   summary: Colossus Addon Mod
   warning: |-
-    It is crucial to start a new region when installing CAM, as the mod drastically changes the simulation parameters.
+    It is crucial to start a new region when first installing CAM, as the mod drastically changes the simulation parameters.
 
   conflicts: |-
     Only compatible with game version 1.1.641, the Windows digital edition.
     See the CAM manual for a list of mod incompatibilities.
 
-  description: |
-    The Colossus Addon Mod (CAM) is a big mod that drastically changes the way cities and regions develop.
+  description: |-
+    # Colossus Addon Mod – CAM Controller
+
+    The _Colossus Addon Mod (CAM)_ makes substantial changes to the way cities and regions develop.
     Most importantly, it adds new Growth Stages 9 to 15, beyond the game's default Stages 1 through 8.
     This leads to extended and more realistic gameplay, especially for the later phases of the game.
+    Additionally, it includes several essential bugfixes developed by the community.
 
     To make the most of CAM, you will need to install a variety of CAM-patible buildings for the higher Growth Stages.
 
-    This package installs the default "Extended" playstyle variant.
+    ## Overview
 
-    This package depends on the I-R fix.
-    (This fix is now implemented using a DLL, so it is not necessary to modify any original game files.
-    For game versions not supported by the DLL, you can install CAM with the I-R fix manually instead.)
+    This version of the _CAM Controller_ introduces improvements to the educational simulation system and utility system, as well as changes to the Growth Stages, giving you:
 
-    Please consult the extensive CAM documentation for further information.
+    * 15 Residential Stages (8 Maxis Stages + 7 CAM Stages)
+    * 15 Commercial Stages (8 Maxis Stages + 7 CAM Stages)
+    * 10 Agricultural Stages (3 Maxis Stages + 7 CAM Stages)
+    * 10 Industrial Stages (3 Maxis Stages + 7 CAM Stages)
 
-  author: "RippleJet, BarbyW, InvisiChem, CorinaMarie, Ulisse Wolf and many others"
-  website: "https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/52-colossus-addon-mod-version-2-1-0a-mac-by-invisichem"
+    The changes implemented in the RCI simulation will give players greater emphasis on planning in regional development, rather than just on individual cities.
+
+    In addition, this controller is compatible with **CAMeLot** lots, which use the additional stages introduced by CAM.
+
+    ## MIGRATION
+
+    Migration to CAM 3.0 and later versions **can** be done if you meet these requirements:
+
+    * ✅ Players coming from CAM 2.5 can upgrade to this version of CAM.
+    * ✅ Players coming from CAM 2.1 (Legacy Version) can upgrade this version of CAM if they used the _Extended Playstyle_ option.
+    * ✅ Players from Vanilla must create a new region before switching to this version of CAM.
+
+    Migration to CAM 3.0 and later versions **cannot** be done if you meet these conditions:
+
+    * ❌ Players from SPAM (Legacy Version) cannot switch to this version of CAM.
+    * ❌ Players from Vanilla cannot switch to this version of CAM if using it in an already developed region.
+    * ❌ Players coming from CAM 3.0 with the _CAM-SPAM Controller_ cannot switch to this variant of CAM, and vice-versa.
+
+  author: "CAM Team"
+  websites:
+   - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/51-colossus-addon-mod-cam-controller"
+   - "https://community.simtropolis.com/files/file/30956-colossus-addon-mod-cam-controller/"
+  images:
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/CAM%20Logo.png

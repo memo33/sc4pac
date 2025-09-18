@@ -1,14 +1,16 @@
 group: "null-45"
 name: "query-tool-ui-extensions-dll"
-version: "2.4"
+version: "2.5.0-1"
 subfolder: "150-mods"
+dependencies:
+- "config:sc4-edition-windows-digital"
 assets:
 - assetId: "null-45-query-tool-ui-extensions"
   withChecksum:
   - include: "/SC4QueryUIHooks.dll"
-    sha256: 6b213639b7c69dc67ecea4caf5f3a6099907741e1191cadd7dac170ef1f3dab6
+    sha256: CEA0AF3434DBBD8E18E1F5270E80E91FF87EF45BFADA6E3BE9C9E188126A45E1
   - include: "/SC4QueryUIHooks.ini"
-    sha256: 25c2065ea205b46c3d1b487c5907e2f9eb44c1caad8aec89cd43ea4dd0a834d3
+    sha256: 25C2065EA205B46C3D1B487C5907E2F9EB44C1CAAD8AEC89CD43EA4DD0A834D3
 
 info:
   summary: "A DLL plugin that adds various enhancements to the building query tool and query dialog"
@@ -56,7 +58,7 @@ info:
 
 ---
 assetId: "null-45-query-tool-ui-extensions"
-version: "2.4"
-lastModified: "2025-03-22T04:05:50Z"
+version: "2.5.0"
+lastModified: "2025-08-24T10:40:59Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/?do=download"
-url: "https://github.com/0xC0000054/sc4-query-ui-hooks/releases/download/v2.4.0/SC4QueryUIHooks.zip"
+url: "https://github.com/0xC0000054/sc4-query-ui-hooks/releases/download/v2.5.0/SC4QueryUIHooks.zip"

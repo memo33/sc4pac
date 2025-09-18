@@ -1,23 +1,22 @@
 group: "memo"
 name: "submenus-dll"
-version: "1.1.5"
+version: "2.0.0"
 subfolder: "150-mods"
 dependencies:
 - "null-45:sc4-resource-loading-hooks"
+- "config:sc4-edition-windows-digital"
 assets:
 - assetId: "memo-submenus-dll"
   withChecksum:
   - include: "/memo.submenus.dll"
-    sha256: db6f4a7c68242821cf39adbcc7f243e81b01336c3d1aa8b78afd44d9f25a3681
+    sha256: ee6e57c203ca7b8ec964b6870ec196b1f0122c45d4950e266db00aa4c632c9f3
 
 info:
   summary: "Adds more submenus to the game"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
     This DLL plugin adds a number of submenus such as Plazas, Green Spaces, Sports and more.
-    It is also a dependency for other submenu-compatible plugins which add items to these menus or add entirely new submenus.
-
-    Additionally, the DLL implements the Exemplar Patching functionality and fixes the game's duplicate menu icons bug.
+    It is also an (optional) dependency for other submenu-compatible plugins which add items to these menus or add entirely new submenus.
   author: "memo, Panda"
   website: "https://community.simtropolis.com/files/file/36142-submenus-dll/"
   images:
@@ -27,7 +26,7 @@ info:
 
 ---
 assetId: "memo-submenus-dll"
-version: "1.1.5"
-lastModified: "2025-07-16T18:28:39Z"
+version: "2.0.0"
+lastModified: "2025-09-18T08:10:59Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36142-submenus-dll/?do=download"
-url: "https://github.com/memo33/submenus-dll/releases/download/1.1.5/submenus-dll-1.1.5.zip"
+url: "https://github.com/memo33/submenus-dll/releases/download/2.0.0/submenus-dll-2.0.0.zip"

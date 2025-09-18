@@ -1,0 +1,31 @@
+group: "cam"
+name: "ordinances"
+version: "3.3.0-1"
+subfolder: "140-ordinances"
+dependencies:
+- "null-45:custom-ordinance-exemplar-host-dll"
+- "null-45:sc4-resource-loading-hooks"  # for exemplar patching
+assets:
+  - assetId: "cam-colossus-addon-mod-ordinances"
+    exclude:
+      - "/CAM_Maxis_Ordinance_Overhaul_Mod.dat"  # contains duplicate files that are not needed
+info:
+  summary: "Colossus Addon Mod Ordinances – alters the original SimCity 4 ordinances and adds new ones"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |-
+    **Colossus Addon Mod - Ordinances** is a dependency for CAM, but is suitable for players without CAM as well, including those using SPAM or the Vanilla game.
+
+    This mod alters the Maxis ordinances by introducing new effects and revising existing ones, giving ordinances a more influential role in the growth of the city.
+
+    It also introduces new ordinances that will allow you to modify development based on the ordinances you select. Some may promote urban development, but others will earn you money at the expense of influence.
+
+  author: "CAM Team"
+  websites:
+  - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/386-colossus-addon-mod-ordinances"
+  - "https://community.simtropolis.com/files/file/36878-colossus-addon-mod-ordinances/"
+
+---
+assetId: "cam-colossus-addon-mod-ordinances"
+version: "3.3.0"
+lastModified: "2025-09-04T10:19:10-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=386:colossus-addon-mod-ordinances"

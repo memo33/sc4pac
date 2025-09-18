@@ -377,6 +377,9 @@ Putting together all the pieces, a complete YAML file might look as follows.
 A YAML file can contain any number of assets and packages, as long as each asset or package definition is separated by `---` from the previous one.
 The location of the YAML files does not matter, so they can be organized in a directory structure.
 
+?> Alternatively, instead of separating multiple packages and assets by `---`, all definitions can be placed in arrays `packages` and optionally `assets`.
+   This has the benefit of allowing the use of YAML *anchors*, *aliases* and *overrides* across packages in the same file to [reduce repetition](https://github.com/memo33/sc4pac-tools/pull/35).
+
 ## Options
 
 ?> In an installer, options would correspond to check boxes.
@@ -483,6 +486,54 @@ For complete examples, inspect the metadata of:
      conflicts: Only a DarkNite model exists for this building, so the same model is installed with either nightmode setting.
    ```
 
+### `withConditions`
+
+This is an alternative format for specifying multiple variants.
+It is often much less verbose in case of complex packages that have many different variant IDs.
+
+```yaml
+assets:
+- assetId: "dumbledore-hogwarts-castle"
+  include:
+  - "/Lots/"
+  withConditions:
+  - ifVariant: { nightmode: "standard" }
+    include:
+    - "/MN models/"
+  - ifVariant: { nightmode: "dark" }
+    include:
+    - "/DN models/"
+  - ifVariant: { roadstyle: "US" }
+    include:
+    - "/US textures/"
+  - ifVariant: { roadstyle: "EU" }
+    include:
+    - "/EU textures/"
+  - ifVariant: { driveside: "right" }
+    include: []  # no extra path files for driveside=right
+  - ifVariant: { driveside: "left" }
+    include:
+    - "/z_LHD_paths.dat"
+```
+
+Instead of listing all combinations of variants explicitly, the variants are constructed implicitly from the listed `ifVariant` conditions.
+This can be more versatile and succinct for packages with many variants, avoiding combinatorial explosion.
+
+For now, this assumes that the variant IDs are all orthogonal to each other, so the user will be prompted to select all of them before installing the package.
+The `include` and `exclude` lists for all matching conditions are accumulated.
+
+For example, if a user picks the variants `nightmode: standard`, `roadstyle: EU` and `driveside: left`,
+the following files and folders will be extracted from the asset:
+```
+/Lots/
+/MN models/
+/EU textures/
+/z_LHD_paths.dat
+```
+
+One caveat is that one needs to be careful with the `include`/`exclude` patterns to ensure they match for all combinations of variants.
+Otherwise, it can easily happen that a pattern does not match, leading to a warning upon installation.
+
 ### `variantInfo`
 
 You may add descriptions that explain the different variant choices and help in choosing the right one:
@@ -521,6 +572,10 @@ To ensure that your package metadata works as intended, you should test your cha
 - If you created a new YAML file locally on your computer, add its path as a new channel:
   ```sh
   sc4pac channel add "file:///C:/Users/Dumbledore/Desktop/hogwarts-castle.yaml"
+  ```
+- You may also test a YAML file in the sc4pac GUI by adding its path as a new channel in the channel definition list:
+  ```sh
+  file:///C:/Users/Dumbledore/Desktop/hogwarts-castle.yaml
   ```
 - If you created a YAML file directly on GitHub, click the *Raw* button on GitHub to get the direct link to the YAML file and add it as channel:
   ```sh

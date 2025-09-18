@@ -1,24 +1,27 @@
 group: "null-45"
 name: "sc4-resource-loading-hooks"
-version: "1.0.1"
+version: "2.0.1"
 subfolder: "150-mods"
+dependencies:
+- "config:sc4-edition-windows-digital"
 assets:
 - assetId: "null-45-sc4-resource-loading-hooks"
   withChecksum:
   - include: "/SC4ResourceLoadingHooks.dll"
-    sha256: 490b0c64f86837b153349367e45609a42ac135d6bc23f46d6eab807ce233078d
+    sha256: C1CCA74BB77A2E58D4BA0B76206C48845CDF2C4E3E351727D6E46D341EA3A01F
 
 info:
   summary: "DLL that modifies resources as the game loads them"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |
-    This DLL plugin is a dependency for other DLLs.
+    This DLL implements the [Exemplar Patching](https://github.com/0xC0000054/sc4-resource-loading-hooks?tab=readme-ov-file#exemplar-patching) functionality.
+    As such, the DLL is a dependency for plugins that make use of this feature.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/"
 
 ---
 assetId: "null-45-sc4-resource-loading-hooks"
-version: "1.0.1"
-lastModified: "2024-06-26T13:34:16Z"
+version: "2.0.1"
+lastModified: "2025-09-10T01:36:07Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/?do=download"
-url: "https://github.com/0xC0000054/sc4-resource-loading-hooks/releases/download/v1.0.1/SC4ResourceLoadingHooks.zip"
+url: "https://github.com/0xC0000054/sc4-resource-loading-hooks/releases/download/v2.0.1/SC4ResourceLoadingHooks.zip"
