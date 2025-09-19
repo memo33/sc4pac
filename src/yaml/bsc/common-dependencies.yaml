@@ -860,85 +860,71 @@ info:
 ---
 group: "bsc"
 name: "mega-props-carch-vol02"
-version: "1-1"
+version: "2.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - CARCH Vol02.dat" ]
+dependencies: [ "bsc:mega-props-bsc-carch-vol02" ]
 info:
-  summary: "BSC MEGA Props CARCH Vol02 by Cerulean"
+  summary: "Superseded by `pkg=mega-props-bsc-carch-vol02`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "mega-props-carch-vol03"
-version: "1-1"
+version: "2.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - CARCH Vol03.dat" ]
+dependencies: [ "bsc:mega-props-bsc-carch-vol03" ]
 info:
-  summary: "BSC MEGA Props CARCH Vol03 by Cerulean"
+  summary: "Superseded by `pkg=mega-props-bsc-carch-vol03`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "mega-props-carch-vol04"
-version: "1-1"
+version: "2.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - CARCH Vol04.dat" ]
+dependencies: [ "bsc:mega-props-bsc-carch-vol04" ]
 info:
-  summary: "BSC MEGA Props CARCH Vol04 by Cerulean"
+  summary: "Superseded by `pkg=mega-props-bsc-carch-vol04`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "mega-props-carch-vol05"
-version: "1-1"
+version: "2.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - CARCH Vol05.dat" ]
+dependencies: [ "bsc:mega-props-bsc-carch-vol05" ]
 info:
-  summary: "BSC MEGA Props CARCH Vol05 by Cerulean"
+  summary: "Superseded by `pkg=mega-props-bsc-carch-vol05`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "mega-props-carch-vol06"
-version: "1-1"
+version: "2.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - CARCH Vol06.dat" ]
+dependencies: [ "bsc:mega-props-bsc-carch-vol06" ]
 info:
-  summary: "BSC MEGA Props CARCH Vol06 by Cerulean"
+  summary: "Superseded by `pkg=mega-props-bsc-carch-vol06`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "mega-props-carch-vol07"
-version: "1-1"
+version: "2.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - CARCH Vol07.dat" ]
+dependencies: [ "bsc:mega-props-bsc-carch-vol07 ]
 info:
-  summary: "BSC MEGA Props CARCH Vol07 by Cerulean"
+  summary: "Superseded by `pkg=mega-props-bsc-carch-vol07`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "mega-props-carch-vol08"
-version: "1-1"
+version: "2.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/BSC MEGA Props - CARCH Vol08.dat" ]
+dependencies: [ "bsc:mega-props-bsc-carch-vol08" ]
 info:
-  summary: "BSC MEGA Props CARCH Vol08 by Cerulean"
+  summary: "Superseded by `pkg=mega-props-bsc-carch-vol08`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
