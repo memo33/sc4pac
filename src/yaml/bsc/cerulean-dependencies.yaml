@@ -5,8 +5,8 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=421:
 
 ---
 group: "bsc"
-name: "mega-props-bsc-carch-vol02"
-version: "1.0.0"
+name: "mega-props-carch-vol02"
+version: "1-2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-cerulean-rci-and-cam-compilation-props"
@@ -25,8 +25,8 @@ info:
 
 ---
 group: "bsc"
-name: "mega-props-bsc-carch-vol03"
-version: "1.0.0"
+name: "mega-props-carch-vol03"
+version: "1-2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-cerulean-rci-and-cam-compilation-props"
@@ -45,8 +45,8 @@ info:
 
 ---
 group: "bsc"
-name: "mega-props-bsc-carch-vol04"
-version: "1.0.0"
+name: "mega-props-carch-vol04"
+version: "1-2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-cerulean-rci-and-cam-compilation-props"
@@ -65,8 +65,8 @@ info:
 
 ---
 group: "bsc"
-name: "mega-props-bsc-carch-vol05"
-version: "1.0.0"
+name: "mega-props-carch-vol05"
+version: "1-2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-cerulean-rci-and-cam-compilation-props"
@@ -85,8 +85,8 @@ info:
 
 ---
 group: "bsc"
-name: "mega-props-bsc-carch-vol06"
-version: "1.0.0"
+name: "mega-props-carch-vol06"
+version: "1-2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-cerulean-rci-and-cam-compilation-props"
@@ -105,8 +105,8 @@ info:
 
 ---
 group: "bsc"
-name: "mega-props-bsc-carch-vol07"
-version: "1.0.0"
+name: "mega-props-carch-vol07"
+version: "1-2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-cerulean-rci-and-cam-compilation-props"
@@ -125,8 +125,8 @@ info:
 
 ---
 group: "bsc"
-name: "mega-props-bsc-carch-vol08"
-version: "1.0.0"
+name: "mega-props-carch-vol08"
+version: "1-2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-cerulean-rci-and-cam-compilation-props"
