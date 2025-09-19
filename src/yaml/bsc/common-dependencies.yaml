@@ -912,7 +912,7 @@ group: "bsc"
 name: "mega-props-carch-vol07"
 version: "2.0"
 subfolder: "100-props-textures"
-dependencies: [ "bsc:mega-props-bsc-carch-vol07 ]
+dependencies: [ "bsc:mega-props-bsc-carch-vol07" ]
 info:
   summary: "Superseded by `pkg=mega-props-bsc-carch-vol07`"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
