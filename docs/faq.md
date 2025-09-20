@@ -1,5 +1,7 @@
 # Troubleshooting & FAQs
 
+*All the answers to common problems and questions.*
+
 ## Application doesn't start :id=app-not-starting
 
 The application should display a detailed message explaining the problem and how to resolve it.
@@ -49,15 +51,21 @@ Not an *sc4pac* issue, but make sure your game is properly configured and runs s
 ## DLL files not working :id=dlls-not-loading
 
 1. DLLs must be installed in the _root_ of your Plugins folder, not a subfolder.
-   For this to work, the Plugins folder location in your **![dashboard](_speed.svg)Dashboard** must point to the actual `Plugins` folder, not a subfolder.
+   For this to work, the Plugins folder location in your **![](_speed.svg)Dashboard** must point to the actual `Plugins` folder, not a subfolder.
 
-2. Some DLLs come with `.ini` configuration files:
-   - To complete the installation of such a DLL, remember to copy the `.ini` file from the package subfolder inside your Plugins to the root of your Plugins folder.
-   - For example for `pkg=null-45:query-tool-ui-extensions-dll`,<br>
+2. Some DLLs come with `.ini` configuration files.
+   To complete the installation of such a DLL, remember to copy the `.ini` file from the package subfolder inside your Plugins to the root of your Plugins folder.
+
+   <details>
+   <summary>Detailed example</summary>
+
+   - For the package `pkg=null-45:query-tool-ui-extensions-dll` for example,<br>
      copy `Plugins\150-mods\null-45.query-tool-ui-extensions-dll.2.5.0-1.sc4pac\SC4QueryUIHooks.ini`<br>
      to `Plugins\SC4QueryUIHooks.ini`.
-   - Then edit the new file to set your preferences.
+   - Then, edit the new file to set your preferences.
    - Repeat this whenever the DLL is updated to a newer version.
+
+   </details>
 
 3. Many DLLs write a `.log` file to the root of your Plugins folder. Check it for potential errors.
    If the `.log` file is missing, chances are the DLL failed to load, for example due to a missing *VC x86 Redistributable*.
@@ -74,42 +82,65 @@ They are managed by you alone.
 
 ## Changing the Plugins folder location :id=changing-plugins-location
 
-1. The Plugins folder location of an existing *sc4pac* Profile can only be changed manually by editing a configuration file:
-   - Go to **![settings](_settings.svg)Settings** → *Profiles configuration folder* and open the folder.
+1. The Plugins folder location of an existing *sc4pac* Profile can only be changed manually by
+
+   <details>
+   <summary>editing a configuration file.</summary>
+
+   - Go to **![](_settings.svg)Settings** → *Profiles configuration folder* and open the folder.
    - The folder contains a subfolder for each Profile. Open the file `sc4pac-plugins.json` of your Profile in a text editor and edit the `pluginsRoot` attribute.
    - Move the Plugins folder to the new location.
    - Restart *sc4pac*.
+
+   </details>
 
 2. The location in which the game looks for the Plugins folder can be changed by launching the game with the
    `-UserDir:"..."` [launch parameter](https://www.wiki.sc4devotion.com/index.php?title=Shortcut_Parameters#User_Dir).
 
 ## Renaming/deleting a Profile :id=renaming-deleting-profile
 
-Currently, this can only be done by manually editing a configuration file:
-- Go to **![settings](_settings.svg)Settings** → *Profiles configuration folder* and open the folder.
+Currently, this can only be done by manually
+
+<details>
+<summary>editing a configuration file.</summary>
+
+- Go to **![](_settings.svg)Settings** → *Profiles configuration folder* and open the folder.
 - Open the file `sc4pac-profiles.json` in a text editor and edit it.
 - Restart *sc4pac*.
 
+</details>
+
 ## Uninstalling a package doesn't work :id=unstarring-not-working
 
-Unstarring![unstar](_unstar.svg) a package `a:b` has no effect if it's required by another installed package `c:d`.
+Unstarring![](_unstar.svg) a package `a:b` has no effect if it's required by another installed package `c:d`.
 Uninstalling `a:b` alone would mean that `c:d` is missing a dependency, so that's not allowed.
-To uninstall `a:b`, make sure to unstar![unstar](_unstar.svg) `c:d`, too, as well as any other packages that depend on `a:b` (or `c:d`).
+To uninstall `a:b`, make sure to unstar![](_unstar.svg) `c:d`, too, as well as any other packages that depend on `a:b` (or `c:d`).
 
 ## Re-installing a single package :id=reinstalling-package
 
 Sometimes, you may want to re-install a package, for example if you accidentally deleted one of its files from your Plugins.
 The usual approach is:
-- Unstar![unstar](_unstar.svg) the package, then *![update](_refresh.svg)Update All* to uninstall it.
-- Star![star](_star.svg) the package again, then *![update](_refresh.svg)Update All* to install it again.
+- Unstar![](_unstar.svg) the package, then *![](_refresh.svg)Update All* to uninstall it.
+- Star![](_star.svg) the package again, then *![](_refresh.svg)Update All* to install it again.
 
-However, unstarring![unstar](_unstar.svg) has no effect if other installed packages depend on it.
+However, unstarring![](_unstar.svg) has no effect if other installed packages depend on it.
 In such cases, either uninstall the packages depending on it, as well.
-Or, alternatively, a re-install of a single package can be triggered by manually editing a configuration file:
-- Go to **![settings](_settings.svg)Settings** → *Profiles configuration folder* and open the folder.
+Or, alternatively, a re-install of a single package can be triggered by manually
+
+<details>
+<summary>editing a configuration file.</summary>
+
+- Go to **![](_settings.svg)Settings** → *Profiles configuration folder* and open the folder.
 - The folder contains a subfolder for each Profile. Open the file `sc4pac-plugins-lock.json` of your current Profile in a text editor and search for the package.
 - Change the `"version"` to `"0"` and save the JSON file.
-- Clicking *![update](_refresh.svg)Update All* will trigger a re-install of the package.
+- Clicking *![](_refresh.svg)Update All* will trigger a re-install of the package.
+
+</details>
+
+## Skipping a package upgrade :id=skipping-package-upgrade
+
+Pressing *![](_refresh.svg)Update All* will always upgrade all the packages to their latest version.
+Skipping the upgrade for a specific package isn't possible yet.
 
 ---
 Next up: [CLI](cli)
