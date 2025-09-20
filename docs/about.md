@@ -23,7 +23,8 @@ and a [Discord channel](https://discord.com/channels/383313438065033228/11765744
 
 - [Simtropolis channel](https://github.com/sebamarynissen/simtropolis-channel) ![github](_github.svg)
   contains many packages for community-created STEX content
-  (enabled by default)
+  (enabled by default).
+  See also the topic about the [*sc4pac* STEX integration](https://community.simtropolis.com/forums/topic/763620-simtropolis-x-sc4pac-a-new-way-to-install-plugins/).
 
 - [SC4Evermore channel](https://github.com/SC4Evermore/sc4pac-channel) ![github](_github.svg)
   for additional content from SC4Evermore.

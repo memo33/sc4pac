@@ -3,4 +3,4 @@
 [sc4pac-tools-api](https://raw.githubusercontent.com/memo33/sc4pac-tools/api/api.md ':include')
 
 ---
-Next up: [Adding metadata](metadata.md)
+Next up: [Metadata format](metadata.md)

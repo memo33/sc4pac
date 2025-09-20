@@ -1,4 +1,4 @@
-?> This documentation page is for developers. Skip to the next page: [Adding metadata](metadata.md).
+?> This documentation page is for developers. Skip to the next page: [Metadata format](metadata.md).
 
 <!-- !> A new version of the API is currently in development. See [API (development version)](api-dev.md). -->
 
@@ -7,4 +7,4 @@
 <!-- [sc4pac-tools-api](sc4pac-tools-api.md ':include') -->
 
 ---
-Next up: [Adding metadata](metadata.md)
+Next up: [Metadata format](metadata.md)
