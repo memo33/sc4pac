@@ -1,6 +1,6 @@
 group: peg
 name: christmas-development-kit
-version: "1.1"
+version: "1.1-1"
 subfolder: 100-props-textures
 info:
   summary: Christmas Development Kit
@@ -37,6 +37,6 @@ assets:
 
 ---
 assetId: peg-christmas-development-kit
-version: "1.1"
+version: "1.1-1"
 lastModified: "2025-01-19T18:28:02Z"
 url: https://community.simtropolis.com/files/file/11097-peg-christmas-development-kit/?do=download&r=205376
