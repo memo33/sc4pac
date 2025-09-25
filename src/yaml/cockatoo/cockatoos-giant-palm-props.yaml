@@ -1,0 +1,20 @@
+group: cockatoo
+name: cockatoos-giant-palm-props
+version: "2.0"
+subfolder: 100-props-textures
+info:
+  summary: Cockatoos Giant Palm Props
+  description: |-
+    Cockatoos Giant Palm Props by Cockatoo
+  author: Cockatoo
+  website: https://community.simtropolis.com/files/file/20330-cockatoos-giant-palm-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e1118d12fd1ab6dbdc3374226b366211-CPP1.jpg
+assets:
+  - assetId: cockatoos-giant-palm-props
+
+---
+assetId: cockatoos-giant-palm-props
+version: "2.0"
+lastModified: "2025-09-25T19:56:57Z"
+url: https://community.simtropolis.com/files/file/20330-cockatoos-giant-palm-props/?do=download
