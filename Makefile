@@ -11,6 +11,9 @@ LABEL=Main-local
 # assumes you have checked out sc4pac-actions in the same parent folder
 ACTIONS=../sc4pac-actions
 
+# a profile that must have been configured to use the local channel at ./gh-pages/channel/
+TEST_INSTALL_PROFILE_DIR=~/.config/sc4pac/profiles/1
+
 # Rebuild all .json files, the main.js file and update the gh-pages branch.
 #
 # This assumes that you have initialized the submodule `sc4pac-tools` with:
@@ -56,4 +59,18 @@ st-url-check:
 		&& git diff "$(shell git merge-base @ "origin/main")" --diff-filter=d --name-only -- "src/yaml" \
 		| xargs --delimiter '\n' python $(ACTIONS)/src/st-check-updates.py --mode=id
 
-.PHONY: gh-pages gh-pages-no-lint channel host host-docs lint sc4e-check-updates st-check-updates st-url-check
+FIND_MODIFIED_PKGS = $(eval MODIFIED_PKGS=$(shell git diff "$(shell git merge-base @ "origin/main")" --diff-filter=d --name-only -- "src/yaml" | \
+		     xargs --delimiter '\n' python $(ACTIONS)/src/list-packages.py ) )
+
+list-modified-packages:
+	$(FIND_MODIFIED_PKGS)
+	@# echo $(MODIFIED_PKGS)
+	@for pkg in $(MODIFIED_PKGS); do echo "$$pkg"; done
+
+test-install: list-modified-packages
+	@read -e -p "==> Test installing these packages? [y/n]" choice && \
+		[[ "$$choice" == [Yy]* ]] || { echo "Aborting." ; false; }
+	cd $(TEST_INSTALL_PROFILE_DIR) && \
+		$(SC4PAC) test $(MODIFIED_PKGS)
+
+.PHONY: gh-pages gh-pages-no-lint channel host host-docs lint sc4e-check-updates st-check-updates st-url-check list-modified-packages test-install
