@@ -1,0 +1,32 @@
+group: coriboom
+name: parks-aura
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Replaces the Garbage data view with a visualization of Parks Aura.
+  description: |-
+    Parks Aura is a primary YIMBY factor in SC4 which allows residential development to thrive. However in the game, this data is hidden away in the simulation and cannot visibly be seen. As such it might not be apparent just how far the negative aura spreads from the local landfill, or the positiveness generated from plopped parks.
+
+    The standard Desirability view can help to a limited extent. This represents several variables including "Transient Aura" effects, but it doesn't directly depict the Park Effect as many ploppable lots provide. The Parks Aura gives an alternative perspective to see how this important data is formed within a city. It can be used to make strategical city planning decisions for where zoning should take place, and also to identify the sources for where either the positive or negative Park Effect is emitted from.
+
+    Note that this mod is a *visual representation* of the Parks Aura within each city tile. It doesn't modify or alter the strength of aura effects, or any aspect of the gameplay whatsoever.
+
+    For more detailed information on the workings of this mod, refer to the [STEX Download Page](https://community.simtropolis.com/files/file/33412-coris-parks-aura/).
+  author: Corina Marie, Cyclone Boom
+  website: https://community.simtropolis.com/files/file/33412-coris-parks-aura/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e65181406f_ParksAura-LogoFeature.jpg.86a2a6ca8c608272e49c85a3c08a559d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e651fa0251_ParksAurav1.0-Preview01.jpg.cb7aa98268f2be063f4f8eb13c9ece61.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e65232c9fa_ParksAurav1.0-Preview02.jpg.b5670c7517d6c56c3e8968dffe517d43.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e65261eebc_ParksAurav1.0-Preview03.jpg.daad321b91147377bf6792d08c59b5b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e652932880_ParksAurav1.0-Preview04.jpg.5cf1482b8109684fc19b8d6141731946.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e652cb463d_ParksAurav1.0-Preview05.jpg.97900694503b62df1ebf4a8394bcb580.jpg
+    - https://www.simtropolis.com/objects/attachments/monthly_2020_01/5e2dccc0952ad_DataViewPanel.png.ffc426c5eea9cc5061bed2845979f136.png
+assets:
+  - assetId: cyclone-boom-coris-parks-aura
+
+---
+assetId: cyclone-boom-coris-parks-aura
+version: "1.0"
+lastModified: "2020-01-27T04:34:02Z"
+url: https://community.simtropolis.com/files/file/33412-coris-parks-aura/?do=download&r=179686
