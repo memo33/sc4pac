@@ -1,0 +1,23 @@
+assetId: peg-chicken-ranch
+version: "1.1"
+lastModified: "2025-05-02T22:54:39Z"
+url: https://community.simtropolis.com/files/file/12727-peg-chicken-ranch/?do=download
+
+---
+group: "peg"
+name: "chicken-ranch-props"
+version: "1.1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "peg-chicken-ranch"
+  include:
+  - "/PEG_ChickenRanch_RESOURCE_205.dat"
+info:
+  summary: "Chicken Ranch Props"
+  description:
+    Prop Pack for PEG Chicken Ranch
+  author: "Pegasus"
+  website: "https://community.simtropolis.com/files/file/12727-peg-chicken-ranch/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/fe36fecd5660735d79c1ff0859173b87-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0028/fe36fecd5660735d79c1ff0859173b87-product_image2.jpg

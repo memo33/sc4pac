@@ -1,0 +1,20 @@
+assetId: peg-cdk-legacy-resources
+version: "1.0"
+lastModified: "2024-08-18T00:06:22Z"
+url: https://community.simtropolis.com/files/file/36400-peg-cdk-legacy-resources/?do=download
+
+---
+group: "peg"
+name: "cdk-legacy-resources"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "peg-cdk-legacy-resources"
+info:
+  summary: "PEG-CDK Legacy Resources"
+  description: |-
+    This PEG-CDK Legacy Resources is a collection of models and props from the old CDK series (CDK, CDK-IND, CDK-COM, CDKN, CDK-OWW, CDK-REC, CDK-SV and RTK3-REC) created by Pegasus. Many of the cases these models were bundled together with the related lots and textures. ~his legacy pack aims to cover situations where one or more of the ancient CDK props are referenced as dependencies for third party uploads (like many early BSC creations).
+  author: "Pegasus"
+  website: "https://community.simtropolis.com/files/file/36400-peg-cdk-legacy-resources/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/PEG-CDK_Legacy_Resources.jpg.fc82ead28754eba481b5a2c8b9f2ea01.jpg
