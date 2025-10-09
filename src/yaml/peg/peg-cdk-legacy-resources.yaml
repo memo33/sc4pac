@@ -9,7 +9,7 @@ name: "cdk-legacy-resources"
 version: "1.0"
 subfolder: "100-props-textures"
 assets:
-- assetId: "peg-the-great-lighthouse-of-alexandria"
+- assetId: "peg-cdk-legacy-resources"
 info:
   summary: "PEG-CDK Legacy Resources"
   description: |-
