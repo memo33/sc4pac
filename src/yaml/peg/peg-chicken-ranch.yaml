@@ -1,12 +1,12 @@
 assetId: peg-chicken-ranch
-version: "2.0"
+version: "1.1"
 lastModified: "2025-05-02T22:54:39Z"
 url: https://community.simtropolis.com/files/file/12727-peg-chicken-ranch/?do=download
 
 ---
 group: "peg"
 name: "chicken-ranch-props"
-version: "2.0"
+version: "1.1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "peg-chicken-ranch"
