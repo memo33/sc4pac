@@ -1,0 +1,24 @@
+assetId: peg-pond-kit-collection #Preparatory work for the future pond kit collection package
+version: "1.1"
+lastModified: "2025-01-22T23:27:28Z"
+url: https://community.simtropolis.com/files/file/12329-peg-pond-kit-ii-deluxe-edition-v206/?do=download
+
+---
+group: "peg"
+name: "pond-kit-base-set-props"
+version: "1.1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "peg-pond-kit-collection"
+  include:
+  - "/PEG_Ponds_STYLE1_206.dat"
+  - "/PEG_Pond-WF_Medium_206.dat"
+info:
+  summary: "Pond Kit Base Set Props"
+  description:
+    Prop Pack for PEG Pond Kit Base Set
+  author: "Pegasus"
+  website: "https://community.simtropolis.com/files/file/12329-peg-pond-kit-ii-deluxe-edition-v206/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image21.jpg
