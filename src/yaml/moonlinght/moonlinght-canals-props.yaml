@@ -1,0 +1,142 @@
+assetId: "moonlinght-japan-canals-collection-prop-collection"
+version: "2.0"
+lastModified: "2024-10-31T16:53:00-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=313:sc4d-lex-stex-legacy-moonlight-japan-canals-collection"
+
+---
+group: "moonlinght"
+name: "japan-canal-props"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "moonlinght-japan-canals-collection-prop-collection"
+  include:
+  - "/ML_Canal Props.dat"
+  - "/Moonlight_Canals_Submenu.dat"
+info:
+  summary: "Japanese Canals props"
+  description:
+    Prop Pack for Japanese Canals
+  author: "Moonlinght"
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/313-sc4d-lex-stex-legacy-moonlight-japan-canals-collection
+    - https://community.simtropolis.com/files/file/36509-sc4-legacy-moonlinght-japan-canals-collection-v2/
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20DT%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20Rural%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/image.jpg
+
+---
+group: "moonlinght"
+name: "downtown-japan-canal-props"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "moonlinght-japan-canals-collection-prop-collection"
+  include:
+  - "/ML JPN DT Canal Prop.dat"
+  - "/Moonlight_Canals_Submenu.dat"
+info:
+  summary: "Downtown Japan Canals props"
+  description:
+    Prop Pack for Downtown Japan Canals
+  author: "Moonlinght"
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/313-sc4d-lex-stex-legacy-moonlight-japan-canals-collection
+    - https://community.simtropolis.com/files/file/36509-sc4-legacy-moonlinght-japan-canals-collection-v2/
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20DT%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20Rural%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/image.jpg
+
+---
+group: "moonlinght"
+name: "japan-canal-water-busstop-props"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "moonlinght-japan-canals-collection-prop-collection"
+  include:
+  - "/ML_Canal Water BusStop Props.dat"
+  - "/Moonlight_Canals_Submenu.dat"
+info:
+  summary: "Japanese Canal Water BusStop Props"
+  description:
+    Prop Pack for Japanese Canal Water BusStop Props
+  author: "Moonlinght"
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/313-sc4d-lex-stex-legacy-moonlight-japan-canals-collection
+    - https://community.simtropolis.com/files/file/36509-sc4-legacy-moonlinght-japan-canals-collection-v2/
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20DT%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20Rural%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/image.jpg
+
+---
+group: "moonlinght"
+name: "japan-rural-canal-props"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "moonlinght-japan-canals-collection-prop-collection"
+  include:
+  - "/ML JPN Rural Canal Prop.dat"
+  - "/Moonlight_Canals_Submenu.dat"
+info:
+  summary: "Japanese Rural Canal Props"
+  description:
+    Prop Pack for Japanese Rural Canal Props
+  author: "Moonlinght"
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/313-sc4d-lex-stex-legacy-moonlight-japan-canals-collection
+    - https://community.simtropolis.com/files/file/36509-sc4-legacy-moonlinght-japan-canals-collection-v2/
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20DT%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20Rural%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/image.jpg
+
+---
+group: "moonlinght"
+name: "japan-suburban-canal-props"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "moonlinght-japan-canals-collection-prop-collection"
+  include:
+  - "/ML JPN Suburban Canal Prop.dat"
+  - "/Moonlight_Canals_Submenu.dat"
+info:
+  summary: "Japanese Suburban Canal Props"
+  description:
+    Prop Pack for Japanese Suburban Canal Props
+  author: "Moonlinght"
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/313-sc4d-lex-stex-legacy-moonlight-japan-canals-collection
+    - https://community.simtropolis.com/files/file/36509-sc4-legacy-moonlinght-japan-canals-collection-v2/
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20DT%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20Rural%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/image.jpg
+
+---
+group: "moonlinght"
+name: "japan-urban-canal-props"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "moonlinght-japan-canals-collection-prop-collection"
+  include:
+  - "/ML JPN Urban Canal props.dat"
+  - "/Moonlight_Canals_Submenu.dat"
+info:
+  summary: "Japanese Urban Canal Props"
+  description:
+    Prop Pack for Japanese Urban Canal Props
+  author: "Moonlinght"
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/14-park/313-sc4d-lex-stex-legacy-moonlight-japan-canals-collection
+    - https://community.simtropolis.com/files/file/36509-sc4-legacy-moonlinght-japan-canals-collection-v2/
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20DT%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/ML%20JPN%20Rural%20Canal.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/image.jpg
