@@ -110,6 +110,19 @@ Currently, this can only be done by manually
 
 </details>
 
+## Stars vs Dependencies, Explicit vs Implicit Packages :id=stars-vs-dependencies
+
+There are three ways to install plugins:
+
+1. Explicitly: By starring![](_star.svg) a particular package, you _explicitly_ request its contents to be installed by *sc4pac*, as you want to load them into the game.
+
+2. Implictly: If a package is a dependency of another installed package, the dependency is installed _implicitly_ by *sc4pac* automatically, as the other package cannot function without it.
+   Typically, you would leave the dependency unstarred![](_unstar.svg).
+   This allows *sc4pac* to handle all the dependency resolution, ensuring that only the dependencies you really need are installed.
+
+3. Manually: any plugin files installed by you, without the help of *sc4pac*.
+   (If these plugins have dependencies in *sc4pac*, star![](_star.svg) these dependencies explicitly in case they are not yet installed.)
+
 ## Uninstalling a package doesn't work :id=unstarring-not-working
 
 Unstarring![](_unstar.svg) a package `a:b` has no effect if it's required by another installed package `c:d`.
