@@ -27,12 +27,12 @@ info:
 ---
 group: "bsc"
 name: "mega-props-canals-cal-remastered-simgoober-style"
-version: "1"
+version: "1-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "bsc-canals-prop-collection"
   include:
-  - "/BSC MEGA Props - Canals SimGoober Brick Style.dat"
+  - "/BSC MEGA Props - Canals CAL Remastered SimGoober Style.dat"
   - "/BSC_Canals_Submenu.dat"
 info:
   summary: "Canals CAL Remastered SimGoober Style props"
