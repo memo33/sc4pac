@@ -97,6 +97,22 @@ They are managed by you alone.
 2. The location in which the game looks for the Plugins folder can be changed by launching the game with the
    `-UserDir:"..."` [launch parameter](https://www.wiki.sc4devotion.com/index.php?title=Shortcut_Parameters#User_Dir).
 
+   <details>
+   <summary>Detailed example</summary>
+
+   - Create a desktop shortcut for the game `SimCity 4.exe`.
+   - Edit the shortcut to append the launch parameter
+     ```
+      -UserDir:"D:\Data\SC4Profiles\MyProfileName01\"
+     ```
+   - Configure your *sc4pac* Profile to use the Plugins folder:
+     ```
+     D:\Data\SC4Profiles\MyProfileName01\Plugins
+     ```
+   </details>
+
+   Note that the Plugins folder must be named `Plugins` and the `-UserDir:"..."` points to its parent folder.
+
 ## Renaming/deleting a Profile :id=renaming-deleting-profile
 
 Currently, this can only be done by manually
