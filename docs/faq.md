@@ -122,6 +122,7 @@ Currently, this can only be done by manually
 
 - Go to **![](_settings.svg)Settings** → *Profiles configuration folder* and open the folder.
 - Open the file `sc4pac-profiles.json` in a text editor and edit it.
+   - To delete a profile, locate the desired profile in the `profiles` array and remove it. Remember this id. Ensure that the value of `currentProfileId` below is set to the id of a profile that still exists. Lastly, delete the folder next to `sc4pac-profiles.json` with the same name as the deleted profile's id.
 - Restart *sc4pac*.
 
 </details>
