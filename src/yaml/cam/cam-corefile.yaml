@@ -28,22 +28,22 @@ dependencies:
 - "memo:i-r-fix"
 
 variants:
-- variant: { cam:colossus-addon-mod-core:version: "Stable" }
+- variant: { cam:colossus-addon-mod-core:version: "stable" }
   assets:
   - assetId: "cam-colossus-addon-mod-corefile"
     exclude:
     - "/CAM_IR_Fix_Exemplar_Patch.dat"
-- variant: { ccam:colossus-addon-mod-core:version: "Experimental" }
+- variant: { ccam:colossus-addon-mod-core:version: "experimental" }
   assets:
   - assetId: "cam-colossus-addon-mod-core-experimental"
   
 variantInfo:
 - variantId: "cam:colossus-addon-mod-core:version"
   values:
-  - value: "Stable"
+  - value: "stable"
     description: Install the stable version of CAM Core
     default: true
-  - value: "Experimental"
+  - value: "experimental"
     description: |-
       Install the experimental version of CAM Core
 
