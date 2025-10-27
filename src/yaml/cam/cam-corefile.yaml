@@ -5,6 +5,12 @@ lastModified: "2025-08-30T16:46:16-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
 
 ---
+assetId: "cam-colossus-addon-mod-core-experimental"
+version: "4000.2710"
+lastModified: "2025-10-27T02:37:05Z"
+url: "https://community.simtropolis.com/files/file/37067-colossus-addon-mod-core-experimental/?do=download"
+
+---
 group: "cam"
 name: "colossus-addon-mod-core"
 version: "3.4.1-1"
@@ -20,6 +26,30 @@ dependencies:
 - "scoty:zoning-mod-maxis"
 - "cyclone-boom:save-warning"
 - "memo:i-r-fix"
+
+variants:
+- variant: { cam:colossus-addon-mod-core:version: "Stable" }
+  assets:
+  - assetId: "cam-colossus-addon-mod-corefile"
+    exclude:
+    - "/CAM_IR_Fix_Exemplar_Patch.dat"
+- variant: { ccam:colossus-addon-mod-core:version: "Experimental" }
+  assets:
+  - assetId: "cam-colossus-addon-mod-core-experimental"
+  info:
+  warning: Installing CAM Core Experimental allows you to try out new features in advance, but exposes you to bugs that can cause CTDs and city corruption. We highly recommend testing this unstable version in a test region. Any bug reports should be made in [this thread](https://community.simtropolis.com/forums/topic/764056-colossus-addon-mod-core-experimental-support/).
+  
+variantInfo:
+- variantId: "cam:colossus-addon-mod-core:version:"
+  values:
+  - value: "Stable"
+    description: Install the stable version of CAM Core
+    default: true
+  - value: "Experimental"
+    description: |-
+      Install the experimental version of CAM Core
+
+      This option is only recommended for users who want to preview new CAM features, but it is full of bugs that can cause CTDs and city corruption. We recommend testing it in a test region.
 
 assets:
 - assetId: "cam-colossus-addon-mod-corefile"
@@ -41,8 +71,10 @@ info:
   websites:
   - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-colossus-addon-mod-core-files"
   - "https://community.simtropolis.com/files/file/36978-colossus-addon-mod-core-files/"
+  - "https://community.simtropolis.com/files/file/37067-colossus-addon-mod-core-experimental/"
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/COREF.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_10/CAMCoreEX2.jpg.4a7e7e986be9deeb457bf5e64567a14f.jpg
 
 ---
 group: "null-45"
