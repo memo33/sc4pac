@@ -38,7 +38,7 @@ variants:
   - assetId: "cam-colossus-addon-mod-core-experimental"
   
 variantInfo:
-- variantId: "cam:colossus-addon-mod-core:version:"
+- variantId: "cam:colossus-addon-mod-core:version"
   values:
   - value: "Stable"
     description: Install the stable version of CAM Core

@@ -22,6 +22,7 @@ ignore-version-mismatches:
 - bsc:mega-props-diggis-canals-streams-and-ponds
 - bsc:mega-props-rubik3-vol01-wtc-props
 - bsc:mega-props-newmaninc-rivers-and-ponds
+- cam:colossus-addon-mod-core
 
 group-to-github:
 - null-45: "0xC0000054"
