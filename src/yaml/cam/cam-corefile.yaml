@@ -36,8 +36,6 @@ variants:
 - variant: { ccam:colossus-addon-mod-core:version: "Experimental" }
   assets:
   - assetId: "cam-colossus-addon-mod-core-experimental"
-  info:
-  warning: Installing CAM Core Experimental allows you to try out new features in advance, but exposes you to bugs that can cause CTDs and city corruption. We highly recommend testing this unstable version in a test region. Any bug reports should be made in [this thread](https://community.simtropolis.com/forums/topic/764056-colossus-addon-mod-core-experimental-support/).
   
 variantInfo:
 - variantId: "cam:colossus-addon-mod-core:version:"
@@ -49,7 +47,7 @@ variantInfo:
     description: |-
       Install the experimental version of CAM Core
 
-      This option is only recommended for users who want to preview new CAM features, but it is full of bugs that can cause CTDs and city corruption. We recommend testing it in a test region.
+      Installing CAM Core Experimental allows you to try out new features in advance, but exposes you to bugs that can cause CTDs and city corruption. We highly recommend testing this unstable version in a test region. Any bug reports should be made in [this thread](https://community.simtropolis.com/forums/topic/764056-colossus-addon-mod-core-experimental-support/).
 
 assets:
 - assetId: "cam-colossus-addon-mod-corefile"
