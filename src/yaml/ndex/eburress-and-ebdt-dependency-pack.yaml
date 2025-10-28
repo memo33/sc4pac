@@ -1,0 +1,84 @@
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=378:sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+version: "1.0"
+lastModified: "2025-05-07T07:08:00-07:00"
+
+---
+group: "ndex"
+name: "its-eburress-mega-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/378-sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+  summary: "Models by Eburress"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers Eburress (EB) and DuskTropper (DT) aka EBDT. All these dependency packs have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX. Some of these models were formerly linked for the different core CAM Commercial and Residential sets, which will be/are restored on the SC4Evermore site. This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+  author: "Eburress"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar2.png
+assets:
+- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+  include:
+  - "/NDEX EB MEGA Pack Vol01.dat"
+
+---
+group: "ndex"
+name: "its-eburress-mega-pack-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/378-sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+  summary: "Models by Eburress"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers Eburress (EB) and DuskTropper (DT) aka EBDT. All these dependency packs have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX. Some of these models were formerly linked for the different core CAM Commercial and Residential sets, which will be/are restored on the SC4Evermore site. This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+  author: "Eburress"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar2.png
+assets:
+- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+  include:
+  - "/NDEX EB MEGA Pack Vol02.dat"
+
+---
+group: "ndex"
+name: "its-ebdt-mega-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/378-sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+  summary: "Models by Eburress (EB) and  DuskTropper (DT)"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers Eburress (EB) and DuskTropper (DT) aka EBDT. All these dependency packs have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX. Some of these models were formerly linked for the different core CAM Commercial and Residential sets, which will be/are restored on the SC4Evermore site. This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+  author: "Eburress (EB) and  DuskTropper (DT)"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar2.png
+assets:
+- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+  include:
+  - "/NDEX EBDT MEGA Pack Vol01.dat"
+
+---
+group: "ndex"
+name: "its-ebdt-mega-pack-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/378-sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+  summary: "Models by Eburress (EB) and  DuskTropper (DT)"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers Eburress (EB) and DuskTropper (DT) aka EBDT. All these dependency packs have been freshly made from models that can be found on the Simtropolis Exchange (STEX). These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX. Some of these models were formerly linked for the different core CAM Commercial and Residential sets, which will be/are restored on the SC4Evermore site. This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+  author: "Eburress (EB) and  DuskTropper (DT)"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar2.png
+assets:
+- assetId: "sc4-legacy-ndex-eburress-and-ebdt-dependency-pack"
+  include:
+  - "/NDEX EBDT MEGA Pack Vol02.dat"
