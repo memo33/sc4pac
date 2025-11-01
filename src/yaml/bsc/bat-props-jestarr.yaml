@@ -181,8 +181,6 @@ group: "bsc"
 name: "bat-props-jes-vol18"
 version: "1.0.0"
 subfolder: "100-props-textures"
-assets:
-- assetId: "bsc-bat-props-jes-vol17"
 info:
   summary: "Industrial props rendered in HD"
   website: "https://community.simtropolis.com/files/file/36318-bsc-batprops_hd-jes-vol17/"
@@ -190,6 +188,8 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/667de0f2600ce_BSCBATProps_HD-JESVol17a.jpg.2317213e7942df53e6a912b9df0cbb65.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/667de0f8447d4_BSCBATProps_HD-JESVol17b.jpg.a58043cdde5d239e12111c644b884548.jpg
   author: "jestarr"
+assets:
+- assetId: "bsc-bat-props-jes-vol18"
 
 ---
 url: "https://community.simtropolis.com/files/file/37068-bsc-batprops_hd-jes-vol18/?do=download"
