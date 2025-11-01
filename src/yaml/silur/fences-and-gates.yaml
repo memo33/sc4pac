@@ -1,5 +1,5 @@
 group: silur
-name: sis-fences-and-gates
+name: fences-and-gates
 version: "1.0"
 subfolder: 100-props-textures
 info:
@@ -16,4 +16,4 @@ assets:
 assetId: silur-sis-fences-and-gates-vol01
 version: "1.0"
 lastModified: "2019-03-29T19:01:13Z"
-url: https://community.simtropolis.com/files/file/32834-sis-fences-and-gates-vol_01/?do=download&r=175350
+url: https://community.simtropolis.com/files/file/32834-sis-fences-and-gates-vol_01/?do=download

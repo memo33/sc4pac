@@ -16,9 +16,11 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c80d5e7bb599_zzz0501NK-BILL-A-Gasolines4x6and6x4.jpg.9a549031024a01e6fffb768fbd3e536b.jpg
 assets:
   - assetId: silur-sis-santana-island-sources-billboards-vol01-props
+    include:
+      - "/SIS Billboards Vol_01 - PROPS w PF/"
 
 ---
 assetId: silur-sis-santana-island-sources-billboards-vol01-props
 version: "1.1.0"
 lastModified: "2019-03-08T08:49:13Z"
-url: https://community.simtropolis.com/files/file/32783-sis-santana-island-sources-billboards-vol_01-props/?do=download&r=174982
+url: https://community.simtropolis.com/files/file/32783-sis-santana-island-sources-billboards-vol_01-props/?do=download
