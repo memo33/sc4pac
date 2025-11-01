@@ -1,0 +1,25 @@
+group: silur
+name: sheds
+version: "2.0.0"
+subfolder: 100-props-textures
+info:
+  summary: An assortment of shed props
+  description: |-
+    These are some simple boxes for your wretched industry. There are 6 buildings 8x4x4 and 6 of the same buildings 14x7x7 m.
+  author: Silur
+  website: https://community.simtropolis.com/files/file/36815-01nk-ind_d-sheds-nicks-3d-vol_01-fix-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/67f7908e710c8_Pic_01-ShedNicksCORRECTED.jpg.ad3880200f1bf835208157b4635602ef.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/67f790a08720c_Pic_02-ShedsX-01-400x400.jpg.d77d498072e09a477a1334c289975228.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/67f790b1bdaa1_Pic_03-ShedsX-02-400x400.jpg.26ec8526df77a84457a885407e7cf9bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/67f7923c591a2_Pic_04-ShedsA-800x656.jpg.19f7cf2893064c3edc5e9e04512a6f69.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_04/67f7928eeb527_Pic_05-ShedsB-800x656.jpg.c0ddb18fbf8cf7aa77441118d9a44ccf.jpg
+assets:
+  - assetId: silur-01nk-ind-d-sheds-nicks-3d-vol01-fix-props
+
+
+---
+assetId: silur-01nk-ind-d-sheds-nicks-3d-vol01-fix-props
+version: "2.0.0"
+lastModified: "2025-04-10T09:42:45Z"
+url: https://community.simtropolis.com/files/file/36815-01nk-ind_d-sheds-nicks-3d-vol_01-fix-props/?do=download&r=206883

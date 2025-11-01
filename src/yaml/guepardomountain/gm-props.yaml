@@ -1,0 +1,18 @@
+group: guepardomountain
+name: props-vol1
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: A prop pack featuring small plants, electric transformers, mailboxes, bike racks, a variety of fences, and more.
+  author: guepardomountain
+  website: https://community.simtropolis.com/files/file/36517-gm-props-vol-1/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/props1.jpg.7ee76db05b0f564a4f96aedcf004bfa0.jpg
+assets:
+  - assetId: guepardomountain-gm-props-vol1
+
+---
+assetId: guepardomountain-gm-props-vol1
+version: "1.0.0"
+lastModified: "2024-10-20T20:33:54Z"
+url: https://community.simtropolis.com/files/file/36517-gm-props-vol-1/?do=download&r=204003

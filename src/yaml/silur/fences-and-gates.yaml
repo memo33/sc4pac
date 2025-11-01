@@ -1,0 +1,19 @@
+group: silur
+name: sis-fences-and-gates
+version: "1.0"
+subfolder: 100-props-textures
+info:
+  summary: Rural concrete fence and rusty gate props
+  author: Silur
+  website: https://community.simtropolis.com/files/file/32834-sis-fences-and-gates-vol_01/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c9e69c7cd868_SIS-FencesandGates-01-Simtropolis.jpg.524d07cda9d2a51b2ad2740cf8686035.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c9e69d11c3df_zzz01NK-FENCE-01-01NKCNCRFences-PROPS02.jpg.c7a737ecb4c6d388b2f46d42877ef006.jpg
+assets:
+  - assetId: silur-sis-fences-and-gates-vol01
+
+---
+assetId: silur-sis-fences-and-gates-vol01
+version: "1.0"
+lastModified: "2019-03-29T19:01:13Z"
+url: https://community.simtropolis.com/files/file/32834-sis-fences-and-gates-vol_01/?do=download&r=175350
