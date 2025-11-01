@@ -1,0 +1,22 @@
+group: hugues-aroux
+name: park-alleys
+version: "1.1.0"
+subfolder: 100-props-textures
+info:
+  summary: Narrow paved alley overlay textures
+  description: |-
+    The **Scoty Park Alleys** pack includes over 600 overlays and base textures for lotting. It is primarily based on narrow paved alleys, allowing for all sorts of overlaps, associations, and intersections, double alleys, and combinations in all three orientations: ortho, dia, FA.
+  author: hugues aroux
+  website: https://community.simtropolis.com/files/file/37024-scoty-park-alleys/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/img_tech_park_alleys.jpg.13951fb3b559dc22cb3c28432700cbb4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/annonce_250826.jpg.5017de73a44925a96c390761a39ff3ca.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_09/park_index.jpg.97739329393ed047abe9a8bbb54d69c5.jpg
+assets:
+  - assetId: hugues-aroux-scoty-park-alleys
+
+---
+assetId: hugues-aroux-scoty-park-alleys
+version: "1.1.0"
+lastModified: "2025-10-31T09:13:32Z"
+url: https://community.simtropolis.com/files/file/37024-scoty-park-alleys/?do=download
