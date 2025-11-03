@@ -85,7 +85,7 @@ info:
 
 ---
 group: "bsc"
-name: "paris-gare-orsay Building-props"
+name: "paris-gare-orsay-building-props"
 version: "1.0.0"
 subfolder: "100-props-textures"
 assets:
