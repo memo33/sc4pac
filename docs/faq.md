@@ -113,19 +113,6 @@ They are managed by you alone.
 
    Note that the Plugins folder must be named `Plugins` and the `-UserDir:"..."` points to its parent folder.
 
-## Renaming/deleting a Profile :id=renaming-deleting-profile
-
-Currently, this can only be done by manually
-
-<details>
-<summary>editing a configuration file.</summary>
-
-- Go to **![](_settings.svg)Settings** → *Profiles configuration folder* and open the folder.
-- Open the file `sc4pac-profiles.json` in a text editor and edit it.
-- Restart *sc4pac*.
-
-</details>
-
 ## Stars vs Dependencies, Explicit vs Implicit Packages :id=stars-vs-dependencies
 
 There are three ways to install plugins:
@@ -148,28 +135,23 @@ To uninstall `a:b`, make sure to unstar![](_unstar.svg) `c:d`, too, as well as a
 ## Re-installing a single package :id=reinstalling-package
 
 Sometimes, you may want to re-install a package, for example if you accidentally deleted one of its files from your Plugins.
-The usual approach is:
-- Unstar![](_unstar.svg) the package, then *![](_refresh.svg)Update All* to uninstall it.
-- Star![](_star.svg) the package again, then *![](_refresh.svg)Update All* to install it again.
 
-However, unstarring![](_unstar.svg) has no effect if other installed packages depend on it.
-In such cases, either uninstall the packages depending on it, as well.
-Or, alternatively, a re-install of a single package can be triggered by manually
+Go to the package details and click *Reinstall*, then *![](_refresh.svg)Update All*.
 
-<details>
-<summary>editing a configuration file.</summary>
-
-- Go to **![](_settings.svg)Settings** → *Profiles configuration folder* and open the folder.
-- The folder contains a subfolder for each Profile. Open the file `sc4pac-plugins-lock.json` of your current Profile in a text editor and search for the package.
-- Change the `"version"` to `"0"` and save the JSON file.
-- Clicking *![](_refresh.svg)Update All* will trigger a re-install of the package.
-
-</details>
+If there is a problem with the downloaded ZIP file itself, you can choose *"⋮"* → *Redownload & Reinstall* instead.
 
 ## Skipping a package upgrade :id=skipping-package-upgrade
 
 Pressing *![](_refresh.svg)Update All* will always upgrade all the packages to their latest version.
 Skipping the upgrade for a specific package isn't possible yet.
+
+## Creating a back-up :id=backups
+
+To create a back-up of a single Profile, go to **![](_widgets.svg)My Plugins** → *Export* to generate a JSON file that allows you to restore the contents of a Profile later on.
+
+To back-up everything, including all Profiles and settings, create a back-up of the entire config folder **![](_settings.svg)Settings** → *Profiles configuration folder*.
+This allows you to restore everything *sc4pac*-related as it was.
+Make sure to run *Scan & Repair Plugins* for each Profile after restoring.
 
 ---
 Next up: [CLI](cli)
