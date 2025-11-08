@@ -3,7 +3,7 @@ name: "cascadia-tree-controller"
 version: "1"
 subfolder: "180-flora"
 assets:
-- assetId: "blunder-cascadia-tree-controller"
+- assetId: "blunder-cascadia-tree-controller-with-mmp"
 dependencies:
 - "bsc:mega-props-cp-vol01"
 - "bsc:mega-props-cp-vol02"
@@ -34,6 +34,8 @@ info:
     This is a seasonal tree controller. Seasonal trees must be planted on September 1st.
     When switching to another tree controller, always remove any and all trees
     planted with your previous tree controller *before* uninstalling your old tree controller.
+
+    If you want to remove this tree controller, there are some helper files available on Simtropolis.
   conflicts: |-
     Only compatible with terrain mods that include the Seasonal Flora Patch.
     Incompatible with all other tree controllers – only one tree controller may be installed at a time.
@@ -60,7 +62,7 @@ info:
 
 
 ---
-assetId: "blunder-cascadia-tree-controller"
+assetId: "blunder-cascadia-tree-controller-with-mmp"
 version: "1"
 lastModified: "2014-02-12T04:42:31Z"
 url: "https://community.simtropolis.com/files/file/29275-cascadia-tree-controller/?do=download&r=123990"
