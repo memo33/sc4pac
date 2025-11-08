@@ -4,6 +4,10 @@ This page details how to write, for an existing mod, custom metadata that is und
 The metadata is stored in [YAML](https://en.wikipedia.org/wiki/YAML) files which can be edited in any text editor
 and consists of *assets* and *packages*, as defined below.
 
+?> If you use the [*sc4pac* STEX integration](https://community.simtropolis.com/forums/topic/763620-simtropolis-x-sc4pac-a-new-way-to-install-plugins/),
+   most of this metadata is already created automatically.
+   In that case, the information on this page is only needed for customizing the metadata of plugins with more complex installation requirements.
+
 ?> An interactive editor for creating and editing metadata files is available online:
    [YAML editor for sc4pac](https://yamleditorforsc4pac.net/).
    The editor assists you in obtaining the required metadata and producing syntactically valid metadata files.

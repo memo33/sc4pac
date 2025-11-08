@@ -1,5 +1,6 @@
 - Guide
   * [Getting started](/)
+  * [Troubleshooting](faq.md)
   * [CLI](cli.md)
   * [API](api.md)
   * [Metadata format](metadata.md)

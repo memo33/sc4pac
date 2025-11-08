@@ -1,0 +1,20 @@
+group: huston
+name: metmw-prop-pack-alpha
+version: "2.0"
+subfolder: 100-props-textures
+info:
+  summary: METMW Prop Pack Alpha
+  description: |-
+    Mass Effect Prop Pack by Huston
+  author: Huston
+  website: https://community.simtropolis.com/files/file/29141-metmw-prop-pack-alpha/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2015/23c98dfafcacef32a1c36aafbe6df2ee-humetmwproppackalphacoverpicture.jpg
+assets:
+  - assetId: huston-metmw-prop-pack-alpha
+
+---
+assetId: huston-metmw-prop-pack-alpha
+version: "2.0"
+lastModified: "2025-09-22T22:43:39Z"
+url: https://community.simtropolis.com/files/file/29141-metmw-prop-pack-alpha/?do=download

@@ -1,0 +1,25 @@
+group: torresprei
+name: sims-geographic-museum-ii-props
+version: "2.0"
+subfolder: 100-props-textures
+
+assets:
+- assetId: "sims-geographic-museum-ii-props"
+  include:
+        - "/Geographic Museum Props/"
+
+info:
+  summary: Sims Geographic Museum II Props
+  description: |
+    Props from Sims Geographic Museum II created by torresprei
+  author: Torresprei
+  website: https://community.simtropolis.com/files/file/4238-sims-geographic-museum-ii/
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/955d295abc22c8cd0344d3c0f24ce61b-Geo_01.jpg
+    - https://www.simtropolis.com/objects/screens/0017/955d295abc22c8cd0344d3c0f24ce61b-Geo_02b1.jpg
+
+---
+assetId: "sims-geographic-museum-ii-props"
+version: "2.0"
+lastModified: "2025-09-18T16:35:47Z"
+url: https://community.simtropolis.com/files/file/4238-sims-geographic-museum-ii/?do=download

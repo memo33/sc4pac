@@ -1,0 +1,18 @@
+group: atsf189
+name: micro-props-pack
+version: "1.1.0"
+subfolder: 100-props-textures
+info:
+  summary: A small pack of aircraft and delivery van props
+  author: atsf189
+  website: https://community.simtropolis.com/files/file/36466-atsf189-micro-props-pack/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/Props.jpg.c0fb51fe5ee4f2fb48440651de5585ed.jpg
+assets:
+  - assetId: atsf189-atsf189-micro-props-pack
+
+---
+assetId: atsf189-atsf189-micro-props-pack
+version: "1.1.0"
+lastModified: "2024-10-14T15:15:53Z"
+url: https://community.simtropolis.com/files/file/36466-atsf189-micro-props-pack/?do=download&r=203899
