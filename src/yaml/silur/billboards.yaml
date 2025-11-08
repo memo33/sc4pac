@@ -1,0 +1,26 @@
+group: silur
+name: billboards
+version: "1.1.0"
+subfolder: 100-props-textures
+info:
+  summary: 1950s style billboard props
+  description: |-
+    This package contains some billboards in the style of the 1950s. It is a commercial for some car dealers, repair shops, and gas stations.
+  author: Silur
+  website: https://community.simtropolis.com/files/file/32783-sis-santana-island-sources-billboards-vol_01-props/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c80d5b8cc5ea_zzz0101NKSISBillboardsVol_01.jpg.5473a98b22fe5d5d51a9d946fb3e58af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c80d5cf5895e_zzz0201NK-BILL-A-Dealers4x6-PROPS.jpg.7baed3303831a0bc5974516ae3af7789.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c80d5d67daab_zzz0301NK-BILL-A-Dealers6x4-PROPS.jpg.ae2b664e154ee61e48ae176b6a837f96.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c80d5dfeea5b_zzz0401NK-BILL-A-Garages4x6and6x4.jpg.55e3b8a2f4acb285d5f8cea52c708251.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c80d5e7bb599_zzz0501NK-BILL-A-Gasolines4x6and6x4.jpg.9a549031024a01e6fffb768fbd3e536b.jpg
+assets:
+  - assetId: silur-sis-santana-island-sources-billboards-vol01-props
+    include:
+      - "/SIS Billboards Vol_01 - PROPS w PF/"
+
+---
+assetId: silur-sis-santana-island-sources-billboards-vol01-props
+version: "1.1.0"
+lastModified: "2019-03-08T08:49:13Z"
+url: https://community.simtropolis.com/files/file/32783-sis-santana-island-sources-billboards-vol_01-props/?do=download
