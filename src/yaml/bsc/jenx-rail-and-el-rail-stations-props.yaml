@@ -1,12 +1,12 @@
 assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations-props"
-version: "1.0.0"
+version: "1"
 lastModified: "2025-10-18T15:24:15-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=424:sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
 
 ---
 group: "bsc"
-name: "amsterdam-central-buildings-v1-props"
-version: "1.0.0"
+name: "bat-props-jenx-amsterdam-central-buildings-v1"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations-props"
@@ -15,7 +15,7 @@ assets:
 info:
   summary: "BSC BATProps JENX - Amsterdam Central Buildings v1"
   description:
-    BSC BATProps JENX - Amsterdam Central Buildings v1 made by Xannepan
+    BSC BATProps JENX - Amsterdam Central Buildings v1
   author: "Xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   images:
@@ -23,8 +23,8 @@ info:
 
 ---
 group: "bsc"
-name: "amsterdam-central-buildings-v2-props"
-version: "1.0.0"
+name: "bat-props-jenx-amsterdam-central-buildings-v2"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations-props"
@@ -33,7 +33,7 @@ assets:
 info:
   summary: "BSC BATProps JENX - Amsterdam Central Buildings v2"
   description:
-    BSC BATProps JENX - Amsterdam Central Buildings v2 made by Xannepan
+    BSC BATProps JENX - Amsterdam Central Buildings v2
   author: "Xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   images:
@@ -41,8 +41,8 @@ info:
 
 ---
 group: "bsc"
-name: "paris-gare-du-nord-buildings-v2005-props"
-version: "1.0.0"
+name: "bat-props-jenx-paris-gare-du-nord-buildings-v2005"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations-props"
@@ -51,7 +51,7 @@ assets:
 info:
   summary: "BSC BATProps JENX - Paris Gare du Nord Buildings v2005"
   description:
-    BSC BATProps JENX - Paris Gare du Nord Buildings v2005 made by Xannepan
+    BSC BATProps JENX - Paris Gare du Nord Buildings v2005
   author: "Xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   images:
@@ -59,8 +59,8 @@ info:
 
 ---
 group: "bsc"
-name: "paris-gare-du-nord-buildings-v2007-props"
-version: "1.0.0"
+name: "bat-props-jenx-paris-gare-du-nord-buildings-v2007"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations-props"
@@ -69,7 +69,7 @@ assets:
 info:
   summary: "BSC BATProps JENX - Paris Gare du Nord Buildings v2007"
   description:
-    BSC BATProps JENX - Paris Gare du Nord Buildings v2007 made by Xannepan
+    BSC BATProps JENX - Paris Gare du Nord Buildings v2007
   author: "Xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   images:
@@ -77,8 +77,8 @@ info:
 
 ---
 group: "bsc"
-name: "paris-gare-orsay-building-props"
-version: "1.0.0"
+name: "bat-props-jenx-paris-gare-orsay-building"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations-props"
@@ -87,7 +87,7 @@ assets:
 info:
   summary: "BSC BATProps JENX - Paris Gare Orsay Building"
   description:
-    BSC BATProps JENX - Paris Gare Orsay Building made by Xannepan
+    BSC BATProps JENX - Paris Gare Orsay Building
   author: "Xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   images:
@@ -95,8 +95,8 @@ info:
 
 ---
 group: "bsc"
-name: "paris-metro-bir-hakeim-props"
-version: "1.0.0"
+name: "bat-props-jenx-paris-metro-bir-hakeim-props"
+version: "1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations-props"
@@ -105,6 +105,6 @@ assets:
 info:
   summary: "BSC BATProps JENX - Paris Metro Bir Hakeim Props"
   description:
-    BSC BATProps JENX - Paris Metro Bir Hakeim Props made by Xannepan
+    BSC BATProps JENX - Paris Metro Bir Hakeim Props
   author: "Xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
