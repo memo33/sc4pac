@@ -20,8 +20,6 @@ info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/JENXPARISMuseeOrsayDayU.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/garedunord_red.jpg
 
 ---
 group: "bsc"
@@ -31,7 +29,7 @@ subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations-props"
   include:
-  - "/BSC BATProps JENX - Amsterdam Central Buildings v1.dat"
+  - "/BSC BATProps JENX - Amsterdam Central Buildings v2.dat"
 info:
   summary: "BSC BATProps JENX - Amsterdam Central Buildings v2"
   description:
@@ -40,12 +38,10 @@ info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/JENXPARISMuseeOrsayDayU.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/garedunord_red.jpg
-    
+
 ---
 group: "bsc"
-name: "paris-care-du-nord-buildings-v2005-props"
+name: "paris-gare-du-nord-buildings-v2005-props"
 version: "1.0.0"
 subfolder: "100-props-textures"
 assets:
@@ -59,13 +55,11 @@ info:
   author: "Xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/JENXPARISMuseeOrsayDayU.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/garedunord_red.jpg
 
 ---
 group: "bsc"
-name: "paris-care-du-nord-buildings-v2007-props"
+name: "paris-gare-du-nord-buildings-v2007-props"
 version: "1.0.0"
 subfolder: "100-props-textures"
 assets:
@@ -79,8 +73,6 @@ info:
   author: "Xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/JENXPARISMuseeOrsayDayU.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/garedunord_red.jpg
 
 ---
@@ -99,9 +91,7 @@ info:
   author: "Xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
   images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/JENXPARISMuseeOrsayDayU.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/garedunord_red.jpg
 
 ---
 group: "bsc"
@@ -118,7 +108,3 @@ info:
     BSC BATProps JENX - Paris Metro Bir Hakeim Props made by Xannepan
   author: "Xannepan"
   website: "https://www.sc4evermore.com/index.php/downloads/download/19-transportation/424-sc4d-lex-legacy-bsc-jenx-rail-and-el-rail-stations"
-  images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/BSC_JENX_AmsterdamCentralStation_daylg.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/JENXPARISMuseeOrsayDayU.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/garedunord_red.jpg
