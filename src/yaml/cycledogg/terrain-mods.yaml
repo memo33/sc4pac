@@ -8,13 +8,14 @@ group: "cycledogg"
 name: "columbus-terrain"
 version: "3.0"
 subfolder: "170-terrain"
-assets:
+assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
 - assetId: "cycledogg-terrain-mods-sc4e"
   include:
   - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_No5_RockTextures_Columbus_Essential.dat"
-  - "/CPT_B_ColumbusBeach_Optional.dat"
-  - "/CPT_C_ColumbusCliff_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
   - ifVariant: { cycledogg:columbus-terrain:snow-level: "default" }
     include:
@@ -31,6 +32,12 @@ assets:
   - ifVariant: { cycledogg:columbus-terrain:snow-level: "snowcapped-lower" }
     include:
     - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController SNOWCAPPED LOWER.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_B_ColumbusBeach_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_C_ColumbusCliff_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:columbus-terrain:snow-level: "default" }
@@ -84,14 +91,14 @@ group: "cycledogg"
 name: "canyonlands-terrain"
 version: "3.0"
 subfolder: "170-terrain"
-assets:
+assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
 - assetId: "cycledogg-terrain-mods-sc4e"
   include:
   - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_No5_RockTextures_Moab_Essential.dat"
-  - "/CPT_B_MoabBeach_Optional.dat"
-  - "/CPT_C_MonumentValleyCliff_Optional.dat"
-  - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
   - ifVariant: { cycledogg:canyonlands-terrain:controller: "default" }
     include:
@@ -102,6 +109,15 @@ assets:
   - ifVariant: { cycledogg:canyonlands-terrain:controller: "monument-valley" }
     include:
     - "/CPT_No6_MonumentValleyTerrainController.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_B_MoabBeach_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_C_MonumentValleyCliff_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:canyonlands-terrain:controller: "default" }
@@ -144,14 +160,14 @@ group: "cycledogg"
 name: "grand-canyon-terrain"
 version: "3.0"
 subfolder: "170-terrain"
-assets:
+assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
 - assetId: "cycledogg-terrain-mods-sc4e"
   include:
   - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_No5_RockTextures_Moab_Essential.dat"
-  - "/CPT_B_MoabBeach_Optional.dat"
-  - "/CPT_C_MonumentValleyCliff_Optional.dat"
-  - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
   - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "default" }
     include:
@@ -162,6 +178,15 @@ assets:
   - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-lower-snow" }
     include:
     - "/CPT_No6_zzGrandCanyonTerrainController_LowerLowerSnowPatch.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_B_MoabBeach_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_C_MonumentValleyCliff_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "default" }
@@ -202,14 +227,24 @@ group: "cycledogg"
 name: "painted-desert-terrain"
 version: "3.0"
 subfolder: "170-terrain"
-assets:
+assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
 - assetId: "cycledogg-terrain-mods-sc4e"
   include:
   - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_No5_RockTextures_Moab_Essential.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_No6_PaintedDesertTerrainController.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_B_MoabBeach_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_C_MoabCliff_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_W_BlueRiver_Water_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   include:
@@ -235,13 +270,14 @@ group: "cycledogg"
 name: "italia-terrain"
 version: "3.0"
 subfolder: "170-terrain"
-assets:
+assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
 - assetId: "cycledogg-terrain-mods-sc4e"
   include:
   - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_No5_RockTextures_Olympic_Essential.dat"
-  - "/CPT_B_OlympicBeach_Optional.dat"
-  - "/CPT_C_ItaliaCliff_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
   - ifVariant: { cycledogg:italia-terrain:snow-level: "default" }
     include:
@@ -252,6 +288,12 @@ assets:
   - ifVariant: { cycledogg:italia-terrain:snow-level: "lower-snow" }
     include:
     - "/CPT_No6_zzItaliaTerrainController_LowerSnowPatch.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_B_OlympicBeach_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_C_ItaliaCliff_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:italia-terrain:snow-level: "default" }
@@ -294,13 +336,14 @@ group: "cycledogg"
 name: "meadowshire-terrain"
 version: "3.0"
 subfolder: "170-terrain"
-assets:
+assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
 - assetId: "cycledogg-terrain-mods-sc4e"
   include:
   - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_No5_RockTextures_MissouriBreaks_Essential.dat"
-  - "/CPT_B_OlympicBeach_Optional.dat"
-  - "/CPT_C_MeadowshireCliff_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
   - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "default" }
     include:
@@ -311,6 +354,12 @@ assets:
   - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "lower-snow" }
     include:
     - "/CPT_No6_zzMeadowShireTerrainController_LowerSnowPatch.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_B_OlympicBeach_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_C_MeadowshireCliff_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "default" }
@@ -353,13 +402,21 @@ group: "cycledogg"
 name: "olympic-terrain"
 version: "3.0"
 subfolder: "170-terrain"
-assets:
+assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
 - assetId: "cycledogg-terrain-mods-sc4e"
   include:
   - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_No5_RockTextures_Olympic_Essential.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_No6_OlympicTerrainController_NormalErosion_Essential.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_B_OlympicBeach_Optional.dat"
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
   - "/CPT_C_OlympicCliff_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   include:
