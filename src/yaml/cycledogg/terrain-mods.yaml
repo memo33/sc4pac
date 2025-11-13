@@ -31,6 +31,23 @@ assets:
   - ifVariant: { cycledogg:columbus-terrain:snow-level: "snowcapped-lower" }
     include:
     - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController SNOWCAPPED LOWER.dat"
+- assetId: "lowkee33-seasonal-flora-patch"
+  withConditions:
+  - ifVariant: { cycledogg:columbus-terrain:snow-level: "default" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_Columbus.dat"
+  - ifVariant: { cycledogg:columbus-terrain:snow-level: "alternative" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_Columbus.dat"
+  - ifVariant: { cycledogg:columbus-terrain:snow-level: "snowcapped" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_Columbus_Snowcapped.dat"
+  - ifVariant: { cycledogg:columbus-terrain:snow-level: "snowcapped-low" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_Columbus_Snowcapped_Low.dat"
+  - ifVariant: { cycledogg:columbus-terrain:snow-level: "snowcapped-lower" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_Columbus_Snowcapped_Lower.dat"
 variantInfo:
 - variantId: "cycledogg:columbus-terrain:snow-level"
   description: "Customize the terrain parameters and snow elevation"
@@ -53,6 +70,8 @@ info:
     This is an SD terrain mod, compatible with software rendering mode.
 
     Changes the default Maxis terrain textures to reflect the landscape of the northern Great Plains in Montana, USA. Includes different terrain and rock textures. Apart from different terrain and rock textures, some variants include files that will create snowcapped mountains, similar to the Arctic Terrain Mod by Teirusu.
+
+    This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
   websites:
   - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
@@ -83,6 +102,17 @@ assets:
   - ifVariant: { cycledogg:canyonlands-terrain:controller: "monument-valley" }
     include:
     - "/CPT_No6_MonumentValleyTerrainController.dat"
+- assetId: "lowkee33-seasonal-flora-patch"
+  withConditions:
+  - ifVariant: { cycledogg:canyonlands-terrain:controller: "default" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_Canyonlands_and_LowerSnowPatch.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:controller: "lower-snow" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_Canyonlands_and_LowerSnowPatch.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:controller: "monument-valley" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_MonumentValley.dat"
 variantInfo:
 - variantId: "cycledogg:canyonlands-terrain:controller"
   description: "Choose the terrain controller variant"
@@ -101,6 +131,8 @@ info:
     This is an SD terrain mod, compatible with software rendering mode.
 
     A desert terrain mod made especially for the Canyonlands map and the Monument Valley map, but it can be used with any map. This mod changes the ground textures of the undeveloped areas of your city to create an orange and rusty rock desert at low elevations. At medium-high elevations, the land becomes greener, and at very high elevations, there is snow. In total, this mod applies approximately four times as many textures to the terrain as the unmodded game, and significantly more than the Columbus Mod.
+
+    This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
   websites:
   - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
@@ -130,6 +162,17 @@ assets:
   - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-lower-snow" }
     include:
     - "/CPT_No6_zzGrandCanyonTerrainController_LowerLowerSnowPatch.dat"
+- assetId: "lowkee33-seasonal-flora-patch"
+  withConditions:
+  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "default" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_GrandCanyon.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-snow" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_GrandCanyon_LowerSnowPatch.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-lower-snow" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_GrandCanyon_LowerLowerSnowPatch.dat"
 variantInfo:
 - variantId: "cycledogg:grand-canyon-terrain:snow-level"
   description: "Customize the height at which snow appears"
@@ -148,6 +191,8 @@ info:
     This is an SD terrain mod, compatible with software rendering mode.
 
     A desert terrain mod made especially for the Grand Canyon map, but it can be used with any map. This mod changes the ground textures of the undeveloped areas of your city to create an orange and rusty rock desert at low and medium elevations. At high elevations, the land becomes greener, and at very, very high elevations, there is snow. In total, this mod applies approximately four times as many textures to the terrain as the unmodded game, and significantly more than the Columbus Mod.
+
+    This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
   websites:
   - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
@@ -166,6 +211,9 @@ assets:
   - "/CPT_B_MoabBeach_Optional.dat"
   - "/CPT_C_MoabCliff_Optional.dat"
   - "/CPT_W_BlueRiver_Water_Optional.dat"
+- assetId: "lowkee33-seasonal-flora-patch"
+  include:
+  - "/z_LK_FloraTuningParameters_Seasonal_CP_PaintedDesert.dat"
 info:
   summary: "Orange and white sandstone desert terrain mod"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -173,6 +221,8 @@ info:
     This is an SD terrain mod, compatible with software rendering mode.
 
     An orange and white sandstone desert mod, loosely based on the Colorado Plateau area of the southwestern US. This mod changes the ground textures of the undeveloped areas of your city to give it a southwestern US look. Lower elevations are orange sandstone or orange dirt with areas of sagebrush and other sparse vegetation. Higher up is a band of white rock/dirt/clay, also with areas of sparse vegetation. As the elevation increases above the band of white rock/dirt/clay, the terrain becomes densely covered with sagebrush, and then, above the sagebrush, green and grassy. On very high mountains, you will find flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines.
+
+    This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
   websites:
   - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
@@ -202,6 +252,17 @@ assets:
   - ifVariant: { cycledogg:italia-terrain:snow-level: "lower-snow" }
     include:
     - "/CPT_No6_zzItaliaTerrainController_LowerSnowPatch.dat"
+- assetId: "lowkee33-seasonal-flora-patch"
+  withConditions:
+  - ifVariant: { cycledogg:italia-terrain:snow-level: "default" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_Italia.dat"
+  - ifVariant: { cycledogg:italia-terrain:snow-level: "higher-snow" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_Italia_HigherSnowPatch.dat"
+  - ifVariant: { cycledogg:italia-terrain:snow-level: "lower-snow" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_Italia_LowerSnowPatch.dat"
 variantInfo:
 - variantId: "cycledogg:italia-terrain:snow-level"
   description: "Customize the height at which snow appears on mountains"
@@ -220,6 +281,8 @@ info:
     This is an SD terrain mod, compatible with software rendering mode.
 
     An Italianish terrain mod inspired by Mikebear's Italian/Mediterranean BAT series. Based loosely on Southern Italy and/or the California Coast. This mod changes the ground textures of the undeveloped areas of your city to give them a somewhat green/slightly brown appearance: lots of grassy ground with flowers, along with a wide variety of forest floor and other textures. At low/medium elevations, this mod is slightly less green (slightly more brown) than the Columbus mod, but with more detail and a greater variety of textures. At higher elevations, you will find greener ground with flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines. High mountaintops are snowcapped.
+
+    This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
   websites:
   - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
@@ -248,6 +311,17 @@ assets:
   - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "lower-snow" }
     include:
     - "/CPT_No6_zzMeadowShireTerrainController_LowerSnowPatch.dat"
+- assetId: "lowkee33-seasonal-flora-patch"
+  withConditions:
+  - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "default" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_MeadowShire.dat"
+  - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "higher-snow" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_MeadowShire_HigherSnowPatch.dat"
+  - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "lower-snow" }
+    include:
+    - "/z_LK_FloraTuningParameters_Seasonal_CP_MeadowShire_LowerSnowPatch.dat"
 variantInfo:
 - variantId: "cycledogg:meadowshire-terrain:snow-level"
   description: "Customize the height at which snow appears on mountains"
@@ -266,6 +340,8 @@ info:
     This is an SD terrain mod, compatible with software rendering mode.
 
     A green, grassy terrain mod based loosely on Western Europe/Eastern North America. This mod changes the ground textures of the undeveloped areas of your city to give them a green, grassy appearance at lower elevations and a variety of forest floors, flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines. High mountaintops are snowcapped. In total, this mod applies approximately five times as many textures to the terrain as the unmodded game, and nearly twice as many as the Columbus Mod.
+
+    This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
   websites:
   - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
@@ -285,6 +361,9 @@ assets:
   - "/CPT_No6_OlympicTerrainController_NormalErosion_Essential.dat"
   - "/CPT_B_OlympicBeach_Optional.dat"
   - "/CPT_C_OlympicCliff_Optional.dat"
+- assetId: "lowkee33-seasonal-flora-patch"
+  include:
+  - "/z_LK_FloraTuningParameters_Seasonal_CP_Olympic.dat"
 info:
   summary: "Very green terrain mod based on Olympic Peninsula, Washington State"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -292,6 +371,8 @@ info:
     This is an SD terrain mod, compatible with software rendering mode.
 
     A very green terrain mod based on the Olympic peninsula in western Washington State, USA. This mod changes the ground textures of the undeveloped areas of your city to give it a lush Olympic Peninsula-like appearance: lots of mossy ground suitable for rain forests, as well as a wide variety of other forest floor and grass textures. At higher elevations, you will find flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines.
+
+    This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
   websites:
   - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
