@@ -5,6 +5,302 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=34:c
 
 ---
 group: "cycledogg"
+name: "columbus-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+  - "/CPT_No5_RockTextures_Columbus_Essential.dat"
+  - "/CPT_B_ColumbusBeach_Optional.dat"
+  - "/CPT_C_ColumbusCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:columbus-terrain:snow-level: "default" }
+    include:
+    - "/CP_ColumbusPlayTerrainParameters.dat"
+  - ifVariant: { cycledogg:columbus-terrain:snow-level: "alternative" }
+    include:
+    - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController.dat"
+  - ifVariant: { cycledogg:columbus-terrain:snow-level: "snowcapped" }
+    include:
+    - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController SNOWCAPPED.dat"
+  - ifVariant: { cycledogg:columbus-terrain:snow-level: "snowcapped-low" }
+    include:
+    - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController SNOWCAPPED LOW.dat"
+  - ifVariant: { cycledogg:columbus-terrain:snow-level: "snowcapped-lower" }
+    include:
+    - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController SNOWCAPPED LOWER.dat"
+variantInfo:
+- variantId: "cycledogg:columbus-terrain:snow-level"
+  description: "Customize the terrain parameters and snow elevation"
+  values:
+  - value: "default"
+    description: "Standard Columbus terrain without snowcapped mountains"
+    default: true
+  - value: "alternative"
+    description: "Alternative parameters for use with CPT_No7 Tree Controller"
+  - value: "snowcapped"
+    description: "Snowcapped mountains similar to Arctic Terrain Mod"
+  - value: "snowcapped-low"
+    description: "Snow appears at lower elevation threshold"
+  - value: "snowcapped-lower"
+    description: "Snow appears at even lower elevation threshold"
+info:
+  summary: "Northern Great Plains terrain mod based on Montana, USA"
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This is an SD terrain mod, compatible with software rendering mode.
+
+    Changes the default Maxis terrain textures to reflect the landscape of the northern Great Plains in Montana, USA. Includes different terrain and rock textures. Apart from different terrain and rock textures, some variants include files that will create snowcapped mountains, similar to the Arctic Terrain Mod by Teirusu.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  - https://community.simtropolis.com/files/file/13804-columbus-textures-for-jeronijs-mod/
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ColumbusTerrainMod.jpg
+
+---
+group: "cycledogg"
+name: "canyonlands-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+  - "/CPT_No5_RockTextures_Moab_Essential.dat"
+  - "/CPT_B_MoabBeach_Optional.dat"
+  - "/CPT_C_MonumentValleyCliff_Optional.dat"
+  - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:canyonlands-terrain:controller: "default" }
+    include:
+    - "/CPT_No6_CanyonlandsTerrainController.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:controller: "lower-snow" }
+    include:
+    - "/CPT_No6_zzCanyonlandsTerrainController_LowerSnowPatch.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:controller: "monument-valley" }
+    include:
+    - "/CPT_No6_MonumentValleyTerrainController.dat"
+variantInfo:
+- variantId: "cycledogg:canyonlands-terrain:controller"
+  description: "Choose the terrain controller variant"
+  values:
+  - value: "default"
+    description: "Standard Canyonlands terrain controller"
+    default: true
+  - value: "lower-snow"
+    description: "Canyonlands terrain with lower snow patch elevation"
+  - value: "monument-valley"
+    description: "Monument Valley terrain controller variant"
+info:
+  summary: "Desert terrain mod for Canyonlands and Monument Valley maps"
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This is an SD terrain mod, compatible with software rendering mode.
+
+    A desert terrain mod made especially for the Canyonlands map and the Monument Valley map, but it can be used with any map. This mod changes the ground textures of the undeveloped areas of your city to create an orange and rusty rock desert at low elevations. At medium-high elevations, the land becomes greener, and at very high elevations, there is snow. In total, this mod applies approximately four times as many textures to the terrain as the unmodded game, and significantly more than the Columbus Mod.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/CanyonlandsTerrainMod.jpg
+
+---
+group: "cycledogg"
+name: "grand-canyon-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+  - "/CPT_No5_RockTextures_Moab_Essential.dat"
+  - "/CPT_B_MoabBeach_Optional.dat"
+  - "/CPT_C_MonumentValleyCliff_Optional.dat"
+  - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "default" }
+    include:
+    - "/CPT_No6_GrandCanyonTerrainController.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-snow" }
+    include:
+    - "/CPT_No6_zzGrandCanyonTerrainController_LowerSnowPatch.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-lower-snow" }
+    include:
+    - "/CPT_No6_zzGrandCanyonTerrainController_LowerLowerSnowPatch.dat"
+variantInfo:
+- variantId: "cycledogg:grand-canyon-terrain:snow-level"
+  description: "Customize the height at which snow appears"
+  values:
+  - value: "default"
+    description: "Standard Grand Canyon terrain with snow at very high elevations"
+    default: true
+  - value: "lower-snow"
+    description: "Snow appears at lower elevation threshold"
+  - value: "lower-lower-snow"
+    description: "Snow appears at even lower elevation threshold"
+info:
+  summary: "Desert terrain mod for Grand Canyon map"
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This is an SD terrain mod, compatible with software rendering mode.
+
+    A desert terrain mod made especially for the Grand Canyon map, but it can be used with any map. This mod changes the ground textures of the undeveloped areas of your city to create an orange and rusty rock desert at low and medium elevations. At high elevations, the land becomes greener, and at very, very high elevations, there is snow. In total, this mod applies approximately four times as many textures to the terrain as the unmodded game, and significantly more than the Columbus Mod.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+
+---
+group: "cycledogg"
+name: "painted-desert-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+  - "/CPT_No5_RockTextures_Moab_Essential.dat"
+  - "/CPT_No6_PaintedDesertTerrainController.dat"
+  - "/CPT_B_MoabBeach_Optional.dat"
+  - "/CPT_C_MoabCliff_Optional.dat"
+  - "/CPT_W_BlueRiver_Water_Optional.dat"
+info:
+  summary: "Orange and white sandstone desert terrain mod"
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This is an SD terrain mod, compatible with software rendering mode.
+
+    An orange and white sandstone desert mod, loosely based on the Colorado Plateau area of the southwestern US. This mod changes the ground textures of the undeveloped areas of your city to give it a southwestern US look. Lower elevations are orange sandstone or orange dirt with areas of sagebrush and other sparse vegetation. Higher up is a band of white rock/dirt/clay, also with areas of sparse vegetation. As the elevation increases above the band of white rock/dirt/clay, the terrain becomes densely covered with sagebrush, and then, above the sagebrush, green and grassy. On very high mountains, you will find flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  - https://community.simtropolis.com/files/file/16036-cpt-painted-desert-terrain-mod/
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/PaintedDesertTerrainMod.jpg
+
+---
+group: "cycledogg"
+name: "italia-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+  - "/CPT_No5_RockTextures_Olympic_Essential.dat"
+  - "/CPT_B_OlympicBeach_Optional.dat"
+  - "/CPT_C_ItaliaCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:italia-terrain:snow-level: "default" }
+    include:
+    - "/CPT_No6_ItaliaTerrainController_Essential.dat"
+  - ifVariant: { cycledogg:italia-terrain:snow-level: "higher-snow" }
+    include:
+    - "/CPT_No6_zzItaliaTerrainController_HigherSnowPatch.dat"
+  - ifVariant: { cycledogg:italia-terrain:snow-level: "lower-snow" }
+    include:
+    - "/CPT_No6_zzItaliaTerrainController_LowerSnowPatch.dat"
+variantInfo:
+- variantId: "cycledogg:italia-terrain:snow-level"
+  description: "Customize the height at which snow appears on mountains"
+  values:
+  - value: "default"
+    description: "Standard Italia terrain with default snow elevation"
+    default: true
+  - value: "higher-snow"
+    description: "Snow appears at higher elevation threshold"
+  - value: "lower-snow"
+    description: "Snow appears at lower elevation threshold"
+info:
+  summary: "Italian/Mediterranean terrain mod inspired by Southern Italy"
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This is an SD terrain mod, compatible with software rendering mode.
+
+    An Italianish terrain mod inspired by Mikebear's Italian/Mediterranean BAT series. Based loosely on Southern Italy and/or the California Coast. This mod changes the ground textures of the undeveloped areas of your city to give them a somewhat green/slightly brown appearance: lots of grassy ground with flowers, along with a wide variety of forest floor and other textures. At low/medium elevations, this mod is slightly less green (slightly more brown) than the Columbus mod, but with more detail and a greater variety of textures. At higher elevations, you will find greener ground with flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines. High mountaintops are snowcapped.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ItaliaTerrainMod.jpg
+
+---
+group: "cycledogg"
+name: "meadowshire-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+  - "/CPT_No5_RockTextures_MissouriBreaks_Essential.dat"
+  - "/CPT_B_OlympicBeach_Optional.dat"
+  - "/CPT_C_MeadowshireCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "default" }
+    include:
+    - "/CPT_No6_MeadowShireTerrainController_Essential.dat"
+  - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "higher-snow" }
+    include:
+    - "/CPT_No6_zzMeadowShire_TerrainController_HigherSnowPatch.dat"
+  - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "lower-snow" }
+    include:
+    - "/CPT_No6_zzMeadowShireTerrainController_LowerSnowPatch.dat"
+variantInfo:
+- variantId: "cycledogg:meadowshire-terrain:snow-level"
+  description: "Customize the height at which snow appears on mountains"
+  values:
+  - value: "default"
+    description: "Standard Meadowshire terrain with default snow elevation"
+    default: true
+  - value: "higher-snow"
+    description: "Snow appears at higher elevation threshold"
+  - value: "lower-snow"
+    description: "Snow appears at lower elevation threshold"
+info:
+  summary: "Green, grassy terrain mod based on Western Europe/Eastern North America"
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This is an SD terrain mod, compatible with software rendering mode.
+
+    A green, grassy terrain mod based loosely on Western Europe/Eastern North America. This mod changes the ground textures of the undeveloped areas of your city to give them a green, grassy appearance at lower elevations and a variety of forest floors, flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines. High mountaintops are snowcapped. In total, this mod applies approximately five times as many textures to the terrain as the unmodded game, and nearly twice as many as the Columbus Mod.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MeadowshireTerrainMod.jpg
+
+---
+group: "cycledogg"
+name: "olympic-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+  - "/CPT_No5_RockTextures_Olympic_Essential.dat"
+  - "/CPT_No6_OlympicTerrainController_NormalErosion_Essential.dat"
+  - "/CPT_B_OlympicBeach_Optional.dat"
+  - "/CPT_C_OlympicCliff_Optional.dat"
+info:
+  summary: "Very green terrain mod based on Olympic Peninsula, Washington State"
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This is an SD terrain mod, compatible with software rendering mode.
+
+    A very green terrain mod based on the Olympic peninsula in western Washington State, USA. This mod changes the ground textures of the undeveloped areas of your city to give it a lush Olympic Peninsula-like appearance: lots of mossy ground suitable for rain forests, as well as a wide variety of other forest floor and grass textures. At higher elevations, you will find flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  - https://community.simtropolis.com/files/file/16033-cpt-olympic-terrain-mod/
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/OlympicTerrainMod.jpg
+
+---
+group: "cycledogg"
 name: "missouri-breaks-terrain"
 version: "3.0"
 subfolder: "170-terrain"
@@ -36,6 +332,8 @@ info:
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
   description: |
     This is an SD terrain mod, compatible with software rendering mode.
+
+    A "badlands" terrain mod based on the Missouri Breaks area of eastern Montana, USA. This mod changes the ground textures of the undeveloped areas of your city to give it a "badlands" look: lots of sagebrush and chalky white slopes, as well as a variety of grasslands. At higher elevations, you will find flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines.
 
     This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
