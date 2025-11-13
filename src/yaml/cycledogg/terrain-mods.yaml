@@ -33,11 +33,15 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
     include:
     - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController SNOWCAPPED LOWER.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_B_ColumbusBeach_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:columbus-terrain:beach: "default" }
+    include:
+    - "/CPT_B_ColumbusBeach_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_C_ColumbusCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:columbus-terrain:cliff: "default" }
+    include:
+    - "/CPT_C_ColumbusCliff_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:columbus-terrain:snow-level: "default" }
@@ -70,6 +74,22 @@ variantInfo:
     description: "Snow appears at lower elevation threshold"
   - value: "snowcapped-lower"
     description: "Snow appears at even lower elevation threshold"
+- variantId: "cycledogg:columbus-terrain:beach"
+  description: "Optional beach and underwater textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default beach textures or another beach mod"
+  - value: "default"
+    description: "Columbus beach textures"
+    default: true
+- variantId: "cycledogg:columbus-terrain:cliff"
+  description: "Optional cliff textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default cliff textures or another cliff mod"
+  - value: "default"
+    description: "Columbus cliff textures"
+    default: true
 info:
   summary: "Northern Great Plains terrain mod based on Montana, USA"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -110,14 +130,20 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
     include:
     - "/CPT_No6_MonumentValleyTerrainController.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_B_MoabBeach_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:canyonlands-terrain:beach: "default" }
+    include:
+    - "/CPT_B_MoabBeach_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_C_MonumentValleyCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:canyonlands-terrain:cliff: "default" }
+    include:
+    - "/CPT_C_MonumentValleyCliff_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:canyonlands-terrain:water: "default" }
+    include:
+    - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:canyonlands-terrain:controller: "default" }
@@ -140,6 +166,30 @@ variantInfo:
     description: "Canyonlands terrain with lower snow patch elevation"
   - value: "monument-valley"
     description: "Monument Valley terrain controller variant"
+- variantId: "cycledogg:canyonlands-terrain:beach"
+  description: "Optional beach and underwater textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default beach textures or another beach mod"
+  - value: "default"
+    description: "Moab beach textures optimized for desert terrain"
+    default: true
+- variantId: "cycledogg:canyonlands-terrain:cliff"
+  description: "Optional cliff textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default cliff textures or another cliff mod"
+  - value: "default"
+    description: "Monument Valley cliff textures"
+    default: true
+- variantId: "cycledogg:canyonlands-terrain:water"
+  description: "Optional water textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default water or another water mod"
+  - value: "default"
+    description: "Little Missouri water textures"
+    default: true
 info:
   summary: "Desert terrain mod for Canyonlands and Monument Valley maps"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -179,14 +229,20 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
     include:
     - "/CPT_No6_zzGrandCanyonTerrainController_LowerLowerSnowPatch.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_B_MoabBeach_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:grand-canyon-terrain:beach: "default" }
+    include:
+    - "/CPT_B_MoabBeach_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_C_MonumentValleyCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:grand-canyon-terrain:cliff: "default" }
+    include:
+    - "/CPT_C_MonumentValleyCliff_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:grand-canyon-terrain:water: "default" }
+    include:
+    - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "default" }
@@ -209,6 +265,30 @@ variantInfo:
     description: "Snow appears at lower elevation threshold"
   - value: "lower-lower-snow"
     description: "Snow appears at even lower elevation threshold"
+- variantId: "cycledogg:grand-canyon-terrain:beach"
+  description: "Optional beach and underwater textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default beach textures or another beach mod"
+  - value: "default"
+    description: "Moab beach textures optimized for desert terrain"
+    default: true
+- variantId: "cycledogg:grand-canyon-terrain:cliff"
+  description: "Optional cliff textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default cliff textures or another cliff mod"
+  - value: "default"
+    description: "Monument Valley cliff textures"
+    default: true
+- variantId: "cycledogg:grand-canyon-terrain:water"
+  description: "Optional water textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default water or another water mod"
+  - value: "default"
+    description: "Little Missouri water textures"
+    default: true
 info:
   summary: "Desert terrain mod for Grand Canyon map"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -238,17 +318,48 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
   include:
   - "/CPT_No6_PaintedDesertTerrainController.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_B_MoabBeach_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:painted-desert-terrain:beach: "default" }
+    include:
+    - "/CPT_B_MoabBeach_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_C_MoabCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:painted-desert-terrain:cliff: "default" }
+    include:
+    - "/CPT_C_MoabCliff_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_W_BlueRiver_Water_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:painted-desert-terrain:water: "default" }
+    include:
+    - "/CPT_W_BlueRiver_Water_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   include:
   - "/z_LK_FloraTuningParameters_Seasonal_CP_PaintedDesert.dat"
+variantInfo:
+- variantId: "cycledogg:painted-desert-terrain:beach"
+  description: "Optional beach and underwater textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default beach textures or another beach mod"
+  - value: "default"
+    description: "Moab beach textures optimized for desert terrain"
+    default: true
+- variantId: "cycledogg:painted-desert-terrain:cliff"
+  description: "Optional cliff textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default cliff textures or another cliff mod"
+  - value: "default"
+    description: "Moab cliff textures with reddish-orange rock"
+    default: true
+- variantId: "cycledogg:painted-desert-terrain:water"
+  description: "Optional water textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default water or another water mod"
+  - value: "default"
+    description: "Blue River water textures with small waves"
+    default: true
 info:
   summary: "Orange and white sandstone desert terrain mod"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -289,11 +400,15 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
     include:
     - "/CPT_No6_zzItaliaTerrainController_LowerSnowPatch.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_B_OlympicBeach_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:italia-terrain:beach: "default" }
+    include:
+    - "/CPT_B_OlympicBeach_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_C_ItaliaCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:italia-terrain:cliff: "default" }
+    include:
+    - "/CPT_C_ItaliaCliff_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:italia-terrain:snow-level: "default" }
@@ -316,6 +431,22 @@ variantInfo:
     description: "Snow appears at higher elevation threshold"
   - value: "lower-snow"
     description: "Snow appears at lower elevation threshold"
+- variantId: "cycledogg:italia-terrain:beach"
+  description: "Optional beach and underwater textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default beach textures or another beach mod"
+  - value: "default"
+    description: "Olympic beach textures"
+    default: true
+- variantId: "cycledogg:italia-terrain:cliff"
+  description: "Optional cliff textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default cliff textures or another cliff mod"
+  - value: "default"
+    description: "Italia cliff textures"
+    default: true
 info:
   summary: "Italian/Mediterranean terrain mod inspired by Southern Italy"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -355,11 +486,15 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
     include:
     - "/CPT_No6_zzMeadowShireTerrainController_LowerSnowPatch.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_B_OlympicBeach_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:meadowshire-terrain:beach: "default" }
+    include:
+    - "/CPT_B_OlympicBeach_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_C_MeadowshireCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:meadowshire-terrain:cliff: "default" }
+    include:
+    - "/CPT_C_MeadowshireCliff_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "default" }
@@ -382,6 +517,22 @@ variantInfo:
     description: "Snow appears at higher elevation threshold"
   - value: "lower-snow"
     description: "Snow appears at lower elevation threshold"
+- variantId: "cycledogg:meadowshire-terrain:beach"
+  description: "Optional beach and underwater textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default beach textures or another beach mod"
+  - value: "default"
+    description: "Olympic beach textures"
+    default: true
+- variantId: "cycledogg:meadowshire-terrain:cliff"
+  description: "Optional cliff textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default cliff textures or another cliff mod"
+  - value: "default"
+    description: "Meadowshire cliff textures"
+    default: true
 info:
   summary: "Green, grassy terrain mod based on Western Europe/Eastern North America"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -413,14 +564,35 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
   include:
   - "/CPT_No6_OlympicTerrainController_NormalErosion_Essential.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_B_OlympicBeach_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:olympic-terrain:beach: "default" }
+    include:
+    - "/CPT_B_OlympicBeach_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_C_OlympicCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:olympic-terrain:cliff: "default" }
+    include:
+    - "/CPT_C_OlympicCliff_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   include:
   - "/z_LK_FloraTuningParameters_Seasonal_CP_Olympic.dat"
+variantInfo:
+- variantId: "cycledogg:olympic-terrain:beach"
+  description: "Optional beach and underwater textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default beach textures or another beach mod"
+  - value: "default"
+    description: "Olympic beach textures"
+    default: true
+- variantId: "cycledogg:olympic-terrain:cliff"
+  description: "Optional cliff textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default cliff textures or another cliff mod"
+  - value: "default"
+    description: "Olympic cliff textures"
+    default: true
 info:
   summary: "Very green terrain mod based on Olympic Peninsula, Washington State"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
@@ -454,17 +626,48 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
   include:
   - "/CPT_No6_MissouriBreaksTerrainController.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_B_MissouriBreaksBeach_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:missouri-breaks-terrain:beach: "default" }
+    include:
+    - "/CPT_B_MissouriBreaksBeach_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_C_MissouriBreaksCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:missouri-breaks-terrain:cliff: "default" }
+    include:
+    - "/CPT_C_MissouriBreaksCliff_Optional.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_W_MissouriBreaks_MuddyWater_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:missouri-breaks-terrain:water: "default" }
+    include:
+    - "/CPT_W_MissouriBreaks_MuddyWater_Optional.dat"
 - assetId: "lowkee33-seasonal-flora-patch"
   include:
   - "/z_LK_FloraTuningParameters_Seasonal_CP_MissouriBreaks.dat"  # needs to load after the terrain controller file
+variantInfo:
+- variantId: "cycledogg:missouri-breaks-terrain:beach"
+  description: "Optional beach and underwater textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default beach textures or another beach mod"
+  - value: "default"
+    description: "Missouri Breaks beach textures"
+    default: true
+- variantId: "cycledogg:missouri-breaks-terrain:cliff"
+  description: "Optional cliff textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default cliff textures or another cliff mod"
+  - value: "default"
+    description: "Missouri Breaks cliff textures"
+    default: true
+- variantId: "cycledogg:missouri-breaks-terrain:water"
+  description: "Optional water textures"
+  values:
+  - value: "none"
+    description: "Use Maxis default water or another water mod"
+  - value: "default"
+    description: "Missouri Breaks muddy water textures"
+    default: true
 info:
   summary: "Badlands terrain mod based on eastern Montana, including Rock, Water & Beach mod"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
