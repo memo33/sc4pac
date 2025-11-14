@@ -40,6 +40,9 @@ and a [Discord channel](https://discord.com/channels/383313438065033228/11765744
   by **nos.17**
   for interactively creating metadata files
 
+- [sc4pac-actions](https://github.com/memo33/sc4pac-actions) ![github](_github.svg)
+  helper scripts for building metadata channels on GitHub
+
 
 ---
 Next up: [Highlights](packages.md)

@@ -7,7 +7,17 @@
 The application should display a detailed message explaining the problem and how to resolve it.
 
 - On **Windows**:
-  - One common problem is that the Java version on your system is too old, typically Java version 8, so you need to install a newer Java. Reboot your system afterwards.
+  - One common problem is that the Java version on your system is too old, typically Java version 8 or 11, so you need to
+
+    <details>
+    <summary>install a newer version of Java.</summary>
+
+    - First, uninstall your previous version of Java.
+    - [Download](https://adoptium.net/temurin/releases/?os=windows&package=jre) and install Java using the *.MSI* installer for *JRE* (*JDK* works as well, but is a bit larger).
+    - Reboot your system afterwards.
+
+    </details>
+
   - Sometimes, trying the web-app version as alternative can help.
 
 - On **macOS**:
@@ -17,7 +27,7 @@ The application should display a detailed message explaining the problem and how
       All of the following files may be affected by the blocking: `launch-GUI-web-macOS.command`, `cli/sc4pac`, `cli/sc4pac-cli.jar`, `cli/cicdec/cicdec.exe`.
 
 If there's no error message at all, please report the problem.
-(If you know how, also try launching the **sc4pac-gui** from the command-line to check for potential errors there.)
+<!-- (If you know how, also try launching the **sc4pac-gui** from the command-line to check for potential errors there.) -->
 
 ## Antivirus warnings :id=antivirus-warnings
 
