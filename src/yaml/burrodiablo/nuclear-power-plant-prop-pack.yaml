@@ -1,0 +1,20 @@
+group: "burrodiablo"
+name: "bd-nuclear-power-plant-prop-pack"
+version: "2.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bd-nuclear-power-plant-prop-pack"
+info:
+  summary: "Nuclear Power Plant Prop Pack by BurroDiablo"
+  author: "BurroDiablo"
+  website: "https://community.simtropolis.com/files/file/18842-nuclear-power-plant-prop-pack/"
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/a0c1739fc94c2209bc3883c0c9b97ab1-NukeProps1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/6919018715469_BurroDiablo-ELNukePlantPropsvol02.jpg.1f22bcc2f8203b9eeccd3fe347c47716.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_11/691901888e10a_BurroDiablo-ElZaporizhzhia-01.jpg.b97786396e02bd92f2cb0826f7f51288.jpg
+
+---
+assetId: "bd-nuclear-power-plant-prop-pack"
+version: "2.0"
+lastModified: "2025-11-15T22:41:23Z"
+url: "https://community.simtropolis.com/files/file/18842-nuclear-power-plant-prop-pack/?do=download"
