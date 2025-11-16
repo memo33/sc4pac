@@ -5,14 +5,38 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=34:c
 
 ---
 group: "cycledogg"
-name: "missouri-breaks-terrain"
+name: "terrain-essentials"
 version: "3.0"
-subfolder: "170-terrain"
-assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
-  # TODO consider splitting off essentials and optional components
+subfolder: "100-props-textures"
+info:
+  summary: "Terrain textures shared across multiple terrain mods"
+  description: |
+    This is an SD terrain mod, compatible with software rendering mode.
+
+    This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  - https://community.simtropolis.com/files/file/16031-cpt-no3-terraintextures/
+  - https://community.simtropolis.com/files/file/16030-cpt-no4-terraintextures/
+  images:
+  - https://www.simtropolis.com/objects/screens/0013/6d28ca183a876f7e38bc4463403c1f6d-StexPaintedDesert.jpg
+  - https://www.simtropolis.com/objects/screens/0013/6d28ca183a876f7e38bc4463403c1f6d-StexTerrainTextures2.jpg
+assets:
 - assetId: "cycledogg-terrain-mods-sc4e"
   include:
   - "/CPT Terrain Essentials No3 and No4 Terrain Textures.dat"
+
+
+---
+group: "cycledogg"
+name: "missouri-breaks-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+dependencies:
+- cycledogg:terrain-essentials
+assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
+  # TODO consider splitting optional components
 - assetId: "cycledogg-terrain-mods-sc4e"
   include:
   - "/CPT_No5_RockTextures_MissouriBreaks_Essential.dat"
