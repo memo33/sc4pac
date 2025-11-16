@@ -213,7 +213,7 @@ variantInfo:
   - value: "default"
     description: This is the default version. The maximum terrain height that can be used with this terrain controller is 4800 meters (4550 meters above water level).
     default: true
-  - value: "lower-snow"
+  - value: "low-snow"
     description: Lowers the terrain textures to about 40% of the height of the default Canyonlands Mod. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is approximately 1950 meters (1700 meters above water level). Be aware that cities containing terrain higher than 1700 meters above water level will not open, when using this variant.
   - value: "lower-snow"
     description: Lowers the terrain textures slightly to about 90% of the height of the Canyonlands Mod. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is 4400 meters (4150 meters above water level).
