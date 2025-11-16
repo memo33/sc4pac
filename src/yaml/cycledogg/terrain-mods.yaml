@@ -59,6 +59,8 @@ info:
   summary: "Badlands terrain mod based on eastern Montana, including Rock, Water & Beach mod"
   conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
   description: |
+    This mod changes the ground textures of the undeveloped areas of your city to give it a "badlands" look: lots of sagebrush and chalky white slopes, as well as a variety of grasslands. At higher elevations, you will find flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines.
+    
     This is an SD terrain mod, compatible with software rendering mode.
 
     This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
@@ -70,3 +72,527 @@ info:
   - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MissouriBreaksTerrainMod.jpg
   - https://www.simtropolis.com/objects/screens/0006/2a8077c0c6f70d5e7e30eb9d74a78524-MissBrksLeft.jpg
   - https://www.simtropolis.com/objects/screens/0006/2a8077c0c6f70d5e7e30eb9d74a78524-MissBrksRt.jpg
+
+
+---
+group: "cycledogg"
+name: "columbus-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+info:
+  summary: "A greenish terrain mod, emulating the northern parts of the Great Plains in Montana."
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This mod will change the default Maxis terrain textures into a new set, which is based on the landscape of the northern Plains/Rocky Mountains in the vicinity of Montana, USA.
+
+    This is an SD terrain mod, compatible with software rendering mode.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/ColumbusTerrainMod.jpg
+  - https://www.simtropolis.com/library/images/CorinaPics/018/08-07-Terrain.jpg
+dependencies:
+- cycledogg:terrain-essentials
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_No5_RockTextures_Columbus_Essential.dat"
+  withConditions:
+  - ifVariant: { cycledogg:columbus-terrain:controller: "default" }
+    include:
+    - "/CP_ColumbusPlayTerrainParameters.dat"
+  - ifVariant: { cycledogg:columbus-terrain:controller: "alternative" }
+    include:
+    - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController.dat"
+  - ifVariant: { cycledogg:columbus-terrain:controller: "snowcapped" }
+    include:
+    - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController SNOWCAPPED.dat"
+  - ifVariant: { cycledogg:columbus-terrain:controller: "snowcapped-low" }
+    include:
+    - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController SNOWCAPPED LOW.dat"
+  - ifVariant: { cycledogg:columbus-terrain:controller: "snowcapped-lower" }
+    include:
+    - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController SNOWCAPPED LOWER.dat"
+  - ifVariant: { cycledogg:columbus-terrain:beach: "columbus-beach" }
+    include:
+    - "/CPT_B_ColumbusBeach_Optional.dat"
+  - ifVariant: { cycledogg:columbus-terrain:beach: "other-beach" }
+    include: []
+  - ifVariant: { cycledogg:columbus-terrain:rock: "columbus-rock" }
+    include:
+    - "/CPT_C_ColumbusCliff_Optional.dat"
+  - ifVariant: { cycledogg:columbus-terrain:rock: "other-rock" }
+    include: []
+variantInfo:
+- variantId: "cycledogg:columbus-terrain:controller"
+  description: Choose the desired version of this terrain controller.
+  values:
+  - value: "default"
+    description: This is the default version.
+    default: true
+  - value: "alternative"
+    description: This is a version with different terrain parameters for the use with CPT_No7 TreeController.
+  - value: "snowcapped"
+    description: This version adds snowcaps for the use with CPT_No7 TreeController. (snowcapped mountains on the highest altitudes)
+  - value: "snowcapped-low"
+    description: This version adds low altitude snowcaps for the use with CPT_No7 TreeController. (snowcapped mountains on high altitudes)
+  - value: "snowcapped-lower"
+    description: This version lower the snowcaps a bit for the use with CPT_No7 TreeController. (snowcapped mountains on medium altitudes)
+- variantId: "cycledogg:columbus-terrain:beach"
+  description: Choose to install a beach mod.
+  values:
+  - value: "columbus-beach"
+    description: The default beach for the Columbus terrain.
+    default: true
+  - value: "other-beach"
+    description: Select if you use a different beach mod. Does not install anything.
+- variantId: "cycledogg:columbus-terrain:rock"
+  description: Choose to install a rock mod.
+  values:
+  - value: "columbus-rock"
+    description: The default rock for the Columbus terrain.
+    default: true
+  - value: "other-rock"
+    description: Select if you use a different rock mod. Does not install anything.
+
+
+---
+group: "cycledogg"
+name: "canyonlands-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+info:
+  summary: "A desert terrain based on Canyonlands and the Monument Valley national parks in the USA."
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This mod changes the ground textures of the undeveloped areas of your city to create an orange and rusty rock desert at low elevations. At medium-high elevations, the land becomes greener, and at very high elevations, there is snow.
+
+    This is an SD terrain mod, compatible with software rendering mode.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/CanyonlandsTerrainMod.jpg
+  - https://www.simtropolis.com/library/images/CorinaPics/018/06-05-Terrain.jpg
+dependencies:
+- cycledogg:terrain-essentials
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_No6_CanyonlandsTerrainController.dat"
+  - "/CPT_No5_RockTextures_Moab_Essential.dat"
+  withConditions:
+  - ifVariant: { cycledogg:canyonlands-terrain:controller: "default" }
+    include: []
+  - ifVariant: { cycledogg:canyonlands-terrain:controller: "low-snow" }
+    include:
+    - "/CPT_No6_zzCanyonlandsTerrainController_LowerSnowPatch.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:controller: "lower-snow" }
+    include:
+    - "/CPT_No6_zzGrandCanyonTerrainController_LowerLowerSnowPatch.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:beach: "canyonlands-beach" }
+    include:
+    - "/CPT_B_MoabBeach_Optional.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:beach: "other-beach" }
+    include: []
+  - ifVariant: { cycledogg:canyonlands-terrain:rock: "canyonlands-rock" }
+    include:
+    - "/CPT_C_MonumentValleyCliff_Optional.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:rock: "other-rock" }
+    include: []
+  - ifVariant: { cycledogg:canyonlands-terrain:water: "canyonlands-water" }
+    include:
+    - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:water: "other-water" }
+    include: []
+variantInfo:
+- variantId: "cycledogg:canyonlands-terrain:controller"
+  description: Choose the desired version of this terrain controller.
+  values:
+  - value: "default"
+    description: This is the default version. The maximum terrain height that can be used with this terrain controller is 4800 meters (4550 meters above water level).
+    default: true
+  - value: "lower-snow"
+    description: Lowers the terrain textures to about 40% of the height of the default Canyonlands Mod. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is approximately 1950 meters (1700 meters above water level). Be aware that cities containing terrain higher than 1700 meters above water level will not open, when using this variant.
+  - value: "monument-valley"
+    description: Lowers the terrain textures slightly to about 90% of the height of the Canyonlands Mod. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is 4400 meters (4150 meters above water level).
+- variantId: "cycledogg:canyonlands-terrain:beach"
+  description: Choose to install a beach mod.
+  values:
+  - value: "canyonlands-beach"
+    description: Beach and underwater textures optimized for use with the Grand Canyon, Canyonlands and Painted Desert terrain mods.
+    default: true
+  - value: "other-beach"
+    description: Select if you use a different beach mod. Does not install anything.
+- variantId: "cycledogg:canyonlands-terrain:rock"
+  description: Choose to install a rock mod.
+  values:
+  - value: "canyonlands-rock"
+    description: The default reddish-orange rock for the Canyonlands terrain.
+    default: true
+  - value: "other-rock"
+    description: Select if you use a different rock mod. Does not install anything.
+- variantId: "cycledogg:canyonlands-terrain:water"
+  description: Choose to install a water mod.
+  values:
+  - value: "canyonlands-water"
+    description: The default reddish-orange water for the Canyonlands terrain.
+    default: true
+  - value: "other-water"
+    description: Select if you use a different water mod. Does not install anything.
+
+
+---
+group: "cycledogg"
+name: "grand-canyon-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+info:
+  summary: "A desert terrain based on the Grand Canyon."
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This mod changes the ground textures of the undeveloped areas of your city to create an orange and rusty rock desert at low and medium elevations. At high elevations, the land becomes greener, and at very, very high elevations, there is snow.
+
+    This is an SD terrain mod, compatible with software rendering mode.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GrandCanyonTerrainMod.jpg
+  - https://www.simtropolis.com/library/images/CorinaPics/018/07-06-Terrain.jpg
+dependencies:
+- cycledogg:terrain-essentials
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_No6_GrandCanyonTerrainController.dat"
+  - "/CPT_No5_RockTextures_Moab_Essential.dat"
+  withConditions:
+  - ifVariant: { cycledogg:grand-canyon-terrain:controller: "default" }
+    include: []
+  - ifVariant: { cycledogg:grand-canyon-terrain:controller: "low-snow" }
+    include:
+    - "/CPT_No6_zzGrandCanyonTerrainController_LowerSnowPatch.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:controller: "lower-snow" }
+    include:
+    - "/CPT_No6_zzGrandCanyonTerrainController_LowerLowerSnowPatch.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:beach: "grand-canyon-beach" }
+    include:
+    - "/CPT_B_MoabBeach_Optional.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:beach: "other-beach" }
+    include: []
+  - ifVariant: { cycledogg:grand-canyon-terrain:rock: "grand-canyon-rock" }
+    include:
+    - "/CPT_C_MonumentValleyCliff_Optional.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:rock: "other-rock" }
+    include: []
+  - ifVariant: { cycledogg:grand-canyon-terrain:water: "grand-canyon-water" }
+    include:
+    - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:water: "other-water" }
+    include: []
+variantInfo:
+- variantId: "cycledogg:grand-canyon-terrain:controller"
+  description: Choose the desired version of this terrain controller.
+  values:
+  - value: "default"
+    description: This is the default version. The maximum terrain height that can be used with this terrain controller is 9000 meters (8750 meters above water level).
+    default: true
+  - value: "low-snow"
+    description: Lowers the snow to about 45% of the height of the default Grand Canyon Mod snow level. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is 4200 meters (3950 meters above water level).
+  - value: "lower-snow"
+    description: Lowers the snow to about 20% of the height of the default Grand Canyon Mod snow level. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is approximately 1950 meters (1700 meters above water level). Be aware that cities containing terrain higher than 1700 meters above water level will not open, when using this patch.
+- variantId: "cycledogg:grand-canyon-terrain:beach"
+  description: Choose to install a beach mod.
+  values:
+  - value: "grand-canyon-beach"
+    description: Beach and underwater textures optimized for use with the Grand Canyon, Canyonlands, and Painted Desert terrain mods.
+    default: true
+  - value: "other-beach"
+    description: Select if you use a different beach mod. Does not install anything.
+- variantId: "cycledogg:grand-canyon-terrain:rock"
+  description: Choose to install a rock mod.
+  values:
+  - value: "grand-canyon-rock"
+    description: The default reddish-orange rock for the grand canyon terrain.
+    default: true
+  - value: "other-rock"
+    description: Select if you use a different rock mod. Does not install anything.
+- variantId: "cycledogg:grand-canyon-terrain:water"
+  description: Choose to install a water mod.
+  values:
+  - value: "grand-canyon-water"
+    description: The default reddish-orange water for the grand canyon terrain.
+    default: true
+  - value: "other-water"
+    description: Select if you use a different water mod. Does not install anything.
+
+
+---
+group: "cycledogg"
+name: "painted-desert-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+info:
+  summary: "An orange and white sandstone desert mod, loosely based on the Colorado Plateau area of the southwestern US"
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This mod changes the ground textures of the undeveloped areas of your city to give it a southwestern US look. Lower elevations are orange sandstone or orange dirt with areas of sagebrush and other sparse vegetation. Higher up is a band of white rock/dirt/clay, also with areas of sparse vegetation. As the elevation increases above the band of white rock/dirt/clay, the terrain becomes densely covered with sagebrush, and then, above the sagebrush, green and grassy. On very high mountains, you will find flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines.
+
+    This is an SD terrain mod, compatible with software rendering mode.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/PaintedDesertTerrainMod.jpg
+  - https://www.simtropolis.com/library/images/CorinaPics/018/02-01-Terrain.jpg
+dependencies:
+- cycledogg:terrain-essentials
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_No6_PaintedDesertTerrainController.dat"
+  - "/CPT_No5_RockTextures_Moab_Essential.dat"
+  withConditions:
+  - ifVariant: { cycledogg:painted-desert-terrain:beach: "painted-desert-beach" }
+    include:
+    - "/CPT_B_MoabBeach_Optional.dat"
+  - ifVariant: { cycledogg:painted-desert-terrain:beach: "other-beach" }
+    include: []
+  - ifVariant: { cycledogg:painted-desert-terrain:rock: "painted-desert-rock" }
+    include:
+    - "/CPT_C_MoabCliff_Optional.dat"
+  - ifVariant: { cycledogg:painted-desert-terrain:rock: "other-rock" }
+    include: []
+  - ifVariant: { cycledogg:painted-desert-terrain:water: "painted-desert-water" }
+    include:
+    - "/CPT_W_BlueRiver_Water_Optional.dat"
+  - ifVariant: { cycledogg:painted-desert-terrain:water: "other-water" }
+    include: []
+variantInfo:
+- variantId: "cycledogg:painted-desert-terrain:beach"
+  description: Choose to install a beach mod.
+  values:
+  - value: "painted-desert-beach"
+    description: Beach and underwater textures optimized for use with the Grand Canyon, Canyonlands, and Painted Desert terrain mods.
+    default: true
+  - value: "other-beach"
+    description: Select if you use a different beach mod. Does not install anything.
+- variantId: "cycledogg:painted-desert-terrain:rock"
+  description: Choose to install a rock mod.
+  values:
+  - value: "painted-desert-rock"
+    description: The default reddish-orange rock for the Painted Desert terrain.
+    default: true
+  - value: "other-rock"
+    description: Select if you use a different rock mod. Does not install anything.
+- variantId: "cycledogg:painted-desert-terrain:water"
+  description: Choose to install a water mod.
+  values:
+  - value: "painted-desert-water"
+    description: A bluish water with small waves (looks good for rivers).
+    default: true
+  - value: "other-water"
+    description: Select if you use a different water mod. Does not install anything.
+
+
+---
+group: "cycledogg"
+name: "italia-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+info:
+  summary: "An Italian-ish terrain mod inspired by Mikebear's Italian/Mediterranean BAT series."
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    Based loosely on Southern Italy and/or the California Coast. This mod changes the ground textures of the undeveloped areas of your city to give them a somewhat green/slightly brown appearance: lots of grassy ground with flowers, along with a wide variety of forest floor and other textures. At low/medium elevations, this mod is slightly less green (slightly more brown) than the Columbus mod, but with more detail and a greater variety of textures. At higher elevations, you will find greener ground with flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines. High mountaintops are snowcapped.
+
+    This is an SD terrain mod, compatible with software rendering mode.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ItaliaTerrainMod.jpg
+  - https://www.simtropolis.com/library/images/CorinaPics/018/05-04-Terrain.jpg
+dependencies:
+- cycledogg:terrain-essentials
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_No6_ItaliaTerrainController_Essential.dat"
+  - "/CPT_No5_RockTextures_Olympic_Essential.dat"
+  withConditions:
+  - ifVariant: { cycledogg:italia-terrain:controller: "default" }
+    include: []
+  - ifVariant: { cycledogg:italia-terrain:controller: "higher-snow" }
+    include:
+    - "/CPT_No6_zzItaliaTerrainController_HigherSnowPatch.dat"
+  - ifVariant: { cycledogg:italia-terrain:controller: "lower-snow" }
+    include:
+    - "/CPT_No6_zzItaliaTerrainController_LowerSnowPatch.dat"
+  - ifVariant: { cycledogg:italia-terrain:beach: "italia-beach" }
+    include:
+    - "/CPT_B_OlympicBeach_Optional.dat"
+  - ifVariant: { cycledogg:italia-terrain:beach: "other-beach" }
+    include: []
+  - ifVariant: { cycledogg:italia-terrain:rock: "italia-rock" }
+    include:
+    - "/CPT_C_ItaliaCliff_Optional.dat"
+  - ifVariant: { cycledogg:italia-terrain:rock: "other-rock" }
+    include: []
+variantInfo:
+- variantId: "cycledogg:italia-terrain:controller"
+  description: Choose the desired version of this terrain controller.
+  values:
+  - value: "default"
+    description: This is the default version. The maximum terrain height that can be used with this terrain controller is meters above water level. If your terrain is higher than this, see the "Bonus Items" section below for a patch that allows a higher terrain.
+    default: true
+  - value: "higher-snow"
+    description: Raises the snow to a more realistic level, about twice as high as the default Italia snow level. This patch will raise not only the terrain textures, but also raise the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is meters above water level.
+  - value: "lower-snow"
+    description: Lowers the snow to about 60% as high as the default Italia mod snow level. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is approximately 1000 meters above water level. Be aware that cities that contain terrain higher than 1000 meters above water level will not open, when using this patch.
+- variantId: "cycledogg:italia-terrain:beach"
+  description: Choose to install a beach mod.
+  values:
+  - value: "italia-beach"
+    description: Beach and underwater textures optimized for use with the Italia, Meadowshire, and Olympic terrain mods.
+    default: true
+  - value: "other-beach"
+    description: Select if you use a different beach mod. Does not install anything.
+- variantId: "cycledogg:italia-terrain:rock"
+  description: Choose to install a rock mod.
+  values:
+  - value: "italia-rock"
+    description: A medium brown rock that matches the CPT_No5_RockTextures_Olympic ... file.
+    default: true
+  - value: "other-rock"
+    description: Select if you use a different rock mod. Does not install anything.
+
+
+---
+group: "cycledogg"
+name: "meadowshire-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+info:
+  summary: "A green, grassy terrain mod based loosely on Western Europe/Eastern North America."
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This mod changes the ground textures of the undeveloped areas of your city to give them a green, grassy appearance at lower elevations and a variety of forest floors, flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines. High mountaintops are snowcapped. In total, this mod applies approximately five times as many textures to the terrain as the unmodded game, and nearly twice as many as the Columbus Mod. The screenshots below give a sampling of how the terrain looks at various elevations.
+
+    This is an SD terrain mod, compatible with software rendering mode.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MeadowshireTerrainMod.jpg
+  - https://www.simtropolis.com/library/images/CorinaPics/018/10-09-Terrain.jpg
+dependencies:
+- cycledogg:terrain-essentials
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_No6_MeadowShireTerrainController_Essential.dat"
+  - "/CPT_No5_RockTextures_MissouriBreaks_Essential.dat"
+  withConditions:
+  - ifVariant: { cycledogg:meadowshire-terrain:controller: "default" }
+    include: []
+  - ifVariant: { cycledogg:meadowshire-terrain:controller: "higher-snow" }
+    include:
+    - "/CPT_No6_zzMeadowShire_TerrainController_HigherSnowPatch.dat"
+  - ifVariant: { cycledogg:meadowshire-terrain:controller: "lower-snow" }
+    include:
+    - "/CPT_No6_zzMeadowShireTerrainController_LowerSnowPatch.dat"
+  - ifVariant: { cycledogg:meadowshire-terrain:beach: "meadowshire-beach" }
+    include:
+    - "/CPT_B_OlympicBeach_Optional.dat"
+  - ifVariant: { cycledogg:meadowshire-terrain:beach: "other-beach" }
+    include: []
+  - ifVariant: { cycledogg:meadowshire-terrain:rock: "meadowshire-rock" }
+    include:
+    - "/CPT_C_MeadowshireCliff_Optional.dat"
+  - ifVariant: { cycledogg:meadowshire-terrain:rock: "other-rock" }
+    include: []
+variantInfo:
+- variantId: "cycledogg:meadowshire-terrain:controller"
+  description: Choose the desired version of this terrain controller.
+  values:
+  - value: "default"
+    description: "This is the default version. The maximum terrain height that can be used with this terrain controller is 1950 meters (1700 meters above water level). If your terrain is higher than this, consider the `higher-snow` variant."
+    default: true
+  - value: "higher-snow"
+    description: Raises the snow to a more realistic level, about 75% higher than the default Meadowshire snow level. This patch will raise not only the terrain textures, but also raise the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is 3250 meters (3000 meters above water level).
+  - value: "lower-snow"
+    description: Lowers the snow to about 65% lower than the default Meadowshire mod snow level. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is approximately 1250 meters (1000 meters above water level). Be aware that cities containing terrain higher than 1000 meters above water level will not open when using this variant.
+- variantId: "cycledogg:meadowshire-terrain:beach"
+  description: Choose to install a beach mod.
+  values:
+  - value: "meadowshire-beach"
+    description: Beach and underwater textures optimized for use with the Italia, Meadowshire, and Olympic terrain mods.
+    default: true
+  - value: "other-beach"
+    description: Select if you use a different beach mod. Does not install anything.
+- variantId: "cycledogg:meadowshire-terrain:rock"
+  description: Choose to install a rock mod.
+  values:
+  - value: "meadowshire-rock"
+    description: A gray rock that matches the CPT_No5_RockTextures_MissouriBreaks ... file. It is equivalent to PEG's or Sorchin's Rock Mod.
+    default: true
+  - value: "other-rock"
+    description: Select if you use a different rock mod. Does not install anything.
+
+
+---
+group: "cycledogg"
+name: "olympic-terrain"
+version: "3.0"
+subfolder: "170-terrain"
+info:
+  summary: "A very green terrain mod based on the Olympic peninsula in western Washington State, USA."
+  conflicts: "Incompatible with all other terrain mods – only one terrain mod may be installed. Compatible with seasonal tree controllers."
+  description: |
+    This mod changes the ground textures of the undeveloped areas of your city to give it a lush Olympic Peninsula-like appearance: lots of mossy ground suitable for rain forests, as well as a wide variety of other forest floor and grass textures. At higher elevations, you will find flowering alpine meadows, rock outcroppings, scree slopes, and snowy ravines.
+
+    This is an SD terrain mod, compatible with software rendering mode.
+  author: "c.p./Cycledogg"
+  websites:
+  - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
+  images:
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/OlympicTerrainMod.jpg
+  - https://www.simtropolis.com/library/images/CorinaPics/018/03-02-Terrain.jpg
+dependencies:
+- cycledogg:terrain-essentials
+assets:
+- assetId: "cycledogg-terrain-mods-sc4e"
+  include:
+  - "/CPT_No6_OlympicTerrainController_NormalErosion_Essential.dat"
+  - "/CPT_No5_RockTextures_Olympic_Essential.dat"
+  withConditions:
+  - ifVariant: { cycledogg:olympic-terrain:beach: "olympic-beach" }
+    include:
+    - "/CPT_B_OlympicBeach_Optional.dat"
+  - ifVariant: { cycledogg:olympic-terrain:beach: "other-beach" }
+    include: []
+  - ifVariant: { cycledogg:olympic-terrain:rock: "olympic-rock" }
+    include:
+    - "/CPT_C_OlympicCliff_Optional.dat"
+  - ifVariant: { cycledogg:olympic-terrain:rock: "other-rock" }
+    include: []
+variantInfo:
+- variantId: "cycledogg:olympic-terrain:beach"
+  description: Choose to install a beach mod.
+  values:
+  - value: "olympic-beach"
+    description: Beach and underwater textures optimized for use with the Italia, Meadowshire, and Olympic terrain mods.
+    default: true
+  - value: "other-beach"
+    description: Select if you use a different beach mod. Does not install anything.
+- variantId: "cycledogg:olympic-terrain:rock"
+  description: Choose to install a rock mod.
+  values:
+  - value: "olympic-rock"
+    description: A medium brown rock, similar to much of the rock of the Olympic Peninsula and many areas of the Pacific Northwest (USA).
+    default: true
+  - value: "other-rock"
+    description: Select if you use a different rock mod. Does not install anything.
