@@ -118,7 +118,7 @@ Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':t
 * `pkg=kodlovag:uniform-street-lighting-mod`
 * `pkg=peg:power-tower-pylons` (silvery-gray reskin)
 * `pkg=fanta1990:hang-glider-makeover`
-* `pkg=mgb204:terrain-grass-nam-base` (or `pkg=mgb204:terrain-grass-nam-complete` to override non-network grass textures as well).
+* `pkg=mgb204:terrain-grass-nam`
 
 ## Gameplay mods
 
