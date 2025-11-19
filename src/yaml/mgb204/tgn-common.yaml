@@ -42,7 +42,7 @@ dependencies:
 ---
 group: mgb204
 name: terrain-grass-nam-base
-version: "2.45"
+version: "2.45-1"
 subfolder: 900-overrides
 info:
   summary: Terrain Grass NAM (TGN) – ***Base Mod***
@@ -78,17 +78,54 @@ dependencies:
   - mgb204:terrain-grass-nam-option-cul-de-sacs
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
-    dependencies:
-      - mgb204:terrain-grass-nam-base-appalachian
+    assets:
+      - &terrainAsset
+        assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
+        include:
+          - /TGN S3D Textures.dat
+          - /[1235]\b.*
+        exclude:
+          - /zoption_
+          - UkOld
+        withConditions:
+          - ifVariant: { driveside: right }
+            exclude:
+              - \bLHD\b
+          - ifVariant: { driveside: left }
+            exclude:
+              - \bRHD\b
+          - ifVariant: { roadstyle: US }
+            exclude:
+              - \bEU\b
+          - ifVariant: { roadstyle: EU }
+            exclude:
+              - \bUS\b
+              - \bRoad RTL\b
+          - ifVariant: { mgb204:terrain-grass-nam-base:rail-textures: maxis }
+            exclude:
+              - \bPEG Rail\b
+              - \bRRW\b
+          - ifVariant: { mgb204:terrain-grass-nam-base:rail-textures: peg }
+            exclude:
+              - \bMaxis Rail\b
+              - \bRRW\b
+          - ifVariant: { mgb204:terrain-grass-nam-base:rail-textures: rrw }
+            exclude:
+              - \bMaxis Rail\b
+              - \bPEG Rail\b
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
-    dependencies:
-      - mgb204:terrain-grass-nam-base-pyrenean
+    assets:
+      - <<: *terrainAsset
+        assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
-    dependencies:
-      - mgb204:terrain-grass-nam-base-berner-oberland
+    assets:
+      - <<: *terrainAsset
+        assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
-    dependencies:
-      - mgb204:terrain-grass-nam-base-sudden-valley
+    assets:
+      - <<: *terrainAsset
+        assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+
 variantInfo:
 - variantId: mgb204:terrain-grass-nam-base:terrain-mod
   description: Choose a TGN terrain texture style that matches your installed terrain mod.
@@ -101,15 +138,15 @@ variantInfo:
     description: Gobias' Berner Oberland Terrain Mod
   - value: sudden-valley
     description: Gobias' Sudden Valley Terrain Mod
-# - variantId: mgb204:terrain-grass-nam-base:rail-textures  # TODO activate once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
-#   description: Choose the TGN rail texture style that matches the rest of your installed Plugins.
-#   values:
-#   - value: maxis
-#     description: default Maxis rail textures
-#   - value: peg
-#     description: PEG's rail textures
-#   - value: rrw
-#     description: the NAM's Real Railway (RRW) textures (recommended)
+- variantId: mgb204:terrain-grass-nam-base:rail-textures
+  description: Choose the TGN rail texture style that matches the rest of your installed Plugins.
+  values:
+  - value: maxis
+    description: default Maxis rail textures
+  - value: peg
+    description: PEG's rail textures
+  - value: rrw
+    description: the NAM's Real Railway (RRW) textures (recommended)
 
 ---
 group: mgb204
@@ -314,3 +351,29 @@ variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7
     description: Gobias' Berner Oberland Terrain Mod
   - value: sudden-valley
     description: Gobias' Sudden Valley Terrain Mod
+
+---
+# We use the "unified wealth" as default option, it's getting too complex otherwise.
+assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
+version: "2.45"
+lastModified: "2022-11-27T07:10:05Z"
+url: https://community.simtropolis.com/files/file/30159-mgb-terrain-grass-nam-tgn-for-gobias-berner-oberland/?do=download&r=195717
+
+---
+# We use the "unified wealth" as default option, it's getting too complex otherwise.
+assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+version: "2.45"
+lastModified: "2022-11-27T21:57:27Z"
+url: https://community.simtropolis.com/files/file/30162-mgb-terrain-grass-nam-tgn-for-gobias-sudden-valley/?do=download&r=195732
+
+---
+assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
+version: "2.45"
+lastModified: "2022-11-27T06:49:01Z"
+url: https://community.simtropolis.com/files/file/30896-mgb-terrain-grass-nam-tgn-for-lowkee-appalachian/?do=download&r=195709
+
+---
+assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
+version: "2.45"
+lastModified: "2022-11-27T06:56:42Z"
+url: https://community.simtropolis.com/files/file/30897-mgb-terrain-grass-nam-tgn-for-tsc-pyrenean/?do=download&r=195712
