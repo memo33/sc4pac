@@ -50,7 +50,6 @@ variants:
       - &terrainChoices
         assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
-          - /TGN S3D Textures.dat
           - /[1235]\b.*
         exclude:
           - UkOld
@@ -86,50 +85,34 @@ variants:
             exclude:
               - \bMaxis Rail\b
               - \bPEG Rail\b
-      - &addonChoices
-        assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - &basePath "/TGN (?:Base|S3D) Textures.dat"  # Berner Oberland and Sudden Valley apparently don't have
-                                                        # a base texture option, so to match on *something* without
-                                                        # errors, we match on mandatory S3D textures, too
-          - &bscPath "/TGN BSC Vol1-3 Override.dat"
-          - &diagFillPath "/TGN Diag Filler Override.dat"
-          - &mntoesPath "/TGN Mntoes HFC Override.dat"
-          - &paengPath "/TGN Parks 205 Override.dat"
-        withConditions:
           - ifVariant: { mgb204:terrain-grass-nam:base-textures: "no" }
-            exclude: [ *basePath ]
-          - ifVariant: { mgb204:terrain-grass-nam:base-textures: "yes" }
+            include: [ "/TGN S3D Textures.dat" ]                          # Berner Oberland and Sudden Valley apparently don't have
+          - ifVariant: { mgb204:terrain-grass-nam:base-textures: "yes" }  # a base texture option, so to match on *something* without
+            include: [ "/TGN (?:Base|S3D) Textures.dat" ]                 # errors, we match on mandatory S3D textures, too.
           - ifVariant: { mgb204:terrain-grass-nam:bsc-textures: "no" }
-            exclude: [ *bscPath ]
           - ifVariant: { mgb204:terrain-grass-nam:bsc-textures: "yes" }
+            include: [ "/TGN BSC Vol1-3 Override.dat" ]
           - ifVariant: { mgb204:terrain-grass-nam:diagonal-fillers: "no" }
-            exclude: [ *diagFillPath ]
           - ifVariant: { mgb204:terrain-grass-nam:diagonal-fillers: "yes" }
+            include: [ "/TGN Diag Filler Override.dat" ]
           - ifVariant: { mgb204:terrain-grass-nam:mntoes-textures: "no" }
-            exclude: [ *mntoesPath ]
           - ifVariant: { mgb204:terrain-grass-nam:mntoes-textures: "yes" }
+            include: [ "/TGN Mntoes HFC Override.dat" ]
           - ifVariant: { mgb204:terrain-grass-nam:paeng-parks: "no" }
-            exclude: [ *paengPath ]
           - ifVariant: { mgb204:terrain-grass-nam:paeng-parks: "yes" }
+            include: [ "/TGN Parks 205 Override.dat" ]
 
   - variant: { mgb204:terrain-grass-nam:terrain-mod: pyrenean }
     assets:
       - <<: *terrainChoices
         assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
-      - <<: *addonChoices
-        assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
   - variant: { mgb204:terrain-grass-nam:terrain-mod: berner-oberland }
     assets:
       - <<: *terrainChoices
         assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
-      - <<: *addonChoices
-        assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
   - variant: { mgb204:terrain-grass-nam:terrain-mod: sudden-valley }
     assets:
       - <<: *terrainChoices
-        assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
-      - <<: *addonChoices
         assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
 
 variantInfo:
