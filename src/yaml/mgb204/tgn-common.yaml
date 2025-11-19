@@ -1,6 +1,6 @@
 group: mgb204
 name: terrain-grass-nam-complete
-version: "2.45"
+version: "2.45-1"
 subfolder: 900-overrides
 info:
   summary: Terrain Grass NAM (TGN) – ***Full Mod***
@@ -33,11 +33,6 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_01/TGN_SV1.jpg.236bd195a1083fdd55007dbd549aa5c4.jpg
 dependencies:
   - mgb204:terrain-grass-nam-base
-  - mgb204:terrain-grass-nam-addon-base-textures
-  - mgb204:terrain-grass-nam-addon-bsc-textures
-  - mgb204:terrain-grass-nam-addon-diagonal-fillers
-  - mgb204:terrain-grass-nam-addon-mntoes
-  - mgb204:terrain-grass-nam-addon-paengs-parks
 
 ---
 group: mgb204
@@ -77,7 +72,7 @@ info:
 variants:
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
     assets:
-      - &terrainAsset
+      - &terrainChoices
         assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
         include:
           - /TGN S3D Textures.dat
@@ -116,18 +111,50 @@ variants:
             exclude:
               - \bMaxis Rail\b
               - \bPEG Rail\b
+      - &addonChoices
+        assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
+        include:
+          - &basePath "/TGN (?:Base|S3D) Textures.dat"  # Berner Oberland and Sudden Valley apparently don't have
+                                                        # a base texture option, so to match on *something* without
+                                                        # errors, we match on mandatory S3D textures, too
+          - &bscPath "/TGN BSC Vol1-3 Override.dat"
+          - &diagFillPath "/TGN Diag Filler Override.dat"
+          - &mntoesPath "/TGN Mntoes HFC Override.dat"
+          - &paengPath "/TGN Parks 205 Override.dat"
+        withConditions:
+          - ifVariant: { mgb204:terrain-grass-nam-base:base-textures: "no" }
+            exclude: [ *basePath ]
+          - ifVariant: { mgb204:terrain-grass-nam-base:base-textures: "yes" }
+          - ifVariant: { mgb204:terrain-grass-nam-base:bsc-textures: "no" }
+            exclude: [ *bscPath ]
+          - ifVariant: { mgb204:terrain-grass-nam-base:bsc-textures: "yes" }
+          - ifVariant: { mgb204:terrain-grass-nam-base:diagonal-fillers: "no" }
+            exclude: [ *diagFillPath ]
+          - ifVariant: { mgb204:terrain-grass-nam-base:diagonal-fillers: "yes" }
+          - ifVariant: { mgb204:terrain-grass-nam-base:mntoes-textures: "no" }
+            exclude: [ *mntoesPath ]
+          - ifVariant: { mgb204:terrain-grass-nam-base:mntoes-textures: "yes" }
+          - ifVariant: { mgb204:terrain-grass-nam-base:paeng-parks: "no" }
+            exclude: [ *paengPath ]
+          - ifVariant: { mgb204:terrain-grass-nam-base:paeng-parks: "yes" }
 
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
     assets:
-      - <<: *terrainAsset
+      - <<: *terrainChoices
+        assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
+      - <<: *addonChoices
         assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
     assets:
-      - <<: *terrainAsset
+      - <<: *terrainChoices
+        assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
+      - <<: *addonChoices
         assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
   - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
     assets:
-      - <<: *terrainAsset
+      - <<: *terrainChoices
+        assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
+      - <<: *addonChoices
         assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
 
 variantInfo:
@@ -153,210 +180,16 @@ variantInfo:
     description: the NAM's Real Railway (RRW) textures (recommended)
 - variantId: mgb204:terrain-grass-nam-base:cul-de-sacs
   description: Do you want to install the Cul-de-Sac option for dead-end streets?
-
----
-group: mgb204
-name: terrain-grass-nam-addon-base-textures
-version: "2.45"
-subfolder: 900-overrides
-info:
-  summary: Terrain Grass NAM (TGN) – Base Textures Addon
-  author: rsc204
-variants:
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - TGN Base Textures.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
-        include:
-          - TGN Base Textures.dat
-  # Berner Oberland and Sudden Valley apparently don't have a base texture
-  # override option.
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
-variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
-- variantId: mgb204:terrain-grass-nam-base:terrain-mod
-  description: Choose a TGN terrain texture style that matches your installed terrain mod.
-  values:
-  - value: appalachian
-    description: Lowkee's Appalachian Terrain Mod
-  - value: pyrenean
-    description: TSC Pyrenean Terrain Mod
-  - value: berner-oberland
-    description: Gobias' Berner Oberland Terrain Mod
-  - value: sudden-valley
-    description: Gobias' Sudden Valley Terrain Mod
-
----
-group: mgb204
-name: terrain-grass-nam-addon-bsc-textures
-version: "2.45"
-subfolder: 900-overrides
-info:
-  summary: Terrain Grass NAM (TGN) – BSC Textures Addon
-  author: rsc204
-variants:
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - TGN BSC Vol1-3 Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
-        include:
-          - TGN BSC Vol1-3 Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
-        include:
-          - TGN BSC Vol1-3 Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
-        include:
-          - TGN BSC Vol1-3 Override.dat
-variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
-- variantId: mgb204:terrain-grass-nam-base:terrain-mod
-  description: Choose a TGN terrain texture style that matches your installed terrain mod.
-  values:
-  - value: appalachian
-    description: Lowkee's Appalachian Terrain Mod
-  - value: pyrenean
-    description: TSC Pyrenean Terrain Mod
-  - value: berner-oberland
-    description: Gobias' Berner Oberland Terrain Mod
-  - value: sudden-valley
-    description: Gobias' Sudden Valley Terrain Mod
-
----
-group: mgb204
-name: terrain-grass-nam-addon-diagonal-fillers
-version: "2.45"
-subfolder: 900-overrides
-info:
-  summary: Terrain Grass NAM (TGN) – Diagonal Fillers Addon
-  author: rsc204
-variants:
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - TGN Diag Filler Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
-        include:
-          - TGN Diag Filler Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
-        include:
-          - TGN Diag Filler Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
-        include:
-          - TGN Diag Filler Override.dat
-variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
-- variantId: mgb204:terrain-grass-nam-base:terrain-mod
-  description: Choose a TGN terrain texture style that matches your installed terrain mod.
-  values:
-  - value: appalachian
-    description: Lowkee's Appalachian Terrain Mod
-  - value: pyrenean
-    description: TSC Pyrenean Terrain Mod
-  - value: berner-oberland
-    description: Gobias' Berner Oberland Terrain Mod
-  - value: sudden-valley
-    description: Gobias' Sudden Valley Terrain Mod
-
----
-group: mgb204
-name: terrain-grass-nam-addon-mntoes
-version: "2.45"
-subfolder: 900-overrides
-info:
-  summary: Terrain Grass NAM (TGN) – Mntoe's Textures addon
-  author: rsc204
-variants:
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - TGN Mntoes HFC Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
-        include:
-          - TGN Mntoes HFC Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
-        include:
-          - TGN Mntoes HFC Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
-        include:
-          - TGN Mntoes HFC Override.dat
-variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
-- variantId: mgb204:terrain-grass-nam-base:terrain-mod
-  description: Choose a TGN terrain texture style that matches your installed terrain mod.
-  values:
-  - value: appalachian
-    description: Lowkee's Appalachian Terrain Mod
-  - value: pyrenean
-    description: TSC Pyrenean Terrain Mod
-  - value: berner-oberland
-    description: Gobias' Berner Oberland Terrain Mod
-  - value: sudden-valley
-    description: Gobias' Sudden Valley Terrain Mod
-
----
-group: mgb204
-name: terrain-grass-nam-addon-paengs-parks
-version: "2.45"
-subfolder: 900-overrides
-info:
-  summary: Terrain Grass NAM (TGN) – Paeng's Parks Addon
-  author: rsc204
-variants:
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: appalachian }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-lowkee-appalachian
-        include:
-          - TGN Parks 205 Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: pyrenean }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-tsc-pyrenean
-        include:
-          - TGN Parks 205 Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: berner-oberland }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-berner-oberland-unified
-        include:
-          - TGN Parks 205 Override.dat
-  - variant: { mgb204:terrain-grass-nam-base:terrain-mod: sudden-valley }
-    assets:
-      - assetId: mgb204-terrain-grass-nam-tgn-for-gobias-sudden-valley-unified
-        include:
-          - TGN Parks 205 Override.dat
-variantInfo:  # TODO remove once https://github.com/memo33/sc4pac-tools/issues/7 is resolved
-- variantId: mgb204:terrain-grass-nam-base:terrain-mod
-  description: Choose a TGN terrain texture style that matches your installed terrain mod.
-  values:
-  - value: appalachian
-    description: Lowkee's Appalachian Terrain Mod
-  - value: pyrenean
-    description: TSC Pyrenean Terrain Mod
-  - value: berner-oberland
-    description: Gobias' Berner Oberland Terrain Mod
-  - value: sudden-valley
-    description: Gobias' Sudden Valley Terrain Mod
+- variantId: mgb204:terrain-grass-nam-base:base-textures
+  description: Do you want to install the optional Base Textures Addon?
+- variantId: mgb204:terrain-grass-nam-base:bsc-textures
+  description: Do you want to install the optional BSC Textures Addon?
+- variantId: mgb204:terrain-grass-nam-base:diagonal-fillers
+  description: Do you want to install the optional Diagonal Filler Addon?
+- variantId: mgb204:terrain-grass-nam-base:mntoes-textures
+  description: Do you want to install the optional Mntoes Textures Addon?
+- variantId: mgb204:terrain-grass-nam-base:paeng-parks
+  description: Do you want to install the optional Paeng Parks Addon?
 
 ---
 # We use the "unified wealth" as default option, it's getting too complex otherwise.
