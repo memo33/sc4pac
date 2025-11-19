@@ -46,3 +46,7 @@ ignore-group-prefixes-in-name:
 - vip:vip-terrain-mod-complete
 - vip:vip-terrain-mod-rock
 - vip:vip-terrain-mod-water
+
+ignore-nonunique-includes:
+- invisichem:colossus-addon-mod-legacy
+- philforhockey51:bocage
