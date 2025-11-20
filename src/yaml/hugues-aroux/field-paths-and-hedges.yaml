@@ -1,13 +1,13 @@
 group: hugues-aroux
 name: field-paths-and-hedges
-version: "2.1.0"
+version: "2.2.0"
 subfolder: 660-parks
 info:
   summary: Field Paths & Hedges
   description: |-
     This little plugin of 66 Lots, proposes a field path lined with hedges (bushes, trees). To create bocages. The tracks are adapted to the tractors proposed by the VIP and Namspopof team. They can be found for example in Fantozzi’s farms (Colossus Farming). And won’t be too disturbing with SPAM. The set of Lots includes ortho, diag, and various junctions with streets.
 
-    All Lots come with a generic grass Basetexture, which can be «canceled» to obtain transparent Lots. So, depending on your situation (DLL, OS, plugin) you will be able to use this plugin while keeping texture files or simply delete them. It’s not more complicated than that!
+    All Lots come with a generic grass base texture, which can be «canceled» to obtain transparent Lots. So, depending on your situation (DLL, OS, plugin) you will be able to use this plugin while keeping texture files or simply delete them. It’s not more complicated than that!
   author: hugues aroux
   website: https://community.simtropolis.com/files/file/33722-scoty-field-paths-hedges/
   images:
@@ -58,7 +58,7 @@ variants:
 ---
 group: hugues-aroux
 name: field-paths-and-hedges-resources
-version: "2.1.0"
+version: "2.2.0"
 subfolder: 100-props-textures
 info:
   summary: Field Paths and Hedges resources
@@ -72,7 +72,7 @@ assets:
 ---
 group: hugues-aroux
 name: field-paths-and-hedges-street-textures
-version: "2.1.0"
+version: "2.2.0"
 subfolder: 100-props-textures
 info:
   summary: Field Paths and Hedges (Street Textures)
@@ -103,7 +103,7 @@ variantDescriptions:
 ---
 group: hugues-aroux
 name: field-paths-and-hedges-grass-textures
-version: "2.1.0"
+version: "2.2.0"
 subfolder: 100-props-textures
 info:
   summary: Field Paths and Hedges (Grass Textures)
@@ -155,6 +155,6 @@ variantDescriptions:
 
 ---
 assetId: hugues-aroux-field-paths-and-hedges
-version: "2.1.0"
-lastModified: "2025-01-11T15:48:47Z"
-url: https://community.simtropolis.com/files/file/33722-scoty-field-paths-hedges/?do=download&r=205219
+version: "2.2.0"
+lastModified: "2025-11-16T09:32:22Z"
+url: https://community.simtropolis.com/files/file/33722-scoty-field-paths-hedges/?do=download
