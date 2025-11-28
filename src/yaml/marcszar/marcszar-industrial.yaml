@@ -1,0 +1,26 @@
+group: "bsc"
+name: "marcszar-industrial-props"
+version: "1.0"
+subfolder: "100-props-textures"
+assets:
+- assetId: "bsc-marcszar-industrial-props"
+  include:
+      - /MSZ_MODEL_Coleman_And_Sons_Distributors_v355.dat
+      - /MSZ_MODEL_Domino_Sugars_Plant_v300.dat
+      - /MSZ_MODEL_McCormick_and_Company_Revisited_v102.dat
+      - /MSZ_MODEL_McCormick_and_Company_v300.dat
+      - /MSZ_MODEL_Wiessner_Brewery_v200.dat
+info:
+  summary: "Industrial Props by Marcszar"
+  author: " Marcszar"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/13-industrial/169-sc4d-lex-legacy-bsc-marcszar-industrial-compilation"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Colemans_LEX_Screenshot1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/Domino_Sugars_Plant_LEX_Image_1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/McCormick_and_Company_V2_LEX_Image_1.jpg
+
+---
+assetId: "bsc-marcszar-industrial-props"
+version: "1.0"
+lastModified: 2023-11-11T08:08:19-08:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=169:sc4d-lex-legacy-bsc-marcszar-industrial-compilation"
