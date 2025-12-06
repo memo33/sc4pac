@@ -1,3 +1,5 @@
+# The package name is hard-coded in sc4pac, so should not be changed,
+# see https://github.com/memo33/sc4pac-tools/blob/0.9.2/src/main/scala/sc4pac/Constants.scala#L74
 group: null-45
 name: startup-performance-optimization-dll
 version: "2.1-1"
