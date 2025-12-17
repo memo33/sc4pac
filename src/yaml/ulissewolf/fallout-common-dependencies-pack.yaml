@@ -1,0 +1,55 @@
+group: ulisse-wolf
+name: fallout-common-dependencies-pack
+version: "4.0"
+subfolder: 100-props-textures
+info:
+  summary: Fallout - Common Dependencies Pack
+  description: |-
+    This modpack contains the entire set of props that are inspired by the Fallout series
+
+    The following members contributed models, textures, and modding support to this collection:
+
+    -   Ulisse Wolf
+    -   Tyberius06
+    -   IDS2
+    -   [Tristan B.](https://3dwarehouse.sketchup.com/user/d584289a-628e-48c5-8dce-2b924ee39978/Tristan-B) (Creator of the original models on 3D Warehouse)
+
+    **CONTENTS:**
+
+    This package contains the following uploads:
+
+    -   Fallout Prop Pack Vol 1
+    -   Fallout Prop Pack Vol 2
+    -   Fallout Prop Pack Vol 3
+    -   Fallout Prop Pack Vol 4
+
+    **LICENSING:**
+
+    This prop pack is provided as free content to SimCity 4 players, who are free to modify it for their use and for production of derivative for publication.  
+    Should the author be absent from SC4Devotion and Simtropolis.com for more than a year, site staff or individual users may re-host the file, as long as due credit is given to him, user [@Ulisse Wolf](https://community.simtropolis.com/profile/321174-ulisse-wolf/)
+  author: Ulisse Wolf
+  websites:
+    - "https://community.simtropolis.com/files/file/36616-fallout-common-dependencies-pack/"
+    - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/323-fallout-common-dependencies-pack"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/Ranger_at_New_Vegas2_entrance.jpg.d5ca618aab27bb8c75e4d56e4f2edaec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/DN.jpg.b2f476719706868899b26a1d8b027b05.jpg.badbdb3ee044612c44bf77e82c2c4ba8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/62e3175af2987_DayLotTestFalloutPropVol1.jpg.3a8488d2d461d4a2f369cd17c85ec1d9.jpg.8e1f6cbc43827200d1f9b2885aa13c56.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ulisse-wolf-fallout-common-dependencies-pack
+        exclude:
+          - /Dark Nite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ulisse-wolf-fallout-common-dependencies-pack
+        exclude:
+          - /Maxis Nite/
+
+---
+assetId: ulisse-wolf-fallout-common-dependencies-pack
+version: "4.0"
+lastModified: "2025-05-11T01:01:42Z"
+url: https://community.simtropolis.com/files/file/36616-fallout-common-dependencies-pack/?do=download&r=207612

@@ -1,0 +1,44 @@
+group: ulisse-wolf
+name: anno-2070-common-dependencies-pack
+version: "1.1.0"
+subfolder: 100-props-textures
+info:
+  summary: Anno 2070 - Common Dependencies Pack
+  description: |-
+    This Common Dependencies Pack contains the entire set of props coming from Anno 2070
+
+    The following members contributed models, textures, and modding support to this collection:
+
+    -   Ulisse Wolf
+    -   Ubisoft Blue Byte (Original 3D models creator)
+
+    **CONTENTS:**
+
+    This package contains the following uploads:
+
+    -   Anno 2077 Prop Pack Vol 1
+
+  author: Ulisse Wolf
+  websites:
+    - "https://community.simtropolis.com/files/file/36872-anno-2070-common-dependencies-pack/"
+    - "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/382-anno-2070-common-dependencies-pack"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_05/7d53edceb6efc08e3c3e54c346dac7f5.jpg.362669d0455cf1dc6e0702a3aa265982.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ulisse-wolf-anno-2070-common-dependencies-pack
+        exclude:
+          - /Dark Nite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ulisse-wolf-anno-2070-common-dependencies-pack
+        exclude:
+          - /Maxis Nite/
+
+---
+assetId: ulisse-wolf-anno-2070-common-dependencies-pack
+version: "1.1.0"
+lastModified: "2025-05-11T00:49:52Z"
+url: https://community.simtropolis.com/files/file/36872-anno-2070-common-dependencies-pack/?do=download&r=207605
