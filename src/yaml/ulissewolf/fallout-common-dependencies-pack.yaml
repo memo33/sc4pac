@@ -1,6 +1,6 @@
 group: ulisse-wolf
 name: fallout-common-dependencies-pack
-version: "4.0"
+version: "4.0-1"
 subfolder: 100-props-textures
 info:
   summary: Fallout - Common Dependencies Pack
@@ -50,6 +50,6 @@ variants:
 
 ---
 assetId: ulisse-wolf-fallout-common-dependencies-pack
-version: "4.0"
+version: "4.0-1"
 lastModified: "2025-05-11T01:01:42Z"
 url: https://community.simtropolis.com/files/file/36616-fallout-common-dependencies-pack/?do=download&r=207612

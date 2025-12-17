@@ -1,6 +1,6 @@
 group: ulisse-wolf
 name: anno-2070-common-dependencies-pack
-version: "1.1.0"
+version: "1.1.0-1"
 subfolder: 100-props-textures
 info:
   summary: Anno 2070 - Common Dependencies Pack
@@ -39,6 +39,6 @@ variants:
 
 ---
 assetId: ulisse-wolf-anno-2070-common-dependencies-pack
-version: "1.1.0"
+version: "1.1.0-1"
 lastModified: "2025-05-11T00:49:52Z"
 url: https://community.simtropolis.com/files/file/36872-anno-2070-common-dependencies-pack/?do=download&r=207605
