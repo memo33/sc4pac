@@ -1,29 +1,29 @@
 ---
 assetId: zero7-industrial-pack-irm
-version: "1.0.0"
+version: "1"
 lastModified: "2023-11-11T08:02:18-08:00"
 url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=141:sc4d-lex-legacy-zero7-industrial-pack-irm-edition
 
 ---
 assetId: zero7-industrial-pack
-version: "1.0.0"
+version: "1"
 lastModified: "2023-08-26T23:54:05-07:00"
 url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=140:sc4d-lex-legacy-zero7-industrial-pack
 
 ---
 group: zero7
 name: industrial-pack-shared-resources
-version: "1.0.0"
+version: "1"
 subfolder: 100-props-textures
 info:
   summary: Industrial pack shared resources
   description: |-
-    A dependency containing a few resources used in `pkg=mattb325:industrial-collection`
+    A dependency containing a few resources used by zero7's industrial content.
 variants:
   - variant: { memo:industrial-revolution-mod:enabled: "no" }
     assets:
       - assetId: zero7-industrial-pack
-        include:
+        include: &files
         - "/Z7_MirrorBox_Blue-0x5ad0e817_0x73cb3347_0x180000.SC4Model"
         - "/Z7_K2Distribution-0x5ad0e817_0x73cb3347_0x110000.SC4Model"
         - "/z7prop_LowBrickWallPillar-0x5ad0e817_0xb8144390_0x200000.SC4Model"
@@ -36,13 +36,4 @@ variants:
   - variant: { memo:industrial-revolution-mod:enabled: "yes" }
     assets:
       - assetId: zero7-industrial-pack-irm
-        include:
-        - "/Z7_MirrorBox_Blue-0x5ad0e817_0x73cb3347_0x180000.SC4Model"
-        - "/Z7_K2Distribution-0x5ad0e817_0x73cb3347_0x110000.SC4Model"
-        - "/z7prop_LowBrickWallPillar-0x5ad0e817_0xb8144390_0x200000.SC4Model"
-        - "/z7prop_LowBrickWall16m-0x5ad0e817_0xb8144390_0x1f0000.SC4Model"
-        - "/z7prop_LowBrickWall8m-0x5ad0e817_0xb8144390_0x1e0000.SC4Model"
-        - "/z7prop_LowBrickWall4m-0x5ad0e817_0xb8144390_0x1d0000.SC4Model"
-        - "/z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model"
-        - "/z7_PearsonsFurnishings-0x5ad0e817_0xb8144390_0x1a0000.SC4Model"
-        - "/Z7_SteetonMill-0x5ad0e817_0x73cb3347_0x1e0000.SC4Model"
+        include: *files
