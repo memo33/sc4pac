@@ -101,6 +101,7 @@ They are managed by you alone.
    - The folder contains a subfolder for each Profile. Open the file `sc4pac-plugins.json` of your Profile in a text editor and edit the `pluginsRoot` attribute.
    - Move the Plugins folder to the new location.
    - Restart *sc4pac*.
+   - Press **![](_speed.svg)Dashboard** → *Maintenance & Repair* → *Scan & Repair Plugins* to verify that *sc4pac* is in-sync with your Plugins folder.
 
    </details>
 
