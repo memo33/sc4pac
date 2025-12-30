@@ -23,17 +23,10 @@ variants:
   - variant: { memo:industrial-revolution-mod:enabled: "no" }
     assets:
       - assetId: zero7-industrial-pack
-        include: &files
-        - "/Z7_MirrorBox_Blue-0x5ad0e817_0x73cb3347_0x180000.SC4Model"
-        - "/Z7_K2Distribution-0x5ad0e817_0x73cb3347_0x110000.SC4Model"
-        - "/z7prop_LowBrickWallPillar-0x5ad0e817_0xb8144390_0x200000.SC4Model"
-        - "/z7prop_LowBrickWall16m-0x5ad0e817_0xb8144390_0x1f0000.SC4Model"
-        - "/z7prop_LowBrickWall8m-0x5ad0e817_0xb8144390_0x1e0000.SC4Model"
-        - "/z7prop_LowBrickWall4m-0x5ad0e817_0xb8144390_0x1d0000.SC4Model"
-        - "/z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model"
-        - "/z7_PearsonsFurnishings-0x5ad0e817_0xb8144390_0x1a0000.SC4Model"
-        - "/Z7_SteetonMill-0x5ad0e817_0x73cb3347_0x1e0000.SC4Model"
+        include:
+        - "Shared Resources/"
   - variant: { memo:industrial-revolution-mod:enabled: "yes" }
     assets:
       - assetId: zero7-industrial-pack-irm
-        include: *files
+        include:
+        - "Shared Resources/"
