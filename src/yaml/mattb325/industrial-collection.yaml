@@ -29,7 +29,7 @@ subfolder: 100-props-textures
 info:
   summary: Industrial pack shared resources
   description: |-
-    A dependency containing a few resources used in `pkg=mattb325:industrial-collection`
+    A dependency containing a few resources used in mattb325 industrial collection
 variants:
   - variant: { nightmode: standard, memo:industrial-revolution-mod:enabled: "no" }
     assets:
