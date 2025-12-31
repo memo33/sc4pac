@@ -12,21 +12,6 @@ info:
   description: |+
      **Colossus Addon Mod - Universal Commercial CAP Fix** is the zero-day patch that permanently fixes the Commercial CAP bug affecting Real Highway (Dirty Road) in influencing commercial demand. The main purpose of this mod is to universally fix (i.e., compatible with CAM, SPAM, and Vanilla users) the low generation of commercial demand by Real Highway, add the creation of demand from neighborhood connections for streets and one-way roads and boost demand using mass transit (Subway, Elevated Rail, Railway, High-Speed Railway / Monorail and Pedestrian Streets) in addition to assigning a reduction of CAP (for balancing purposes) to water pipes and transmission lines. These are the following changes:
 
-    * "Road: 10000"
-    * "Railroad: 40000"
-    * "Elevated Highway: 100000"
-    * "Street: 10000"
-    * "Pipe: -1000"
-    * "Power Line: -1000"
-    * "Avenue: 20000"
-    * "Subway: 30000"
-    * "Lightrail: 30000"
-    * "Monorail: 40000"
-    * "One Way Road: 10000"
-    * "Real Highway: 50000"
-    * "Ground Highway: 100000"
-
-
   author: "CAM Team"
   websites:
   - "https://community.simtropolis.com/files/file/37181-colossus-addon-mod-universal-commercial-cap-fix/"
