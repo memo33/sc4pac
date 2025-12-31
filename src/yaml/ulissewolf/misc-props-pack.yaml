@@ -1,0 +1,48 @@
+group: ulisse-wolf
+name: misc-props-pack
+version: "1.0.0"
+subfolder: 100-props-textures
+info:
+  summary: Ulisse Wolf - Misc Props Pack
+  description: |-
+
+    This Misc Props Pack contains various props of various kinds that cannot be categorized into specific props packs 
+    
+    The following members contributed models, textures, and modding support to this collection:
+
+    -   Ulisse Wolf
+    -   Maxis (For SimCity 2013 Stuff)
+    -   CD Projekt Red (For Cyberpunk 2077 Stuff)
+    -   [Tristan B.](https://3dwarehouse.sketchup.com/user/d584289a-628e-48c5-8dce-2b924ee39978/Tristan-B)(For Las Vegas Train Station)
+    -   [futaba@blende](https://sketchfab.com/3d-models/hazbin-hotelfree-downloadable-45557491856f4212b8d6c0163208d4c7)(For Hazbin Hotel)
+
+    **CONTENTS:**
+
+    This package contains the following uploads:
+
+    -   Misc Props Pack Vol 1 
+
+  author: Ulisse Wolf
+  websites:
+    - "https://community.simtropolis.com/files/file/37148-misc-props-pack/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_12/A1.jpg.50ba7a4ec18c7b12c17c9e84f5ac1704.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_12/A2.jpg.073f8bb8ce9efda788994d59111ee5e6.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: ulisse-wolf-misc-props-pack
+        exclude:
+          - /Dark Nite/
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: ulisse-wolf-misc-props-pack
+        exclude:
+          - /Maxis Nite/
+
+---
+assetId: ulisse-wolf-misc-props-pack
+version: "1.0.0"
+lastModified: "2025-12-17T22:05:42Z"
+url: https://community.simtropolis.com/files/file/37148-misc-props-pack/?do=download
