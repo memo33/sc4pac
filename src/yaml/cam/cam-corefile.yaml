@@ -1,13 +1,13 @@
 ---
 assetId: "cam-colossus-addon-mod-corefile"
-version: "3.4.1"
-lastModified: "2025-08-30T16:46:16-07:00"
+version: "3.5.0"
+lastModified: "2025-12-31T07:19:23-08:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
 
 ---
 group: "cam"
 name: "colossus-addon-mod-core"
-version: "3.4.1-1"
+version: "3.5.0"
 subfolder: "050-load-first"
 dependencies:
 - "null-45:custom-budget-departments-dll"
@@ -20,11 +20,10 @@ dependencies:
 - "scoty:zoning-mod-maxis"
 - "cyclone-boom:save-warning"
 - "memo:i-r-fix"
+- "cam:universal-commercial-cap-fix"
 
 assets:
 - assetId: "cam-colossus-addon-mod-corefile"
-  exclude:
-  - "/CAM_IR_Fix_Exemplar_Patch.dat"
 
 info:
   summary: "Colossus Addon Mod Core File – the main dependency of CAM"
@@ -42,7 +41,7 @@ info:
   - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-colossus-addon-mod-core-files"
   - "https://community.simtropolis.com/files/file/36978-colossus-addon-mod-core-files/"
   images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/COREF.jpg
+  - https://www.simtropolis.com/objects/screens/monthly_2025_12/CAMCore2.jpg.4955bd972c98493810e22dc8046846a2.jpg
 
 ---
 group: "null-45"
@@ -77,6 +76,6 @@ info:
 ---
 assetId: "null-45-sc4-advanced-water-management"
 version: "1.0"
-lastModified: "2025-08-30T16:46:16-07:00"
+lastModified: "2025-12-31T07:19:23-08:00"
 nonPersistentUrl: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
 url: "https://github.com/0xC0000054/sc4-advanced-water-management/releases/download/v1.0/AdvancedWaterManagement.zip"
