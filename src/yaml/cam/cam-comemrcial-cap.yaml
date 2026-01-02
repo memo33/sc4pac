@@ -30,7 +30,7 @@ info:
   - "https://www.simtropolis.com/objects/screens/monthly_2025_12/A21.jpg.4a85d0fa863d804f310ccba373da61ed.jpg"
 
 variantInfo:
-- variantId: "cap"
+- variantId: "cam:universal-commercial-cap-fix:cap"
   description: This setting determines what type of fix you want to install.
   values:
   - value: "standard"
