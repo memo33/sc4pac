@@ -9,13 +9,13 @@ variants:
 - variant: { cam:universal-commercial-cap-fix:cap: "standard" }
   assets:
   - assetId: "cam-universal-commercial-cap-fix"
-  include:
-  - "/CAM_Universal_CAP_Fix_Vanilla.dat"
+    include:
+    - "/CAM_Universal_CAP_Fix_Vanilla.dat"
 - variant: { cam:universal-commercial-cap-fix:cap: "radical" }
   assets:
   - assetId: "cam-universal-commercial-cap-fix"
-  include:
-  - "/CAM_Universal_CAP_Fix._Radical.dat"
+    include:
+    - "/CAM_Universal_CAP_Fix._Radical.dat"
 
 info:
   summary: "Colossus Addon Mod Universal Commercial CAP Fix – Universally fix the bug related to Commercial CAP."
@@ -30,8 +30,8 @@ info:
   - "https://www.simtropolis.com/objects/screens/monthly_2025_12/A21.jpg.4a85d0fa863d804f310ccba373da61ed.jpg"
 
 variantInfo:
-- variantId: "nightmode"
-  description: This setting determines whether buildings rendered for DN or MN are installed.
+- variantId: "cap"
+  description: This setting determines what type of fix you want to install.
   values:
   - value: "standard"
     description: The Vanilla variant is ideal if you want to maintain an experience closer to the game with the essential fix related to RHW. 
