@@ -1,11 +1,22 @@
 group: "cam"
 name: "universal-commercial-cap-fix"
-version: "1.0.0"
+version: "2.0.0"
 subfolder: "150-mods"
 dependencies:
 - "null-45:sc4-resource-loading-hooks"  # for exemplar patching
-assets:
-- assetId: "cam-universal-commercial-cap-fix"
+
+variants:
+- variant: { cam:universal-commercial-cap-fix:cap: "standard" }
+  assets:
+  - assetId: "cam-universal-commercial-cap-fix"
+  include:
+  - "/CAM_Universal_CAP_Fix_Vanilla.dat"
+- variant: { cam:universal-commercial-cap-fix:cap: "radical" }
+  assets:
+  - assetId: "cam-universal-commercial-cap-fix"
+  include:
+  - "/CAM_Universal_CAP_Fix._Radical.dat"
+
 info:
   summary: "Colossus Addon Mod Universal Commercial CAP Fix – Universally fix the bug related to Commercial CAP."
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
@@ -18,8 +29,17 @@ info:
   images:
   - "https://www.simtropolis.com/objects/screens/monthly_2025_12/A21.jpg.4a85d0fa863d804f310ccba373da61ed.jpg"
 
+variantInfo:
+- variantId: "nightmode"
+  description: This setting determines whether buildings rendered for DN or MN are installed.
+  values:
+  - value: "standard"
+    description: The Vanilla variant is ideal if you want to maintain an experience closer to the game with the essential fix related to RHW. 
+  - value: "radical"
+    description: The Radical variant is ideal if you want to reduce the car-centric view of the game by increasing the CAP related to mass transit connections and introducing penalties related to transmission networks and water pipes. 
+    
 ---
 assetId: "cam-universal-commercial-cap-fix"
-version: "1.0.0"
-lastModified: "2025-12-31T14:23:42Z"
+version: "2.0.0"
+lastModified: "2026-01-02T20:16:33Z"
 url: "https://community.simtropolis.com/files/file/37181-colossus-addon-mod-universal-commercial-cap-fix/?do=download"
