@@ -12,7 +12,7 @@ info:
   description: |2-
     A set of lots made with El Burro's excellent props that enables building modular nuclear facilities in any size. This power plant does not replace the default nuclear plant and can be built at any time.
 
-    PART I: Reactor
+    Reactor
 
     1 pc. Powerplant - 8x20
     Plop Cost: 180.000
@@ -21,13 +21,13 @@ info:
     Pollution: 80 | 200 | 110 | 0 over Radius: 20 | 30 | 0 | 0
     Water Consumed: 7.500
 
-    PART II: Facilities (I-D)
+    Facilities (I-D)
 
     1 pc. Tall Chimney - 3x3
     2 pcs. Outbuilding #1 and #2 - 20x4
     2 pcs. Cooling Tower (with and without Steam) - 7x7
 
-    The Part II lots are regular IND items (ploppable), providing I-D jobs and tax income. They require power, water and road access and can be used for a nuclear facility or as standalone industrial items.
+    Lots are regular IND items (ploppable), providing I-D jobs and tax income. They require power, water and road access and can be used for a nuclear facility or as standalone industrial items.
 
     By default, the power plant includes a patch that prolongs its lifespan. The plant will deteriorate over time (and possibly fail) if the patch (z_Age_Patch) is removed from the installation. Appropriate measures may be needed to mitigate the high pollution and water consumption.
 
