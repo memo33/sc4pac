@@ -10,12 +10,11 @@ info:
   summary: "Modular nuclear power plant that can be built in any size"
   website: "https://community.simtropolis.com/files/file/27942-paengs-modular-nuclear-power-plant/"
   description: |2-
-    A set of lots made with El Burro's excellent props that enables building modular nuclear facilities in any size.
+    A set of lots made with El Burro's excellent props that enables building modular nuclear facilities in any size. This power plant does not replace the default nuclear plant and can be built at any time.
 
     PART I: Reactor
 
     1 pc. Powerplant - 8x20
-
     Plop Cost: 180.000
     Power produced - 120.000 MWh
     Monthly cost: 12.000 (0,10/MWh)
@@ -28,19 +27,9 @@ info:
     2 pcs. Outbuilding #1 and #2 - 20x4
     2 pcs. Cooling Tower (with and without Steam) - 7x7
 
-    See one of many possible layouts here...
+    The Part II lots are regular IND items (ploppable), providing I-D jobs and tax income. They require power, water and road access and can be used for a nuclear facility or as standalone industrial items.
 
-    DEVELOPER NOTES
-
-    This Nuclear Power Plant does NOT replace the default nuclear plant. It is NOT conditional either - it can be built at any time.
-
-    By default the Power Plant comes with a patch to prolong its lifespan. To allow the plant to delapidate over time (and possibly blow up), remove the patch (z_Age_Patch) from the installation.
-
-    Appropriate measures may be needed to mitigate the high pollution and water consumption.
-
-    The lots in 'Part II' are regular IND items (ploppable), providing I-D jobs and tax income. They need power, water and road access - see the in-game menu for details.
-
-    These can be used for a Nuclear Facility or as standalone industrial items.
+    By default, the power plant includes a patch that prolongs its lifespan. The plant will deteriorate over time (and possibly fail) if the patch (z_Age_Patch) is removed from the installation. Appropriate measures may be needed to mitigate the high pollution and water consumption.
 
     All items are located in the 'Utilities | Power' menu.
   images:
@@ -52,5 +41,5 @@ assets:
 ---
 assetId: "paengs-modular-nuclear-power-plant"
 version: "1"
-lastModified: "2012-08-18T07:00Z"
+lastModified: "2012-08-18T18:41:48Z"
 url: "https://community.simtropolis.com/files/file/27942-paengs-modular-nuclear-power-plant/?do=download"
