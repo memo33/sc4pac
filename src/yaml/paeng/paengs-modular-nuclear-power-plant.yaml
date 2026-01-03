@@ -11,27 +11,6 @@ info:
   website: "https://community.simtropolis.com/files/file/27942-paengs-modular-nuclear-power-plant/"
   description: |2-
     A set of lots made with El Burro's excellent props that enables building modular nuclear facilities in any size. This power plant does not replace the default nuclear plant and can be built at any time.
-
-    Reactor
-
-    1 pc. Powerplant - 8x20
-    Plop Cost: 180.000
-    Power produced - 120.000 MWh
-    Monthly cost: 12.000 (0,10/MWh)
-    Pollution: 80 | 200 | 110 | 0 over Radius: 20 | 30 | 0 | 0
-    Water Consumed: 7.500
-
-    Facilities (I-D)
-
-    1 pc. Tall Chimney - 3x3
-    2 pcs. Outbuilding #1 and #2 - 20x4
-    2 pcs. Cooling Tower (with and without Steam) - 7x7
-
-    Lots are regular IND items (ploppable), providing I-D jobs and tax income. They require power, water and road access and can be used for a nuclear facility or as standalone industrial items.
-
-    By default, the power plant includes a patch that prolongs its lifespan. The plant will deteriorate over time (and possibly fail) if the patch (z_Age_Patch) is removed from the installation. Appropriate measures may be needed to mitigate the high pollution and water consumption.
-
-    All items are located in the 'Utilities | Power' menu.
   images:
     - "https://www.simtropolis.com/objects/screens/monthly_08_2012/9c83f740fa6f318f4fdf80e62c5dad7a-nuke-small.jpg"
     - "https://www.simtropolis.com/objects/screens/monthly_08_2012/42816077ba584eda445724cfb103fd8b-nuke-big.jpg"
