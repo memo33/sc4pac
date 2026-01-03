@@ -1,0 +1,56 @@
+group: "paeng"
+name: "paengs-modular-nuclear-power-plant"
+version: "1"
+subfolder: "500-utilities"
+dependencies:
+  - "paeng:grunge-concrete-set"
+  - "burrodiablo:nuclear-power-plant-prop-pack"
+  - "peg:lakeside-resort"
+info:
+  summary: "Build your own modular nuclear facility in any size you desire"
+  website: "https://community.simtropolis.com/files/file/27942-paengs-modular-nuclear-power-plant/"
+  description: |2-
+    Here is a set of lots made with El Burro's excellent props - this will enable you to build your own modular nuclear facility in any size you desire.
+
+    PART I: Reactor
+
+    1 pc. Powerplant - 8x20
+
+    Plop Cost: 180.000
+    Power produced - 120.000 MWh
+    Monthly cost: 12.000 (0,10/MWh)
+    Pollution: 80 | 200 | 110 | 0 over Radius: 20 | 30 | 0 | 0
+    Water Consumed: 7.500
+
+    PART II: Facilities (I-D)
+
+    1 pc. Tall Chimney - 3x3
+    2 pcs. Outbuilding #1 and #2 - 20x4
+    2 pcs. Cooling Tower (with and without Steam) - 7x7
+
+    See one of many possible layouts here...
+
+    DEVELOPER NOTES
+
+    This Nuclear Power Plant is NOT replacing the default nuclear plant. It is NOT conditional either - build it anytime you want (or rather: anytime you can afford it).
+
+    By default the Power Plant comes with a patch to prolong its lifespan. If you prefer your plant to delapidate over time (and possibly blow up), just remove the patch (z_Age_Patch) from your installation.
+
+    You may also want to take appropriate measures against the high pollution and water consumption.
+
+    The lots in 'Part II' are regular IND items (ploppable), providing I-D jobs and tax income. They need power, water and road access - see the in-game menu for details.
+
+    You can use them for your 'Nuclear Facility' or as standalone industrial items.
+
+    All items are located in the 'Utilities | Power' menu.
+  images:
+    - "https://www.simtropolis.com/objects/screens/monthly_08_2012/9c83f740fa6f318f4fdf80e62c5dad7a-nuke-small.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_08_2012/42816077ba584eda445724cfb103fd8b-nuke-big.jpg"
+assets:
+  - assetId: "paengs-modular-nuclear-power-plant"
+
+---
+assetId: "paengs-modular-nuclear-power-plant"
+version: "1"
+lastModified: "2012-08-18T07:00Z"
+url: "https://community.simtropolis.com/files/file/27942-paengs-modular-nuclear-power-plant/?do=download"
