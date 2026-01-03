@@ -7,10 +7,10 @@ dependencies:
   - "burrodiablo:nuclear-power-plant-prop-pack"
   - "peg:lakeside-resort"
 info:
-  summary: "Build your own modular nuclear facility in any size you desire"
+  summary: "Modular nuclear power plant that can be built in any size"
   website: "https://community.simtropolis.com/files/file/27942-paengs-modular-nuclear-power-plant/"
   description: |2-
-    Here is a set of lots made with El Burro's excellent props - this will enable you to build your own modular nuclear facility in any size you desire.
+    A set of lots made with El Burro's excellent props that enables building modular nuclear facilities in any size.
 
     PART I: Reactor
 
@@ -32,15 +32,15 @@ info:
 
     DEVELOPER NOTES
 
-    This Nuclear Power Plant is NOT replacing the default nuclear plant. It is NOT conditional either - build it anytime you want (or rather: anytime you can afford it).
+    This Nuclear Power Plant does NOT replace the default nuclear plant. It is NOT conditional either - it can be built at any time.
 
-    By default the Power Plant comes with a patch to prolong its lifespan. If you prefer your plant to delapidate over time (and possibly blow up), just remove the patch (z_Age_Patch) from your installation.
+    By default the Power Plant comes with a patch to prolong its lifespan. To allow the plant to delapidate over time (and possibly blow up), remove the patch (z_Age_Patch) from the installation.
 
-    You may also want to take appropriate measures against the high pollution and water consumption.
+    Appropriate measures may be needed to mitigate the high pollution and water consumption.
 
     The lots in 'Part II' are regular IND items (ploppable), providing I-D jobs and tax income. They need power, water and road access - see the in-game menu for details.
 
-    You can use them for your 'Nuclear Facility' or as standalone industrial items.
+    These can be used for a Nuclear Facility or as standalone industrial items.
 
     All items are located in the 'Utilities | Power' menu.
   images:
