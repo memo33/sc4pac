@@ -18,10 +18,14 @@ variants:
     - "/CAM_Universal_CAP_Fix._Radical.dat"
 
 info:
-  summary: "Colossus Addon Mod Universal Commercial CAP Fix – Universally fix the bug related to Commercial CAP."
+  summary: "Universal Commercial CAP Fix"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
-  description: |+
-     **Colossus Addon Mod - Universal Commercial CAP Fix** is the zero-day patch that permanently fixes the Commercial CAP bug affecting Real Highway (Dirty Road) in influencing commercial demand. The main purpose of this mod is to universally fix (i.e., compatible with CAM, SPAM, and Vanilla users) the low generation of commercial demand by Real Highway, add the creation of demand from neighborhood connections for streets and one-way roads and boost demand using mass transit (Subway, Elevated Rail, Railway, High-Speed Railway / Monorail and Pedestrian Streets) in addition to assigning a reduction of CAP (for balancing purposes) to water pipes and transmission lines. These are the following changes:
+  description: |-
+     This patch increases the amount of demand cap relief provided by Real Highway neighborhood connections, so that they match Maxis Highways rather than the relatively low-priority Dirtroad network.
+
+     The mod is compatible with CAM, SPAM and Vanilla games.
+
+     A radical variant of the mod exists which additionally boosts cap relief provided by mass transit neighborhood connections (Rail, Subway, Elevated Rail, High-Speed Rail/Monorail) and punishes connections of water pipes and transmission lines (for balancing purposes).
 
   author: "CAM Team"
   websites:
@@ -31,13 +35,14 @@ info:
 
 variantInfo:
 - variantId: "cam:universal-commercial-cap-fix:cap"
-  description: This setting determines what type of fix you want to install.
+  description: Choose the type of fix to install. This patch changes the amount of demand cap relief provided by neighborhood connections.
   values:
   - value: "standard"
-    description: The Vanilla variant is ideal if you want to maintain an experience closer to the game with the essential fix related to RHW. 
+    description: The Vanilla variant only increases cap relief for Real Highway connections, so that they match Maxis Highways.
+    default: true
   - value: "radical"
-    description: The Radical variant is ideal if you want to reduce the car-centric view of the game by increasing the CAP related to mass transit connections and introducing penalties related to transmission networks and water pipes. 
-    
+    description: The Radical variant emphasizes a less car-centric view of the game by additionally increasing cap relief for mass transit connections and introducing penalties related to transmission networks and water pipes.
+
 ---
 assetId: "cam-universal-commercial-cap-fix"
 version: "2.0.0"
