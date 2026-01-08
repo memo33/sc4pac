@@ -1,13 +1,13 @@
 ---
 assetId: "cam-colossus-addon-mod-corefile"
-version: "3.5.0"
-lastModified: "2025-12-31T07:19:23-08:00"
+version: "3.5.1"
+lastModified: "2026-01-08T12:20:56-08:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
 
 ---
 group: "cam"
 name: "colossus-addon-mod-core"
-version: "3.5.0"
+version: "3.5.1"
 subfolder: "050-load-first"
 dependencies:
 - "null-45:custom-budget-departments-dll"
@@ -15,7 +15,8 @@ dependencies:
 - "null-45:lua-extensions-dll"
 - "null-45:advanced-water-management-dll"
 - "null-45:legalize-gambling-ordinance-upgrade-dll"
-- "null-45:sc4-resource-loading-hooks"  # for exemplar patching
+- "null-45:sc4-resource-loading-hooks" # for exemplar patching
+- "memo:transparent-texture-fix-dll" 
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "scoty:zoning-mod-maxis"
 - "cyclone-boom:save-warning"
@@ -76,6 +77,6 @@ info:
 ---
 assetId: "null-45-sc4-advanced-water-management"
 version: "1.0"
-lastModified: "2025-12-31T07:19:23-08:00"
+lastModified: "2026-01-08T12:20:56-08:00"
 nonPersistentUrl: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
 url: "https://github.com/0xC0000054/sc4-advanced-water-management/releases/download/v1.0/AdvancedWaterManagement.zip"
