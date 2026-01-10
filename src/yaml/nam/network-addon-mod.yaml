@@ -3,7 +3,7 @@
 # - nam:network-addon-mod-core   --> includes only mandatory stuff
 #
 # The Core depends on (internal) packages like:
-# - nam:network-addon-mod-controller
+# - nam:controller
 # - nam:textures
 # - ...
 #
@@ -24,6 +24,22 @@ nonPersistentUrl: https://community.simtropolis.com/files/file/26793-network-add
 url: https://github.com/NAMTeam/Network-Addon-Mod/releases/download/49_rev1/NetworkAddonMod_Setup_Version49_rev1.zip
 checksum:
   sha256: "7db5509389b20122ee4e0b81b0c12ff0b941a8711a2c7dcdb5e631317b70009d"
+
+---
+assetId: nam-patches
+version: "50-beta.1"
+lastModified: "2026-01-10T20:41:20Z"
+url: https://github.com/NAMTeam/Network-Addon-Mod/releases/download/50-beta.1/NAM_patches_50-beta.1.zip
+checksum:
+  sha256: 25c0e8bd86d93f36496e84163c757aab0d0ef7ecf40fbd1defc2ae41b1ab1908
+
+---
+assetId: nam-dll
+version: "1.3.0"
+lastModified: "2026-01-10T20:30:37Z"
+url: https://github.com/NAMTeam/nam-dll/releases/download/1.3.0/NAM-dll-1.3.0.zip
+checksum:
+  sha256: a9d3b2af5ab2d43d01ab624b60b245f86ef18346db229775dbe6b2f186e3e32c
 
 ---
 packages:
@@ -100,7 +116,7 @@ packages:
     website: https://www.sc4nam.com/
 
   dependencies:
-    - nam:network-addon-mod-controller
+    - nam:controller
     - nam:traffic-simulator
     - nam:automata-controller
     - nam:maxis-highway
@@ -114,7 +130,7 @@ packages:
       exclude:
           # List files below that are contained in other NAM packages.
           # core:
-        - "NAM Controller_(?:RHD|LHD)"                               # nam:network-addon-mod-controller
+        - "NAM Controller_(?:RHD|LHD)"                               # nam:controller
         - "Automata Controller#?/"                                   # nam:automata-controller
         - "Traffic Simulator#?/"                                     # nam:traffic-simulator
         - &mhwPath "Network Features/Maxis Highway#?/"               # nam:maxis-highway
@@ -143,8 +159,8 @@ packages:
 
 # ---
 - group: nam
-  name: network-addon-mod-controller
-  version: *version
+  name: controller
+  version: "49,50-beta.1"
   subfolder: 770-network-addon-mod/1-core
   info:
     summary: The NAM controller contains the NAM's internal network logic
@@ -163,34 +179,59 @@ packages:
 
         Note that this setting does not allow changing the drive side of your game.
         Instead, it must match the drive side your game was installed with (for example, `left` for UK or Japanese games, `right` for US).
+    - variantId: nam:controller:nam50-beta
+      description: |-
+        Select whether to enable the *Beta series* of the upcoming NAM version.
+      values:
+        - value: "disabled"
+          description: NAM 49
+          default: true
+        - value: "enabled"
+          description: NAM 50-beta (This includes several DLL-based improvements introduced by `pkg=nam:dll`.)
 
   dependencies:
     - nam:network-addon-mod-core  # this package is a mandatory part of NAM
+    - config:sc4-edition
   variants:
-  - variant: { driveside: "right", nam:real-highway:enabled: "no" }
-    assets:
-    - assetId: nam-gh
-      include: ["NAM Controller_RHD_LowRAM_NoRHW/"]
-      exclude: [*exe]
-  - variant: { driveside: "left",  nam:real-highway:enabled: "no" }
-    assets:
-    - assetId: nam-gh
-      include: ["NAM Controller_LHD_LowRAM_NoRHW/"]
-      exclude: [*exe]
-  - variant: { driveside: "right", nam:real-highway:enabled: "yes" }
-    dependencies:
-      - nam:real-highway
-    assets:
-    - assetId: nam-gh
-      include: ["NAM Controller_RHD_4GB_Full/"]
-      exclude: [*exe]
-  - variant: { driveside: "left",  nam:real-highway:enabled: "yes" }
-    dependencies:
-      - nam:real-highway
-    assets:
-    - assetId: nam-gh
-      include: ["NAM Controller_LHD_4GB_Full/"]
-      exclude: [*exe]
+    - variant: { config:sc4-edition:edition: "Windows-digital", nam:controller:nam50-beta: "disabled", nam:real-highway:enabled: "no" }
+      assets: &assetsControllerNoRHW
+        - assetId: nam-gh
+          include: ["NAM Controller_(?:RHD|LHD)_LowRAM_NoRHW/"]
+          exclude: [*exe]
+          withConditions: &drivesideConditions
+            - ifVariant: { driveside: "right" }
+              exclude: ["_LHD_"]
+            - ifVariant: { driveside: "left" }
+              exclude: ["_RHD_"]
+    - variant: { config:sc4-edition:edition: "Windows-digital", nam:controller:nam50-beta: "disabled", nam:real-highway:enabled: "yes" }
+      dependencies:
+        - nam:real-highway
+      assets: &assetsControllerRHW
+        - assetId: nam-gh
+          include: ["NAM Controller_(?:RHD|LHD)_4GB_Full/"]
+          exclude: [*exe]
+          withConditions: *drivesideConditions
+    - variant: { config:sc4-edition:edition: "Windows-digital", nam:controller:nam50-beta: "enabled" }
+      dependencies:
+        - nam:dll
+      assets:
+        - assetId: nam-patches
+          include: &controllerPatchesPaths
+            - "NAM Controller_(?:RHD|LHD)_4GB_Full/"
+            - "NetworkAddonMod_Advice.dat"
+          withConditions: *drivesideConditions
+    - variant: { config:sc4-edition:edition: "Windows-disc", nam:real-highway:enabled: "no" }
+      assets: *assetsControllerNoRHW
+    - variant: { config:sc4-edition:edition: "Windows-disc", nam:real-highway:enabled: "yes" }
+      dependencies:
+        - nam:real-highway
+      assets: *assetsControllerRHW
+    - variant: { config:sc4-edition:edition: "macOS", nam:real-highway:enabled: "no" }
+      assets: *assetsControllerNoRHW
+    - variant: { config:sc4-edition:edition: "macOS", nam:real-highway:enabled: "yes" }
+      dependencies:
+        - nam:real-highway
+      assets: *assetsControllerRHW
 
 # ---
 - group: nam
@@ -225,7 +266,7 @@ packages:
         Instead, it must match the drive side your game was installed with (for example, `left` for UK or Japanese games, `right` for US).
 
   dependencies:
-    - nam:network-addon-mod-controller  # this package is a mandatory part of NAM
+    - nam:controller  # this package is a mandatory part of NAM
   assets:
     - assetId: nam-gh
       include:
@@ -327,7 +368,7 @@ packages:
             The Maxis Highway Override is NOT compatible with the game's original Maxis Highway interchanges.
 
   dependencies:
-    - nam:network-addon-mod-controller
+    - nam:controller
   assets:
     - assetId: nam-gh
       include: [*mhwPath]
@@ -549,7 +590,7 @@ packages:
       - https://www.sc4nam.com/docs/feature-guides/real-railway/images/ERRW/OST-Orthogonal.jpg
 
   dependencies:
-    - nam:network-addon-mod-controller  # this package is a mandatory part of NAM
+    - nam:controller  # this package is a mandatory part of NAM
   assets:
     - assetId: nam-gh
       include:
@@ -781,3 +822,41 @@ packages:
             - "/RHW/"
         - ifVariant: { nam:real-highway:enabled: "yes" }
           exclude: []
+
+# ---
+- group: nam
+  name: dll
+  version: "1.3.0"
+  subfolder: 770-network-addon-mod/9-patches
+  dependencies:
+    - config:sc4-edition-windows-digital
+  assets:
+    - assetId: nam-dll
+      withChecksum:
+        - include: "/NAM\\.dll$"
+          sha256: 545ed28445aceb4fa4d2761b04568d270dea57227b1c0581b4078eb66ed56af3
+    - assetId: nam-patches
+      exclude: *controllerPatchesPaths
+      withConditions:
+        - ifVariant: { driveside: "right" }
+          exclude: ["_LHD[._]"]
+        - ifVariant: { driveside: "left" }
+          exclude: ["_RHD[._]"]
+        - ifVariant: { roadstyle: "US" }
+          exclude: ["[/._]EU[._]"]
+        - ifVariant: { roadstyle: "EU" }
+          exclude: ["[/._]US[._]"]
+
+  info:
+    summary: DLL-based fixes and features for the Network Addon Mod
+    conflicts: Only compatible with game version 1.1.641, the Windows digital edition.
+    description: |-
+      This includes draggable diagonal Streets, Street tunnels, new keyboard shortcuts, and several other network-related improvements.
+
+      Some features require the `pkg=nam:controller` with `nam50-beta` enabled.
+
+      The Street tunnel functionality requires a compatible slope mod such as `pkg=nam-team:tunnel-and-slope-mod`.
+    author: "NAM Team"
+    images:
+      - https://www.simtropolis.com/objects/attachments/monthly_2024_02/2024-02-17_10_31_20.jpeg.e90c711c597d9271dc314a6825f9237e.jpeg
+    website: https://github.com/NAMTeam/nam-dll

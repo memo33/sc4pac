@@ -4,6 +4,7 @@ subfolders:
 - 770-network-addon-mod/3-overrides
 - 770-network-addon-mod/6-misc
 - 770-network-addon-mod/8-textures
+- 770-network-addon-mod/9-patches
 
 extra-channels: []
 
@@ -22,11 +23,13 @@ ignore-version-mismatches:
 - bsc:mega-props-diggis-canals-streams-and-ponds
 - bsc:mega-props-rubik3-vol01-wtc-props
 - bsc:mega-props-newmaninc-rivers-and-ponds
+- nam:controller
 
 group-to-github:
 - null-45: "0xC0000054"
 - simmaster07: nsgomez
 - memo: memo33
+- nam: NAMTeam
 
 # The following is only appropriate when nobody can make unnoticed changes to
 # the metadata checksum fields.
@@ -50,3 +53,4 @@ ignore-group-prefixes-in-name:
 ignore-nonunique-includes:
 - invisichem:colossus-addon-mod-legacy
 - philforhockey51:bocage
+- nam:controller
