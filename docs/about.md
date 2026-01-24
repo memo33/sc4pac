@@ -43,6 +43,10 @@ and a [Discord channel](https://discord.com/channels/383313438065033228/11765744
 - [sc4pac-actions](https://github.com/memo33/sc4pac-actions) ![github](_github.svg)
   helper scripts for building metadata channels on GitHub
 
+- [Plugin Detector](https://community.simtropolis.com/forums/topic/764122-plugin-detector-for-sc4pac-development-thread/)
+  by **nos.17**:
+  work-in-progress of a tool for detecting manually installed files that can be installed with *sc4pac* instead
+
 
 ---
 Next up: [Highlights](packages.md)

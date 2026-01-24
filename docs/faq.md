@@ -26,6 +26,12 @@ The application should display a detailed message explaining the problem and how
     - If the problem persists, go to *System Preferences* → *Security & Privacy* → *General* and click the padlock icon, then *Open Anyway*.
       All of the following files may be affected by the blocking: `launch-GUI-web-macOS.command`, `cli/sc4pac`, `cli/sc4pac-cli.jar`, `cli/cicdec/cicdec.exe`.
 
+- On **Linux**:
+  - Run the `./install.sh` in a terminal to see its output.
+  - The desktop app requires GTK3 with [glib](https://repology.org/project/glib/versions) 2.80 or newer. (On Ubuntu, for example, this is available since Ubuntu 24.04 LTS.)
+  - If launching the desktop program does not work, try `sc4pac-gui` in a terminal. If this shows an error `undefined symbol: g_once_init_enter_pointer`, your *glib* version is too old.
+  - If you have multiple Java versions and the default version on your system is too old, either uninstall older Java versions or [switch between multiple Java versions](https://www.baeldung.com/linux/java-choose-default-version).
+
 If there's no error message at all, please report the problem.
 <!-- (If you know how, also try launching the **sc4pac-gui** from the command-line to check for potential errors there.) -->
 
