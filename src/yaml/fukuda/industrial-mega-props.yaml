@@ -1,6 +1,6 @@
 group: "fukuda"
 name: "industrial-mega-props"
-version: "1.0"
+version: "2.0"
 subfolder: "100-props-textures"
 assets:
 - assetId: "fukuda-industrial-mega-props"
@@ -13,6 +13,6 @@ info:
 
 ---
 assetId: "fukuda-industrial-mega-props"
-version: "1.0"
-lastModified: "2025-05-23T03:45:00-07:00"
+version: "2.0"
+lastModified: "2025-12-10T14:40:57Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=391:fukuda-industrial-mega-prop-pack"

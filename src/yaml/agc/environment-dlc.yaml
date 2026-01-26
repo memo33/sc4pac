@@ -1,6 +1,6 @@
 group: agc
 name: environment-dlc
-version: "5.0.0"
+version: "6.0.0"
 subfolder: 180-flora
 info:
   summary: Environment DLC
@@ -22,7 +22,7 @@ assets:
 ---
 group: agc
 name: environment-dlc-props
-version: "5.0.0"
+version: "6.0.0"
 subfolder: 100-props-textures
 info:
   summary: Environment DLC Props
@@ -39,6 +39,6 @@ assets:
 
 ---
 assetId: agc-environment-dlc
-version: "5.0.0"
-lastModified: "2023-06-10T16:10:48Z"
-url: https://community.simtropolis.com/files/file/34720-agc-environment-dlc/?do=download&r=197215
+version: "6.0.0"
+lastModified: "2025-12-16T13:25:39Z"
+url: https://community.simtropolis.com/files/file/34720-agc-environment-dlc/?do=download

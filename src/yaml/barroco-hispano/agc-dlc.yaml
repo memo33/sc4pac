@@ -127,7 +127,7 @@ lastModified: "2023-12-19T00:46:38Z"
 ### agc street props
 group: "agc"
 name: "street-props"
-version: "5.0.0"
+version: "6.0.0"
 subfolder: "100-props-textures"
 info:
   summary: "Small props for streets and sidewalks"
@@ -152,8 +152,8 @@ variants:
 ---
 url: "https://community.simtropolis.com/files/file/36152-agc-streets-dlc/?do=download"
 assetId: "agc-street-props-dn"
-version: "5.0.0"
-lastModified: "2025-08-02T01:02:35Z"
+version: "6.0.0"
+lastModified: "2025-11-29T15:37:13Z"
 
 
 # ---
