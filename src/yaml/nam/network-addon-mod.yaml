@@ -160,8 +160,9 @@ packages:
 # ---
 - group: nam
   name: controller
-  version: "49,50-beta.1"
-  subfolder: 770-network-addon-mod/1-core
+  version: "49,50-beta.1-1"
+  # subfolder: 770-network-addon-mod/1-core
+  subfolder: 770-network-addon-mod/9-patches  # loading the controller last is ok, since Avenue Turning Lanes are not on sc4pac (which contains the only other RUL file)
   info:
     summary: The NAM controller contains the NAM's internal network logic
     warning: |-
@@ -216,10 +217,15 @@ packages:
         - nam:dll
       assets:
         - assetId: nam-patches
-          include: &controllerPatchesPaths
-            - "NAM Controller_(?:RHD|LHD)_4GB_Full/"
-            - "NetworkAddonMod_Advice.dat"
-          withConditions: *drivesideConditions
+          withConditions:
+            - ifVariant: { driveside: "right" }
+              exclude: ["_LHD[._]"]
+            - ifVariant: { driveside: "left" }
+              exclude: ["_RHD[._]"]
+            - ifVariant: { roadstyle: "US" }
+              exclude: ["[/._]EU[._]"]
+            - ifVariant: { roadstyle: "EU" }
+              exclude: ["[/._]US[._]"]
     - variant: { config:sc4-edition:edition: "Windows-disc", nam:real-highway:enabled: "no" }
       assets: *assetsControllerNoRHW
     - variant: { config:sc4-edition:edition: "Windows-disc", nam:real-highway:enabled: "yes" }
@@ -826,7 +832,7 @@ packages:
 # ---
 - group: nam
   name: dll
-  version: "1.3.0"
+  version: "1.3.0-1"
   subfolder: 770-network-addon-mod/9-patches
   dependencies:
     - config:sc4-edition-windows-digital
@@ -835,17 +841,6 @@ packages:
       withChecksum:
         - include: "/NAM\\.dll$"
           sha256: 545ed28445aceb4fa4d2761b04568d270dea57227b1c0581b4078eb66ed56af3
-    - assetId: nam-patches
-      exclude: *controllerPatchesPaths
-      withConditions:
-        - ifVariant: { driveside: "right" }
-          exclude: ["_LHD[._]"]
-        - ifVariant: { driveside: "left" }
-          exclude: ["_RHD[._]"]
-        - ifVariant: { roadstyle: "US" }
-          exclude: ["[/._]EU[._]"]
-        - ifVariant: { roadstyle: "EU" }
-          exclude: ["[/._]US[._]"]
 
   info:
     summary: DLL-based fixes and features for the Network Addon Mod
