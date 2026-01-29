@@ -43,10 +43,9 @@ info:
 
     Moreover, the DLL is a dependency for other Mods, providing services that can be used to add more building query values and/or customize the building and network tool tips.
   warning: |-
-    This DLL plugin comes with an INI configuration file and .DAT file:
+    This DLL plugin comes with an INI configuration file:
 
     * `SC4QueryUIHooks.ini`
-    * `SC4QueryUIHooks.dat`
 
     To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
   author: "Null 45"
