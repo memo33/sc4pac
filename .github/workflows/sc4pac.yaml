@@ -2,7 +2,7 @@ name: sc4pac CI
 
 on:
   push:
-    branches: [ "main", "action", "add-paeng-nuclear-plant", "add-wannglondon-churches" ]
+    branches: [ "main", "action" ]
   pull_request_target:
     branches: [ "main" ]
 
