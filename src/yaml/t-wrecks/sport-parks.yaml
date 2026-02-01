@@ -1,0 +1,30 @@
+assetId: t-wrecks-summer-skating-rinks
+version: "1"
+lastModified: "2022-09-26T05:42:59Z"
+url: https://web.archive.org/web/20220926054259/http://www.simcityplaza.de/index.php/freizeit-und-tourismus/sport-und-erholung?download=603:sportparks-von-6459978-und-t-wrecks&start=20
+checksum:
+  sha256: d5c8ba4d1f7c742fcb22c1b003b3c89defdad9c2b2ce01417708db9a3f83186e
+archiveType:
+  format: Clickteam
+  version: "30"
+
+---
+group: t-wrecks
+name: summer-skating-rinks
+version: "1"
+subfolder: 660-parks
+assets:
+- assetId: t-wrecks-summer-skating-rinks
+
+info:
+  summary: Summer skating rink and hockey field
+  description: |
+    Two small sports park lots modeled by 6459978: a skating rink and a hockey field.
+
+    Lot sizes: 3×2.
+  author: 6459978, T Wrecks
+  images:
+  - https://web.archive.org/web/20230327013630im_/http://www.simcityplaza.de/images/uploads/Image/6459978/Sportparks.jpg
+  websites:
+  - https://web.archive.org/web/20230327013630/http://www.simcityplaza.de/index.php/freizeit-und-tourismus/sport-und-erholung?start=20
+  - https://community.simtropolis.com/files/file/16176-summer-skating-rinks/
