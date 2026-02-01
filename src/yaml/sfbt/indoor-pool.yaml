@@ -1,0 +1,35 @@
+assetId: sfbt-indoor-pool
+version: "1"
+lastModified: "2020-02-29T22:31:25Z"
+url: https://web.archive.org/web/20200229223125/http://www.simcityplaza.de/index.php/freizeit-und-tourismus/sport-und-erholung?download=1327:sfbt-hallenbad-von-stefan&start=30
+checksum:
+  sha256: a46d548e72e8532dcecede9d7c888bc855ac5c1b5ebc64133c72e0d3fd2ba2b9
+archiveType:
+  format: Clickteam
+  version: "30"
+
+---
+group: sfbt
+name: indoor-pool
+version: "1"
+subfolder: 660-parks
+dependencies:
+- bsc:mega-props-cp-vol01
+- bsc:textures-vol01
+- sfbt:essentials
+- sfbt:sam-johnson-playground-props
+assets:
+- assetId: sfbt-indoor-pool
+
+info:
+  summary: Public indoor swimming pool (Hallenbad)
+  description: |
+    An indoor swimming pool modeled after those found in many German cities. Sims love it.
+
+    Lot sizes: 4×4 and 5×4.
+  author: Stefan
+  images:
+  - https://web.archive.org/web/20230326235941im_/http://www.simcityplaza.de/images/uploads/Image/SFBT/SFBT_Hallenbad_d370.jpg
+  - https://web.archive.org/web/20230326235941im_/http://www.simcityplaza.de/images/uploads/Image/SFBT/SFBT_Hallenbad_n370.jpg
+  websites:
+  - https://web.archive.org/web/20230326235941/http://www.simcityplaza.de/index.php/freizeit-und-tourismus/sport-und-erholung?start=30
