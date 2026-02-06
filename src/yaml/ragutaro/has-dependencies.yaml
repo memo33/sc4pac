@@ -1,4 +1,4 @@
-url: "http://hide-inoki.com/works/sc4/has_dependencies.zip"
+url: "https://web.archive.org/web/20260123103916/http://hide-inoki.com/works/sc4/has_dependencies.zip"
 assetId: "ragutaro-has-dependencies"
 version: "1"
 lastModified: "2008-02-09T09:25:18Z"
@@ -12,6 +12,6 @@ version: "1"
 subfolder: "100-props-textures"
 info:
   summary: "Models and textures for content by Ragutaro (ラグ太郎) posted on Hide and Seek (HaS)"
-  website: "http://hide-inoki.com/sc4/buildings_bat.htm"
+  website: "https://web.archive.org/web/20251217131142/http://hide-inoki.com/sc4/buildings_bat.htm"
 assets:
   - assetId: "ragutaro-has-dependencies"

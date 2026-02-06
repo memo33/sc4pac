@@ -13,8 +13,9 @@
 Files are downloaded directly from file exchange sites
 such as [Simtropolis](https://simtropolis.com/),
 [SC4Evermore](https://www.sc4evermore.com/),
-[ToutSimCities](https://www.toutsimcities.com/)
-and [Hide and Seek!](http://hide-inoki.com/).
+[ToutSimCities](https://www.toutsimcities.com/),
+[SimCityKurier (archived)](https://web.archive.org/web/20221001025018/http://simcityplaza.de/index.php/simcitykurier)
+and [Hide and Seek! (archived)](https://web.archive.org/web/20250918021345/http://hide-inoki.com/).
 
 There is also a [Simtropolis discussion thread](https://community.simtropolis.com/forums/topic/762677-sc4pac-lets-write-our-own-package-manager/)
 and a [Discord channel](https://discord.com/channels/383313438065033228/1176574445188550656) ![discord](_discord.svg).
