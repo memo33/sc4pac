@@ -56,7 +56,7 @@ For *sc4pac*, it is recommended to choose the location under `Documents`, mainly
 ## Plugins don't appear in the game :id=plugins-not-loading
 
 When creating a Profile, make sure the Plugins folder location you choose is the correct one.
-*Sc4pac* does not attempt to pick up the actual location used by the game, but only provides the most common one as default:
+*Sc4pac* does not attempt to detect the actual location used by your game, but only provides the most common one as default:
 `C:\Users\<username>\Documents\SimCity 4\Plugins`.
 Depending on the edition of your game, a different location may be needed.
 
@@ -70,7 +70,7 @@ Not an *sc4pac* issue, but make sure your game is properly configured and runs s
    For this to work, the Plugins folder location in your **![](_speed.svg)Dashboard** must point to the actual `Plugins` folder, not a subfolder.
 
 2. Some DLLs come with `.ini` configuration files.
-   To complete the installation of such a DLL, remember to copy the `.ini` file from the package subfolder inside your Plugins to the root of your Plugins folder.
+   To complete the installation of such a DLL, remember to copy the `.ini` file from the package subfolder inside your Plugins to the root of your Plugins folder, and edit it to set your preferences.
 
    <details>
    <summary>Detailed example</summary>
@@ -110,6 +110,8 @@ They are managed by you alone.
    - Press **![](_speed.svg)Dashboard** → *Maintenance & Repair* → *Scan & Repair Plugins* to verify that *sc4pac* is in-sync with your Plugins folder.
 
    </details>
+
+   Alternatively, simply create a new Profile and use **![](_widgets.svg)My Plugins** → *Export/Import* to transfer your plugins.
 
 2. The location in which the game looks for the Plugins folder can be changed by launching the game with the
    `-UserDir:"..."` [launch parameter](https://www.wiki.sc4devotion.com/index.php?title=Shortcut_Parameters#User_Dir).
