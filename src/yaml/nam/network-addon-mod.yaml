@@ -45,7 +45,7 @@ checksum:
 packages:
 - group: nam
   name: network-addon-mod
-  version: &version "49"
+  version: "49,50-beta.1"
   subfolder: 770-network-addon-mod/1-core
   dependencies:
     - nam:network-addon-mod-core
@@ -87,7 +87,7 @@ packages:
 # ---
 - group: nam
   name: network-addon-mod-core
-  version: *version
+  version: &version "49"
   subfolder: 770-network-addon-mod/1-core
   info:
     summary: Base content of the NAM excluding optional components
@@ -242,7 +242,7 @@ packages:
 # ---
 - group: nam
   name: textures
-  version: *version
+  version: "49-1"  # *version
   subfolder: 770-network-addon-mod/8-textures
   info:
     summary: NAM textures and drive side support
@@ -297,6 +297,15 @@ packages:
           exclude: ["Maxis Highway Override"]
         - ifVariant: { nam:maxis-highway:style: "MHO", roadstyle: "EU" }
           exclude: []  # no non-MHO files to exclude
+  variants:  # include files from outside the texture folder (for flat file structure)
+    - variant: { nam:maxis-highway:style: "default" }  # nothing
+    - variant: { nam:maxis-highway:style: "MHO" }
+      assets:
+        - assetId: nam-gh
+          exclude:
+            - *exe
+          include:
+            - &mhoDbeCrosslinkPath "Maxis Highway Override.*/n_MHO_DBE.dat"  # NOTE patch for NAM-49 load order issue DBE vs MHO
 
 # ---
 - group: nam
@@ -343,7 +352,7 @@ packages:
 # ---
 - group: nam
   name: maxis-highway
-  version: *version
+  version: "49-1"  # *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: Features for Maxis highways, including additional interchanges
@@ -383,7 +392,7 @@ packages:
         - ifVariant: { nam:maxis-highway:style: "default" }
           exclude: ["Maxis Highway Override"]
         - ifVariant: { nam:maxis-highway:style: "MHO" }
-          exclude: ["Default Style"]
+          exclude: ["Default Style", *mhoDbeCrosslinkPath]
 
 # ---
 - group: nam
