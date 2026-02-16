@@ -538,28 +538,28 @@ variants:
       - assetId: mattb325-civics-and-rewards-pack-darknite
         include: [ "/Eastern Hill Fire Station(#|_[DM]N)?/" ]
 
----
-group: mattb325
-name: modern-fire-station
-subfolder: 610-safety
-version: "1"
-info:
-  summary: Modern Fire Station
-  author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
-dependencies:
-  - bsc:mega-props-cp-vol01
-  - bsc:texturepack-cycledogg-vol01
-variants:
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Modern Fire Station(#|_[DM]N)?/" ]
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
-    assets:
-      - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Modern Fire Station(#|_[DM]N)?/" ]
+# ---
+# group: mattb325
+# name: modern-fire-station
+# subfolder: 610-safety
+# version: "1"
+# info:
+#   summary: Modern Fire Station
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:texturepack-cycledogg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: mattb325-civics-and-rewards-pack-maxisnite
+#         include: [ "/Modern Fire Station(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: mattb325-civics-and-rewards-pack-darknite
+#         include: [ "/Modern Fire Station(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
