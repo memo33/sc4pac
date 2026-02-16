@@ -47,14 +47,6 @@ variants:
     include:
     - "/IRM I-D Addon Set 1/"
 
-variantDescriptions:
-  CAM:
-    "no": "Choose this if you have not installed the Colossus Addon Mod (CAM)."
-    "yes": "Choose this if you have installed the Colossus Addon Mod (CAM)."
-  toroca:industry-quadrupler:capacity:
-    "standard": "Maxis-default capacity"
-    "quadrupled": "4x capacity, for use with the Industry Quadrupler"
-
 info:
   summary: "38 growable I-D filler lots to supplement the IRM"
   description: |
@@ -95,14 +87,6 @@ variants:
   - assetId: "nos-17-irm-expansions-and-addons-cam-ed"
     include:
     - "/IRM I-M Addon Set 1/"
-
-variantDescriptions:
-  CAM:
-    "no": "Choose this if you have not installed the Colossus Addon Mod (CAM)."
-    "yes": "Choose this if you have installed the Colossus Addon Mod (CAM)."
-  toroca:industry-quadrupler:capacity:
-    "standard": "Maxis-default capacity"
-    "quadrupled": "4x capacity, for use with the Industry Quadrupler"
 
 info:
   summary: "45 growable I-M filler lots to supplement the IRM"

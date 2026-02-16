@@ -20,19 +20,31 @@ assets:
       - OceanRiverMod/TerrainProperties.dat
       - OceanRiverMod/WaterSurface_256.dat
 
-variantDescriptions:
-  mayorbean:ocean-river-mod:shallow:
-    moss-green: "dark moss green shallow water"
-    asparagus: "asparagus shallow water"
-    blue: "blue shallow water"
-    grass: "grass textured shallow water"
-    marsh: "marsh textured shallow water"
-  mayorbean:ocean-river-mod:deep:
-    moss-green: "dark moss green deep water"
-    asparagus: "asparagus deep water"
-    blue: "blue deep water"
-    grass: "grass textured deep water"
-    marsh: "marsh textured deep water"
+variantInfo:
+  - variantId: mayorbean:ocean-river-mod:shallow
+    values:
+      - value: moss-green
+        description: "dark moss green shallow water"
+      - value: asparagus
+        description: "asparagus shallow water"
+      - value: blue
+        description: "blue shallow water"
+      - value: grass
+        description: "grass textured shallow water"
+      - value: marsh
+        description: "marsh textured shallow water"
+  - variantId: mayorbean:ocean-river-mod:deep
+    values:
+      - value: moss-green
+        description: "dark moss green deep water"
+      - value: asparagus
+        description: "asparagus deep water"
+      - value: blue
+        description: "blue deep water"
+      - value: grass
+        description: "grass textured deep water"
+      - value: marsh
+        description: "marsh textured deep water"
 
 variants:
   - variant:

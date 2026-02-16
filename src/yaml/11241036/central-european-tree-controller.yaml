@@ -74,12 +74,17 @@ variants:
           - Central European Tree Controller_Evergreen WINTER v1_03.dat
           - Maxis TC Disabler.dat
 
-variantDescriptions:
-  11241036:central-european-tree-controller:mode:
-    seasonal: trees changing appearance throughout the year
-    summer: evergreen trees
-    fall: fall foliage for the entire year
-    winter: leafless trees for the entire year
+variantInfo:
+  - variantId: 11241036:central-european-tree-controller:mode
+    values:
+      - value: seasonal
+        description: trees changing appearance throughout the year
+      - value: summer
+        description: evergreen trees
+      - value: fall
+        description: fall foliage for the entire year
+      - value: winter
+        description: leafless trees for the entire year
 
 ---
 assetId: "11241036-central-european-tree-controller"

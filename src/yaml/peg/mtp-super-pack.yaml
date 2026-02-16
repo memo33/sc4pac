@@ -17,10 +17,13 @@ variants:
     - "/PEG-SUPER_TEXTURES_RRWOverride.dat"
     - "/PEG-SUPER_TEXTURES_EUOverride.dat"  # conained in /_Documents/ so loads after main files in /PEGPROD/
 
-variantDescriptions:
-  roadstyle:
-    "US": "Maxis-default style"
-    "EU": "if you have installed the NAM Euro Road Textures"
+variantInfo:
+- variantId: roadstyle
+  values:
+  - value: "US"
+    description: "Maxis-default style"
+  - value: "EU"
+    description: "if you have installed the NAM Euro Road Textures"
 
 info:
   summary: "Mountain Theme Pack props and textures"

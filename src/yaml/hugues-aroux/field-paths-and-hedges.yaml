@@ -94,11 +94,15 @@ variants:
     - assetId: hugues-aroux-field-paths-and-hedges
       include:
         - /scoty_textures/scoty_FPH_Tex_strt_CHOOSE/scoty_FPH_Textures_WWS.dat
-variantDescriptions:
-  hugues-aroux:field-paths-and-hedges:street-textures:
-    maxis: Use this one if you use the default Maxis street textures
-    tsr: Use this one if you use TSR street textures
-    wws: Use this one if you use hugues aroux' WestWind Streets textures
+variantInfo:
+  - variantId: hugues-aroux:field-paths-and-hedges:street-textures
+    values:
+      - value: maxis
+        description: Use this one if you use the default Maxis street textures
+      - value: tsr
+        description: Use this one if you use TSR street textures
+      - value: wws
+        description: Use this one if you use hugues aroux' WestWind Streets textures
 
 ---
 group: hugues-aroux
@@ -143,15 +147,23 @@ variants:
       - assetId: hugues-aroux-field-paths-and-hedges
         include:
           - /scoty_textures/scoty_FPH_grass_CHOOSE-ONE/scoty_FPH_grass_wasco.dat
-variantDescriptions:
-  hugues-aroux:field-paths-and-hedges:grass-textures:
-    transparent: Choose this if your installation supports DLL mods
-    maxis: Choose this if you can't use DLL mods and use no terrain mod
-    appalachian: Choose this if you can't use DLL mods and use Lowkee's Appalachian Terrain Mod
-    berner-oberland: Choose this if you can't use DLL mods and use the Berner Oberland Terrain Mod
-    pyrenean: Choose this if you can't use DLL mods and use Orange's Pyrenean Terrain Mod
-    sudden-valley: Choose this if you can't use DLL mods and use the Sudden Valley Terrain Mod
-    wasco: Choose this if you can't use DLL mods and use the Wasco Terrain Mod
+variantInfo:
+  - variantId: hugues-aroux:field-paths-and-hedges:grass-textures
+    values:
+      - value: transparent
+        description: Choose this if your installation supports DLL mods
+      - value: maxis
+        description: Choose this if you can't use DLL mods and use no terrain mod
+      - value: appalachian
+        description: Choose this if you can't use DLL mods and use Lowkee's Appalachian Terrain Mod
+      - value: berner-oberland
+        description: Choose this if you can't use DLL mods and use the Berner Oberland Terrain Mod
+      - value: pyrenean
+        description: Choose this if you can't use DLL mods and use Orange's Pyrenean Terrain Mod
+      - value: sudden-valley
+        description: Choose this if you can't use DLL mods and use the Sudden Valley Terrain Mod
+      - value: wasco
+        description: Choose this if you can't use DLL mods and use the Wasco Terrain Mod
 
 ---
 assetId: hugues-aroux-field-paths-and-hedges
