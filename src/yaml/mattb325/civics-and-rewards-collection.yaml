@@ -280,25 +280,26 @@ variants:
       - assetId: mattb325-civics-and-rewards-pack-darknite
         include: [ "/Luytens Library(#|_[DM]N)?/" ]
 
----
-group: mattb325
-name: moma-san-francisco
-subfolder: 620-education
-version: "1"
-info:
-  summary: MOMA San Francisco
-  author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
-variants:
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/MOMA San Francisco(#|_[DM]N)?/" ]
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
-    assets:
-      - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/MOMA San Francisco(#|_[DM]N)?/" ]
+# This is mattb325:museum-of-modern-art-san-francisco
+# ---
+# group: mattb325
+# name: moma-san-francisco
+# subfolder: 620-education
+# version: "1"
+# info:
+#   summary: MOMA San Francisco
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: mattb325-civics-and-rewards-pack-maxisnite
+#         include: [ "/MOMA San Francisco(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: mattb325-civics-and-rewards-pack-darknite
+#         include: [ "/MOMA San Francisco(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -727,31 +728,32 @@ variants:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
 #         include: [ "/James Park House(#|_[DM]N)?/" ]
 
----
-group: mattb325
-name: modern-hospital
-subfolder: 630-health
-version: "1"
-info:
-  summary: Modern Hospital
-  author: mattb325
-  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
-dependencies:
-  - bsc:mega-props-cp-vol01
-  - bsc:mega-props-cp-vol02
-  - bsc:textures-vol01
-  - bsc:textures-vol02
-  - bsc:textures-vol03
-variants:
-  - variant: { nightmode: standard }
-    assets:
-      - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Modern Hospital(#|_[DM]N)?/" ]
-  - variant: { nightmode: dark }
-    dependencies: [ "simfox:day-and-nite-mod" ]
-    assets:
-      - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Modern Hospital(#|_[DM]N)?/" ]
+# This is mattb325:large-modern-hospital
+# ---
+# group: mattb325
+# name: modern-hospital
+# subfolder: 630-health
+# version: "1"
+# info:
+#   summary: Modern Hospital
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - bsc:textures-vol01
+#   - bsc:textures-vol02
+#   - bsc:textures-vol03
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: mattb325-civics-and-rewards-pack-maxisnite
+#         include: [ "/Modern Hospital(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: mattb325-civics-and-rewards-pack-darknite
+#         include: [ "/Modern Hospital(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1437,6 +1439,7 @@ variants:
 #         include: [ "/Griffith Observatory(#|_[DM]N)?/" ]
 
 ---
+# CO version as mattb325:hm-hotel-and-theatre?
 group: mattb325
 name: her-majestys-theatre
 subfolder: 600-civics
