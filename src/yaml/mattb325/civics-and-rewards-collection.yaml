@@ -25,12 +25,12 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=117:s
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/17th St College\\(#|_[DM]N\\)?/" ]
+#         include: [ "/17th St College(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/17th St College\\(#|_[DM]N\\)?/" ]
+#         include: [ "/17th St College(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -50,12 +50,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Benjamin Franklin School\\(#|_[DM]N\\)?/" ]
+        include: [ "/Benjamin Franklin School(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Benjamin Franklin School\\(#|_[DM]N\\)?/" ]
+        include: [ "/Benjamin Franklin School(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -77,12 +77,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Bourke St School\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Bourke St School(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Bourke St School\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Bourke St School(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -99,12 +99,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/City College\\(#|_[DM]N\\)?/" ]
+#         include: [ "/City College(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/City College\\(#|_[DM]N\\)?/" ]
+#         include: [ "/City College(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -123,12 +123,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Concord NH Post Office College\\(#|_[DM]N\\)?/" ]
+        include: [ "/Concord NH Post Office College(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Concord NH Post Office College\\(#|_[DM]N\\)?/" ]
+        include: [ "/Concord NH Post Office College(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -150,12 +150,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Eddy Hall College\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Eddy Hall College(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Eddy Hall College\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Eddy Hall College(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -170,12 +170,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Engineering Dept\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Engineering Dept(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Engineering Dept\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Engineering Dept(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -195,12 +195,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Glenwood Elementary\\(#|_[DM]N\\)?/" ]
+        include: [ "/Glenwood Elementary(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Glenwood Elementary\\(#|_[DM]N\\)?/" ]
+        include: [ "/Glenwood Elementary(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -219,12 +219,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Grosvenor College\\(#|_[DM]N\\)?/" ]
+        include: [ "/Grosvenor College(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Grosvenor College\\(#|_[DM]N\\)?/" ]
+        include: [ "/Grosvenor College(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -247,12 +247,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Killymoon Private School\\(#|_[DM]N\\)?/" ]
+        include: [ "/Killymoon Private School(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Killymoon Private School\\(#|_[DM]N\\)?/" ]
+        include: [ "/Killymoon Private School(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -273,12 +273,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Luytens Library\\(#|_[DM]N\\)?/" ]
+        include: [ "/Luytens Library(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Luytens Library\\(#|_[DM]N\\)?/" ]
+        include: [ "/Luytens Library(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -293,12 +293,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/MOMA San Francisco\\(#|_[DM]N\\)?/" ]
+        include: [ "/MOMA San Francisco(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/MOMA San Francisco\\(#|_[DM]N\\)?/" ]
+        include: [ "/MOMA San Francisco(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -315,12 +315,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Main St Brewster\\(#|_[DM]N\\)?/" ]
+        include: [ "/Main St Brewster(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Main St Brewster\\(#|_[DM]N\\)?/" ]
+        include: [ "/Main St Brewster(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -337,12 +337,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Modern Library\\(#|_[DM]N\\)?/" ]
+        include: [ "/Modern Library(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Modern Library\\(#|_[DM]N\\)?/" ]
+        include: [ "/Modern Library(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -364,12 +364,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Monticello School\\(#|_[DM]N\\)?/" ]
+        include: [ "/Monticello School(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Monticello School\\(#|_[DM]N\\)?/" ]
+        include: [ "/Monticello School(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -386,12 +386,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/NatGeo Museum\\(#|_[DM]N\\)?/" ]
+#         include: [ "/NatGeo Museum(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/NatGeo Museum\\(#|_[DM]N\\)?/" ]
+#         include: [ "/NatGeo Museum(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -409,12 +409,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban Art Gallery\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Art Gallery(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban Art Gallery\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Art Gallery(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -433,12 +433,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban College\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban College(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban College\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban College(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -458,12 +458,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban Elementary School\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Elementary School(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban Elementary School\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Elementary School(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -483,12 +483,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban High School\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban High School(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban High School\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban High School(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -506,12 +506,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban Museum\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Museum(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban Museum\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Museum(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -530,12 +530,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Eastern Hill Fire Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Eastern Hill Fire Station(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Eastern Hill Fire Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Eastern Hill Fire Station(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -553,12 +553,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Modern Fire Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Modern Fire Station(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Modern Fire Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Modern Fire Station(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -578,12 +578,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Peabody Massachusetts Fire Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Peabody Massachusetts Fire Station(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Peabody Massachusetts Fire Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Peabody Massachusetts Fire Station(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -602,12 +602,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Pyrmont Fire Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Pyrmont Fire Station(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Pyrmont Fire Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Pyrmont Fire Station(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -626,12 +626,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban Fire Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Fire Station(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban Fire Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Fire Station(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -646,12 +646,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Dental Clinic\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Dental Clinic(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Dental Clinic\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Dental Clinic(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -673,12 +673,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Disease Research Center\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Disease Research Center(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Disease Research Center\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Disease Research Center(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -696,12 +696,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Harbor Clinic\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Harbor Clinic(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Harbor Clinic\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Harbor Clinic(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -720,12 +720,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/James Park House\\(#|_[DM]N\\)?/" ]
+#         include: [ "/James Park House(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/James Park House\\(#|_[DM]N\\)?/" ]
+#         include: [ "/James Park House(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -746,12 +746,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Modern Hospital\\(#|_[DM]N\\)?/" ]
+        include: [ "/Modern Hospital(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Modern Hospital\\(#|_[DM]N\\)?/" ]
+        include: [ "/Modern Hospital(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -768,12 +768,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/PWN Clinic London\\(#|_[DM]N\\)?/" ]
+#         include: [ "/PWN Clinic London(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/PWN Clinic London\\(#|_[DM]N\\)?/" ]
+#         include: [ "/PWN Clinic London(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -791,12 +791,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Quay House Clinic\\(#|_[DM]N\\)?/" ]
+        include: [ "/Quay House Clinic(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Quay House Clinic\\(#|_[DM]N\\)?/" ]
+        include: [ "/Quay House Clinic(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -814,12 +814,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Red Cross House-Hospital\\(#|_[DM]N\\)?/" ]
+        include: [ "/Red Cross House-Hospital(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Red Cross House-Hospital\\(#|_[DM]N\\)?/" ]
+        include: [ "/Red Cross House-Hospital(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -837,12 +837,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/T and A Health\\(#|_[DM]N\\)?/" ]
+        include: [ "/T and A Health(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/T and A Health\\(#|_[DM]N\\)?/" ]
+        include: [ "/T and A Health(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -864,12 +864,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Taunton State Hospital\\(#|_[DM]N\\)?/" ]
+        include: [ "/Taunton State Hospital(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Taunton State Hospital\\(#|_[DM]N\\)?/" ]
+        include: [ "/Taunton State Hospital(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -888,12 +888,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Thompson Memorial Hospital\\(#|_[DM]N\\)?/" ]
+        include: [ "/Thompson Memorial Hospital(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Thompson Memorial Hospital\\(#|_[DM]N\\)?/" ]
+        include: [ "/Thompson Memorial Hospital(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -915,12 +915,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban Clinic\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Clinic(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban Clinic\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Clinic(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -939,12 +939,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban Hospital\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Hospital(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban Hospital\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Hospital(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -962,12 +962,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Bathurst St Police Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Bathurst St Police Station(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Bathurst St Police Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Bathurst St Police Station(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -985,12 +985,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Modern Police Station\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Modern Police Station(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Modern Police Station\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Modern Police Station(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1011,12 +1011,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Pittsfield NH Police Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Pittsfield NH Police Station(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Pittsfield NH Police Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Pittsfield NH Police Station(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1034,12 +1034,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Police Headquarters\\(#|_[DM]N\\)?/" ]
+        include: [ "/Police Headquarters(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Police Headquarters\\(#|_[DM]N\\)?/" ]
+        include: [ "/Police Headquarters(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1058,12 +1058,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban Courthouse\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Courthouse(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban Courthouse\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Courthouse(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1082,12 +1082,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban Police Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Police Station(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban Police Station\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Police Station(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1105,12 +1105,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Vu Security Services\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Vu Security Services(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Vu Security Services\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Vu Security Services(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1128,12 +1128,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/-Casino Tropical\\(#|_[DM]N\\)?/" ]
+#         include: [ "/-Casino Tropical(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/-Casino Tropical\\(#|_[DM]N\\)?/" ]
+#         include: [ "/-Casino Tropical(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1151,12 +1151,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/=Casino Temperate\\(#|_[DM]N\\)?/" ]
+#         include: [ "/=Casino Temperate(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/=Casino Temperate\\(#|_[DM]N\\)?/" ]
+#         include: [ "/=Casino Temperate(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1171,12 +1171,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Almaden Council Chambers\\(#|_[DM]N\\)?/" ]
+        include: [ "/Almaden Council Chambers(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Almaden Council Chambers\\(#|_[DM]N\\)?/" ]
+        include: [ "/Almaden Council Chambers(#|_[DM]N)?/" ]
 
 # This is mattb325:council-chambers-and-civic-center, I think
 # ---
@@ -1198,12 +1198,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Bankstown Chambers\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Bankstown Chambers(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Bankstown Chambers\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Bankstown Chambers(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1218,12 +1218,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Bass Hall\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Bass Hall(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Bass Hall\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Bass Hall(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1242,12 +1242,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Benevolent Asylum\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Benevolent Asylum(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Benevolent Asylum\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Benevolent Asylum(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1265,12 +1265,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Bureau of Bureaucracy\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Bureau of Bureaucracy(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Bureau of Bureaucracy\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Bureau of Bureaucracy(#|_[DM]N)?/" ]
 
 # This is mattb325:cbs-columbia-square-tv-station, I think
 # ---
@@ -1288,12 +1288,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/CBS Television Station\\(#|_[DM]N\\)?/" ]
+#         include: [ "/CBS Television Station(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/CBS Television Station\\(#|_[DM]N\\)?/" ]
+#         include: [ "/CBS Television Station(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1313,12 +1313,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Chapel of the Assumption\\(#|_[DM]N\\)?/" ]
+        include: [ "/Chapel of the Assumption(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Chapel of the Assumption\\(#|_[DM]N\\)?/" ]
+        include: [ "/Chapel of the Assumption(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1333,12 +1333,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Convention Center\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Convention Center(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Convention Center\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Convention Center(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1357,12 +1357,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Cruise Ship Terminal\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Cruise Ship Terminal(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Cruise Ship Terminal\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Cruise Ship Terminal(#|_[DM]N)?/" ]
 
 # This is mattb325:customs-house
 # ---
@@ -1381,12 +1381,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Customs House Salem MA\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Customs House Salem MA(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Customs House Salem MA\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Customs House Salem MA(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1407,12 +1407,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Galleria Cruise Ship Terminal\\(#|_[DM]N\\)?/" ]
+        include: [ "/Galleria Cruise Ship Terminal(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Galleria Cruise Ship Terminal\\(#|_[DM]N\\)?/" ]
+        include: [ "/Galleria Cruise Ship Terminal(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1429,12 +1429,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Griffith Observatory\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Griffith Observatory(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Griffith Observatory\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Griffith Observatory(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1453,12 +1453,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Her Majestys Theatre\\(#|_[DM]N\\)?/" ]
+        include: [ "/Her Majestys Theatre(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Her Majestys Theatre\\(#|_[DM]N\\)?/" ]
+        include: [ "/Her Majestys Theatre(#|_[DM]N)?/" ]
 
 # This is mattb325:ikea-superstore, I think
 # ---
@@ -1478,12 +1478,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Ikea\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Ikea(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Ikea\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Ikea(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1503,12 +1503,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Kesher Council Chambers\\(#|_[DM]N\\)?/" ]
+        include: [ "/Kesher Council Chambers(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Kesher Council Chambers\\(#|_[DM]N\\)?/" ]
+        include: [ "/Kesher Council Chambers(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1534,12 +1534,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Lux Clubhouse\\(#|_[DM]N\\)?/" ]
+        include: [ "/Lux Clubhouse(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Lux Clubhouse\\(#|_[DM]N\\)?/" ]
+        include: [ "/Lux Clubhouse(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1554,12 +1554,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Madame Tussauds\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Madame Tussauds(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Madame Tussauds\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Madame Tussauds(#|_[DM]N)?/" ]
 
 # This is mattb325:modern-bureau-of-bureaucracy
 # ---
@@ -1581,12 +1581,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Modern BoB\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Modern BoB(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Modern BoB\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Modern BoB(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1605,12 +1605,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Muncie Courthouse\\(#|_[DM]N\\)?/" ]
+        include: [ "/Muncie Courthouse(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Muncie Courthouse\\(#|_[DM]N\\)?/" ]
+        include: [ "/Muncie Courthouse(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1627,12 +1627,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Old Market Hall\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Old Market Hall(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Old Market Hall\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Old Market Hall(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1651,12 +1651,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Old North Church Boston\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Old North Church Boston(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Old North Church Boston\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Old North Church Boston(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1674,12 +1674,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Perth Council Bldg\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Perth Council Bldg(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Perth Council Bldg\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Perth Council Bldg(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1699,12 +1699,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Radio Station\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Radio Station(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Radio Station\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Radio Station(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1725,12 +1725,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Research Center\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Research Center(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Research Center\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Research Center(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1750,12 +1750,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Sandgate Council Chambers\\(#|_[DM]N\\)?/" ]
+        include: [ "/Sandgate Council Chambers(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Sandgate Council Chambers\\(#|_[DM]N\\)?/" ]
+        include: [ "/Sandgate Council Chambers(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1774,12 +1774,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/St Johns\\(#|_[DM]N\\)?/" ]
+#         include: [ "/St Johns(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/St Johns\\(#|_[DM]N\\)?/" ]
+#         include: [ "/St Johns(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1798,12 +1798,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/St Mephitz Tophel\\(#|_[DM]N\\)?/" ]
+        include: [ "/St Mephitz Tophel(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/St Mephitz Tophel\\(#|_[DM]N\\)?/" ]
+        include: [ "/St Mephitz Tophel(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1822,12 +1822,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Stem Cell Research Ctr\\(#|_[DM]N\\)?/" ]
+        include: [ "/Stem Cell Research Ctr(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Stem Cell Research Ctr\\(#|_[DM]N\\)?/" ]
+        include: [ "/Stem Cell Research Ctr(#|_[DM]N)?/" ]
 
 # This is mattb325:the-lodge-canberra
 # ---
@@ -1848,12 +1848,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/The Lodge\\(#|_[DM]N\\)?/" ]
+#         include: [ "/The Lodge(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/The Lodge\\(#|_[DM]N\\)?/" ]
+#         include: [ "/The Lodge(#|_[DM]N)?/" ]
 
 # ---
 # group: mattb325
@@ -1871,12 +1871,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/Trade Union Hall\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Trade Union Hall(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/Trade Union Hall\\(#|_[DM]N\\)?/" ]
+#         include: [ "/Trade Union Hall(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1895,12 +1895,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Urban Town Hall\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Town Hall(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Urban Town Hall\\(#|_[DM]N\\)?/" ]
+        include: [ "/Urban Town Hall(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1919,12 +1919,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Visitors Center\\(#|_[DM]N\\)?/" ]
+        include: [ "/Visitors Center(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Visitors Center\\(#|_[DM]N\\)?/" ]
+        include: [ "/Visitors Center(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1944,12 +1944,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-        include: [ "/Waringah Chambers\\(#|_[DM]N\\)?/" ]
+        include: [ "/Waringah Chambers(#|_[DM]N)?/" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-civics-and-rewards-pack-darknite
-        include: [ "/Waringah Chambers\\(#|_[DM]N\\)?/" ]
+        include: [ "/Waringah Chambers(#|_[DM]N)?/" ]
 
 # This is mattb325:youtube-headquarters
 # ---
@@ -1969,12 +1969,12 @@ variants:
 #   - variant: { nightmode: standard }
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-maxisnite
-#         include: [ "/YouTube HQ\\(#|_[DM]N\\)?/" ]
+#         include: [ "/YouTube HQ(#|_[DM]N)?/" ]
 #   - variant: { nightmode: dark }
 #     dependencies: [ "simfox:day-and-nite-mod" ]
 #     assets:
 #       - assetId: mattb325-civics-and-rewards-pack-darknite
-#         include: [ "/YouTube HQ\\(#|_[DM]N\\)?/" ]
+#         include: [ "/YouTube HQ(#|_[DM]N)?/" ]
 
 ---
 group: mattb325
@@ -1983,7 +1983,7 @@ version: "1.0"
 subfolder: 110-resources
 info:
   summary: Civics and rewards pack shared resources
-  description: A dependency containing a few resources used in `pkg=mattb325:civics-and-rewards-pack`
+  description: A dependency containing a few shared resources for various mattb325 civics and rewards
 
 variants:
   - variant: { nightmode: standard }
