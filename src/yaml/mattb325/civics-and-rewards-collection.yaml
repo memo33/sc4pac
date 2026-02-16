@@ -1,11 +1,11 @@
 assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
-version: "1"
+version: "1.0"
 lastModified: "2023-08-20T09:40:33Z"
 url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=116:sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
 
 ---
 assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
-version: "1"
+version: "1.0"
 lastModified: "2023-08-20T09:38:42Z"
 url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=117:sc4d-lex-legacy-mattb325-civics-and-rewards-maxis-nite
 
@@ -13,7 +13,7 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=117:s
 # group: mattb325
 # name: 17th-st-college
 # subfolder: 620-education
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: 17th St College
 #   author: mattb325
@@ -36,7 +36,7 @@ url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=117:s
 group: mattb325
 name: benjamin-franklin-school
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Benjamin Franklin School
   author: mattb325
@@ -61,7 +61,7 @@ variants:
 # group: mattb325
 # name: bourke-st-school
 # subfolder: 620-education
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Bourke St School
 #   author: mattb325
@@ -88,7 +88,7 @@ variants:
 # group: mattb325
 # name: city-college
 # subfolder: 620-education
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: City College
 #   author: mattb325
@@ -110,7 +110,7 @@ variants:
 group: mattb325
 name: concord-nh-post-office-college
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Concord NH Post Office College
   author: mattb325
@@ -134,7 +134,7 @@ variants:
 # group: mattb325
 # name: eddy-hall-college
 # subfolder: 620-education
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Eddy Hall College
 #   author: mattb325
@@ -161,7 +161,7 @@ variants:
 # group: mattb325
 # name: engineering-dept
 # subfolder: 620-education
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Engineering Dept
 #   author: mattb325
@@ -181,7 +181,7 @@ variants:
 group: mattb325
 name: glenwood-elementary
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Glenwood Elementary
   author: mattb325
@@ -206,7 +206,7 @@ variants:
 group: mattb325
 name: grosvenor-college
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Grosvenor College
   author: mattb325
@@ -230,7 +230,7 @@ variants:
 group: mattb325
 name: killymoon-private-school
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Killymoon Private School
   author: mattb325
@@ -258,7 +258,7 @@ variants:
 group: mattb325
 name: luytens-library
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Luytens Library
   author: mattb325
@@ -285,7 +285,7 @@ variants:
 # group: mattb325
 # name: moma-san-francisco
 # subfolder: 620-education
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: MOMA San Francisco
 #   author: mattb325
@@ -305,7 +305,7 @@ variants:
 group: mattb325
 name: main-st-brewster
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Main St Brewster
   author: mattb325
@@ -327,7 +327,7 @@ variants:
 group: mattb325
 name: modern-library
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Modern Library
   author: mattb325
@@ -349,7 +349,7 @@ variants:
 group: mattb325
 name: monticello-school
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Monticello School
   author: mattb325
@@ -376,7 +376,7 @@ variants:
 # group: mattb325
 # name: natgeo-museum
 # subfolder: 620-education
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: NatGeo Museum
 #   author: mattb325
@@ -398,7 +398,7 @@ variants:
 group: mattb325
 name: urban-art-gallery
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Urban Art Gallery
   author: mattb325
@@ -421,7 +421,7 @@ variants:
 group: mattb325
 name: urban-college
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Urban College
   author: mattb325
@@ -445,7 +445,7 @@ variants:
 group: mattb325
 name: urban-elementary-school
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Urban Elementary School
   author: mattb325
@@ -470,7 +470,7 @@ variants:
 group: mattb325
 name: urban-high-school
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Urban High School
   author: mattb325
@@ -495,7 +495,7 @@ variants:
 group: mattb325
 name: urban-museum
 subfolder: 620-education
-version: "1"
+version: "1.0"
 info:
   summary: Urban Museum
   author: mattb325
@@ -518,7 +518,7 @@ variants:
 group: mattb325
 name: eastern-hill-fire-station
 subfolder: 610-safety
-version: "1"
+version: "1.0"
 info:
   summary: Eastern Hill Fire Station
   author: mattb325
@@ -542,7 +542,7 @@ variants:
 # group: mattb325
 # name: modern-fire-station
 # subfolder: 610-safety
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Modern Fire Station
 #   author: mattb325
@@ -565,7 +565,7 @@ variants:
 group: mattb325
 name: peabody-massachusetts-fire-station
 subfolder: 610-safety
-version: "1"
+version: "1.0"
 info:
   summary: Peabody Massachusetts Fire Station
   author: mattb325
@@ -590,7 +590,7 @@ variants:
 group: mattb325
 name: pyrmont-fire-station
 subfolder: 610-safety
-version: "1"
+version: "1.0"
 info:
   summary: Pyrmont Fire Station
   author: mattb325
@@ -614,7 +614,7 @@ variants:
 group: mattb325
 name: urban-fire-station
 subfolder: 610-safety
-version: "1"
+version: "1.0"
 info:
   summary: Urban Fire Station
   author: mattb325
@@ -638,7 +638,7 @@ variants:
 # group: mattb325
 # name: dental-clinic
 # subfolder: 630-health
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Dental Clinic
 #   author: mattb325
@@ -658,7 +658,7 @@ variants:
 # group: mattb325
 # name: disease-research-center
 # subfolder: 630-health
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Disease Research Center
 #   author: mattb325
@@ -685,7 +685,7 @@ variants:
 # group: mattb325
 # name: harbor-clinic
 # subfolder: 630-health
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Harbor Clinic
 #   author: mattb325
@@ -708,7 +708,7 @@ variants:
 # group: mattb325
 # name: james-park-house
 # subfolder: 630-health
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: James Park House
 #   author: mattb325
@@ -733,7 +733,7 @@ variants:
 # group: mattb325
 # name: modern-hospital
 # subfolder: 630-health
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Modern Hospital
 #   author: mattb325
@@ -759,7 +759,7 @@ variants:
 # group: mattb325
 # name: pwn-clinic-london
 # subfolder: 630-health
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: PWN Clinic London
 #   author: mattb325
@@ -781,7 +781,7 @@ variants:
 group: mattb325
 name: quay-house-clinic
 subfolder: 630-health
-version: "1"
+version: "1.0"
 info:
   summary: Quay House Clinic
   author: mattb325
@@ -804,7 +804,7 @@ variants:
 group: mattb325
 name: red-cross-house-hospital
 subfolder: 630-health
-version: "1"
+version: "1.0"
 info:
   summary: Red Cross House-Hospital
   author: mattb325
@@ -827,7 +827,7 @@ variants:
 group: mattb325
 name: t-and-a-health
 subfolder: 630-health
-version: "1"
+version: "1.0"
 info:
   summary: T and A Health
   author: mattb325
@@ -850,7 +850,7 @@ variants:
 group: mattb325
 name: taunton-state-hospital
 subfolder: 630-health
-version: "1"
+version: "1.0"
 info:
   summary: Taunton State Hospital
   author: mattb325
@@ -877,7 +877,7 @@ variants:
 group: mattb325
 name: thompson-memorial-hospital
 subfolder: 630-health
-version: "1"
+version: "1.0"
 info:
   summary: Thompson Memorial Hospital
   author: mattb325
@@ -901,7 +901,7 @@ variants:
 group: mattb325
 name: urban-clinic
 subfolder: 630-health
-version: "1"
+version: "1.0"
 info:
   summary: Urban Clinic
   author: mattb325
@@ -928,7 +928,7 @@ variants:
 group: mattb325
 name: urban-hospital
 subfolder: 630-health
-version: "1"
+version: "1.0"
 info:
   summary: Urban Hospital
   author: mattb325
@@ -952,7 +952,7 @@ variants:
 group: mattb325
 name: bathurst-st-police-station
 subfolder: 610-safety
-version: "1"
+version: "1.0"
 info:
   summary: Bathurst St Police Station
   author: mattb325
@@ -975,7 +975,7 @@ variants:
 # group: mattb325
 # name: modern-police-station
 # subfolder: 610-safety
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Modern Police Station
 #   author: mattb325
@@ -998,7 +998,7 @@ variants:
 group: mattb325
 name: pittsfield-nh-police-station
 subfolder: 610-safety
-version: "1"
+version: "1.0"
 info:
   summary: Pittsfield NH Police Station
   author: mattb325
@@ -1024,7 +1024,7 @@ variants:
 group: mattb325
 name: police-headquarters
 subfolder: 610-safety
-version: "1"
+version: "1.0"
 info:
   summary: Police Headquarters
   author: mattb325
@@ -1047,7 +1047,7 @@ variants:
 group: mattb325
 name: urban-courthouse
 subfolder: 610-safety
-version: "1"
+version: "1.0"
 info:
   summary: Urban Courthouse
   author: mattb325
@@ -1071,7 +1071,7 @@ variants:
 group: mattb325
 name: urban-police-station
 subfolder: 610-safety
-version: "1"
+version: "1.0"
 info:
   summary: Urban Police Station
   author: mattb325
@@ -1095,7 +1095,7 @@ variants:
 # group: mattb325
 # name: vu-security-services
 # subfolder: 610-safety
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Vu Security Services
 #   author: mattb325
@@ -1118,7 +1118,7 @@ variants:
 # group: mattb325
 # name: -casino-tropical
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: -Casino Tropical
 #   author: mattb325
@@ -1141,7 +1141,7 @@ variants:
 # group: mattb325
 # name: =casino-temperate
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: =Casino Temperate
 #   author: mattb325
@@ -1164,7 +1164,7 @@ variants:
 group: mattb325
 name: almaden-council-chambers
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Almaden Council Chambers
   author: mattb325
@@ -1185,7 +1185,7 @@ variants:
 # group: mattb325
 # name: bankstown-chambers
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Bankstown Chambers
 #   author: mattb325
@@ -1211,7 +1211,7 @@ variants:
 # group: mattb325
 # name: bass-hall
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Bass Hall
 #   author: mattb325
@@ -1231,7 +1231,7 @@ variants:
 # group: mattb325
 # name: benevolent-asylum
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Benevolent Asylum
 #   author: mattb325
@@ -1255,7 +1255,7 @@ variants:
 # group: mattb325
 # name: bureau-of-bureaucracy
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Bureau of Bureaucracy
 #   author: mattb325
@@ -1279,7 +1279,7 @@ variants:
 # group: mattb325
 # name: cbs-television-station
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: CBS Television Station
 #   author: mattb325
@@ -1301,7 +1301,7 @@ variants:
 group: mattb325
 name: chapel-of-the-assumption
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Chapel of the Assumption
   author: mattb325
@@ -1326,7 +1326,7 @@ variants:
 # group: mattb325
 # name: convention-center
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Convention Center
 #   author: mattb325
@@ -1346,7 +1346,7 @@ variants:
 # group: mattb325
 # name: cruise-ship-terminal
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Cruise Ship Terminal
 #   author: mattb325
@@ -1371,7 +1371,7 @@ variants:
 # group: mattb325
 # name: customs-house-salem-ma
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Customs House Salem MA
 #   author: mattb325
@@ -1394,7 +1394,7 @@ variants:
 group: mattb325
 name: galleria-cruise-ship-terminal
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Galleria Cruise Ship Terminal
   author: mattb325
@@ -1420,7 +1420,7 @@ variants:
 # group: mattb325
 # name: griffith-observatory
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Griffith Observatory
 #   author: mattb325
@@ -1443,7 +1443,7 @@ variants:
 group: mattb325
 name: her-majestys-theatre
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Her Majestys Theatre
   author: mattb325
@@ -1468,7 +1468,7 @@ variants:
 # group: mattb325
 # name: ikea
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Ikea
 #   author: mattb325
@@ -1492,7 +1492,7 @@ variants:
 group: mattb325
 name: kesher-council-chambers
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Kesher Council Chambers
   author: mattb325
@@ -1517,7 +1517,7 @@ variants:
 group: mattb325
 name: luxury-clubhouse
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Luxury Clubhouse
   author: mattb325
@@ -1548,7 +1548,7 @@ variants:
 # group: mattb325
 # name: madame-tussauds
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Madame Tussauds
 #   author: mattb325
@@ -1569,7 +1569,7 @@ variants:
 # group: mattb325
 # name: modern-bob
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Modern BoB
 #   author: mattb325
@@ -1595,7 +1595,7 @@ variants:
 group: mattb325
 name: muncie-courthouse
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Muncie Courthouse
   author: mattb325
@@ -1619,7 +1619,7 @@ variants:
 # group: mattb325
 # name: old-market-hall
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Old Market Hall
 #   author: mattb325
@@ -1641,7 +1641,7 @@ variants:
 # group: mattb325
 # name: old-north-church-boston
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Old North Church Boston
 #   author: mattb325
@@ -1665,7 +1665,7 @@ variants:
 # group: mattb325
 # name: perth-council-bldg
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Perth Council Bldg
 #   author: mattb325
@@ -1688,7 +1688,7 @@ variants:
 # group: mattb325
 # name: radio-station
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Radio Station
 #   author: mattb325
@@ -1713,7 +1713,7 @@ variants:
 # group: mattb325
 # name: research-center
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Research Center
 #   author: mattb325
@@ -1739,7 +1739,7 @@ variants:
 group: mattb325
 name: sandgate-council-chambers
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Sandgate Council Chambers
   author: mattb325
@@ -1764,7 +1764,7 @@ variants:
 # group: mattb325
 # name: st-johns
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: St Johns
 #   author: mattb325
@@ -1788,7 +1788,7 @@ variants:
 group: mattb325
 name: st-mephitz-tophel
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: St Mephitz Tophel
   author: mattb325
@@ -1812,7 +1812,7 @@ variants:
 group: mattb325
 name: stem-cell-research-center
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Stem Cell Research Center
   author: mattb325
@@ -1837,7 +1837,7 @@ variants:
 # group: mattb325
 # name: the-lodge
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: The Lodge
 #   author: mattb325
@@ -1862,7 +1862,7 @@ variants:
 # group: mattb325
 # name: trade-union-hall
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: Trade Union Hall
 #   author: mattb325
@@ -1885,7 +1885,7 @@ variants:
 group: mattb325
 name: urban-town-hall
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Urban Town Hall
   author: mattb325
@@ -1909,7 +1909,7 @@ variants:
 group: mattb325
 name: visitors-center
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Visitors Center
   author: mattb325
@@ -1933,7 +1933,7 @@ variants:
 group: mattb325
 name: waringah-chambers
 subfolder: 600-civics
-version: "1"
+version: "1.0"
 info:
   summary: Waringah Chambers
   author: mattb325
@@ -1959,7 +1959,7 @@ variants:
 # group: mattb325
 # name: youtube-hq
 # subfolder: 600-civics
-# version: "1"
+# version: "1.0"
 # info:
 #   summary: YouTube HQ
 #   author: mattb325
