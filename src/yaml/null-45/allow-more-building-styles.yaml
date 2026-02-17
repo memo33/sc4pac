@@ -1,6 +1,6 @@
 group: "null-45"
 name: "allow-more-building-styles-dll"
-version: "3.6.0-1"
+version: "3.6.1"
 subfolder: "150-mods"
 dependencies:
 - "config:sc4-edition-windows-digital"
@@ -42,10 +42,10 @@ info:
 
 ---
 assetId: "null-45-allow-more-building-styles"
-version: "3.6.0"
-lastModified: "2025-08-09T10:47:40Z"
+version: "3.6.1"
+lastModified: "2026-02-16T09:31:29Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/?do=download"
-url: "https://github.com/0xC0000054/sc4-more-building-styles/releases/download/v3.6.0/SC4MoreBuildingStyles.zip"
+url: "https://github.com/0xC0000054/sc4-more-building-styles/releases/download/v3.6.1/SC4MoreBuildingStyles.zip"
 
 ---
 assetId: "null-45-building-style-control-ui-for-the-building-styles"
