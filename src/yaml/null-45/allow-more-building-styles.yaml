@@ -8,7 +8,7 @@ assets:
 - assetId: "null-45-allow-more-building-styles"
   withChecksum:
   - include: "/SC4MoreBuildingStyles.dll"
-    sha256: 7EE08FCF0F782FDF1AB0568993A1D6A828A10213FBB0A0D41AB93067E4401FE6
+    sha256: 460E2A57AA217BEE5A24E62CFC1FC37B31798BA8F10A0FF5EFBFCD6922247AFF
   - include: "/SC4MoreBuildingStyles.ini"
     sha256: 4A02425B6D9AC5BB8293B0EE64CBAC472125465587D33D37B23E4B45D57193F3
   - include: "/BuildingStyles.ini"
