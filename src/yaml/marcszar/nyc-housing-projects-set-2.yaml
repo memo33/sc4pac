@@ -1,0 +1,36 @@
+group: marcszar
+name: nyc-housing-projects-set-2
+version: "1.0.2"
+subfolder: 200-residential
+info:
+  summary: NYC Housing Projects Set 2
+  description: |-
+    There are fifteen growable residential lots included in this set- each lot is named after a real housing project in New York City.
+    Each lot has a different arrangement of housing blocks; thus all the lots have different stats.
+    The stage 6, 7, and 8 lots are CAMpatible (but do not require the CAM) and the stage 9 and 10 lots are CAMeLOTs (they require the CAM).
+    The lots will only grow on high-density residential zones- it helps to hold down the CTRL key when zoning areas large enough for these lots.
+  author: marcszar
+  website: https://cafe.naver.com/simcitysquare/37683
+  images:
+    - https://cafeptthumb-phinf.pstatic.net/MjAxNzA0MjZfNTUg/MDAxNDkzMjAwNTI5MDkw.qkHOwm-9PHUHHcfxky8-NXogTEuIhaO4zVxyF0g-wVog.QvJhFRPwz3RsuWbsOPWut1koiP0C-TwW6d9ZjcDkrzAg.JPEG.dlxogur95/NYC_Housing_Projects_Set2_LEXImg1.jpg?type=w800
+
+dependencies:
+  - bsc:essentials
+  - bsc:textures-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+  - bsc:mega-props-sg-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-misc-vol01
+  - bsc:mega-props-misc-vol02
+assets:
+  - assetId: marcszar-nyc-housing-projects-set-2
+
+---
+assetId: marcszar-nyc-housing-projects-set-2
+version: "1.0.2"
+lastModified: "2017-04-26T18:55:00Z"
+url: https://cafeattach.naver.net/59cc45f5e7b5bd614caccbfbc128592183d12fcd8a/20170426_275_cafefile/11881236_1493200526975_yXGHjq_zip/Install_MSZ_NYC_Housing_Projects_Set2_BSC_1.0.2.zip
+archiveType:
+  format: Clickteam
+  version: "40"
