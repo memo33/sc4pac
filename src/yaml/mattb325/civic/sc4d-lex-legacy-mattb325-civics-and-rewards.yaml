@@ -1,12 +1,1999 @@
-# Packages with darknite variants currently use assets from Simtropolis instead.
+assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+version: "1.0"
+lastModified: "2023-08-20T09:40:33Z"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=116:sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
 
-# assetId: "sc4d-lex-legacy-mattb325-civics-and-rewards-darknite"
-# version: "1"
-# lastModified: "2023-08-20T09:40:33Z"
-# url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=116:sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite"
-
-# ---
-assetId: "sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite"
+---
+assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
 version: "1.0"
 lastModified: "2023-08-20T09:38:42Z"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=117:sc4d-lex-legacy-mattb325-civics-and-rewards-maxis-nite"
+url: https://www.sc4evermore.com/index.php/downloads?task=download.send&id=117:sc4d-lex-legacy-mattb325-civics-and-rewards-maxis-nite
+
+# ---
+# group: mattb325
+# name: 17th-st-college
+# subfolder: 620-education
+# version: "1.0"
+# info:
+#   summary: 17th St College
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - mattb325:civics-and-rewards-pack-shared-resources
+#   - mattb325:urban-civics-prop-pack-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/17th St College(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/17th St College(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: benjamin-franklin-school
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Benjamin Franklin School
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Benjamin Franklin School(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Benjamin Franklin School(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: bourke-st-school
+# subfolder: 620-education
+# version: "1.0"
+# info:
+#   summary: Bourke St School
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-misc-vol01
+#   - bsc:mega-props-sg-vol01
+#   - bsc:texturepack-cycledogg-vol01
+#   - bsc:textures-vol01
+#   - bsc:textures-vol02
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Bourke St School(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Bourke St School(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: city-college
+# subfolder: 620-education
+# version: "1.0"
+# info:
+#   summary: City College
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - mattb325:civics-and-rewards-pack-shared-resources
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/City College(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/City College(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: concord-nh-post-office-college
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Concord NH Post Office College
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Concord NH Post Office College(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Concord NH Post Office College(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: eddy-hall-college
+# subfolder: 620-education
+# version: "1.0"
+# info:
+#   summary: Eddy Hall College
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - mattb325:civics-and-rewards-pack-shared-resources
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - bsc:texturepack-cycledogg-vol01
+#   - shk:parking-pack
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Eddy Hall College(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Eddy Hall College(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: engineering-dept
+# subfolder: 620-education
+# version: "1.0"
+# info:
+#   summary: Engineering Dept
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Engineering Dept(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Engineering Dept(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: glenwood-elementary
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Glenwood Elementary
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Glenwood Elementary(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Glenwood Elementary(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: grosvenor-college
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Grosvenor College
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-london-w2w-vol01
+  - bsc:bat-props-mattb325-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Grosvenor College(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Grosvenor College(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: killymoon-private-school
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Killymoon Private School
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - mattb325:civics-and-rewards-pack-shared-resources
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol02
+  - bsc:textures-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Killymoon Private School(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Killymoon Private School(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: luytens-library
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Luytens Library
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - mattb325:civics-and-rewards-pack-shared-resources
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Luytens Library(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Luytens Library(#|_[DM]N)?/" ]
+
+# This is mattb325:museum-of-modern-art-san-francisco
+# ---
+# group: mattb325
+# name: moma-san-francisco
+# subfolder: 620-education
+# version: "1.0"
+# info:
+#   summary: MOMA San Francisco
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/MOMA San Francisco(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/MOMA San Francisco(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: main-st-brewster
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Main St Brewster
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Main St Brewster(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Main St Brewster(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: modern-library
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Modern Library
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Modern Library(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Modern Library(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: monticello-school
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Monticello School
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - mattb325:civics-and-rewards-pack-shared-resources
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Monticello School(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Monticello School(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: natgeo-museum
+# subfolder: 620-education
+# version: "1.0"
+# info:
+#   summary: NatGeo Museum
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - mattb325:civics-and-rewards-pack-shared-resources
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/NatGeo Museum(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/NatGeo Museum(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-art-gallery
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Urban Art Gallery
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban Art Gallery(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban Art Gallery(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-college
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Urban College
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban College(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban College(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-elementary-school
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Urban Elementary School
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol01
+  - bsc:bat-props-mattb325-vol04
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban Elementary School(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban Elementary School(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-high-school
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Urban High School
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:texturepack-cycledogg-vol01
+  - kingofsimcity:community-regional-park-pack-vol2-resources
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban High School(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban High School(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-museum
+subfolder: 620-education
+version: "1.0"
+info:
+  summary: Urban Museum
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban Museum(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban Museum(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: eastern-hill-fire-station
+subfolder: 610-safety
+version: "1.0"
+info:
+  summary: Eastern Hill Fire Station
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:textures-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Eastern Hill Fire Station(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Eastern Hill Fire Station(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: modern-fire-station
+# subfolder: 610-safety
+# version: "1.0"
+# info:
+#   summary: Modern Fire Station
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:texturepack-cycledogg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Modern Fire Station(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Modern Fire Station(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: peabody-massachusetts-fire-station
+subfolder: 610-safety
+version: "1.0"
+info:
+  summary: Peabody Massachusetts Fire Station
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Peabody Massachusetts Fire Station(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Peabody Massachusetts Fire Station(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: pyrmont-fire-station
+subfolder: 610-safety
+version: "1.0"
+info:
+  summary: Pyrmont Fire Station
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:mega-props-jes-vol01
+  - bsc:textures-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Pyrmont Fire Station(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Pyrmont Fire Station(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-fire-station
+subfolder: 610-safety
+version: "1.0"
+info:
+  summary: Urban Fire Station
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban Fire Station(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban Fire Station(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: dental-clinic
+# subfolder: 630-health
+# version: "1.0"
+# info:
+#   summary: Dental Clinic
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Dental Clinic(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Dental Clinic(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: disease-research-center
+# subfolder: 630-health
+# version: "1.0"
+# info:
+#   summary: Disease Research Center
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - mattb325:civics-and-rewards-pack-shared-resources
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:mega-props-cp-vol01
+#   - bsc:texturepack-cycledogg-vol01
+#   - bsc:textures-vol01
+#   - csx:mega-props-vol04
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Disease Research Center(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Disease Research Center(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: harbor-clinic
+# subfolder: 630-health
+# version: "1.0"
+# info:
+#   summary: Harbor Clinic
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Harbor Clinic(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Harbor Clinic(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: james-park-house
+# subfolder: 630-health
+# version: "1.0"
+# info:
+#   summary: James Park House
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - bsc:texturepack-cycledogg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/James Park House(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/James Park House(#|_[DM]N)?/" ]
+
+# This is mattb325:large-modern-hospital
+# ---
+# group: mattb325
+# name: modern-hospital
+# subfolder: 630-health
+# version: "1.0"
+# info:
+#   summary: Modern Hospital
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - bsc:textures-vol01
+#   - bsc:textures-vol02
+#   - bsc:textures-vol03
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Modern Hospital(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Modern Hospital(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: pwn-clinic-london
+# subfolder: 630-health
+# version: "1.0"
+# info:
+#   summary: PWN Clinic London
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - mattb325:civics-and-rewards-pack-shared-resources
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/PWN Clinic London(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/PWN Clinic London(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: quay-house-clinic
+subfolder: 630-health
+version: "1.0"
+info:
+  summary: Quay House Clinic
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - mattb325:civics-and-rewards-pack-shared-resources
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Quay House Clinic(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Quay House Clinic(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: red-cross-house-hospital
+subfolder: 630-health
+version: "1.0"
+info:
+  summary: Red Cross House-Hospital
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - mattb325:civics-and-rewards-pack-shared-resources
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Red Cross House-Hospital(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Red Cross House-Hospital(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: t-and-a-health
+subfolder: 630-health
+version: "1.0"
+info:
+  summary: T and A Health
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/T and A Health(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/T and A Health(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: taunton-state-hospital
+subfolder: 630-health
+version: "1.0"
+info:
+  summary: Taunton State Hospital
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol01
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Taunton State Hospital(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Taunton State Hospital(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: thompson-memorial-hospital
+subfolder: 630-health
+version: "1.0"
+info:
+  summary: Thompson Memorial Hospital
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Thompson Memorial Hospital(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Thompson Memorial Hospital(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-clinic
+subfolder: 630-health
+version: "1.0"
+info:
+  summary: Urban Clinic
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:urban-civics-prop-pack-vol01
+  - supershk:mega-parking-textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban Clinic(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban Clinic(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-hospital
+subfolder: 630-health
+version: "1.0"
+info:
+  summary: Urban Hospital
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban Hospital(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban Hospital(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: bathurst-st-police-station
+subfolder: 610-safety
+version: "1.0"
+info:
+  summary: Bathurst St Police Station
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:textures-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Bathurst St Police Station(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Bathurst St Police Station(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: modern-police-station
+# subfolder: 610-safety
+# version: "1.0"
+# info:
+#   summary: Modern Police Station
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:texturepack-cycledogg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Modern Police Station(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Modern Police Station(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: pittsfield-nh-police-station
+subfolder: 610-safety
+version: "1.0"
+info:
+  summary: Pittsfield NH Police Station
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Pittsfield NH Police Station(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Pittsfield NH Police Station(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: police-headquarters
+subfolder: 610-safety
+version: "1.0"
+info:
+  summary: Police Headquarters
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:mega-props-gascooker-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Police Headquarters(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Police Headquarters(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-courthouse
+subfolder: 610-safety
+version: "1.0"
+info:
+  summary: Urban Courthouse
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban Courthouse(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban Courthouse(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-police-station
+subfolder: 610-safety
+version: "1.0"
+info:
+  summary: Urban Police Station
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban Police Station(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban Police Station(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: vu-security-services
+# subfolder: 610-safety
+# version: "1.0"
+# info:
+#   summary: Vu Security Services
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:texturepack-cycledogg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Vu Security Services(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Vu Security Services(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: -casino-tropical
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: -Casino Tropical
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/-Casino Tropical(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/-Casino Tropical(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: =casino-temperate
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: =Casino Temperate
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/=Casino Temperate(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/=Casino Temperate(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: almaden-council-chambers
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Almaden Council Chambers
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Almaden Council Chambers(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Almaden Council Chambers(#|_[DM]N)?/" ]
+
+# This is mattb325:council-chambers-and-civic-center, I think
+# ---
+# group: mattb325
+# name: bankstown-chambers
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Bankstown Chambers
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - bsc:mega-props-sg-vol01
+#   - bsc:texturepack-cycledogg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Bankstown Chambers(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Bankstown Chambers(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: bass-hall
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Bass Hall
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Bass Hall(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Bass Hall(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: benevolent-asylum
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Benevolent Asylum
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - bsc:texturepack-cycledogg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Benevolent Asylum(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Benevolent Asylum(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: bureau-of-bureaucracy
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Bureau of Bureaucracy
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:mega-props-cp-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Bureau of Bureaucracy(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Bureau of Bureaucracy(#|_[DM]N)?/" ]
+
+# This is mattb325:cbs-columbia-square-tv-station, I think
+# ---
+# group: mattb325
+# name: cbs-television-station
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: CBS Television Station
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol03
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/CBS Television Station(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/CBS Television Station(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: chapel-of-the-assumption
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Chapel of the Assumption
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-london-w2w-vol01
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-w2w-prop-pack-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Chapel of the Assumption(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Chapel of the Assumption(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: convention-center
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Convention Center
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Convention Center(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Convention Center(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: cruise-ship-terminal
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Cruise Ship Terminal
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:bat-props-mattb325-vol03
+#   - bsc:textures-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Cruise Ship Terminal(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Cruise Ship Terminal(#|_[DM]N)?/" ]
+
+# This is mattb325:customs-house
+# ---
+# group: mattb325
+# name: customs-house-salem-ma
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Customs House Salem MA
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:mega-props-cp-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Customs House Salem MA(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Customs House Salem MA(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: galleria-cruise-ship-terminal
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Galleria Cruise Ship Terminal
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - mattb325:multifunction-stations
+  - nam:ground-light-rail
+  - nam:network-addon-mod-core
+  - nam:textures
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Galleria Cruise Ship Terminal(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Galleria Cruise Ship Terminal(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: griffith-observatory
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Griffith Observatory
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:textures-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Griffith Observatory(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Griffith Observatory(#|_[DM]N)?/" ]
+
+---
+# CO version as mattb325:hm-hotel-and-theatre?
+group: mattb325
+name: her-majestys-theatre
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Her Majestys Theatre
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - mattb325:civics-and-rewards-pack-shared-resources
+  - bsc:mega-props-sg-vol01
+  - porkissimo:jenx-porkie-expanded-porkie-props
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Her Majestys Theatre(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Her Majestys Theatre(#|_[DM]N)?/" ]
+
+# This is mattb325:ikea-superstore, I think
+# ---
+# group: mattb325
+# name: ikea
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Ikea
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol02
+#   - bsc:mega-props-sg-vol01
+#   - supershk:mega-parking-textures
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Ikea(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Ikea(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: kesher-council-chambers
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Kesher Council Chambers
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Kesher Council Chambers(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Kesher Council Chambers(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: luxury-clubhouse
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Luxury Clubhouse
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol03
+  - bsc:jrj-cpt-trees-as-props
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:mega-props-diggis-canals-streams-and-ponds
+  - bsc:mega-props-sg-vol01
+  - bsc:texturepack-cycledogg-vol01
+  - bsc:textures-vol01
+  - cycledogg:tree-models-part-one-and-two
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Lux Clubhouse(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Lux Clubhouse(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: madame-tussauds
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Madame Tussauds
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Madame Tussauds(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Madame Tussauds(#|_[DM]N)?/" ]
+
+# This is mattb325:modern-bureau-of-bureaucracy
+# ---
+# group: mattb325
+# name: modern-bob
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Modern BoB
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:texturepack-cycledogg-vol01
+#   - bsc:textures-vol01
+#   - girafe:elms
+#   - girafe:poplars
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Modern BoB(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Modern BoB(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: muncie-courthouse
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Muncie Courthouse
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Muncie Courthouse(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Muncie Courthouse(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: old-market-hall
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Old Market Hall
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Old Market Hall(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Old Market Hall(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: old-north-church-boston
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Old North Church Boston
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Old North Church Boston(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Old North Church Boston(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: perth-council-bldg
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Perth Council Bldg
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol02
+#   - bsc:mega-props-sg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Perth Council Bldg(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Perth Council Bldg(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: radio-station
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Radio Station
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - peg:security-fencing-kit
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Radio Station(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Radio Station(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: research-center
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Research Center
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - bsc:mega-props-sg-vol01
+#   - bsc:texturepack-cycledogg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Research Center(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Research Center(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: sandgate-council-chambers
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Sandgate Council Chambers
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Sandgate Council Chambers(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Sandgate Council Chambers(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: st-johns
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: St Johns
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - bsc:texturepack-cycledogg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/St Johns(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/St Johns(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: st-mephitz-tophel
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: St Mephitz Tophel
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/St Mephitz Tophel(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/St Mephitz Tophel(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: stem-cell-research-center
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Stem Cell Research Center
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:bat-props-mattb325-vol04
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Stem Cell Research Ctr(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Stem Cell Research Ctr(#|_[DM]N)?/" ]
+
+# This is mattb325:the-lodge-canberra
+# ---
+# group: mattb325
+# name: the-lodge
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: The Lodge
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+#   - bsc:mega-props-sg-vol01
+#   - bsc:texturepack-cycledogg-vol01
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/The Lodge(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/The Lodge(#|_[DM]N)?/" ]
+
+# ---
+# group: mattb325
+# name: trade-union-hall
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: Trade Union Hall
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/Trade Union Hall(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/Trade Union Hall(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: urban-town-hall
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Urban Town Hall
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol04
+  - bsc:texturepack-cycledogg-vol01
+  - mattb325:urban-civics-prop-pack-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Urban Town Hall(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Urban Town Hall(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: visitors-center
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Visitors Center
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Visitors Center(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Visitors Center(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: waringah-chambers
+subfolder: 600-civics
+version: "1.0"
+info:
+  summary: Waringah Chambers
+  author: mattb325
+  website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+dependencies:
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-cp-vol01
+  - bsc:mega-props-cp-vol02
+  - bsc:texturepack-cycledogg-vol01
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Waringah Chambers(#|_[DM]N)?/" ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Waringah Chambers(#|_[DM]N)?/" ]
+
+# This is mattb325:youtube-headquarters
+# ---
+# group: mattb325
+# name: youtube-hq
+# subfolder: 600-civics
+# version: "1.0"
+# info:
+#   summary: YouTube HQ
+#   author: mattb325
+#   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+# dependencies:
+#   - bsc:bat-props-mattb325-vol02
+#   - bsc:mega-props-cp-vol01
+#   - bsc:mega-props-cp-vol02
+# variants:
+#   - variant: { nightmode: standard }
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+#         include: [ "/YouTube HQ(#|_[DM]N)?/" ]
+#   - variant: { nightmode: dark }
+#     dependencies: [ "simfox:day-and-nite-mod" ]
+#     assets:
+#       - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+#         include: [ "/YouTube HQ(#|_[DM]N)?/" ]
+
+---
+group: mattb325
+name: civics-and-rewards-pack-shared-resources
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Civics and rewards pack shared resources
+  description: A dependency containing a few shared resources for various mattb325 civics and rewards
+
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-maxisnite
+        include: [ "/Shared Resources/" ]
+  - variant: { nightmode: dark }
+    assets:
+      - assetId: sc4d-lex-legacy-mattb325-civics-and-rewards-darknite
+        include: [ "/Shared Resources/" ]
