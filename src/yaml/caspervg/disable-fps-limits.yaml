@@ -5,7 +5,7 @@ subfolder: "150-mods"
 dependencies:
 - "config:sc4-edition-windows-digital"
 assets:
-- assetId: "caspervg-query-disable-fps-limits-dll"
+- assetId: "caspervg-disable-fps-limits-dll"
   withChecksum:
   - include: "/SC4DisableFpsLimits.dll"
     sha256: C134546150D2CF7968186612F3D52FCB91B8FE41D27479E72E4D7EFE6FFA9AB5
@@ -38,7 +38,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2026_02/sc4-disable-fps-limits-dll.jpg.5c81bd0504fb36c34f3ea1e5d8123ca6.jpg
 
 ---
-assetId: "caspervg-query-disable-fps-limits-dll"
+assetId: "caspervg-disable-fps-limits-dll"
 version: "0.2.3"
 lastModified: "2026-02-26T13:08:50Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/37345-disable-fps-limits/?do=download"
