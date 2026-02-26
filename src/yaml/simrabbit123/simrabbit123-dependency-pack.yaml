@@ -1,0 +1,45 @@
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=380:sc4-legacy-ndex-simrabbit-dependency-pack"
+assetId: "sc4-legacy-ndex-simrabbit123-dependency-pack"
+version: "1.0"
+lastModified: "2025-05-07T07:34:55-07:00"
+
+---
+group: "ndex"
+name: "simrabbit123-mega-pack-vol01"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/380-sc4-legacy-ndex-simrabbit-dependency-pack"
+  summary: "Models by SimRabbit123"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers SimRabbit (SR) or SimRabbit123. These dependency packs have previously been available on SC4D LEX. These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX. Some of these models were formerly linked for the different core CAM Commercial and Residential sets, which will be/are restored on the SC4Evermore site. This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+  author: "SimRabbit123"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar4.png
+assets:
+- assetId: "sc4-legacy-ndex-simrabbit123-dependency-pack"
+  include:
+  - "/NDEX SR MEGA Pack Vol01 v2.dat"
+
+
+---
+group: "ndex"
+name: "simrabbit123-mega-pack-vol02"
+version: "1.0"
+subfolder: "100-props-textures"
+info:
+  website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/380-sc4-legacy-ndex-simrabbit-dependency-pack"
+  summary: "Models by SimRabbit123"
+  description: |-
+    This SC4 Legacy Pack features the SC4D LEX Restoration Team-assembled prop packs of popular NDEX Team BATers SimRabbit (SR) or SimRabbit123. These dependency packs have previously been available on SC4D LEX. These packs were made as an overall preparation for possible future upgrades and updates on the now 20+ years old original NDEX Team lot sets that are generally hosted on STEX. Some of these models were formerly linked for the different core CAM Commercial and Residential sets, which will be/are restored on the SC4Evermore site. This package is designed to collect these models as dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack is expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+  author: "SimRabbit123"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/sidebar4.png
+assets:
+- assetId: "sc4-legacy-ndex-simrabbit123-dependency-pack"
+  include:
+  - "/NDEX SR MEGA Pack Vol02 v2.dat"
