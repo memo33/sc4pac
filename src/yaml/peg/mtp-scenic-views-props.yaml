@@ -6,8 +6,8 @@ url: https://community.simtropolis.com/files/file/14809-peg-mtp-scenic-views/?do
 ---
 group: "peg"
 name: "mtp-scenic-views-props"
-version: "1.1"
-subfolder: "100-props-textures"
+version: "1.1-1"
+subfolder: "110-resources"
 assets:
 - assetId: "peg-mtp-scenic-views"
   include:

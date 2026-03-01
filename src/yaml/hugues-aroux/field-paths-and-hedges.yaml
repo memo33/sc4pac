@@ -58,8 +58,8 @@ variants:
 ---
 group: hugues-aroux
 name: field-paths-and-hedges-resources
-version: "2.2.0"
-subfolder: 100-props-textures
+version: "2.2.0-1"
+subfolder: 110-resources
 info:
   summary: Field Paths and Hedges resources
   author: hugues-aroux

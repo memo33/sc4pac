@@ -1,7 +1,7 @@
 group: "manchou"
 name: "houses-ag-models"
-version: "1"
-subfolder: "100-props-textures"
+version: "1-1"
+subfolder: "110-resources"
 assets:
 - assetId: "manchou-pack-village-vol02"
   include: [ "/Manchou_Houses_AG.dat" ]  # we exclude the lot files

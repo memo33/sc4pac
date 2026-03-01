@@ -21,14 +21,14 @@ dependencies:
   - rfr:deers-and-wild-boars-resources
 assets:
   - assetId: rfr-deers-and-wild-boars
-    include: 
+    include:
       - /Deer-WildboarMMP.dat
 
 ---
 group: rfr
 name: deers-and-wild-boars-resources
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: RFR Deers and Wild Boars resources
   description: |-

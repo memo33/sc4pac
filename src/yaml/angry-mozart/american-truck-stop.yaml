@@ -102,8 +102,8 @@ assets:
 ---
 group: angry-mozart
 name: american-truck-stop-resources
-version: 1.0.0
-subfolder: 100-props-textures
+version: "1.0.0-1"
+subfolder: 110-resources
 info:
   summary: American Truck Stop Resources
   description: |-

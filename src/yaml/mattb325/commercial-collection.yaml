@@ -2359,8 +2359,8 @@ dependencies:
 ---
 group: mattb325
 name: commercial-collection-shared-resources
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Shared resources for the Commercial Collection
   description: |-

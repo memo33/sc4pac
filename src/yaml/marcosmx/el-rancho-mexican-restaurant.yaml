@@ -41,8 +41,8 @@ assets:
 ---
 group: marcosmx
 name: el-rancho-mexican-restaurant-resources
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: El Rancho Mexican Restaurant Resources
   description: |-

@@ -39,8 +39,8 @@ assets:
 ---
 group: sfbt
 name: kenworth-rail-catenaries-props
-version: "2"
-subfolder: 100-props-textures
+version: "2-1"
+subfolder: 110-resources
 info:
   summary: SFBT Kenworth Rail Catenaries Props
   author: Kenworth, Andreas Roth, Nardo69

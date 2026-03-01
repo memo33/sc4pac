@@ -47,8 +47,8 @@ variants:
 ---
 group: dexter
 name: esso-service-station-resources-rhd
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: ESSO Service Station RHD Resources
   description: |-
@@ -65,8 +65,8 @@ assets:
 ---
 group: dexter
 name: esso-service-station-resources-lhd
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: ESSO Service Station LHD Resources
   description: |-
@@ -83,8 +83,8 @@ assets:
 ---
 group: dexter
 name: esso-service-station-resources
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: ESSO Service Station resources
   description: This is a resource file for `pkg=dexter:esso-service-station` and `pkg=dexter:esso-service-station`

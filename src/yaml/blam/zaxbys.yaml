@@ -26,8 +26,8 @@ dependencies:
 ---
 group: "blam"
 name: "zaxbys-model"
-version: "1"
-subfolder: "100-props-textures"
+version: "1-1"
+subfolder: "110-resources"
 info:
   summary: "Model file for the chicken restaurant"
   description: |

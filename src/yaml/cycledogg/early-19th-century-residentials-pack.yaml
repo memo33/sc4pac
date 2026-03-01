@@ -2,8 +2,8 @@
 # for example for simcoug:farmhouses
 group: cycledogg
 name: early-19th-century-tenements-props
-version: "1"
-subfolder: 100-props-textures
+version: "1-1"
+subfolder: 110-resources
 assets:
   - assetId: "cycledogg-early-19th-century-residentials-pack"
     include: [ "CP_Early19thCenturyTenements_Models.dat" ]
@@ -11,8 +11,8 @@ assets:
 ---
 group: cycledogg
 name: early-19th-century-r1-props
-version: "1"
-subfolder: 100-props-textures
+version: "1-1"
+subfolder: 110-resources
 assets:
   - assetId: "cycledogg-early-19th-century-residentials-pack"
     include: [ "/CP_Early19thCentury_Small\\$Houses_Models.dat" ]
@@ -20,8 +20,8 @@ assets:
 ---
 group: cycledogg
 name: early-19th-century-r2-props
-version: "1"
-subfolder: 100-props-textures
+version: "1-1"
+subfolder: 110-resources
 assets:
   - assetId: "cycledogg-early-19th-century-residentials-pack"
     include: [ "/CP_Early19thCent_MedHse_Models.dat" ]
@@ -29,8 +29,8 @@ assets:
 ---
 group: cycledogg
 name: early-19th-century-r3-props
-version: "1"
-subfolder: 100-props-textures
+version: "1-1"
+subfolder: 110-resources
 assets:
   - assetId: "cycledogg-early-19th-century-residentials-pack"
     include: [ "/CP_Early19thCentury_R\\$\\$\\$Houses_Models.dat" ]

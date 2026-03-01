@@ -34,8 +34,8 @@ assets:
 ---
 group: nbvc
 name: rock-n-stones-props
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Rock 'n' Stones Props
   description: |-

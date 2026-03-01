@@ -19,8 +19,8 @@ assets:
 ---
 group: aarsgevogelte
 name: stationsstraat-3-tilburg-resources
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Stationsstraat 3, Tilburg Resources
   description: |-

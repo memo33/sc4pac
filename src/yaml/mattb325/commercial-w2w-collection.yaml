@@ -1120,8 +1120,8 @@ dependencies:
 ---
 group: mattb325
 name: commercial-w2w-collection-shared-resources
-version: "1.1"
-subfolder: 100-props-textures
+version: "1.1-1"
+subfolder: 110-resources
 info:
   summary: Shareed resources for the Commercial W2W Collection
   description: |-
