@@ -1,0 +1,50 @@
+group: "caspervg"
+name: "sc4-render-services-dll"
+version: "0.4.4"
+subfolder: "150-mods"
+dependencies:
+- "config:sc4-edition-windows-digital"
+assets:
+- assetId: "caspervg-sc4-render-services"
+  withChecksum:
+  - include: "/SC4RenderServices.dll"
+    sha256: FBAB39CC4C622C714E6F504B593B99D952356DA9AAD68BAE9C0F6318AAFDCF46
+  - include: "/SC4RenderServices.ini"
+    sha256: 11C83509F823F6222D837D4EF6EF784C783C527367529B8BA90E6F35190A0FC5
+  - include: "/imgui.dll"
+    sha256: EB48FB9D7A45FF2C7ABED087EC5DDD47CFEDA0596969370DCE31EBDCB3DF47F6    
+
+info:
+  summary: "A DLL plugin that adds modern render-side services for custom DLL mods"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    SC4RenderServices is a runtime library for SimCity 4 that adds modern render-side services for custom DLL mods. Instead of changing gameplay on its own, it gives plugins a shared foundation for in-game UI, camera access, and rendering hooks. In practical terms, it provides three core systems: an ImGui service for debug tools and custom UI panels, an S3D camera service for world-to-screen and camera helpers, and a draw service for render-pass callbacks and custom drawing in DirectX7. 
+    
+    You should install it if you want to use newer SC4 DLL plugins that depend on these services, or if you are a mod developer building tools that need a proper in-game interface. SC4RenderServices centralizes the hard parts that every advanced plugin would otherwise have to reinvent, which means better compatibility, less duplicated code, and a more stable base for overlays, visual tools, debug windows, and custom rendering effects. It is essentially a shared dependency layer for a new generation of technical SC4 DLL plugins.
+
+    If a plugin lists SC4RenderServices as a requirement, installing it ensures that plugin can register its windows, access the renderer safely, and behave consistently inside the game.
+
+    This does not enable any specific functionality in game by itself, but will be used in the near future as a dependency for (for example) the Plop and Paint DLL that enables advanced lot plopping and prop painting functionality or for advanced new terrain tool extensions with heightmaps etc. See the link below. 
+  warning: |-
+    This DLL plugin comes with an INI configuration file:
+
+    * `SC4RenderServices.ini`
+
+    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
+    
+    This DLL plugin comes with one additional DLL file:
+
+    * `imgui.dll`
+
+    To complete the installation, copy these files from the package subfolder into the Apps folder of your Installation folder.
+  author: "CasperVg"
+  website: "https://community.simtropolis.com/files/file/37372-sc4-render-services/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/sc4-disable-fps-limits-dll.jpg.5c81bd0504fb36c34f3ea1e5d8123ca6.jpg
+
+---
+assetId: "caspervg-sc4-render-services"
+version: "0.4.4"
+lastModified: "2026-03-01T11:09:11Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37372-sc4-render-services/?do=download"
+url: "https://github.com/caspervg/sc4-render-services/releases/download/v0.4.4/sc4-render-services-0.4.4-win32-release.zip"
