@@ -19,7 +19,7 @@ packages:
   # info:
   #   summary: 17th St College
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - mattb325:civics-and-rewards-pack-shared-resources
   #   - mattb325:urban-civics-prop-pack-vol01
@@ -42,7 +42,9 @@ packages:
     info:
       summary: Benjamin Franklin School
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: &websites
+        - https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+        - https://www.sc4evermore.com/index.php/downloads/download/16-civic/117-sc4d-lex-legacy-mattb325-civics-and-rewards-maxis-nite
     dependencies:
       - bsc:bat-props-mattb325-vol01
       - bsc:bat-props-mattb325-vol02
@@ -67,7 +69,7 @@ packages:
   # info:
   #   summary: Bourke St School
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:mega-props-misc-vol01
@@ -94,7 +96,7 @@ packages:
   # info:
   #   summary: City College
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - mattb325:civics-and-rewards-pack-shared-resources
   # variants:
@@ -116,7 +118,7 @@ packages:
     info:
       summary: Concord NH Post Office College
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:mega-props-cp-vol01
@@ -140,7 +142,7 @@ packages:
   # info:
   #   summary: Eddy Hall College
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - mattb325:civics-and-rewards-pack-shared-resources
   #   - bsc:bat-props-mattb325-vol02
@@ -167,7 +169,7 @@ packages:
   # info:
   #   summary: Engineering Dept
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # variants:
   #   - variant: { nightmode: standard }
   #     assets:
@@ -187,7 +189,7 @@ packages:
     info:
       summary: Glenwood Elementary
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:mega-props-cp-vol01
@@ -212,7 +214,7 @@ packages:
     info:
       summary: Grosvenor College
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-london-w2w-vol01
       - bsc:bat-props-mattb325-vol02
@@ -236,7 +238,7 @@ packages:
     info:
       summary: Killymoon Private School
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - mattb325:civics-and-rewards-pack-shared-resources
       - bsc:bat-props-mattb325-vol02
@@ -264,7 +266,7 @@ packages:
     info:
       summary: Luytens Library
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - mattb325:civics-and-rewards-pack-shared-resources
       - bsc:mega-props-cp-vol01
@@ -291,7 +293,7 @@ packages:
   # info:
   #   summary: MOMA San Francisco
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # variants:
   #   - variant: { nightmode: standard }
   #     assets:
@@ -311,7 +313,7 @@ packages:
     info:
       summary: Main St Brewster
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
     variants:
@@ -333,7 +335,7 @@ packages:
     info:
       summary: Modern Library
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - mattb325:urban-civics-prop-pack-vol01
     variants:
@@ -355,7 +357,7 @@ packages:
     info:
       summary: Monticello School
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - mattb325:civics-and-rewards-pack-shared-resources
       - bsc:bat-props-mattb325-vol02
@@ -382,7 +384,7 @@ packages:
   # info:
   #   summary: NatGeo Museum
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - mattb325:civics-and-rewards-pack-shared-resources
   # variants:
@@ -404,7 +406,7 @@ packages:
     info:
       summary: Urban Art Gallery
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - mattb325:urban-civics-prop-pack-vol01
@@ -427,7 +429,7 @@ packages:
     info:
       summary: Urban College
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - bsc:texturepack-cycledogg-vol01
@@ -451,7 +453,7 @@ packages:
     info:
       summary: Urban Elementary School
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol01
       - bsc:bat-props-mattb325-vol04
@@ -476,7 +478,7 @@ packages:
     info:
       summary: Urban High School
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - bsc:texturepack-cycledogg-vol01
@@ -501,7 +503,7 @@ packages:
     info:
       summary: Urban Museum
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - mattb325:urban-civics-prop-pack-vol01
@@ -524,7 +526,7 @@ packages:
     info:
       summary: Eastern Hill Fire Station
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:mega-props-jes-vol01
       - bsc:textures-vol01
@@ -548,7 +550,7 @@ packages:
   # info:
   #   summary: Modern Fire Station
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:texturepack-cycledogg-vol01
@@ -571,7 +573,7 @@ packages:
     info:
       summary: Peabody Massachusetts Fire Station
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:mega-props-cp-vol01
@@ -596,7 +598,7 @@ packages:
     info:
       summary: Pyrmont Fire Station
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:mega-props-jes-vol01
       - bsc:textures-vol01
@@ -620,7 +622,7 @@ packages:
     info:
       summary: Urban Fire Station
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - bsc:texturepack-cycledogg-vol01
@@ -644,7 +646,7 @@ packages:
   # info:
   #   summary: Dental Clinic
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # variants:
   #   - variant: { nightmode: standard }
   #     assets:
@@ -664,7 +666,7 @@ packages:
   # info:
   #   summary: Disease Research Center
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - mattb325:civics-and-rewards-pack-shared-resources
   #   - bsc:bat-props-mattb325-vol02
@@ -691,7 +693,7 @@ packages:
   # info:
   #   summary: Harbor Clinic
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:mega-props-cp-vol02
@@ -714,7 +716,7 @@ packages:
   # info:
   #   summary: James Park House
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:mega-props-cp-vol02
@@ -739,7 +741,7 @@ packages:
   # info:
   #   summary: Modern Hospital
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:mega-props-cp-vol02
@@ -765,7 +767,7 @@ packages:
   # info:
   #   summary: PWN Clinic London
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - mattb325:civics-and-rewards-pack-shared-resources
   # variants:
@@ -787,7 +789,7 @@ packages:
     info:
       summary: Quay House Clinic
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - mattb325:civics-and-rewards-pack-shared-resources
       - bsc:mega-props-cp-vol02
@@ -810,7 +812,7 @@ packages:
     info:
       summary: Red Cross House-Hospital
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - mattb325:civics-and-rewards-pack-shared-resources
       - porkissimo:jenx-porkie-expanded-porkie-props
@@ -833,7 +835,7 @@ packages:
     info:
       summary: T and A Health
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:bat-props-mattb325-vol03
@@ -856,7 +858,7 @@ packages:
     info:
       summary: Taunton State Hospital
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol01
       - bsc:mega-props-cp-vol01
@@ -883,7 +885,7 @@ packages:
     info:
       summary: Thompson Memorial Hospital
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:mega-props-cp-vol01
@@ -907,7 +909,7 @@ packages:
     info:
       summary: Urban Clinic
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - bsc:mega-props-cp-vol01
@@ -934,7 +936,7 @@ packages:
     info:
       summary: Urban Hospital
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - bsc:texturepack-cycledogg-vol01
@@ -958,7 +960,7 @@ packages:
     info:
       summary: Bathurst St Police Station
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:textures-vol01
       - porkissimo:jenx-porkie-expanded-porkie-props
@@ -981,7 +983,7 @@ packages:
   # info:
   #   summary: Modern Police Station
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:texturepack-cycledogg-vol01
@@ -1004,7 +1006,7 @@ packages:
     info:
       summary: Pittsfield NH Police Station
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:mega-props-cp-vol01
@@ -1030,7 +1032,7 @@ packages:
     info:
       summary: Police Headquarters
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:mega-props-gascooker-vol01
       - porkissimo:jenx-porkie-expanded-porkie-props
@@ -1053,7 +1055,7 @@ packages:
     info:
       summary: Urban Courthouse
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - bsc:texturepack-cycledogg-vol01
@@ -1077,7 +1079,7 @@ packages:
     info:
       summary: Urban Police Station
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - bsc:texturepack-cycledogg-vol01
@@ -1101,7 +1103,7 @@ packages:
   # info:
   #   summary: Vu Security Services
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol02
   #   - bsc:texturepack-cycledogg-vol01
@@ -1124,7 +1126,7 @@ packages:
   # info:
   #   summary: -Casino Tropical
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:mega-props-cp-vol02
@@ -1147,7 +1149,7 @@ packages:
   # info:
   #   summary: =Casino Temperate
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:mega-props-cp-vol02
@@ -1170,7 +1172,7 @@ packages:
     info:
       summary: Almaden Council Chambers
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     variants:
       - variant: { nightmode: standard }
         assets:
@@ -1191,7 +1193,7 @@ packages:
   # info:
   #   summary: Bankstown Chambers
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol02
   #   - bsc:mega-props-cp-vol01
@@ -1217,7 +1219,7 @@ packages:
   # info:
   #   summary: Bass Hall
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # variants:
   #   - variant: { nightmode: standard }
   #     assets:
@@ -1237,7 +1239,7 @@ packages:
   # info:
   #   summary: Benevolent Asylum
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:mega-props-cp-vol02
@@ -1261,7 +1263,7 @@ packages:
   # info:
   #   summary: Bureau of Bureaucracy
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol02
   #   - bsc:mega-props-cp-vol01
@@ -1285,7 +1287,7 @@ packages:
   # info:
   #   summary: CBS Television Station
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol03
   # variants:
@@ -1307,7 +1309,7 @@ packages:
     info:
       summary: Chapel of the Assumption
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-london-w2w-vol01
       - bsc:bat-props-mattb325-vol02
@@ -1332,7 +1334,7 @@ packages:
   # info:
   #   summary: Convention Center
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # variants:
   #   - variant: { nightmode: standard }
   #     assets:
@@ -1352,7 +1354,7 @@ packages:
   # info:
   #   summary: Cruise Ship Terminal
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol02
   #   - bsc:bat-props-mattb325-vol03
@@ -1377,7 +1379,7 @@ packages:
   # info:
   #   summary: Customs House Salem MA
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol02
   #   - bsc:mega-props-cp-vol01
@@ -1400,7 +1402,7 @@ packages:
     info:
       summary: Galleria Cruise Ship Terminal
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - mattb325:multifunction-stations
@@ -1426,7 +1428,7 @@ packages:
   # info:
   #   summary: Griffith Observatory
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:textures-vol01
   # variants:
@@ -1449,7 +1451,7 @@ packages:
     info:
       summary: Her Majestys Theatre
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - mattb325:civics-and-rewards-pack-shared-resources
       - bsc:mega-props-sg-vol01
@@ -1474,7 +1476,7 @@ packages:
   # info:
   #   summary: Ikea
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol02
   #   - bsc:mega-props-sg-vol01
@@ -1498,7 +1500,7 @@ packages:
     info:
       summary: Kesher Council Chambers
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:mega-props-cp-vol01
@@ -1523,7 +1525,7 @@ packages:
     info:
       summary: Luxury Clubhouse
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:bat-props-mattb325-vol03
@@ -1554,7 +1556,7 @@ packages:
   # info:
   #   summary: Madame Tussauds
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # variants:
   #   - variant: { nightmode: standard }
   #     assets:
@@ -1575,7 +1577,7 @@ packages:
   # info:
   #   summary: Modern BoB
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:texturepack-cycledogg-vol01
@@ -1601,7 +1603,7 @@ packages:
     info:
       summary: Muncie Courthouse
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:mega-props-cp-vol01
@@ -1625,7 +1627,7 @@ packages:
   # info:
   #   summary: Old Market Hall
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol02
   # variants:
@@ -1647,7 +1649,7 @@ packages:
   # info:
   #   summary: Old North Church Boston
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol02
   #   - bsc:mega-props-cp-vol01
@@ -1671,7 +1673,7 @@ packages:
   # info:
   #   summary: Perth Council Bldg
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol02
   #   - bsc:mega-props-sg-vol01
@@ -1694,7 +1696,7 @@ packages:
   # info:
   #   summary: Radio Station
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol02
   #   - bsc:mega-props-cp-vol01
@@ -1719,7 +1721,7 @@ packages:
   # info:
   #   summary: Research Center
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol02
   #   - bsc:mega-props-cp-vol01
@@ -1745,7 +1747,7 @@ packages:
     info:
       summary: Sandgate Council Chambers
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:mega-props-cp-vol01
@@ -1770,7 +1772,7 @@ packages:
   # info:
   #   summary: St Johns
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:mega-props-cp-vol02
@@ -1794,7 +1796,7 @@ packages:
     info:
       summary: St Mephitz Tophel
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - bsc:texturepack-cycledogg-vol01
@@ -1818,7 +1820,7 @@ packages:
     info:
       summary: Stem Cell Research Center
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:bat-props-mattb325-vol04
@@ -1843,7 +1845,7 @@ packages:
   # info:
   #   summary: The Lodge
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:mega-props-cp-vol02
@@ -1868,7 +1870,7 @@ packages:
   # info:
   #   summary: Trade Union Hall
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:mega-props-cp-vol01
   #   - bsc:mega-props-cp-vol02
@@ -1891,7 +1893,7 @@ packages:
     info:
       summary: Urban Town Hall
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol04
       - bsc:texturepack-cycledogg-vol01
@@ -1915,7 +1917,7 @@ packages:
     info:
       summary: Visitors Center
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:mega-props-cp-vol01
@@ -1939,7 +1941,7 @@ packages:
     info:
       summary: Waringah Chambers
       author: mattb325
-      website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+      websites: *websites
     dependencies:
       - bsc:bat-props-mattb325-vol02
       - bsc:mega-props-cp-vol01
@@ -1965,7 +1967,7 @@ packages:
   # info:
   #   summary: YouTube HQ
   #   author: mattb325
-  #   website: https://www.sc4evermore.com/index.php/downloads/download/16-civic/116-sc4d-lex-legacy-mattb325-civics-and-rewards-dark-nite
+  #   websites: *websites
   # dependencies:
   #   - bsc:bat-props-mattb325-vol02
   #   - bsc:mega-props-cp-vol01
