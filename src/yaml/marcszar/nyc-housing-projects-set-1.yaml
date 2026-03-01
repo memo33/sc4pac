@@ -29,7 +29,8 @@ assets:
 assetId: marcszar-nyc-housing-projects-set-1
 version: "1.0.3"
 lastModified: "2017-04-23T22:29:00Z"
-url: https://cafeattach.naver.net/7fea63d3c29b9b476a8aeddde70e7f0da5f709ebad/20170423_36_cafefile/11881236_1492954168836_UqDSEf_zip/Install_MSZ_NYC_Housing_Projects_Set1_BSC_1.0.3.zip
+# url: https://cafeattach.naver.net/7fea63d3c29b9b476a8aeddde70e7f0da5f709ebad/20170423_36_cafefile/11881236_1492954168836_UqDSEf_zip/Install_MSZ_NYC_Housing_Projects_Set1_BSC_1.0.3.zip
+url: https://github.com/memo33/sc4pac-tools/releases/download/0.1.0/Install_MSZ_NYC_Housing_Projects_Set1_BSC_1.0.3.zip
 archiveType:
   format: Clickteam
   version: "40"
