@@ -40,8 +40,9 @@ info:
   author: "CasperVg"
   website: "https://community.simtropolis.com/files/file/37372-sc4-render-services/"
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2026_02/sc4-disable-fps-limits-dll.jpg.5c81bd0504fb36c34f3ea1e5d8123ca6.jpg
-
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/render_services.jpg.532bf22d7aba7fd964e215ee15d2e18f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/479saiwmv3lg1.jpeg.2f9aa80d1d75c5ca5c450579c7959aa3.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_03/df.jpg.a879d723da6380b9478e3f2150744aac.jpg
 ---
 assetId: "caspervg-sc4-render-services"
 version: "0.4.4"
