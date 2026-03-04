@@ -6,14 +6,12 @@ dependencies:
 - "config:sc4-edition-windows-digital"
 assets:
 - assetId: "caspervg-sc4-render-services"
+  exclude: \\.exe$
   withChecksum:
   - include: "/SC4RenderServices.dll"
     sha256: FBAB39CC4C622C714E6F504B593B99D952356DA9AAD68BAE9C0F6318AAFDCF46
   - include: "/SC4RenderServices.ini"
     sha256: 11C83509F823F6222D837D4EF6EF784C783C527367529B8BA90E6F35190A0FC5
-- assetId: "caspervg-sc4-render-services"
-  exclude: \.exe$
-  withChecksum:
   - include: /SC4RenderServices-0.4.4-Setup.exe
     sha256: 20181BA5D5E70BA5CC82C11BF4A46A6D2F7E88988F89F95EC74394C4CB226ED0
   
