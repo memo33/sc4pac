@@ -11,8 +11,12 @@ assets:
     sha256: FBAB39CC4C622C714E6F504B593B99D952356DA9AAD68BAE9C0F6318AAFDCF46
   - include: "/SC4RenderServices.ini"
     sha256: 11C83509F823F6222D837D4EF6EF784C783C527367529B8BA90E6F35190A0FC5
-  - include: "/imgui.dll"
-    sha256: EB48FB9D7A45FF2C7ABED087EC5DDD47CFEDA0596969370DCE31EBDCB3DF47F6    
+- asset-id: "caspervg-sc4-render-services"
+  exclude: \.exe$
+  withChecksum:
+    include: /SC4RenderServices-0.4.4-Setup.exe
+    sha256: 20181BA5D5E70BA5CC82C11BF4A46A6D2F7E88988F89F95EC74394C4CB226ED0
+  
 
 info:
   summary: "A DLL plugin that adds modern render-side services for custom DLL mods"
