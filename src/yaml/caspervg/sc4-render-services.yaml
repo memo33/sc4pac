@@ -14,7 +14,7 @@ assets:
 - assetId: "caspervg-sc4-render-services"
   exclude: \.exe$
   withChecksum:
-    include: /SC4RenderServices-0.4.4-Setup.exe
+  - include: /SC4RenderServices-0.4.4-Setup.exe
     sha256: 20181BA5D5E70BA5CC82C11BF4A46A6D2F7E88988F89F95EC74394C4CB226ED0
   
 
