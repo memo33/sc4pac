@@ -8,7 +8,7 @@ info:
     This package provides players with additional choices for the slope
     parameters of surface transportation networks in the game.
     This collection of slope mods was designed by Lucario Boricua, author of
-    the Earthworks Tutorials series. Extensive research was conducted for both
+    the [Earthworks Tutorials](https://community.simtropolis.com/forums/topic/759928-lucario-boricuas-earthworks-tutorials-official-thread/) series. Extensive research was conducted for both
     other slope mods and the findings of previous precision terraforming pioneers,
     most notably BigRedFish and Ennedi, as well as geometric design
     characteristics of real transportation networks, to best harmonize playability
@@ -28,19 +28,20 @@ variantInfo:
   description: Choose the relative steepness for all networks.
   values:
   - value: maxis
-    description: default slopes
+    description: No change to the maximum slopes, retaining the Maxis default parameters. Recommended for players who prefer a vanilla experience.
   - value: very-easy
-    description: very steep
+    description: A minimal reduction in the maximum slopes with some smoothness added. Recommended for players who do not want transportation networks to interfere with gameplay, but still want a visual improvement of their transportation networks.
   - value: easy
-    description: steep
+    description: A small reduction in the maximum slopes with more smoothness added. Recommended for players who regularly play on rugged topography and want to minimize precision terraforming.
   - value: moderate-vanilla
-    description: moderate
+    description: An intermediate reduction of the maximum slopes with a clear smoothing of the networks. Recommended for players who have experience with slope mods, unless they are using it on existing cities built over rugged terrain and numerous parallel networks.
   - value: moderate-nam
-    description: moderate with curvature (recommended)
+    description: An intermediate reduction of the maximum slopes with a clear smoothing of the networks. Additionally features vertical curvature when transitioning between sloped and flat segments. Recommended for players who have experience with slope mods, unless they are using it on existing cities built over rugged terrain and numerous parallel networks.
+    default: true
   - value: strict
-    description: flat with curvature
+    description: A large reduction of the maximum slopes, with clear smoothing and vertical curvature. Recommended for players who want highly realistic network designs and greater challenge in building across rugged terrain, with flatter networks forcing them to choose alignments more carefully.
   - value: realistic
-    description: very flat with curvature
+    description: NOT RECOMMENDED FOR MOST PLAYERS. A very large reduction of the maximum slopes, with values nearly identical to those found in real transportation network design. Transportation power players and players accustomed to precision terraforming will likely find these settings challenging.
 
 variants:
 - variant: {nam-team:tunnel-and-slope-mod:difficulty: "maxis"}
