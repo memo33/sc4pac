@@ -34,8 +34,8 @@ and a [Discord channel](https://discord.com/channels/383313438065033228/11765744
   https://sc4evermore.github.io/sc4pac-channel/channel/
   ```
 
-- [**Zasco**'s sc4pac channel](https://github.com/Zasco/sc4pac-channel) ![github](_github.svg)
-  contains many additional packages not found in the default channel
+<!-- - [**Zasco**'s sc4pac channel](https://github.com/Zasco/sc4pac-channel) ![github](_github.svg) -->
+<!--   contains many additional packages not found in the default channel -->
 
 - [YAML editor for sc4pac](https://github.com/noah-severyn/YamlEditorForSc4pac) ![github](_github.svg)
   by **nos.17**
