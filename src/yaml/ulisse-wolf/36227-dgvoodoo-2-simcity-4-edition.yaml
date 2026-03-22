@@ -48,7 +48,7 @@ info:
 
     The installer is located in the following folder:
 
-    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Windows.5.0.0-3.sc4pac` 
+    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Windows.5.1.0.sc4pac` 
     
     Linux users should locate the following .dat file and either extract it or change the file extension to .zip so they can install DgVoodoo 2 by following the instructions in the README file  
 
@@ -56,7 +56,7 @@ info:
     
     The ZIP File is located in the following folder:
 
-    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Linux.5.0.0-3.sc4pac` 
+    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Linux.5.1.0.sc4pac` 
     
   author: "Ulisse Wolf, MGB, dege-diosg"
   websites: 
