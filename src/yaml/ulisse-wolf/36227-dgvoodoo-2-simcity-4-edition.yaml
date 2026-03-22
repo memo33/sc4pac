@@ -1,14 +1,14 @@
 ---
 assetId: dgvoodoo2-windows-edition
-version: "5.0.0-2"
+version: "5.0.0-3"
 lastModified: "2026-03-21T18:08:02Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36227-dgvoodoo-2-simcity-4-edition/?do=download"
 url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.0/DgVoodoo.2.SC4.Version.V5.0.zip"
 
 ---
 assetId: dgvoodoo2-linux-edition
-version: "5.0.0-2"
-lastModified: "2026-03-22T01:31:18Z"
+version: "5.0.0-3"
+lastModified: "2026-03-22T01:49:36Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/37370-dgvoodoo-2-simcity-4-edition-linux-edition/?do=download"
 url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.0/DgVoodoo.2.SC4.Version.Linux.Edition.V5.zip"
 
@@ -16,7 +16,7 @@ url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-
 ---
 group: "ulisse-wolf"
 name: "dgvoodoo2-simcity4-edition"
-version: "5.0.0-2"
+version: "5.0.0-3"
 subfolder: "150-mods"
 dependencies:
   - "config:sc4-edition-windows-digital"
@@ -32,8 +32,8 @@ variants:
     assets:
       - assetId: dgvoodoo2-linux-edition
         withChecksum:
-        - include: /DgVoodoo_2_Linux_Edtion_V5.zip
-          sha256: 192599d67eec17516c15087ed90897130b68bfbe8734666a499af9415e6a4e52
+        - include: /DgVoodoo_2_Linux_Edtion_V5.dat
+          sha256: 192599D67EEC17516C15087ED90897130B68BFBE8734666A499AF9415E6A4E52
 info:
   summary: "A DLL plugin that enables DirectX 11/12 in SimCity 4, improving performance and stability"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
@@ -48,15 +48,15 @@ info:
 
     The installer is located in the following folder:
 
-    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Windows.5.0.0.sc4pac` 
+    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Windows.5.0.0-3.sc4pac` 
     
-    Linux users should unzip the following ZIP file and follow the instructions in the Readme  
+    Linux users should locate the following .dat file and either extract it or change the file extension to .zip so they can install DgVoodoo 2 by following the instructions in the README file  
 
-    * `DgVoodoo 2 SC4 Version (Linux Edition) (V5).zip`
+    * `DgVoodoo_2_Linux_Edtion_V5.dat`
     
     The ZIP File is located in the following folder:
 
-    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Linux.5.0.0.sc4pac` 
+    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Linux.5.0.0-3.sc4pac` 
     
   author: "Ulisse Wolf, MGB, dege-diosg"
   websites: 
