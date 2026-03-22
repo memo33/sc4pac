@@ -1,22 +1,22 @@
 ---
 assetId: dgvoodoo2-windows-edition
-version: "5.1.0"
-lastModified: "2026-03-22T02:10:13Z"
+version: "5.2.0"
+lastModified: "2026-03-22T02:37:06Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36227-dgvoodoo-2-simcity-4-edition/?do=download"
-url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.1/DgVoodoo.2.SC4.Version.V5.1.zip"
+url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.2.0/DgVoodoo.2.SC4.Version.V5.2.zip"
 
 ---
 assetId: dgvoodoo2-linux-edition
-version: "5.1.0"
-lastModified: "2026-03-22T02:08:31Z"
+version: "5.2.0"
+lastModified: "2026-03-22T02:51:33Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/37370-dgvoodoo-2-simcity-4-edition-linux-edition/?do=download"
-url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.1/DgVoodoo.2.SC4.Version.Linux.Edition.V5.1.zip"
+url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.2.0/DgVoodoo.2.SC4.Version.Linux.Edition.V5.2.zip"
 
 
 ---
 group: "ulisse-wolf"
 name: "dgvoodoo2-simcity4-edition"
-version: "5.1.0"
+version: "5.2.0"
 subfolder: "150-mods"
 dependencies:
   - "config:sc4-edition-windows-digital"
@@ -26,14 +26,14 @@ variants:
     assets:
       - assetId: "dgvoodoo2-windows-edition"
         withChecksum:
-        - include: "/DgVoodoo2-SC4-v5.0-Setup.exe"
-          sha256: 9F088885E0A441462FD53364CFEB4942AF3F80A973B7208399FB7C520F698CAF
+        - include: /DgVoodoo2-SC4-v5.2-Setup.exe
+          sha256: 0BB0A0BDD518075045A1CECADDFA9DB74BBB6658F94CB6B319E9236B944670E8
   - variant: { ulissewolf:dgvoodoo2:os: "Linux" }
     assets:
       - assetId: "dgvoodoo2-linux-edition"
         withChecksum:
-        - include: "/DgVoodoo_2_Linux_Edtion_V5.dat"
-          sha256: 192599D67EEC17516C15087ED90897130B68BFBE8734666A499AF9415E6A4E52
+        - include: /DgVoodoo2-SC4-v5.2-Linux.zip
+          sha256: 9218d39e16f94a979fa50e75362f3fef582c035037d43c0e14e1acc1e641411b
 info:
   summary: "A DLL plugin that enables DirectX 11/12 in SimCity 4, improving performance and stability"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
@@ -44,19 +44,19 @@ info:
   warning: |-
     For Windows users, run the following installer and follow the instructions provided by the installer
 
-    * `DgVoodoo2-SC4-v5.0-Setup.exe`
+    * `DgVoodoo2-SC4-v5.2-Setup.exe`
 
     The installer is located in the following folder:
 
-    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Windows.5.1.0.sc4pac` 
+    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Windows.5.2.0.sc4pac` 
     
-    Linux users should locate the following .dat file and either extract it or change the file extension to .zip so they can install DgVoodoo 2 by following the instructions in the README file  
+    Linux users should unzip the following ZIP file and follow the instructions in the README file 
 
-    * `DgVoodoo_2_Linux_Edtion_V5.dat`
+    * `DgVoodoo2-SC4-v5.2-Linux.zip`
     
     The ZIP File is located in the following folder:
 
-    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Linux.5.1.0.sc4pac` 
+    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Linux.5.2.0.sc4pac` 
     
   author: "Ulisse Wolf, MGB, dege-diosg"
   websites: 
