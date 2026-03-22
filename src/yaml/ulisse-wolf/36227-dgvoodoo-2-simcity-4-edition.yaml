@@ -24,15 +24,15 @@ dependencies:
 variants:
   - variant: { ulissewolf:dgvoodoo2:os: "Windows" }
     assets:
-      - assetId: dgvoodoo2-windows-edition
+      - assetId: "dgvoodoo2-windows-edition"
         withChecksum:
-        - include: /DgVoodoo2-SC4-v5.0-Setup.exe
+        - include: "/DgVoodoo2-SC4-v5.0-Setup.exe"
           sha256: 9F088885E0A441462FD53364CFEB4942AF3F80A973B7208399FB7C520F698CAF
   - variant: { ulissewolf:dgvoodoo2:os: "Linux" }
     assets:
-      - assetId: dgvoodoo2-linux-edition
+      - assetId: "dgvoodoo2-linux-edition"
         withChecksum:
-        - include: /DgVoodoo_2_Linux_Edtion_V5.dat
+        - include: "/DgVoodoo_2_Linux_Edtion_V5.dat"
           sha256: 192599D67EEC17516C15087ED90897130B68BFBE8734666A499AF9415E6A4E52
 info:
   summary: "A DLL plugin that enables DirectX 11/12 in SimCity 4, improving performance and stability"
