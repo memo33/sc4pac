@@ -1,0 +1,76 @@
+---
+assetId: dgvoodoo2-windows-edition
+version: "5.0.0-2"
+lastModified: "2026-03-21T18:08:02Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/36227-dgvoodoo-2-simcity-4-edition/?do=download"
+url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.0/DgVoodoo.2.SC4.Version.V5.0.zip"
+
+---
+assetId: dgvoodoo2-linux-edition
+version: "5.0.0-2"
+lastModified: "2026-03-22T01:31:18Z"
+nonPersistentUrl: "https://community.simtropolis.com/files/file/37370-dgvoodoo-2-simcity-4-edition-linux-edition/?do=download"
+url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.0/DgVoodoo.2.SC4.Version.Linux.Edition.V5.zip"
+
+
+---
+group: "ulisse-wolf"
+name: "dgvoodoo2-simcity4-edition"
+version: "5.0.0-2"
+subfolder: "150-mods"
+dependencies:
+  - "config:sc4-edition-windows-digital"
+
+variants:
+  - variant: { ulissewolf:dgvoodoo2:os: "Windows" }
+    assets:
+      - assetId: dgvoodoo2-windows-edition
+        withChecksum:
+        - include: /DgVoodoo2-SC4-v5.0-Setup.exe
+          sha256: 9F088885E0A441462FD53364CFEB4942AF3F80A973B7208399FB7C520F698CAF
+  - variant: { ulissewolf:dgvoodoo2:os: "Linux" }
+    assets:
+      - assetId: dgvoodoo2-linux-edition
+        withChecksum:
+        - include: /DgVoodoo_2_Linux_Edtion_V5.zip
+          sha256: 192599d67eec17516c15087ed90897130b68bfbe8734666a499af9415e6a4e52
+info:
+  summary: "A DLL plugin that enables DirectX 11/12 in SimCity 4, improving performance and stability"
+  conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
+  description: |
+    This package allows a quick installation of DgVoodoo 2 for SimCity 4 and its configuration. It also offers solutions on how to solve possible compatibility problems with DgVoodoo 2 and SC4 with modern GPUs. 
+
+    This version of DgVoodoo has already been configured for maximum performance from the game but we still recommend that you edit "Adapter(s) to use / enable" to include your primary GPU 
+  warning: |-
+    For Windows users, run the following installer and follow the instructions provided by the installer
+
+    * `DgVoodoo2-SC4-v5.0-Setup.exe`
+
+    The installer is located in the following folder:
+
+    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Windows.5.0.0.sc4pac` 
+    
+    Linux users should unzip the following ZIP file and follow the instructions in the Readme  
+
+    * `DgVoodoo 2 SC4 Version (Linux Edition) (V5).zip`
+    
+    The ZIP File is located in the following folder:
+
+    * `150-mods/ulisse-wolf.dgvoodoo2-simcity4-edition.Linux.5.0.0.sc4pac` 
+    
+  author: "Ulisse Wolf, MGB, dege-diosg"
+  websites: 
+    - https://community.simtropolis.com/files/file/36227-dgvoodoo-2-simcity-4-edition/
+    - https://community.simtropolis.com/files/file/37370-dgvoodoo-2-simcity-4-edition-linux-edition/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/communityIcon_pznebvf29ih91.jpg.280703d35609822b6611b442e81c3082.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2026_02/dg.jpg.3584c9aff4b452513ad3fcae7014b924.jpg
+    
+variantInfo:
+  - variantId: ulissewolf:dgvoodoo2:os
+    description: Select the installation package based on your operating system
+    values:
+      - value: Windows
+        description: Allows you to install the dgvoodoo2 package specifically designed for Windows systems
+      - value: Linux
+        description: Allows you to install the dgvoodoo2 package specifically designed for Linux systems 
