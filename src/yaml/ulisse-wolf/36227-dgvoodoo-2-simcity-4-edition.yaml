@@ -1,22 +1,22 @@
 ---
 assetId: dgvoodoo2-windows-edition
-version: "5.0.0-3"
-lastModified: "2026-03-21T18:08:02Z"
+version: "5.1.0"
+lastModified: "2026-03-22T02:10:13Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36227-dgvoodoo-2-simcity-4-edition/?do=download"
-url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.0/DgVoodoo.2.SC4.Version.V5.0.zip"
+url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.1/DgVoodoo.2.SC4.Version.V5.1.zip"
 
 ---
 assetId: dgvoodoo2-linux-edition
-version: "5.0.0-3"
-lastModified: "2026-03-22T01:49:36Z"
+version: "5.1.0"
+lastModified: "2026-03-22T02:08:31Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/37370-dgvoodoo-2-simcity-4-edition-linux-edition/?do=download"
-url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.0/DgVoodoo.2.SC4.Version.Linux.Edition.V5.zip"
+url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.1/DgVoodoo.2.SC4.Version.Linux.Edition.V5.1.zip"
 
 
 ---
 group: "ulisse-wolf"
 name: "dgvoodoo2-simcity4-edition"
-version: "5.0.0-3"
+version: "5.1.0"
 subfolder: "150-mods"
 dependencies:
   - "config:sc4-edition-windows-digital"
