@@ -1,14 +1,14 @@
 ---
 assetId: dgvoodoo2-windows-edition-2
-version: "5.1.0"
-lastModified: "2026-03-22T02:10:13Z"
+version: "5.2.0"
+lastModified: "2026-03-22T02:37:06Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36227-dgvoodoo-2-simcity-4-edition/?do=download"
-url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.1/DgVoodoo.2.SC4.Version.V5.1.zip"
+url: "https://github.com/UlisseWolf/dgvoodoo-2-SimCity-4-Edition-NSIS-Installer-Script/releases/download/5.2.0/DgVoodoo.2.SC4.Version.V5.2.zip"
 
 ---
 group: "ulisse-wolf"
 name: "dgvoodoo2-simcity4-edition-windows"
-version: "5.1.0"
+version: "5.2.0"
 subfolder: "150-mods"
 dependencies:
   - "config:sc4-edition-windows-digital"
@@ -16,8 +16,8 @@ dependencies:
 assets:
 - assetId: "dgvoodoo2-windows-edition-2"
   withChecksum:
-  - include: "/DgVoodoo2-SC4-v5.0-Setup.exe"
-    sha256: 9F088885E0A441462FD53364CFEB4942AF3F80A973B7208399FB7C520F698CAF
+  - include: /DgVoodoo2-SC4-v5.2-Setup.exe
+    sha256: 0BB0A0BDD518075045A1CECADDFA9DB74BBB6658F94CB6B319E9236B944670E8
 info:
   summary: "A DLL plugin that enables DirectX 11/12 in SimCity 4, improving performance and stability"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
