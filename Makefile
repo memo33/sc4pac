@@ -48,16 +48,16 @@ lint:
 	python $(ACTIONS)/src/lint.py src/yaml
 
 sc4e-check-updates:
-	python .github/sc4e-check-updates.py src/yaml
+	python $(ACTIONS)/src/check-updates.py --api=sc4e src/yaml
 
 # First reads in the STEX_API_KEY from a file into an environment variable and then checks for asset updates using the authenticated STEX API.
 st-check-updates:
-	set -a && source ./.git/sc4pac-stex-api-key && set +a && python $(ACTIONS)/src/st-check-updates.py src/yaml
+	set -a && source ./.git/sc4pac-stex-api-key && set +a && python $(ACTIONS)/src/check-updates.py --api=stex src/yaml
 
 st-url-check:
 	set -a && source ./.git/sc4pac-stex-api-key && set +a \
 		&& git diff "$(shell git merge-base @ "origin/main")" --diff-filter=d --name-only -- "src/yaml" \
-		| xargs --delimiter '\n' python $(ACTIONS)/src/st-check-updates.py --mode=id
+		| xargs --delimiter '\n' python $(ACTIONS)/src/check-updates.py --api=stex --mode=id
 
 FIND_MODIFIED_PKGS = $(eval MODIFIED_PKGS=$(shell git diff "$(shell git merge-base @ "origin/main")" --diff-filter=d --name-only -- "src/yaml" | \
 		     xargs --delimiter '\n' python $(ACTIONS)/src/list-packages.py ) )
