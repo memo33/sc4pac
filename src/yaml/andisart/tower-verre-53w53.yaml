@@ -1,6 +1,6 @@
 group: andisart
 name: tower-verre
-version: "1.0-1"
+version: "1.0-2"
 subfolder: 360-landmark
 info:
   summary: Tower Verre - 53W53 (MoMA Expansion Tower)
@@ -38,12 +38,11 @@ variants:
 
 ---
 assetId: andisart-tower-verre-53w53-maxisnite
-version: "1.0"
-lastModified: "2018-02-05T23:58:20Z"
-url: https://community.simtropolis.com/files/file/32106-tower-verre-53w53/?do=download&r=169929
-
+version: "1.0-1"
+lastModified: "2026-03-20T18:39:55Z"
+url: https://community.simtropolis.com/files/file/32106-tower-verre-53w53/?do=download&r=212109
 ---
 assetId: andisart-tower-verre-53w53-darknite
-version: "1.0"
-lastModified: "2018-02-05T23:58:20Z"
-url: https://community.simtropolis.com/files/file/32106-tower-verre-53w53/?do=download&r=169930
+version: "1.0-1"
+lastModified: "2026-03-20T18:39:55Z"
+url: https://community.simtropolis.com/files/file/32106-tower-verre-53w53/?do=download&r=212110
