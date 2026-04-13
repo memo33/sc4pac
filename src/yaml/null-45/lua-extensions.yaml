@@ -1,6 +1,6 @@
 group: "null-45"
 name: "lua-extensions-dll"
-version: "1.2.0"
+version: "1.3"
 subfolder: "150-mods"
 dependencies:
 - "config:sc4-edition-windows-digital"
@@ -8,7 +8,7 @@ assets:
 - assetId: "null-45-lua-extensions"
   withChecksum:
   - include: "/SC4LuaExtensions.dll"
-    sha256: F3AA05C3DF50F6A8BADDE3FA906F1C2A7BC8FA17750BD08D472211AC394A7A2B
+    sha256: 53b7de94f5fbb1c02e9bc5f11558fe534e58e0535b20009f68b3e4f35e0c6947
   - include: "/SC4LuaExtensions.dat"
     sha256: CFF892E68825E93325584689789616688915149B640CE595F7F97A5042668D5C
 
@@ -34,7 +34,7 @@ info:
 
 ---
 assetId: "null-45-lua-extensions"
-version: "1.2.0"
-lastModified: "2026-03-24T08:01:13Z"
+version: "1.3"
+lastModified: "2026-04-12T12:20:48Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36925-lua-extensions-dll/?do=download"
-url: "https://github.com/0xC0000054/sc4-lua-extensions/releases/download/v1.2.0/SC4LuaExtensions.zip"
+url: "https://github.com/0xC0000054/sc4-lua-extensions/releases/download/v1.3.0/SC4LuaExtensions.zip"
