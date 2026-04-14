@@ -14,3 +14,5 @@ jobs:
     secrets:
       stex-api-key: ${{ secrets.STEX_API_KEY }}
       pat: ${{ secrets.SC4PAC_CHECK_UPDATES_TOKEN }}
+    permissions:
+      pull-requests: write
