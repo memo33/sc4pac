@@ -1,12 +1,12 @@
 assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-version: "9e(April2026)"
+version: "9e"
 lastModified: "2026-04-22T15:46:14Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=3:sc4d-lex-legacy-bsc-common-dependencies-pack"
 
 ---
 group: "bsc"
 name: "essentials"
-version: "2025b"
+version: "2026a"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -295,6 +295,18 @@ info:
 
 ---
 group: "bsc"
+name: "mega-props-cal-vol02"
+version: "1"
+subfolder: "100-props-textures"
+assets:
+- assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
+  include: [ "/BSC MEGA Props - CAL vol02.dat" ]
+info:
+  summary: "BSC MEGA Props - CAL vol02 by callagrafx"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
+
+---
+group: "bsc"
 name: "prop-pack-cal-ships-vol01"
 version: "1"
 subfolder: "100-props-textures"
@@ -572,7 +584,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-misc-vol03"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -668,7 +680,7 @@ info:
 ---
 group: "bsc"
 name: "mega-props-rt-vol03"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1366,7 +1378,7 @@ info:
 ---
 group: "bsc"
 name: "bat-props-vdk-vol01"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1561,7 +1573,7 @@ info:
 ---
 group: "bsc"
 name: "sg-mega-residentials-vol03-models"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1585,7 +1597,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-adult"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1597,7 +1609,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-agriculture"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1609,11 +1621,11 @@ info:
 ---
 group: "bsc"
 name: "sg-models-civic-rewards"
-version: "1-1"
+version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Civic Rewards.dat" ]
+  include: [ "/SG Models Civic Rewards v..dat" ]
 info:
   summary: "SG_Models_Civic_Rewards by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1621,11 +1633,11 @@ info:
 ---
 group: "bsc"
 name: "sg-models-civic-services"
-version: "1-1"
+version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Civic Services.dat" ]
+  include: [ "/SG Models Civic Services v..dat" ]
 info:
   summary: "SG_Models_Civic_Services by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1633,7 +1645,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-department-stores"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1645,7 +1657,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-education"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1657,7 +1669,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-entertainment"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1669,7 +1681,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-grocery-stores"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1681,7 +1693,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-hotels1"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1693,7 +1705,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-hotels2"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1705,11 +1717,11 @@ info:
 ---
 group: "bsc"
 name: "sg-models-iht"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models I-HT v..dat" ]
+  include: [ "/SG Models I-?HT v..dat" ]
 info:
   summary: "SG_Models_I-HT by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1717,7 +1729,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-im1"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1729,7 +1741,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-im2"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1741,7 +1753,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-large-stores"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1753,7 +1765,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-malls"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1765,7 +1777,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-medium-shops1"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1777,7 +1789,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-motels"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1789,7 +1801,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-offices-hirise1"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1801,7 +1813,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-offices-hirise2"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1813,7 +1825,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-offices-medium"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1825,7 +1837,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-restaurants"
-version: "2-1"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1837,7 +1849,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-sainsbury"
-version: "2"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1849,7 +1861,7 @@ info:
 ---
 group: "bsc"
 name: "sg-models-small-shops"
-version: "3"
+version: "4"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
@@ -1873,11 +1885,11 @@ info:
 ---
 group: "bsc"
 name: "sg-models-utilities"
-version: "1-1"
+version: "2"
 subfolder: "100-props-textures"
 assets:
 - assetId: "sc4d-lex-legacy-bsc-common-dependencies-pack"
-  include: [ "/SG Models Utilities.dat" ]
+  include: [ "/SG Models Utilities v..dat" ]
 info:
   summary: "SG_Models_Utilities by SimGoober"
   website: "https://www.sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack"
