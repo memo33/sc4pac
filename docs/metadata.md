@@ -308,16 +308,12 @@ In contrast to the `checksum` field of an asset, this is the sha256 hash of the 
 ?> When using `withChecksum`, it is recommended to also add a [`nonPersistentUrl`](#nonPersistentUrl) to the corresponding asset definition.
 
 If a DLL file comes with an INI configuration file, the .ini file requires a checksum as well.
-It will be installed into the package subfolder.
-Add a warning to inform the user that the INI needs to be manually copied to the root of the Plugins folder:
+Add the `isIni` field to install the file into the root of the Plugins folder:
 ```yaml
-info:
-  warning: |-
-    This DLL plugin comes with an INI configuration file:
-
-    * `filename.ini`
-
-    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
+  withChecksum:
+  - include: "/magic.ini"
+    sha256: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+    isIni: true
 ```
 
 ### `info`

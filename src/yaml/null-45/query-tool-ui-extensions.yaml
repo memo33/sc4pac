@@ -11,6 +11,7 @@ assets:
     sha256: 95c055f915ff8b286c74bc27e76fcd94ddf88d2c3f9430bb54d8a66da77e8625
   - include: "/SC4QueryUIHooks.ini"
     sha256: 25C2065EA205B46C3D1B487C5907E2F9EB44C1CAAD8AEC89CD43EA4DD0A834D3
+    isIni: true
 
 info:
   summary: "A DLL plugin that adds various enhancements to the building query tool and query dialog"
@@ -40,12 +41,6 @@ info:
     - Props: This tool tip provides the prop object's exemplar name.
 
     Moreover, the DLL is a dependency for other Mods, providing services that can be used to add more building query values and/or customize the building and network tool tips.
-  warning: |-
-    This DLL plugin comes with an INI configuration file:
-
-    * `SC4QueryUIHooks.ini`
-
-    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/"
   images:

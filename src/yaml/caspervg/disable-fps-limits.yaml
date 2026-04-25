@@ -11,6 +11,7 @@ assets:
     sha256: C134546150D2CF7968186612F3D52FCB91B8FE41D27479E72E4D7EFE6FFA9AB5
   - include: "/SC4DisableFpsLimits.ini"
     sha256: C97CA8592A9E8867A965BFDB7CF3BF3DBDBA1D950B8243D5BC71CE74CB5A623D
+    isIni: true
 
 info:
   summary: "A DLL plugin to disable the default FPS (frames per second) limitations during simulation speeds"
@@ -23,12 +24,6 @@ info:
     * Cheetah speed (fast simulation): 15 FPS
 
     This DLL removes these limitations, allowing the game to run at higher frame rates (up to 255 FPS) during all simulation speeds.
-  warning: |-
-    This DLL plugin comes with an INI configuration file:
-
-    * `SC4DisableFpsLimits.ini`
-
-    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
   author: "CasperVg"
   website: "https://community.simtropolis.com/files/file/37345-disable-fps-limits/"
   images:

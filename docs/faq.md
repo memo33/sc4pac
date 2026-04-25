@@ -70,13 +70,13 @@ Not an *sc4pac* issue, but make sure your game is properly configured and runs s
    For this to work, the Plugins folder location in your **![](_speed.svg)Dashboard** must point to the actual `Plugins` folder, not a subfolder.
 
 2. Some DLLs come with `.ini` configuration files.
-   To complete the installation of such a DLL, remember to copy the `.ini` file from the package subfolder inside your Plugins to the root of your Plugins folder, and edit it to set your preferences.
+   To complete the installation of such a DLL, remember to rename the `_sc4pacnew.ini` file in the root of your Plugins folder by removing `_sc4pacnew` from its name, and edit it to set your preferences.
 
    <details>
    <summary>Detailed example</summary>
 
    - For the package `pkg=null-45:query-tool-ui-extensions-dll` for example,<br>
-     copy `Plugins\150-mods\null-45.query-tool-ui-extensions-dll.2.5.0-1.sc4pac\SC4QueryUIHooks.ini`<br>
+     rename `Plugins\SC4QueryUIHooks_sc4pacnew.ini`<br>
      to `Plugins\SC4QueryUIHooks.ini`.
    - Then, edit the new file to set your preferences.
    - Repeat this whenever the DLL is updated to a newer version.

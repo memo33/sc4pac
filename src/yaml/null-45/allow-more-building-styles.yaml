@@ -11,8 +11,10 @@ assets:
     sha256: 460E2A57AA217BEE5A24E62CFC1FC37B31798BA8F10A0FF5EFBFCD6922247AFF
   - include: "/SC4MoreBuildingStyles.ini"
     sha256: 4A02425B6D9AC5BB8293B0EE64CBAC472125465587D33D37B23E4B45D57193F3
+    isIni: true
   - include: "/BuildingStyles.ini"
     sha256: 06A12F502CB1A2F968B61C048E8BD91272ACF94BC0E191D528FBFE9C15BCB791
+    isIni: true
   - include: "/SC4MoreBuildingStyles.dat"
     sha256: A4D8F62CEC64BC8F6555A6F1DF4BAE0F42B45F4AF7A9E9725CD9DB40DB1D1118
 - assetId: "null-45-building-style-control-ui-for-the-building-styles"
@@ -25,13 +27,6 @@ info:
     Moreover, the DLL fixes a game bug to make the "build all styles at once" feature work as Maxis intended.
 
     This package includes a new Building Style Control UI file, with room for 36 style check boxes.
-  warning: |-
-    This DLL plugin comes with two INI configuration files:
-
-    * `SC4MoreBuildingStyles.ini`
-    * `BuildingStyles.ini`
-
-    To complete the installation, copy these files from the package subfolder into the root directory of your Plugins folder and edit them to set your preferences.
   author: "Null 45"
   websites:
     - https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/
