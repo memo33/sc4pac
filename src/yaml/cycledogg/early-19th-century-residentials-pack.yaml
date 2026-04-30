@@ -1,9 +1,9 @@
-# Note: lots are not included, only the models, as they serve as dependencies,
-# for example for simcoug:farmhouses
 group: cycledogg
 name: early-19th-century-tenements-props
 version: "1-1"
 subfolder: 110-resources
+info:
+  summary: "Early 19th century tenement residence props"
 assets:
   - assetId: "cycledogg-early-19th-century-residentials-pack"
     include: [ "CP_Early19thCenturyTenements_Models.dat" ]
@@ -13,6 +13,8 @@ group: cycledogg
 name: early-19th-century-r1-props
 version: "1-1"
 subfolder: 110-resources
+info:
+  summary: "Early 19th century R$ home props"
 assets:
   - assetId: "cycledogg-early-19th-century-residentials-pack"
     include: [ "/CP_Early19thCentury_Small\\$Houses_Models.dat" ]
@@ -22,6 +24,8 @@ group: cycledogg
 name: early-19th-century-r2-props
 version: "1-1"
 subfolder: 110-resources
+info:
+  summary: "Early 19th century R$$ home props"
 assets:
   - assetId: "cycledogg-early-19th-century-residentials-pack"
     include: [ "/CP_Early19thCent_MedHse_Models.dat" ]
@@ -31,9 +35,49 @@ group: cycledogg
 name: early-19th-century-r3-props
 version: "1-1"
 subfolder: 110-resources
+info:
+  summary: "Early 19th century R$$$ home props"
 assets:
   - assetId: "cycledogg-early-19th-century-residentials-pack"
     include: [ "/CP_Early19thCentury_R\\$\\$\\$Houses_Models.dat" ]
+
+---
+group: cycledogg
+name: early-19th-century-residentials-pack
+version: "2.0"
+subfolder: 200-residential
+dependencies:
+- bsc:mega-props-cp-vol01
+- bsc:mega-props-cp-vol02
+- bsc:mega-props-sg-vol01
+- bsc:mega-props-mjb-vol01
+- bsc:mega-props-jrj-vol04
+- bsc:mega-props-jrj-vol05
+- bsc:bat-props-vdk-vol01
+- bsc:texturepack-cycledogg-vol01
+- bsc:textures-vol01
+- bsc:textures-vol02
+- peg:mtp-super-pack
+- cycledogg:early-19th-century-tenements-props
+- cycledogg:early-19th-century-r1-props
+- cycledogg:early-19th-century-r2-props
+- cycledogg:early-19th-century-r3-props
+assets:
+- assetId: "cycledogg-early-19th-century-residentials-pack"
+  include:
+  - .*_Lots\.dat$
+info:
+  summary: "Early 19th century residential homes"
+  description: |-
+    These two sets by c.p. transport you to early 19th century America, offering 10 high-wealth houses on 16 varied, slope-friendly lots (stages 1-4) and 34 high-wealth tenements on 34 diverse, slope-friendly lots (stages 4-6). Both are part of a series focused on this architectural style, encouraging varied lot zoning for visual interest. Enjoy bringing this historical charm to your city!
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06 and Ulisse Wolf.
+  author: "CP (Cycledogg)"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/11-residential/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack"
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/LEX_TenementsMain.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/LEXTenements2nd.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/GreekRevHiWealthHsesL1.JPG
 
 ---
 assetId: "cycledogg-early-19th-century-residentials-pack"
