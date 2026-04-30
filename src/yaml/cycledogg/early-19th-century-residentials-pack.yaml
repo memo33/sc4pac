@@ -65,7 +65,7 @@ dependencies:
 assets:
 - assetId: "cycledogg-early-19th-century-residentials-pack"
   include:
-  - .*_Lots\.dat$
+  - "_Lots\\.dat$"
 info:
   summary: "Early 19th century residential homes"
   description: |-
