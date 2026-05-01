@@ -1,6 +1,6 @@
 group: "memo"
 name: "submenus-dll"
-version: "2.0.0"
+version: "2.1.0"
 subfolder: "150-mods"
 dependencies:
 - "null-45:sc4-resource-loading-hooks"
@@ -9,7 +9,7 @@ assets:
 - assetId: "memo-submenus-dll"
   withChecksum:
   - include: "/memo.submenus.dll"
-    sha256: ee6e57c203ca7b8ec964b6870ec196b1f0122c45d4950e266db00aa4c632c9f3
+    sha256: fe0e42a1a35cb40415df650e13003d12dff5781c239e33dca500da43cf71f654
 
 info:
   summary: "Adds more submenus to the game"
@@ -26,7 +26,7 @@ info:
 
 ---
 assetId: "memo-submenus-dll"
-version: "2.0.0"
-lastModified: "2025-09-18T08:10:59Z"
+version: "2.1.0"
+lastModified: "2026-05-01T18:49:28Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36142-submenus-dll/?do=download"
-url: "https://github.com/memo33/submenus-dll/releases/download/2.0.0/submenus-dll-2.0.0.zip"
+url: "https://github.com/memo33/submenus-dll/releases/download/2.1.0/submenus-dll-2.1.0.zip"
