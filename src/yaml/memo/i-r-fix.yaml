@@ -1,6 +1,6 @@
 group: "memo"
 name: "i-r-fix"
-version: "1.0.0-1"
+version: "1.0.0-2"
 subfolder: "150-mods"
 assets:
 - assetId: "memo-i-r-fix"
@@ -23,9 +23,11 @@ info:
     Use the `pkg=bsc:census-repository` if you want to inspect the I-R census numbers more closely.
   author: "memo, InvisiChem, RippleJet"
   website: "https://community.simtropolis.com/files/file/36841-i-r-fix/"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2026_05/2025-04-24_20_41_34.png.66c3bee7e37f7449ad39248086358175.png
 
 ---
 assetId: "memo-i-r-fix"
-version: "1.0.0"
-lastModified: "2025-04-24T19:10:20Z"
+version: "1.0.0-1"
+lastModified: "2026-05-30T06:57:58Z"
 url: "https://community.simtropolis.com/files/file/36841-i-r-fix/?do=download"

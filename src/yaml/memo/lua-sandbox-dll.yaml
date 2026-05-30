@@ -28,13 +28,13 @@ info:
 
     This DLL is provided on a best-effort basis, without guarantees it can prevent every potential exploit.
   author: memo
-  website: https://community.simtropolis.com/files/file/37433-lua-sandbox-dll/
+  website: https://community.simtropolis.com/files/file/37389-lua-sandbox-dll/
   images:
-  - https://www.simtropolis.com/objects/screens/monthly_2026_03/logo.png.06f6aecaf25c7ac1508e6ee27f7b60b8.png
+  - https://www.simtropolis.com/objects/screens/monthly_2026_05/logo.png.cca60a86334f7e903b2524ddbcc578d1.png
 
 ---
 assetId: memo-lua-sandbox-dll
 version: "1.0.0"
-lastModified: "2026-03-14T10:31:07Z"
-nonPersistentUrl: https://community.simtropolis.com/files/file/37433-lua-sandbox-dll/?do=download
+lastModified: "2026-05-30T07:18:43Z"
+nonPersistentUrl: https://community.simtropolis.com/files/file/37389-lua-sandbox-dll/?do=download
 url: https://github.com/memo33/sc4-lua-sandbox-dll/releases/download/1.0.0/lua-sandbox-dll-1.0.0.zip
