@@ -1,6 +1,6 @@
 group: "nam-team"
 name: "tunnel-and-slope-mod"
-version: "0.31"
+version: "0.3.1"
 subfolder: "150-mods"
 info:
   summary: "Network Addon Mod Tunnel and Slope Mod"
@@ -88,6 +88,6 @@ variants:
 
 ---
 assetId: "nam-tunnel-and-slope-mod"
-version: "0.31"
-lastModified: "2025-02-09T16:42:21Z"
+version: "0.3.1"
+lastModified: "2026-05-29T00:33:46Z"
 url: "https://community.simtropolis.com/files/file/35420-network-addon-mod-tunnel-and-slope-mod/?do=download"

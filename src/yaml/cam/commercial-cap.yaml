@@ -1,6 +1,6 @@
 group: "cam"
 name: "universal-commercial-cap-fix"
-version: "2.0.0"
+version: "2.0.0-1"
 subfolder: "150-mods"
 dependencies:
 - "null-45:sc4-resource-loading-hooks"  # for exemplar patching
@@ -45,6 +45,6 @@ variantInfo:
 
 ---
 assetId: "cam-universal-commercial-cap-fix"
-version: "2.0.0"
-lastModified: "2026-01-02T20:16:33Z"
+version: "2.0.0-1"
+lastModified: "2026-05-29T16:36:22Z"
 url: "https://community.simtropolis.com/files/file/37181-colossus-addon-mod-universal-commercial-cap-fix/?do=download"
