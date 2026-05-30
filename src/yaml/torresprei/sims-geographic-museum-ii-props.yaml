@@ -1,6 +1,6 @@
 group: torresprei
 name: sims-geographic-museum-ii-props
-version: "2.0-1"
+version: "2.0-2"
 subfolder: 110-resources
 
 assets:
@@ -20,6 +20,6 @@ info:
 
 ---
 assetId: "sims-geographic-museum-ii-props"
-version: "2.0"
-lastModified: "2025-09-18T16:35:47Z"
+version: "2.0-1"
+lastModified: "2026-05-29T23:26:47Z"
 url: https://community.simtropolis.com/files/file/4238-sims-geographic-museum-ii/?do=download
