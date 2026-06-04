@@ -1,6 +1,6 @@
 group: "sfbt"
 name: "kenworth-commuter-stations"
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: "700-transit"
 dependencies:
 - "bsc:textures-vol01"
@@ -33,6 +33,6 @@ info:
 
 ---
 assetId: "sfbt-kenworth-commuter-stations"
-version: "1.0.0"
-lastModified: "2024-10-08T11:37:47Z"
+version: "1.0.0-1"
+lastModified: "2026-06-04T14:28:19Z"
 url: "https://community.simtropolis.com/files/file/36491-sfbt-kenworth-commuter-stations-v2/?do=download"

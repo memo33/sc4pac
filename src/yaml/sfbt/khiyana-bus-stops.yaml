@@ -1,6 +1,6 @@
 group: "sfbt"
 name: "khiyana-bus-stops"
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: "700-transit"
 dependencies:
 - "sfbt:essentials"
@@ -23,6 +23,6 @@ info:
 
 ---
 assetId: "sfbt-khiyana-bus-stops"
-version: "1.0.0"
-lastModified: "2024-10-08T11:56:33Z"
+version: "1.0.0-1"
+lastModified: "2026-06-04T14:32:13Z"
 url: "https://community.simtropolis.com/files/file/36493-sfbt-khiyana-bus-stops/?do=download"
