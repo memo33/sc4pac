@@ -1,6 +1,6 @@
 group: sfbt
 name: kenworth-rail-catenaries
-version: "2"
+version: "2-1"
 subfolder: 700-transit
 info:
   summary: SFBT Kenworth Rail Catenaries
@@ -39,7 +39,7 @@ assets:
 ---
 group: sfbt
 name: kenworth-rail-catenaries-props
-version: "2-1"
+version: "2-2"
 subfolder: 110-resources
 info:
   summary: SFBT Kenworth Rail Catenaries Props
@@ -54,6 +54,6 @@ assets:
 
 ---
 assetId: sfbt-kenworth-rail-catenaries
-version: "2"
-lastModified: "2024-10-08T11:48:52Z"
+version: "2-1"
+lastModified: "2026-06-04T18:58:28Z"
 url: https://community.simtropolis.com/files/file/36492-sfbt-kenworth-rail-catenaries-v2/?do=download
