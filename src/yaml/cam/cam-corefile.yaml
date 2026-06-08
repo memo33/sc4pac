@@ -1,13 +1,14 @@
 ---
 assetId: "cam-colossus-addon-mod-corefile"
-version: "4.0.0"
-lastModified: "2026-06-07T06:12:29-07:00"
+version: "4.0.1"
+lastModified: "2026-06-08T10:41:36-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
+
 
 ---
 group: "cam"
-name: "colossus-addon-mod-core"
-version: "4.0.0"
+name: "sc4-system-integration-module"
+version: "4.0.1"
 subfolder: "050-load-first"
 dependencies:
 - "null-45:custom-budget-departments-dll"
@@ -28,7 +29,7 @@ assets:
 - assetId: "cam-colossus-addon-mod-corefile"
 
 info:
-  summary: "Colossus Addon Mod Core File – the main dependency of CAM"
+  summary: "SC4 System Integration Module (SIM) – the main dependency of CAM"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |-
     This mod is the main dependency for CAM Controllers and other mods.
@@ -40,10 +41,10 @@ info:
 
   author: "CAM Team"
   websites:
-  - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-colossus-addon-mod-core-files"
-  - "https://community.simtropolis.com/files/file/36978-colossus-addon-mod-core-files/"
+  - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-sc4-system-integration-module-sim"
+  - "https://community.simtropolis.com/files/file/36978-sc4-system-integration-module-sim/"
   images:
-  - https://www.sc4evermore.com/images/jdownloads/screenshots/CAMCore2.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/SIM.png
 
 ---
 group: "null-45"

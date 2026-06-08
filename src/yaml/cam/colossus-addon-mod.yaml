@@ -1,19 +1,19 @@
 assetId: "cam-colossus-addon-mod"
-version: "3.1.0"
-lastModified: "2026-06-07T06:17:53-07:00"
+version: "3.1.1"
+lastModified: "2026-06-08T10:27:17-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:colossus-addon-mod"
 
 ---
 group: "cam"
 name: "colossus-addon-mod"
-version: "3.1.0"
+version: "3.1.1"
 subfolder: "050-load-first"
 
 variants:
 - variant: { CAM: "no" }
 - variant: { CAM: "yes", cam:colossus-addon-mod:version: "current" }
   dependencies:
-  - "cam:colossus-addon-mod-core"
+  - "cam:sc4-system-integration-module"
   - "cam:ordinances"
   - "heinbloed4711:hi-tech-missing-high-wealth-jobs"
   assets:
