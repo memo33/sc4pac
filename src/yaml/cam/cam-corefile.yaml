@@ -2,7 +2,17 @@
 assetId: "cam-colossus-addon-mod-corefile"
 version: "4.0.1"
 lastModified: "2026-06-08T10:41:36-07:00"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:sc4-system-integration-module-sim"
+
+---
+group: "cam"
+name: "colossus-addon-mod-core"
+version: "4.0.1"
+subfolder: "050-load-first"
+dependencies: [ "cam:sc4-system-integration-module" ]
+info:
+  summary: "Superseded by `pkg=cam:sc4-system-integration-module`"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-sc4-system-integration-module-sim"
 
 
 ---
