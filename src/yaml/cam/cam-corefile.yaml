@@ -69,7 +69,7 @@ info:
     This mod alerts the player when a water pump set to use fresh water and salt water is not working, allowing them to receive a warning.
     Also available is a cheat code `ScanPumps` that can be used as a debugging tool for modders.
 
-    This mod cannot work without `pkg=cam:colossus-addon-mod-core`.
+    This mod cannot work without `pkg=cam:sc4-system-integration-module`.
 
   author: "CAM Team and Null 45"
   websites:
