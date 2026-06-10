@@ -1,12 +1,11 @@
 assetId: peg-mtp-scenic-views
-version: "1.1"
-lastModified: "2025-02-08T16:42:54Z"
-url: https://community.simtropolis.com/files/file/14809-peg-mtp-scenic-views/?do=download&r=205648
-
+version: "1.1-1"
+lastModified: "2026-05-31T18:37:08Z"
+url: https://community.simtropolis.com/files/file/14809-peg-mtp-scenic-views/?do=download
 ---
 group: "peg"
 name: "mtp-scenic-views-props"
-version: "1.1-1"
+version: "1.1-2"
 subfolder: "110-resources"
 assets:
 - assetId: "peg-mtp-scenic-views"
@@ -14,8 +13,7 @@ assets:
   - "/PEG_ScenicViews_RESOURCE.dat"
 info:
   summary: "MTP Scenic Views Props"
-  description:
-    Prop Pack for PEG MTP Scenic Views
+  description: Prop Pack for PEG MTP Scenic Views
   author: "Pegasus"
   website: "https://community.simtropolis.com/files/file/14809-peg-mtp-scenic-views/"
   images:

@@ -1,12 +1,12 @@
 assetId: peg-chicken-ranch
-version: "1.1"
-lastModified: "2025-05-02T22:54:39Z"
+version: "1.1-1"
+lastModified: "2026-05-31T01:53:18Z"
 url: https://community.simtropolis.com/files/file/12727-peg-chicken-ranch/?do=download
 
 ---
 group: "peg"
 name: "chicken-ranch-props"
-version: "1.1-1"
+version: "1.1-2"
 subfolder: "110-resources"
 assets:
 - assetId: "peg-chicken-ranch"
@@ -14,8 +14,7 @@ assets:
   - "/PEG_ChickenRanch_RESOURCE_205.dat"
 info:
   summary: "Chicken Ranch Props"
-  description:
-    Prop Pack for PEG Chicken Ranch
+  description: Prop Pack for PEG Chicken Ranch
   author: "Pegasus"
   website: "https://community.simtropolis.com/files/file/12727-peg-chicken-ranch/"
   images:
