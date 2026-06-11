@@ -1,13 +1,24 @@
 ---
 assetId: "cam-colossus-addon-mod-corefile"
-version: "3.5.1"
-lastModified: "2026-01-08T12:20:56-08:00"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
+version: "4.0.1"
+lastModified: "2026-06-08T10:41:36-07:00"
+url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:sc4-system-integration-module-sim"
 
 ---
 group: "cam"
 name: "colossus-addon-mod-core"
-version: "3.5.1"
+version: "4.0.1"
+subfolder: "050-load-first"
+dependencies: [ "cam:sc4-system-integration-module" ]
+info:
+  summary: "Superseded by `pkg=cam:sc4-system-integration-module`"
+  website: "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-sc4-system-integration-module-sim"
+
+
+---
+group: "cam"
+name: "sc4-system-integration-module"
+version: "4.0.1"
 subfolder: "050-load-first"
 dependencies:
 - "null-45:custom-budget-departments-dll"
@@ -17,6 +28,7 @@ dependencies:
 - "null-45:legalize-gambling-ordinance-upgrade-dll"
 - "null-45:sc4-resource-loading-hooks" # for exemplar patching
 - "memo:transparent-texture-fix-dll" 
+- "memo:lua-sandbox-dll" 
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "scoty:zoning-mod-maxis"
 - "cyclone-boom:save-warning"
@@ -27,10 +39,10 @@ assets:
 - assetId: "cam-colossus-addon-mod-corefile"
 
 info:
-  summary: "Colossus Addon Mod Core File – the main dependency of CAM"
+  summary: "SC4 System Integration Module (SIM) – the main dependency of CAM"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |-
-    This mod is the main dependency for CAM Controllers.
+    This mod is the main dependency for CAM Controllers and other mods.
     To install CAM, install a CAM Controller that depends on this package (see _Required By_).
 
     This package consists mainly of code and support files for UI, LText, and Exemplar.
@@ -39,10 +51,10 @@ info:
 
   author: "CAM Team"
   websites:
-  - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-colossus-addon-mod-core-files"
-  - "https://community.simtropolis.com/files/file/36978-colossus-addon-mod-core-files/"
+  - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-sc4-system-integration-module-sim"
+  - "https://community.simtropolis.com/files/file/36978-sc4-system-integration-module-sim/"
   images:
-  - https://www.simtropolis.com/objects/screens/monthly_2025_12/CAMCore2.jpg.4955bd972c98493810e22dc8046846a2.jpg
+  - https://www.sc4evermore.com/images/jdownloads/screenshots/SIM.png
 
 ---
 group: "null-45"
@@ -67,7 +79,7 @@ info:
     This mod alerts the player when a water pump set to use fresh water and salt water is not working, allowing them to receive a warning.
     Also available is a cheat code `ScanPumps` that can be used as a debugging tool for modders.
 
-    This mod cannot work without `pkg=cam:colossus-addon-mod-core`.
+    This mod cannot work without `pkg=cam:sc4-system-integration-module`.
 
   author: "CAM Team and Null 45"
   websites:
