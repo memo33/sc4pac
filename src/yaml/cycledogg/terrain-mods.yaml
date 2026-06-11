@@ -11,9 +11,7 @@ subfolder: "100-props-textures"
 info:
   summary: "Terrain textures shared across multiple terrain mods"
   description: |
-    This is an SD terrain mod, compatible with software rendering mode.
-
-    This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
+    Terrain textures shared across multiple terrain mods.
   author: "c.p./Cycledogg"
   websites:
   - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
@@ -120,14 +118,18 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
     - "/CP_ColumbusPlayTerrainParametersForUseWithCPT_No7TreeController SNOWCAPPED LOWER.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:columbus-terrain:beach: "default" }
+  - ifVariant: { cycledogg:columbus-terrain:beach: "columbus" }
     include:
     - "/CPT_B_ColumbusBeach_Optional.dat"
+  - ifVariant: { cycledogg:columbus-terrain:beach: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:columbus-terrain:cliff: "default" }
+  - ifVariant: { cycledogg:columbus-terrain:rock: "columbus" }
     include:
     - "/CPT_C_ColumbusCliff_Optional.dat"
+  - ifVariant: { cycledogg:columbus-terrain:rock: "other" }
+    include: []
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:columbus-terrain:snow-level: "default" }
@@ -163,18 +165,18 @@ variantInfo:
 - variantId: "cycledogg:columbus-terrain:beach"
   description: Choose to install a beach mod.
   values:
-  - value: "columbus-beach"
+  - value: "columbus"
     description: The default beach for the Columbus terrain.
     default: true
-  - value: "other-beach"
+  - value: "other"
     description: Select if you use a different beach mod. Does not install anything.
 - variantId: "cycledogg:columbus-terrain:rock"
   description: Choose to install a rock mod.
   values:
-  - value: "columbus-rock"
+  - value: "columbus"
     description: The default rock for the Columbus terrain.
     default: true
-  - value: "other-rock"
+  - value: "other"
     description: Select if you use a different rock mod. Does not install anything.
 
 
@@ -217,19 +219,25 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
     - "/CPT_No6_MonumentValleyTerrainController.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:canyonlands-terrain:beach: "default" }
+  - ifVariant: { cycledogg:canyonlands-terrain:beach: "canyonlands" }
     include:
     - "/CPT_B_MoabBeach_Optional.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:beach: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:canyonlands-terrain:cliff: "default" }
+  - ifVariant: { cycledogg:canyonlands-terrain:rock: "canyonlands" }
     include:
     - "/CPT_C_MonumentValleyCliff_Optional.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:rock: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:canyonlands-terrain:water: "default" }
+  - ifVariant: { cycledogg:canyonlands-terrain:water: "canyonlands" }
     include:
     - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
+  - ifVariant: { cycledogg:canyonlands-terrain:water: "other" }
+    include: []
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:canyonlands-terrain:snow-level: "default" }
@@ -248,33 +256,33 @@ variantInfo:
   - value: "default"
     description: This is the default version. The maximum terrain height that can be used with this terrain controller is 4800 meters (4550 meters above water level).
     default: true
-  - value: "low-snow"
-    description: Lowers the terrain textures to about 40% of the height of the default Canyonlands Mod. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is approximately 1950 meters (1700 meters above water level). Be aware that cities containing terrain higher than 1700 meters above water level will not open, when using this variant.
   - value: "lower-snow"
+    description: Lowers the terrain textures to about 40% of the height of the default Canyonlands Mod. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is approximately 1950 meters (1700 meters above water level). Be aware that cities containing terrain higher than 1700 meters above water level will not open, when using this variant.
+  - value: "monument-valley"
     description: Lowers the terrain textures slightly to about 90% of the height of the Canyonlands Mod. This patch will lower not only the terrain textures, but also lower the maximum height you can plant trees with the god-mode flora brush. The maximum terrain height when using this patch is 4400 meters (4150 meters above water level).
 - variantId: "cycledogg:canyonlands-terrain:beach"
   description: Choose to install a beach mod.
   values:
-  - value: "canyonlands-beach"
+  - value: "canyonlands"
     description: Beach and underwater textures optimized for use with the Grand Canyon, Canyonlands and Painted Desert terrain mods.
     default: true
-  - value: "other-beach"
+  - value: "other"
     description: Select if you use a different beach mod. Does not install anything.
 - variantId: "cycledogg:canyonlands-terrain:rock"
   description: Choose to install a rock mod.
   values:
-  - value: "canyonlands-rock"
+  - value: "canyonlands"
     description: The default reddish-orange rock for the Canyonlands terrain.
     default: true
-  - value: "other-rock"
+  - value: "other"
     description: Select if you use a different rock mod. Does not install anything.
 - variantId: "cycledogg:canyonlands-terrain:water"
   description: Choose to install a water mod.
   values:
-  - value: "canyonlands-water"
+  - value: "canyonlands"
     description: The default reddish-orange water for the Canyonlands terrain.
     default: true
-  - value: "other-water"
+  - value: "other"
     description: Select if you use a different water mod. Does not install anything.
 
 
@@ -307,36 +315,42 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
   - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "default" }
     include:
     - "/CPT_No6_GrandCanyonTerrainController.dat"
-  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-snow" }
+  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "low-snow" }
     include:
     - "/CPT_No6_zzGrandCanyonTerrainController_LowerSnowPatch.dat"
-  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-lower-snow" }
+  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-snow" }
     include:
     - "/CPT_No6_zzGrandCanyonTerrainController_LowerLowerSnowPatch.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:grand-canyon-terrain:beach: "default" }
+  - ifVariant: { cycledogg:grand-canyon-terrain:beach: "grand-canyon" }
     include:
     - "/CPT_B_MoabBeach_Optional.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:beach: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:grand-canyon-terrain:cliff: "default" }
+  - ifVariant: { cycledogg:grand-canyon-terrain:rock: "grand-canyon" }
     include:
     - "/CPT_C_MonumentValleyCliff_Optional.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:rock: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:grand-canyon-terrain:water: "default" }
+  - ifVariant: { cycledogg:grand-canyon-terrain:water: "grand-canyon" }
     include:
     - "/CPT_W_LittleMissouri_205_Water_Optional.dat"
+  - ifVariant: { cycledogg:grand-canyon-terrain:water: "other" }
+    include: []
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "default" }
     include:
     - "/z_LK_FloraTuningParameters_Seasonal_CP_GrandCanyon.dat"
-  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-snow" }
+  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "low-snow" }
     include:
     - "/z_LK_FloraTuningParameters_Seasonal_CP_GrandCanyon_LowerSnowPatch.dat"
-  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-lower-snow" }
+  - ifVariant: { cycledogg:grand-canyon-terrain:snow-level: "lower-snow" }
     include:
     - "/z_LK_FloraTuningParameters_Seasonal_CP_GrandCanyon_LowerLowerSnowPatch.dat"
 variantInfo:
@@ -353,26 +367,26 @@ variantInfo:
 - variantId: "cycledogg:grand-canyon-terrain:beach"
   description: Choose to install a beach mod.
   values:
-  - value: "grand-canyon-beach"
+  - value: "grand-canyon"
     description: Beach and underwater textures optimized for use with the Grand Canyon, Canyonlands, and Painted Desert terrain mods.
     default: true
-  - value: "other-beach"
+  - value: "other"
     description: Select if you use a different beach mod. Does not install anything.
 - variantId: "cycledogg:grand-canyon-terrain:rock"
   description: Choose to install a rock mod.
   values:
-  - value: "grand-canyon-rock"
+  - value: "grand-canyon"
     description: The default reddish-orange rock for the grand canyon terrain.
     default: true
-  - value: "other-rock"
+  - value: "other"
     description: Select if you use a different rock mod. Does not install anything.
 - variantId: "cycledogg:grand-canyon-terrain:water"
   description: Choose to install a water mod.
   values:
-  - value: "grand-canyon-water"
+  - value: "grand-canyon"
     description: The default reddish-orange water for the grand canyon terrain.
     default: true
-  - value: "other-water"
+  - value: "other"
     description: Select if you use a different water mod. Does not install anything.
 
 
@@ -408,19 +422,25 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
   - "/CPT_No6_PaintedDesertTerrainController.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:painted-desert-terrain:beach: "default" }
+  - ifVariant: { cycledogg:painted-desert-terrain:beach: "painted-desert" }
     include:
     - "/CPT_B_MoabBeach_Optional.dat"
+  - ifVariant: { cycledogg:painted-desert-terrain:beach: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:painted-desert-terrain:cliff: "default" }
+  - ifVariant: { cycledogg:painted-desert-terrain:rock: "painted-desert" }
     include:
     - "/CPT_C_MoabCliff_Optional.dat"
+  - ifVariant: { cycledogg:painted-desert-terrain:rock: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:painted-desert-terrain:water: "default" }
+  - ifVariant: { cycledogg:painted-desert-terrain:water: "painted-desert" }
     include:
     - "/CPT_W_BlueRiver_Water_Optional.dat"
+  - ifVariant: { cycledogg:painted-desert-terrain:water: "other" }
+    include: []
 - assetId: "lowkee33-seasonal-flora-patch"
   include:
   - "/z_LK_FloraTuningParameters_Seasonal_CP_PaintedDesert.dat"
@@ -428,26 +448,26 @@ variantInfo:
 - variantId: "cycledogg:painted-desert-terrain:beach"
   description: Choose to install a beach mod.
   values:
-  - value: "painted-desert-beach"
+  - value: "painted-desert"
     description: Beach and underwater textures optimized for use with the Grand Canyon, Canyonlands, and Painted Desert terrain mods.
     default: true
-  - value: "other-beach"
+  - value: "other"
     description: Select if you use a different beach mod. Does not install anything.
 - variantId: "cycledogg:painted-desert-terrain:rock"
   description: Choose to install a rock mod.
   values:
-  - value: "painted-desert-rock"
+  - value: "painted-desert"
     description: The default reddish-orange rock for the Painted Desert terrain.
     default: true
-  - value: "other-rock"
+  - value: "other"
     description: Select if you use a different rock mod. Does not install anything.
 - variantId: "cycledogg:painted-desert-terrain:water"
   description: Choose to install a water mod.
   values:
-  - value: "painted-desert-water"
+  - value: "painted-desert"
     description: A bluish water with small waves (looks good for rivers).
     default: true
-  - value: "other-water"
+  - value: "other"
     description: Select if you use a different water mod. Does not install anything.
 
 
@@ -490,14 +510,18 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
     - "/CPT_No6_zzItaliaTerrainController_LowerSnowPatch.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:italia-terrain:beach: "default" }
+  - ifVariant: { cycledogg:italia-terrain:beach: "italia" }
     include:
     - "/CPT_B_OlympicBeach_Optional.dat"
+  - ifVariant: { cycledogg:italia-terrain:beach: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:italia-terrain:cliff: "default" }
+  - ifVariant: { cycledogg:italia-terrain:rock: "italia" }
     include:
     - "/CPT_C_ItaliaCliff_Optional.dat"
+  - ifVariant: { cycledogg:italia-terrain:rock: "other" }
+    include: []
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:italia-terrain:snow-level: "default" }
@@ -523,18 +547,18 @@ variantInfo:
 - variantId: "cycledogg:italia-terrain:beach"
   description: Choose to install a beach mod.
   values:
-  - value: "italia-beach"
+  - value: "italia"
     description: Beach and underwater textures optimized for use with the Italia, Meadowshire, and Olympic terrain mods.
     default: true
-  - value: "other-beach"
+  - value: "other"
     description: Select if you use a different beach mod. Does not install anything.
 - variantId: "cycledogg:italia-terrain:rock"
   description: Choose to install a rock mod.
   values:
-  - value: "italia-rock"
+  - value: "italia"
     description: A medium brown rock that matches the CPT_No5_RockTextures_Olympic ... file.
     default: true
-  - value: "other-rock"
+  - value: "other"
     description: Select if you use a different rock mod. Does not install anything.
 
 
@@ -577,14 +601,18 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
     - "/CPT_No6_zzMeadowShireTerrainController_LowerSnowPatch.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:meadowshire-terrain:beach: "default" }
+  - ifVariant: { cycledogg:meadowshire-terrain:beach: "meadowshire" }
     include:
     - "/CPT_B_OlympicBeach_Optional.dat"
+  - ifVariant: { cycledogg:meadowshire-terrain:beach: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:meadowshire-terrain:cliff: "default" }
+  - ifVariant: { cycledogg:meadowshire-terrain:rock: "meadowshire" }
     include:
     - "/CPT_C_MeadowshireCliff_Optional.dat"
+  - ifVariant: { cycledogg:meadowshire-terrain:rock: "other" }
+    include: []
 - assetId: "lowkee33-seasonal-flora-patch"
   withConditions:
   - ifVariant: { cycledogg:meadowshire-terrain:snow-level: "default" }
@@ -610,18 +638,18 @@ variantInfo:
 - variantId: "cycledogg:meadowshire-terrain:beach"
   description: Choose to install a beach mod.
   values:
-  - value: "meadowshire-beach"
+  - value: "meadowshire"
     description: Beach and underwater textures optimized for use with the Italia, Meadowshire, and Olympic terrain mods.
     default: true
-  - value: "other-beach"
+  - value: "other"
     description: Select if you use a different beach mod. Does not install anything.
 - variantId: "cycledogg:meadowshire-terrain:rock"
   description: Choose to install a rock mod.
   values:
-  - value: "meadowshire-rock"
+  - value: "meadowshire"
     description: A gray rock that matches the CPT_No5_RockTextures_MissouriBreaks ... file. It is equivalent to PEG's or Sorchin's Rock Mod.
     default: true
-  - value: "other-rock"
+  - value: "other"
     description: Select if you use a different rock mod. Does not install anything.
 
 
@@ -657,28 +685,32 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
   - "/CPT_No6_OlympicTerrainController_NormalErosion_Essential.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:olympic-terrain:beach: "default" }
+  - ifVariant: { cycledogg:olympic-terrain:beach: "olympic" }
     include:
     - "/CPT_B_OlympicBeach_Optional.dat"
+  - ifVariant: { cycledogg:olympic-terrain:beach: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
   withConditions:
-  - ifVariant: { cycledogg:olympic-terrain:cliff: "default" }
+  - ifVariant: { cycledogg:olympic-terrain:rock: "olympic" }
     include:
     - "/CPT_C_OlympicCliff_Optional.dat"
+  - ifVariant: { cycledogg:olympic-terrain:rock: "other" }
+    include: []
 variantInfo:
 - variantId: "cycledogg:olympic-terrain:beach"
   description: Choose to install a beach mod.
   values:
-  - value: "olympic-beach"
+  - value: "olympic"
     description: Beach and underwater textures optimized for use with the Italia, Meadowshire, and Olympic terrain mods.
     default: true
-  - value: "other-beach"
+  - value: "other"
     description: Select if you use a different beach mod. Does not install anything.
 - variantId: "cycledogg:olympic-terrain:rock"
   description: Choose to install a rock mod.
   values:
-  - value: "olympic-rock"
+  - value: "olympic"
     description: A medium brown rock, similar to much of the rock of the Olympic Peninsula and many areas of the Pacific Northwest (USA).
     default: true
-  - value: "other-rock"
+  - value: "other"
     description: Select if you use a different rock mod. Does not install anything.
