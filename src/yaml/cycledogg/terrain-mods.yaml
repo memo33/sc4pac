@@ -334,6 +334,8 @@ info:
     This mod changes the ground textures of the undeveloped areas of your city to create an orange and rusty rock desert at low and medium elevations. At high elevations, the land becomes greener, and at very, very high elevations, there is snow.
 
     This is an SD terrain mod, compatible with software rendering mode.
+
+    This package comes with the Lowkee33 Seasonal Flora Patch pre-applied.
   author: "c.p./Cycledogg"
   websites:
   - https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/34-cycledogg-terrain-mods
@@ -733,6 +735,9 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
     - "/CPT_C_OlympicCliff_Optional.dat"
   - ifVariant: { cycledogg:olympic-terrain:rock: "other" }
     exclude: [ "(?<!\\.jar)$" ]  # everything but the jar installer
+- assetId: "lowkee33-seasonal-flora-patch"
+  include:
+  - "/z_LK_FloraTuningParameters_Seasonal_CP_Olympic.dat"
 variantInfo:
 - variantId: "cycledogg:olympic-terrain:beach"
   description: Choose to install a beach mod.
