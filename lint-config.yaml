@@ -52,6 +52,8 @@ ignore-group-prefixes-in-name:
 - vip:vip-terrain-mod-water
 
 ignore-nonunique-includes:
+- cycledogg:columbus-terrain #The same Lowkee33 Seasonal Flora Patch variant is applied to multiple variants of this package
+- cycledogg:canyonlands-terrain #The same Lowkee33 Seasonal Flora Patch variant is applied to multiple variants of this package
 - invisichem:colossus-addon-mod-legacy
 - philforhockey51:bocage
 - nam:controller
