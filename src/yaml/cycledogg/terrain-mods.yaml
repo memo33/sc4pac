@@ -29,12 +29,11 @@ assets:
 ---
 group: "cycledogg"
 name: "missouri-breaks-terrain"
-version: "3.0"
+version: "3.0-1"
 subfolder: "170-terrain"
 dependencies:
 - cycledogg:terrain-essentials
 assets:  # using the same asset multiple times to enforce a flat folder structure, ensuring that flora patch loads last
-  # TODO consider splitting optional components
 - assetId: "cycledogg-terrain-mods-sc4e"
   include:
   - "/CPT_No5_RockTextures_MissouriBreaks_Essential.dat"
@@ -42,17 +41,54 @@ assets:  # using the same asset multiple times to enforce a flat folder structur
   include:
   - "/CPT_No6_MissouriBreaksTerrainController.dat"
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_B_MissouriBreaksBeach_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:missouri-breaks-terrain:beach: "missouri-breaks" }
+    include:
+    - "/CPT_B_MissouriBreaksBeach_Optional.dat"
+  - ifVariant: { cycledogg:missouri-breaks-terrain:beach: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_C_MissouriBreaksCliff_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:missouri-breaks-terrain:rock: "missouri-breaks" }
+    include:
+    - "/CPT_C_MissouriBreaksCliff_Optional.dat"
+  - ifVariant: { cycledogg:missouri-breaks-terrain:rock: "other" }
+    include: []
 - assetId: "cycledogg-terrain-mods-sc4e"
-  include:
-  - "/CPT_W_MissouriBreaks_MuddyWater_Optional.dat"
+  withConditions:
+  - ifVariant: { cycledogg:missouri-breaks-terrain:water: "missouri-breaks" }
+    include:
+    - "/CPT_W_MissouriBreaks_MuddyWater_Optional.dat"
+  - ifVariant: { cycledogg:missouri-breaks-terrain:water: "other" }
+    include: []
 - assetId: "lowkee33-seasonal-flora-patch"
   include:
   - "/z_LK_FloraTuningParameters_Seasonal_CP_MissouriBreaks.dat"  # needs to load after the terrain controller file
+variantInfo:
+- variantId: "cycledogg:missouri-breaks-terrain:beach"
+  description: Choose to install a beach mod.
+  values:
+  - value: "missouri-breaks"
+    description: The default beach for the Missouri Breaks terrain.
+    default: true
+  - value: "other"
+    description: Select if you use a different beach mod. Does not install anything.
+- variantId: "cycledogg:missouri-breaks-terrain:rock"
+  description: Choose to install a rock mod.
+  values:
+  - value: "missouri-breaks"
+    description: The default rock for the Missouri Breaks terrain.
+    default: true
+  - value: "other"
+    description: Select if you use a different rock mod. Does not install anything.
+- variantId: "cycledogg:missouri-breaks-terrain:water"
+  description: Choose to install a water mod.
+  values:
+  - value: "missouri-breaks"
+    description: A brown, muddy water, optimized for the Missouri Breaks terrain.
+    default: true
+  - value: "other"
+    description: Select if you use a different water mod. Does not install anything.
 info:
   summary: "Badlands terrain mod based on eastern Montana, including Rock, Water & Beach mod"
   conflicts: "Incompatible with all other terrain mods - only one terrain mod may be installed. Compatible with seasonal tree controllers."
