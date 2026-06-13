@@ -1,6 +1,6 @@
 group: philforhockey51
 name: farm-fences
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: 410-agriculture
 info:
   summary: Farm Fences
@@ -48,5 +48,5 @@ assets:
 ---
 url: https://community.simtropolis.com/files/file/36485-phil-farm-fences/?do=download
 assetId: philforhockey51-farm-fences
-version: "1.0.0"
-lastModified: "2024-10-05T09:39:02Z"
+version: "1.0.0-1"
+lastModified: "2026-06-09T19:11:00Z"

@@ -89,6 +89,7 @@ This list will be expanded as more packages are added to the metadata channel.
   * `pkg=kingofsimcity:community-regional-park-pack-vol1` (11 medium to large parks)
   * `pkg=kingofsimcity:community-regional-park-pack-vol2` (36 parks and sports fields)
   * `pkg=blunder:stanley-seawalls`
+  * `pkg=sfbt:indoor-pool`
 - Miscellaneous:
   * `pkg=bsc:census-repository` (provides detailed stats about city growth)
   * `pkg=mattb325:galaxy-casino-hotel`
@@ -118,7 +119,7 @@ Many additional civic buildings by mattb325 are listed at [Channel](channel/ ':t
 * `pkg=kodlovag:uniform-street-lighting-mod`
 * `pkg=peg:power-tower-pylons` (silvery-gray reskin)
 * `pkg=fanta1990:hang-glider-makeover`
-* `pkg=mgb204:terrain-grass-nam-base` (or `pkg=mgb204:terrain-grass-nam-complete` to override non-network grass textures as well).
+* `pkg=mgb204:terrain-grass-nam`
 
 ## Gameplay mods
 

@@ -1,6 +1,6 @@
 group: "null-45"
 name: "extended-terrain-dll"
-version: "1.0-1"
+version: "1.0-2"
 subfolder: "150-mods"
 dependencies:
 - "config:sc4-edition-windows-digital"
@@ -27,7 +27,7 @@ info:
 
 ---
 assetId: "null-45-extended-terrain"
-version: "1.0"
-lastModified: "2024-12-19T12:45:20Z"
+version: "1.0-1"
+lastModified: "2026-05-29T15:42:08Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36614-extended-terrain-dll/?do=download"
 url: "https://github.com/0xC0000054/sc4-extended-terrain/releases/download/v1.0/SC4ExtendedTerrain.zip"

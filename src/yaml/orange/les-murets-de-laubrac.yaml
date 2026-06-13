@@ -1,7 +1,7 @@
 group: orange
 name: les-murets-de-laubrac-props
-version: "2"
-subfolder: 100-props-textures
+version: "2-1"
+subfolder: 110-resources
 info:
   summary: Les Murets de l'Aubrac Props
   author: Orange

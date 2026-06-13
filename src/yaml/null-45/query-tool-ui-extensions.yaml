@@ -1,6 +1,6 @@
 group: "null-45"
 name: "query-tool-ui-extensions-dll"
-version: "2.5.0-1"
+version: "2.6.5-1"
 subfolder: "150-mods"
 dependencies:
 - "config:sc4-edition-windows-digital"
@@ -8,14 +8,15 @@ assets:
 - assetId: "null-45-query-tool-ui-extensions"
   withChecksum:
   - include: "/SC4QueryUIHooks.dll"
-    sha256: CEA0AF3434DBBD8E18E1F5270E80E91FF87EF45BFADA6E3BE9C9E188126A45E1
+    sha256: 95c055f915ff8b286c74bc27e76fcd94ddf88d2c3f9430bb54d8a66da77e8625
   - include: "/SC4QueryUIHooks.ini"
     sha256: 25C2065EA205B46C3D1B487C5907E2F9EB44C1CAAD8AEC89CD43EA4DD0A834D3
+    isIni: true
 
 info:
   summary: "A DLL plugin that adds various enhancements to the building query tool and query dialog"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
-  description: |
+  description: |2
 
     ### Shift + Click Object Copying
 
@@ -40,12 +41,6 @@ info:
     - Props: This tool tip provides the prop object's exemplar name.
 
     Moreover, the DLL is a dependency for other Mods, providing services that can be used to add more building query values and/or customize the building and network tool tips.
-  warning: |-
-    This DLL plugin comes with an INI configuration file:
-
-    * `SC4QueryUIHooks.ini`
-
-    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/"
   images:
@@ -58,7 +53,7 @@ info:
 
 ---
 assetId: "null-45-query-tool-ui-extensions"
-version: "2.5.0"
-lastModified: "2025-08-24T10:40:59Z"
+version: "2.6.5-1"
+lastModified: "2026-05-29T15:07:42Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/?do=download"
-url: "https://github.com/0xC0000054/sc4-query-ui-hooks/releases/download/v2.5.0/SC4QueryUIHooks.zip"
+url: "https://github.com/0xC0000054/sc4-query-ui-hooks/releases/download/v2.6.5/SC4QueryUIHooks.zip"

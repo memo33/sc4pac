@@ -1,6 +1,6 @@
 group: jestarr
 name: warehouse-props-vol01
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: 100-props-textures
 info:
   summary: A set of 13 warehouse props rendered in 45 and 90 degrees
@@ -13,6 +13,6 @@ assets:
 
 ---
 assetId: jestarr-jes-warehouseprops-sd-vol01
-version: "1.0.0"
-lastModified: "2025-09-18T16:22:03Z"
-url: https://community.simtropolis.com/files/file/37019-jes_warehouseprops_sd-vol01/?do=download&r=209267
+version: "1.0.0-1"
+lastModified: "2026-05-30T16:09:21Z"
+url: https://community.simtropolis.com/files/file/37019-jes_warehouseprops_sd-vol01/?do=download

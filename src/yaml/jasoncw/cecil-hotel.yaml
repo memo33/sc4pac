@@ -33,10 +33,6 @@ variants:
     - "/Jasoncw - Cecil Hotel.*.SC4Model"
   - assetId: "jasoncw-cecil-hotel-camelot"
 
-variantDescriptions:
-  CAM:
-    "yes": "Choose this if you have installed the Colossus Addon Mod (CAM)."
-
 info:
   summary: "A highrise hotel (CS$) with a reputation"
   description: "Cecil hotel was opened in 1924 in Los Angeles."

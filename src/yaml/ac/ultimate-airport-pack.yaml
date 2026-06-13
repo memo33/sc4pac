@@ -1,6 +1,6 @@
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=348:sc4-legacy-airport-common-dependency-pack"
-version: "1.0"
-lastModified: "2025-04-26T10:12:40-07:00"
+version: "2.0"
+lastModified: "2025-12-18T14:17:32-08:00"
 assetId: "sc4d-legacy-airport-common-dependency-pack"
 
 ---
@@ -448,7 +448,7 @@ assets:
 ---
 group: "ac-jenx"
 name: "essentials"
-version: "2023"
+version: "2025"
 subfolder: "100-props-textures"
 info:
   summary: "Xannepan and AC Team queries, sound effects, and other related files"
@@ -458,3 +458,4 @@ assets:
 - assetId: "sc4d-legacy-airport-common-dependency-pack"
   include:
   - "/AC-JENX Airport Essentials.dat"
+  - "/Airport Submenu.dat"

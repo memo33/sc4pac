@@ -18,8 +18,8 @@ and consists of *assets* and *packages*, as defined below.
 
 ## Assets
 
-An asset is usually a ZIP file that can be downloaded from a file exchange.
-An asset cannot be installed directly by users of *sc4pac*; rather, they specify where to find the files called for in a package.
+An asset is a file (most commonly a ZIP file) that can be downloaded from a file exchange.
+An asset cannot be installed directly by users of *sc4pac*; rather, assets specify where to find the files called for in a package.
 
 The metadata of an asset is defined by the following properties.
 
@@ -308,16 +308,12 @@ In contrast to the `checksum` field of an asset, this is the sha256 hash of the 
 ?> When using `withChecksum`, it is recommended to also add a [`nonPersistentUrl`](#nonPersistentUrl) to the corresponding asset definition.
 
 If a DLL file comes with an INI configuration file, the .ini file requires a checksum as well.
-It will be installed into the package subfolder.
-Add a warning to inform the user that the INI needs to be manually copied to the root of the Plugins folder:
+Add the `isIni` field to install the file into the root of the Plugins folder:
 ```yaml
-info:
-  warning: |-
-    This DLL plugin comes with an INI configuration file:
-
-    * `filename.ini`
-
-    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
+  withChecksum:
+  - include: "/magic.ini"
+    sha256: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+    isIni: true
 ```
 
 ### `info`
@@ -566,6 +562,17 @@ However, care should be taken to preserve backward compatibility.
 
 Examples: `pkg=madhatter106:midrise-office-pack-collection`, `pkg=memo:essential-fixes`.
 
+## Mod Sets
+
+Mod Sets are JSON files containing a user-selected list of packages to install explicitly.
+They have some advantages over collections:
+
+- They can be created and shared easily by any user using the Export/Import buttons.
+- When importing a Mod Set, users can select exactly which packages they want to install. They are not forced to install all of them.
+- Mod Sets can optionally include pre-selected variant choices and additional channel URLs.
+
+Unlike collections, Mod Sets are not tracked in any channel, so there is no automatic update functionality for them, but there is also less maintenance overhead.
+
 
 ---
 
@@ -595,16 +602,21 @@ Next, install your new package as usual and, if necessary, edit the YAML file un
 
 !> Most importantly, make sure that the correct files end up in your Plugins folder when installing the package.
 
+?> You can use the [`sc4pac test`](cli#test) command to test the successful installation of multiple variants of a package in one go.
+
 ?> When you are done, remove the .yaml-channels again, as their contents would conflict with the main channel once you submit your package.
    Removing them also improves performance.
 
 
 ## Submitting your package
 
-To submit your package metadata to the main repository on GitHub:
+To submit your package metadata to one of the main repositories on GitHub:
 
 - You need a GitHub account.
-- Go to https://github.com/memo33/sc4pac and hit the *Fork* button to create your own copy.
+- Go to a suitable channel repository and hit the *Fork* button to create your own copy:
+  - https://github.com/memo33/sc4pac
+  - [Simtropolis channel](https://github.com/sebamarynissen/simtropolis-channel)
+  - [SC4Evermore channel](https://github.com/SC4Evermore/sc4pac-channel)
 - Create a [new branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository).
 - Create a new file, such as `src/yaml/dumbledore/hogwarts-castle.yaml`.
   Add your metadata to the file and create a Pull Request.

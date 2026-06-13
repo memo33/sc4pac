@@ -7,7 +7,17 @@
 The application should display a detailed message explaining the problem and how to resolve it.
 
 - On **Windows**:
-  - One common problem is that the Java version on your system is too old, typically Java version 8, so you need to install a newer Java. Reboot your system afterwards.
+  - One common problem is that the Java version on your system is too old, typically Java version 8 or 11, so you need to
+
+    <details>
+    <summary>install a newer version of Java.</summary>
+
+    - First, uninstall your previous version of Java.
+    - [Download](https://adoptium.net/temurin/releases/?os=windows&package=jre) and install Java using the *.MSI* installer for *JRE* (*JDK* works as well, but is a bit larger).
+    - Reboot your system afterwards.
+
+    </details>
+
   - Sometimes, trying the web-app version as alternative can help.
 
 - On **macOS**:
@@ -16,8 +26,14 @@ The application should display a detailed message explaining the problem and how
     - If the problem persists, go to *System Preferences* → *Security & Privacy* → *General* and click the padlock icon, then *Open Anyway*.
       All of the following files may be affected by the blocking: `launch-GUI-web-macOS.command`, `cli/sc4pac`, `cli/sc4pac-cli.jar`, `cli/cicdec/cicdec.exe`.
 
+- On **Linux**:
+  - Run the `./install.sh` in a terminal to see its output.
+  - The desktop app requires GTK3 with [glib](https://repology.org/project/glib/versions) 2.80 or newer. (On Ubuntu, for example, this is available since Ubuntu 24.04 LTS.)
+  - If launching the desktop program does not work, try `sc4pac-gui` in a terminal. If this shows an error `undefined symbol: g_once_init_enter_pointer`, your *glib* version is too old.
+  - If you have multiple Java versions and the default version on your system is too old, either uninstall older Java versions or [switch between multiple Java versions](https://www.baeldung.com/linux/java-choose-default-version).
+
 If there's no error message at all, please report the problem.
-(If you know how, also try launching the **sc4pac-gui** from the command-line to check for potential errors there.)
+<!-- (If you know how, also try launching the **sc4pac-gui** from the command-line to check for potential errors there.) -->
 
 ## Antivirus warnings :id=antivirus-warnings
 
@@ -40,7 +56,7 @@ For *sc4pac*, it is recommended to choose the location under `Documents`, mainly
 ## Plugins don't appear in the game :id=plugins-not-loading
 
 When creating a Profile, make sure the Plugins folder location you choose is the correct one.
-*Sc4pac* does not attempt to pick up the actual location used by the game, but only provides the most common one as default:
+*Sc4pac* does not attempt to detect the actual location used by your game, but only provides the most common one as default:
 `C:\Users\<username>\Documents\SimCity 4\Plugins`.
 Depending on the edition of your game, a different location may be needed.
 
@@ -54,13 +70,13 @@ Not an *sc4pac* issue, but make sure your game is properly configured and runs s
    For this to work, the Plugins folder location in your **![](_speed.svg)Dashboard** must point to the actual `Plugins` folder, not a subfolder.
 
 2. Some DLLs come with `.ini` configuration files.
-   To complete the installation of such a DLL, remember to copy the `.ini` file from the package subfolder inside your Plugins to the root of your Plugins folder.
+   To complete the installation of such a DLL, remember to rename the `_sc4pacnew.ini` file in the root of your Plugins folder by removing `_sc4pacnew` from its name, and edit it to set your preferences.
 
    <details>
    <summary>Detailed example</summary>
 
    - For the package `pkg=null-45:query-tool-ui-extensions-dll` for example,<br>
-     copy `Plugins\150-mods\null-45.query-tool-ui-extensions-dll.2.5.0-1.sc4pac\SC4QueryUIHooks.ini`<br>
+     rename `Plugins\SC4QueryUIHooks_sc4pacnew.ini`<br>
      to `Plugins\SC4QueryUIHooks.ini`.
    - Then, edit the new file to set your preferences.
    - Repeat this whenever the DLL is updated to a newer version.
@@ -91,8 +107,11 @@ They are managed by you alone.
    - The folder contains a subfolder for each Profile. Open the file `sc4pac-plugins.json` of your Profile in a text editor and edit the `pluginsRoot` attribute.
    - Move the Plugins folder to the new location.
    - Restart *sc4pac*.
+   - Press **![](_speed.svg)Dashboard** → *Maintenance & Repair* → *Scan & Repair Plugins* to verify that *sc4pac* is in-sync with your Plugins folder.
 
    </details>
+
+   Alternatively, simply create a new Profile and use **![](_widgets.svg)My Plugins** → *Export/Import* to transfer your plugins.
 
 2. The location in which the game looks for the Plugins folder can be changed by launching the game with the
    `-UserDir:"..."` [launch parameter](https://www.wiki.sc4devotion.com/index.php?title=Shortcut_Parameters#User_Dir).
