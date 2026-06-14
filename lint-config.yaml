@@ -24,6 +24,8 @@ ignore-version-mismatches:
 - bsc:mega-props-rubik3-vol01-wtc-props
 - bsc:mega-props-newmaninc-rivers-and-ponds
 - nam:controller
+- ndex:simrabbit123-mega-pack-vol01
+- ndex:simrabbit123-mega-pack-vol02
 
 group-to-github:
 - null-45: "0xC0000054"
