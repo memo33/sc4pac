@@ -136,7 +136,7 @@ packages:
   assets:
   - assetId: "sc4-legacy-ndex-associates-dependency-compilation"
     include:
-    - "/NDEX GD MEGA Pack Vol01.dat"
+    - "/NDEX kd5rax MEGA Pack vol01.dat"
 
 # ---
 - group: "ndex"
@@ -164,7 +164,7 @@ packages:
 
 # ---
 - group: "ndex"
-  name: "n747-mega-pack-vol02"
+  name: "n747-mega-pack-vol01"
   version: "1.0"
   subfolder: "100-props-textures"
   info:
