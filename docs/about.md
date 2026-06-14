@@ -13,8 +13,9 @@
 Files are downloaded directly from file exchange sites
 such as [Simtropolis](https://simtropolis.com/),
 [SC4Evermore](https://www.sc4evermore.com/),
-[ToutSimCities](https://www.toutsimcities.com/)
-and [Hide and Seek!](http://hide-inoki.com/).
+[ToutSimCities](https://www.toutsimcities.com/),
+[SimCityKurier (archived)](https://web.archive.org/web/20221001025018/http://simcityplaza.de/index.php/simcitykurier)
+and [Hide and Seek! (archived)](https://web.archive.org/web/20250918021345/http://hide-inoki.com/).
 
 There is also a [Simtropolis discussion thread](https://community.simtropolis.com/forums/topic/762677-sc4pac-lets-write-our-own-package-manager/)
 and a [Discord channel](https://discord.com/channels/383313438065033228/1176574445188550656) ![discord](_discord.svg).
@@ -33,12 +34,19 @@ and a [Discord channel](https://discord.com/channels/383313438065033228/11765744
   https://sc4evermore.github.io/sc4pac-channel/channel/
   ```
 
-- [**Zasco**'s sc4pac channel](https://github.com/Zasco/sc4pac-channel) ![github](_github.svg)
-  contains many additional packages not found in the default channel
+<!-- - [**Zasco**'s sc4pac channel](https://github.com/Zasco/sc4pac-channel) ![github](_github.svg) -->
+<!--   contains many additional packages not found in the default channel -->
 
 - [YAML editor for sc4pac](https://github.com/noah-severyn/YamlEditorForSc4pac) ![github](_github.svg)
   by **nos.17**
   for interactively creating metadata files
+
+- [sc4pac-actions](https://github.com/memo33/sc4pac-actions) ![github](_github.svg)
+  helper scripts for building metadata channels on GitHub
+
+- [Plugin Detector](https://community.simtropolis.com/forums/topic/764122-plugin-detector-for-sc4pac-development-thread/)
+  by **nos.17**:
+  work-in-progress of a tool for detecting manually installed files that can be installed with *sc4pac* instead
 
 
 ---

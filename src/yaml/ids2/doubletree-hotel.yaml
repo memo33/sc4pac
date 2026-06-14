@@ -1,6 +1,6 @@
 group: "ids2"
 name: "doubletree-hotel"
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: "300-commercial"
 dependencies:
 - "bsc:mega-props-cp-vol01"
@@ -29,12 +29,12 @@ info:
 
 ---
 assetId: "ids2-doubletree-hotel-mn"
-version: "1.0.0"
-lastModified: "2024-09-03T00:53:45Z"
-url: "https://community.simtropolis.com/files/file/36424-doubletree-hotel/?do=download&r=203084"
+version: "1.0.0-1"
+lastModified: "2026-05-31T12:53:26Z"
+url: "https://community.simtropolis.com/files/file/36424-doubletree-hotel/?do=download&r=214122"
 
 ---
 assetId: "ids2-doubletree-hotel-dn"
-version: "1.0.0"
-lastModified: "2024-09-03T00:53:45Z"
-url: "https://community.simtropolis.com/files/file/36424-doubletree-hotel/?do=download&r=203083"
+version: "1.0.0-1"
+lastModified: "2026-05-31T12:53:26Z"
+url: "https://community.simtropolis.com/files/file/36424-doubletree-hotel/?do=download&r=214121"

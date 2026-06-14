@@ -1,6 +1,6 @@
 group: "jasoncw"
 name: "pizza-ribs-sushi"
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: "300-commercial"
 variants:
 - variant: { nightmode: "standard" }
@@ -26,12 +26,12 @@ info:
 
 ---
 assetId: "jasoncw-pizza-ribs-sushi-mn"
-version: "1.0.0"
-lastModified: "2024-09-18T19:59:49Z"
-url: "https://community.simtropolis.com/files/file/36453-pizza-ribs-sushi/?do=download&r=203487"
+version: "1.0.0-1"
+lastModified: "2026-05-30T20:31:54Z"
+url: "https://community.simtropolis.com/files/file/36453-pizza-ribs-sushi/?do=download&r=213799"
 
 ---
 assetId: "jasoncw-pizza-ribs-sushi-dn"
-version: "1.0.0"
-lastModified: "2024-09-18T19:59:49Z"
-url: "https://community.simtropolis.com/files/file/36453-pizza-ribs-sushi/?do=download&r=203488"
+version: "1.0.0-1"
+lastModified: "2026-05-30T20:31:54Z"
+url: "https://community.simtropolis.com/files/file/36453-pizza-ribs-sushi/?do=download&r=213800"

@@ -26,8 +26,8 @@ assets:
 ---
 group: ceafus-88
 name: car-repairs-auto-parts-model
-version: "1.0"
-subfolder: 100-props-textures
+version: "1.0-1"
+subfolder: 110-resources
 info:
   summary: Ceafus' Car Repairs/Auto Parts model
   description: |-

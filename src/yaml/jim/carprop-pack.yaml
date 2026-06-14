@@ -5,9 +5,9 @@ subfolder: 100-props-textures
 info:
   summary: Jim Carprop Pack
   author: Jim
-  website: http://hide-inoki.com/bbs/archives/sc4_0860.html
+  website: https://web.archive.org/web/20251217131335/http://hide-inoki.com/bbs/archives/sc4_0860.html
   images:
-    - http://hide-inoki.com/bbs/archives/files/138.jpg
+    - https://web.archive.org/web/20210520091355if_/http://hide-inoki.com/bbs/archives/files/138.jpg
 assets:
   - assetId: hide-inoki-jim-carprop
 
@@ -15,6 +15,6 @@ assets:
 assetId: hide-inoki-jim-carprop
 version: "1.2-1"
 lastModified: "2012-11-11T23:17:00Z"
-url: http://hide-inoki.com/bbs/archives/files/1598.zip
+url: https://web.archive.org/web/20250501154323/http://hide-inoki.com/bbs/archives/files/1598.zip
 checksum:
   sha256: d1a4e2735436867e46b847a83266874fe4963517d88f147dc795bdb9b4862d1c

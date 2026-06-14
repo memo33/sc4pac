@@ -1,13 +1,14 @@
 group: "memo"
 name: "industrial-revolution-mod"
-version: "2.0.0"
+version: "2.0.0-1"
 subfolder: "400-industrial"
 
 variants:
-- variant: { CAM: "yes" }
+
+- variant: { memo:industrial-revolution-mod:enabled: "yes", CAM: "no" }
   assets:
   - assetId: "memo-industrial-revolution-mod"
-    include: [ "IRM-basepack-newIDs-CAM.dat" ]
+    include: [ "IRM-basepack-newIDs-noCAM.dat" ]
   dependencies: &deps
   - "bsc:no-maxis-i-d"
   - "bsc:no-maxis-i-m"
@@ -27,16 +28,28 @@ variants:
   - "ncd:rail-yard-and-spur-mega-pak-1"
   - "peg:mtp-super-pack"
 
-- variant: { CAM: "no" }
+- variant: { memo:industrial-revolution-mod:enabled: "yes", CAM: "yes" }
   assets:
   - assetId: "memo-industrial-revolution-mod"
-    include: [ "IRM-basepack-newIDs-noCAM.dat" ]
-  dependencies: *deps  # identical to CAM variant
+    include: [ "IRM-basepack-newIDs-CAM.dat" ]
+  dependencies: *deps  # identical to non-CAM variant
 
-variantDescriptions:
-  CAM:
-    "yes": "Choose this if you have installed the Colossus Addon Mod (CAM)."
-    "no": "Otherwise pick this Maxis-default option."
+- variant: { memo:industrial-revolution-mod:enabled: "no" }
+
+variantInfo:
+- variantId: "CAM"
+  description: "Choose whether you have installed the Colossus Addon Mod (CAM)."
+  values:
+  - value: "no"
+  - value: "yes"
+- variantId: "memo:industrial-revolution-mod:enabled"
+  description: |-
+    Choose whether to install content compatible with the Industrial Revolution Mod (IRM): `pkg=memo:industrial-revolution-mod`.
+  values:
+  - value: "no"
+    description: Maxis-default industrials
+  - value: "yes"
+    description: Industrial Revolution Mod (IRM)
 
 info:
   summary: "Alter the appearance of all Maxis industrial lots (IRM base pack)"

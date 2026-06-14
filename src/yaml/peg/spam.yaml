@@ -1,6 +1,6 @@
 group: peg
 name: spam
-version: "2.0"
+version: "2.0-1"
 subfolder: 150-mods
 # conflicting:  # not defined here as there's no conflict if CAM=no, so instead the conflict is defined in the CAM YAML file
 # - "cam:colossus-addon-mod"
@@ -29,6 +29,6 @@ assets:
 
 ---
 assetId: peg-simpeg-agricultural-mod-spam
-version: "2.0"
-lastModified: "2025-08-13T01:57:11Z"
-url: https://community.simtropolis.com/files/file/26080-simpeg-agricultural-mod-spam-legacy-version/?do=download
+version: "2.0-1"
+lastModified: "2026-06-03T00:38:16Z"
+url: https://community.simtropolis.com/files/file/26080-simpeg-agricultural-mod-spam-legacy-version/?do=download&r=214539  # "PEG_SPAM_FULL-MOD.zip"

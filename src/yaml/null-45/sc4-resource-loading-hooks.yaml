@@ -1,6 +1,6 @@
 group: "null-45"
 name: "sc4-resource-loading-hooks"
-version: "2.0.1"
+version: "2.0.1-1"
 subfolder: "150-mods"
 dependencies:
 - "config:sc4-edition-windows-digital"
@@ -21,7 +21,7 @@ info:
 
 ---
 assetId: "null-45-sc4-resource-loading-hooks"
-version: "2.0.1"
-lastModified: "2025-09-10T01:36:07Z"
+version: "2.0.1-1"
+lastModified: "2026-05-29T15:24:59Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/?do=download"
 url: "https://github.com/0xC0000054/sc4-resource-loading-hooks/releases/download/v2.0.1/SC4ResourceLoadingHooks.zip"

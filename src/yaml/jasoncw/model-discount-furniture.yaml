@@ -1,6 +1,6 @@
 group: "jasoncw"
 name: "model-discount-furniture"
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: "300-commercial"
 variants:
 - variant: { nightmode: "standard" }
@@ -25,12 +25,12 @@ info:
 
 ---
 assetId: "jasoncw-model-discount-furniture-mn"
-version: "1.0.0"
-lastModified: "2024-09-11T19:29:33Z"
-url: "https://community.simtropolis.com/files/file/36442-model-discount-furniture/?do=download&r=203385"
+version: "1.0.0-1"
+lastModified: "2026-05-30T20:26:27Z"
+url: "https://community.simtropolis.com/files/file/36442-model-discount-furniture/?do=download&r=213795"
 
 ---
 assetId: "jasoncw-model-discount-furniture-dn"
-version: "1.0.0"
-lastModified: "2024-09-11T19:29:33Z"
-url: "https://community.simtropolis.com/files/file/36442-model-discount-furniture/?do=download&r=203386"
+version: "1.0.0-1"
+lastModified: "2026-05-30T20:26:27Z"
+url: "https://community.simtropolis.com/files/file/36442-model-discount-furniture/?do=download&r=213796"

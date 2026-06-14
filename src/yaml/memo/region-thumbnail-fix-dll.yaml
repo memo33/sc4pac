@@ -20,11 +20,11 @@ info:
   author: "memo"
   website: "https://community.simtropolis.com/files/file/36396-region-thumbnail-fix-dll/"
   images:
-  - "https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.jpeg.147e3ee01bff54be8999236ff119a78b.jpeg"
+  - "https://www.simtropolis.com/objects/screens/monthly_2026_05/before-after.jpeg.46e3fc0929f4582f10d75b8b55824233.jpeg"
 
 ---
 assetId: "memo-region-thumbnail-fix-dll"
-version: "1.0.0-1"
-lastModified: "2024-08-17T10:12:54Z"
+version: "1.0.0-2"
+lastModified: "2026-05-29T16:07:52Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36396-region-thumbnail-fix-dll/?do=download"
 url: "https://github.com/memo33/sc4-thumbnail-fix-dll/releases/download/1.0.0/thumbnail-fix-dll-1.0.0.zip"

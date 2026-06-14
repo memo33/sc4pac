@@ -41,8 +41,8 @@ variants:
 ---
 group: ceafus-88
 name: burger-king-models
-version: "2.0"
-subfolder: 100-props-textures
+version: "2.0-1"
+subfolder: 110-resources
 info:
   summary: Burger King Models
   description: |-

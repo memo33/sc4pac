@@ -11,10 +11,13 @@ variants:
   conflicting:
   - "cam:colossus-addon-mod"
 
-variantDescriptions:
-  toroca:industry-quadrupler:capacity:
-    "standard": "Maxis-default capacity"
-    "quadrupled": "4x capacity for Maxis industrial buildings"
+variantInfo:
+- variantId: toroca:industry-quadrupler:capacity
+  values:
+  - value: "standard"
+    description: "Maxis-default capacity"
+  - value: "quadrupled"
+    description: "4x capacity for Maxis industrial buildings"
 
 info:
   summary: "Quadruple the number of jobs of Maxis industrial buildings"

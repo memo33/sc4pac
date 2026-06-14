@@ -1,0 +1,32 @@
+group: "wannglondon"
+name: "southern-europe-church-pack"
+version: "1"
+subfolder: "650-religion"
+dependencies:
+  - "agc:street-props"
+info:
+  summary: "Four churches/cathedrals inspired by those found in Valletta, Rome, and Paris"
+  website: "https://community.simtropolis.com/files/file/36896-southern-europe-church-pack/"
+  description: |-
+    A pack of four churches/cathedrals inspired by those found in Valletta, Rome, and Paris, featuring a Mediterranean architectural style.
+
+    These buildings are offered as museums and libraries in-game under the education menu.
+  author: "WannGLondon"
+  images:
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_06/1.jpg.a72ce384b4796135d269a2d9686bf661.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_06/2.jpg.2bf6fa9d0822c85e3c7d9d992b64ca0f.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_06/3.jpg.88984fa1566d6e01052c1ba8febdafaf.jpg"
+    - "https://www.simtropolis.com/objects/screens/monthly_2025_06/4.jpg.2a399699e1352761982254d951714df1.jpg"
+assets:
+  - assetId: "southern-europe-church-pack"
+variants:
+  - variant: { nightmode: "standard" }  # asset contains DN only
+  - variant: { nightmode: "dark" }
+    dependencies:
+      - simfox:day-and-nite-mod
+
+---
+assetId: "southern-europe-church-pack"
+version: "1"
+lastModified: "2025-06-03T16:54:03Z"
+url: "https://community.simtropolis.com/files/file/36896-southern-europe-church-pack/?do=download"

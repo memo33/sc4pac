@@ -26,8 +26,8 @@ assets:
 ---
 group: wmp
 name: shoreline-county-bridges-props
-version: "2.0"
-subfolder: 100-props-textures
+version: "2.0-1"
+subfolder: 110-resources
 info:
   summary: The Bridges of Shoreline County props
   author: "DocRorlach, WMP team, xxdita, Tyberius06"

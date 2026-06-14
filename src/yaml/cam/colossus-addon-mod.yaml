@@ -1,19 +1,19 @@
 assetId: "cam-colossus-addon-mod"
-version: "3.0.0"
-lastModified: "2025-08-13T18:44:13-07:00"
+version: "3.1.1"
+lastModified: "2026-06-08T10:27:17-07:00"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:colossus-addon-mod"
 
 ---
 group: "cam"
 name: "colossus-addon-mod"
-version: "3.0.0"
+version: "3.1.1"
 subfolder: "050-load-first"
 
 variants:
 - variant: { CAM: "no" }
 - variant: { CAM: "yes", cam:colossus-addon-mod:version: "current" }
   dependencies:
-  - "cam:colossus-addon-mod-core"
+  - "cam:sc4-system-integration-module"
   - "cam:ordinances"
   - "heinbloed4711:hi-tech-missing-high-wealth-jobs"
   assets:
@@ -95,4 +95,4 @@ info:
    - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/51-colossus-addon-mod-cam-controller"
    - "https://community.simtropolis.com/files/file/30956-colossus-addon-mod-cam-controller/"
   images:
-   - https://www.sc4evermore.com/images/jdownloads/screenshots/CAM%20Logo.png
+   - https://www.sc4evermore.com/images/jdownloads/screenshots/6a25668018819_CAMController.png.b664ed87e620971679c990943b076d23.png

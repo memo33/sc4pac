@@ -11,6 +11,7 @@ assets:
     sha256: F8C027294D234C0BB8F93D3D234CD5980081ECFD2208DFA42AB9A29EC36AD6FE
   - include: "/SC4LegalizeGamblingUpgrade.ini"
     sha256: 0955B4C8A79A9C20C1D463105CB9E5AFA462E7F931E8C28B7F2AA19E5B6737B0
+    isIni: true
 
 info:
   summary: "A DLL Plugin that alters the Legalize Gambling ordinance so that its income scales with the city's residential population"
@@ -25,12 +26,6 @@ info:
     This mod ignores the ordinance Exemplar and only uses the LTEXT files from the built-in ordinance.
 
     See the documentation on how to configure the plugin.
-  warning: |-
-    This DLL plugin comes with an INI configuration file:
-
-    * `SC4LegalizeGamblingUpgrade.ini`
-
-    To complete the installation, copy this file from the package subfolder into the root directory of your Plugins folder and edit the file to set your preferences.
   author: "Null 45"
   website: "https://community.simtropolis.com/files/file/35889-legalize-gambling-ordinance-upgrade/"
   images:
