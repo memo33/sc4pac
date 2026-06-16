@@ -1,6 +1,6 @@
 group: "wannglondon"
 name: "san-francisco-buildings-1"
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: "200-residential"
 assets:
 - assetId: "wannglondon-san-francisco-buildings-1"
@@ -21,6 +21,6 @@ info:
 
 ---
 assetId: "wannglondon-san-francisco-buildings-1"
-version: "1.0.0"
-lastModified: "2024-08-09T16:37:54Z"
+version: "1.0.0-1"
+lastModified: "2026-06-13T05:08:00Z"
 url: "https://community.simtropolis.com/files/file/36385-san-francisco-buildings-1/?do=download"

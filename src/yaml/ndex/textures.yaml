@@ -1,6 +1,6 @@
 group: "ndex"
 name: "textures-vol1"
-version: "3"
+version: "3-1"
 subfolder: "100-props-textures"
 assets:
 - assetId: "ndex-texture-set-volume-1"
@@ -15,6 +15,6 @@ info:
 
 ---
 assetId: "ndex-texture-set-volume-1"
-version: "3"
-lastModified: "2025-05-06T10:02:38Z"
+version: "3-1"
+lastModified: "2026-06-14T15:06:58Z"
 url: "https://community.simtropolis.com/files/file/11617-ndex-texture-set-volume-1/?do=download"

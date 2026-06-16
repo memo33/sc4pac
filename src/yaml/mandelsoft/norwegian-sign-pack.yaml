@@ -1,6 +1,6 @@
 group: mandelsoft
 name: norwegian-sign-pack
-version: "2.0"
+version: "2.0-1"
 subfolder: 700-transit
 info:
   summary: Norwegian Sign Pack
@@ -20,6 +20,6 @@ assets:
 
 ---
 assetId: mandelsoft-norwegian-sign-pack
-version: "2.0"
-lastModified: "2024-09-04T00:50:33Z"
+version: "2.0-1"
+lastModified: "2026-06-15T01:04:18Z"
 url: https://community.simtropolis.com/files/file/24182-sc4dot-norwegian-sign-pack/?do=download

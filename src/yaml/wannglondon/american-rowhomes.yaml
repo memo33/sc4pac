@@ -1,6 +1,6 @@
 group: "wannglondon"
 name: "american-rowhomes-1"
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: "200-residential"
 assets:
 - assetId: "wannglondon-american-rowhomes-1"
@@ -24,6 +24,6 @@ info:
 
 ---
 assetId: "wannglondon-american-rowhomes-1"
-version: "1.0.0"
-lastModified: "2024-10-15T12:56:56Z"
+version: "1.0.0-1"
+lastModified: "2026-06-13T05:04:49Z"
 url: "https://community.simtropolis.com/files/file/36505-american-rowhomes-pack-1/?do=download"

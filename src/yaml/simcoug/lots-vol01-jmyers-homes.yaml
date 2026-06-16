@@ -1,6 +1,6 @@
 group: "simcoug"
 name: "lots-vol01-jmyers-homes"
-version: "2.0-1"
+version: "2.0-2"
 subfolder: "200-residential"
 dependencies:
 - "jmyers2043:homes-pack"
@@ -27,6 +27,6 @@ info:
 
 ---
 assetId: "simcoug-lots-vol01-of-jmyers-homes-vol01"
-version: "2.0-1"
-lastModified: "2026-06-05T17:44:17Z"
-url: "https://community.simtropolis.com/files/file/28122-simcoug-lots-vol01-of-jmyers-homes-vol01/?do=download&r=215345"
+version: "2.0-2"
+lastModified: "2026-06-13T06:03:22Z"
+url: "https://community.simtropolis.com/files/file/28122-simcoug-lots-vol01-of-jmyers-homes-vol01/?do=download"

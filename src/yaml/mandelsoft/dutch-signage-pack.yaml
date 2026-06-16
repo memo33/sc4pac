@@ -1,6 +1,6 @@
 group: mandelsoft
 name: dutch-signage-pack
-version: "2.0"
+version: "2.0-1"
 subfolder: 700-transit
 info:
   summary: ITC Dutch Signage Pack 01
@@ -19,6 +19,6 @@ assets:
 
 ---
 assetId: mandelsoft-itc-dutch-signage-pack-01
-version: "2.0"
-lastModified: "2024-09-05T19:33:47Z"
+version: "2.0-1"
+lastModified: "2026-06-15T01:21:49Z"
 url: https://community.simtropolis.com/files/file/21780-itc-dutch-signage-pack-01/?do=download

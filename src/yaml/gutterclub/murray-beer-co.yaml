@@ -1,6 +1,6 @@
 group: "gutterclub"
 name: "murray-beer-co"
-version: "1.0.0"
+version: "1.0.0-1"
 subfolder: "300-commercial"
 assets:
 - assetId: "gutterclub-murray-beer-co"
@@ -19,6 +19,6 @@ info:
 
 ---
 assetId: "gutterclub-murray-beer-co"
-version: "1.0.0"
-lastModified: "2024-09-10T00:30:08Z"
+version: "1.0.0-1"
+lastModified: "2026-06-14T21:44:51Z"
 url: "https://community.simtropolis.com/files/file/36439-murray-beer-co/?do=download"
