@@ -10,7 +10,7 @@ jobs:
     uses: memo33/sc4pac-actions/.github/workflows/sc4pac-channel-updates.yaml@main
     with:
       path: src/yaml
-      api: sc4e  # sc4e,stex
+      api: ${{ vars.AUTO_UPDATE_APIS }}  # sc4e,stex
       deploy-repository: memo33/sc4pac
     secrets:
       stex-api-key: ${{ secrets.STEX_API_KEY }}
