@@ -30,7 +30,7 @@ lastModified: "2023-12-08T23:54:20Z"
 ### agc monuments props
 group: "agc"
 name: "monuments-props"
-version: "7.0.0-1"
+version: "8"
 subfolder: "100-props-textures"
 info:
   summary: "Monument props made by Barroco Hispano"
@@ -53,8 +53,8 @@ variants:
 ---
 url: "https://community.simtropolis.com/files/file/35941-agc-monuments-dlc/?do=download"
 assetId: "agc-monuments-props-dn"
-version: "7.0.0-2"
-lastModified: "2026-06-14T19:32:21Z"
+version: "8"
+lastModified: "2026-06-19T19:10:51Z"
 
 
 ---
