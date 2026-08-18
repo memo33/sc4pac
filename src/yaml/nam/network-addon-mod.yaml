@@ -18,34 +18,35 @@
 
 
 assetId: nam-gh
-version: "49rev1"
-lastModified: "2025-03-04T21:42:48Z"
+version: "50"
+lastModified: "2026-08-18T18:55:35Z"
 nonPersistentUrl: https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-cross-platform/?do=download
-url: https://github.com/NAMTeam/Network-Addon-Mod/releases/download/49_rev1/NetworkAddonMod_Setup_Version49_rev1.zip
+url: https://github.com/NAMTeam/Network-Addon-Mod/releases/download/50/NetworkAddonMod_Setup_Version50.zip
 checksum:
-  sha256: "7db5509389b20122ee4e0b81b0c12ff0b941a8711a2c7dcdb5e631317b70009d"
+  sha256: 1dfd10ec03b5767bcca71201e1a99dc70a457273612afd818b90910a570fdcb9
 
 ---
-assetId: nam-patches
-version: "50-beta.1"
-lastModified: "2026-01-10T20:41:20Z"
-url: https://github.com/NAMTeam/Network-Addon-Mod/releases/download/50-beta.1/NAM_patches_50-beta.1.zip
+assetId: nam49-gh
+version: "49rev1"
+lastModified: "2025-03-04T21:42:48Z"
+# nonPersistentUrl: https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-cross-platform/?do=download
+url: https://github.com/NAMTeam/Network-Addon-Mod/releases/download/49_rev1/NetworkAddonMod_Setup_Version49_rev1.zip
 checksum:
-  sha256: 25c0e8bd86d93f36496e84163c757aab0d0ef7ecf40fbd1defc2ae41b1ab1908
+  sha256: 7db5509389b20122ee4e0b81b0c12ff0b941a8711a2c7dcdb5e631317b70009d
 
 ---
 assetId: nam-dll
-version: "1.3.0"
-lastModified: "2026-01-10T20:30:37Z"
-url: https://github.com/NAMTeam/nam-dll/releases/download/1.3.0/NAM-dll-1.3.0.zip
+version: "1.3.1"
+lastModified: "2026-08-08T10:57:52Z"
+url: https://github.com/NAMTeam/nam-dll/releases/download/1.3.1/NAM-dll-1.3.1.zip
 checksum:
-  sha256: a9d3b2af5ab2d43d01ab624b60b245f86ef18346db229775dbe6b2f186e3e32c
+  sha256: c97970b58087ade91fb5ed20111bcd508f22a327defb266e92a661243b35b033
 
 ---
 packages:
 - group: nam
   name: network-addon-mod
-  version: "49,50-beta.1"
+  version: &version "50,49"
   subfolder: 770-network-addon-mod/1-core
   dependencies:
     - nam:network-addon-mod-core
@@ -61,6 +62,9 @@ packages:
     - nam:one-way-arrows               # optional
     - nam:maxis-transit-lots           # optional
     - nam:data-views                   # optional
+  variants:
+    - variant: { nam:network-addon-mod:version: current }  # empty variant to silence linter
+    - variant: { nam:network-addon-mod:version: legacy }   # empty variant to silence linter
 
   info:
     summary: "Install the full feature set of the NAM: a myriad of new transport network items and transit-related fixes"
@@ -83,11 +87,22 @@ packages:
       - https://github.com/NAMTeam/Network-Addon-Mod/releases
     images:
       - https://www.sc4nam.com/20yearsSC4.jpg
+  variantInfo:
+    - variantId: nam:network-addon-mod:version
+      description: Choose the NAM version to install.
+      values:
+        - value: current
+          default: true
+          description: |-
+            Install NAM 50 or newer. This NAM version depends on DLL features that require the *Windows* digital edition of the game.
+        - value: legacy
+          description: |-
+            Install NAM 49, the last legacy release that does not require DLLs. Select this option on *macOS*.
 
 # ---
 - group: nam
   name: network-addon-mod-core
-  version: &version "49"
+  version: *version
   subfolder: 770-network-addon-mod/1-core
   info:
     summary: Base content of the NAM excluding optional components
@@ -123,55 +138,66 @@ packages:
     - nam:real-railway
     - nam:textures
 
-  assets:
-    - assetId: nam-gh
-      include:
-        - "/installation/"
-      exclude:
-          # List files below that are contained in other NAM packages.
-          # core:
-        - "NAM Controller_(?:RHD|LHD)"                               # nam:controller
-        - "Automata Controller#?/"                                   # nam:automata-controller
-        - "Traffic Simulator#?/"                                     # nam:traffic-simulator
-        - &mhwPath "Network Features/Maxis Highway#?/"               # nam:maxis-highway
-        - &rrwPath "Network Features/.*z_Rail \\(RealRailway\\)"     # nam:real-railway
-        - &texPath "Texture and Drive Side Support/"                 # nam:textures
-          # optional:
-        - &samPath "Network Features/.*Street Addon Mod"             # nam:street-addon-mod
-        - &nwmPath "Network Features/.*Network Widening Mod"         # nam:network-widening-mod
-        - &rhwPath "Network Features/RealHighway"                    # nam:real-highway
-        - &rewPath "Network Features/.*/RealExpressway/"             # nam:real-expressway
-        - &glrPath "Network Features/.*/Ground Light Rail"           # nam:ground-light-rail
-        - &hrwPath "Network Features/Hybrid Railway"                 # nam:hybrid-railway
-        - &hsrPath "Network Features/.*High Speed Rail Project"      # nam:high-speed-rail
-        - &canPath "Network Features/Water Transport"                # nam:canals
-        - &bridgePath "/@57 Bridges/"                                # nam:bridges
-        - &arrowPath "Network Features/.*One-Way Road Arrow Plugins" # nam:one-way-arrows
-        - "Maxis Transit Lots#?/"                                    # nam:maxis-transit-lots
-        - &dataPath "DataView Options#?/"                            # nam:data-views
-          # external:
-        - &stationsPath "Additional Transit Stations/"               # nam:additional-transit-stations
-        - "RRW Tunnel and Slope Parameters"                          # nam-team:tunnel-and-slope-mod
-          # Exclude non-default options.
-        - "/!"                                                       # deselected checkbox like legacy content
-        - "/(@\\d+)?-"                                               # deselected radio button (possibly ordered)
-        - &exe "(?:4gb_patch\\.exe|\\.txt|\\.png|\\.pdn)$"           # exe, txt and other files
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      dependencies:
+        - nam:dll
+      assets:
+        - &coreAsset
+          assetId: nam-gh
+          include:
+            - "/installation/"
+          exclude:
+              # List files below that are contained in other NAM packages.
+              # core:
+            - "NAM Controller_(?:RHD|LHD)"                               # nam:controller
+            - "Automata Controller#?/"                                   # nam:automata-controller
+            - "Traffic Simulator#?/"                                     # nam:traffic-simulator
+            - &mhwPath "Network Features/Maxis Highway#?/"               # nam:maxis-highway
+            - &rrwPath "Network Features/.*z_Rail \\(RealRailway\\)"     # nam:real-railway
+            - &texPath "Texture and Drive Side Support/"                 # nam:textures
+              # optional:
+            - &samPath "Network Features/.*Street Addon Mod"             # nam:street-addon-mod
+            - &nwmPath "Network Features/.*Network Widening Mod"         # nam:network-widening-mod
+            - &rhwPath "Network Features/RealHighway"                    # nam:real-highway
+            - &rewPath "Network Features/.*/RealExpressway/"             # nam:real-expressway
+            - &glrPath "Network Features/.*/Ground Light Rail"           # nam:ground-light-rail
+            - &hrwPath "Network Features/Hybrid Railway"                 # nam:hybrid-railway
+            - &hsrPath "Network Features/.*High Speed Rail Project"      # nam:high-speed-rail
+            - &canPath "Network Features/Water Transport"                # nam:canals
+            - &bridgePath "/@57 Bridges/"                                # nam:bridges
+            - &arrowPath "Network Features/.*One-Way Road Arrow Plugins" # nam:one-way-arrows
+            - "Maxis Transit Lots#?/"                                    # nam:maxis-transit-lots
+            - &dataPath "DataView Options#?/"                            # nam:data-views
+              # external:
+            - &stationsPath "Additional Transit Stations/"               # nam:additional-transit-stations
+              # Exclude non-default options.
+            - "/!"                                                       # deselected checkbox like legacy content
+            - "/(@\\d+)?-"                                               # deselected radio button (possibly ordered)
+            - &exe "(?:4gb_patch\\.exe|\\.txt|\\.png|\\.pdn)$"           # exe, txt and other files
+          withConditions:
+            - ifVariant: { nam:network-addon-mod:version: legacy }
+              exclude:
+                - "RRW Tunnel and Slope Parameters"                      # removed since NAM 50 in favor of nam-team:tunnel-and-slope-mod
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *coreAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
   name: controller
-  version: "49,50-beta.1-1"
-  # subfolder: 770-network-addon-mod/1-core
-  subfolder: 770-network-addon-mod/9-patches  # loading the controller last is ok, since Avenue Turning Lanes are not on sc4pac (which contains the only other RUL file)
+  version: *version
+  subfolder: 770-network-addon-mod/1-core
   info:
     summary: The NAM controller contains the NAM's internal network logic
-    warning: |-
-      If you chose the RHW-variant of the NAM controller,
+    description: |-
+      If you use the legacy NAM version 49 on Windows/Linux and choose the RHW-variant of the NAM controller,
       you *must* apply the 4 GB patch to avoid crashes when loading a city tile.
 
       More information at https://www.sc4nam.com/docs/getting-started/installation/#4gb-patch
 
-      You can ignore this warning if you chose not to install the RHW.
+      Since NAM 50, the 4 GB patch is not required anymore.
     website: https://www.sc4nam.com/docs/getting-started/installation/#4gb-patch
   variantInfo:
     - variantId: driveside
@@ -180,69 +206,39 @@ packages:
 
         Note that this setting does not allow changing the drive side of your game.
         Instead, it must match the drive side your game was installed with (for example, `left` for UK or Japanese games, `right` for US).
-    - variantId: nam:controller:nam50-beta
-      description: |-
-        Select whether to enable the *Beta series* of the upcoming NAM version.
-      values:
-        - value: "disabled"
-          description: NAM 49
-          default: true
-        - value: "enabled"
-          description: NAM 50-beta (This includes several DLL-based improvements introduced by `pkg=nam:dll`.)
 
   dependencies:
     - nam:network-addon-mod-core  # this package is a mandatory part of NAM
-    - config:sc4-edition
   variants:
-    - variant: { config:sc4-edition:edition: "Windows-digital", nam:controller:nam50-beta: "disabled", nam:real-highway:enabled: "no" }
-      assets: &assetsControllerNoRHW
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
         - assetId: nam-gh
-          include: ["NAM Controller_(?:RHD|LHD)_LowRAM_NoRHW/"]
+          include: ["NAM Controller_(?:RHD|LHD)/"]
           exclude: [*exe]
           withConditions: &drivesideConditions
             - ifVariant: { driveside: "right" }
-              exclude: ["_LHD_"]
+              exclude: ["_LHD"]
             - ifVariant: { driveside: "left" }
-              exclude: ["_RHD_"]
-    - variant: { config:sc4-edition:edition: "Windows-digital", nam:controller:nam50-beta: "disabled", nam:real-highway:enabled: "yes" }
+              exclude: ["_RHD"]
+    - variant: { nam:network-addon-mod:version: legacy, nam:real-highway:enabled: "no" }
+      assets:
+        - assetId: nam49-gh
+          include: ["NAM Controller_(?:RHD|LHD)_LowRAM_NoRHW/"]
+          exclude: [*exe]
+          withConditions: *drivesideConditions
+    - variant: { nam:network-addon-mod:version: legacy, nam:real-highway:enabled: "yes" }
       dependencies:
         - nam:real-highway
-      assets: &assetsControllerRHW
-        - assetId: nam-gh
+      assets:
+        - assetId: nam49-gh
           include: ["NAM Controller_(?:RHD|LHD)_4GB_Full/"]
           exclude: [*exe]
           withConditions: *drivesideConditions
-    - variant: { config:sc4-edition:edition: "Windows-digital", nam:controller:nam50-beta: "enabled" }
-      dependencies:
-        - nam:dll
-      assets:
-        - assetId: nam-patches
-          withConditions:
-            - ifVariant: { driveside: "right" }
-              exclude: ["_LHD[._]"]
-            - ifVariant: { driveside: "left" }
-              exclude: ["_RHD[._]"]
-            - ifVariant: { roadstyle: "US" }
-              exclude: ["[/._]EU[._]"]
-            - ifVariant: { roadstyle: "EU" }
-              exclude: ["[/._]US[._]"]
-    - variant: { config:sc4-edition:edition: "Windows-disc", nam:real-highway:enabled: "no" }
-      assets: *assetsControllerNoRHW
-    - variant: { config:sc4-edition:edition: "Windows-disc", nam:real-highway:enabled: "yes" }
-      dependencies:
-        - nam:real-highway
-      assets: *assetsControllerRHW
-    - variant: { config:sc4-edition:edition: "macOS", nam:real-highway:enabled: "no" }
-      assets: *assetsControllerNoRHW
-    - variant: { config:sc4-edition:edition: "macOS", nam:real-highway:enabled: "yes" }
-      dependencies:
-        - nam:real-highway
-      assets: *assetsControllerRHW
 
 # ---
 - group: nam
   name: textures
-  version: "49-1"  # *version
+  version: *version
   subfolder: 770-network-addon-mod/8-textures
   info:
     summary: NAM textures and drive side support
@@ -273,39 +269,37 @@ packages:
 
   dependencies:
     - nam:controller  # this package is a mandatory part of NAM
-  assets:
-    - assetId: nam-gh
-      include:
-        - *texPath
-      exclude:
-        - &deselectedNumberedCheck "/@\\d!"  # deselected numbered checkbox
-        - *exe
-      withConditions:
-        - ifVariant: { driveside: "right" }
-          exclude: ["/@2[=-](?:US|EU)_LeftSide/"]
-        - ifVariant: { driveside: "left" }
-          exclude: ["/@1[=-](?:US|EU)_RightSide/"]
-        - ifVariant: { roadstyle: "US" }
-          exclude: ["/@1[=-]EU/"]
-        - ifVariant: { roadstyle: "EU" }
-          exclude: ["/@0[=-]US/"]
-        - ifVariant: { nightmode: "standard" }
-          exclude: ["Dark Nite"]
-        - ifVariant: { nightmode: "dark" }
-          exclude: ["Maxis Nite"]
-        - ifVariant: { nam:maxis-highway:style: "default", roadstyle: "EU" }  # currently, there aren't any US MHO files
-          exclude: ["Maxis Highway Override"]
-        - ifVariant: { nam:maxis-highway:style: "MHO", roadstyle: "EU" }
-          exclude: []  # no non-MHO files to exclude
-  variants:  # include files from outside the texture folder (for flat file structure)
-    - variant: { nam:maxis-highway:style: "default" }  # nothing
-    - variant: { nam:maxis-highway:style: "MHO" }
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
       assets:
-        - assetId: nam-gh
-          exclude:
-            - *exe
+        - &texAsset
+          assetId: nam-gh
           include:
-            - &mhoDbeCrosslinkPath "Maxis Highway Override.*/n_MHO_DBE.dat"  # NOTE patch for NAM-49 load order issue DBE vs MHO
+            - *texPath
+          exclude:
+            - &deselectedNumberedCheck "/@\\d!"  # deselected numbered checkbox
+            - *exe
+          withConditions:
+            - ifVariant: { driveside: "right" }
+              exclude: ["/@2[=-](?:US|EU)_LeftSide/"]
+            - ifVariant: { driveside: "left" }
+              exclude: ["/@1[=-](?:US|EU)_RightSide/"]
+            - ifVariant: { roadstyle: "US" }
+              exclude: ["/@1[=-]EU/"]
+            - ifVariant: { roadstyle: "EU" }
+              exclude: ["/@0[=-]US/"]
+            - ifVariant: { nightmode: "standard" }
+              exclude: ["Dark Nite"]
+            - ifVariant: { nightmode: "dark" }
+              exclude: ["Maxis Nite"]
+            - ifVariant: { nam:maxis-highway:style: "default", roadstyle: "EU" }  # currently, there aren't any US MHO files
+              exclude: ["Maxis Highway Override"]
+            - ifVariant: { nam:maxis-highway:style: "MHO", roadstyle: "EU" }
+              exclude: []  # no non-MHO files to exclude
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *texAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -323,23 +317,28 @@ packages:
       - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser3.jpg
       - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser4.jpg
       - https://www.sc4nam.com/docs/feature-guides/realhighway-mod/images/rhwteaser1.jpg
+  dependencies:
+    - nam:network-addon-mod-core
   variants:
-    - variant: { nam:real-highway:enabled: "no" }
-    - variant: { nam:real-highway:enabled: "yes" }
-      dependencies:
-        - nam:network-addon-mod-core
+    - variant: { nam:network-addon-mod:version: current }
       assets:
-        - assetId: nam-gh
+        - &rhwAsset
+          assetId: nam-gh
           include:
             - *rhwPath
           exclude:
             - &deselectedRadioCheck "/[-!]"  # deselected radio button or checkbox
             - *exe
+    - variant: { nam:network-addon-mod:version: legacy, nam:real-highway:enabled: "no" }
+    - variant: { nam:network-addon-mod:version: legacy, nam:real-highway:enabled: "yes" }
+      assets:
+        - <<: *rhwAsset
+          assetId: nam49-gh
 
   variantInfo:
     - variantId: nam:real-highway:enabled
       description: |-
-        Choose whether or not to install the Real Highway Mod (RHW).
+        Choose whether or not to install the Real Highway Mod (RHW) with NAM 49. (Starting with NAM 50, this option has no effect.)
       values:
         - value: "no"
           description: Requires less RAM and starting the game is faster.
@@ -352,7 +351,7 @@ packages:
 # ---
 - group: nam
   name: maxis-highway
-  version: "49-1"  # *version
+  version: *version
   subfolder: 770-network-addon-mod/2-networks
   info:
     summary: Features for Maxis highways, including additional interchanges
@@ -384,15 +383,22 @@ packages:
 
   dependencies:
     - nam:controller
-  assets:
-    - assetId: nam-gh
-      include: [*mhwPath]
-      exclude: [*exe]
-      withConditions:
-        - ifVariant: { nam:maxis-highway:style: "default" }
-          exclude: ["Maxis Highway Override"]
-        - ifVariant: { nam:maxis-highway:style: "MHO" }
-          exclude: ["Default Style", *mhoDbeCrosslinkPath]
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &mhwAsset
+          assetId: nam-gh
+          include: [*mhwPath]
+          exclude: [*exe]
+          withConditions:
+            - ifVariant: { nam:maxis-highway:style: "default" }
+              exclude: ["Maxis Highway Override"]
+            - ifVariant: { nam:maxis-highway:style: "MHO" }
+              exclude: ["Default Style"]
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *mhwAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -411,12 +417,19 @@ packages:
   dependencies:
     - nam:network-addon-mod-core
     - nam:network-widening-mod
-  assets:
-    - assetId: nam-gh
-      include:
-        - *rewPath
-      exclude:
-        - *exe
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &rewAsset
+          assetId: nam-gh
+          include:
+            - *rewPath
+          exclude:
+            - *exe
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *rewAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -439,12 +452,19 @@ packages:
       - https://www.sc4nam.com/docs/feature-guides/network-widening-mod/images/nwmteaser4.jpg
   dependencies:
     - nam:network-addon-mod-core
-  assets:
-    - assetId: nam-gh
-      include:
-        - *nwmPath
-      exclude:
-        - *exe
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &nwmAsset
+          assetId: nam-gh
+          include:
+            - *nwmPath
+          exclude:
+            - *exe
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *nwmAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -465,12 +485,19 @@ packages:
       - https://www.sc4nam.com/docs/feature-guides/street-addon-mod/images/samteaser4.jpg
   dependencies:
     - nam:network-addon-mod-core
-  assets:
-    - assetId: nam-gh
-      include:
-        - *samPath
-      exclude:
-        - *exe
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &samAsset
+          assetId: nam-gh
+          include:
+            - *samPath
+          exclude:
+            - *exe
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *samAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -489,13 +516,20 @@ packages:
       - https://www.sc4nam.com/docs/feature-guides/light-rail-tram/images/tramteaser2.jpg
   dependencies:
     - nam:network-addon-mod-core
-  assets:
-    - assetId: nam-gh
-      include:
-        - *glrPath
-        - &glrURailPath "Network Features/.*GroundLightRailxURail"
-      exclude:
-        - *exe
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &glrAsset
+          assetId: nam-gh
+          include:
+            - *glrPath
+            - &glrURailPath "Network Features/.*GroundLightRailxURail"
+          exclude:
+            - *exe
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *glrAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -516,12 +550,19 @@ packages:
 
   dependencies:
     - nam:network-addon-mod-core
-  assets:
-    - assetId: nam-gh
-      include:
-        - *hrwPath
-      exclude:
-        - *exe
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &hrwAsset
+          assetId: nam-gh
+          include:
+            - *hrwPath
+          exclude:
+            - *exe
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *hrwAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -539,12 +580,19 @@ packages:
 
   dependencies:
     - nam:network-addon-mod-core
-  assets:
-    - assetId: nam-gh
-      include:
-        - *hsrPath
-      exclude:
-        - *exe
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &hsrAsset
+          assetId: nam-gh
+          include:
+            - *hsrPath
+          exclude:
+            - *exe
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *hsrAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -573,21 +621,21 @@ packages:
   dependencies:
     - nam:network-addon-mod-core
   variants:
-    - variant: { nam:canals:style: "CAL" }
+    - variant: { nam:network-addon-mod:version: current }
       assets:
         - &canalAsset
           assetId: nam-gh
           include:
             - *canPath
-          exclude:
-            - "SimGoober Style"
-            - *exe
-    - variant: { nam:canals:style: "SG" }
+          withConditions:
+            - ifVariant: { nam:canals:style: "CAL" }
+              exclude: ["SimGoober Style", *exe]
+            - ifVariant: { nam:canals:style: "SG" }
+              exclude: ["Callagrafx Style", *exe]
+    - variant: { nam:network-addon-mod:version: legacy }
       assets:
         - <<: *canalAsset
-          exclude:
-            - "Callagrafx Style"
-            - *exe
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -606,13 +654,20 @@ packages:
 
   dependencies:
     - nam:controller  # this package is a mandatory part of NAM
-  assets:
-    - assetId: nam-gh
-      include:
-        - *rrwPath
-      exclude:
-        - *glrURailPath        # nam:ground-light-rail
-        - *exe
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &rrwAsset
+          assetId: nam-gh
+          include:
+            - *rrwPath
+          exclude:
+            - *glrURailPath        # nam:ground-light-rail
+            - *exe
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *rrwAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -641,25 +696,32 @@ packages:
 
   dependencies:
     - nam:network-addon-mod-core
-  assets:
-    - assetId: nam-gh
-      include:
-        - *arrowPath
-      exclude:
-        - *exe
-        - "RealExpressway_Arrow_Remover"
-      withConditions:
-        - ifVariant: { nam:one-way-arrows:style: "single" }
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &arrowAsset
+          assetId: nam-gh
+          include:
+            - *arrowPath
           exclude:
-            - &reduceArr "One-Way Road Arrow Reduction"
-            - &elimArr "One-Way Road Arrow Elimination"
-        - ifVariant: { nam:one-way-arrows:style: "reduce" }
-          exclude:
-            - *elimArr
-        - ifVariant: { nam:one-way-arrows:style: "eliminate" }
-          exclude:
-            - *reduceArr
-            - &singleArr "Single Arrows for One-Way Roads"
+            - *exe
+            - "RealExpressway_Arrow_Remover"
+          withConditions:
+            - ifVariant: { nam:one-way-arrows:style: "single" }
+              exclude:
+                - &reduceArr "One-Way Road Arrow Reduction"
+                - &elimArr "One-Way Road Arrow Elimination"
+            - ifVariant: { nam:one-way-arrows:style: "reduce" }
+              exclude:
+                - *elimArr
+            - ifVariant: { nam:one-way-arrows:style: "eliminate" }
+              exclude:
+                - *reduceArr
+                - &singleArr "Single Arrows for One-Way Roads"
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *arrowAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -675,12 +737,19 @@ packages:
 
   dependencies:
     - nam:network-addon-mod-core
-  assets:
-    - assetId: nam-gh
-      include:
-        - *dataPath
-      exclude:
-        - *exe
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &dataViewAsset
+          assetId: nam-gh
+          include:
+            - *dataPath
+          exclude:
+            - *exe
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *dataViewAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -692,12 +761,19 @@ packages:
     website: https://www.sc4nam.com/docs/feature-guides/stations/
   dependencies:
     - nam:network-addon-mod-core
-  assets:
-    - assetId: nam-gh
-      include:
-        - *stationsPath
-      exclude:
-        - *exe
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &stationsAsset
+          assetId: nam-gh
+          include:
+            - *stationsPath
+          exclude:
+            - *exe
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *stationsAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -724,20 +800,27 @@ packages:
           description: Highest capacity
 
   dependencies: []  # can be installed stand-alone
-  assets:
-    - assetId: nam-gh
-      exclude: [*exe]
-      withConditions:
-        - ifVariant: { nam:traffic-simulator:capacity: "classic" }
-          include: ["Traffic Simulator#?/.*[=-]Classic"]
-        - ifVariant: { nam:traffic-simulator:capacity: "low" }
-          include: ["Traffic Simulator#?/.*[=-]Low"]
-        - ifVariant: { nam:traffic-simulator:capacity: "medium" }
-          include: ["Traffic Simulator#?/.*[=-]Medium"]
-        - ifVariant: { nam:traffic-simulator:capacity: "high" }
-          include: ["Traffic Simulator#?/.*[=-]High"]
-        - ifVariant: { nam:traffic-simulator:capacity: "ultra" }
-          include: ["Traffic Simulator#?/.*[=-]Ultra"]
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &trafficSimAsset
+          assetId: nam-gh
+          exclude: [*exe]
+          withConditions:
+            - ifVariant: { nam:traffic-simulator:capacity: "classic" }
+              include: ["Traffic Simulator#?/.*[=-]Classic"]
+            - ifVariant: { nam:traffic-simulator:capacity: "low" }
+              include: ["Traffic Simulator#?/.*[=-]Low"]
+            - ifVariant: { nam:traffic-simulator:capacity: "medium" }
+              include: ["Traffic Simulator#?/.*[=-]Medium"]
+            - ifVariant: { nam:traffic-simulator:capacity: "high" }
+              include: ["Traffic Simulator#?/.*[=-]High"]
+            - ifVariant: { nam:traffic-simulator:capacity: "ultra" }
+              include: ["Traffic Simulator#?/.*[=-]Ultra"]
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *trafficSimAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -758,28 +841,35 @@ packages:
           default: true
 
   dependencies: []  # can be installed stand-alone
-  assets:
-    - assetId: nam-gh
-      exclude: [*exe]
-      withConditions:
-        - ifVariant: { nam:automata-controller:animation-style: "standard" }
-          include: ["Automata Controller#?/.*[=-]Standard/"]
-        - ifVariant: { nam:automata-controller:animation-style: "standard-24h" }
-          include: ["Automata Controller#?/.*[=-]Standard 24-Hour/"]
-        - ifVariant: { nam:automata-controller:animation-style: "standard-persistent" }
-          include: ["Automata Controller#?/.*[=-]Standard Persistent/"]
-        - ifVariant: { nam:automata-controller:animation-style: "standard-persistent-24h" }
-          include: ["Automata Controller#?/.*[=-]Standard Persistent 24-Hour/"]
-        - ifVariant: { nam:automata-controller:animation-style: "radical" }
-          include: ["Automata Controller#?/.*[=-]Radical/"]
-        - ifVariant: { nam:automata-controller:animation-style: "radical-24h" }
-          include: ["Automata Controller#?/.*[=-]Radical 24-Hour/"]
-        - ifVariant: { nam:automata-controller:animation-style: "radical-persistent" }
-          include: ["Automata Controller#?/.*[=-]Radical Persistent/"]
-        - ifVariant: { nam:automata-controller:animation-style: "radical-persistent-24h" }
-          include: ["Automata Controller#?/.*[=-]Radical Persistent 24-Hour/"]
-        - ifVariant: { nam:automata-controller:animation-style: "radical-persistent-24h-LB" }
-          include: ["Automata Controller#?/.*[=-]LB Radical Persistent 24-Hour/"]
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &acAsset
+          assetId: nam-gh
+          exclude: [*exe]
+          withConditions:
+            - ifVariant: { nam:automata-controller:animation-style: "standard" }
+              include: ["Automata Controller#?/.*[=-]Standard/"]
+            - ifVariant: { nam:automata-controller:animation-style: "standard-24h" }
+              include: ["Automata Controller#?/.*[=-]Standard 24-Hour/"]
+            - ifVariant: { nam:automata-controller:animation-style: "standard-persistent" }
+              include: ["Automata Controller#?/.*[=-]Standard Persistent/"]
+            - ifVariant: { nam:automata-controller:animation-style: "standard-persistent-24h" }
+              include: ["Automata Controller#?/.*[=-]Standard Persistent 24-Hour/"]
+            - ifVariant: { nam:automata-controller:animation-style: "radical" }
+              include: ["Automata Controller#?/.*[=-]Radical/"]
+            - ifVariant: { nam:automata-controller:animation-style: "radical-24h" }
+              include: ["Automata Controller#?/.*[=-]Radical 24-Hour/"]
+            - ifVariant: { nam:automata-controller:animation-style: "radical-persistent" }
+              include: ["Automata Controller#?/.*[=-]Radical Persistent/"]
+            - ifVariant: { nam:automata-controller:animation-style: "radical-persistent-24h" }
+              include: ["Automata Controller#?/.*[=-]Radical Persistent 24-Hour/"]
+            - ifVariant: { nam:automata-controller:animation-style: "radical-persistent-24h-LB" }
+              include: ["Automata Controller#?/.*[=-]LB Radical Persistent 24-Hour/"]
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *acAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -803,16 +893,23 @@ packages:
 
   dependencies:
     - nam:network-addon-mod-core
-  assets:
-    - assetId: nam-gh
-      exclude: [*exe]
-      include: ["Maxis Transit Lots#?/.*Tollbooths"]
-      withConditions:
-        - ifVariant: { nam:maxis-transit-lots:airport-capacity: "standard" }
-        - ifVariant: { nam:maxis-transit-lots:airport-capacity: "medium" }
-          include: ["Maxis Transit Lots#?/.*Airport Medium Capacity/"]
-        - ifVariant: { nam:maxis-transit-lots:airport-capacity: "high" }
-          include: ["Maxis Transit Lots#?/.*Airport Large Capacity/"]
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &maxisTransitLotsAsset
+          assetId: nam-gh
+          exclude: [*exe]
+          include: ["Maxis Transit Lots#?/.*Tollbooths"]
+          withConditions:
+            - ifVariant: { nam:maxis-transit-lots:airport-capacity: "standard" }
+            - ifVariant: { nam:maxis-transit-lots:airport-capacity: "medium" }
+              include: ["Maxis Transit Lots#?/.*Airport Medium Capacity/"]
+            - ifVariant: { nam:maxis-transit-lots:airport-capacity: "high" }
+              include: ["Maxis Transit Lots#?/.*Airport Large Capacity/"]
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *maxisTransitLotsAsset
+          assetId: nam49-gh
 
 # ---
 - group: nam
@@ -824,42 +921,48 @@ packages:
     website: https://www.sc4nam.com/docs/feature-guides/bridges/
   dependencies:
     - nam:network-addon-mod-core
-  assets:
-    - assetId: nam-gh
-      include:
-        - *bridgePath
-      exclude:
-        - *exe
-      withConditions:
-        - ifVariant: { nam:real-highway:enabled: "no" }
+  variants:
+    - variant: { nam:network-addon-mod:version: current }
+      assets:
+        - &bridgesAsset
+          assetId: nam-gh
+          include:
+            - *bridgePath
           exclude:
-            - "Real Highway/"
-            - "/RHW/"
-        - ifVariant: { nam:real-highway:enabled: "yes" }
-          exclude: []
+            - *exe
+    - variant: { nam:network-addon-mod:version: legacy }
+      assets:
+        - <<: *bridgesAsset
+          assetId: nam49-gh
+          withConditions:  # Since NAM 50, the variant nam:real-highway:enabled is not used anymore, so we define these conditions only for the legacy variant
+            - ifVariant: { nam:real-highway:enabled: "no" }
+              exclude:
+                - "Real Highway/"
+                - "/RHW/"
+            - ifVariant: { nam:real-highway:enabled: "yes" }
+              exclude: []
 
 # ---
 - group: nam
   name: dll
-  version: "1.3.0-1"
+  version: "1.3.1"
   subfolder: 770-network-addon-mod/9-patches
   dependencies:
     - config:sc4-edition-windows-digital
+  conflicting:
+    - config:sc4-edition-macos
+    - config:sc4-edition-windows-disc
   assets:
     - assetId: nam-dll
       withChecksum:
         - include: "/NAM\\.dll$"
-          sha256: 545ed28445aceb4fa4d2761b04568d270dea57227b1c0581b4078eb66ed56af3
+          sha256: c44497d590a44af77c593c1b502f013f71c2290a8bb5837412c8659329a9e37e
 
   info:
     summary: DLL-based fixes and features for the Network Addon Mod
     conflicts: Only compatible with game version 1.1.641, the Windows digital edition.
     description: |-
       This includes draggable diagonal Streets, Street tunnels, new keyboard shortcuts, and several other network-related improvements.
-
-      Some features require the `pkg=nam:controller` with `nam50-beta` enabled.
-
-      The Street tunnel functionality requires a compatible slope mod such as `pkg=nam-team:tunnel-and-slope-mod`.
     author: "NAM Team"
     images:
       - https://www.simtropolis.com/objects/attachments/monthly_2024_02/2024-02-17_10_31_20.jpeg.e90c711c597d9271dc314a6825f9237e.jpeg
