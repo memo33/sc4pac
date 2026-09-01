@@ -5,9 +5,16 @@ subfolder: "150-mods"
 
 variants:
 - variant: { nightmode: standard }
-- variant: { nightmode: dark }
+- variant: { nightmode: dark, nightmode-mod: simfox }
   assets:
   - assetId: "simfox-day-and-nite-modd"
+- variant: { nightmode: dark, nightmode-mod: gizmo }
+  dependencies: [ "gizmo:day-night-mod" ]
+
+variantDescriptions:
+  nightmode-mod:
+    simfox: "(recommended) Install Simfox's Day-and-Nite mod"
+    gizmo: "Install gizmo's Day-Night mod (very dark)"
 
 info:
   summary: "Alter the appearence of Day and Night view (DarkNite mod)"
