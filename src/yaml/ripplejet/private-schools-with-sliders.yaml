@@ -1,0 +1,45 @@
+group: ripplejet
+name: private-schools-with-sliders
+version: "1.0"
+subfolder: 150-mods
+info:
+  summary: Adds funding sliders to private schools
+  warning: Before installing this mod, you **MUST** bulldoze every private school you already have built in your cities. If you do not delete them before adding the mod, your sliders will not function and you will face a CTD (Crash To Desktop) if you try to delete them. Before uninstalling the mod, you **MUST** again bulldoze every private school with sliders you have built in your cities.
+  description: |-
+    The Private Schools have a fixed capacity of 1,000 and a fixed coverage radius of 512 m (32 tiles). When cities with private schools grow bigger, it is inevitable that they become crowded. Overcrowded schools lead to a lower education grade for the entire city, in the same way as the overcrowded opera house was known to cause.
+
+    This mod raises the capacity to 10,000 and the coverage radius to a maximum of 896 m (56 tiles). However, sliders can not be added without adding a monthly cost for both the school and the school buses. Since school buses are not very appropriate for a private school attracting rich sims, it was decided to replace the school buses with a limousine service.
+
+    - The school funding is set at 400 § for the maximum capacity of 10,000.
+    - The limousine funding is set at 140 § for the maximum radius of 56 tiles.
+
+    These figures may seem high at first, but it has to be noted that you will not need such a high funding until late in game, when your city is a metropolis. For a comparative figure, the cost is 60 § for the private school when capacity and radius is the same as the unchanged private schools:
+
+    - The school funding is 40 § for the capacity of 1,000.
+    - The limousine funding is 20 § for the radius of 32 tiles.
+
+    As for all civic buildings, the number of jobs offered by the private schools are depending on the funding. The maximum number of jobs offered has been increased to reflect the increased maximum student capacity:
+
+    - The original private schools offer 10 $ jobs, 19 $$ jobs and 4 $$$ jobs.
+    - The modded private schools offer 100 $ jobs, 190 $$ jobs and 40 $$$ jobs.
+
+    This mod does not change any other aspects of the private schools. They still provide exactly the same R$$$ CAP relief, Park Effect, School EQ Boost, etc. Water and Power Consumption are also unchanged.
+
+    ### Limousines
+    In order to visually simulate the limousines taking rich kids to school, the modded private schools are set up to spawn limousines. This is done by defining the private schools to function also as mayor houses. The only effect from this in game is that UDI mayor missions may start from the private schools, as well as from the mayor house.
+
+    ### Language Support
+    This mod comes included with LTEXT (Languauge Text) files for several different languages; English, French, German, Italian, Spanish, Dutch, Danish, Swedish, Norwegian, Finnish and Portuguese. The language is automatically selected based on the language of your installation of SimCity 4.
+  author: RippleJet
+  website: https://community.simtropolis.com/files/file/17566-private-schools-with-sliders/
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e0a0209c17654ffa1a342362dbd1da39-Private School.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e0a0209c17654ffa1a342362dbd1da39-Private School, Before and After.jpg
+assets:
+  - assetId: ripplejet-private-schools-with-sliders
+
+---
+assetId: ripplejet-private-schools-with-sliders
+version: "1.0"
+lastModified: "2007-01-01T15:24:29Z"
+url: https://community.simtropolis.com/files/file/17566-private-schools-with-sliders/?do=download&r=40933
