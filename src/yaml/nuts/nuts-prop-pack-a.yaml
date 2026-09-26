@@ -1,6 +1,6 @@
-group: "citynut"
-name: "nuts-props-pack-a"
-version: "2.0"
+group: "nuts"
+name: "props-pack-a"
+version: "3"
 subfolder: "100-props-textures"
 assets:
 - assetId: "nuts-props-pack-a-v2"
@@ -23,7 +23,17 @@ info:
   website: "https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/236-nuts-props-pack-a-v2"
 
 ---
+group: "citynut"
+name: "nuts-props-pack-a"
+version: "3"
+subfolder: "100-props-textures"
+dependencies:
+  - nuts:props-pack-a
+info:
+  summary: Superseded by `pkg=nuts:props-pack-a`
+
+---
 assetId: "nuts-props-pack-a-v2"
-version: "2.0"
-lastModified: "2025-03-21T14:25:42-07:00"
+version: "3"
+lastModified: "2026-08-18T18:40:52Z"
 url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=236:nuts-props-pack-a-v2"
