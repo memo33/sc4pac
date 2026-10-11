@@ -9,7 +9,7 @@ assets:
 - assetId: "memo-submenus-dll"
   withChecksum:
   - include: "/memo.submenus.dll"
-    sha256: fe0e42a1a35cb40415df650e13003d12dff5781c239e33dca500da43cf71f654
+    sha256: 2f4f8f4e3cc58b1db2fac99044fdff79ca98467e246df749e7aab022d578d382
 
 info:
   summary: "Adds more submenus to the game"
@@ -29,4 +29,4 @@ assetId: "memo-submenus-dll"
 version: "2.1.1"
 lastModified: "2026-10-11T08:26:13Z"
 nonPersistentUrl: "https://community.simtropolis.com/files/file/36142-submenus-dll/?do=download"
-url: "https://github.com/memo33/submenus-dll/releases/download/2.1.0/submenus-dll-2.1.0.zip"
+url: "https://github.com/memo33/submenus-dll/releases/download/2.1.1/submenus-dll-2.1.1.zip"
