@@ -3,7 +3,7 @@ name: sc4pac CI
 on:
   push:
     branches: [ "main", "action" ]
-  pull_request_target:
+  pull_request:
     branches: [ "main" ]
 
 # permissions:
@@ -11,17 +11,17 @@ on:
 
 jobs:
   channel:
-    uses: memo33/sc4pac-actions/.github/workflows/sc4pac-channel.yaml@main
+    uses: memo33/sc4pac-actions/.github/workflows/sc4pac-channel.yaml@v2
     with:
       path: src/yaml
       channel-label: Main
       deploy-repository: memo33/sc4pac
       sc4pac-tools-submodule: sc4pac-tools
-      use-stex-api: true
-      test-only-PRs: true
-    secrets:
-      stex-api-key: ${{ secrets.STEX_API_KEY }}
-      sc4pac-simtropolis-token: ${{ secrets.SC4PAC_SIMTROPOLIS_TOKEN }}
+      skip-build-website: false
+      skip-test: false
+      skip-url-check: false
+      skip-deploy: false
     permissions:
       pages: write                   # to deploy to GitHub Pages
       id-token: write                # to verify the deployment originates from an appropriate source
+      checks: write                  # to create placeholder checks for the subsequent sc4pac-test workflow

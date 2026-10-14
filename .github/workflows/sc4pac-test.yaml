@@ -1,0 +1,21 @@
+name: sc4pac-test
+
+on:
+  workflow_run:
+    workflows: ["sc4pac CI"]
+    types:
+      - completed
+
+jobs:
+  channel-proxy:
+    uses: memo33/sc4pac-actions/.github/workflows/sc4pac-privileged.yaml@v2
+    with:
+      test-only-PRs: true
+      skip-test: false
+      skip-url-check: false
+    secrets:
+      sc4pac-simtropolis-token: ${{ secrets.SC4PAC_SIMTROPOLIS_TOKEN }}
+      stex-api-key: ${{ secrets.STEX_API_KEY }}
+    permissions:
+      contents: read                 # to access previous workflow run
+      checks: write                  # to show the test results on the original commit
