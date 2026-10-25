@@ -1,6 +1,6 @@
 group: "scoty"
 name: "zoning-mod-maxis"
-version: "2.0.0"
+version: "2.6"
 subfolder: "150-mods"
 assets:
 - assetId: "scoty-zoning-mod"
@@ -21,6 +21,6 @@ info:
 
 ---
 assetId: "scoty-zoning-mod"
-version: "2.0.0"
-lastModified: "2022-02-16T18:01:38Z"
+version: "2.6"
+lastModified: "2026-10-24T15:05:25Z"
 url: "https://community.simtropolis.com/files/file/33590-scoty-zoning-mod/?do=download"
