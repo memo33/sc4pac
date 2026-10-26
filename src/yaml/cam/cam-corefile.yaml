@@ -70,13 +70,12 @@ dependencies:
 
 assets:
 - assetId: "cam-sc4-system-integration-module-dll"
-  include:
-  - "/SC4SIM\\.dll$"
-  - "/SC4SIM\\.ini$"
   withChecksum:
-  - include: "/SC4SIM\\.dll$"
+  - include: "/SC4SIM.dll"
     sha256: fde6834b7b3c3f4793b47b91e5788d6a67d2f35cebf0c282e0b86456246bbc67
-
+  - include: "/SC4SIM.ini"
+    sha256: BD10392CD3C5537D406AC1EB93166CEDE72BF013816242BA9ACFCFBB0A28D46E
+    isIni: true
 info:
   summary: "DLL of the SC4 System Integration Module (SIM)"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
