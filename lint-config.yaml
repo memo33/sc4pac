@@ -33,6 +33,8 @@ group-to-github:
 - memo: memo33
 - nam: NAMTeam
 - caspervg: caspervg
+- ulisse-wolf: UlisseWolf
+- cam: UlisseWolf  
 
 # The following is only appropriate when nobody can make unnoticed changes to
 # the metadata checksum fields.

@@ -1,13 +1,13 @@
 ---
 assetId: "cam-colossus-addon-mod-corefile"
-version: "4.0.1"
-lastModified: "2026-06-08T10:41:36-07:00"
-url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:sc4-system-integration-module-sim"
+version: "4.0.2"
+lastModified: "2026-10-26T03:22:26Z"
+url: "https://community.simtropolis.com/files/file/36978-sc4-system-integration-module-sim/?do=download"
 
 ---
 group: "cam"
 name: "colossus-addon-mod-core"
-version: "4.0.1"
+version: "4.0.2"
 subfolder: "050-load-first"
 dependencies: [ "cam:sc4-system-integration-module" ]
 info:
@@ -18,17 +18,19 @@ info:
 ---
 group: "cam"
 name: "sc4-system-integration-module"
-version: "4.0.1"
+version: "4.0.2"
 subfolder: "050-load-first"
 dependencies:
+- "cam:sc4-system-integration-module-dll" # SC4SIM.dll, replaces AdvancedWaterManagement.dll
+- "cam:maxis-buildings-blocker"
 - "null-45:custom-budget-departments-dll"
 - "null-45:query-tool-ui-extensions-dll"
 - "null-45:lua-extensions-dll"
-- "null-45:advanced-water-management-dll"
 - "null-45:legalize-gambling-ordinance-upgrade-dll"
 - "null-45:sc4-resource-loading-hooks" # for exemplar patching
-- "memo:transparent-texture-fix-dll" 
-- "memo:lua-sandbox-dll" 
+- "memo:transparent-texture-fix-dll"
+- "memo:lua-sandbox-dll"
+- "memo:submenus-dll"
 - "t-wrecks:maxis-prop-names-and-query-fix"
 - "scoty:zoning-mod-maxis"
 - "cyclone-boom:save-warning"
@@ -37,6 +39,8 @@ dependencies:
 
 assets:
 - assetId: "cam-colossus-addon-mod-corefile"
+  include:
+  - "/a_CAM/"
 
 info:
   summary: "SC4 System Integration Module (SIM) – the main dependency of CAM"
@@ -57,38 +61,52 @@ info:
   - https://www.sc4evermore.com/images/jdownloads/screenshots/SIM.png
 
 ---
-group: "null-45"
-name: "advanced-water-management-dll"
-version: "1.0"
+group: "cam"
+name: "sc4-system-integration-module-dll"
+version: "1.4.0"
 subfolder: "150-mods"
 dependencies:
-  - "cam:colossus-addon-mod-core"
   - "config:sc4-edition-windows-digital"
 
 assets:
-- assetId: "null-45-sc4-advanced-water-management"
+- assetId: "cam-sc4-system-integration-module-dll"
+  include:
+  - "/SC4SIM\\.dll$"
+  - "/SC4SIM\\.ini$"
   withChecksum:
-  - include: "/AdvancedWaterManagement.dll"
-    sha256: adffeb5ef07e4b17b5974d7a1563105017532cf89fabd6ec0de4cdaa76ac53e8
-
+  - include: "/SC4SIM\\.dll$"
+    sha256: fde6834b7b3c3f4793b47b91e5788d6a67d2f35cebf0c282e0b86456246bbc67
 
 info:
-  summary: "A DLL Mod that enables advanced water management, making Fresh Water and Salt Water available"
+  summary: "DLL of the SC4 System Integration Module (SIM)"
   conflicts: "Only compatible with game version 1.1.641, the Windows digital edition."
   description: |-
-    This mod alerts the player when a water pump set to use fresh water and salt water is not working, allowing them to receive a warning.
-    Also available is a cheat code `ScanPumps` that can be used as a debugging tool for modders.
+    The DLL of `pkg=cam:sc4-system-integration-module`, with its settings file SC4SIM.ini. It contains:
 
-    This mod cannot work without `pkg=cam:sc4-system-integration-module`.
+    - Advisor rewards: Lua functions to create rewards for the utilities, transportation, environment and health & education advisors.
+    - Advanced Water Management: the real efficiency of water buildings in the query dialog and tool tip, a monthly warning for fresh or salt water pumps that produce nothing, and the `ScanPumps` cheat. It replaces `pkg=null-45:advanced-water-management-dll`.
+    - Custom power poles: cable geometry and appearance from the pole exemplars, pole styles switched with Tab / Shift+Tab, fractional-angle power lines and the `keepwires` cheat.
+    - Power lines across empty zones and farm fields: the zone under each new pole is removed when the drag ends.
 
-  author: "CAM Team and Null 45"
+    The settings are in SC4SIM.ini, next to the DLL.
+
+  author: "CAM Team, Ulisse Wolf"
   websites:
-  - "https://www.sc4evermore.com/index.php/downloads/download/45-colossus-addon-mod-cam/414-colossus-addon-mod-core-files"
-  - "https://community.simtropolis.com/files/file/36978-colossus-addon-mod-core-files/"
+  - "https://github.com/UlisseWolf/SC4-System-Integration-Module"
+  - "https://community.simtropolis.com/files/file/36978-sc4-system-integration-module-sim/"
 
 ---
-assetId: "null-45-sc4-advanced-water-management"
-version: "1.0"
-lastModified: "2026-06-08T17:41:36Z"
-nonPersistentUrl: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=414:colossus-addon-mod-core-files"
-url: "https://github.com/0xC0000054/sc4-advanced-water-management/releases/download/v1.0/AdvancedWaterManagement.zip"
+group: "null-45"
+name: "advanced-water-management-dll"
+version: "1.4.0"
+subfolder: "150-mods"
+dependencies: [ "cam:sc4-system-integration-module-dll" ]
+info:
+  summary: "Superseded by `pkg=cam:sc4-system-integration-module-dll`"
+  website: "https://community.simtropolis.com/files/file/36978-sc4-system-integration-module-sim/"
+
+---
+assetId: "cam-sc4-system-integration-module-dll"
+version: "1.4.0"
+lastModified: "2026-10-26T03:34:07Z"
+url: "https://github.com/UlisseWolf/SC4-System-Integration-Module/releases/download/v1.4.0/SC4SIM-1.4.0.zip"
