@@ -1310,7 +1310,7 @@ variants:
 group: mattb325
 name: mail-distribution-center-cs
 subfolder: 300-commercial
-version: "1.0"
+version: "1.0-1"
 info:
   summary: Mail Distribution Center CS
   author: mattb325
@@ -1318,6 +1318,7 @@ info:
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
 dependencies:
+  - mattb325:mail-distribution-center-model
   - bsc:bat-props-mattb325-vol01
   - bsc:bat-props-mattb325-vol04
   - bsc:mega-props-d66-vol01
@@ -1330,11 +1331,31 @@ variants:
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
         include: [ "/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/" ]
+        exclude: [ "\\.dat$" ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
         include: [ "/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/" ]
+        exclude: [ "\\.dat$" ]
+
+---
+group: mattb325
+name: mail-distribution-center-model
+version: "1.0"
+subfolder: 110-resources
+info:
+  summary: Mail Distribution Center model
+  description: |-
+    The model and props of the Mail Distribution Center, used by `pkg=mattb325:mail-distribution-center-cs` and by lots that depend on this building without the lots of the commercial collection, for example the I-HT lots of the industrial collection.
+  author: mattb325
+  websites:
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+# The file is identical in the MaxisNite and the DarkNite download.
+assets:
+  - assetId: mattb325-commercial-pack-maxisnite
+    include: [ "/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/.*\\.dat$" ]
 
 ---
 group: mattb325
