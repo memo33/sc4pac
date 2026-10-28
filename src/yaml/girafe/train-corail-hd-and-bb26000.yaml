@@ -4,6 +4,15 @@ version: "1.0.0"
 subfolder: 100-props-textures
 info:
   summary: BSC-VIP Girafe Train Corail HD and BB26000 props
+  description: |-
+    Props of the HD passenger train engines and wagons of `pkg=girafe:train-corail-hd-and-bb26000`.
+
+    These engines and wagons are available in the Lot Editor props section under the names:
+
+    - Grfe_BB26000_...
+    - Grfe_Corail_...
+
+    All the engines and wagons are available as props only in the Darknite version, which is selected with the `nightmode` variant.
   author: Girafe
   websites:
     - https://community.simtropolis.com/files/file/36402-bsc-vip-girafe-train-corail-hd-and-bb26000/
@@ -31,7 +40,28 @@ name: train-corail-hd-and-bb26000
 version: "1.0.0"
 subfolder: 710-automata
 info:
-  summary: BSC-VIP Girafe Train Corail HD and BB26000
+  summary: HD automata for the passenger train, with BB26000 engines and Corail wagons
+  description: |-
+    This is a set of HD automata for the passenger train.
+
+    It includes:
+
+    - 5 passenger train engines: 1 replacement of the regular passenger engine (BB26000 orange) and 4 additional skins (BB26000 en voyage, BB26000 grandest, BB26000 carmillon, BB26000 grey).
+    - 3 passenger wagons, replacement and additional skins (1st class, 2nd class and 2nd class tagged).
+
+    **Automata replacement and additional skins for passenger train engine and wagons.**
+
+    The skins appear randomly for the automatas.
+    Nightlights are included.
+    Automata can be driven in free mode in the automata panel.
+
+    The engines and wagons are also available as props in the Lot Editor, see `pkg=girafe:train-corail-hd-and-bb26000-props`.
+
+    Note: The automata models are high poly, which could affect the performance of your game negatively.
+
+    Special thanks to **Anachron** for the 3D models of the engine BB26000, and to the VIP and BSC members.
+
+    **Thanks to Tibi for maintaining these files over the years.**
   author: Girafe
   websites:
     - https://community.simtropolis.com/files/file/36402-bsc-vip-girafe-train-corail-hd-and-bb26000/
