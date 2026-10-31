@@ -327,7 +327,7 @@ variants:
 group: mattb325
 name: bonzai-building
 subfolder: 300-commercial
-version: "1.0"
+version: "1.0-1"
 info:
   summary: Bonzai Building
   author: mattb325
@@ -342,6 +342,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_09/Bonzai3.jpg.2daa332a9e10af7e955775c40a196729.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_09/Bonzai4.jpg.4402f39b347febc2531deeb560d1bdb2.jpg
 dependencies:
+  - mattb325:bonzai-building-model
   - bsc:bat-props-mattb325-vol03
   - bsc:textures-vol01
   - shk:parking-pack
@@ -351,12 +352,42 @@ variants:
       - assetId: mattb325-commercial-pack-maxisnite
         include:
           - /Bonzai ?Building(_[MD]N)?#?/
+        exclude:
+          - \.SC4Model$
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
         include:
           - /Bonzai ?Building(_[MD]N)?#?/
+        exclude:
+          - \.SC4Model$
+
+---
+group: mattb325
+name: bonzai-building-model
+subfolder: 110-resources
+version: "1.0"
+info:
+  summary: Model dependency for `pkg=mattb325:bonzai-building`
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/33132-bonzai-building/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+# The models of the MaxisNite and DarkNite downloads share the same ID but differ.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-pack-maxisnite
+        include:
+          - /Bonzai ?Building(_[MD]N)?#?/.*\.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-pack-darknite
+        include:
+          - /Bonzai ?Building(_[MD]N)?#?/.*\.SC4Model$
 
 ---
 group: mattb325
@@ -778,7 +809,7 @@ variants:
 group: mattb325
 name: downtown-hotel
 subfolder: 300-commercial
-version: "1.0"
+version: "1.0-1"
 info:
   summary: Downtown Hotel
   author: mattb325
@@ -794,6 +825,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown4.jpg.73fef281cac4b170ea9e8d507ddbdbae.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_07/Downtown5.jpg.9ae82d46d0d079b044c0fff33f0de56d.jpg
 dependencies:
+  - mattb325:downtown-hotel-model
   - bsc:bat-props-mattb325-vol02
   - bsc:bat-props-mattb325-vol03
 variants:
@@ -802,12 +834,42 @@ variants:
       - assetId: mattb325-commercial-pack-maxisnite
         include:
           - /DowntownHotel(_[MD]N)?#?/
+        exclude:
+          - \.SC4Model$
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
         include:
           - /Downtown ?Hotel(_[MD]N)?#?/
+        exclude:
+          - \.SC4Model$
+
+---
+group: mattb325
+name: downtown-hotel-model
+subfolder: 110-resources
+version: "1.0"
+info:
+  summary: Model dependency for `pkg=mattb325:downtown-hotel`
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/33032-downtown-hotel/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+# The models of the MaxisNite and DarkNite downloads share the same ID but differ.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-pack-maxisnite
+        include:
+          - /Downtown ?Hotel(_[MD]N)?#?/.*\.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-pack-darknite
+        include:
+          - /Downtown ?Hotel(_[MD]N)?#?/.*\.SC4Model$
 
 ---
 group: mattb325
@@ -867,7 +929,7 @@ variants:
 group: mattb325
 name: europa-house
 subfolder: 300-commercial
-version: "1.0"
+version: "1.0-1"
 info:
   summary: Europa House
   author: mattb325
@@ -881,6 +943,7 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_05/Europa2.jpg.9be17af5b1ff26e4d66718af8f2f6533.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_05/Europa3.jpg.c3b514516c40f16ec170f3b1f5dc101d.jpg
 dependencies:
+  - mattb325:europa-house-model
   - bsc:bat-props-mattb325-vol02
 variants:
   - variant: { nightmode: standard }
@@ -888,12 +951,42 @@ variants:
       - assetId: mattb325-commercial-pack-maxisnite
         include:
           - /Europa ?House(_[MD]N)?#?/
+        exclude:
+          - \.SC4Model$
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
         include:
           - /Europa ?House(_[MD]N)?#?/
+        exclude:
+          - \.SC4Model$
+
+---
+group: mattb325
+name: europa-house-model
+subfolder: 110-resources
+version: "1.0"
+info:
+  summary: Model dependency for `pkg=mattb325:europa-house`
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/31627-europa-house/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+# The models of the MaxisNite and DarkNite downloads share the same ID but differ.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-pack-maxisnite
+        include:
+          - /Europa ?House(_[MD]N)?#?/.*\.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-pack-darknite
+        include:
+          - /Europa ?House(_[MD]N)?#?/.*\.SC4Model$
 
 ---
 group: mattb325
@@ -1182,7 +1275,7 @@ variants:
 group: mattb325
 name: ing-direct
 subfolder: 300-commercial
-version: "1.0"
+version: "1.0-1"
 info:
   summary: ING Direct
   author: mattb325
@@ -1197,18 +1290,50 @@ info:
     - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING2.jpg.dc7b3fc53ca1e8e34bad49fa67efae50.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING3.jpg.5e5580d8650870067b327ddaf4a4ad3f.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_07/ING4.jpg.49d8431a0081517e833f4abbdc0e4bd6.jpg
+dependencies:
+  - mattb325:ing-direct-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
         include:
           - /ING ?Direct(_[MD]N)?#?/
+        exclude:
+          - \.SC4Model$
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
         include:
           - /ING ?Direct(_[MD]N)?#?/
+        exclude:
+          - \.SC4Model$
+
+---
+group: mattb325
+name: ing-direct-model
+subfolder: 110-resources
+version: "1.0"
+info:
+  summary: Model dependency for `pkg=mattb325:ing-direct`
+  author: mattb325
+  websites:
+    - https://community.simtropolis.com/files/file/31833-ing-direct/
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+    - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+# The models of the MaxisNite and DarkNite downloads share the same ID but differ.
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-pack-maxisnite
+        include:
+          - /ING ?Direct(_[MD]N)?#?/.*\.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-pack-darknite
+        include:
+          - /ING ?Direct(_[MD]N)?#?/.*\.SC4Model$
 
 ---
 group: mattb325
