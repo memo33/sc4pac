@@ -1,6 +1,6 @@
 group: "b62"
 name: "service-station-mega-pack"
-version: "3"
+version: "3-1"
 subfolder: "300-commercial"
 info:
   summary: "Service and gas stations"
@@ -42,8 +42,27 @@ dependencies:
 - "lbt:mega-prop-pack-vol01"
 - "shk:parking-pack"
 - "murimk:props-vol03-industrials"
+- "b62:service-station-mega-pack-model"
 assets:
 - assetId: "b62-service-station-mega-pack"
+  exclude:
+  - "\\.SC4Model$"
+  - "/(?!B62-CS\\$)[^/]*\\.SC4Desc$"  # keep only the exemplars of the buildings
+
+---
+group: "b62"
+name: "service-station-mega-pack-model"
+version: "3"
+subfolder: "110-resources"
+info:
+  summary: "Model dependency for `pkg=b62:service-station-mega-pack`"
+  author: "Bobbo662, nos.17"
+  website: "https://community.simtropolis.com/files/file/30590-b62-remastered-service-station-mega-pack/"
+assets:
+- assetId: "b62-service-station-mega-pack"
+  include:
+  - "\\.SC4Model$"
+  - "/(?!B62-CS\\$)[^/]*\\.SC4Desc$"
 
 ---
 url: "https://community.simtropolis.com/files/file/30590-b62-remastered-service-station-mega-pack/?do=download&r=202740"
