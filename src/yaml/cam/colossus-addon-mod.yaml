@@ -6,7 +6,7 @@ url: "https://www.sc4evermore.com/index.php/downloads?task=download.send&id=51:c
 ---
 group: "cam"
 name: "colossus-addon-mod"
-version: "3.1.1"
+version: "3.1.1-1"
 subfolder: "050-load-first"
 
 variants:
@@ -20,6 +20,8 @@ variants:
   - assetId: "cam-colossus-addon-mod"
   conflicting:
   - "peg:spam"
+  - "cam:colossus-addon-mod-spam-controller"
+  - "cam:colossus-addon-mod-vanilla-controller"
   - "invisichem:colossus-addon-mod-legacy"
 - variant: { CAM: "yes", cam:colossus-addon-mod:version: "legacy" }
   dependencies:
