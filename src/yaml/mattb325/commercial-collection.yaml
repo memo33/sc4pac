@@ -1330,14 +1330,12 @@ variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: mattb325-commercial-pack-maxisnite
-        include: [ "/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/" ]
-        exclude: [ "\\.dat$" ]
+        include: [ '/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/.*(?<!\.dat)$' ]
   - variant: { nightmode: dark }
     dependencies: [ "simfox:day-and-nite-mod" ]
     assets:
       - assetId: mattb325-commercial-pack-darknite
-        include: [ "/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/" ]
-        exclude: [ "\\.dat$" ]
+        include: [ '/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/.*(?<!\.dat)$' ]
 
 ---
 group: mattb325
@@ -1352,10 +1350,16 @@ info:
   websites:
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
     - https://www.sc4evermore.com/index.php/downloads/download/12-commercial/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
-# The file is identical in the MaxisNite and the DarkNite download.
-assets:
-  - assetId: mattb325-commercial-pack-maxisnite
-    include: [ "/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/.*\\.dat$" ]
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: mattb325-commercial-pack-maxisnite
+        include: [ '/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/.*\.dat$' ]
+  - variant: { nightmode: dark }
+    dependencies: [ "simfox:day-and-nite-mod" ]
+    assets:
+      - assetId: mattb325-commercial-pack-darknite
+        include: [ '/Mail ?Distribution ?Center ?CS(_[MD]N)?#?/.*\.dat$' ]
 
 ---
 group: mattb325
