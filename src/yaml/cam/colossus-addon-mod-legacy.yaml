@@ -25,6 +25,9 @@ variants:
     - "/CAM_2.1.0_Buildings.dat"
   conflicting:
   - "peg:spam"
+  - "cam:colossus-addon-mod"
+  - "cam:colossus-addon-mod-vanilla-controller"
+  - "cam:colossus-addon-mod-spam-controller"
 - <<: *yesVariant
   variant: { CAM: "yes", config:sc4-edition:edition: "Windows-disc", invisichem:colossus-addon-mod-legacy:patch-method: "manual" }
   dependencies:
