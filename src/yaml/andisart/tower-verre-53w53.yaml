@@ -1,6 +1,6 @@
 group: andisart
 name: tower-verre
-version: "1.0-3"
+version: "1.0-4"
 subfolder: 360-landmark
 info:
   summary: Tower Verre - 53W53 (MoMA Expansion Tower)
@@ -31,10 +31,36 @@ variants:
 - variant: { nightmode: standard }
   assets:
     - assetId: andisart-tower-verre-53w53-maxisnite
+      exclude:
+        - "\\.SC4Model$"
 - variant: { nightmode: dark }
   dependencies: ["simfox:day-and-nite-mod"]
   assets:
     - assetId: andisart-tower-verre-53w53-darknite
+      exclude:
+        - "\\.SC4Model$"
+
+---
+group: andisart
+name: tower-verre-model
+version: "1.0-2"
+subfolder: 110-resources
+info:
+  summary: Model dependency for `pkg=andisart:tower-verre`
+  author: AndisArt
+  website: https://community.simtropolis.com/files/file/32106-tower-verre-53w53/
+variants:
+- variant: { nightmode: standard }
+  assets:
+    - assetId: andisart-tower-verre-53w53-maxisnite
+      include:
+        - "\\.SC4Model$"
+- variant: { nightmode: dark }
+  dependencies: ["simfox:day-and-nite-mod"]
+  assets:
+    - assetId: andisart-tower-verre-53w53-darknite
+      include:
+        - "\\.SC4Model$"
 
 ---
 assetId: andisart-tower-verre-53w53-maxisnite
