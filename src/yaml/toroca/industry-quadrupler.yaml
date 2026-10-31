@@ -8,8 +8,8 @@ variants:
 - variant: { toroca:industry-quadrupler:capacity: "quadrupled" }
   assets:
   - assetId: "toroca-industry-quadrupler"
-  conflicting:
-  - "cam:colossus-addon-mod"
+# conflicting:  # not defined here as there's no conflict if CAM=no, so instead the conflict is defined in the CAM YAML file
+# - "cam:colossus-addon-mod"
 
 variantInfo:
 - variantId: toroca:industry-quadrupler:capacity
