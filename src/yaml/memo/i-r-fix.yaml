@@ -15,7 +15,7 @@ info:
     >
     > This fix allows the Farm jobs to be calculated into the Regional Counts. Each farm job now helps increase the stage of development throughout the region. It also adds I-R CAP relief to the industrial connections (i.e. roads, freight station, etc).
 
-    The original fix was developed by RippleJet and InvisiChem and distributed as part of CAM (`pkg=cam:colossus-addon-mod`).
+    The original fix was developed by RippleJet and InvisiChem and distributed as part of CAM (`pkg=invisichem:colossus-addon-mod-legacy`).
 
     This new version of the fix is a stand-alone mod that can be used without CAM.
     The fix is applied using Exemplar Patching, a DLL-based modding technique, which avoids the need to modify the original game files.
