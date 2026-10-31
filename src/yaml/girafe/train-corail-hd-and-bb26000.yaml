@@ -7,11 +7,6 @@ info:
   description: |-
     Props of the HD passenger train engines and wagons of `pkg=girafe:train-corail-hd-and-bb26000`.
 
-    These engines and wagons are available in the Lot Editor props section under the names:
-
-    - Grfe_BB26000_...
-    - Grfe_Corail_...
-
     All the engines and wagons are available as props only in the Darknite version, which is selected with the `nightmode` variant.
   author: Girafe
   websites:
@@ -55,13 +50,7 @@ info:
     Nightlights are included.
     Automata can be driven in free mode in the automata panel.
 
-    The engines and wagons are also available as props in the Lot Editor, see `pkg=girafe:train-corail-hd-and-bb26000-props`.
-
     Note: The automata models are high poly, which could affect the performance of your game negatively.
-
-    Special thanks to **Anachron** for the 3D models of the engine BB26000, and to the VIP and BSC members.
-
-    **Thanks to Tibi for maintaining these files over the years.**
   author: Girafe
   websites:
     - https://community.simtropolis.com/files/file/36402-bsc-vip-girafe-train-corail-hd-and-bb26000/
