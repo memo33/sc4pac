@@ -39,7 +39,7 @@ subfolder: 110-resources
 info:
   summary: Model for `pkg=diego-del-llano:reynolds-building`
   description: |-
-    The model of the Reynolds Building, without its lot. It follows the `nightmode` variant: the Maxis Nite model for `standard`, and the Dark Nite model (which needs `pkg=simfox:day-and-nite-mod`) for `dark`.
+    The model of the Reynolds Building, without its lot.
   author: Diego Del Llano
   website: https://community.simtropolis.com/files/file/35538-reynolds-buidling/
   images:
