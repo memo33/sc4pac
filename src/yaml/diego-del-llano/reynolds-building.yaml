@@ -1,6 +1,6 @@
 group: diego-del-llano
 name: reynolds-building
-version: 1.0.0
+version: 1.0.0-1
 subfolder: 360-landmark
 info:
   summary: Reynolds Building
@@ -16,14 +16,46 @@ info:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_06/reynolds.jpg.964794f9b6f0a2bf0d0c9d35e6e8ea50.jpg
 
+dependencies:
+  - diego-del-llano:reynolds-building-model
 variants:
   - variant: { nightmode: standard }
     assets:
       - assetId: diego-del-llano-reynolds-building-maxisnite
+        exclude:
+          - \.SC4Model$
   - variant: { nightmode: dark }
     dependencies: ["simfox:day-and-nite-mod"]
     assets:
       - assetId: diego-del-llano-reynolds-building-darknite
+        exclude:
+          - \.SC4Model$
+
+---
+group: diego-del-llano
+name: reynolds-building-model
+version: 1.0.0
+subfolder: 110-resources
+info:
+  summary: Model for `pkg=diego-del-llano:reynolds-building`
+  description: |-
+    The model of the Reynolds Building, without its lot. It follows the `nightmode` variant: the Maxis Nite model for `standard`, and the Dark Nite model (which needs `pkg=simfox:day-and-nite-mod`) for `dark`.
+  author: Diego Del Llano
+  website: https://community.simtropolis.com/files/file/35538-reynolds-buidling/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/reynolds.jpg.964794f9b6f0a2bf0d0c9d35e6e8ea50.jpg
+variants:
+  - variant: { nightmode: standard }
+    assets:
+      - assetId: diego-del-llano-reynolds-building-maxisnite
+        include:
+          - \.SC4Model$
+  - variant: { nightmode: dark }
+    dependencies: ["simfox:day-and-nite-mod"]
+    assets:
+      - assetId: diego-del-llano-reynolds-building-darknite
+        include:
+          - \.SC4Model$
 
 ---
 assetId: diego-del-llano-reynolds-building-darknite
