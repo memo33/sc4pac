@@ -1,0 +1,125 @@
+group: paeng
+name: parks-revisited
+version: "2.05"
+subfolder: 660-parks
+info:
+  summary: Paeng's Parks Revisited
+  description: |-
+    This park system combines three updated versions of previous park sets - *Monument Park*, *Urban Gardens* and *White Sands Park*. This creates the possibility to lay out a good variety of parks, paths and gardens for any type of city - particularly with options for different path textures to be used on the same city tile. You can now have three very distinct park-styles in your city, each with its own character (layout, props, textures) - and you can mix and mingle them any which way you please... and even exchange or unify textures as you desire.
+
+    This will enable you to use the paths, prefab parks, ends, transitions, addons and extensions of all three park sets in one glorious citywide park system.
+
+    **OVERVIEW**
+
+    * Three complete parksystems, each with a unique style, textures, props and individual pieces
+
+    * A host of possible configurations - Narrow, Wide, Diagonal, Sweeping Curves, Ends, prefab Parks and more
+
+    * New park 'Sidings' for realistic-looking transitions to your roads and avenues
+
+    * Transitions between textures and/or sidewalks that can adapt to your preferred sidewalk textures and mods
+
+    * The ability to exchange or unify the base textures on the fly to suit your taste
+
+    * The option to mix and mingle sections of all three sets any which way you want
+
+    * All items designed to create extended lawns to be enhanced with MMP flora of your choice
+
+    * All items with consistent properties, descriptions and plop helpers, tightly arranged in your menus
+
+    * A host of overlay textures and custom props to make your own matching lots
+
+    * Peace of mind that future sets and addons will be made to match all of the above
+
+  author: Paeng
+  website: https://community.simtropolis.com/files/file/26923-paengs-parks-revisited/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/fedf0ab80bbb36a0b4206490861f258d-parks_800.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/b63d837fd742a5570097858790d587d2-parks_ani01.gif
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/9f40714900ec293b71def2d0467d2af7-configuration_ideas.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/ee6b4a964906aad2d9b362bdc4f4e6ad-paths.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/d611a650777345cb28f8b9acd2a07d31-parks.jpg
+dependencies:
+  - paeng:textures
+  - murimk:props-vol02-mixed
+  - bsc:mega-props-sg-vol01
+  - bsc:bat-props-mattb325-vol02
+  - bsc:mega-props-mjb-vol02
+  - bsc:mega-props-swi21-vol01
+  - bsc:mega-props-d66-vol02
+  - porkissimo:jenx-porkie-expanded-porkie-props
+  - peg:spot
+assets:
+  - assetId: paeng-parks-revisited
+    include:
+      - "/.+_205/"
+
+---
+group: paeng
+name: texture-changer
+version: "2.05"
+subfolder: 900-overrides
+info:
+  summary: Paeng's Parks texture overrides
+  description: Change the texture styles of *Urban Gardens*, *Monument Park* and *White Sands Park*.
+  author: Paeng
+  website: https://community.simtropolis.com/files/file/26923-paengs-parks-revisited/
+  conflicts: The *White Sands Park* texture replacements can conflict with Maxis Beach lots.
+dependencies:
+  - paeng:parks-revisited
+assets:
+  - assetId: paeng-parks-revisited
+    include:
+      - "/(?:UG|Monument|WSP)2(?:UG|Monument)_Mod.dat"
+    withConditions:
+      - ifVariant: { paeng:texture-changer:urban-gardens: "none" }
+        exclude:
+          - "/UG2Monument_Mod.dat"
+      - ifVariant: { paeng:texture-changer:urban-gardens: "monument" }
+      - ifVariant: { paeng:texture-changer:monument: "none" }
+        exclude:
+          - "/Monument2UG_Mod.dat"
+      - ifVariant: { paeng:texture-changer:monument: "UG" }
+      - ifVariant: { paeng:texture-changer:white-sands-park: "none" }
+        exclude:
+          - "/WSP2(?:UG|Monument)_Mod.dat"
+      - ifVariant: { paeng:texture-changer:white-sands-park: "monument" }
+        exclude:
+          - "/WSP2UG_Mod.dat"
+      - ifVariant: { paeng:texture-changer:white-sands-park: "UG" }
+        exclude:
+          - "/WSP2Monument_Mod.dat"
+
+variantInfo:
+  - variantId: paeng:texture-changer:urban-gardens
+    description: Change the texture style of *Urban Gardens*
+    values:
+      - value: "none"
+        description: No changes to the textures of *Urban Gardens*
+        default: true
+      - value: "monument"
+        description: Replace the textures of *Urban Gardens* to match those of *Monument Park*
+  - variantId: paeng:texture-changer:monument
+    description: Change the texture style of *Monument Park*
+    values:
+      - value: "none"
+        description: No changes to the textures of *Monument Park*
+        default: true
+      - value: "UG"
+        description: Replace the textures of *Monument Park* to match those of *Urban Gardens*
+  - variantId: paeng:texture-changer:white-sands-park
+    description: Change the texture style of *White Sands Park*. Non-default options can conflict with Maxis Beach lots.
+    values:
+      - value: "none"
+        description: No changes to the textures of *White Sands Park*
+        default: true
+      - value: "monument"
+        description: Replace the textures of *White Sands Park* to match those of *Monument Park*
+      - value: "UG"
+        description: Change the textures of *White Sands Park* to match those of *Urban Gardens*
+
+---
+assetId: paeng-parks-revisited
+version: "2.05"
+lastModified: "2011-10-27T18:03:27Z"
+url: https://community.simtropolis.com/files/file/26923-paengs-parks-revisited/?do=download
