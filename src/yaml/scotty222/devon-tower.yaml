@@ -1,0 +1,45 @@
+group: scotty222
+name: devon-tower
+version: "2"
+subfolder: 300-commercial
+info:
+  summary: Devon Tower
+  description: |
+    Devon Tower is a skyscraper in Calgary, Alberta, Canada. Located at 400 3rd Avenue SW, it stands at 177 meters (581 ft) or 45 storeys tall. The building was completed in 1988 and is currently the 6th tallest building in Calgary.
+
+    This is a redone version of the author's Canterra Tower BAT, released in 2009. It comes as a CO$$$ growable and a ploppable.
+
+    **Stats**
+
+    - Lot size: 3x3
+    - Growth stage: 8
+    - Capacity: CO$$$ 3,000 (CO$$ 4,000 when dilapidated)
+    - Plop cost: 110,000 (ploppable)
+  author: scotty222
+  website: https://community.simtropolis.com/files/file/29106-devon-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/2f8086999bb4ae8a34cddc73f3a74a8e-devon0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/cb4748ea7c702549f7464ebf376f5b21-devon1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/68d1c88b38c9d8362c1f7449479d84ed-devon2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/06fdb51ee7ab0b6c5d3496d95ab4922d-devon.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+    - assetId: scotty222-devon-tower-maxisnite
+- variant: { nightmode: dark }
+  dependencies: ["simfox:day-and-nite-mod"]
+  assets:
+    - assetId: scotty222-devon-tower-darknite
+
+---
+assetId: scotty222-devon-tower-maxisnite
+version: "2"
+lastModified: "2013-12-10T09:48:40Z"
+url: https://community.simtropolis.com/files/file/29106-devon-tower/?do=download&r=121588
+
+---
+assetId: scotty222-devon-tower-darknite
+version: "2"
+lastModified: "2013-12-10T09:48:40Z"
+url: https://community.simtropolis.com/files/file/29106-devon-tower/?do=download&r=121589

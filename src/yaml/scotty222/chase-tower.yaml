@@ -1,0 +1,44 @@
+group: scotty222
+name: chase-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Chase Tower
+  description: |
+    Chase Tower is a skyscraper in Indianapolis, IN, opened in 1990. It is 253 m tall to the top of its twin spires, or 214 m to the roof height, which makes it the tallest building in the state of Indiana.
+
+    Included is a CO$$$ growable and a ploppable.
+
+    **Stats**
+
+    - Lot size: 3x8
+    - Growth stage: 8
+    - Capacity: CO$$$ 5,500 (CO$$ 8,000 when dilapidated)
+    - Plop cost: 99,000 (ploppable)
+  author: scotty222
+  website: https://community.simtropolis.com/files/file/29096-chase-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/1bae75173795e88a53d17fcc62888c7f-chase5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/bd96533e3f084235978e3aa8d82256dc-chase3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2013/dc008f4cedbd06dee387723fc519e817-chase4.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+    - assetId: scotty222-chase-tower-maxisnite
+- variant: { nightmode: dark }
+  dependencies: ["simfox:day-and-nite-mod"]
+  assets:
+    - assetId: scotty222-chase-tower-darknite
+
+---
+assetId: scotty222-chase-tower-maxisnite
+version: "1.0"
+lastModified: "2013-12-03T22:50:22Z"
+url: https://community.simtropolis.com/files/file/29096-chase-tower/?do=download&r=121272
+
+---
+assetId: scotty222-chase-tower-darknite
+version: "1.0"
+lastModified: "2013-12-03T22:50:22Z"
+url: https://community.simtropolis.com/files/file/29096-chase-tower/?do=download&r=121273

@@ -1,0 +1,43 @@
+group: scotty222
+name: bank-of-america-plaza
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Bank of America Plaza
+  description: |
+    Bank of America Plaza is a 72-story late-modernist skyscraper in the Main Street District of downtown Dallas, Texas. At a structural height of 921 ft (281 m), it is the tallest skyscraper in the city of Dallas, the 3rd tallest in Texas and the 22nd tallest in the United States, and the 91st tallest building in the world. Construction began in 1983 and finished in 1985.
+
+    Included is a CO$$$ growable and a ploppable.
+
+    **Stats**
+
+    - Lot size: 4x4
+    - Growth stage: 8
+    - Capacity: CO$$$ 6,500 (CO$$ 9,000 when dilapidated)
+    - Plop cost: 99,000 (ploppable)
+  author: scotty222
+  website: https://community.simtropolis.com/files/file/26942-bank-of-america-plaza/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/acd37971c7681b90decf563cd4f49eaf-boa1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/38f93d2923f87336ea368da73b858c4e-boa2.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+    - assetId: scotty222-bank-of-america-plaza-maxisnite
+- variant: { nightmode: dark }
+  dependencies: ["simfox:day-and-nite-mod"]
+  assets:
+    - assetId: scotty222-bank-of-america-plaza-darknite
+
+---
+assetId: scotty222-bank-of-america-plaza-maxisnite
+version: "1.0"
+lastModified: "2011-11-05T14:11:08Z"
+url: https://community.simtropolis.com/files/file/26942-bank-of-america-plaza/?do=download&r=93844
+
+---
+assetId: scotty222-bank-of-america-plaza-darknite
+version: "1.0"
+lastModified: "2011-11-05T14:11:08Z"
+url: https://community.simtropolis.com/files/file/26942-bank-of-america-plaza/?do=download&r=93845

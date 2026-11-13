@@ -1,0 +1,45 @@
+group: scotty222
+name: mlc-centre
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: MLC Centre
+  description: |
+    The MLC Centre is a skyscraper in Sydney, Australia. This 60 floor tower is 228 m (748 ft) high. Occupants include the Sydney Consulate of the United States of America. The building is stark white with an octagonal floorplan, with eight massive load-bearing columns in the corners that taper slightly towards the top. It is one of the world's tallest reinforced concrete buildings and was the tallest building in the world outside of North America at the time of its completion. It was Sydney's tallest building from 1977 to 1992. The building was designed by the Sydney architect Harry Seidler, and remains one of his most definitive works.
+
+    Included is a CO$$$ growable and a ploppable, for the Houston and Euro tilesets.
+
+    **Stats**
+
+    - Lot size: 4x4
+    - Growth stage: 8
+    - Capacity: CO$$$ 7,000 (CO$$ 9,000 when dilapidated)
+    - Plop cost: 99,999 (ploppable)
+  author: scotty222
+  website: https://community.simtropolis.com/files/file/28603-mlc-centre/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/e39bbed4a98eeec2a130d36af99c8c4b-front.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/3a5220027a991d1fec6b95c74e4c7e3d-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/91062c297825b06865402a6567e23d74-night.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/f4eb29c40646b3cc40f085a8b0fd7b67-rl.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+    - assetId: scotty222-mlc-centre-maxisnite
+- variant: { nightmode: dark }
+  dependencies: ["simfox:day-and-nite-mod"]
+  assets:
+    - assetId: scotty222-mlc-centre-darknite
+
+---
+assetId: scotty222-mlc-centre-maxisnite
+version: "1.0"
+lastModified: "2013-03-29T11:27:32Z"
+url: https://community.simtropolis.com/files/file/28603-mlc-centre/?do=download&r=113610
+
+---
+assetId: scotty222-mlc-centre-darknite
+version: "1.0"
+lastModified: "2013-03-29T11:27:32Z"
+url: https://community.simtropolis.com/files/file/28603-mlc-centre/?do=download&r=113609
