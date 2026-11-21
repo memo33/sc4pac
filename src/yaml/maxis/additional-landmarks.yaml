@@ -127,7 +127,9 @@ assets:
 info:
   summary: "International Day of Peace prop"
   author: "Maxis"
-  website: "https://community.simtropolis.com/sc4-maxis-files/"
+  websites:
+  - "https://community.simtropolis.com/sc4-maxis-files/"
+  - "https://www.sc4evermore.com/index.php/downloads/download/40-maxis/53-maxis-day-of-peace-dlc"
 
 ---
 group: "maxis"
