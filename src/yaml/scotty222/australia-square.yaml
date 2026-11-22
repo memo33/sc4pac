@@ -7,21 +7,7 @@ info:
   description: |
     Australia Square is a skyscraper in Sydney, NSW, Australia. Officially named the Tower building, the iconic circular tower of Australia Square was arguably Australia's first true skyscraper. It was the tallest building in the southern hemisphere upon completion.
 
-    Included is a CO$$ growable, a CO$$ ploppable and a static 2x2 landmark with an overhang.
-
-    **Stats**
-
-    *Growable and ploppable CO$$*
-
-    - Lot size: 3x3
-    - Growth stage: 8 (growable)
-    - Capacity: CO$$ 2,817
-    - Plop cost: 10,000 (ploppable)
-
-    *Landmark (non-functional)*
-
-    - Lot size: 2x2
-    - Plop cost: 10,000
+    Included is a 3×3 CO$$ growable, a CO$$ ploppable and a static 2x2 landmark with an overhang.
   author: scotty222
   website: https://community.simtropolis.com/files/file/29711-australia-square/
   images:

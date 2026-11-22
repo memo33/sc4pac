@@ -7,14 +7,7 @@ info:
   description: |
     The MLC Centre is a skyscraper in Sydney, Australia. This 60 floor tower is 228 m (748 ft) high. Occupants include the Sydney Consulate of the United States of America. The building is stark white with an octagonal floorplan, with eight massive load-bearing columns in the corners that taper slightly towards the top. It is one of the world's tallest reinforced concrete buildings and was the tallest building in the world outside of North America at the time of its completion. It was Sydney's tallest building from 1977 to 1992. The building was designed by the Sydney architect Harry Seidler, and remains one of his most definitive works.
 
-    Included is a CO$$$ growable and a ploppable, for the Houston and Euro tilesets.
-
-    **Stats**
-
-    - Lot size: 4x4
-    - Growth stage: 8
-    - Capacity: CO$$$ 7,000 (CO$$ 9,000 when dilapidated)
-    - Plop cost: 99,999 (ploppable)
+    Included is a 4×4 CO$$$ growable and a ploppable, for the Houston and Euro tilesets.
   author: scotty222
   website: https://community.simtropolis.com/files/file/28603-mlc-centre/
   images:

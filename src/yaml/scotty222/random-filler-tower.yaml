@@ -5,14 +5,7 @@ subfolder: 300-commercial
 info:
   summary: Random Filler Tower
   description: |
-    A random tower based on one on Williams Street in Melbourne. It comes as a CO$$ growable and a ploppable.
-
-    **Stats**
-
-    - Lot size: 2x2
-    - Growth stage: 8
-    - Capacity: CO$$ 841
-    - Plop cost: 5,000 (ploppable)
+    A random tower based on one on Williams Street in Melbourne. It comes as a 2×2 CO$$ growable and a ploppable.
   author: scotty222
   website: https://community.simtropolis.com/files/file/28599-random-filler-tower/
   images:
