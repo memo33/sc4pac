@@ -1,0 +1,34 @@
+group: scotty222
+name: keybank-tower
+version: "1.0"
+subfolder: 300-commercial
+info:
+  summary: Keybank Tower
+  description: |
+    Keybank Tower, Dayton, OH. A quick BAT made over two days. It comes as a 3×2 CO$$ growable and a ploppable.
+  author: scotty222
+  website: https://community.simtropolis.com/files/file/26875-keybank-tower/
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/0cf78d0d7a65a5ba880657c12a389032-keybank.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2011/a7b1af6982f91e118f48581629db25ae-keybank1.jpg
+
+variants:
+- variant: { nightmode: standard }
+  assets:
+    - assetId: scotty222-keybank-tower-maxisnite
+- variant: { nightmode: dark }
+  dependencies: ["simfox:day-and-nite-mod"]
+  assets:
+    - assetId: scotty222-keybank-tower-darknite
+
+---
+assetId: scotty222-keybank-tower-maxisnite
+version: "1.0"
+lastModified: "2011-10-13T12:42:10Z"
+url: https://community.simtropolis.com/files/file/26875-keybank-tower/?do=download&r=93619
+
+---
+assetId: scotty222-keybank-tower-darknite
+version: "1.0"
+lastModified: "2011-10-13T12:42:10Z"
+url: https://community.simtropolis.com/files/file/26875-keybank-tower/?do=download&r=93620
